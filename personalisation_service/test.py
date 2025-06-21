@@ -1,26 +1,133 @@
-# test.py
-from src.rag_system import RAGSystem
-import json 
+import json
+from src.rag_system import RAGSystem # Assuming src.rag_system is the correct path
 
 # Initialize the RAG system
 rag = RAGSystem()
 
-# Ask a question
-question = """
-    A user wants to learn Front End Web Development.
-    
-    Their profile:
-    Motivation: I have ideas and want to build personal projects or prototypes.
-    Prior Experience: Done some small web projects. Knows HTML Forms and Validations, and React Basics. Does not know DOM Manipulation, Fetch API/JSON, DevTools & Debugging, Using images, icons and fonts properly. 
-    Timeline: 1-2 months.
-    
-    Using their background, suggest a personalized path. Keep the roadmap order, but only include steps that are relevant.
+# --- Define a list of different user scenarios (question prompts) ---
+# We will create prompts for 5 different categories based on your QuestionFlow.tsx
+test_scenarios = [
+    {
+        "name": "Frontend Development - Beginner interested in React",
+        "prompt": """
+User's questionnaire responses: {
+  "What are you interested in learning?": [
+    "Frontend Development"
+  ],
+  "Why are you learning Front End Web Development?": [
+    "To build my own personal projects"
+  ],
+  "What is your experience with Front End Web Development?": [
+    "I'm a complete beginner"
+  ],
+  "Are there any specific tools or technologies you're interested in?": [
+    "React / Next.js",
+    "CSS Frameworks (Tailwind, etc.)"
+  ]
+}
 """
-answer = rag.answer_question(question)
-try:
-    parsed = json.loads(answer)
-    print(json.dumps(parsed, indent=4))
-except json.JSONDecodeError as e:
-    print("Failed to parse JSON:", e)
-    print("Raw response:")
-    print(answer)
+    },
+    {
+        "name": "Backend Development - Wants to build APIs with Node.js",
+        "prompt": """
+User's questionnaire responses: {
+  "What are you interested in learning?": [
+    "Backend Development"
+  ],
+  "Why are you learning Back End Web Development?": [
+    "To build robust APIs and services"
+  ],
+  "What is your experience with Back End Web Development?": [
+    "I've written scripts (e.g., in Python or JS)"
+  ],
+  "Are there any specific tools or technologies you're interested in?": [
+    "Node.js (Express, NestJS)",
+    "Databases (SQL, NoSQL)"
+  ]
+}
+"""
+    },
+    {
+        "name": "Fullstack Development - Frontend Heavy, learning backend",
+        "prompt": """
+User's questionnaire responses: {
+  "What are you interested in learning?": [
+    "Fullstack Development"
+  ],
+  "Why are you learning Full Stack Web Development?": [
+    "To be a versatile, end-to-end developer"
+  ],
+  "What is your experience with Full Stack Web Development?": [
+    "Stronger on frontend, want to learn backend"
+  ],
+  "Are there any specific tools or technologies you're interested in?": [
+    "MERN Stack (MongoDB, Express, React, Node)",
+    "GraphQL"
+  ]
+}
+"""
+    },
+    {
+        "name": "Mobile App Development - App Idea with Flutter",
+        "prompt": """
+User's questionnaire responses: {
+  "What are you interested in learning?": [
+    "Mobile Development"
+  ],
+  "Why are you learning Mobile App Development?": [
+    "I have a specific app idea I want to build"
+  ],
+  "What is your experience with Mobile App Development?": [
+    "I'm a complete beginner"
+  ],
+  "Are there any specific tools or technologies you're interested in?": [
+    "Flutter",
+    "Mobile Backends (Firebase, Supabase)"
+  ]
+}
+"""
+    },
+    {
+        "name": "Cybersecurity - Career focused, interested in Pen Testing",
+        "prompt": """
+User's questionnaire responses: {
+  "What are you interested in learning?": [
+    "Cybersecurity"
+  ],
+  "Why are you learning Cybersecurity & Ethical Hacking?": [
+    "To start a career in cybersecurity"
+  ],
+  "What is your experience with Cybersecurity & Ethical Hacking?": [
+    "I'm a complete beginner"
+  ],
+  "Are there any specific tools or technologies you're interested in?": [
+    "Penetration Testing Tools (Kali Linux)",
+    "Network Analysis (Wireshark)"
+  ]
+}
+"""
+    }
+]
+
+# Loop through each test scenario
+for i, scenario in enumerate(test_scenarios):
+    print(f"\n--- Running Test Scenario {i+1}: {scenario['name']} ---")
+    question_prompt = scenario['prompt']
+
+    # Ask the RAG system to answer the question
+    answer = rag.answer_question(question_prompt)
+
+    # Attempt to parse and print the JSON response
+    try:
+        parsed = json.loads(answer)
+        print(json.dumps(parsed, indent=4))
+    except json.JSONDecodeError as e:
+        print(f"Failed to parse JSON for scenario '{scenario['name']}': {e}")
+        print("Raw response:")
+        print(answer)
+    except Exception as e:
+        print(f"An unexpected error occurred for scenario '{scenario['name']}': {e}")
+        print("Raw response:")
+        print(answer)
+
+    print(f"--- End of Scenario {i+1} ---")
