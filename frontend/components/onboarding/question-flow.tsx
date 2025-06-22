@@ -8,12 +8,12 @@ import { AnimatePresence } from "framer-motion"
 const initialQuestion = {
   question: "What are you interested in learning?",
   options: [
-    { id: "frontend", label: "Front End Web Development" },
-    { id: "backend", label: "Back End Web Development" },
-    { id: "fullstack", label: "Full Stack Web Development" },
-    { id: "mobile", label: "Mobile App Development" },
+    { id: "frontend", label: "Frontend Development" },
+    { id: "backend", label: "Backend Development" },
+    { id: "fullstack", label: "Fullstack Development" },
+    { id: "mobile", label: "Mobile Development" },
     { id: "game", label: "Game Development" },
-    { id: "security", label: "Cybersecurity & Ethical Hacking" },
+    { id: "security", label: "Computer Security" },
     { id: "cs", label: "Computer Science Foundations" },
   ],
   allowMultiple: false,
