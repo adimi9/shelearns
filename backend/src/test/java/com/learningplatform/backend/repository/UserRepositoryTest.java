@@ -1,7 +1,9 @@
+// src/test/java/com/learningplatform/backend/repository/UserRepositoryTest.java
 package com.learningplatform.backend.repository;
 
 import com.learningplatform.backend.model.User;
-import com.learningplatform.backend.repository.UserRepository;
+import com.learningplatform.backend.model.Role; // NEW Import
+import com.learningplatform.backend.model.enums.ERole; // NEW Import
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -14,22 +16,22 @@ import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 
 import java.time.LocalDateTime;
+import java.util.HashSet; // NEW Import
 import java.util.Optional;
+import java.util.Set; // NEW Import
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DataJpaTest
-@Testcontainers // Enables Testcontainers for JUnit 5
+@Testcontainers
 class UserRepositoryTest {
 
-    // Define a PostgreSQL container. It will be started once for all tests in this class.
     @Container
-    static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:16.2") // Use a specific PostgreSQL version
+    static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:16.2")
             .withDatabaseName("testdb")
             .withUsername("testuser")
             .withPassword("testpass");
 
-    // Dynamically set Spring's datasource properties to connect to the Testcontainers DB
     @DynamicPropertySource
     static void configureProperties(DynamicPropertyRegistry registry) {
         registry.add("spring.datasource.url", postgres::getJdbcUrl);
@@ -39,18 +41,34 @@ class UserRepositoryTest {
 
     @Autowired
     private UserRepository userRepository;
+    @Autowired // NEW: Inject RoleRepository for setting up roles
+    private RoleRepository roleRepository;
 
     private User user1;
     private User user2;
+    private Role userRole; // NEW: To hold the ROLE_USER object
 
     @BeforeEach
     void setUp() {
         userRepository.deleteAll(); // Clean DB before each test
-        user1 = new User("John Doe", "john.doe@example.com", "hashedPassword1");
+
+        // NEW: Ensure roles are in the database for the tests
+        if (roleRepository.findByName(ERole.ROLE_USER).isEmpty()) {
+            userRole = roleRepository.save(new Role(ERole.ROLE_USER));
+        } else {
+            userRole = roleRepository.findByName(ERole.ROLE_USER).get();
+        }
+        // You might also add ROLE_ADMIN here if needed for other tests
+
+        Set<Role> defaultRoles = new HashSet<>();
+        defaultRoles.add(userRole); // Assign the default user role
+
+        // Update User constructor calls to include roles
+        user1 = new User("John Doe", "john.doe@example.com", "hashedPassword1", defaultRoles); // Added roles
         user1.setCreatedAt(LocalDateTime.now().minusDays(5));
         userRepository.save(user1);
 
-        user2 = new User("Jane Smith", "jane.smith@example.com", "hashedPassword2");
+        user2 = new User("Jane Smith", "jane.smith@example.com", "hashedPassword2", defaultRoles); // Added roles
         user2.setCreatedAt(LocalDateTime.now().minusDays(2));
         userRepository.save(user2);
     }
@@ -61,6 +79,7 @@ class UserRepositoryTest {
         Optional<User> foundUser = userRepository.findByEmail("john.doe@example.com");
         assertThat(foundUser).isPresent();
         assertThat(foundUser.get().getEmail()).isEqualTo("john.doe@example.com");
+        assertThat(foundUser.get().getRoles()).containsExactlyInAnyOrder(userRole); // NEW: Assert roles
     }
 
     @Test
@@ -87,10 +106,14 @@ class UserRepositoryTest {
     @Test
     @DisplayName("Should save a new user")
     void shouldSaveNewUser() {
-        User newUser = new User("New User", "new@example.com", "newHashedPass");
+        Set<Role> newRoles = new HashSet<>();
+        newRoles.add(userRole); // Assign default user role
+
+        User newUser = new User("New User", "new@example.com", "newHashedPass", newRoles); // Added roles
         User savedUser = userRepository.save(newUser);
         assertThat(savedUser.getId()).isNotNull();
         assertThat(savedUser.getName()).isEqualTo("New User");
         assertThat(userRepository.findByEmail("new@example.com")).isPresent();
+        assertThat(savedUser.getRoles()).containsExactlyInAnyOrder(userRole); // NEW: Assert roles
     }
 }

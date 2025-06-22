@@ -1,5 +1,5 @@
 // define what information is expected from the frontend for a signup operation
-package com.learningplatform.backend.dto;
+package com.learningplatform.backend.dto.request;
 
 import jakarta.validation.constraints.Email; // validation for email format
 import jakarta.validation.constraints.NotBlank; // validation to check that field cannot be empty
