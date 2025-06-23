@@ -17,7 +17,7 @@ async def test_health_endpoint():
     """
     Test the /health endpoint.
     """
-    # Use the TestClient instance
+    # Use the TestClient instance (remove await)
     response = client.get("/health")
     assert response.status_code == 200
     assert response.json() == {"status": "ok", "message": "Personalization service is running."}
@@ -28,14 +28,15 @@ async def test_personalize_roadmap_endpoint_success(mocker):
     Test the /personalize-roadmap endpoint for a successful response.
     We need to mock the RAGSystem.answer_question method because it calls OpenAI.
     """
+    # Updated mock_roadmap_response to include the 'level' field
     mock_roadmap_response = json.dumps({
         "intro_paragraph": "Here is your personalized roadmap (mocked).",
         "recommended_courses": [
-            {"name": "Mock Course A", "description": "Desc A"},
-            {"name": "Mock Course B", "description": "Desc B"},
-            {"name": "Mock Course C", "description": "Desc C"},
-            {"name": "Mock Course D", "description": "Desc D"},
-            {"name": "Mock Course E", "description": "Desc E"}
+            {"name": "Mock Course A", "description": "Desc A", "level": "Beginner"},
+            {"name": "Mock Course B", "description": "Desc B", "level": "Intermediate"},
+            {"name": "Mock Course C", "description": "Desc C", "level": "Advanced"},
+            {"name": "Mock Course D", "description": "Desc D", "level": "Beginner"},
+            {"name": "Mock Course E", "description": "Desc E", "level": "Intermediate"}
         ],
         "conclusion_paragraph": "Enjoy your learning journey (mocked)."
     })
@@ -48,7 +49,7 @@ async def test_personalize_roadmap_endpoint_success(mocker):
         "prompt": "User's questionnaire responses: {\"What are you interested in learning?\": [\"Web Development\"], \"What is your current experience level?\": \"Beginner\"}"
     }
 
-    # Use the TestClient instance to send the POST request
+    # Use the TestClient instance to send the POST request (remove await)
     response = client.post("/personalize-roadmap", json=request_payload)
 
     assert response.status_code == 200
@@ -56,6 +57,7 @@ async def test_personalize_roadmap_endpoint_success(mocker):
     assert response_data["intro_paragraph"] == "Here is your personalized roadmap (mocked)."
     assert len(response_data["recommended_courses"]) == 5
     assert response_data["recommended_courses"][0]["name"] == "Mock Course A"
+    assert response_data["recommended_courses"][0]["level"] == "Beginner" # Assert level is present and correct
     assert "enjoy your learning journey" in response_data["conclusion_paragraph"].lower()
 
     # Assert that the mocked answer_question was called correctly
@@ -78,6 +80,7 @@ async def test_personalize_roadmap_endpoint_rag_error(mocker):
         "prompt": "User's questionnaire responses: {}" # This would cause RAGSystem to return an error
     }
 
+    # Use the TestClient instance to send the POST request (remove await)
     response = client.post("/personalize-roadmap", json=request_payload)
 
     assert response.status_code == 200 # FastAPI wraps the RAGSystem's error JSON, so it's still a 200 OK HTTP status
@@ -92,10 +95,10 @@ async def test_personalize_roadmap_endpoint_invalid_input_format():
     Test the /personalize-roadmap endpoint with an invalid request body (e.g., missing 'prompt').
     FastAPI's Pydantic validation should handle this.
     """
+    # Use the TestClient instance to send the POST request (remove await)
     response = client.post("/personalize-roadmap", json={"invalid_key": "some value"})
 
     assert response.status_code == 422 # Unprocessable Entity - Pydantic validation error
     response_data = response.json()
     assert "detail" in response_data
     assert any(err['loc'] == ['body', 'prompt'] for err in response_data['detail'])
-

@@ -10,7 +10,7 @@ from app.document_loader import DocumentLoader
 from app.embeddings_manager import EmbeddingsManager
 from app.rag_system import RAGSystem
 import openai # Import openai to patch AsyncOpenAI
-from unittest.mock import AsyncMock # Explicitly import AsyncMock
+from unittest.mock import AsyncMock, Mock # Explicitly import AsyncMock and Mock
 
 # Define a temporary directory for test documents
 @pytest.fixture(scope="function")
@@ -121,19 +121,19 @@ def mock_rag_system(mocker):
         choices=[mocker.Mock(message=mocker.Mock(content=json.dumps({
             "intro_paragraph": "This is a mock introduction.",
             "recommended_courses": [
-                {"name": "Mock Course 1", "description": "Description for mock course 1."},
-                {"name": "Mock Course 2", "description": "Description for mock course 2."},
-                {"name": "Mock Course 3", "description": "Description for mock course 3."},
-                {"name": "Mock Course 4", "description": "Description for mock course 4."},
-                {"name": "Mock Course 5", "description": "Description for mock course 5."}
+                {"name": "Mock Course 1", "description": "Description for mock course 1.", "level": "Beginner"},
+                {"name": "Mock Course 2", "description": "Description for mock course 2.", "level": "Intermediate"},
+                {"name": "Mock Course 3", "description": "Description for mock course 3.", "level": "Advanced"},
+                {"name": "Mock Course 4", "description": "Description for mock course 4.", "level": "Beginner"},
+                {"name": "Mock Course 5", "description": "Description for mock course 5.", "level": "Intermediate"}
             ],
             "conclusion_paragraph": "This is a mock conclusion."
         })))])
 
     # Assign the mocked create method to the completions attribute, and completions to chat
     # This correctly builds the mock chain: openai_client.chat.completions.create
-    mock_openai_client_instance.chat = mocker.Mock()
-    mock_openai_client_instance.chat.completions = mocker.Mock()
+    mock_openai_client_instance.chat = Mock()
+    mock_openai_client_instance.chat.completions = Mock()
     mock_openai_client_instance.chat.completions.create = mock_completions_create
 
 
@@ -155,7 +155,8 @@ def mock_rag_system(mocker):
         ],
         "Computer Security": [ # Added this for your specific prompt example
             {"name": "Introduction to Cyber Security", "category": "Computer Security", "topics": ["Fundamentals", "Threats"], "primary_tech": ["General Security Concepts"], "levels": ["Beginner"], "tags": ["basics", "security"], "recommended": True},
-            {"name": "Cloud Security Essentials", "category": "Computer Security", "topics": ["AWS Security", "Azure Security", "Cloud Concepts"], "primary_tech": ["AWS", "Azure"], "levels": ["Intermediate"], "tags": ["cloud", "aws", "azure"], "recommended": True},
+            {"name": "Cloud Security Essentials", "category": "Computer Security", "topics": ["AWS Security", "Azure Security", "Cloud Concepts"], "primary_tech": ["AWS", "Azure"], "levels": ["Intermediate"], "tags": ["cloud", "aws", "azure"],
+            "recommended": True},
             {"name": "Secure Coding Practices", "category": "Computer Security", "topics": ["Secure SDLC", "Vulnerability Prevention"], "primary_tech": ["Python", "Java"], "levels": ["Intermediate"], "tags": ["developer", "coding", "security"], "recommended": True}
         ]
     }.get(category, []))

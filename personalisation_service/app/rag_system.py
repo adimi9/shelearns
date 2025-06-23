@@ -146,7 +146,7 @@ Based on the 'User's personalized questionnaire responses' and the 'Available Co
 1.  **Relevant Courses Only:** From the 'Available Courses for Consideration', identify and include ONLY the courses that are most relevant to the user's expressed interests, prior experience, motivation, and timeline.
 2.  **Minimum and No Maximum:** You must recommend a **minimum of 5 courses**. There is **no upper limit** to the number of courses you can recommend if they are relevant; include as many as you deem truly helpful for the user's path.
 3.  **Roadmap Structure:** The roadmap must be a JSON object conforming strictly to the provided schema. It should contain an 'intro_paragraph', a 'recommended_courses' array, and a 'conclusion_paragraph'.
-4.  **Course Details:** Each object within the 'recommended_courses' array must have a 'name' (exactly matching a 'Course Name' from 'Available Courses for Consideration') and a 'description'. Provide accurate and helpful descriptions, either directly from the provided context or reasonably inferred from its topics/technologies. Do not invent course names not present in the 'Available Courses for Consideration'.
+4.  **Course Details:** Each object within the 'recommended_courses' array must have a 'name' (exactly matching a 'Course Name' from 'Available Courses for Consideration'), a 'description', and a **'level'**. The 'level' should be inferred from the user's experience level in the questionnaire and the course's target levels in the provided context. Provide accurate and helpful descriptions, either directly from the provided context or reasonably inferred from its topics/technologies. Do not invent course names not present in the 'Available Courses for Consideration'.
 5.  **Logical Order:** Present the courses within the 'recommended_courses' array in a logical learning order, from foundational to more advanced. Do NOT group them into phases or any other hierarchical structure.
 
 Answer:"""
@@ -180,9 +180,10 @@ Answer:"""
                                         "type": "object",
                                         "properties": {
                                             "name": { "type": "string" },
-                                            "description": { "type": "string" }
+                                            "description": { "type": "string" },
+                                            "level": { "type": "string" } # Added 'level' property
                                         },
-                                        "required": ["name", "description"],
+                                        "required": ["name", "description", "level"], # Made 'level' required
                                         "additionalProperties": False
                                     },
                                     "minItems": 5 # Ensure at least 5 courses are recommended
@@ -214,7 +215,7 @@ Answer:"""
                 return json.dumps({
                     "intro_paragraph": "An internal error occurred while generating the roadmap due to an invalid response format from the AI. Please try again.",
                     "recommended_courses": [],
-                    "conclusion_paragraph": "We apologize for the inconvenience."
+                    "conclusion_paragraph": "Please try again later."
                 })
             except Exception as e:
                 print(f"An unexpected error occurred during post-processing: {e}")

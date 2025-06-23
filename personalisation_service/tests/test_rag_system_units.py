@@ -29,7 +29,7 @@ def test_extract_questionnaire_json_no_json(rag_system_instance):
     """
     Test that _extract_questionnaire_json returns None if no JSON is found.
     """
-    prompt = "User's questionnaire responses: This is just some text, no JSON here."
+    prompt = "User's questionnaire responses: This is just a regular question without any JSON."
     result = rag_system_instance._extract_questionnaire_json(prompt)
     assert result is None
 
@@ -128,6 +128,9 @@ async def test_answer_question_success(rag_system_instance, mocker):
     assert "recommended_courses" in parsed_response
     assert "conclusion_paragraph" in parsed_response
     assert len(parsed_response["recommended_courses"]) >= 5 # As per schema minItems
+    assert all("level" in course for course in parsed_response["recommended_courses"])
+    assert all(isinstance(course["level"], str) for course in parsed_response["recommended_courses"])
+
 
     # Verify that OpenAI chat completion was called with the correct system message and prompt
     # access the mock object via the rag_system_instance.openai_client
@@ -139,7 +142,12 @@ async def test_answer_question_success(rag_system_instance, mocker):
     assert kwargs['messages'][1]['role'] == "user"
     assert "User's personalized questionnaire responses:" in kwargs['messages'][1]['content']
     assert "Available Courses for Consideration in Web Development Development:" in kwargs['messages'][1]['content']
-    assert "Mock Course 1" in kwargs['messages'][1]['content']
+
+    # More robust check for the level property in the JSON schema
+    response_format_schema_props = kwargs['response_format']['json_schema']['schema']['properties']['recommended_courses']['items']['properties']
+    assert 'level' in response_format_schema_props
+    assert response_format_schema_props['level'] == {'type': 'string'}
+    assert 'level' in kwargs['response_format']['json_schema']['schema']['properties']['recommended_courses']['items']['required']
 
 
 @pytest.mark.asyncio
@@ -194,10 +202,11 @@ async def test_answer_question_openai_api_error(rag_system_instance, mocker):
     mock_http_response = Mock()
     mock_http_response.status_code = 401
     mock_http_response.headers = {}
-    mock_http_response.request = Mock(url="[http://mock.url](http://mock.url)") # Mock the request attribute
+    mock_http_response.request = Mock(url="https://api.openai.com/v1/mock_endpoint") # Mock the request attribute and its URL
+    mock_http_response.json = Mock(return_value={"error": {"message": "Mock API Error"}}) # Mock json() method if accessed
 
     # Access the mocked openai_client via the rag_system_instance
-    # Change the error type to be directly from openai module and provide required args
+    # Provide all required args to the OpenAI error constructor
     mocker.patch.object(rag_system_instance.openai_client.chat.completions, 'create',
                         side_effect=openai.AuthenticationError(
                             "Invalid API Key", # message

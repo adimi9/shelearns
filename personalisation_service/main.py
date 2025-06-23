@@ -1,71 +1,91 @@
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-from typing import Dict, Any
-import json
 import os
+import json
+from dotenv import load_dotenv
+from fastapi import FastAPI, Request, HTTPException
+from fastapi.responses import JSONResponse
+from pydantic import BaseModel
+from typing import List, Dict, Any, Union
+import uvicorn
 
-# Import your RAGSystem from the 'app' directory
+# Relative import for local modules
 from app.rag_system import RAGSystem
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="Personalization Service for Learning Roadmaps",
-    description="An API to generate personalized learning roadmaps based on user questionnaire responses and available courses.",
-    version="1.0.0"
+    title="Personalization Service API",
+    description="API for generating personalized learning roadmaps using RAG and LLMs.",
+    version="0.0.1",
 )
 
-# Pydantic model for the request body
-class PromptRequest(BaseModel):
+# Initialize the RAGSystem globally
+# This ensures it's only created once when the FastAPI app starts
+rag_system = RAGSystem()
+
+class PersonalizationRequest(BaseModel):
     prompt: str
 
-# Initialize the RAGSystem globally
-# This ensures that DocumentLoader and EmbeddingsManager are initialized only once
-try:
-    rag_system = RAGSystem()
-except Exception as e:
-    # Log the error and potentially raise a critical exception or handle gracefully
-    print(f"Failed to initialize RAGSystem: {e}")
-    # In a production environment, you might want to stop the app or enter a degraded state
-    # For now, we'll let FastAPI start, but subsequent calls to the endpoint will fail
-    rag_system = None
+class CourseRecommendation(BaseModel): # New Pydantic model for course items
+    name: str
+    description: str
+    level: str # Added level field
 
+class PersonalizationResponse(BaseModel):
+    intro_paragraph: str
+    recommended_courses: List[CourseRecommendation] # Use the new CourseRecommendation model
+    conclusion_paragraph: str
 
-@app.post("/personalize-roadmap", response_model=Dict[str, Any])
-async def generate_roadmap(request: PromptRequest):
-    """
-    Generates a personalized learning roadmap based on the provided user questionnaire prompt.
-
-    The prompt should contain the user's questionnaire responses in a JSON format.
-    Example:
-    {
-        "prompt": "User's questionnaire responses: {\"What are you interested in learning?\": [\"Web Development\"], \"What is your current experience level?\": \"Beginner\", \"How much time can you dedicate per week?\": \"5-10 hours\"}"
-    }
-
-    Returns a JSON object with an introduction, recommended courses, and a conclusion.
-    """
-    if rag_system is None:
-        raise HTTPException(status_code=500, detail="Personalization service is not ready. RAGSystem failed to initialize.")
-
-    try:
-        # Call the answer_question method of your RAGSystem
-        # This method is now async
-        roadmap_json_str = await rag_system.answer_question(request.prompt)
-
-        # Parse the JSON string received from the RAGSystem
-        roadmap_data = json.loads(roadmap_json_str)
-
-        return roadmap_data
-    except json.JSONDecodeError:
-        raise HTTPException(status_code=500, detail="Failed to parse roadmap data from RAG system response.")
-    except Exception as e:
-        print(f"Error generating roadmap: {e}")
-        raise HTTPException(status_code=500, detail=f"An error occurred while generating the roadmap: {e}")
-
-
-# health check endpoint
-@app.get("/health")
+@app.get("/health", response_model=Dict[str, str], summary="Health Check")
 async def health_check():
     """
-    Checks the health of the personalization service.
+    Returns the status of the service.
     """
     return {"status": "ok", "message": "Personalization service is running."}
+
+@app.post("/personalize-roadmap", response_model=PersonalizationResponse, summary="Generate Personalized Learning Roadmap")
+async def personalize_roadmap(request: PersonalizationRequest):
+    """
+    Generates a personalized learning roadmap based on user questionnaire responses.
+    """
+    try:
+        # Call the RAGSystem to get the roadmap. It already returns a JSON string.
+        roadmap_json_str = await rag_system.answer_question(request.prompt)
+        
+        # Parse the JSON string received from RAGSystem.answer_question
+        roadmap_data = json.loads(roadmap_json_str)
+        
+        # FastAPI will automatically validate roadmap_data against PersonalizationResponse
+        # if the types match. If there's a mismatch (e.g., if LLM output an invalid structure
+        # even with JSON schema), Pydantic will raise a ValidationError.
+        return PersonalizationResponse(**roadmap_data)
+    except json.JSONDecodeError as e:
+        # This catch is for when rag_system.answer_question returns a string that isn't valid JSON,
+        # or if there's an issue with its internal fallback.
+        print(f"Error parsing JSON from RAGSystem response: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "intro_paragraph": "An internal error occurred: The AI response was malformed.",
+                "recommended_courses": [],
+                "conclusion_paragraph": "Please try again later."
+            }
+        )
+    except Exception as e:
+        # Catch any other unexpected errors
+        print(f"An unexpected error occurred in personalize_roadmap endpoint: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "intro_paragraph": "An unexpected error occurred. Please try again later.",
+                "recommended_courses": [],
+                "conclusion_paragraph": "If the issue persists, contact support."
+            }
+        )
+
+
+if __name__ == "__main__":
+    load_dotenv()
+    # It's better to run Uvicorn programmatically for testing/development
+    # or use the 'uvicorn main:app --reload' command directly in your terminal.
+    # This block is mainly for quick local testing.
+    port = int(os.getenv("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=True)
