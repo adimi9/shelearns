@@ -126,8 +126,7 @@ def mock_rag_system(mocker):
                 {"name": "Mock Course 3", "description": "Description for mock course 3.", "level": "Advanced"},
                 {"name": "Mock Course 4", "description": "Description for mock course 4.", "level": "Beginner"},
                 {"name": "Mock Course 5", "description": "Description for mock course 5.", "level": "Intermediate"}
-            ],
-            "conclusion_paragraph": "This is a mock conclusion."
+            ]
         })))])
 
     # Assign the mocked create method to the completions attribute, and completions to chat

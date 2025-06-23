@@ -32,7 +32,6 @@ class CourseRecommendation(BaseModel): # New Pydantic model for course items
 class PersonalizationResponse(BaseModel):
     intro_paragraph: str
     recommended_courses: List[CourseRecommendation] # Use the new CourseRecommendation model
-    conclusion_paragraph: str
 
 @app.get("/health", response_model=Dict[str, str], summary="Health Check")
 async def health_check():
@@ -64,9 +63,8 @@ async def personalize_roadmap(request: PersonalizationRequest):
         raise HTTPException(
             status_code=500,
             detail={
-                "intro_paragraph": "An internal error occurred: The AI response was malformed.",
-                "recommended_courses": [],
-                "conclusion_paragraph": "Please try again later."
+                "intro_paragraph": "An internal error occurred: The AI response was malformed. Please try again later",
+                "recommended_courses": []
             }
         )
     except Exception as e:
@@ -76,8 +74,7 @@ async def personalize_roadmap(request: PersonalizationRequest):
             status_code=500,
             detail={
                 "intro_paragraph": "An unexpected error occurred. Please try again later.",
-                "recommended_courses": [],
-                "conclusion_paragraph": "If the issue persists, contact support."
+                "recommended_courses": []
             }
         )
 

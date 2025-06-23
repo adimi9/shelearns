@@ -126,7 +126,6 @@ async def test_answer_question_success(rag_system_instance, mocker):
 
     assert "intro_paragraph" in parsed_response
     assert "recommended_courses" in parsed_response
-    assert "conclusion_paragraph" in parsed_response
     assert len(parsed_response["recommended_courses"]) >= 5 # As per schema minItems
     assert all("level" in course for course in parsed_response["recommended_courses"])
     assert all(isinstance(course["level"], str) for course in parsed_response["recommended_courses"])
@@ -219,7 +218,6 @@ async def test_answer_question_openai_api_error(rag_system_instance, mocker):
     parsed_response = json.loads(response)
 
     assert "There was an issue with the API key" in parsed_response["intro_paragraph"]
-    assert "Invalid API key" in parsed_response["conclusion_paragraph"]
     assert not parsed_response["recommended_courses"]
 
 
