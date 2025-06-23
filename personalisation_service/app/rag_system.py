@@ -223,28 +223,28 @@ Answer:"""
                     "recommended_courses": [],
                     "conclusion_paragraph": "We apologize for the inconvenience."
                 })
-        except openai.APIErrors.APIConnectionError as e:
+        except openai.APIConnectionError as e:
             print(f"OpenAI API Connection Error: {e}")
             return json.dumps({
                 "intro_paragraph": "The service could not connect to the OpenAI API. Please check your network connection or API key.",
                 "recommended_courses": [],
                 "conclusion_paragraph": "Please try again later."
             })
-        except openai.APIErrors.RateLimitError as e:
+        except openai.RateLimitError as e:
             print(f"OpenAI API Rate Limit Exceeded: {e}")
             return json.dumps({
                 "intro_paragraph": "Our service is currently experiencing high demand. Please try again in a few moments.",
                 "recommended_courses": [],
                 "conclusion_paragraph": "Thank you for your patience."
             })
-        except openai.APIErrors.AuthenticationError as e:
+        except openai.AuthenticationError as e:
             print(f"OpenAI API Authentication Error: {e}")
             return json.dumps({
                 "intro_paragraph": "There was an issue with the API key provided to the service. Please contact support.",
                 "recommended_courses": [],
                 "conclusion_paragraph": "Error: Invalid API key."
             })
-        except openai.APIErrors.OpenAIError as e:
+        except openai.OpenAIError as e:
             print(f"OpenAI API Error: {e}")
             return json.dumps({
                 "intro_paragraph": f"An error occurred with the OpenAI API: {e.args[0]}",
