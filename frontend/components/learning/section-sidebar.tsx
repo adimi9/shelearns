@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import type React from "react"
+import type React from "react";
 
-import { useState, useRef, useEffect } from "react"
+import { useState, useRef, useEffect } from "react";
 import {
   FileText,
   BookOpen,
@@ -14,49 +14,53 @@ import {
   PanelLeft,
   Lock,
   ArrowRight,
-} from "lucide-react"
-import { motion, AnimatePresence } from "framer-motion"
-import { Button } from "@/components/ui/button"
+  // Ensure PlayCircle is imported if used in LearningDashboard component
+  // PlayCircle // You had this in LearningDashboard, but not here. Keep it if needed.
+} from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Button } from "@/components/ui/button"; // Assuming this is your ShadCN button
 
 interface Video {
-  id: string
-  title: string
-  duration: string
-  youtubeId: string
-  completed: boolean
+  id: string;
+  title: string;
+  duration: string;
+  youtubeId: string;
+  completed: boolean;
 }
 
 interface SectionSidebarProps {
-  activeSection: string
-  onSectionChange: (section: string) => void
+  courseTitle: string; // Add this prop back as it was intended to be passed from LearningDashboard
+  activeSection: string;
+  onSectionChange: (section: string) => void;
   progress: {
-    officialDocs?: boolean
-    notes?: boolean
-    course: boolean
-    quiz: boolean
-  }
+    officialDocs?: boolean;
+    notes?: boolean;
+    course: boolean;
+    quiz: boolean;
+  };
   availableSections: {
-    officialDocs?: boolean
-    notes?: boolean
-    course: boolean
-    quiz: boolean
-  }
-  courseVideos?: Video[]
-  activeVideoId?: string
-  onVideoSelect?: (videoId: string) => void
-  completedVideos?: Set<string>
-  isCollapsed: boolean
-  toggleCollapse: () => void
-  currentLevel: string
-  unlockedLevels: string[]
-  onLevelChange?: (level: string) => void
-  onMoveToNext?: () => void
-  canMoveToNext?: boolean
-  onDifficultyAdjust?: (direction: "easier" | "harder") => void
-  showDifficultyAdjust?: boolean
+    officialDocs?: boolean;
+    notes?: boolean;
+    course: boolean;
+    quiz: boolean;
+  };
+  courseVideos?: Video[];
+  activeVideoId?: string;
+  onVideoSelect?: (videoId: string) => void;
+  completedVideos?: Set<string>;
+  isCollapsed: boolean;
+  toggleCollapse: () => void;
+  currentLevel: string;
+  unlockedLevels: string[];
+  onLevelChange?: (level: string) => void;
+  onMoveToNext?: () => void;
+  canMoveToNext?: boolean;
+  onDifficultyAdjust?: (direction: "easier" | "harder") => void;
+  showDifficultyAdjust?: boolean;
 }
 
 export default function SectionSidebar({
+  courseTitle, // Destructure the new prop
   activeSection,
   onSectionChange,
   progress,
@@ -75,11 +79,13 @@ export default function SectionSidebar({
   onDifficultyAdjust = () => {},
   showDifficultyAdjust = true,
 }: SectionSidebarProps) {
-  const [isCourseExpanded, setIsCourseExpanded] = useState(activeSection === "course")
-  const videoListRef = useRef<HTMLDivElement>(null)
-  const activeVideoRef = useRef<HTMLButtonElement>(null)
+  // State to manage the expansion of the "Course Videos" list within the sidebar.
+  // Initialize based on whether "course" is the active section.
+  const [isCourseVideosExpanded, setIsCourseVideosExpanded] = useState(activeSection === "course");
+  const videoListRef = useRef<HTMLDivElement>(null);
+  const activeVideoRef = useRef<HTMLButtonElement>(null);
 
-  // Sections to display in the sidebar
+  // Define sections to display, filtered by availability
   const sections = [
     {
       id: "officialDocs",
@@ -96,7 +102,7 @@ export default function SectionSidebar({
     {
       id: "course",
       label: "Course",
-      icon: BookOpen,
+      icon: BookOpen, // Using BookOpen for Course, was PlayCircle previously
       available: availableSections.course,
     },
     {
@@ -105,86 +111,86 @@ export default function SectionSidebar({
       icon: Brain,
       available: availableSections.quiz,
     },
-  ].filter((section) => section.available)
+  ].filter((section) => section.available);
 
-  const levels = ["beginner", "intermediate", "advanced"]
+  const levels = ["beginner", "intermediate", "advanced"];
 
-  // Calculate overall progress
+  // Calculate overall progress based on available and completed sections
   const calculateProgress = () => {
-    const availableCount = sections.length
-    const completed = sections.filter((section) => progress[section.id as keyof typeof progress]).length
-    return availableCount > 0 ? Math.round((completed / availableCount) * 100) : 0
-  }
+    const availableCount = sections.length;
+    const completed = sections.filter((section) => progress[section.id as keyof typeof progress]).length;
+    return availableCount > 0 ? Math.round((completed / availableCount) * 100) : 0;
+  };
 
-  // Handle section click
+  // Handles clicking a main section button
   const handleSectionClick = (sectionId: string) => {
-    onSectionChange(sectionId)
+    onSectionChange(sectionId);
+    // If the "Course" section is clicked, ensure its video list is expanded
     if (sectionId === "course") {
-      setIsCourseExpanded(true)
+      setIsCourseVideosExpanded(true);
     } else {
-      setIsCourseExpanded(false)
+      // Collapse course video list if another section is selected
+      setIsCourseVideosExpanded(false);
     }
-  }
+  };
 
-  // Toggle course expansion
-  const toggleCourseExpanded = (e: React.MouseEvent) => {
-    e.stopPropagation()
-    setIsCourseExpanded(!isCourseExpanded)
-    if (!isCourseExpanded) {
-      onSectionChange("course")
-    }
-  }
+  // Toggles the expansion of the course video list
+  const toggleCourseVideosExpansion = (e: React.MouseEvent) => {
+    // Prevent the click event from bubbling up to the parent section button
+    e.stopPropagation();
+    setIsCourseVideosExpanded((prev) => !prev);
+  };
 
   // Scroll active video into view when it changes
   useEffect(() => {
-    if (isCourseExpanded && activeVideoRef.current && videoListRef.current) {
-      const videoIndex = courseVideos.findIndex((video) => video.id === activeVideoId)
+    if (isCourseVideosExpanded && activeVideoRef.current && videoListRef.current) {
+      const videoIndex = courseVideos.findIndex((video) => video.id === activeVideoId);
 
-      // Only scroll if not one of the last 4 videos
+      // Only scroll if not one of the last 4 videos to keep context
       if (videoIndex < courseVideos.length - 4) {
-        activeVideoRef.current.scrollIntoView({ behavior: "smooth", block: "start" })
+        activeVideoRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }
-  }, [activeVideoId, isCourseExpanded, courseVideos])
+  }, [activeVideoId, isCourseVideosExpanded, courseVideos]);
 
-  // Expand course section when activeSection is "course"
+  // Ensure course section expands if it becomes the active section externally
   useEffect(() => {
     if (activeSection === "course") {
-      setIsCourseExpanded(true)
+      setIsCourseVideosExpanded(true);
     }
-  }, [activeSection])
+  }, [activeSection]);
 
   const getLevelColor = (level: string) => {
     switch (level) {
       case "beginner":
-        return "bg-green-500"
+        return "bg-green-500";
       case "intermediate":
-        return "bg-yellow-500"
+        return "bg-yellow-500";
       case "advanced":
-        return "bg-red-500"
+        return "bg-red-500";
       default:
-        return "bg-gray-500"
+        return "bg-gray-500";
     }
-  }
+  };
 
   const isLevelUnlocked = (level: string) => {
-    return unlockedLevels.includes(level)
-  }
+    return unlockedLevels.includes(level);
+  };
 
   const getTooltipMessage = (level: string) => {
-    const levelIndex = levels.indexOf(level)
-    const currentIndex = levels.indexOf(currentLevel)
+    const levelIndex = levels.indexOf(level);
+    const currentIndex = levels.indexOf(currentLevel);
 
-    if (levelIndex <= currentIndex) return ""
+    if (levelIndex <= currentIndex) return ""; // No tooltip if current or already past
 
-    const requiredLevels = levels.slice(0, levelIndex)
-    const uncompletedLevels = requiredLevels.filter((l) => !unlockedLevels.includes(l))
+    const requiredLevels = levels.slice(0, levelIndex);
+    const uncompletedLevels = requiredLevels.filter((l) => !unlockedLevels.includes(l));
 
     if (uncompletedLevels.length > 0) {
-      return `Complete ${uncompletedLevels.join(" and ")} to unlock`
+      return `Complete ${uncompletedLevels.join(" and ")} to unlock`;
     }
-    return ""
-  }
+    return "";
+  };
 
   return (
     <motion.div
@@ -203,7 +209,8 @@ export default function SectionSidebar({
       </button>
 
       <div className={`p-6 ${isCollapsed ? "opacity-0" : "opacity-100"} transition-opacity duration-200`}>
-        <h3 className="text-lg font-bold mb-6">Course Content</h3>
+        {/* Course Title at the top of the sidebar */}
+        <h3 className="text-lg font-bold mb-6">{courseTitle}</h3>
 
         {/* Difficulty Adjustment */}
         {showDifficultyAdjust && !isCollapsed && (
@@ -236,9 +243,9 @@ export default function SectionSidebar({
 
         <nav className="space-y-2">
           {sections.map((section) => {
-            const Icon = section.icon
-            const isCompleted = progress[section.id as keyof typeof progress]
-            const isActive = activeSection === section.id
+            const Icon = section.icon;
+            const isCompleted = progress[section.id as keyof typeof progress];
+            const isActive = activeSection === section.id;
 
             return (
               <div key={section.id} className="flex flex-col">
@@ -250,25 +257,43 @@ export default function SectionSidebar({
                       : "hover:bg-pink-100 text-black"
                   }`}
                 >
-                  <Icon className="w-5 h-5" />
-                  <span className="font-medium flex-1">{section.label}</span>
+                  <Icon className="w-5 h-5 flex-shrink-0" /> {/* Added flex-shrink-0 */}
+                  <span className="font-medium flex-1 text-left">{section.label}</span> {/* Added text-left */}
                   {isCompleted && <div className="w-2 h-2 rounded-full bg-green-400"></div>}
 
+                  {/* Course Videos expand/collapse toggle */}
                   {section.id === "course" && (
-                    <button
-                      onClick={toggleCourseExpanded}
-                      className={`p-1 rounded-full hover:bg-black hover:bg-opacity-10 ${isActive ? "text-white" : "text-black"}`}
+                    <div
+                      onClick={toggleCourseVideosExpansion} // Click handler on a div, not a button
+                      className={`p-1 rounded-full hover:bg-gray-200 cursor-pointer ${
+                        isActive ? "text-white hover:bg-opacity-10" : "text-black"
+                      }`}
+                      role="button" // Indicate it's a clickable element for accessibility
+                      tabIndex={0} // Make it focusable for keyboard navigation
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter" || e.key === " ") {
+                          e.preventDefault(); // Prevent default button behavior if any
+                          toggleCourseVideosExpansion(e as unknown as React.MouseEvent);
+                        }
+                      }}
+                      aria-expanded={isCourseVideosExpanded} // Announce expanded state to screen readers
+                      aria-controls="course-videos-list" // Link to the controlled element
                     >
-                      {isCourseExpanded ? <ChevronDown className="w-4 h-4" /> : <ChevronRight className="w-4 h-4" />}
-                    </button>
+                      {isCourseVideosExpanded ? (
+                        <ChevronDown className="w-4 h-4 transition-transform duration-200" />
+                      ) : (
+                        <ChevronRight className="w-4 h-4 transition-transform duration-200" />
+                      )}
+                    </div>
                   )}
                 </button>
 
-                {/* Course Videos List */}
+                {/* Course Videos List - conditionally rendered and animated */}
                 {section.id === "course" && (
                   <AnimatePresence>
-                    {isCourseExpanded && (
+                    {isCourseVideosExpanded && (
                       <motion.div
+                        id="course-videos-list" // ID for aria-controls
                         initial={{ height: 0, opacity: 0 }}
                         animate={{ height: "auto", opacity: 1 }}
                         exit={{ height: 0, opacity: 0 }}
@@ -313,7 +338,7 @@ export default function SectionSidebar({
                   </AnimatePresence>
                 )}
               </div>
-            )
+            );
           })}
         </nav>
 
@@ -322,9 +347,9 @@ export default function SectionSidebar({
           <h4 className="text-sm font-bold mb-4">Course Levels</h4>
           <div className="space-y-2">
             {levels.map((level) => {
-              const isUnlocked = isLevelUnlocked(level)
-              const isCurrent = level === currentLevel
-              const tooltipMessage = getTooltipMessage(level)
+              const isUnlocked = isLevelUnlocked(level);
+              const isCurrent = level === currentLevel;
+              const tooltipMessage = getTooltipMessage(level);
 
               return (
                 <div key={level} className="relative group">
@@ -341,24 +366,26 @@ export default function SectionSidebar({
                     title={tooltipMessage}
                   >
                     <div className={`w-3 h-3 rounded-full ${getLevelColor(level)}`}></div>
-                    <span className="text-sm font-medium capitalize flex-1">{level}</span>
+                    <span className="text-sm font-medium capitalize flex-1 text-left">{level}</span> {/* Added text-left */}
                     {!isUnlocked && <Lock className="w-4 h-4" />}
-                    {isCurrent && <span className="text-xs bg-white text-pink-500 px-2 py-1 rounded">Current</span>}
+                    {isCurrent && (
+                      <span className="text-xs bg-white text-pink-500 px-2 py-1 rounded">Current</span>
+                    )}
                   </button>
 
-                  {/* Tooltip */}
+                  {/* Tooltip for locked levels */}
                   {tooltipMessage && (
                     <div className="absolute left-full ml-2 top-1/2 transform -translate-y-1/2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap z-10">
                       {tooltipMessage}
                     </div>
                   )}
                 </div>
-              )
+              );
             })}
           </div>
         </div>
 
-        {/* Move to Next Course */}
+        {/* Move to Next Course Button */}
         {canMoveToNext && (
           <div className="mt-6 pt-4 border-t-2 border-gray-200">
             <Button
@@ -371,10 +398,11 @@ export default function SectionSidebar({
           </div>
         )}
 
-        {/* Progress at bottom */}
+        {/* Overall Sub-Course Progress */}
+        {/* Changed "Sub-Course Progress" to "Course Progress" for clarity */}
         <div className="mt-8 pt-6 border-t-2 border-gray-200">
           <div className="text-center mb-2">
-            <span className="text-sm font-medium">Sub-Course Progress</span>
+            <span className="text-sm font-medium">Course Progress</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-4 border-2 border-black">
             <div
@@ -387,12 +415,12 @@ export default function SectionSidebar({
         </div>
       </div>
 
-      {/* Collapsed view */}
+      {/* Collapsed view of the sidebar */}
       {isCollapsed && (
         <div className="flex flex-col items-center pt-16 space-y-6">
           {sections.map((section) => {
-            const Icon = section.icon
-            const isActive = activeSection === section.id
+            const Icon = section.icon;
+            const isActive = activeSection === section.id;
 
             return (
               <button
@@ -401,14 +429,14 @@ export default function SectionSidebar({
                 className={`p-3 rounded-full transition-all ${
                   isActive ? "bg-pink-500 text-white" : "hover:bg-pink-100 text-black"
                 }`}
-                title={section.label}
+                title={section.label} // Tooltip on hover for collapsed icons
               >
                 <Icon className="w-5 h-5" />
               </button>
-            )
+            );
           })}
         </div>
       )}
     </motion.div>
-  )
+  );
 }

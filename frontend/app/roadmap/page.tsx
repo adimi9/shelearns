@@ -8,145 +8,155 @@ import { Button } from "@/components/ui/button"
 
 export default function RoadmapPage() {
   const router = useRouter()
-  const [activeTab, setActiveTab] = useState("journey")
+  const [activeTab, setActiveTab] = useState("journey") // This state isn't used in the provided JSX.
 
-  // Sample progress data - in real app this would come from user state/API
+  // The backend output data (simulated fetch)
+  const backendData = {
+    "roadmap_title": "Computer Security Learning Journey",
+    "intro_paragraph": "**Based on your interest in Computer Security, particularly to enhance your capabilities in writing secure code,** we've curated a selection of courses that cover essential security principles, web application security, secure development practices, cloud security, and identity management. **By the end of this roadmap, you will be equipped with the skills to integrate security into your development processes and manage security in cloud environments.**",
+    "recommended_courses": [
+      {
+        "name": "Introduction to Cybersecurity",
+        "description": "This course covers fundamental cybersecurity concepts, including the CIA Triad, threats, vulnerabilities, and common attack vectors. It's an essential starting point for understanding the basic principles and best practices in cybersecurity.",
+        "level": "Beginner",
+        "stats": {
+          "videos": 10,
+          "articles": 5,
+          "quizzes": 3,
+          "estimated_hours": 8,
+          "numeric_progress": 45 // Example: set initial progress for this course
+        }
+      },
+      {
+        "name": "Web Application Security",
+        "description": "Focusing on secure coding practices for web applications, this course delves into the OWASP Top 10 vulnerabilities, authentication, and session management issues, crucial for developers integrating security into their web apps.",
+        "level": "Intermediate",
+        "stats": {
+          "videos": 15,
+          "articles": 8,
+          "quizzes": 4,
+          "estimated_hours": 12,
+          "numeric_progress": 10
+        }
+      },
+      {
+        "name": "Secure Software Development (DevSecOps)",
+        "description": "This course provides insights into integrating security into the Software Development Life Cycle (SDLC), covering threat modeling, SAST, DAST, and secure coding guidelines essential for any developer’s toolkit.",
+        "level": "Intermediate",
+        "stats": {
+          "videos": 12,
+          "articles": 7,
+          "quizzes": 3,
+          "estimated_hours": 10,
+          "numeric_progress": 100
+        }
+      },
+      {
+        "name": "Cloud Security",
+        "description": "Learn about cloud security essentials including the shared responsibility model, IAM in the cloud, and container security basics. This course is crucial if you're working with AWS or Azure, offering insights into securing cloud environments.",
+        "level": "Intermediate",
+        "stats": {
+          "videos": 18,
+          "articles": 9,
+          "quizzes": 5,
+          "estimated_hours": 15,
+          "numeric_progress": 0
+        }
+      },
+      {
+        "name": "Cryptography Basics",
+        "description": "Gain an understanding of encryption algorithms, hashing techniques, PKI, and digital signatures, all fundamental to protecting data and ensuring secure communications within your applications.",
+        "level": "Beginner",
+        "stats": {
+          "videos": 8,
+          "articles": 4,
+          "quizzes": 2,
+          "estimated_hours": 7,
+          "numeric_progress": 0
+        }
+      },
+      {
+        "name": "Identity & Access Management (IAM)",
+        "description": "This course explores advanced authentication techniques such as MFA and SSO, alongside authorization models like RBAC and ABAC. It's essential for managing identities and permissions in modern applications.",
+        "level": "Intermediate",
+        "stats": {
+          "videos": 14,
+          "articles": 6,
+          "quizzes": 4,
+          "estimated_hours": 11,
+          "numeric_progress": 0
+        }
+      }
+    ],
+    "overall_stats": {
+      "videos": 77,
+      "articles": 39,
+      "quizzes": 21,
+      "estimated_hours": 63,
+      "numeric_progress": 23 // Overall progress for the roadmap
+    }
+  };
+
+  // Map backend courses to a format compatible with CourseCard
+  const courses = backendData.recommended_courses.map(course => ({
+    id: course.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, ''), // Generate a clean slug for ID
+    title: course.name,
+    description: course.description,
+    level: course.level.toLowerCase(),
+    stats: {
+      videos: course.stats.videos,
+      articles: course.stats.articles,
+      quizzes: course.stats.quizzes,
+      estimatedHours: course.stats.estimated_hours,
+      numericProgress: course.stats.numeric_progress, // New: Course-specific numeric progress
+    },
+  }));
+
+  // User progress state, directly using backend numeric_progress for initialization
   const [userProgress, setUserProgress] = useState({
-    lastCourse: "html-css-fundamentals",
-    lastSubCourse: "HTML5 Structure & Semantics",
-    overallProgress: 23, // percentage
-    coursesProgress: {
-      "html-css-fundamentals": {
-        progress: 45,
-        level: "beginner",
-        unlockedLevels: ["beginner"],
-        started: true,
-      },
-      "javascript-essentials": {
-        progress: 0,
-        level: "intermediate",
-        unlockedLevels: [],
-        started: false,
-      },
-      "react-frameworks": {
-        progress: 0,
-        level: "intermediate",
-        unlockedLevels: [],
-        started: false,
-      },
-      "frontend-tooling": {
-        progress: 0,
-        level: "advanced",
-        unlockedLevels: [],
-        started: false,
-      },
-    },
-  })
+  overallProgress: backendData.overall_stats.numeric_progress, // Use overall numeric progress from backend
+  coursesProgress: courses.reduce((acc: { [key: string]: { progress: number; level: string; unlockedLevels: any[]; started: boolean; } }, course) => {
+    acc[course.id] = {
+      progress: course.stats.numericProgress, // Use course-specific numeric progress from backend
+      level: course.level,
+      unlockedLevels: [], // Keep this for future expansion if needed
+      started: course.stats.numericProgress > 0, // Mark as started if progress > 0
+    };
+      return acc;
+    }, {} as { [key: string]: { progress: number; level: string; unlockedLevels: any[]; started: boolean; } }),
+  });
 
-  const courses = [
-    {
-      id: "html-css-fundamentals",
-      title: "HTML & CSS Fundamentals",
-      level: "beginner",
-      subCourses: [
-        {
-          title: "HTML5 Structure & Semantics",
-          description: "Learn to create structured, accessible web pages with modern HTML5",
-        },
-        {
-          title: "CSS Styling & Layout",
-          description: "Master CSS styling, flexbox, grid, and responsive design principles",
-        },
-      ],
-      stats: {
-        videos: 13,
-        articles: 8,
-        quizzes: 4,
-        estimatedHours: 12,
-      },
-    },
-    {
-      id: "javascript-essentials",
-      title: "JavaScript Essentials",
-      level: "intermediate",
-      subCourses: [
-        {
-          title: "JavaScript Fundamentals",
-          description: "Core concepts, data types, functions, and modern ES6+ syntax",
-        },
-        {
-          title: "DOM Manipulation",
-          description: "Learn to interact with and modify web pages dynamically",
-        },
-      ],
-      stats: {
-        videos: 18,
-        articles: 12,
-        quizzes: 6,
-        estimatedHours: 16,
-      },
-    },
-    {
-      id: "react-frameworks",
-      title: "React Frameworks",
-      level: "intermediate",
-      subCourses: [
-        {
-          title: "React Fundamentals",
-          description: "Components, props, state, and the React ecosystem",
-        },
-        {
-          title: "Application State Management",
-          description: "Managing complex state with hooks, context, and external libraries",
-        },
-      ],
-      stats: {
-        videos: 22,
-        articles: 15,
-        quizzes: 8,
-        estimatedHours: 20,
-      },
-    },
-    {
-      id: "frontend-tooling",
-      title: "Frontend Tooling",
-      level: "advanced",
-      subCourses: [
-        {
-          title: "Build Tools & Bundlers",
-          description: "Modern development workflow with Vite, npm, and package management",
-        },
-        {
-          title: "Version Control with Git",
-          description: "Collaborative development using Git and GitHub",
-        },
-      ],
-      stats: {
-        videos: 16,
-        articles: 10,
-        quizzes: 6,
-        estimatedHours: 14,
-      },
-    },
-  ]
-
-  // Calculate overall stats
-  const overallStats = courses.reduce(
-    (acc, course) => ({
-      videos: acc.videos + course.stats.videos,
-      articles: acc.articles + course.stats.articles,
-      quizzes: acc.quizzes + course.stats.quizzes,
-      estimatedHours: acc.estimatedHours + course.stats.estimatedHours,
-    }),
-    { videos: 0, articles: 0, quizzes: 0, estimatedHours: 0 },
-  )
+  // Overall stats come directly from backendData
+  const overallStats = {
+    videos: backendData.overall_stats.videos,
+    articles: backendData.overall_stats.articles,
+    quizzes: backendData.overall_stats.quizzes,
+    estimatedHours: backendData.overall_stats.estimated_hours, // <--- CHANGE IS HERE
+  };
 
   const handleStartCourse = () => {
-    router.push("/learn/html-css-fundamentals")
+    // Logic to start the first available course or a specific one
+    if (courses.length > 0) {
+      router.push(`/learn/${courses[0].id}`);
+    } else {
+      console.log("No courses available to start.");
+    }
   }
 
   const handleContinueCourse = () => {
-    router.push(`/learn/${userProgress.lastCourse}`)
+    // Find the first started but incomplete course to continue
+    const startedIncompleteCourses = courses.find(
+      (course) => userProgress.coursesProgress[course.id]?.started && userProgress.coursesProgress[course.id]?.progress < 100
+    );
+
+    if (startedIncompleteCourses) {
+      router.push(`/learn/${startedIncompleteCourses.id}`);
+    } else if (courses.length > 0) {
+      // If all started courses are complete or none are started, start the first one
+      handleStartCourse();
+    } else {
+      console.log("No courses to continue or start.");
+    }
   }
 
   const getLevelColor = (level: string) => {
@@ -177,17 +187,18 @@ export default function RoadmapPage() {
 
   return (
     <div className="min-h-screen bg-pink-50">
-      {/* Navigation */}
-
+      {/* Navigation - No changes here */}
 
       <main className="container mx-auto px-6 py-12">
         {/* Course Overview Section */}
         <CourseOverview
-          title="Front End Web Development Learning Journey"
-          description="Master modern frontend development from HTML basics to advanced React applications. Build real projects and gain the skills needed for a successful career in web development."
+          title={backendData.roadmap_title}
+          description={`${backendData.intro_paragraph}`}
           stats={overallStats}
           progress={userProgress.overallProgress}
-          lastCourse={userProgress.lastSubCourse}
+          lastCourse={
+            courses.find(course => userProgress.coursesProgress[course.id]?.started)?.title || "No course started yet"
+          }
           hasStarted={userProgress.overallProgress > 0}
           onStartCourse={handleStartCourse}
           onContinueCourse={handleContinueCourse}
@@ -195,17 +206,20 @@ export default function RoadmapPage() {
 
         {/* Detailed Course Overview */}
         <div className="mt-16">
-          <h2 className="text-3xl md:text-4xl font-black mb-8">Detailed Overview of Courses Generated For You</h2>
+          {/* Centered the heading */}
+          <h2 className="text-3xl md:text-4xl font-black mb-8 text-center">Detailed Overview of Courses Generated For You</h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="lg:col-span-2 space-y-8">
+          {/* Adjusted grid to be a single column and centered its content */}
+          <div className="grid grid-cols-1 gap-8 justify-items-center">
+            {/* Removed lg:col-span-2; added max-w-4xl and w-full for centering and width control */}
+            <div className="w-full max-w-4xl space-y-8">
               {courses.map((course, index) => {
-                const courseProgress = userProgress.coursesProgress[course.id]
+                const courseProgress = userProgress.coursesProgress[course.id] || { progress: 0, started: false };
                 return (
                   <div key={course.id} className="relative">
                     <CourseCard
                       title={course.title}
-                      subCourses={course.subCourses}
+                      courseDescription={course.description}
                       index={index + 1}
                       courseId={course.id}
                       level={course.level}
@@ -218,40 +232,6 @@ export default function RoadmapPage() {
                   </div>
                 )
               })}
-            </div>
-
-            <div className="lg:col-span-1">
-              <div className="bg-white border-4 border-black rounded-xl p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] sticky top-6">
-                <h3 className="text-xl font-bold mb-4">Create a profile to save your progress!</h3>
-                <p className="mb-6 text-gray-700">Track your learning journey and pick up where you left off.</p>
-
-                <div className="space-y-3">
-                  <Button
-                    className="w-full bg-pink-600 hover:bg-black text-white font-bold py-3 rounded-xl transition-all"
-                    onClick={() => router.push("/signup")}
-                  >
-                    Create a Profile!
-                  </Button>
-
-                  <Button
-                    className="w-full bg-white border-2 border-black hover:bg-black hover:text-white text-black font-bold py-3 rounded-xl transition-all"
-                    onClick={() => router.push("/login")}
-                  >
-                    Sign In!
-                  </Button>
-                </div>
-
-                {/* Learning Tips */}
-                <div className="mt-8 p-4 bg-pink-50 border-2 border-pink-200 rounded-lg">
-                  <h4 className="font-bold text-pink-800 mb-2">💡 Learning Tips</h4>
-                  <ul className="text-sm text-pink-700 space-y-1">
-                    <li>• Complete courses in order for best results</li>
-                    <li>• Practice coding along with videos</li>
-                    <li>• Don't skip the quizzes - they reinforce learning</li>
-                    <li>• Join our community for help and motivation</li>
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
         </div>

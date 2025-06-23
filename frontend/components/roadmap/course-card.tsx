@@ -1,16 +1,19 @@
+// components/roadmap/course-card.tsx
 "use client"
 
 import { ChevronRight, Play, BookOpen, Brain, Clock } from "lucide-react"
 import { useRouter } from "next/navigation"
 
-interface SubCourse {
-  title: string
-  description: string
-}
+// REMOVE THIS INTERFACE if not used elsewhere, or rename it if SubCourse is now a general type.
+// interface SubCourse {
+//   title: string
+//   description: string
+// }
 
 interface CourseCardProps {
   title: string
-  subCourses: SubCourse[]
+  // REMOVE subCourses: SubCourse[]
+  courseDescription: string // ADD THIS LINE: New prop for the course's main description
   index: number
   courseId?: string
   level: string
@@ -20,6 +23,9 @@ interface CourseCardProps {
     articles: number
     quizzes: number
     estimatedHours: number
+    // You might also pass numericProgress here if CourseCard needs it directly,
+    // though 'progress' prop already serves that for the progress bar.
+    // numericProgress: number;
   }
   hasStarted: boolean
   getLevelColor: (level: string) => string
@@ -28,9 +34,10 @@ interface CourseCardProps {
 
 export default function CourseCard({
   title,
-  subCourses,
+  // REMOVE subCourses,
+  courseDescription, // ADD THIS LINE: Destructure the new prop
   index,
-  courseId = "html-css-fundamentals",
+  courseId = "html-css-fundamentals", // Ensure this default is sensible if no courseId is provided
   level,
   progress,
   stats,
@@ -103,13 +110,13 @@ export default function CourseCard({
         </div>
       </div>
 
+      {/* RENDER THE MAIN COURSE DESCRIPTION HERE */}
+      {/* REMOVE THE subCourses.map BLOCK */}
       <div className="space-y-4 mt-6">
-        {subCourses.map((subCourse, idx) => (
-          <div key={idx} className="border-l-4 border-pink-400 pl-4 py-1">
-            <h4 className="font-bold">{subCourse.title}</h4>
-            <p className="text-sm text-gray-600">{subCourse.description}</p>
-          </div>
-        ))}
+        <div className="border-l-4 border-pink-400 pl-4 py-1">
+          {/* <h4 className="font-bold">{title} Overview</h4> Optional: if you want a sub-heading */}
+          <p className="text-sm text-gray-600">{courseDescription}</p>
+        </div>
       </div>
 
       <button
