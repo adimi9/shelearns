@@ -2,25 +2,39 @@ import os
 import json
 import re
 from dotenv import load_dotenv
-from typing import List, Dict, Any
-import openai
+from typing import List, Dict, Any, Union
+import openai # For AsyncOpenAI client
 import numpy as np
 
+# Relative imports from the same package
 from .document_loader import DocumentLoader
 from .embeddings_manager import EmbeddingsManager
+# Note: TextProcessor and RetrievalSystem are not directly used in RAGSystem.answer_question
+# but are kept here as per original code structure if they were intended for future use.
+# from .retrieval_system import RetrievalSystem
+# from .text_processor import TextProcessor
+
 
 class RAGSystem:
     def __init__(self):
-        load_dotenv()
+        load_dotenv() # Load environment variables from .env file
         self.api_key = os.getenv('OPENAI_API_KEY')
+
+        if not self.api_key:
+            raise ValueError("OPENAI_API_KEY not found in environment variables. Please set it in a .env file.")
+
         self.loader = DocumentLoader('data/documents')
         self.embeddings_manager = EmbeddingsManager(self.api_key)
+        # Initialize the asynchronous OpenAI client for chat completions
+        self.openai_client = openai.AsyncOpenAI(api_key=self.api_key)
+
 
     def _extract_questionnaire_json(self, full_prompt: str) -> Dict[str, Any] | None:
         """
         Extracts and parses the JSON part of the questionnaire responses from the full prompt string.
         """
-        match = re.search(r"User's questionnaire responses:\s*(\{.*\})", full_prompt, re.DOTALL)
+        # Adjusted regex to be more robust, looking for a JSON object after "User's questionnaire responses:"
+        match = re.search(r"User's questionnaire responses:\s*(\{.*?})\s*(?:$|\n)", full_prompt, re.DOTALL)
         if match:
             json_str = match.group(1)
             try:
@@ -28,6 +42,7 @@ class RAGSystem:
             except json.JSONDecodeError as e:
                 print(f"Error decoding JSON from prompt: {e}")
                 return None
+        print("No questionnaire JSON found in the prompt.")
         return None
 
     def _extract_category_from_questionnaire(self, questionnaire_data: Dict[str, Any]) -> str | None:
@@ -37,6 +52,7 @@ class RAGSystem:
         interest_key = "What are you interested in learning?"
         if interest_key in questionnaire_data and isinstance(questionnaire_data[interest_key], list):
             if questionnaire_data[interest_key]:
+                # Assuming the first item in the list is the primary interest
                 return str(questionnaire_data[interest_key][0])
         return None
 
@@ -65,7 +81,11 @@ class RAGSystem:
             f"and is typically suitable for {levels} learners. This course is part of {category} development."
         )
 
-    def answer_question(self, question_prompt: str) -> str:
+    async def answer_question(self, question_prompt: str) -> str:
+        """
+        Generates a personalized learning roadmap based on the user's questionnaire and available courses.
+        This method is now asynchronous.
+        """
         # Step 1: Extract the JSON questionnaire data from the full prompt string
         questionnaire_data = self._extract_questionnaire_json(question_prompt)
 
@@ -106,9 +126,12 @@ class RAGSystem:
 
         # --- Step 5: Embed the question (optional, but good for LLM's understanding of user's query) ---
         try:
-            question_embedding = self.embeddings_manager.create_embeddings([question_prompt])[0]
+            # Await the asynchronous embedding creation
+            question_embedding = (await self.embeddings_manager.create_embeddings([question_prompt]))[0]
         except Exception as e:
             print(f"Warning: Could not create embedding for question: {e}")
+            # Decide if you want to abort or continue without embedding.
+            # For this example, we'll continue.
 
         # Create the final prompt to send to OpenAI
         prompt = f"""User's personalized questionnaire responses:
@@ -128,93 +151,110 @@ Based on the 'User's personalized questionnaire responses' and the 'Available Co
 
 Answer:"""
 
-        # Get response from OpenAI
-        response = openai.chat.completions.create(
-            model="gpt-4o-2024-08-06",
-            messages=[
-                {
-                    "role": "system",
-                    "content": "You are an expert AI assistant specialized in generating personalized learning roadmaps based on user profiles and a curated list of available courses. Your task is to intelligently select the most relevant courses and structure them into a coherent, flat, ordered list in JSON format. Ensure strict adherence to the provided JSON schema."
-                },
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
-            response_format={
-                "type": "json_schema",
-                "json_schema": {
-                    "name": "personalized_roadmap",
-                    "strict": True,
-                    "schema": {
-                        "type": "object",
-                        "properties": {
-                            "intro_paragraph": { "type": "string" },
-                            "recommended_courses": {
-                                "type": "array",
-                                "items": {
-                                    "type": "object",
-                                    "properties": {
-                                        "name": { "type": "string" },
-                                        "description": { "type": "string" }
+        try:
+            # Await the asynchronous chat completion
+            response = await self.openai_client.chat.completions.create(
+                model="gpt-4o-2024-08-06",
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "You are an expert AI assistant specialized in generating personalized learning roadmaps based on user profiles and a curated list of available courses. Your task is to intelligently select the most relevant courses and structure them into a coherent, flat, ordered list in JSON format. Ensure strict adherence to the provided JSON schema."
+                    },
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ],
+                response_format={
+                    "type": "json_schema",
+                    "json_schema": {
+                        "name": "personalized_roadmap",
+                        "strict": True,
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "intro_paragraph": { "type": "string" },
+                                "recommended_courses": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "name": { "type": "string" },
+                                            "description": { "type": "string" }
+                                        },
+                                        "required": ["name", "description"],
+                                        "additionalProperties": False
                                     },
-                                    "required": ["name", "description"],
-                                    "additionalProperties": False
+                                    "minItems": 5 # Ensure at least 5 courses are recommended
                                 },
-                                "minItems": 5
+                                "conclusion_paragraph": { "type": "string" }
                             },
-                            "conclusion_paragraph": { "type": "string" }
-                        },
-                        "required": ["intro_paragraph", "recommended_courses", "conclusion_paragraph"],
-                        "additionalProperties": False
+                            "required": ["intro_paragraph", "recommended_courses", "conclusion_paragraph"],
+                            "additionalProperties": False
+                        }
                     }
                 }
-            }
-        )
+            )
 
-        raw_response_content = response.choices[0].message.content
+            raw_response_content = response.choices[0].message.content
 
-        # --- Post-processing / Robust JSON Parsing ---
-        try:
-            parsed_json = json.loads(raw_response_content)
+            # --- Post-processing / Robust JSON Parsing ---
+            try:
+                parsed_json = json.loads(raw_response_content)
+                # The 'strict' schema enforcement and JSONDecodeError handling below
+                # largely cover issues like duplicate keys or malformed JSON.
+                # No further explicit check for duplicate keys within `parsed_json` is typically needed
+                # if json.loads succeeds and the schema is strict.
 
-            # Optional: Add an extra check for duplicate keys within subcourse objects
-            # While the API's strict mode should largely prevent this,
-            # this provides a safety net if it ever slips through.
-            if "recommended_courses" in parsed_json and isinstance(parsed_json["recommended_courses"], list):
-                for i, course_item in enumerate(parsed_json["recommended_courses"]):
-                    if isinstance(course_item, dict):
-                        # Example of checking for duplicate 'name' keys
-                        # This isn't strictly necessary with json.loads, as it typically
-                        # handles duplicates by taking the last value. The real issue is the source.
-                        # However, for general robustness, you can ensure it's well-formed.
-                        # For true duplicate key *detection* within json.loads, you'd need
-                        # a custom JSONDecoder, but simple load should usually handle it.
-
-                        # The more likely scenario is that the LLM produced a string like:
-                        # "name": "...", "name": "..." which would cause a JSONDecodeError
-                        # *before* getting here. If it successfully loads, then it means
-                        # json.loads handled the duplicate (usually by taking the last one).
-
-                        # If the issue is persistent duplicate *keys* within the object,
-                        # this check might not strictly apply as json.loads would have failed.
-                        # The primary fix for the original problem is relying on the `strict` schema and prompting.
-                        pass # No specific action needed here unless you want to re-process
-
-            return json.dumps(parsed_json) # Return valid, formatted JSON
-        except json.JSONDecodeError as e:
-            print(f"CRITICAL ERROR: LLM produced invalid JSON despite schema enforcement: {e}")
-            print(f"Raw response content: {raw_response_content}")
-            # Fallback to a structured error message if JSON parsing fails
+                return json.dumps(parsed_json) # Return valid, formatted JSON
+            except json.JSONDecodeError as e:
+                print(f"CRITICAL ERROR: LLM produced invalid JSON despite schema enforcement: {e}")
+                print(f"Raw response content: {raw_response_content}")
+                # Fallback to a structured error message if JSON parsing fails
+                return json.dumps({
+                    "intro_paragraph": "An internal error occurred while generating the roadmap due to an invalid response format from the AI. Please try again.",
+                    "recommended_courses": [],
+                    "conclusion_paragraph": "We apologize for the inconvenience."
+                })
+            except Exception as e:
+                print(f"An unexpected error occurred during post-processing: {e}")
+                return json.dumps({
+                    "intro_paragraph": "An unexpected internal error occurred while processing the roadmap. Please try again.",
+                    "recommended_courses": [],
+                    "conclusion_paragraph": "We apologize for the inconvenience."
+                })
+        except openai.APIErrors.APIConnectionError as e:
+            print(f"OpenAI API Connection Error: {e}")
             return json.dumps({
-                "intro_paragraph": "An internal error occurred while generating the roadmap due to an invalid response format from the AI. Please try again.",
+                "intro_paragraph": "The service could not connect to the OpenAI API. Please check your network connection or API key.",
                 "recommended_courses": [],
-                "conclusion_paragraph": "We apologize for the inconvenience."
+                "conclusion_paragraph": "Please try again later."
+            })
+        except openai.APIErrors.RateLimitError as e:
+            print(f"OpenAI API Rate Limit Exceeded: {e}")
+            return json.dumps({
+                "intro_paragraph": "Our service is currently experiencing high demand. Please try again in a few moments.",
+                "recommended_courses": [],
+                "conclusion_paragraph": "Thank you for your patience."
+            })
+        except openai.APIErrors.AuthenticationError as e:
+            print(f"OpenAI API Authentication Error: {e}")
+            return json.dumps({
+                "intro_paragraph": "There was an issue with the API key provided to the service. Please contact support.",
+                "recommended_courses": [],
+                "conclusion_paragraph": "Error: Invalid API key."
+            })
+        except openai.APIErrors.OpenAIError as e:
+            print(f"OpenAI API Error: {e}")
+            return json.dumps({
+                "intro_paragraph": f"An error occurred with the OpenAI API: {e.args[0]}",
+                "recommended_courses": [],
+                "conclusion_paragraph": "Please try again or contact support if the issue persists."
             })
         except Exception as e:
-            print(f"An unexpected error occurred during post-processing: {e}")
+            print(f"An unexpected error occurred during API call or processing: {e}")
             return json.dumps({
-                "intro_paragraph": "An unexpected internal error occurred while processing the roadmap. Please try again.",
+                "intro_paragraph": "An unexpected internal error occurred while generating the roadmap. Please try again.",
                 "recommended_courses": [],
                 "conclusion_paragraph": "We apologize for the inconvenience."
             })

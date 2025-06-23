@@ -8,6 +8,11 @@ class DocumentLoader:
 
     def load_documents(self, category: str = None) -> List[Dict]:
         documents = []
+        # Ensure the documents path exists
+        if not os.path.exists(self.documents_path):
+            print(f"Warning: Documents path '{self.documents_path}' does not exist.")
+            return []
+
         for filename in os.listdir(self.documents_path):
             if filename.endswith('.json'):
                 filepath = os.path.join(self.documents_path, filename)
