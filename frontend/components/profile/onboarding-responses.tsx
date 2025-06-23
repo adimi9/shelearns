@@ -65,13 +65,6 @@ export default function OnboardingResponses({ responses }: OnboardingResponsesPr
           </div>
         </div>
       </div>
-
-      <div className="mt-6 p-4 bg-gray-50 border-2 border-gray-200 rounded-lg">
-        <p className="text-sm text-gray-600 text-center">
-          💡 Your responses help us personalize your learning experience. You can update your goals anytime by retaking
-          the onboarding quiz.
-        </p>
-      </div>
     </div>
   )
 }

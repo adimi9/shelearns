@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { useRouter } from "next/navigation"
-import { ArrowLeft, Edit, Save, X, Award, Star } from "lucide-react"
+import { ArrowLeft, Edit, Save, X, Award, Star, KeyRound } from "lucide-react" // Added KeyRound for password icon
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -11,18 +11,18 @@ import AvatarSelector from "@/components/profile/avatar-selector"
 import BadgeCollection from "@/components/profile/badge-collection"
 import XPProgress from "@/components/profile/xp-progress"
 import OnboardingResponses from "@/components/profile/onboarding-responses"
-import PasswordChange from "@/components/profile/password-change"
+import PasswordChange from "@/components/profile/password-change" // Ensure this component exists and is updated
 
 export default function ProfilePage() {
   const router = useRouter()
   const [isEditing, setIsEditing] = useState(false)
   const [showAvatarSelector, setShowAvatarSelector] = useState(false)
-  const [showPasswordChange, setShowPasswordChange] = useState(false)
+  const [showPasswordChange, setShowPasswordChange] = useState(false) // State to control password change modal visibility
 
   const [userData, setUserData] = useState({
     name: "Sarah Johnson",
     email: "sarah.johnson@email.com",
-    avatar: "tech-girl",
+    avatar: "tech-girl", // Make sure you have this avatar type in AnimatedAvatar
     joinDate: "January 2025",
     currentLevel: "Beginner",
     totalXP: 1250,
@@ -62,26 +62,6 @@ export default function ProfilePage() {
 
   return (
     <div className="min-h-screen bg-pink-50">
-      {/* Header */}
-      <header className="bg-white border-b-4 border-black py-4 px-6">
-        <div className="container mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <Button variant="outline" onClick={() => router.back()} className="border-2 border-black">
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              Back
-            </Button>
-            <div>
-              <h1 className="text-2xl font-black">My Profile</h1>
-              <p className="text-gray-600">Manage your account and track your progress</p>
-            </div>
-          </div>
-          <div className="font-black text-xl tracking-tighter">
-            <span className="text-pink-600">tech</span>
-            <span className="text-black">path</span>
-          </div>
-        </div>
-      </header>
-
       <main className="container mx-auto px-6 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Column - Profile Info */}
@@ -141,7 +121,7 @@ export default function ProfilePage() {
                   <h2 className="text-xl font-bold mb-2">{userData.name}</h2>
                   <p className="text-gray-600 mb-4">{userData.email}</p>
                   <p className="text-sm text-gray-500 mb-4">Member since {userData.joinDate}</p>
-                  <div className="flex gap-2">
+                  <div className="flex flex-col gap-2"> {/* Changed to flex-col for stacking buttons */}
                     <Button
                       onClick={() => setIsEditing(true)}
                       variant="outline"
@@ -149,6 +129,15 @@ export default function ProfilePage() {
                     >
                       <Edit className="w-4 h-4 mr-2" />
                       Edit Profile
+                    </Button>
+                    {/* Added Change Password Button below Edit Profile - Now directly in the profile card */}
+                    <Button
+                      onClick={() => setShowPasswordChange(true)} // This button toggles the PasswordChange modal
+                      variant="outline"
+                      className="w-full border-2 border-black mt-2" // Added margin-top for spacing
+                    >
+                      <KeyRound className="w-4 h-4 mr-2" /> {/* Used KeyRound icon */}
+                      Change Password
                     </Button>
                   </div>
                 </div>
@@ -170,41 +159,32 @@ export default function ProfilePage() {
                 <div className="text-center p-3 bg-pink-50 rounded-lg border-2 border-pink-200">
                   <Award className="w-6 h-6 text-pink-600 mx-auto mb-2" />
                   <div className="font-bold text-pink-800">{userData.badgesEarned}</div>
-                  <div className="text-sm text-pink-600">Badges</div>
+                  <div className="text-sm text-pink-600">Achieved <br/> Badges</div>
                 </div>
                 <div className="text-center p-3 bg-green-50 rounded-lg border-2 border-green-200">
                   <Star className="w-6 h-6 text-green-600 mx-auto mb-2" />
                   <div className="font-bold text-green-800">{userData.coursesCompleted}</div>
-                  <div className="text-sm text-green-600">Completed</div>
+                  <div className="text-sm text-green-600">Completed Courses</div>
                 </div>
               </div>
-            </div>
-
-            {/* Password Change */}
-            <div className="bg-white border-4 border-black rounded-xl p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]">
-              <h3 className="text-lg font-bold mb-4">Security</h3>
-              <Button
-                onClick={() => setShowPasswordChange(true)}
-                variant="outline"
-                className="w-full border-2 border-black"
-              >
-                Change Password
-              </Button>
             </div>
           </div>
 
           {/* Right Column - Detailed Info */}
           <div className="lg:col-span-2 space-y-6">
-            {/* Badge Collection */}
-            <BadgeCollection />
 
             {/* Onboarding Responses */}
             <OnboardingResponses responses={userData.onboardingResponses} />
+
+            {/* Badge Collection */}
+            <BadgeCollection />
+
+            
           </div>
         </div>
       </main>
 
-      {/* Modals */}
+      {/* Modals - These render on top of the content when their state is true */}
       {showAvatarSelector && (
         <AvatarSelector
           currentAvatar={userData.avatar}
@@ -213,6 +193,7 @@ export default function ProfilePage() {
         />
       )}
 
+      {/* The PasswordChange modal is rendered here when showPasswordChange is true */}
       {showPasswordChange && <PasswordChange onClose={() => setShowPasswordChange(false)} />}
     </div>
   )

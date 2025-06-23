@@ -7,98 +7,66 @@ export default function BadgeCollection() {
     {
       id: "first-steps",
       name: "First Steps",
-      description: "Completed your first lesson",
+      description: "Completed your first course",
       icon: "🚀",
       earned: true,
       earnedDate: "Jan 15, 2025",
     },
     {
-      id: "html-master",
-      name: "HTML Master",
-      description: "Completed HTML fundamentals",
-      icon: "🏗️",
-      earned: true,
-      earnedDate: "Jan 18, 2025",
+      id: "halfway-there",
+      name: "Halfway There",
+      description: "Completed 50% of your learning journey",
+      icon: "🧭",
+      earned: false,
+      earnedDate: ""
     },
     {
-      id: "css-wizard",
-      name: "CSS Wizard",
-      description: "Mastered CSS styling",
-      icon: "🎨",
-      earned: true,
-      earnedDate: "Jan 22, 2025",
-    },
-    {
-      id: "quiz-champion",
-      name: "Quiz Champion",
-      description: "Scored 100% on 5 quizzes",
+      id: "journey-conqueror",
+      name: "Journey Conqueror",
+      description: "Completed your entire learning journey",
       icon: "🏆",
-      earned: true,
-      earnedDate: "Jan 20, 2025",
-    },
-    {
-      id: "speed-learner",
-      name: "Speed Learner",
-      description: "Completed 3 lessons in one day",
-      icon: "⚡",
-      earned: true,
-      earnedDate: "Jan 19, 2025",
-    },
-    {
-      id: "documentation-reader",
-      name: "Documentation Reader",
-      description: "Read 10 official documentation pages",
-      icon: "📚",
-      earned: true,
-      earnedDate: "Jan 21, 2025",
-    },
-    {
-      id: "video-watcher",
-      name: "Video Watcher",
-      description: "Watched 20 course videos",
-      icon: "📺",
-      earned: true,
-      earnedDate: "Jan 23, 2025",
-    },
-    {
-      id: "consistent-learner",
-      name: "Consistent Learner",
-      description: "Learned for 7 days straight",
-      icon: "📅",
-      earned: true,
-      earnedDate: "Jan 24, 2025",
-    },
-    {
-      id: "javascript-ninja",
-      name: "JavaScript Ninja",
-      description: "Complete JavaScript fundamentals",
-      icon: "🥷",
       earned: false,
-      requirement: "Complete JavaScript course",
+      earnedDate: ""
     },
     {
-      id: "react-developer",
-      name: "React Developer",
-      description: "Build your first React app",
-      icon: "⚛️",
+      id: "quiz-starter",
+      name: "Quiz Starter",
+      description: "Completed your first quiz",
+      icon: "📝",
       earned: false,
-      requirement: "Complete React course",
+      earnedDate: ""
     },
     {
-      id: "project-builder",
-      name: "Project Builder",
-      description: "Complete 3 coding projects",
-      icon: "🔨",
+      id: "high-scorer",
+      name: "High Scorer",
+      description: "Scored 4/5 on 5 quizzes",
+      icon: "🎯",
       earned: false,
-      requirement: "Build 3 projects",
+      earnedDate: ""
     },
     {
-      id: "community-helper",
-      name: "Community Helper",
-      description: "Help 5 fellow learners",
-      icon: "🤝",
+      id: "deep-diver",
+      name: "Deep Diver",
+      description: "Completed advanced version of all courses",
+      icon: "🔍",
       earned: false,
-      requirement: "Help others in community",
+      earnedDate: ""
+    },
+    {
+      id: "achiever",
+      name: "Achiever",
+      description: "Achieved Top 3 on Leaderboard",
+      icon: "🧭",
+      earned: false,
+      earnedDate: ""
+    },
+    {
+      id: "return-visitor",
+      name: "Return Visitor",
+      description: "Achieved a 10 day streak",
+      icon: "🔄",
+      earned: false,
+      earnedDate: ""
     },
   ]
 
@@ -148,7 +116,6 @@ export default function BadgeCollection() {
               </div>
               <h5 className="font-bold text-sm mb-1 text-gray-700">{badge.name}</h5>
               <p className="text-xs text-gray-500 mb-2">{badge.description}</p>
-              <p className="text-xs text-gray-400 font-medium">{badge.requirement}</p>
             </div>
           ))}
         </div>
