@@ -5,15 +5,10 @@ package com.learningplatform.backend.service;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional; // NEW: Import for @Transactional
 
-import com.learningplatform.backend.model.Role;
 import com.learningplatform.backend.model.User;
 import com.learningplatform.backend.model.UserProfile;
-import com.learningplatform.backend.model.Avatar;
 import com.learningplatform.backend.model.enums.EAvatar;
-import com.learningplatform.backend.model.enums.ERole;
 
-import com.learningplatform.backend.repository.AvatarRepository;
-import com.learningplatform.backend.repository.RoleRepository;
 import com.learningplatform.backend.repository.UserRepository;
 
 import com.learningplatform.backend.dto.request.LoginRequest;
@@ -34,8 +29,6 @@ import java.util.Optional;
 public class AuthService {
 
     private final UserRepository userRepository;
-    private final RoleRepository roleRepository;
-    private final AvatarRepository avatarRepository;
     private final PasswordEncoder passwordEncoder;
 
     // NEW: Injected Spring Security components for login
@@ -45,14 +38,10 @@ public class AuthService {
     // Updated Constructor for dependency injection
     public AuthService(UserRepository userRepository,
                        PasswordEncoder passwordEncoder,
-                       RoleRepository roleRepository,
-                       AvatarRepository avatarRepository,
                        AuthenticationManager authenticationManager, // NEW
                        JwtUtils jwtUtils) { // NEW
         this.userRepository = userRepository;
         this.passwordEncoder = passwordEncoder;
-        this.roleRepository = roleRepository;
-        this.avatarRepository = avatarRepository;
         this.authenticationManager = authenticationManager; // NEW
         this.jwtUtils = jwtUtils; // NEW
     }
@@ -71,20 +60,14 @@ public class AuthService {
 
         String hashedPassword = passwordEncoder.encode(signupRequest.getPassword());
 
-        Role role = roleRepository
-                             .findByName(ERole.ROLE_USER)
-                             .orElseThrow(() -> new RuntimeException("Error: Role 'ROLE_USER' not found. Please ensure roles are pre-populated."));
 
         User user = new User(
                 signupRequest.getName(),
                 signupRequest.getEmail(),
-                hashedPassword,
-                role
+                hashedPassword
         );
 
-        Avatar avatar = avatarRepository
-                             .findByName(EAvatar.AVATAR_TECH_GIRL)
-                             .orElseThrow(() -> new RuntimeException("Error: Avatar 'AVATAR_TECH_GIRL' not found. Please ensure avatars are pre-populated.")); // Corrected error message
+        EAvatar avatar = EAvatar.AVATAR_TECH_GIRL;
 
         UserProfile userProfile = new UserProfile(
                 avatar

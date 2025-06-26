@@ -9,7 +9,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Column;
 
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.JoinColumn;
@@ -25,20 +24,16 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY) 
     private Long id;
 
-    @Column(nullable = false, unique = true) 
+    @Column(unique = true) 
     private String name;
 
-    @Column(nullable = false, unique = true) 
+    @Column(unique = true) 
     private String email;
 
     @Column(nullable = false) 
     private String passwordHash; // stores hashed password, NOT actual password (security purposes!)
 
     // Foreign Keys and Relationships
-
-    @ManyToOne(fetch = FetchType.EAGER) // EAGER: role is fetched immediately with the user
-    @JoinColumn(name = "role_id", nullable = false)
-    private Role role; 
 
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY) // LAZY: avatar is fetched only when accessed
     @JoinColumn(name = "user_profile_id") 
@@ -50,12 +45,11 @@ public class User {
     public User() {}
 
     // Constructor with parameters
-    public User(String name, String email, String passwordHash, Role role) {
+    public User(String name, String email, String passwordHash) {
         this(); 
         this.name = name;
         this.email = email;
         this.passwordHash = passwordHash;
-        this.role = role; 
     }
 
     // Getters and Setters
@@ -70,9 +64,6 @@ public class User {
 
     public String getPasswordHash() { return passwordHash; }
     public void setPasswordHash(String passwordHash) { this.passwordHash = passwordHash; }
-
-    public Role getRole() { return role; }
-    public void setRoles(Role role) { this.role = role; }
 
     public UserProfile getUserProfile() { return userProfile; } 
     public void setUserProfile(UserProfile userProfile) { this.userProfile = userProfile; }
