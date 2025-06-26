@@ -1,55 +1,61 @@
-// define User Entity
-// what columns should exist in database, what their types are, and any constraints
 package com.learningplatform.backend.model;
 
-import jakarta.persistence.*;
-import java.time.LocalDateTime; 
-import java.util.HashSet; 
-import java.util.Set;     
+// can be shortened to jakarta.persistence.* but just for learning purposes, we will keep it explicit
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+import jakarta.persistence.Id;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Column;
+
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToOne;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.CascadeType;
 
 @Entity
-@Table(name = "users") // Avoid 'user' as it can be a reserved keyword in some DBs
+@Table(name = "users") 
 public class User {
 
-    // Columns
+    // Fields
 
-    @Id // primary key
+    @Id 
     @GeneratedValue(strategy = GenerationType.IDENTITY) 
     private Long id;
 
-    @Column(nullable = false) 
+    @Column(nullable = false, unique = true) 
     private String name;
 
     @Column(nullable = false, unique = true) 
     private String email;
 
     @Column(nullable = false) 
-    private String passwordHash;
+    private String passwordHash; // stores hashed password, NOT actual password (security purposes!)
 
-    @Column(nullable = false) 
-    private LocalDateTime createdAt;
+    // Foreign Keys and Relationships
 
-    @ManyToMany(fetch = FetchType.LAZY) // LAZY: roles are fetched only when accessed
-    @JoinTable(
-        name = "user_roles", // Name of the join table in the database
-        joinColumns = @JoinColumn(name = "user_id"), // Column in user_roles linking to users table
-        inverseJoinColumns = @JoinColumn(name = "role_id")) // Column in user_roles linking to roles table
-    private Set<Role> roles = new HashSet<>(); // Initialise to prevent NullPointerException
+    @ManyToOne(fetch = FetchType.EAGER) // EAGER: role is fetched immediately with the user
+    @JoinColumn(name = "role_id", nullable = false)
+    private Role role; 
+
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY) // LAZY: avatar is fetched only when accessed
+    @JoinColumn(name = "user_profile_id") 
+    private UserProfile userProfile; 
 
     // Constructors
 
     // Default constructor
-    public User() { 
-        this.createdAt = LocalDateTime.now();
-    }
+    public User() {}
 
     // Constructor with parameters
-    public User(String name, String email, String passwordHash, Set<Role> roles) {
+    public User(String name, String email, String passwordHash, Role role) {
         this(); 
         this.name = name;
         this.email = email;
         this.passwordHash = passwordHash;
-        this.roles = roles; 
+        this.role = role; 
     }
 
     // Getters and Setters
@@ -65,10 +71,10 @@ public class User {
     public String getPasswordHash() { return passwordHash; }
     public void setPasswordHash(String passwordHash) { this.passwordHash = passwordHash; }
 
-    public LocalDateTime getCreatedAt() { return createdAt; }
-    public void setCreatedAt(LocalDateTime createdAt) { this.createdAt = createdAt; }
+    public Role getRole() { return role; }
+    public void setRoles(Role role) { this.role = role; }
 
-    public Set<Role> getRoles() { return roles; }
-    public void setRoles(Set<Role> roles) { this.roles = roles; }
+    public UserProfile getUserProfile() { return userProfile; } 
+    public void setUserProfile(UserProfile userProfile) { this.userProfile = userProfile; }
 
 }

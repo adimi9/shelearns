@@ -1,5 +1,5 @@
 import json
-from src.rag_system import RAGSystem # Assuming src.rag_system is the correct path
+from app.rag_system import RAGSystem # Assuming src.rag_system is the correct path
 
 # Initialize the RAG system
 rag = RAGSystem()

@@ -1,15 +1,16 @@
-// src/main/java/com/learningplatform/backend/repository/RoleRepository.java
 package com.learningplatform.backend.repository;
 
 import com.learningplatform.backend.model.Role;
-import com.learningplatform.backend.model.enums.ERole; // Import ERole
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
+import com.learningplatform.backend.model.enums.ERole; 
 
-import java.util.Optional; // Import Optional
+import org.springframework.stereotype.Repository;
+import org.springframework.data.repository.CrudRepository; 
+
+import java.util.Optional; 
 
 @Repository
-public interface RoleRepository extends JpaRepository<Role, Integer> {
-    // Custom method to find a Role by its name (e.g., ROLE_USER)
+public interface RoleRepository extends CrudRepository<Role, Integer> {
+
     Optional<Role> findByName(ERole name);
+
 }
