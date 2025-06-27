@@ -1,68 +1,93 @@
 package com.learningplatform.backend.exception;
 
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.MethodArgumentNotValidException;
+// overall
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseStatus;
 
-import java.time.LocalDateTime;
-import java.util.HashMap;
-import java.util.Map;
+// exceptions handled
+import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.security.core.AuthenticationException;
+
+// returns 
+import org.springframework.http.ResponseEntity;
+import com.learningplatform.backend.dto.response.ErrorResponse;
+
+// uses
+import jakarta.servlet.http.HttpServletRequest;
 import java.util.stream.Collectors;
+import java.util.Map;
+import java.util.HashMap;
+import org.springframework.http.HttpStatus;
+
+// logging
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
-    // Handles validation errors from @Valid / @Validated annotations
-    // This handler seems to be working perfectly and producing the desired output with integer status and 'details' map.
-    @ExceptionHandler(MethodArgumentNotValidException.class)
-    @ResponseStatus(HttpStatus.BAD_REQUEST) // HTTP 400
-    public ResponseEntity<Map<String, Object>> handleValidationExceptions(MethodArgumentNotValidException ex) {
-        Map<String, Object> response = new HashMap<>();
-        response.put("timestamp", LocalDateTime.now().toString());
-        response.put("status", HttpStatus.BAD_REQUEST.value()); // This is an integer (400)
-        response.put("error", HttpStatus.BAD_REQUEST.getReasonPhrase()); // "Bad Request" as String
-        response.put("message", "Validation failed for request body.");
+    private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
-        Map<String, String> errors = ex.getBindingResult().getFieldErrors().stream()
+    @ExceptionHandler(MethodArgumentNotValidException.class) // automatically throw exception when a controller method throws a `MethodArgumentNotValidException` (aka fails validation)
+
+    public ResponseEntity<Map<String, Object>> handleValidationErrors(MethodArgumentNotValidException ex) {
+
+        Map<String, String> errors = ex.getBindingResult().getFieldErrors().stream() // extract each field that failed validation
                 .collect(Collectors.toMap(
-                        fieldError -> fieldError.getField(),
-                        fieldError -> fieldError.getDefaultMessage() != null ? fieldError.getDefaultMessage() : "Invalid value"
+                        field -> field.getField(), // name of field 
+                        field -> field.getDefaultMessage() != null ? field.getDefaultMessage() : "Invalid value" // human readable message from annotation
                 ));
-        response.put("details", errors);
 
-        return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+        // build the full response body 
+        Map<String, Object> body = new HashMap<>();
+        body.put("status", 400); // 400 Bad Request 
+        body.put("message", "Validation failed"); // general description of the error 
+        body.put("details", errors); // specific field validation errors map 
+
+        // return the HTTP 400 (Bad Request) response
+        return ResponseEntity.badRequest().body(body);
     }
 
-    // Handles IllegalArgumentException
-    // Based on your latest 'print()' output, Spring's default error controller seems to take over
-    // and DOES NOT include an "error" field when the "status" is already the reason phrase.
-    // We will align with this observed behavior for these exceptions.
-    @ExceptionHandler(IllegalArgumentException.class)
-    @ResponseStatus(HttpStatus.BAD_REQUEST) // Still setting to 400 to match observed behavior
-    public ResponseEntity<Map<String, String>> handleIllegalArgumentException(IllegalArgumentException ex) {
-        Map<String, String> response = new HashMap<>();
-        response.put("timestamp", LocalDateTime.now().toString());
-        response.put("status", HttpStatus.BAD_REQUEST.getReasonPhrase()); // "Bad Request" as string
-        // REMOVED: response.put("error", HttpStatus.BAD_REQUEST.getReasonPhrase()); // This field is missing in your actual output
-        response.put("message", ex.getMessage());
-        return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+    @ExceptionHandler(AuthenticationException.class) // automatically throw exception when a controller method throws a `AuthenticationException` (aka fails authentication)
+  
+    public ResponseEntity<ErrorResponse> handleAuthException(AuthenticationException ex, HttpServletRequest request) {
+
+        ErrorResponse errorResponse = new ErrorResponse(
+            HttpStatus.UNAUTHORIZED.value(), 
+            HttpStatus.UNAUTHORIZED.getReasonPhrase(),
+            "Invalid email or password.",
+            request.getRequestURI()
+        );
+        
+        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(errorResponse);
+    }   
+
+    @ExceptionHandler(IllegalArgumentException.class) // thrown when invalid arguments are passed (bad request)
+
+    public ResponseEntity<ErrorResponse> handleIllegalArgs(IllegalArgumentException ex, HttpServletRequest request) {
+        ErrorResponse errorResponse = new ErrorResponse(
+            HttpStatus.BAD_REQUEST.value(),           
+            HttpStatus.BAD_REQUEST.getReasonPhrase(), 
+            ex.getMessage(),                           
+            request.getRequestURI()                  
+        );
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorResponse);
     }
 
-    // Catches all other uncaught exceptions (fallback)
-    // Similar to IllegalArgumentException, the 'error' field seems to be missing in actual output.
-    @ExceptionHandler(Exception.class)
-    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR) // HTTP 500
-    public ResponseEntity<Map<String, String>> handleGenericException(Exception ex) {
-        Map<String, String> response = new HashMap<>();
-        response.put("timestamp", LocalDateTime.now().toString());
-        response.put("status", HttpStatus.INTERNAL_SERVER_ERROR.getReasonPhrase()); // "Internal Server Error" as string
-        // REMOVED: response.put("error", HttpStatus.INTERNAL_SERVER_ERROR.getReasonPhrase()); // This field is missing in your actual output
-        response.put("message", "An unexpected error occurred.");
-        // In a real application, you would log 'ex' here for debugging:
-        // logger.error("Unhandled exception: ", ex);
-        return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+    @ExceptionHandler(Exception.class) // fallback for all other uncaught exceptions (internal server error)
+
+    public ResponseEntity<ErrorResponse> handleAllOther(Exception ex, HttpServletRequest request) {
+        
+        // log the exception details for debugging purposes
+        logger.error("Unhandled exception caught", ex);
+
+        ErrorResponse errorResponse = new ErrorResponse(
+            HttpStatus.INTERNAL_SERVER_ERROR.value(),            
+            HttpStatus.INTERNAL_SERVER_ERROR.getReasonPhrase(),  
+            "An unexpected error occurred.",                     
+            request.getRequestURI()                               
+        );
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorResponse);
     }
 }
