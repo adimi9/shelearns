@@ -12,6 +12,8 @@ import com.learningplatform.backend.model.UserProfile;
 import com.learningplatform.backend.model.enums.EAvatar;
 
 import com.learningplatform.backend.service.AuthService;
+import com.learningplatform.backend.security.jwt.AuthEntryPointJwt;
+import com.learningplatform.backend.security.jwt.AuthTokenFilter;
 import com.learningplatform.backend.security.jwt.JwtUtils;
 import com.learningplatform.backend.security.services.UserDetailsServiceImpl;
 import com.learningplatform.backend.repository.UserRepository;
@@ -22,6 +24,7 @@ import com.learningplatform.backend.config.SecurityConfig;
 import com.learningplatform.backend.exception.GlobalExceptionHandler;
 
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 
@@ -29,7 +32,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 // REMOVED: import org.springframework.boot.autoconfigure.EnableAutoConfiguration; // Will be removed below
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.context.annotation.Import;
-import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.servlet.MockMvc;
@@ -59,20 +62,26 @@ class AuthControllerTest {
     @Autowired
     private ObjectMapper objectMapper;
 
-    @MockBean
+    @MockitoBean
     private AuthService authService;
 
-    @MockBean
+    @MockitoBean
     private AuthenticationManager authenticationManager;
 
-    @MockBean
+    @MockitoBean
     private JwtUtils jwtUtils;
 
-    @MockBean
+    @MockitoBean
     private UserDetailsServiceImpl userDetailsService;
 
-    @MockBean
+    @MockitoBean
     private UserRepository userRepository;
+
+    @MockitoBean
+    private AuthEntryPointJwt authEntryPointJwt;
+
+    @MockitoBean
+    private AuthTokenFilter authTokenFilter;
 
     @Autowired
     private WebApplicationContext webApplicationContext;

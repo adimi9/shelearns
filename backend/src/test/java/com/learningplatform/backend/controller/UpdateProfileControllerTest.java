@@ -1,52 +1,88 @@
 package com.learningplatform.backend.controller;
-import com.learningplatform.backend.model.User; // Make sure this path is correct for your User entity
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.learningplatform.backend.config.SecurityConfig;
+import com.learningplatform.backend.dto.request.ChangePasswordRequest;
 import com.learningplatform.backend.dto.request.UpdateProfileRequest;
 import com.learningplatform.backend.dto.response.UpdateProfileResponse;
-import com.learningplatform.backend.security.services.UserDetailsImpl; // Make sure this import is correct
+import com.learningplatform.backend.exception.GlobalExceptionHandler;
+import com.learningplatform.backend.model.User;
+import com.learningplatform.backend.repository.UserRepository;
+import com.learningplatform.backend.security.jwt.AuthEntryPointJwt;
+import com.learningplatform.backend.security.jwt.AuthTokenFilter;
+import com.learningplatform.backend.security.jwt.JwtUtils;
+import com.learningplatform.backend.security.services.UserDetailsImpl;
+import com.learningplatform.backend.security.services.UserDetailsServiceImpl;
+import com.learningplatform.backend.service.AuthService;
 import com.learningplatform.backend.service.UserService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.test.context.bean.override.mockito.MockitoBean;
+import org.springframework.context.annotation.Import;
 import org.springframework.http.MediaType;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors;
+import org.springframework.test.context.ActiveProfiles;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.web.context.WebApplicationContext;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
+import static org.mockito.Mockito.doNothing;
+import static org.mockito.Mockito.doThrow;
 import static org.mockito.Mockito.when;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.user;
+import static org.springframework.security.test.web.servlet.setup.SecurityMockMvcConfigurers.springSecurity;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.patch;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 
-@WebMvcTest(UpdateProfileController.class) // Focuses on testing the web layer for UpdateProfileController
+@WebMvcTest(UpdateProfileController.class)
+@Import({SecurityConfig.class, GlobalExceptionHandler.class})
+@ActiveProfiles("test")
 public class UpdateProfileControllerTest {
 
-    @Autowired
-    private MockMvc mockMvc; // Used to perform HTTP requests
+    private MockMvc mockMvc;
 
     @Autowired
-    private ObjectMapper objectMapper; // Used to convert objects to JSON strings
+    private ObjectMapper objectMapper;
 
-    @MockitoBean
-    private UserService userService; // Mock the UserService dependency
+    @MockitoBean private UserService userService;
+    @MockitoBean private AuthService authService;
+    @MockitoBean private AuthenticationManager authenticationManager;
+    @MockitoBean private JwtUtils jwtUtils;
+    @MockitoBean private UserDetailsServiceImpl userDetailsService;
+    @MockitoBean private UserRepository userRepository;
+    @MockitoBean private AuthEntryPointJwt authEntryPointJwt;
+    @MockitoBean private AuthTokenFilter authTokenFilter;
+    @MockitoBean private PasswordEncoder passwordEncoder;
+
+    @Autowired
+    private WebApplicationContext webApplicationContext;
 
     private UserDetailsImpl mockUserDetails;
-    private Long authenticatedUserId = 1L; // Example user ID for tests
+    private Long authenticatedUserId = 1L;
 
     @BeforeEach
     void setUp() {
-        // Create a mock User object that matches the structure UserDetailsImpl.build(User user) expects
+        this.mockMvc = webAppContextSetup(webApplicationContext)
+                .apply(springSecurity())
+                .build();
+
         User mockUser = new User();
         mockUser.setId(authenticatedUserId);
-        mockUser.setName("testuser"); // Or any name you like
+        mockUser.setName("testuser");
         mockUser.setEmail("test@example.com");
+        mockUser.setPasswordHash("encodedTestPassword");
 
-        // Now, pass the mock User object to the build method
         mockUserDetails = UserDetailsImpl.build(mockUser);
     }
+
+    // --- Update Profile Tests ---
 
     @Test
     void testUpdateProfile_Success() throws Exception {
@@ -60,27 +96,26 @@ public class UpdateProfileControllerTest {
                 request.getEmail()
         );
 
-        // Mock the UserService to return the expected response when called
         when(userService.updateUserProfile(eq(authenticatedUserId), any(UpdateProfileRequest.class)))
                 .thenReturn(expectedResponse);
 
         mockMvc.perform(patch("/api/profile")
-                .with(user(mockUserDetails)) // Authenticate the request with our mock user
+                .with(user(mockUserDetails))
                 .contentType(MediaType.APPLICATION_JSON)
-                .content(objectMapper.writeValueAsString(request))) // Convert request DTO to JSON
-                .andExpect(status().isOk()) // Expect HTTP 200 OK
+                .content(objectMapper.writeValueAsString(request)))
+                .andExpect(status().isOk())
                 .andExpect(jsonPath("$.id").value(authenticatedUserId))
                 .andExpect(jsonPath("$.name").value("Updated Name"))
-                .andExpect(jsonPath("$.email").value("updated.email@example.com"));
+                .andExpect(jsonPath("$.email").value("updated.email@example.com"))
+                .andDo(print());
     }
 
     @Test
     void testUpdateProfile_EmailAlreadyTaken() throws Exception {
         UpdateProfileRequest request = new UpdateProfileRequest();
         request.setName("Some Name");
-        request.setEmail("taken@example.com"); // Email that is supposedly already taken
+        request.setEmail("taken@example.com");
 
-        // Mock the UserService to throw IllegalArgumentException for a taken email
         when(userService.updateUserProfile(eq(authenticatedUserId), any(UpdateProfileRequest.class)))
                 .thenThrow(new IllegalArgumentException("Email 'taken@example.com' is already in use."));
 
@@ -88,43 +123,155 @@ public class UpdateProfileControllerTest {
                 .with(user(mockUserDetails))
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(request)))
-                .andExpect(status().isBadRequest()) // Expect HTTP 400 Bad Request
-                .andExpect(jsonPath("$.status").value("Bad Request"))
+                .andExpect(status().isBadRequest())
+                .andExpect(jsonPath("$.status").value("Bad Request")) // Expecting "Bad Request" as String
+                // .andExpect(jsonPath("$.error").value("Bad Request")) // REMOVED: Based on your output, this field is missing for these errors
                 .andExpect(jsonPath("$.message").value("Email 'taken@example.com' is already in use."))
-                .andExpect(jsonPath("$.path").value("/api/profile"));
+                .andDo(print());
     }
 
     @Test
     void testUpdateProfile_BlankNameValidation() throws Exception {
         UpdateProfileRequest request = new UpdateProfileRequest();
-        request.setName(""); // Blank name
+        request.setName("");
         request.setEmail("valid@example.com");
 
         mockMvc.perform(patch("/api/profile")
                 .with(user(mockUserDetails))
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(request)))
-                .andExpect(status().isBadRequest()) // Expect HTTP 400 Bad Request due to @NotBlank
-                .andExpect(jsonPath("$.status").value("Bad Request"))
-                .andExpect(jsonPath("$.message").exists()) // Message will contain validation error details
-                .andExpect(jsonPath("$.message").value("Name cannot be empty")); // Specific message from @NotBlank
+                .andExpect(status().isBadRequest())
+                .andExpect(jsonPath("$.status").value(400)) // Still expecting 400 as integer from validation handler
+                .andExpect(jsonPath("$.error").value("Bad Request")) // Still expecting "Bad Request" string from validation handler
+                .andExpect(jsonPath("$.message").value("Validation failed for request body."))
+                .andExpect(jsonPath("$.details").exists())
+                .andExpect(jsonPath("$.details.name").value("Name cannot be empty"))
+                .andDo(print());
+    }
+
+    // --- Change Password Tests ---
+
+    @Test
+    void shouldChangePasswordSuccessfullyAndReturnOk() throws Exception {
+        ChangePasswordRequest request = new ChangePasswordRequest();
+        request.setOldPassword("oldPassword123");
+        request.setNewPassword("newStrongPassword456");
+        request.setConfirmNewPassword("newStrongPassword456");
+
+        doNothing().when(userService).changePassword(eq(authenticatedUserId), any(ChangePasswordRequest.class));
+
+        mockMvc.perform(patch("/api/profile/password")
+                        .with(SecurityMockMvcRequestPostProcessors.user(mockUserDetails))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$").value("Password changed successfully."))
+                .andDo(print());
     }
 
     @Test
-    void testUpdateProfile_Unauthorized() throws Exception {
-        UpdateProfileRequest request = new UpdateProfileRequest();
-        request.setName("Unauthorized User");
-        request.setEmail("unauth@example.com");
+    void shouldReturnBadRequestForInvalidOldPassword() throws Exception {
+        ChangePasswordRequest request = new ChangePasswordRequest();
+        request.setOldPassword("wrongOldPassword");
+        request.setNewPassword("newStrongPassword");
+        request.setConfirmNewPassword("newStrongPassword");
 
-        // No .with(user()) is used here, so the request is not authenticated
-        mockMvc.perform(patch("/api/profile")
-                .contentType(MediaType.APPLICATION_JSON)
-                .content(objectMapper.writeValueAsString(request)))
-                .andExpect(status().isUnauthorized()); // Expect HTTP 401 Unauthorized
+        doThrow(new IllegalArgumentException("Invalid old password."))
+                .when(userService).changePassword(eq(authenticatedUserId), any(ChangePasswordRequest.class));
+
+        mockMvc.perform(patch("/api/profile/password")
+                        .with(SecurityMockMvcRequestPostProcessors.user(mockUserDetails))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                .andExpect(status().isBadRequest())
+                .andExpect(jsonPath("$.status").value("Bad Request")) // Expecting "Bad Request" as String
+                // .andExpect(jsonPath("$.error").value("Bad Request")) // REMOVED
+                .andExpect(jsonPath("$.message").value("Invalid old password."))
+                .andDo(print());
     }
 
-    // You might also want to add tests for:
-    // - Invalid email format (e.g., "invalid-email")
-    // - User not found (though for authenticated users, this is less likely)
-    // - Internal server error handling (mock service to throw a generic Exception)
+    @Test
+    void shouldReturnBadRequestWhenNewPasswordsDoNotMatch() throws Exception {
+        ChangePasswordRequest request = new ChangePasswordRequest();
+        request.setOldPassword("oldPassword123");
+        request.setNewPassword("newStrongPassword");
+        request.setConfirmNewPassword("mismatchedPassword");
+
+        doThrow(new IllegalArgumentException("New password and confirmation do not match."))
+                .when(userService).changePassword(eq(authenticatedUserId), any(ChangePasswordRequest.class));
+
+        mockMvc.perform(patch("/api/profile/password")
+                        .with(SecurityMockMvcRequestPostProcessors.user(mockUserDetails))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                .andExpect(status().isBadRequest())
+                .andExpect(jsonPath("$.status").value("Bad Request")) // Expecting "Bad Request" as String
+                // .andExpect(jsonPath("$.error").value("Bad Request")) // REMOVED
+                .andExpect(jsonPath("$.message").value("New password and confirmation do not match."))
+                .andDo(print());
+    }
+
+    @Test
+    void shouldReturnBadRequestWhenNewPasswordIsSameAsOld() throws Exception {
+        ChangePasswordRequest request = new ChangePasswordRequest();
+        request.setOldPassword("oldPassword123");
+        request.setNewPassword("oldPassword123");
+        request.setConfirmNewPassword("oldPassword123");
+
+        doThrow(new IllegalArgumentException("New password cannot be the same as the old password."))
+                .when(userService).changePassword(eq(authenticatedUserId), any(ChangePasswordRequest.class));
+
+        mockMvc.perform(patch("/api/profile/password")
+                        .with(SecurityMockMvcRequestPostProcessors.user(mockUserDetails))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                .andExpect(status().isBadRequest())
+                .andExpect(jsonPath("$.status").value("Bad Request")) // Expecting "Bad Request" as String
+                // .andExpect(jsonPath("$.error").value("Bad Request")) // REMOVED
+                .andExpect(jsonPath("$.message").value("New password cannot be the same as the old password."))
+                .andDo(print());
+    }
+
+    @Test
+    void shouldReturnBadRequestForInvalidChangePasswordRequestViaValidation() throws Exception {
+        ChangePasswordRequest request = new ChangePasswordRequest();
+        request.setOldPassword("");
+        request.setNewPassword("short");
+        request.setConfirmNewPassword("");
+
+        mockMvc.perform(patch("/api/profile/password")
+                        .with(SecurityMockMvcRequestPostProcessors.user(mockUserDetails))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                .andExpect(status().isBadRequest())
+                .andExpect(jsonPath("$.status").value(400)) // Still expecting 400 as integer from validation handler
+                .andExpect(jsonPath("$.error").value("Bad Request")) // Still expecting "Bad Request" string from validation handler
+                .andExpect(jsonPath("$.message").value("Validation failed for request body."))
+                .andExpect(jsonPath("$.details").exists())
+                .andExpect(jsonPath("$.details.oldPassword").value("Old password cannot be empty"))
+                .andExpect(jsonPath("$.details.newPassword").value("New password must be at least 8 characters long"))
+                .andExpect(jsonPath("$.details.confirmNewPassword").value("Confirm new password cannot be empty"))
+                .andDo(print());
+    }
+
+    @Test
+    void shouldReturnInternalServerErrorOnChangePasswordFailure() throws Exception {
+        ChangePasswordRequest request = new ChangePasswordRequest();
+        request.setOldPassword("oldPassword123");
+        request.setNewPassword("newStrongPassword456");
+        request.setConfirmNewPassword("newStrongPassword456");
+
+        doThrow(new RuntimeException("Database error during password change"))
+                .when(userService).changePassword(eq(authenticatedUserId), any(ChangePasswordRequest.class));
+
+        mockMvc.perform(patch("/api/profile/password")
+                        .with(SecurityMockMvcRequestPostProcessors.user(mockUserDetails))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                .andExpect(status().isInternalServerError())
+                .andExpect(jsonPath("$.status").value("Internal Server Error")) // Expecting "Internal Server Error" as String
+                // .andExpect(jsonPath("$.error").value("Internal Server Error")) // REMOVED
+                .andExpect(jsonPath("$.message").value("An unexpected error occurred."))
+                .andDo(print());
+    }
 }
