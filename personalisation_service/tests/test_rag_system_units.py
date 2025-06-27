@@ -127,8 +127,6 @@ async def test_answer_question_success(rag_system_instance, mocker):
     assert "intro_paragraph" in parsed_response
     assert "recommended_courses" in parsed_response
     assert len(parsed_response["recommended_courses"]) >= 5 # As per schema minItems
-    assert all("level" in course for course in parsed_response["recommended_courses"])
-    assert all(isinstance(course["level"], str) for course in parsed_response["recommended_courses"])
 
 
     # Verify that OpenAI chat completion was called with the correct system message and prompt
@@ -142,11 +140,7 @@ async def test_answer_question_success(rag_system_instance, mocker):
     assert "User's personalized questionnaire responses:" in kwargs['messages'][1]['content']
     assert "Available Courses for Consideration in Web Development Development:" in kwargs['messages'][1]['content']
 
-    # More robust check for the level property in the JSON schema
-    response_format_schema_props = kwargs['response_format']['json_schema']['schema']['properties']['recommended_courses']['items']['properties']
-    assert 'level' in response_format_schema_props
-    assert response_format_schema_props['level'] == {'type': 'string'}
-    assert 'level' in kwargs['response_format']['json_schema']['schema']['properties']['recommended_courses']['items']['required']
+    
 
 
 @pytest.mark.asyncio

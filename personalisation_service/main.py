@@ -27,7 +27,6 @@ class PersonalizationRequest(BaseModel):
 class CourseRecommendation(BaseModel): # New Pydantic model for course items
     name: str
     description: str
-    level: str # Added level field
 
 class PersonalizationResponse(BaseModel):
     intro_paragraph: str

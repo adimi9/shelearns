@@ -156,7 +156,6 @@ Based on the 'User's personalized questionnaire responses' and the 'Available Co
 4.  **Course Details Accuracy:** Each object within the `recommended_courses` array **must** have:
     * `name`: Exactly matching a 'Course Name' from 'Available Courses for Consideration'. Do **NOT** invent course names.
     * `description`: Provide accurate and helpful descriptions, either directly from the provided context or reasonably inferred from its topics/technologies. Do **NOT** use markdown in this field.
-    * `level`: Inferred from the user's experience level in the questionnaire and the course's target levels in the provided context (e.g., "Beginner", "Intermediate", "Advanced").
 5.  **Logical Order:** Present the courses within the `recommended_courses` array in a logical learning order, progressing from foundational to more advanced concepts. Do **NOT** group them into phases or any other hierarchical structure; keep it a flat list.
 6.  **Introductory Paragraph Content:** The `intro_paragraph` **must be a single paragraph**. It should succinctly:
     * Acknowledge the user's primary learning interest/goal (e.g., "Based on your interest in X...").
@@ -187,10 +186,9 @@ Answer:"""
                                         "type": "object",
                                         "properties": {
                                             "name": { "type": "string" },
-                                            "description": { "type": "string" },
-                                            "level": { "type": "string" }
+                                            "description": { "type": "string" }
                                         },
-                                        "required": ["name", "description", "level"],
+                                        "required": ["name", "description"],
                                         "additionalProperties": False
                                     },
                                     "minItems": 5
@@ -208,13 +206,13 @@ Answer:"""
             try:
                 parsed_json = json.loads(raw_response_content)
                 return json.dumps(parsed_json, indent=2)
+        
             except json.JSONDecodeError as e:
                 print(f"CRITICAL ERROR: LLM produced invalid JSON despite schema enforcement: {e}")
                 print(f"Raw response content from LLM: '{raw_response_content}'")
                 return json.dumps({
                     "intro_paragraph": "An internal processing error occurred: the AI's response was not in the expected format. We're working to fix this!",
                     "recommended_courses": [],
-                    # REMOVED "conclusion_paragraph"
                 })
 
         except openai.APIConnectionError as e:

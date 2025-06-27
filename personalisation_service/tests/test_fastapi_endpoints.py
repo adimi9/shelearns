@@ -32,11 +32,11 @@ async def test_personalize_roadmap_endpoint_success(mocker):
     mock_roadmap_response = json.dumps({
         "intro_paragraph": "Here is your personalized roadmap (mocked).",
         "recommended_courses": [
-            {"name": "Mock Course A", "description": "Desc A", "level": "Beginner"},
-            {"name": "Mock Course B", "description": "Desc B", "level": "Intermediate"},
-            {"name": "Mock Course C", "description": "Desc C", "level": "Advanced"},
-            {"name": "Mock Course D", "description": "Desc D", "level": "Beginner"},
-            {"name": "Mock Course E", "description": "Desc E", "level": "Intermediate"}
+            {"name": "Mock Course A", "description": "Desc A"},
+            {"name": "Mock Course B", "description": "Desc B"},
+            {"name": "Mock Course C", "description": "Desc C"},
+            {"name": "Mock Course D", "description": "Desc D"},
+            {"name": "Mock Course E", "description": "Desc E"}
         ]
     })
 
@@ -56,7 +56,6 @@ async def test_personalize_roadmap_endpoint_success(mocker):
     assert response_data["intro_paragraph"] == "Here is your personalized roadmap (mocked)."
     assert len(response_data["recommended_courses"]) == 5
     assert response_data["recommended_courses"][0]["name"] == "Mock Course A"
-    assert response_data["recommended_courses"][0]["level"] == "Beginner" # Assert level is present and correct
 
     # Assert that the mocked answer_question was called correctly
     RAGSystem.answer_question.assert_awaited_once_with(request_payload["prompt"])

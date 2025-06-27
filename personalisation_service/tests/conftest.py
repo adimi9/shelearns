@@ -121,11 +121,11 @@ def mock_rag_system(mocker):
         choices=[mocker.Mock(message=mocker.Mock(content=json.dumps({
             "intro_paragraph": "This is a mock introduction.",
             "recommended_courses": [
-                {"name": "Mock Course 1", "description": "Description for mock course 1.", "level": "Beginner"},
-                {"name": "Mock Course 2", "description": "Description for mock course 2.", "level": "Intermediate"},
-                {"name": "Mock Course 3", "description": "Description for mock course 3.", "level": "Advanced"},
-                {"name": "Mock Course 4", "description": "Description for mock course 4.", "level": "Beginner"},
-                {"name": "Mock Course 5", "description": "Description for mock course 5.", "level": "Intermediate"}
+                {"name": "Mock Course 1", "description": "Description for mock course 1."},
+                {"name": "Mock Course 2", "description": "Description for mock course 2."},
+                {"name": "Mock Course 3", "description": "Description for mock course 3."},
+                {"name": "Mock Course 4", "description": "Description for mock course 4."},
+                {"name": "Mock Course 5", "description": "Description for mock course 5."}
             ]
         })))])
 
