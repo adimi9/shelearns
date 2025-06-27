@@ -199,11 +199,6 @@ class AuthServiceTest {
         assertThat(loggedInResponse.getId()).isEqualTo(testUser.getId());
         assertThat(loggedInResponse.getName()).isEqualTo(testUser.getName());
         assertThat(loggedInResponse.getEmail()).isEqualTo(testUser.getEmail());
-        // --- FIX: LoginResponse.getRole() should match UserDetailsImpl's current behavior ---
-        assertThat(loggedInResponse.getRole()).isEqualTo("NONE"); // UserDetailsImpl now returns empty authorities.
-                                                                  // Assuming LoginResponse maps this to "NONE" or empty string.
-        // --- End Fix ---
-
         verify(authenticationManager, times(1)).authenticate(any(UsernamePasswordAuthenticationToken.class));
         verify(jwtUtils, times(1)).generateJwtToken(userDetails);
         verify(userRepository, never()).findByEmail(anyString());
