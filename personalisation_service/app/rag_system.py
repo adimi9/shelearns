@@ -58,10 +58,7 @@ class RAGSystem:
         return None
 
     def _format_course_for_context(self, course_dict: Dict[str, Any]) -> str:
-        """
-        Formats a single course dictionary into a readable string for the LLM's context.
-        Highlights important course details to help the LLM in its selection process.
-        """
+        course_id = course_dict.get('id', 'N/A')
         name = course_dict.get('name', 'N/A')
         category = course_dict.get('category', 'N/A')
         topics = ', '.join(course_dict.get('topics', []))
@@ -71,6 +68,7 @@ class RAGSystem:
         recommended_str = "Yes" if course_dict.get('recommended', False) else "No"
 
         return (
+            f"ID: {course_id}\n"
             f"Course Name: {name}\n"
             f"Category: {category}\n"
             f"Key Topics: {topics}\n"
@@ -154,6 +152,7 @@ Based on the 'User's personalized questionnaire responses' and the 'Available Co
     * `[link text](url)`
     **DO NOT USE ANY OTHER MARKDOWN SYNTAX (e.g., no numbered lists, no code blocks, no blockquotes, etc.). Output raw markdown.**
 4.  **Course Details Accuracy:** Each object within the `recommended_courses` array **must** have:
+    * `id`: Exactly match the ID from the corresponding 'Available Course for Consideration'. If an alternative is selected, use the original course's ID to preserve continuity.
     * `name`: Exactly matching a 'Course Name' from 'Available Courses for Consideration'. Do **NOT** invent course names.
     * `description`: Provide accurate and helpful descriptions, either directly from the provided context or reasonably inferred from its topics/technologies. Do **NOT** use markdown in this field.
 5.  **Logical Order:** Present the courses within the `recommended_courses` array in a logical learning order, progressing from foundational to more advanced concepts. Do **NOT** group them into phases or any other hierarchical structure; keep it a flat list.
@@ -185,14 +184,15 @@ Answer:"""
                                     "items": {
                                         "type": "object",
                                         "properties": {
-                                            "name": { "type": "string" },
-                                            "description": { "type": "string" }
+                                        "id": { "type": "string" },
+                                        "name": { "type": "string" },
+                                        "description": { "type": "string" }
                                         },
-                                        "required": ["name", "description"],
+                                        "required": ["id", "name", "description"],
                                         "additionalProperties": False
                                     },
                                     "minItems": 5
-                                },
+                                }
                             },
                             "required": ["intro_paragraph", "recommended_courses"],
                             "additionalProperties": False # This is correctly set to False

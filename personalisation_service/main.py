@@ -25,6 +25,7 @@ class PersonalizationRequest(BaseModel):
     prompt: str
 
 class CourseRecommendation(BaseModel): # New Pydantic model for course items
+    id: str
     name: str
     description: str
 
