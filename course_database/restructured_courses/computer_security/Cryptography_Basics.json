@@ -1,0 +1,120 @@
+{
+  "id": "CSec10",
+  "name": "Cryptography Basics",
+  "category": "Computer Security",
+  "primary_tech": "Cryptography",
+  "topics": [
+    "Symmetric vs. Asymmetric Encryption",
+    "Hashing Algorithms",
+    "Digital Signatures & Certificates",
+    "Public Key Infrastructure (PKI)"
+  ],
+  "recommended": true,
+  "tags": [
+    "encryption",
+    "data-protection",
+    "algorithms"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API",
+        "description": "The Web Crypto API documentation provides details on performing cryptographic operations in web applications securely."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Crypto",
+        "description": "An overview of the Crypto interface for performing cryptographic operations in web applications."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/digest",
+        "description": "This resource explains how to use the SubtleCrypto.digest method for generating cryptographic hash digests in web applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/computer-networks/cryptography-tutorial/",
+        "description": "This resource provides an introductory tutorial on cryptography, covering fundamental concepts and techniques used in securing digital communication."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/computer-networks/cryptography-and-its-types/",
+        "description": "An overview of cryptography and its various types within the context of computer networks."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/computer-networks/rsa-algorithm-cryptography/",
+        "description": "An overview of the RSA algorithm in cryptography, explaining its principles and implementation for secure data transmission."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/",
+        "description": "An introduction to the Caesar Cipher, explaining its encryption and decryption processes in cryptography."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/tag/cryptography/",
+        "description": "A collection of articles and tutorials on cryptography concepts, techniques, and applications."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=jhXCTbFnK8o",
+      "https://www.youtube.com/watch?v=NuyzuNBFWxQ",
+      "https://www.youtube.com/watch?v=C7vmouDOJYM",
+      "https://www.youtube.com/watch?v=jrGl0pPXfPQ",
+      "https://www.youtube.com/watch?v=9fXEKGwQ7zU"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the main difference between symmetric and asymmetric encryption?",
+      "options": [
+        "Symmetric encryption uses two keys, whereas asymmetric uses one key.",
+        "Symmetric encryption uses one key for both encryption and decryption, whereas asymmetric uses two different keys.",
+        "Symmetric encryption is slower than asymmetric encryption.",
+        "Asymmetric encryption cannot be used for digital signatures."
+      ],
+      "correct_option": 1,
+      "hint": "Consider the number of keys used in each method."
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of hashing algorithms?",
+      "options": [
+        "They are reversible functions.",
+        "They produce a fixed-size output.",
+        "They are designed to be fast to compute.",
+        "A small change in input drastically changes the output."
+      ],
+      "correct_option": 0,
+      "hint": "Think about whether the function can be reversed to get the original input."
+    },
+    {
+      "question": "What is a digital signature primarily used for?",
+      "options": [
+        "Encrypting messages to ensure confidentiality.",
+        "Signing documents to verify the sender's identity and ensure message integrity.",
+        "Creating a hash of a document.",
+        "Storing sensitive data securely."
+      ],
+      "correct_option": 1,
+      "hint": "Consider what digital signatures verify."
+    },
+    {
+      "question": "In Public Key Infrastructure (PKI), what is the role of a Certificate Authority (CA)?",
+      "options": [
+        "To issue and verify digital certificates.",
+        "To encrypt and decrypt messages.",
+        "To create hashing algorithms.",
+        "To store public keys securely."
+      ],
+      "correct_option": 0,
+      "hint": "Think about who is responsible for verifying identities in PKI."
+    },
+    {
+      "question": "Which hashing algorithm is considered outdated due to vulnerabilities?",
+      "options": [
+        "SHA-256",
+        "SHA-1",
+        "MD5",
+        "SHA-3"
+      ],
+      "correct_option": 2,
+      "hint": "This algorithm is known for its speed but not for its security."
+    }
+  ]
+}

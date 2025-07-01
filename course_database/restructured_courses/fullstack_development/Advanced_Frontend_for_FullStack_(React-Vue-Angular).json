@@ -1,0 +1,121 @@
+{
+  "id": "FS10",
+  "name": "Advanced Frontend for FullStack (React/Vue/Angular)",
+  "category": "FullStack Development",
+  "primary_tech": "Frontend Frameworks",
+  "topics": [
+    "Advanced State Management",
+    "Component Reusability & Design Systems",
+    "Optimizing Frontend Performance",
+    "Integration with Backend APIs"
+  ],
+  "recommended": true,
+  "tags": [
+    "frontend",
+    "React",
+    "Vue",
+    "Angular"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://reactjs.org/",
+        "description": "Official documentation and resources for building user interfaces with React, a JavaScript library."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "description": "Comprehensive documentation and resources for learning and using JavaScript on the web."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/SPA",
+        "description": "An overview of Single Page Applications (SPAs), explaining their structure, benefits, and how they function within web development."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://forum.freecodecamp.org/t/i-m-35-years-old-and-i-d-like-to-start-programming-but-i-don-t-know-where-to-start/408105",
+        "description": "A forum discussion offering guidance and encouragement for individuals over 30 looking to start learning programming."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/truly-disliking-react-but-want-to-complete-the-course/275160",
+        "description": "Discussion forum thread where users share experiences and tips for overcoming challenges while learning React."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/60-days-of-frontend-development/",
+        "description": "A comprehensive 60-day learning plan for mastering frontend development skills."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/how-to-go-from-junior-developer-to-mid-level-developer/",
+        "description": "This resource provides guidance and strategies for junior developers to advance to mid-level roles in their careers."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/front-end-developer-interview-questions/",
+        "description": "Comprehensive list of common interview questions for front-end developer roles, covering key concepts and skills."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=nhBVL41-_Cw",
+      "https://www.youtube.com/watch?v=Ata9cSC2WpM",
+      "https://www.youtube.com/watch?v=oUmVFHlwZsI",
+      "https://www.youtube.com/watch?v=ZUXKG3JFszc",
+      "https://www.youtube.com/watch?v=1UcaKyq7KUU"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which of the following is NOT a recommended practice for optimizing frontend performance?",
+      "options": [
+        "Minifying CSS and JavaScript files",
+        "Using server-side rendering",
+        "Loading all images synchronously",
+        "Implementing lazy loading"
+      ],
+      "correct_option": 2,
+      "hint": "Consider practices that reduce initial load time and improve user experience."
+    },
+    {
+      "question": "In the context of component reusability, what is a design system primarily used for?",
+      "options": [
+        "Managing API endpoints",
+        "Providing a standardized UI and UX",
+        "Optimizing database queries",
+        "Implementing security protocols"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how a design system contributes to consistency in user interfaces."
+    },
+    {
+      "question": "What is a key advantage of using advanced state management libraries like Redux or Vuex?",
+      "options": [
+        "They eliminate the need for backend APIs",
+        "They simplify managing global state in complex applications",
+        "They automatically generate UI components",
+        "They improve HTML performance"
+      ],
+      "correct_option": 1,
+      "hint": "Consider how these libraries help manage application state across components."
+    },
+    {
+      "question": "When integrating frontend frameworks with backend APIs, what is a common method for handling asynchronous data fetching?",
+      "options": [
+        "Using synchronous HTTP requests",
+        "Utilizing Promises or async/await",
+        "Embedding SQL queries in JavaScript",
+        "Implementing static site generation"
+      ],
+      "correct_option": 1,
+      "hint": "Consider JavaScript features that handle asynchronous operations efficiently."
+    },
+    {
+      "question": "In React, what is the purpose of using React.memo for components?",
+      "options": [
+        "To prevent server-side rendering",
+        "To re-render components on every state change",
+        "To memoize components and prevent unnecessary re-renders",
+        "To enable component testing"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how React.memo helps in optimizing component rendering."
+    }
+  ]
+}

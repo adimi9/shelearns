@@ -1,0 +1,119 @@
+{
+  "id": "FE10",
+  "name": "React.js Essentials",
+  "category": "Frontend Development",
+  "primary_tech": "React.js",
+  "topics": [
+    "JSX, Components, Props & State",
+    "Hooks & Lifecycle",
+    "Context API, Redux"
+  ],
+  "recommended": true,
+  "tags": [
+    "framework",
+    "SPA",
+    "component-based"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "description": "A comprehensive resource for learning and understanding JavaScript, including guides, references, and tutorials."
+      },
+      {
+        "url": "https://reactjs.org/docs/getting-started.html",
+        "description": "An introductory guide to getting started with React, covering the basics and core concepts of building React applications."
+      },
+      {
+        "url": "https://legacy.reactjs.org/docs/hooks-overview.html",
+        "description": "An overview of React Hooks, explaining their purpose and how they enable state and side-effect management in functional components."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/js/",
+        "description": "Comprehensive tutorials and references for learning JavaScript programming from beginner to advanced levels."
+      },
+      {
+        "url": "https://www.w3schools.com/REACT/DEFAULT.ASP",
+        "description": "A comprehensive tutorial for learning React, covering fundamental concepts and practical examples."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/reactjs/react/",
+        "description": "An introductory guide to understanding and using ReactJS for building user interfaces."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/reactjs/reactjs-basics-concepts-complete-reference/",
+        "description": "A comprehensive guide covering the fundamental concepts and basics of ReactJS for developers."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/javascript/javascript-tutorial/",
+        "description": "Comprehensive guide for learning JavaScript from basics to advanced concepts."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=SqcY0GlETPk",
+      "https://www.youtube.com/watch?v=wIyHSOugGGw",
+      "https://www.youtube.com/watch?v=Tn6-PIqc4UM",
+      "https://www.youtube.com/watch?v=s2skans2dP4",
+      "https://www.youtube.com/watch?v=m55PTVUrlnA"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is JSX primarily used for in React?",
+      "options": [
+        "To define component lifecycle methods",
+        "To describe the UI structure",
+        "To manage state and props",
+        "To interact with the Redux store"
+      ],
+      "correct_option": 1,
+      "hint": "JSX is a syntax extension that resembles HTML."
+    },
+    {
+      "question": "In React, what is a component?",
+      "options": [
+        "A function or class that optionally receives input and returns a React element",
+        "A global variable used for state management",
+        "A method for optimizing performance",
+        "A style guide for consistent UI"
+      ],
+      "correct_option": 0,
+      "hint": "Components are the building blocks of any React app."
+    },
+    {
+      "question": "How does the 'useState' hook function in React?",
+      "options": [
+        "It manages component state and returns an updated state value and a function to update it",
+        "It connects the component to the Redux store",
+        "It replaces the render method in class components",
+        "It is used for routing in single-page applications"
+      ],
+      "correct_option": 0,
+      "hint": "useState is a hook that lets you add React state to function components."
+    },
+    {
+      "question": "What is the primary purpose of the Context API in React?",
+      "options": [
+        "To manage and update state across multiple components",
+        "To define and reuse component styles",
+        "To handle asynchronous operations",
+        "To allow component reusability"
+      ],
+      "correct_option": 0,
+      "hint": "Context is designed to share data that can be considered global for a tree of React components."
+    },
+    {
+      "question": "Which of the following is true about Redux in React?",
+      "options": [
+        "Redux uses a single source of truth for the application's state",
+        "Redux is built into React and requires no additional library",
+        "Redux manages component side-effects",
+        "Redux automatically handles component rendering"
+      ],
+      "correct_option": 0,
+      "hint": "Redux centralizes the application's state and logic."
+    }
+  ]
+}

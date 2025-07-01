@@ -1,0 +1,119 @@
+{
+  "id": "FE1",
+  "name": "Testing in Frontend Development",
+  "category": "Frontend Development",
+  "primary_tech": "Jest",
+  "topics": [
+    "Unit Testing",
+    "Component Testing",
+    "End-to-End Testing"
+  ],
+  "recommended": true,
+  "tags": [
+    "testing",
+    "QA",
+    "frontend"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "description": "A comprehensive guide for beginners to learn the fundamentals of web development, including HTML, CSS, and JavaScript."
+      },
+      {
+        "url": "https://reactjs.org/",
+        "description": "The official website for React, a JavaScript library for building user interfaces, providing comprehensive documentation, tutorials, and resources."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
+        "description": "An introduction to ARIA (Accessible Rich Internet Applications) and how it enhances web accessibility."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/software-engineering/what-is-front-end-testing/",
+        "description": "An overview of front-end testing, explaining its importance, methods, and tools used to ensure the user interface functions correctly."
+      },
+      {
+        "url": "https://www.w3schools.com/howto/howto_blog_become_frontenddev.asp",
+        "description": "A guide on how to become a front-end developer, covering essential skills and tools."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/front-end-development/",
+        "description": "A comprehensive guide and resource hub for learning and mastering front-end development techniques and tools."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/a-b-testing-in-web-development/",
+        "description": "This resource explains the concept and implementation of A/B testing in web development."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/web-development/",
+        "description": "An introductory guide to web development concepts, tools, and technologies."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=ZUXKG3JFszc",
+      "https://www.youtube.com/watch?v=u6QfIXgjwGQ",
+      "https://www.youtube.com/watch?v=lH1bGIEHboI",
+      "https://www.youtube.com/watch?v=BQqzfHQkREo",
+      "https://www.youtube.com/watch?v=zuKbR4Q428o"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the main purpose of unit testing in frontend development?",
+      "options": [
+        "To test the entire application workflow",
+        "To verify the functionality of individual components or functions",
+        "To ensure the application is user-friendly",
+        "To test the application's performance under load"
+      ],
+      "correct_option": 1,
+      "hint": "Think about the smallest testable parts of an application."
+    },
+    {
+      "question": "Which frontend testing framework is commonly used for writing unit tests?",
+      "options": [
+        "React",
+        "Jest",
+        "Vue",
+        "Angular"
+      ],
+      "correct_option": 1,
+      "hint": "This framework is named after a common term for a humorous narrative."
+    },
+    {
+      "question": "What is a key benefit of component testing in frontend development?",
+      "options": [
+        "Ensures the entire application loads quickly",
+        "Tests the integration between backend and frontend",
+        "Verifies that each user interface component behaves as expected",
+        "Improves collaboration between development and operations teams"
+      ],
+      "correct_option": 2,
+      "hint": "Focus on the individual parts of the user interface."
+    },
+    {
+      "question": "In end-to-end testing, what does the testing primarily focus on?",
+      "options": [
+        "Verifying individual functions",
+        "Testing the overall flow of the application from start to finish",
+        "Checking the code for syntax errors",
+        "Improving the speed of the application"
+      ],
+      "correct_option": 1,
+      "hint": "Consider the user journey through the application."
+    },
+    {
+      "question": "What level of frontend developer is most likely tasked with setting up complex end-to-end testing scenarios?",
+      "options": [
+        "Beginner",
+        "Intermediate",
+        "Advanced",
+        "Intern"
+      ],
+      "correct_option": 2,
+      "hint": "Think about who would handle complex and comprehensive testing scenarios."
+    }
+  ]
+}

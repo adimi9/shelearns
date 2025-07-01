@@ -1,0 +1,281 @@
+{
+  "id": "BE2",
+  "name": "Node.js & Express.js for APIs",
+  "category": "Backend Development",
+  "primary_tech": "Node.js",
+  "topics": [
+    "Asynchronous JavaScript",
+    "Express.js Routing & Middleware",
+    "REST API Development"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "JavaScript",
+    "API",
+    "framework"
+  ],
+  "alternatives": [
+    {
+      "tech": "NestJS",
+      "reason": "Opinionated, scalable Node.js framework built with TypeScript",
+      "tags": [
+        "TypeScript",
+        "framework"
+      ],
+      "preferred_if": [
+        "User prefers TypeScript",
+        "Building enterprise-grade applications"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What programming language is primarily used with NestJS?",
+          "options": [
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "Ruby"
+          ],
+          "correct_option": 1,
+          "hint": "It is a superset of JavaScript often used for its type safety."
+        },
+        {
+          "question": "Which architectural pattern does NestJS primarily use?",
+          "options": [
+            "Model-View-Controller",
+            "Event-Driven",
+            "Microservices",
+            "Dependency Injection"
+          ],
+          "correct_option": 3,
+          "hint": "This pattern allows for creating loosely coupled modules."
+        },
+        {
+          "question": "What is a key reason for choosing NestJS over Express.js?",
+          "options": [
+            "It is built with TypeScript and offers a more structured framework.",
+            "It is faster than Express.js.",
+            "It uses a different web server.",
+            "It has more middleware options."
+          ],
+          "correct_option": 0,
+          "hint": "It is related to the programming language preference and structure."
+        },
+        {
+          "question": "What kind of applications is NestJS particularly suited for?",
+          "options": [
+            "Mobile applications",
+            "Enterprise-grade applications",
+            "Simple static websites",
+            "Desktop applications"
+          ],
+          "correct_option": 1,
+          "hint": "It is designed for scalability and maintainability."
+        },
+        {
+          "question": "Which of the following is a core feature of NestJS?",
+          "options": [
+            "Built-in support for GraphQL",
+            "Automatic code generation",
+            "Built-in state management",
+            "Server-side rendering"
+          ],
+          "correct_option": 0,
+          "hint": "It relates to a popular query language for APIs."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://reactjs.org/",
+          "https://nodejs.org/en",
+          "https://nodejs.org/api/child_process.html"
+        ],
+        "notes": [
+          "https://www.geeksforgeeks.org/javascript/nestjs/",
+          "https://www.freecodecamp.org/news/build-web-apis-with-nestjs-beginners-guide/",
+          "https://www.freecodecamp.org/news/comprehensive-nestjs-course/",
+          "https://www.freecodecamp.org/news/tag/nestjs/",
+          "https://forum.freecodecamp.org/t/nest-js-tutorial/312471"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=wqhNoDE6pb4",
+          "https://www.youtube.com/watch?v=xzu3QXwo1BU&pp=ygUII25lc3RkZXY%3D",
+          "https://www.youtube.com/watch?v=8_X0nSrzrCw",
+          "https://www.youtube.com/watch?v=2gtiffE3__U",
+          "https://www.youtube.com/watch?v=W1gvIw0GNl8"
+        ]
+      }
+    },
+    {
+      "tech": "Koa.js",
+      "reason": "Minimalist Node.js framework by the Express team",
+      "tags": [
+        "JavaScript",
+        "middleware"
+      ],
+      "preferred_if": [
+        "User prefers lightweight frameworks"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is Koa.js primarily known for?",
+          "options": [
+            "Being a feature-rich framework",
+            "Its simplicity and minimalism",
+            "A large community support",
+            "Built-in database support"
+          ],
+          "correct_option": 1,
+          "hint": "Consider the primary reason developers choose Koa.js over other frameworks."
+        },
+        {
+          "question": "Who created Koa.js?",
+          "options": [
+            "The Vue.js team",
+            "The Angular team",
+            "The React team",
+            "The Express team"
+          ],
+          "correct_option": 3,
+          "hint": "Think about which team is known for creating another popular Node.js framework."
+        },
+        {
+          "question": "Which of the following best describes Koa.js in terms of middleware?",
+          "options": [
+            "Koa.js uses a built-in middleware stack",
+            "Koa.js has a large collection of official middleware",
+            "Koa.js is designed to use async functions as middleware",
+            "Koa.js does not support middleware"
+          ],
+          "correct_option": 2,
+          "hint": "Consider Koa.js's approach to handling asynchronous operations."
+        },
+        {
+          "question": "What is a key reason a developer might choose Koa.js over Express.js?",
+          "options": [
+            "Koa.js is better for handling real-time applications",
+            "Koa.js offers more built-in features",
+            "Koa.js provides a more lightweight and modular approach",
+            "Koa.js has a larger user base"
+          ],
+          "correct_option": 2,
+          "hint": "Think about what 'minimalist' implies in the context of web frameworks."
+        },
+        {
+          "question": "In what language is Koa.js written?",
+          "options": [
+            "Python",
+            "JavaScript",
+            "Ruby",
+            "Java"
+          ],
+          "correct_option": 1,
+          "hint": "Consider the primary programming language used for Node.js frameworks."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://nodejs.org/en/about",
+          "https://nodejs.org/en/learn/getting-started/nodejs-the-difference-between-development-and-production",
+          "https://nodejs.org/api/zlib.html"
+        ],
+        "notes": [
+          "https://www.geeksforgeeks.org/node-js/express-js-vs-koajs-in-node-js/",
+          "https://www.geeksforgeeks.org/hapijs-vs-koajs-in-node-js/",
+          "https://www.geeksforgeeks.org/different-servers-in-node-js/",
+          "https://www.geeksforgeeks.org/php/php-vs-node-js/",
+          "https://www.geeksforgeeks.org/node-js/node-js-frameworks/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=z84uTk5zmak",
+          "https://www.youtube.com/watch?v=wKzcWbxVtKA",
+          "https://www.youtube.com/watch?v=y0xx7pAwUxA",
+          "https://www.youtube.com/watch?v=Div1km7DQrI",
+          "https://www.youtube.com/watch?v=2lprC0yYeFw"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://nodejs.org/docs/latest/api/",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+      "https://nodejs.org/api/fs.html"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/node-js-building-simple-rest-api-in-express/",
+      "http://www.w3schools.com/nodejs/",
+      "https://www.freecodecamp.org/news/i-built-a-web-api-with-express-flask-aspnet/",
+      "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/",
+      "https://www.geeksforgeeks.org/node-js/express-js/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=SccSCuHhOw0",
+      "https://www.youtube.com/watch?v=Oe421EPjeBE",
+      "https://www.youtube.com/watch?v=Xk3HNlc5jfk",
+      "https://www.youtube.com/watch?v=-MTSQjw5DrM",
+      "https://www.youtube.com/watch?v=q-xS25lsN3I"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary benefit of using asynchronous JavaScript in Node.js?",
+      "options": [
+        "It allows for blocking I/O operations.",
+        "It enables handling multiple requests simultaneously without blocking.",
+        "It simplifies code structure.",
+        "It ensures higher security."
+      ],
+      "correct_option": 1,
+      "hint": "Consider how Node.js handles multiple requests efficiently."
+    },
+    {
+      "question": "In Express.js, what is middleware primarily used for?",
+      "options": [
+        "Serving static files",
+        "Handling database connections",
+        "Performing actions on a request before sending a response",
+        "Defining API endpoints"
+      ],
+      "correct_option": 2,
+      "hint": "Middleware functions can modify the request and response objects."
+    },
+    {
+      "question": "Which method is used to define a new route in Express.js?",
+      "options": [
+        "app.route()",
+        "app.get()",
+        "app.create()",
+        "app.listen()"
+      ],
+      "correct_option": 1,
+      "hint": "Consider the method that directly corresponds to HTTP methods like GET, POST, etc."
+    },
+    {
+      "question": "What does REST stand for in REST API Development?",
+      "options": [
+        "Representational State Transfer",
+        "Resource State Transfer",
+        "Representational System Transfer",
+        "Resource System Transfer"
+      ],
+      "correct_option": 0,
+      "hint": "It involves stateless communication and is used for web services."
+    },
+    {
+      "question": "Which of the following is a core module in Node.js?",
+      "options": [
+        "express",
+        "fs",
+        "mongoose",
+        "axios"
+      ],
+      "correct_option": 1,
+      "hint": "This module is used for file system operations."
+    }
+  ]
+}

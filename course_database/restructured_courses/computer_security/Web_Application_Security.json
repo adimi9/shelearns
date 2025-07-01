@@ -1,0 +1,120 @@
+{
+  "id": "CSec9",
+  "name": "Web Application Security",
+  "category": "Computer Security",
+  "primary_tech": "Web Security",
+  "topics": [
+    "OWASP Top 10 (Injection, XSS, CSRF)",
+    "Authentication & Session Management Vulnerabilities",
+    "Secure Coding Practices for Web",
+    "Web Security Tools"
+  ],
+  "recommended": true,
+  "tags": [
+    "web",
+    "application-security",
+    "vulnerabilities"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
+        "description": "An overview of web security principles and best practices for protecting applications from vulnerabilities and attacks."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
+        "description": "A comprehensive guide on implementing Content Security Policy (CSP) to enhance web application security by controlling resource loading."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security",
+        "description": "A comprehensive guide introducing fundamental concepts and practices for enhancing website security in server-side web development."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/tag/web-security/",
+        "description": "Explore articles and tutorials on web security to enhance your understanding and skills in protecting web applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/software-engineering/securing-web-applications/",
+        "description": "An overview of best practices and strategies for securing web applications in software engineering."
+      },
+      {
+        "url": "https://www.w3schools.com/cybersecurity/",
+        "description": "An introductory guide to cybersecurity principles and practices for beginners."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/best-websites-for-learning-web-security/279588",
+        "description": "A curated list of recommended websites for learning web security concepts and practices."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/build-a-web-application-security-scanner-with-python/",
+        "description": "Learn how to create a web application security scanner using Python through this comprehensive guide."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=Qnl2BjxXpkk",
+      "https://www.youtube.com/watch?v=Dp019cWu1cg",
+      "https://www.youtube.com/watch?v=80VviDER96I",
+      "https://www.youtube.com/watch?v=MVCkzo5-AfM",
+      "https://www.youtube.com/watch?v=UBUNrFtufWo"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which of the following is a type of attack where malicious scripts are injected into otherwise benign and trusted websites?",
+      "options": [
+        "Cross-Site Scripting (XSS)",
+        "SQL Injection",
+        "Cross-Site Request Forgery (CSRF)",
+        "File Inclusion"
+      ],
+      "correct_option": 0,
+      "hint": "This attack involves executing scripts in the context of another user's browser."
+    },
+    {
+      "question": "What is the primary purpose of the OWASP Top 10?",
+      "options": [
+        "To provide a list of the most critical security risks to web applications",
+        "To offer a comprehensive guide on all types of cybersecurity threats",
+        "To rank programming languages by their security features",
+        "To list the top 10 secure coding practices"
+      ],
+      "correct_option": 0,
+      "hint": "The list aims to raise awareness about the most critical web application security risks."
+    },
+    {
+      "question": "Which security vulnerability is primarily concerned with session fixation and session hijacking?",
+      "options": [
+        "Authentication & Session Management Vulnerabilities",
+        "Insecure Direct Object References",
+        "Cross-Site Scripting (XSS)",
+        "Security Misconfiguration"
+      ],
+      "correct_option": 0,
+      "hint": "This vulnerability involves the management of user sessions and authentication processes."
+    },
+    {
+      "question": "What is a common secure coding practice when dealing with user input?",
+      "options": [
+        "Sanitize and validate all user inputs",
+        "Use default usernames and passwords",
+        "Store passwords in plain text",
+        "Disable security features for easier debugging"
+      ],
+      "correct_option": 0,
+      "hint": "The practice involves ensuring that user input does not lead to vulnerabilities like SQL injection."
+    },
+    {
+      "question": "Which web security tool is commonly used for scanning web applications for vulnerabilities?",
+      "options": [
+        "Burp Suite",
+        "Visual Studio Code",
+        "Jira",
+        "Adobe Photoshop"
+      ],
+      "correct_option": 0,
+      "hint": "This tool is widely used for penetration testing and vulnerability analysis of web applications."
+    }
+  ]
+}

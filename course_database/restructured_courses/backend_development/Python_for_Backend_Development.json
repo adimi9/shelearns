@@ -1,0 +1,119 @@
+{
+  "id": "BE10",
+  "name": "Python for Backend Development",
+  "category": "Backend Development",
+  "primary_tech": "Python",
+  "topics": [
+    "Python Fundamentals",
+    "Object-Oriented Programming",
+    "Web Frameworks (Flask/Django basics)"
+  ],
+  "recommended": true,
+  "tags": [
+    "language",
+    "fundamentals",
+    "web-development"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/",
+        "description": "A comprehensive resource for web developers featuring documentation, guides, and tutorials on web technologies."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
+        "description": "An introductory guide to using the Django framework for server-side web development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "description": "Comprehensive documentation and resources for learning and using JavaScript on the web."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/python/",
+        "description": "An educational resource offering tutorials and examples for learning Python programming."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/python-back-end-development-the-beginners-guide/",
+        "description": "A beginner's guide to understanding and starting with Python back-end development."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/backend-development/",
+        "description": "An introductory guide to backend development, covering fundamental concepts, technologies, and best practices."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/60-days-of-backend-development/",
+        "description": "A structured 60-day guide to mastering backend development concepts and skills."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/backend-web-development-with-python-full-course/",
+        "description": "A comprehensive full course on backend web development using Python, covering essential concepts and practical applications."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=W3_5Tuur0o8",
+      "https://www.youtube.com/watch?v=OeEHJgzqS1k",
+      "https://www.youtube.com/watch?v=jBzwzrDvZ18",
+      "https://www.youtube.com/watch?v=ftKiHCDVwfA",
+      "https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the correct syntax to define a function in Python?",
+      "options": [
+        "function myFunction():",
+        "def myFunction[]:",
+        "def myFunction():",
+        "function myFunction[]:"
+      ],
+      "correct_option": 2,
+      "hint": "Functions in Python start with the keyword 'def' followed by the function name and parentheses."
+    },
+    {
+      "question": "Which of the following is a core feature of Object-Oriented Programming in Python?",
+      "options": [
+        "Encapsulation",
+        "Recursion",
+        "Iteration",
+        "Compiling"
+      ],
+      "correct_option": 0,
+      "hint": "It involves bundling the data and the methods that operate on the data."
+    },
+    {
+      "question": "Which Python web framework is known for its simplicity and being lightweight, ideal for small applications?",
+      "options": [
+        "Django",
+        "Flask",
+        "Pyramid",
+        "FastAPI"
+      ],
+      "correct_option": 1,
+      "hint": "This framework is often compared to a micro-framework."
+    },
+    {
+      "question": "In Django, what is the purpose of the 'models.py' file?",
+      "options": [
+        "To handle HTTP requests",
+        "To define data structures and database schema",
+        "To create HTML templates",
+        "To configure application settings"
+      ],
+      "correct_option": 1,
+      "hint": "This file is used to define how your application's data is structured."
+    },
+    {
+      "question": "What keyword is used in Python to create a class?",
+      "options": [
+        "class",
+        "Class",
+        "def",
+        "function"
+      ],
+      "correct_option": 0,
+      "hint": "The keyword is the same as the concept it represents, but it is all in lowercase."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "FE13",
+  "name": "JAMstack & Headless CMSs",
+  "category": "Frontend Development",
+  "primary_tech": "JAMstack",
+  "topics": [
+    "Static Site Generators",
+    "Integrating Headless CMS",
+    "Deployment"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "static",
+    "cms",
+    "deployment"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [],
+    "notes": [
+      "https://www.freecodecamp.org/news/what-is-headless-cms-explained/",
+      "https://www.freecodecamp.org/news/what-is-the-jamstack-and-how-do-i-host-my-website-on-it/",
+      "https://www.geeksforgeeks.org/blogs/traditional-cms-vs-headless-cms/",
+      "https://www.freecodecamp.org/news/chose-a-cms-wordpress-vs-shopify-vs-ghost/",
+      "https://www.geeksforgeeks.org/blogs/top-web-development-trends/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=aDFgrOlHR_s",
+      "https://www.youtube.com/watch?v=FCxFk9WUEL4",
+      "https://www.youtube.com/watch?v=EmxEQKdK404",
+      "https://www.youtube.com/watch?v=oUoFmurl71k",
+      "https://www.youtube.com/watch?v=WSLJIy-XYGg"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What does the 'J' in JAMstack stand for?",
+      "options": [
+        "Java",
+        "JavaScript",
+        "JQuery",
+        "JSON"
+      ],
+      "correct_option": 1,
+      "hint": "It's a popular programming language used for web development."
+    },
+    {
+      "question": "Which of the following is a common benefit of using Static Site Generators?",
+      "options": [
+        "Real-time data processing",
+        "Increased security",
+        "Built-in database support",
+        "Complex server infrastructure"
+      ],
+      "correct_option": 1,
+      "hint": "Static sites have fewer points of vulnerability compared to dynamic sites."
+    },
+    {
+      "question": "What is the primary role of a Headless CMS in a JAMstack architecture?",
+      "options": [
+        "To serve as a database",
+        "To provide a user interface for developers",
+        "To manage and deliver content via API",
+        "To handle server-side rendering"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how content is delivered in a decoupled architecture."
+    },
+    {
+      "question": "Which platform is commonly used for deploying JAMstack sites?",
+      "options": [
+        "AWS Lambda",
+        "Heroku",
+        "Netlify",
+        "Microsoft Azure"
+      ],
+      "correct_option": 2,
+      "hint": "This platform offers continuous deployment and a CDN for static sites."
+    },
+    {
+      "question": "For an advanced user, what is a key principle of JAMstack that differentiates it from traditional web architectures?",
+      "options": [
+        "Server-side scripting",
+        "Client-side rendering",
+        "Separation of front-end and back-end",
+        "Multi-page applications"
+      ],
+      "correct_option": 2,
+      "hint": "Think about the decoupling of the presentation layer from the backend logic."
+    }
+  ]
+}

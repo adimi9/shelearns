@@ -1,0 +1,101 @@
+{
+  "id": "FS4",
+  "name": "Relational Databases & ORMs",
+  "category": "FullStack Development",
+  "primary_tech": "SQL Databases",
+  "topics": [
+    "Database Design & Normalization",
+    "Advanced SQL Queries",
+    "Object-Relational Mappers (ORMs - Sequelize, Prisma, SQLAlchemy)",
+    "Database Migrations"
+  ],
+  "levels": [
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "database",
+    "SQL",
+    "ORM",
+    "data-management"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form",
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/dbms/normal-forms-in-dbms/",
+      "https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/",
+      "https://www.geeksforgeeks.org/dbms/dbms/",
+      "https://www.freecodecamp.org/news/database-normalization-1nf-2nf-3nf-table-examples/",
+      "https://www.geeksforgeeks.org/dbms/what-is-object-relational-mapping-orm-in-dbms/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=7E1M1W9o7PA",
+      "https://www.youtube.com/watch?v=EwpT466EyP4",
+      "https://www.youtube.com/watch?v=KthQ0UmBmxE",
+      "https://www.youtube.com/watch?v=4QN1BzxF8wM",
+      "https://www.youtube.com/watch?v=wv47Qd6CERE"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary goal of database normalization in relational databases?",
+      "options": [
+        "To increase data redundancy",
+        "To improve database performance",
+        "To ensure data integrity and reduce redundancy",
+        "To simplify the database schema"
+      ],
+      "correct_option": 2,
+      "hint": "Normalization aims to organize data efficiently."
+    },
+    {
+      "question": "Which SQL clause is used to filter records that meet certain conditions?",
+      "options": [
+        "SELECT",
+        "WHERE",
+        "GROUP BY",
+        "ORDER BY"
+      ],
+      "correct_option": 1,
+      "hint": "This clause is commonly used in SQL queries to specify the conditions for record selection."
+    },
+    {
+      "question": "What is a primary function of an Object-Relational Mapper (ORM)?",
+      "options": [
+        "To directly execute SQL queries",
+        "To map database tables to classes in a programming language",
+        "To perform database backups",
+        "To design database schemas"
+      ],
+      "correct_option": 1,
+      "hint": "ORMs help in abstracting the database interactions using objects in a programming language."
+    },
+    {
+      "question": "Which of the following is a popular ORM for Node.js?",
+      "options": [
+        "SQLAlchemy",
+        "Prisma",
+        "Hibernate",
+        "Entity Framework"
+      ],
+      "correct_option": 1,
+      "hint": "This ORM is known for its modern and declarative approach for data modeling in Node.js applications."
+    },
+    {
+      "question": "What is the purpose of database migrations in the context of ORMs?",
+      "options": [
+        "To back up the database",
+        "To update the database schema incrementally",
+        "To roll back transactions",
+        "To optimize query performance"
+      ],
+      "correct_option": 1,
+      "hint": "Migrations help in evolving the database schema as the application changes over time."
+    }
+  ]
+}

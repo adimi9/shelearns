@@ -1,0 +1,119 @@
+{
+  "id": "BE1",
+  "name": "Testing Backend Applications",
+  "category": "Backend Development",
+  "primary_tech": "Testing Frameworks",
+  "topics": [
+    "Unit Testing (Jest/Pytest)",
+    "Integration Testing",
+    "End-to-End Testing (Supertest/Cypress for APIs)"
+  ],
+  "recommended": true,
+  "tags": [
+    "testing",
+    "QA",
+    "backend"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Testing",
+        "description": "A guide on how to implement and understand testing in Django applications for web development."
+      },
+      {
+        "url": "https://reactjs.org/",
+        "description": "The official React documentation site offering comprehensive guides, tutorials, and API references for developers."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/",
+        "description": "The Mozilla Developer Network (MDN) provides comprehensive documentation and resources for web developers, including tutorials and references for HTML, CSS, JavaScript, and web APIs."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/software-testing/what-is-backend-testing/",
+        "description": "An overview of backend testing, explaining its importance, methodologies, and key components in software testing."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/performance-testing-for-web-applications/",
+        "description": "This article provides a comprehensive guide on how to conduct performance testing for web applications to ensure optimal speed and reliability."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/software-engineering/difference-between-frontend-testing-and-backend-testing/",
+        "description": "This resource explains the differences between frontend and backend testing in software engineering."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/backend-development/",
+        "description": "An introductory guide to backend development, covering fundamental concepts, technologies, and best practices."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/how-to-do-junit-testing-on-intellijidea/724862",
+        "description": "A guide on performing JUnit testing within the IntelliJ IDEA environment."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=u6QfIXgjwGQ",
+      "https://www.youtube.com/watch?v=XBu54nfzxAQ",
+      "https://www.youtube.com/watch?v=Mbz39bz1_HQ",
+      "https://www.youtube.com/watch?v=h3fqD6IprIA",
+      "https://www.youtube.com/watch?v=446E-r0rXHI"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of unit testing in backend applications?",
+      "options": [
+        "To test the entire application workflow",
+        "To test individual components or functions in isolation",
+        "To simulate user interactions with the application",
+        "To ensure the application is visually appealing"
+      ],
+      "correct_option": 1,
+      "hint": "Focuses on small, individual components."
+    },
+    {
+      "question": "Which testing framework is commonly used for unit testing in JavaScript applications?",
+      "options": [
+        "Pytest",
+        "JUnit",
+        "Jest",
+        "Mocha"
+      ],
+      "correct_option": 2,
+      "hint": "It's a popular testing framework developed by Facebook."
+    },
+    {
+      "question": "In integration testing, what is typically being tested?",
+      "options": [
+        "User interface interactions",
+        "Individual functions or methods",
+        "Interactions between multiple components or systems",
+        "Database schema"
+      ],
+      "correct_option": 2,
+      "hint": "Focuses on the combination of units working together."
+    },
+    {
+      "question": "Which tool is often used for End-to-End testing of APIs in JavaScript applications?",
+      "options": [
+        "JUnit",
+        "Supertest",
+        "Pytest",
+        "Jest"
+      ],
+      "correct_option": 1,
+      "hint": "It's specifically designed for testing HTTP servers."
+    },
+    {
+      "question": "Which of the following is a key characteristic of end-to-end testing?",
+      "options": [
+        "Only tests the backend services",
+        "Focuses solely on database interactions",
+        "Simulates real user scenarios from start to finish",
+        "Only tests frontend components"
+      ],
+      "correct_option": 2,
+      "hint": "It aims to test the entire flow of an application as a user would experience it."
+    }
+  ]
+}

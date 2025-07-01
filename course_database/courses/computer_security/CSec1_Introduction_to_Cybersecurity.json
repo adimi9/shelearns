@@ -1,0 +1,100 @@
+{
+  "id": "CSec1",
+  "name": "Introduction to Cybersecurity",
+  "category": "Computer Security",
+  "primary_tech": "Cybersecurity Concepts",
+  "topics": [
+    "CIA Triad (Confidentiality, Integrity, Availability)",
+    "Threats, Vulnerabilities & Risks",
+    "Common Attack Vectors",
+    "Security Best Practices Overview"
+  ],
+  "levels": [
+    "Beginner"
+  ],
+  "recommended": true,
+  "tags": [
+    "fundamentals",
+    "overview",
+    "security-awareness"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security"
+    ],
+    "notes": [
+      "https://www.w3schools.com/cybersecurity/",
+      "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-tutorial/",
+      "https://www.geeksforgeeks.org/ethical-hacking/what-is-cyber-security/",
+      "https://www.geeksforgeeks.org/computer-networks/introduction-to-cyber-physical-system/",
+      "https://www.geeksforgeeks.org/ethical-hacking/cyber-crime/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=ULGILG-ZhO0",
+      "https://www.youtube.com/watch?v=z5nc9MDbvkw",
+      "https://www.youtube.com/watch?v=b12JrM-6DBY",
+      "https://www.youtube.com/watch?v=agnDpN961xU",
+      "https://www.youtube.com/watch?v=JbEPJv7Ybcs"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What does the 'C' in the CIA Triad stand for in cybersecurity?",
+      "options": [
+        "Confidentiality",
+        "Coverage",
+        "Control",
+        "Communication"
+      ],
+      "correct_option": 0,
+      "hint": "This aspect of the CIA Triad focuses on protecting data from unauthorized access."
+    },
+    {
+      "question": "Which of the following is considered a common attack vector?",
+      "options": [
+        "Social Engineering",
+        "Data Encryption",
+        "Firewall Setup",
+        "Software Development"
+      ],
+      "correct_option": 0,
+      "hint": "This attack vector involves manipulating individuals to gain confidential information."
+    },
+    {
+      "question": "In cybersecurity, what is a vulnerability?",
+      "options": [
+        "A weakness that can be exploited by threats",
+        "An attack that succeeds in breaching a system",
+        "A strategy to prevent data breaches",
+        "A measure to enhance system performance"
+      ],
+      "correct_option": 0,
+      "hint": "This term refers to a flaw or weakness in a system that can be taken advantage of by threats."
+    },
+    {
+      "question": "Which practice is a part of security best practices?",
+      "options": [
+        "Regular updates and patches",
+        "Ignoring security alerts",
+        "Sharing passwords with colleagues",
+        "Disabling firewalls"
+      ],
+      "correct_option": 0,
+      "hint": "This practice helps in protecting systems from newly discovered vulnerabilities."
+    },
+    {
+      "question": "What is the primary goal of maintaining integrity in the CIA Triad?",
+      "options": [
+        "Ensuring data is accurate and unaltered",
+        "Allowing access to data for everyone",
+        "Preventing data from being backed up",
+        "Increasing system uptime"
+      ],
+      "correct_option": 0,
+      "hint": "Integrity focuses on ensuring that data remains trustworthy and unchanged."
+    }
+  ]
+}

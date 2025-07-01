@@ -1,0 +1,130 @@
+{
+  "id": "FE6",
+  "name": "Mastering Backend Testing with Vitest",
+  "category": "Frontend Development",
+  "primary_tech": "Vitest",
+  "topics": [
+    "Introduction to Vitest and its role in backend testing",
+    "Setting up a Vitest testing environment for Node.js applications",
+    "Writing and running basic unit tests with Vitest",
+    "Exploring asynchronous testing capabilities in Vitest",
+    "Test-driven development (TDD) using Vitest",
+    "Mocking and stubbing in backend testing with Vitest",
+    "Integrating Vitest with CI/CD pipelines",
+    "Advanced testing strategies and best practices with Vitest"
+  ],
+  "recommended": false,
+  "tags": [
+    "vitest",
+    "backend-testing",
+    "nodejs",
+    "unit-testing",
+    "test-driven-development",
+    "async-testing"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/AggregateError",
+        "description": "The page provides detailed documentation on the JavaScript AggregateError object, which represents multiple errors as a single error."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty",
+        "description": "This resource explains how to use the `Object.defineProperty()` method in JavaScript to define or modify properties on objects with precise control over their behavior."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/compareDocumentPosition",
+        "description": "Documentation for the `compareDocumentPosition` method, which determines the relative position of two nodes in the document."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/how-to-do-test-driven-development-with-svelte-and-vitest/",
+        "description": "A guide on implementing test-driven development using Svelte and Vitest."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/reactjs/nextjs-vitest-testing/",
+        "description": "This resource provides a guide on testing Next.js applications using Vitest in React.js projects."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/write-unit-tests-using-react-testing-library/",
+        "description": "A comprehensive guide on writing unit tests for React applications using React Testing Library."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/react-project-with-vite-and-vitest/",
+        "description": "A guide on creating a React project using Vite for fast setup and Vitest for testing."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/how-to-set-up-a-ci-cd-pipeline-with-husky-and-github-actions/",
+        "description": "A guide on setting up a CI/CD pipeline using Husky and GitHub Actions for automated testing and deployment."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=CxSL0knFxAs",
+      "https://www.youtube.com/watch?v=cM_AeQHzlGg",
+      "https://m.youtube.com/watch?v=FJRuG85tXV0",
+      "https://www.youtube.com/watch?v=iIMaFgeNzc8",
+      "https://www.youtube.com/watch?v=dopLE8NTgFk"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is Vitest primarily used for in frontend development?",
+      "options": [
+        "Designing UI components",
+        "Enhancing application performance",
+        "Testing JavaScript applications",
+        "Managing database connections"
+      ],
+      "correct_option": 2,
+      "hint": "It's a tool that helps ensure code correctness."
+    },
+    {
+      "question": "Why might a developer choose Vitest over other testing frameworks?",
+      "options": [
+        "To improve application design",
+        "For its fast performance in modern stacks",
+        "To simplify database management",
+        "To enhance CSS styling"
+      ],
+      "correct_option": 1,
+      "hint": "Think about speed and modern development environments."
+    },
+    {
+      "question": "Which of the following is a key feature of Vitest?",
+      "options": [
+        "Integrated CSS preprocessor",
+        "Real-time collaboration",
+        "Fast test execution",
+        "Built-in image editor"
+      ],
+      "correct_option": 2,
+      "hint": "It's related to speed and efficiency in testing."
+    },
+    {
+      "question": "What is a primary benefit of using Vitest in a project?",
+      "options": [
+        "Reduced server load",
+        "Faster test execution times",
+        "Improved color contrast",
+        "Automatic data backup"
+      ],
+      "correct_option": 1,
+      "hint": "Consider the performance aspect of testing."
+    },
+    {
+      "question": "In what kind of development environment is Vitest most beneficial?",
+      "options": [
+        "Legacy systems",
+        "Modern frontend stacks",
+        "Backend API development",
+        "Mobile app design"
+      ],
+      "correct_option": 1,
+      "hint": "Think about the type of development environment that benefits from fast and efficient tools."
+    }
+  ],
+  "preferred_if": [
+    "User wants fast modern tool"
+  ]
+}

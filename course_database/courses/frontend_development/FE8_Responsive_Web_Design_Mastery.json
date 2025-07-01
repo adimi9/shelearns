@@ -1,0 +1,101 @@
+{
+  "id": "FE8",
+  "name": "Responsive Web Design Mastery",
+  "category": "Frontend Development",
+  "primary_tech": "CSS Responsive Design",
+  "topics": [
+    "Media Queries",
+    "Flexbox & Grid",
+    "Mobile-First & Viewport"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "responsive",
+    "CSS",
+    "layout"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/display",
+      "https://developer.mozilla.org/en-US/docs/MDN/Tutorials"
+    ],
+    "notes": [
+      "https://www.w3schools.com/css/css_rwd_intro.asp",
+      "https://forum.freecodecamp.org/t/my-personal-portfolio-project-detailed-workflow-i-used-to-build-it/463353",
+      "https://forum.freecodecamp.org/t/best-course-on-bootstrap-to-learn-bootstrap-for-someone-who-requires-more-mentoring/574158",
+      "https://www.w3schools.com/js/",
+      "https://www.freecodecamp.org/news/a-practical-guide-to-learning-front-end-development-for-beginners-da6516505e41/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=TG6XSFeOT3g",
+      "https://www.youtube.com/watch?v=6x-ileFxDJE",
+      "https://www.youtube.com/watch?v=9oKcIcvzqrs",
+      "https://www.youtube.com/watch?v=gAXbB_4BavE",
+      "https://www.youtube.com/watch?v=QRrPE9aj3wI"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of media queries in responsive web design?",
+      "options": [
+        "To change the color scheme of a website",
+        "To adjust the layout based on device characteristics",
+        "To improve website loading speed",
+        "To enhance website security"
+      ],
+      "correct_option": 1,
+      "hint": "Media queries help in adapting the design to different screen sizes."
+    },
+    {
+      "question": "Which CSS property is commonly used with Flexbox to align items along the main axis?",
+      "options": [
+        "align-items",
+        "justify-content",
+        "flex-direction",
+        "flex-wrap"
+      ],
+      "correct_option": 1,
+      "hint": "This property is often used to distribute space within a container."
+    },
+    {
+      "question": "In a mobile-first approach, what is prioritized when designing websites?",
+      "options": [
+        "Desktop layouts",
+        "Tablet layouts",
+        "Mobile layouts",
+        "Print layouts"
+      ],
+      "correct_option": 2,
+      "hint": "The approach focuses on smaller screens first."
+    },
+    {
+      "question": "What is the default value of the 'flex-direction' property in Flexbox?",
+      "options": [
+        "column",
+        "row",
+        "row-reverse",
+        "column-reverse"
+      ],
+      "correct_option": 1,
+      "hint": "This default value is the most common layout direction."
+    },
+    {
+      "question": "Which of the following units is most suitable for responsive typography?",
+      "options": [
+        "px",
+        "em",
+        "pt",
+        "rem"
+      ],
+      "correct_option": 3,
+      "hint": "This unit is relative to the root element's font size."
+    }
+  ]
+}

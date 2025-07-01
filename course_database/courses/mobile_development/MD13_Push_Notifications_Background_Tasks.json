@@ -1,0 +1,101 @@
+{
+  "id": "MD13",
+  "name": "Push Notifications & Background Tasks",
+  "category": "Mobile Development",
+  "primary_tech": "Notifications",
+  "topics": [
+    "FCM/APNS Integration",
+    "Local Notifications",
+    "Background Fetch & Processing",
+    "Deep Linking"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "engagement",
+    "background-processing",
+    "user-experience"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Background_Tasks_API",
+      "https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API",
+      "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/background-local-notifications-in-flutter/",
+      "https://www.geeksforgeeks.org/html/how-to-manipulate-dom-using-service-worker/",
+      "https://www.geeksforgeeks.org/javascript/service-workers-in-javascript/",
+      "https://www.geeksforgeeks.org/how-to-push-notification-in-android/",
+      "https://www.geeksforgeeks.org/cloud-computing/azure-notification-hubs-for-mobile-push-notifications/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=LciVVVyKWYA",
+      "https://www.youtube.com/watch?v=8spWK_9BLoY",
+      "https://www.youtube.com/watch?v=KjzST-kq74Q",
+      "https://www.youtube.com/watch?v=1stuVISVzhc",
+      "https://www.youtube.com/watch?v=sjsrnuM1VYo"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary function of FCM in push notifications?",
+      "options": [
+        "To send messages to Android devices",
+        "To integrate with iOS devices",
+        "To manage local notifications",
+        "To handle background tasks"
+      ],
+      "correct_option": 0,
+      "hint": "FCM is primarily used for Android devices."
+    },
+    {
+      "question": "Which of the following is necessary for APNS integration in an iOS app?",
+      "options": [
+        "Firebase configuration file",
+        "Google Cloud Messaging key",
+        "APNS certificate or key",
+        "AndroidManifest.xml configuration"
+      ],
+      "correct_option": 2,
+      "hint": "APNS requires a specific Apple security credential."
+    },
+    {
+      "question": "What role do local notifications play in mobile applications?",
+      "options": [
+        "They allow apps to send updates when the app is closed",
+        "They enable real-time chat messaging",
+        "They provide notifications without a server",
+        "They manage deep linking in apps"
+      ],
+      "correct_option": 2,
+      "hint": "Local notifications do not require server interaction."
+    },
+    {
+      "question": "How does background fetch benefit an application?",
+      "options": [
+        "It allows apps to execute code when the app is in the foreground",
+        "It updates app content even when the app is not actively used",
+        "It sends push notifications to the user",
+        "It manages user authentication processes"
+      ],
+      "correct_option": 1,
+      "hint": "Background fetch keeps the app data updated without user intervention."
+    },
+    {
+      "question": "Which technique is used to open a specific view or page within an app from an external link?",
+      "options": [
+        "Deep linking",
+        "Push notifications",
+        "Local notifications",
+        "Background processing"
+      ],
+      "correct_option": 0,
+      "hint": "Think about linking directly to a specific content in the app."
+    }
+  ]
+}

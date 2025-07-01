@@ -1,0 +1,132 @@
+{
+  "id": "GD8",
+  "name": "Interactive Audio Programming with FMOD/Wwise",
+  "category": "Game Development",
+  "primary_tech": "FMOD/Wwise",
+  "topics": [
+    "Introduction to Game Audio Middleware",
+    "Setting Up FMOD and Wwise Environments",
+    "Sound Design Principles and Techniques",
+    "Integrating FMOD and Wwise with Game Engines",
+    "Creating Interactive Soundscapes",
+    "Implementing Dynamic Audio Systems",
+    "Optimizing Audio for Performance",
+    "Advanced Techniques in 3D Audio Placement"
+  ],
+  "recommended": false,
+  "tags": [
+    "audio-engineering",
+    "FMOD",
+    "Wwise",
+    "game-development",
+    "sound-design",
+    "middleware",
+    "interactive-audio"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://www.fmod.com/docs/2.03/api/welcome.html",
+        "description": "This URL provides the official FMOD API documentation for version 2.03, detailing functions and usage for integrating FMOD audio features into applications."
+      },
+      {
+        "url": "https://www.audiokinetic.com/learn/videos/dLO1Yk-NXm8/?course=wwise251&lesson=5&ref=Lesson5_Playback_Limits",
+        "description": "This video tutorial explains how to manage playback limits in Wwise for optimal audio performance."
+      },
+      {
+        "url": "https://www.reddit.com/r/GameAudio/comments/ysuyk2/wwise_vs_metasounds/",
+        "description": "A discussion comparing the features and use cases of Wwise and Metasounds in game audio design."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.reddit.com/r/GameAudio/comments/xec8x3/whats_the_fastest_way_to_learn_fmod_or_wwise/",
+        "description": "A discussion on the fastest methods to learn FMOD or Wwise for game audio development."
+      },
+      {
+        "url": "https://medium.com/@akash.thakkar/should-you-learn-fmod-or-wwise-to-work-in-game-audio-936fe6295c0",
+        "description": "A comparison of FMOD and Wwise for game audio professionals to help decide which tool to learn."
+      },
+      {
+        "url": "https://www.reddit.com/r/Unity3D/comments/17p826g/do_you_use_unitys_audio_wwise_or_fmod_and_why/",
+        "description": "A discussion exploring the use of Unity's audio features versus third-party tools Wwise and FMOD, along with user preferences and reasons."
+      },
+      {
+        "url": "https://winifredphillips.wpcomstaging.com/2013/07/17/music-in-the-manual-fmod-studio-vs-wwise/",
+        "description": "A comparative analysis of FMOD Studio and Wwise for integrating music in video game development."
+      },
+      {
+        "url": "https://vi-control.net/community/threads/how-much-does-a-game-composer-need-to-know-about-programming.10065/",
+        "description": "Discussion on the extent of programming knowledge required for game composers."
+      }
+    ],
+    "videos": [
+      "https://www.reddit.com/r/GameAudio/comments/xec8x3/whats_the_fastest_way_to_learn_fmod_or_wwise/",
+      "https://winifredphillips.wpcomstaging.com/2013/07/17/music-in-the-manual-fmod-studio-vs-wwise/",
+      "https://www.reddit.com/r/GameAudio/comments/10oi604/learning_game_sound_design/",
+      "https://javierzumer.com/blog/2021/1/30/learning-c-notes-part-i",
+      "https://www.linkedin.com/in/sclooney"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is FMOD primarily used for in game development?",
+      "options": [
+        "Creating 3D graphics",
+        "Managing game physics",
+        "Handling complex audio management",
+        "Developing AI logic"
+      ],
+      "correct_option": 2,
+      "hint": "FMOD is an industry-standard audio middleware."
+    },
+    {
+      "question": "Why might a game developer choose Wwise over FMOD?",
+      "options": [
+        "Wwise supports higher resolution textures",
+        "Wwise offers advanced audio features and workflow",
+        "Wwise is cheaper than FMOD",
+        "Wwise is easier to integrate with Unity"
+      ],
+      "correct_option": 1,
+      "hint": "Consider the audio capabilities and workflow support offered by Wwise."
+    },
+    {
+      "question": "Which of the following is a key feature of both FMOD and Wwise?",
+      "options": [
+        "Real-time 3D rendering",
+        "Advanced audio routing and effects",
+        "Built-in character animation",
+        "Network multiplayer support"
+      ],
+      "correct_option": 1,
+      "hint": "Both FMOD and Wwise excel in audio management."
+    },
+    {
+      "question": "What tag best describes FMOD and Wwise?",
+      "options": [
+        "graphics-engine",
+        "audio-middleware",
+        "networking-tool",
+        "AI-framework"
+      ],
+      "correct_option": 1,
+      "hint": "These technologies are used for sound engineering."
+    },
+    {
+      "question": "For what type of projects are FMOD and Wwise most suitable?",
+      "options": [
+        "Small indie games with minimal audio needs",
+        "Simple 2D platformers",
+        "Larger, more complex projects requiring advanced audio features",
+        "Basic mobile apps"
+      ],
+      "correct_option": 2,
+      "hint": "Consider the complexity and audio needs of the project."
+    }
+  ],
+  "preferred_if": [
+    "User needs advanced audio features and workflow",
+    "Working on larger, more complex projects"
+  ]
+}

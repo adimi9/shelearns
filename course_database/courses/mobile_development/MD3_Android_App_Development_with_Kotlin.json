@@ -1,0 +1,171 @@
+{
+  "id": "MD3",
+  "name": "Android App Development with Kotlin",
+  "category": "Mobile Development",
+  "primary_tech": "Kotlin",
+  "topics": [
+    "Kotlin Programming Language",
+    "Android Studio IDE",
+    "Layouts & Views",
+    "Activities & Fragments"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "Android",
+    "native",
+    "Google",
+    "programming"
+  ],
+  "alternatives": [
+    {
+      "tech": "Java",
+      "reason": "Traditional language for Android development, extensive existing codebase",
+      "tags": [
+        "Android",
+        "legacy",
+        "programming"
+      ],
+      "preferred_if": [
+        "User needs to maintain older Android apps"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "Which programming language was traditionally used for Android app development before Kotlin gained popularity?",
+          "options": [
+            "Python",
+            "Java",
+            "Swift",
+            "C#"
+          ],
+          "correct_option": 1,
+          "hint": "This language is known for its 'write once, run anywhere' capability."
+        },
+        {
+          "question": "Why might a developer choose to use Java for Android app development?",
+          "options": [
+            "It is the only language supported by Android.",
+            "Java has a vast existing codebase and many libraries.",
+            "Java is faster than Kotlin in every aspect.",
+            "Java code can be directly executed on iOS devices."
+          ],
+          "correct_option": 1,
+          "hint": "Consider the legacy aspects and existing resources available in this language."
+        },
+        {
+          "question": "What is a major advantage of using Java for maintaining older Android apps?",
+          "options": [
+            "Java apps are automatically converted to Kotlin.",
+            "Java provides better UI design tools.",
+            "Java has extensive documentation and community support.",
+            "Java allows for real-time app updates."
+          ],
+          "correct_option": 2,
+          "hint": "Think about the support and resources available for a language that has been around for a long time."
+        },
+        {
+          "question": "In the context of Android development, what does the term 'legacy code' typically refer to?",
+          "options": [
+            "Newly written Kotlin code",
+            "Old Java code that is still in use",
+            "Deprecated Android Studio features",
+            "Recent updates to the Android SDK"
+          ],
+          "correct_option": 1,
+          "hint": "This term often describes older code that continues to be maintained and used."
+        },
+        {
+          "question": "Which of the following is a common reason for maintaining older Android apps written in Java?",
+          "options": [
+            "Java offers better graphics rendering.",
+            "Java apps are completely incompatible with Kotlin.",
+            "The existing Java codebase is extensive and costly to rewrite.",
+            "Java apps always perform better than Kotlin apps."
+          ],
+          "correct_option": 2,
+          "hint": "Consider the cost and effort associated with rewriting an existing app in a new language."
+        }
+      ],
+      "resources": {
+        "docs": [],
+        "notes": [],
+        "videos": []
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "http://native.reactjs.org/",
+      "https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams",
+      "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/icons"
+    ],
+    "notes": [],
+    "videos": [
+      "https://www.youtube.com/watch?v=xT8oP0wy-A0",
+      "https://www.youtube.com/watch?v=BBWyXo-3JGQ",
+      "https://www.youtube.com/watch?v=Qy38PF05eWw",
+      "https://www.youtube.com/watch?v=0VCmp7Z6JeE",
+      "https://www.youtube.com/watch?v=W1Uoi3uvLMc"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary programming language used in Android app development alongside Kotlin?",
+      "options": [
+        "Java",
+        "Swift",
+        "Python",
+        "C++"
+      ],
+      "correct_option": 0,
+      "hint": "It's a popular object-oriented programming language."
+    },
+    {
+      "question": "Which of the following is NOT a component of Android Studio IDE?",
+      "options": [
+        "Layout Editor",
+        "IntelliJ IDEA",
+        "Emulator",
+        "Xcode"
+      ],
+      "correct_option": 3,
+      "hint": "This component is used for Apple's software development."
+    },
+    {
+      "question": "In Kotlin, which keyword is used to declare a variable that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "const",
+        "let"
+      ],
+      "correct_option": 1,
+      "hint": "This keyword allows variable mutability."
+    },
+    {
+      "question": "What is the purpose of a Fragment in Android development?",
+      "options": [
+        "To handle network operations",
+        "To represent a behavior or portion of user interface",
+        "To manage dependencies",
+        "To store data persistently"
+      ],
+      "correct_option": 1,
+      "hint": "It's a reusable component that can be combined with activities."
+    },
+    {
+      "question": "What is the XML file used to define the layout of an Android activity?",
+      "options": [
+        "Manifest.xml",
+        "Strings.xml",
+        "Activity_main.xml",
+        "Gradle.xml"
+      ],
+      "correct_option": 2,
+      "hint": "It's typically named after the activity it represents."
+    }
+  ]
+}

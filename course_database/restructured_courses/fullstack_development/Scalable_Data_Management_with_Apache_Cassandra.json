@@ -1,0 +1,129 @@
+{
+  "id": "FS21",
+  "name": "Scalable Data Management with Apache Cassandra",
+  "category": "FullStack Development",
+  "primary_tech": "Cassandra",
+  "topics": [
+    "Introduction to Apache Cassandra and NoSQL concepts",
+    "Data Modeling Techniques in Cassandra",
+    "Consistency Levels and Replication Strategies",
+    "CQL (Cassandra Query Language) Basics and Advanced Queries",
+    "Cluster Setup and Configuration",
+    "Performance Tuning and Optimization",
+    "Handling Large Volumes of Data with Cassandra",
+    "Security and Authentication Methods in Cassandra"
+  ],
+  "recommended": false,
+  "tags": [
+    "Cassandra",
+    "NoSQL",
+    "distributed-database",
+    "data-modeling",
+    "replication"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://nodejs.org/api/buffer.html",
+        "description": "This resource provides documentation on the Buffer module in Node.js, detailing its API for handling binary data."
+      },
+      {
+        "url": "https://nodejs.org/api/n-api.html",
+        "description": "The Node.js N-API documentation provides a stable API for building native add-ons in Node.js."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Database",
+        "description": "An overview of databases, explaining their purpose, types, and fundamental concepts."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/the-apache-cassandra-beginner-tutorial/",
+        "description": "A beginner-friendly tutorial on getting started with Apache Cassandra, covering its fundamental concepts and basic operations."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/apache-cassandra-nosql-database/",
+        "description": "An overview of Apache Cassandra, a NoSQL database management system, including its features, architecture, and use cases."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/cassandra-nosql-database/",
+        "description": "An overview and introduction to the Cassandra NoSQL database, highlighting its architecture, features, and applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/sstable-in-apache-cassandra/",
+        "description": "This resource explains the structure and role of SSTables in Apache Cassandra's database management system."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devops/introduction-to-apache-cassandra/",
+        "description": "An introductory guide to understanding the basics and key features of Apache Cassandra in a DevOps context."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=KZsVSfQVU4I",
+      "https://www.youtube.com/watch?v=jgqu1BcSKUI",
+      "https://www.youtube.com/watch?v=J-cSy5MeMOA",
+      "https://www.youtube.com/watch?v=WFycRMLvMKc",
+      "https://www.youtube.com/watch?v=VsQ4OuH-K1I"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a key feature of Cassandra that makes it suitable for big data applications?",
+      "options": [
+        "Support for ACID transactions",
+        "Extreme write scalability and high availability",
+        "Strong consistency across all nodes",
+        "Built-in machine learning capabilities"
+      ],
+      "correct_option": 1,
+      "hint": "Think about its scalability and availability features."
+    },
+    {
+      "question": "Which of the following is a primary reason to choose Cassandra over other NoSQL databases?",
+      "options": [
+        "Support for complex joins",
+        "High throughput for write operations",
+        "Built-in full text search",
+        "Support for in-memory data storage only"
+      ],
+      "correct_option": 1,
+      "hint": "Consider the database's performance with write operations."
+    },
+    {
+      "question": "Cassandra is most suitable for applications that require:",
+      "options": [
+        "Real-time analytics on live data streams",
+        "High availability and horizontal scalability",
+        "Complex relational joins",
+        "Single-node deployment"
+      ],
+      "correct_option": 1,
+      "hint": "Think about its architecture and deployment model."
+    },
+    {
+      "question": "Which architecture does Cassandra use to ensure high availability?",
+      "options": [
+        "Master-slave architecture",
+        "Single-point architecture",
+        "Peer-to-peer architecture",
+        "Hierarchical architecture"
+      ],
+      "correct_option": 2,
+      "hint": "Consider how data is distributed across nodes in Cassandra."
+    },
+    {
+      "question": "In Cassandra, what ensures that data is distributed evenly across all nodes?",
+      "options": [
+        "Data sharding",
+        "Data replication",
+        "Consistent hashing",
+        "Primary key assignment"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how data is balanced and accessed efficiently."
+    }
+  ],
+  "preferred_if": [
+    "User needs extreme write scalability and high availability"
+  ]
+}

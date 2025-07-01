@@ -1,0 +1,120 @@
+{
+  "id": "FS16",
+  "name": "NoSQL Databases (MongoDB & Redis)",
+  "category": "FullStack Development",
+  "primary_tech": "NoSQL Databases",
+  "topics": [
+    "Document Database Concepts (MongoDB)",
+    "Key-Value Stores (Redis for Caching/Sessions)",
+    "Data Modeling for NoSQL",
+    "Aggregation Frameworks"
+  ],
+  "recommended": true,
+  "tags": [
+    "database",
+    "NoSQL",
+    "caching"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Database",
+        "description": "An overview of databases, explaining their purpose, types, and fundamental concepts within software development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
+        "description": "This resource provides an introduction to using Mongoose for data modeling in Node.js applications with Express."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "description": "An introductory guide to building server-side applications using Express and Node.js."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/introduction-to-nosql/",
+        "description": "An introductory guide explaining the fundamentals and advantages of NoSQL databases."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/minimum-requirement-to-be-an-employable-junior-web-developer/435246",
+        "description": "Guidance on the essential skills and knowledge needed to become an employable junior web developer."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/types-of-nosql-databases/",
+        "description": "An overview of the different types of NoSQL databases, highlighting their characteristics and use cases."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/difference-between-redis-and-mongodb/",
+        "description": "A comparative analysis highlighting the key differences between Redis and MongoDB databases."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/difference-between-redis-and-mongodb/",
+        "description": "This resource compares the key differences between Redis and MongoDB in terms of data storage and management."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=0buKQHokLK8",
+      "https://www.youtube.com/watch?v=-bt_y4Loofg",
+      "https://www.youtube.com/watch?v=G1rOthIU-uo",
+      "https://www.youtube.com/watch?v=JHMulyNImj4",
+      "https://www.youtube.com/watch?v=ziq7FUKpCS8"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a primary feature of document databases like MongoDB?",
+      "options": [
+        "They store data in tables with fixed schemas.",
+        "They store data as JSON-like documents.",
+        "They primarily use SQL for queries.",
+        "They are best used for relational data."
+      ],
+      "correct_option": 1,
+      "hint": "Document databases do not use tables like traditional databases."
+    },
+    {
+      "question": "Which of the following is a common use case for Redis?",
+      "options": [
+        "Storing large volumes of text data.",
+        "Caching frequently accessed data.",
+        "Performing complex joins across tables.",
+        "Running transactional SQL queries."
+      ],
+      "correct_option": 1,
+      "hint": "Redis is often used to improve the performance of applications by reducing the time needed to access data."
+    },
+    {
+      "question": "In MongoDB, what is an aggregation framework used for?",
+      "options": [
+        "Ensuring data consistency across collections.",
+        "Defining relations between documents.",
+        "Performing advanced data processing and analysis.",
+        "Storing documents in a schema-less way."
+      ],
+      "correct_option": 2,
+      "hint": "Aggregation frameworks help in processing data and returning computed results."
+    },
+    {
+      "question": "How does data modeling for NoSQL databases differ from traditional relational databases?",
+      "options": [
+        "It requires strict adherence to normalization rules.",
+        "It focuses more on the application needs and access patterns.",
+        "It emphasizes complex joins and foreign keys.",
+        "It involves using primary and secondary indexes heavily."
+      ],
+      "correct_option": 1,
+      "hint": "NoSQL data modeling is more flexible and tailored to specific use cases."
+    },
+    {
+      "question": "What is the role of a key in a key-value store like Redis?",
+      "options": [
+        "It acts as a unique identifier for storing and retrieving data.",
+        "It defines the schema of the stored data.",
+        "It is used to perform complex queries and joins.",
+        "It specifies the type of data being stored."
+      ],
+      "correct_option": 0,
+      "hint": "In a key-value store, each key maps directly to a single value."
+    }
+  ]
+}

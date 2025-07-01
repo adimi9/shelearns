@@ -1,0 +1,186 @@
+{
+  "id": "GD12",
+  "name": "Multiplayer Game Development Basics",
+  "category": "Game Development",
+  "primary_tech": "Networking",
+  "topics": [
+    "Client-Server vs. Peer-to-Peer",
+    "Network Topologies",
+    "RPCs & Networked Variables",
+    "Latency Compensation Basics"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "multiplayer",
+    "networking",
+    "online"
+  ],
+  "alternatives": [
+    {
+      "tech": "Photon Engine",
+      "reason": "Popular third-party networking solution for Unity and other engines",
+      "tags": [
+        "networking",
+        "third-party"
+      ],
+      "preferred_if": [
+        "User wants a ready-to-use networking solution",
+        "Building real-time multiplayer games"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is Photon Engine primarily used for in game development?",
+          "options": [
+            "Creating single-player games",
+            "Developing in-game graphics",
+            "Implementing real-time multiplayer networking",
+            "Designing game sound effects"
+          ],
+          "correct_option": 2,
+          "hint": "It is a solution for networking in games."
+        },
+        {
+          "question": "Which of the following platforms is NOT supported by Photon Engine for game development?",
+          "options": [
+            "Unity",
+            "Unreal Engine",
+            "Blender",
+            "Godot"
+          ],
+          "correct_option": 2,
+          "hint": "Photon Engine supports game engines, not 3D modeling software."
+        },
+        {
+          "question": "What type of games is Photon Engine best suited for?",
+          "options": [
+            "Turn-based games",
+            "Real-time multiplayer games",
+            "Casual mobile games",
+            "Single-player RPGs"
+          ],
+          "correct_option": 1,
+          "hint": "Photon Engine excels in networking for games played simultaneously by multiple players."
+        },
+        {
+          "question": "Which feature of Photon Engine helps developers synchronize game state across different clients?",
+          "options": [
+            "Cloud storage",
+            "Dedicated servers",
+            "State synchronization",
+            "Asset management"
+          ],
+          "correct_option": 2,
+          "hint": "This feature ensures that all players see the same game state."
+        },
+        {
+          "question": "What is one advantage of using Photon Engine as a third-party networking solution?",
+          "options": [
+            "It requires no coding knowledge",
+            "It is free for unlimited players",
+            "It offers ready-to-use networking functionalities",
+            "It automatically generates game assets"
+          ],
+          "correct_option": 2,
+          "hint": "Photon Engine provides pre-built networking tools."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL",
+          "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/57",
+          "https://developer.mozilla.org/ja/docs/Mozilla/Firefox/Releases/57"
+        ],
+        "notes": [
+          "https://www.geeksforgeeks.org/php/explain-photon-in-wordpress/",
+          "https://www.geeksforgeeks.org/linux-unix/darkscrape-osint-tool-for-scraping-dark-websites/",
+          "https://www.geeksforgeeks.org/installation-guide/how-to-configure-the-eclipse-with-apache-hadoop/?ref=oin_asr25",
+          "https://www.freecodecamp.org/news/tools-for-open-source-intelligence-gathering/",
+          "https://www.geeksforgeeks.org/how-to-install-and-use-telnet-on-ubuntu-22-04-lts/"
+        ],
+        "videos": []
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Games/Introduction",
+      "https://developer.mozilla.org/en-US/docs/Games/Tools",
+      "https://developer.mozilla.org/en-US/docs/Games"
+    ],
+    "notes": [
+      "https://www.freecodecamp.org/news/create-a-simple-mmo-game-in-unity/",
+      "https://www.freecodecamp.org/news/learn-unity-multiplayer-basics-with-mirror/",
+      "https://forum.freecodecamp.org/t/is-freecodecamp-a-good-path-for-aspiring-game-engineers/145439",
+      "https://www.freecodecamp.org/news/python-online-multiplayer-game-development-tutorial/",
+      "https://forum.freecodecamp.org/t/any-other-resources-you-can-recommend-for-a-beginner/163026"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=KBBJqPL5-eU",
+      "https://www.youtube.com/watch?v=bs13L7bNBNU",
+      "https://www.youtube.com/watch?v=3yuBOB3VrCk",
+      "https://www.youtube.com/watch?v=YUySfU4fXwE",
+      "https://www.youtube.com/watch?v=YmUnXsOp_t0"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary advantage of using a client-server model over a peer-to-peer model in multiplayer games?",
+      "options": [
+        "Reduced latency",
+        "Easier cheat prevention",
+        "Lower server costs",
+        "Increased player control"
+      ],
+      "correct_option": 1,
+      "hint": "Consider how centralized control affects game security."
+    },
+    {
+      "question": "Which network topology is most commonly used in multiplayer games to manage player connections?",
+      "options": [
+        "Mesh topology",
+        "Star topology",
+        "Bus topology",
+        "Ring topology"
+      ],
+      "correct_option": 1,
+      "hint": "This topology uses a central hub to manage all connections."
+    },
+    {
+      "question": "In networking, what does RPC stand for, and why is it important in multiplayer games?",
+      "options": [
+        "Remote Procedure Call; it allows functions to be executed on a remote server or client.",
+        "Real-time Processing Control; it manages real-time data flow.",
+        "Remote Player Communication; it facilitates chat between players.",
+        "Rapid Packet Communication; it speeds up data transfer."
+      ],
+      "correct_option": 0,
+      "hint": "It involves executing code across different machines in a network."
+    },
+    {
+      "question": "What technique is commonly used to reduce the perceived effects of latency in multiplayer games?",
+      "options": [
+        "Frame skipping",
+        "Latency prediction",
+        "Input buffering",
+        "Lag compensation"
+      ],
+      "correct_option": 3,
+      "hint": "It's a technique that compensates for delays in data transmission."
+    },
+    {
+      "question": "Which of the following is NOT a common method for synchronizing networked variables between clients and servers?",
+      "options": [
+        "Interpolation",
+        "Extrapolation",
+        "Quantization",
+        "Decryption"
+      ],
+      "correct_option": 3,
+      "hint": "This option does not relate to adjusting or predicting variable values."
+    }
+  ]
+}

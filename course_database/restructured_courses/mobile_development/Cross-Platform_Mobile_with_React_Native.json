@@ -1,0 +1,121 @@
+{
+  "id": "MD15",
+  "name": "Cross-Platform Mobile with React Native",
+  "category": "Mobile Development",
+  "primary_tech": "React Native",
+  "topics": [
+    "React Native Components & APIs",
+    "Flexbox for Layout",
+    "Navigation in React Native",
+    "Bridging Native Modules"
+  ],
+  "recommended": true,
+  "tags": [
+    "cross-platform",
+    "JavaScript",
+    "React",
+    "hybrid"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://reactnative.dev/",
+        "description": "Official documentation and resources for building mobile applications using the React Native framework."
+      },
+      {
+        "url": "https://www.reddit.com/r/FlutterDev/comments/1ascne8/development_in_flutter_seems_unnecessarily/",
+        "description": "Discussion on the complexities and challenges of developing applications using Flutter."
+      },
+      {
+        "url": "https://reactnative.dev/docs/getting-started",
+        "description": "A comprehensive guide for setting up and starting development with React Native."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://forum.freecodecamp.org/t/cross-platform-mobile-app-development-react-native-vs-flutter/334469",
+        "description": "This forum discussion compares the features, advantages, and drawbacks of using React Native versus Flutter for cross-platform mobile app development."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/react-native/react-native-tutorial/",
+        "description": "A comprehensive guide to building mobile applications using React Native, covering fundamental concepts and practical examples."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/after-building-my-first-react-native-app-im-now-convinced-it-s-the-future-d3c5e74f8fa8/",
+        "description": "This article shares a developer's experience and insights on why React Native is a promising technology for future mobile app development."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/mobile-app-development-with-react-native/",
+        "description": "An insightful guide on building mobile applications using React Native, covering essential concepts and practical examples."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/software-engineering/introduction-to-cross-platform-mobile-application-development/",
+        "description": "An introduction to techniques and tools for developing mobile applications that function across multiple platforms."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+      "https://www.reddit.com/r/reactnative/comments/x9vrem/how_to_learn_mobile_development_with_reactnative/",
+      "https://www.youtube.com/watch?v=bCpFbERgj7s",
+      "https://www.reddit.com/r/reactnative/comments/18w39mw/what_is_the_best_learning_roadmap_and_recommended/",
+      "https://www.youtube.com/watch?v=do78xbPwHV0"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of using Flexbox in React Native?",
+      "options": [
+        "To manage state in applications",
+        "To handle network requests",
+        "To layout components in a responsive way",
+        "To style components"
+      ],
+      "correct_option": 2,
+      "hint": "Flexbox is mainly used for designing layouts."
+    },
+    {
+      "question": "Which React Native component is used to create a basic button?",
+      "options": [
+        "View",
+        "Text",
+        "Button",
+        "TouchableOpacity"
+      ],
+      "correct_option": 2,
+      "hint": "This component is named after the UI element it represents."
+    },
+    {
+      "question": "What is the role of React Navigation in React Native applications?",
+      "options": [
+        "To manage application state",
+        "To handle user authentication",
+        "To facilitate navigation between screens",
+        "To integrate native modules"
+      ],
+      "correct_option": 2,
+      "hint": "Think about moving from one screen to another."
+    },
+    {
+      "question": "How can native modules be accessed from JavaScript in React Native?",
+      "options": [
+        "Using Flexbox",
+        "Through bridging",
+        "By using the useEffect hook",
+        "With Redux"
+      ],
+      "correct_option": 1,
+      "hint": "This involves a connection between JavaScript and native code."
+    },
+    {
+      "question": "Which of the following is NOT a component provided by React Native?",
+      "options": [
+        "View",
+        "FlatList",
+        "Image",
+        "DOMElement"
+      ],
+      "correct_option": 3,
+      "hint": "Consider the components not typically found in mobile development."
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": "BE13",
+  "name": "Message Queues & Event-Driven Systems",
+  "category": "Backend Development",
+  "primary_tech": "Message Queues",
+  "topics": [
+    "Publish/Subscribe Patterns",
+    "RabbitMQ/Kafka Basics",
+    "Idempotency & Dead Letter Queues"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "messaging",
+    "architecture",
+    "distributed-systems"
+  ],
+  "alternatives": [
+    {
+      "tech": "AWS SQS/SNS",
+      "reason": "Managed messaging services for scalable applications",
+      "tags": [
+        "cloud",
+        "messaging"
+      ],
+      "preferred_if": [
+        "User is already on AWS and needs managed services"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is the primary purpose of AWS SQS in a cloud-based application?",
+          "options": [
+            "To store large amounts of data",
+            "To manage and scale server instances",
+            "To facilitate asynchronous message queuing between distributed components",
+            "To provide real-time analytics and insights"
+          ],
+          "correct_option": 2,
+          "hint": "Think about how systems communicate without waiting for each other."
+        },
+        {
+          "question": "Which AWS service is best suited for sending notifications to multiple subscribers at once?",
+          "options": [
+            "AWS Lambda",
+            "AWS S3",
+            "AWS SNS",
+            "AWS EC2"
+          ],
+          "correct_option": 2,
+          "hint": "Look for a service specifically designed for notifications."
+        },
+        {
+          "question": "What is a key benefit of using AWS SNS in an application architecture?",
+          "options": [
+            "Automatic message retry policies",
+            "Real-time processing of streamed data",
+            "Ability to push messages to multiple endpoints like SMS, email, or other AWS services",
+            "Storage of persistent data objects"
+          ],
+          "correct_option": 2,
+          "hint": "Consider how SNS delivers messages across different communication protocols."
+        },
+        {
+          "question": "Which of the following best describes AWS SQS?",
+          "options": [
+            "A service for creating virtual servers",
+            "A managed message queuing service that allows decoupling and scaling of microservices",
+            "A service for database management",
+            "A tool for monitoring application performance"
+          ],
+          "correct_option": 1,
+          "hint": "Focus on how it decouples components in a system."
+        },
+        {
+          "question": "How does AWS SQS help in handling application load?",
+          "options": [
+            "By storing data in a relational database",
+            "By automatically scaling server instances based on traffic",
+            "By allowing distributed components to communicate asynchronously, thus managing high loads",
+            "By providing a user interface for application management"
+          ],
+          "correct_option": 2,
+          "hint": "Think about load distribution without direct communication."
+        }
+      ],
+      "resources": {
+        "docs": [],
+        "notes": [
+          "https://www.geeksforgeeks.org/cloud-computing/amazon-sns-vs-sqs/",
+          "https://www.geeksforgeeks.org/devops/aws-sqs/",
+          "https://www.w3schools.com/aws/aws_cloudessentials_awssns.php",
+          "https://www.geeksforgeeks.org/simple-notification-service-sns-in-aws/",
+          "https://www.geeksforgeeks.org/aws-amazon-web-services-sns-vs-sqs/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=ciTa2I7-tDE",
+          "https://www.youtube.com/watch?v=VXsAgYoC1Jc&pp=ygUHI3Nuc2FoaQ%3D%3D",
+          "https://www.youtube.com/watch?v=Jc2Ed6UjNrM",
+          "https://www.youtube.com/watch?v=Von_VgswnJU",
+          "https://www.youtube.com/watch?v=XNO0h61WmzE"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model",
+      "https://nodejs.org/api/events.html",
+      "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/advance-java/event-driven-communication-with-messaging-queues/",
+      "https://www.geeksforgeeks.org/system-design/event-driven-architecture-system-design/",
+      "https://www.geeksforgeeks.org/system-design/message-driven-architecture-vs-event-driven-architecture/",
+      "https://www.geeksforgeeks.org/system-design/error-handling-in-event-driven-architecture/",
+      "https://www.geeksforgeeks.org/system-design/message-broker-vs-message-queue/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=gOuAqRaDdHA",
+      "https://www.youtube.com/watch?v=DYFocSiPOl8",
+      "https://www.youtube.com/watch?v=NQ3fZtyXji0",
+      "https://www.youtube.com/watch?v=oUJbuFMyBDk",
+      "https://www.youtube.com/watch?v=xErwDaOc-Gs"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary advantage of using a Publish/Subscribe pattern in message queues?",
+      "options": [
+        "Allows direct communication between sender and receiver",
+        "Enables asynchronous communication and decoupling of services",
+        "Increases the security of message transmission",
+        "Reduces the overall cost of message processing"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how services interact and remain independent."
+    },
+    {
+      "question": "Which of the following is a key feature of RabbitMQ?",
+      "options": [
+        "Built-in support for distributed transactions",
+        "Advanced real-time analytics",
+        "Support for multiple messaging protocols",
+        "Integrated machine learning capabilities"
+      ],
+      "correct_option": 2,
+      "hint": "Consider RabbitMQ's versatility in handling different protocols."
+    },
+    {
+      "question": "In Kafka, what is the purpose of a consumer group?",
+      "options": [
+        "To ensure load balancing across multiple producers",
+        "To allow multiple consumers to read from a partition independently",
+        "To aggregate messages from multiple topics",
+        "To coordinate the processing of messages across multiple consumers"
+      ],
+      "correct_option": 3,
+      "hint": "Think about how Kafka manages consumption of messages across different clients."
+    },
+    {
+      "question": "What does idempotency ensure in the context of message processing?",
+      "options": [
+        "Every message is processed exactly once",
+        "Duplicate messages are ignored, ensuring only one processing",
+        "Messages are processed in the order they are received",
+        "Only authorized users can send messages"
+      ],
+      "correct_option": 1,
+      "hint": "It's about handling duplicate messages."
+    },
+    {
+      "question": "What is a Dead Letter Queue (DLQ) used for in message queuing systems?",
+      "options": [
+        "To temporarily store messages during maintenance",
+        "To hold messages that cannot be processed successfully",
+        "To archive messages after processing",
+        "To encrypt messages before transmission"
+      ],
+      "correct_option": 1,
+      "hint": "Think about where problematic messages are stored for later analysis."
+    }
+  ]
+}

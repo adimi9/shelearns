@@ -1,0 +1,132 @@
+{
+  "id": "FS13",
+  "name": "Backend Development with Python: Django & Flask",
+  "category": "FullStack Development",
+  "primary_tech": "Python (Django/Flask)",
+  "topics": [
+    "Introduction to Python for Web Development",
+    "Setting Up Django and Flask Environments",
+    "Building RESTful APIs with Django and Flask",
+    "Database Integration and ORM Techniques",
+    "Authentication and Authorization in Django and Flask",
+    "Testing and Deploying Python Web Applications",
+    "Security Best Practices for Python Web Apps",
+    "Advanced Features: Asynchronous Programming with Python"
+  ],
+  "recommended": false,
+  "tags": [
+    "python",
+    "django",
+    "flask",
+    "web-development",
+    "backend",
+    "rest-api",
+    "database-integration"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+        "description": "An introduction to web frameworks, explaining their role and benefits in server-side web development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
+        "description": "An introductory guide to using the Django framework for server-side web development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Authentication",
+        "description": "A guide on implementing authentication in Django applications, covering user login, logout, and registration processes."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/python/flask-tutorial/",
+        "description": "A comprehensive tutorial on using the Flask framework for developing web applications in Python."
+      },
+      {
+        "url": "https://www.w3schools.com/django/",
+        "description": "A comprehensive guide for learning Django, including tutorials, examples, and references for building web applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/python/differences-between-django-vs-flask/",
+        "description": "A comparative analysis of the key differences between Django and Flask, two popular Python web frameworks."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/django-tutorial/",
+        "description": "A comprehensive guide for learning Django, covering installation, core concepts, and practical implementation."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/flask-creating-first-simple-application/",
+        "description": "A step-by-step guide to creating your first simple web application using the Flask framework."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+      "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+      "https://www.youtube.com/watch?v=45P3xQPaYxc",
+      "https://www.youtube.com/watch?v=PtQiiknWUcI",
+      "https://www.youtube.com/watch?v=Z1RJmh_OqeA"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which Python framework is known for its strong ORM capabilities, making it ideal for database-driven applications?",
+      "options": [
+        "Flask",
+        "Django",
+        "Pyramid",
+        "Tornado"
+      ],
+      "correct_option": 1,
+      "hint": "This framework follows the 'batteries-included' philosophy and is often compared to Ruby on Rails."
+    },
+    {
+      "question": "What is one of the main advantages of using Flask for web development?",
+      "options": [
+        "Strong built-in ORM",
+        "Lightweight and flexible",
+        "Built-in admin interface",
+        "Strict project structure"
+      ],
+      "correct_option": 1,
+      "hint": "This framework is known for its simplicity and minimalism."
+    },
+    {
+      "question": "Which Python web framework is best suited for rapid development and includes an admin panel out of the box?",
+      "options": [
+        "Flask",
+        "Bottle",
+        "Django",
+        "CherryPy"
+      ],
+      "correct_option": 2,
+      "hint": "This framework is often used in enterprise applications due to its comprehensive features."
+    },
+    {
+      "question": "Why might a developer choose Django over Flask for a project?",
+      "options": [
+        "Need for a lightweight framework",
+        "Preference for asynchronous support",
+        "Requirement for built-in admin interface",
+        "Desire for a microservices architecture"
+      ],
+      "correct_option": 2,
+      "hint": "Django is known for its extensive built-in features which provide a lot of functionalities out of the box."
+    },
+    {
+      "question": "Which Python framework would be recommended for a developer who prioritizes simplicity and flexibility in web application development?",
+      "options": [
+        "Django",
+        "Flask",
+        "FastAPI",
+        "Web2py"
+      ],
+      "correct_option": 1,
+      "hint": "This micro web framework is often chosen for its minimalistic approach."
+    }
+  ],
+  "preferred_if": [
+    "User prefers Python language",
+    "Needs strong ORM capabilities (Django)"
+  ]
+}

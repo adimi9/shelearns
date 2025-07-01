@@ -1,0 +1,120 @@
+{
+  "id": "MD8",
+  "name": "App Store & Google Play Publishing",
+  "category": "Mobile Development",
+  "primary_tech": "App Publishing",
+  "topics": [
+    "Developer Accounts Setup",
+    "App Signing & Certificates",
+    "Store Listings & Metadata (ASO)",
+    "Beta Testing & Phased Rollouts"
+  ],
+  "recommended": true,
+  "tags": [
+    "deployment",
+    "marketing",
+    "publishing"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable",
+        "description": "This guide provides instructions on how to make Progressive Web Apps (PWAs) installable on user devices."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/screenshots",
+        "description": "This resource provides detailed documentation on the \"screenshots\" member of the web app manifest for Progressive Web Apps."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Games/Publishing_games",
+        "description": "A guide on how to effectively publish and distribute games on various platforms."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/how-to-publish-your-android-app-on-google-play-store/",
+        "description": "A step-by-step guide on publishing an Android app on the Google Play Store."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/how-to-build-and-publish-scade-apps-to-apple-and-google-stores/",
+        "description": "A guide on building and publishing SCADE apps to Apple and Google app stores."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/how-to-create-and-upload-your-app-to-google-play-store/",
+        "description": "A step-by-step guide on creating and uploading an app to the Google Play Store."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/i-built-a-pwa-and-published-it-in-3-app-stores-heres-what-i-learned-7cb3f56daf9b/",
+        "description": "A developer shares insights and lessons learned from building a Progressive Web App (PWA) and publishing it across three app stores."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/how-to-deploy-react-native-application-on-play-store/",
+        "description": "A guide on deploying a React Native application to the Google Play Store."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=d8uEdeMgikU",
+      "https://www.youtube.com/watch?v=0gDB5viTYuo",
+      "https://www.youtube.com/watch?v=L9sU_aGeQEY",
+      "https://www.youtube.com/watch?v=SdgC_2sSnKg",
+      "https://www.youtube.com/watch?v=03vwbohVgNc"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the first step in setting up your app for publishing on the App Store and Google Play?",
+      "options": [
+        "Creating developer accounts",
+        "Generating app signing certificates",
+        "Writing app metadata",
+        "Conducting beta testing"
+      ],
+      "correct_option": 0,
+      "hint": "This step involves registering with the platforms to gain access to their publishing tools."
+    },
+    {
+      "question": "What is the purpose of app signing in the publishing process?",
+      "options": [
+        "To enhance the app's performance",
+        "To verify the app's authenticity",
+        "To improve app store rankings",
+        "To manage user feedback"
+      ],
+      "correct_option": 1,
+      "hint": "This process ensures that the app is from a legitimate source and hasn't been tampered with."
+    },
+    {
+      "question": "Which element is crucial for App Store Optimization (ASO) during the store listing process?",
+      "options": [
+        "App icon",
+        "Code quality",
+        "User reviews",
+        "Backend server"
+      ],
+      "correct_option": 0,
+      "hint": "This visual element represents the app on the store and can significantly impact user downloads."
+    },
+    {
+      "question": "What is a common method for releasing an app to a limited audience before a full launch?",
+      "options": [
+        "Phased Rollouts",
+        "Beta Testing",
+        "User Surveys",
+        "App Reviews"
+      ],
+      "correct_option": 1,
+      "hint": "This method allows developers to gather user feedback and test app performance with real users."
+    },
+    {
+      "question": "What is a phased rollout in the context of app publishing?",
+      "options": [
+        "Releasing the app to all users at once",
+        "Releasing the app in stages to different user groups",
+        "Conducting multiple advertising campaigns",
+        "Testing the app in various environments"
+      ],
+      "correct_option": 1,
+      "hint": "This strategy reduces the risk of widespread issues by limiting the initial user base."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "CS11",
+  "name": "Java Backend Development Essentials",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Java",
+  "topics": [
+    "Java Programming Fundamentals",
+    "Object-Oriented Programming in Java",
+    "Introduction to Spring Framework",
+    "Building RESTful APIs with Spring Boot",
+    "Database Integration with Java",
+    "Java Servlets and JSP",
+    "Security and Authentication in Java Applications",
+    "Deploying Java Applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "java",
+    "backend",
+    "spring",
+    "restful-apis",
+    "database-integration",
+    "mvc",
+    "oop"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "description": "Comprehensive documentation and resources for learning and using JavaScript on the web."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/",
+        "description": "A comprehensive resource for web developers containing documentation, guides, and tutorials on web technologies and APIs."
+      },
+      {
+        "url": "https://reactjs.org/",
+        "description": "Official documentation and resources for building user interfaces with React, a JavaScript library."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/java/",
+        "description": "A comprehensive tutorial for learning Java programming, covering syntax, data types, classes, and more."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/java/java/",
+        "description": "An extensive guide covering Java programming fundamentals, concepts, and advanced topics for learners and developers."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/proofs-for-the-derivatives-of-e%CB%A3-and-lnx-advanced-differentiation/",
+        "description": "This resource provides detailed proofs for the derivatives of exponential functions and logarithms, focusing on \\( e^x \\) and \\(\\ln(x)\\)."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/java-tutorial/",
+        "description": "A comprehensive guide for learning Java programming, covering basic to advanced concepts with examples."
+      },
+      {
+        "url": "https://www.w3schools.com/js/",
+        "description": "Comprehensive tutorial and reference guide for learning JavaScript programming language basics and advanced concepts."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=drQK8ciCAjY",
+      "https://www.youtube.com/watch?v=GdzRzWymT4c&pp=0gcJCf0Ao7VqN5tD",
+      "https://www.youtube.com/watch?v=eIrMbAQSU34",
+      "https://www.youtube.com/watch?v=xTtL8E4LzTQ",
+      "https://www.youtube.com/watch?v=b5l5UodFzMo"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of using Java in enterprise development?",
+      "options": [
+        "Ease of use in small-scale applications",
+        "Support for functional programming",
+        "Strong typing and robustness",
+        "Faster execution than C++"
+      ],
+      "correct_option": 2,
+      "hint": "Consider the reliability and scalability required in enterprise applications."
+    },
+    {
+      "question": "Which characteristic of Java makes it suitable for Android development?",
+      "options": [
+        "Interpreted language",
+        "Garbage collection",
+        "Platform independence",
+        "Dynamic typing"
+      ],
+      "correct_option": 2,
+      "hint": "Think about the ability to run on different hardware without modification."
+    },
+    {
+      "question": "What feature of Java supports its object-oriented programming paradigm?",
+      "options": [
+        "Pointers",
+        "Classes and objects",
+        "Direct memory access",
+        "Operator overloading"
+      ],
+      "correct_option": 1,
+      "hint": "Focus on the foundational elements of OOP in Java."
+    },
+    {
+      "question": "Why might a developer choose Java for enterprise development over dynamically typed languages?",
+      "options": [
+        "Faster development speed",
+        "Better integration with web technologies",
+        "Stronger type checking at compile time",
+        "Greater community support"
+      ],
+      "correct_option": 2,
+      "hint": "Consider the benefits of catching errors at compile time."
+    },
+    {
+      "question": "Which Java feature enhances code reliability in large software systems?",
+      "options": [
+        "Manual memory management",
+        "Strong typing",
+        "Weak typing",
+        "Scripting capabilities"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how data types are handled to prevent errors."
+    }
+  ],
+  "preferred_if": [
+    "User aims for enterprise development",
+    "Needs strong typing early on"
+  ]
+}

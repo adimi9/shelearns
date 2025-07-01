@@ -1,0 +1,131 @@
+{
+  "id": "FE17",
+  "name": "Mastering SvelteKit for Backend Development",
+  "category": "Frontend Development",
+  "primary_tech": "SvelteKit",
+  "topics": [
+    "Introduction to SvelteKit and its architecture",
+    "Setting up a SvelteKit project",
+    "Server-side rendering with SvelteKit",
+    "Building RESTful APIs with SvelteKit",
+    "State management in SvelteKit applications",
+    "Integrating databases and data fetching",
+    "Authentication and authorization in SvelteKit",
+    "Deploying SvelteKit applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "sveltekit",
+    "backend",
+    "web-development",
+    "server-side",
+    "api",
+    "javascript",
+    "fullstack"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_getting_started",
+        "description": "A beginner's guide to getting started with the Svelte framework for web development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_Todo_list_beginning",
+        "description": "A beginner's guide to building a to-do list application using the Svelte framework."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_stores",
+        "description": "An introduction to using Svelte stores for managing state in Svelte applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/learn-sveltekit-full-course/",
+        "description": "A comprehensive full-course guide to learning SvelteKit for building modern web applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/how-to-route-programmatically-in-sveltekit/",
+        "description": "This resource explains how to implement programmatic routing in SvelteKit applications."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/learn-sveltekit-and-tailwind-css-by-building-a-web-portfolio/",
+        "description": "Learn how to build a web portfolio using SvelteKit and Tailwind CSS through this comprehensive tutorial."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/javascript/how-to-get-query-string-parameter-in-sveltekit/",
+        "description": "A guide on retrieving query string parameters in SvelteKit applications using JavaScript."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/build-your-developer-portfolio-from-scratch-with-sveltekit-and-graphcms/",
+        "description": "Learn how to build a developer portfolio from scratch using SvelteKit and GraphCMS in this comprehensive guide."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=QKxJW6VVp6w",
+      "https://www.youtube.com/watch?v=9OlLxkaeVvw",
+      "https://www.youtube.com/watch?v=5IajHJULs5I",
+      "https://www.youtube.com/watch?v=vb7CgDcA_6U",
+      "https://www.youtube.com/watch?v=UU7MgYIbtAk"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is SvelteKit primarily used for?",
+      "options": [
+        "Building mobile applications",
+        "Creating static websites",
+        "Developing fullstack applications with SSR support",
+        "Designing desktop applications"
+      ],
+      "correct_option": 2,
+      "hint": "SvelteKit is designed for building applications with server-side rendering."
+    },
+    {
+      "question": "Which of the following features is a key advantage of using SvelteKit?",
+      "options": [
+        "Client-side rendering only",
+        "Python integration",
+        "Server-side rendering",
+        "No support for JavaScript"
+      ],
+      "correct_option": 2,
+      "hint": "SvelteKit offers a built-in feature that allows rendering on the server."
+    },
+    {
+      "question": "SvelteKit is a framework based on which primary technology?",
+      "options": [
+        "React",
+        "Angular",
+        "Svelte",
+        "Vue"
+      ],
+      "correct_option": 2,
+      "hint": "SvelteKit is built around a popular, compiler-based UI framework."
+    },
+    {
+      "question": "What does SSR stand for in the context of SvelteKit?",
+      "options": [
+        "Single State Rendering",
+        "Server-side Rendering",
+        "Secure Socket Routing",
+        "Svelte Script Runner"
+      ],
+      "correct_option": 1,
+      "hint": "SSR is a technique used to render web pages on the server rather than in the browser."
+    },
+    {
+      "question": "Which of the following is a common use case for SvelteKit?",
+      "options": [
+        "Building proprietary databases",
+        "Developing Svelte-based applications with SEO benefits",
+        "Creating blockchain applications",
+        "Designing machine learning models"
+      ],
+      "correct_option": 1,
+      "hint": "SvelteKit is often used where server-side rendering can improve SEO."
+    }
+  ],
+  "preferred_if": [
+    "User prefers Svelte ecosystem"
+  ]
+}

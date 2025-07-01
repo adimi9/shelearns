@@ -1,0 +1,101 @@
+{
+  "id": "FE12",
+  "name": "State Management Patterns",
+  "category": "Frontend Development",
+  "primary_tech": "Redux",
+  "topics": [
+    "Local & Global State",
+    "Redux / Zustand",
+    "Server-State Management"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "state",
+    "redux",
+    "frontend"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://beta.reactjs.org/learn/managing-state",
+      "https://legacy.reactjs.org/docs/context.html",
+      "https://beta.reactjs.org/learn/state-a-components-memory"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/system-design/state-design-pattern/",
+      "https://www.geeksforgeeks.org/how-to-manage-state-in-flutter-with-bloc-pattern/",
+      "https://www.geeksforgeeks.org/reactjs/state-management-in-react-hooks-context-api-and-redux/",
+      "https://www.geeksforgeeks.org/system-design/state-method-design-pattern-c-design-patterns/",
+      "https://www.geeksforgeeks.org/system-design/event-driven-architecture-patterns-in-cloud-native-applications/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=_shA5Xwe8_4",
+      "https://www.youtube.com/watch?v=SDk_GldOtK8",
+      "https://www.youtube.com/watch?v=tv-_1er1mWI",
+      "https://www.youtube.com/watch?v=VenLRGHx3D4",
+      "https://www.youtube.com/watch?v=rF6eq1oru-Y"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a primary difference between local and global state management?",
+      "options": [
+        "Local state is managed within a single component, while global state is shared across multiple components.",
+        "Local state requires a library like Redux for management, whereas global state does not.",
+        "Global state can only be managed using server-side tools, unlike local state.",
+        "Local state persists across sessions, whereas global state does not."
+      ],
+      "correct_option": 0,
+      "hint": "Consider the scope and sharing capabilities of the state."
+    },
+    {
+      "question": "Which of the following libraries is not typically used for state management in React applications?",
+      "options": [
+        "Redux",
+        "Zustand",
+        "Context API",
+        "Django"
+      ],
+      "correct_option": 3,
+      "hint": "Think about which option is a web framework rather than a state management library."
+    },
+    {
+      "question": "In Redux, what is the role of a reducer?",
+      "options": [
+        "To dispatch actions to change the state.",
+        "To define the initial state of the application.",
+        "To specify how the application's state changes in response to actions.",
+        "To connect the Redux store to React components."
+      ],
+      "correct_option": 2,
+      "hint": "Reducers are pure functions that determine the changes in the state."
+    },
+    {
+      "question": "What is a common challenge when managing server-state?",
+      "options": [
+        "Synchronizing state between the client and server.",
+        "Storing server-state in local storage.",
+        "Creating server-state using only client-side libraries.",
+        "Using server-state without a database."
+      ],
+      "correct_option": 0,
+      "hint": "Consider the difficulties in keeping client and server data consistent."
+    },
+    {
+      "question": "Which state management library is known for its minimalistic and flexible API, often used as an alternative to Redux?",
+      "options": [
+        "Zustand",
+        "MobX",
+        "Vuex",
+        "Relay"
+      ],
+      "correct_option": 0,
+      "hint": "This library is known for its simplicity and small footprint."
+    }
+  ]
+}

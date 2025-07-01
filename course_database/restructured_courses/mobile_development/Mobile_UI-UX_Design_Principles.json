@@ -1,0 +1,121 @@
+{
+  "id": "MD12",
+  "name": "Mobile UI/UX Design Principles",
+  "category": "Mobile Development",
+  "primary_tech": "UI/UX Design",
+  "topics": [
+    "Human Interface Guidelines (iOS)",
+    "Material Design (Android)",
+    "Wireframing & Prototyping",
+    "Usability Testing Basics"
+  ],
+  "recommended": true,
+  "tags": [
+    "design",
+    "UI",
+    "UX",
+    "mobile"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.apple.com/design/human-interface-guidelines",
+        "description": "Apple's Human Interface Guidelines provide comprehensive design principles and best practices for creating user-friendly and visually appealing applications across Apple platforms."
+      },
+      {
+        "url": "https://m3.material.io/",
+        "description": "Explore Material Design 3's guidelines and resources for creating visually appealing, user-friendly digital experiences."
+      },
+      {
+        "url": "https://developer.android.com/design",
+        "description": "An overview and guidelines for designing user-friendly and visually appealing Android applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.reddit.com/r/UXDesign/comments/9mhwk1/a_simple_guide_to_being_a_uiux_designer/",
+        "description": "A straightforward guide offering insights and tips for becoming a successful UI/UX designer."
+      },
+      {
+        "url": "https://www.toptal.com/designers/mobile-ui/mobile-ux-design-principles",
+        "description": "This resource outlines essential principles and best practices for designing effective mobile user interfaces and user experiences."
+      },
+      {
+        "url": "https://www.reddit.com/r/ProductManagement/comments/13g5t3c/how_to_get_solid_understanding_of_uxui_design/",
+        "description": "A Reddit discussion offering advice and resources for product managers to deepen their understanding of UX/UI design."
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/dynamics365/guidance/develop/ui-ux-design-principles",
+        "description": "This resource provides UI/UX design principles and best practices for developing applications with Microsoft Dynamics 365."
+      },
+      {
+        "url": "https://www.reddit.com/r/web_design/comments/v5xkfu/what_uiux_book_do_you_recommend/",
+        "description": "This Reddit thread discusses recommendations for UI/UX design books."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=uwNClNmekGU",
+      "https://www.youtube.com/watch?v=NTmh8l-Xl4c",
+      "https://www.youtube.com/watch?v=aoFMyMYhKCM",
+      "https://www.youtube.com/watch?v=wIuVvCuiJhU",
+      "https://www.youtube.com/watch?v=c9Wg6Cb_YlU"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of Human Interface Guidelines (HIG) in iOS design?",
+      "options": [
+        "To ensure consistency and usability across iOS applications",
+        "To limit the creativity of app designers",
+        "To provide detailed coding strategies for iOS developers",
+        "To outline Android-specific design patterns"
+      ],
+      "correct_option": 0,
+      "hint": "Think about the role of guidelines in maintaining a uniform user experience."
+    },
+    {
+      "question": "Which principle is emphasized in Material Design for Android?",
+      "options": [
+        "Minimizing animations",
+        "Flat design",
+        "Realistic lighting and shadow effects",
+        "Avoiding color contrast"
+      ],
+      "correct_option": 2,
+      "hint": "Material Design focuses on mimicking real-world surfaces."
+    },
+    {
+      "question": "What is wireframing in the context of mobile UI/UX design?",
+      "options": [
+        "Creating a full-color design of the application",
+        "Developing the underlying code for the app",
+        "Outlining the structure and layout of an app without detailed design",
+        "Conducting user surveys for app feedback"
+      ],
+      "correct_option": 2,
+      "hint": "Wireframing is about planning the skeletal framework of an app."
+    },
+    {
+      "question": "Which tool is commonly used for prototyping in mobile app design?",
+      "options": [
+        "Photoshop",
+        "Sketch",
+        "Microsoft Word",
+        "Excel"
+      ],
+      "correct_option": 1,
+      "hint": "This tool is popular among designers for creating interactive prototypes."
+    },
+    {
+      "question": "What is the main goal of usability testing in mobile app development?",
+      "options": [
+        "To increase app download numbers",
+        "To identify and fix usability issues before launch",
+        "To create marketing strategies for the app",
+        "To develop new coding languages"
+      ],
+      "correct_option": 1,
+      "hint": "Usability testing focuses on improving user experience by identifying potential issues."
+    }
+  ]
+}

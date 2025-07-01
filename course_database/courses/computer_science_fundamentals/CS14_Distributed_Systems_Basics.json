@@ -1,0 +1,101 @@
+{
+  "id": "CS14",
+  "name": "Distributed Systems Basics",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Distributed Systems",
+  "topics": [
+    "Client-Server Architecture",
+    "Concurrency Issues",
+    "Fault Tolerance & Consistency",
+    "RPC & Message Queues (Concepts)"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "systems",
+    "scalability",
+    "cloud"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Glossary/REST",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox",
+      "https://developer.mozilla.org/en-US/"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/distributed-systems-tutorial/",
+      "https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/",
+      "https://www.geeksforgeeks.org/computer-networks/what-is-a-distributed-system/",
+      "https://www.geeksforgeeks.org/operating-systems/operating-systems/",
+      "https://www.geeksforgeeks.org/system-design/eventual-consistency-in-distributive-systems-learn-system-design/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=IJWwfMyPu1c",
+      "https://www.youtube.com/watch?v=m8Icp_Cid5o",
+      "https://www.youtube.com/watch?v=CESKgdNiKJw",
+      "https://www.youtube.com/watch?v=FxAom29OEKE",
+      "https://www.youtube.com/watch?v=ajjOEltiZm4"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a primary advantage of client-server architecture in distributed systems?",
+      "options": [
+        "Improved security by centralizing data",
+        "Faster data processing due to parallelism",
+        "Redundancy of data to prevent loss",
+        "Reduced latency by local data storage"
+      ],
+      "correct_option": 0,
+      "hint": "Think about how centralization can benefit data management."
+    },
+    {
+      "question": "Which of the following is a common issue when handling concurrency in distributed systems?",
+      "options": [
+        "Increased data throughput",
+        "Data consistency problems",
+        "Enhanced data encryption",
+        "Improved fault tolerance"
+      ],
+      "correct_option": 1,
+      "hint": "Consider how simultaneous operations might affect data integrity."
+    },
+    {
+      "question": "What is the role of fault tolerance in distributed systems?",
+      "options": [
+        "To ensure the system continues functioning in case of failures",
+        "To enhance the speed of data processing",
+        "To manage the allocation of resources efficiently",
+        "To encrypt data during transmission"
+      ],
+      "correct_option": 0,
+      "hint": "Think about system reliability during unexpected failures."
+    },
+    {
+      "question": "In the context of Remote Procedure Calls (RPC) in distributed systems, what is one major challenge?",
+      "options": [
+        "Ensuring secure communication",
+        "Achieving high network bandwidth",
+        "Synchronizing clocks across systems",
+        "Maintaining data consistency across nodes"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the importance of protecting data across different systems during communication."
+    },
+    {
+      "question": "How do message queues contribute to the efficiency of distributed systems?",
+      "options": [
+        "They allow for asynchronous communication between services",
+        "They ensure data is encrypted end-to-end",
+        "They synchronize system clocks",
+        "They optimize data storage across nodes"
+      ],
+      "correct_option": 0,
+      "hint": "Think about how tasks can be managed without requiring immediate responses."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "CS10",
+  "name": "Object-Oriented Programming (OOP)",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "OOP",
+  "topics": [
+    "Classes & Objects",
+    "Encapsulation, Inheritance, Polymorphism",
+    "Abstraction & Interfaces",
+    "Design Patterns (Singleton, Factory basics)"
+  ],
+  "recommended": true,
+  "tags": [
+    "programming-paradigm",
+    "software-design",
+    "architecture"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object-oriented_programming",
+        "description": "This resource provides an introduction to object-oriented programming in JavaScript, covering advanced object concepts and techniques."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes",
+        "description": "An in-depth guide on defining and using classes in JavaScript, covering syntax, inheritance, and key concepts."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Classes_in_JavaScript",
+        "description": "An in-depth guide on understanding and using classes in JavaScript for advanced object-oriented programming."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/java/java_oop.asp",
+        "description": "An introduction to Java Object-Oriented Programming (OOP) concepts, including classes, objects, inheritance, and polymorphism."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/java/object-oriented-programming-oops-concept-in-java/",
+        "description": "An introduction to the core concepts of Object-Oriented Programming (OOP) in Java, including classes, objects, inheritance, polymorphism, encapsulation, and abstraction."
+      },
+      {
+        "url": "https://www.w3schools.com/cpp/cpp_oop.asp",
+        "description": "An introduction to Object-Oriented Programming (OOP) concepts in C++ with examples and explanations."
+      },
+      {
+        "url": "https://www.w3schools.com/cs/cs_oop.php",
+        "description": "An introductory guide to Object-Oriented Programming (OOP) concepts in C# with examples."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/",
+        "description": "An introductory guide to understanding the principles and concepts of object-oriented programming."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=wN0x9eZLix4",
+      "https://www.youtube.com/watch?v=pTB0EiLXUC8",
+      "https://www.youtube.com/watch?v=JeznW_7DlB0",
+      "https://www.youtube.com/watch?v=iLRZi0Gu8Go",
+      "https://www.youtube.com/watch?v=-pEs-Bss8Wc"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of encapsulation in Object-Oriented Programming?",
+      "options": [
+        "To allow direct access to the attributes of an object.",
+        "To bundle the data and methods that operate on the data within one unit.",
+        "To create multiple instances of a class.",
+        "To inherit properties from one class to another."
+      ],
+      "correct_option": 1,
+      "hint": "Encapsulation is about bundling data with the methods that can operate on the data."
+    },
+    {
+      "question": "Which of the following best describes inheritance in OOP?",
+      "options": [
+        "A class deriving properties and behavior from another class.",
+        "Creating a unique method for a class.",
+        "Encapsulating data within a single class.",
+        "Hiding the complexity of a system."
+      ],
+      "correct_option": 0,
+      "hint": "Inheritance allows a new class to take on the properties of an existing class."
+    },
+    {
+      "question": "What is the key characteristic of polymorphism in Object-Oriented Programming?",
+      "options": [
+        "Methods to be defined once and used for multiple purposes.",
+        "Encapsulating data within a class.",
+        "Creating a single instance of a class.",
+        "Using interfaces to hide implementation details."
+      ],
+      "correct_option": 0,
+      "hint": "Polymorphism allows methods to process objects differently based on their data type or class."
+    },
+    {
+      "question": "Which design pattern restricts a class to have only one instance?",
+      "options": [
+        "Factory Pattern",
+        "Singleton Pattern",
+        "Observer Pattern",
+        "Decorator Pattern"
+      ],
+      "correct_option": 1,
+      "hint": "This pattern ensures a class has only one instance and provides a global point of access to it."
+    },
+    {
+      "question": "What is an interface in OOP?",
+      "options": [
+        "A class with implemented methods.",
+        "A way to inherit behaviors from multiple classes.",
+        "A reference type with only abstract methods.",
+        "A class with both abstract and concrete methods."
+      ],
+      "correct_option": 2,
+      "hint": "An interface contains no implementation but defines a contract for classes to implement."
+    }
+  ]
+}

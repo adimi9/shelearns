@@ -1,0 +1,121 @@
+{
+  "id": "GD1",
+  "name": "Game Graphics & Rendering Basics",
+  "category": "Game Development",
+  "primary_tech": "Graphics Programming",
+  "topics": [
+    "Rendering Pipeline Overview",
+    "Vertex & Fragment Shaders (HLSL/GLSL)",
+    "Texture Mapping & Materials",
+    "Lighting Models (Phong, PBR basics)"
+  ],
+  "recommended": false,
+  "tags": [
+    "graphics",
+    "rendering",
+    "shaders",
+    "VFX"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/Basic_theory",
+        "description": "An introduction to the fundamental concepts and techniques for implementing 3D graphics on the web."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+        "description": "An overview of the Canvas API, detailing how to draw graphics and animations on web pages using JavaScript."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/Crisp_pixel_art_look",
+        "description": "A guide on achieving a crisp pixel art appearance in games using specific rendering techniques and settings."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/opengl-rendering-pipeline-overview/",
+        "description": "An overview of the OpenGL rendering pipeline, detailing its stages and functionality."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/computer-graphics/introduction-to-computer-graphics/",
+        "description": "An introductory guide to the fundamental concepts and applications of computer graphics."
+      },
+      {
+        "url": "https://www.w3schools.com/html/html5_svg.asp",
+        "description": "A guide to using SVG (Scalable Vector Graphics) in HTML5 for creating and manipulating vector graphics on web pages."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/computer-graphics/sfml-graphics-library-quick-tutorial/",
+        "description": "A concise tutorial on using the SFML graphics library for computer graphics applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/cpp-for-game-development/",
+        "description": "An overview of using C++ for game development, highlighting its advantages and applications in the gaming industry."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=f-9LEoYYvE4",
+      "https://www.youtube.com/watch?v=TEAtmCYYKZA",
+      "https://www.youtube.com/watch?v=45MIykWJ-C4",
+      "https://www.youtube.com/watch?v=SM1UHuV_YsE",
+      "https://www.youtube.com/watch?v=8cx7cIF6UgY"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which part of the rendering pipeline is responsible for converting 3D coordinates to 2D screen coordinates?",
+      "options": [
+        "Vertex Shader",
+        "Rasterizer",
+        "Fragment Shader",
+        "Tessellation Shader"
+      ],
+      "correct_option": 1,
+      "hint": "This stage occurs after the vertex processing and is crucial for transforming the 3D scene for display."
+    },
+    {
+      "question": "In the context of shaders, what is the primary role of a vertex shader?",
+      "options": [
+        "To handle pixel colors and shading",
+        "To compute per-vertex operations like transformations",
+        "To manage texture mapping",
+        "To perform lighting calculations"
+      ],
+      "correct_option": 1,
+      "hint": "This shader operates on each vertex and is responsible for transforming its position."
+    },
+    {
+      "question": "What does PBR stand for in lighting models?",
+      "options": [
+        "Physical Based Rendering",
+        "Pixel Based Rendering",
+        "Phong Based Rendering",
+        "Procedural Based Rendering"
+      ],
+      "correct_option": 0,
+      "hint": "This model aims to represent materials in a realistic way by simulating the flow of light."
+    },
+    {
+      "question": "Which shader language is typically used for writing shaders in OpenGL?",
+      "options": [
+        "HLSL",
+        "GLSL",
+        "C++",
+        "DirectX"
+      ],
+      "correct_option": 1,
+      "hint": "This language is specifically designed for the Open Graphics Library."
+    },
+    {
+      "question": "What is texture mapping primarily used for in game graphics?",
+      "options": [
+        "To simulate lighting effects",
+        "To apply images onto 3D models",
+        "To define the geometry of models",
+        "To create shadows"
+      ],
+      "correct_option": 1,
+      "hint": "This process involves wrapping an image around a 3D object to give it detail."
+    }
+  ]
+}

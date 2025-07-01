@@ -1,0 +1,130 @@
+{
+  "id": "FE25",
+  "name": "React.js Backend Development Essentials",
+  "category": "Frontend Development",
+  "primary_tech": "React.js",
+  "topics": [
+    "Introduction to React.js and Backend Concepts",
+    "Setting Up a Node.js and Express Environment",
+    "Building RESTful APIs with Express",
+    "Database Integration with MongoDB",
+    "User Authentication and Authorization",
+    "Deploying React Apps with Backend Services",
+    "Error Handling and Debugging in Backend",
+    "Optimizing Backend Performance"
+  ],
+  "recommended": false,
+  "tags": [
+    "reactjs",
+    "backend",
+    "nodejs",
+    "express",
+    "api-design",
+    "database-integration"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://reactjs.org/",
+        "description": "The official React documentation providing comprehensive guides, tutorials, and API references for building user interfaces with React."
+      },
+      {
+        "url": "https://reactjs.org/docs/getting-started.html",
+        "description": "A comprehensive guide for beginners to learn the fundamentals of React and start building applications."
+      },
+      {
+        "url": "https://legacy.reactjs.org/",
+        "description": "Legacy React documentation providing guidance and resources for developers using older versions of React."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/REACT/DEFAULT.ASP",
+        "description": "A comprehensive tutorial for learning React, covering its core concepts and providing interactive examples."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/reactjs/react/",
+        "description": "An introductory guide to understanding and using ReactJS for building user interfaces."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/reactjs-tutorial/588827",
+        "description": "A comprehensive tutorial on building and understanding ReactJS applications, covering fundamental concepts and practical examples."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/need-good-source-to-learn-react/456847",
+        "description": "Discussion thread on FreeCodeCamp forum seeking recommendations for quality resources to learn React."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/recommend-a-book-to-learn-react-js/4957",
+        "description": "A community forum discussion recommending books for learning React.js."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=w7ejDZ8SWv8",
+      "https://www.youtube.com/watch?v=LDB4uaJ87e0",
+      "https://www.youtube.com/playlist?list=PLpPqplz6dKxX8KhvEx5AoDJ61N9SIOFYh",
+      "https://www.youtube.com/watch?v=HVFSgIVXcD4",
+      "https://www.youtube.com/watch?v=hQAHSlTtcmY"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a key feature of React.js that makes it simpler and more flexible compared to other SPA frameworks?",
+      "options": [
+        "Two-way data binding",
+        "Virtual DOM",
+        "Built-in state management",
+        "Automatic form handling"
+      ],
+      "correct_option": 1,
+      "hint": "This feature allows React to efficiently update and render UI components."
+    },
+    {
+      "question": "Which of the following is a primary reason developers choose React.js for building SPAs?",
+      "options": [
+        "Strict structure and conventions",
+        "In-built routing system",
+        "Flexibility in component design",
+        "Server-side rendering by default"
+      ],
+      "correct_option": 2,
+      "hint": "Developers often appreciate the ability to structure their applications as they see fit."
+    },
+    {
+      "question": "In React.js, what is the primary way to manage component logic and state?",
+      "options": [
+        "Lifecycle methods",
+        "Redux",
+        "Hooks",
+        "Mixins"
+      ],
+      "correct_option": 2,
+      "hint": "This feature was introduced in React 16.8 to allow functional components to manage state and side effects."
+    },
+    {
+      "question": "What does JSX stand for in the context of React.js?",
+      "options": [
+        "JavaScript XML",
+        "JavaScript eXtension",
+        "Java Syntax eXtension",
+        "JavaScript Xperience"
+      ],
+      "correct_option": 0,
+      "hint": "It is a syntax extension that allows writing HTML-like code in JavaScript."
+    },
+    {
+      "question": "Why might a developer prefer React.js over other frameworks when building a single-page application (SPA)?",
+      "options": [
+        "It enforces a strict MVC pattern",
+        "It provides more flexibility in choosing additional libraries",
+        "It comes with a complete toolchain out of the box",
+        "It requires less JavaScript knowledge"
+      ],
+      "correct_option": 1,
+      "hint": "React.js is often used with various libraries to handle tasks like routing and state management, allowing for customization."
+    }
+  ],
+  "preferred_if": [
+    "User wants more flexibility"
+  ]
+}

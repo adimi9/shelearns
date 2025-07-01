@@ -1,0 +1,100 @@
+{
+  "id": "CS11",
+  "name": "Computer Architecture & Organization",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Hardware",
+  "topics": [
+    "CPU Components & Function",
+    "Memory Hierarchy (Cache, RAM)",
+    "Instruction Sets & Assembly Language (Basics)",
+    "Input/Output Devices"
+  ],
+  "levels": [
+    "Intermediate"
+  ],
+  "recommended": false,
+  "tags": [
+    "hardware",
+    "systems",
+    "low-level"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://reactjs.org/",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
+      "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/",
+      "https://www.geeksforgeeks.org/computer-organization-von-neumann-architecture/",
+      "https://www.geeksforgeeks.org/computer-organization-architecture/direct-memory-access-dma-controller-in-computer-architecture/",
+      "https://www.geeksforgeeks.org/differences-between-computer-architecture-and-computer-organization/",
+      "https://www.geeksforgeeks.org/computer-organization-and-architecture-pipelining-set-1-execution-stages-and-throughput/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=Ol8D69VKX2k",
+      "https://www.youtube.com/watch?v=GRInNLx3Tug",
+      "https://www.youtube.com/watch?v=L1ung0wil9Y",
+      "https://www.youtube.com/watch?v=4gwYkEK0gOk",
+      "https://www.youtube.com/watch?v=9nuAjYRbITQ"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which component of the CPU is responsible for performing arithmetic and logic operations?",
+      "options": [
+        "Control Unit",
+        "Arithmetic Logic Unit (ALU)",
+        "Registers",
+        "Cache"
+      ],
+      "correct_option": 1,
+      "hint": "This component is abbreviated as ALU."
+    },
+    {
+      "question": "What is the primary purpose of cache memory in a computer system?",
+      "options": [
+        "To permanently store data",
+        "To improve processing speed by storing frequently accessed data",
+        "To connect the CPU to peripheral devices",
+        "To back up data in case of power failure"
+      ],
+      "correct_option": 1,
+      "hint": "Cache memory acts as a high-speed buffer between the CPU and RAM."
+    },
+    {
+      "question": "Which of the following best describes an instruction set in computer architecture?",
+      "options": [
+        "A series of bits used to represent data",
+        "A collection of commands a CPU can execute",
+        "The physical layout of a CPU",
+        "The hierarchy of memory types"
+      ],
+      "correct_option": 1,
+      "hint": "It's a set of operations a processor can perform."
+    },
+    {
+      "question": "What is the function of the control unit within the CPU?",
+      "options": [
+        "To execute arithmetic operations",
+        "To manage the execution of instructions",
+        "To store data temporarily",
+        "To connect the CPU to external devices"
+      ],
+      "correct_option": 1,
+      "hint": "The control unit directs the operation of the processor."
+    },
+    {
+      "question": "Which type of device is primarily used for input in a computer system?",
+      "options": [
+        "Monitor",
+        "Keyboard",
+        "Printer",
+        "Speaker"
+      ],
+      "correct_option": 1,
+      "hint": "This device is used to enter data and commands into a computer."
+    }
+  ]
+}

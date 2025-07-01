@@ -1,0 +1,101 @@
+{
+  "id": "FE2",
+  "name": "Modern JavaScript (ES6+)",
+  "category": "Frontend Development",
+  "primary_tech": "JavaScript",
+  "topics": [
+    "Variables, Scoping, Functions",
+    "ES6 Features",
+    "Async JS, Promises, Fetch API"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "programming",
+    "fundamentals",
+    "language"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+    ],
+    "notes": [
+      "https://www.w3schools.com/js/js_es6.asp",
+      "https://forum.freecodecamp.org/t/the-modern-javascript-tutorial/273711",
+      "https://forum.freecodecamp.org/t/the-best-udemy-web-development-courses-top-free-courses/188730",
+      "https://www.freecodecamp.org/news/write-less-do-more-with-javascript-es6-5fd4a8e50ee2/",
+      "https://forum.freecodecamp.org/t/es6-too-much-of-a-learning-curve/199058"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=NCwa_xi0Uuc",
+      "https://www.youtube.com/watch?v=nZ1DMMsyVyI",
+      "https://www.youtube.com/watch?v=BI1o2H9z9fo",
+      "https://www.youtube.com/watch?v=1WCA0W5tI08",
+      "https://www.youtube.com/watch?v=1lFXj5h8IMA"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the main difference between 'let' and 'var' in JavaScript?",
+      "options": [
+        "'let' is block-scoped, 'var' is function-scoped",
+        "Both 'let' and 'var' are block-scoped",
+        "'var' is block-scoped, 'let' is function-scoped",
+        "Both 'let' and 'var' are function-scoped"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the scope where 'let' and 'var' are applicable."
+    },
+    {
+      "question": "Which of the following is a new feature introduced in ES6?",
+      "options": [
+        "Arrow functions",
+        "Global variables",
+        "XMLHttpRequest",
+        "Synchronous JavaScript"
+      ],
+      "correct_option": 0,
+      "hint": "ES6 introduced a new syntax for writing functions concisely."
+    },
+    {
+      "question": "How can you create a Promise in JavaScript?",
+      "options": [
+        "Using the 'new Promise' constructor",
+        "Using the 'createPromise' method",
+        "By declaring a variable as 'promise'",
+        "By using 'async' keyword alone"
+      ],
+      "correct_option": 0,
+      "hint": "Promises are objects that represent the eventual completion or failure of an asynchronous operation."
+    },
+    {
+      "question": "What will the following code output: console.log(typeof null)?",
+      "options": [
+        "'object'",
+        "'null'",
+        "'undefined'",
+        "'boolean'"
+      ],
+      "correct_option": 0,
+      "hint": "Consider how JavaScript defines the type of null."
+    },
+    {
+      "question": "Which method is used to send an HTTP request using the Fetch API?",
+      "options": [
+        "fetch()",
+        "httpRequest()",
+        "sendRequest()",
+        "getFetch()"
+      ],
+      "correct_option": 0,
+      "hint": "This method is named after the API itself."
+    }
+  ]
+}

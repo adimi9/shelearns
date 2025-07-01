@@ -1,0 +1,120 @@
+{
+  "id": "CSec3",
+  "name": "Identity & Access Management (IAM)",
+  "category": "Computer Security",
+  "primary_tech": "IAM",
+  "topics": [
+    "Authentication Methods (MFA, SSO)",
+    "Authorization Models (RBAC, ABAC)",
+    "Identity Federation",
+    "Directory Services (LDAP, Active Directory)"
+  ],
+  "recommended": true,
+  "tags": [
+    "authentication",
+    "authorization",
+    "user-management"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Expose-Headers",
+        "description": "This resource explains the HTTP header 'Access-Control-Expose-Headers', which specifies which headers can be exposed as part of the response in CORS requests."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Authentication",
+        "description": "A comprehensive guide on HTTP authentication methods and techniques for securing web communications."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/418",
+        "description": "This page explains the HTTP status code 418 \"I'm a teapot,\" which is part of an April Fools' joke from the Hyper Text Coffee Pot Control Protocol."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/identity-and-access-management-iam-in-amazon-web-services-aws/",
+        "description": "An overview of Identity and Access Management (IAM) services in AWS, detailing user authentication and authorization mechanisms."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/identity-and-access-management/",
+        "description": "An overview of Identity and Access Management (IAM) concepts, practices, and technologies."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devops/how-to-use-cloud-identity-and-access-management-iam-for-access-control-on-gcp/",
+        "description": "A guide on using Cloud Identity and Access Management (IAM) for access control on Google Cloud Platform (GCP)."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/computer-networks/identity-and-access-management-iam-in-cyber-security-roles/",
+        "description": "This resource explains the roles and significance of Identity and Access Management (IAM) in cybersecurity."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devops/architecture-of-identity-access-management-in-cloud-computing/",
+        "description": "An overview of identity and access management architecture in cloud computing within a DevOps framework."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=aNj36g7fSsU",
+      "https://www.youtube.com/watch?v=gsgdAyGhV0o",
+      "https://www.youtube.com/watch?v=2SNckEy7yGM",
+      "https://www.youtube.com/watch?v=hAk-7ImN6iM",
+      "https://www.youtube.com/watch?v=iF9fs8Rw4Uo"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary advantage of implementing Multi-Factor Authentication (MFA) in an IAM system?",
+      "options": [
+        "It reduces the complexity of password management.",
+        "It increases the security by requiring multiple forms of verification.",
+        "It provides a single sign-on experience for users.",
+        "It allows users to reset their own passwords easily."
+      ],
+      "correct_option": 1,
+      "hint": "Think about additional security measures beyond just passwords."
+    },
+    {
+      "question": "Which of the following authorization models is best described as assigning permissions to users based on their roles within an organization?",
+      "options": [
+        "Discretionary Access Control (DAC)",
+        "Mandatory Access Control (MAC)",
+        "Role-Based Access Control (RBAC)",
+        "Attribute-Based Access Control (ABAC)"
+      ],
+      "correct_option": 2,
+      "hint": "This model focuses on 'roles' as the key component."
+    },
+    {
+      "question": "What is the function of Identity Federation in IAM systems?",
+      "options": [
+        "To manage user authentication and authorization across different systems.",
+        "To provide a centralized directory for storing user information.",
+        "To allow users to use a single identity across multiple domains.",
+        "To encrypt user credentials for secure storage."
+      ],
+      "correct_option": 2,
+      "hint": "Consider how users can access multiple systems using one identity."
+    },
+    {
+      "question": "Which directory service protocol is commonly used for accessing and maintaining distributed directory information services over an IP network?",
+      "options": [
+        "SAML",
+        "OAuth",
+        "LDAP",
+        "Kerberos"
+      ],
+      "correct_option": 2,
+      "hint": "This protocol is often associated with directory services like Active Directory."
+    },
+    {
+      "question": "In the context of IAM, what does the acronym ABAC stand for?",
+      "options": [
+        "Attribute-Based Access Control",
+        "Automatic Backup and Configuration",
+        "Authentication-Based Access Control",
+        "Authorization-Based Access Control"
+      ],
+      "correct_option": 0,
+      "hint": "Focus on attributes as the main component of this model."
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "BE15",
+  "name": "Node.js for Backend Development",
+  "category": "Backend Development",
+  "primary_tech": "Node.js",
+  "topics": [
+    "Introduction to Node.js and its Architecture",
+    "Understanding the Event Loop and Asynchronous Programming",
+    "Setting Up a Basic Server with HTTP Module",
+    "Building RESTful APIs using Express.js",
+    "Database Integration with Node.js and MongoDB",
+    "Implementing Authentication and Authorization",
+    "Error Handling and Debugging",
+    "Deploying Node.js Applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "nodejs",
+    "backend",
+    "javascript",
+    "express",
+    "api-development",
+    "server-side"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://nodejs.org/docs/latest/api/",
+        "description": "Comprehensive documentation for the latest Node.js API, detailing modules, classes, and functions."
+      },
+      {
+        "url": "https://nodejs.org/api/documentation.html",
+        "description": "Comprehensive guide to Node.js API documentation, detailing modules, methods, and functionalities for developers."
+      },
+      {
+        "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+        "description": "An introductory guide to understanding and starting with Node.js for building server-side applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "http://www.w3schools.com/nodejs/",
+        "description": "A comprehensive guide to learning Node.js, covering its features, installation, and core concepts for building server-side applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/node-js/nodejs/",
+        "description": "An introductory guide to Node.js, covering its features, installation, and basic usage for server-side programming."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/get-started-with-nodejs/",
+        "description": "This article provides a beginner-friendly introduction to Node.js, covering its basics and setup process."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/help-to-learn-node-js/66187",
+        "description": "A community forum thread offering advice and resources for beginners learning Node.js."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/from-where-should-we-start-learning-node-js/33067",
+        "description": "This forum thread discusses recommended starting points and resources for learning Node.js effectively."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=32M1al-Y6Ag&pp=0gcJCfwAo7VqN5tD",
+      "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+      "https://www.youtube.com/watch?v=f2EqECiTBL8",
+      "https://www.youtube.com/watch?v=CnH3kAXSrmU",
+      "https://www.youtube.com/watch?v=L72fhGm1tfE&pp=0gcJCdgAo7VqN5tD"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is Node.js primarily used for in backend development?",
+      "options": [
+        "Building desktop applications",
+        "Creating scalable network applications",
+        "Developing mobile applications",
+        "Designing user interfaces"
+      ],
+      "correct_option": 1,
+      "hint": "Node.js excels in handling asynchronous I/O operations."
+    },
+    {
+      "question": "Which language is Node.js based on?",
+      "options": [
+        "Python",
+        "Ruby",
+        "Java",
+        "JavaScript"
+      ],
+      "correct_option": 3,
+      "hint": "Node.js is powered by the V8 engine, which is also used by a popular web browser."
+    },
+    {
+      "question": "What is a primary advantage of using Node.js for I/O operations?",
+      "options": [
+        "Synchronous processing",
+        "Multi-threaded execution",
+        "Non-blocking asynchronous architecture",
+        "Strong typing"
+      ],
+      "correct_option": 2,
+      "hint": "Node.js uses an event-driven model to handle requests."
+    },
+    {
+      "question": "Which of the following best describes Node.js?",
+      "options": [
+        "A JavaScript library for frontend development",
+        "A runtime environment for executing JavaScript on the server",
+        "A framework for building mobile applications",
+        "A database management system"
+      ],
+      "correct_option": 1,
+      "hint": "Node.js allows JavaScript to run outside of a browser."
+    },
+    {
+      "question": "Why might a developer choose Node.js over Python for backend development?",
+      "options": [
+        "It is better for CPU-intensive tasks",
+        "It has a larger standard library",
+        "It uses a synchronous execution model",
+        "It offers high performance for network applications"
+      ],
+      "correct_option": 3,
+      "hint": "Node.js is known for its efficiency in handling multiple concurrent connections."
+    }
+  ],
+  "preferred_if": [
+    "User already knows JavaScript",
+    "Needs high performance for I/O operations"
+  ]
+}

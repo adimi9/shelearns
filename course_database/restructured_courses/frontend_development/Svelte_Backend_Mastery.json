@@ -1,0 +1,131 @@
+{
+  "id": "FE13",
+  "name": "Svelte Backend Mastery",
+  "category": "Frontend Development",
+  "primary_tech": "Svelte",
+  "topics": [
+    "Understanding Svelte fundamentals and its architecture",
+    "Setting up a Svelte environment for server-side development",
+    "Building RESTful APIs with Svelte and Node.js",
+    "Data fetching and manipulation using Svelte stores",
+    "Integrating Svelte with databases and ORM tools",
+    "Authentication and security in Svelte applications",
+    "Deploying Svelte applications on cloud platforms",
+    "Optimizing Svelte applications for performance and scalability"
+  ],
+  "recommended": false,
+  "tags": [
+    "svelte",
+    "backend",
+    "api-development",
+    "nodejs",
+    "data-fetching",
+    "server-side",
+    "javascript"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_getting_started",
+        "description": "An introductory guide to getting started with Svelte, a modern JavaScript framework for building web applications."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_reactivity_lifecycle_accessibility",
+        "description": "An introduction to Svelte's reactivity, lifecycle, and accessibility features for web development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_stores",
+        "description": "This resource explains how to use Svelte stores for managing state in Svelte applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/the-svelte-handbook/",
+        "description": "A comprehensive guide to learning and mastering the Svelte framework for building modern web applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/svelte-introduction-and-installation/",
+        "description": "An introductory guide to Svelte, covering its features and installation process."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/svelte-video-tutorial/",
+        "description": "A comprehensive video tutorial introducing the Svelte framework, covering its core concepts and practical applications."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/tag/svelte/",
+        "description": "A collection of articles and tutorials on Svelte, a modern JavaScript framework for building user interfaces."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/how-to-do-test-driven-development-with-svelte-and-vitest/",
+        "description": "A guide on implementing test-driven development using Svelte and Vitest."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=3TVy6GdtNuQ",
+      "https://www.youtube.com/watch?v=8DQailPy3q8",
+      "https://www.youtube.com/watch?v=o6VwbXSjM08&pp=ygUNI3N2ZWx0ZWJhc2ljcw%3D%3D",
+      "https://www.youtube.com/watch?v=QKxJW6VVp6w",
+      "https://www.youtube.com/watch?v=UU7MgYIbtAk"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a key advantage of using Svelte over React.js?",
+      "options": [
+        "Svelte is a lightweight framework with no virtual DOM.",
+        "Svelte requires a larger runtime than React.js.",
+        "Svelte uses JSX syntax like React.js.",
+        "Svelte is not suitable for single-page applications."
+      ],
+      "correct_option": 0,
+      "hint": "Svelte compiles components into highly efficient imperative code that directly manipulates the DOM."
+    },
+    {
+      "question": "How does Svelte handle reactivity compared to React.js?",
+      "options": [
+        "Svelte uses a virtual DOM to track changes.",
+        "Svelte compiles components to optimize for reactivity at build time.",
+        "Svelte relies on state management like Redux.",
+        "Svelte uses the same lifecycle methods as React.js."
+      ],
+      "correct_option": 1,
+      "hint": "Svelte's approach to reactivity involves compiling to efficient JavaScript code that updates the DOM directly."
+    },
+    {
+      "question": "Which of the following best describes Svelte?",
+      "options": [
+        "A server-side rendering framework.",
+        "A library for managing CSS styles.",
+        "A component framework that compiles to vanilla JavaScript.",
+        "A database management tool."
+      ],
+      "correct_option": 2,
+      "hint": "Svelte is known for its unique approach of compiling components to low-level JavaScript code."
+    },
+    {
+      "question": "What is a typical use case where Svelte might be preferred over React.js?",
+      "options": [
+        "Building a large enterprise application with complex state management.",
+        "Developing a high-performance single-page application with minimal setup.",
+        "Creating a mobile application with native performance.",
+        "Implementing server-side rendering for SEO purposes."
+      ],
+      "correct_option": 1,
+      "hint": "Svelte is often chosen for projects where simple setup and efficient client-side performance are priorities."
+    },
+    {
+      "question": "What is the main reason Svelte does not require a virtual DOM?",
+      "options": [
+        "Svelte applications run exclusively on the server.",
+        "Svelte compiles components into highly optimized JavaScript code.",
+        "Svelte uses a proprietary rendering engine instead.",
+        "Svelte stores the entire application state in global variables."
+      ],
+      "correct_option": 1,
+      "hint": "Svelte's compilation process results in direct DOM manipulations, eliminating the need for a virtual DOM."
+    }
+  ],
+  "preferred_if": [
+    "User wants minimal setup"
+  ]
+}

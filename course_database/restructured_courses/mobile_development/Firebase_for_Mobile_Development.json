@@ -1,0 +1,120 @@
+{
+  "id": "MD3",
+  "name": "Firebase for Mobile Development",
+  "category": "Mobile Development",
+  "primary_tech": "Firebase",
+  "topics": [
+    "Firebase Authentication",
+    "Cloud Firestore/Realtime Database",
+    "Cloud Functions for Firebase",
+    "Crashlytics & Analytics"
+  ],
+  "recommended": true,
+  "tags": [
+    "BaaS",
+    "backend-as-a-service",
+    "Google"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/",
+        "description": "A comprehensive resource for web developers offering documentation, tutorials, and reference materials for web technologies."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification",
+        "description": "Provides documentation on how to use the `showNotification` method to display notifications from a service worker."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API",
+        "description": "The Web Authentication API documentation provides guidance on implementing secure user authentication using public key cryptography for web applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://forum.freecodecamp.org/t/how-to-get-started-with-my-first-web-app-and-is-firebase-a-good-option-for-this/440823",
+        "description": "A discussion on getting started with building a first web app and evaluating Firebase as a suitable backend option."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/firebase/firebase-introduction/",
+        "description": "A comprehensive introduction to Firebase, detailing its features and benefits for app development."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/firebase-course-html-css-javascript/",
+        "description": "A comprehensive course on integrating Firebase with HTML, CSS, and JavaScript for web development."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/firebase/firebase-tutorial/",
+        "description": "A comprehensive tutorial on Firebase, covering its features, setup, and integration into applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/adding-firebase-to-android-app/",
+        "description": "This resource provides a step-by-step guide on integrating Firebase services into an Android application."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=9kRgVxULbag",
+      "https://www.youtube.com/watch?v=vAoB4VbhRzM",
+      "https://www.youtube.com/watch?v=p9pgI3Mg-So",
+      "https://www.youtube.com/watch?v=UFD4SP91tSM",
+      "https://www.youtube.com/watch?v=Rd6F5wHIysM"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is Firebase Authentication primarily used for in mobile applications?",
+      "options": [
+        "To manage user authentication and identity",
+        "To store user data",
+        "To deploy application code",
+        "To analyze user behavior"
+      ],
+      "correct_option": 0,
+      "hint": "It helps in managing user sign-in and authentication processes."
+    },
+    {
+      "question": "Which Firebase service would you use to store and sync data in real-time across all connected clients?",
+      "options": [
+        "Cloud Firestore",
+        "Firebase Realtime Database",
+        "Firebase Authentication",
+        "Firebase Hosting"
+      ],
+      "correct_option": 1,
+      "hint": "This service is known for real-time synchronization."
+    },
+    {
+      "question": "What is the main purpose of Cloud Functions for Firebase?",
+      "options": [
+        "To execute backend code in response to events",
+        "To host static websites",
+        "To manage application analytics",
+        "To store user-generated content"
+      ],
+      "correct_option": 0,
+      "hint": "It allows you to run server-side code without managing servers."
+    },
+    {
+      "question": "How does Crashlytics help mobile developers?",
+      "options": [
+        "By providing real-time crash reports and analytics",
+        "By improving app performance speed",
+        "By offering data storage solutions",
+        "By handling user authentication"
+      ],
+      "correct_option": 0,
+      "hint": "It focuses on reporting and understanding app crashes."
+    },
+    {
+      "question": "Which Firebase feature would you use to gain insights into how users interact with your mobile app?",
+      "options": [
+        "Firebase Analytics",
+        "Firebase Hosting",
+        "Cloud Firestore",
+        "Firebase Authentication"
+      ],
+      "correct_option": 0,
+      "hint": "This feature is dedicated to tracking user interactions and behaviors."
+    }
+  ]
+}

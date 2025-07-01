@@ -1,0 +1,119 @@
+{
+  "id": "BE23",
+  "name": "Docker & Containerization",
+  "category": "Backend Development",
+  "primary_tech": "Docker",
+  "topics": [
+    "Dockerfile & Image Building",
+    "Container Orchestration (Docker Compose)",
+    "Container Networking & Volumes"
+  ],
+  "recommended": true,
+  "tags": [
+    "devops",
+    "containerization",
+    "deployment"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@container",
+        "description": "An overview of the CSS @container rule, which enables responsive design by applying styles based on a container's size rather than the viewport."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/About",
+        "description": "An introduction to web development, covering essential concepts and resources for beginners."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/curriculum/about-curriculum/",
+        "description": "An overview of the MDN Web Docs curriculum designed to guide learners through web development topics."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/devops/docker-tutorial/",
+        "description": "A comprehensive guide to understanding and using Docker in DevOps environments."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/containerization-using-docker/",
+        "description": "An introductory guide to containerization using Docker, explaining its benefits and basic operations."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/an-introduction-to-docker-and-containers-for-beginners/",
+        "description": "An introductory guide to understanding Docker and containerization for beginners."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/introduction-to-docker/",
+        "description": "An introductory guide to understanding the basics and functionality of Docker for containerization."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/how-to-use-docker-desktop-to-deploy-docker-containerized-applications/?itm_source=auth&itm_medium=contributions&itm_campaign=improvements",
+        "description": "This resource provides a step-by-step guide on using Docker Desktop to deploy and manage containerized applications."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=pg19Z8LL06w",
+      "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+      "https://www.youtube.com/watch?v=rIrNIzy6U_g",
+      "https://www.youtube.com/watch?v=0qotVMX-J5s",
+      "https://www.youtube.com/watch?v=gAkwW2tuIqE"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of a Dockerfile?",
+      "options": [
+        "To define the environment variables for a container",
+        "To write the code for a Docker container",
+        "To automate the build of a Docker image",
+        "To manage Docker containers"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how Docker images are created and what file is used for that process."
+    },
+    {
+      "question": "Which command is used to start multiple Docker containers defined in a single file?",
+      "options": [
+        "docker start",
+        "docker compose up",
+        "docker run",
+        "docker build"
+      ],
+      "correct_option": 1,
+      "hint": "It involves a tool specifically designed to manage multi-container Docker applications."
+    },
+    {
+      "question": "What is a key advantage of using Docker volumes?",
+      "options": [
+        "They allow containers to communicate over a network",
+        "They enable container orchestration",
+        "They provide persistent storage for containers",
+        "They help in building Docker images more efficiently"
+      ],
+      "correct_option": 2,
+      "hint": "Consider how data is managed between container restarts."
+    },
+    {
+      "question": "Which of these networks is created by default when Docker is installed?",
+      "options": [
+        "bridge",
+        "host",
+        "overlay",
+        "none"
+      ],
+      "correct_option": 0,
+      "hint": "Docker uses this network type to allow containers to communicate with each other by default."
+    },
+    {
+      "question": "In Docker Compose, which file is commonly used to define services, networks, and volumes?",
+      "options": [
+        "Dockerfile",
+        "docker-compose.yml",
+        "Dockerfile-compose",
+        "compose-file.yml"
+      ],
+      "correct_option": 1,
+      "hint": "The file name is similar to Docker Compose itself and often uses a YAML format."
+    }
+  ]
+}

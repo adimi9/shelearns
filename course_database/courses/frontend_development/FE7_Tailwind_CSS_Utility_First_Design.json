@@ -1,0 +1,281 @@
+{
+  "id": "FE7",
+  "name": "Tailwind CSS & Utility-First Design",
+  "category": "Frontend Development",
+  "primary_tech": "Tailwind CSS",
+  "topics": [
+    "Utility Classes",
+    "Custom Themes",
+    "Responsive + Dark Mode"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "styling",
+    "utility-first",
+    "responsive"
+  ],
+  "alternatives": [
+    {
+      "tech": "Bootstrap",
+      "reason": "Popular UI component framework",
+      "tags": [
+        "styling",
+        "UI framework"
+      ],
+      "preferred_if": [
+        "User prefers ready-made components"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is Bootstrap primarily used for in web development?",
+          "options": [
+            "Creating responsive layouts and components",
+            "Managing server-side logic",
+            "Database management",
+            "Handling client-side scripting"
+          ],
+          "correct_option": 0,
+          "hint": "Consider what Bootstrap provides to help developers design websites."
+        },
+        {
+          "question": "Which of the following is a key feature of Bootstrap?",
+          "options": [
+            "Server-side scripting capabilities",
+            "Pre-designed components and responsive grid system",
+            "Advanced animation tools",
+            "Direct database connectivity"
+          ],
+          "correct_option": 1,
+          "hint": "Think about what Bootstrap offers to help quickly build UI components."
+        },
+        {
+          "question": "Bootstrap is built on which of the following technologies?",
+          "options": [
+            "Python and Django",
+            "HTML, CSS, and JavaScript",
+            "PHP and MySQL",
+            "Ruby on Rails"
+          ],
+          "correct_option": 1,
+          "hint": "Remember the front-end technologies."
+        },
+        {
+          "question": "Which class in Bootstrap is used to create a responsive layout?",
+          "options": [
+            ".container",
+            ".card",
+            ".button",
+            ".modal"
+          ],
+          "correct_option": 0,
+          "hint": "This class helps in creating a fixed-width layout that adapts to different screen sizes."
+        },
+        {
+          "question": "How does Bootstrap help developers compared to writing custom CSS from scratch?",
+          "options": [
+            "By providing a backend framework",
+            "By offering a set of pre-styled UI components and a grid system",
+            "By allowing direct integration with databases",
+            "By providing a comprehensive JavaScript library"
+          ],
+          "correct_option": 1,
+          "hint": "Focus on what Bootstrap offers out-of-the-box for styling and layout."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
+          "https://reactjs.org/",
+          "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-controls"
+        ],
+        "notes": [
+          "https://www.w3schools.com/bootstrap5/",
+          "https://www.w3schools.com/bootstrap/",
+          "https://www.w3schools.com/bootstrap4/",
+          "https://www.geeksforgeeks.org/bootstrap/bootstrap-tutorial/",
+          "https://www.w3schools.com/bootstrap/bootstrap_get_started.asp"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=Jyvffr3aCp0",
+          "https://m.youtube.com/watch?v=4sosXZsdy-s&t=155s",
+          "https://www.youtube.com/watch?v=5GcQtLDGXy8",
+          "https://www.youtube.com/watch?v=-qfEOE4vtxE&pp=0gcJCfwAo7VqN5tD",
+          "https://www.youtube.com/watch?v=O_9u1P5YjVc"
+        ]
+      }
+    },
+    {
+      "tech": "Chakra UI",
+      "reason": "Accessible component library for React",
+      "tags": [
+        "styling",
+        "UI framework",
+        "React-based"
+      ],
+      "preferred_if": [
+        "User prefers styled components and accessibility"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is Chakra UI?",
+          "options": [
+            "A utility-first CSS framework",
+            "A UI component library for React",
+            "A JavaScript framework for building mobile apps",
+            "A server-side rendering tool"
+          ],
+          "correct_option": 1,
+          "hint": "It is commonly used in React projects for building accessible components."
+        },
+        {
+          "question": "Which of the following is a key feature of Chakra UI?",
+          "options": [
+            "Built-in support for server-side rendering",
+            "Comprehensive set of UI components with accessibility in mind",
+            "Automatic code splitting for faster load times",
+            "Utility classes for rapid styling"
+          ],
+          "correct_option": 1,
+          "hint": "Consider what makes Chakra UI particularly suitable for developers focusing on accessibility."
+        },
+        {
+          "question": "Why might a developer choose Chakra UI over Tailwind CSS?",
+          "options": [
+            "Chakra UI provides a larger set of utility classes",
+            "Chakra UI is easier to integrate with Vue.js",
+            "Chakra UI offers a range of pre-built components with accessibility features",
+            "Chakra UI has better support for server-side rendering"
+          ],
+          "correct_option": 2,
+          "hint": "Think about the focus on components and accessibility when comparing to Tailwind CSS."
+        },
+        {
+          "question": "Which of the following describes a use case for Chakra UI?",
+          "options": [
+            "Developing a mobile-first application with CSS Grid",
+            "Building a React-based application with accessible UI components",
+            "Creating a static site with minimal JavaScript",
+            "Developing serverless functions with AWS"
+          ],
+          "correct_option": 1,
+          "hint": "Consider the React and accessibility aspects of Chakra UI for the use case."
+        },
+        {
+          "question": "How does Chakra UI ensure accessibility in its components?",
+          "options": [
+            "By providing utility classes for custom styling",
+            "By using semantic HTML and ARIA roles",
+            "By offering integration with third-party accessibility plugins",
+            "By enforcing strict CSS naming conventions"
+          ],
+          "correct_option": 1,
+          "hint": "Focus on the built-in features of the components that support accessibility."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://beta.reactjs.org/learn/your-first-component",
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/autocapitalize"
+        ],
+        "notes": [
+          "https://www.geeksforgeeks.org/reactjs/how-to-implement-chakra-ui-in-reactjs/",
+          "https://www.geeksforgeeks.org/how-to-implement-chakra-ui-in-reactjs/",
+          "https://www.geeksforgeeks.org/reactjs/chakra-ui-flexbox/",
+          "https://www.geeksforgeeks.org/chakra-ui-flexbox/?ref=ml_lbp",
+          "https://www.geeksforgeeks.org/reactjs/chakra-ui-media-and-icons-avatar/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=iXsM6NkEmFc",
+          "https://www.youtube.com/watch?v=s-bIsz-NR3c",
+          "https://www.youtube.com/watch?v=hJ873mLhmFQ",
+          "https://www.youtube.com/watch?v=QbLTBTfZ1Hk",
+          "https://www.youtube.com/watch?v=jLd059lbJkw"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/tailwind-css-utility-first-styling-for-rapid-ui-development/",
+      "https://www.geeksforgeeks.org/css/tailwind-css/",
+      "https://www.geeksforgeeks.org/css/introduction-to-tailwind-css/",
+      "https://www.geeksforgeeks.org/css/what-is-tailwind-css-4/",
+      "https://www.geeksforgeeks.org/css/how-to-add-tailwind-css-to-html/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=mr15Xzb1Ook",
+      "https://www.youtube.com/watch?v=DenUCuq4G04",
+      "https://www.youtube.com/watch?v=lHZwlzOUOZ4",
+      "https://www.youtube.com/watch?v=A41vgi5y1lA",
+      "https://www.youtube.com/watch?v=6biMWgD6_JY"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What are utility classes in Tailwind CSS?",
+      "options": [
+        "Predefined CSS classes for styling",
+        "Classes for creating JavaScript functions",
+        "HTML elements for structuring content",
+        "Frameworks for backend development"
+      ],
+      "correct_option": 0,
+      "hint": "These classes are used to apply specific styles directly in the HTML."
+    },
+    {
+      "question": "How can you customize themes in Tailwind CSS?",
+      "options": [
+        "By using Tailwind's built-in command line tool",
+        "By directly modifying the Tailwind CSS source files",
+        "By configuring the `tailwind.config.js` file",
+        "By changing the CSS file linked in HTML"
+      ],
+      "correct_option": 2,
+      "hint": "Look for a configuration file specific to Tailwind CSS."
+    },
+    {
+      "question": "Which utility class is used for applying a margin of 8 units in Tailwind CSS?",
+      "options": [
+        "m-8",
+        "margin-8",
+        "mt-8",
+        "ml-8"
+      ],
+      "correct_option": 0,
+      "hint": "It uses a single letter to denote margin followed by the value."
+    },
+    {
+      "question": "How does Tailwind CSS handle responsive design?",
+      "options": [
+        "By using media queries directly in CSS files",
+        "Through the use of responsive utility prefixes",
+        "By providing a separate stylesheet for each screen size",
+        "By using JavaScript to detect screen size changes"
+      ],
+      "correct_option": 1,
+      "hint": "These prefixes help you apply styles based on screen sizes directly in HTML."
+    },
+    {
+      "question": "What is the purpose of the 'dark' variant in Tailwind CSS?",
+      "options": [
+        "To automatically switch to a dark theme at night",
+        "To provide styles that adapt to a user's OS dark mode setting",
+        "To allow developers to create dark-themed websites manually",
+        "To apply a grayscale filter to the entire webpage"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how user preferences in operating systems can influence web design."
+    }
+  ]
+}

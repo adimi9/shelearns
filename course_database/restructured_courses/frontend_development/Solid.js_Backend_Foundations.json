@@ -1,0 +1,130 @@
+{
+  "id": "FE14",
+  "name": "Solid.js Backend Foundations",
+  "category": "Frontend Development",
+  "primary_tech": "Solid.js",
+  "topics": [
+    "Introduction to Solid.js and its architecture",
+    "Setting up a Solid.js environment for server-side development",
+    "Building RESTful APIs with Solid.js",
+    "State management in Solid.js applications",
+    "Middleware integration in Solid.js",
+    "Connecting Solid.js with databases",
+    "Error handling and debugging in Solid.js applications",
+    "Deploying Solid.js applications on cloud platforms"
+  ],
+  "recommended": false,
+  "tags": [
+    "solidjs",
+    "backend-development",
+    "javascript",
+    "server-side",
+    "api-design",
+    "state-management"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border",
+        "description": "An overview of CSS border properties, detailing how to define the style, width, and color of element borders."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/outline",
+        "description": "This MDN page provides comprehensive documentation on the CSS outline property, including its syntax, use cases, and examples."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-style",
+        "description": "The page provides detailed documentation on the CSS `border-style` property, which defines the style of an element's border."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/rock-solid-react-js-foundations-a-beginners-guide-c45c93f5a923/",
+        "description": "A beginner's guide to building strong foundational skills in React.js for effective web development."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/",
+        "description": "An explanation of the SOLID principles in programming using real-life examples for better understanding."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/can-i-learn-javascript-and-typescript-together/147112",
+        "description": "The forum discussion explores whether learning JavaScript and TypeScript simultaneously is beneficial or feasible."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/java-scripts-tutorials-do-not-make-sense/546949",
+        "description": "A forum discussion addressing confusion and seeking clarification on JavaScript tutorials."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/learn-a-framework-not-a-language/102995",
+        "description": "The article discusses the importance of learning programming frameworks over languages to enhance practical development skills."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=WDodWU-B-aY",
+      "https://www.youtube.com/watch?v=uPXn9S31o7Q",
+      "https://www.youtube.com/watch?v=7oDjB9v0zMs",
+      "https://www.youtube.com/watch?v=B6ZWvYGCHU0",
+      "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gU_GvFygZFu0aBysPilkbB"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a key advantage of using Solid.js over React.js?",
+      "options": [
+        "Supports server-side rendering",
+        "Utilizes fine-grained reactivity for performance",
+        "Offers a virtual DOM for updates",
+        "Built-in state management"
+      ],
+      "correct_option": 1,
+      "hint": "Solid.js is known for its efficient update mechanism that avoids unnecessary rendering."
+    },
+    {
+      "question": "How does Solid.js achieve its fast reactivity?",
+      "options": [
+        "By using a virtual DOM",
+        "By compiling templates into optimized JavaScript",
+        "By using a diffing algorithm",
+        "By implementing a single-threaded event loop"
+      ],
+      "correct_option": 1,
+      "hint": "Solid.js compiles its components into highly optimized JavaScript functions."
+    },
+    {
+      "question": "Which of the following is a characteristic of Solid.js?",
+      "options": [
+        "Uses mutable state",
+        "Relies on a virtual DOM",
+        "Fine-grained reactivity",
+        "Uses hooks for state management"
+      ],
+      "correct_option": 2,
+      "hint": "Solid.js is designed to only update the parts of the UI that need changes."
+    },
+    {
+      "question": "What is the primary use case for choosing Solid.js over React.js?",
+      "options": [
+        "Need for server-side rendering",
+        "Building complex animations",
+        "Desire for a faster, more efficient SPA",
+        "Integration with legacy systems"
+      ],
+      "correct_option": 2,
+      "hint": "Solid.js is chosen for its performance benefits in single-page applications."
+    },
+    {
+      "question": "Which of the following best describes the state management approach in Solid.js?",
+      "options": [
+        "Uses a centralized store similar to Redux",
+        "Relies on fine-grained reactivity for state updates",
+        "Uses context providers and consumers",
+        "Employs a virtual DOM for state updates"
+      ],
+      "correct_option": 1,
+      "hint": "Solid.js avoids the need for global state management by efficiently updating states at a granular level."
+    }
+  ],
+  "preferred_if": [
+    "User wants React-like but faster"
+  ]
+}

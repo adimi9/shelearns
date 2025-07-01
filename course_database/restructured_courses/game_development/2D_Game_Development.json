@@ -1,0 +1,120 @@
+{
+  "id": "GD18",
+  "name": "2D Game Development",
+  "category": "Game Development",
+  "primary_tech": "2D Game Engines",
+  "topics": [
+    "Sprite Animation & Tilemaps",
+    "2D Physics & Collisions",
+    "Camera Systems for 2D",
+    "UI/HUD Design for 2D Games"
+  ],
+  "recommended": true,
+  "tags": [
+    "2D",
+    "indie",
+    "pixel-art"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection",
+        "description": "This resource provides techniques and explanations for implementing 2D collision detection in game development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Games",
+        "description": "A comprehensive guide for developers on creating, optimizing, and distributing web-based games."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript",
+        "description": "A step-by-step tutorial for creating a 2D Breakout game using pure JavaScript."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/how-to-choose-a-programming-language-and-escape-tutorial-purgatory/",
+        "description": "This article provides guidance on selecting a programming language and offers strategies to effectively learn coding beyond tutorials."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/what-2d-game-engine-to-use-for-your-next-game/",
+        "description": "A guide to choosing the right 2D game engine for your next game development project."
+      },
+      {
+        "url": "https://www.w3schools.com/graphics/game_canvas.asp",
+        "description": "This resource provides a tutorial on creating games using the HTML5 canvas element."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/python/pygame-tutorial/",
+        "description": "A tutorial on using the Pygame library for developing games with Python."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/tag/game-development/",
+        "description": "A comprehensive collection of articles and tutorials on game development, covering various tools, techniques, and programming languages."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=iHF5fwsqu4I",
+      "https://www.youtube.com/watch?v=XtQMytORBmM",
+      "https://www.youtube.com/watch?v=QKgTZWbwD1U",
+      "https://www.youtube.com/watch?v=36ax5HbHwbU",
+      "https://www.youtube.com/watch?v=Z92jsBzeYk0"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a sprite in 2D game development?",
+      "options": [
+        "A graphical object used to represent characters or objects in a game",
+        "A background image used for setting the scene",
+        "A sound file used in a game",
+        "A type of game engine"
+      ],
+      "correct_option": 0,
+      "hint": "Think of graphical objects that move in a game."
+    },
+    {
+      "question": "Which of the following is a primary function of a tilemap in 2D games?",
+      "options": [
+        "To manage audio files",
+        "To organize and display terrain and environments",
+        "To handle user input",
+        "To control game physics"
+      ],
+      "correct_option": 1,
+      "hint": "Tilemaps are often used for creating the game world."
+    },
+    {
+      "question": "How does a 2D physics engine contribute to game development?",
+      "options": [
+        "By providing tools for creating game graphics",
+        "By simulating realistic movements and collisions",
+        "By managing game audio effects",
+        "By designing user interfaces"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how objects move and interact in a game environment."
+    },
+    {
+      "question": "What is the purpose of a camera system in 2D games?",
+      "options": [
+        "To capture photos of gameplay",
+        "To manage game character inventory",
+        "To control what part of the game world is visible to the player",
+        "To detect collisions between objects"
+      ],
+      "correct_option": 2,
+      "hint": "Consider how players view the game world."
+    },
+    {
+      "question": "What is an essential aspect of UI/HUD design in 2D games?",
+      "options": [
+        "Creating complex 3D models",
+        "Designing intuitive and accessible interfaces for players",
+        "Writing game storylines",
+        "Developing AI for enemies"
+      ],
+      "correct_option": 1,
+      "hint": "Focus on how players interact with and receive information from the game."
+    }
+  ]
+}

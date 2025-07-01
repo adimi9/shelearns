@@ -1,0 +1,129 @@
+{
+  "id": "GD22",
+  "name": "C# Backend Development for Dynamic Applications",
+  "category": "Game Development",
+  "primary_tech": "C#",
+  "topics": [
+    "Introduction to C# and .NET Framework",
+    "Object-Oriented Programming with C#",
+    "Building RESTful APIs with ASP.NET Core",
+    "Database Integration and Entity Framework",
+    "Asynchronous Programming and Multithreading",
+    "Security Best Practices for C# Applications",
+    "Deploying C# Applications on Cloud Platforms"
+  ],
+  "recommended": false,
+  "tags": [
+    "csharp",
+    "backend-development",
+    "api-design",
+    "dotnet",
+    "asynchronous-programming"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://learn.microsoft.com/en-us/dotnet/",
+        "description": "Comprehensive documentation and resources for learning and developing with Microsoft .NET technologies."
+      },
+      {
+        "url": "https://firebase.google.com/docs/auth",
+        "description": "Firebase Authentication documentation provides guidance on implementing user authentication in apps using Firebase services."
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-9.0",
+        "description": "Comprehensive documentation for building modern web applications using ASP.NET Core 9.0."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.reddit.com/r/webdev/comments/vnh0t0/whats_the_role_of_c_in_web_development_specially/",
+        "description": "Discussion on the role and applications of the C programming language in web development and its relevance."
+      },
+      {
+        "url": "https://dotnet.microsoft.com/en-us/apps/aspnet",
+        "description": "Discover how to build modern web apps using ASP.NET with detailed resources and tools from Microsoft."
+      },
+      {
+        "url": "https://www.reddit.com/r/csharp/comments/1c9iasf/what_is_the_best_option_for_frontend_development/",
+        "description": "Discussion on the best frontend development options for C# applications."
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/answers/questions/1123214/asp-net-core-web-app-with-sql-(no-entity-framework",
+        "description": "This resource provides guidance on building an ASP.NET Core web application with SQL integration without using Entity Framework."
+      },
+      {
+        "url": "https://www.reddit.com/r/cpp/comments/bpdpug/why_isnt_c_used_to_develop_web_applications/",
+        "description": "Discussion on the reasons C++ is not commonly used for web application development, focusing on language suitability and ecosystem."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
+      "https://m.youtube.com/watch?v=ZX12X-ALwGA",
+      "https://www.youtube.com/watch?v=pmWFzzU_NB4",
+      "https://www.reddit.com/r/csharp/comments/mf58ib/how_much_c_knowledge_do_you_need_to_use_wpf/",
+      "https://www.youtube.com/watch?v=WfMHUp8tOVE"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is one of the primary advantages of using C# over C++ in game development?",
+      "options": [
+        "C# provides automatic memory management.",
+        "C# allows for direct hardware manipulation.",
+        "C# is a lower-level language than C++.",
+        "C# requires manual memory management."
+      ],
+      "correct_option": 0,
+      "hint": "Consider how C# handles memory differently than C++."
+    },
+    {
+      "question": "Why might a game developer choose C# when using Unity?",
+      "options": [
+        "C# is the only language supported by Unity.",
+        "C# offers faster execution than C++.",
+        "C# code can be written directly in Unity's interface.",
+        "C# simplifies development with built-in libraries and tools."
+      ],
+      "correct_option": 3,
+      "hint": "Think about the development environment and available features in Unity."
+    },
+    {
+      "question": "Which feature of C# contributes to faster development time compared to C++?",
+      "options": [
+        "C# is a compiled language.",
+        "C# has a large standard library.",
+        "C# requires less boilerplate code.",
+        "C# supports inline assembly."
+      ],
+      "correct_option": 2,
+      "hint": "Consider how C# syntax and structure can reduce repetitive coding."
+    },
+    {
+      "question": "In the context of game development, what is a significant reason to use C# regarding memory management?",
+      "options": [
+        "C# uses a garbage collector for automatic memory management.",
+        "C# allows manual memory allocation like C++.",
+        "C# requires pointers for memory access.",
+        "C# is designed for low-level system programming."
+      ],
+      "correct_option": 0,
+      "hint": "Think about how C# handles memory allocation automatically."
+    },
+    {
+      "question": "What makes C# easier to learn for new programmers compared to C++?",
+      "options": [
+        "C# has a more complex syntax.",
+        "C# provides better control over hardware.",
+        "C# has simpler and more readable syntax.",
+        "C# has fewer built-in libraries."
+      ],
+      "correct_option": 2,
+      "hint": "Focus on the language syntax and readability for beginners."
+    }
+  ],
+  "preferred_if": [
+    "User wants faster development time",
+    "Less concern for low-level control"
+  ]
+}

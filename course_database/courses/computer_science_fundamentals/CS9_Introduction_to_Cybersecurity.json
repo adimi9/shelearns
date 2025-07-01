@@ -1,0 +1,101 @@
+{
+  "id": "CS9",
+  "name": "Introduction to Cybersecurity",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Cybersecurity",
+  "topics": [
+    "Threats & Vulnerabilities",
+    "Encryption & Hashing",
+    "Authentication & Authorization",
+    "Network & Web Security Basics"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "recommended": false,
+  "tags": [
+    "security",
+    "information-security",
+    "protection"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security"
+    ],
+    "notes": [
+      "https://www.w3schools.com/cybersecurity/",
+      "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-tutorial/",
+      "https://www.geeksforgeeks.org/ethical-hacking/what-is-cyber-security/",
+      "https://www.geeksforgeeks.org/computer-networks/introduction-to-cyber-physical-system/",
+      "https://www.geeksforgeeks.org/ethical-hacking/cyber-crime/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=ULGILG-ZhO0",
+      "https://www.youtube.com/watch?v=z5nc9MDbvkw",
+      "https://www.youtube.com/watch?v=b12JrM-6DBY",
+      "https://www.youtube.com/watch?v=agnDpN961xU",
+      "https://www.youtube.com/watch?v=JbEPJv7Ybcs"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary goal of cybersecurity?",
+      "options": [
+        "To protect the integrity of data",
+        "To increase system performance",
+        "To ensure hardware reliability",
+        "To manage network traffic"
+      ],
+      "correct_option": 0,
+      "hint": "Think about the main focus of cybersecurity in protecting data."
+    },
+    {
+      "question": "Which term describes a weakness in a system that can be exploited by a threat?",
+      "options": [
+        "Firewall",
+        "Encryption",
+        "Vulnerability",
+        "Authentication"
+      ],
+      "correct_option": 2,
+      "hint": "It is a term used to identify a flaw that could be used by a threat actor."
+    },
+    {
+      "question": "What is the primary function of encryption in cybersecurity?",
+      "options": [
+        "To speed up network connections",
+        "To scramble data to prevent unauthorized access",
+        "To authenticate users",
+        "To manage software updates"
+      ],
+      "correct_option": 1,
+      "hint": "Encryption is used to make data unreadable to unauthorized parties."
+    },
+    {
+      "question": "Which method is often used to verify a user's identity before granting access to a system?",
+      "options": [
+        "Hashing",
+        "Phishing",
+        "Authorization",
+        "Authentication"
+      ],
+      "correct_option": 3,
+      "hint": "Think about the process of confirming a user's identity."
+    },
+    {
+      "question": "What is the purpose of a firewall in network security?",
+      "options": [
+        "To store backup data",
+        "To encrypt data in transit",
+        "To prevent unauthorized access to a network",
+        "To authenticate user identities"
+      ],
+      "correct_option": 2,
+      "hint": "Firewalls are used to block or allow traffic based on security rules."
+    }
+  ]
+}

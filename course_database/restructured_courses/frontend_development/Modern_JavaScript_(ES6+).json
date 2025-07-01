@@ -1,0 +1,119 @@
+{
+  "id": "FE9",
+  "name": "Modern JavaScript (ES6+)",
+  "category": "Frontend Development",
+  "primary_tech": "JavaScript",
+  "topics": [
+    "Variables, Scoping, Functions",
+    "ES6 Features",
+    "Async JS, Promises, Fetch API"
+  ],
+  "recommended": true,
+  "tags": [
+    "programming",
+    "fundamentals",
+    "language"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "description": "Comprehensive documentation and resources for learning and mastering JavaScript on the web."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes",
+        "description": "An overview of JavaScript classes, including syntax, inheritance, and usage, as defined in the ECMAScript 2015 standard."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+        "description": "A comprehensive guide to understanding and using JavaScript modules for code organization and reuse."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/js/js_es6.asp",
+        "description": "An overview of ES6 features in JavaScript, including syntax changes and new functionalities."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/the-modern-javascript-tutorial/273711",
+        "description": "A comprehensive guide covering modern JavaScript concepts and features for developers."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/the-best-udemy-web-development-courses-top-free-courses/188730",
+        "description": "A curated list of top-rated free Udemy courses for web development recommended by the FreeCodeCamp community."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/write-less-do-more-with-javascript-es6-5fd4a8e50ee2/",
+        "description": "This article explains how to enhance JavaScript productivity using ES6 features."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/es6-too-much-of-a-learning-curve/199058",
+        "description": "Discussion on the challenges and learning curve associated with adopting ES6 JavaScript features."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=NCwa_xi0Uuc",
+      "https://www.youtube.com/watch?v=nZ1DMMsyVyI",
+      "https://www.youtube.com/watch?v=BI1o2H9z9fo",
+      "https://www.youtube.com/watch?v=1WCA0W5tI08",
+      "https://www.youtube.com/watch?v=1lFXj5h8IMA"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the main difference between 'let' and 'var' in JavaScript?",
+      "options": [
+        "'let' is block-scoped, 'var' is function-scoped",
+        "Both 'let' and 'var' are block-scoped",
+        "'var' is block-scoped, 'let' is function-scoped",
+        "Both 'let' and 'var' are function-scoped"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the scope where 'let' and 'var' are applicable."
+    },
+    {
+      "question": "Which of the following is a new feature introduced in ES6?",
+      "options": [
+        "Arrow functions",
+        "Global variables",
+        "XMLHttpRequest",
+        "Synchronous JavaScript"
+      ],
+      "correct_option": 0,
+      "hint": "ES6 introduced a new syntax for writing functions concisely."
+    },
+    {
+      "question": "How can you create a Promise in JavaScript?",
+      "options": [
+        "Using the 'new Promise' constructor",
+        "Using the 'createPromise' method",
+        "By declaring a variable as 'promise'",
+        "By using 'async' keyword alone"
+      ],
+      "correct_option": 0,
+      "hint": "Promises are objects that represent the eventual completion or failure of an asynchronous operation."
+    },
+    {
+      "question": "What will the following code output: console.log(typeof null)?",
+      "options": [
+        "'object'",
+        "'null'",
+        "'undefined'",
+        "'boolean'"
+      ],
+      "correct_option": 0,
+      "hint": "Consider how JavaScript defines the type of null."
+    },
+    {
+      "question": "Which method is used to send an HTTP request using the Fetch API?",
+      "options": [
+        "fetch()",
+        "httpRequest()",
+        "sendRequest()",
+        "getFetch()"
+      ],
+      "correct_option": 0,
+      "hint": "This method is named after the API itself."
+    }
+  ]
+}

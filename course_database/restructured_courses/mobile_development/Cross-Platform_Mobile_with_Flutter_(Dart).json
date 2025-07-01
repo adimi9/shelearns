@@ -1,0 +1,121 @@
+{
+  "id": "MD16",
+  "name": "Cross-Platform Mobile with Flutter (Dart)",
+  "category": "Mobile Development",
+  "primary_tech": "Flutter",
+  "topics": [
+    "Dart Programming Language",
+    "Flutter Widgets & Layouts",
+    "State Management in Flutter",
+    "Platform Channels"
+  ],
+  "recommended": true,
+  "tags": [
+    "cross-platform",
+    "Dart",
+    "Google",
+    "hybrid"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://www.reddit.com/r/FlutterDev/comments/14n19ss/is_flutter_really_that_good/",
+        "description": "Discussion thread exploring the strengths and weaknesses of using Flutter for app development."
+      },
+      {
+        "url": "https://flutter.dev/",
+        "description": "Official site for Flutter, Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase."
+      },
+      {
+        "url": "https://firebase.google.com/docs/flutter/setup",
+        "description": "This resource provides a step-by-step guide on setting up Firebase for Flutter applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.reddit.com/r/FlutterDev/comments/14n19ss/is_flutter_really_that_good/",
+        "description": "Discussion on the pros and cons of using Flutter for app development."
+      },
+      {
+        "url": "https://flutter.dev/",
+        "description": "Official website for Flutter, providing resources, documentation, and tools for building natively compiled applications for mobile, web, and desktop from a single codebase."
+      },
+      {
+        "url": "https://www.reddit.com/r/FlutterDev/comments/1cq63gh/learning_flutter_with_dart_a_good_choice_for/",
+        "description": "Discussion on the benefits and considerations of learning Flutter with Dart for mobile app development."
+      },
+      {
+        "url": "https://www.amazon.com/Flutter-Beginners-introductory-cross-platform-applications/dp/1788996089",
+        "description": "An introductory guide for beginners to develop cross-platform applications using Flutter."
+      },
+      {
+        "url": "https://forum.djangoproject.com/t/best-approach-for-developing-a-cross-platform-mobile-app-alongside-a-django-web-app/21554",
+        "description": "Discussion on strategies for developing a cross-platform mobile app in conjunction with a Django web application."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=CzRQ9mnmh44",
+      "https://www.reddit.com/r/FlutterDev/comments/14n19ss/is_flutter_really_that_good/",
+      "https://www.youtube.com/watch?v=VPvVD8t02U8&pp=0gcJCfwAo7VqN5tD",
+      "https://www.reddit.com/r/FlutterDev/comments/1cq63gh/learning_flutter_with_dart_a_good_choice_for/",
+      "https://www.youtube.com/watch?v=rwrUezKCc34"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary programming language used in Flutter development?",
+      "options": [
+        "Java",
+        "JavaScript",
+        "Dart",
+        "Python"
+      ],
+      "correct_option": 2,
+      "hint": "It's a language developed by Google."
+    },
+    {
+      "question": "Which widget is used in Flutter to create a scrollable list of items?",
+      "options": [
+        "Column",
+        "ListView",
+        "Stack",
+        "Container"
+      ],
+      "correct_option": 1,
+      "hint": "It's specifically designed for scrolling."
+    },
+    {
+      "question": "What is the purpose of 'State' in Flutter?",
+      "options": [
+        "To manage the app's appearance",
+        "To handle user inputs",
+        "To manage and track changes in data",
+        "To store app settings"
+      ],
+      "correct_option": 2,
+      "hint": "It helps in updating the UI dynamically."
+    },
+    {
+      "question": "Which Flutter feature allows developers to call native platform code?",
+      "options": [
+        "Flutter Packages",
+        "Platform Channels",
+        "Stateful Widgets",
+        "Dart Libraries"
+      ],
+      "correct_option": 1,
+      "hint": "It serves as a bridge between Dart and native code."
+    },
+    {
+      "question": "Which level of developers is the course 'Cross-Platform Mobile with Flutter (Dart)' suitable for?",
+      "options": [
+        "Beginner",
+        "Intermediate",
+        "Advanced",
+        "All of the above"
+      ],
+      "correct_option": 3,
+      "hint": "The course is designed to accommodate various expertise levels."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "FE11",
+  "name": "Next.js for Beginners",
+  "category": "Frontend Development",
+  "primary_tech": "Next.js",
+  "topics": [
+    "Pages & Routing",
+    "Server-Side Rendering",
+    "API Routes & Middleware"
+  ],
+  "recommended": true,
+  "tags": [
+    "framework",
+    "SSR",
+    "React-based",
+    "fullstack"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://reactjs.org/",
+        "description": "The official React documentation provides comprehensive resources for learning and using the React JavaScript library to build user interfaces."
+      },
+      {
+        "url": "https://reactjs.org/docs/getting-started.html",
+        "description": "An introductory guide for developers to start learning and building applications with React."
+      },
+      {
+        "url": "https://reactjs.org/docs/create-a-new-react-app.html",
+        "description": "A guide on how to set up a new React application using various methods and tools."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/nextjs/nextjs-tutorial/",
+        "description": "A comprehensive tutorial on Next.js, covering its features and how to build applications using this React framework."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/nextjs-tutorial/",
+        "description": "A comprehensive tutorial on building web applications using Next.js, covering setup, features, and deployment."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/build-a-full-stack-application-with-nextjs/",
+        "description": "A comprehensive guide to building a full-stack application using Next.js."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/way-to-learn-nextjs/596752",
+        "description": "A discussion forum post offering advice and resources for effectively learning Next.js."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/the-next-js-handbook/",
+        "description": "A comprehensive guide to building React applications using the Next.js framework."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=Sklc_fQBmcs",
+      "https://www.youtube.com/watch?v=843nec-IvW0",
+      "https://www.youtube.com/watch?v=mTz0GXj8NN0",
+      "https://www.youtube.com/watch?v=wm5gMKuwSYk",
+      "https://www.youtube.com/watch?v=1WmNXEVia8I"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What file is used to define a new page in a Next.js application?",
+      "options": [
+        "page.js",
+        "router.js",
+        "index.js",
+        "app.js"
+      ],
+      "correct_option": 0,
+      "hint": "It is a common convention in many frameworks to have a file named with this to represent a component or page."
+    },
+    {
+      "question": "Which of the following is NOT a feature of Server-Side Rendering (SSR) in Next.js?",
+      "options": [
+        "Improved SEO",
+        "Faster initial page load",
+        "Reduced server load",
+        "Dynamic content generation"
+      ],
+      "correct_option": 2,
+      "hint": "Consider what server-side rendering does to the server's resources."
+    },
+    {
+      "question": "How do you create a dynamic route in Next.js?",
+      "options": [
+        "Using the 'useRouter' hook",
+        "By creating a file with square brackets in the 'pages' directory",
+        "By adding a 'routes.js' file",
+        "Using 'getStaticPaths' function"
+      ],
+      "correct_option": 1,
+      "hint": "Dynamic routes are defined in the 'pages' directory with a special naming convention."
+    },
+    {
+      "question": "What is the purpose of API routes in Next.js?",
+      "options": [
+        "To fetch data from external APIs",
+        "To handle HTTP requests within the Next.js application",
+        "To define the application's database schema",
+        "To manage client-side routing"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how a Next.js application could handle backend functionality."
+    },
+    {
+      "question": "Which middleware feature allows Next.js applications to intercept requests and responses?",
+      "options": [
+        "getStaticProps",
+        "useEffect",
+        "NextResponse",
+        "getServerSideProps"
+      ],
+      "correct_option": 2,
+      "hint": "This feature is part of the Next.js API for handling middleware."
+    }
+  ]
+}

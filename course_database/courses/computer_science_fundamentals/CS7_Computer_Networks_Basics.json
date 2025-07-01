@@ -1,0 +1,100 @@
+{
+  "id": "CS7",
+  "name": "Computer Networks Basics",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Networking",
+  "topics": [
+    "OSI Model & TCP/IP Stack",
+    "IP Addressing & Routing",
+    "Protocols (HTTP, FTP, DNS)",
+    "Network Security Fundamentals"
+  ],
+  "levels": [
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "networking",
+    "internet",
+    "protocols"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction",
+      "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/computer-networks/computer-network-tutorials/",
+      "https://www.w3schools.com/cybersecurity/cybersecurity_networking.php",
+      "https://www.geeksforgeeks.org/computer-networks/basics-computer-networking/",
+      "https://www.geeksforgeeks.org/computer-science-fundamentals/computer-fundamentals-tutorial/",
+      "https://www.geeksforgeeks.org/computer-networks/ccna-tutorial-for-beginners/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=keeqnciDVOo",
+      "https://www.youtube.com/watch?v=k9ZigsW9il0",
+      "https://www.youtube.com/watch?v=WO6P92v61y4",
+      "https://www.youtube.com/watch?v=_IOZ8_cPgu8",
+      "https://www.youtube.com/watch?v=3QhU9jd03a0"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which layer of the OSI Model is responsible for establishing, managing, and terminating connections between applications?",
+      "options": [
+        "Transport Layer",
+        "Session Layer",
+        "Network Layer",
+        "Application Layer"
+      ],
+      "correct_option": 1,
+      "hint": "This layer sits between the transport and presentation layers."
+    },
+    {
+      "question": "What is the primary function of the TCP/IP Stack's Internet Layer?",
+      "options": [
+        "Establish end-to-end communication",
+        "Define protocols for data formatting",
+        "Route packets across networks",
+        "Encrypt data for security"
+      ],
+      "correct_option": 2,
+      "hint": "This layer is responsible for determining the best path for data transmission."
+    },
+    {
+      "question": "Which protocol is used for transferring files between client and server on a network?",
+      "options": [
+        "HTTP",
+        "DNS",
+        "FTP",
+        "SMTP"
+      ],
+      "correct_option": 2,
+      "hint": "This protocol is specifically designed for file transfer."
+    },
+    {
+      "question": "In IP addressing, what is the primary role of a subnet mask?",
+      "options": [
+        "Identify the network part of an IP address",
+        "Encrypt data packets",
+        "Assign IP addresses dynamically",
+        "Map domain names to IP addresses"
+      ],
+      "correct_option": 0,
+      "hint": "This component helps in distinguishing the network part from the host part of an IP address."
+    },
+    {
+      "question": "Which of the following is a method to enhance network security?",
+      "options": [
+        "Using DHCP for IP management",
+        "Implementing network firewalls",
+        "Assigning static IP addresses",
+        "Enabling public access to servers"
+      ],
+      "correct_option": 1,
+      "hint": "This method acts as a barrier to protect a network from unauthorized access."
+    }
+  ]
+}

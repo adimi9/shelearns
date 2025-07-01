@@ -1,0 +1,101 @@
+{
+  "id": "BE10",
+  "name": "Testing Backend Applications",
+  "category": "Backend Development",
+  "primary_tech": "Testing Frameworks",
+  "topics": [
+    "Unit Testing (Jest/Pytest)",
+    "Integration Testing",
+    "End-to-End Testing (Supertest/Cypress for APIs)"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "testing",
+    "QA",
+    "backend"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Testing",
+      "https://reactjs.org/",
+      "https://developer.mozilla.org/en-US/"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/software-testing/what-is-backend-testing/",
+      "https://www.freecodecamp.org/news/performance-testing-for-web-applications/",
+      "https://www.geeksforgeeks.org/software-engineering/difference-between-frontend-testing-and-backend-testing/",
+      "https://www.geeksforgeeks.org/backend-development/",
+      "https://forum.freecodecamp.org/t/how-to-do-junit-testing-on-intellijidea/724862"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=u6QfIXgjwGQ",
+      "https://www.youtube.com/watch?v=XBu54nfzxAQ",
+      "https://www.youtube.com/watch?v=Mbz39bz1_HQ",
+      "https://www.youtube.com/watch?v=h3fqD6IprIA",
+      "https://www.youtube.com/watch?v=446E-r0rXHI"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of unit testing in backend applications?",
+      "options": [
+        "To test the entire application workflow",
+        "To test individual components or functions in isolation",
+        "To simulate user interactions with the application",
+        "To ensure the application is visually appealing"
+      ],
+      "correct_option": 1,
+      "hint": "Focuses on small, individual components."
+    },
+    {
+      "question": "Which testing framework is commonly used for unit testing in JavaScript applications?",
+      "options": [
+        "Pytest",
+        "JUnit",
+        "Jest",
+        "Mocha"
+      ],
+      "correct_option": 2,
+      "hint": "It's a popular testing framework developed by Facebook."
+    },
+    {
+      "question": "In integration testing, what is typically being tested?",
+      "options": [
+        "User interface interactions",
+        "Individual functions or methods",
+        "Interactions between multiple components or systems",
+        "Database schema"
+      ],
+      "correct_option": 2,
+      "hint": "Focuses on the combination of units working together."
+    },
+    {
+      "question": "Which tool is often used for End-to-End testing of APIs in JavaScript applications?",
+      "options": [
+        "JUnit",
+        "Supertest",
+        "Pytest",
+        "Jest"
+      ],
+      "correct_option": 1,
+      "hint": "It's specifically designed for testing HTTP servers."
+    },
+    {
+      "question": "Which of the following is a key characteristic of end-to-end testing?",
+      "options": [
+        "Only tests the backend services",
+        "Focuses solely on database interactions",
+        "Simulates real user scenarios from start to finish",
+        "Only tests frontend components"
+      ],
+      "correct_option": 2,
+      "hint": "It aims to test the entire flow of an application as a user would experience it."
+    }
+  ]
+}

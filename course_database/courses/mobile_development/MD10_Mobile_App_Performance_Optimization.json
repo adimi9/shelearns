@@ -1,0 +1,101 @@
+{
+  "id": "MD10",
+  "name": "Mobile App Performance & Optimization",
+  "category": "Mobile Development",
+  "primary_tech": "Performance",
+  "topics": [
+    "Memory Management",
+    "Battery Usage Optimization",
+    "UI Responsiveness (Jank/Lag)",
+    "Network Efficiency"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "optimization",
+    "performance",
+    "profiling"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://legacy.reactjs.org/docs/optimizing-performance.html",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/JavaScript"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/blogs/best-practices-for-enhancing-application-performance/",
+      "https://www.geeksforgeeks.org/best-practices-for-mobile-app-development/",
+      "https://www.geeksforgeeks.org/websites-apps/the-importance-of-performance-optimization-in-web-design/",
+      "https://www.geeksforgeeks.org/ways-to-optimize-the-performance-of-your-flutter-application/",
+      "https://www.geeksforgeeks.org/mern/optimizing-your-mern-stack-application-performance/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=MYE6T_gd7H0",
+      "https://www.youtube.com/watch?v=CaShN6mCJB0",
+      "https://www.youtube.com/watch?v=oB_5a_LSFCg",
+      "https://www.youtube.com/watch?v=_FtKhWvHiTg",
+      "https://www.youtube.com/watch?v=BOr11zZgXfE"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary goal of memory management in mobile app development?",
+      "options": [
+        "To increase the app's download speed",
+        "To reduce the app's CPU usage",
+        "To prevent memory leaks and optimize RAM usage",
+        "To enhance the app's user interface design"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how efficient resource handling can prevent app crashes."
+    },
+    {
+      "question": "Which practice is essential for battery usage optimization in mobile apps?",
+      "options": [
+        "Increasing screen brightness during app use",
+        "Reducing the frequency of background tasks",
+        "Maximizing the use of GPS services",
+        "Enabling push notifications for all app updates"
+      ],
+      "correct_option": 1,
+      "hint": "Consider how often your app performs tasks without user interaction."
+    },
+    {
+      "question": "What is 'jank' in the context of UI responsiveness?",
+      "options": [
+        "A feature that improves user engagement",
+        "A type of animation used in modern UI design",
+        "A delay in the user interface causing lag",
+        "A security issue in mobile apps"
+      ],
+      "correct_option": 2,
+      "hint": "It relates to the smoothness of the user experience."
+    },
+    {
+      "question": "Which strategy is not effective for improving network efficiency in mobile apps?",
+      "options": [
+        "Minimizing data transfer by compressing data",
+        "Caching data to reduce repeated network requests",
+        "Using polling instead of push notifications",
+        "Optimizing API calls to reduce server load"
+      ],
+      "correct_option": 2,
+      "hint": "Think about the difference between active and passive data retrieval methods."
+    },
+    {
+      "question": "How can developers ensure their mobile apps perform well on various devices?",
+      "options": [
+        "By only testing on high-end devices",
+        "By using device emulators for a wide range of testing",
+        "By focusing on one operating system",
+        "By ignoring platform-specific optimizations"
+      ],
+      "correct_option": 1,
+      "hint": "Consider how developers can simulate different hardware and software conditions."
+    }
+  ]
+}

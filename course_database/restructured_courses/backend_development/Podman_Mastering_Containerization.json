@@ -1,0 +1,130 @@
+{
+  "id": "BE27",
+  "name": "Podman: Mastering Containerization",
+  "category": "Backend Development",
+  "primary_tech": "Podman",
+  "topics": [
+    "Introduction to Podman and its Architecture",
+    "Installing and Setting Up Podman",
+    "Building and Managing Containers with Podman",
+    "Networking and Security in Podman",
+    "Podman vs Docker: Key Differences",
+    "Advanced Podman Commands and Scripting",
+    "Deploying Applications using Podman",
+    "Troubleshooting and Best Practices in Podman"
+  ],
+  "recommended": false,
+  "tags": [
+    "podman",
+    "containers",
+    "orchestration",
+    "backend",
+    "devops",
+    "containerization"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode",
+        "description": "This page explains JavaScript's strict mode, which enforces stricter parsing and error handling in code."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/502",
+        "description": "A detailed explanation of the HTTP 502 Bad Gateway status code, including causes and troubleshooting tips."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/AggregateError",
+        "description": "The page provides documentation on the JavaScript AggregateError object, which represents multiple errors wrapped in a single error object."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/devops/how-to-create-a-container-using-podman/",
+        "description": "A guide on using Podman to create and manage containers in a DevOps environment."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devops/podman/",
+        "description": "An introduction to Podman, its features, and its role in container management within DevOps practices."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devops/how-to-integrate-podman-with-kubernetes/",
+        "description": "Guide on integrating Podman with Kubernetes for container management and orchestration."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devops/podman-unshare-command-debugging/",
+        "description": "This resource explains how to use the `podman unshare` command for debugging container issues in DevOps environments."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devops/rootless-podman/",
+        "description": "An introduction to using rootless Podman for container management in DevOps environments, highlighting its security benefits and setup process."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=YXfA5O5Mr18",
+      "https://www.youtube.com/watch?v=YXfA5O5Mr18&pp=0gcJCfwAo7VqN5tD",
+      "https://www.youtube.com/watch?v=piwcpd_hWn0",
+      "https://www.youtube.com/watch?v=5ZYGh0vgAbs",
+      "https://www.youtube.com/watch?v=AB04TJvmTO0"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a key feature of Podman that differentiates it from Docker?",
+      "options": [
+        "Podman requires a daemon to run",
+        "Podman is daemonless",
+        "Podman runs only on Windows",
+        "Podman requires root privileges"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how Podman handles processes differently from Docker."
+    },
+    {
+      "question": "Why might a user prefer Podman over Docker for container management?",
+      "options": [
+        "Podman can only be used on MacOS",
+        "Podman runs containers as root by default",
+        "Podman provides a daemonless experience",
+        "Podman does not support Linux environments"
+      ],
+      "correct_option": 2,
+      "hint": "Consider the user's need for a lightweight and secure environment."
+    },
+    {
+      "question": "What is a benefit of Podman's rootless containers?",
+      "options": [
+        "Increased security by not requiring root privileges",
+        "Faster container startup times",
+        "Exclusive to enterprise users",
+        "Limited to Windows environments"
+      ],
+      "correct_option": 0,
+      "hint": "Think about security and permission levels."
+    },
+    {
+      "question": "Which operating system is primarily associated with Podman?",
+      "options": [
+        "Windows",
+        "Linux",
+        "MacOS",
+        "iOS"
+      ],
+      "correct_option": 1,
+      "hint": "Consider the most common environment for containerization."
+    },
+    {
+      "question": "What tag is commonly associated with Podman in discussions about containerization?",
+      "options": [
+        "cloud-computing",
+        "linux",
+        "devops",
+        "windows"
+      ],
+      "correct_option": 1,
+      "hint": "Think about the underlying system Podman is commonly used with."
+    }
+  ],
+  "preferred_if": [
+    "User prefers a daemonless and rootless container environment"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "CS1",
+  "name": "Software Engineering Principles",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Software Engineering",
+  "topics": [
+    "Software Development Life Cycle (SDLC)",
+    "Agile Methodologies (Scrum, Kanban)",
+    "Requirements Gathering & Analysis",
+    "Testing & Debugging"
+  ],
+  "recommended": true,
+  "tags": [
+    "software-development",
+    "methodologies",
+    "project-management"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://legacy.reactjs.org/docs/design-principles.html",
+        "description": "This resource outlines the core design principles and philosophies guiding the development of React."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/MVC",
+        "description": "An overview of the Model-View-Controller (MVC) design pattern, explaining its components and usage in software development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+        "description": "An introductory guide to implementing responsive design techniques in CSS for adaptable web layouts."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/software-engineering/software-engineering/",
+        "description": "An overview of software engineering principles, methodologies, and practices essential for developing efficient software systems."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/system-design/software-design-patterns/",
+        "description": "An overview of various software design patterns, explaining their purpose, structure, and use cases in system design."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/software-engineering/software-development-life-cycle-sdlc/",
+        "description": "An overview of the Software Development Life Cycle (SDLC) phases and methodologies in software engineering."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/",
+        "description": "This resource explains the SOLID principles in programming using real-life examples to illustrate their application and benefits."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/software-engineering/basic-principles-of-good-software-engineering-approach/",
+        "description": "This resource outlines fundamental principles and best practices for effective software engineering approaches."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=kF7rQmSRlq0",
+      "https://www.youtube.com/watch?v=yxf2spbpTSw",
+      "https://www.youtube.com/watch?v=m8Icp_Cid5o",
+      "https://www.youtube.com/watch?v=Fi3_BjVzpqk",
+      "https://www.youtube.com/watch?v=rylaiB2uH2A"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which phase of the Software Development Life Cycle (SDLC) involves gathering and analyzing user needs?",
+      "options": [
+        "Design",
+        "Implementation",
+        "Requirements Gathering & Analysis",
+        "Testing"
+      ],
+      "correct_option": 2,
+      "hint": "This phase is crucial for understanding what the software should achieve."
+    },
+    {
+      "question": "What is the primary focus of Agile methodologies like Scrum and Kanban?",
+      "options": [
+        "Extensive documentation",
+        "Rigid planning",
+        "Flexibility and rapid iteration",
+        "Long development cycles"
+      ],
+      "correct_option": 2,
+      "hint": "These methodologies emphasize adaptability and quick responses to change."
+    },
+    {
+      "question": "In Scrum, what is the purpose of a sprint retrospective?",
+      "options": [
+        "To plan the next sprint",
+        "To review completed work",
+        "To reflect on the sprint and improve processes",
+        "To assign new tasks"
+      ],
+      "correct_option": 2,
+      "hint": "This meeting is about learning and improving after each sprint."
+    },
+    {
+      "question": "Which of the following is a primary benefit of using Kanban in software development?",
+      "options": [
+        "Fixed deadlines",
+        "Increased work visibility",
+        "Inflexible task assignments",
+        "Centralized control"
+      ],
+      "correct_option": 1,
+      "hint": "Kanban boards help teams see the status of their tasks at a glance."
+    },
+    {
+      "question": "Which testing method involves examining the software's internal structure and logic?",
+      "options": [
+        "Black-box testing",
+        "White-box testing",
+        "Regression testing",
+        "User acceptance testing"
+      ],
+      "correct_option": 1,
+      "hint": "This method requires knowledge of the code and algorithms."
+    }
+  ]
+}

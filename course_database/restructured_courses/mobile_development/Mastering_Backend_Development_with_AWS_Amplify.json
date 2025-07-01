@@ -1,0 +1,130 @@
+{
+  "id": "MD6",
+  "name": "Mastering Backend Development with AWS Amplify",
+  "category": "Mobile Development",
+  "primary_tech": "AWS Amplify",
+  "topics": [
+    "Introduction to AWS Amplify and its ecosystem",
+    "Setting up a serverless backend with Amplify",
+    "Building and managing APIs with AWS Amplify",
+    "Data storage solutions using Amplify DataStore",
+    "User authentication and authorization",
+    "Integrating with other AWS services",
+    "Deploying and managing Amplify applications",
+    "Monitoring and debugging Amplify backends"
+  ],
+  "recommended": false,
+  "tags": [
+    "AWS Amplify",
+    "cloud computing",
+    "backend development",
+    "serverless architecture",
+    "API management"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://www.reddit.com/r/aws/comments/14yhuxy/amplify_is_painful_change_my_mind/",
+        "description": "A Reddit discussion thread exploring user frustrations and experiences with AWS Amplify, inviting alternative perspectives."
+      },
+      {
+        "url": "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison",
+        "description": "This resource provides a detailed comparison of cloud services across AWS, Azure, and Google Cloud Platform (GCP)."
+      },
+      {
+        "url": "https://docs.usebasin.com/",
+        "description": "The URL provides comprehensive documentation for integrating and utilizing Basin, a service for handling form submissions without server-side code."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.reddit.com/r/aws/comments/14yhuxy/amplify_is_painful_change_my_mind/",
+        "description": "A Reddit discussion thread where users share experiences and opinions on the challenges of using AWS Amplify."
+      },
+      {
+        "url": "https://www.linkedin.com/pulse/how-build-full-stack-applications-aws-amplify-getinrhythm",
+        "description": "A guide on building full-stack applications using AWS Amplify, focusing on integration and deployment."
+      },
+      {
+        "url": "https://blog.devops.dev/how-i-mastered-a-dns-swap-to-migrate-a-startup-from-aws-to-gcp-with-minimal-downtime-8ac0abd41ac1",
+        "description": "This blog post details a step-by-step guide on managing a DNS swap to seamlessly migrate a startup's infrastructure from AWS to GCP with minimal downtime."
+      },
+      {
+        "url": "https://kane.mx/posts/2024/aws-amplify-you-need-to-know/",
+        "description": "A comprehensive guide on essential features and updates for AWS Amplify in 2024."
+      },
+      {
+        "url": "https://ibrahimcesar.cloud/blog/aws-amplify-sam-cdk-what-to-choose-for-infrastructure-as-code-on-aws/",
+        "description": "A comparative guide to choosing between AWS Amplify, SAM, and CDK for Infrastructure as Code on AWS."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=80z1Puutp7g",
+      "https://www.reddit.com/r/aws/comments/14yhuxy/amplify_is_painful_change_my_mind/",
+      "https://www.youtube.com/watch?v=a3_wvgfyO7U",
+      "https://ibrahimcesar.cloud/blog/aws-amplify-sam-cdk-what-to-choose-for-infrastructure-as-code-on-aws/",
+      "https://www.youtube.com/watch?v=SqTdHCTWqks&pp=0gcJCfwAo7VqN5tD"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is AWS Amplify primarily used for in mobile and web app development?",
+      "options": [
+        "Database management",
+        "Comprehensive set of tools for building scalable apps",
+        "Operating system development",
+        "Game development"
+      ],
+      "correct_option": 1,
+      "hint": "AWS Amplify offers a suite of services for app development, not just database management."
+    },
+    {
+      "question": "Why might a developer choose AWS Amplify over Firebase when already using AWS services?",
+      "options": [
+        "It has better user interface design tools",
+        "It offers more customization and control within the AWS ecosystem",
+        "It is free to use without any limits",
+        "It provides better customer support"
+      ],
+      "correct_option": 1,
+      "hint": "Consider the integration and control benefits within a single service ecosystem."
+    },
+    {
+      "question": "Which of the following is a key feature of AWS Amplify?",
+      "options": [
+        "Built-in machine learning models",
+        "Pre-configured serverless backend",
+        "In-built graphic design software",
+        "Native app development environment"
+      ],
+      "correct_option": 1,
+      "hint": "AWS Amplify focuses on simplifying backend processes for developers."
+    },
+    {
+      "question": "What does BaaS stand for, in relation to AWS Amplify?",
+      "options": [
+        "Backend as a Service",
+        "Blockchain as a Service",
+        "Business as a Solution",
+        "Backup as a System"
+      ],
+      "correct_option": 0,
+      "hint": "This acronym refers to a cloud service model that provides backend services."
+    },
+    {
+      "question": "How does AWS Amplify benefit developers looking for scalability in their apps?",
+      "options": [
+        "It automatically scales resources as demand changes",
+        "It offers manual resource allocation",
+        "It requires third-party tools for scaling",
+        "It does not support scalability"
+      ],
+      "correct_option": 0,
+      "hint": "AWS Amplify automates many processes to help developers focus on app development rather than infrastructure management."
+    }
+  ],
+  "preferred_if": [
+    "User is already in the AWS ecosystem",
+    "Needs more customization and control"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "CSec8",
+  "name": "Network Security Fundamentals",
+  "category": "Computer Security",
+  "primary_tech": "Network Security",
+  "topics": [
+    "Firewalls & IDS/IPS",
+    "VPNs & Secure Communication",
+    "Wireless Network Security",
+    "Network Segmentation"
+  ],
+  "recommended": true,
+  "tags": [
+    "networking",
+    "perimeter-security",
+    "protocols"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
+        "description": "An overview of web security best practices and technologies for protecting websites from vulnerabilities and attacks."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
+        "description": "This guide provides an overview of Content Security Policy (CSP) and how to implement it to enhance web security by controlling resources the browser can load."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security",
+        "description": "An introductory guide to enhancing website security through server-side best practices."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/cybersecurity/",
+        "description": "An introductory guide to cybersecurity fundamentals and best practices for protecting digital information."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/network-security/",
+        "description": "An overview of network security concepts and practices to protect data and resources from unauthorized access and cyber threats."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-tutorial/",
+        "description": "This resource provides a comprehensive tutorial on ethical hacking and cybersecurity fundamentals."
+      },
+      {
+        "url": "https://www.w3schools.com/cybersecurity/cybersecurity_networking.php",
+        "description": "An introductory guide to networking concepts within the field of cybersecurity."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/computer-networks/computer-network-tutorials/",
+        "description": "A comprehensive collection of tutorials covering various topics and concepts in computer networks."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=NQ1cvwEvh44",
+      "https://www.youtube.com/watch?v=sesacY7Xz3c",
+      "https://www.youtube.com/watch?v=KjN64N6-_Sk",
+      "https://www.youtube.com/watch?v=U7FxlKD0AUM",
+      "https://www.youtube.com/watch?v=lYvijnPI1Rg"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary function of a firewall in network security?",
+      "options": [
+        "To provide a secure connection between remote users and the network",
+        "To monitor and filter incoming and outgoing network traffic",
+        "To encrypt data transmitted over the network",
+        "To detect and respond to network intrusions"
+      ],
+      "correct_option": 1,
+      "hint": "This device acts as a barrier between a trusted and an untrusted network."
+    },
+    {
+      "question": "Which technology uses encryption to create a secure connection over the internet?",
+      "options": [
+        "Firewall",
+        "VPN",
+        "IDS",
+        "Network Segmentation"
+      ],
+      "correct_option": 1,
+      "hint": "Think of a virtual private road for your data."
+    },
+    {
+      "question": "What is the purpose of an IDS (Intrusion Detection System)?",
+      "options": [
+        "To prevent unauthorized access by blocking traffic",
+        "To detect and alert on suspicious activities within the network",
+        "To encrypt data for secure transmission",
+        "To segment the network into smaller parts"
+      ],
+      "correct_option": 1,
+      "hint": "This system is like a security camera for your network."
+    },
+    {
+      "question": "Which of the following is a benefit of network segmentation?",
+      "options": [
+        "Increased data encryption",
+        "Improved network performance and security",
+        "Simplified network architecture",
+        "Enhanced wireless signal strength"
+      ],
+      "correct_option": 1,
+      "hint": "It involves dividing a network into parts to improve efficiency and security."
+    },
+    {
+      "question": "What is a common security risk associated with wireless networks?",
+      "options": [
+        "Data encryption being too strong",
+        "Limited network scalability",
+        "Unauthorized access due to weak encryption",
+        "Excessive use of network segmentation"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how easy it is for anyone to detect wireless signals."
+    }
+  ]
+}

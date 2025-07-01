@@ -1,0 +1,109 @@
+{
+  "id": "FE18",
+  "name": "Mastering Trusted Web Activities (TWA): Backend Integration",
+  "category": "Frontend Development",
+  "primary_tech": "TWA (Trusted Web Activities)",
+  "topics": [
+    "Introduction to Trusted Web Activities",
+    "Setting up TWA and Android integration",
+    "Securing data exchange between TWA and backend",
+    "Implementing service workers for enhanced performance",
+    "Managing push notifications in TWA",
+    "Integrating payment systems within TWA",
+    "Handling authentication and user sessions",
+    "Deploying and scaling TWA applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "TWA",
+    "web-app-integration",
+    "android",
+    "PWA",
+    "backend-services"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Share_data_between_apps",
+        "description": "This resource provides guidance on sharing data between Progressive Web Apps (PWAs) using web technologies."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/how-to-build-progressive-web-application-and-submit-it-to-the-play-store/",
+        "description": "This resource provides a step-by-step guide on building a Progressive Web Application (PWA) and submitting it to the Google Play Store."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/an-explanation-of-progressive-web-apps-for-the-non-pwa-crowd-8a400e275ea1/",
+        "description": "An introductory guide to understanding Progressive Web Apps (PWAs) for those unfamiliar with the concept."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=9eztp81VP-M",
+      "https://www.youtube.com/watch?v=AF9wjWW6iBY",
+      "https://www.youtube.com/watch?v=3bAQPnxLd4c",
+      "https://www.youtube.com/watch?v=C18YMhmGpKk",
+      "https://m.youtube.com/watch?v=F91EZuhLMBc"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a Trusted Web Activity (TWA)?",
+      "options": [
+        "A way to wrap a Progressive Web App for Android with deeper integration",
+        "A method to build native iOS applications using web technologies",
+        "An alternative to Progressive Web Apps for desktop environments",
+        "A tool for enhancing web security on e-commerce sites"
+      ],
+      "correct_option": 0,
+      "hint": "This technology allows PWAs to be integrated into Android with a more native feel."
+    },
+    {
+      "question": "Which platform primarily benefits from the use of TWAs?",
+      "options": [
+        "iOS",
+        "Windows",
+        "Android",
+        "Linux"
+      ],
+      "correct_option": 2,
+      "hint": "This platform is known for its mobile operating system."
+    },
+    {
+      "question": "What is the main advantage of using a TWA over a standard PWA for Android applications?",
+      "options": [
+        "Higher conversion rates",
+        "Deeper integration with Android features",
+        "Faster loading times",
+        "Better SEO"
+      ],
+      "correct_option": 1,
+      "hint": "TWAs offer more access to native Android features."
+    },
+    {
+      "question": "What is a key difference between a PWA and a TWA?",
+      "options": [
+        "PWAs are only for desktop users",
+        "TWAs require a native Android app shell",
+        "PWAs have better offline capabilities",
+        "TWAs are used exclusively for iOS devices"
+      ],
+      "correct_option": 1,
+      "hint": "TWAs need a special app structure to function on Android."
+    },
+    {
+      "question": "What is a common use case for implementing a TWA?",
+      "options": [
+        "Improving SEO ranking for web content",
+        "Providing a native Android experience using web technologies",
+        "Developing cross-platform desktop applications",
+        "Enhancing web security"
+      ],
+      "correct_option": 1,
+      "hint": "The focus is on combining web tech with a native Android feel."
+    }
+  ],
+  "preferred_if": [
+    "User wants native Android experience with web tech"
+  ]
+}

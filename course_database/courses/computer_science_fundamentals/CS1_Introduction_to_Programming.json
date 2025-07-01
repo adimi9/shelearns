@@ -1,0 +1,283 @@
+{
+  "id": "CS1",
+  "name": "Introduction to Programming",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Python",
+  "topics": [
+    "Basic Syntax & Data Types",
+    "Control Flow (Loops, Conditionals)",
+    "Functions & Modules",
+    "Problem Solving Techniques"
+  ],
+  "levels": [
+    "Beginner"
+  ],
+  "recommended": true,
+  "tags": [
+    "programming",
+    "fundamentals",
+    "beginners"
+  ],
+  "alternatives": [
+    {
+      "tech": "Java",
+      "reason": "Strongly typed, widely used in enterprise and Android development",
+      "tags": [
+        "programming",
+        "OOP",
+        "enterprise"
+      ],
+      "preferred_if": [
+        "User aims for enterprise development",
+        "Needs strong typing early on"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is the primary purpose of using Java in enterprise development?",
+          "options": [
+            "Ease of use in small-scale applications",
+            "Support for functional programming",
+            "Strong typing and robustness",
+            "Faster execution than C++"
+          ],
+          "correct_option": 2,
+          "hint": "Consider the reliability and scalability required in enterprise applications."
+        },
+        {
+          "question": "Which characteristic of Java makes it suitable for Android development?",
+          "options": [
+            "Interpreted language",
+            "Garbage collection",
+            "Platform independence",
+            "Dynamic typing"
+          ],
+          "correct_option": 2,
+          "hint": "Think about the ability to run on different hardware without modification."
+        },
+        {
+          "question": "What feature of Java supports its object-oriented programming paradigm?",
+          "options": [
+            "Pointers",
+            "Classes and objects",
+            "Direct memory access",
+            "Operator overloading"
+          ],
+          "correct_option": 1,
+          "hint": "Focus on the foundational elements of OOP in Java."
+        },
+        {
+          "question": "Why might a developer choose Java for enterprise development over dynamically typed languages?",
+          "options": [
+            "Faster development speed",
+            "Better integration with web technologies",
+            "Stronger type checking at compile time",
+            "Greater community support"
+          ],
+          "correct_option": 2,
+          "hint": "Consider the benefits of catching errors at compile time."
+        },
+        {
+          "question": "Which Java feature enhances code reliability in large software systems?",
+          "options": [
+            "Manual memory management",
+            "Strong typing",
+            "Weak typing",
+            "Scripting capabilities"
+          ],
+          "correct_option": 1,
+          "hint": "Think about how data types are handled to prevent errors."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "https://developer.mozilla.org/en-US/",
+          "https://reactjs.org/"
+        ],
+        "notes": [
+          "https://www.w3schools.com/java/",
+          "https://www.geeksforgeeks.org/java/java/",
+          "https://www.geeksforgeeks.org/proofs-for-the-derivatives-of-e%CB%A3-and-lnx-advanced-differentiation/",
+          "https://www.geeksforgeeks.org/java-tutorial/",
+          "https://www.w3schools.com/js/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=drQK8ciCAjY",
+          "https://www.youtube.com/watch?v=GdzRzWymT4c&pp=0gcJCf0Ao7VqN5tD",
+          "https://www.youtube.com/watch?v=eIrMbAQSU34",
+          "https://www.youtube.com/watch?v=xTtL8E4LzTQ",
+          "https://www.youtube.com/watch?v=b5l5UodFzMo"
+        ]
+      }
+    },
+    {
+      "tech": "C++",
+      "reason": "Low-level control, high performance, essential for game development and systems programming",
+      "tags": [
+        "programming",
+        "performance",
+        "systems"
+      ],
+      "preferred_if": [
+        "User interested in game development",
+        "Wants deep understanding of memory"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is one of the main reasons C++ is preferred in game development and systems programming?",
+          "options": [
+            "It offers high-level abstraction.",
+            "It provides low-level control and high performance.",
+            "It is easier to learn than Python.",
+            "It is primarily used for web development."
+          ],
+          "correct_option": 1,
+          "hint": "Consider the requirements for performance and control in game development."
+        },
+        {
+          "question": "Which feature of C++ allows for direct manipulation of memory addresses?",
+          "options": [
+            "Object-oriented programming",
+            "Pointers",
+            "Garbage collection",
+            "Built-in string handling"
+          ],
+          "correct_option": 1,
+          "hint": "This feature is crucial for managing memory manually."
+        },
+        {
+          "question": "Why might a programmer choose C++ over Java for a performance-critical application?",
+          "options": [
+            "C++ is inherently more secure.",
+            "C++ allows for close-to-hardware programming with manual memory management.",
+            "Java has better built-in libraries for performance-critical applications.",
+            "Java uses pointers extensively like C++."
+          ],
+          "correct_option": 1,
+          "hint": "Think about the control C++ offers over system resources."
+        },
+        {
+          "question": "In C++, which keyword is used to dynamically allocate memory on the heap?",
+          "options": [
+            "malloc",
+            "new",
+            "allocate",
+            "create"
+          ],
+          "correct_option": 1,
+          "hint": "This keyword is paired with 'delete' to free memory."
+        },
+        {
+          "question": "Which of the following is NOT an advantage of using C++ for systems programming?",
+          "options": [
+            "High-level abstraction",
+            "High performance",
+            "Low-level memory manipulation",
+            "Portability"
+          ],
+          "correct_option": 0,
+          "hint": "Consider whether C++ is known for abstraction or control."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://nodejs.org/api/addons.html",
+          "https://developer.mozilla.org/en-US/docs/WebAssembly/Guides/C_to_Wasm",
+          "https://nodejs.org/api/n-api.html"
+        ],
+        "notes": [
+          "https://www.w3schools.com/cpp/",
+          "https://www.geeksforgeeks.org/cpp-tutorial/?ref=header_outind",
+          "https://www.geeksforgeeks.org/cpp/cpp-stl-tutorial/",
+          "https://www.geeksforgeeks.org/cpp/c-plus-plus/",
+          "https://www.w3schools.com/cpp/cpp_classes.asp"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=1v_4dL8l8pQ",
+          "https://www.youtube.com/watch?v=P2jVybFyh3A",
+          "https://www.youtube.com/watch?v=ZzaPdXTrSb8&pp=0gcJCfwAo7VqN5tD",
+          "https://www.youtube.com/watch?v=vLnPwxZdW4Y",
+          "https://www.youtube.com/watch?v=-TkoO8Z07hI"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction"
+    ],
+    "notes": [
+      "https://www.w3schools.com/programming/index.php",
+      "https://www.geeksforgeeks.org/computer-science-fundamentals/programming-tutorial/",
+      "https://www.geeksforgeeks.org/computer-science-fundamentals/introduction-to-programming-languages/",
+      "https://www.w3schools.com/python/python_intro.asp",
+      "https://www.freecodecamp.org/news/what-is-programming-tutorial-for-beginners/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=bJzb-RuUcMU",
+      "https://www.youtube.com/watch?v=CIRGjwYgdT4",
+      "https://www.youtube.com/watch?v=AWliApDc61w",
+      "https://www.youtube.com/watch?v=l26oaHV7D40",
+      "https://www.youtube.com/watch?v=WR1ydijTx5E"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the correct syntax to print \"Hello, World!\" in Python?",
+      "options": [
+        "print(\"Hello, World!\")",
+        "echo \"Hello, World!\"",
+        "printf(\"Hello, World!\")",
+        "System.out.println(\"Hello, World!\")"
+      ],
+      "correct_option": 0,
+      "hint": "Use the print function in Python."
+    },
+    {
+      "question": "Which of the following is NOT a data type in Python?",
+      "options": [
+        "String",
+        "List",
+        "Dictionary",
+        "IntegerArray"
+      ],
+      "correct_option": 3,
+      "hint": "Think about the standard data types used in Python."
+    },
+    {
+      "question": "What is the output of the following Python code?\n\nx = 5\ny = 10\nif x < y:\n    print(\"x is less than y\")\nelse:\n    print(\"x is greater than or equal to y\")",
+      "options": [
+        "x is less than y",
+        "x is greater than or equal to y",
+        "Error",
+        "x is equal to y"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the values of x and y and the conditional statement used."
+    },
+    {
+      "question": "What is the purpose of functions in programming?",
+      "options": [
+        "To store data",
+        "To perform a specific task and possibly return a value",
+        "To loop through a block of code",
+        "To define a data structure"
+      ],
+      "correct_option": 1,
+      "hint": "Functions are used to encapsulate code to perform a particular task."
+    },
+    {
+      "question": "How do you start a while loop in Python?",
+      "options": [
+        "while x > 0:",
+        "loop(x > 0)",
+        "do while x > 0:",
+        "repeat until x > 0"
+      ],
+      "correct_option": 0,
+      "hint": "The syntax involves the while keyword followed by a condition."
+    }
+  ]
+}

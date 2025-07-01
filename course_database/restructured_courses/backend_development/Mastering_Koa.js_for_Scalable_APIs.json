@@ -1,0 +1,129 @@
+{
+  "id": "BE18",
+  "name": "Mastering Koa.js for Scalable APIs",
+  "category": "Backend Development",
+  "primary_tech": "Koa.js",
+  "topics": [
+    "Introduction to Koa.js and Modern JavaScript",
+    "Setting Up a Koa.js Server",
+    "Understanding Middleware in Koa.js",
+    "Handling Routes and Requests",
+    "Building RESTful APIs with Koa.js",
+    "Error Handling and Logging",
+    "Integrating with Databases using Koa.js",
+    "Deploying Koa.js Applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "koa.js",
+    "backend-development",
+    "api-design",
+    "middleware",
+    "asynchronous"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://nodejs.org/en/about",
+        "description": "An overview of Node.js, detailing its purpose, features, and benefits for building scalable network applications."
+      },
+      {
+        "url": "https://nodejs.org/en/learn/getting-started/nodejs-the-difference-between-development-and-production",
+        "description": "This resource explains the differences between development and production environments in Node.js applications."
+      },
+      {
+        "url": "https://nodejs.org/api/zlib.html",
+        "description": "The Node.js Zlib module documentation provides details on using the Zlib library for compression and decompression operations."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/node-js/express-js-vs-koajs-in-node-js/",
+        "description": "A comparative analysis of Express.js and Koa.js frameworks in Node.js, highlighting their features and differences."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/hapijs-vs-koajs-in-node-js/",
+        "description": "A comparative analysis of Hapi.js and Koa.js frameworks in Node.js, highlighting their features and differences."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/different-servers-in-node-js/",
+        "description": "An overview of various server types in Node.js, including their features and use cases."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/php/php-vs-node-js/",
+        "description": "A comprehensive comparison of PHP and Node.js, highlighting their differences, advantages, and suitable use cases for web development."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/node-js/node-js-frameworks/",
+        "description": "An overview of popular Node.js frameworks, highlighting their features and use cases."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=z84uTk5zmak",
+      "https://www.youtube.com/watch?v=wKzcWbxVtKA",
+      "https://www.youtube.com/watch?v=y0xx7pAwUxA",
+      "https://www.youtube.com/watch?v=Div1km7DQrI",
+      "https://www.youtube.com/watch?v=2lprC0yYeFw"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is Koa.js primarily known for?",
+      "options": [
+        "Being a feature-rich framework",
+        "Its simplicity and minimalism",
+        "A large community support",
+        "Built-in database support"
+      ],
+      "correct_option": 1,
+      "hint": "Consider the primary reason developers choose Koa.js over other frameworks."
+    },
+    {
+      "question": "Who created Koa.js?",
+      "options": [
+        "The Vue.js team",
+        "The Angular team",
+        "The React team",
+        "The Express team"
+      ],
+      "correct_option": 3,
+      "hint": "Think about which team is known for creating another popular Node.js framework."
+    },
+    {
+      "question": "Which of the following best describes Koa.js in terms of middleware?",
+      "options": [
+        "Koa.js uses a built-in middleware stack",
+        "Koa.js has a large collection of official middleware",
+        "Koa.js is designed to use async functions as middleware",
+        "Koa.js does not support middleware"
+      ],
+      "correct_option": 2,
+      "hint": "Consider Koa.js's approach to handling asynchronous operations."
+    },
+    {
+      "question": "What is a key reason a developer might choose Koa.js over Express.js?",
+      "options": [
+        "Koa.js is better for handling real-time applications",
+        "Koa.js offers more built-in features",
+        "Koa.js provides a more lightweight and modular approach",
+        "Koa.js has a larger user base"
+      ],
+      "correct_option": 2,
+      "hint": "Think about what 'minimalist' implies in the context of web frameworks."
+    },
+    {
+      "question": "In what language is Koa.js written?",
+      "options": [
+        "Python",
+        "JavaScript",
+        "Ruby",
+        "Java"
+      ],
+      "correct_option": 1,
+      "hint": "Consider the primary programming language used for Node.js frameworks."
+    }
+  ],
+  "preferred_if": [
+    "User prefers lightweight frameworks"
+  ]
+}

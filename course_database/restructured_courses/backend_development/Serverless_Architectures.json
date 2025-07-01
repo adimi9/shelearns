@@ -1,0 +1,119 @@
+{
+  "id": "BE3",
+  "name": "Serverless Architectures",
+  "category": "Backend Development",
+  "primary_tech": "Serverless",
+  "topics": [
+    "FaaS (Functions-as-a-Service)",
+    "AWS Lambda/Google Cloud Functions",
+    "Serverless Framework/SAM"
+  ],
+  "recommended": false,
+  "tags": [
+    "serverless",
+    "cloud",
+    "event-driven"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://reactjs.org/docs/create-a-new-react-app.html",
+        "description": "This documentation provides guidance on setting up a new React application using various tools and methodologies."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model",
+        "description": "An overview of JavaScript's execution model, including event loops, call stacks, and concurrency."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API",
+        "description": "The Service Worker API documentation provides information on how to use service workers to manage network requests, cache assets, and enable offline functionality for web applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/aws/serverless/index.php",
+        "description": "An introductory guide to AWS serverless computing, covering key concepts and tools."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/system-design/serverless-architectures/",
+        "description": "An overview of serverless architectures, detailing their benefits, challenges, and use cases in system design."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/system-design/server-vs-serverless-architecture/",
+        "description": "A comparative guide explaining the differences, advantages, and use cases of server-based versus serverless architecture."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/serverless-node-js-tutorial/",
+        "description": "A comprehensive tutorial on building and deploying serverless applications using Node.js."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/system-design/monolithic-vs-microservice-vs-serverless-architectures-system-design/",
+        "description": "This resource compares monolithic, microservice, and serverless architectures in system design."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=qQk94CjRvIs",
+      "https://www.youtube.com/watch?v=5rG-YgTHMC8",
+      "https://www.youtube.com/watch?v=hCCMri3jFAo",
+      "https://www.youtube.com/watch?v=eOBq__h4OJ4",
+      "https://www.youtube.com/watch?v=RBbuERSRU1k"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which of the following best describes the purpose of FaaS in serverless architectures?",
+      "options": [
+        "To host virtual machines",
+        "To execute code in response to events",
+        "To provide persistent storage",
+        "To manage user authentication"
+      ],
+      "correct_option": 1,
+      "hint": "Think about the role of functions in event-driven computing."
+    },
+    {
+      "question": "What is a major advantage of using AWS Lambda for deploying serverless applications?",
+      "options": [
+        "It requires no upfront cost for server setup",
+        "It provides unlimited execution time",
+        "It guarantees zero latency",
+        "It allows hosting of virtual desktops"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the cost benefits associated with infrastructure management."
+    },
+    {
+      "question": "When using Google Cloud Functions, which of the following triggers can NOT be used to invoke a function?",
+      "options": [
+        "HTTP requests",
+        "Cloud Pub/Sub messages",
+        "Direct database queries",
+        "Cloud Storage changes"
+      ],
+      "correct_option": 2,
+      "hint": "Think about which triggers are commonly event-driven."
+    },
+    {
+      "question": "Which tool is used to define, deploy, and manage serverless applications specifically on AWS?",
+      "options": [
+        "Terraform",
+        "Serverless Framework",
+        "AWS CloudFormation",
+        "AWS SAM"
+      ],
+      "correct_option": 3,
+      "hint": "Consider the tool that is AWS-specific and intended for serverless applications."
+    },
+    {
+      "question": "What is a key characteristic of the Serverless Framework?",
+      "options": [
+        "It only supports AWS Lambda",
+        "It requires extensive server management",
+        "It allows multi-cloud deployments",
+        "It is a desktop application"
+      ],
+      "correct_option": 2,
+      "hint": "Think about the flexibility of deploying across different cloud providers."
+    }
+  ]
+}

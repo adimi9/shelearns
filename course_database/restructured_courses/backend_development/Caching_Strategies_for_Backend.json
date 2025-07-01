@@ -1,0 +1,119 @@
+{
+  "id": "BE5",
+  "name": "Caching Strategies for Backend",
+  "category": "Backend Development",
+  "primary_tech": "Caching",
+  "topics": [
+    "In-Memory Caching",
+    "Distributed Caching (Redis/Memcached)",
+    "Cache Invalidation Strategies"
+  ],
+  "recommended": true,
+  "tags": [
+    "performance",
+    "optimization",
+    "scalability"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching",
+        "description": "A comprehensive guide on HTTP caching, explaining how to effectively use caching to improve web performance."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control",
+        "description": "This resource provides detailed documentation on the HTTP Cache-Control header, explaining its directives and usage for managing caching policies."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Cache",
+        "description": "The resource provides documentation on the Cache interface, which enables storing and retrieving network request and response objects for offline access in web applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/",
+        "description": "An introductory guide to understanding and designing caching systems for beginners."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/what-is-caching-strategies-in-dbms/",
+        "description": "The article explains various caching strategies used in Database Management Systems (DBMS) to enhance data retrieval performance."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/system-design/caching-strategies-for-api/",
+        "description": "This resource provides an overview of caching strategies to optimize API performance and efficiency."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/mongodb/caching-strategies-for-mongodb/",
+        "description": "A guide on various caching strategies to optimize performance in MongoDB applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/how-to-access-cache-data-in-node-js/",
+        "description": "This resource provides guidance on accessing and managing cache data in Node.js applications."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=dGAgxozNWFE",
+      "https://www.youtube.com/watch?v=m_RIEG8gyoA",
+      "https://www.youtube.com/watch?v=bP4BeUjNkXc",
+      "https://www.youtube.com/watch?v=_93bg_NnjqM",
+      "https://www.youtube.com/watch?v=RtOyBwBICRs"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary advantage of using in-memory caching for backend applications?",
+      "options": [
+        "Reduced latency and faster access to data",
+        "Increased data persistence and durability",
+        "Lower storage costs",
+        "Simplified data management"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the speed of memory access compared to disk."
+    },
+    {
+      "question": "Which of the following technologies is commonly used for distributed caching?",
+      "options": [
+        "Redis",
+        "SQLite",
+        "MongoDB",
+        "PostgreSQL"
+      ],
+      "correct_option": 0,
+      "hint": "This technology is known for its in-memory data structure store."
+    },
+    {
+      "question": "What is a common challenge associated with cache invalidation in distributed systems?",
+      "options": [
+        "Ensuring data consistency across nodes",
+        "Increasing cache storage capacity",
+        "Reducing cache access time",
+        "Improving cache hit rate"
+      ],
+      "correct_option": 0,
+      "hint": "Think about what happens when data changes in one part of the system."
+    },
+    {
+      "question": "In Memcached, which data structure is primarily used for storing cached data?",
+      "options": [
+        "Hash tables",
+        "Linked lists",
+        "Binary trees",
+        "Graphs"
+      ],
+      "correct_option": 0,
+      "hint": "This data structure allows for efficient key-value pair storage."
+    },
+    {
+      "question": "What is a typical consequence of not implementing an effective cache invalidation strategy?",
+      "options": [
+        "Serving stale data to users",
+        "Increased server uptime",
+        "Reduced memory usage",
+        "Improved data freshness"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the impact of outdated information being delivered from the cache."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "GD15",
+  "name": "Backend Development with Godot: From Basics to Advanced",
+  "category": "Game Development",
+  "primary_tech": "Godot Engine",
+  "topics": [
+    "Introduction to Godot Engine and its Architecture",
+    "Understanding Godot's Networking Capabilities",
+    "Implementing Game Servers with Godot",
+    "Scripting Backend Logic with GDScript",
+    "Database Integration and Management",
+    "Real-time Multiplayer Game Development",
+    "Security Considerations in Game Development",
+    "Deploying and Scaling Godot-based Applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "godot",
+    "backend",
+    "game-server",
+    "networking",
+    "scripting",
+    "gdscript"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://www.reddit.com/r/csharp/comments/10xukjk/best_c_book_that_covers_everything_from_beginner/",
+        "description": "Discussion and recommendations for comprehensive C# books covering beginner to advanced topics."
+      },
+      {
+        "url": "https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html",
+        "description": "This resource provides a tutorial on implementing high-level multiplayer features in the Godot Engine."
+      },
+      {
+        "url": "https://www.reddit.com/r/godot/comments/1dtq76d/godot_for_experienced_programmers/",
+        "description": "A discussion thread offering insights and advice for experienced programmers transitioning to using the Godot game engine."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.reddit.com/r/godot/comments/1kr6mck/struggling_with_godot_tutorials_should_i_continue/",
+        "description": "This discussion on Reddit explores whether to persist with Godot tutorials and shares experiences and advice from the community."
+      },
+      {
+        "url": "https://blog.nimblepros.com/blogs/on-learning-a-new-language/",
+        "description": "This blog post explores effective strategies and insights for learning a new programming language."
+      },
+      {
+        "url": "https://www.reddit.com/r/godot/comments/1dtq76d/godot_for_experienced_programmers/",
+        "description": "A discussion thread offering insights and advice for experienced programmers getting started with the Godot game engine."
+      },
+      {
+        "url": "https://forum.godotengine.org/t/is-godot-gradually-adopting-c-as-its-primary-programming-language/62938",
+        "description": "Discussion on Godot Engine's potential shift towards C# as its primary programming language."
+      },
+      {
+        "url": "https://www.reddit.com/r/VALORANT/comments/w67f0b/advanced_tutorial_for_teaching_the_basics/",
+        "description": "A comprehensive guide for teaching the fundamental mechanics and strategies of VALORANT to beginners."
+      }
+    ],
+    "videos": [
+      "https://www.reddit.com/r/godot/comments/16t7t99/what_online_courses_for_godot_are_the_bestmost/",
+      "https://github.com/JoseDeFreitas/awesome-youtubers",
+      "https://www.reddit.com/r/godot/comments/1dtq76d/godot_for_experienced_programmers/",
+      "https://dev.to/christinec_dev/lets-learn-godot-4-by-making-an-rpg-part-1-project-overview-setup-bgc",
+      "https://www.reddit.com/r/VALORANT/comments/w67f0b/advanced_tutorial_for_teaching_the_basics/"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a primary reason developers choose Godot Engine over Unity?",
+      "options": [
+        "Higher licensing fees",
+        "Open-source nature",
+        "More complex architecture",
+        "Limited platform support"
+      ],
+      "correct_option": 1,
+      "hint": "Consider the cost and openness of the software."
+    },
+    {
+      "question": "Which scripting language is primarily used in Godot Engine?",
+      "options": [
+        "C#",
+        "JavaScript",
+        "Python",
+        "GDScript"
+      ],
+      "correct_option": 3,
+      "hint": "This language is specifically designed for ease of use within Godot."
+    },
+    {
+      "question": "What is a key advantage of Godot Engine's architecture?",
+      "options": [
+        "Less modular",
+        "Focus on 2D only",
+        "Cleaner and more modular",
+        "Complex and rigid"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how the architecture might aid in game development flexibility."
+    },
+    {
+      "question": "Why might a developer prefer Godot Engine for simpler 2D games?",
+      "options": [
+        "Higher complexity",
+        "Open-source and lightweight",
+        "Expensive tools",
+        "Limited to 3D games"
+      ],
+      "correct_option": 1,
+      "hint": "Consider what makes Godot appealing for smaller scale projects."
+    },
+    {
+      "question": "How does Godot Engine support the open-source community?",
+      "options": [
+        "Closed development process",
+        "Proprietary software",
+        "Community contributions",
+        "Restricted access to source code"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how open-source projects typically grow and improve."
+    }
+  ],
+  "preferred_if": [
+    "User prefers open-source tools",
+    "Developing simpler 2D/3D games",
+    "Wants a cleaner, more modular architecture"
+  ]
+}

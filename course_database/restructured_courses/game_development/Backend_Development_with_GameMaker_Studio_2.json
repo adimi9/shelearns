@@ -1,0 +1,131 @@
+{
+  "id": "GD23",
+  "name": "Backend Development with GameMaker Studio 2",
+  "category": "Game Development",
+  "primary_tech": "GameMaker Studio 2",
+  "topics": [
+    "Introduction to GameMaker Studio 2",
+    "Basic GML Scripting for Backend",
+    "Setting Up Multiplayers in GameMaker",
+    "Networking Concepts in Game Development",
+    "Database Integration for Game Saves",
+    "Implementing Game State Management",
+    "Server-Side Logic and Game Rules",
+    "Real-time Data Handling and Synchronization"
+  ],
+  "recommended": false,
+  "tags": [
+    "GameMaker",
+    "backend",
+    "multiplayer",
+    "game-development",
+    "networking",
+    "GML"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://manual.gamemaker.io/monthly/en/",
+        "description": "The URL provides access to the monthly updated manual for GameMaker, offering comprehensive guidance and documentation for game development."
+      },
+      {
+        "url": "https://www.reddit.com/r/gamedev/comments/1bro6ni/we_are_the_developers_of_sdl_ask_us_anything/",
+        "description": "A Reddit AMA session where the developers of SDL (Simple DirectMedia Layer) answer questions about their work and the library."
+      },
+      {
+        "url": "https://developers.meta.com/horizon/",
+        "description": "A comprehensive guide for developers to create and integrate experiences within Meta's Horizon platform."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.reddit.com/r/gamemaker/comments/119lbhe/rocket_networking_the_ultimate_solution_for/",
+        "description": "A discussion on Reddit about Rocket Networking as a comprehensive solution for multiplayer game development using GameMaker."
+      },
+      {
+        "url": "https://manual.gamemaker.io/monthly/en/",
+        "description": "The URL provides access to the comprehensive monthly updated manual for GameMaker, detailing its features and functionalities."
+      },
+      {
+        "url": "https://www.reddit.com/r/gamemaker/comments/fpd2bd/tutorial_configurations_macros_gamemaker_studio_2/",
+        "description": "A tutorial on using configurations and macros in GameMaker Studio 2 to enhance game development efficiency."
+      },
+      {
+        "url": "https://forum.gamemaker.io/index.php?tags/programmer-needed/",
+        "description": "A forum tag for connecting with programmers available for hire or collaboration within the GameMaker community."
+      },
+      {
+        "url": "https://develop.games/",
+        "description": "A comprehensive platform offering resources, tutorials, and tools for game developers to create and enhance their games."
+      }
+    ],
+    "videos": [
+      "https://www.reddit.com/r/gamemaker/comments/dxhw76/is_gamemaker_a_good_place_to_start_making_games/",
+      "https://develop.games/",
+      "https://www.reddit.com/r/learnprogramming/comments/ezedi1/about_to_finish_cs_degree_but_cant_code/",
+      "https://www.facebook.com/GMSTutorials/",
+      "https://www.reddit.com/r/gamemaker/comments/nv67bu/best_practices_for_a_new_game/"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary programming language used in GameMaker Studio 2?",
+      "options": [
+        "JavaScript",
+        "Python",
+        "GML",
+        "C++"
+      ],
+      "correct_option": 2,
+      "hint": "It is a language specifically designed for GameMaker Studio."
+    },
+    {
+      "question": "What is a key advantage of using GameMaker Studio 2 for 2D game development?",
+      "options": [
+        "Focuses on 3D rendering",
+        "Requires extensive coding knowledge",
+        "Offers a user-friendly interface",
+        "Only supports mobile platforms"
+      ],
+      "correct_option": 2,
+      "hint": "This advantage makes it accessible to beginners."
+    },
+    {
+      "question": "Which feature of GameMaker Studio 2 makes it particularly appealing for developers focusing exclusively on 2D games?",
+      "options": [
+        "Complex 3D modeling tools",
+        "Integrated 2D physics engine",
+        "Extensive VR support",
+        "Advanced AI scripting"
+      ],
+      "correct_option": 1,
+      "hint": "This feature helps in creating realistic 2D interactions."
+    },
+    {
+      "question": "What is a common use case for developers choosing GameMaker Studio 2?",
+      "options": [
+        "Developing large-scale AAA 3D games",
+        "Creating simple 2D games with an easy learning curve",
+        "Building augmented reality applications",
+        "Designing complex multiplayer online games"
+      ],
+      "correct_option": 1,
+      "hint": "The preference is towards simplicity and 2D focus."
+    },
+    {
+      "question": "Which of the following is NOT true about GameMaker Studio 2?",
+      "options": [
+        "It has a drag-and-drop interface for beginners.",
+        "It only supports 3D game development.",
+        "It uses GML as its primary scripting language.",
+        "It is designed with a focus on ease of use for 2D games."
+      ],
+      "correct_option": 1,
+      "hint": "Consider the primary focus and capabilities of GameMaker Studio 2."
+    }
+  ],
+  "preferred_if": [
+    "User focuses exclusively on 2D games",
+    "Wants a simpler learning curve"
+  ]
+}

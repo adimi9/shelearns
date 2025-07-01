@@ -1,0 +1,100 @@
+{
+  "id": "CS6",
+  "name": "Operating Systems Concepts",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Operating Systems",
+  "topics": [
+    "Processes & Threads",
+    "CPU Scheduling",
+    "Memory Management",
+    "File Systems & I/O"
+  ],
+  "levels": [
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "systems",
+    "low-level",
+    "architecture"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+      "https://nodejs.org/api/os.html",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/operating-systems/operating-systems/",
+      "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/",
+      "https://www.geeksforgeeks.org/operating-systems/file-systems-in-operating-system/",
+      "https://www.geeksforgeeks.org/operating-systems/introduction-of-operating-system-set-1/",
+      "https://www.geeksforgeeks.org/operating-systems/real-time-operating-system-rtos/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=26QPDBe-NB8",
+      "https://www.youtube.com/watch?v=yK1uBHPdp30",
+      "https://www.youtube.com/watch?v=dOiA2nNJpc0",
+      "https://www.youtube.com/watch?v=fkGCLIQx1MI",
+      "https://www.youtube.com/watch?v=9GDX-IyZ_C8"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a process in the context of operating systems?",
+      "options": [
+        "A single task that is executed by the CPU",
+        "A collection of threads that share resources",
+        "A binary executable file stored on disk",
+        "A hardware component that manages memory"
+      ],
+      "correct_option": 1,
+      "hint": "It involves multiple threads and resource sharing."
+    },
+    {
+      "question": "Which of the following is true about threads?",
+      "options": [
+        "Threads run in separate memory spaces",
+        "Threads share the same data and code segments",
+        "Threads execute independently of processes",
+        "Threads cannot share resources"
+      ],
+      "correct_option": 1,
+      "hint": "Threads are part of a process and share certain segments."
+    },
+    {
+      "question": "What is the main goal of CPU scheduling?",
+      "options": [
+        "To maximize CPU idle time",
+        "To ensure all processes have equal priority",
+        "To improve system efficiency and response time",
+        "To allocate more CPU time to I/O-bound processes"
+      ],
+      "correct_option": 2,
+      "hint": "Think about system performance and efficiency."
+    },
+    {
+      "question": "Which technique allows for the execution of processes that require more memory than what is physically available?",
+      "options": [
+        "Swapping",
+        "Virtual Memory",
+        "Fragmentation",
+        "Paging"
+      ],
+      "correct_option": 1,
+      "hint": "This technique uses a combination of RAM and disk space."
+    },
+    {
+      "question": "What is the primary purpose of a file system in an operating system?",
+      "options": [
+        "To manage the execution of processes",
+        "To provide a way to store and organize files",
+        "To control access to the CPU",
+        "To handle network communications"
+      ],
+      "correct_option": 1,
+      "hint": "Think about data storage and organization."
+    }
+  ]
+}

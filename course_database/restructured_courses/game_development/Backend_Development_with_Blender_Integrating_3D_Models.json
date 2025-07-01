@@ -1,0 +1,129 @@
+{
+  "id": "GD7",
+  "name": "Backend Development with Blender: Integrating 3D Models",
+  "category": "Game Development",
+  "primary_tech": "Blender (3D Modeling)",
+  "topics": [
+    "Introduction to Blender for Backend Developers",
+    "Understanding 3D Model Formats and Data Structures",
+    "Integrating Blender Models with Backend Systems",
+    "Automating 3D Model Processing via APIs",
+    "Building Scalable Backend Solutions for 3D Applications",
+    "Optimizing Data Flow between Blender and Backend Services",
+    "Security and Best Practices for 3D Data Handling"
+  ],
+  "recommended": false,
+  "tags": [
+    "blender",
+    "3D-modeling",
+    "backend-development",
+    "integration",
+    "API",
+    "data-processing"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
+        "description": "An introduction to the WebGPU API, detailing its purpose for enabling high-performance graphics and computation on the web."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode",
+        "description": "The resource explains the CSS `mix-blend-mode` property, which determines how an element's content blends with its background."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/video",
+        "description": "This resource provides detailed documentation on the HTML `<video>` element, including its attributes, usage, and examples."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.reddit.com/r/threejs/comments/17o6op2/what_is_the_role_of_frontend_developer_working_on/",
+        "description": "Discussion on the role and responsibilities of a frontend developer working with the Three.js library."
+      },
+      {
+        "url": "https://medium.com/@tam.tamanna18/a-comprehensive-guide-to-the-best-mcp-servers-for-2025-5ee541b2b00f",
+        "description": "A detailed guide to the top Minecraft server platforms for 2025."
+      },
+      {
+        "url": "https://www.reddit.com/r/opengl/comments/y1z3jn/from_blender_to_opengl/",
+        "description": "A discussion on transitioning 3D models from Blender to OpenGL, including tips and techniques for successful integration."
+      },
+      {
+        "url": "https://digialps.com/stablegen-ai-textures-your-3d-models-in-seconds-with-blender/",
+        "description": "This resource explains how to use StableGen AI to rapidly generate textures for 3D models in Blender."
+      },
+      {
+        "url": "https://www.linkedin.com/posts/danilomakiosaito_xr-spatialcomputing-design-activity-7237112693122359296-TSr-",
+        "description": "This LinkedIn post discusses the intersection of XR and spatial computing in design applications."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=jswn8h40Qx0&pp=0gcJCdgAo7VqN5tD",
+      "https://www.youtube.com/watch?v=DHe-xROc6jw&pp=0gcJCdgAo7VqN5tD",
+      "https://www.youtube.com/watch?v=hnqr8Qiw_yw",
+      "https://www.youtube.com/watch?v=jsoLphuoxIg",
+      "https://www.youtube.com/watch?v=4haAdmHqGOw"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is Blender primarily used for in game development?",
+      "options": [
+        "Rendering final game scenes",
+        "Creating custom 3D assets",
+        "Designing sound effects",
+        "Writing game scripts"
+      ],
+      "correct_option": 1,
+      "hint": "Blender is not primarily a rendering engine."
+    },
+    {
+      "question": "Which feature of Blender makes it ideal for creating custom game assets?",
+      "options": [
+        "Its built-in game engine",
+        "Its 3D modeling capabilities",
+        "Its sound editing tools",
+        "Its texturing limitations"
+      ],
+      "correct_option": 1,
+      "hint": "Consider the primary function of Blender as a 3D creation suite."
+    },
+    {
+      "question": "Why might a game developer choose Blender over other 3D modeling software?",
+      "options": [
+        "It is open-source and free",
+        "It has superior rendering capabilities",
+        "It includes built-in game engines",
+        "It offers advanced sound design features"
+      ],
+      "correct_option": 0,
+      "hint": "Cost and accessibility are major factors."
+    },
+    {
+      "question": "What is a key advantage of using Blender for 3D modeling in game development?",
+      "options": [
+        "Its ability to export directly to game consoles",
+        "Its extensive library of pre-made game assets",
+        "Its flexibility in creating complex 3D models",
+        "Its focus on 2D asset creation"
+      ],
+      "correct_option": 2,
+      "hint": "Think about Blender's capabilities in modeling, not pre-made assets."
+    },
+    {
+      "question": "Which of the following is NOT a primary feature of Blender?",
+      "options": [
+        "3D asset creation",
+        "Animation tools",
+        "Game rendering engine",
+        "Sculpting tools"
+      ],
+      "correct_option": 2,
+      "hint": "Blender is more about creation and less about final rendering."
+    }
+  ],
+  "preferred_if": [
+    "User wants to create custom 3D assets for games"
+  ]
+}

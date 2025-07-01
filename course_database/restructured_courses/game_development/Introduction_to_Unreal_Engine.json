@@ -1,0 +1,121 @@
+{
+  "id": "GD13",
+  "name": "Introduction to Unreal Engine",
+  "category": "Game Development",
+  "primary_tech": "Unreal Engine",
+  "topics": [
+    "Unreal Editor & Interface",
+    "Blueprints Visual Scripting",
+    "Asset Pipeline & Material Editor",
+    "Basic C++ Integration"
+  ],
+  "recommended": true,
+  "tags": [
+    "engine",
+    "AAA",
+    "C++",
+    "blueprints"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web",
+        "description": "An overview of techniques and technologies for creating 3D graphics and experiences on the web."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection",
+        "description": "A comprehensive guide on implementing 2D collision detection techniques in game development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_collision_detection",
+        "description": "This resource provides an overview of techniques for implementing 3D collision detection in game development."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/developing-games-using-unreal-engine-5/",
+        "description": "An introductory guide to developing games using Unreal Engine 5, covering essential concepts and tools."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/online-coding-classes-for-beginners-2022-guide/",
+        "description": "A comprehensive guide to online coding classes for beginners, detailing various platforms and resources available in 2022."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/websites-apps/unity-vs-unreal-engine/",
+        "description": "A comparative analysis of Unity and Unreal Engine, highlighting their features, strengths, and ideal use cases for game development."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/how-to-choose-a-programming-language-and-escape-tutorial-purgatory/",
+        "description": "This resource guides readers on selecting a programming language and effectively moving beyond tutorial dependency."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/computer-science-fundamentals/programming-tutorial/",
+        "description": "A comprehensive collection of tutorials covering fundamental programming concepts and techniques in computer science."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=BGsFLoYp1V8",
+      "https://www.youtube.com/watch?v=k-zMkzmduqI",
+      "https://www.youtube.com/watch?v=DXDe-2BC4cE",
+      "https://www.youtube.com/watch?v=S2nu172btrs",
+      "https://www.youtube.com/watch?v=n19J3siV3SA"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary interface used for creating and editing Unreal Engine projects?",
+      "options": [
+        "Unreal Editor",
+        "Blueprints Editor",
+        "Material Editor",
+        "C++ Compiler"
+      ],
+      "correct_option": 0,
+      "hint": "It's the main tool where you design and develop your game."
+    },
+    {
+      "question": "What is Blueprints Visual Scripting primarily used for in Unreal Engine?",
+      "options": [
+        "Creating and editing textures",
+        "Writing C++ code",
+        "Visual programming",
+        "Building levels"
+      ],
+      "correct_option": 2,
+      "hint": "It's a system that allows for coding without writing traditional code."
+    },
+    {
+      "question": "Which feature of Unreal Engine is used to manage and organize game assets?",
+      "options": [
+        "Material Editor",
+        "Asset Pipeline",
+        "Blueprints Editor",
+        "C++ Integration"
+      ],
+      "correct_option": 1,
+      "hint": "Think about the workflow for handling models, textures, and other resources."
+    },
+    {
+      "question": "In Unreal Engine, what tool would you use to create and adjust the appearance of surfaces?",
+      "options": [
+        "Blueprints Editor",
+        "Material Editor",
+        "Unreal Editor",
+        "C++ Editor"
+      ],
+      "correct_option": 1,
+      "hint": "It's specifically designed for manipulating materials and shaders."
+    },
+    {
+      "question": "How can basic C++ integration benefit a beginner using Unreal Engine?",
+      "options": [
+        "By creating textures",
+        "By offering more control over game logic",
+        "By simplifying the interface",
+        "By automating asset import"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how programming can offer more detailed control over game functions."
+    }
+  ]
+}

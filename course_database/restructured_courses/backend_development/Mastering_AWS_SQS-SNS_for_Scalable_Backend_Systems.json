@@ -1,0 +1,130 @@
+{
+  "id": "BE7",
+  "name": "Mastering AWS SQS/SNS for Scalable Backend Systems",
+  "category": "Backend Development",
+  "primary_tech": "AWS SQS/SNS",
+  "topics": [
+    "Introduction to AWS SQS and SNS",
+    "Setting Up AWS SQS Queues",
+    "Exploring SNS and Topic Subscriptions",
+    "Integrating SQS/SNS with AWS Lambda",
+    "Implementing Message Filtering and Routing",
+    "Monitoring and Troubleshooting SQS/SNS",
+    "Designing Event-Driven Architectures with AWS",
+    "Best Practices for Scalability and Reliability"
+  ],
+  "recommended": false,
+  "tags": [
+    "aws",
+    "sqs",
+    "sns",
+    "backend-development",
+    "event-driven",
+    "cloud-services"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison",
+        "description": "This resource provides a comparison of cloud services across AWS, Azure, and Google Cloud Platform to help users understand their offerings and differences."
+      },
+      {
+        "url": "https://aws.amazon.com/",
+        "description": "AWS provides cloud computing services and solutions to help businesses scale and innovate efficiently."
+      },
+      {
+        "url": "https://careers.rivian.com/careers-home/jobs/22564",
+        "description": "This URL links to a job listing for a Software Engineer position at Rivian, detailing responsibilities, qualifications, and application instructions."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/cloud-computing/amazon-sns-vs-sqs/",
+        "description": "The article compares Amazon SNS and SQS, highlighting their differences, use cases, and integration scenarios in cloud computing."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devops/aws-sqs/",
+        "description": "An introductory guide to Amazon SQS, detailing its features, benefits, and how to implement it in DevOps."
+      },
+      {
+        "url": "https://www.w3schools.com/aws/aws_cloudessentials_awssns.php",
+        "description": "This resource provides an introduction to AWS Simple Notification Service (SNS), covering its features and basic usage."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/simple-notification-service-sns-in-aws/",
+        "description": "An introductory guide to Amazon Simple Notification Service (SNS) and its features on AWS."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/aws-amazon-web-services-sns-vs-sqs/",
+        "description": "This resource compares AWS SNS (Simple Notification Service) and SQS (Simple Queue Service), highlighting their differences and use cases."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=ciTa2I7-tDE",
+      "https://www.youtube.com/watch?v=VXsAgYoC1Jc&pp=ygUHI3Nuc2FoaQ%3D%3D",
+      "https://www.youtube.com/watch?v=Jc2Ed6UjNrM",
+      "https://www.youtube.com/watch?v=Von_VgswnJU",
+      "https://www.youtube.com/watch?v=XNO0h61WmzE"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of AWS SQS in a cloud-based application?",
+      "options": [
+        "To store large amounts of data",
+        "To manage and scale server instances",
+        "To facilitate asynchronous message queuing between distributed components",
+        "To provide real-time analytics and insights"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how systems communicate without waiting for each other."
+    },
+    {
+      "question": "Which AWS service is best suited for sending notifications to multiple subscribers at once?",
+      "options": [
+        "AWS Lambda",
+        "AWS S3",
+        "AWS SNS",
+        "AWS EC2"
+      ],
+      "correct_option": 2,
+      "hint": "Look for a service specifically designed for notifications."
+    },
+    {
+      "question": "What is a key benefit of using AWS SNS in an application architecture?",
+      "options": [
+        "Automatic message retry policies",
+        "Real-time processing of streamed data",
+        "Ability to push messages to multiple endpoints like SMS, email, or other AWS services",
+        "Storage of persistent data objects"
+      ],
+      "correct_option": 2,
+      "hint": "Consider how SNS delivers messages across different communication protocols."
+    },
+    {
+      "question": "Which of the following best describes AWS SQS?",
+      "options": [
+        "A service for creating virtual servers",
+        "A managed message queuing service that allows decoupling and scaling of microservices",
+        "A service for database management",
+        "A tool for monitoring application performance"
+      ],
+      "correct_option": 1,
+      "hint": "Focus on how it decouples components in a system."
+    },
+    {
+      "question": "How does AWS SQS help in handling application load?",
+      "options": [
+        "By storing data in a relational database",
+        "By automatically scaling server instances based on traffic",
+        "By allowing distributed components to communicate asynchronously, thus managing high loads",
+        "By providing a user interface for application management"
+      ],
+      "correct_option": 2,
+      "hint": "Think about load distribution without direct communication."
+    }
+  ],
+  "preferred_if": [
+    "User is already on AWS and needs managed services"
+  ]
+}

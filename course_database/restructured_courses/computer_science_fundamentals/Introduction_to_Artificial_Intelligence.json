@@ -1,0 +1,120 @@
+{
+  "id": "CS3",
+  "name": "Introduction to Artificial Intelligence",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Artificial Intelligence",
+  "topics": [
+    "AI History & Concepts",
+    "Problem Solving (Search Algorithms)",
+    "Knowledge Representation & Reasoning",
+    "Machine Learning Overview"
+  ],
+  "recommended": false,
+  "tags": [
+    "AI",
+    "machine-learning",
+    "overview"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/pong/click?code=aHR0cHM6Ly9zcnYuYnV5c2VsbGFkcy5jb20vYWRzL2NsaWNrL3gvR1RORDQyN01DNjdENjI3TkNFQkxZS1FVQ1dZSTUyUVdDQUFJNFozSkNBQkk0NTNZQ1ZTRDRLSktDQTdEQzIzRUM2U0k2NTNMQzY3RENLN1VDV0FJTFozSkNBQkk0S0pFRjY3RFRLM0sySldOQUJZ.OLtIJxIKzeysJsJZQpZFZgHUNkZpX0o8t7sEZP1axhA%3D&version=2",
+        "description": "The URL appears to be encoded or obfuscated and does not directly lead to a specific technical resource for description."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/blog/introducing-ai-help/",
+        "description": "This blog post introduces the AI Help tool designed to assist developers with coding queries on MDN Web Docs."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/plus/docs/features/ai-help",
+        "description": "An overview of AI-powered assistance features available on the MDN Web Docs platform to enhance user experience."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/ai/",
+        "description": "Comprehensive tutorials and resources for learning artificial intelligence concepts and applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligence/",
+        "description": "An introductory guide to the fundamental concepts and applications of artificial intelligence."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/machine-learning/machine-learning/",
+        "description": "An introductory guide to the fundamentals and applications of machine learning concepts and techniques."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/machine-learning/introduction-machine-learning/",
+        "description": "An introductory guide to the fundamental concepts and applications of machine learning."
+      },
+      {
+        "url": "https://www.w3schools.com/python/python_ml_getting_started.asp",
+        "description": "Introduction to getting started with machine learning using Python, including basic concepts and setup instructions."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=a0_lo_GDcFw",
+      "https://www.youtube.com/watch?v=SSE4M0gcmvE",
+      "https://www.youtube.com/watch?v=JMUxmLyrhSk",
+      "https://www.youtube.com/watch?v=ad79nYk2keg",
+      "https://www.youtube.com/watch?v=39zbC_PrNQs"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Who is considered the 'father of artificial intelligence'?",
+      "options": [
+        "Alan Turing",
+        "John McCarthy",
+        "Marvin Minsky",
+        "Herbert Simon"
+      ],
+      "correct_option": 1,
+      "hint": "This person coined the term 'artificial intelligence'."
+    },
+    {
+      "question": "What is the primary goal of search algorithms in AI problem solving?",
+      "options": [
+        "To find the shortest path",
+        "To maximize resource utilization",
+        "To determine the best solution",
+        "To explore all possible solutions"
+      ],
+      "correct_option": 2,
+      "hint": "Think about the efficiency and effectiveness of solutions."
+    },
+    {
+      "question": "Which of the following is a key component of knowledge representation in AI?",
+      "options": [
+        "Neural networks",
+        "Decision trees",
+        "Semantic networks",
+        "Genetic algorithms"
+      ],
+      "correct_option": 2,
+      "hint": "It is a graphical representation of knowledge."
+    },
+    {
+      "question": "Which type of machine learning involves learning from a labeled dataset?",
+      "options": [
+        "Supervised learning",
+        "Unsupervised learning",
+        "Reinforcement learning",
+        "Deep learning"
+      ],
+      "correct_option": 0,
+      "hint": "The data provides the correct answers during training."
+    },
+    {
+      "question": "What was one of the first successful AI programs that played chess?",
+      "options": [
+        "Deep Blue",
+        "AlphaGo",
+        "The Turk",
+        "Mac Hack VI"
+      ],
+      "correct_option": 3,
+      "hint": "This program was developed at MIT in the 1960s."
+    }
+  ]
+}

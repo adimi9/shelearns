@@ -1,0 +1,175 @@
+{
+  "id": "MD11",
+  "name": "Mobile App Testing Strategies",
+  "category": "Mobile Development",
+  "primary_tech": "Testing",
+  "topics": [
+    "Unit Testing (JUnit, XCTest)",
+    "Widget/Component Testing",
+    "UI Testing (Espresso, XCUITest)",
+    "Integration Testing"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "testing",
+    "QA",
+    "reliability"
+  ],
+  "alternatives": [
+    {
+      "tech": "Appium/Detox",
+      "reason": "Cross-platform end-to-end testing frameworks for native and hybrid apps",
+      "tags": [
+        "E2E",
+        "automation"
+      ],
+      "preferred_if": [
+        "User needs automated end-to-end UI tests across platforms"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "Which of the following best describes Appium in the context of mobile app testing?",
+          "options": [
+            "A unit testing tool for mobile apps",
+            "A cross-platform end-to-end testing framework",
+            "A manual testing framework for desktop applications",
+            "A performance testing tool for mobile apps"
+          ],
+          "correct_option": 1,
+          "hint": "Appium is used for writing UI tests that can run on multiple mobile platforms."
+        },
+        {
+          "question": "What is the primary reason for choosing Detox over other testing frameworks for React Native apps?",
+          "options": [
+            "It supports only iOS apps",
+            "It offers a more manual approach to testing",
+            "It provides fast and reliable end-to-end testing",
+            "It is a paid tool with exclusive features"
+          ],
+          "correct_option": 2,
+          "hint": "Detox is known for its automation and speed in testing React Native apps."
+        },
+        {
+          "question": "What is a key feature of both Appium and Detox that makes them suitable for cross-platform testing?",
+          "options": [
+            "They require no code changes in the apps",
+            "They support only Android applications",
+            "They are limited to performance testing",
+            "They are designed for backend testing"
+          ],
+          "correct_option": 0,
+          "hint": "These frameworks allow testing without modifying the application code."
+        },
+        {
+          "question": "Which language is commonly used to write tests in Appium?",
+          "options": [
+            "Python",
+            "Swift",
+            "Ruby",
+            "JavaScript"
+          ],
+          "correct_option": 3,
+          "hint": "Appium supports a language that is widely used in web development and test automation."
+        },
+        {
+          "question": "Why might a company prefer using Appium for their mobile app testing needs?",
+          "options": [
+            "It only supports iOS testing",
+            "It uses proprietary software",
+            "It provides a unified API for both Android and iOS",
+            "It requires extensive manual testing"
+          ],
+          "correct_option": 2,
+          "hint": "Appium is often chosen for its ability to handle tests on multiple platforms with the same codebase."
+        }
+      ],
+      "resources": {
+        "docs": [],
+        "notes": [],
+        "videos": []
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://legacy.reactjs.org/docs/testing.html",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+      "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/software-testing/what-is-mobile-application-testing/",
+      "https://www.geeksforgeeks.org/software-testing/software-testing-tutorial/",
+      "https://www.geeksforgeeks.org/blogs/how-mobile-app-testing-can-boost-chances-of-an-app-success/",
+      "https://www.freecodecamp.org/news/how-to-automate-mobile-testing-strategies/",
+      "https://www.geeksforgeeks.org/software-testing/software-testing-test-strategy/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=UWFoxol1yV0",
+      "https://www.youtube.com/watch?v=p17bmM-nwkc",
+      "https://www.youtube.com/watch?v=T3q6QcCQZQg",
+      "https://www.youtube.com/watch?v=AjkYTJklAa8",
+      "https://www.youtube.com/watch?v=sO8eGL6SFsA"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of Unit Testing in mobile app development?",
+      "options": [
+        "To test the entire application as a whole",
+        "To test individual components or functions in isolation",
+        "To ensure the app's UI is responsive",
+        "To evaluate the app's performance under stress"
+      ],
+      "correct_option": 1,
+      "hint": "Unit Testing focuses on small parts of the application."
+    },
+    {
+      "question": "Which of the following tools is commonly used for UI Testing in Android applications?",
+      "options": [
+        "JUnit",
+        "Espresso",
+        "XCTest",
+        "Mockito"
+      ],
+      "correct_option": 1,
+      "hint": "This tool is specifically designed for Android UI testing."
+    },
+    {
+      "question": "In iOS app development, which tool is used for performing Unit Tests?",
+      "options": [
+        "XCUITest",
+        "Espresso",
+        "JUnit",
+        "XCTest"
+      ],
+      "correct_option": 3,
+      "hint": "This tool is part of the Xcode testing framework."
+    },
+    {
+      "question": "What is Widget/Component Testing primarily focused on?",
+      "options": [
+        "Testing the integration of multiple systems",
+        "Testing individual UI elements in isolation",
+        "Testing the app's network requests",
+        "Testing the app's security features"
+      ],
+      "correct_option": 1,
+      "hint": "It involves testing visual and interaction parts of the app."
+    },
+    {
+      "question": "During Integration Testing, what is the main objective?",
+      "options": [
+        "To test only the back-end services",
+        "To identify issues when combining different modules or services",
+        "To improve the app's graphical user interface",
+        "To isolate individual units for testing"
+      ],
+      "correct_option": 1,
+      "hint": "This testing type ensures different parts of the app work together."
+    }
+  ]
+}

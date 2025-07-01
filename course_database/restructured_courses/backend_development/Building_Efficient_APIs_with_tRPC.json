@@ -1,0 +1,130 @@
+{
+  "id": "BE28",
+  "name": "Building Efficient APIs with tRPC",
+  "category": "Backend Development",
+  "primary_tech": "tRPC",
+  "topics": [
+    "Introduction to tRPC and its Benefits",
+    "Setting up a tRPC Server with Node.js",
+    "Defining Endpoints with TypeScript",
+    "Client-Server Communication in tRPC",
+    "Error Handling and Validation in tRPC",
+    "Authentication and Authorization Strategies",
+    "Deploying tRPC Applications",
+    "Integrating tRPC with Frontend Frameworks"
+  ],
+  "recommended": false,
+  "tags": [
+    "tRPC",
+    "TypeScript",
+    "API Development",
+    "Node.js",
+    "Microservices"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon",
+        "description": "The MDN Web Docs page on the Navigator.sendBeacon API explains how to asynchronously send small amounts of data to a server for analytics or diagnostics."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift",
+        "description": "The MDN Web Docs page provides a detailed explanation of the JavaScript `Array.prototype.unshift()` method, which adds one or more elements to the beginning of an array and returns the new length of the array."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/412",
+        "description": "The page explains the HTTP 412 Precondition Failed status code, which indicates that a server condition set in the request headers is not met."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/what-is-trpc/",
+        "description": "An introduction to tRPC, explaining its purpose and how it enables type-safe APIs for TypeScript applications."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/build-an-invoice-saas-app-with-next-js-and-neon-postgres/",
+        "description": "This guide provides step-by-step instructions to build an invoice SaaS application using Next.js and Neon Postgres."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/a-10x-faster-typescript/",
+        "description": "This resource explores techniques and strategies to significantly improve TypeScript performance by up to ten times."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/typescript/a-10x-faster-typescript/",
+        "description": "The article provides insights and techniques for significantly improving the performance and speed of TypeScript code."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/how-to-install-eslint-in-vs-code/727745",
+        "description": "A guide on installing and configuring ESLint in Visual Studio Code for improved code quality and consistency."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=UfUbBWIFdJs",
+      "https://www.youtube.com/watch?v=GuzZN-4kc3w",
+      "https://www.youtube.com/watch?v=YkOSUVzOAA4",
+      "https://www.youtube.com/watch?v=VedrpVSstSY",
+      "https://m.youtube.com/watch?v=XY8zyvxFvqM&pp=ygUNI2pzY291cnNlMjAyMw%3D%3D"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary advantage of using tRPC in a TypeScript application?",
+      "options": [
+        "It allows for real-time data synchronization.",
+        "It provides end-to-end type safety for APIs.",
+        "It enhances the application's performance.",
+        "It simplifies database migrations."
+      ],
+      "correct_option": 1,
+      "hint": "Consider the main benefit for TypeScript developers looking for API solutions."
+    },
+    {
+      "question": "Which of the following is a key feature of tRPC?",
+      "options": [
+        "It automatically generates RESTful endpoints.",
+        "It integrates seamlessly with GraphQL queries.",
+        "It eliminates the need for manual type definitions for API endpoints.",
+        "It provides built-in authentication mechanisms."
+      ],
+      "correct_option": 2,
+      "hint": "Focus on how tRPC handles types in TypeScript applications."
+    },
+    {
+      "question": "In a full-stack TypeScript application, how does tRPC ensure type safety?",
+      "options": [
+        "By using JSON Schema validation.",
+        "By leveraging TypeScript's type inference.",
+        "By requiring explicit type annotations in every function.",
+        "By generating type-safe API documentation."
+      ],
+      "correct_option": 1,
+      "hint": "Think about how TypeScript itself helps with type safety."
+    },
+    {
+      "question": "Which of the following best describes a use case for tRPC?",
+      "options": [
+        "Developing a Python-based web application.",
+        "Building a cross-platform mobile app with Flutter.",
+        "Creating a full-stack application with extreme type safety in TypeScript.",
+        "Implementing a microservices architecture with Java."
+      ],
+      "correct_option": 2,
+      "hint": "Focus on the programming language and the main advantage of tRPC."
+    },
+    {
+      "question": "How does tRPC differ from traditional REST APIs in terms of type handling?",
+      "options": [
+        "tRPC uses XML for data transmission, unlike REST.",
+        "tRPC requires less manual handling of types due to its integration with TypeScript.",
+        "tRPC is slower because it uses WebSockets.",
+        "tRPC can only be used with relational databases."
+      ],
+      "correct_option": 1,
+      "hint": "Consider how tRPC interacts with TypeScript compared to REST APIs."
+    }
+  ],
+  "preferred_if": [
+    "User is building a full-stack TypeScript application",
+    "Wants extreme type safety"
+  ]
+}

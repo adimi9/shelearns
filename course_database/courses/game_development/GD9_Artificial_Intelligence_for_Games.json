@@ -1,0 +1,97 @@
+{
+  "id": "GD9",
+  "name": "Artificial Intelligence for Games",
+  "category": "Game Development",
+  "primary_tech": "Game AI",
+  "topics": [
+    "Pathfinding (A* Algorithm)",
+    "State Machines & Behavior Trees",
+    "Decision Making (Utility AI, GOAP)",
+    "Flocking & Crowd Simulation"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "AI",
+    "NPC",
+    "behavior"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [],
+    "notes": [
+      "https://www.geeksforgeeks.org/artificial-intelligence/stochastic-games-in-artificial-intelligence/",
+      "https://www.geeksforgeeks.org/game-playing-in-artificial-intelligence/",
+      "https://www.geeksforgeeks.org/artificial-intelligence/adversarial-search-algorithms/",
+      "https://www.geeksforgeeks.org/artificial-intelligence/ai-in-gaming/",
+      "https://www.geeksforgeeks.org/machine-learning/game-theory-in-ai/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=nw7zmdBLQ6U",
+      "https://www.youtube.com/watch?v=osbmLJb2Tkc",
+      "https://www.youtube.com/watch?v=a0_lo_GDcFw",
+      "https://www.youtube.com/watch?v=QjTpzTcNms0",
+      "https://www.youtube.com/watch?v=z-EtmaFJieY"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary advantage of using the A* algorithm in pathfinding for games?",
+      "options": [
+        "It is faster than other pathfinding algorithms",
+        "It guarantees the shortest path",
+        "It requires less memory",
+        "It is easier to implement"
+      ],
+      "correct_option": 1,
+      "hint": "Think about the goal of pathfinding and what A* is designed to achieve."
+    },
+    {
+      "question": "Which component of a behavior tree determines the sequence in which tasks are executed?",
+      "options": [
+        "Decorator",
+        "Leaf",
+        "Composite",
+        "Selector"
+      ],
+      "correct_option": 2,
+      "hint": "This component helps in structuring behavior trees by defining how child nodes are executed."
+    },
+    {
+      "question": "In the context of Utility AI, what determines the selection of an action?",
+      "options": [
+        "The number of actions available",
+        "The highest utility score",
+        "The complexity of the action",
+        "The randomness factor"
+      ],
+      "correct_option": 1,
+      "hint": "Utility AI evaluates and compares actions based on their usefulness or benefit."
+    },
+    {
+      "question": "What is the primary purpose of using flocking algorithms in game AI?",
+      "options": [
+        "To enable individual character control",
+        "To simulate realistic group movement",
+        "To create random movement patterns",
+        "To optimize game performance"
+      ],
+      "correct_option": 1,
+      "hint": "Consider how animals like birds or fish move in groups."
+    },
+    {
+      "question": "What does GOAP stand for in AI decision making?",
+      "options": [
+        "Goal-Oriented Action Planning",
+        "Game-Oriented Action Protocol",
+        "General Operations and Planning",
+        "Graphical Operations and Pathfinding"
+      ],
+      "correct_option": 0,
+      "hint": "GOAP focuses on planning actions to achieve specific goals."
+    }
+  ]
+}

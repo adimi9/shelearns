@@ -1,0 +1,120 @@
+{
+  "id": "GD17",
+  "name": "C++ Programming for Games",
+  "category": "Game Development",
+  "primary_tech": "C++",
+  "topics": [
+    "C++ Language Fundamentals",
+    "Memory Management",
+    "Pointers & References",
+    "Game-specific Data Structures"
+  ],
+  "recommended": false,
+  "tags": [
+    "programming",
+    "performance",
+    "Unreal"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Games",
+        "description": "A comprehensive guide on game development technologies and best practices using web standards."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection",
+        "description": "This resource provides an overview of techniques and algorithms for implementing 2D collision detection in game development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Games/Tools",
+        "description": "A comprehensive guide to tools and resources for game development on the web."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/cpp-for-game-development/",
+        "description": "An overview of using C++ for game development, highlighting its advantages and applications in creating games."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/i-am-learning-c-and-i-need-some-advice/678274",
+        "description": "Discussion and advice for beginners learning C programming on FreeCodeCamp's forum."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/how-to-choose-a-programming-language-and-escape-tutorial-purgatory/",
+        "description": "This article guides readers on selecting a programming language and overcoming the cycle of endless tutorials."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/cpp/snake-code-cpp/",
+        "description": "A detailed guide on implementing the classic Snake game in C++ with code examples."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/cpp/tic-tac-toe-game-in-cpp/",
+        "description": "A step-by-step guide to implementing a Tic-Tac-Toe game in C++ programming language."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=ZzaPdXTrSb8",
+      "https://www.youtube.com/watch?v=37VZu3b045k",
+      "https://www.youtube.com/watch?v=MNeX4EGtR5Y",
+      "https://www.youtube.com/watch?v=sNMtjs_wQiE",
+      "https://www.youtube.com/watch?v=XOs2qynEmNE"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of using pointers in C++ game programming?",
+      "options": [
+        "To enhance memory management and efficiency",
+        "To simplify syntax",
+        "To slow down program execution",
+        "To avoid using variables"
+      ],
+      "correct_option": 0,
+      "hint": "Pointers allow direct memory address access, improving performance."
+    },
+    {
+      "question": "Which C++ feature is crucial for handling dynamic memory allocation in game development?",
+      "options": [
+        "References",
+        "Pointers",
+        "Namespaces",
+        "Templates"
+      ],
+      "correct_option": 1,
+      "hint": "This feature provides the ability to allocate memory at runtime."
+    },
+    {
+      "question": "Why are references preferred over pointers in some C++ scenarios?",
+      "options": [
+        "They can be null, leading to fewer errors",
+        "They require less memory",
+        "They are easier to use and cannot be null",
+        "They allow arithmetic operations"
+      ],
+      "correct_option": 2,
+      "hint": "References are safer because they must be initialized when declared."
+    },
+    {
+      "question": "Which of the following is a game-specific data structure commonly used for efficient spatial organization?",
+      "options": [
+        "Linked List",
+        "Binary Tree",
+        "Quad Tree",
+        "Array"
+      ],
+      "correct_option": 2,
+      "hint": "This data structure is often used for partitioning a two-dimensional space."
+    },
+    {
+      "question": "What is an advantage of using C++ for game programming over C?",
+      "options": [
+        "C++ has garbage collection",
+        "C++ supports object-oriented programming",
+        "C++ has a simpler syntax",
+        "C++ runs faster than C"
+      ],
+      "correct_option": 1,
+      "hint": "C++ allows for classes and objects, facilitating complex game development."
+    }
+  ]
+}

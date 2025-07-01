@@ -1,0 +1,371 @@
+{
+  "id": "FE3",
+  "name": "React.js Essentials",
+  "category": "Frontend Development",
+  "primary_tech": "React.js",
+  "topics": [
+    "JSX, Components, Props & State",
+    "Hooks & Lifecycle",
+    "Context API, Redux"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "framework",
+    "SPA",
+    "component-based"
+  ],
+  "alternatives": [
+    {
+      "tech": "Vue.js",
+      "reason": "Easier learning curve for building SPAs",
+      "tags": [
+        "framework",
+        "SPA",
+        "Vue-based"
+      ],
+      "preferred_if": [
+        "User prefers Vue syntax"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is a key reason for choosing Vue.js over React for building SPAs?",
+          "options": [
+            "Vue.js offers a simpler learning curve.",
+            "Vue.js is faster than React.",
+            "Vue.js has more extensive tooling than React.",
+            "Vue.js is better for large-scale applications."
+          ],
+          "correct_option": 0,
+          "hint": "Consider ease of learning and simplicity."
+        },
+        {
+          "question": "What feature of Vue.js makes it particularly appealing for users who prefer simpler syntax?",
+          "options": [
+            "Two-way data binding",
+            "Virtual DOM",
+            "Server-side rendering",
+            "JSX syntax"
+          ],
+          "correct_option": 0,
+          "hint": "Think about how data is managed and updated in Vue.js."
+        },
+        {
+          "question": "How does Vue.js primarily differ from React in terms of syntax preference?",
+          "options": [
+            "Vue uses templates while React uses JSX.",
+            "Vue requires more code for the same functionality.",
+            "Vue lacks component-based architecture.",
+            "Vue does not support reactivity."
+          ],
+          "correct_option": 0,
+          "hint": "Consider the way components are structured in Vue.js."
+        },
+        {
+          "question": "Which of the following is a tag commonly associated with Vue.js?",
+          "options": [
+            "framework",
+            "library",
+            "tooling",
+            "backend"
+          ],
+          "correct_option": 0,
+          "hint": "Vue.js is primarily used for building user interfaces."
+        },
+        {
+          "question": "Which aspect of Vue.js makes it suitable for building Single Page Applications (SPAs)?",
+          "options": [
+            "Its reactivity system",
+            "Its server-side capabilities",
+            "Its extensive library ecosystem",
+            "Its CSS styling capabilities"
+          ],
+          "correct_option": 0,
+          "hint": "Think about how Vue.js handles data updates and UI changes."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_getting_started",
+          "https://reactjs.org/",
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce"
+        ],
+        "notes": [
+          "https://www.w3schools.com/vue/",
+          "https://www.geeksforgeeks.org/javascript/vue-js/",
+          "https://forum.freecodecamp.org/t/what-should-i-learn-first-react-js-or-vue-js/466962",
+          "https://forum.freecodecamp.org/t/vue-js-vs-react-thoughts-and-opinions/107746",
+          "https://forum.freecodecamp.org/t/vue-js-resources/48285"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=VeNfHj6MhgA",
+          "https://www.youtube.com/watch?v=qZXt1Aom3Cs",
+          "https://www.youtube.com/watch?v=5oKpoqmUj64",
+          "https://www.youtube.com/watch?v=KTFH4P8unUQ&pp=ygUEI3Z1Mw%3D%3D",
+          "https://www.youtube.com/watch?v=hiOUHcx4Ja8"
+        ]
+      }
+    },
+    {
+      "tech": "Svelte",
+      "reason": "Lightweight reactive framework",
+      "tags": [
+        "framework",
+        "SPA",
+        "Svelte-based"
+      ],
+      "preferred_if": [
+        "User wants minimal setup"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is a key advantage of using Svelte over React.js?",
+          "options": [
+            "Svelte is a lightweight framework with no virtual DOM.",
+            "Svelte requires a larger runtime than React.js.",
+            "Svelte uses JSX syntax like React.js.",
+            "Svelte is not suitable for single-page applications."
+          ],
+          "correct_option": 0,
+          "hint": "Svelte compiles components into highly efficient imperative code that directly manipulates the DOM."
+        },
+        {
+          "question": "How does Svelte handle reactivity compared to React.js?",
+          "options": [
+            "Svelte uses a virtual DOM to track changes.",
+            "Svelte compiles components to optimize for reactivity at build time.",
+            "Svelte relies on state management like Redux.",
+            "Svelte uses the same lifecycle methods as React.js."
+          ],
+          "correct_option": 1,
+          "hint": "Svelte's approach to reactivity involves compiling to efficient JavaScript code that updates the DOM directly."
+        },
+        {
+          "question": "Which of the following best describes Svelte?",
+          "options": [
+            "A server-side rendering framework.",
+            "A library for managing CSS styles.",
+            "A component framework that compiles to vanilla JavaScript.",
+            "A database management tool."
+          ],
+          "correct_option": 2,
+          "hint": "Svelte is known for its unique approach of compiling components to low-level JavaScript code."
+        },
+        {
+          "question": "What is a typical use case where Svelte might be preferred over React.js?",
+          "options": [
+            "Building a large enterprise application with complex state management.",
+            "Developing a high-performance single-page application with minimal setup.",
+            "Creating a mobile application with native performance.",
+            "Implementing server-side rendering for SEO purposes."
+          ],
+          "correct_option": 1,
+          "hint": "Svelte is often chosen for projects where simple setup and efficient client-side performance are priorities."
+        },
+        {
+          "question": "What is the main reason Svelte does not require a virtual DOM?",
+          "options": [
+            "Svelte applications run exclusively on the server.",
+            "Svelte compiles components into highly optimized JavaScript code.",
+            "Svelte uses a proprietary rendering engine instead.",
+            "Svelte stores the entire application state in global variables."
+          ],
+          "correct_option": 1,
+          "hint": "Svelte's compilation process results in direct DOM manipulations, eliminating the need for a virtual DOM."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_getting_started",
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_reactivity_lifecycle_accessibility",
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_stores"
+        ],
+        "notes": [
+          "https://www.freecodecamp.org/news/the-svelte-handbook/",
+          "https://www.geeksforgeeks.org/svelte-introduction-and-installation/",
+          "https://www.freecodecamp.org/news/svelte-video-tutorial/",
+          "https://www.freecodecamp.org/news/tag/svelte/",
+          "https://www.freecodecamp.org/news/how-to-do-test-driven-development-with-svelte-and-vitest/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=3TVy6GdtNuQ",
+          "https://www.youtube.com/watch?v=8DQailPy3q8",
+          "https://www.youtube.com/watch?v=o6VwbXSjM08&pp=ygUNI3N2ZWx0ZWJhc2ljcw%3D%3D",
+          "https://www.youtube.com/watch?v=QKxJW6VVp6w",
+          "https://www.youtube.com/watch?v=UU7MgYIbtAk"
+        ]
+      }
+    },
+    {
+      "tech": "Solid.js",
+      "reason": "Fast reactive framework with fine-grained reactivity",
+      "tags": [
+        "framework",
+        "SPA"
+      ],
+      "preferred_if": [
+        "User wants React-like but faster"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is a key advantage of using Solid.js over React.js?",
+          "options": [
+            "Supports server-side rendering",
+            "Utilizes fine-grained reactivity for performance",
+            "Offers a virtual DOM for updates",
+            "Built-in state management"
+          ],
+          "correct_option": 1,
+          "hint": "Solid.js is known for its efficient update mechanism that avoids unnecessary rendering."
+        },
+        {
+          "question": "How does Solid.js achieve its fast reactivity?",
+          "options": [
+            "By using a virtual DOM",
+            "By compiling templates into optimized JavaScript",
+            "By using a diffing algorithm",
+            "By implementing a single-threaded event loop"
+          ],
+          "correct_option": 1,
+          "hint": "Solid.js compiles its components into highly optimized JavaScript functions."
+        },
+        {
+          "question": "Which of the following is a characteristic of Solid.js?",
+          "options": [
+            "Uses mutable state",
+            "Relies on a virtual DOM",
+            "Fine-grained reactivity",
+            "Uses hooks for state management"
+          ],
+          "correct_option": 2,
+          "hint": "Solid.js is designed to only update the parts of the UI that need changes."
+        },
+        {
+          "question": "What is the primary use case for choosing Solid.js over React.js?",
+          "options": [
+            "Need for server-side rendering",
+            "Building complex animations",
+            "Desire for a faster, more efficient SPA",
+            "Integration with legacy systems"
+          ],
+          "correct_option": 2,
+          "hint": "Solid.js is chosen for its performance benefits in single-page applications."
+        },
+        {
+          "question": "Which of the following best describes the state management approach in Solid.js?",
+          "options": [
+            "Uses a centralized store similar to Redux",
+            "Relies on fine-grained reactivity for state updates",
+            "Uses context providers and consumers",
+            "Employs a virtual DOM for state updates"
+          ],
+          "correct_option": 1,
+          "hint": "Solid.js avoids the need for global state management by efficiently updating states at a granular level."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/border",
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/outline",
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/border-style"
+        ],
+        "notes": [
+          "https://www.freecodecamp.org/news/rock-solid-react-js-foundations-a-beginners-guide-c45c93f5a923/",
+          "https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/",
+          "https://forum.freecodecamp.org/t/can-i-learn-javascript-and-typescript-together/147112",
+          "https://forum.freecodecamp.org/t/java-scripts-tutorials-do-not-make-sense/546949",
+          "https://forum.freecodecamp.org/t/learn-a-framework-not-a-language/102995"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=WDodWU-B-aY",
+          "https://www.youtube.com/watch?v=uPXn9S31o7Q",
+          "https://www.youtube.com/watch?v=7oDjB9v0zMs",
+          "https://www.youtube.com/watch?v=B6ZWvYGCHU0",
+          "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gU_GvFygZFu0aBysPilkbB"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "https://reactjs.org/docs/getting-started.html",
+      "https://legacy.reactjs.org/docs/hooks-overview.html"
+    ],
+    "notes": [
+      "https://www.w3schools.com/js/",
+      "https://www.w3schools.com/REACT/DEFAULT.ASP",
+      "https://www.geeksforgeeks.org/reactjs/react/",
+      "https://www.geeksforgeeks.org/reactjs/reactjs-basics-concepts-complete-reference/",
+      "https://www.geeksforgeeks.org/javascript/javascript-tutorial/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=SqcY0GlETPk",
+      "https://www.youtube.com/watch?v=wIyHSOugGGw",
+      "https://www.youtube.com/watch?v=Tn6-PIqc4UM",
+      "https://www.youtube.com/watch?v=s2skans2dP4",
+      "https://www.youtube.com/watch?v=m55PTVUrlnA"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is JSX primarily used for in React?",
+      "options": [
+        "To define component lifecycle methods",
+        "To describe the UI structure",
+        "To manage state and props",
+        "To interact with the Redux store"
+      ],
+      "correct_option": 1,
+      "hint": "JSX is a syntax extension that resembles HTML."
+    },
+    {
+      "question": "In React, what is a component?",
+      "options": [
+        "A function or class that optionally receives input and returns a React element",
+        "A global variable used for state management",
+        "A method for optimizing performance",
+        "A style guide for consistent UI"
+      ],
+      "correct_option": 0,
+      "hint": "Components are the building blocks of any React app."
+    },
+    {
+      "question": "How does the 'useState' hook function in React?",
+      "options": [
+        "It manages component state and returns an updated state value and a function to update it",
+        "It connects the component to the Redux store",
+        "It replaces the render method in class components",
+        "It is used for routing in single-page applications"
+      ],
+      "correct_option": 0,
+      "hint": "useState is a hook that lets you add React state to function components."
+    },
+    {
+      "question": "What is the primary purpose of the Context API in React?",
+      "options": [
+        "To manage and update state across multiple components",
+        "To define and reuse component styles",
+        "To handle asynchronous operations",
+        "To allow component reusability"
+      ],
+      "correct_option": 0,
+      "hint": "Context is designed to share data that can be considered global for a tree of React components."
+    },
+    {
+      "question": "Which of the following is true about Redux in React?",
+      "options": [
+        "Redux uses a single source of truth for the application's state",
+        "Redux is built into React and requires no additional library",
+        "Redux manages component side-effects",
+        "Redux automatically handles component rendering"
+      ],
+      "correct_option": 0,
+      "hint": "Redux centralizes the application's state and logic."
+    }
+  ]
+}

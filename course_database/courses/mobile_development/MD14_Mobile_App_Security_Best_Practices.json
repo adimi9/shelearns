@@ -1,0 +1,101 @@
+{
+  "id": "MD14",
+  "name": "Mobile App Security Best Practices",
+  "category": "Mobile Development",
+  "primary_tech": "Security",
+  "topics": [
+    "Data Encryption & Storage Security",
+    "API Key Management",
+    "Code Obfuscation",
+    "Common Mobile Vulnerabilities (OWASP Mobile Top 10)"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "security",
+    "privacy",
+    "vulnerability"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://nodejs.org/en/learn/getting-started/security-best-practices",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
+      "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/computer-networks/what-is-mobile-application-security/",
+      "https://www.geeksforgeeks.org/best-practices-for-mobile-app-development/",
+      "https://www.geeksforgeeks.org/ethical-hacking/what-is-cyber-security/",
+      "https://www.geeksforgeeks.org/websites-apps/best-practices-for-secure-coding-in-web-applications/",
+      "https://www.geeksforgeeks.org/software-testing/software-testing-tutorial/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=Dp019cWu1cg",
+      "https://www.youtube.com/watch?v=yye7rSsiV6k",
+      "https://www.youtube.com/watch?v=Qnl2BjxXpkk",
+      "https://www.youtube.com/watch?v=UBUNrFtufWo",
+      "https://www.youtube.com/watch?v=jq_LZ1RFPfU"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of data encryption in mobile app security?",
+      "options": [
+        "To improve app performance",
+        "To protect sensitive information",
+        "To enhance user interface",
+        "To reduce app size"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how encryption affects data confidentiality."
+    },
+    {
+      "question": "Which is a recommended practice for API key management in mobile apps?",
+      "options": [
+        "Embedding API keys directly in the app code",
+        "Using environment variables to store API keys",
+        "Hardcoding API keys for easy access",
+        "Sharing API keys publicly for transparency"
+      ],
+      "correct_option": 1,
+      "hint": "Consider methods that keep API keys secure and separate from the app code."
+    },
+    {
+      "question": "What is code obfuscation primarily used for in mobile app security?",
+      "options": [
+        "To increase the app's functionality",
+        "To make the app user-friendly",
+        "To prevent reverse engineering",
+        "To reduce the app's size"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how obfuscation can deter attackers from understanding the app's logic."
+    },
+    {
+      "question": "Which vulnerability is NOT part of the OWASP Mobile Top 10?",
+      "options": [
+        "Insecure Data Storage",
+        "Weak Server-Side Controls",
+        "Poor Code Quality",
+        "Improper Platform Usage"
+      ],
+      "correct_option": 2,
+      "hint": "Focus on vulnerabilities that involve data and platform security."
+    },
+    {
+      "question": "What technology is commonly used to secure data stored on mobile devices?",
+      "options": [
+        "Simple text storage",
+        "Symmetric encryption",
+        "Publicly accessible files",
+        "Hardcoded passwords"
+      ],
+      "correct_option": 1,
+      "hint": "This method uses keys that both encrypt and decrypt the data."
+    }
+  ]
+}

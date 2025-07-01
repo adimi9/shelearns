@@ -1,0 +1,120 @@
+{
+  "id": "FS1",
+  "name": "CI/CD for FullStack Projects",
+  "category": "FullStack Development",
+  "primary_tech": "CI/CD",
+  "topics": [
+    "Continuous Integration (CI)",
+    "Continuous Delivery/Deployment (CD)",
+    "GitHub Actions/GitLab CI/Jenkins",
+    "Automated Testing in CI/CD Pipeline"
+  ],
+  "recommended": true,
+  "tags": [
+    "devops",
+    "automation",
+    "deployment"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://reactjs.org/",
+        "description": "The official website for React, a JavaScript library for building user interfaces, offering documentation, tutorials, and resources."
+      },
+      {
+        "url": "https://nodejs.org/api/all.html",
+        "description": "Comprehensive documentation detailing all Node.js API modules and their functionalities."
+      },
+      {
+        "url": "https://insights.developer.mozilla.org/reports/pdf/MDN-Web-Testing-Report-2021.pdf",
+        "description": "The MDN Web Testing Report 2021 provides insights and analysis on the state of web testing practices and tools used by developers."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/what-is-ci-cd/",
+        "description": "This article explains the concepts of Continuous Integration and Continuous Deployment (CI/CD) in software development."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/github-codespaces-vs-gitpod-cloud-based-dev-environments/",
+        "description": "This article compares GitHub Codespaces and Gitpod as cloud-based development environments for developers."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/learn-continuous-integration-delivery-and-deployment/",
+        "description": "This resource provides an introduction to the concepts and processes of continuous integration, delivery, and deployment."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/learn-jenkins-by-building-a-ci-cd-pipeline/",
+        "description": "Learn how to build a CI/CD pipeline using Jenkins through a hands-on tutorial."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devops/how-to-make-a-ci-cd-pipeline-in-jenkins/",
+        "description": "This guide explains how to create a CI/CD pipeline using Jenkins for automated software development and deployment."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=scEDHsr3APg",
+      "https://www.youtube.com/watch?v=YLtlz88zrLg",
+      "https://www.youtube.com/watch?v=NnkUGzaqqOc",
+      "https://www.youtube.com/watch?v=GdWZOw83QWU",
+      "https://www.youtube.com/watch?v=mNy-ERFBcGo"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary goal of Continuous Integration (CI) in software development?",
+      "options": [
+        "To ensure that all code changes are automatically merged into the main branch",
+        "To automatically deploy software to production environments",
+        "To maintain a consistent development environment across all team members",
+        "To integrate code changes from multiple contributors into a shared repository frequently"
+      ],
+      "correct_option": 3,
+      "hint": "Think about the frequency and purpose of integrating code changes."
+    },
+    {
+      "question": "Which of the following is a key benefit of using Continuous Deployment (CD) in a CI/CD pipeline?",
+      "options": [
+        "Decreases the frequency of software releases",
+        "Eliminates the need for automated testing",
+        "Ensures that every change passes all stages of the pipeline before production",
+        "Requires manual intervention for each deployment"
+      ],
+      "correct_option": 2,
+      "hint": "Consider the automation aspect of deploying to production."
+    },
+    {
+      "question": "Which tool would you use to define a CI/CD pipeline in a YAML configuration file?",
+      "options": [
+        "GitHub Actions",
+        "Docker",
+        "AWS Lambda",
+        "Kubernetes"
+      ],
+      "correct_option": 0,
+      "hint": "This tool is commonly used for automating workflows directly from a repository."
+    },
+    {
+      "question": "In a CI/CD pipeline, what is the purpose of automated testing?",
+      "options": [
+        "To manually verify each feature before deployment",
+        "To automatically check for errors and ensure the software works as expected",
+        "To deploy code changes to production environments",
+        "To integrate code changes into a shared repository"
+      ],
+      "correct_option": 1,
+      "hint": "Testing aims to ensure code reliability and functionality automatically."
+    },
+    {
+      "question": "Which CI/CD tool is known for its extensive plugin ecosystem and is often used for building complex pipelines?",
+      "options": [
+        "Travis CI",
+        "GitLab CI",
+        "Jenkins",
+        "CircleCI"
+      ],
+      "correct_option": 2,
+      "hint": "This tool is widely recognized for its flexibility and open-source nature."
+    }
+  ]
+}

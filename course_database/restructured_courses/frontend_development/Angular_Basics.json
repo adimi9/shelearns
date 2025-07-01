@@ -1,0 +1,119 @@
+{
+  "id": "FE19",
+  "name": "Angular Basics",
+  "category": "Frontend Development",
+  "primary_tech": "Angular",
+  "topics": [
+    "TypeScript in Angular",
+    "Components & Templates",
+    "RxJS & Services"
+  ],
+  "recommended": false,
+  "tags": [
+    "framework",
+    "SPA",
+    "TypeScript-based"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_getting_started",
+        "description": "An introductory guide to getting started with Angular for web development."
+      },
+      {
+        "url": "https://reactjs.org/",
+        "description": "The official React documentation provides comprehensive guides and references for building user interfaces using the React JavaScript library."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "description": "Comprehensive documentation and resources for learning and using JavaScript on the web."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/angular/",
+        "description": "Comprehensive tutorials and examples for learning Angular, a popular web application framework."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/angular-js/angular-tutorial/",
+        "description": "An introductory tutorial for learning the basics of AngularJS, including its features and applications."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/angular-js-tutorials/25698",
+        "description": "A comprehensive forum thread offering a collection of AngularJS tutorials for developers."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/how-to-learn-angular/316827",
+        "description": "A comprehensive guide offering strategies and resources for effectively learning Angular."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/which-version-of-angular-should-i-learn/299063",
+        "description": "Discussion on choosing the appropriate version of Angular to learn based on project needs and industry trends."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=oUmVFHlwZsI",
+      "https://www.youtube.com/watch?v=Ata9cSC2WpM",
+      "https://www.youtube.com/watch?v=k5E2AVpwsko",
+      "https://www.youtube.com/watch?v=23o0evRtrFI",
+      "https://www.youtube.com/watch?v=3dHNOWTI7H8"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is TypeScript primarily used for in Angular development?",
+      "options": [
+        "Style components",
+        "Write HTML templates",
+        "Implement logic and behavior",
+        "Manage server-side code"
+      ],
+      "correct_option": 2,
+      "hint": "TypeScript is a superset of JavaScript."
+    },
+    {
+      "question": "Which of the following is a core feature of Angular components?",
+      "options": [
+        "Stateful server-side processing",
+        "Dynamic template rendering",
+        "CSS isolation by default",
+        "Asynchronous data handling"
+      ],
+      "correct_option": 1,
+      "hint": "Components define views and manage data-binding."
+    },
+    {
+      "question": "What role does RxJS play in Angular applications?",
+      "options": [
+        "Handling synchronous data flows",
+        "Managing component styles",
+        "Enabling reactive programming",
+        "Providing server-side logic"
+      ],
+      "correct_option": 2,
+      "hint": "RxJS helps in dealing with asynchronous data streams."
+    },
+    {
+      "question": "In Angular, what is a Service commonly used for?",
+      "options": [
+        "Structuring HTML templates",
+        "Handling user interface events",
+        "Encapsulating business logic",
+        "Managing component lifecycle"
+      ],
+      "correct_option": 2,
+      "hint": "Services are typically used for logic that is shared across components."
+    },
+    {
+      "question": "How does Angular facilitate the creation of UI elements?",
+      "options": [
+        "Using JavaScript libraries",
+        "Through server-side rendering",
+        "By defining components",
+        "With AJAX requests"
+      ],
+      "correct_option": 2,
+      "hint": "Components are the building blocks of Angular applications."
+    }
+  ]
+}

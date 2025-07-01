@@ -1,0 +1,168 @@
+{
+  "id": "MD5",
+  "name": "Cross-Platform Mobile with React Native",
+  "category": "Mobile Development",
+  "primary_tech": "React Native",
+  "topics": [
+    "React Native Components & APIs",
+    "Flexbox for Layout",
+    "Navigation in React Native",
+    "Bridging Native Modules"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "cross-platform",
+    "JavaScript",
+    "React",
+    "hybrid"
+  ],
+  "alternatives": [
+    {
+      "tech": "Ionic",
+      "reason": "Web-first approach using web technologies (HTML, CSS, JS)",
+      "tags": [
+        "hybrid",
+        "web-tech"
+      ],
+      "preferred_if": [
+        "User has strong web development background",
+        "Needs rapid prototyping"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is a key advantage of using Ionic for mobile app development?",
+          "options": [
+            "It supports native development exclusively with Swift and Kotlin.",
+            "It allows developers to use web technologies like HTML, CSS, and JavaScript.",
+            "It requires developers to learn a new programming language.",
+            "It limits app deployment to iOS platforms."
+          ],
+          "correct_option": 1,
+          "hint": "Think about the technologies Ionic is built upon."
+        },
+        {
+          "question": "Why might a developer with a strong web development background prefer Ionic?",
+          "options": [
+            "Ionic requires knowledge of Objective-C and Java.",
+            "Ionic does not support web technologies.",
+            "Ionic uses HTML, CSS, and JavaScript, which are familiar to web developers.",
+            "Ionic enforces the use of native UI components."
+          ],
+          "correct_option": 2,
+          "hint": "Consider the programming languages and technologies Ionic utilizes."
+        },
+        {
+          "question": "Which of the following describes the type of apps Ionic is used to create?",
+          "options": [
+            "Native apps written in Swift or Java.",
+            "Hybrid apps that can run on multiple platforms using a single codebase.",
+            "Desktop applications for Windows and Mac.",
+            "Console applications for gaming."
+          ],
+          "correct_option": 1,
+          "hint": "Ionic is known for its cross-platform capabilities."
+        },
+        {
+          "question": "What is a common use case for choosing Ionic in app development?",
+          "options": [
+            "Developing native-only applications for a single platform.",
+            "Creating rapid prototypes using web technologies.",
+            "Building backend servers and databases.",
+            "Developing hardware-specific applications."
+          ],
+          "correct_option": 1,
+          "hint": "Consider the speed and technologies involved in prototyping with Ionic."
+        },
+        {
+          "question": "How does Ionic facilitate cross-platform mobile app development?",
+          "options": [
+            "By providing a library of native APIs without web support.",
+            "By offering tools to write apps in C++ for cross-platform compatibility.",
+            "By enabling developers to build apps with web technologies and deploy them across multiple platforms.",
+            "By restricting development to one platform at a time."
+          ],
+          "correct_option": 2,
+          "hint": "Think about the core technologies that Ionic uses to enable cross-platform development."
+        }
+      ],
+      "resources": {
+        "docs": [],
+        "notes": [],
+        "videos": []
+      }
+    }
+  ],
+  "resources": {
+    "docs": [],
+    "notes": [
+      "https://forum.freecodecamp.org/t/cross-platform-mobile-app-development-react-native-vs-flutter/334469",
+      "https://www.geeksforgeeks.org/react-native/react-native-tutorial/",
+      "https://www.freecodecamp.org/news/after-building-my-first-react-native-app-im-now-convinced-it-s-the-future-d3c5e74f8fa8/",
+      "https://www.freecodecamp.org/news/mobile-app-development-with-react-native/",
+      "https://www.geeksforgeeks.org/software-engineering/introduction-to-cross-platform-mobile-application-development/"
+    ],
+    "videos": []
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of using Flexbox in React Native?",
+      "options": [
+        "To manage state in applications",
+        "To handle network requests",
+        "To layout components in a responsive way",
+        "To style components"
+      ],
+      "correct_option": 2,
+      "hint": "Flexbox is mainly used for designing layouts."
+    },
+    {
+      "question": "Which React Native component is used to create a basic button?",
+      "options": [
+        "View",
+        "Text",
+        "Button",
+        "TouchableOpacity"
+      ],
+      "correct_option": 2,
+      "hint": "This component is named after the UI element it represents."
+    },
+    {
+      "question": "What is the role of React Navigation in React Native applications?",
+      "options": [
+        "To manage application state",
+        "To handle user authentication",
+        "To facilitate navigation between screens",
+        "To integrate native modules"
+      ],
+      "correct_option": 2,
+      "hint": "Think about moving from one screen to another."
+    },
+    {
+      "question": "How can native modules be accessed from JavaScript in React Native?",
+      "options": [
+        "Using Flexbox",
+        "Through bridging",
+        "By using the useEffect hook",
+        "With Redux"
+      ],
+      "correct_option": 1,
+      "hint": "This involves a connection between JavaScript and native code."
+    },
+    {
+      "question": "Which of the following is NOT a component provided by React Native?",
+      "options": [
+        "View",
+        "FlatList",
+        "Image",
+        "DOMElement"
+      ],
+      "correct_option": 3,
+      "hint": "Consider the components not typically found in mobile development."
+    }
+  ]
+}

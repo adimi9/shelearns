@@ -1,0 +1,121 @@
+{
+  "id": "FS17",
+  "name": "Deployment with Docker & Cloud Platforms",
+  "category": "FullStack Development",
+  "primary_tech": "DevOps",
+  "topics": [
+    "Dockerizing FullStack Applications",
+    "Container Orchestration (Docker Compose, Kubernetes basics)",
+    "Cloud Hosting (AWS EC2/Elastic Beanstalk, Google Cloud Run, Heroku)",
+    "Domain Management & SSL"
+  ],
+  "recommended": true,
+  "tags": [
+    "devops",
+    "deployment",
+    "cloud",
+    "containerization"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
+        "description": "This resource provides guidance on deploying Django applications in a production environment."
+      },
+      {
+        "url": "https://reactjs.org/",
+        "description": "Official website for React, providing documentation, tutorials, and resources for building user interfaces with the React JavaScript library."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment",
+        "description": "A guide on deploying Node.js applications using the Express framework for server-side web development."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/introduction-to-docker/",
+        "description": "An introductory guide to understanding Docker, its components, and how it simplifies application deployment."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/best-cloud-native-development-platforms-for-containerized-applications/",
+        "description": "An overview of top cloud-native development platforms for building and managing containerized applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/containerization-using-docker/",
+        "description": "An introductory guide to using Docker for containerization in software development."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devops-tutorial/?ref",
+        "description": "This resource offers a comprehensive tutorial on DevOps, covering its principles, tools, and practices to enhance software development and deployment."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devops/what-is-docker-cloud/",
+        "description": "An introductory guide to understanding Docker Cloud and its role in DevOps for managing and deploying containerized applications."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=1_AlV-FFxM8",
+      "https://www.youtube.com/watch?v=gAkwW2tuIqE",
+      "https://www.youtube.com/watch?v=rIrNIzy6U_g",
+      "https://www.youtube.com/watch?v=AiiFbsAlLaI",
+      "https://www.youtube.com/watch?v=_dfLOzuIg2o"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of Dockerizing a full-stack application?",
+      "options": [
+        "To improve the graphical user interface",
+        "To enhance application security",
+        "To ensure consistent environment across all stages",
+        "To increase the application's execution speed"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how Docker aids in maintaining uniformity across development, testing, and production."
+    },
+    {
+      "question": "Which tool is used for defining and running multi-container Docker applications?",
+      "options": [
+        "Docker Hub",
+        "Docker Compose",
+        "Docker CLI",
+        "Docker Machine"
+      ],
+      "correct_option": 1,
+      "hint": "This tool uses a YAML file to configure your application’s services."
+    },
+    {
+      "question": "What is a key advantage of using Kubernetes for container orchestration?",
+      "options": [
+        "Easy to install and configure",
+        "Built-in monitoring and logging",
+        "Simplifies scaling of applications",
+        "Free cloud hosting services"
+      ],
+      "correct_option": 2,
+      "hint": "Consider how Kubernetes handles increased demand automatically by scaling."
+    },
+    {
+      "question": "Which cloud service is specifically designed for deploying containerized applications without managing servers?",
+      "options": [
+        "AWS S3",
+        "Google Cloud Run",
+        "AWS Lambda",
+        "Azure Blob Storage"
+      ],
+      "correct_option": 1,
+      "hint": "This service allows you to run stateless containers in a fully managed environment."
+    },
+    {
+      "question": "What is essential for securing a domain name with SSL?",
+      "options": [
+        "High bandwidth hosting",
+        "A valid SSL certificate",
+        "A dedicated IP address",
+        "A custom DNS server"
+      ],
+      "correct_option": 1,
+      "hint": "This security measure ensures that data transmitted between the user and the server is encrypted."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "CS17",
+  "name": "Database Management Systems",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "DBMS",
+  "topics": [
+    "Relational Databases (SQL)",
+    "Database Design (Normalization)",
+    "Transactions & Concurrency Control",
+    "NoSQL Database Types (Overview)"
+  ],
+  "recommended": true,
+  "tags": [
+    "database",
+    "data-management",
+    "SQL"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API",
+        "description": "An overview and guide to using the IndexedDB API for client-side storage of significant amounts of structured data."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Database",
+        "description": "An overview of databases, explaining their purpose, types, and fundamental concepts."
+      },
+      {
+        "url": "https://nodejs.org/api/fs.html",
+        "description": "The Node.js File System (fs) module documentation provides comprehensive details on file and directory operations in Node.js."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/?ref=lbp",
+        "description": "An in-depth guide on Database Management Systems (DBMS), covering concepts, architecture, and various database models."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/dbms/",
+        "description": "Comprehensive resource covering fundamental concepts and components of Database Management Systems (DBMS)."
+      },
+      {
+        "url": "https://www.w3schools.com/mysql/mysql_rdbms.asp",
+        "description": "An introductory guide to MySQL and relational database management systems (RDBMS)."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
+        "description": "An introductory guide to understanding database management systems (DBMS) and SQL fundamentals."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/",
+        "description": "An introductory guide to understanding the basics and components of Database Management Systems (DBMS)."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=wR0jg0eQsZA",
+      "https://www.youtube.com/watch?v=6Iu45VZGQDk",
+      "https://www.youtube.com/watch?v=mDFXzRBpJTI",
+      "https://www.youtube.com/watch?v=pPqazMTzNOM",
+      "https://www.youtube.com/watch?v=zsjvFFKOm3c"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which of the following is a primary feature of relational databases?",
+      "options": [
+        "Hierarchical data storage",
+        "Schema-less data management",
+        "Table-based organization",
+        "Graph structures"
+      ],
+      "correct_option": 2,
+      "hint": "Relational databases organize data into rows and columns."
+    },
+    {
+      "question": "What is the main purpose of normalization in database design?",
+      "options": [
+        "To improve data redundancy",
+        "To speed up data retrieval",
+        "To improve data integrity",
+        "To increase storage capacity"
+      ],
+      "correct_option": 2,
+      "hint": "Normalization aims to eliminate data anomalies by organizing data efficiently."
+    },
+    {
+      "question": "Which SQL statement is used to ensure that a transaction is saved to the database?",
+      "options": [
+        "ROLLBACK",
+        "COMMIT",
+        "SAVEPOINT",
+        "SET TRANSACTION"
+      ],
+      "correct_option": 1,
+      "hint": "This command is used to make the changes made by a transaction permanent."
+    },
+    {
+      "question": "Which of the following is a key characteristic of NoSQL databases?",
+      "options": [
+        "Fixed schema",
+        "ACID transactions",
+        "Horizontal scalability",
+        "Table-based data storage"
+      ],
+      "correct_option": 2,
+      "hint": "NoSQL databases are known for their ability to handle large-scale data across distributed systems."
+    },
+    {
+      "question": "Which technology is most commonly associated with relational databases?",
+      "options": [
+        "MongoDB",
+        "Cassandra",
+        "MySQL",
+        "Neo4j"
+      ],
+      "correct_option": 2,
+      "hint": "This is an open-source relational database management system."
+    }
+  ]
+}

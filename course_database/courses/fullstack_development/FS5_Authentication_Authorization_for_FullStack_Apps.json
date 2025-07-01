@@ -1,0 +1,193 @@
+{
+  "id": "FS5",
+  "name": "Authentication & Authorization for FullStack Apps",
+  "category": "FullStack Development",
+  "primary_tech": "Security",
+  "topics": [
+    "JWT (JSON Web Tokens) Implementation",
+    "OAuth 2.0 & Social Logins",
+    "Role-Based Access Control (RBAC)",
+    "Security Best Practices (Input Validation, Hashing)"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "security",
+    "auth",
+    "web-security"
+  ],
+  "alternatives": [
+    {
+      "tech": "Auth0/Okta",
+      "reason": "Managed authentication and authorization platforms, reducing development overhead.",
+      "tags": [
+        "SaaS",
+        "authentication",
+        "identity"
+      ],
+      "preferred_if": [
+        "User wants a quick and secure managed solution",
+        "Focus is on application logic rather than auth implementation"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is a primary benefit of using Auth0 or Okta for authentication and authorization?",
+          "options": [
+            "They provide a fully managed authentication service, reducing development overhead.",
+            "They offer database management solutions to store user data.",
+            "They are primarily used for frontend development tasks.",
+            "They provide a platform for developing AI-driven applications."
+          ],
+          "correct_option": 0,
+          "hint": "Focus on the core functionality that reduces development effort related to user identity management."
+        },
+        {
+          "question": "Which of the following best describes a use case for Auth0 or Okta?",
+          "options": [
+            "Developing a custom encryption algorithm for data security.",
+            "Implementing a complex AI model for user behavior analysis.",
+            "Managing user identities and securing application access.",
+            "Building a microservices architecture from scratch."
+          ],
+          "correct_option": 2,
+          "hint": "Consider the primary role of these platforms in application security."
+        },
+        {
+          "question": "How do platforms like Auth0 and Okta help developers focus on application logic?",
+          "options": [
+            "By offering tools for frontend design.",
+            "By managing authentication and authorization processes.",
+            "By providing analytics and reporting services.",
+            "By offering cloud storage solutions."
+          ],
+          "correct_option": 1,
+          "hint": "Think about how these platforms streamline security processes."
+        },
+        {
+          "question": "What type of service are Auth0 and Okta classified as?",
+          "options": [
+            "Platform as a Service (PaaS)",
+            "Infrastructure as a Service (IaaS)",
+            "Software as a Service (SaaS)",
+            "Backend as a Service (BaaS)"
+          ],
+          "correct_option": 2,
+          "hint": "These services provide ready-to-use solutions over the internet."
+        },
+        {
+          "question": "Why might a developer choose a managed solution like Auth0 or Okta over building custom authentication?",
+          "options": [
+            "To have complete control over every aspect of user data.",
+            "To reduce the need for in-depth security expertise and focus on core application development.",
+            "To improve the performance of frontend rendering.",
+            "To integrate directly with hardware-level security features."
+          ],
+          "correct_option": 1,
+          "hint": "Consider what developers aim to achieve by using managed authentication services."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/curriculum/extensions/other-tooling-types/",
+          "https://legacy.reactjs.org/warnings/invalid-hook-call-warning.html",
+          "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/431"
+        ],
+        "notes": [
+          "https://www.geeksforgeeks.org/software-testing/how-to-call-apis-secured-by-auth0-in-postman/",
+          "https://forum.freecodecamp.org/t/trying-to-setup-git-and-github-for-projects/436532",
+          "https://www.freecodecamp.org/news/how-to-use-cognito-for-web-applications/",
+          "https://www.freecodecamp.org/news/intro-to-webauthn/",
+          "https://www.freecodecamp.org/news/react-passport-authentication/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=kB0JyyivwCg",
+          "https://www.youtube.com/watch?v=PbUcQUQ7K2o",
+          "https://www.youtube.com/watch?v=cGXygA5MAno",
+          "https://www.youtube.com/watch?v=X3L9GLrWQqI",
+          "https://www.youtube.com/watch?v=F8Duksxp4i4"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/401",
+      "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP"
+    ],
+    "notes": [
+      "https://forum.freecodecamp.org/t/queston-about-news-section-how-to-build-a-full-stack-authentication-app/568310",
+      "https://www.freecodecamp.org/news/how-to-build-a-fullstack-authentication-system-with-react-express-mongodb-heroku-and-netlify/",
+      "https://www.freecodecamp.org/news/how-to-secure-your-mern-stack-application/",
+      "https://www.freecodecamp.org/news/the-complete-guide-to-full-stack-development-with-supabas/",
+      "https://www.geeksforgeeks.org/mern/5-simple-steps-for-authentication-and-authorization-in-mern-stack/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=UBUNrFtufWo",
+      "https://www.youtube.com/watch?v=zBZgdTb-dns",
+      "https://www.youtube.com/watch?v=WXsD0ZgxjRw",
+      "https://www.youtube.com/watch?v=yufqeJLP1rI",
+      "https://www.youtube.com/watch?v=F-sFp_AvHc8"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of using JWT in web applications?",
+      "options": [
+        "To store user passwords securely",
+        "To enable secure communication between a client and server",
+        "To provide a way to verify user identity and claims",
+        "To encrypt data within the database"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how JWT is used to transmit information securely between parties."
+    },
+    {
+      "question": "Which of the following is a key component of OAuth 2.0?",
+      "options": [
+        "Access token",
+        "Private key",
+        "Session cookie",
+        "Firewall rule"
+      ],
+      "correct_option": 0,
+      "hint": "This component is used to access protected resources on behalf of the user."
+    },
+    {
+      "question": "In Role-Based Access Control (RBAC), what determines a user's access to resources?",
+      "options": [
+        "Their username",
+        "Their password",
+        "Their assigned roles",
+        "Their IP address"
+      ],
+      "correct_option": 2,
+      "hint": "RBAC assigns permissions to users based on this attribute."
+    },
+    {
+      "question": "Why is input validation considered a security best practice?",
+      "options": [
+        "It improves application performance",
+        "It prevents unauthorized access by ensuring data integrity",
+        "It helps in storing data efficiently",
+        "It allows for dynamic user interface adjustments"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how input validation can prevent common security vulnerabilities like SQL injection."
+    },
+    {
+      "question": "What is the primary purpose of hashing passwords in a web application?",
+      "options": [
+        "To make passwords unreadable while stored",
+        "To improve database query performance",
+        "To facilitate faster user login",
+        "To ensure passwords are unique"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the goal of protecting user passwords even if the database is compromised."
+    }
+  ]
+}

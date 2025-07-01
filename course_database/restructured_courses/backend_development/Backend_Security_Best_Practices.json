@@ -1,0 +1,119 @@
+{
+  "id": "BE9",
+  "name": "Backend Security Best Practices",
+  "category": "Backend Development",
+  "primary_tech": "Security",
+  "topics": [
+    "OWASP Top 10",
+    "Input Validation & Sanitization",
+    "Logging & Monitoring for Security"
+  ],
+  "recommended": true,
+  "tags": [
+    "security",
+    "web-security",
+    "cybersecurity"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://nodejs.org/en/learn/getting-started/security-best-practices",
+        "description": "A guide on implementing security best practices in Node.js applications to protect against common vulnerabilities."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies",
+        "description": "A comprehensive guide on using cookies in HTTP for managing state and session data on the web."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
+        "description": "A comprehensive guide to implementing Content Security Policy (CSP) to enhance web application security by controlling resources the browser can load."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/database-security-best-practices/",
+        "description": "A guide to essential best practices for ensuring database security."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/",
+        "description": "A guide outlining best practices for designing and building efficient and scalable REST APIs."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/websites-apps/backend-developer-roadmap/",
+        "description": "A comprehensive guide outlining the essential skills and technologies for aspiring backend developers."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/the-ultimate-guide-to-secure-web-development-frontend-best-practices/",
+        "description": "A comprehensive guide outlining best practices for secure front-end web development."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/api-security-best-practices/",
+        "description": "This resource outlines essential best practices for ensuring API security."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=Mbz39bz1_HQ",
+      "https://www.youtube.com/watch?v=XBu54nfzxAQ",
+      "https://www.youtube.com/watch?v=OeEHJgzqS1k",
+      "https://www.youtube.com/watch?v=rOpEN1JDaD0",
+      "https://www.youtube.com/watch?v=sesacY7Xz3c"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What does the 'A' in OWASP Top 10 stand for?",
+      "options": [
+        "Access Control",
+        "Application Security",
+        "Authentication",
+        "Authorization"
+      ],
+      "correct_option": 1,
+      "hint": "It's a term related to securing software applications."
+    },
+    {
+      "question": "Which of the following is NOT a key aspect of input validation and sanitization?",
+      "options": [
+        "Data type enforcement",
+        "SQL injection prevention",
+        "Secure password storage",
+        "Boundary checks"
+      ],
+      "correct_option": 2,
+      "hint": "It's more related to data storage than input handling."
+    },
+    {
+      "question": "What is a primary benefit of logging and monitoring in backend security?",
+      "options": [
+        "Improving website speed",
+        "Detecting unauthorized access",
+        "Reducing server load",
+        "Enhancing user experience"
+      ],
+      "correct_option": 1,
+      "hint": "It involves tracking and identifying security incidents."
+    },
+    {
+      "question": "Which OWASP Top 10 category focuses on the risk of data exposure?",
+      "options": [
+        "Sensitive Data Exposure",
+        "Broken Access Control",
+        "Security Misconfiguration",
+        "Cross-Site Scripting"
+      ],
+      "correct_option": 0,
+      "hint": "This category deals with safeguarding private information."
+    },
+    {
+      "question": "What is the main purpose of input sanitization in backend security?",
+      "options": [
+        "To prevent unauthorized file access",
+        "To ensure user input is stored correctly",
+        "To protect against injection attacks",
+        "To enhance data encryption"
+      ],
+      "correct_option": 2,
+      "hint": "It involves neutralizing harmful input before processing."
+    }
+  ]
+}

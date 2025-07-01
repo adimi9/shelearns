@@ -1,0 +1,285 @@
+{
+  "id": "FS3",
+  "name": "Backend Development with Node.js & Express.js",
+  "category": "FullStack Development",
+  "primary_tech": "Node.js",
+  "topics": [
+    "Building RESTful APIs",
+    "Middleware & Error Handling",
+    "Database Integration (MongoDB/PostgreSQL)",
+    "CRUD Operations"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "backend",
+    "Node.js",
+    "JavaScript",
+    "API"
+  ],
+  "alternatives": [
+    {
+      "tech": "Python (Django/Flask)",
+      "reason": "Popular and versatile for web development, good for rapid development and data science integrations.",
+      "tags": [
+        "Python",
+        "backend",
+        "framework"
+      ],
+      "preferred_if": [
+        "User prefers Python language",
+        "Needs strong ORM capabilities (Django)"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "Which Python framework is known for its strong ORM capabilities, making it ideal for database-driven applications?",
+          "options": [
+            "Flask",
+            "Django",
+            "Pyramid",
+            "Tornado"
+          ],
+          "correct_option": 1,
+          "hint": "This framework follows the 'batteries-included' philosophy and is often compared to Ruby on Rails."
+        },
+        {
+          "question": "What is one of the main advantages of using Flask for web development?",
+          "options": [
+            "Strong built-in ORM",
+            "Lightweight and flexible",
+            "Built-in admin interface",
+            "Strict project structure"
+          ],
+          "correct_option": 1,
+          "hint": "This framework is known for its simplicity and minimalism."
+        },
+        {
+          "question": "Which Python web framework is best suited for rapid development and includes an admin panel out of the box?",
+          "options": [
+            "Flask",
+            "Bottle",
+            "Django",
+            "CherryPy"
+          ],
+          "correct_option": 2,
+          "hint": "This framework is often used in enterprise applications due to its comprehensive features."
+        },
+        {
+          "question": "Why might a developer choose Django over Flask for a project?",
+          "options": [
+            "Need for a lightweight framework",
+            "Preference for asynchronous support",
+            "Requirement for built-in admin interface",
+            "Desire for a microservices architecture"
+          ],
+          "correct_option": 2,
+          "hint": "Django is known for its extensive built-in features which provide a lot of functionalities out of the box."
+        },
+        {
+          "question": "Which Python framework would be recommended for a developer who prioritizes simplicity and flexibility in web application development?",
+          "options": [
+            "Django",
+            "Flask",
+            "FastAPI",
+            "Web2py"
+          ],
+          "correct_option": 1,
+          "hint": "This micro web framework is often chosen for its minimalistic approach."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Authentication"
+        ],
+        "notes": [
+          "https://www.geeksforgeeks.org/python/flask-tutorial/",
+          "https://www.w3schools.com/django/",
+          "https://www.geeksforgeeks.org/python/differences-between-django-vs-flask/",
+          "https://www.geeksforgeeks.org/django-tutorial/",
+          "https://www.geeksforgeeks.org/flask-creating-first-simple-application/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+          "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+          "https://www.youtube.com/watch?v=45P3xQPaYxc",
+          "https://www.youtube.com/watch?v=PtQiiknWUcI",
+          "https://www.youtube.com/watch?v=Z1RJmh_OqeA"
+        ]
+      }
+    },
+    {
+      "tech": "Ruby on Rails",
+      "reason": "Convention-over-configuration framework for efficient web development.",
+      "tags": [
+        "Ruby",
+        "backend",
+        "framework"
+      ],
+      "preferred_if": [
+        "User values developer productivity",
+        "Likes opinionated frameworks"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is a key principle of Ruby on Rails that enhances developer productivity?",
+          "options": [
+            "Convention over configuration",
+            "Code first, schema later",
+            "Manual configuration",
+            "Functional programming"
+          ],
+          "correct_option": 0,
+          "hint": "This principle reduces the number of decisions developers need to make."
+        },
+        {
+          "question": "Ruby on Rails is primarily used for what type of development?",
+          "options": [
+            "Frontend development",
+            "Backend development",
+            "Mobile app development",
+            "Desktop application development"
+          ],
+          "correct_option": 1,
+          "hint": "Ruby on Rails is known for its server-side capabilities."
+        },
+        {
+          "question": "Which programming language is Ruby on Rails built on?",
+          "options": [
+            "JavaScript",
+            "Python",
+            "Ruby",
+            "PHP"
+          ],
+          "correct_option": 2,
+          "hint": "This language is known for its elegance and productivity."
+        },
+        {
+          "question": "What kind of framework is Ruby on Rails considered to be?",
+          "options": [
+            "Unopinionated",
+            "Opinionated",
+            "Cross-platform",
+            "Microservices"
+          ],
+          "correct_option": 1,
+          "hint": "This framework type dictates the structure and design patterns of applications."
+        },
+        {
+          "question": "What is a common use case for choosing Ruby on Rails over other frameworks?",
+          "options": [
+            "Low-level system programming",
+            "Rapid web application development",
+            "Game development",
+            "Frontend UI design"
+          ],
+          "correct_option": 1,
+          "hint": "Ruby on Rails is favored for its speed in building web applications."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Glossary/Ruby",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ruby",
+          "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies"
+        ],
+        "notes": [
+          "https://www.geeksforgeeks.org/ruby/ruby-on-rails-tutorial/",
+          "https://www.geeksforgeeks.org/ruby/ruby-on-rails-introduction/",
+          "https://forum.freecodecamp.org/t/i-want-to-learn-ruby-on-rails-from-scratch/431723",
+          "https://www.freecodecamp.org/news/lets-create-an-intermediate-level-ruby-on-rails-application-d7c6e997c63f/",
+          "https://www.freecodecamp.org/news/a-cautionary-tale-of-learning-to-code-my-own-eddb24d9d5a7/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=B3Fbujmgo60&pp=0gcJCfwAo7VqN5tD",
+          "https://www.youtube.com/watch?v=pPy0GQJLZUM",
+          "https://www.youtube.com/watch?v=xyDoP5a_dvo",
+          "https://www.youtube.com/watch?v=GY7Ps8fqGdc&pp=0gcJCf0Ao7VqN5tD",
+          "https://www.youtube.com/watch?v=Ei4Aa6RJTyo"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+      "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+      "https://nodejs.org/en"
+    ],
+    "notes": [
+      "http://www.w3schools.com/nodejs/",
+      "https://www.geeksforgeeks.org/node-js/express-js/",
+      "https://forum.freecodecamp.org/t/which-one-to-learn-nodejs-expressjs-or-django/422772",
+      "https://www.geeksforgeeks.org/node-js/nodejs/",
+      "https://forum.freecodecamp.org/t/what-is-the-best-backend-framework-for-a-react-developer/507169"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=q-xS25lsN3I",
+      "https://www.youtube.com/watch?v=Oe421EPjeBE",
+      "https://www.youtube.com/watch?v=pURHweQ_gg8",
+      "https://www.youtube.com/watch?v=rOpEN1JDaD0",
+      "https://www.youtube.com/watch?v=SccSCuHhOw0"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of middleware in Express.js?",
+      "options": [
+        "To handle HTTP requests and responses",
+        "To serve static files",
+        "To parse URL parameters",
+        "To manage database connections"
+      ],
+      "correct_option": 0,
+      "hint": "Middleware functions are essential for processing requests in a Node.js application."
+    },
+    {
+      "question": "Which HTTP method is used to update an existing resource in a RESTful API?",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "correct_option": 2,
+      "hint": "Think of making changes to something that already exists."
+    },
+    {
+      "question": "What is a common use case for MongoDB in backend development?",
+      "options": [
+        "Storing relational data",
+        "Handling file uploads",
+        "Document-based data storage",
+        "Performing client-side scripting"
+      ],
+      "correct_option": 2,
+      "hint": "MongoDB is known for its flexibility with unstructured data."
+    },
+    {
+      "question": "In a CRUD operation, what does 'D' stand for?",
+      "options": [
+        "Delete",
+        "Display",
+        "Deploy",
+        "Develop"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the operation used to remove a resource."
+    },
+    {
+      "question": "Which function is used in Node.js to handle errors in asynchronous code?",
+      "options": [
+        "try/catch",
+        "throw",
+        "catch",
+        "callback"
+      ],
+      "correct_option": 3,
+      "hint": "Think of a function that is called after an operation completes, whether it succeeds or fails."
+    }
+  ]
+}

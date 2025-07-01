@@ -1,0 +1,112 @@
+{
+  "id": "CSec6",
+  "name": "Cyber Law & Ethics",
+  "category": "Computer Security",
+  "primary_tech": "Cyber Law",
+  "topics": [
+    "Legal Frameworks in Cybersecurity",
+    "Intellectual Property & Privacy Laws",
+    "Ethical Hacking vs. Illegal Hacking",
+    "Professional Code of Conduct"
+  ],
+  "recommended": false,
+  "tags": [
+    "legal",
+    "ethics",
+    "privacy"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Privacy",
+        "description": "An overview of web privacy principles and best practices for protecting user data on the web."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/cybersecurity/",
+        "description": "An introductory guide to fundamental cybersecurity concepts and practices."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/computer-networks/what-is-cyberethics/",
+        "description": "An overview of cyberethics, exploring the ethical guidelines and principles governing online behavior and digital interactions."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/ethical-hacking/cyber-crime/",
+        "description": "An overview of cyber crime, its types, and methods of protection in the context of ethical hacking."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/computer-networks/cyber-laws-in-india/",
+        "description": "An overview of cyber laws in India, detailing legal frameworks and regulations governing digital activities."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-tutorial/",
+        "description": "An introductory guide to ethical hacking and cybersecurity principles."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=inWWhr5tnEA",
+      "https://www.youtube.com/watch?v=jZtM2sJrYVE",
+      "https://www.youtube.com/watch?v=xeDZalBaLkQ",
+      "https://www.youtube.com/watch?v=Uel5PMCXRCw",
+      "https://www.youtube.com/watch?v=LEX80TgFcJk"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which of the following is a primary legal framework governing cybersecurity in many countries?",
+      "options": [
+        "General Data Protection Regulation (GDPR)",
+        "International Traffic in Arms Regulations (ITAR)",
+        "Health Insurance Portability and Accountability Act (HIPAA)",
+        "Sarbanes-Oxley Act"
+      ],
+      "correct_option": 0,
+      "hint": "This regulation is particularly important in the European Union."
+    },
+    {
+      "question": "What is a key difference between ethical hacking and illegal hacking?",
+      "options": [
+        "Ethical hacking is always unapproved, illegal hacking is approved",
+        "Ethical hacking aims to fix vulnerabilities, illegal hacking exploits them",
+        "Ethical hacking never involves penetration testing, illegal hacking does",
+        "Ethical hackers use different tools from illegal hackers"
+      ],
+      "correct_option": 1,
+      "hint": "Consider the intent and permission involved in each type of hacking."
+    },
+    {
+      "question": "Which of the following is a major concern of intellectual property laws in the context of cyber law?",
+      "options": [
+        "Data encryption standards",
+        "Protection of software code and digital media",
+        "Network security protocols",
+        "User authentication methods"
+      ],
+      "correct_option": 1,
+      "hint": "This involves the protection of creations of the mind in the digital space."
+    },
+    {
+      "question": "What is the main purpose of privacy laws in cybersecurity?",
+      "options": [
+        "To ensure companies can freely share user data",
+        "To protect personal data from unauthorized access",
+        "To allow governments to monitor all online activities",
+        "To prevent cyber attacks on national infrastructure"
+      ],
+      "correct_option": 1,
+      "hint": "These laws focus on safeguarding personal information."
+    },
+    {
+      "question": "Which of the following is often a part of a professional code of conduct in cybersecurity?",
+      "options": [
+        "Mandatory reporting of all security breaches",
+        "Personal use of company resources is allowed",
+        "Ignoring minor security threats",
+        "Obtaining user consent before accessing data"
+      ],
+      "correct_option": 3,
+      "hint": "Consider the importance of user consent and ethical standards in professional practices."
+    }
+  ]
+}

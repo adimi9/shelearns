@@ -1,0 +1,101 @@
+{
+  "id": "CSec13",
+  "name": "Security Auditing & Compliance",
+  "category": "Computer Security",
+  "primary_tech": "Auditing & Compliance",
+  "topics": [
+    "Security Frameworks (NIST, ISO 27001)",
+    "Regulatory Compliance (GDPR, HIPAA)",
+    "Risk Assessments & Management",
+    "Internal & External Audits"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "compliance",
+    "risk-management",
+    "governance"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "https://developer.mozilla.org/en-US/observatory",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy-Report-Only"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/computer-networks/what-is-a-cyber-security-audit/",
+      "https://www.geeksforgeeks.org/software-testing/what-is-security-auditing-in-security-testing/",
+      "https://www.geeksforgeeks.org/elasticsearch/auditing-and-compliance-in-elasticsearch/",
+      "https://www.freecodecamp.org/news/how-to-maintain-soc-2-compliance/",
+      "https://www.geeksforgeeks.org/interview-experiences/it-auditor-interview-questions-and-answers/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=jeTOJhujqZ0",
+      "https://www.youtube.com/watch?v=8xtlLVM1w4A",
+      "https://www.youtube.com/watch?v=oMM-pn2iZ18",
+      "https://www.youtube.com/watch?v=gaClcfhfWFM",
+      "https://www.youtube.com/watch?v=RGxQK6dfu94"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which of the following is a primary focus of ISO 27001?",
+      "options": [
+        "Establishing a risk management framework",
+        "Creating a financial audit report",
+        "Developing a marketing strategy",
+        "Implementing an accounting system"
+      ],
+      "correct_option": 0,
+      "hint": "ISO 27001 is related to information security management systems."
+    },
+    {
+      "question": "What does GDPR stand for in the context of regulatory compliance?",
+      "options": [
+        "General Data Protection Regulation",
+        "Global Data Privacy Rules",
+        "Government Data Protection Requirements",
+        "General Digital Privacy Regulation"
+      ],
+      "correct_option": 0,
+      "hint": "It is a regulation in EU law on data protection and privacy."
+    },
+    {
+      "question": "Which type of audit involves evaluating internal processes and controls?",
+      "options": [
+        "Internal audit",
+        "External audit",
+        "Compliance audit",
+        "Financial audit"
+      ],
+      "correct_option": 0,
+      "hint": "This audit is conducted within the organization by its own employees."
+    },
+    {
+      "question": "In risk assessment, what is the term for the potential impact of a risk event?",
+      "options": [
+        "Exposure",
+        "Vulnerability",
+        "Threat",
+        "Risk appetite"
+      ],
+      "correct_option": 0,
+      "hint": "This term refers to the extent of loss or damage caused by a risk."
+    },
+    {
+      "question": "Which regulatory compliance framework is specifically designed to handle healthcare information?",
+      "options": [
+        "HIPAA",
+        "GDPR",
+        "SOX",
+        "PCI-DSS"
+      ],
+      "correct_option": 0,
+      "hint": "This framework is crucial for protecting patient information in the healthcare industry."
+    }
+  ]
+}

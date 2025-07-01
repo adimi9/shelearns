@@ -1,0 +1,373 @@
+{
+  "id": "FE4",
+  "name": "Next.js for Beginners",
+  "category": "Frontend Development",
+  "primary_tech": "Next.js",
+  "topics": [
+    "Pages & Routing",
+    "Server-Side Rendering",
+    "API Routes & Middleware"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "framework",
+    "SSR",
+    "React-based",
+    "fullstack"
+  ],
+  "alternatives": [
+    {
+      "tech": "Nuxt.js",
+      "reason": "SSR framework for Vue.js",
+      "tags": [
+        "framework",
+        "SSR",
+        "Vue-based"
+      ],
+      "preferred_if": [
+        "User prefers Vue.js over React"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is Nuxt.js primarily used for?",
+          "options": [
+            "Building server-side rendered applications using Vue.js",
+            "Creating static sites with React",
+            "Developing mobile applications with Angular",
+            "Designing desktop applications with Ember.js"
+          ],
+          "correct_option": 0,
+          "hint": "It is a framework for Vue.js."
+        },
+        {
+          "question": "Which of the following is a key feature of Nuxt.js?",
+          "options": [
+            "Server-side rendering",
+            "Virtual DOM",
+            "Component lifecycle",
+            "State management"
+          ],
+          "correct_option": 0,
+          "hint": "This feature optimizes performance by rendering HTML on the server."
+        },
+        {
+          "question": "Why might a developer choose Nuxt.js over Next.js?",
+          "options": [
+            "Preference for Vue.js over React",
+            "Better TypeScript support",
+            "Faster build times",
+            "More extensive plugin ecosystem"
+          ],
+          "correct_option": 0,
+          "hint": "Consider the base JavaScript framework each uses."
+        },
+        {
+          "question": "What is the primary language used for developing applications in Nuxt.js?",
+          "options": [
+            "Java",
+            "Python",
+            "C#",
+            "JavaScript"
+          ],
+          "correct_option": 3,
+          "hint": "Nuxt.js is built on top of Vue.js."
+        },
+        {
+          "question": "Which architectural pattern does Nuxt.js support out of the box?",
+          "options": [
+            "MVC",
+            "SSR",
+            "MVVM",
+            "MVP"
+          ],
+          "correct_option": 1,
+          "hint": "This pattern involves rendering pages on the server before sending them to the client."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView"
+        ],
+        "notes": [
+          "https://www.geeksforgeeks.org/javascript/nuxtjs/",
+          "https://www.freecodecamp.org/news/nuxt-3-course-for-beginners/",
+          "https://www.freecodecamp.org/news/build-web-apps-with-nuxt-and-laravel/",
+          "https://www.geeksforgeeks.org/reactjs/nextjs-vs-nuxtjs/",
+          "https://www.w3schools.com/vue/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=ltzlhAxJr74",
+          "https://www.youtube.com/watch?v=RhZZ0whiuT8",
+          "https://www.youtube.com/watch?v=GBdO5myZNsQ",
+          "https://www.youtube.com/watch?v=8GmfcbuYOWE",
+          "https://www.youtube.com/watch?v=Wdmi4k7sFzU"
+        ]
+      }
+    },
+    {
+      "tech": "Remix",
+      "reason": "Modern fullstack React framework focused on web fundamentals",
+      "tags": [
+        "framework",
+        "SSR",
+        "React-based"
+      ],
+      "preferred_if": [
+        "User wants modern SSR alternative to Next.js"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is a key feature of Remix that differentiates it from Next.js?",
+          "options": [
+            "Static site generation",
+            "Server-side rendering",
+            "Loaders for data-fetching",
+            "Client-side rendering"
+          ],
+          "correct_option": 2,
+          "hint": "This feature is used to fetch data before rendering the component."
+        },
+        {
+          "question": "Which of the following is a primary focus of Remix?",
+          "options": [
+            "Static site generation",
+            "Improved client-side navigation",
+            "Web fundamentals",
+            "GraphQL integration"
+          ],
+          "correct_option": 2,
+          "hint": "Remix emphasizes the core principles of the web."
+        },
+        {
+          "question": "In Remix, what is the purpose of loaders?",
+          "options": [
+            "To bundle JavaScript files",
+            "To handle server-side routing",
+            "To fetch and prepare data for rendering",
+            "To manage client-side state"
+          ],
+          "correct_option": 2,
+          "hint": "Loaders are used to prepare data before a page is rendered."
+        },
+        {
+          "question": "What type of rendering does Remix primarily support?",
+          "options": [
+            "Client-side rendering",
+            "Server-side rendering",
+            "Static site generation",
+            "Incremental static regeneration"
+          ],
+          "correct_option": 1,
+          "hint": "Remix focuses on rendering content on the server to improve performance and SEO."
+        },
+        {
+          "question": "Which programming language is Remix primarily built with?",
+          "options": [
+            "Python",
+            "Ruby",
+            "JavaScript",
+            "PHP"
+          ],
+          "correct_option": 2,
+          "hint": "Remix is a framework for building React applications, which typically use this language."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix",
+          "https://reactjs.org/",
+          "https://reactjs.org/docs/create-a-new-react-app.html"
+        ],
+        "notes": [
+          "https://www.geeksforgeeks.org/javascript/remix-introduction-installation/",
+          "https://www.geeksforgeeks.org/javascript/getting-started-with-remix/",
+          "https://www.geeksforgeeks.org/solidity/steps-to-execute-solidity-smart-contract-using-remix-ide/",
+          "https://www.geeksforgeeks.org/what-is-remix/",
+          "https://www.geeksforgeeks.org/javascript/form-vs-fetcher-in-remix/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=d_BhzHVV4aQ",
+          "https://www.youtube.com/watch?v=RBYJTop1e-g",
+          "https://www.youtube.com/watch?v=rw1xAHJnBV8",
+          "https://www.youtube.com/watch?v=Z_33-pco_aA",
+          "https://www.youtube.com/watch?v=HOlYQu_r4Io"
+        ]
+      }
+    },
+    {
+      "tech": "SvelteKit",
+      "reason": "Fullstack framework for Svelte with SSR support",
+      "tags": [
+        "framework",
+        "SSR",
+        "Svelte-based"
+      ],
+      "preferred_if": [
+        "User prefers Svelte ecosystem"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is SvelteKit primarily used for?",
+          "options": [
+            "Building mobile applications",
+            "Creating static websites",
+            "Developing fullstack applications with SSR support",
+            "Designing desktop applications"
+          ],
+          "correct_option": 2,
+          "hint": "SvelteKit is designed for building applications with server-side rendering."
+        },
+        {
+          "question": "Which of the following features is a key advantage of using SvelteKit?",
+          "options": [
+            "Client-side rendering only",
+            "Python integration",
+            "Server-side rendering",
+            "No support for JavaScript"
+          ],
+          "correct_option": 2,
+          "hint": "SvelteKit offers a built-in feature that allows rendering on the server."
+        },
+        {
+          "question": "SvelteKit is a framework based on which primary technology?",
+          "options": [
+            "React",
+            "Angular",
+            "Svelte",
+            "Vue"
+          ],
+          "correct_option": 2,
+          "hint": "SvelteKit is built around a popular, compiler-based UI framework."
+        },
+        {
+          "question": "What does SSR stand for in the context of SvelteKit?",
+          "options": [
+            "Single State Rendering",
+            "Server-side Rendering",
+            "Secure Socket Routing",
+            "Svelte Script Runner"
+          ],
+          "correct_option": 1,
+          "hint": "SSR is a technique used to render web pages on the server rather than in the browser."
+        },
+        {
+          "question": "Which of the following is a common use case for SvelteKit?",
+          "options": [
+            "Building proprietary databases",
+            "Developing Svelte-based applications with SEO benefits",
+            "Creating blockchain applications",
+            "Designing machine learning models"
+          ],
+          "correct_option": 1,
+          "hint": "SvelteKit is often used where server-side rendering can improve SEO."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_getting_started",
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_Todo_list_beginning",
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_stores"
+        ],
+        "notes": [
+          "https://www.freecodecamp.org/news/learn-sveltekit-full-course/",
+          "https://www.geeksforgeeks.org/how-to-route-programmatically-in-sveltekit/",
+          "https://www.freecodecamp.org/news/learn-sveltekit-and-tailwind-css-by-building-a-web-portfolio/",
+          "https://www.geeksforgeeks.org/javascript/how-to-get-query-string-parameter-in-sveltekit/",
+          "https://www.freecodecamp.org/news/build-your-developer-portfolio-from-scratch-with-sveltekit-and-graphcms/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=QKxJW6VVp6w",
+          "https://www.youtube.com/watch?v=9OlLxkaeVvw",
+          "https://www.youtube.com/watch?v=5IajHJULs5I",
+          "https://www.youtube.com/watch?v=vb7CgDcA_6U",
+          "https://www.youtube.com/watch?v=UU7MgYIbtAk"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://reactjs.org/",
+      "https://reactjs.org/docs/getting-started.html",
+      "https://reactjs.org/docs/create-a-new-react-app.html"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/nextjs/nextjs-tutorial/",
+      "https://www.freecodecamp.org/news/nextjs-tutorial/",
+      "https://www.freecodecamp.org/news/build-a-full-stack-application-with-nextjs/",
+      "https://forum.freecodecamp.org/t/way-to-learn-nextjs/596752",
+      "https://www.freecodecamp.org/news/the-next-js-handbook/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=Sklc_fQBmcs",
+      "https://www.youtube.com/watch?v=843nec-IvW0",
+      "https://www.youtube.com/watch?v=mTz0GXj8NN0",
+      "https://www.youtube.com/watch?v=wm5gMKuwSYk",
+      "https://www.youtube.com/watch?v=1WmNXEVia8I"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What file is used to define a new page in a Next.js application?",
+      "options": [
+        "page.js",
+        "router.js",
+        "index.js",
+        "app.js"
+      ],
+      "correct_option": 0,
+      "hint": "It is a common convention in many frameworks to have a file named with this to represent a component or page."
+    },
+    {
+      "question": "Which of the following is NOT a feature of Server-Side Rendering (SSR) in Next.js?",
+      "options": [
+        "Improved SEO",
+        "Faster initial page load",
+        "Reduced server load",
+        "Dynamic content generation"
+      ],
+      "correct_option": 2,
+      "hint": "Consider what server-side rendering does to the server's resources."
+    },
+    {
+      "question": "How do you create a dynamic route in Next.js?",
+      "options": [
+        "Using the 'useRouter' hook",
+        "By creating a file with square brackets in the 'pages' directory",
+        "By adding a 'routes.js' file",
+        "Using 'getStaticPaths' function"
+      ],
+      "correct_option": 1,
+      "hint": "Dynamic routes are defined in the 'pages' directory with a special naming convention."
+    },
+    {
+      "question": "What is the purpose of API routes in Next.js?",
+      "options": [
+        "To fetch data from external APIs",
+        "To handle HTTP requests within the Next.js application",
+        "To define the application's database schema",
+        "To manage client-side routing"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how a Next.js application could handle backend functionality."
+    },
+    {
+      "question": "Which middleware feature allows Next.js applications to intercept requests and responses?",
+      "options": [
+        "getStaticProps",
+        "useEffect",
+        "NextResponse",
+        "getServerSideProps"
+      ],
+      "correct_option": 2,
+      "hint": "This feature is part of the Next.js API for handling middleware."
+    }
+  ]
+}

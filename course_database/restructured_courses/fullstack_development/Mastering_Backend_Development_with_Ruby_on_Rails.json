@@ -1,0 +1,131 @@
+{
+  "id": "FS14",
+  "name": "Mastering Backend Development with Ruby on Rails",
+  "category": "FullStack Development",
+  "primary_tech": "Ruby on Rails",
+  "topics": [
+    "Getting Started with Ruby and Rails",
+    "Understanding MVC Architecture",
+    "ActiveRecord and Database Integration",
+    "Routing and URL Management in Rails",
+    "Building RESTful APIs",
+    "Authentication and Authorization",
+    "Deploying Rails Applications",
+    "Testing and Debugging in Rails"
+  ],
+  "recommended": false,
+  "tags": [
+    "ruby",
+    "rails",
+    "backend-development",
+    "mvc",
+    "api",
+    "web-applications"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Ruby",
+        "description": "An explanation of the \"ruby\" annotation in HTML, used for pronunciation guides and annotations above or alongside text."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ruby",
+        "description": "A comprehensive guide on the use and implementation of the HTML `<ruby>` element for annotations in East Asian typography."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies",
+        "description": "A comprehensive guide on using cookies in HTTP, including setting, retrieving, and managing them for web development."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/ruby/ruby-on-rails-tutorial/",
+        "description": "A comprehensive tutorial for learning Ruby on Rails, covering fundamental concepts and practical applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/ruby/ruby-on-rails-introduction/",
+        "description": "An introductory guide to Ruby on Rails, explaining its features, benefits, and basic application development."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/i-want-to-learn-ruby-on-rails-from-scratch/431723",
+        "description": "A forum discussion offering guidance and resources for beginners learning Ruby on Rails from scratch."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/lets-create-an-intermediate-level-ruby-on-rails-application-d7c6e997c63f/",
+        "description": "A guide to building an intermediate-level Ruby on Rails application, enhancing your skills with practical examples."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/a-cautionary-tale-of-learning-to-code-my-own-eddb24d9d5a7/",
+        "description": "This article shares a personal journey highlighting the challenges and insights gained while learning to code independently."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=B3Fbujmgo60&pp=0gcJCfwAo7VqN5tD",
+      "https://www.youtube.com/watch?v=pPy0GQJLZUM",
+      "https://www.youtube.com/watch?v=xyDoP5a_dvo",
+      "https://www.youtube.com/watch?v=GY7Ps8fqGdc&pp=0gcJCf0Ao7VqN5tD",
+      "https://www.youtube.com/watch?v=Ei4Aa6RJTyo"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a key principle of Ruby on Rails that enhances developer productivity?",
+      "options": [
+        "Convention over configuration",
+        "Code first, schema later",
+        "Manual configuration",
+        "Functional programming"
+      ],
+      "correct_option": 0,
+      "hint": "This principle reduces the number of decisions developers need to make."
+    },
+    {
+      "question": "Ruby on Rails is primarily used for what type of development?",
+      "options": [
+        "Frontend development",
+        "Backend development",
+        "Mobile app development",
+        "Desktop application development"
+      ],
+      "correct_option": 1,
+      "hint": "Ruby on Rails is known for its server-side capabilities."
+    },
+    {
+      "question": "Which programming language is Ruby on Rails built on?",
+      "options": [
+        "JavaScript",
+        "Python",
+        "Ruby",
+        "PHP"
+      ],
+      "correct_option": 2,
+      "hint": "This language is known for its elegance and productivity."
+    },
+    {
+      "question": "What kind of framework is Ruby on Rails considered to be?",
+      "options": [
+        "Unopinionated",
+        "Opinionated",
+        "Cross-platform",
+        "Microservices"
+      ],
+      "correct_option": 1,
+      "hint": "This framework type dictates the structure and design patterns of applications."
+    },
+    {
+      "question": "What is a common use case for choosing Ruby on Rails over other frameworks?",
+      "options": [
+        "Low-level system programming",
+        "Rapid web application development",
+        "Game development",
+        "Frontend UI design"
+      ],
+      "correct_option": 1,
+      "hint": "Ruby on Rails is favored for its speed in building web applications."
+    }
+  ],
+  "preferred_if": [
+    "User values developer productivity",
+    "Likes opinionated frameworks"
+  ]
+}

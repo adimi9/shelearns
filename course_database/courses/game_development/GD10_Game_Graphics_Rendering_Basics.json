@@ -1,0 +1,185 @@
+{
+  "id": "GD10",
+  "name": "Game Graphics & Rendering Basics",
+  "category": "Game Development",
+  "primary_tech": "Graphics Programming",
+  "topics": [
+    "Rendering Pipeline Overview",
+    "Vertex & Fragment Shaders (HLSL/GLSL)",
+    "Texture Mapping & Materials",
+    "Lighting Models (Phong, PBR basics)"
+  ],
+  "levels": [
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "graphics",
+    "rendering",
+    "shaders",
+    "VFX"
+  ],
+  "alternatives": [
+    {
+      "tech": "Blender (3D Modeling)",
+      "reason": "Powerful open-source 3D creation suite for assets, not rendering engine",
+      "tags": [
+        "3D-modeling",
+        "asset-creation"
+      ],
+      "preferred_if": [
+        "User wants to create custom 3D assets for games"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is Blender primarily used for in game development?",
+          "options": [
+            "Rendering final game scenes",
+            "Creating custom 3D assets",
+            "Designing sound effects",
+            "Writing game scripts"
+          ],
+          "correct_option": 1,
+          "hint": "Blender is not primarily a rendering engine."
+        },
+        {
+          "question": "Which feature of Blender makes it ideal for creating custom game assets?",
+          "options": [
+            "Its built-in game engine",
+            "Its 3D modeling capabilities",
+            "Its sound editing tools",
+            "Its texturing limitations"
+          ],
+          "correct_option": 1,
+          "hint": "Consider the primary function of Blender as a 3D creation suite."
+        },
+        {
+          "question": "Why might a game developer choose Blender over other 3D modeling software?",
+          "options": [
+            "It is open-source and free",
+            "It has superior rendering capabilities",
+            "It includes built-in game engines",
+            "It offers advanced sound design features"
+          ],
+          "correct_option": 0,
+          "hint": "Cost and accessibility are major factors."
+        },
+        {
+          "question": "What is a key advantage of using Blender for 3D modeling in game development?",
+          "options": [
+            "Its ability to export directly to game consoles",
+            "Its extensive library of pre-made game assets",
+            "Its flexibility in creating complex 3D models",
+            "Its focus on 2D asset creation"
+          ],
+          "correct_option": 2,
+          "hint": "Think about Blender's capabilities in modeling, not pre-made assets."
+        },
+        {
+          "question": "Which of the following is NOT a primary feature of Blender?",
+          "options": [
+            "3D asset creation",
+            "Animation tools",
+            "Game rendering engine",
+            "Sculpting tools"
+          ],
+          "correct_option": 2,
+          "hint": "Blender is more about creation and less about final rendering."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/video"
+        ],
+        "notes": [],
+        "videos": [
+          "https://www.youtube.com/watch?v=jswn8h40Qx0&pp=0gcJCdgAo7VqN5tD",
+          "https://www.youtube.com/watch?v=DHe-xROc6jw&pp=0gcJCdgAo7VqN5tD",
+          "https://www.youtube.com/watch?v=hnqr8Qiw_yw",
+          "https://www.youtube.com/watch?v=jsoLphuoxIg",
+          "https://www.youtube.com/watch?v=4haAdmHqGOw"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/Basic_theory",
+      "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "https://developer.mozilla.org/en-US/docs/Games/Techniques/Crisp_pixel_art_look"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/blogs/opengl-rendering-pipeline-overview/",
+      "https://www.geeksforgeeks.org/computer-graphics/introduction-to-computer-graphics/",
+      "https://www.w3schools.com/html/html5_svg.asp",
+      "https://www.geeksforgeeks.org/computer-graphics/sfml-graphics-library-quick-tutorial/",
+      "https://www.geeksforgeeks.org/blogs/cpp-for-game-development/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=f-9LEoYYvE4",
+      "https://www.youtube.com/watch?v=TEAtmCYYKZA",
+      "https://www.youtube.com/watch?v=45MIykWJ-C4",
+      "https://www.youtube.com/watch?v=SM1UHuV_YsE",
+      "https://www.youtube.com/watch?v=8cx7cIF6UgY"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which part of the rendering pipeline is responsible for converting 3D coordinates to 2D screen coordinates?",
+      "options": [
+        "Vertex Shader",
+        "Rasterizer",
+        "Fragment Shader",
+        "Tessellation Shader"
+      ],
+      "correct_option": 1,
+      "hint": "This stage occurs after the vertex processing and is crucial for transforming the 3D scene for display."
+    },
+    {
+      "question": "In the context of shaders, what is the primary role of a vertex shader?",
+      "options": [
+        "To handle pixel colors and shading",
+        "To compute per-vertex operations like transformations",
+        "To manage texture mapping",
+        "To perform lighting calculations"
+      ],
+      "correct_option": 1,
+      "hint": "This shader operates on each vertex and is responsible for transforming its position."
+    },
+    {
+      "question": "What does PBR stand for in lighting models?",
+      "options": [
+        "Physical Based Rendering",
+        "Pixel Based Rendering",
+        "Phong Based Rendering",
+        "Procedural Based Rendering"
+      ],
+      "correct_option": 0,
+      "hint": "This model aims to represent materials in a realistic way by simulating the flow of light."
+    },
+    {
+      "question": "Which shader language is typically used for writing shaders in OpenGL?",
+      "options": [
+        "HLSL",
+        "GLSL",
+        "C++",
+        "DirectX"
+      ],
+      "correct_option": 1,
+      "hint": "This language is specifically designed for the Open Graphics Library."
+    },
+    {
+      "question": "What is texture mapping primarily used for in game graphics?",
+      "options": [
+        "To simulate lighting effects",
+        "To apply images onto 3D models",
+        "To define the geometry of models",
+        "To create shadows"
+      ],
+      "correct_option": 1,
+      "hint": "This process involves wrapping an image around a 3D object to give it detail."
+    }
+  ]
+}

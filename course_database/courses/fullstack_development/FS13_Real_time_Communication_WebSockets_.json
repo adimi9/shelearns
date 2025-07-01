@@ -1,0 +1,101 @@
+{
+  "id": "FS13",
+  "name": "Real-time Communication (WebSockets)",
+  "category": "FullStack Development",
+  "primary_tech": "WebSockets",
+  "topics": [
+    "WebSocket Protocol",
+    "Socket.IO (Node.js Library)",
+    "Building Real-time Features (Chat, Notifications)",
+    "Scaling WebSockets"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "real-time",
+    "communication",
+    "web-sockets"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+      "https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API",
+      "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/reactjs/real-time-updates-with-websockets-and-react-hooks/",
+      "https://www.geeksforgeeks.org/system-design/websockets-for-real-time-distributed-systems/",
+      "https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/",
+      "https://www.freecodecamp.org/news/server-sent-events-vs-websockets/",
+      "https://www.geeksforgeeks.org/system-design/differences-between-websocket-and-webrtc-in-system-design/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=1BfCnjr_Vjg",
+      "https://www.youtube.com/watch?v=CzcfeL7ymbU",
+      "https://www.youtube.com/watch?v=sVY6M9_YOwk",
+      "https://www.youtube.com/watch?v=2Nt-ZrNP22A",
+      "https://www.youtube.com/watch?v=bnvH4_58yXM"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of the WebSocket protocol?",
+      "options": [
+        "To establish a full-duplex communication channel over a single TCP connection",
+        "To enhance HTTP requests with additional security features",
+        "To improve the speed of data transmission over the internet",
+        "To provide a fallback for AJAX in real-time applications"
+      ],
+      "correct_option": 0,
+      "hint": "Think about how WebSockets differ from traditional HTTP in terms of communication direction."
+    },
+    {
+      "question": "Which Node.js library is commonly used to simplify the implementation of WebSockets?",
+      "options": [
+        "Express.js",
+        "Socket.IO",
+        "Axios",
+        "Nest.js"
+      ],
+      "correct_option": 1,
+      "hint": "This library is specifically designed to handle WebSockets and falls back to other protocols if necessary."
+    },
+    {
+      "question": "What is a key advantage of using WebSockets for building real-time features like chat applications?",
+      "options": [
+        "WebSockets reduce server load by eliminating the need for polling.",
+        "WebSockets increase latency by adding more steps in communication.",
+        "WebSockets are easier to implement than AJAX.",
+        "WebSockets allow only one-way communication."
+      ],
+      "correct_option": 0,
+      "hint": "Consider how WebSockets manage data flow compared to HTTP polling."
+    },
+    {
+      "question": "Which of the following is a challenge when scaling WebSockets for a large number of users?",
+      "options": [
+        "Maintaining a persistent connection with each client",
+        "Ensuring data privacy over the connections",
+        "Managing HTTP request headers efficiently",
+        "Reducing the server's CPU usage"
+      ],
+      "correct_option": 0,
+      "hint": "Think about the nature of WebSocket connections and what they require from the server."
+    },
+    {
+      "question": "In the context of Socket.IO, what is the primary function of namespaces?",
+      "options": [
+        "To segregate different types of client connections on the same server",
+        "To enhance security by encrypting data packets",
+        "To manage different versions of the Socket.IO library",
+        "To log user activities for monitoring purposes"
+      ],
+      "correct_option": 0,
+      "hint": "Consider how namespaces help organize and manage WebSocket connections on a server."
+    }
+  ]
+}

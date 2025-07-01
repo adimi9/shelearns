@@ -1,0 +1,163 @@
+{
+  "id": "MD6",
+  "name": "Cross-Platform Mobile with Flutter (Dart)",
+  "category": "Mobile Development",
+  "primary_tech": "Flutter",
+  "topics": [
+    "Dart Programming Language",
+    "Flutter Widgets & Layouts",
+    "State Management in Flutter",
+    "Platform Channels"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "cross-platform",
+    "Dart",
+    "Google",
+    "hybrid"
+  ],
+  "alternatives": [
+    {
+      "tech": "Xamarin",
+      "reason": "Microsoft's cross-platform framework using C# and .NET",
+      "tags": [
+        "cross-platform",
+        "C#",
+        ".NET"
+      ],
+      "preferred_if": [
+        "User has strong C#/.NET background",
+        "Developing for enterprise environments"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What programming languages are primarily used in Xamarin for cross-platform mobile development?",
+          "options": [
+            "JavaScript and TypeScript",
+            "C# and .NET",
+            "Swift and Objective-C",
+            "Java and Kotlin"
+          ],
+          "correct_option": 1,
+          "hint": "This framework uses languages associated with Microsoft technologies."
+        },
+        {
+          "question": "Which company developed Xamarin as a cross-platform mobile development framework?",
+          "options": [
+            "Google",
+            "Apple",
+            "Facebook",
+            "Microsoft"
+          ],
+          "correct_option": 3,
+          "hint": "This company is known for its Windows operating system and Azure cloud services."
+        },
+        {
+          "question": "What is a primary advantage of using Xamarin for developers familiar with C# and .NET?",
+          "options": [
+            "Native performance without writing any platform-specific code",
+            "Ability to use a single codebase across multiple platforms",
+            "Access to a wide variety of third-party libraries",
+            "Simplified user interface design with HTML and CSS"
+          ],
+          "correct_option": 1,
+          "hint": "This advantage is related to code reuse across different platforms."
+        },
+        {
+          "question": "Which integrated development environment (IDE) is most commonly used with Xamarin for application development?",
+          "options": [
+            "Visual Studio",
+            "Xcode",
+            "Android Studio",
+            "Eclipse"
+          ],
+          "correct_option": 0,
+          "hint": "This IDE is developed by Microsoft and supports C# and .NET."
+        },
+        {
+          "question": "For enterprise environments, why might a developer choose Xamarin over Flutter?",
+          "options": [
+            "Easier integration with existing C# and .NET systems",
+            "Better performance on iOS devices",
+            "More vibrant open-source community",
+            "Simpler syntax and programming model"
+          ],
+          "correct_option": 0,
+          "hint": "Consider the developer's familiarity with Microsoft technologies."
+        }
+      ],
+      "resources": {
+        "docs": [],
+        "notes": [],
+        "videos": []
+      }
+    }
+  ],
+  "resources": {
+    "docs": [],
+    "notes": [],
+    "videos": []
+  },
+  "quiz": [
+    {
+      "question": "What is the primary programming language used in Flutter development?",
+      "options": [
+        "Java",
+        "JavaScript",
+        "Dart",
+        "Python"
+      ],
+      "correct_option": 2,
+      "hint": "It's a language developed by Google."
+    },
+    {
+      "question": "Which widget is used in Flutter to create a scrollable list of items?",
+      "options": [
+        "Column",
+        "ListView",
+        "Stack",
+        "Container"
+      ],
+      "correct_option": 1,
+      "hint": "It's specifically designed for scrolling."
+    },
+    {
+      "question": "What is the purpose of 'State' in Flutter?",
+      "options": [
+        "To manage the app's appearance",
+        "To handle user inputs",
+        "To manage and track changes in data",
+        "To store app settings"
+      ],
+      "correct_option": 2,
+      "hint": "It helps in updating the UI dynamically."
+    },
+    {
+      "question": "Which Flutter feature allows developers to call native platform code?",
+      "options": [
+        "Flutter Packages",
+        "Platform Channels",
+        "Stateful Widgets",
+        "Dart Libraries"
+      ],
+      "correct_option": 1,
+      "hint": "It serves as a bridge between Dart and native code."
+    },
+    {
+      "question": "Which level of developers is the course 'Cross-Platform Mobile with Flutter (Dart)' suitable for?",
+      "options": [
+        "Beginner",
+        "Intermediate",
+        "Advanced",
+        "All of the above"
+      ],
+      "correct_option": 3,
+      "hint": "The course is designed to accommodate various expertise levels."
+    }
+  ]
+}

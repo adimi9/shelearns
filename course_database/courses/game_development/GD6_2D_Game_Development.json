@@ -1,0 +1,251 @@
+{
+  "id": "GD6",
+  "name": "2D Game Development",
+  "category": "Game Development",
+  "primary_tech": "2D Game Engines",
+  "topics": [
+    "Sprite Animation & Tilemaps",
+    "2D Physics & Collisions",
+    "Camera Systems for 2D",
+    "UI/HUD Design for 2D Games"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "2D",
+    "indie",
+    "pixel-art"
+  ],
+  "alternatives": [
+    {
+      "tech": "GameMaker Studio 2",
+      "reason": "User-friendly engine focused purely on 2D game creation",
+      "tags": [
+        "2D",
+        "engine",
+        "GML"
+      ],
+      "preferred_if": [
+        "User focuses exclusively on 2D games",
+        "Wants a simpler learning curve"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is the primary programming language used in GameMaker Studio 2?",
+          "options": [
+            "JavaScript",
+            "Python",
+            "GML",
+            "C++"
+          ],
+          "correct_option": 2,
+          "hint": "It is a language specifically designed for GameMaker Studio."
+        },
+        {
+          "question": "What is a key advantage of using GameMaker Studio 2 for 2D game development?",
+          "options": [
+            "Focuses on 3D rendering",
+            "Requires extensive coding knowledge",
+            "Offers a user-friendly interface",
+            "Only supports mobile platforms"
+          ],
+          "correct_option": 2,
+          "hint": "This advantage makes it accessible to beginners."
+        },
+        {
+          "question": "Which feature of GameMaker Studio 2 makes it particularly appealing for developers focusing exclusively on 2D games?",
+          "options": [
+            "Complex 3D modeling tools",
+            "Integrated 2D physics engine",
+            "Extensive VR support",
+            "Advanced AI scripting"
+          ],
+          "correct_option": 1,
+          "hint": "This feature helps in creating realistic 2D interactions."
+        },
+        {
+          "question": "What is a common use case for developers choosing GameMaker Studio 2?",
+          "options": [
+            "Developing large-scale AAA 3D games",
+            "Creating simple 2D games with an easy learning curve",
+            "Building augmented reality applications",
+            "Designing complex multiplayer online games"
+          ],
+          "correct_option": 1,
+          "hint": "The preference is towards simplicity and 2D focus."
+        },
+        {
+          "question": "Which of the following is NOT true about GameMaker Studio 2?",
+          "options": [
+            "It has a drag-and-drop interface for beginners.",
+            "It only supports 3D game development.",
+            "It uses GML as its primary scripting language.",
+            "It is designed with a focus on ease of use for 2D games."
+          ],
+          "correct_option": 1,
+          "hint": "Consider the primary focus and capabilities of GameMaker Studio 2."
+        }
+      ],
+      "resources": {
+        "docs": [],
+        "notes": [],
+        "videos": []
+      }
+    },
+    {
+      "tech": "Raylib",
+      "reason": "Simple and easy-to-use library to enjoy videogames programming",
+      "tags": [
+        "2D",
+        "C",
+        "library"
+      ],
+      "preferred_if": [
+        "User wants to learn game programming from scratch (low-level)"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is Raylib primarily used for?",
+          "options": [
+            "Developing 3D simulations",
+            "Creating 2D games",
+            "Building web applications",
+            "Designing operating systems"
+          ],
+          "correct_option": 1,
+          "hint": "Raylib is a library tailored for a specific type of game development."
+        },
+        {
+          "question": "Which programming language is Raylib associated with for game development?",
+          "options": [
+            "Python",
+            "Java",
+            "C",
+            "JavaScript"
+          ],
+          "correct_option": 2,
+          "hint": "Raylib is often used with a language known for its performance and low-level capabilities."
+        },
+        {
+          "question": "What makes Raylib a popular choice for beginners in game development?",
+          "options": [
+            "Complexity and advanced features",
+            "High hardware requirements",
+            "Simple and easy-to-use interface",
+            "Exclusive to professional developers"
+          ],
+          "correct_option": 2,
+          "hint": "Raylib is designed to be accessible and straightforward for new developers."
+        },
+        {
+          "question": "Which feature of Raylib is particularly beneficial for 2D game development?",
+          "options": [
+            "Built-in web server",
+            "Extensive 3D rendering capabilities",
+            "Simple function-based API",
+            "Real-time collaboration tools"
+          ],
+          "correct_option": 2,
+          "hint": "Raylib's design focuses on providing an intuitive experience for developers."
+        },
+        {
+          "question": "What is one of the main reasons users might choose Raylib for learning game programming?",
+          "options": [
+            "Requires no prior programming knowledge",
+            "Offers high-level abstraction",
+            "Provides a low-level understanding of game mechanics",
+            "Is only compatible with Windows OS"
+          ],
+          "correct_option": 2,
+          "hint": "Raylib allows users to delve deeper into the mechanics of game development."
+        }
+      ],
+      "resources": {
+        "docs": [],
+        "notes": [],
+        "videos": []
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection",
+      "https://developer.mozilla.org/en-US/docs/Games",
+      "https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript"
+    ],
+    "notes": [
+      "https://www.freecodecamp.org/news/how-to-choose-a-programming-language-and-escape-tutorial-purgatory/",
+      "https://www.freecodecamp.org/news/what-2d-game-engine-to-use-for-your-next-game/",
+      "https://www.w3schools.com/graphics/game_canvas.asp",
+      "https://www.geeksforgeeks.org/python/pygame-tutorial/",
+      "https://www.freecodecamp.org/news/tag/game-development/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=iHF5fwsqu4I",
+      "https://www.youtube.com/watch?v=XtQMytORBmM",
+      "https://www.youtube.com/watch?v=QKgTZWbwD1U",
+      "https://www.youtube.com/watch?v=36ax5HbHwbU",
+      "https://www.youtube.com/watch?v=Z92jsBzeYk0"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a sprite in 2D game development?",
+      "options": [
+        "A graphical object used to represent characters or objects in a game",
+        "A background image used for setting the scene",
+        "A sound file used in a game",
+        "A type of game engine"
+      ],
+      "correct_option": 0,
+      "hint": "Think of graphical objects that move in a game."
+    },
+    {
+      "question": "Which of the following is a primary function of a tilemap in 2D games?",
+      "options": [
+        "To manage audio files",
+        "To organize and display terrain and environments",
+        "To handle user input",
+        "To control game physics"
+      ],
+      "correct_option": 1,
+      "hint": "Tilemaps are often used for creating the game world."
+    },
+    {
+      "question": "How does a 2D physics engine contribute to game development?",
+      "options": [
+        "By providing tools for creating game graphics",
+        "By simulating realistic movements and collisions",
+        "By managing game audio effects",
+        "By designing user interfaces"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how objects move and interact in a game environment."
+    },
+    {
+      "question": "What is the purpose of a camera system in 2D games?",
+      "options": [
+        "To capture photos of gameplay",
+        "To manage game character inventory",
+        "To control what part of the game world is visible to the player",
+        "To detect collisions between objects"
+      ],
+      "correct_option": 2,
+      "hint": "Consider how players view the game world."
+    },
+    {
+      "question": "What is an essential aspect of UI/HUD design in 2D games?",
+      "options": [
+        "Creating complex 3D models",
+        "Designing intuitive and accessible interfaces for players",
+        "Writing game storylines",
+        "Developing AI for enemies"
+      ],
+      "correct_option": 1,
+      "hint": "Focus on how players interact with and receive information from the game."
+    }
+  ]
+}

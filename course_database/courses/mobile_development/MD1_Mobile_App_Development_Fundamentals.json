@@ -1,0 +1,100 @@
+{
+  "id": "MD1",
+  "name": "Mobile App Development Fundamentals",
+  "category": "Mobile Development",
+  "primary_tech": "Mobile Concepts",
+  "topics": [
+    "Mobile OS Overview (iOS vs. Android)",
+    "Mobile UI/UX Principles",
+    "App Lifecycle",
+    "Development Environments Setup"
+  ],
+  "levels": [
+    "Beginner"
+  ],
+  "recommended": true,
+  "tags": [
+    "fundamentals",
+    "mobile-concepts",
+    "cross-platform"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+      "https://developer.mozilla.org/en-US/docs/Web",
+      "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/android/android-tutorial/",
+      "https://www.geeksforgeeks.org/blogs/android-app-development-fundamentals-for-beginners/",
+      "https://www.geeksforgeeks.org/flutter/flutter-tutorial/",
+      "https://www.geeksforgeeks.org/introduction-to-android-development/",
+      "https://www.geeksforgeeks.org/web-development/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=yye7rSsiV6k",
+      "https://www.youtube.com/watch?v=fis26HvvDII",
+      "https://www.youtube.com/watch?v=FjrKMcnKahY",
+      "https://www.youtube.com/watch?v=b1oC7sLIgpI",
+      "https://www.youtube.com/watch?v=tZvjSl9dswg"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary difference between iOS and Android operating systems?",
+      "options": [
+        "iOS is open source, while Android is closed source.",
+        "Android supports a wider range of devices than iOS.",
+        "iOS apps must be developed using Java, while Android apps use Swift.",
+        "Android is developed by Apple, while iOS is developed by Google."
+      ],
+      "correct_option": 1,
+      "hint": "Consider the number of manufacturers using each OS."
+    },
+    {
+      "question": "Which of the following is a core principle in mobile UI/UX design?",
+      "options": [
+        "Designing for large screens only",
+        "Ensuring consistent user experience across all devices",
+        "Prioritizing desktop interfaces over mobile",
+        "Using complex navigation structures"
+      ],
+      "correct_option": 1,
+      "hint": "Think about the importance of uniformity across platforms."
+    },
+    {
+      "question": "What is the first stage of the mobile app lifecycle?",
+      "options": [
+        "App is running in the foreground",
+        "App is in the background",
+        "App is installed and initialized",
+        "App is terminated"
+      ],
+      "correct_option": 2,
+      "hint": "Consider what happens immediately after a user downloads an app."
+    },
+    {
+      "question": "Which tool is commonly used for setting up a development environment for Android apps?",
+      "options": [
+        "Xcode",
+        "Visual Studio Code",
+        "Android Studio",
+        "Eclipse"
+      ],
+      "correct_option": 2,
+      "hint": "Think of the IDE specifically tailored for Android development."
+    },
+    {
+      "question": "In the context of mobile app development, what does the term 'responsive design' mean?",
+      "options": [
+        "Designing apps that only work on latest devices",
+        "Creating apps with fixed screen sizes",
+        "Ensuring apps look good on all screen sizes",
+        "Developing apps with minimal code"
+      ],
+      "correct_option": 2,
+      "hint": "Consider the adaptability of app interfaces to various screen dimensions."
+    }
+  ]
+}

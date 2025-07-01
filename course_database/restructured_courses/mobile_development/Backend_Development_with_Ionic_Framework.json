@@ -1,0 +1,132 @@
+{
+  "id": "MD21",
+  "name": "Backend Development with Ionic Framework",
+  "category": "Mobile Development",
+  "primary_tech": "Ionic",
+  "topics": [
+    "Introduction to Ionic Framework",
+    "Setting Up Ionic for Backend Development",
+    "Building RESTful APIs with Ionic",
+    "Database Integration in Ionic Apps",
+    "Handling Authentication and Authorization",
+    "Deploying Ionic Apps to Cloud Platforms",
+    "Testing and Debugging Ionic Backend Applications",
+    "Performance Optimization Techniques for Ionic Apps"
+  ],
+  "recommended": false,
+  "tags": [
+    "ionic",
+    "backend",
+    "api",
+    "cross-platform",
+    "mobile-apps",
+    "javascript",
+    "typescript"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://ionicframework.com/docs",
+        "description": "The Ionic Framework documentation provides comprehensive guides and API references for building cross-platform mobile applications using web technologies."
+      },
+      {
+        "url": "https://forum.ionicframework.com/t/cookie-based-authentication-for-ios-for-ionic-react-capacitor/197277",
+        "description": "Discussion on implementing cookie-based authentication for iOS using Ionic React and Capacitor."
+      },
+      {
+        "url": "https://ionicframework.com/",
+        "description": "Ionic Framework is an open-source UI toolkit for building high-quality mobile and desktop apps using web technologies like HTML, CSS, and JavaScript."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://forum.ionicframework.com/t/what-is-the-best-backend-and-serverside-scripting-for-ionic-4/155177",
+        "description": "Discussion on the optimal backend and server-side scripting options for Ionic 4 applications."
+      },
+      {
+        "url": "https://ionicframework.com/",
+        "description": "The Ionic Framework website provides resources and tools for building cross-platform mobile applications using web technologies."
+      },
+      {
+        "url": "https://forum.ionicframework.com/t/how-to-use-backend-with-ionic-react-for-deployment/193033",
+        "description": "A guide on integrating and deploying a backend with Ionic React applications."
+      },
+      {
+        "url": "https://ionicframework.com/docs",
+        "description": "The Ionic Framework documentation provides comprehensive guidance on building cross-platform mobile applications using web technologies."
+      },
+      {
+        "url": "https://forum.ionicframework.com/t/ionic-4-how-to-connect-the-device-app-with-local-database-server/174263",
+        "description": "Discussion on connecting an Ionic 4 app with a local database server."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=AvbuIRg8_Jg",
+      "https://forum.ionicframework.com/t/about-to-build-out-app-in-ionic-angular-firebase/219440",
+      "https://www.youtube.com/watch?v=mQ4zmFy4d7Y",
+      "https://www.reddit.com/r/learnprogramming/comments/4cen3v/a_review_of_freecodecamp_the_first_25_hours_from/",
+      "https://www.youtube.com/watch?v=_03VKmdrxV8"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a key advantage of using Ionic for mobile app development?",
+      "options": [
+        "It supports native development exclusively with Swift and Kotlin.",
+        "It allows developers to use web technologies like HTML, CSS, and JavaScript.",
+        "It requires developers to learn a new programming language.",
+        "It limits app deployment to iOS platforms."
+      ],
+      "correct_option": 1,
+      "hint": "Think about the technologies Ionic is built upon."
+    },
+    {
+      "question": "Why might a developer with a strong web development background prefer Ionic?",
+      "options": [
+        "Ionic requires knowledge of Objective-C and Java.",
+        "Ionic does not support web technologies.",
+        "Ionic uses HTML, CSS, and JavaScript, which are familiar to web developers.",
+        "Ionic enforces the use of native UI components."
+      ],
+      "correct_option": 2,
+      "hint": "Consider the programming languages and technologies Ionic utilizes."
+    },
+    {
+      "question": "Which of the following describes the type of apps Ionic is used to create?",
+      "options": [
+        "Native apps written in Swift or Java.",
+        "Hybrid apps that can run on multiple platforms using a single codebase.",
+        "Desktop applications for Windows and Mac.",
+        "Console applications for gaming."
+      ],
+      "correct_option": 1,
+      "hint": "Ionic is known for its cross-platform capabilities."
+    },
+    {
+      "question": "What is a common use case for choosing Ionic in app development?",
+      "options": [
+        "Developing native-only applications for a single platform.",
+        "Creating rapid prototypes using web technologies.",
+        "Building backend servers and databases.",
+        "Developing hardware-specific applications."
+      ],
+      "correct_option": 1,
+      "hint": "Consider the speed and technologies involved in prototyping with Ionic."
+    },
+    {
+      "question": "How does Ionic facilitate cross-platform mobile app development?",
+      "options": [
+        "By providing a library of native APIs without web support.",
+        "By offering tools to write apps in C++ for cross-platform compatibility.",
+        "By enabling developers to build apps with web technologies and deploy them across multiple platforms.",
+        "By restricting development to one platform at a time."
+      ],
+      "correct_option": 2,
+      "hint": "Think about the core technologies that Ionic uses to enable cross-platform development."
+    }
+  ],
+  "preferred_if": [
+    "User has strong web development background",
+    "Needs rapid prototyping"
+  ]
+}

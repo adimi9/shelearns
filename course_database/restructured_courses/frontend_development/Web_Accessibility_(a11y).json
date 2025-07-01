@@ -1,0 +1,119 @@
+{
+  "id": "FE20",
+  "name": "Web Accessibility (a11y)",
+  "category": "Frontend Development",
+  "primary_tech": "Accessibility Standards",
+  "topics": [
+    "Semantic HTML",
+    "ARIA & Screen Readers",
+    "Testing Accessibility"
+  ],
+  "recommended": true,
+  "tags": [
+    "accessibility",
+    "a11y",
+    "compliance"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+        "description": "A comprehensive guide on web accessibility best practices and techniques to ensure inclusive digital experiences for all users."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
+        "description": "An overview of Accessible Rich Internet Applications (ARIA) and how to enhance web accessibility using ARIA roles, properties, and states."
+      },
+      {
+        "url": "https://legacy.reactjs.org/docs/accessibility.html",
+        "description": "This page provides guidelines and best practices for ensuring accessibility in React applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/accessibility/",
+        "description": "An educational guide on web accessibility standards and best practices for creating inclusive websites."
+      },
+      {
+        "url": "https://www.w3schools.com/html/html_accessibility.asp",
+        "description": "This page provides guidelines and examples for enhancing web accessibility using HTML."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/best-practices-for-writing-accessible-technical-documentation/",
+        "description": "A guide to best practices for creating accessible and inclusive technical documentation."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/build-an-accessible-web-app-with-html-sass-and-javascript/",
+        "description": "A guide to building an accessible web application using HTML, SASS, and JavaScript."
+      },
+      {
+        "url": "https://www.w3schools.com/accessibility/accessibility_screen_readers.php",
+        "description": "A guide on how to make web content accessible for screen readers, enhancing usability for visually impaired users."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=e2nkq3h1P68",
+      "https://www.youtube.com/watch?v=2oiBKSjOOFE",
+      "https://www.youtube.com/watch?v=VyWRmepESoQ",
+      "https://www.youtube.com/watch?v=WQiFPrkBoWU",
+      "https://www.youtube.com/watch?v=7hNgdIhZedc"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of using semantic HTML in web accessibility?",
+      "options": [
+        "To enhance website appearance",
+        "To improve website loading speed",
+        "To provide meaningful structure to web content",
+        "To enable advanced graphics on a webpage"
+      ],
+      "correct_option": 2,
+      "hint": "Semantic HTML helps in conveying the structure and meaning of web content to assistive technologies."
+    },
+    {
+      "question": "Which ARIA attribute would you use to define a button's current expanded state to screen readers?",
+      "options": [
+        "aria-label",
+        "aria-expanded",
+        "aria-checked",
+        "aria-pressed"
+      ],
+      "correct_option": 1,
+      "hint": "This ARIA attribute is often used in conjunction with collapsible elements."
+    },
+    {
+      "question": "What is a key guideline when testing web accessibility?",
+      "options": [
+        "Only test on desktop browsers",
+        "Disable CSS during testing",
+        "Use a screen reader for testing",
+        "Rely solely on automated tools"
+      ],
+      "correct_option": 2,
+      "hint": "Testing with assistive technologies provides insight into real user experiences."
+    },
+    {
+      "question": "What does the term 'a11y' stand for in web development?",
+      "options": [
+        "Application scalability",
+        "Accessibility",
+        "Anonymous login",
+        "Advanced logic"
+      ],
+      "correct_option": 1,
+      "hint": "The term is a numeronym for a key aspect of inclusive web design."
+    },
+    {
+      "question": "Which of the following is NOT considered a primary technology under web accessibility standards?",
+      "options": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python"
+      ],
+      "correct_option": 3,
+      "hint": "Focus on technologies that are directly involved in creating web interfaces."
+    }
+  ]
+}

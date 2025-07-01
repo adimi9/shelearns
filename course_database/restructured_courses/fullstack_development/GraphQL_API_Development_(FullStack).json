@@ -1,0 +1,120 @@
+{
+  "id": "FS18",
+  "name": "GraphQL API Development (FullStack)",
+  "category": "FullStack Development",
+  "primary_tech": "GraphQL",
+  "topics": [
+    "Schema Design & Type System",
+    "Queries, Mutations & Subscriptions (Frontend/Backend)",
+    "Apollo Server & Client Integration",
+    "Resolvers & Data Sources"
+  ],
+  "recommended": false,
+  "tags": [
+    "API",
+    "data-fetching",
+    "frontend-backend-communication"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://legacy.reactjs.org/docs/higher-order-components.html",
+        "description": "An overview of Higher-Order Components in React, explaining their use for reusing component logic."
+      },
+      {
+        "url": "https://nodejs.org/api/assert.html",
+        "description": "The Node.js \"assert\" module documentation provides a guide to using assertion functions for testing invariants in JavaScript code."
+      },
+      {
+        "url": "https://es.reactjs.org/docs/create-a-new-react-app.html",
+        "description": "A guide on setting up a new React application using various tools and frameworks."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/lessons-learned-from-deploying-my-first-full-stack-web-application-34f94ec0a286/",
+        "description": "Insights and tips from deploying a first full-stack web application, covering challenges and solutions encountered."
+      },
+      {
+        "url": "https://www.freecodecamp.org/",
+        "description": "A comprehensive platform offering free coding tutorials and interactive learning to help users develop programming skills."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/web-development/",
+        "description": "An in-depth guide to web development covering various technologies, tools, and frameworks."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/i-built-a-web-api-with-express-flask-aspnet/",
+        "description": "This article compares building a web API using Express, Flask, and ASP.NET, highlighting their differences and use cases."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/graphql-zero-to-production-a7c4f786a57b/",
+        "description": "A comprehensive guide on building and deploying a GraphQL API from scratch to production-ready status."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=eIQh02xuVw4",
+      "https://www.youtube.com/watch?v=BcLNfwF04Kw",
+      "https://www.youtube.com/watch?v=yWzKJPw_VzM",
+      "https://www.youtube.com/watch?v=c8XMl9aQVCM",
+      "https://www.youtube.com/watch?v=PTfZcN20fro"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of the type system in GraphQL schema design?",
+      "options": [
+        "To enforce authentication and authorization",
+        "To define types and relationships between them",
+        "To execute mutations on the server",
+        "To manage subscriptions for real-time updates"
+      ],
+      "correct_option": 1,
+      "hint": "It's related to how data structures are defined and connected."
+    },
+    {
+      "question": "In GraphQL, what is a mutation used for?",
+      "options": [
+        "To fetch data",
+        "To modify server-side data",
+        "To establish real-time data subscriptions",
+        "To define the schema"
+      ],
+      "correct_option": 1,
+      "hint": "It's the equivalent of performing 'create', 'update', or 'delete' operations."
+    },
+    {
+      "question": "Which GraphQL feature allows clients to receive real-time updates from the server?",
+      "options": [
+        "Queries",
+        "Mutations",
+        "Resolvers",
+        "Subscriptions"
+      ],
+      "correct_option": 3,
+      "hint": "It's not a way to fetch or modify data, but to listen for changes."
+    },
+    {
+      "question": "What is the role of resolvers in a GraphQL API?",
+      "options": [
+        "To authenticate user requests",
+        "To define the structure of the data",
+        "To handle the execution of queries and mutations",
+        "To integrate third-party APIs"
+      ],
+      "correct_option": 2,
+      "hint": "They are functions that execute when a query or mutation is called."
+    },
+    {
+      "question": "How does Apollo Client typically integrate with a frontend application?",
+      "options": [
+        "By using RESTful API calls",
+        "Through direct database connections",
+        "Via GraphQL queries and mutations",
+        "Using WebSockets for all data transfers"
+      ],
+      "correct_option": 2,
+      "hint": "It involves executing GraphQL operations to communicate with the server."
+    }
+  ]
+}

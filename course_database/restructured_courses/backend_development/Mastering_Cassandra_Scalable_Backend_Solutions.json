@@ -1,0 +1,131 @@
+{
+  "id": "BE25",
+  "name": "Mastering Cassandra: Scalable Backend Solutions",
+  "category": "Backend Development",
+  "primary_tech": "Cassandra",
+  "topics": [
+    "Introduction to NoSQL and Cassandra",
+    "Cassandra Architecture and Components",
+    "Data Modeling and Schema Design",
+    "Cassandra Query Language (CQL)",
+    "Consistency and Replication Strategies",
+    "Handling Large Scale Data with Partitioning",
+    "Performance Tuning and Optimization Techniques",
+    "Integrating Cassandra with Backend Applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "cassandra",
+    "nosql",
+    "backend-development",
+    "distributed-database",
+    "big-data",
+    "scalability",
+    "data-modeling"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://nodejs.org/api/buffer.html",
+        "description": "The Node.js Buffer API documentation provides details on handling binary data in Node.js applications."
+      },
+      {
+        "url": "https://nodejs.org/api/n-api.html",
+        "description": "The Node.js N-API documentation provides a stable API for building native add-ons in Node.js."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Database",
+        "description": "An overview of what a database is, including its purpose and common types, as explained in the MDN Web Docs glossary."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/the-apache-cassandra-beginner-tutorial/",
+        "description": "A beginner-friendly tutorial introducing the key concepts and basic operations of Apache Cassandra."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/apache-cassandra-nosql-database/",
+        "description": "An overview of Apache Cassandra, a NoSQL database management system, including its features and architecture."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/cassandra-nosql-database/",
+        "description": "An overview of Apache Cassandra, a highly scalable NoSQL database designed for handling large amounts of data across many commodity servers."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/sstable-in-apache-cassandra/",
+        "description": "An overview of the SSTable data structure in Apache Cassandra, detailing its role in data storage and retrieval."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devops/introduction-to-apache-cassandra/",
+        "description": "An introductory guide to Apache Cassandra, covering its architecture, features, and use cases in DevOps."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=KZsVSfQVU4I",
+      "https://www.youtube.com/watch?v=jgqu1BcSKUI",
+      "https://www.youtube.com/watch?v=J-cSy5MeMOA",
+      "https://www.youtube.com/watch?v=WFycRMLvMKc",
+      "https://www.youtube.com/watch?v=VsQ4OuH-K1I"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a primary advantage of using Cassandra over traditional relational databases?",
+      "options": [
+        "High write throughput",
+        "Complex query capabilities",
+        "Strict ACID transactions",
+        "Structured schema"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the performance aspect in write operations."
+    },
+    {
+      "question": "Which of the following best describes Cassandra's architecture?",
+      "options": [
+        "Master-slave architecture",
+        "Peer-to-peer architecture",
+        "Single server architecture",
+        "Client-server architecture"
+      ],
+      "correct_option": 1,
+      "hint": "Each node in Cassandra is equal, with no single point of failure."
+    },
+    {
+      "question": "For which type of workload is Cassandra particularly well-suited?",
+      "options": [
+        "High read throughput with complex queries",
+        "High write throughput with linear scalability",
+        "Batch processing of large datasets",
+        "Transaction processing with strong consistency"
+      ],
+      "correct_option": 1,
+      "hint": "Think about workloads that require fast and scalable write operations."
+    },
+    {
+      "question": "What consistency model does Cassandra primarily use?",
+      "options": [
+        "Strong consistency",
+        "Eventual consistency",
+        "Sequential consistency",
+        "Strict consistency"
+      ],
+      "correct_option": 1,
+      "hint": "This consistency model allows for high availability and partition tolerance."
+    },
+    {
+      "question": "Which use case is NOT ideal for Cassandra?",
+      "options": [
+        "Real-time analytics",
+        "Financial transactions requiring strict ACID compliance",
+        "High-velocity sensor data logging",
+        "Social media feed storage"
+      ],
+      "correct_option": 1,
+      "hint": "Consider scenarios that require strong transactional integrity and consistency."
+    }
+  ],
+  "preferred_if": [
+    "User needs extreme scalability and high write throughput"
+  ]
+}

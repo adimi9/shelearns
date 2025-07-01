@@ -1,0 +1,119 @@
+{
+  "id": "FE23",
+  "name": "Web Animations & Interactivity",
+  "category": "Frontend Development",
+  "primary_tech": "GSAP",
+  "topics": [
+    "CSS Transitions & Transforms",
+    "JavaScript Animations",
+    "GSAP / Framer Motion"
+  ],
+  "recommended": false,
+  "tags": [
+    "animation",
+    "UX",
+    "motion"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API",
+        "description": "An overview and guide to using the Web Animations API for creating and controlling web animations programmatically."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API",
+        "description": "A guide on using the Web Animations API to create and control animations in web applications."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations",
+        "description": "The tutorial provides a step-by-step guide on creating basic animations using the HTML5 Canvas API."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/how-to-make-clickable-svg-map-html-css/",
+        "description": "Learn how to create an interactive clickable SVG map using HTML and CSS with this comprehensive guide."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/websites-apps/svg/",
+        "description": "This resource provides tutorials and information on Scalable Vector Graphics (SVG) for creating graphics on the web."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/an-animated-introduction-to-web-development-from-back-to-front/",
+        "description": "An engaging, animated guide to understanding the full web development process from backend to frontend."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/computer-graphics/introduction-to-vrml/",
+        "description": "An introductory guide to VRML (Virtual Reality Modeling Language) for creating 3D interactive graphics."
+      },
+      {
+        "url": "https://www.w3schools.com/graphics/canvas_intro.asp",
+        "description": "An introduction to HTML5 Canvas, explaining its use for drawing graphics on a web page using JavaScript."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=9eHEOAn2FOA",
+      "https://www.youtube.com/watch?v=NOvcy64apD4",
+      "https://www.youtube.com/watch?v=0itiuHreY3A",
+      "https://www.youtube.com/watch?v=z2LQYsZhsFw",
+      "https://www.youtube.com/watch?v=AW1yfBKRMKc"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary difference between CSS Transitions and CSS Transforms?",
+      "options": [
+        "Transitions change the element's state over time, while transforms alter the element's shape or position.",
+        "Transitions are used to change the color of an element, while transforms are only for movement.",
+        "Transitions only work with pseudo-classes, whereas transforms do not.",
+        "Transforms require JavaScript to function, but transitions do not."
+      ],
+      "correct_option": 0,
+      "hint": "Transitions deal with timing, whereas transforms deal with spatial changes."
+    },
+    {
+      "question": "Which technology is primarily used for creating complex animations in JavaScript?",
+      "options": [
+        "GSAP",
+        "HTML5",
+        "CSS3",
+        "WebAssembly"
+      ],
+      "correct_option": 0,
+      "hint": "It is a robust JavaScript library specifically designed for animations."
+    },
+    {
+      "question": "What is the main advantage of using GSAP for animations over native CSS animations?",
+      "options": [
+        "GSAP is easier to learn than CSS animations.",
+        "GSAP provides better performance and more control over animations.",
+        "GSAP is supported by all browsers, while CSS animations are not.",
+        "GSAP animations require less code than CSS animations."
+      ],
+      "correct_option": 1,
+      "hint": "Think about control and performance aspects."
+    },
+    {
+      "question": "Which library offers built-in support for creating interactive animations using React?",
+      "options": [
+        "Framer Motion",
+        "jQuery",
+        "Bootstrap",
+        "AngularJS"
+      ],
+      "correct_option": 0,
+      "hint": "It's a library designed for animations in React applications."
+    },
+    {
+      "question": "At what level would you start learning about creating animations using CSS Transitions?",
+      "options": [
+        "Beginner",
+        "Intermediate",
+        "Advanced",
+        "Expert"
+      ],
+      "correct_option": 0,
+      "hint": "CSS Transitions are one of the simplest ways to create animations."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "CS8",
+  "name": "Database Management Systems",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "DBMS",
+  "topics": [
+    "Relational Databases (SQL)",
+    "Database Design (Normalization)",
+    "Transactions & Concurrency Control",
+    "NoSQL Database Types (Overview)"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "database",
+    "data-management",
+    "SQL"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API",
+      "https://developer.mozilla.org/en-US/docs/Glossary/Database",
+      "https://nodejs.org/api/fs.html"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/dbms/?ref=lbp",
+      "https://www.geeksforgeeks.org/dbms/dbms/",
+      "https://www.w3schools.com/mysql/mysql_rdbms.asp",
+      "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
+      "https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=wR0jg0eQsZA",
+      "https://www.youtube.com/watch?v=6Iu45VZGQDk",
+      "https://www.youtube.com/watch?v=mDFXzRBpJTI",
+      "https://www.youtube.com/watch?v=pPqazMTzNOM",
+      "https://www.youtube.com/watch?v=zsjvFFKOm3c"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which of the following is a primary feature of relational databases?",
+      "options": [
+        "Hierarchical data storage",
+        "Schema-less data management",
+        "Table-based organization",
+        "Graph structures"
+      ],
+      "correct_option": 2,
+      "hint": "Relational databases organize data into rows and columns."
+    },
+    {
+      "question": "What is the main purpose of normalization in database design?",
+      "options": [
+        "To improve data redundancy",
+        "To speed up data retrieval",
+        "To improve data integrity",
+        "To increase storage capacity"
+      ],
+      "correct_option": 2,
+      "hint": "Normalization aims to eliminate data anomalies by organizing data efficiently."
+    },
+    {
+      "question": "Which SQL statement is used to ensure that a transaction is saved to the database?",
+      "options": [
+        "ROLLBACK",
+        "COMMIT",
+        "SAVEPOINT",
+        "SET TRANSACTION"
+      ],
+      "correct_option": 1,
+      "hint": "This command is used to make the changes made by a transaction permanent."
+    },
+    {
+      "question": "Which of the following is a key characteristic of NoSQL databases?",
+      "options": [
+        "Fixed schema",
+        "ACID transactions",
+        "Horizontal scalability",
+        "Table-based data storage"
+      ],
+      "correct_option": 2,
+      "hint": "NoSQL databases are known for their ability to handle large-scale data across distributed systems."
+    },
+    {
+      "question": "Which technology is most commonly associated with relational databases?",
+      "options": [
+        "MongoDB",
+        "Cassandra",
+        "MySQL",
+        "Neo4j"
+      ],
+      "correct_option": 2,
+      "hint": "This is an open-source relational database management system."
+    }
+  ]
+}

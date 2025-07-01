@@ -1,0 +1,120 @@
+{
+  "id": "FS15",
+  "name": "Authentication & Authorization for FullStack Apps",
+  "category": "FullStack Development",
+  "primary_tech": "Security",
+  "topics": [
+    "JWT (JSON Web Tokens) Implementation",
+    "OAuth 2.0 & Social Logins",
+    "Role-Based Access Control (RBAC)",
+    "Security Best Practices (Input Validation, Hashing)"
+  ],
+  "recommended": true,
+  "tags": [
+    "security",
+    "auth",
+    "web-security"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/401",
+        "description": "This page provides a detailed explanation of the HTTP 401 Unauthorized status code, including its purpose and common use cases."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+        "description": "An overview of Progressive Web Apps (PWAs), detailing their features, benefits, and implementation strategies."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+        "description": "An in-depth guide to the fundamentals and features of the HTTP protocol for web development."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://forum.freecodecamp.org/t/queston-about-news-section-how-to-build-a-full-stack-authentication-app/568310",
+        "description": "This forum post discusses how to build a full-stack authentication app, focusing on the news section implementation."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/how-to-build-a-fullstack-authentication-system-with-react-express-mongodb-heroku-and-netlify/",
+        "description": "A step-by-step guide to building a full-stack authentication system using React, Express, MongoDB, Heroku, and Netlify."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/how-to-secure-your-mern-stack-application/",
+        "description": "A guide on implementing security best practices for MERN stack applications."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/the-complete-guide-to-full-stack-development-with-supabas/",
+        "description": "A comprehensive guide to building full-stack applications using Supabase as a backend service."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/mern/5-simple-steps-for-authentication-and-authorization-in-mern-stack/",
+        "description": "A guide detailing five straightforward steps for implementing authentication and authorization in a MERN stack application."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=UBUNrFtufWo",
+      "https://www.youtube.com/watch?v=zBZgdTb-dns",
+      "https://www.youtube.com/watch?v=WXsD0ZgxjRw",
+      "https://www.youtube.com/watch?v=yufqeJLP1rI",
+      "https://www.youtube.com/watch?v=F-sFp_AvHc8"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of using JWT in web applications?",
+      "options": [
+        "To store user passwords securely",
+        "To enable secure communication between a client and server",
+        "To provide a way to verify user identity and claims",
+        "To encrypt data within the database"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how JWT is used to transmit information securely between parties."
+    },
+    {
+      "question": "Which of the following is a key component of OAuth 2.0?",
+      "options": [
+        "Access token",
+        "Private key",
+        "Session cookie",
+        "Firewall rule"
+      ],
+      "correct_option": 0,
+      "hint": "This component is used to access protected resources on behalf of the user."
+    },
+    {
+      "question": "In Role-Based Access Control (RBAC), what determines a user's access to resources?",
+      "options": [
+        "Their username",
+        "Their password",
+        "Their assigned roles",
+        "Their IP address"
+      ],
+      "correct_option": 2,
+      "hint": "RBAC assigns permissions to users based on this attribute."
+    },
+    {
+      "question": "Why is input validation considered a security best practice?",
+      "options": [
+        "It improves application performance",
+        "It prevents unauthorized access by ensuring data integrity",
+        "It helps in storing data efficiently",
+        "It allows for dynamic user interface adjustments"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how input validation can prevent common security vulnerabilities like SQL injection."
+    },
+    {
+      "question": "What is the primary purpose of hashing passwords in a web application?",
+      "options": [
+        "To make passwords unreadable while stored",
+        "To improve database query performance",
+        "To facilitate faster user login",
+        "To ensure passwords are unique"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the goal of protecting user passwords even if the database is compromised."
+    }
+  ]
+}

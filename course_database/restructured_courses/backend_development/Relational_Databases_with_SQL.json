@@ -1,0 +1,119 @@
+{
+  "id": "BE12",
+  "name": "Relational Databases with SQL",
+  "category": "Backend Development",
+  "primary_tech": "SQL",
+  "topics": [
+    "Database Design (Normalization)",
+    "SQL Queries (SELECT, INSERT, UPDATE, DELETE)",
+    "PostgreSQL/MySQL Basics"
+  ],
+  "recommended": true,
+  "tags": [
+    "database",
+    "SQL",
+    "data-management"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API",
+        "description": "An overview and guide on using the IndexedDB API for client-side storage of significant amounts of structured data."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Database",
+        "description": "An overview of databases, explaining their purpose, types, and basic concepts in the context of web development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology",
+        "description": "An introduction to the basic terminology used in the IndexedDB API for client-side storage in web applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/mysql/mysql_rdbms.asp",
+        "description": "An introductory guide to understanding the fundamentals of MySQL and relational database management systems (RDBMS)."
+      },
+      {
+        "url": "https://www.w3schools.com/sql/sql_intro.asp",
+        "description": "Introduction to SQL, covering basic concepts and commands for managing and querying databases."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/sql/sql-tutorial/",
+        "description": "A comprehensive tutorial for learning SQL, covering basic to advanced concepts and practical examples."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/relational-database-course-sql-reference-object-reset-issue/585078",
+        "description": "Discussion on resolving an issue with resetting SQL reference objects in FreeCodeCamp's relational database course."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/relational-database-course-stuck-on-learn-relational-databases-by-building-a-mario-database-module/490759",
+        "description": "A forum discussion addressing issues and solutions for learners stuck on the \"Learn Relational Databases by Building a Mario Database\" module in a FreeCodeCamp course."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+      "https://www.youtube.com/watch?v=zsjvFFKOm3c",
+      "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+      "https://www.youtube.com/watch?v=kbKty5ZVKMY",
+      "https://www.youtube.com/watch?v=3s0lFtUrhSQ"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary goal of database normalization?",
+      "options": [
+        "To increase data redundancy",
+        "To ensure data integrity and reduce redundancy",
+        "To make databases larger",
+        "To decrease database performance"
+      ],
+      "correct_option": 1,
+      "hint": "Normalization aims to improve the structure of the database."
+    },
+    {
+      "question": "Which SQL command is used to remove records from a table?",
+      "options": [
+        "SELECT",
+        "INSERT",
+        "DELETE",
+        "UPDATE"
+      ],
+      "correct_option": 2,
+      "hint": "This command permanently removes data from a table."
+    },
+    {
+      "question": "Which of the following is a popular open-source relational database management system?",
+      "options": [
+        "Oracle",
+        "PostgreSQL",
+        "MongoDB",
+        "SQLite"
+      ],
+      "correct_option": 1,
+      "hint": "This system is known for its powerful features and open-source nature."
+    },
+    {
+      "question": "In SQL, which keyword is used to extract only unique records from a result set?",
+      "options": [
+        "UNIQUE",
+        "DISTINCT",
+        "LIMIT",
+        "GROUP BY"
+      ],
+      "correct_option": 1,
+      "hint": "This keyword is often used to prevent duplicates in the output."
+    },
+    {
+      "question": "What is the correct SQL statement to update data in a table?",
+      "options": [
+        "ALTER TABLE",
+        "UPDATE TABLE",
+        "UPDATE",
+        "MODIFY"
+      ],
+      "correct_option": 2,
+      "hint": "This command changes existing records in a table."
+    }
+  ]
+}

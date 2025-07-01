@@ -1,0 +1,190 @@
+{
+  "id": "BE12",
+  "name": "Serverless Architectures",
+  "category": "Backend Development",
+  "primary_tech": "Serverless",
+  "topics": [
+    "FaaS (Functions-as-a-Service)",
+    "AWS Lambda/Google Cloud Functions",
+    "Serverless Framework/SAM"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "serverless",
+    "cloud",
+    "event-driven"
+  ],
+  "alternatives": [
+    {
+      "tech": "Cloud Run (Google Cloud)",
+      "reason": "Managed serverless platform for containerized applications",
+      "tags": [
+        "serverless",
+        "containers"
+      ],
+      "preferred_if": [
+        "User wants to deploy containers as serverless functions"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is Google Cloud Run primarily used for?",
+          "options": [
+            "Deploying virtual machines",
+            "Hosting static websites",
+            "Running containerized applications in a serverless environment",
+            "Managing databases"
+          ],
+          "correct_option": 2,
+          "hint": "It involves containers and serverless architecture."
+        },
+        {
+          "question": "Which of the following is a key benefit of using Google Cloud Run?",
+          "options": [
+            "Requires manual server management",
+            "Provides automatic scaling based on request volume",
+            "Only supports Java applications",
+            "Requires extensive server configuration"
+          ],
+          "correct_option": 1,
+          "hint": "Think about how serverless platforms handle traffic."
+        },
+        {
+          "question": "What is a primary difference between Google Cloud Run and a traditional server-based architecture?",
+          "options": [
+            "Cloud Run requires a fixed number of servers",
+            "Cloud Run automatically scales with demand",
+            "Traditional servers are more cost-effective",
+            "Cloud Run only supports Python applications"
+          ],
+          "correct_option": 1,
+          "hint": "Consider how server resources are allocated and managed."
+        },
+        {
+          "question": "Which type of applications are best suited for deployment on Google Cloud Run?",
+          "options": [
+            "Monolithic applications",
+            "Applications requiring user-managed infrastructure",
+            "Containerized applications",
+            "Applications with predictable, constant load"
+          ],
+          "correct_option": 2,
+          "hint": "Remember the focus on serverless and containers."
+        },
+        {
+          "question": "How does Google Cloud Run handle incoming traffic?",
+          "options": [
+            "By manually adjusting server capacity",
+            "By queuing requests until servers are available",
+            "By automatically scaling the number of instances based on demand",
+            "By limiting the number of concurrent users"
+          ],
+          "correct_option": 2,
+          "hint": "Think about scalability in serverless environments."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/",
+          "https://reactjs.org/",
+          "https://developer.mozilla.org/pong/click?code=aHR0cHM6Ly9zcnYuYnV5c2VsbGFkcy5jb20vYWRzL2NsaWNrL3gvR1RORDQyN01DNjdENEtKSUZUWUxZS1FVQ1dZSTVLN0lDWTdJTFozSkNBQkk0NTNORjZZSVZLM0tDQTdEQzIzRUM2U0k2NTNMQzY3REMyM0lDQVlJS1ozSkNBQkk0S0pJQ1RBRFRLM0sySldOQUJZ.IbcpS4VuxO5yQtwo7cEfbWz0spq09RBy7L81oAA1xvU%3D&version=2"
+        ],
+        "notes": [
+          "https://www.freecodecamp.org/news/how-to-setup-laravel-6-on-google-cloud-run-with-continuous-integration-ci-step-by-step/",
+          "https://www.geeksforgeeks.org/devops/compute-engine-vs-cloud-run/",
+          "https://www.geeksforgeeks.org/devops/setting-up-flask-applications-in-google-cloud-run/",
+          "https://www.geeksforgeeks.org/cloud-computing/google-cloud-run-working-with-python/",
+          "https://www.geeksforgeeks.org/compute-engine-vs-cloud-run/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=v4c6yFk-Pto",
+          "https://www.youtube.com/watch?v=RV6wTVN7Z98",
+          "https://www.youtube.com/watch?v=T63x3ExTLrQ",
+          "https://www.youtube.com/watch?v=fw6NMQrYc6w",
+          "https://www.youtube.com/watch?v=2CHXNWiREBE"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://reactjs.org/docs/create-a-new-react-app.html",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model",
+      "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+    ],
+    "notes": [
+      "https://www.w3schools.com/aws/serverless/index.php",
+      "https://www.geeksforgeeks.org/system-design/serverless-architectures/",
+      "https://www.geeksforgeeks.org/system-design/server-vs-serverless-architecture/",
+      "https://www.freecodecamp.org/news/serverless-node-js-tutorial/",
+      "https://www.geeksforgeeks.org/system-design/monolithic-vs-microservice-vs-serverless-architectures-system-design/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=qQk94CjRvIs",
+      "https://www.youtube.com/watch?v=5rG-YgTHMC8",
+      "https://www.youtube.com/watch?v=hCCMri3jFAo",
+      "https://www.youtube.com/watch?v=eOBq__h4OJ4",
+      "https://www.youtube.com/watch?v=RBbuERSRU1k"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which of the following best describes the purpose of FaaS in serverless architectures?",
+      "options": [
+        "To host virtual machines",
+        "To execute code in response to events",
+        "To provide persistent storage",
+        "To manage user authentication"
+      ],
+      "correct_option": 1,
+      "hint": "Think about the role of functions in event-driven computing."
+    },
+    {
+      "question": "What is a major advantage of using AWS Lambda for deploying serverless applications?",
+      "options": [
+        "It requires no upfront cost for server setup",
+        "It provides unlimited execution time",
+        "It guarantees zero latency",
+        "It allows hosting of virtual desktops"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the cost benefits associated with infrastructure management."
+    },
+    {
+      "question": "When using Google Cloud Functions, which of the following triggers can NOT be used to invoke a function?",
+      "options": [
+        "HTTP requests",
+        "Cloud Pub/Sub messages",
+        "Direct database queries",
+        "Cloud Storage changes"
+      ],
+      "correct_option": 2,
+      "hint": "Think about which triggers are commonly event-driven."
+    },
+    {
+      "question": "Which tool is used to define, deploy, and manage serverless applications specifically on AWS?",
+      "options": [
+        "Terraform",
+        "Serverless Framework",
+        "AWS CloudFormation",
+        "AWS SAM"
+      ],
+      "correct_option": 3,
+      "hint": "Consider the tool that is AWS-specific and intended for serverless applications."
+    },
+    {
+      "question": "What is a key characteristic of the Serverless Framework?",
+      "options": [
+        "It only supports AWS Lambda",
+        "It requires extensive server management",
+        "It allows multi-cloud deployments",
+        "It is a desktop application"
+      ],
+      "correct_option": 2,
+      "hint": "Think about the flexibility of deploying across different cloud providers."
+    }
+  ]
+}

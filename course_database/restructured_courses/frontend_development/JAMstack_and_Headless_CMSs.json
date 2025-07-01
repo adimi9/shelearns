@@ -1,0 +1,119 @@
+{
+  "id": "FE4",
+  "name": "JAMstack & Headless CMSs",
+  "category": "Frontend Development",
+  "primary_tech": "JAMstack",
+  "topics": [
+    "Static Site Generators",
+    "Integrating Headless CMS",
+    "Deployment"
+  ],
+  "recommended": false,
+  "tags": [
+    "static",
+    "cms",
+    "deployment"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://jamstack.org/headless-cms/",
+        "description": "An overview of headless CMS options and their benefits within the JAMstack ecosystem."
+      },
+      {
+        "url": "https://forum.ghost.org/t/ghost-headless-hosted/19981",
+        "description": "Discussion on using Ghost as a headless CMS while hosting the frontend separately."
+      },
+      {
+        "url": "https://gridsome.org/",
+        "description": "Gridsome is a Vue.js-powered static site generator for building fast, modern websites and applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/what-is-headless-cms-explained/",
+        "description": "An introduction to headless CMS, explaining its architecture, benefits, and use cases."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/what-is-the-jamstack-and-how-do-i-host-my-website-on-it/",
+        "description": "An introduction to the JAMstack architecture and a guide on hosting websites using it."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/traditional-cms-vs-headless-cms/",
+        "description": "This resource compares traditional CMS with headless CMS, highlighting their differences, advantages, and use cases."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/chose-a-cms-wordpress-vs-shopify-vs-ghost/",
+        "description": "A comparative guide to choosing the right CMS by evaluating WordPress, Shopify, and Ghost."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/top-web-development-trends/",
+        "description": "An overview of the latest trends and innovations shaping the future of web development."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=aDFgrOlHR_s",
+      "https://www.youtube.com/watch?v=FCxFk9WUEL4",
+      "https://www.youtube.com/watch?v=EmxEQKdK404",
+      "https://www.youtube.com/watch?v=oUoFmurl71k",
+      "https://www.youtube.com/watch?v=WSLJIy-XYGg"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What does the 'J' in JAMstack stand for?",
+      "options": [
+        "Java",
+        "JavaScript",
+        "JQuery",
+        "JSON"
+      ],
+      "correct_option": 1,
+      "hint": "It's a popular programming language used for web development."
+    },
+    {
+      "question": "Which of the following is a common benefit of using Static Site Generators?",
+      "options": [
+        "Real-time data processing",
+        "Increased security",
+        "Built-in database support",
+        "Complex server infrastructure"
+      ],
+      "correct_option": 1,
+      "hint": "Static sites have fewer points of vulnerability compared to dynamic sites."
+    },
+    {
+      "question": "What is the primary role of a Headless CMS in a JAMstack architecture?",
+      "options": [
+        "To serve as a database",
+        "To provide a user interface for developers",
+        "To manage and deliver content via API",
+        "To handle server-side rendering"
+      ],
+      "correct_option": 2,
+      "hint": "Think about how content is delivered in a decoupled architecture."
+    },
+    {
+      "question": "Which platform is commonly used for deploying JAMstack sites?",
+      "options": [
+        "AWS Lambda",
+        "Heroku",
+        "Netlify",
+        "Microsoft Azure"
+      ],
+      "correct_option": 2,
+      "hint": "This platform offers continuous deployment and a CDN for static sites."
+    },
+    {
+      "question": "For an advanced user, what is a key principle of JAMstack that differentiates it from traditional web architectures?",
+      "options": [
+        "Server-side scripting",
+        "Client-side rendering",
+        "Separation of front-end and back-end",
+        "Multi-page applications"
+      ],
+      "correct_option": 2,
+      "hint": "Think about the decoupling of the presentation layer from the backend logic."
+    }
+  ]
+}

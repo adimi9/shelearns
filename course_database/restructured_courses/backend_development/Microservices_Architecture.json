@@ -1,0 +1,119 @@
+{
+  "id": "BE22",
+  "name": "Microservices Architecture",
+  "category": "Backend Development",
+  "primary_tech": "Microservices",
+  "topics": [
+    "Monolith vs. Microservices",
+    "Service Communication (REST/gRPC)",
+    "Service Discovery & API Gateway"
+  ],
+  "recommended": true,
+  "tags": [
+    "architecture",
+    "distributed-systems",
+    "scalability"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://nodejs.org/docs/latest/api/",
+        "description": "The Node.js API documentation provides detailed information on the core modules and features available in the latest version of Node.js."
+      },
+      {
+        "url": "https://reactjs.org/",
+        "description": "The official React documentation site provides comprehensive guides and resources for building user interfaces with the React JavaScript library."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+        "description": "The Fetch API documentation provides detailed information on using the Fetch API to make network requests in web applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/system-design/microservices/",
+        "description": "An introduction to microservices architecture, detailing its principles, benefits, and implementation strategies."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/java-microservices/",
+        "description": "An introductory guide explaining the concepts, benefits, and implementation of Java microservices architecture."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/microservice-architecture-introduction-challenges-best-practices/",
+        "description": "An introduction to microservice architecture, detailing its challenges and best practices."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/java-spring-boot-microservices-example-step-by-step-guide/",
+        "description": "A step-by-step guide to building Java Spring Boot microservices with practical examples."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/how-to-build-a-microservices-architecture-with-nodejs/",
+        "description": "A guide on building a microservices architecture using Node.js, covering key concepts and implementation steps."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=lL_j7ilk7rc",
+      "https://www.youtube.com/watch?v=lTAcCNbJ7KE",
+      "https://www.youtube.com/watch?v=rv4LlmLmVWk",
+      "https://www.youtube.com/watch?v=tuJqH3AV0e8",
+      "https://www.youtube.com/watch?v=iWJzmV0xRVE"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a key difference between monolithic and microservices architecture?",
+      "options": [
+        "Monolithic architecture involves splitting applications into smaller services",
+        "Microservices architecture has tightly coupled components",
+        "Monolithic architecture is easier to scale than microservices",
+        "Microservices architecture allows independent deployment of services"
+      ],
+      "correct_option": 3,
+      "hint": "Consider the independence and scalability of services."
+    },
+    {
+      "question": "Which communication protocol is most commonly associated with service-to-service communication in microservices?",
+      "options": [
+        "SOAP",
+        "gRPC",
+        "FTP",
+        "SMTP"
+      ],
+      "correct_option": 1,
+      "hint": "It's a modern protocol designed for high-performance communication."
+    },
+    {
+      "question": "What role does an API Gateway play in a microservices architecture?",
+      "options": [
+        "It directly connects databases to services",
+        "It manages requests from clients and routes them to the appropriate service",
+        "It stores data for microservices",
+        "It provides user authentication and authorization only"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how requests are managed and directed in a microservices setup."
+    },
+    {
+      "question": "In the context of service discovery, what is a critical feature that ensures microservices can find each other?",
+      "options": [
+        "Static IP addresses",
+        "Hard-coded service routes",
+        "Dynamic registration and deregistration of services",
+        "Manual update of service lists"
+      ],
+      "correct_option": 2,
+      "hint": "Consider how services dynamically appear and disappear in a network."
+    },
+    {
+      "question": "Which technology is NOT typically used in microservices architecture for communication?",
+      "options": [
+        "REST",
+        "gRPC",
+        "SMTP",
+        "GraphQL"
+      ],
+      "correct_option": 2,
+      "hint": "Focus on communication protocols that are suitable for human-readable message exchange."
+    }
+  ]
+}

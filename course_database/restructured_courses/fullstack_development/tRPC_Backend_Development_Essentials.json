@@ -1,0 +1,129 @@
+{
+  "id": "FS20",
+  "name": "tRPC Backend Development Essentials",
+  "category": "FullStack Development",
+  "primary_tech": "tRPC",
+  "topics": [
+    "Introduction to tRPC and Remote Procedure Calls",
+    "Setting Up a TypeScript Project for tRPC",
+    "Building a Simple tRPC API",
+    "Handling Data with tRPC Procedures",
+    "Error Handling and Middleware in tRPC",
+    "Advanced tRPC Concepts and Patterns",
+    "Deploying tRPC Applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "trpc",
+    "typescript",
+    "rpc",
+    "backend-development",
+    "api-design"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon",
+        "description": "The page provides documentation on the `sendBeacon` method, which is used to send asynchronous HTTP requests to a web server."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift",
+        "description": "The MDN Web Docs page provides detailed information on the JavaScript Array `unshift()` method, which adds one or more elements to the beginning of an array and returns the new length."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/412",
+        "description": "This page provides detailed information on the HTTP 412 Precondition Failed status code, explaining its usage and implications in web communications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/what-is-trpc/",
+        "description": "An introduction to tRPC, explaining its purpose and benefits for building typesafe APIs in full-stack TypeScript applications."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/build-an-invoice-saas-app-with-next-js-and-neon-postgres/",
+        "description": "Learn how to build a SaaS invoice application using Next.js and Neon Postgres through a step-by-step guide."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/a-10x-faster-typescript/",
+        "description": "This resource provides insights and techniques for optimizing TypeScript code to achieve a tenfold increase in performance."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/typescript/a-10x-faster-typescript/",
+        "description": "A guide on optimizing TypeScript code to achieve a tenfold increase in performance."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/how-to-install-eslint-in-vs-code/727745",
+        "description": "A step-by-step guide on installing and configuring ESLint in Visual Studio Code."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=UfUbBWIFdJs",
+      "https://www.youtube.com/watch?v=GuzZN-4kc3w",
+      "https://www.youtube.com/watch?v=YkOSUVzOAA4",
+      "https://www.youtube.com/watch?v=VedrpVSstSY",
+      "https://m.youtube.com/watch?v=XY8zyvxFvqM&pp=ygUNI2pzY291cnNlMjAyMw%3D%3D"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of using tRPC in a TypeScript application?",
+      "options": [
+        "To provide runtime type-checking",
+        "To create end-to-end type-safe APIs",
+        "To improve database performance",
+        "To enhance UI rendering capabilities"
+      ],
+      "correct_option": 1,
+      "hint": "It focuses on ensuring type-safety across different layers of the application."
+    },
+    {
+      "question": "Which framework is tRPC notably popular with?",
+      "options": [
+        "Angular",
+        "React Native",
+        "Next.js",
+        "Vue.js"
+      ],
+      "correct_option": 2,
+      "hint": "This framework is known for server-side rendering and is built on top of React."
+    },
+    {
+      "question": "How does tRPC achieve type-safety across client and server?",
+      "options": [
+        "By using JSON schema validation",
+        "By sharing TypeScript types between client and server",
+        "By enforcing runtime validation rules",
+        "By converting TypeScript to JavaScript"
+      ],
+      "correct_option": 1,
+      "hint": "It leverages TypeScript's type system to ensure consistency."
+    },
+    {
+      "question": "Which of the following is NOT a feature of tRPC?",
+      "options": [
+        "Automatic endpoint generation",
+        "End-to-end type safety",
+        "GraphQL schema generation",
+        "Integration with Next.js"
+      ],
+      "correct_option": 2,
+      "hint": "tRPC is an alternative to this technology and does not generate its schema."
+    },
+    {
+      "question": "In which layer of a full-stack application would you use tRPC?",
+      "options": [
+        "Database layer",
+        "Backend API layer",
+        "Frontend UI layer",
+        "Operating system layer"
+      ],
+      "correct_option": 1,
+      "hint": "tRPC is used to define and handle communication between client and server."
+    }
+  ],
+  "preferred_if": [
+    "User is building a full-stack TypeScript application",
+    "Values strong type-safety across layers"
+  ]
+}

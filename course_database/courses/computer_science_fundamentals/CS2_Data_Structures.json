@@ -1,0 +1,101 @@
+{
+  "id": "CS2",
+  "name": "Data Structures",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Data Structures",
+  "topics": [
+    "Arrays & Linked Lists",
+    "Stacks & Queues",
+    "Trees (Binary, BST, AVL)",
+    "Hash Tables"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "algorithms",
+    "data",
+    "problem-solving"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Data_structures",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+      "https://developer.mozilla.org/en-US/docs/Glossary/Data_structure"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/data-structures/",
+      "https://www.w3schools.com/dsa/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.w3schools.com/java/java_data_structures.asp",
+      "https://www.w3schools.com/dsa/dsa_intro.php"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=8hly31xKli0",
+      "https://www.youtube.com/watch?v=DuDz6B4cqVc",
+      "https://www.youtube.com/watch?v=oz9cEqFynHU",
+      "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+      "https://www.youtube.com/watch?v=jQqQpPMYPXs"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which data structure allows for constant time complexity O(1) for access by index?",
+      "options": [
+        "Linked List",
+        "Array",
+        "Stack",
+        "Queue"
+      ],
+      "correct_option": 1,
+      "hint": "Think of a data structure where elements are stored in contiguous memory locations."
+    },
+    {
+      "question": "What is the primary advantage of a linked list over an array?",
+      "options": [
+        "Faster access to elements by index",
+        "Dynamic size adjustment",
+        "Random access capability",
+        "Requires less memory"
+      ],
+      "correct_option": 1,
+      "hint": "Consider which data structure can easily grow or shrink in size."
+    },
+    {
+      "question": "In which scenario would you use a stack data structure?",
+      "options": [
+        "Tracking the browser history",
+        "Implementing a priority queue",
+        "Managing a list of tasks",
+        "Searching an element in a hash table"
+      ],
+      "correct_option": 0,
+      "hint": "Think about the last-in, first-out (LIFO) principle."
+    },
+    {
+      "question": "Which data structure is most suitable for implementing a breadth-first search algorithm?",
+      "options": [
+        "Stack",
+        "Array",
+        "Queue",
+        "Linked List"
+      ],
+      "correct_option": 2,
+      "hint": "Consider a data structure that follows the first-in, first-out (FIFO) principle."
+    },
+    {
+      "question": "What is the primary advantage of using a hash table?",
+      "options": [
+        "Sorted elements",
+        "Faster searching",
+        "Efficient memory usage",
+        "Maintains order of insertion"
+      ],
+      "correct_option": 1,
+      "hint": "Think about the time complexity for search, insert, and delete operations."
+    }
+  ]
+}

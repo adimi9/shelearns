@@ -1,0 +1,129 @@
+{
+  "id": "FE26",
+  "name": "Bootstrap for Backend Developers",
+  "category": "Frontend Development",
+  "primary_tech": "Bootstrap",
+  "topics": [
+    "Introduction to Bootstrap and its role in web development",
+    "Understanding Bootstrap's Grid System for responsive design",
+    "Implementing Bootstrap components for UI consistency",
+    "Customizing Bootstrap themes to fit backend applications",
+    "Integrating Bootstrap with popular backend frameworks",
+    "Optimizing Bootstrap for performance in backend applications",
+    "Managing dependencies and version control with Bootstrap",
+    "Responsive design best practices using Bootstrap"
+  ],
+  "recommended": false,
+  "tags": [
+    "bootstrap",
+    "responsive-design",
+    "css-framework",
+    "web-development",
+    "front-end-integration"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
+        "description": "A comprehensive guide on using Accessible Rich Internet Applications (ARIA) to enhance web accessibility."
+      },
+      {
+        "url": "https://reactjs.org/",
+        "description": "The official React documentation website provides comprehensive guides, tutorials, and API references for building user interfaces with React."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-controls",
+        "description": "The page provides detailed information about the ARIA 'aria-controls' attribute, which is used to indicate the element that controls the current element's content."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/bootstrap5/",
+        "description": "A comprehensive guide for learning and implementing Bootstrap 5, including tutorials, examples, and references."
+      },
+      {
+        "url": "https://www.w3schools.com/bootstrap/",
+        "description": "Comprehensive tutorials and examples for learning and implementing Bootstrap, a popular front-end web development framework."
+      },
+      {
+        "url": "https://www.w3schools.com/bootstrap4/",
+        "description": "This resource provides comprehensive tutorials and examples for learning and using Bootstrap 4 for responsive web design."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/bootstrap/bootstrap-tutorial/",
+        "description": "A comprehensive tutorial on Bootstrap, covering its features and how to use it for responsive web design."
+      },
+      {
+        "url": "https://www.w3schools.com/bootstrap/bootstrap_get_started.asp",
+        "description": "A beginner's guide to getting started with Bootstrap, including setup instructions and basic usage tips."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=Jyvffr3aCp0",
+      "https://m.youtube.com/watch?v=4sosXZsdy-s&t=155s",
+      "https://www.youtube.com/watch?v=5GcQtLDGXy8",
+      "https://www.youtube.com/watch?v=-qfEOE4vtxE&pp=0gcJCfwAo7VqN5tD",
+      "https://www.youtube.com/watch?v=O_9u1P5YjVc"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is Bootstrap primarily used for in web development?",
+      "options": [
+        "Creating responsive layouts and components",
+        "Managing server-side logic",
+        "Database management",
+        "Handling client-side scripting"
+      ],
+      "correct_option": 0,
+      "hint": "Consider what Bootstrap provides to help developers design websites."
+    },
+    {
+      "question": "Which of the following is a key feature of Bootstrap?",
+      "options": [
+        "Server-side scripting capabilities",
+        "Pre-designed components and responsive grid system",
+        "Advanced animation tools",
+        "Direct database connectivity"
+      ],
+      "correct_option": 1,
+      "hint": "Think about what Bootstrap offers to help quickly build UI components."
+    },
+    {
+      "question": "Bootstrap is built on which of the following technologies?",
+      "options": [
+        "Python and Django",
+        "HTML, CSS, and JavaScript",
+        "PHP and MySQL",
+        "Ruby on Rails"
+      ],
+      "correct_option": 1,
+      "hint": "Remember the front-end technologies."
+    },
+    {
+      "question": "Which class in Bootstrap is used to create a responsive layout?",
+      "options": [
+        ".container",
+        ".card",
+        ".button",
+        ".modal"
+      ],
+      "correct_option": 0,
+      "hint": "This class helps in creating a fixed-width layout that adapts to different screen sizes."
+    },
+    {
+      "question": "How does Bootstrap help developers compared to writing custom CSS from scratch?",
+      "options": [
+        "By providing a backend framework",
+        "By offering a set of pre-styled UI components and a grid system",
+        "By allowing direct integration with databases",
+        "By providing a comprehensive JavaScript library"
+      ],
+      "correct_option": 1,
+      "hint": "Focus on what Bootstrap offers out-of-the-box for styling and layout."
+    }
+  ],
+  "preferred_if": [
+    "User prefers ready-made components"
+  ]
+}

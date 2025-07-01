@@ -1,0 +1,191 @@
+{
+  "id": "BE11",
+  "name": "Cloud Deployment & Infrastructure (IaaS)",
+  "category": "Backend Development",
+  "primary_tech": "Cloud Platforms",
+  "topics": [
+    "AWS/Azure/GCP Compute Basics (EC2, VMs)",
+    "Networking & VPCs",
+    "Managed Databases"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "cloud",
+    "devops",
+    "infrastructure"
+  ],
+  "alternatives": [
+    {
+      "tech": "Heroku",
+      "reason": "Platform-as-a-Service (PaaS) for easier deployment",
+      "tags": [
+        "PaaS",
+        "deployment"
+      ],
+      "preferred_if": [
+        "User prefers simplicity over fine-grained control",
+        "Rapid prototyping"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is a key advantage of using Heroku over traditional IaaS platforms?",
+          "options": [
+            "Greater control over hardware configurations",
+            "Simplified deployment process with no need to manage the underlying infrastructure",
+            "Ability to customize network settings",
+            "Direct access to physical servers"
+          ],
+          "correct_option": 1,
+          "hint": "Heroku abstracts away infrastructure management to simplify the deployment process."
+        },
+        {
+          "question": "Which of the following is a primary feature of Heroku?",
+          "options": [
+            "Managed virtual machines",
+            "Automated scaling and integrated add-ons",
+            "Direct SSH access to servers",
+            "Custom server operating systems"
+          ],
+          "correct_option": 1,
+          "hint": "Heroku is known for its ease of use and integration with various add-ons to extend functionality."
+        },
+        {
+          "question": "For which type of project is Heroku particularly well-suited?",
+          "options": [
+            "Projects requiring extensive hardware customization",
+            "Rapid prototyping and development",
+            "Projects needing direct access to server hardware",
+            "High-performance computing tasks"
+          ],
+          "correct_option": 1,
+          "hint": "Heroku is designed to streamline the development process, making it ideal for quick iterations."
+        },
+        {
+          "question": "Why might a developer choose Heroku instead of managing their own infrastructure?",
+          "options": [
+            "Lower cost than all IaaS options",
+            "More control over network traffic",
+            "Less need for operational maintenance and management",
+            "Ability to host exclusively on physical servers"
+          ],
+          "correct_option": 2,
+          "hint": "By using Heroku, developers can focus more on their application rather than the infrastructure."
+        },
+        {
+          "question": "Which of these best describes Heroku's deployment model?",
+          "options": [
+            "Infrastructure as a Service (IaaS)",
+            "Platform as a Service (PaaS)",
+            "Software as a Service (SaaS)",
+            "Network as a Service (NaaS)"
+          ],
+          "correct_option": 1,
+          "hint": "Heroku provides an environment ready for deployment, abstracting the infrastructure layer."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
+          "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment",
+          "https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Extensions/Server-side/Django/Deployment"
+        ],
+        "notes": [
+          "https://www.geeksforgeeks.org/python/getting-started-on-heroku-with-python/",
+          "https://forum.freecodecamp.org/t/how-to-migrate-app-from-heroku-to-netfliy-deploy-in-netlify-from-git/352009",
+          "https://www.geeksforgeeks.org/installation-guide/introduction-and-installation-of-heroku-cli-on-windows-machine/",
+          "https://www.geeksforgeeks.org/introduction-and-installation-of-heroku-cli-on-windows-machine/",
+          "https://www.freecodecamp.org/news/how-i-cut-my-heroku-cost-by-400-5b9d0220ce13/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=TFFtDLZnbSs",
+          "https://www.youtube.com/watch?v=FSU9a8ojKFk",
+          "https://www.youtube.com/watch?v=ljrQ2NuMXKk",
+          "https://www.youtube.com/watch?v=Kl7mqpAK-bk",
+          "https://www.youtube.com/watch?v=h5wLuVDr0oc"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment",
+      "https://developer.mozilla.org/pong/click?code=aHR0cHM6Ly9lLTEwMjUwLmFkemVyay5uZXQvcj9lPWV5SjJJam9pTVM0eE1TSXNJbUYySWpveU1qZ3hNamMxTENKaGRDSTZNelk1TENKaWRDSTZNQ3dpWTIwaU9qRTBNVFE0Tmprd01pd2lZMmdpT2pNMk9EUTRMQ0pqYXlJNmUzMHNJbU55SWpveE56RXhNakU0TWpFc0ltUnBJam9pTURJNU5tWTJaREU0TldJMU5ESTRaamt5TmpRMU5HRm1OekptTW1WbE5UZ2lMQ0prYWlJNk1Dd2lhV2tpT2lKaE1USmtaVEZtT0RVMFltWTBORE0yWVRSa05qVTFZamswTUdZMU4yRTBaaUlzSW1SdElqb3pMQ0ptWXlJNk16VXhOak00TnpnMUxDSm1iQ0k2TXpReE5qWTVORGt6TENKcGNDSTZJak11TVRRMExqRTNOQzQwTXlJc0ltdDNJam9pZFhNaUxDSnRheUk2SW5Weklpd2libmNpT2pFd01qVXdMQ0p3WXlJNk55d2liM0FpT2pjc0ltVmpJam93TENKbmJTSTZNQ3dpWlhBaU9tNTFiR3dzSW5CeUlqb3hORGMxTVRnc0luSjBJam95TENKeWN5STZOVEF3TENKellTSTZJak0wSWl3aWMySWlPaUpwTFRBNFpHSmhNR1U0TWpWbVpqQmxabVU1SWl3aWMzQWlPakV6TmpNMk9Ea3NJbk4wSWpveE1qUXpNRFV5TENKMWF5STZJblZsTVMwd05ERTJZVGt5Wm1abE4yRTBZbUkzT0dRNVlXRTVOR016T0Rsa05HUTROQ0lzSW5Seklqb3hOamM1TkRjek5URTBORFE0TENKd2JpSTZJbVJwZGpBaUxDSm5ZeUk2ZEhKMVpTd2laME1pT25SeWRXVXNJbWR6SWpvaWJtOXVaU0lzSW1Saklqb3hMQ0owZWlJNklsVlVReUlzSW5WeUlqb2lhSFIwY0hNNkx5OTNkM2N1YVc5dWIzTXVZMjl0TDJOc2IzVmtMMk5zYjNWa0xYTmxjblpsY25NdlAybDBZejFCTVRCSVVrUlpOUzFFVjBkUU1VWXRVazlFVTA5VlR5WmhZejFQVFM1VlV5NVZVemc1TUVzME1qZzJPREpVTnpBM00yRW1kWFJ0WDNOdmRYSmpaVDFDVTBFeU15WjFkRzFmYldWa2FYVnRQV1JwYzNCc1lYa21kWFJ0WDJOaGJYQmhhV2R1UFZCVVRpMVZVeTFOU1ZndFQwMUJXQzFGV0ZRdFFWZFNMUzB0Sm1sdFlXZGxQU1oxZEcxZlkyOXVkR1Z1ZEQxdGIzcHBiR3hoWkdWc2IzQmxjazVsZEhkdmNtdHVZWFJwZG1VaWZRJnM9b19odHpueWlJd1FSTWdkU0N6dXlQcFFuV2RV.LxrVVCsz5u6BjkP%2Fi6MwIX7TPlwUg51tR2e3r61MLCM%3D"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/cloud-computing/infrastructure-as-a-service-iaas/",
+      "https://www.geeksforgeeks.org/computer-science-fundamentals/cloud-deployment-models/",
+      "https://www.geeksforgeeks.org/software-engineering/difference-between-iaas-paas-and-saas/",
+      "https://www.geeksforgeeks.org/cloud-computing/types-of-cloud/",
+      "https://www.geeksforgeeks.org/cloud-computing/cloud-based-services/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=36zducUX16w",
+      "https://www.youtube.com/watch?v=M988_fsOSWo",
+      "https://www.youtube.com/watch?v=ePC41pJH1vU",
+      "https://www.youtube.com/watch?v=9CVBohl6w0Q",
+      "https://www.youtube.com/watch?v=N0SYCyS2xZA"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is Amazon EC2 primarily used for?",
+      "options": [
+        "Object storage",
+        "Virtual server hosting",
+        "Database management",
+        "Content delivery"
+      ],
+      "correct_option": 1,
+      "hint": "EC2 is part of AWS's compute services."
+    },
+    {
+      "question": "Which of the following is a key feature of Virtual Private Clouds (VPCs)?",
+      "options": [
+        "Provides scalable object storage",
+        "Offers isolated network environments",
+        "Manages DNS services",
+        "Facilitates content delivery"
+      ],
+      "correct_option": 1,
+      "hint": "VPCs are designed to offer network isolation."
+    },
+    {
+      "question": "In which cloud platform would you find Azure Virtual Machines?",
+      "options": [
+        "Amazon Web Services",
+        "Google Cloud Platform",
+        "Microsoft Azure",
+        "IBM Cloud"
+      ],
+      "correct_option": 2,
+      "hint": "Azure is a cloud platform developed by Microsoft."
+    },
+    {
+      "question": "What does 'IaaS' stand for in cloud computing?",
+      "options": [
+        "Infrastructure as a Service",
+        "Internet as a Service",
+        "Integration as a Service",
+        "Interface as a Service"
+      ],
+      "correct_option": 0,
+      "hint": "IaaS provides virtualized computing resources over the internet."
+    },
+    {
+      "question": "Which service is commonly used for managed databases in Google Cloud Platform?",
+      "options": [
+        "RDS",
+        "Cloud SQL",
+        "DynamoDB",
+        "Azure SQL Database"
+      ],
+      "correct_option": 1,
+      "hint": "This service is GCP's managed relational database offering."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "CSec7",
+  "name": "Incident Response & Forensics",
+  "category": "Computer Security",
+  "primary_tech": "Incident Response",
+  "topics": [
+    "Incident Response Lifecycle (Preparation, Detection, Analysis, Containment, Eradication, Recovery)",
+    "Digital Forensics Basics",
+    "Log Analysis",
+    "Malware Triage"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "forensics",
+    "post-breach",
+    "analysis"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript"
+    ],
+    "notes": [
+      "https://www.w3schools.com/cybersecurity/cybersecurity_incident_response.php",
+      "https://www.geeksforgeeks.org/computer-networks/incident-management-in-cyber-security/",
+      "https://www.w3schools.com/cybersecurity/",
+      "https://www.geeksforgeeks.org/operating-systems/volatile-data-collection-from-window-system/",
+      "https://www.geeksforgeeks.org/computer-science-fundamentals/cyber-forensics/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=X9FTyy7owwc",
+      "https://www.youtube.com/watch?v=2BOOl8_nwjQ",
+      "https://www.youtube.com/watch?v=-v94RHNOi-U",
+      "https://www.youtube.com/watch?v=8Q8sMEvXqso",
+      "https://www.youtube.com/watch?v=YZSM3YPn998"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the first phase of the Incident Response Lifecycle?",
+      "options": [
+        "Detection",
+        "Preparation",
+        "Containment",
+        "Recovery"
+      ],
+      "correct_option": 1,
+      "hint": "It involves establishing an incident response plan and building the necessary infrastructure."
+    },
+    {
+      "question": "Which phase of the Incident Response Lifecycle involves identifying and confirming incidents?",
+      "options": [
+        "Analysis",
+        "Detection",
+        "Preparation",
+        "Recovery"
+      ],
+      "correct_option": 1,
+      "hint": "This phase comes after preparation and before analysis."
+    },
+    {
+      "question": "In digital forensics, what is the primary purpose of maintaining a chain of custody?",
+      "options": [
+        "To ensure evidence is analyzed promptly",
+        "To minimize the risk of data breach",
+        "To preserve the integrity of evidence",
+        "To speed up the investigation process"
+      ],
+      "correct_option": 2,
+      "hint": "It is crucial for maintaining the legal integrity of the evidence."
+    },
+    {
+      "question": "During which phase of the Incident Response Lifecycle is the root cause of the incident removed?",
+      "options": [
+        "Containment",
+        "Eradication",
+        "Analysis",
+        "Recovery"
+      ],
+      "correct_option": 1,
+      "hint": "This phase deals with eliminating the threat from the environment."
+    },
+    {
+      "question": "What is the primary goal of malware triage in incident response?",
+      "options": [
+        "To restore affected systems to operational status",
+        "To classify and prioritize malware samples for analysis",
+        "To prevent future incidents",
+        "To detect malware on network devices"
+      ],
+      "correct_option": 1,
+      "hint": "This process helps in managing multiple malware incidents efficiently."
+    }
+  ]
+}

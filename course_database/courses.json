@@ -1,0 +1,3049 @@
+[
+  {
+    "id": "FE1",
+    "name": "HTML & CSS Foundations",
+    "category": "Frontend Development",
+    "primary_tech": [
+      "HTML",
+      "CSS"
+    ],
+    "topics": [
+      "HTML Syntax & Semantics",
+      "CSS Box Model & Layout",
+      "Responsive Design"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "markup",
+      "styling",
+      "fundamentals"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FE2",
+    "name": "Modern JavaScript (ES6+)",
+    "category": "Frontend Development",
+    "primary_tech": "JavaScript",
+    "topics": [
+      "Variables, Scoping, Functions",
+      "ES6 Features",
+      "Async JS, Promises, Fetch API"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "programming",
+      "fundamentals",
+      "language"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FE3",
+    "name": "React.js Essentials",
+    "category": "Frontend Development",
+    "primary_tech": "React.js",
+    "topics": [
+      "JSX, Components, Props & State",
+      "Hooks & Lifecycle",
+      "Context API, Redux"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "framework",
+      "SPA",
+      "component-based"
+    ],
+    "alternatives": [
+      {
+        "tech": "Vue.js",
+        "reason": "Easier learning curve for building SPAs",
+        "tags": [
+          "framework",
+          "SPA",
+          "Vue-based"
+        ],
+        "preferred_if": [
+          "User prefers Vue syntax"
+        ]
+      },
+      {
+        "tech": "Svelte",
+        "reason": "Lightweight reactive framework",
+        "tags": [
+          "framework",
+          "SPA",
+          "Svelte-based"
+        ],
+        "preferred_if": [
+          "User wants minimal setup"
+        ]
+      },
+      {
+        "tech": "Solid.js",
+        "reason": "Fast reactive framework with fine-grained reactivity",
+        "tags": [
+          "framework",
+          "SPA"
+        ],
+        "preferred_if": [
+          "User wants React-like but faster"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FE4",
+    "name": "Next.js for Beginners",
+    "category": "Frontend Development",
+    "primary_tech": "Next.js",
+    "topics": [
+      "Pages & Routing",
+      "Server-Side Rendering",
+      "API Routes & Middleware"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "framework",
+      "SSR",
+      "React-based",
+      "fullstack"
+    ],
+    "alternatives": [
+      {
+        "tech": "Nuxt.js",
+        "reason": "SSR framework for Vue.js",
+        "tags": [
+          "framework",
+          "SSR",
+          "Vue-based"
+        ],
+        "preferred_if": [
+          "User prefers Vue.js over React"
+        ]
+      },
+      {
+        "tech": "Remix",
+        "reason": "Modern fullstack React framework focused on web fundamentals",
+        "tags": [
+          "framework",
+          "SSR",
+          "React-based"
+        ],
+        "preferred_if": [
+          "User wants modern SSR alternative to Next.js"
+        ]
+      },
+      {
+        "tech": "SvelteKit",
+        "reason": "Fullstack framework for Svelte with SSR support",
+        "tags": [
+          "framework",
+          "SSR",
+          "Svelte-based"
+        ],
+        "preferred_if": [
+          "User prefers Svelte ecosystem"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FE5",
+    "name": "Angular Basics",
+    "category": "Frontend Development",
+    "primary_tech": "Angular",
+    "topics": [
+      "TypeScript in Angular",
+      "Components & Templates",
+      "RxJS & Services"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "framework",
+      "SPA",
+      "TypeScript-based"
+    ],
+    "alternatives": [
+      {
+        "tech": "React.js",
+        "reason": "Simpler, more flexible SPA framework",
+        "tags": [
+          "framework",
+          "SPA"
+        ],
+        "preferred_if": [
+          "User wants more flexibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FE6",
+    "name": "Web Accessibility (a11y)",
+    "category": "Frontend Development",
+    "primary_tech": "Accessibility Standards",
+    "topics": [
+      "Semantic HTML",
+      "ARIA & Screen Readers",
+      "Testing Accessibility"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "accessibility",
+      "a11y",
+      "compliance"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FE7",
+    "name": "Tailwind CSS & Utility-First Design",
+    "category": "Frontend Development",
+    "primary_tech": "Tailwind CSS",
+    "topics": [
+      "Utility Classes",
+      "Custom Themes",
+      "Responsive + Dark Mode"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "styling",
+      "utility-first",
+      "responsive"
+    ],
+    "alternatives": [
+      {
+        "tech": "Bootstrap",
+        "reason": "Popular UI component framework",
+        "tags": [
+          "styling",
+          "UI framework"
+        ],
+        "preferred_if": [
+          "User prefers ready-made components"
+        ]
+      },
+      {
+        "tech": "Chakra UI",
+        "reason": "Accessible component library for React",
+        "tags": [
+          "styling",
+          "UI framework",
+          "React-based"
+        ],
+        "preferred_if": [
+          "User prefers styled components and accessibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FE8",
+    "name": "Responsive Web Design Mastery",
+    "category": "Frontend Development",
+    "primary_tech": "CSS Responsive Design",
+    "topics": [
+      "Media Queries",
+      "Flexbox & Grid",
+      "Mobile-First & Viewport"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "responsive",
+      "CSS",
+      "layout"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FE9",
+    "name": "Web Animations & Interactivity",
+    "category": "Frontend Development",
+    "primary_tech": "GSAP",
+    "topics": [
+      "CSS Transitions & Transforms",
+      "JavaScript Animations",
+      "GSAP / Framer Motion"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "animation",
+      "UX",
+      "motion"
+    ],
+    "alternatives": [
+      {
+        "tech": "React Spring",
+        "reason": "Lightweight animation library for React",
+        "tags": [
+          "animation",
+          "React-based"
+        ],
+        "preferred_if": [
+          "User uses React and wants smaller lib"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FE10",
+    "name": "Testing in Frontend Development",
+    "category": "Frontend Development",
+    "primary_tech": "Jest",
+    "topics": [
+      "Unit Testing",
+      "Component Testing",
+      "End-to-End Testing"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "testing",
+      "QA",
+      "frontend"
+    ],
+    "alternatives": [
+      {
+        "tech": "Vitest",
+        "reason": "Fast alternative test runner for modern stacks",
+        "tags": [
+          "testing",
+          "performance"
+        ],
+        "preferred_if": [
+          "User wants fast modern tool"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FE11",
+    "name": "TypeScript for Frontend",
+    "category": "Frontend Development",
+    "primary_tech": "TypeScript",
+    "topics": [
+      "Type Annotations & Interfaces",
+      "Generics",
+      "TS in React/Vue"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "typescript",
+      "typed",
+      "frontend"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FE12",
+    "name": "State Management Patterns",
+    "category": "Frontend Development",
+    "primary_tech": "Redux",
+    "topics": [
+      "Local & Global State",
+      "Redux / Zustand",
+      "Server-State Management"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "state",
+      "redux",
+      "frontend"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FE13",
+    "name": "JAMstack & Headless CMSs",
+    "category": "Frontend Development",
+    "primary_tech": "JAMstack",
+    "topics": [
+      "Static Site Generators",
+      "Integrating Headless CMS",
+      "Deployment"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "static",
+      "cms",
+      "deployment"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FE14",
+    "name": "SASS / SCSS Styling",
+    "category": "Frontend Development",
+    "primary_tech": "SASS / SCSS",
+    "topics": [
+      "Nesting & Variables",
+      "Mixins & Functions",
+      "Modular Architecture"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "css",
+      "preprocessor",
+      "styling"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FE15",
+    "name": "Progressive Web Apps (PWA)",
+    "category": "Frontend Development",
+    "primary_tech": "PWA",
+    "topics": [
+      "Service Workers",
+      "Offline Support",
+      "Web App Manifest & Installation"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "offline",
+      "web app",
+      "modern web"
+    ],
+    "alternatives": [
+      {
+        "tech": "TWA (Trusted Web Activities)",
+        "reason": "PWA wrapped for Android with deeper integration",
+        "tags": [
+          "PWA",
+          "Android"
+        ],
+        "preferred_if": [
+          "User wants native Android experience with web tech"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BE1",
+    "name": "Python for Backend Development",
+    "category": "Backend Development",
+    "primary_tech": "Python",
+    "topics": [
+      "Python Fundamentals",
+      "Object-Oriented Programming",
+      "Web Frameworks (Flask/Django basics)"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "language",
+      "fundamentals",
+      "web-development"
+    ],
+    "alternatives": [
+      {
+        "tech": "Node.js",
+        "reason": "JavaScript-based runtime for scalable network applications",
+        "tags": [
+          "JavaScript",
+          "runtime"
+        ],
+        "preferred_if": [
+          "User already knows JavaScript",
+          "Needs high performance for I/O operations"
+        ]
+      },
+      {
+        "tech": "Ruby",
+        "reason": "Developer-friendly language with Ruby on Rails framework",
+        "tags": [
+          "language",
+          "framework"
+        ],
+        "preferred_if": [
+          "User prefers convention over configuration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BE2",
+    "name": "Node.js & Express.js for APIs",
+    "category": "Backend Development",
+    "primary_tech": "Node.js",
+    "topics": [
+      "Asynchronous JavaScript",
+      "Express.js Routing & Middleware",
+      "REST API Development"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "JavaScript",
+      "API",
+      "framework"
+    ],
+    "alternatives": [
+      {
+        "tech": "NestJS",
+        "reason": "Opinionated, scalable Node.js framework built with TypeScript",
+        "tags": [
+          "TypeScript",
+          "framework"
+        ],
+        "preferred_if": [
+          "User prefers TypeScript",
+          "Building enterprise-grade applications"
+        ]
+      },
+      {
+        "tech": "Koa.js",
+        "reason": "Minimalist Node.js framework by the Express team",
+        "tags": [
+          "JavaScript",
+          "middleware"
+        ],
+        "preferred_if": [
+          "User prefers lightweight frameworks"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BE3",
+    "name": "Relational Databases with SQL",
+    "category": "Backend Development",
+    "primary_tech": "SQL",
+    "topics": [
+      "Database Design (Normalization)",
+      "SQL Queries (SELECT, INSERT, UPDATE, DELETE)",
+      "PostgreSQL/MySQL Basics"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "database",
+      "SQL",
+      "data-management"
+    ],
+    "alternatives": [
+      {
+        "tech": "MongoDB (NoSQL)",
+        "reason": "Document-based database for flexible schemas",
+        "tags": [
+          "database",
+          "NoSQL"
+        ],
+        "preferred_if": [
+          "User needs flexible, schema-less data storage"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BE4",
+    "name": "RESTful API Design & Best Practices",
+    "category": "Backend Development",
+    "primary_tech": "REST APIs",
+    "topics": [
+      "HTTP Methods & Status Codes",
+      "Resource Modeling",
+      "Versioning & Pagination"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "API",
+      "architecture",
+      "design"
+    ],
+    "alternatives": [
+      {
+        "tech": "GraphQL",
+        "reason": "Query language for your API, offering more efficient data fetching",
+        "tags": [
+          "API",
+          "query-language"
+        ],
+        "preferred_if": [
+          "User needs flexible data fetching for clients",
+          "Client-driven data requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BE5",
+    "name": "Authentication & Authorization",
+    "category": "Backend Development",
+    "primary_tech": "Security",
+    "topics": [
+      "JWT (JSON Web Tokens)",
+      "OAuth 2.0 & OpenID Connect",
+      "Password Hashing & Session Management"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "security",
+      "auth",
+      "web-security"
+    ],
+    "alternatives": [
+      {
+        "tech": "Firebase Authentication",
+        "reason": "Managed authentication service by Google",
+        "tags": [
+          "SaaS",
+          "authentication"
+        ],
+        "preferred_if": [
+          "User wants managed solution",
+          "Developing mobile/web apps quickly"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BE6",
+    "name": "Non-Relational Databases (NoSQL)",
+    "category": "Backend Development",
+    "primary_tech": "NoSQL",
+    "topics": [
+      "Document Databases (MongoDB)",
+      "Key-Value Stores (Redis)",
+      "Graph Databases (Neo4j basics)"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": false,
+    "tags": [
+      "database",
+      "NoSQL",
+      "data-modeling"
+    ],
+    "alternatives": [
+      {
+        "tech": "Cassandra",
+        "reason": "Distributed NoSQL database for high availability and scalability",
+        "tags": [
+          "NoSQL",
+          "distributed"
+        ],
+        "preferred_if": [
+          "User needs extreme scalability and high write throughput"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BE7",
+    "name": "Microservices Architecture",
+    "category": "Backend Development",
+    "primary_tech": "Microservices",
+    "topics": [
+      "Monolith vs. Microservices",
+      "Service Communication (REST/gRPC)",
+      "Service Discovery & API Gateway"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "architecture",
+      "distributed-systems",
+      "scalability"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "BE8",
+    "name": "Docker & Containerization",
+    "category": "Backend Development",
+    "primary_tech": "Docker",
+    "topics": [
+      "Dockerfile & Image Building",
+      "Container Orchestration (Docker Compose)",
+      "Container Networking & Volumes"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "devops",
+      "containerization",
+      "deployment"
+    ],
+    "alternatives": [
+      {
+        "tech": "Podman",
+        "reason": "Daemonless container engine, rootless by default",
+        "tags": [
+          "containerization",
+          "linux"
+        ],
+        "preferred_if": [
+          "User prefers a daemonless and rootless container environment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BE9",
+    "name": "GraphQL API Development",
+    "category": "Backend Development",
+    "primary_tech": "GraphQL",
+    "topics": [
+      "Schema Definition Language (SDL)",
+      "Queries, Mutations & Subscriptions",
+      "Apollo Server/Client"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "API",
+      "query-language",
+      "data-fetching"
+    ],
+    "alternatives": [
+      {
+        "tech": "tRPC",
+        "reason": "End-to-end type-safe APIs for TypeScript applications",
+        "tags": [
+          "TypeScript",
+          "API",
+          "type-safety"
+        ],
+        "preferred_if": [
+          "User is building a full-stack TypeScript application",
+          "Wants extreme type safety"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BE10",
+    "name": "Testing Backend Applications",
+    "category": "Backend Development",
+    "primary_tech": "Testing Frameworks",
+    "topics": [
+      "Unit Testing (Jest/Pytest)",
+      "Integration Testing",
+      "End-to-End Testing (Supertest/Cypress for APIs)"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "testing",
+      "QA",
+      "backend"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "BE11",
+    "name": "Cloud Deployment & Infrastructure (IaaS)",
+    "category": "Backend Development",
+    "primary_tech": "Cloud Platforms",
+    "topics": [
+      "AWS/Azure/GCP Compute Basics (EC2, VMs)",
+      "Networking & VPCs",
+      "Managed Databases"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "cloud",
+      "devops",
+      "infrastructure"
+    ],
+    "alternatives": [
+      {
+        "tech": "Heroku",
+        "reason": "Platform-as-a-Service (PaaS) for easier deployment",
+        "tags": [
+          "PaaS",
+          "deployment"
+        ],
+        "preferred_if": [
+          "User prefers simplicity over fine-grained control",
+          "Rapid prototyping"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BE12",
+    "name": "Serverless Architectures",
+    "category": "Backend Development",
+    "primary_tech": "Serverless",
+    "topics": [
+      "FaaS (Functions-as-a-Service)",
+      "AWS Lambda/Google Cloud Functions",
+      "Serverless Framework/SAM"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "serverless",
+      "cloud",
+      "event-driven"
+    ],
+    "alternatives": [
+      {
+        "tech": "Cloud Run (Google Cloud)",
+        "reason": "Managed serverless platform for containerized applications",
+        "tags": [
+          "serverless",
+          "containers"
+        ],
+        "preferred_if": [
+          "User wants to deploy containers as serverless functions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BE13",
+    "name": "Message Queues & Event-Driven Systems",
+    "category": "Backend Development",
+    "primary_tech": "Message Queues",
+    "topics": [
+      "Publish/Subscribe Patterns",
+      "RabbitMQ/Kafka Basics",
+      "Idempotency & Dead Letter Queues"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "messaging",
+      "architecture",
+      "distributed-systems"
+    ],
+    "alternatives": [
+      {
+        "tech": "AWS SQS/SNS",
+        "reason": "Managed messaging services for scalable applications",
+        "tags": [
+          "cloud",
+          "messaging"
+        ],
+        "preferred_if": [
+          "User is already on AWS and needs managed services"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BE14",
+    "name": "Caching Strategies for Backend",
+    "category": "Backend Development",
+    "primary_tech": "Caching",
+    "topics": [
+      "In-Memory Caching",
+      "Distributed Caching (Redis/Memcached)",
+      "Cache Invalidation Strategies"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "performance",
+      "optimization",
+      "scalability"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "BE15",
+    "name": "Backend Security Best Practices",
+    "category": "Backend Development",
+    "primary_tech": "Security",
+    "topics": [
+      "OWASP Top 10",
+      "Input Validation & Sanitization",
+      "Logging & Monitoring for Security"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "security",
+      "web-security",
+      "cybersecurity"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FS1",
+    "name": "FullStack Fundamentals & MERN/MEVN Stack Intro",
+    "category": "FullStack Development",
+    "primary_tech": "FullStack Concepts",
+    "topics": [
+      "Client-Server Architecture",
+      "API Communication (Frontend to Backend)",
+      "Introduction to MERN/MEVN stack components",
+      "Basic Project Setup"
+    ],
+    "levels": [
+      "Beginner"
+    ],
+    "recommended": true,
+    "tags": [
+      "fundamentals",
+      "architecture",
+      "web-development"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FS2",
+    "name": "Advanced Frontend for FullStack (React/Vue/Angular)",
+    "category": "FullStack Development",
+    "primary_tech": "Frontend Frameworks",
+    "topics": [
+      "Advanced State Management",
+      "Component Reusability & Design Systems",
+      "Optimizing Frontend Performance",
+      "Integration with Backend APIs"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "frontend",
+      "React",
+      "Vue",
+      "Angular"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FS3",
+    "name": "Backend Development with Node.js & Express.js",
+    "category": "FullStack Development",
+    "primary_tech": "Node.js",
+    "topics": [
+      "Building RESTful APIs",
+      "Middleware & Error Handling",
+      "Database Integration (MongoDB/PostgreSQL)",
+      "CRUD Operations"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "backend",
+      "Node.js",
+      "JavaScript",
+      "API"
+    ],
+    "alternatives": [
+      {
+        "tech": "Python (Django/Flask)",
+        "reason": "Popular and versatile for web development, good for rapid development and data science integrations.",
+        "tags": [
+          "Python",
+          "backend",
+          "framework"
+        ],
+        "preferred_if": [
+          "User prefers Python language",
+          "Needs strong ORM capabilities (Django)"
+        ]
+      },
+      {
+        "tech": "Ruby on Rails",
+        "reason": "Convention-over-configuration framework for efficient web development.",
+        "tags": [
+          "Ruby",
+          "backend",
+          "framework"
+        ],
+        "preferred_if": [
+          "User values developer productivity",
+          "Likes opinionated frameworks"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FS4",
+    "name": "Relational Databases & ORMs",
+    "category": "FullStack Development",
+    "primary_tech": "SQL Databases",
+    "topics": [
+      "Database Design & Normalization",
+      "Advanced SQL Queries",
+      "Object-Relational Mappers (ORMs - Sequelize, Prisma, SQLAlchemy)",
+      "Database Migrations"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "database",
+      "SQL",
+      "ORM",
+      "data-management"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FS5",
+    "name": "Authentication & Authorization for FullStack Apps",
+    "category": "FullStack Development",
+    "primary_tech": "Security",
+    "topics": [
+      "JWT (JSON Web Tokens) Implementation",
+      "OAuth 2.0 & Social Logins",
+      "Role-Based Access Control (RBAC)",
+      "Security Best Practices (Input Validation, Hashing)"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "security",
+      "auth",
+      "web-security"
+    ],
+    "alternatives": [
+      {
+        "tech": "Auth0/Okta",
+        "reason": "Managed authentication and authorization platforms, reducing development overhead.",
+        "tags": [
+          "SaaS",
+          "authentication",
+          "identity"
+        ],
+        "preferred_if": [
+          "User wants a quick and secure managed solution",
+          "Focus is on application logic rather than auth implementation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FS6",
+    "name": "NoSQL Databases (MongoDB & Redis)",
+    "category": "FullStack Development",
+    "primary_tech": "NoSQL Databases",
+    "topics": [
+      "Document Database Concepts (MongoDB)",
+      "Key-Value Stores (Redis for Caching/Sessions)",
+      "Data Modeling for NoSQL",
+      "Aggregation Frameworks"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "database",
+      "NoSQL",
+      "caching"
+    ],
+    "alternatives": [
+      {
+        "tech": "Cassandra",
+        "reason": "Highly scalable and available distributed NoSQL database for big data applications.",
+        "tags": [
+          "NoSQL",
+          "distributed",
+          "big-data"
+        ],
+        "preferred_if": [
+          "User needs extreme write scalability and high availability"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FS7",
+    "name": "Deployment with Docker & Cloud Platforms",
+    "category": "FullStack Development",
+    "primary_tech": "DevOps",
+    "topics": [
+      "Dockerizing FullStack Applications",
+      "Container Orchestration (Docker Compose, Kubernetes basics)",
+      "Cloud Hosting (AWS EC2/Elastic Beanstalk, Google Cloud Run, Heroku)",
+      "Domain Management & SSL"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "devops",
+      "deployment",
+      "cloud",
+      "containerization"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FS8",
+    "name": "GraphQL API Development (FullStack)",
+    "category": "FullStack Development",
+    "primary_tech": "GraphQL",
+    "topics": [
+      "Schema Design & Type System",
+      "Queries, Mutations & Subscriptions (Frontend/Backend)",
+      "Apollo Server & Client Integration",
+      "Resolvers & Data Sources"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "API",
+      "data-fetching",
+      "frontend-backend-communication"
+    ],
+    "alternatives": [
+      {
+        "tech": "tRPC",
+        "reason": "End-to-end type-safe APIs for TypeScript applications, popular in the Next.js ecosystem.",
+        "tags": [
+          "TypeScript",
+          "API",
+          "type-safety"
+        ],
+        "preferred_if": [
+          "User is building a full-stack TypeScript application",
+          "Values strong type-safety across layers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FS9",
+    "name": "Testing FullStack Applications",
+    "category": "FullStack Development",
+    "primary_tech": "Testing",
+    "topics": [
+      "Unit Testing (Frontend & Backend)",
+      "Integration Testing (API Endpoints & Database)",
+      "End-to-End Testing (Cypress, Playwright)",
+      "Mocking & Test Doubles"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "testing",
+      "QA",
+      "quality",
+      "devops"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FS10",
+    "name": "CI/CD for FullStack Projects",
+    "category": "FullStack Development",
+    "primary_tech": "CI/CD",
+    "topics": [
+      "Continuous Integration (CI)",
+      "Continuous Delivery/Deployment (CD)",
+      "GitHub Actions/GitLab CI/Jenkins",
+      "Automated Testing in CI/CD Pipeline"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "devops",
+      "automation",
+      "deployment"
+    ],
+    "alternatives": [
+      {
+        "tech": "CircleCI",
+        "reason": "Cloud-based CI/CD platform known for its ease of use and integrations.",
+        "tags": [
+          "CI/CD",
+          "automation"
+        ],
+        "preferred_if": [
+          "User wants a managed cloud CI/CD solution",
+          "Working with open-source projects"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FS11",
+    "name": "Microservices Architecture (FullStack Perspective)",
+    "category": "FullStack Development",
+    "primary_tech": "Microservices",
+    "topics": [
+      "Designing & Decomposing Services",
+      "Inter-service Communication",
+      "API Gateway & Service Mesh Basics",
+      "Distributed Tracing & Logging"
+    ],
+    "levels": [
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "architecture",
+      "distributed-systems",
+      "scalability"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FS12",
+    "name": "Serverless Architectures for FullStack",
+    "category": "FullStack Development",
+    "primary_tech": "Serverless",
+    "topics": [
+      "Functions-as-a-Service (FaaS) - AWS Lambda, Google Cloud Functions",
+      "Serverless Framework/SAM",
+      "Event-Driven Architectures",
+      "Database Integration (DynamoDB, Firestore)"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "serverless",
+      "cloud",
+      "event-driven"
+    ],
+    "alternatives": [
+      {
+        "tech": "Netlify/Vercel",
+        "reason": "Platforms for deploying serverless frontend and backend functions with integrated CI/CD.",
+        "tags": [
+          "serverless",
+          "frontend-hosting",
+          "PaaS"
+        ],
+        "preferred_if": [
+          "User is building JAMstack/Next.js/Nuxt.js applications",
+          "Wants simplified deployment workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FS13",
+    "name": "Real-time Communication (WebSockets)",
+    "category": "FullStack Development",
+    "primary_tech": "WebSockets",
+    "topics": [
+      "WebSocket Protocol",
+      "Socket.IO (Node.js Library)",
+      "Building Real-time Features (Chat, Notifications)",
+      "Scaling WebSockets"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "real-time",
+      "communication",
+      "web-sockets"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FS14",
+    "name": "Caching Strategies for FullStack Performance",
+    "category": "FullStack Development",
+    "primary_tech": "Caching",
+    "topics": [
+      "Client-Side Caching (Browser Cache, Service Workers)",
+      "Server-Side Caching (Redis, Memcached)",
+      "CDN (Content Delivery Network)",
+      "Cache Invalidation & Freshness"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "performance",
+      "optimization",
+      "scalability"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "FS15",
+    "name": "FullStack Security Best Practices",
+    "category": "FullStack Development",
+    "primary_tech": "Security",
+    "topics": [
+      "OWASP Top 10 (Frontend & Backend)",
+      "Secure API Design",
+      "Data Protection & Privacy (GDPR/CCPA basics)",
+      "Threat Modeling & Vulnerability Management"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "security",
+      "cybersecurity",
+      "web-security"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "MD1",
+    "name": "Mobile App Development Fundamentals",
+    "category": "Mobile Development",
+    "primary_tech": "Mobile Concepts",
+    "topics": [
+      "Mobile OS Overview (iOS vs. Android)",
+      "Mobile UI/UX Principles",
+      "App Lifecycle",
+      "Development Environments Setup"
+    ],
+    "levels": [
+      "Beginner"
+    ],
+    "recommended": true,
+    "tags": [
+      "fundamentals",
+      "mobile-concepts",
+      "cross-platform"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "MD2",
+    "name": "iOS App Development with Swift",
+    "category": "Mobile Development",
+    "primary_tech": "Swift",
+    "topics": [
+      "Swift Programming Language",
+      "Xcode IDE",
+      "UIKit/SwiftUI Basics",
+      "View Controllers & Navigation"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "iOS",
+      "native",
+      "Apple",
+      "programming"
+    ],
+    "alternatives": [
+      {
+        "tech": "Objective-C",
+        "reason": "Older language for iOS development, still used in legacy projects",
+        "tags": [
+          "iOS",
+          "legacy",
+          "programming"
+        ],
+        "preferred_if": [
+          "User needs to maintain older iOS apps"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MD3",
+    "name": "Android App Development with Kotlin",
+    "category": "Mobile Development",
+    "primary_tech": "Kotlin",
+    "topics": [
+      "Kotlin Programming Language",
+      "Android Studio IDE",
+      "Layouts & Views",
+      "Activities & Fragments"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "Android",
+      "native",
+      "Google",
+      "programming"
+    ],
+    "alternatives": [
+      {
+        "tech": "Java",
+        "reason": "Traditional language for Android development, extensive existing codebase",
+        "tags": [
+          "Android",
+          "legacy",
+          "programming"
+        ],
+        "preferred_if": [
+          "User needs to maintain older Android apps"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MD4",
+    "name": "Mobile UI/UX Design Principles",
+    "category": "Mobile Development",
+    "primary_tech": "UI/UX Design",
+    "topics": [
+      "Human Interface Guidelines (iOS)",
+      "Material Design (Android)",
+      "Wireframing & Prototyping",
+      "Usability Testing Basics"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "design",
+      "UI",
+      "UX",
+      "mobile"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "MD5",
+    "name": "Cross-Platform Mobile with React Native",
+    "category": "Mobile Development",
+    "primary_tech": "React Native",
+    "topics": [
+      "React Native Components & APIs",
+      "Flexbox for Layout",
+      "Navigation in React Native",
+      "Bridging Native Modules"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "cross-platform",
+      "JavaScript",
+      "React",
+      "hybrid"
+    ],
+    "alternatives": [
+      {
+        "tech": "Ionic",
+        "reason": "Web-first approach using web technologies (HTML, CSS, JS)",
+        "tags": [
+          "hybrid",
+          "web-tech"
+        ],
+        "preferred_if": [
+          "User has strong web development background",
+          "Needs rapid prototyping"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MD6",
+    "name": "Cross-Platform Mobile with Flutter (Dart)",
+    "category": "Mobile Development",
+    "primary_tech": "Flutter",
+    "topics": [
+      "Dart Programming Language",
+      "Flutter Widgets & Layouts",
+      "State Management in Flutter",
+      "Platform Channels"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "cross-platform",
+      "Dart",
+      "Google",
+      "hybrid"
+    ],
+    "alternatives": [
+      {
+        "tech": "Xamarin",
+        "reason": "Microsoft's cross-platform framework using C# and .NET",
+        "tags": [
+          "cross-platform",
+          "C#",
+          ".NET"
+        ],
+        "preferred_if": [
+          "User has strong C#/.NET background",
+          "Developing for enterprise environments"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MD7",
+    "name": "State Management in Mobile Apps",
+    "category": "Mobile Development",
+    "primary_tech": "State Management",
+    "topics": [
+      "Prop Drilling vs. Centralized State",
+      "Provider (Flutter)",
+      "Redux/MobX (React Native)",
+      "ViewModel/LiveData (Android)"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "architecture",
+      "data-flow",
+      "scalability"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "MD8",
+    "name": "Consuming REST APIs in Mobile Apps",
+    "category": "Mobile Development",
+    "primary_tech": "API Integration",
+    "topics": [
+      "HTTP Requests (GET, POST, PUT, DELETE)",
+      "JSON Parsing",
+      "Asynchronous Operations",
+      "Error Handling & Retries"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "API",
+      "networking",
+      "data"
+    ],
+    "alternatives": [
+      {
+        "tech": "GraphQL Clients",
+        "reason": "Efficient data fetching for complex data needs, reducing over/under-fetching",
+        "tags": [
+          "API",
+          "GraphQL"
+        ],
+        "preferred_if": [
+          "Backend uses GraphQL",
+          "Client needs flexible data queries"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MD9",
+    "name": "Local Data Storage for Mobile Apps",
+    "category": "Mobile Development",
+    "primary_tech": "Local Storage",
+    "topics": [
+      "Shared Preferences/UserDefaults",
+      "SQLite Databases (SQLDelight/Core Data)",
+      "NoSQL Mobile Databases (Realm/Hive)",
+      "File System Access"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "database",
+      "offline",
+      "data-persistence"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "MD10",
+    "name": "Mobile App Performance & Optimization",
+    "category": "Mobile Development",
+    "primary_tech": "Performance",
+    "topics": [
+      "Memory Management",
+      "Battery Usage Optimization",
+      "UI Responsiveness (Jank/Lag)",
+      "Network Efficiency"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "optimization",
+      "performance",
+      "profiling"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "MD11",
+    "name": "Mobile App Testing Strategies",
+    "category": "Mobile Development",
+    "primary_tech": "Testing",
+    "topics": [
+      "Unit Testing (JUnit, XCTest)",
+      "Widget/Component Testing",
+      "UI Testing (Espresso, XCUITest)",
+      "Integration Testing"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "testing",
+      "QA",
+      "reliability"
+    ],
+    "alternatives": [
+      {
+        "tech": "Appium/Detox",
+        "reason": "Cross-platform end-to-end testing frameworks for native and hybrid apps",
+        "tags": [
+          "E2E",
+          "automation"
+        ],
+        "preferred_if": [
+          "User needs automated end-to-end UI tests across platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MD12",
+    "name": "Firebase for Mobile Development",
+    "category": "Mobile Development",
+    "primary_tech": "Firebase",
+    "topics": [
+      "Firebase Authentication",
+      "Cloud Firestore/Realtime Database",
+      "Cloud Functions for Firebase",
+      "Crashlytics & Analytics"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "BaaS",
+      "backend-as-a-service",
+      "Google"
+    ],
+    "alternatives": [
+      {
+        "tech": "AWS Amplify",
+        "reason": "Comprehensive set of tools and services for building scalable mobile and web apps",
+        "tags": [
+          "BaaS",
+          "AWS"
+        ],
+        "preferred_if": [
+          "User is already in the AWS ecosystem",
+          "Needs more customization and control"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MD13",
+    "name": "Push Notifications & Background Tasks",
+    "category": "Mobile Development",
+    "primary_tech": "Notifications",
+    "topics": [
+      "FCM/APNS Integration",
+      "Local Notifications",
+      "Background Fetch & Processing",
+      "Deep Linking"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "engagement",
+      "background-processing",
+      "user-experience"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "MD14",
+    "name": "Mobile App Security Best Practices",
+    "category": "Mobile Development",
+    "primary_tech": "Security",
+    "topics": [
+      "Data Encryption & Storage Security",
+      "API Key Management",
+      "Code Obfuscation",
+      "Common Mobile Vulnerabilities (OWASP Mobile Top 10)"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "security",
+      "privacy",
+      "vulnerability"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "MD15",
+    "name": "App Store & Google Play Publishing",
+    "category": "Mobile Development",
+    "primary_tech": "App Publishing",
+    "topics": [
+      "Developer Accounts Setup",
+      "App Signing & Certificates",
+      "Store Listings & Metadata (ASO)",
+      "Beta Testing & Phased Rollouts"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "deployment",
+      "marketing",
+      "publishing"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "GD1",
+    "name": "Game Design Principles & Theory",
+    "category": "Game Development",
+    "primary_tech": "Game Design",
+    "topics": [
+      "Core Loops & Mechanics",
+      "Player Psychology & Motivation",
+      "Narrative & World Building",
+      "Prototyping & Iteration"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "game-design",
+      "fundamentals",
+      "theory"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "GD2",
+    "name": "Introduction to Unity Engine",
+    "category": "Game Development",
+    "primary_tech": "Unity Engine",
+    "topics": [
+      "Unity Editor Basics",
+      "Game Objects & Components",
+      "Scene & Asset Management",
+      "Basic Scripting Integration (C#)"
+    ],
+    "levels": [
+      "Beginner"
+    ],
+    "recommended": true,
+    "tags": [
+      "engine",
+      "cross-platform",
+      "C#"
+    ],
+    "alternatives": [
+      {
+        "tech": "Godot Engine",
+        "reason": "Lightweight, open-source engine with a focus on ease of use and flexibility",
+        "tags": [
+          "engine",
+          "open-source",
+          "GDScript"
+        ],
+        "preferred_if": [
+          "User prefers open-source tools",
+          "Developing simpler 2D/3D games",
+          "Wants a cleaner, more modular architecture"
+        ]
+      },
+      {
+        "tech": "Unreal Engine",
+        "reason": "Powerful engine known for high-fidelity graphics and large-scale games",
+        "tags": [
+          "engine",
+          "AAA",
+          "C++"
+        ],
+        "preferred_if": [
+          "User aims for photorealistic graphics",
+          "Developing for console/PC AAA titles",
+          "Experience with C++"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GD3",
+    "name": "C# Programming for Game Development",
+    "category": "Game Development",
+    "primary_tech": "C#",
+    "topics": [
+      "C# Language Fundamentals",
+      "Object-Oriented Programming (OOP)",
+      "Unity API & MonoBehaviour Lifecycle",
+      "Data Structures & Algorithms in Games"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "programming",
+      "scripting",
+      "unity"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "GD4",
+    "name": "Introduction to Unreal Engine",
+    "category": "Game Development",
+    "primary_tech": "Unreal Engine",
+    "topics": [
+      "Unreal Editor & Interface",
+      "Blueprints Visual Scripting",
+      "Asset Pipeline & Material Editor",
+      "Basic C++ Integration"
+    ],
+    "levels": [
+      "Beginner"
+    ],
+    "recommended": true,
+    "tags": [
+      "engine",
+      "AAA",
+      "C++",
+      "blueprints"
+    ],
+    "alternatives": [
+      {
+        "tech": "Unity Engine",
+        "reason": "More accessible for beginners, vast asset store, good for various game types",
+        "tags": [
+          "engine",
+          "C#"
+        ],
+        "preferred_if": [
+          "User prefers C#",
+          "Developing mobile or indie games"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GD5",
+    "name": "C++ Programming for Games",
+    "category": "Game Development",
+    "primary_tech": "C++",
+    "topics": [
+      "C++ Language Fundamentals",
+      "Memory Management",
+      "Pointers & References",
+      "Game-specific Data Structures"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "programming",
+      "performance",
+      "Unreal"
+    ],
+    "alternatives": [
+      {
+        "tech": "C#",
+        "reason": "Higher-level language with automatic memory management, easier to learn",
+        "tags": [
+          "programming",
+          "Unity"
+        ],
+        "preferred_if": [
+          "User wants faster development time",
+          "Less concern for low-level control"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GD6",
+    "name": "2D Game Development",
+    "category": "Game Development",
+    "primary_tech": "2D Game Engines",
+    "topics": [
+      "Sprite Animation & Tilemaps",
+      "2D Physics & Collisions",
+      "Camera Systems for 2D",
+      "UI/HUD Design for 2D Games"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "2D",
+      "indie",
+      "pixel-art"
+    ],
+    "alternatives": [
+      {
+        "tech": "GameMaker Studio 2",
+        "reason": "User-friendly engine focused purely on 2D game creation",
+        "tags": [
+          "2D",
+          "engine",
+          "GML"
+        ],
+        "preferred_if": [
+          "User focuses exclusively on 2D games",
+          "Wants a simpler learning curve"
+        ]
+      },
+      {
+        "tech": "Raylib",
+        "reason": "Simple and easy-to-use library to enjoy videogames programming",
+        "tags": [
+          "2D",
+          "C",
+          "library"
+        ],
+        "preferred_if": [
+          "User wants to learn game programming from scratch (low-level)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GD7",
+    "name": "3D Game Development",
+    "category": "Game Development",
+    "primary_tech": "3D Game Engines",
+    "topics": [
+      "3D Model Integration & Animation",
+      "Lighting & Shading Techniques",
+      "Camera Controls & Movement",
+      "Level Design & Environmental Art"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "3D",
+      "graphics",
+      "level-design"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "GD8",
+    "name": "Game Physics & Collision Detection",
+    "category": "Game Development",
+    "primary_tech": "Physics Engines",
+    "topics": [
+      "Rigidbody Dynamics",
+      "Collision Shapes & Layers",
+      "Triggers & Overlaps",
+      "Forces, Torques & Joints"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "physics",
+      "gameplay",
+      "simulation"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "GD9",
+    "name": "Artificial Intelligence for Games",
+    "category": "Game Development",
+    "primary_tech": "Game AI",
+    "topics": [
+      "Pathfinding (A* Algorithm)",
+      "State Machines & Behavior Trees",
+      "Decision Making (Utility AI, GOAP)",
+      "Flocking & Crowd Simulation"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "AI",
+      "NPC",
+      "behavior"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "GD10",
+    "name": "Game Graphics & Rendering Basics",
+    "category": "Game Development",
+    "primary_tech": "Graphics Programming",
+    "topics": [
+      "Rendering Pipeline Overview",
+      "Vertex & Fragment Shaders (HLSL/GLSL)",
+      "Texture Mapping & Materials",
+      "Lighting Models (Phong, PBR basics)"
+    ],
+    "levels": [
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "graphics",
+      "rendering",
+      "shaders",
+      "VFX"
+    ],
+    "alternatives": [
+      {
+        "tech": "Blender (3D Modeling)",
+        "reason": "Powerful open-source 3D creation suite for assets, not rendering engine",
+        "tags": [
+          "3D-modeling",
+          "asset-creation"
+        ],
+        "preferred_if": [
+          "User wants to create custom 3D assets for games"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GD11",
+    "name": "Game Audio & Sound Engineering",
+    "category": "Game Development",
+    "primary_tech": "Audio Design",
+    "topics": [
+      "Sound Effects (SFX) Creation",
+      "Music Composition & Integration",
+      "Audio Mixing & Mastering",
+      "Spatial Audio & Occlusion"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": false,
+    "tags": [
+      "audio",
+      "sound",
+      "immersion"
+    ],
+    "alternatives": [
+      {
+        "tech": "FMOD/Wwise",
+        "reason": "Industry-standard audio middleware for complex game audio management",
+        "tags": [
+          "audio-middleware",
+          "professional"
+        ],
+        "preferred_if": [
+          "User needs advanced audio features and workflow",
+          "Working on larger, more complex projects"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GD12",
+    "name": "Multiplayer Game Development Basics",
+    "category": "Game Development",
+    "primary_tech": "Networking",
+    "topics": [
+      "Client-Server vs. Peer-to-Peer",
+      "Network Topologies",
+      "RPCs & Networked Variables",
+      "Latency Compensation Basics"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "multiplayer",
+      "networking",
+      "online"
+    ],
+    "alternatives": [
+      {
+        "tech": "Photon Engine",
+        "reason": "Popular third-party networking solution for Unity and other engines",
+        "tags": [
+          "networking",
+          "third-party"
+        ],
+        "preferred_if": [
+          "User wants a ready-to-use networking solution",
+          "Building real-time multiplayer games"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GD13",
+    "name": "Game Testing & Quality Assurance",
+    "category": "Game Development",
+    "primary_tech": "QA",
+    "topics": [
+      "Bug Reporting & Tracking",
+      "Functional Testing",
+      "Performance Testing",
+      "Playtesting & Feedback Integration"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "testing",
+      "QA",
+      "bug-fixing",
+      "quality"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "GD14",
+    "name": "Game Monetization & Business Models",
+    "category": "Game Development",
+    "primary_tech": "Monetization",
+    "topics": [
+      "Free-to-Play vs. Premium",
+      "In-Game Purchases & Microtransactions",
+      "Subscription Models",
+      "Ad Integration (for mobile/web games)"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": false,
+    "tags": [
+      "business",
+      "economy",
+      "revenue"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "GD15",
+    "name": "Game Publishing & Marketing Strategies",
+    "category": "Game Development",
+    "primary_tech": "Publishing",
+    "topics": [
+      "Platform Submission (Steam, Consoles, Mobile Stores)",
+      "Community Management",
+      "Press Kits & Influencer Outreach",
+      "Post-Launch Support & Updates"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": false,
+    "tags": [
+      "publishing",
+      "marketing",
+      "business"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CS1",
+    "name": "Introduction to Programming",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "Python",
+    "topics": [
+      "Basic Syntax & Data Types",
+      "Control Flow (Loops, Conditionals)",
+      "Functions & Modules",
+      "Problem Solving Techniques"
+    ],
+    "levels": [
+      "Beginner"
+    ],
+    "recommended": true,
+    "tags": [
+      "programming",
+      "fundamentals",
+      "beginners"
+    ],
+    "alternatives": [
+      {
+        "tech": "Java",
+        "reason": "Strongly typed, widely used in enterprise and Android development",
+        "tags": [
+          "programming",
+          "OOP",
+          "enterprise"
+        ],
+        "preferred_if": [
+          "User aims for enterprise development",
+          "Needs strong typing early on"
+        ]
+      },
+      {
+        "tech": "C++",
+        "reason": "Low-level control, high performance, essential for game development and systems programming",
+        "tags": [
+          "programming",
+          "performance",
+          "systems"
+        ],
+        "preferred_if": [
+          "User interested in game development",
+          "Wants deep understanding of memory"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CS2",
+    "name": "Data Structures",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "Data Structures",
+    "topics": [
+      "Arrays & Linked Lists",
+      "Stacks & Queues",
+      "Trees (Binary, BST, AVL)",
+      "Hash Tables"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "algorithms",
+      "data",
+      "problem-solving"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CS3",
+    "name": "Algorithms",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "Algorithms",
+    "topics": [
+      "Sorting Algorithms (Merge, Quick, Heap)",
+      "Searching Algorithms (Binary, BFS, DFS)",
+      "Graph Algorithms (Dijkstra, MST)",
+      "Recursion & Dynamic Programming"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "algorithms",
+      "optimization",
+      "problem-solving"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CS4",
+    "name": "Object-Oriented Programming (OOP)",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "OOP",
+    "topics": [
+      "Classes & Objects",
+      "Encapsulation, Inheritance, Polymorphism",
+      "Abstraction & Interfaces",
+      "Design Patterns (Singleton, Factory basics)"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "programming-paradigm",
+      "software-design",
+      "architecture"
+    ],
+    "alternatives": [
+      {
+        "tech": "Functional Programming",
+        "reason": "Alternative paradigm focusing on pure functions and immutability",
+        "tags": [
+          "programming-paradigm",
+          "functional"
+        ],
+        "preferred_if": [
+          "User interested in languages like Haskell, Lisp, or advanced JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CS5",
+    "name": "Discrete Mathematics for CS",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "Mathematics",
+    "topics": [
+      "Logic & Proofs",
+      "Set Theory",
+      "Functions & Relations",
+      "Combinatorics & Probability"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "mathematics",
+      "logic",
+      "foundations"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CS6",
+    "name": "Operating Systems Concepts",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "Operating Systems",
+    "topics": [
+      "Processes & Threads",
+      "CPU Scheduling",
+      "Memory Management",
+      "File Systems & I/O"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "systems",
+      "low-level",
+      "architecture"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CS7",
+    "name": "Computer Networks Basics",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "Networking",
+    "topics": [
+      "OSI Model & TCP/IP Stack",
+      "IP Addressing & Routing",
+      "Protocols (HTTP, FTP, DNS)",
+      "Network Security Fundamentals"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "networking",
+      "internet",
+      "protocols"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CS8",
+    "name": "Database Management Systems",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "DBMS",
+    "topics": [
+      "Relational Databases (SQL)",
+      "Database Design (Normalization)",
+      "Transactions & Concurrency Control",
+      "NoSQL Database Types (Overview)"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "database",
+      "data-management",
+      "SQL"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CS9",
+    "name": "Introduction to Cybersecurity",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "Cybersecurity",
+    "topics": [
+      "Threats & Vulnerabilities",
+      "Encryption & Hashing",
+      "Authentication & Authorization",
+      "Network & Web Security Basics"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": false,
+    "tags": [
+      "security",
+      "information-security",
+      "protection"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CS10",
+    "name": "Software Engineering Principles",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "Software Engineering",
+    "topics": [
+      "Software Development Life Cycle (SDLC)",
+      "Agile Methodologies (Scrum, Kanban)",
+      "Requirements Gathering & Analysis",
+      "Testing & Debugging"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "software-development",
+      "methodologies",
+      "project-management"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CS11",
+    "name": "Computer Architecture & Organization",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "Hardware",
+    "topics": [
+      "CPU Components & Function",
+      "Memory Hierarchy (Cache, RAM)",
+      "Instruction Sets & Assembly Language (Basics)",
+      "Input/Output Devices"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": false,
+    "tags": [
+      "hardware",
+      "systems",
+      "low-level"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CS12",
+    "name": "Introduction to Artificial Intelligence",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "Artificial Intelligence",
+    "topics": [
+      "AI History & Concepts",
+      "Problem Solving (Search Algorithms)",
+      "Knowledge Representation & Reasoning",
+      "Machine Learning Overview"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": false,
+    "tags": [
+      "AI",
+      "machine-learning",
+      "overview"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CS13",
+    "name": "Logic & Computation",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "Theoretical CS",
+    "topics": [
+      "Propositional & Predicate Logic",
+      "Formal Languages & Automata",
+      "Turing Machines & Computability",
+      "Computational Complexity (P vs. NP)"
+    ],
+    "levels": [
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "theory",
+      "mathematics",
+      "foundations"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CS14",
+    "name": "Distributed Systems Basics",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "Distributed Systems",
+    "topics": [
+      "Client-Server Architecture",
+      "Concurrency Issues",
+      "Fault Tolerance & Consistency",
+      "RPC & Message Queues (Concepts)"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "systems",
+      "scalability",
+      "cloud"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CS15",
+    "name": "Concurrency & Parallelism",
+    "category": "Computer Science Fundamentals",
+    "primary_tech": "Concurrency",
+    "topics": [
+      "Threads & Processes",
+      "Synchronization Primitives (Locks, Semaphores)",
+      "Deadlocks & Livelocks",
+      "Parallel Programming Paradigms"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "performance",
+      "systems",
+      "multithreading"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec1",
+    "name": "Introduction to Cybersecurity",
+    "category": "Computer Security",
+    "primary_tech": "Cybersecurity Concepts",
+    "topics": [
+      "CIA Triad (Confidentiality, Integrity, Availability)",
+      "Threats, Vulnerabilities & Risks",
+      "Common Attack Vectors",
+      "Security Best Practices Overview"
+    ],
+    "levels": [
+      "Beginner"
+    ],
+    "recommended": true,
+    "tags": [
+      "fundamentals",
+      "overview",
+      "security-awareness"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec2",
+    "name": "Network Security Fundamentals",
+    "category": "Computer Security",
+    "primary_tech": "Network Security",
+    "topics": [
+      "Firewalls & IDS/IPS",
+      "VPNs & Secure Communication",
+      "Wireless Network Security",
+      "Network Segmentation"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "networking",
+      "perimeter-security",
+      "protocols"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec3",
+    "name": "Web Application Security",
+    "category": "Computer Security",
+    "primary_tech": "Web Security",
+    "topics": [
+      "OWASP Top 10 (Injection, XSS, CSRF)",
+      "Authentication & Session Management Vulnerabilities",
+      "Secure Coding Practices for Web",
+      "Web Security Tools"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "web",
+      "application-security",
+      "vulnerabilities"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec4",
+    "name": "Cryptography Basics",
+    "category": "Computer Security",
+    "primary_tech": "Cryptography",
+    "topics": [
+      "Symmetric vs. Asymmetric Encryption",
+      "Hashing Algorithms",
+      "Digital Signatures & Certificates",
+      "Public Key Infrastructure (PKI)"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": true,
+    "tags": [
+      "encryption",
+      "data-protection",
+      "algorithms"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec5",
+    "name": "Operating System Security",
+    "category": "Computer Security",
+    "primary_tech": "OS Security",
+    "topics": [
+      "User & Permissions Management",
+      "Patch Management & Updates",
+      "Hardening OS Configurations",
+      "Malware & Rootkit Detection"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": false,
+    "tags": [
+      "system-security",
+      "endpoint-protection",
+      "hardening"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec6",
+    "name": "Secure Software Development (DevSecOps)",
+    "category": "Computer Security",
+    "primary_tech": "DevSecOps",
+    "topics": [
+      "Security in SDLC",
+      "Threat Modeling",
+      "Static & Dynamic Application Security Testing (SAST/DAST)",
+      "Secure Coding Guidelines"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "software-development",
+      "devops",
+      "automation"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec7",
+    "name": "Incident Response & Forensics",
+    "category": "Computer Security",
+    "primary_tech": "Incident Response",
+    "topics": [
+      "Incident Response Lifecycle (Preparation, Detection, Analysis, Containment, Eradication, Recovery)",
+      "Digital Forensics Basics",
+      "Log Analysis",
+      "Malware Triage"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "forensics",
+      "post-breach",
+      "analysis"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec8",
+    "name": "Cloud Security",
+    "category": "Computer Security",
+    "primary_tech": "Cloud Security",
+    "topics": [
+      "Cloud Service Models (IaaS, PaaS, SaaS) Security",
+      "Shared Responsibility Model",
+      "Cloud Identity & Access Management (IAM)",
+      "Container Security Basics (Docker, Kubernetes)"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "cloud",
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec9",
+    "name": "Ethical Hacking & Penetration Testing",
+    "category": "Computer Security",
+    "primary_tech": "Penetration Testing",
+    "topics": [
+      "Reconnaissance & Footprinting",
+      "Scanning & Enumeration",
+      "Vulnerability Exploitation",
+      "Post-Exploitation & Reporting"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "hacking",
+      "pentesting",
+      "offensive-security"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec10",
+    "name": "Mobile Security",
+    "category": "Computer Security",
+    "primary_tech": "Mobile Security",
+    "topics": [
+      "Android & iOS Security Models",
+      "Mobile App Vulnerabilities (OWASP MASVS)",
+      "Secure Mobile App Development",
+      "Mobile Device Management (MDM) Basics"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": false,
+    "tags": [
+      "mobile",
+      "app-security",
+      "device-security"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec11",
+    "name": "Database Security",
+    "category": "Computer Security",
+    "primary_tech": "Database Security",
+    "topics": [
+      "Access Control & Privileges",
+      "Data Encryption at Rest & In Transit",
+      "SQL Injection Prevention",
+      "Auditing & Logging Database Activities"
+    ],
+    "levels": [
+      "Intermediate"
+    ],
+    "recommended": false,
+    "tags": [
+      "database",
+      "data-protection",
+      "SQL"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec12",
+    "name": "Identity & Access Management (IAM)",
+    "category": "Computer Security",
+    "primary_tech": "IAM",
+    "topics": [
+      "Authentication Methods (MFA, SSO)",
+      "Authorization Models (RBAC, ABAC)",
+      "Identity Federation",
+      "Directory Services (LDAP, Active Directory)"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": true,
+    "tags": [
+      "authentication",
+      "authorization",
+      "user-management"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec13",
+    "name": "Security Auditing & Compliance",
+    "category": "Computer Security",
+    "primary_tech": "Auditing & Compliance",
+    "topics": [
+      "Security Frameworks (NIST, ISO 27001)",
+      "Regulatory Compliance (GDPR, HIPAA)",
+      "Risk Assessments & Management",
+      "Internal & External Audits"
+    ],
+    "levels": [
+      "Intermediate",
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "compliance",
+      "risk-management",
+      "governance"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec14",
+    "name": "Malware Analysis & Reverse Engineering",
+    "category": "Computer Security",
+    "primary_tech": "Malware Analysis",
+    "topics": [
+      "Malware Types & Behavior",
+      "Static & Dynamic Analysis",
+      "Reverse Engineering Tools (IDA Pro, Ghidra)",
+      "Obfuscation Techniques"
+    ],
+    "levels": [
+      "Advanced"
+    ],
+    "recommended": false,
+    "tags": [
+      "malware",
+      "reverse-engineering",
+      "forensics"
+    ],
+    "alternatives": []
+  },
+  {
+    "id": "CSec15",
+    "name": "Cyber Law & Ethics",
+    "category": "Computer Security",
+    "primary_tech": "Cyber Law",
+    "topics": [
+      "Legal Frameworks in Cybersecurity",
+      "Intellectual Property & Privacy Laws",
+      "Ethical Hacking vs. Illegal Hacking",
+      "Professional Code of Conduct"
+    ],
+    "levels": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "recommended": false,
+    "tags": [
+      "legal",
+      "ethics",
+      "privacy"
+    ],
+    "alternatives": []
+  }
+]

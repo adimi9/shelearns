@@ -1,0 +1,120 @@
+{
+  "id": "GD12",
+  "name": "C# Programming for Game Development",
+  "category": "Game Development",
+  "primary_tech": "C#",
+  "topics": [
+    "C# Language Fundamentals",
+    "Object-Oriented Programming (OOP)",
+    "Unity API & MonoBehaviour Lifecycle",
+    "Data Structures & Algorithms in Games"
+  ],
+  "recommended": true,
+  "tags": [
+    "programming",
+    "scripting",
+    "unity"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/",
+        "description": "Comprehensive documentation and resources for web developers on HTML, CSS, JavaScript, and web APIs."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection",
+        "description": "A comprehensive guide on implementing 2D collision detection techniques for game development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+        "description": "An in-depth guide to the Canvas API for drawing graphics and animations on the web using JavaScript."
+      }
+    ],
+    "notes": [
+      {
+        "url": "http://www.w3schools.com/cs/index.php",
+        "description": "An introductory guide to learning C# programming, including tutorials, examples, and references."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/how-to-choose-a-programming-language-and-escape-tutorial-purgatory/",
+        "description": "A guide to selecting a programming language and overcoming the cycle of endless tutorials."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/c-sharp/csharp-programming-language/",
+        "description": "An introductory guide to the C# programming language, covering its features, syntax, and applications."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/is-freecodecamp-a-good-path-for-aspiring-game-engineers/145439",
+        "description": "Discussion on the suitability of FreeCodeCamp as a learning path for aspiring game engineers."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/c-sharp/c-sharp-tutorial/",
+        "description": "A comprehensive tutorial for learning C# programming, covering fundamental concepts and advanced topics."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=GhQdlIFylQ8",
+      "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
+      "https://www.youtube.com/watch?v=sNMtjs_wQiE",
+      "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+      "https://www.youtube.com/watch?v=IFayQioG71A"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the purpose of the 'Main' method in a C# program?",
+      "options": [
+        "To serve as the entry point of the program",
+        "To define the structure of a class",
+        "To handle exception errors",
+        "To store data"
+      ],
+      "correct_option": 0,
+      "hint": "It is where the program execution begins."
+    },
+    {
+      "question": "Which of the following is a key feature of Object-Oriented Programming?",
+      "options": [
+        "Encapsulation",
+        "Static typing",
+        "Interpreted execution",
+        "Functional paradigm"
+      ],
+      "correct_option": 0,
+      "hint": "It involves bundling data with the methods that operate on that data."
+    },
+    {
+      "question": "In Unity, which method is called only once during the lifetime of a script?",
+      "options": [
+        "Update()",
+        "FixedUpdate()",
+        "Awake()",
+        "Start()"
+      ],
+      "correct_option": 2,
+      "hint": "This method is used for initialization that needs to be done before the game starts."
+    },
+    {
+      "question": "Which data structure is most efficient for implementing a FIFO (First-In-First-Out) order in a game?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Array",
+        "Tree"
+      ],
+      "correct_option": 1,
+      "hint": "This data structure is specifically designed for FIFO operations."
+    },
+    {
+      "question": "In C#, what is inheritance primarily used for?",
+      "options": [
+        "To allow a class to acquire properties of another class",
+        "To store multiple values in a single variable",
+        "To define interfaces",
+        "To perform asynchronous programming"
+      ],
+      "correct_option": 0,
+      "hint": "It allows creating a new class that is based on an existing class."
+    }
+  ]
+}

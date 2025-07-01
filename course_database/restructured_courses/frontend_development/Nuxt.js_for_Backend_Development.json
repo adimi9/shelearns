@@ -1,0 +1,129 @@
+{
+  "id": "FE15",
+  "name": "Nuxt.js for Backend Development",
+  "category": "Frontend Development",
+  "primary_tech": "Nuxt.js",
+  "topics": [
+    "Introduction to Nuxt.js and its ecosystem",
+    "Setting up a Nuxt.js project for server-side rendering",
+    "Working with Vue.js in a Nuxt.js environment",
+    "Creating and managing dynamic routes with Nuxt.js",
+    "Integrating APIs and managing asynchronous data",
+    "Middleware and authentication strategies in Nuxt.js",
+    "Optimizing performance and SEO with Nuxt.js features",
+    "Deploying Nuxt.js applications to cloud platforms"
+  ],
+  "recommended": false,
+  "tags": [
+    "nuxt.js",
+    "vue.js",
+    "server-side rendering",
+    "backend",
+    "api-integration"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis",
+        "description": "An overview of the `globalThis` object, which provides a standard way to access the global object across different JavaScript environments."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame",
+        "description": "A comprehensive guide on using the Window.requestAnimationFrame() method to optimize animations in web development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView",
+        "description": "The MDN Web Docs page provides detailed information on the `scrollIntoView` method, which scrolls an element into the visible area of the browser window."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/javascript/nuxtjs/",
+        "description": "An introductory guide to Nuxt.js, a framework for building server-side rendered Vue.js applications."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/nuxt-3-course-for-beginners/",
+        "description": "A beginner-friendly course on Nuxt 3, covering fundamental concepts and practical applications for building modern web applications."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/build-web-apps-with-nuxt-and-laravel/",
+        "description": "A guide on integrating Nuxt.js with Laravel to build modern web applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/reactjs/nextjs-vs-nuxtjs/",
+        "description": "A comparative analysis of Next.js and Nuxt.js frameworks, highlighting their features and differences for web development."
+      },
+      {
+        "url": "https://www.w3schools.com/vue/",
+        "description": "A comprehensive tutorial for learning Vue.js, covering its core concepts and practical implementation."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=ltzlhAxJr74",
+      "https://www.youtube.com/watch?v=RhZZ0whiuT8",
+      "https://www.youtube.com/watch?v=GBdO5myZNsQ",
+      "https://www.youtube.com/watch?v=8GmfcbuYOWE",
+      "https://www.youtube.com/watch?v=Wdmi4k7sFzU"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is Nuxt.js primarily used for?",
+      "options": [
+        "Building server-side rendered applications using Vue.js",
+        "Creating static sites with React",
+        "Developing mobile applications with Angular",
+        "Designing desktop applications with Ember.js"
+      ],
+      "correct_option": 0,
+      "hint": "It is a framework for Vue.js."
+    },
+    {
+      "question": "Which of the following is a key feature of Nuxt.js?",
+      "options": [
+        "Server-side rendering",
+        "Virtual DOM",
+        "Component lifecycle",
+        "State management"
+      ],
+      "correct_option": 0,
+      "hint": "This feature optimizes performance by rendering HTML on the server."
+    },
+    {
+      "question": "Why might a developer choose Nuxt.js over Next.js?",
+      "options": [
+        "Preference for Vue.js over React",
+        "Better TypeScript support",
+        "Faster build times",
+        "More extensive plugin ecosystem"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the base JavaScript framework each uses."
+    },
+    {
+      "question": "What is the primary language used for developing applications in Nuxt.js?",
+      "options": [
+        "Java",
+        "Python",
+        "C#",
+        "JavaScript"
+      ],
+      "correct_option": 3,
+      "hint": "Nuxt.js is built on top of Vue.js."
+    },
+    {
+      "question": "Which architectural pattern does Nuxt.js support out of the box?",
+      "options": [
+        "MVC",
+        "SSR",
+        "MVVM",
+        "MVP"
+      ],
+      "correct_option": 1,
+      "hint": "This pattern involves rendering pages on the server before sending them to the client."
+    }
+  ],
+  "preferred_if": [
+    "User prefers Vue.js over React"
+  ]
+}

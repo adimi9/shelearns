@@ -1,0 +1,101 @@
+{
+  "id": "FE14",
+  "name": "SASS / SCSS Styling",
+  "category": "Frontend Development",
+  "primary_tech": "SASS / SCSS",
+  "topics": [
+    "Nesting & Variables",
+    "Mixins & Functions",
+    "Modular Architecture"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "css",
+    "preprocessor",
+    "styling"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting"
+    ],
+    "notes": [
+      "https://www.w3schools.com/css/",
+      "https://www.w3schools.com/react/react_sass_styling.asp",
+      "https://www.w3schools.com/sass/",
+      "https://www.w3schools.com/sass/sass_intro.asp",
+      "https://forum.freecodecamp.org/t/what-are-the-best-ways-to-create-a-sass-scss-theme-skin/156119"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=akDIJa0AP5c",
+      "https://www.youtube.com/watch?v=oIU8pRHI1pg",
+      "https://www.youtube.com/watch?v=Zz6eOVaaelI",
+      "https://www.youtube.com/watch?v=yt03bkX8cA4",
+      "https://www.youtube.com/watch?v=_a5j7KoflTs"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary benefit of using variables in SASS/SCSS?",
+      "options": [
+        "To store repetitive values for reuse",
+        "To create animations",
+        "To automatically optimize images",
+        "To compile JavaScript"
+      ],
+      "correct_option": 0,
+      "hint": "Think about repetition and consistency in styling."
+    },
+    {
+      "question": "Which symbol is used in SASS/SCSS to define a variable?",
+      "options": [
+        "$",
+        "#",
+        "@",
+        "&"
+      ],
+      "correct_option": 0,
+      "hint": "It's the same symbol used for currency in some countries."
+    },
+    {
+      "question": "What is a mixin in SASS/SCSS used for?",
+      "options": [
+        "To include a set of styles",
+        "To import fonts",
+        "To define color schemes",
+        "To create grid layouts"
+      ],
+      "correct_option": 0,
+      "hint": "It's like a function that saves styles to be reused."
+    },
+    {
+      "question": "How do you nest styles in SCSS?",
+      "options": [
+        "By using brackets",
+        "By using indentation",
+        "By placing selectors inside other selectors",
+        "By using the ':' symbol"
+      ],
+      "correct_option": 2,
+      "hint": "Think about the structure of HTML elements."
+    },
+    {
+      "question": "What does the modular architecture in SASS/SCSS promote?",
+      "options": [
+        "Separation of styles into components",
+        "Using global variables for all styles",
+        "Writing all styles in a single file",
+        "Avoiding the use of mixins"
+      ],
+      "correct_option": 0,
+      "hint": "Modules help in organizing code for better maintenance."
+    }
+  ]
+}

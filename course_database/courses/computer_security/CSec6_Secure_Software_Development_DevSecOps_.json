@@ -1,0 +1,101 @@
+{
+  "id": "CSec6",
+  "name": "Secure Software Development (DevSecOps)",
+  "category": "Computer Security",
+  "primary_tech": "DevSecOps",
+  "topics": [
+    "Security in SDLC",
+    "Threat Modeling",
+    "Static & Dynamic Application Security Testing (SAST/DAST)",
+    "Secure Coding Guidelines"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "software-development",
+    "devops",
+    "automation"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/blog/optimizing-devsecops-workflows-with-gitlab-conditional-ci-cd-pipelines/",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Clear-Site-Data",
+      "https://nodejs.org/api/corepack.html"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/blogs/what-is-devsecops/",
+      "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-devsecops-engineer/",
+      "https://www.freecodecamp.org/news/what-is-devsecops/",
+      "https://www.geeksforgeeks.org/devsecops/",
+      "https://www.geeksforgeeks.org/devsecops-best-practices/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=nrhxNNH5lt0",
+      "https://www.youtube.com/watch?v=F5KJVuii0Yw",
+      "https://www.youtube.com/watch?v=gLJdrXPn0ns",
+      "https://www.youtube.com/watch?v=cdb6ernButc",
+      "https://www.youtube.com/watch?v=scEDHsr3APg"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary goal of integrating security into the Software Development Life Cycle (SDLC)?",
+      "options": [
+        "To increase the development speed",
+        "To ensure security is considered at all stages",
+        "To minimize costs of development",
+        "To automate the testing process"
+      ],
+      "correct_option": 1,
+      "hint": "Think about the overall objective of DevSecOps in the SDLC."
+    },
+    {
+      "question": "Which of the following best describes threat modeling in DevSecOps?",
+      "options": [
+        "A process of identifying potential threats and vulnerabilities in a system",
+        "A method to speed up software delivery",
+        "A way to automate security testing",
+        "A technique for designing user interfaces"
+      ],
+      "correct_option": 0,
+      "hint": "Consider what is being analyzed and identified during threat modeling."
+    },
+    {
+      "question": "What is the primary difference between Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST)?",
+      "options": [
+        "SAST is used for network security, while DAST is for application security",
+        "SAST analyzes source code, while DAST evaluates running applications",
+        "SAST is faster but less accurate than DAST",
+        "SAST is a manual process, while DAST is automated"
+      ],
+      "correct_option": 1,
+      "hint": "Consider when each testing type is performed during the development process."
+    },
+    {
+      "question": "Which of the following is NOT a part of secure coding guidelines?",
+      "options": [
+        "Avoiding the use of hard-coded passwords",
+        "Implementing proper error handling",
+        "Ensuring high test coverage",
+        "Using cryptographic algorithms appropriately"
+      ],
+      "correct_option": 2,
+      "hint": "Think about which option is more related to testing rather than coding practices."
+    },
+    {
+      "question": "In the context of DevSecOps, which of the following technologies is primarily used for continuous integration and deployment?",
+      "options": [
+        "Docker",
+        "Jenkins",
+        "Kubernetes",
+        "Terraform"
+      ],
+      "correct_option": 1,
+      "hint": "This tool is popular for automating the build and deployment process in DevSecOps pipelines."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "GD21",
+  "name": "Artificial Intelligence for Games",
+  "category": "Game Development",
+  "primary_tech": "Game AI",
+  "topics": [
+    "Pathfinding (A* Algorithm)",
+    "State Machines & Behavior Trees",
+    "Decision Making (Utility AI, GOAP)",
+    "Flocking & Crowd Simulation"
+  ],
+  "recommended": false,
+  "tags": [
+    "AI",
+    "NPC",
+    "behavior"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://cloud.google.com/vertex-ai",
+        "description": "Google Cloud's Vertex AI offers a comprehensive platform for building, deploying, and scaling machine learning models."
+      },
+      {
+        "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/artificial-intelligence-in-unreal-engine",
+        "description": "This resource provides comprehensive guidance on implementing and utilizing artificial intelligence features within Unreal Engine."
+      },
+      {
+        "url": "https://learn.microsoft.com/en-us/dotnet/",
+        "description": "The URL provides comprehensive documentation and resources for developers using the .NET platform."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/artificial-intelligence/stochastic-games-in-artificial-intelligence/",
+        "description": "An overview of stochastic games in artificial intelligence, exploring their concepts, applications, and strategic implications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/game-playing-in-artificial-intelligence/",
+        "description": "This resource provides an overview of game-playing algorithms and strategies used in artificial intelligence, including Minimax and Alpha-Beta Pruning."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/artificial-intelligence/adversarial-search-algorithms/",
+        "description": "An overview of adversarial search algorithms used in artificial intelligence for decision-making in competitive environments."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/artificial-intelligence/ai-in-gaming/",
+        "description": "This resource explores the applications and impact of artificial intelligence in the gaming industry."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/machine-learning/game-theory-in-ai/",
+        "description": "An introduction to the application of game theory concepts in artificial intelligence and machine learning."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=nw7zmdBLQ6U",
+      "https://www.youtube.com/watch?v=osbmLJb2Tkc",
+      "https://www.youtube.com/watch?v=a0_lo_GDcFw",
+      "https://www.youtube.com/watch?v=QjTpzTcNms0",
+      "https://www.youtube.com/watch?v=z-EtmaFJieY"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary advantage of using the A* algorithm in pathfinding for games?",
+      "options": [
+        "It is faster than other pathfinding algorithms",
+        "It guarantees the shortest path",
+        "It requires less memory",
+        "It is easier to implement"
+      ],
+      "correct_option": 1,
+      "hint": "Think about the goal of pathfinding and what A* is designed to achieve."
+    },
+    {
+      "question": "Which component of a behavior tree determines the sequence in which tasks are executed?",
+      "options": [
+        "Decorator",
+        "Leaf",
+        "Composite",
+        "Selector"
+      ],
+      "correct_option": 2,
+      "hint": "This component helps in structuring behavior trees by defining how child nodes are executed."
+    },
+    {
+      "question": "In the context of Utility AI, what determines the selection of an action?",
+      "options": [
+        "The number of actions available",
+        "The highest utility score",
+        "The complexity of the action",
+        "The randomness factor"
+      ],
+      "correct_option": 1,
+      "hint": "Utility AI evaluates and compares actions based on their usefulness or benefit."
+    },
+    {
+      "question": "What is the primary purpose of using flocking algorithms in game AI?",
+      "options": [
+        "To enable individual character control",
+        "To simulate realistic group movement",
+        "To create random movement patterns",
+        "To optimize game performance"
+      ],
+      "correct_option": 1,
+      "hint": "Consider how animals like birds or fish move in groups."
+    },
+    {
+      "question": "What does GOAP stand for in AI decision making?",
+      "options": [
+        "Goal-Oriented Action Planning",
+        "Game-Oriented Action Protocol",
+        "General Operations and Planning",
+        "Graphical Operations and Pathfinding"
+      ],
+      "correct_option": 0,
+      "hint": "GOAP focuses on planning actions to achieve specific goals."
+    }
+  ]
+}

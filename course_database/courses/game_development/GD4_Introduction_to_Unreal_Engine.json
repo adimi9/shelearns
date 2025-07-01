@@ -1,0 +1,176 @@
+{
+  "id": "GD4",
+  "name": "Introduction to Unreal Engine",
+  "category": "Game Development",
+  "primary_tech": "Unreal Engine",
+  "topics": [
+    "Unreal Editor & Interface",
+    "Blueprints Visual Scripting",
+    "Asset Pipeline & Material Editor",
+    "Basic C++ Integration"
+  ],
+  "levels": [
+    "Beginner"
+  ],
+  "recommended": true,
+  "tags": [
+    "engine",
+    "AAA",
+    "C++",
+    "blueprints"
+  ],
+  "alternatives": [
+    {
+      "tech": "Unity Engine",
+      "reason": "More accessible for beginners, vast asset store, good for various game types",
+      "tags": [
+        "engine",
+        "C#"
+      ],
+      "preferred_if": [
+        "User prefers C#",
+        "Developing mobile or indie games"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What programming language is primarily used for scripting in Unity Engine?",
+          "options": [
+            "Python",
+            "Java",
+            "C#",
+            "Ruby"
+          ],
+          "correct_option": 2,
+          "hint": "It is a language developed by Microsoft and widely used for game development in Unity."
+        },
+        {
+          "question": "Why might beginners find Unity Engine more accessible compared to other game engines?",
+          "options": [
+            "It requires advanced programming knowledge.",
+            "It has a vast asset store and a user-friendly interface.",
+            "It only supports 2D games.",
+            "It is exclusively used for AAA games."
+          ],
+          "correct_option": 1,
+          "hint": "Consider the resources and tools available to users that simplify the development process."
+        },
+        {
+          "question": "What type of games is Unity Engine particularly well-suited for developing?",
+          "options": [
+            "Only AAA console games",
+            "Mobile and indie games",
+            "Massively Multiplayer Online Games (MMOs)",
+            "Virtual Reality (VR) only"
+          ],
+          "correct_option": 1,
+          "hint": "Think about the scalability and accessibility of the games developed using Unity."
+        },
+        {
+          "question": "Which feature of Unity Engine supports a wide variety of assets for game development?",
+          "options": [
+            "Limited scripting options",
+            "A vast asset store",
+            "Only supports 3D modeling",
+            "Requires high-end hardware"
+          ],
+          "correct_option": 1,
+          "hint": "This feature provides pre-made elements that can be used in game development."
+        },
+        {
+          "question": "What is an advantage of using C# in Unity Engine?",
+          "options": [
+            "It is an obsolete language.",
+            "It is not supported by Unity.",
+            "It is known for its performance and versatility in game development.",
+            "It only works on Windows platforms."
+          ],
+          "correct_option": 2,
+          "hint": "Consider the language's reputation and compatibility with Unity."
+        }
+      ],
+      "resources": {
+        "docs": [],
+        "notes": [],
+        "videos": []
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web",
+      "https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection",
+      "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_collision_detection"
+    ],
+    "notes": [
+      "https://www.freecodecamp.org/news/developing-games-using-unreal-engine-5/",
+      "https://www.freecodecamp.org/news/online-coding-classes-for-beginners-2022-guide/",
+      "https://www.geeksforgeeks.org/websites-apps/unity-vs-unreal-engine/",
+      "https://www.freecodecamp.org/news/how-to-choose-a-programming-language-and-escape-tutorial-purgatory/",
+      "https://www.geeksforgeeks.org/computer-science-fundamentals/programming-tutorial/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=BGsFLoYp1V8",
+      "https://www.youtube.com/watch?v=k-zMkzmduqI",
+      "https://www.youtube.com/watch?v=DXDe-2BC4cE",
+      "https://www.youtube.com/watch?v=S2nu172btrs",
+      "https://www.youtube.com/watch?v=n19J3siV3SA"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary interface used for creating and editing Unreal Engine projects?",
+      "options": [
+        "Unreal Editor",
+        "Blueprints Editor",
+        "Material Editor",
+        "C++ Compiler"
+      ],
+      "correct_option": 0,
+      "hint": "It's the main tool where you design and develop your game."
+    },
+    {
+      "question": "What is Blueprints Visual Scripting primarily used for in Unreal Engine?",
+      "options": [
+        "Creating and editing textures",
+        "Writing C++ code",
+        "Visual programming",
+        "Building levels"
+      ],
+      "correct_option": 2,
+      "hint": "It's a system that allows for coding without writing traditional code."
+    },
+    {
+      "question": "Which feature of Unreal Engine is used to manage and organize game assets?",
+      "options": [
+        "Material Editor",
+        "Asset Pipeline",
+        "Blueprints Editor",
+        "C++ Integration"
+      ],
+      "correct_option": 1,
+      "hint": "Think about the workflow for handling models, textures, and other resources."
+    },
+    {
+      "question": "In Unreal Engine, what tool would you use to create and adjust the appearance of surfaces?",
+      "options": [
+        "Blueprints Editor",
+        "Material Editor",
+        "Unreal Editor",
+        "C++ Editor"
+      ],
+      "correct_option": 1,
+      "hint": "It's specifically designed for manipulating materials and shaders."
+    },
+    {
+      "question": "How can basic C++ integration benefit a beginner using Unreal Engine?",
+      "options": [
+        "By creating textures",
+        "By offering more control over game logic",
+        "By simplifying the interface",
+        "By automating asset import"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how programming can offer more detailed control over game functions."
+    }
+  ]
+}

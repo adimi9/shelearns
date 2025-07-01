@@ -1,0 +1,119 @@
+{
+  "id": "FE5",
+  "name": "SASS / SCSS Styling",
+  "category": "Frontend Development",
+  "primary_tech": "SASS / SCSS",
+  "topics": [
+    "Nesting & Variables",
+    "Mixins & Functions",
+    "Modular Architecture"
+  ],
+  "recommended": false,
+  "tags": [
+    "css",
+    "preprocessor",
+    "styling"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "description": "Comprehensive documentation and resources for learning and using CSS (Cascading Style Sheets) in web development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors",
+        "description": "An overview and guide on using CSS attribute selectors to style HTML elements based on their attributes."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
+        "description": "A guide on how to use CSS nesting to organize and simplify CSS code by embedding style rules within each other."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/css/",
+        "description": "A comprehensive guide to learning and mastering CSS for designing and styling web pages."
+      },
+      {
+        "url": "https://www.w3schools.com/react/react_sass_styling.asp",
+        "description": "This resource provides a guide on how to use SASS for styling React applications."
+      },
+      {
+        "url": "https://www.w3schools.com/sass/",
+        "description": "A comprehensive tutorial and reference guide for learning and using SASS, a CSS preprocessor."
+      },
+      {
+        "url": "https://www.w3schools.com/sass/sass_intro.asp",
+        "description": "An introductory guide to SASS, explaining its features and benefits for enhancing CSS with variables and nesting."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/what-are-the-best-ways-to-create-a-sass-scss-theme-skin/156119",
+        "description": "This forum thread discusses effective methods for creating theme skins using SASS/SCSS."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=akDIJa0AP5c",
+      "https://www.youtube.com/watch?v=oIU8pRHI1pg",
+      "https://www.youtube.com/watch?v=Zz6eOVaaelI",
+      "https://www.youtube.com/watch?v=yt03bkX8cA4",
+      "https://www.youtube.com/watch?v=_a5j7KoflTs"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary benefit of using variables in SASS/SCSS?",
+      "options": [
+        "To store repetitive values for reuse",
+        "To create animations",
+        "To automatically optimize images",
+        "To compile JavaScript"
+      ],
+      "correct_option": 0,
+      "hint": "Think about repetition and consistency in styling."
+    },
+    {
+      "question": "Which symbol is used in SASS/SCSS to define a variable?",
+      "options": [
+        "$",
+        "#",
+        "@",
+        "&"
+      ],
+      "correct_option": 0,
+      "hint": "It's the same symbol used for currency in some countries."
+    },
+    {
+      "question": "What is a mixin in SASS/SCSS used for?",
+      "options": [
+        "To include a set of styles",
+        "To import fonts",
+        "To define color schemes",
+        "To create grid layouts"
+      ],
+      "correct_option": 0,
+      "hint": "It's like a function that saves styles to be reused."
+    },
+    {
+      "question": "How do you nest styles in SCSS?",
+      "options": [
+        "By using brackets",
+        "By using indentation",
+        "By placing selectors inside other selectors",
+        "By using the ':' symbol"
+      ],
+      "correct_option": 2,
+      "hint": "Think about the structure of HTML elements."
+    },
+    {
+      "question": "What does the modular architecture in SASS/SCSS promote?",
+      "options": [
+        "Separation of styles into components",
+        "Using global variables for all styles",
+        "Writing all styles in a single file",
+        "Avoiding the use of mixins"
+      ],
+      "correct_option": 0,
+      "hint": "Modules help in organizing code for better maintenance."
+    }
+  ]
+}

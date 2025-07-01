@@ -1,0 +1,192 @@
+{
+  "id": "FS6",
+  "name": "NoSQL Databases (MongoDB & Redis)",
+  "category": "FullStack Development",
+  "primary_tech": "NoSQL Databases",
+  "topics": [
+    "Document Database Concepts (MongoDB)",
+    "Key-Value Stores (Redis for Caching/Sessions)",
+    "Data Modeling for NoSQL",
+    "Aggregation Frameworks"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "database",
+    "NoSQL",
+    "caching"
+  ],
+  "alternatives": [
+    {
+      "tech": "Cassandra",
+      "reason": "Highly scalable and available distributed NoSQL database for big data applications.",
+      "tags": [
+        "NoSQL",
+        "distributed",
+        "big-data"
+      ],
+      "preferred_if": [
+        "User needs extreme write scalability and high availability"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is a key feature of Cassandra that makes it suitable for big data applications?",
+          "options": [
+            "Support for ACID transactions",
+            "Extreme write scalability and high availability",
+            "Strong consistency across all nodes",
+            "Built-in machine learning capabilities"
+          ],
+          "correct_option": 1,
+          "hint": "Think about its scalability and availability features."
+        },
+        {
+          "question": "Which of the following is a primary reason to choose Cassandra over other NoSQL databases?",
+          "options": [
+            "Support for complex joins",
+            "High throughput for write operations",
+            "Built-in full text search",
+            "Support for in-memory data storage only"
+          ],
+          "correct_option": 1,
+          "hint": "Consider the database's performance with write operations."
+        },
+        {
+          "question": "Cassandra is most suitable for applications that require:",
+          "options": [
+            "Real-time analytics on live data streams",
+            "High availability and horizontal scalability",
+            "Complex relational joins",
+            "Single-node deployment"
+          ],
+          "correct_option": 1,
+          "hint": "Think about its architecture and deployment model."
+        },
+        {
+          "question": "Which architecture does Cassandra use to ensure high availability?",
+          "options": [
+            "Master-slave architecture",
+            "Single-point architecture",
+            "Peer-to-peer architecture",
+            "Hierarchical architecture"
+          ],
+          "correct_option": 2,
+          "hint": "Consider how data is distributed across nodes in Cassandra."
+        },
+        {
+          "question": "In Cassandra, what ensures that data is distributed evenly across all nodes?",
+          "options": [
+            "Data sharding",
+            "Data replication",
+            "Consistent hashing",
+            "Primary key assignment"
+          ],
+          "correct_option": 2,
+          "hint": "Think about how data is balanced and accessed efficiently."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://nodejs.org/api/buffer.html",
+          "https://nodejs.org/api/n-api.html",
+          "https://developer.mozilla.org/en-US/docs/Glossary/Database"
+        ],
+        "notes": [
+          "https://www.freecodecamp.org/news/the-apache-cassandra-beginner-tutorial/",
+          "https://www.geeksforgeeks.org/dbms/apache-cassandra-nosql-database/",
+          "https://www.geeksforgeeks.org/dbms/cassandra-nosql-database/",
+          "https://www.geeksforgeeks.org/dbms/sstable-in-apache-cassandra/",
+          "https://www.geeksforgeeks.org/devops/introduction-to-apache-cassandra/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=KZsVSfQVU4I",
+          "https://www.youtube.com/watch?v=jgqu1BcSKUI",
+          "https://www.youtube.com/watch?v=J-cSy5MeMOA",
+          "https://www.youtube.com/watch?v=WFycRMLvMKc",
+          "https://www.youtube.com/watch?v=VsQ4OuH-K1I"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Glossary/Database",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/introduction-to-nosql/",
+      "https://forum.freecodecamp.org/t/minimum-requirement-to-be-an-employable-junior-web-developer/435246",
+      "https://www.geeksforgeeks.org/dbms/types-of-nosql-databases/",
+      "https://www.geeksforgeeks.org/difference-between-redis-and-mongodb/",
+      "https://www.geeksforgeeks.org/dbms/difference-between-redis-and-mongodb/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=0buKQHokLK8",
+      "https://www.youtube.com/watch?v=-bt_y4Loofg",
+      "https://www.youtube.com/watch?v=G1rOthIU-uo",
+      "https://www.youtube.com/watch?v=JHMulyNImj4",
+      "https://www.youtube.com/watch?v=ziq7FUKpCS8"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a primary feature of document databases like MongoDB?",
+      "options": [
+        "They store data in tables with fixed schemas.",
+        "They store data as JSON-like documents.",
+        "They primarily use SQL for queries.",
+        "They are best used for relational data."
+      ],
+      "correct_option": 1,
+      "hint": "Document databases do not use tables like traditional databases."
+    },
+    {
+      "question": "Which of the following is a common use case for Redis?",
+      "options": [
+        "Storing large volumes of text data.",
+        "Caching frequently accessed data.",
+        "Performing complex joins across tables.",
+        "Running transactional SQL queries."
+      ],
+      "correct_option": 1,
+      "hint": "Redis is often used to improve the performance of applications by reducing the time needed to access data."
+    },
+    {
+      "question": "In MongoDB, what is an aggregation framework used for?",
+      "options": [
+        "Ensuring data consistency across collections.",
+        "Defining relations between documents.",
+        "Performing advanced data processing and analysis.",
+        "Storing documents in a schema-less way."
+      ],
+      "correct_option": 2,
+      "hint": "Aggregation frameworks help in processing data and returning computed results."
+    },
+    {
+      "question": "How does data modeling for NoSQL databases differ from traditional relational databases?",
+      "options": [
+        "It requires strict adherence to normalization rules.",
+        "It focuses more on the application needs and access patterns.",
+        "It emphasizes complex joins and foreign keys.",
+        "It involves using primary and secondary indexes heavily."
+      ],
+      "correct_option": 1,
+      "hint": "NoSQL data modeling is more flexible and tailored to specific use cases."
+    },
+    {
+      "question": "What is the role of a key in a key-value store like Redis?",
+      "options": [
+        "It acts as a unique identifier for storing and retrieving data.",
+        "It defines the schema of the stored data.",
+        "It is used to perform complex queries and joins.",
+        "It specifies the type of data being stored."
+      ],
+      "correct_option": 0,
+      "hint": "In a key-value store, each key maps directly to a single value."
+    }
+  ]
+}

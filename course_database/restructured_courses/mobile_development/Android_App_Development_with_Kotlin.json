@@ -1,0 +1,121 @@
+{
+  "id": "MD11",
+  "name": "Android App Development with Kotlin",
+  "category": "Mobile Development",
+  "primary_tech": "Kotlin",
+  "topics": [
+    "Kotlin Programming Language",
+    "Android Studio IDE",
+    "Layouts & Views",
+    "Activities & Fragments"
+  ],
+  "recommended": true,
+  "tags": [
+    "Android",
+    "native",
+    "Google",
+    "programming"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "http://native.reactjs.org/",
+        "description": "Comprehensive documentation and resources for building mobile applications using React Native."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams",
+        "description": "The URLSearchParams API documentation provides details on how to work with URL query string parameters in web development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/icons",
+        "description": "This resource provides detailed specifications and guidelines for defining icons in the web app manifest for Progressive Web Apps (PWAs)."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.youtube.com/watch?v=BBWyXo-3JGQ",
+        "description": "This video provides a comprehensive introduction to the concept and implementation of the Model-View-Controller (MVC) design pattern."
+      },
+      {
+        "url": "https://m.youtube.com/watch?v=C2DBDZKkLss&t=34s",
+        "description": "This video provides a comprehensive guide to understanding and implementing the Model-View-Controller (MVC) design pattern in software development."
+      },
+      {
+        "url": "https://www.reddit.com/r/Kotlin/comments/1avbk42/android_development_with_kotlin_for_beginner/",
+        "description": "A beginner-friendly guide to Android development using Kotlin, shared on the Reddit Kotlin community."
+      },
+      {
+        "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app",
+        "description": "A step-by-step codelab for building your first Android app using Kotlin and Jetpack Compose."
+      },
+      {
+        "url": "https://www.reddit.com/r/Kotlin/comments/15s4z2n/best_way_to_learn_kotlin/",
+        "description": "This Reddit discussion explores various effective methods and resources for learning the Kotlin programming language."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=xT8oP0wy-A0",
+      "https://www.youtube.com/watch?v=BBWyXo-3JGQ",
+      "https://www.youtube.com/watch?v=Qy38PF05eWw",
+      "https://www.youtube.com/watch?v=0VCmp7Z6JeE",
+      "https://www.youtube.com/watch?v=W1Uoi3uvLMc"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary programming language used in Android app development alongside Kotlin?",
+      "options": [
+        "Java",
+        "Swift",
+        "Python",
+        "C++"
+      ],
+      "correct_option": 0,
+      "hint": "It's a popular object-oriented programming language."
+    },
+    {
+      "question": "Which of the following is NOT a component of Android Studio IDE?",
+      "options": [
+        "Layout Editor",
+        "IntelliJ IDEA",
+        "Emulator",
+        "Xcode"
+      ],
+      "correct_option": 3,
+      "hint": "This component is used for Apple's software development."
+    },
+    {
+      "question": "In Kotlin, which keyword is used to declare a variable that can be reassigned?",
+      "options": [
+        "val",
+        "var",
+        "const",
+        "let"
+      ],
+      "correct_option": 1,
+      "hint": "This keyword allows variable mutability."
+    },
+    {
+      "question": "What is the purpose of a Fragment in Android development?",
+      "options": [
+        "To handle network operations",
+        "To represent a behavior or portion of user interface",
+        "To manage dependencies",
+        "To store data persistently"
+      ],
+      "correct_option": 1,
+      "hint": "It's a reusable component that can be combined with activities."
+    },
+    {
+      "question": "What is the XML file used to define the layout of an Android activity?",
+      "options": [
+        "Manifest.xml",
+        "Strings.xml",
+        "Activity_main.xml",
+        "Gradle.xml"
+      ],
+      "correct_option": 2,
+      "hint": "It's typically named after the activity it represents."
+    }
+  ]
+}

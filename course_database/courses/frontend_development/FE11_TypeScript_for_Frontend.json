@@ -1,0 +1,101 @@
+{
+  "id": "FE11",
+  "name": "TypeScript for Frontend",
+  "category": "Frontend Development",
+  "primary_tech": "TypeScript",
+  "topics": [
+    "Type Annotations & Interfaces",
+    "Generics",
+    "TS in React/Vue"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "typescript",
+    "typed",
+    "frontend"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "https://reactjs.org/",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice"
+    ],
+    "notes": [
+      "https://www.w3schools.com/typescript/",
+      "https://www.geeksforgeeks.org/typescript/typescript-tutorial/",
+      "https://forum.freecodecamp.org/t/can-i-learn-javascript-and-typescript-together/147112",
+      "https://www.freecodecamp.org/news/how-to-build-a-simple-game-in-the-browser-with-phaser-3-and-typescript-bdc94719135/",
+      "https://www.freecodecamp.org/news/angular-for-beginners-course/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=d56mG7DezGs",
+      "https://www.youtube.com/watch?v=zQnBQ4tB3ZA",
+      "https://www.youtube.com/watch?v=ydkQlJhodio",
+      "https://www.youtube.com/watch?v=5ChkQKUzDCs",
+      "https://www.youtube.com/watch?v=TPACABQTHvM"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of type annotations in TypeScript?",
+      "options": [
+        "To improve code readability",
+        "To enforce data type constraints",
+        "To enhance runtime performance",
+        "To enable dynamic typing"
+      ],
+      "correct_option": 1,
+      "hint": "Type annotations help catch errors at compile time."
+    },
+    {
+      "question": "In TypeScript, what is an interface primarily used for?",
+      "options": [
+        "To define a set of properties and methods for an object",
+        "To manage application state",
+        "To implement inheritance",
+        "To create a user interface design"
+      ],
+      "correct_option": 0,
+      "hint": "Interfaces are a way to define the shape of an object."
+    },
+    {
+      "question": "How do generics increase the flexibility of functions in TypeScript?",
+      "options": [
+        "By allowing functions to operate on any data type",
+        "By restricting functions to specific data types",
+        "By optimizing code for performance",
+        "By simplifying the syntax of functions"
+      ],
+      "correct_option": 0,
+      "hint": "Generics help write reusable and flexible code components."
+    },
+    {
+      "question": "Which of the following is a benefit of using TypeScript with React?",
+      "options": [
+        "TypeScript eliminates the need for React components",
+        "TypeScript allows for server-side rendering",
+        "TypeScript provides type safety for React components",
+        "TypeScript automatically styles React components"
+      ],
+      "correct_option": 2,
+      "hint": "Type safety helps prevent runtime errors in React applications."
+    },
+    {
+      "question": "What is a common use of TypeScript in Vue.js applications?",
+      "options": [
+        "To compile Vue templates into JavaScript",
+        "To provide type safety and enhance component structure",
+        "To replace Vue.js directives",
+        "To manage component lifecycle hooks"
+      ],
+      "correct_option": 1,
+      "hint": "TypeScript helps enforce type rules in Vue components."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "BE7",
+  "name": "Microservices Architecture",
+  "category": "Backend Development",
+  "primary_tech": "Microservices",
+  "topics": [
+    "Monolith vs. Microservices",
+    "Service Communication (REST/gRPC)",
+    "Service Discovery & API Gateway"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "architecture",
+    "distributed-systems",
+    "scalability"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://nodejs.org/docs/latest/api/",
+      "https://reactjs.org/",
+      "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/system-design/microservices/",
+      "https://www.geeksforgeeks.org/java-microservices/",
+      "https://www.geeksforgeeks.org/blogs/microservice-architecture-introduction-challenges-best-practices/",
+      "https://www.geeksforgeeks.org/java-spring-boot-microservices-example-step-by-step-guide/",
+      "https://www.geeksforgeeks.org/how-to-build-a-microservices-architecture-with-nodejs/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=lL_j7ilk7rc",
+      "https://www.youtube.com/watch?v=lTAcCNbJ7KE",
+      "https://www.youtube.com/watch?v=rv4LlmLmVWk",
+      "https://www.youtube.com/watch?v=tuJqH3AV0e8",
+      "https://www.youtube.com/watch?v=iWJzmV0xRVE"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a key difference between monolithic and microservices architecture?",
+      "options": [
+        "Monolithic architecture involves splitting applications into smaller services",
+        "Microservices architecture has tightly coupled components",
+        "Monolithic architecture is easier to scale than microservices",
+        "Microservices architecture allows independent deployment of services"
+      ],
+      "correct_option": 3,
+      "hint": "Consider the independence and scalability of services."
+    },
+    {
+      "question": "Which communication protocol is most commonly associated with service-to-service communication in microservices?",
+      "options": [
+        "SOAP",
+        "gRPC",
+        "FTP",
+        "SMTP"
+      ],
+      "correct_option": 1,
+      "hint": "It's a modern protocol designed for high-performance communication."
+    },
+    {
+      "question": "What role does an API Gateway play in a microservices architecture?",
+      "options": [
+        "It directly connects databases to services",
+        "It manages requests from clients and routes them to the appropriate service",
+        "It stores data for microservices",
+        "It provides user authentication and authorization only"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how requests are managed and directed in a microservices setup."
+    },
+    {
+      "question": "In the context of service discovery, what is a critical feature that ensures microservices can find each other?",
+      "options": [
+        "Static IP addresses",
+        "Hard-coded service routes",
+        "Dynamic registration and deregistration of services",
+        "Manual update of service lists"
+      ],
+      "correct_option": 2,
+      "hint": "Consider how services dynamically appear and disappear in a network."
+    },
+    {
+      "question": "Which technology is NOT typically used in microservices architecture for communication?",
+      "options": [
+        "REST",
+        "gRPC",
+        "SMTP",
+        "GraphQL"
+      ],
+      "correct_option": 2,
+      "hint": "Focus on communication protocols that are suitable for human-readable message exchange."
+    }
+  ]
+}

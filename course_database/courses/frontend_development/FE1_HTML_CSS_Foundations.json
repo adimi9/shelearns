@@ -1,0 +1,103 @@
+{
+  "id": "FE1",
+  "name": "HTML & CSS Foundations",
+  "category": "Frontend Development",
+  "primary_tech": [
+    "HTML",
+    "CSS"
+  ],
+  "topics": [
+    "HTML Syntax & Semantics",
+    "CSS Box Model & Layout",
+    "Responsive Design"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "markup",
+    "styling",
+    "fundamentals"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "https://developer.mozilla.org/en-US/"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/css/foundation-css/",
+      "https://www.w3schools.com/html/html_css.asp",
+      "https://www.w3schools.com/js/",
+      "https://www.w3schools.com/html/",
+      "https://www.geeksforgeeks.org/css/foundation-css-introduction/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=G3e-cpL7ofc",
+      "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+      "https://www.youtube.com/watch?v=HGTJBPNC-Gw",
+      "https://www.youtube.com/watch?v=14joG8_vEYI",
+      "https://www.youtube.com/watch?v=ZOx2g9NqtPQ"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the main purpose of using semantic HTML tags?",
+      "options": [
+        "To style the webpage with CSS",
+        "To improve the accessibility and SEO of the webpage",
+        "To add scripting functionality",
+        "To ensure cross-browser compatibility"
+      ],
+      "correct_option": 1,
+      "hint": "Semantic tags provide meaning to the web content."
+    },
+    {
+      "question": "Which of the following CSS properties is most closely associated with the CSS Box Model?",
+      "options": [
+        "font-size",
+        "border",
+        "font-weight",
+        "text-align"
+      ],
+      "correct_option": 1,
+      "hint": "The Box Model includes content, padding, border, and margin."
+    },
+    {
+      "question": "In HTML, what does the <header> element represent?",
+      "options": [
+        "The main content of the webpage",
+        "A container for introductory content or navigational links",
+        "A section for footer information",
+        "A list of items"
+      ],
+      "correct_option": 1,
+      "hint": "It typically contains introductory content or links."
+    },
+    {
+      "question": "What CSS technique can be used to create a responsive web design?",
+      "options": [
+        "Using fixed pixel widths",
+        "Using media queries",
+        "Applying inline styles",
+        "Using !important in CSS rules"
+      ],
+      "correct_option": 1,
+      "hint": "This technique involves applying different styles based on screen size."
+    },
+    {
+      "question": "Which HTML element is used to define the structure of a webpage's content?",
+      "options": [
+        "<div>",
+        "<span>",
+        "<section>",
+        "<script>"
+      ],
+      "correct_option": 2,
+      "hint": "This element is often used to group content with a thematic purpose."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "id": "FS8",
+  "name": "GraphQL API Development (FullStack)",
+  "category": "FullStack Development",
+  "primary_tech": "GraphQL",
+  "topics": [
+    "Schema Design & Type System",
+    "Queries, Mutations & Subscriptions (Frontend/Backend)",
+    "Apollo Server & Client Integration",
+    "Resolvers & Data Sources"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "API",
+    "data-fetching",
+    "frontend-backend-communication"
+  ],
+  "alternatives": [
+    {
+      "tech": "tRPC",
+      "reason": "End-to-end type-safe APIs for TypeScript applications, popular in the Next.js ecosystem.",
+      "tags": [
+        "TypeScript",
+        "API",
+        "type-safety"
+      ],
+      "preferred_if": [
+        "User is building a full-stack TypeScript application",
+        "Values strong type-safety across layers"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is the primary purpose of using tRPC in a TypeScript application?",
+          "options": [
+            "To provide runtime type-checking",
+            "To create end-to-end type-safe APIs",
+            "To improve database performance",
+            "To enhance UI rendering capabilities"
+          ],
+          "correct_option": 1,
+          "hint": "It focuses on ensuring type-safety across different layers of the application."
+        },
+        {
+          "question": "Which framework is tRPC notably popular with?",
+          "options": [
+            "Angular",
+            "React Native",
+            "Next.js",
+            "Vue.js"
+          ],
+          "correct_option": 2,
+          "hint": "This framework is known for server-side rendering and is built on top of React."
+        },
+        {
+          "question": "How does tRPC achieve type-safety across client and server?",
+          "options": [
+            "By using JSON schema validation",
+            "By sharing TypeScript types between client and server",
+            "By enforcing runtime validation rules",
+            "By converting TypeScript to JavaScript"
+          ],
+          "correct_option": 1,
+          "hint": "It leverages TypeScript's type system to ensure consistency."
+        },
+        {
+          "question": "Which of the following is NOT a feature of tRPC?",
+          "options": [
+            "Automatic endpoint generation",
+            "End-to-end type safety",
+            "GraphQL schema generation",
+            "Integration with Next.js"
+          ],
+          "correct_option": 2,
+          "hint": "tRPC is an alternative to this technology and does not generate its schema."
+        },
+        {
+          "question": "In which layer of a full-stack application would you use tRPC?",
+          "options": [
+            "Database layer",
+            "Backend API layer",
+            "Frontend UI layer",
+            "Operating system layer"
+          ],
+          "correct_option": 1,
+          "hint": "tRPC is used to define and handle communication between client and server."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon",
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift",
+          "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/412"
+        ],
+        "notes": [
+          "https://www.freecodecamp.org/news/what-is-trpc/",
+          "https://www.freecodecamp.org/news/build-an-invoice-saas-app-with-next-js-and-neon-postgres/",
+          "https://www.geeksforgeeks.org/a-10x-faster-typescript/",
+          "https://www.geeksforgeeks.org/typescript/a-10x-faster-typescript/",
+          "https://forum.freecodecamp.org/t/how-to-install-eslint-in-vs-code/727745"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=UfUbBWIFdJs",
+          "https://www.youtube.com/watch?v=GuzZN-4kc3w",
+          "https://www.youtube.com/watch?v=YkOSUVzOAA4",
+          "https://www.youtube.com/watch?v=VedrpVSstSY",
+          "https://m.youtube.com/watch?v=XY8zyvxFvqM&pp=ygUNI2pzY291cnNlMjAyMw%3D%3D"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://legacy.reactjs.org/docs/higher-order-components.html",
+      "https://nodejs.org/api/assert.html",
+      "https://es.reactjs.org/docs/create-a-new-react-app.html"
+    ],
+    "notes": [
+      "https://www.freecodecamp.org/news/lessons-learned-from-deploying-my-first-full-stack-web-application-34f94ec0a286/",
+      "https://www.freecodecamp.org/",
+      "https://www.geeksforgeeks.org/web-development/",
+      "https://www.freecodecamp.org/news/i-built-a-web-api-with-express-flask-aspnet/",
+      "https://www.freecodecamp.org/news/graphql-zero-to-production-a7c4f786a57b/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=eIQh02xuVw4",
+      "https://www.youtube.com/watch?v=BcLNfwF04Kw",
+      "https://www.youtube.com/watch?v=yWzKJPw_VzM",
+      "https://www.youtube.com/watch?v=c8XMl9aQVCM",
+      "https://www.youtube.com/watch?v=PTfZcN20fro"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of the type system in GraphQL schema design?",
+      "options": [
+        "To enforce authentication and authorization",
+        "To define types and relationships between them",
+        "To execute mutations on the server",
+        "To manage subscriptions for real-time updates"
+      ],
+      "correct_option": 1,
+      "hint": "It's related to how data structures are defined and connected."
+    },
+    {
+      "question": "In GraphQL, what is a mutation used for?",
+      "options": [
+        "To fetch data",
+        "To modify server-side data",
+        "To establish real-time data subscriptions",
+        "To define the schema"
+      ],
+      "correct_option": 1,
+      "hint": "It's the equivalent of performing 'create', 'update', or 'delete' operations."
+    },
+    {
+      "question": "Which GraphQL feature allows clients to receive real-time updates from the server?",
+      "options": [
+        "Queries",
+        "Mutations",
+        "Resolvers",
+        "Subscriptions"
+      ],
+      "correct_option": 3,
+      "hint": "It's not a way to fetch or modify data, but to listen for changes."
+    },
+    {
+      "question": "What is the role of resolvers in a GraphQL API?",
+      "options": [
+        "To authenticate user requests",
+        "To define the structure of the data",
+        "To handle the execution of queries and mutations",
+        "To integrate third-party APIs"
+      ],
+      "correct_option": 2,
+      "hint": "They are functions that execute when a query or mutation is called."
+    },
+    {
+      "question": "How does Apollo Client typically integrate with a frontend application?",
+      "options": [
+        "By using RESTful API calls",
+        "Through direct database connections",
+        "Via GraphQL queries and mutations",
+        "Using WebSockets for all data transfers"
+      ],
+      "correct_option": 2,
+      "hint": "It involves executing GraphQL operations to communicate with the server."
+    }
+  ]
+}

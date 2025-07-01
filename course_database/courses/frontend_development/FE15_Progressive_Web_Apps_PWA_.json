@@ -1,0 +1,185 @@
+{
+  "id": "FE15",
+  "name": "Progressive Web Apps (PWA)",
+  "category": "Frontend Development",
+  "primary_tech": "PWA",
+  "topics": [
+    "Service Workers",
+    "Offline Support",
+    "Web App Manifest & Installation"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "offline",
+    "web app",
+    "modern web"
+  ],
+  "alternatives": [
+    {
+      "tech": "TWA (Trusted Web Activities)",
+      "reason": "PWA wrapped for Android with deeper integration",
+      "tags": [
+        "PWA",
+        "Android"
+      ],
+      "preferred_if": [
+        "User wants native Android experience with web tech"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is a Trusted Web Activity (TWA)?",
+          "options": [
+            "A way to wrap a Progressive Web App for Android with deeper integration",
+            "A method to build native iOS applications using web technologies",
+            "An alternative to Progressive Web Apps for desktop environments",
+            "A tool for enhancing web security on e-commerce sites"
+          ],
+          "correct_option": 0,
+          "hint": "This technology allows PWAs to be integrated into Android with a more native feel."
+        },
+        {
+          "question": "Which platform primarily benefits from the use of TWAs?",
+          "options": [
+            "iOS",
+            "Windows",
+            "Android",
+            "Linux"
+          ],
+          "correct_option": 2,
+          "hint": "This platform is known for its mobile operating system."
+        },
+        {
+          "question": "What is the main advantage of using a TWA over a standard PWA for Android applications?",
+          "options": [
+            "Higher conversion rates",
+            "Deeper integration with Android features",
+            "Faster loading times",
+            "Better SEO"
+          ],
+          "correct_option": 1,
+          "hint": "TWAs offer more access to native Android features."
+        },
+        {
+          "question": "What is a key difference between a PWA and a TWA?",
+          "options": [
+            "PWAs are only for desktop users",
+            "TWAs require a native Android app shell",
+            "PWAs have better offline capabilities",
+            "TWAs are used exclusively for iOS devices"
+          ],
+          "correct_option": 1,
+          "hint": "TWAs need a special app structure to function on Android."
+        },
+        {
+          "question": "What is a common use case for implementing a TWA?",
+          "options": [
+            "Improving SEO ranking for web content",
+            "Providing a native Android experience using web technologies",
+            "Developing cross-platform desktop applications",
+            "Enhancing web security"
+          ],
+          "correct_option": 1,
+          "hint": "The focus is on combining web tech with a native Android feel."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Share_data_between_apps"
+        ],
+        "notes": [
+          "https://www.geeksforgeeks.org/blogs/how-to-build-progressive-web-application-and-submit-it-to-the-play-store/",
+          "https://www.freecodecamp.org/news/an-explanation-of-progressive-web-apps-for-the-non-pwa-crowd-8a400e275ea1/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=9eztp81VP-M",
+          "https://www.youtube.com/watch?v=AF9wjWW6iBY",
+          "https://www.youtube.com/watch?v=3bAQPnxLd4c",
+          "https://www.youtube.com/watch?v=C18YMhmGpKk",
+          "https://m.youtube.com/watch?v=F91EZuhLMBc"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+      "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app",
+      "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest"
+    ],
+    "notes": [
+      "https://www.freecodecamp.org/news/what-are-progressive-web-apps-pwa-guide/",
+      "https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/",
+      "https://www.geeksforgeeks.org/making-a-simple-pwa-under-5-minutes/",
+      "https://www.geeksforgeeks.org/how-to-build-a-progressive-web-app-pwa-from-scratch/",
+      "https://www.geeksforgeeks.org/websites-apps/what-is-a-progressive-web-app-pwa/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=sFsRylCQblw",
+      "https://www.youtube.com/watch?v=dap6yIe1uK4",
+      "https://www.youtube.com/watch?v=1WWweyBaWZk",
+      "https://www.youtube.com/watch?v=blx2hBeUcYY",
+      "https://www.youtube.com/watch?v=c6LE1IHgx-0"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What role do Service Workers play in Progressive Web Apps?",
+      "options": [
+        "To enhance CSS styling",
+        "To manage offline caching and network requests",
+        "To provide user authentication",
+        "To handle server-side rendering"
+      ],
+      "correct_option": 1,
+      "hint": "Service Workers act as a proxy between the web app and the network."
+    },
+    {
+      "question": "Which file specifies the metadata required for a Progressive Web App to be installable on a device?",
+      "options": [
+        "index.html",
+        "service-worker.js",
+        "manifest.json",
+        "app.js"
+      ],
+      "correct_option": 2,
+      "hint": "This file contains information like the app's name, icons, and theme colors."
+    },
+    {
+      "question": "How do Service Workers contribute to offline support in PWAs?",
+      "options": [
+        "By sending push notifications",
+        "By caching resources to serve them when offline",
+        "By enhancing the visual design",
+        "By managing user sessions"
+      ],
+      "correct_option": 1,
+      "hint": "Service Workers can store assets locally to ensure availability without a network connection."
+    },
+    {
+      "question": "What is a key benefit of Web App Manifests in PWAs?",
+      "options": [
+        "Improved SEO",
+        "Ease of user authentication",
+        "Seamless background updates",
+        "Enabling the app to be added to the home screen"
+      ],
+      "correct_option": 3,
+      "hint": "Web App Manifests provide a native-like experience by allowing installation on devices."
+    },
+    {
+      "question": "Which of the following technologies is NOT directly associated with Progressive Web Apps?",
+      "options": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Python"
+      ],
+      "correct_option": 3,
+      "hint": "Consider frontend technologies typically used in web development."
+    }
+  ]
+}

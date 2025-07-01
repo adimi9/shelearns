@@ -1,0 +1,130 @@
+{
+  "id": "FE16",
+  "name": "Remix Essentials for Backend Developers",
+  "category": "Frontend Development",
+  "primary_tech": "Remix",
+  "topics": [
+    "Introduction to Remix and its architecture",
+    "Setting up a Remix project with Node.js",
+    "Understanding loaders and actions for data handling",
+    "Building RESTful APIs with Remix",
+    "Server-side rendering with Remix",
+    "Managing state and data fetching in Remix applications",
+    "Authentication and authorization strategies",
+    "Deployment and scaling Remix applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "remix",
+    "backend",
+    "server-side-rendering",
+    "api-development",
+    "react",
+    "nodejs"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix",
+        "description": "The MDN Web Docs page explains the CSS `color-mix()` function for blending two colors together."
+      },
+      {
+        "url": "https://reactjs.org/",
+        "description": "Official React documentation providing comprehensive guides and API references for building user interfaces with React."
+      },
+      {
+        "url": "https://reactjs.org/docs/create-a-new-react-app.html",
+        "description": "A guide on how to create a new React application using various tools and templates."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/javascript/remix-introduction-installation/",
+        "description": "A guide on introducing and installing Remix, a JavaScript framework for building web applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/javascript/getting-started-with-remix/",
+        "description": "An introductory guide to getting started with the Remix framework for building web applications using JavaScript."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/solidity/steps-to-execute-solidity-smart-contract-using-remix-ide/",
+        "description": "A step-by-step guide on executing Solidity smart contracts using the Remix IDE."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/what-is-remix/",
+        "description": "An introduction to Remix, a full-stack web framework for building modern web applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/javascript/form-vs-fetcher-in-remix/",
+        "description": "This resource explains the differences and use cases between the Form and Fetcher components in the Remix JavaScript framework."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=d_BhzHVV4aQ",
+      "https://www.youtube.com/watch?v=RBYJTop1e-g",
+      "https://www.youtube.com/watch?v=rw1xAHJnBV8",
+      "https://www.youtube.com/watch?v=Z_33-pco_aA",
+      "https://www.youtube.com/watch?v=HOlYQu_r4Io"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a key feature of Remix that differentiates it from Next.js?",
+      "options": [
+        "Static site generation",
+        "Server-side rendering",
+        "Loaders for data-fetching",
+        "Client-side rendering"
+      ],
+      "correct_option": 2,
+      "hint": "This feature is used to fetch data before rendering the component."
+    },
+    {
+      "question": "Which of the following is a primary focus of Remix?",
+      "options": [
+        "Static site generation",
+        "Improved client-side navigation",
+        "Web fundamentals",
+        "GraphQL integration"
+      ],
+      "correct_option": 2,
+      "hint": "Remix emphasizes the core principles of the web."
+    },
+    {
+      "question": "In Remix, what is the purpose of loaders?",
+      "options": [
+        "To bundle JavaScript files",
+        "To handle server-side routing",
+        "To fetch and prepare data for rendering",
+        "To manage client-side state"
+      ],
+      "correct_option": 2,
+      "hint": "Loaders are used to prepare data before a page is rendered."
+    },
+    {
+      "question": "What type of rendering does Remix primarily support?",
+      "options": [
+        "Client-side rendering",
+        "Server-side rendering",
+        "Static site generation",
+        "Incremental static regeneration"
+      ],
+      "correct_option": 1,
+      "hint": "Remix focuses on rendering content on the server to improve performance and SEO."
+    },
+    {
+      "question": "Which programming language is Remix primarily built with?",
+      "options": [
+        "Python",
+        "Ruby",
+        "JavaScript",
+        "PHP"
+      ],
+      "correct_option": 2,
+      "hint": "Remix is a framework for building React applications, which typically use this language."
+    }
+  ],
+  "preferred_if": [
+    "User wants modern SSR alternative to Next.js"
+  ]
+}

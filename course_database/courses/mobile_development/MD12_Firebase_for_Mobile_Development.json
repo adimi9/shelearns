@@ -1,0 +1,176 @@
+{
+  "id": "MD12",
+  "name": "Firebase for Mobile Development",
+  "category": "Mobile Development",
+  "primary_tech": "Firebase",
+  "topics": [
+    "Firebase Authentication",
+    "Cloud Firestore/Realtime Database",
+    "Cloud Functions for Firebase",
+    "Crashlytics & Analytics"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "BaaS",
+    "backend-as-a-service",
+    "Google"
+  ],
+  "alternatives": [
+    {
+      "tech": "AWS Amplify",
+      "reason": "Comprehensive set of tools and services for building scalable mobile and web apps",
+      "tags": [
+        "BaaS",
+        "AWS"
+      ],
+      "preferred_if": [
+        "User is already in the AWS ecosystem",
+        "Needs more customization and control"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is AWS Amplify primarily used for in mobile and web app development?",
+          "options": [
+            "Database management",
+            "Comprehensive set of tools for building scalable apps",
+            "Operating system development",
+            "Game development"
+          ],
+          "correct_option": 1,
+          "hint": "AWS Amplify offers a suite of services for app development, not just database management."
+        },
+        {
+          "question": "Why might a developer choose AWS Amplify over Firebase when already using AWS services?",
+          "options": [
+            "It has better user interface design tools",
+            "It offers more customization and control within the AWS ecosystem",
+            "It is free to use without any limits",
+            "It provides better customer support"
+          ],
+          "correct_option": 1,
+          "hint": "Consider the integration and control benefits within a single service ecosystem."
+        },
+        {
+          "question": "Which of the following is a key feature of AWS Amplify?",
+          "options": [
+            "Built-in machine learning models",
+            "Pre-configured serverless backend",
+            "In-built graphic design software",
+            "Native app development environment"
+          ],
+          "correct_option": 1,
+          "hint": "AWS Amplify focuses on simplifying backend processes for developers."
+        },
+        {
+          "question": "What does BaaS stand for, in relation to AWS Amplify?",
+          "options": [
+            "Backend as a Service",
+            "Blockchain as a Service",
+            "Business as a Solution",
+            "Backup as a System"
+          ],
+          "correct_option": 0,
+          "hint": "This acronym refers to a cloud service model that provides backend services."
+        },
+        {
+          "question": "How does AWS Amplify benefit developers looking for scalability in their apps?",
+          "options": [
+            "It automatically scales resources as demand changes",
+            "It offers manual resource allocation",
+            "It requires third-party tools for scaling",
+            "It does not support scalability"
+          ],
+          "correct_option": 0,
+          "hint": "AWS Amplify automates many processes to help developers focus on app development rather than infrastructure management."
+        }
+      ],
+      "resources": {
+        "docs": [],
+        "notes": [],
+        "videos": []
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/",
+      "https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification",
+      "https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API"
+    ],
+    "notes": [
+      "https://forum.freecodecamp.org/t/how-to-get-started-with-my-first-web-app-and-is-firebase-a-good-option-for-this/440823",
+      "https://www.geeksforgeeks.org/firebase/firebase-introduction/",
+      "https://www.freecodecamp.org/news/firebase-course-html-css-javascript/",
+      "https://www.geeksforgeeks.org/firebase/firebase-tutorial/",
+      "https://www.geeksforgeeks.org/adding-firebase-to-android-app/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=9kRgVxULbag",
+      "https://www.youtube.com/watch?v=vAoB4VbhRzM",
+      "https://www.youtube.com/watch?v=p9pgI3Mg-So",
+      "https://www.youtube.com/watch?v=UFD4SP91tSM",
+      "https://www.youtube.com/watch?v=Rd6F5wHIysM"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is Firebase Authentication primarily used for in mobile applications?",
+      "options": [
+        "To manage user authentication and identity",
+        "To store user data",
+        "To deploy application code",
+        "To analyze user behavior"
+      ],
+      "correct_option": 0,
+      "hint": "It helps in managing user sign-in and authentication processes."
+    },
+    {
+      "question": "Which Firebase service would you use to store and sync data in real-time across all connected clients?",
+      "options": [
+        "Cloud Firestore",
+        "Firebase Realtime Database",
+        "Firebase Authentication",
+        "Firebase Hosting"
+      ],
+      "correct_option": 1,
+      "hint": "This service is known for real-time synchronization."
+    },
+    {
+      "question": "What is the main purpose of Cloud Functions for Firebase?",
+      "options": [
+        "To execute backend code in response to events",
+        "To host static websites",
+        "To manage application analytics",
+        "To store user-generated content"
+      ],
+      "correct_option": 0,
+      "hint": "It allows you to run server-side code without managing servers."
+    },
+    {
+      "question": "How does Crashlytics help mobile developers?",
+      "options": [
+        "By providing real-time crash reports and analytics",
+        "By improving app performance speed",
+        "By offering data storage solutions",
+        "By handling user authentication"
+      ],
+      "correct_option": 0,
+      "hint": "It focuses on reporting and understanding app crashes."
+    },
+    {
+      "question": "Which Firebase feature would you use to gain insights into how users interact with your mobile app?",
+      "options": [
+        "Firebase Analytics",
+        "Firebase Hosting",
+        "Cloud Firestore",
+        "Firebase Authentication"
+      ],
+      "correct_option": 0,
+      "hint": "This feature is dedicated to tracking user interactions and behaviors."
+    }
+  ]
+}

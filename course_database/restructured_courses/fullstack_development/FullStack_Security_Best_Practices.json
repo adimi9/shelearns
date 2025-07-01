@@ -1,0 +1,120 @@
+{
+  "id": "FS8",
+  "name": "FullStack Security Best Practices",
+  "category": "FullStack Development",
+  "primary_tech": "Security",
+  "topics": [
+    "OWASP Top 10 (Frontend & Backend)",
+    "Secure API Design",
+    "Data Protection & Privacy (GDPR/CCPA basics)",
+    "Threat Modeling & Vulnerability Management"
+  ],
+  "recommended": true,
+  "tags": [
+    "security",
+    "cybersecurity",
+    "web-security"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+        "description": "An overview of Progressive Web Apps (PWAs), detailing their features, benefits, and implementation strategies."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "description": "Comprehensive documentation and learning resources for JavaScript, a versatile programming language for web development."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "description": "A comprehensive guide for beginners to learn the fundamentals of web development, including HTML, CSS, and JavaScript."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+        "description": "A comprehensive guide on becoming a full-stack developer and securing a job in the field."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/best-full-stack-project-ideas/",
+        "description": "A curated list of innovative full-stack project ideas for developers to enhance their skills and portfolios."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/gfg-academy/web-developer-to-full-stack-developer-roles-skills-salaries/",
+        "description": "The article outlines the transition from web developer to full stack developer, covering roles, necessary skills, and salary expectations."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/",
+        "description": "A guide to designing and building REST APIs using best practices for effective and efficient API development."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-tutorial/",
+        "description": "A comprehensive tutorial on ethical hacking and cybersecurity fundamentals."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=Sxxw3qtb3_g",
+      "https://www.youtube.com/watch?v=UBUNrFtufWo",
+      "https://www.youtube.com/watch?v=aIy46jQsDLM",
+      "https://www.youtube.com/watch?v=Mbz39bz1_HQ",
+      "https://www.youtube.com/watch?v=scEDHsr3APg"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which of the following is a key component of the OWASP Top 10 that addresses improper software configuration?",
+      "options": [
+        "Broken Access Control",
+        "Security Misconfiguration",
+        "Sensitive Data Exposure",
+        "Cross-Site Scripting (XSS)"
+      ],
+      "correct_option": 1,
+      "hint": "This component deals with default settings and incomplete configurations."
+    },
+    {
+      "question": "What is a primary consideration in Secure API Design to prevent unauthorized access?",
+      "options": [
+        "Use of API keys",
+        "Logging user activities",
+        "Implementing rate limiting",
+        "Ensuring proper authentication and authorization"
+      ],
+      "correct_option": 3,
+      "hint": "It's crucial to verify users' identities and their permissions."
+    },
+    {
+      "question": "Which regulation focuses on data protection and privacy within the European Union?",
+      "options": [
+        "CCPA",
+        "HIPAA",
+        "GDPR",
+        "SOX"
+      ],
+      "correct_option": 2,
+      "hint": "This regulation is applicable to all EU citizens and residents."
+    },
+    {
+      "question": "In threat modeling, what is the first step to identify potential security threats?",
+      "options": [
+        "Mitigating threats",
+        "Identifying assets",
+        "Analyzing vulnerabilities",
+        "Documenting threats"
+      ],
+      "correct_option": 1,
+      "hint": "This step involves recognizing what needs protection."
+    },
+    {
+      "question": "What is a common method to manage vulnerabilities in software development?",
+      "options": [
+        "Ignoring outdated dependencies",
+        "Implementing firewalls",
+        "Regularly updating software and libraries",
+        "Using weak passwords"
+      ],
+      "correct_option": 2,
+      "hint": "Keeping software and libraries current helps fix known issues."
+    }
+  ]
+}

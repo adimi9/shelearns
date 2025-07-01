@@ -1,0 +1,131 @@
+{
+  "id": "CS12",
+  "name": "C++ Backend Development Essentials",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "C++",
+  "topics": [
+    "Introduction to C++ Programming",
+    "Object-Oriented Programming with C++",
+    "Data Structures and Algorithms",
+    "Multithreading in C++",
+    "Database Integration using C++",
+    "Building RESTful APIs with C++",
+    "Error Handling and Debugging",
+    "Performance Optimization and Security in C++"
+  ],
+  "recommended": false,
+  "tags": [
+    "C++",
+    "backend",
+    "development",
+    "APIs",
+    "multithreading",
+    "database-integration"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://nodejs.org/api/addons.html",
+        "description": "The Node.js Addons documentation provides guidance on creating C/C++ addons to extend Node.js functionality."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/WebAssembly/Guides/C_to_Wasm",
+        "description": "A guide on converting C code into WebAssembly using Emscripten for web applications."
+      },
+      {
+        "url": "https://nodejs.org/api/n-api.html",
+        "description": "The N-API documentation provides a stable API for building native add-ons in Node.js."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/cpp/",
+        "description": "W3Schools' C++ tutorial provides comprehensive lessons and examples for learning C++ programming from basics to advanced topics."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/cpp-tutorial/?ref=header_outind",
+        "description": "This resource offers a comprehensive tutorial on C++ programming, covering fundamental concepts and advanced topics."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/cpp/cpp-stl-tutorial/",
+        "description": "A comprehensive guide to understanding and using the C++ Standard Template Library (STL)."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/cpp/c-plus-plus/",
+        "description": "A comprehensive guide to C++ programming covering fundamental concepts, syntax, and advanced topics."
+      },
+      {
+        "url": "https://www.w3schools.com/cpp/cpp_classes.asp",
+        "description": "An introductory guide to understanding and using classes in C++ programming."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=1v_4dL8l8pQ",
+      "https://www.youtube.com/watch?v=P2jVybFyh3A",
+      "https://www.youtube.com/watch?v=ZzaPdXTrSb8&pp=0gcJCfwAo7VqN5tD",
+      "https://www.youtube.com/watch?v=vLnPwxZdW4Y",
+      "https://www.youtube.com/watch?v=-TkoO8Z07hI"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is one of the main reasons C++ is preferred in game development and systems programming?",
+      "options": [
+        "It offers high-level abstraction.",
+        "It provides low-level control and high performance.",
+        "It is easier to learn than Python.",
+        "It is primarily used for web development."
+      ],
+      "correct_option": 1,
+      "hint": "Consider the requirements for performance and control in game development."
+    },
+    {
+      "question": "Which feature of C++ allows for direct manipulation of memory addresses?",
+      "options": [
+        "Object-oriented programming",
+        "Pointers",
+        "Garbage collection",
+        "Built-in string handling"
+      ],
+      "correct_option": 1,
+      "hint": "This feature is crucial for managing memory manually."
+    },
+    {
+      "question": "Why might a programmer choose C++ over Java for a performance-critical application?",
+      "options": [
+        "C++ is inherently more secure.",
+        "C++ allows for close-to-hardware programming with manual memory management.",
+        "Java has better built-in libraries for performance-critical applications.",
+        "Java uses pointers extensively like C++."
+      ],
+      "correct_option": 1,
+      "hint": "Think about the control C++ offers over system resources."
+    },
+    {
+      "question": "In C++, which keyword is used to dynamically allocate memory on the heap?",
+      "options": [
+        "malloc",
+        "new",
+        "allocate",
+        "create"
+      ],
+      "correct_option": 1,
+      "hint": "This keyword is paired with 'delete' to free memory."
+    },
+    {
+      "question": "Which of the following is NOT an advantage of using C++ for systems programming?",
+      "options": [
+        "High-level abstraction",
+        "High performance",
+        "Low-level memory manipulation",
+        "Portability"
+      ],
+      "correct_option": 0,
+      "hint": "Consider whether C++ is known for abstraction or control."
+    }
+  ],
+  "preferred_if": [
+    "User interested in game development",
+    "Wants deep understanding of memory"
+  ]
+}

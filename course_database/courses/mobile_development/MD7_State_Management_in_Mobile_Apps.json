@@ -1,0 +1,91 @@
+{
+  "id": "MD7",
+  "name": "State Management in Mobile Apps",
+  "category": "Mobile Development",
+  "primary_tech": "State Management",
+  "topics": [
+    "Prop Drilling vs. Centralized State",
+    "Provider (Flutter)",
+    "Redux/MobX (React Native)",
+    "ViewModel/LiveData (Android)"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "architecture",
+    "data-flow",
+    "scalability"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [],
+    "notes": [
+      "https://www.geeksforgeeks.org/reactjs/state-management-in-react-hooks-context-api-and-redux/",
+      "https://www.geeksforgeeks.org/android/state-management-in-android-jetpack-compose/",
+      "https://www.freecodecamp.org/news/how-to-develop-a-flutter-app-from-scratch/",
+      "https://www.geeksforgeeks.org/state-management-in-android-jetpack-compose/",
+      "https://www.geeksforgeeks.org/reactjs/jotai-a-lightweight-state-management-solution-for-react/"
+    ],
+    "videos": []
+  },
+  "quiz": [
+    {
+      "question": "What is a primary disadvantage of prop drilling in mobile app state management?",
+      "options": [
+        "Increased code complexity",
+        "Improved state visibility",
+        "Better performance",
+        "Simplifies debugging"
+      ],
+      "correct_option": 0,
+      "hint": "Consider how prop drilling affects code maintenance and scalability."
+    },
+    {
+      "question": "Which state management solution in Flutter uses an InheritedWidget to manage state efficiently?",
+      "options": [
+        "Redux",
+        "MobX",
+        "Provider",
+        "ViewModel"
+      ],
+      "correct_option": 2,
+      "hint": "This solution is built into the Flutter framework and is widely used for its simplicity."
+    },
+    {
+      "question": "In React Native, which library is known for its unidirectional data flow and predictability?",
+      "options": [
+        "Provider",
+        "ViewModel",
+        "MobX",
+        "Redux"
+      ],
+      "correct_option": 3,
+      "hint": "This library is popular for managing the state of large applications with a single source of truth."
+    },
+    {
+      "question": "Which Android architecture component provides a lifecycle-aware way to manage UI-related data?",
+      "options": [
+        "LiveData",
+        "Redux",
+        "MobX",
+        "Provider"
+      ],
+      "correct_option": 0,
+      "hint": "This component is part of the Android Jetpack suite and helps with observing data changes."
+    },
+    {
+      "question": "In the context of state management, what is a key benefit of using a centralized state over prop drilling?",
+      "options": [
+        "Easier debugging",
+        "Less boilerplate code",
+        "Improved performance",
+        "Better reusability"
+      ],
+      "correct_option": 3,
+      "hint": "Consider how a centralized state can affect component reusability and state management across the application."
+    }
+  ]
+}

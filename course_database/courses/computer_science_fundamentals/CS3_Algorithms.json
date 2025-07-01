@@ -1,0 +1,101 @@
+{
+  "id": "CS3",
+  "name": "Algorithms",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Algorithms",
+  "topics": [
+    "Sorting Algorithms (Merge, Quick, Heap)",
+    "Searching Algorithms (Binary, BFS, DFS)",
+    "Graph Algorithms (Dijkstra, MST)",
+    "Recursion & Dynamic Programming"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "algorithms",
+    "optimization",
+    "problem-solving"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://legacy.reactjs.org/docs/reconciliation.html",
+      "https://nodejs.org/api/crypto.html",
+      "https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/fundamentals-of-algorithms/",
+      "https://www.geeksforgeeks.org/introduction-to-algorithms/",
+      "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "https://www.w3schools.com/dsa/",
+      "https://www.w3schools.com/dsa/dsa_intro.php"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=rL8X2mlNHPM",
+      "https://www.youtube.com/watch?v=oz9cEqFynHU",
+      "https://www.youtube.com/watch?v=8hly31xKli0",
+      "https://www.youtube.com/watch?v=jQqQpPMYPXs",
+      "https://www.youtube.com/watch?v=BBpAmxU_NQo"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which sorting algorithm is known for its divide and conquer approach and has an average time complexity of O(n log n)?",
+      "options": [
+        "Merge Sort",
+        "Bubble Sort",
+        "Insertion Sort",
+        "Selection Sort"
+      ],
+      "correct_option": 0,
+      "hint": "It divides the array into halves and combines them after sorting."
+    },
+    {
+      "question": "What is the time complexity of searching for an element in a balanced binary search tree using Binary Search?",
+      "options": [
+        "O(log n)",
+        "O(n^2)",
+        "O(n log n)",
+        "O(n)"
+      ],
+      "correct_option": 0,
+      "hint": "The complexity is logarithmic in nature."
+    },
+    {
+      "question": "Which algorithm is used to find the shortest path from a single source to all other vertices in a graph with non-negative weights?",
+      "options": [
+        "Dijkstra's Algorithm",
+        "Prim's Algorithm",
+        "Floyd-Warshall Algorithm",
+        "Kruskal's Algorithm"
+      ],
+      "correct_option": 0,
+      "hint": "This algorithm uses a priority queue to find the shortest path."
+    },
+    {
+      "question": "In dynamic programming, what is a common technique used to solve problems by breaking them down into simpler subproblems?",
+      "options": [
+        "Memoization",
+        "Recursion",
+        "Backtracking",
+        "Brute Force"
+      ],
+      "correct_option": 0,
+      "hint": "This technique involves storing solutions to subproblems to avoid redundant calculations."
+    },
+    {
+      "question": "Which graph algorithm is used to find a Minimum Spanning Tree (MST) and uses a greedy approach?",
+      "options": [
+        "Prim's Algorithm",
+        "Dijkstra's Algorithm",
+        "Bellman-Ford Algorithm",
+        "Depth First Search"
+      ],
+      "correct_option": 0,
+      "hint": "This algorithm grows the MST one edge at a time, always choosing the smallest edge."
+    }
+  ]
+}

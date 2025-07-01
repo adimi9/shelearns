@@ -1,0 +1,100 @@
+{
+  "id": "CSec5",
+  "name": "Operating System Security",
+  "category": "Computer Security",
+  "primary_tech": "OS Security",
+  "topics": [
+    "User & Permissions Management",
+    "Patch Management & Updates",
+    "Hardening OS Configurations",
+    "Malware & Rootkit Detection"
+  ],
+  "levels": [
+    "Intermediate"
+  ],
+  "recommended": false,
+  "tags": [
+    "system-security",
+    "endpoint-protection",
+    "hardening"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/File_System_API",
+      "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia",
+      "https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/operating-systems/operating-system-security/",
+      "https://www.geeksforgeeks.org/operating-systems/operating-systems/",
+      "https://www.geeksforgeeks.org/operating-systems/system-security/",
+      "https://www.geeksforgeeks.org/operating-systems/system-protection-in-operating-system/",
+      "https://www.geeksforgeeks.org/operating-systems/kernel-in-operating-system/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=26QPDBe-NB8",
+      "https://www.youtube.com/watch?v=inWWhr5tnEA",
+      "https://www.youtube.com/watch?v=_-6grju3KQU",
+      "https://www.youtube.com/watch?v=fkGCLIQx1MI",
+      "https://www.youtube.com/watch?v=RozoeWzT7IM"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of user and permissions management in operating system security?",
+      "options": [
+        "To restrict access to resources and data based on user roles",
+        "To enhance system performance by reducing resource usage",
+        "To facilitate easier data recovery and backup",
+        "To allow unrestricted access to all users"
+      ],
+      "correct_option": 0,
+      "hint": "Think about how access control contributes to security."
+    },
+    {
+      "question": "Which of the following is a key benefit of patch management and updates?",
+      "options": [
+        "Reduced system speed",
+        "Improved system security and vulnerability management",
+        "Increased complexity in system configuration",
+        "Decreased compatibility with applications"
+      ],
+      "correct_option": 1,
+      "hint": "Updates are often released to address security issues."
+    },
+    {
+      "question": "What does OS hardening involve?",
+      "options": [
+        "Installing additional software applications",
+        "Disabling unnecessary services and securing settings",
+        "Reducing the hardware specifications",
+        "Simplifying the user interface"
+      ],
+      "correct_option": 1,
+      "hint": "Consider actions that minimize the attack surface."
+    },
+    {
+      "question": "Which technology is crucial for detecting and responding to malware and rootkits?",
+      "options": [
+        "Web browser",
+        "Anti-malware software",
+        "Spreadsheet application",
+        "Media player"
+      ],
+      "correct_option": 1,
+      "hint": "This software is specifically designed to identify malicious activities."
+    },
+    {
+      "question": "Why is regular system updating critical in operating system security?",
+      "options": [
+        "It ensures the latest security patches are applied",
+        "It makes the system more user-friendly",
+        "It increases the size of the operating system",
+        "It replaces outdated hardware components"
+      ],
+      "correct_option": 0,
+      "hint": "Updates often address newly discovered security vulnerabilities."
+    }
+  ]
+}

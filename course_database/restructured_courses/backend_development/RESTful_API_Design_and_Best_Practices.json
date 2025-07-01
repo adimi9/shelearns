@@ -1,0 +1,119 @@
+{
+  "id": "BE13",
+  "name": "RESTful API Design & Best Practices",
+  "category": "Backend Development",
+  "primary_tech": "REST APIs",
+  "topics": [
+    "HTTP Methods & Status Codes",
+    "Resource Modeling",
+    "Versioning & Pagination"
+  ],
+  "recommended": true,
+  "tags": [
+    "API",
+    "architecture",
+    "design"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/REST",
+        "description": "An introductory glossary entry explaining the principles and usage of Representational State Transfer (REST) in web services."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+        "description": "This resource provides an introduction to responsive design principles and techniques for creating adaptable web layouts using CSS."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API",
+        "description": "Comprehensive documentation on Web APIs for building and interacting with web applications."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/",
+        "description": "A guide on best practices for designing and building robust REST APIs."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/",
+        "description": "A guide on best practices and examples for designing REST API endpoints effectively."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/node-js/rest-api-introduction/",
+        "description": "An introductory guide to creating REST APIs using Node.js."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/how-work-with-restful-apis-in-react-simplified-steps-and-practical-examples/",
+        "description": "A guide on integrating and using RESTful APIs in React with simplified steps and practical examples."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/api-design-roadmap/",
+        "description": "A comprehensive guide outlining best practices and strategies for designing effective APIs."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=-mN3VyJuCjM",
+      "https://www.youtube.com/watch?v=_gQaygjm_hg",
+      "https://www.youtube.com/watch?v=7nm1pYuKAhY",
+      "https://www.youtube.com/watch?v=7QfswaV0re4",
+      "https://www.youtube.com/watch?v=faMdrSCVDzc"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which HTTP method is typically used to update a resource in RESTful APIs?",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "correct_option": 2,
+      "hint": "This method is used to update existing resources or create them if they do not exist."
+    },
+    {
+      "question": "What does a 404 HTTP status code signify in a RESTful API?",
+      "options": [
+        "Resource not found",
+        "Internal server error",
+        "Request accepted",
+        "Resource created"
+      ],
+      "correct_option": 0,
+      "hint": "This status code indicates that the server cannot find the requested resource."
+    },
+    {
+      "question": "In RESTful API design, what is the primary purpose of versioning?",
+      "options": [
+        "To improve API security",
+        "To increase API speed",
+        "To manage changes without affecting existing clients",
+        "To simplify API endpoints"
+      ],
+      "correct_option": 2,
+      "hint": "Versioning helps in managing changes to the API over time."
+    },
+    {
+      "question": "Which of the following is a common technique for implementing pagination in RESTful APIs?",
+      "options": [
+        "Using HTTP cookies",
+        "Query parameters like 'limit' and 'offset'",
+        "Storing data in XML format",
+        "Using WebSockets"
+      ],
+      "correct_option": 1,
+      "hint": "This technique involves specifying the number of records to skip and retrieve."
+    },
+    {
+      "question": "What is the purpose of resource modeling in RESTful API design?",
+      "options": [
+        "To define the database schema",
+        "To manage user authentication",
+        "To represent entities and their relationships",
+        "To encrypt data"
+      ],
+      "correct_option": 2,
+      "hint": "Resource modeling involves defining resources and their interactions in the API."
+    }
+  ]
+}

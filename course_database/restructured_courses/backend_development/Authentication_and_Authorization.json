@@ -1,0 +1,119 @@
+{
+  "id": "BE20",
+  "name": "Authentication & Authorization",
+  "category": "Backend Development",
+  "primary_tech": "Security",
+  "topics": [
+    "JWT (JSON Web Tokens)",
+    "OAuth 2.0 & OpenID Connect",
+    "Password Hashing & Session Management"
+  ],
+  "recommended": true,
+  "tags": [
+    "security",
+    "auth",
+    "web-security"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Authorization",
+        "description": "The MDN documentation provides detailed information on the HTTP Authorization header used for user authentication."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Authentication",
+        "description": "A comprehensive guide on HTTP authentication methods and protocols for securing web communications."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Authentication",
+        "description": "This resource provides an overview of implementing authentication in Django applications, focusing on user login and management."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/computer-networks/difference-between-authentication-and-authorization/",
+        "description": "This resource explains the key differences between authentication and authorization in computer networks."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/how-to-secure-your-mern-stack-application/",
+        "description": "A guide on implementing security measures to protect MERN stack applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/authentication-and-authorization-in-spring-boot-3-0-with-spring-security/",
+        "description": "A guide on implementing authentication and authorization in Spring Boot 3.0 using Spring Security."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/spring-boot-3-0-jwt-authentication-with-spring-security-using-mysql-database/",
+        "description": "A guide on implementing JWT authentication in Spring Boot 3.0 using Spring Security and a MySQL database."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/nodejs-authorization-authentication-of-a-superuser-help-tutorial-libraries/75279",
+        "description": "A guide on implementing superuser authentication and authorization in Node.js using various libraries."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=UBUNrFtufWo",
+      "https://www.youtube.com/watch?v=fbSVgC8nGz4",
+      "https://www.youtube.com/watch?v=yufqeJLP1rI",
+      "https://www.youtube.com/watch?v=ajExOgOCJXY",
+      "https://www.youtube.com/watch?v=WuyKxdLcw3w"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which component of JSON Web Tokens (JWT) contains the claims?",
+      "options": [
+        "Header",
+        "Payload",
+        "Signature",
+        "Algorithm"
+      ],
+      "correct_option": 1,
+      "hint": "It's the part of the token where data is stored."
+    },
+    {
+      "question": "What is the primary purpose of OAuth 2.0?",
+      "options": [
+        "To encrypt data",
+        "To manage user passwords",
+        "To authorize third-party applications",
+        "To hash user credentials"
+      ],
+      "correct_option": 2,
+      "hint": "It delegates access to resources without sharing user credentials."
+    },
+    {
+      "question": "Which of the following is a key advantage of using password hashing in authentication systems?",
+      "options": [
+        "It encrypts the entire database",
+        "It allows password recovery",
+        "It prevents storing plain text passwords",
+        "It simplifies user login processes"
+      ],
+      "correct_option": 2,
+      "hint": "Think about security measures for stored passwords."
+    },
+    {
+      "question": "How does OpenID Connect extend OAuth 2.0?",
+      "options": [
+        "By providing identity verification",
+        "By adding more encryption methods",
+        "By simplifying token management",
+        "By improving session management"
+      ],
+      "correct_option": 0,
+      "hint": "It focuses on user identity."
+    },
+    {
+      "question": "What is a common practice to enhance session management security?",
+      "options": [
+        "Using plain text cookies",
+        "Implementing session timeouts",
+        "Storing sessions on client-side",
+        "Sharing session IDs across users"
+      ],
+      "correct_option": 1,
+      "hint": "Consider measures to prevent unauthorized access after a period of inactivity."
+    }
+  ]
+}

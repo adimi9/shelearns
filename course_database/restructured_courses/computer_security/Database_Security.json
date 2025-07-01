@@ -1,0 +1,120 @@
+{
+  "id": "CSec2",
+  "name": "Database Security",
+  "category": "Computer Security",
+  "primary_tech": "Database Security",
+  "topics": [
+    "Access Control & Privileges",
+    "Data Encryption at Rest & In Transit",
+    "SQL Injection Prevention",
+    "Auditing & Logging Database Activities"
+  ],
+  "recommended": false,
+  "tags": [
+    "database",
+    "data-protection",
+    "SQL"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
+        "description": "This guide provides an overview of Content Security Policy (CSP) to enhance web application security by preventing cross-site scripting and data injection attacks."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
+        "description": "An overview of web security principles and best practices to protect websites from vulnerabilities and attacks."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Clear-Site-Data",
+        "description": "A guide on using the HTTP header \"Clear-Site-Data\" to instruct browsers to clear user data for a web origin."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/control-methods-of-database-security/",
+        "description": "An overview of various control methods used to enhance database security in DBMS."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/database-security-best-practices/",
+        "description": "A guide on implementing best practices for enhancing database security."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/dbms/",
+        "description": "An overview of Database Management Systems (DBMS), covering fundamental concepts, architecture, and various types of databases."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/",
+        "description": "An introductory guide to Database Management Systems (DBMS), covering fundamental concepts and components."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/dbms/statistical-database-security/",
+        "description": "This resource explains the methods and techniques used to ensure security in statistical databases within a DBMS."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=wR0jg0eQsZA",
+      "https://www.youtube.com/watch?v=2OPVViV-GQk",
+      "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+      "https://www.youtube.com/watch?v=bPVaOlJ6ln0",
+      "https://www.youtube.com/watch?v=inWWhr5tnEA"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of access control in database security?",
+      "options": [
+        "To limit user access based on roles and permissions",
+        "To encrypt data stored in the database",
+        "To log database activities for auditing",
+        "To prevent SQL injection attacks"
+      ],
+      "correct_option": 0,
+      "hint": "Consider how access control relates to managing who can do what within the database."
+    },
+    {
+      "question": "Which of the following is a common method for ensuring data encryption at rest?",
+      "options": [
+        "Using Transport Layer Security (TLS)",
+        "Implementing disk encryption",
+        "Utilizing SQL queries",
+        "Applying access control lists"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how data is protected when it's stored on physical media."
+    },
+    {
+      "question": "What is a crucial step in preventing SQL injection attacks?",
+      "options": [
+        "Encrypting data in transit",
+        "Using parameterized queries",
+        "Auditing all database activities",
+        "Implementing role-based access controls"
+      ],
+      "correct_option": 1,
+      "hint": "Consider techniques that involve securely handling SQL query inputs."
+    },
+    {
+      "question": "In database security, why is auditing and logging database activities important?",
+      "options": [
+        "To encrypt data",
+        "To monitor and detect unauthorized access or anomalies",
+        "To prevent SQL injections",
+        "To control user access"
+      ],
+      "correct_option": 1,
+      "hint": "Think about how tracking activities can help in identifying security breaches."
+    },
+    {
+      "question": "Which technology is commonly used to encrypt data in transit?",
+      "options": [
+        "SSL/TLS",
+        "AES encryption",
+        "Disk encryption",
+        "Role-based access control"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the protocols used for securing data sent over networks."
+    }
+  ]
+}

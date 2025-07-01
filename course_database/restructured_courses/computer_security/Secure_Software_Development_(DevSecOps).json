@@ -1,0 +1,120 @@
+{
+  "id": "CSec12",
+  "name": "Secure Software Development (DevSecOps)",
+  "category": "Computer Security",
+  "primary_tech": "DevSecOps",
+  "topics": [
+    "Security in SDLC",
+    "Threat Modeling",
+    "Static & Dynamic Application Security Testing (SAST/DAST)",
+    "Secure Coding Guidelines"
+  ],
+  "recommended": true,
+  "tags": [
+    "software-development",
+    "devops",
+    "automation"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/blog/optimizing-devsecops-workflows-with-gitlab-conditional-ci-cd-pipelines/",
+        "description": "This blog post explains how to enhance DevSecOps workflows using GitLab's conditional CI/CD pipelines for optimized software development processes."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Clear-Site-Data",
+        "description": "The page provides detailed information on the HTTP header \"Clear-Site-Data,\" which allows web developers to clear browsing data for a specific site."
+      },
+      {
+        "url": "https://nodejs.org/api/corepack.html",
+        "description": "The Node.js Corepack documentation provides guidance on using Corepack to manage package managers in Node.js projects."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/what-is-devsecops/",
+        "description": "This resource provides an introduction to DevSecOps, explaining its principles and how it integrates security into the DevOps process."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-devsecops-engineer/",
+        "description": "A comprehensive guide on the skills, tools, and steps required to become a DevSecOps engineer."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/what-is-devsecops/",
+        "description": "An introduction to DevSecOps, explaining its role in integrating security practices into the DevOps process."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devsecops/",
+        "description": "An overview of DevSecOps, emphasizing the integration of security practices into the DevOps process."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/devsecops-best-practices/",
+        "description": "This resource outlines best practices for integrating security into DevOps processes, known as DevSecOps."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=nrhxNNH5lt0",
+      "https://www.youtube.com/watch?v=F5KJVuii0Yw",
+      "https://www.youtube.com/watch?v=gLJdrXPn0ns",
+      "https://www.youtube.com/watch?v=cdb6ernButc",
+      "https://www.youtube.com/watch?v=scEDHsr3APg"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary goal of integrating security into the Software Development Life Cycle (SDLC)?",
+      "options": [
+        "To increase the development speed",
+        "To ensure security is considered at all stages",
+        "To minimize costs of development",
+        "To automate the testing process"
+      ],
+      "correct_option": 1,
+      "hint": "Think about the overall objective of DevSecOps in the SDLC."
+    },
+    {
+      "question": "Which of the following best describes threat modeling in DevSecOps?",
+      "options": [
+        "A process of identifying potential threats and vulnerabilities in a system",
+        "A method to speed up software delivery",
+        "A way to automate security testing",
+        "A technique for designing user interfaces"
+      ],
+      "correct_option": 0,
+      "hint": "Consider what is being analyzed and identified during threat modeling."
+    },
+    {
+      "question": "What is the primary difference between Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST)?",
+      "options": [
+        "SAST is used for network security, while DAST is for application security",
+        "SAST analyzes source code, while DAST evaluates running applications",
+        "SAST is faster but less accurate than DAST",
+        "SAST is a manual process, while DAST is automated"
+      ],
+      "correct_option": 1,
+      "hint": "Consider when each testing type is performed during the development process."
+    },
+    {
+      "question": "Which of the following is NOT a part of secure coding guidelines?",
+      "options": [
+        "Avoiding the use of hard-coded passwords",
+        "Implementing proper error handling",
+        "Ensuring high test coverage",
+        "Using cryptographic algorithms appropriately"
+      ],
+      "correct_option": 2,
+      "hint": "Think about which option is more related to testing rather than coding practices."
+    },
+    {
+      "question": "In the context of DevSecOps, which of the following technologies is primarily used for continuous integration and deployment?",
+      "options": [
+        "Docker",
+        "Jenkins",
+        "Kubernetes",
+        "Terraform"
+      ],
+      "correct_option": 1,
+      "hint": "This tool is popular for automating the build and deployment process in DevSecOps pipelines."
+    }
+  ]
+}

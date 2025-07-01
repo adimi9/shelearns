@@ -1,0 +1,90 @@
+{
+  "id": "MD9",
+  "name": "Local Data Storage for Mobile Apps",
+  "category": "Mobile Development",
+  "primary_tech": "Local Storage",
+  "topics": [
+    "Shared Preferences/UserDefaults",
+    "SQLite Databases (SQLDelight/Core Data)",
+    "NoSQL Mobile Databases (Realm/Hive)",
+    "File System Access"
+  ],
+  "levels": [
+    "Intermediate"
+  ],
+  "recommended": true,
+  "tags": [
+    "database",
+    "offline",
+    "data-persistence"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [],
+    "notes": [],
+    "videos": [
+      "https://www.youtube.com/watch?v=6Mv5SrGUnzE",
+      "https://www.youtube.com/watch?v=FB9GpmL0Qe0",
+      "https://www.youtube.com/watch?v=y9hiZuzaBhQ",
+      "https://www.youtube.com/watch?v=G1rOthIU-uo",
+      "https://www.youtube.com/watch?v=dU7GwCOgvNY"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which of the following is a key-value storage system used for storing simple data in mobile apps?",
+      "options": [
+        "SQLite Database",
+        "Shared Preferences/UserDefaults",
+        "Realm",
+        "File System Access"
+      ],
+      "correct_option": 1,
+      "hint": "It's often used for storing user settings or app preferences."
+    },
+    {
+      "question": "What is a primary advantage of using SQLite databases for mobile app data storage?",
+      "options": [
+        "High performance for complex queries",
+        "Automatic data syncing",
+        "Schema-less data structure",
+        "Built-in encryption"
+      ],
+      "correct_option": 0,
+      "hint": "This database system is known for its ability to handle complex SQL queries efficiently."
+    },
+    {
+      "question": "Which mobile database is known for being schema-less and suitable for offline-first apps?",
+      "options": [
+        "Core Data",
+        "SQLDelight",
+        "Realm",
+        "Shared Preferences"
+      ],
+      "correct_option": 2,
+      "hint": "This NoSQL database is popular for its flexibility and ease of use in mobile apps."
+    },
+    {
+      "question": "What is the purpose of using File System Access in mobile apps?",
+      "options": [
+        "To perform network operations",
+        "To manage user accounts",
+        "To read and write files directly",
+        "To handle in-app purchases"
+      ],
+      "correct_option": 2,
+      "hint": "It's used when you need to work with files directly on the device's storage."
+    },
+    {
+      "question": "Which technology would you use to store structured data with complex relationships in iOS apps?",
+      "options": [
+        "UserDefaults",
+        "Realm",
+        "Core Data",
+        "Hive"
+      ],
+      "correct_option": 2,
+      "hint": "This technology is specifically designed for managing object graphs and data persistence in iOS."
+    }
+  ]
+}

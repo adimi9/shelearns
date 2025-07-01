@@ -1,0 +1,102 @@
+{
+  "id": "CSec8",
+  "name": "Cloud Security",
+  "category": "Computer Security",
+  "primary_tech": "Cloud Security",
+  "topics": [
+    "Cloud Service Models (IaaS, PaaS, SaaS) Security",
+    "Shared Responsibility Model",
+    "Cloud Identity & Access Management (IAM)",
+    "Container Security Basics (Docker, Kubernetes)"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "cloud",
+    "AWS",
+    "Azure",
+    "GCP"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://nodejs.org/en/learn/getting-started/security-best-practices",
+      "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy"
+    ],
+    "notes": [
+      "https://www.w3schools.com/aws/aws_cloudessentials_sec_securityintroduction.php",
+      "https://www.geeksforgeeks.org/software-engineering/cloud-computing-security/",
+      "https://www.geeksforgeeks.org/cloud-security-architecture/",
+      "https://www.geeksforgeeks.org/cloud-computing/security-model-of-aws-cloud/",
+      "https://www.geeksforgeeks.org/advance-java/spring-cloud-security/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=Ijkvx1u0w6o",
+      "https://www.youtube.com/watch?v=PEl3RWFKOFk",
+      "https://www.youtube.com/watch?v=EPlIByXc5yI",
+      "https://www.youtube.com/watch?v=M988_fsOSWo",
+      "https://www.youtube.com/watch?v=3XFODda6YXo"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which cloud service model gives customers the most control over their computing resources?",
+      "options": [
+        "SaaS",
+        "PaaS",
+        "IaaS",
+        "FaaS"
+      ],
+      "correct_option": 2,
+      "hint": "This model provides virtualized computing resources over the internet."
+    },
+    {
+      "question": "In the Shared Responsibility Model, who is responsible for configuring security settings in the cloud?",
+      "options": [
+        "Cloud Provider",
+        "Customer",
+        "Third-party Vendor",
+        "Government"
+      ],
+      "correct_option": 1,
+      "hint": "The responsibility lies with the entity that has control over the configuration."
+    },
+    {
+      "question": "What is a primary benefit of using Cloud Identity and Access Management (IAM)?",
+      "options": [
+        "Improved hardware performance",
+        "Enhanced user interface design",
+        "Fine-grained access control",
+        "Automatic software updates"
+      ],
+      "correct_option": 2,
+      "hint": "IAM helps in managing permissions and access for users."
+    },
+    {
+      "question": "Which of the following tools is commonly used for container orchestration?",
+      "options": [
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Chef"
+      ],
+      "correct_option": 1,
+      "hint": "This tool is known for automating the deployment, scaling, and operations of application containers."
+    },
+    {
+      "question": "What is a critical security measure for managing Docker containers?",
+      "options": [
+        "Using default passwords",
+        "Running containers as root",
+        "Implementing network segmentation",
+        "Disabling logging"
+      ],
+      "correct_option": 2,
+      "hint": "This practice involves isolating containers to limit the impact of a breach."
+    }
+  ]
+}

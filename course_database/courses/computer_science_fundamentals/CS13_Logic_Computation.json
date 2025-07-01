@@ -1,0 +1,100 @@
+{
+  "id": "CS13",
+  "name": "Logic & Computation",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Theoretical CS",
+  "topics": [
+    "Propositional & Predicate Logic",
+    "Formal Languages & Automata",
+    "Turing Machines & Computability",
+    "Computational Complexity (P vs. NP)"
+  ],
+  "levels": [
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "theory",
+    "mathematics",
+    "foundations"
+  ],
+  "alternatives": [],
+  "resources": {
+    "docs": [
+      "https://beta.reactjs.org/learn/you-might-not-need-an-effect",
+      "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
+      "https://beta.reactjs.org/learn/keeping-components-pure"
+    ],
+    "notes": [
+      "https://forum.freecodecamp.org/t/stuck-with-the-calculator-logic/351659",
+      "https://www.geeksforgeeks.org/digital-logic/digital-electronics-logic-design-tutorials/",
+      "https://www.geeksforgeeks.org/python/compute-element-wise-logical-and-or-and-not-of-tensors-in-pytorch/",
+      "https://www.geeksforgeeks.org/maths/introduction-to-mathematical-logic/",
+      "https://www.geeksforgeeks.org/artificial-intelligence/fuzzy-logic-introduction/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=gI-qXk7XojA",
+      "https://www.youtube.com/watch?v=1I5ZMmrOfnA",
+      "https://www.youtube.com/watch?v=qwcXnG2D7Hk",
+      "https://www.youtube.com/watch?v=JVjv0CCzHok",
+      "https://www.youtube.com/watch?v=2SpuBqvNjHI"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which of the following statements is a valid tautology in propositional logic?",
+      "options": [
+        "A ∨ ¬A",
+        "A ∧ ¬A",
+        "A ∨ B",
+        "A ∧ B"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the law of excluded middle."
+    },
+    {
+      "question": "In predicate logic, which of the following is a valid existential quantifier statement?",
+      "options": [
+        "∀x (P(x) → Q(x))",
+        "∃x (P(x) ∧ ¬Q(x))",
+        "∀x (¬P(x) ∧ Q(x))",
+        "∃x (P(x) → Q(x))"
+      ],
+      "correct_option": 1,
+      "hint": "Existential quantifiers are used to express that a statement is true for some elements in the domain."
+    },
+    {
+      "question": "What is the primary difference between a DFA and an NFA in automata theory?",
+      "options": [
+        "A DFA has multiple start states, while an NFA has only one.",
+        "A DFA can have epsilon transitions, while an NFA cannot.",
+        "A DFA is deterministic, while an NFA allows for multiple possible transitions for a given input and state.",
+        "A DFA can process only binary strings, while an NFA can process any strings."
+      ],
+      "correct_option": 2,
+      "hint": "Think about how transitions are handled in each type of automaton."
+    },
+    {
+      "question": "Which of the following problems is undecidable?",
+      "options": [
+        "Checking if a Turing machine halts on a given input",
+        "Checking if a context-free grammar generates a given string",
+        "Checking if a graph is bipartite",
+        "Checking if a string is a palindrome"
+      ],
+      "correct_option": 0,
+      "hint": "Consider problems related to Turing machines and the Halting Problem."
+    },
+    {
+      "question": "In computational complexity theory, what does the class NP represent?",
+      "options": [
+        "Problems that can be solved in polynomial time by a deterministic Turing machine",
+        "Problems for which a solution can be verified in polynomial time by a deterministic Turing machine",
+        "Problems that can be solved in logarithmic space",
+        "Problems that are undecidable"
+      ],
+      "correct_option": 1,
+      "hint": "Focus on the verification aspect rather than solving the problem."
+    }
+  ]
+}

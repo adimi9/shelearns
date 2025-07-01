@@ -1,0 +1,121 @@
+{
+  "id": "MD10",
+  "name": "iOS App Development with Swift",
+  "category": "Mobile Development",
+  "primary_tech": "Swift",
+  "topics": [
+    "Swift Programming Language",
+    "Xcode IDE",
+    "UIKit/SwiftUI Basics",
+    "View Controllers & Navigation"
+  ],
+  "recommended": true,
+  "tags": [
+    "iOS",
+    "native",
+    "Apple",
+    "programming"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/",
+        "description": "The Mozilla Developer Network (MDN) provides comprehensive documentation and resources for web technologies and development."
+      },
+      {
+        "url": "http://native.reactjs.org/",
+        "description": "The URL provides official documentation for React Native, a framework for building native apps using React."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage",
+        "description": "A comprehensive guide on using the localStorage API for storing key/value pairs in a web browser persistently."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.geeksforgeeks.org/swift/swift-tutorial/",
+        "description": "This resource offers a comprehensive tutorial on the Swift programming language, covering its fundamental concepts and features."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/to-create-a-simple-analytics-backend-for-my-ios-app-what-do-i-need-to-learn/340591",
+        "description": "Discussion on necessary skills and technologies for building a simple analytics backend for an iOS app."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/blogs/100-days-of-ios-app-development/",
+        "description": "A comprehensive guide to mastering iOS app development through a structured 100-day learning plan."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/how-i-landed-my-first-job-as-a-web-developer-f991fe728b95/",
+        "description": "A personal account detailing the journey and strategies used to secure a first job as a web developer."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/tag/swift/",
+        "description": "A collection of articles and tutorials focused on the Swift programming language."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=nAchMctX4YA",
+      "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+      "https://www.youtube.com/watch?v=K0t-RCSlasE",
+      "https://www.youtube.com/watch?v=n5X_V81OYnQ",
+      "https://www.youtube.com/watch?v=8Xg7E9shq0U"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary programming language used for iOS app development?",
+      "options": [
+        "Objective-C",
+        "Java",
+        "Swift",
+        "Python"
+      ],
+      "correct_option": 2,
+      "hint": "It's a language developed by Apple and named after a fast-moving bird."
+    },
+    {
+      "question": "Which IDE is primarily used for developing iOS applications?",
+      "options": [
+        "Visual Studio Code",
+        "Xcode",
+        "Android Studio",
+        "Eclipse"
+      ],
+      "correct_option": 1,
+      "hint": "It's an Apple-exclusive IDE that is used for macOS and iOS development."
+    },
+    {
+      "question": "Which framework is used for building user interfaces in iOS applications?",
+      "options": [
+        "React Native",
+        "UIKit",
+        "Flutter",
+        "Django"
+      ],
+      "correct_option": 1,
+      "hint": "It's a framework provided by Apple and often used with SwiftUI."
+    },
+    {
+      "question": "What is the role of a View Controller in an iOS application?",
+      "options": [
+        "To handle network requests",
+        "To manage app's data storage",
+        "To control a section of the app's user interface",
+        "To perform security checks"
+      ],
+      "correct_option": 2,
+      "hint": "It acts as an intermediary between the app's data and its UI."
+    },
+    {
+      "question": "Which SwiftUI component is used to create a navigation-based app?",
+      "options": [
+        "Button",
+        "TextField",
+        "NavigationView",
+        "Image"
+      ],
+      "correct_option": 2,
+      "hint": "This component helps in navigating between different views."
+    }
+  ]
+}

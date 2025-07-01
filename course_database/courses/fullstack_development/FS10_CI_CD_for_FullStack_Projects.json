@@ -1,0 +1,192 @@
+{
+  "id": "FS10",
+  "name": "CI/CD for FullStack Projects",
+  "category": "FullStack Development",
+  "primary_tech": "CI/CD",
+  "topics": [
+    "Continuous Integration (CI)",
+    "Continuous Delivery/Deployment (CD)",
+    "GitHub Actions/GitLab CI/Jenkins",
+    "Automated Testing in CI/CD Pipeline"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "devops",
+    "automation",
+    "deployment"
+  ],
+  "alternatives": [
+    {
+      "tech": "CircleCI",
+      "reason": "Cloud-based CI/CD platform known for its ease of use and integrations.",
+      "tags": [
+        "CI/CD",
+        "automation"
+      ],
+      "preferred_if": [
+        "User wants a managed cloud CI/CD solution",
+        "Working with open-source projects"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is CircleCI primarily used for in the context of software development?",
+          "options": [
+            "Project management",
+            "Continuous Integration and Continuous Deployment",
+            "Database management",
+            "Code editing"
+          ],
+          "correct_option": 1,
+          "hint": "It's a CI/CD platform."
+        },
+        {
+          "question": "Which feature of CircleCI makes it appealing for developers working on open-source projects?",
+          "options": [
+            "Closed source code",
+            "Complex setup",
+            "Ease of use and integrations",
+            "Limited platform support"
+          ],
+          "correct_option": 2,
+          "hint": "Think about what developers value in a CI/CD tool."
+        },
+        {
+          "question": "What primary advantage does CircleCI offer as a cloud-based CI/CD platform?",
+          "options": [
+            "Requires on-premise hardware",
+            "Manual deployment processes",
+            "Managed infrastructure",
+            "No integration options"
+          ],
+          "correct_option": 2,
+          "hint": "Consider the benefits of cloud-based services."
+        },
+        {
+          "question": "How does CircleCI support automation in software development?",
+          "options": [
+            "By requiring manual code reviews",
+            "By automating testing and deployment",
+            "By providing manual debugging tools",
+            "By restricting code commits"
+          ],
+          "correct_option": 1,
+          "hint": "Automation is a key feature of CI/CD."
+        },
+        {
+          "question": "Why might a developer choose CircleCI over other CI/CD tools?",
+          "options": [
+            "It offers no integrations",
+            "It's known for its complexity",
+            "It provides a managed cloud solution",
+            "It's only suitable for enterprise projects"
+          ],
+          "correct_option": 2,
+          "hint": "Think about the advantages of cloud-based solutions for managing CI/CD."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://nodejs.org/api/corepack.html",
+          "https://es.legacy.reactjs.org/docs/release-channels.html",
+          "https://developer.mozilla.org/en-US/curriculum/extensions/testing/"
+        ],
+        "notes": [
+          "https://www.freecodecamp.org/news/laravel-continuous-deployment-with-circleci-and-deployer-c70b27fa70d2/",
+          "https://www.freecodecamp.org/news/secure-web-server-with-continuous-integration-using-nginx-and-circleci/",
+          "https://www.geeksforgeeks.org/devops/how-to-make-a-ci-cd-pipeline-in-jenkins/",
+          "https://www.geeksforgeeks.org/devops/what-is-ci-cd/",
+          "https://www.geeksforgeeks.org/continuous-integration-and-continuous-developmentci-cd/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=_XaYv9zvHUk",
+          "https://www.youtube.com/watch?v=l76BPdbt0gc&pp=ygUSI2NpbWd3ZWJpbmFyc2VyaWVz",
+          "https://www.youtube.com/watch?v=4dp4JFpOpX0",
+          "https://www.youtube.com/watch?v=eZxKs1mrxTM",
+          "https://www.youtube.com/watch?v=qegFqum-M9o"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://reactjs.org/",
+      "https://nodejs.org/api/all.html",
+      "https://insights.developer.mozilla.org/reports/pdf/MDN-Web-Testing-Report-2021.pdf"
+    ],
+    "notes": [
+      "https://www.freecodecamp.org/news/what-is-ci-cd/",
+      "https://www.freecodecamp.org/news/github-codespaces-vs-gitpod-cloud-based-dev-environments/",
+      "https://www.freecodecamp.org/news/learn-continuous-integration-delivery-and-deployment/",
+      "https://www.freecodecamp.org/news/learn-jenkins-by-building-a-ci-cd-pipeline/",
+      "https://www.geeksforgeeks.org/devops/how-to-make-a-ci-cd-pipeline-in-jenkins/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=scEDHsr3APg",
+      "https://www.youtube.com/watch?v=YLtlz88zrLg",
+      "https://www.youtube.com/watch?v=NnkUGzaqqOc",
+      "https://www.youtube.com/watch?v=GdWZOw83QWU",
+      "https://www.youtube.com/watch?v=mNy-ERFBcGo"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary goal of Continuous Integration (CI) in software development?",
+      "options": [
+        "To ensure that all code changes are automatically merged into the main branch",
+        "To automatically deploy software to production environments",
+        "To maintain a consistent development environment across all team members",
+        "To integrate code changes from multiple contributors into a shared repository frequently"
+      ],
+      "correct_option": 3,
+      "hint": "Think about the frequency and purpose of integrating code changes."
+    },
+    {
+      "question": "Which of the following is a key benefit of using Continuous Deployment (CD) in a CI/CD pipeline?",
+      "options": [
+        "Decreases the frequency of software releases",
+        "Eliminates the need for automated testing",
+        "Ensures that every change passes all stages of the pipeline before production",
+        "Requires manual intervention for each deployment"
+      ],
+      "correct_option": 2,
+      "hint": "Consider the automation aspect of deploying to production."
+    },
+    {
+      "question": "Which tool would you use to define a CI/CD pipeline in a YAML configuration file?",
+      "options": [
+        "GitHub Actions",
+        "Docker",
+        "AWS Lambda",
+        "Kubernetes"
+      ],
+      "correct_option": 0,
+      "hint": "This tool is commonly used for automating workflows directly from a repository."
+    },
+    {
+      "question": "In a CI/CD pipeline, what is the purpose of automated testing?",
+      "options": [
+        "To manually verify each feature before deployment",
+        "To automatically check for errors and ensure the software works as expected",
+        "To deploy code changes to production environments",
+        "To integrate code changes into a shared repository"
+      ],
+      "correct_option": 1,
+      "hint": "Testing aims to ensure code reliability and functionality automatically."
+    },
+    {
+      "question": "Which CI/CD tool is known for its extensive plugin ecosystem and is often used for building complex pipelines?",
+      "options": [
+        "Travis CI",
+        "GitLab CI",
+        "Jenkins",
+        "CircleCI"
+      ],
+      "correct_option": 2,
+      "hint": "This tool is widely recognized for its flexibility and open-source nature."
+    }
+  ]
+}

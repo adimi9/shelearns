@@ -1,0 +1,190 @@
+{
+  "id": "BE6",
+  "name": "Non-Relational Databases (NoSQL)",
+  "category": "Backend Development",
+  "primary_tech": "NoSQL",
+  "topics": [
+    "Document Databases (MongoDB)",
+    "Key-Value Stores (Redis)",
+    "Graph Databases (Neo4j basics)"
+  ],
+  "levels": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "recommended": false,
+  "tags": [
+    "database",
+    "NoSQL",
+    "data-modeling"
+  ],
+  "alternatives": [
+    {
+      "tech": "Cassandra",
+      "reason": "Distributed NoSQL database for high availability and scalability",
+      "tags": [
+        "NoSQL",
+        "distributed"
+      ],
+      "preferred_if": [
+        "User needs extreme scalability and high write throughput"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is a primary advantage of using Cassandra over traditional relational databases?",
+          "options": [
+            "High write throughput",
+            "Complex query capabilities",
+            "Strict ACID transactions",
+            "Structured schema"
+          ],
+          "correct_option": 0,
+          "hint": "Consider the performance aspect in write operations."
+        },
+        {
+          "question": "Which of the following best describes Cassandra's architecture?",
+          "options": [
+            "Master-slave architecture",
+            "Peer-to-peer architecture",
+            "Single server architecture",
+            "Client-server architecture"
+          ],
+          "correct_option": 1,
+          "hint": "Each node in Cassandra is equal, with no single point of failure."
+        },
+        {
+          "question": "For which type of workload is Cassandra particularly well-suited?",
+          "options": [
+            "High read throughput with complex queries",
+            "High write throughput with linear scalability",
+            "Batch processing of large datasets",
+            "Transaction processing with strong consistency"
+          ],
+          "correct_option": 1,
+          "hint": "Think about workloads that require fast and scalable write operations."
+        },
+        {
+          "question": "What consistency model does Cassandra primarily use?",
+          "options": [
+            "Strong consistency",
+            "Eventual consistency",
+            "Sequential consistency",
+            "Strict consistency"
+          ],
+          "correct_option": 1,
+          "hint": "This consistency model allows for high availability and partition tolerance."
+        },
+        {
+          "question": "Which use case is NOT ideal for Cassandra?",
+          "options": [
+            "Real-time analytics",
+            "Financial transactions requiring strict ACID compliance",
+            "High-velocity sensor data logging",
+            "Social media feed storage"
+          ],
+          "correct_option": 1,
+          "hint": "Consider scenarios that require strong transactional integrity and consistency."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://nodejs.org/api/buffer.html",
+          "https://nodejs.org/api/n-api.html",
+          "https://developer.mozilla.org/en-US/docs/Glossary/Database"
+        ],
+        "notes": [
+          "https://www.freecodecamp.org/news/the-apache-cassandra-beginner-tutorial/",
+          "https://www.geeksforgeeks.org/dbms/apache-cassandra-nosql-database/",
+          "https://www.geeksforgeeks.org/dbms/cassandra-nosql-database/",
+          "https://www.geeksforgeeks.org/dbms/sstable-in-apache-cassandra/",
+          "https://www.geeksforgeeks.org/devops/introduction-to-apache-cassandra/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=KZsVSfQVU4I",
+          "https://www.youtube.com/watch?v=jgqu1BcSKUI",
+          "https://www.youtube.com/watch?v=J-cSy5MeMOA",
+          "https://www.youtube.com/watch?v=WFycRMLvMKc",
+          "https://www.youtube.com/watch?v=VsQ4OuH-K1I"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API",
+      "https://developer.mozilla.org/en-US/docs/Glossary/Database",
+      "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology"
+    ],
+    "notes": [
+      "https://www.geeksforgeeks.org/introduction-to-nosql/",
+      "https://www.geeksforgeeks.org/non-relational-databases-and-their-types/",
+      "https://www.geeksforgeeks.org/dbms/types-of-nosql-databases/",
+      "https://www.geeksforgeeks.org/difference-between-sql-and-nosql/",
+      "https://www.geeksforgeeks.org/dbms/querying-in-nosql/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=0buKQHokLK8",
+      "https://www.youtube.com/watch?v=_Ss42Vb1SU4",
+      "https://www.youtube.com/watch?v=Q5aTUc7c4jg",
+      "https://www.youtube.com/watch?v=xh4gy1lbL2k",
+      "https://www.youtube.com/watch?v=E9AgJnsEvG4"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is a primary feature of document databases like MongoDB?",
+      "options": [
+        "They store data in tables with rows and columns.",
+        "They use a schema-less data model.",
+        "They rely on SQL for queries.",
+        "They do not support indexing."
+      ],
+      "correct_option": 1,
+      "hint": "Consider how document databases handle data structures."
+    },
+    {
+      "question": "Which data structure is primarily used by key-value stores such as Redis?",
+      "options": [
+        "Graphs",
+        "Documents",
+        "Key-Value Pairs",
+        "Tables"
+      ],
+      "correct_option": 2,
+      "hint": "Think about the simplest form of data storage in NoSQL databases."
+    },
+    {
+      "question": "In Neo4j, what are the main components used to represent data?",
+      "options": [
+        "Nodes and Relationships",
+        "Tables and Columns",
+        "Keys and Values",
+        "Documents and Collections"
+      ],
+      "correct_option": 0,
+      "hint": "Consider how graph databases structure their data."
+    },
+    {
+      "question": "Which NoSQL database is known for being a graph database?",
+      "options": [
+        "MongoDB",
+        "Redis",
+        "Neo4j",
+        "Cassandra"
+      ],
+      "correct_option": 2,
+      "hint": "Focus on databases that use nodes and relationships."
+    },
+    {
+      "question": "What distinguishes NoSQL databases from traditional SQL databases?",
+      "options": [
+        "NoSQL databases always use a fixed schema.",
+        "NoSQL databases cannot handle large volumes of data.",
+        "NoSQL databases offer more flexible data models.",
+        "NoSQL databases are only used for small applications."
+      ],
+      "correct_option": 2,
+      "hint": "Think about the flexibility in data modeling with NoSQL databases."
+    }
+  ]
+}

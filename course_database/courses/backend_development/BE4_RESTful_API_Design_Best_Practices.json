@@ -1,0 +1,191 @@
+{
+  "id": "BE4",
+  "name": "RESTful API Design & Best Practices",
+  "category": "Backend Development",
+  "primary_tech": "REST APIs",
+  "topics": [
+    "HTTP Methods & Status Codes",
+    "Resource Modeling",
+    "Versioning & Pagination"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": true,
+  "tags": [
+    "API",
+    "architecture",
+    "design"
+  ],
+  "alternatives": [
+    {
+      "tech": "GraphQL",
+      "reason": "Query language for your API, offering more efficient data fetching",
+      "tags": [
+        "API",
+        "query-language"
+      ],
+      "preferred_if": [
+        "User needs flexible data fetching for clients",
+        "Client-driven data requirements"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is a key advantage of using GraphQL over REST for API design?",
+          "options": [
+            "GraphQL allows clients to request only the data they need.",
+            "GraphQL requires less server-side code than REST.",
+            "GraphQL automatically scales without additional configuration.",
+            "GraphQL is faster than REST in all scenarios."
+          ],
+          "correct_option": 0,
+          "hint": "Consider the flexibility offered to clients in terms of data selection."
+        },
+        {
+          "question": "Which of the following best describes GraphQL?",
+          "options": [
+            "A database management system for storing API data.",
+            "A query language for your API, allowing clients to specify data needs.",
+            "A server-side technology for enhancing RESTful APIs.",
+            "A client-side framework for building user interfaces."
+          ],
+          "correct_option": 1,
+          "hint": "Focus on how GraphQL interacts with APIs."
+        },
+        {
+          "question": "In GraphQL, what is the purpose of a resolver?",
+          "options": [
+            "To resolve conflicts between different queries in a request.",
+            "To map and execute a query against the data source.",
+            "To define the structure and type of data available in the API.",
+            "To manage user authentication and authorization."
+          ],
+          "correct_option": 1,
+          "hint": "Think about how GraphQL processes and maps queries to data."
+        },
+        {
+          "question": "How does GraphQL handle multiple resource requests in a single API call compared to REST?",
+          "options": [
+            "GraphQL sends one request that can fetch multiple resources as needed.",
+            "GraphQL requires multiple requests for each resource, similar to REST.",
+            "GraphQL can only handle one resource per request, unlike REST.",
+            "GraphQL uses a batch processing system to handle multiple requests at once."
+          ],
+          "correct_option": 0,
+          "hint": "Consider how GraphQL's query structure is designed for efficiency."
+        },
+        {
+          "question": "What role does the GraphQL schema play in API design?",
+          "options": [
+            "It caches frequent queries to improve performance.",
+            "It defines the types and structure of data that clients can request.",
+            "It automatically translates RESTful endpoints into GraphQL queries.",
+            "It handles user authentication and session management."
+          ],
+          "correct_option": 1,
+          "hint": "Think about how clients know what data is available and how it's structured."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://legacy.reactjs.org/blog/2015/05/01/graphql-introduction.html",
+          "https://legacy.reactjs.org/blog/2015/02/20/introducing-relay-and-graphql.html",
+          "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+        ],
+        "notes": [
+          "https://www.geeksforgeeks.org/graphql/graphql-tutorial/",
+          "https://www.freecodecamp.org/news/a-beginners-guide-to-graphql-86f849ce1bec/",
+          "https://www.freecodecamp.org/news/graphql-zero-to-production-a7c4f786a57b/",
+          "https://forum.freecodecamp.org/t/laravel-graphql-playground-not-showing-up/621917",
+          "https://www.geeksforgeeks.org/how-to-integrate-graphql-in-react-js/"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=xMCnDesBggM&pp=0gcJCf0Ao7VqN5tD",
+          "https://www.youtube.com/watch?v=BcLNfwF04Kw",
+          "https://www.youtube.com/watch?v=WtkKwO1viI8",
+          "https://www.youtube.com/watch?v=qux4-yWeZvo",
+          "https://www.youtube.com/watch?v=yqWzCV0kU_c"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Glossary/REST",
+      "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+      "https://developer.mozilla.org/en-US/docs/Web/API"
+    ],
+    "notes": [
+      "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/",
+      "https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/",
+      "https://www.geeksforgeeks.org/node-js/rest-api-introduction/",
+      "https://www.freecodecamp.org/news/how-work-with-restful-apis-in-react-simplified-steps-and-practical-examples/",
+      "https://www.geeksforgeeks.org/blogs/api-design-roadmap/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=-mN3VyJuCjM",
+      "https://www.youtube.com/watch?v=_gQaygjm_hg",
+      "https://www.youtube.com/watch?v=7nm1pYuKAhY",
+      "https://www.youtube.com/watch?v=7QfswaV0re4",
+      "https://www.youtube.com/watch?v=faMdrSCVDzc"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "Which HTTP method is typically used to update a resource in RESTful APIs?",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "correct_option": 2,
+      "hint": "This method is used to update existing resources or create them if they do not exist."
+    },
+    {
+      "question": "What does a 404 HTTP status code signify in a RESTful API?",
+      "options": [
+        "Resource not found",
+        "Internal server error",
+        "Request accepted",
+        "Resource created"
+      ],
+      "correct_option": 0,
+      "hint": "This status code indicates that the server cannot find the requested resource."
+    },
+    {
+      "question": "In RESTful API design, what is the primary purpose of versioning?",
+      "options": [
+        "To improve API security",
+        "To increase API speed",
+        "To manage changes without affecting existing clients",
+        "To simplify API endpoints"
+      ],
+      "correct_option": 2,
+      "hint": "Versioning helps in managing changes to the API over time."
+    },
+    {
+      "question": "Which of the following is a common technique for implementing pagination in RESTful APIs?",
+      "options": [
+        "Using HTTP cookies",
+        "Query parameters like 'limit' and 'offset'",
+        "Storing data in XML format",
+        "Using WebSockets"
+      ],
+      "correct_option": 1,
+      "hint": "This technique involves specifying the number of records to skip and retrieve."
+    },
+    {
+      "question": "What is the purpose of resource modeling in RESTful API design?",
+      "options": [
+        "To define the database schema",
+        "To manage user authentication",
+        "To represent entities and their relationships",
+        "To encrypt data"
+      ],
+      "correct_option": 2,
+      "hint": "Resource modeling involves defining resources and their interactions in the API."
+    }
+  ]
+}

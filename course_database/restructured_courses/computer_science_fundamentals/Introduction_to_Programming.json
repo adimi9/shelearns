@@ -1,0 +1,120 @@
+{
+  "id": "CS7",
+  "name": "Introduction to Programming",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Python",
+  "topics": [
+    "Basic Syntax & Data Types",
+    "Control Flow (Loops, Conditionals)",
+    "Functions & Modules",
+    "Problem Solving Techniques"
+  ],
+  "recommended": true,
+  "tags": [
+    "programming",
+    "fundamentals",
+    "beginners"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction",
+        "description": "An introduction to the Document Object Model (DOM), explaining its role in web development and how it represents a webpage's structure."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "description": "Comprehensive documentation for learning and using JavaScript, including guides, references, and tutorials."
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction",
+        "description": "An introductory guide to JavaScript, covering its fundamentals and essential concepts for beginners."
+      }
+    ],
+    "notes": [
+      {
+        "url": "https://www.w3schools.com/programming/index.php",
+        "description": "A comprehensive guide to learning various programming languages and concepts through tutorials and examples."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/computer-science-fundamentals/programming-tutorial/",
+        "description": "A comprehensive guide offering tutorials on fundamental programming concepts and techniques."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/computer-science-fundamentals/introduction-to-programming-languages/",
+        "description": "An introductory guide to the basic concepts and types of programming languages in computer science."
+      },
+      {
+        "url": "https://www.w3schools.com/python/python_intro.asp",
+        "description": "An introductory guide to Python programming, covering basic concepts and syntax for beginners."
+      },
+      {
+        "url": "https://www.freecodecamp.org/news/what-is-programming-tutorial-for-beginners/",
+        "description": "A beginner-friendly introduction to programming concepts and fundamentals."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=bJzb-RuUcMU",
+      "https://www.youtube.com/watch?v=CIRGjwYgdT4",
+      "https://www.youtube.com/watch?v=AWliApDc61w",
+      "https://www.youtube.com/watch?v=l26oaHV7D40",
+      "https://www.youtube.com/watch?v=WR1ydijTx5E"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the correct syntax to print \"Hello, World!\" in Python?",
+      "options": [
+        "print(\"Hello, World!\")",
+        "echo \"Hello, World!\"",
+        "printf(\"Hello, World!\")",
+        "System.out.println(\"Hello, World!\")"
+      ],
+      "correct_option": 0,
+      "hint": "Use the print function in Python."
+    },
+    {
+      "question": "Which of the following is NOT a data type in Python?",
+      "options": [
+        "String",
+        "List",
+        "Dictionary",
+        "IntegerArray"
+      ],
+      "correct_option": 3,
+      "hint": "Think about the standard data types used in Python."
+    },
+    {
+      "question": "What is the output of the following Python code?\n\nx = 5\ny = 10\nif x < y:\n    print(\"x is less than y\")\nelse:\n    print(\"x is greater than or equal to y\")",
+      "options": [
+        "x is less than y",
+        "x is greater than or equal to y",
+        "Error",
+        "x is equal to y"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the values of x and y and the conditional statement used."
+    },
+    {
+      "question": "What is the purpose of functions in programming?",
+      "options": [
+        "To store data",
+        "To perform a specific task and possibly return a value",
+        "To loop through a block of code",
+        "To define a data structure"
+      ],
+      "correct_option": 1,
+      "hint": "Functions are used to encapsulate code to perform a particular task."
+    },
+    {
+      "question": "How do you start a while loop in Python?",
+      "options": [
+        "while x > 0:",
+        "loop(x > 0)",
+        "do while x > 0:",
+        "repeat until x > 0"
+      ],
+      "correct_option": 0,
+      "hint": "The syntax involves the while keyword followed by a condition."
+    }
+  ]
+}

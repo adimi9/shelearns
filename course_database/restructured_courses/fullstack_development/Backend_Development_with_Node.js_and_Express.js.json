@@ -1,0 +1,121 @@
+{
+  "id": "FS11",
+  "name": "Backend Development with Node.js & Express.js",
+  "category": "FullStack Development",
+  "primary_tech": "Node.js",
+  "topics": [
+    "Building RESTful APIs",
+    "Middleware & Error Handling",
+    "Database Integration (MongoDB/PostgreSQL)",
+    "CRUD Operations"
+  ],
+  "recommended": true,
+  "tags": [
+    "backend",
+    "Node.js",
+    "JavaScript",
+    "API"
+  ],
+  "resources": {
+    "docs": [
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "description": "Introduction to building server-side applications using Express and Node.js."
+      },
+      {
+        "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+        "description": "An introductory guide to understanding and starting with Node.js for building server-side applications."
+      },
+      {
+        "url": "https://nodejs.org/en",
+        "description": "The Node.js website provides official documentation, downloads, and community resources for the Node.js JavaScript runtime."
+      }
+    ],
+    "notes": [
+      {
+        "url": "http://www.w3schools.com/nodejs/",
+        "description": "A comprehensive tutorial and reference guide for learning and using Node.js, covering its features and applications."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/node-js/express-js/",
+        "description": "An introductory guide to Express.js, a fast and minimal web framework for Node.js applications."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/which-one-to-learn-nodejs-expressjs-or-django/422772",
+        "description": "A forum discussion comparing Node.js, Express.js, and Django to help developers decide which technology to learn."
+      },
+      {
+        "url": "https://www.geeksforgeeks.org/node-js/nodejs/",
+        "description": "An introductory guide to Node.js, covering its features, installation, and basic usage for building scalable network applications."
+      },
+      {
+        "url": "https://forum.freecodecamp.org/t/what-is-the-best-backend-framework-for-a-react-developer/507169",
+        "description": "Discussion on selecting the most suitable backend framework for developers using React."
+      }
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=q-xS25lsN3I",
+      "https://www.youtube.com/watch?v=Oe421EPjeBE",
+      "https://www.youtube.com/watch?v=pURHweQ_gg8",
+      "https://www.youtube.com/watch?v=rOpEN1JDaD0",
+      "https://www.youtube.com/watch?v=SccSCuHhOw0"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of middleware in Express.js?",
+      "options": [
+        "To handle HTTP requests and responses",
+        "To serve static files",
+        "To parse URL parameters",
+        "To manage database connections"
+      ],
+      "correct_option": 0,
+      "hint": "Middleware functions are essential for processing requests in a Node.js application."
+    },
+    {
+      "question": "Which HTTP method is used to update an existing resource in a RESTful API?",
+      "options": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "correct_option": 2,
+      "hint": "Think of making changes to something that already exists."
+    },
+    {
+      "question": "What is a common use case for MongoDB in backend development?",
+      "options": [
+        "Storing relational data",
+        "Handling file uploads",
+        "Document-based data storage",
+        "Performing client-side scripting"
+      ],
+      "correct_option": 2,
+      "hint": "MongoDB is known for its flexibility with unstructured data."
+    },
+    {
+      "question": "In a CRUD operation, what does 'D' stand for?",
+      "options": [
+        "Delete",
+        "Display",
+        "Deploy",
+        "Develop"
+      ],
+      "correct_option": 0,
+      "hint": "Consider the operation used to remove a resource."
+    },
+    {
+      "question": "Which function is used in Node.js to handle errors in asynchronous code?",
+      "options": [
+        "try/catch",
+        "throw",
+        "catch",
+        "callback"
+      ],
+      "correct_option": 3,
+      "hint": "Think of a function that is called after an operation completes, whether it succeeds or fails."
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "id": "BE9",
+  "name": "GraphQL API Development",
+  "category": "Backend Development",
+  "primary_tech": "GraphQL",
+  "topics": [
+    "Schema Definition Language (SDL)",
+    "Queries, Mutations & Subscriptions",
+    "Apollo Server/Client"
+  ],
+  "levels": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "recommended": false,
+  "tags": [
+    "API",
+    "query-language",
+    "data-fetching"
+  ],
+  "alternatives": [
+    {
+      "tech": "tRPC",
+      "reason": "End-to-end type-safe APIs for TypeScript applications",
+      "tags": [
+        "TypeScript",
+        "API",
+        "type-safety"
+      ],
+      "preferred_if": [
+        "User is building a full-stack TypeScript application",
+        "Wants extreme type safety"
+      ],
+      "alternative_quiz": [
+        {
+          "question": "What is the primary advantage of using tRPC in a TypeScript application?",
+          "options": [
+            "It allows for real-time data synchronization.",
+            "It provides end-to-end type safety for APIs.",
+            "It enhances the application's performance.",
+            "It simplifies database migrations."
+          ],
+          "correct_option": 1,
+          "hint": "Consider the main benefit for TypeScript developers looking for API solutions."
+        },
+        {
+          "question": "Which of the following is a key feature of tRPC?",
+          "options": [
+            "It automatically generates RESTful endpoints.",
+            "It integrates seamlessly with GraphQL queries.",
+            "It eliminates the need for manual type definitions for API endpoints.",
+            "It provides built-in authentication mechanisms."
+          ],
+          "correct_option": 2,
+          "hint": "Focus on how tRPC handles types in TypeScript applications."
+        },
+        {
+          "question": "In a full-stack TypeScript application, how does tRPC ensure type safety?",
+          "options": [
+            "By using JSON Schema validation.",
+            "By leveraging TypeScript's type inference.",
+            "By requiring explicit type annotations in every function.",
+            "By generating type-safe API documentation."
+          ],
+          "correct_option": 1,
+          "hint": "Think about how TypeScript itself helps with type safety."
+        },
+        {
+          "question": "Which of the following best describes a use case for tRPC?",
+          "options": [
+            "Developing a Python-based web application.",
+            "Building a cross-platform mobile app with Flutter.",
+            "Creating a full-stack application with extreme type safety in TypeScript.",
+            "Implementing a microservices architecture with Java."
+          ],
+          "correct_option": 2,
+          "hint": "Focus on the programming language and the main advantage of tRPC."
+        },
+        {
+          "question": "How does tRPC differ from traditional REST APIs in terms of type handling?",
+          "options": [
+            "tRPC uses XML for data transmission, unlike REST.",
+            "tRPC requires less manual handling of types due to its integration with TypeScript.",
+            "tRPC is slower because it uses WebSockets.",
+            "tRPC can only be used with relational databases."
+          ],
+          "correct_option": 1,
+          "hint": "Consider how tRPC interacts with TypeScript compared to REST APIs."
+        }
+      ],
+      "resources": {
+        "docs": [
+          "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon",
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift",
+          "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/412"
+        ],
+        "notes": [
+          "https://www.freecodecamp.org/news/what-is-trpc/",
+          "https://www.freecodecamp.org/news/build-an-invoice-saas-app-with-next-js-and-neon-postgres/",
+          "https://www.geeksforgeeks.org/a-10x-faster-typescript/",
+          "https://www.geeksforgeeks.org/typescript/a-10x-faster-typescript/",
+          "https://forum.freecodecamp.org/t/how-to-install-eslint-in-vs-code/727745"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=UfUbBWIFdJs",
+          "https://www.youtube.com/watch?v=GuzZN-4kc3w",
+          "https://www.youtube.com/watch?v=YkOSUVzOAA4",
+          "https://www.youtube.com/watch?v=VedrpVSstSY",
+          "https://m.youtube.com/watch?v=XY8zyvxFvqM&pp=ygUNI2pzY291cnNlMjAyMw%3D%3D"
+        ]
+      }
+    }
+  ],
+  "resources": {
+    "docs": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+      "https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver",
+      "https://legacy.reactjs.org/blog/2015/05/01/graphql-introduction.html"
+    ],
+    "notes": [
+      "https://www.freecodecamp.org/news/building-consuming-and-documenting-a-graphql-api/",
+      "https://www.geeksforgeeks.org/graphql/graphql-tutorial/",
+      "https://www.geeksforgeeks.org/devops/amazon-web-services-creating-an-appsync-graphql-api/",
+      "https://forum.freecodecamp.org/t/laravel-graphql-playground-not-showing-up/621917",
+      "https://www.geeksforgeeks.org/blogs/a-comprehensive-guide-to-api-development/"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=eIQh02xuVw4",
+      "https://www.youtube.com/watch?v=Zg4XIpnLWQg",
+      "https://www.youtube.com/watch?v=PTfZcN20fro",
+      "https://www.youtube.com/watch?v=c8XMl9aQVCM",
+      "https://www.youtube.com/watch?v=0TSajs_zzZA"
+    ]
+  },
+  "quiz": [
+    {
+      "question": "What is the primary purpose of the Schema Definition Language (SDL) in GraphQL?",
+      "options": [
+        "To define the structure of the GraphQL API, including types and relationships",
+        "To handle HTTP requests and responses",
+        "To manage authentication and authorization",
+        "To perform data validation on client-side applications"
+      ],
+      "correct_option": 0,
+      "hint": "SDL is used to outline the blueprint of a GraphQL API."
+    },
+    {
+      "question": "In GraphQL, what is a mutation typically used for?",
+      "options": [
+        "To retrieve data from the server",
+        "To modify or add data on the server",
+        "To format the response data",
+        "To manage client-side state"
+      ],
+      "correct_option": 1,
+      "hint": "Mutations are about altering the data."
+    },
+    {
+      "question": "Which GraphQL feature allows clients to receive real-time updates from the server?",
+      "options": [
+        "Queries",
+        "Mutations",
+        "Resolvers",
+        "Subscriptions"
+      ],
+      "correct_option": 3,
+      "hint": "This feature is similar to a 'live feed'."
+    },
+    {
+      "question": "What role does Apollo Server play in developing a GraphQL API?",
+      "options": [
+        "It provides a client-side library for managing local state",
+        "It acts as a middleware for RESTful APIs",
+        "It serves as a GraphQL server implementation for Node.js",
+        "It is a database management system"
+      ],
+      "correct_option": 2,
+      "hint": "Apollo Server is used on the backend to handle GraphQL requests."
+    },
+    {
+      "question": "Which component of Apollo Client is responsible for querying the GraphQL server?",
+      "options": [
+        "Apollo Provider",
+        "Apollo Link",
+        "Apollo Cache",
+        "Apollo Query"
+      ],
+      "correct_option": 3,
+      "hint": "This component directly fetches data from the server."
+    }
+  ]
+}
