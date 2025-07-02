@@ -1,8 +1,6 @@
 import os, json
 import psycopg2
 from dotenv import load_dotenv
-import urllib.parse as up
-
 
 load_dotenv()
 
@@ -13,13 +11,54 @@ if not DATABASE_URL:
     raise ValueError("DATABASE_URL not found in .env")
 
 conn = psycopg2.connect(DATABASE_URL)
-
 cursor = conn.cursor()
 
-# Constants
-ROOT_DIR = "restructured_courses"
+# Adjusted path for sibling folder
+ROOT_DIR = os.path.join(os.path.dirname(__file__), "..", "restructured_courses")
 XP_PER_RESOURCE = 100
 XP_PER_QUIZ = 250
+
+# Create tables if not exist
+def create_tables():
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS Course (
+            Course_ID VARCHAR PRIMARY KEY,
+            Course_Name TEXT,
+            Course_Category TEXT
+        );
+
+        CREATE TABLE IF NOT EXISTS Resource (
+            Resource_ID SERIAL PRIMARY KEY,
+            Course_ID VARCHAR REFERENCES Course(Course_ID),
+            Resource_Type VARCHAR, 
+            Resource_XP INT
+        );
+
+        CREATE TABLE IF NOT EXISTS Linked_Resource (
+            Resource_ID INT REFERENCES Resource(Resource_ID),
+            Name TEXT,
+            Description TEXT,
+            Link TEXT
+        );
+
+        CREATE TABLE IF NOT EXISTS Quiz (
+            Resource_ID INT REFERENCES Resource(Resource_ID),
+            Question_ID SERIAL PRIMARY KEY,
+            Question_Order INT
+        );
+
+        CREATE TABLE IF NOT EXISTS Quiz_Question (
+            Question_ID INT PRIMARY KEY,
+            Question TEXT,
+            Option_1 TEXT,
+            Option_2 TEXT,
+            Option_3 TEXT,
+            Option_4 TEXT,
+            Correct_Option INT,
+            Hint TEXT
+        );
+    """)
+    conn.commit()
 
 def insert_course(course):
     cursor.execute("""
@@ -82,25 +121,21 @@ def process_file(file_path):
     insert_course(course)
 
     res = course.get("resources", {})
-    
-    # Docs
+
     doc_ids = insert_resource(course_id, "DOC", len(res.get("docs", [])))
     for rid, item in zip(doc_ids, res.get("docs", [])):
         insert_linked_resources(rid, [item])
 
-    # Notes
     note_ids = insert_resource(course_id, "NOTE", len(res.get("notes", [])))
     for rid, item in zip(note_ids, res.get("notes", [])):
         insert_linked_resources(rid, [item])
 
-    # Videos
     vids = res.get("videos", [])
     if vids:
         vid_ids = insert_resource(course_id, "VIDEO", len(vids))
         for rid, link in zip(vid_ids, vids):
             insert_video_links(rid, [link])
 
-    # Quiz
     quiz = course.get("quiz", [])
     if quiz:
         [quiz_id] = insert_resource(course_id, "QUIZ", 1)
@@ -109,6 +144,7 @@ def process_file(file_path):
     print(f"✅ Inserted: {course['name']}")
 
 def insert_all():
+    create_tables()
     for root, _, files in os.walk(ROOT_DIR):
         for fname in files:
             if fname.endswith(".json"):

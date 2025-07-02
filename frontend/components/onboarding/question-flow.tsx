@@ -266,60 +266,72 @@ export default function QuestionFlow() {
   // Total questions: 1 (initial) + 3 (topic-specific) = 4.
   const totalQuestionCount = 4
 
-  const handleNext = (selectedOptions: string[]) => {
+  const handleNext = async (selectedOptions: string[]) => {
     setUserSelections((prev) => ({
       ...prev,
       [currentQuestionIndex]: selectedOptions,
-    }))
+    }));
 
-    let upcomingQuestions = activeQuestions
+    let upcomingQuestions = activeQuestions;
 
     if (currentQuestionIndex === 0) {
-      const selectedTopic = selectedOptions[0]
-      const followUpQuestions = topicQuestions[selectedTopic] || []
+      const selectedTopic = selectedOptions[0];
+      const followUpQuestions = topicQuestions[selectedTopic] || [];
 
-      const newQuestionFlow = [
-        initialQuestion,
-        ...followUpQuestions,
-      ]
-      setActiveQuestions(newQuestionFlow)
-      upcomingQuestions = newQuestionFlow
+      const newQuestionFlow = [initialQuestion, ...followUpQuestions];
+      setActiveQuestions(newQuestionFlow);
+      upcomingQuestions = newQuestionFlow;
     }
 
     // last question:
     if (currentQuestionIndex > 0 && currentQuestionIndex === upcomingQuestions.length - 1) {
-
-      // compile the results
       const finalSelectionsWithIds = {
         ...userSelections,
         [currentQuestionIndex]: selectedOptions,
       };
 
-      // Convert selected IDs to their full labels for the final JSON.
-      const finalSelectionsWithLabels = Object.fromEntries(
-          Object.entries(finalSelectionsWithIds).map(([qIndex, ids]) => {
-            const questionIndex = parseInt(qIndex, 10);
-            const question = activeQuestions[questionIndex];
-            const labels = ids.map(id => {
-              const option = question.options.find(opt => opt.id === id);
-              return option ? option.label : id; // Fallback to ID if not found
-            });
-            return [question.question, labels];
-          })
-      );
+      // Convert to your Spring Boot DTO structure (qn1, ans1, qn2, ans2, ...)
+      const bodyPayload: { [key: string]: string } = {};
 
-      const responsesJSON = JSON.stringify(finalSelectionsWithLabels, null, 2);
+      Object.entries(finalSelectionsWithIds).forEach(([qIndex, ids], i) => {
+        const questionIndex = parseInt(qIndex, 10);
+        const question = activeQuestions[questionIndex];
+        const labels = ids.map((id) => {
+          const option = question.options.find((opt) => opt.id === id);
+          return option ? option.label : id;
+        });
+        // Set keys like qn1, ans1, qn2, ans2, ...
+        bodyPayload[`qn${i + 1}`] = question.question;
+        bodyPayload[`ans${i + 1}`] = labels.join(", "); // join multiple answers with comma
+      });
 
-      // Log the JSON data to the console to verify it's correct.
-      console.log("User's questionnaire responses:", responsesJSON);
+      try {
+        const response = await fetch("http://localhost:8080/api/onboarding", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(bodyPayload),
+        });
 
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
 
-      router.push("/roadmap")
-      return
+        const data = await response.json();
+        console.log("Backend response:", data);
+
+        // After successful backend call, navigate to /roadmap
+        router.push("/roadmap");
+      } catch (error) {
+        console.error("Error calling backend:", error);
+        // Optionally, show error to user or retry
+      }
+
+      return;
     }
 
-    setCurrentQuestionIndex((prev) => prev + 1)
-  }
+    setCurrentQuestionIndex((prev) => prev + 1);
+  };
+
 
   const currentQuestion = activeQuestions[currentQuestionIndex]
   const isLast = currentQuestionIndex > 0 && currentQuestionIndex === totalQuestionCount - 1;

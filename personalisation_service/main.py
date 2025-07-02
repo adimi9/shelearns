@@ -1,16 +1,27 @@
 import os
 import json
+import logging
 from dotenv import load_dotenv
-from fastapi import FastAPI, Request, HTTPException
-from fastapi.responses import JSONResponse
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from typing import List, Dict, Any, Union
+from typing import List, Dict
 import uvicorn
 
 # Relative import for local modules
 from app.rag_system import RAGSystem
 
-# Initialize FastAPI app
+# ----------------------------------
+# 🔧 Logging configuration
+# ----------------------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# ----------------------------------
+# ✅ FastAPI app setup
+# ----------------------------------
 app = FastAPI(
     title="Personalization Service API",
     description="API for generating personalized learning roadmaps using RAG and LLMs.",
@@ -18,58 +29,59 @@ app = FastAPI(
 )
 
 # Initialize the RAGSystem globally
-# This ensures it's only created once when the FastAPI app starts
 rag_system = RAGSystem()
 
+# -------------------------------
+# 📦 Pydantic models
+# -------------------------------
 class PersonalizationRequest(BaseModel):
     prompt: str
 
-class CourseRecommendation(BaseModel): # New Pydantic model for course items
+class CourseRecommendation(BaseModel):
     id: str
     name: str
     description: str
 
 class PersonalizationResponse(BaseModel):
     intro_paragraph: str
-    recommended_courses: List[CourseRecommendation] # Use the new CourseRecommendation model
+    recommended_courses: List[CourseRecommendation]
 
-@app.get("/health", response_model=Dict[str, str], summary="Health Check")
+# -------------------------------
+# ✅ Endpoints
+# -------------------------------
+@app.get("/health", response_model=Dict[str, str])
 async def health_check():
-    """
-    Returns the status of the service.
-    """
     return {"status": "ok", "message": "Personalization service is running."}
 
-@app.post("/personalize-roadmap", response_model=PersonalizationResponse, summary="Generate Personalized Learning Roadmap")
+@app.post("/personalize", response_model=PersonalizationResponse)
 async def personalize_roadmap(request: PersonalizationRequest):
-    """
-    Generates a personalized learning roadmap based on user questionnaire responses.
-    """
     try:
-        # Call the RAGSystem to get the roadmap. It already returns a JSON string.
+        # 🔵 Log prompt from backend
+        logger.info("🔵 Received prompt from Java backend:\n%s\n🔵 End of prompt", request.prompt)
+
+        # 🎯 Get raw response from RAG system
         roadmap_json_str = await rag_system.answer_question(request.prompt)
-        
-        # Parse the JSON string received from RAGSystem.answer_question
+
+        # 🔁 Log raw string before parsing
+        logger.info("🟢 Raw response from RAGSystem:\n%s\n🟢 End of raw response", roadmap_json_str)
+
+        # Parse it
         roadmap_data = json.loads(roadmap_json_str)
-        
-        # FastAPI will automatically validate roadmap_data against PersonalizationResponse
-        # if the types match. If there's a mismatch (e.g., if LLM output an invalid structure
-        # even with JSON schema), Pydantic will raise a ValidationError.
+
+        # FastAPI + Pydantic will handle validation
         return PersonalizationResponse(**roadmap_data)
+
     except json.JSONDecodeError as e:
-        # This catch is for when rag_system.answer_question returns a string that isn't valid JSON,
-        # or if there's an issue with its internal fallback.
-        print(f"Error parsing JSON from RAGSystem response: {e}")
+        logger.error("❌ JSON parsing error: %s", e)
         raise HTTPException(
             status_code=500,
             detail={
-                "intro_paragraph": "An internal error occurred: The AI response was malformed. Please try again later",
+                "intro_paragraph": "An internal error occurred: The AI response was malformed. Please try again later.",
                 "recommended_courses": []
             }
         )
     except Exception as e:
-        # Catch any other unexpected errors
-        print(f"An unexpected error occurred in personalize_roadmap endpoint: {e}")
+        logger.exception("❌ Unexpected error in /personalize endpoint")
         raise HTTPException(
             status_code=500,
             detail={
@@ -78,11 +90,10 @@ async def personalize_roadmap(request: PersonalizationRequest):
             }
         )
 
-
+# -------------------------------
+# 🏁 Entry point for local dev
+# -------------------------------
 if __name__ == "__main__":
     load_dotenv()
-    # It's better to run Uvicorn programmatically for testing/development
-    # or use the 'uvicorn main:app --reload' command directly in your terminal.
-    # This block is mainly for quick local testing.
     port = int(os.getenv("PORT", 8000))
     uvicorn.run("main:app", host="0.0.0.0", port=port, reload=True)

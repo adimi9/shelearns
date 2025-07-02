@@ -62,10 +62,9 @@ class RAGSystem:
         name = course_dict.get('name', 'N/A')
         category = course_dict.get('category', 'N/A')
         topics = ', '.join(course_dict.get('topics', []))
-        primary_tech = ', '.join(course_dict.get('primary_tech', []))
-        levels = ', '.join(course_dict.get('levels', []))
+        primary_tech_raw = course_dict.get('primary_tech', [])
+        primary_tech = ', '.join(primary_tech_raw if isinstance(primary_tech_raw, list) else [primary_tech_raw])
         tags = ', '.join(course_dict.get('tags', []))
-        recommended_str = "Yes" if course_dict.get('recommended', False) else "No"
 
         return (
             f"ID: {course_id}\n"
@@ -73,11 +72,8 @@ class RAGSystem:
             f"Category: {category}\n"
             f"Key Topics: {topics}\n"
             f"Technologies: {primary_tech}\n"
-            f"Target Levels: {levels}\n"
             f"Tags: {tags}\n"
             f"Description: This course covers topics like {topics}. It often involves {primary_tech}. "
-            f"It's generally suitable for {levels} learners and falls under {category} development.\n"
-            f"Recommended by system: {recommended_str}\n"
         )
 
     async def answer_question(self, question_prompt: str) -> str:
@@ -141,7 +137,7 @@ Based on the 'User's personalized questionnaire responses' and the 'Available Co
 
 **Important Instructions for Roadmap Generation:**
 1.  **Relevance is Key:** From the 'Available Courses for Consideration', identify and include **ONLY** the courses that are most relevant to the user's expressed interests, prior experience, motivation, and timeline.
-2.  **Minimum and No Maximum:** You **must** recommend a **minimum of 5 courses**. There is **no upper limit** to the number of courses you can recommend if they are truly relevant and beneficial for the user's path.
+2.  **Minimum and No Maximum:** You **must** recommend a **minimum of 10 courses**. There is **no upper limit** to the number of courses you can recommend if they are truly relevant and beneficial for the user's path.
 3.  **Roadmap JSON Structure:** The entire roadmap **must** be a JSON object conforming strictly to the provided schema. It should contain an `intro_paragraph` and a `recommended_courses` array.
     **CRITICAL MARKDOWN RULE:** For `intro_paragraph` field, use markdown for emphasis. **ONLY USE THE FOLLOWING MARKDOWN SYNTAX:**
     * `## Heading`
@@ -152,7 +148,7 @@ Based on the 'User's personalized questionnaire responses' and the 'Available Co
     * `[link text](url)`
     **DO NOT USE ANY OTHER MARKDOWN SYNTAX (e.g., no numbered lists, no code blocks, no blockquotes, etc.). Output raw markdown.**
 4.  **Course Details Accuracy:** Each object within the `recommended_courses` array **must** have:
-    * `id`: Exactly match the ID from the corresponding 'Available Course for Consideration'. If an alternative is selected, use the original course's ID to preserve continuity.
+    * `id`: Exactly match the ID from the corresponding 'Available Course for Consideration'. 
     * `name`: Exactly matching a 'Course Name' from 'Available Courses for Consideration'. Do **NOT** invent course names.
     * `description`: Provide accurate and helpful descriptions, either directly from the provided context or reasonably inferred from its topics/technologies. Do **NOT** use markdown in this field.
 5.  **Logical Order:** Present the courses within the `recommended_courses` array in a logical learning order, progressing from foundational to more advanced concepts. Do **NOT** group them into phases or any other hierarchical structure; keep it a flat list.
@@ -191,7 +187,7 @@ Answer:"""
                                         "required": ["id", "name", "description"],
                                         "additionalProperties": False
                                     },
-                                    "minItems": 5
+                                    "minItems": 10
                                 }
                             },
                             "required": ["intro_paragraph", "recommended_courses"],

@@ -9,14 +9,14 @@ public class CorsConfig implements WebMvcConfigurer {
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/**") // Apply CORS to all endpoints in your application
+        registry.addMapping("/**")
                 .allowedOrigins(
-                        "http://localhost:3000", // Your Next.js development URL
-                        "https://your-app-name.vercel.app" // <--- REPLACE WITH YOUR ACTUAL VERCEL URL
+                        "http://localhost:3000",
+                        "https://your-actual-vercel-app.vercel.app" // Replace with real URL
                 )
-                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Allowed HTTP methods
-                .allowedHeaders("*") // Allow all headers
-                .allowCredentials(true) // Allow sending of cookies, authorization headers, etc.
-                .maxAge(3600); // How long the CORS pre-flight request can be cached
+                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                .allowedHeaders("*")
+                .allowCredentials(true)
+                .maxAge(3600);
     }
 }
