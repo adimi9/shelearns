@@ -5,6 +5,9 @@ import { useRouter } from "next/navigation"
 import QuestionCard from "./question-card"
 import { AnimatePresence } from "framer-motion"
 
+import { useRoadmapStore } from "@/stores/roadmapStore";
+
+
 const initialQuestion = {
   question: "What are you interested in learning?",
   options: [
@@ -263,6 +266,10 @@ export default function QuestionFlow() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
   const [userSelections, setUserSelections] = useState<Record<number, string[]>>({})
 
+  const [isLoading, setIsLoading] = useState(false);
+  const setRoadmapData = useRoadmapStore((state) => state.setData);
+
+
   // Total questions: 1 (initial) + 3 (topic-specific) = 4.
   const totalQuestionCount = 4
 
@@ -285,12 +292,13 @@ export default function QuestionFlow() {
 
     // last question:
     if (currentQuestionIndex > 0 && currentQuestionIndex === upcomingQuestions.length - 1) {
+      setIsLoading(true);
+
       const finalSelectionsWithIds = {
         ...userSelections,
         [currentQuestionIndex]: selectedOptions,
       };
 
-      // Convert to your Spring Boot DTO structure (qn1, ans1, qn2, ans2, ...)
       const bodyPayload: { [key: string]: string } = {};
 
       Object.entries(finalSelectionsWithIds).forEach(([qIndex, ids], i) => {
@@ -300,9 +308,8 @@ export default function QuestionFlow() {
           const option = question.options.find((opt) => opt.id === id);
           return option ? option.label : id;
         });
-        // Set keys like qn1, ans1, qn2, ans2, ...
         bodyPayload[`qn${i + 1}`] = question.question;
-        bodyPayload[`ans${i + 1}`] = labels.join(", "); // join multiple answers with comma
+        bodyPayload[`ans${i + 1}`] = labels.join(", ");
       });
 
       try {
@@ -312,18 +319,15 @@ export default function QuestionFlow() {
           body: JSON.stringify(bodyPayload),
         });
 
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
         const data = await response.json();
-        console.log("Backend response:", data);
 
-        // After successful backend call, navigate to /roadmap
-        router.push("/roadmap");
+        setRoadmapData(data);  // Save backend data to global store
+        router.push("/roadmap");  // Navigate to roadmap page
       } catch (error) {
         console.error("Error calling backend:", error);
-        // Optionally, show error to user or retry
+        setIsLoading(false);
       }
 
       return;
@@ -336,9 +340,19 @@ export default function QuestionFlow() {
   const currentQuestion = activeQuestions[currentQuestionIndex]
   const isLast = currentQuestionIndex > 0 && currentQuestionIndex === totalQuestionCount - 1;
 
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-white">
+        <div className="animate-spin rounded-full h-16 w-16 border-4 border-pink-600 border-t-transparent"></div>
+        <span className="ml-4 text-pink-700 font-bold text-lg">Generating your roadmap...</span>
+      </div>
+    );
+  }
+
   return (
       <div className="min-h-screen bg-pink-50 flex flex-col items-center justify-center p-6">
 
+        
         <AnimatePresence mode="wait">
           <QuestionCard
               key={currentQuestionIndex}

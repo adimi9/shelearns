@@ -6,95 +6,50 @@ import CourseCard from "@/components/roadmap/course-card"
 import CourseOverview from "@/components/roadmap/course-overview"
 import { Button } from "@/components/ui/button"
 
-export default function RoadmapPage() {
-  const router = useRouter()
-  const [activeTab, setActiveTab] = useState("journey") // This state isn't used in the provided JSX.
+import { useRoadmapStore } from "@/stores/roadmapStore";
+import { useEffect } from "react";
 
-  // The backend output data (simulated fetch)
-  const backendData = {
-    "roadmap_title": "Computer Security Learning Journey",
-    "intro_paragraph": "**Based on your interest in Computer Security, particularly to enhance your capabilities in writing secure code,** we've curated a selection of courses that cover essential security principles, web application security, secure development practices, cloud security, and identity management. **By the end of this roadmap, you will be equipped with the skills to integrate security into your development processes and manage security in cloud environments.**",
-    "recommended_courses": [
-      {
-        "name": "Introduction to Cybersecurity",
-        "description": "This course covers fundamental cybersecurity concepts, including the CIA Triad, threats, vulnerabilities, and common attack vectors. It's an essential starting point for understanding the basic principles and best practices in cybersecurity.",
-        "level": "Beginner",
-        "stats": {
-          "videos": 10,
-          "articles": 5,
-          "quizzes": 3,
-          "estimated_hours": 8,
-          "numeric_progress": 45 // Example: set initial progress for this course
-        }
-      },
-      {
-        "name": "Web Application Security",
-        "description": "Focusing on secure coding practices for web applications, this course delves into the OWASP Top 10 vulnerabilities, authentication, and session management issues, crucial for developers integrating security into their web apps.",
-        "level": "Intermediate",
-        "stats": {
-          "videos": 15,
-          "articles": 8,
-          "quizzes": 4,
-          "estimated_hours": 12,
-          "numeric_progress": 10
-        }
-      },
-      {
-        "name": "Secure Software Development (DevSecOps)",
-        "description": "This course provides insights into integrating security into the Software Development Life Cycle (SDLC), covering threat modeling, SAST, DAST, and secure coding guidelines essential for any developer’s toolkit.",
-        "level": "Intermediate",
-        "stats": {
-          "videos": 12,
-          "articles": 7,
-          "quizzes": 3,
-          "estimated_hours": 10,
-          "numeric_progress": 100
-        }
-      },
-      {
-        "name": "Cloud Security",
-        "description": "Learn about cloud security essentials including the shared responsibility model, IAM in the cloud, and container security basics. This course is crucial if you're working with AWS or Azure, offering insights into securing cloud environments.",
-        "level": "Intermediate",
-        "stats": {
-          "videos": 18,
-          "articles": 9,
-          "quizzes": 5,
-          "estimated_hours": 15,
-          "numeric_progress": 0
-        }
-      },
-      {
-        "name": "Cryptography Basics",
-        "description": "Gain an understanding of encryption algorithms, hashing techniques, PKI, and digital signatures, all fundamental to protecting data and ensuring secure communications within your applications.",
-        "level": "Beginner",
-        "stats": {
-          "videos": 8,
-          "articles": 4,
-          "quizzes": 2,
-          "estimated_hours": 7,
-          "numeric_progress": 0
-        }
-      },
-      {
-        "name": "Identity & Access Management (IAM)",
-        "description": "This course explores advanced authentication techniques such as MFA and SSO, alongside authorization models like RBAC and ABAC. It's essential for managing identities and permissions in modern applications.",
-        "level": "Intermediate",
-        "stats": {
-          "videos": 14,
-          "articles": 6,
-          "quizzes": 4,
-          "estimated_hours": 11,
-          "numeric_progress": 0
-        }
-      }
-    ],
-    "overall_stats": {
-      "videos": 77,
-      "articles": 39,
-      "quizzes": 21,
-      "estimated_hours": 63,
-      "numeric_progress": 23 // Overall progress for the roadmap
+export default function RoadmapPage() {
+  const data = useRoadmapStore((state) => state.data);
+  const router = useRouter();
+
+  useEffect(() => {
+    if (!data) {
+      router.replace("/"); // Redirect home if no data
     }
+  }, [data]);
+
+  if (!data) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        Loading roadmap...
+      </div>
+    );
+  }
+
+  // Prepare data in the shape your component expects
+  const backendData = {
+    roadmap_title: "Your Custom Roadmap",
+    intro_paragraph: data.introParagraph,
+    recommended_courses: data.courses.map((course) => ({
+      name: course.name,
+      description: course.description,
+      level: "beginner", // Or adapt if backend sends level
+      stats: {
+        videos: course.numVideos,
+        articles: course.numDocs,
+        quizzes: course.numNotes,
+        estimated_hours: Math.round(course.totalXP / 150),
+        numeric_progress: 0,
+      },
+    })),
+    overall_stats: {
+      videos: data.courses.reduce((sum, c) => sum + c.numVideos, 0),
+      articles: data.courses.reduce((sum, c) => sum + c.numDocs, 0),
+      quizzes: data.courses.reduce((sum, c) => sum + c.numNotes, 0),
+      estimated_hours: Math.round(data.courses.reduce((sum, c) => sum + c.totalXP, 0) / 150),
+      numeric_progress: 0,
+    },
   };
 
   // Map backend courses to a format compatible with CourseCard
