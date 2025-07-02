@@ -1,6 +1,7 @@
 package com.learningplatform.backend.features.profile.controller;
 
 import com.learningplatform.backend.features.profile.dto.request.UpdateAvatarRequestDto;
+import com.learningplatform.backend.features.profile.dto.request.UpdateProfileInfoRequestDto;
 import com.learningplatform.backend.features.profile.service.UpdateProfileService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -26,4 +27,14 @@ public class UpdateProfileController {
         updateProfileService.updateAvatar(userId, dto);
         return ResponseEntity.ok().build();
     }
+
+    @PatchMapping("/update-profile-info")
+    public ResponseEntity<?> updateProfileInfo(
+            @AuthenticationPrincipal Long userId,
+            @Valid @RequestBody UpdateProfileInfoRequestDto dto) {
+
+        updateProfileService.updateProfileInfo(userId, dto);
+        return ResponseEntity.ok().build();
+}
+
 }

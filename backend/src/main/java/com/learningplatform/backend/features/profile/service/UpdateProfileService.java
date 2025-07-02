@@ -1,6 +1,9 @@
 package com.learningplatform.backend.features.profile.service;
 
 import com.learningplatform.backend.features.profile.dto.request.UpdateAvatarRequestDto;
+import com.learningplatform.backend.features.profile.dto.request.UpdateProfileInfoRequestDto;
+import com.learningplatform.backend.features.profile.dto.request.UpdateProfileInfoRequestDto;
+import com.learningplatform.backend.model.user.User;
 import com.learningplatform.backend.model.user.profile.UserProfile;
 import com.learningplatform.backend.repository.user.UserRepository;
 import com.learningplatform.backend.repository.user.profile.UserProfileRepository;
@@ -45,4 +48,27 @@ public class UpdateProfileService {
         profile.setAvatarType(dto.getAvatarType());
         userProfileRepository.save(profile);
     }
+
+
+    @Transactional
+    public void updateProfileInfo(Long userId, UpdateProfileInfoRequestDto dto) {
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+
+        // Optional: check if new email or username is already taken
+        if (!user.getEmail().equals(dto.getEmail()) &&
+            userRepository.existsByEmail(dto.getEmail())) {
+            throw new RuntimeException("Email already in use");
+        }
+
+        if (!user.getUsername().equals(dto.getUsername()) &&
+            userRepository.existsByUsername(dto.getUsername())) {
+            throw new RuntimeException("Username already in use");
+        }
+
+        user.setEmail(dto.getEmail());
+        user.setUsername(dto.getUsername());
+
+        userRepository.save(user);
+}
 }
