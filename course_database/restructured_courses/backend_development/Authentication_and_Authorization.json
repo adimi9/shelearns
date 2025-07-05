@@ -15,105 +15,258 @@
     "web-security"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Authorization",
-        "description": "The MDN documentation provides detailed information on the HTTP Authorization header used for user authentication."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Authentication",
-        "description": "A comprehensive guide on HTTP authentication methods and protocols for securing web communications."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Authentication",
-        "description": "This resource provides an overview of implementing authentication in Django applications, focusing on user login and management."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/difference-between-authentication-and-authorization/",
-        "description": "This resource explains the key differences between authentication and authorization in computer networks."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-to-secure-your-mern-stack-application/",
-        "description": "A guide on implementing security measures to protect MERN stack applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/authentication-and-authorization-in-spring-boot-3-0-with-spring-security/",
-        "description": "A guide on implementing authentication and authorization in Spring Boot 3.0 using Spring Security."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/spring-boot-3-0-jwt-authentication-with-spring-security-using-mysql-database/",
-        "description": "A guide on implementing JWT authentication in Spring Boot 3.0 using Spring Security and a MySQL database."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/nodejs-authorization-authentication-of-a-superuser-help-tutorial-libraries/75279",
-        "description": "A guide on implementing superuser authentication and authorization in Node.js using various libraries."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=UBUNrFtufWo",
-      "https://www.youtube.com/watch?v=fbSVgC8nGz4",
-      "https://www.youtube.com/watch?v=yufqeJLP1rI",
-      "https://www.youtube.com/watch?v=ajExOgOCJXY",
-      "https://www.youtube.com/watch?v=WuyKxdLcw3w"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which component of JSON Web Tokens (JWT) contains the claims?",
-      "options": [
-        "Header",
-        "Payload",
-        "Signature",
-        "Algorithm"
+    "beginner": {
+      "docs": [
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/",
+        "https://learn.microsoft.com/en-us/graph/auth/auth-concepts",
+        "https://firebase.google.com/docs/auth",
+        "https://developers.zoom.us/docs/api/"
       ],
-      "correct_option": 1,
-      "hint": "It's the part of the token where data is stored."
+      "notes": [
+        "https://www.youtube.com/watch?v=Nlg0JrUt0qg",
+        "https://jwt.io/introduction",
+        "https://www.youtube.com/watch?v=favjC6EKFgw",
+        "https://httpd.apache.org/docs/2.4/howto/auth.html",
+        "https://www.youtube.com/watch?v=w2h54xz6Ndw",
+        "https://strapi.io/blog/a-beginners-guide-to-authentication-and-authorization-in-strapi",
+        "https://www.youtube.com/watch?v=LFlE8yV7lJY"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=84j25sAUohA",
+        "https://www.youtube.com/watch?v=aN1LnNq4z54",
+        "https://www.youtube.com/watch?v=favjC6EKFgw",
+        "https://www.youtube.com/watch?v=Nlg0JrUt0qg",
+        "https://www.youtube.com/watch?v=LFlE8yV7lJY",
+        "https://www.youtube.com/watch?v=w2h54xz6Ndw",
+        "https://www.youtube.com/watch?v=NrYH6HiMk7E",
+        "https://www.youtube.com/watch?v=VZH_lGxqFYU"
+      ]
     },
-    {
-      "question": "What is the primary purpose of OAuth 2.0?",
-      "options": [
-        "To encrypt data",
-        "To manage user passwords",
-        "To authorize third-party applications",
-        "To hash user credentials"
+    "intermediate": {
+      "docs": [
+        "https://developers.google.com/identity/protocols/oauth2",
+        "https://cloud.google.com/docs/authentication",
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html"
       ],
-      "correct_option": 2,
-      "hint": "It delegates access to resources without sharing user credentials."
+      "notes": [
+        "https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization",
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html",
+        "https://openid.net/developers/how-connect-works/",
+        "https://developers.google.com/identity/protocols/oauth2",
+        "https://www.descope.com/blog/post/oauth2-react-authentication-authorization",
+        "https://auth0.com/blog/how-saml-authentication-works/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=996OiexHze0",
+        "https://www.youtube.com/watch?v=_IPFJoGx5_c",
+        "https://www.youtube.com/watch?v=PbUcQUQ7K2o",
+        "https://www.youtube.com/watch?v=jHrjnZM26i4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=fvxQ8bW0vO8",
+        "https://www.youtube.com/watch?v=6DWJIyipxzw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=vzBFJ3WEvOQ",
+        "https://www.youtube.com/watch?v=aCjOmyd_62U"
+      ]
     },
-    {
-      "question": "Which of the following is a key advantage of using password hashing in authentication systems?",
-      "options": [
-        "It encrypts the entire database",
-        "It allows password recovery",
-        "It prevents storing plain text passwords",
-        "It simplifies user login processes"
+    "advanced": {
+      "docs": [
+        "https://expert-help.nice.com/Integrations_and_Extending_Content/API",
+        "https://docs.nestjs.com/security/authentication",
+        "https://www.marcobehler.com/guides/spring-security",
+        "https://www.getknit.dev/blog/how-to-get-employee-data-from-bamboohr-api",
+        "https://supabase.com/docs/guides/auth/social-login/auth-google"
       ],
-      "correct_option": 2,
-      "hint": "Think about security measures for stored passwords."
-    },
-    {
-      "question": "How does OpenID Connect extend OAuth 2.0?",
-      "options": [
-        "By providing identity verification",
-        "By adding more encryption methods",
-        "By simplifying token management",
-        "By improving session management"
+      "notes": [
+        "https://www.youtube.com/watch?v=1MTyCvS05V4",
+        "https://blog.gitguardian.com/kubernetes-tutorial-part-3-authn-authz/",
+        "https://www.youtube.com/watch?v=Ow_Uzedfohk&pp=0gcJCdgAo7VqN5tD",
+        "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks",
+        "https://www.youtube.com/watch?v=_XM9ziOzWk4"
       ],
-      "correct_option": 0,
-      "hint": "It focuses on user identity."
-    },
-    {
-      "question": "What is a common practice to enhance session management security?",
-      "options": [
-        "Using plain text cookies",
-        "Implementing session timeouts",
-        "Storing sessions on client-side",
-        "Sharing session IDs across users"
-      ],
-      "correct_option": 1,
-      "hint": "Consider measures to prevent unauthorized access after a period of inactivity."
+      "videos": [
+        "https://www.youtube.com/@FrankLiuSoftware/community",
+        "https://www.youtube.com/c/mohamadlawand",
+        "https://www.youtube.com/watch?v=1MTyCvS05V4",
+        "https://www.youtube.com/watch?v=YJceYsDn-HI",
+        "https://www.youtube.com/watch?v=Ow_Uzedfohk&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=zS79FDhAhBs",
+        "https://www.youtube.com/watch?v=f5iXXi0prbA",
+        "https://www.youtube.com/watch?v=9TU6zJiXC6g",
+        "https://www.youtube.com/watch?v=i-howKMrtCM"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does JWT stand for in the context of web security?",
+        "options": [
+          "Java Web Tokens",
+          "JavaScript Wide Tokens",
+          "JSON Web Tokens",
+          "Joint Web Tokens"
+        ],
+        "correct_option": 2,
+        "hint": "It is a format for securely transmitting information as a JSON object."
+      },
+      {
+        "question": "Which protocol is primarily used for authorization and is often used in conjunction with OpenID Connect for authentication?",
+        "options": [
+          "OAuth 2.0",
+          "SAML",
+          "Kerberos",
+          "LDAP"
+        ],
+        "correct_option": 0,
+        "hint": "It is a widely used open standard for access delegation."
+      },
+      {
+        "question": "What is the main purpose of password hashing in security?",
+        "options": [
+          "To encrypt passwords for storage",
+          "To transform passwords into a fixed-size string",
+          "To make passwords longer",
+          "To store passwords as plain text"
+        ],
+        "correct_option": 1,
+        "hint": "It involves converting a password into a different representation so that the original password cannot be easily recovered."
+      },
+      {
+        "question": "In session management, what is typically used to maintain a user's state across multiple requests?",
+        "options": [
+          "Cookies",
+          "HTML forms",
+          "IP addresses",
+          "JavaScript"
+        ],
+        "correct_option": 0,
+        "hint": "These small pieces of data are sent from a website and stored in the user's web browser."
+      },
+      {
+        "question": "What is a key benefit of using OpenID Connect on top of OAuth 2.0?",
+        "options": [
+          "It provides a way to authenticate users",
+          "It increases data storage capacity",
+          "It encrypts user data",
+          "It speeds up network connections"
+        ],
+        "correct_option": 0,
+        "hint": "This protocol layer adds identity verification to the existing authorization framework."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of the 'exp' claim in a JWT?",
+        "options": [
+          "To specify the expiration time of the token",
+          "To define the issuer of the token",
+          "To indicate the subject of the token",
+          "To provide the audience for which the token is intended"
+        ],
+        "correct_option": 0,
+        "hint": "This claim determines how long the JWT is valid."
+      },
+      {
+        "question": "Which flow in OAuth 2.0 is best suited for applications that cannot keep a client secret?",
+        "options": [
+          "Authorization Code Flow",
+          "Implicit Flow",
+          "Resource Owner Password Credentials Flow",
+          "Client Credentials Flow"
+        ],
+        "correct_option": 1,
+        "hint": "This flow is used for single-page applications."
+      },
+      {
+        "question": "What is a primary benefit of using OpenID Connect on top of OAuth 2.0?",
+        "options": [
+          "It provides a way to revoke tokens",
+          "It allows for single sign-on and identity verification",
+          "It introduces token introspection",
+          "It facilitates additional scopes for data access"
+        ],
+        "correct_option": 1,
+        "hint": "This protocol builds an identity layer on top of OAuth 2.0."
+      },
+      {
+        "question": "Which of the following is a recommended practice for storing passwords securely?",
+        "options": [
+          "Storing passwords in plain text",
+          "Using a simple hashing algorithm",
+          "Implementing password hashing with a salt",
+          "Encrypting passwords with a symmetric key"
+        ],
+        "correct_option": 2,
+        "hint": "Adding randomness to the hashing process is crucial for security."
+      },
+      {
+        "question": "What is a common method to manage user sessions in web applications?",
+        "options": [
+          "Using local storage to store session data",
+          "Implementing server-side session storage with session IDs",
+          "Storing session data in URL parameters",
+          "Storing session data in cookies without encryption"
+        ],
+        "correct_option": 1,
+        "hint": "This method involves storing minimal data on the client and more sensitive data on the server."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary purpose of the 'aud' claim in a JWT?",
+        "options": [
+          "To identify the intended recipient of the token",
+          "To specify the issuer of the token",
+          "To define the expiration time of the token",
+          "To list the scopes associated with the token"
+        ],
+        "correct_option": 0,
+        "hint": "Look for a claim that specifies the audience of the token."
+      },
+      {
+        "question": "In OAuth 2.0, which grant type is most suitable for server-to-server communication?",
+        "options": [
+          "Authorization Code Grant",
+          "Implicit Grant",
+          "Client Credentials Grant",
+          "Resource Owner Password Credentials Grant"
+        ],
+        "correct_option": 2,
+        "hint": "This grant type is used when the application needs to authenticate and authorize itself, not on behalf of a user."
+      },
+      {
+        "question": "Which of the following hashing algorithms is considered most secure for password hashing?",
+        "options": [
+          "MD5",
+          "SHA-1",
+          "bcrypt",
+          "SHA-256"
+        ],
+        "correct_option": 2,
+        "hint": "Consider an algorithm that is specifically designed for hashing passwords, not just data."
+      },
+      {
+        "question": "In OpenID Connect, what is the function of an ID Token?",
+        "options": [
+          "To provide user authentication information",
+          "To encrypt the user's password",
+          "To store session data",
+          "To authorize access to resources"
+        ],
+        "correct_option": 0,
+        "hint": "This token is used to convey identity information about a user."
+      },
+      {
+        "question": "What is the key difference between a session ID and a JWT in session management?",
+        "options": [
+          "Session IDs are typically stored client-side, JWTs are not",
+          "JWTs contain claims and can be self-contained, session IDs do not",
+          "Session IDs are always encrypted, JWTs are not",
+          "JWTs require server-side storage, session IDs do not"
+        ],
+        "correct_option": 1,
+        "hint": "Consider which one carries information versus which one is a reference."
+      }
+    ]
+  }
 }

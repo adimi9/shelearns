@@ -1,0 +1,270 @@
+{
+  "id": "BE23",
+  "name": "Docker & Containerization",
+  "category": "Backend Development",
+  "primary_tech": "Docker",
+  "topics": [
+    "Dockerfile & Image Building",
+    "Container Orchestration (Docker Compose)",
+    "Container Networking & Volumes"
+  ],
+  "recommended": true,
+  "tags": [
+    "devops",
+    "containerization",
+    "deployment"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://docs.docker.com/",
+        "https://www.docker.com/resources/what-container/",
+        "https://docs.docker.com/get-started/"
+      ],
+      "notes": [
+        "https://docker-curriculum.com/",
+        "https://www.docker.com/101-tutorial/",
+        "https://endjin.com/blog/2022/01/introduction-to-containers-and-docker",
+        "https://docs.docker.com/get-started/introduction/",
+        "https://spacelift.io/blog/docker-tutorial",
+        "https://docs.docker.com/get-started/workshop/02_our_app/",
+        "https://learn.microsoft.com/en-us/dotnet/core/docker/build-container"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=b0HMimUb4f0",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=pTFZFxd4hOI",
+        "https://www.youtube.com/watch?v=JBtWxj9l7zM",
+        "https://www.youtube.com/watch?v=ul96dslvVwY",
+        "https://www.youtube.com/watch?v=17Bl31rlnRM",
+        "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+        "https://www.youtube.com/watch?v=pg19Z8LL06w&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.docker.com/",
+        "https://www.docker.com/resources/what-container/",
+        "https://docs.docker.com/compose/",
+        "https://www.docker.com/",
+        "https://docs.docker.com/build/building/best-practices/"
+      ],
+      "notes": [
+        "https://docs.docker.com/",
+        "https://www.docker.com/blog/how-to-dockerize-your-python-applications/",
+        "https://docs.docker.com/compose/",
+        "https://www.docker.com/blog/use-cases-and-tips-for-using-the-busybox-docker-official-image/",
+        "https://hub.docker.com/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=b0HMimUb4f0",
+        "https://www.youtube.com/watch?v=JyEwKm-OfxA",
+        "https://www.youtube.com/watch?v=RHjXPN_h1YA",
+        "https://www.youtube.com/watch?v=pTFZFxd4hOI",
+        "https://www.youtube.com/watch?v=n8YCPg0_Fpk",
+        "https://www.youtube.com/watch?v=U7TY_qUD8yA",
+        "https://www.youtube.com/watch?v=I6ZBUEc4LrU",
+        "https://www.youtube.com/watch?v=7QIA6Ja9xyU"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://docs.docker.com/engine/",
+        "https://www.docker.com/",
+        "https://docs.docker.com/compose/",
+        "https://www.docker.com/products/docker-desktop/",
+        "https://docs.docker.com/build/building/best-practices/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://tailscale.com/blog/docker-tailscale-guide",
+        "https://www.youtube.com/watch?v=CvSFl4jI8Hg",
+        "https://masteringbackend.com/posts/docker-tutorial",
+        "https://www.youtube.com/watch?v=3F1ZOkqK7Ww"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+        "https://www.youtube.com/watch?v=CvSFl4jI8Hg",
+        "https://www.youtube.com/watch?v=-dth0I3ZQ1w",
+        "https://www.youtube.com/watch?v=3F1ZOkqK7Ww",
+        "https://www.youtube.com/watch?v=3c-iBn73dDE",
+        "https://www.youtube.com/watch?v=pTFZFxd4hOI",
+        "https://www.youtube.com/watch?v=n8YCPg0_Fpk"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main purpose of a Dockerfile in Docker?",
+        "options": [
+          "To run containers",
+          "To build Docker images",
+          "To manage network settings",
+          "To set environment variables"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the initial step required before running a container."
+      },
+      {
+        "question": "Which command is used to start a multi-container application defined in a Docker Compose file?",
+        "options": [
+          "docker-compose up",
+          "docker-compose start",
+          "docker-compose run",
+          "docker-compose launch"
+        ],
+        "correct_option": 0,
+        "hint": "This command also creates any needed networks and volumes."
+      },
+      {
+        "question": "What is the role of a Docker image in containerization?",
+        "options": [
+          "It is a running instance of a container",
+          "It acts as a template to create containers",
+          "It is used to connect containers",
+          "It is a tool to orchestrate containers"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what is needed before you can run a container."
+      },
+      {
+        "question": "Which Docker feature allows containers to communicate with each other and external networks?",
+        "options": [
+          "Docker Volumes",
+          "Docker Networks",
+          "Docker Compose",
+          "Docker Engine"
+        ],
+        "correct_option": 1,
+        "hint": "This feature is related to connectivity and communication."
+      },
+      {
+        "question": "What is the purpose of Docker Volumes?",
+        "options": [
+          "To store persistent data",
+          "To manage container resources",
+          "To build Docker images",
+          "To define multi-container applications"
+        ],
+        "correct_option": 0,
+        "hint": "Think about data persistence beyond the lifecycle of a container."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of a Dockerfile in the Docker ecosystem?",
+        "options": [
+          "To define the commands to create a Docker image",
+          "To manage the orchestration of multiple containers",
+          "To handle networking between containers",
+          "To store persistent data for containers"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the role of Dockerfile in the context of image creation."
+      },
+      {
+        "question": "In Docker Compose, which file format is typically used to define the services and configurations?",
+        "options": [
+          "YAML",
+          "JSON",
+          "XML",
+          "INI"
+        ],
+        "correct_option": 0,
+        "hint": "This format is known for its readability and is widely used in configuration files."
+      },
+      {
+        "question": "Which Docker command is used to build an image from a Dockerfile?",
+        "options": [
+          "docker build",
+          "docker create",
+          "docker run",
+          "docker image"
+        ],
+        "correct_option": 0,
+        "hint": "This command involves compiling the instructions in the Dockerfile into a Docker image."
+      },
+      {
+        "question": "When using Docker volumes, what is the primary benefit compared to bind mounts?",
+        "options": [
+          "Volumes are stored in a part of the host filesystem managed by Docker",
+          "Volumes allow for faster image building",
+          "Volumes are automatically backed up to the cloud",
+          "Volumes provide better network performance"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the management and storage location differences between volumes and bind mounts."
+      },
+      {
+        "question": "Which network driver in Docker provides a container with its own IP address and allows it to communicate with other containers without NAT?",
+        "options": [
+          "Bridge",
+          "Host",
+          "Overlay",
+          "None"
+        ],
+        "correct_option": 2,
+        "hint": "This driver is commonly used in Docker Swarm for network isolation and communication."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which Dockerfile command is used to set an environment variable that will persist in the image?",
+        "options": [
+          "ENV",
+          "RUN",
+          "CMD",
+          "LABEL"
+        ],
+        "correct_option": 0,
+        "hint": "This command is specifically designed to set variables that are accessible during the container runtime."
+      },
+      {
+        "question": "In Docker Compose, how do you specify the version of the Compose file format you are using?",
+        "options": [
+          "version: '3.8'",
+          "format: '3.8'",
+          "compose_version: '3.8'",
+          "file_version: '3.8'"
+        ],
+        "correct_option": 0,
+        "hint": "This is defined at the top of the docker-compose.yml file."
+      },
+      {
+        "question": "Which Docker networking mode allows containers to share the same network namespace?",
+        "options": [
+          "Bridge",
+          "Host",
+          "None",
+          "Overlay"
+        ],
+        "correct_option": 1,
+        "hint": "In this mode, containers share the host system's network stack."
+      },
+      {
+        "question": "What is the purpose of the 'VOLUME' instruction in a Dockerfile?",
+        "options": [
+          "To expose a port for networking",
+          "To run a command during build",
+          "To define a mount point for persistent data",
+          "To set an environment variable"
+        ],
+        "correct_option": 2,
+        "hint": "This instruction is used to designate a directory for persistent storage."
+      },
+      {
+        "question": "In Docker Compose, what command is used to run multiple services defined in a docker-compose.yml file?",
+        "options": [
+          "docker-compose up",
+          "docker-compose start",
+          "docker-compose run",
+          "docker-compose deploy"
+        ],
+        "correct_option": 0,
+        "hint": "This command both builds and starts the services."
+      }
+    ]
+  }
+}

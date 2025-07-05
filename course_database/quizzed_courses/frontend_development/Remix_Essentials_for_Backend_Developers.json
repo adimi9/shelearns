@@ -1,0 +1,284 @@
+{
+  "id": "FE16",
+  "name": "Remix Essentials for Backend Developers",
+  "category": "Frontend Development",
+  "primary_tech": "Remix",
+  "topics": [
+    "Introduction to Remix and its architecture",
+    "Setting up a Remix project with Node.js",
+    "Understanding loaders and actions for data handling",
+    "Building RESTful APIs with Remix",
+    "Server-side rendering with Remix",
+    "Managing state and data fetching in Remix applications",
+    "Authentication and authorization strategies",
+    "Deployment and scaling Remix applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "remix",
+    "backend",
+    "server-side-rendering",
+    "api-development",
+    "react",
+    "nodejs"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://www.sanity.io/docs/getting-started",
+        "https://stoplight.io/api-documentation-guide",
+        "https://shopify.dev/docs/api/liquid",
+        "https://developer.android.com/develop/ui/compose/documentation"
+      ],
+      "notes": [
+        "https://www.upwork.com/resources/beginners-guide-back-end-development",
+        "https://www.epicweb.dev/why-i-wont-use-nextjs",
+        "https://www.uspto.gov/trademarks/basics",
+        "https://www.datacamp.com/tutorial/21-essential-python-tools",
+        "https://www.sanity.io/docs/getting-started",
+        "https://tex.stackexchange.com/questions/13509/biblatex-in-a-nutshell-for-beginners",
+        "https://learn.microsoft.com/en-us/windows/wsl/setup/environment"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=CMgxu_P81-o",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=O_WW1Z4iBSg",
+        "https://www.youtube.com/watch?v=Rx9V3Ltiklw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=x4rFhThSX04",
+        "https://www.youtube.com/watch?v=N-PoAGryyq4"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://docs.pytorch.org/docs/stable/quantization.html",
+        "https://stoplight.io/api-documentation-guide",
+        "https://docs.lovable.dev/introduction/introduction"
+      ],
+      "notes": [
+        "https://www.epicweb.dev/why-i-wont-use-nextjs",
+        "https://docs.lovable.dev/introduction/introduction",
+        "https://docs.pytorch.org/docs/stable/quantization.html",
+        "https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project",
+        "https://shopify.dev/docs/apps/build/build"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=iZ_aGK2_82A",
+        "https://www.youtube.com/watch?v=-lgtb-YSUWE&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=bZzyPscbtI8",
+        "https://www.youtube.com/watch?v=CxSL0knFxAs",
+        "https://www.youtube.com/watch?v=uoOwVWVl_eU&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=F-8dft30NOA",
+        "https://m.youtube.com/watch?v=nyiJ3WHNrB4",
+        "https://www.youtube.com/watch?v=SPcwo0Gq9T8",
+        "https://www.youtube.com/c/AlexBerman/community"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://daily.dev/blog/apollos-learning-resources-for-developers",
+        "https://docs.soliditylang.org/",
+        "https://pytorch.org/docs/stable/torch.compiler_dynamo_overview.html",
+        "https://react.dev/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=CMgxu_P81-o",
+        "https://www.linkedin.com/posts/erik-seferi-393438202_cprogramming-raycasting-minilibx-activity-7184576872955928576-cIuN",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.upwork.com/resources/beginners-guide-back-end-development",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://zerotomastery.io/courses/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=CMgxu_P81-o",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://www.youtube.com/watch?v=RceLeh9D85o&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=x4rFhThSX04",
+        "https://www.youtube.com/watch?v=TO4aQ3ghFOc&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=iZ_aGK2_82A"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is Remix primarily used for in web development?",
+        "options": [
+          "Client-side rendering",
+          "Server-side rendering",
+          "Database management",
+          "Version control"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how Remix handles web pages compared to traditional client-side frameworks."
+      },
+      {
+        "question": "Which programming language is essential for setting up a Remix project?",
+        "options": [
+          "Python",
+          "Ruby",
+          "JavaScript",
+          "Go"
+        ],
+        "correct_option": 2,
+        "hint": "Remix projects are typically set up using Node.js, which is based on this language."
+      },
+      {
+        "question": "What is the role of loaders in a Remix application?",
+        "options": [
+          "To handle user authentication",
+          "To fetch data for rendering",
+          "To manage state transitions",
+          "To compile TypeScript"
+        ],
+        "correct_option": 1,
+        "hint": "Loaders are used to prepare data before rendering a page."
+      },
+      {
+        "question": "How does Remix handle authentication and authorization?",
+        "options": [
+          "By using server-side sessions and middleware",
+          "By integrating with front-end libraries",
+          "By using a separate microservice",
+          "By storing tokens in local storage"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how server-side logic can be used to manage user sessions securely."
+      },
+      {
+        "question": "What is a key advantage of using Remix for building RESTful APIs?",
+        "options": [
+          "It requires no server resources",
+          "It offers automatic database migrations",
+          "It integrates seamlessly with loaders and actions",
+          "It eliminates the need for a backend"
+        ],
+        "correct_option": 2,
+        "hint": "Remix's architecture allows actions to manage HTTP requests effectively."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary role of loaders in a Remix application?",
+        "options": [
+          "To manage client-side routing",
+          "To handle server-side data fetching",
+          "To perform authentication",
+          "To manage state transitions"
+        ],
+        "correct_option": 1,
+        "hint": "Loaders are designed to fetch data on the server side."
+      },
+      {
+        "question": "Which command is used to create a new Remix project with Node.js?",
+        "options": [
+          "npx create-remix-app",
+          "npm init remix",
+          "remix new",
+          "node remix-init"
+        ],
+        "correct_option": 0,
+        "hint": "The command involves using npx to bootstrap a new Remix application."
+      },
+      {
+        "question": "In Remix, what is a common use case for using actions?",
+        "options": [
+          "To handle HTTP GET requests",
+          "To perform client-side navigation",
+          "To manage server-side POST requests",
+          "To render HTML templates"
+        ],
+        "correct_option": 2,
+        "hint": "Actions are typically used for handling form submissions and other POST request scenarios."
+      },
+      {
+        "question": "How does Remix handle server-side rendering compared to client-side rendering?",
+        "options": [
+          "It uses React hooks for server-side rendering",
+          "It fetches data on the client side after the initial load",
+          "It pre-renders HTML on the server and sends it to the client",
+          "It relies entirely on client-side scripts"
+        ],
+        "correct_option": 2,
+        "hint": "Server-side rendering in Remix involves pre-rendering HTML."
+      },
+      {
+        "question": "What strategy is recommended for managing authentication in a Remix application?",
+        "options": [
+          "Using a client-side authentication library",
+          "Implementing server-side sessions",
+          "Storing tokens in local storage",
+          "Relying on query parameters for authentication"
+        ],
+        "correct_option": 1,
+        "hint": "Server-side solutions are often preferred for secure authentication in Remix."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a primary advantage of using Remix's server-side rendering compared to traditional client-side rendering?",
+        "options": [
+          "Improved SEO and faster initial page loads",
+          "Reduced server costs and infrastructure complexity",
+          "Simplified client-side JavaScript code",
+          "Increased browser compatibility"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the benefits of rendering content on the server before it reaches the client."
+      },
+      {
+        "question": "When setting up a Remix project with Node.js, which command initializes the project with the default template?",
+        "options": [
+          "npx create-remix-app",
+          "npm init remix",
+          "npx remix init",
+          "npm create remix-app"
+        ],
+        "correct_option": 0,
+        "hint": "This command uses npx to run a script that sets up a new Remix application."
+      },
+      {
+        "question": "In Remix, what is the primary purpose of loaders in data handling?",
+        "options": [
+          "To manage client-side state",
+          "To fetch data from the server before rendering",
+          "To process JSON responses from APIs",
+          "To handle user authentication and sessions"
+        ],
+        "correct_option": 1,
+        "hint": "Loaders are designed to prepare data on the server side before it is sent to the client."
+      },
+      {
+        "question": "Which of the following is a key feature of building RESTful APIs with Remix?",
+        "options": [
+          "Automated API documentation generation",
+          "Efficient state management in the client",
+          "Seamless integration with GraphQL",
+          "Streamlined data fetching and mutation with actions"
+        ],
+        "correct_option": 3,
+        "hint": "Consider how Remix utilizes both loaders and actions for handling data."
+      },
+      {
+        "question": "What is a recommended strategy for handling authentication in a Remix application?",
+        "options": [
+          "Using JWTs for client-side token storage",
+          "Implementing server-side session management",
+          "Relying solely on third-party authentication services",
+          "Storing authentication tokens in local storage"
+        ],
+        "correct_option": 1,
+        "hint": "Think about server-side solutions that enhance security and control over user sessions."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User wants modern SSR alternative to Next.js"
+  ]
+}

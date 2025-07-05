@@ -1,0 +1,272 @@
+{
+  "id": "FE21",
+  "name": "Tailwind CSS & Utility-First Design",
+  "category": "Frontend Development",
+  "primary_tech": "Tailwind CSS",
+  "topics": [
+    "Utility Classes",
+    "Custom Themes",
+    "Responsive + Dark Mode"
+  ],
+  "recommended": true,
+  "tags": [
+    "styling",
+    "utility-first",
+    "responsive"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://tailwindcss.com/docs/styling-with-utility-classes",
+        "https://v2.tailwindcss.com/docs",
+        "https://tailwindcss.com/",
+        "https://samiamdesigns.substack.com/p/i-spent-a-year-loving-to-hate-tailwind"
+      ],
+      "notes": [
+        "https://tailwindcss.com/",
+        "https://daily.dev/blog/tailwind-css-basics-for-beginners",
+        "https://tailwindcss.com/docs/styling-with-utility-classes",
+        "https://samiamdesigns.substack.com/p/i-spent-a-year-loving-to-hate-tailwind",
+        "https://laracasts.com/discuss/channels/general-discussion/need-a-good-tailwind-tutorial"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=xP_uJj8L_1Q&t=0s",
+        "https://www.youtube.com/watch?v=Ybybd3GCNn4",
+        "https://www.youtube.com/watch?v=lCxcTsOHrjo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=DenUCuq4G04&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8k165Y0qBN0",
+        "https://www.youtube.com/watch?v=elgqxmdVms8",
+        "https://www.youtube.com/watch?v=GcX4iEhDgM8",
+        "https://www.youtube.com/playlist?list=PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://tailwindcss.com/",
+        "https://github.com/tailwindlabs/tailwindcss/issues/13136",
+        "https://tailwindcss.com/docs/adding-custom-styles",
+        "https://github.com/tailwindlabs/tailwindcss/discussions/5258",
+        "https://tailwindcss.com/docs/upgrade-guide"
+      ],
+      "notes": [
+        "https://tailwindcss.com/",
+        "https://www.geeksforgeeks.org/css/tailwind-css/",
+        "https://tailwindcss.com/docs/adding-custom-styles",
+        "https://tsh.io/blog/tailwind-css-tutorial/",
+        "https://kinsta.com/blog/tailwind-css/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=6XIT2nXIbLU",
+        "https://www.youtube.com/watch?v=ZqEa8fTxypQ",
+        "https://www.youtube.com/watch?v=UI4v1MuyJio",
+        "https://www.youtube.com/watch?v=NPYQUDmOeYI",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=EZajJGOMWas",
+        "https://www.youtube.com/watch?v=Ep3wrPdkiBg",
+        "https://www.youtube.com/c/GreatAdib",
+        "https://www.youtube.com/@JCBCB"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://tailwindcss.com/",
+        "https://daily.dev/blog/tailwind-css-basics-for-beginners",
+        "https://tailwindcss.com/plus",
+        "https://nextjs.org/docs/app/building-your-application/styling/tailwind-css"
+      ],
+      "notes": [
+        "https://tailwindcss.com/",
+        "https://daily.dev/blog/tailwind-css-basics-for-beginners",
+        "https://www.locofy.ai/blog/create-a-custom-theme-with-tailwindcss",
+        "https://tailgrids.com/blog/tailwind-css-introduction-and-setup-guide",
+        "https://www.material-tailwind.com/blog/how-to-learn-tailwind-css",
+        "https://www.geeksforgeeks.org/css/tailwind-css/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=lCxcTsOHrjo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=6biMWgD6_JY",
+        "https://www.youtube.com/watch?v=DenUCuq4G04&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=tS7upsfuxmo",
+        "https://www.youtube.com/watch?v=3LPFKVOc3QI",
+        "https://www.youtube.com/watch?v=D-2FYNLuo4M",
+        "https://www.youtube.com/watch?v=lTWR_DuQAvw",
+        "https://www.youtube.com/watch?v=MYTjeqaezHw",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/c/GreatAdib"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main purpose of utility-first design in Tailwind CSS?",
+        "options": [
+          "To provide pre-designed components",
+          "To offer a set of low-level utility classes",
+          "To enhance server-side rendering",
+          "To improve HTML5 compliance"
+        ],
+        "correct_option": 1,
+        "hint": "Utility-first design focuses on providing low-level utility classes."
+      },
+      {
+        "question": "How do you apply a custom theme in Tailwind CSS?",
+        "options": [
+          "By modifying the HTML directly",
+          "By using the @apply directive",
+          "By configuring the 'theme' section in tailwind.config.js",
+          "By writing custom CSS classes"
+        ],
+        "correct_option": 2,
+        "hint": "Custom themes are configured in the Tailwind configuration file."
+      },
+      {
+        "question": "What utility class in Tailwind CSS would you use to make text responsive?",
+        "options": [
+          "text-xl",
+          "text-responsive",
+          "text-lg",
+          "text-sm"
+        ],
+        "correct_option": 1,
+        "hint": "Responsive text utilities start with 'text-' followed by a size designation."
+      },
+      {
+        "question": "How can you enable dark mode in a Tailwind CSS project?",
+        "options": [
+          "By using the 'dark' class",
+          "By enabling it in the 'theme' configuration",
+          "By setting a CSS variable",
+          "By using a JavaScript function"
+        ],
+        "correct_option": 0,
+        "hint": "Dark mode can be activated by a specific class in the HTML."
+      },
+      {
+        "question": "Which Tailwind CSS utility class would you use to add a margin of 4 units?",
+        "options": [
+          "m-4",
+          "margin-4",
+          "m-lg",
+          "ml-4"
+        ],
+        "correct_option": 0,
+        "hint": "Margin utilities in Tailwind start with 'm-' followed by a size."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which utility class in Tailwind CSS is used to set a background color to blue?",
+        "options": [
+          "bg-blue",
+          "bg-blue-500",
+          "background-blue",
+          "blue-bg"
+        ],
+        "correct_option": 1,
+        "hint": "The class name usually starts with 'bg-' followed by a color scale."
+      },
+      {
+        "question": "How can you customize Tailwind CSS themes?",
+        "options": [
+          "Directly edit the CSS files",
+          "Use the @apply directive in your CSS",
+          "Modify the tailwind.config.js file",
+          "Override the default utility classes"
+        ],
+        "correct_option": 2,
+        "hint": "Customization involves changing a configuration file provided by Tailwind."
+      },
+      {
+        "question": "Which utility class would you use to make text responsive in Tailwind CSS?",
+        "options": [
+          "text-md",
+          "text-responsive",
+          "text-lg",
+          "responsive-text"
+        ],
+        "correct_option": 0,
+        "hint": "Tailwind uses size abbreviations like 'sm', 'md', 'lg'."
+      },
+      {
+        "question": "How does Tailwind CSS handle dark mode?",
+        "options": [
+          "Using a separate stylesheet for dark mode",
+          "By adding a 'dark:' prefix to utility classes",
+          "Through JavaScript functions",
+          "Manually switching classes based on user preference"
+        ],
+        "correct_option": 1,
+        "hint": "Tailwind provides a special prefix for dark mode utilities."
+      },
+      {
+        "question": "What is the purpose of using Tailwind CSS's utility-first design approach?",
+        "options": [
+          "To ensure code uniformity",
+          "To increase CSS file size",
+          "To allow rapid design iteration",
+          "To eliminate the need for CSS entirely"
+        ],
+        "correct_option": 2,
+        "hint": "Utility-first design in Tailwind is focused on speeding up the design process."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary advantage of using utility-first design in Tailwind CSS?",
+        "options": [
+          "It reduces the overall file size of CSS.",
+          "It allows for rapid design changes without writing new CSS.",
+          "It enhances browser compatibility.",
+          "It automatically generates media queries."
+        ],
+        "correct_option": 1,
+        "hint": "Consider how utility classes affect the workflow for developers."
+      },
+      {
+        "question": "How can you customize a theme in Tailwind CSS to use a specific color palette across your project?",
+        "options": [
+          "Modify the base CSS file directly.",
+          "Use the @apply directive with custom colors.",
+          "Configure the theme section in the tailwind.config.js file.",
+          "Use inline styles to override default colors."
+        ],
+        "correct_option": 2,
+        "hint": "Customization is often done in a configuration file."
+      },
+      {
+        "question": "Which Tailwind CSS feature allows you to apply different styles based on the screen size or device?",
+        "options": [
+          "Dark Mode",
+          "Responsive Design",
+          "Custom Themes",
+          "Grid System"
+        ],
+        "correct_option": 1,
+        "hint": "This feature involves media queries implicitly."
+      },
+      {
+        "question": "What is the correct syntax to enable dark mode in a Tailwind CSS project?",
+        "options": [
+          "Add 'dark' to the class attribute.",
+          "Configure darkMode in tailwind.config.js to 'media' or 'class'.",
+          "Use the @dark directive in your CSS.",
+          "Set the dark theme in the global CSS."
+        ],
+        "correct_option": 1,
+        "hint": "This involves configuration within the Tailwind setup file."
+      },
+      {
+        "question": "In Tailwind CSS, how would you apply a hover effect to change the text color to blue?",
+        "options": [
+          "Use 'hover:text-blue-500' in the class attribute.",
+          "Apply ':hover { color: blue; }' in a CSS file.",
+          "Add 'text-blue-500:hover' to the class attribute.",
+          "Set 'hover-color: blue;' in the inline style."
+        ],
+        "correct_option": 0,
+        "hint": "Tailwind uses a specific syntax for pseudo-classes like hover."
+      }
+    ]
+  }
+}

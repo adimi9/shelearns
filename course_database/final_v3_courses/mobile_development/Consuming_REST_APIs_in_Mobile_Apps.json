@@ -1,0 +1,490 @@
+{
+  "id": "MD18",
+  "name": "Consuming REST APIs in Mobile Apps",
+  "category": "Mobile Development",
+  "primary_tech": "API Integration",
+  "topics": [
+    "HTTP Requests (GET, POST, PUT, DELETE)",
+    "JSON Parsing",
+    "Asynchronous Operations",
+    "Error Handling & Retries"
+  ],
+  "recommended": true,
+  "tags": [
+    "API",
+    "networking",
+    "data"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://learn.microsoft.com/en-us/rest/api/power-bi/",
+          "description": "Official documentation for Power BI REST API, detailing endpoints and usage.",
+          "title": "Power BI REST APIs for embedded analytics and automation - Power BI REST API | Microsoft Learn"
+        },
+        {
+          "url": "https://success.outsystems.com/documentation/11/integration_with_external_systems/rest/consume_rest_apis/",
+          "description": "Guidelines for consuming REST APIs in OutSystems applications."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts",
+          "description": "An overview of key concepts in Azure API Management for managing APIs securely and efficiently.",
+          "title": "Azure API Management - Overview and key concepts | Microsoft Learn"
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/jira/software/rest/",
+          "description": "Official REST API documentation for Jira Software Cloud.",
+          "title": "The Jira Software Cloud REST API"
+        },
+        {
+          "url": "https://dotnet.microsoft.com/en-us/apps/aspnet/apis",
+          "description": "An overview of APIs available in ASP.NET for building modern web applications.",
+          "title": "ASP.NET Web APIs - Rest APIs with .NET and C# | .NET"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=c09XiwOZKsI",
+          "description": "An in-depth tutorial on building a full-stack application using React and Node.js.",
+          "title": "REST API with Flutter | Step by step tutorial",
+          "duration": "11m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=DuNLR_NJv8U&pp=ygUJI3VpbWF1aW1h",
+          "description": "A video tutorial on UIMA (Unstructured Information Management Architecture) basics and applications.",
+          "title": "Learn .NET MAUI - Full Course for Beginners | Build cross-platform apps in C#",
+          "duration": "248m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+          "description": "A beginner-friendly tutorial on setting up a Python development environment using Visual Studio Code.",
+          "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+          "duration": "139m"
+        },
+        {
+          "url": "https://dotnet.microsoft.com/en-us/apps/aspnet/apis",
+          "description": "An overview of ASP.NET APIs for building web applications.",
+          "title": "ASP.NET Web APIs - Rest APIs with .NET and C# | .NET"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw&pp=0gcJCfwAo7VqN5tD",
+          "description": "An introductory tutorial on the basics of programming in Python.",
+          "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+          "duration": "187m"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=c09XiwOZKsI",
+          "title": "REST API with Flutter | Step by step tutorial",
+          "duration": "11m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+          "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+          "duration": "139m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=YGqCZjdgJJk",
+          "title": "How to Build a REST API With Laravel: PHP Full Course",
+          "duration": "109m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=_uZYOgzYheU&pp=ygUHI2RvdGFwaQ%3D%3D",
+          "title": "RESTful API with .NET Core (.NET 7) - Full Course for Beginners",
+          "duration": "152m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw&pp=0gcJCfwAo7VqN5tD",
+          "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+          "duration": "187m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=DuNLR_NJv8U&pp=ygUJI3VpbWF1aW1h",
+          "title": "Learn .NET MAUI - Full Course for Beginners | Build cross-platform apps in C#",
+          "duration": "248m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=z3YMz-Gocmw",
+          "title": "Python REST API Tutorial for Beginners | How to Build a Flask REST API",
+          "duration": "40m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EWd3_I4X32g",
+          "title": "Spring Boot Project: Build a REST API for an E-commerce Platform",
+          "duration": "120m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=NoLF7Dlu5mc",
+          "title": "Python Django REST API In 30 Minutes - Django Tutorial",
+          "duration": "30m"
+        },
+        {
+          "url": "https://www.youtube.com/c/DevStack"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.datadoghq.com/api/latest/",
+          "description": "Comprehensive documentation for the latest Datadog API features and usage.",
+          "title": "API Reference"
+        },
+        {
+          "url": "https://developers.google.com/apis-explorer",
+          "description": "An interactive tool for exploring and testing Google APIs directly in your browser.",
+          "title": "Google APIs Explorer  |  Google for Developers"
+        },
+        {
+          "url": "https://success.outsystems.com/documentation/11/integration_with_external_systems/rest/consume_rest_apis/",
+          "description": "Guidelines for consuming REST APIs in OutSystems applications."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://blog.postman.com/rest-api-examples/",
+          "description": "A collection of practical REST API examples and use cases.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/graph/api/resources/teams-api-overview?view=graph-rest-1.0",
+          "description": "An overview of Microsoft Graph API capabilities for interacting with Microsoft Teams.",
+          "title": "Use the Microsoft Graph API to work with Microsoft Teams - Microsoft Graph v1.0 | Microsoft Learn"
+        },
+        {
+          "url": "https://success.outsystems.com/documentation/11/integration_with_external_systems/rest/consume_rest_apis/",
+          "description": "A guide on how to consume REST APIs in OutSystems applications."
+        },
+        {
+          "url": "https://wpengine.com/resources/using-wordpress-rest-api-plugin/",
+          "description": "A guide on utilizing the WordPress REST API plugin for enhanced website functionality.",
+          "title": "WordPress Rest API: Everything You Need to Know"
+        },
+        {
+          "url": "https://docs.datadoghq.com/api/latest/",
+          "description": "Official documentation for the latest Datadog API, detailing endpoints and usage.",
+          "title": "API Reference"
+        },
+        {
+          "url": "https://konghq.com/blog/learning-center/graphql",
+          "description": "An informative resource on understanding and implementing GraphQL.",
+          "title": "What is GraphQL? Use Cases and Examples | Kong Inc."
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=F2xAhKpS-Mc",
+          "title": "How YOU Can Make API Calls in Power Apps WITHOUT Pre-Built Connectors",
+          "duration": "16m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=V82Kcwwxcys",
+          "title": "Let’s code: using the WordPress REST API",
+          "duration": "62m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MfpDlu93Xcg",
+          "title": "Overview of Salesforce Marketing Cloud API's and a Realtime Use-cases",
+          "duration": "57m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XIbZDz_p6vE",
+          "title": "How to Use RESTful APIs In Unity [Unity Tutorial]",
+          "duration": "10m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+          "title": "Flutter Clean Architecture Full Course For Beginners - Bloc, Supabase, Hive, GetIt",
+          "duration": "424m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fqR-WbmX8PM",
+          "title": "Angular 17 CRUD with ASP.NET Core Web API using Entity Framework Core - Full Course",
+          "duration": "79m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MYe0camYjmY",
+          "title": "Testing REST API with the Postman App",
+          "duration": "10m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=8cFNtL538lc",
+          "title": "Logic Apps for Everyone - A complete guide for anyone!",
+          "duration": "50m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9KUL0EUBXis",
+          "title": "Jira API Call - How to create a new ticket using API REST",
+          "duration": "14m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
+          "description": "Comprehensive documentation for the latest Check Point APIs.",
+          "title": "Check Point - Management API reference"
+        },
+        {
+          "url": "https://www.freecodecamp.org/news/build-consume-and-document-a-rest-api/",
+          "description": "A step-by-step tutorial on building, consuming, and documenting a REST API.",
+          "title": "The REST API Handbook – How to Build, Test, Consume, and Document REST APIs"
+        },
+        {
+          "url": "https://docs.github.com/rest",
+          "description": "Official documentation for GitHub's REST API, detailing endpoints and usage examples.",
+          "title": "GitHub REST API documentation - GitHub Docs"
+        },
+        {
+          "url": "https://openweathermap.org/api",
+          "description": "API documentation for accessing weather data from OpenWeatherMap.",
+          "title": "Weather API - OpenWeatherMap"
+        },
+        {
+          "url": "https://directus.io/blog/rest-api",
+          "description": "An introduction to using REST APIs with Directus for data management.",
+          "title": "REST API: Everything You Need to Know"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.freecodecamp.org/news/build-consume-and-document-a-rest-api/",
+          "description": "A step-by-step guide on building, consuming, and documenting a REST API.",
+          "title": "The REST API Handbook – How to Build, Test, Consume, and Document REST APIs"
+        },
+        {
+          "url": "https://zapier.com/blog/how-to-use-api/",
+          "description": "A beginner's guide on how to use APIs effectively for automation and integration.",
+          "title": "How to use an API: Guide + tutorial for beginners | Zapier"
+        },
+        {
+          "url": "https://www.integrate.io/blog/salesforce-rest-api-integration/",
+          "description": "A detailed guide on integrating Salesforce using REST API for seamless data management.",
+          "title": "Salesforce REST API: A Step-by-Step Guide- Updated 2025 | Integrate.io"
+        },
+        {
+          "url": "https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data",
+          "description": "A tutorial on using the JavaScript Fetch API for retrieving data.",
+          "title": "How to Use JavaScript Fetch API: Step-by-Step Guide with Examples | DigitalOcean"
+        },
+        {
+          "url": "https://www.moesif.com/blog/technical/api-development/API-For-Dummies/",
+          "description": "An introductory guide to understanding and developing APIs for beginners.",
+          "title": "API for Dummies: Your Easy Guide to Understanding APIs | Moesif Blog"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/@FrankLiuSoftware/community"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw&pp=0gcJCfwAo7VqN5tD",
+          "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+          "duration": "187m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+          "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+          "duration": "139m"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCOyJTFcxGt4ED_RX4YA0ZIg"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=8cFNtL538lc",
+          "title": "Logic Apps for Everyone - A complete guide for anyone!",
+          "duration": "50m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+          "title": "React Native Tutorial for Beginners - Build a React Native App",
+          "duration": "126m"
+        },
+        {
+          "url": "https://www.youtube.com/user/ProfileTree"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7YcW25PHnAA",
+          "title": "REST API concepts and examples",
+          "duration": "8m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What type of HTTP request is typically used to retrieve data from a server?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correct_option": 0,
+        "hint": "This request type is often used for fetching resources."
+      },
+      {
+        "question": "In the context of REST APIs, what does JSON stand for?",
+        "options": [
+          "JavaScript Object Notation",
+          "Java Standard Object Name",
+          "Java Syntax Object Note",
+          "JavaScript Open Network"
+        ],
+        "correct_option": 0,
+        "hint": "It's a lightweight data-interchange format based on JavaScript syntax."
+      },
+      {
+        "question": "Which HTTP request method is used to update an existing resource on the server?",
+        "options": [
+          "DELETE",
+          "GET",
+          "PUT",
+          "POST"
+        ],
+        "correct_option": 2,
+        "hint": "This method is generally used for modifying resources."
+      },
+      {
+        "question": "What should you implement in your app to handle unpredictable network failures when making API calls?",
+        "options": [
+          "Retry logic",
+          "Hardcoded wait times",
+          "Ignore errors",
+          "Use only GET requests"
+        ],
+        "correct_option": 0,
+        "hint": "Think about a mechanism to attempt the operation again."
+      },
+      {
+        "question": "When dealing with asynchronous operations in mobile apps, which programming concept is commonly used?",
+        "options": [
+          "Loops",
+          "Callbacks",
+          "Constants",
+          "Synchronous waits"
+        ],
+        "correct_option": 1,
+        "hint": "This concept is related to functions that are called after an operation completes."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which HTTP request method would you use to update an existing resource in a REST API?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method is commonly used for updating resources."
+      },
+      {
+        "question": "In JSON parsing, what data type should be used to represent an array of objects?",
+        "options": [
+          "String",
+          "Object",
+          "Array",
+          "Number"
+        ],
+        "correct_option": 2,
+        "hint": "This data type can hold multiple values in a single variable."
+      },
+      {
+        "question": "What is a common approach to handle asynchronous operations in mobile apps when consuming REST APIs?",
+        "options": [
+          "Using synchronous requests",
+          "Implementing callbacks",
+          "Performing blocking operations",
+          "Using print statements"
+        ],
+        "correct_option": 1,
+        "hint": "This approach allows code to run after a task is completed, without blocking the main thread."
+      },
+      {
+        "question": "Which HTTP request method is typically used to retrieve data from a REST API without modifying it?",
+        "options": [
+          "POST",
+          "PUT",
+          "DELETE",
+          "GET"
+        ],
+        "correct_option": 3,
+        "hint": "This method is safe and idempotent."
+      },
+      {
+        "question": "When implementing error handling and retries for REST API calls in mobile apps, what is a recommended practice?",
+        "options": [
+          "Retry indefinitely until success",
+          "Ignore errors and proceed",
+          "Implement exponential backoff strategy",
+          "Display error and stop retrying"
+        ],
+        "correct_option": 2,
+        "hint": "This strategy helps manage retry attempts by gradually increasing wait times between retries."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which HTTP method is idempotent and used to update existing resources in REST APIs?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method can be called multiple times without different outcomes."
+      },
+      {
+        "question": "When parsing JSON data in a mobile app, which of the following is crucial for avoiding crashes?",
+        "options": [
+          "Making assumptions about data types",
+          "Ignoring unexpected fields",
+          "Using try-catch blocks",
+          "Relying on synchronous parsing"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how to handle exceptions and unexpected data gracefully."
+      },
+      {
+        "question": "In the context of mobile apps, what is a common practice to improve user experience when performing asynchronous operations?",
+        "options": [
+          "Block the UI thread until the operation completes",
+          "Use synchronous network requests",
+          "Implement progress indicators",
+          "Disable user inputs permanently"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how to inform the user about ongoing processes."
+      },
+      {
+        "question": "Which approach is recommended for handling network request failures in mobile applications?",
+        "options": [
+          "Fail silently and ignore",
+          "Retry indefinitely without delay",
+          "Implement exponential backoff",
+          "Rely solely on client-side caching"
+        ],
+        "correct_option": 2,
+        "hint": "Consider strategies that prevent overwhelming the server and improve reliability."
+      },
+      {
+        "question": "When integrating REST APIs in mobile apps, what is a potential drawback of using JSON as the data interchange format?",
+        "options": [
+          "JSON is not human-readable",
+          "JSON lacks support for complex data structures",
+          "JSON parsing can be slow and resource-intensive",
+          "JSON is not widely supported"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the impact of parsing on mobile device resources."
+      }
+    ]
+  }
+}

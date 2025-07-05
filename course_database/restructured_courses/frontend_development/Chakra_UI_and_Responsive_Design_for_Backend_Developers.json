@@ -22,107 +22,145 @@
     "frontend-integration"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://chakra-ui.com/",
+        "https://testdriven.io/blog/fastapi-react/",
+        "https://docs.lovable.dev/introduction/introduction",
+        "https://github.com/fastapi/full-stack-fastapi-template"
+      ],
+      "notes": [
+        "https://chakra-ui.com/",
+        "https://refine.dev/blog/react-admin-tutorial/",
+        "https://testdriven.io/blog/fastapi-react/",
+        "https://github.com/fastapi/full-stack-fastapi-template",
+        "https://mockuuups.studio/blog/post/best-figma-design-systems/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=PW1RhQPuQxc",
+        "https://www.youtube.com/watch?v=1iRrc6BFRE0",
+        "https://www.youtube.com/watch?v=N2vE2bP5Mok",
+        "https://www.youtube.com/watch?v=fq7k_gVV5x8",
+        "https://www.youtube.com/watch?v=mj_Qe2jBYS4",
+        "https://www.youtube.com/watch?v=ynFNLBP2TPs&pp=ygUMI25vZGVtaW50aW5n",
+        "https://www.youtube.com/watch?v=VAKnq8ESAic",
+        "https://www.youtube.com/@EdRohDev/videos"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://chakra-ui.com/",
+        "https://github.com/fastapi/full-stack-fastapi-template",
+        "https://docs.lovable.dev/introduction/introduction",
+        "https://www.highcharts.com/"
+      ],
+      "notes": [
+        "https://chakra-ui.com/",
+        "https://refine.dev/blog/react-admin-tutorial/",
+        "https://github.com/fastapi/full-stack-fastapi-template",
+        "https://community.redwoodjs.com/t/frontend-templates-built-for-redwood/3023",
+        "https://github.com/chakra-ui/awesome-chakra-ui"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=1YU83Lw58eo",
+        "https://www.youtube.com/watch?v=wYpCWwD1oz0",
+        "https://www.youtube.com/watch?v=mFRPpINFMz0",
+        "https://www.youtube.com/watch?v=X9-j5Dp0V7w",
+        "https://m.youtube.com/watch?v=sWVgMcz8Q44&pp=ygUPI3JlYWN0YnV0dG9uYXBp",
+        "https://www.youtube.com/watch?v=zyqwt65NIgs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=GnodscC2p-A&pp=0gcJCf0Ao7VqN5tD"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://testdriven.io/blog/fastapi-react/",
+        "https://github.com/PatrickJS/awesome-cursorrules",
+        "https://www.linkedin.com/posts/daniel-bugl-793aa739_modern-full-stack-react-projects-build-activity-7197313722728517632-C5TN"
+      ],
+      "notes": [
+        "https://testdriven.io/blog/fastapi-react/",
+        "https://www.smashingmagazine.com/category/vue/page/3/",
+        "https://help.figma.com/hc/en-us/articles/15023124644247-Guide-to-Dev-Mode",
+        "https://news.ycombinator.com/item?id=32011439",
+        "https://infinum.com/blog/panda-css-css-in-js-without-runtime-overhead/",
+        "https://www.linkedin.com/posts/harsh-gupta-370473205_namaste-nodejs-season2-notes-activity-7248303040577843200-uZY7",
+        "https://github.com/PatrickJS/awesome-cursorrules"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=1YU83Lw58eo",
+        "https://www.youtube.com/watch?v=ffEDkqfIzxM",
+        "https://www.youtube.com/watch?v=djDgTYrFMAY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=LugK0d-z7zs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=RGKi6LSPDLU"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://beta.reactjs.org/learn/your-first-component",
-        "description": "This resource provides a step-by-step guide to creating your first React component."
+        "question": "What is Chakra UI?",
+        "options": [
+          "A utility-first CSS framework",
+          "A UI component library for React",
+          "A JavaScript framework for building mobile apps",
+          "A server-side rendering tool"
+        ],
+        "correct_option": 1,
+        "hint": "It is commonly used in React projects for building accessible components."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow",
-        "description": "Explains the CSS grid-auto-flow property, which controls the placement of items in a grid layout."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/autocapitalize",
-        "description": "This page provides detailed information on the HTML global attribute 'autocapitalize', including its usage and values for controlling text capitalization."
+        "question": "Which of the following is a key feature of Chakra UI?",
+        "options": [
+          "Built-in support for server-side rendering",
+          "Comprehensive set of UI components with accessibility in mind",
+          "Automatic code splitting for faster load times",
+          "Utility classes for rapid styling"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what makes Chakra UI particularly suitable for developers focusing on accessibility."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.geeksforgeeks.org/reactjs/how-to-implement-chakra-ui-in-reactjs/",
-        "description": "A guide on integrating Chakra UI with a ReactJS application, covering setup and usage."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/how-to-implement-chakra-ui-in-reactjs/",
-        "description": "A guide on integrating Chakra UI with ReactJS applications for enhanced UI components and styling."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/reactjs/chakra-ui-flexbox/",
-        "description": "A guide on using Chakra UI's Flexbox utilities in ReactJS for responsive and flexible web design layouts."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/chakra-ui-flexbox/?ref=ml_lbp",
-        "description": "This resource provides a comprehensive guide on using Chakra UI's Flexbox for creating responsive layouts in React applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/reactjs/chakra-ui-media-and-icons-avatar/",
-        "description": "This resource explains how to use Chakra UI's media and icon components, specifically focusing on the Avatar component in ReactJS."
+        "question": "Why might a developer choose Chakra UI over Tailwind CSS?",
+        "options": [
+          "Chakra UI provides a larger set of utility classes",
+          "Chakra UI is easier to integrate with Vue.js",
+          "Chakra UI offers a range of pre-built components with accessibility features",
+          "Chakra UI has better support for server-side rendering"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the focus on components and accessibility when comparing to Tailwind CSS."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=iXsM6NkEmFc",
-      "https://www.youtube.com/watch?v=s-bIsz-NR3c",
-      "https://www.youtube.com/watch?v=hJ873mLhmFQ",
-      "https://www.youtube.com/watch?v=QbLTBTfZ1Hk",
-      "https://www.youtube.com/watch?v=jLd059lbJkw"
+    "advanced": [
+      {
+        "question": "Which of the following describes a use case for Chakra UI?",
+        "options": [
+          "Developing a mobile-first application with CSS Grid",
+          "Building a React-based application with accessible UI components",
+          "Creating a static site with minimal JavaScript",
+          "Developing serverless functions with AWS"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the React and accessibility aspects of Chakra UI for the use case."
+      },
+      {
+        "question": "How does Chakra UI ensure accessibility in its components?",
+        "options": [
+          "By providing utility classes for custom styling",
+          "By using semantic HTML and ARIA roles",
+          "By offering integration with third-party accessibility plugins",
+          "By enforcing strict CSS naming conventions"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on the built-in features of the components that support accessibility."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is Chakra UI?",
-      "options": [
-        "A utility-first CSS framework",
-        "A UI component library for React",
-        "A JavaScript framework for building mobile apps",
-        "A server-side rendering tool"
-      ],
-      "correct_option": 1,
-      "hint": "It is commonly used in React projects for building accessible components."
-    },
-    {
-      "question": "Which of the following is a key feature of Chakra UI?",
-      "options": [
-        "Built-in support for server-side rendering",
-        "Comprehensive set of UI components with accessibility in mind",
-        "Automatic code splitting for faster load times",
-        "Utility classes for rapid styling"
-      ],
-      "correct_option": 1,
-      "hint": "Consider what makes Chakra UI particularly suitable for developers focusing on accessibility."
-    },
-    {
-      "question": "Why might a developer choose Chakra UI over Tailwind CSS?",
-      "options": [
-        "Chakra UI provides a larger set of utility classes",
-        "Chakra UI is easier to integrate with Vue.js",
-        "Chakra UI offers a range of pre-built components with accessibility features",
-        "Chakra UI has better support for server-side rendering"
-      ],
-      "correct_option": 2,
-      "hint": "Think about the focus on components and accessibility when comparing to Tailwind CSS."
-    },
-    {
-      "question": "Which of the following describes a use case for Chakra UI?",
-      "options": [
-        "Developing a mobile-first application with CSS Grid",
-        "Building a React-based application with accessible UI components",
-        "Creating a static site with minimal JavaScript",
-        "Developing serverless functions with AWS"
-      ],
-      "correct_option": 1,
-      "hint": "Consider the React and accessibility aspects of Chakra UI for the use case."
-    },
-    {
-      "question": "How does Chakra UI ensure accessibility in its components?",
-      "options": [
-        "By providing utility classes for custom styling",
-        "By using semantic HTML and ARIA roles",
-        "By offering integration with third-party accessibility plugins",
-        "By enforcing strict CSS naming conventions"
-      ],
-      "correct_option": 1,
-      "hint": "Focus on the built-in features of the components that support accessibility."
-    }
-  ],
   "preferred_if": [
     "User prefers styled components and accessibility"
   ]

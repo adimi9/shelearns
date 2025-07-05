@@ -1,0 +1,272 @@
+{
+  "id": "CSec9",
+  "name": "Web Application Security",
+  "category": "Computer Security",
+  "primary_tech": "Web Security",
+  "topics": [
+    "OWASP Top 10 (Injection, XSS, CSRF)",
+    "Authentication & Session Management Vulnerabilities",
+    "Secure Coding Practices for Web",
+    "Web Security Tools"
+  ],
+  "recommended": true,
+  "tags": [
+    "web",
+    "application-security",
+    "vulnerabilities"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://firebase.google.com/docs",
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://docs.djangoproject.com/",
+        "https://learning.postman.com/docs/introduction/overview/"
+      ],
+      "notes": [
+        "https://www.invicti.com/blog/web-security/getting-started-web-application-security/",
+        "https://developer.okta.com/blog/2022/05/09/beginners-app-sec",
+        "https://portswigger.net/web-security",
+        "https://www.zaproxy.org/getting-started/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=3QOlo2pEpvc",
+        "https://www.youtube.com/watch?v=80VviDER96I",
+        "https://www.youtube.com/watch?v=XOlg8yyoumY",
+        "https://www.youtube.com/watch?v=36qwcfuxELk",
+        "https://www.youtube.com/watch?v=24fHLWXGS-M",
+        "https://www.youtube.com/watch?v=2_lswM1S264",
+        "https://www.youtube.com/watch?v=Qnl2BjxXpkk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=MVCkzo5-AfM&pp=0gcJCdgAo7VqN5tD"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html",
+        "https://docs.datadoghq.com/api/latest/",
+        "https://developers.google.com/apis-explorer",
+        "https://www.akamai.com/products/api-security"
+      ],
+      "notes": [
+        "https://www.box.com/home",
+        "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+        "https://techdocs.broadcom.com/us/en/symantec-security-software/identity-security/vip-authentication-hub/3-4/VIP-Authentication-Hub-Demo-Environment/policy-use-cases.html",
+        "https://support.google.com/accounts/answer/185833?hl=en",
+        "https://techdocs.broadcom.com/us/en/vmware-security-load-balancing/avi-load-balancer/avi-load-balancer/22-1/vmware-avi-load-balancer-gslb-guide/gslb-configuration/configuration-for-common-use-cases.html",
+        "https://docs.pingidentity.com/pingds/8/security-guide/web-applications.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=2_lswM1S264",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=spm90jwC94A",
+        "https://www.youtube.com/watch?v=s2hZSCuhxW4",
+        "https://www.youtube.com/watch?v=lBOAEDQWO9o",
+        "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=tIyWCzGyJis",
+        "https://www.youtube.com/watch?v=MimyJrruDVM"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://developers.arcgis.com/python/latest/",
+        "https://ebpf.io/what-is-ebpf/",
+        "https://developer.tenable.com/reference/navigate",
+        "https://learn.microsoft.com/en-us/dotnet/"
+      ],
+      "notes": [
+        "https://testdriven.io/guides/flask-deep-dive/",
+        "https://www.offsec.com/courses/web-300/",
+        "https://www.jit.io/resources/security-standards/the-in-depth-guide-to-owasps-top-10-vulnerabilities",
+        "https://www.marcobehler.com/guides/spring-security",
+        "https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=DHiZbIks9i0",
+        "https://www.youtube.com/watch?v=2eAPg2SSXyg",
+        "https://m.youtube.com/watch?v=RsxxsEzQhrM&t=1s",
+        "https://www.youtube.com/watch?v=B3O6bXu-NbM",
+        "https://www.youtube.com/watch?v=tLqWGysORXA&pp=ygUPI2ZyZWVjY25hY291cnNl",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=SVo6cDnQQm0",
+        "https://www.youtube.com/watch?v=dcAY-qrzTYA",
+        "https://www.youtube.com/watch?v=kP7KpfToMkg"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary goal of the OWASP Top 10?",
+        "options": [
+          "To provide a comprehensive guide to web development",
+          "To identify and prioritize the most critical web application security risks",
+          "To list the top 10 programming languages",
+          "To offer a tutorial on web design"
+        ],
+        "correct_option": 1,
+        "hint": "It aims to highlight the most crucial security threats."
+      },
+      {
+        "question": "Which of the following attacks involves executing scripts in a user's browser to steal information?",
+        "options": [
+          "SQL Injection",
+          "Cross-Site Scripting (XSS)",
+          "Cross-Site Request Forgery (CSRF)",
+          "Denial of Service (DoS)"
+        ],
+        "correct_option": 1,
+        "hint": "It involves injecting scripts into web pages viewed by other users."
+      },
+      {
+        "question": "Why is it important to use secure session management in web applications?",
+        "options": [
+          "To improve website loading speed",
+          "To ensure users stay logged in permanently",
+          "To prevent unauthorized access to user sessions",
+          "To enhance the aesthetic appeal of the website"
+        ],
+        "correct_option": 2,
+        "hint": "Think about protecting user data from session hijacking."
+      },
+      {
+        "question": "What is a common tool used for testing web application security?",
+        "options": [
+          "Photoshop",
+          "Burp Suite",
+          "Microsoft Word",
+          "Final Cut Pro"
+        ],
+        "correct_option": 1,
+        "hint": "It is a popular tool among security professionals for analyzing web traffic."
+      },
+      {
+        "question": "How can developers prevent SQL Injection attacks?",
+        "options": [
+          "By using prepared statements and parameterized queries",
+          "By only using GET requests",
+          "By storing passwords as plain text",
+          "By minifying JavaScript code"
+        ],
+        "correct_option": 0,
+        "hint": "Think about techniques that involve safely executing database queries."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of the OWASP Top 10 list?",
+        "options": [
+          "To provide a list of the most critical web application security risks",
+          "To offer coding guidelines for developers",
+          "To serve as a compliance checklist for web applications",
+          "To describe network security protocols"
+        ],
+        "correct_option": 0,
+        "hint": "Think of the OWASP Top 10 as a guide for the most significant security issues in web applications."
+      },
+      {
+        "question": "Which type of vulnerability occurs when untrusted data is sent to an interpreter as part of a command or query?",
+        "options": [
+          "Cross-Site Scripting (XSS)",
+          "Cross-Site Request Forgery (CSRF)",
+          "Injection",
+          "Broken Authentication"
+        ],
+        "correct_option": 2,
+        "hint": "This vulnerability can include SQL, NoSQL, OS, and LDAP injections."
+      },
+      {
+        "question": "In a secure web application, what should be used to prevent Cross-Site Request Forgery (CSRF)?",
+        "options": [
+          "CAPTCHA",
+          "HTTPS encryption",
+          "SameSite cookie attribute",
+          "Parameterized queries"
+        ],
+        "correct_option": 2,
+        "hint": "This method involves setting a key attribute in cookies to control their sending in cross-site requests."
+      },
+      {
+        "question": "Which tool is commonly used for identifying security vulnerabilities in web applications?",
+        "options": [
+          "Nmap",
+          "Burp Suite",
+          "Wireshark",
+          "Metasploit"
+        ],
+        "correct_option": 1,
+        "hint": "This tool is specifically designed for web application security testing and includes features like a proxy and a scanner."
+      },
+      {
+        "question": "What is one of the key practices for secure coding to protect against Cross-Site Scripting (XSS)?",
+        "options": [
+          "Using secure cookies",
+          "Limiting session lifespan",
+          "Validating user input",
+          "Escaping user input"
+        ],
+        "correct_option": 3,
+        "hint": "This practice involves converting potentially dangerous characters into their harmless equivalents in user input."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a common mitigation technique to prevent SQL Injection attacks?",
+        "options": [
+          "Using parameterized queries",
+          "Storing passwords in plain text",
+          "Disabling input validation",
+          "Enabling verbose error messages"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how input data is handled in queries."
+      },
+      {
+        "question": "How does a Cross-Site Scripting (XSS) vulnerability typically allow an attacker to exploit a web application?",
+        "options": [
+          "By injecting malicious scripts into web pages viewed by other users",
+          "By executing unauthorized database commands",
+          "By manipulating server file permissions",
+          "By altering the DNS settings of the web server"
+        ],
+        "correct_option": 0,
+        "hint": "Focus on how scripts are introduced to a web page."
+      },
+      {
+        "question": "What is the primary purpose of using HTTPOnly flag in cookies?",
+        "options": [
+          "To prevent cookies from being accessed via JavaScript",
+          "To enhance cookie encryption",
+          "To increase the cookie's expiry time",
+          "To allow cross-site cookie sharing"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how cookies interact with client-side scripts."
+      },
+      {
+        "question": "Which OWASP Top 10 category does Cross-Site Request Forgery (CSRF) fall under?",
+        "options": [
+          "Security Misconfiguration",
+          "Broken Authentication",
+          "Sensitive Data Exposure",
+          "Broken Access Control"
+        ],
+        "correct_option": 3,
+        "hint": "Consider how CSRF affects user privileges."
+      },
+      {
+        "question": "Which tool is commonly used for identifying vulnerabilities in web applications?",
+        "options": [
+          "Burp Suite",
+          "Photoshop",
+          "AutoCAD",
+          "QuickBooks"
+        ],
+        "correct_option": 0,
+        "hint": "This tool is specifically designed for security testing of web applications."
+      }
+    ]
+  }
+}

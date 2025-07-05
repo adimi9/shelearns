@@ -1,0 +1,511 @@
+{
+  "id": "MD5",
+  "name": "Mobile App Security Best Practices",
+  "category": "Mobile Development",
+  "primary_tech": "Security",
+  "topics": [
+    "Data Encryption & Storage Security",
+    "API Key Management",
+    "Code Obfuscation",
+    "Common Mobile Vulnerabilities (OWASP Mobile Top 10)"
+  ],
+  "recommended": true,
+  "tags": [
+    "security",
+    "privacy",
+    "vulnerability"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/auth",
+          "description": "An overview of Firebase Authentication for securing user identities across platforms.",
+          "title": "Firebase Authentication"
+        },
+        {
+          "url": "https://developer.android.com/privacy-and-security/security-tips",
+          "description": "Guidelines for enhancing privacy and security in Android app development.",
+          "title": "Security checklist  |  Android Developers"
+        },
+        {
+          "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
+          "description": "Comprehensive documentation for the latest Check Point APIs.",
+          "title": "Check Point - Management API reference"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/",
+          "description": "Official documentation and resources for Microsoft Azure services and solutions.",
+          "title": "Azure documentation | Microsoft Learn"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://owasp.org/www-project-mobile-app-security/",
+          "description": "A resource detailing security best practices for mobile application development.",
+          "title": "OWASP Mobile Application Security | OWASP Foundation"
+        },
+        {
+          "url": "https://developer.android.com/privacy-and-security/security-tips",
+          "description": "Essential security tips for Android developers to protect apps and user data.",
+          "title": "Security checklist  |  Android Developers"
+        },
+        {
+          "url": "https://www.consumerfinance.gov/about-us/blog/online-mobile-banking-tips-beginners/",
+          "description": "A beginner's guide to online and mobile banking with practical tips.",
+          "title": "Online and mobile banking tips for beginners | Consumer Financial Protection Bureau"
+        },
+        {
+          "url": "https://freedom.press/digisec/blog/signal-beginners/",
+          "description": "An introductory guide to using Signal for secure communications.",
+          "title": "Signal, the secure messaging app: A guide for beginners"
+        },
+        {
+          "url": "https://success.trendmicro.com/en-US/solution/KA-0007901",
+          "description": "Instructions for configuring Trend Micro products to prevent ransomware attacks.",
+          "title": "Best Practice Guide list for Trend Micro products"
+        },
+        {
+          "url": "https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/white-paper/instance-security-best-practice.pdf",
+          "description": "A white paper detailing best practices for ensuring security in ServiceNow instances.",
+          "title": "Access Denied"
+        },
+        {
+          "url": "https://www.govcert.gov.hk/doc/PG%20for%20Mobile%20Security_EN.pdf",
+          "description": "A guideline document on mobile security best practices by the Hong Kong Government."
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=3QOlo2pEpvc",
+          "title": "Introduction to Application Security - Course",
+          "duration": "124m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3NIgBoVJ2FA&pp=ygUOI3Bhc3N3b3Jkc2V0dXA%3D",
+          "title": "1Password Tutorial | The Full Beginners Guide",
+          "duration": "22m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+          "title": "Model Driven Power Apps FULL COURSE for Beginners [UPDATED 2024 Edition]",
+          "duration": "141m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tXC9DQRWHUQ",
+          "title": "Full 2025 Backend Dev Crash Course for Beginners With Spring Boot (Kotlin, JWT Auth, MongoDB)",
+          "duration": "182m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZuQoN2x8T6k",
+          "title": "Introduction to OAuth 2.0 and OpenID Connect By Philippe De Ryck",
+          "duration": "163m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rJsHc-4w60g",
+          "title": "Power Apps Tutorial | FULL COURSE for Beginners",
+          "duration": "136m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=56Ihv5MF4_U",
+          "title": "Microsoft Intune From Zero to Hero",
+          "duration": "39m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=3FNYvj2U0HM&pp=ygUJI21lbnRvcjQz",
+          "title": "Ethical Hacking in 15 Hours - 2023 Edition - Learn to Hack! (Part 1)",
+          "duration": "434m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://developers.google.com/maps/api-security-best-practices",
+          "description": "Guidelines for securing Google Maps API usage and protecting API keys.",
+          "title": "Google Maps Platform security guidance  |  Google for Developers"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html",
+          "description": "Guidelines for implementing best practices in AWS Identity and Access Management (IAM).",
+          "title": "Security best practices in IAM - AWS Identity and Access Management"
+        },
+        {
+          "url": "https://developers.google.com/apis-explorer",
+          "description": "An interactive tool for exploring and testing Google APIs directly from your browser.",
+          "title": "Google APIs Explorer  |  Google for Developers"
+        },
+        {
+          "url": "https://firebase.google.com/docs/auth",
+          "description": "Official documentation on implementing authentication with Firebase.",
+          "title": "Firebase Authentication"
+        },
+        {
+          "url": "https://developer.android.com/guide/topics/permissions/overview",
+          "description": "An overview of the Android permissions model and best practices for app developers.",
+          "title": "Permissions on Android  |  Privacy  |  Android Developers"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://developer.apple.com/app-store/review/guidelines/",
+          "description": "Official guidelines for app developers on Apple's App Store review process.",
+          "title": "App Review Guidelines - Apple Developer"
+        },
+        {
+          "url": "https://owasp.org/www-project-mobile-app-security/",
+          "description": "A resource detailing security best practices for mobile applications by OWASP.",
+          "title": "OWASP Mobile Application Security | OWASP Foundation"
+        },
+        {
+          "url": "https://docs.paloaltonetworks.com/service-providers/10-1/mobile-network-infrastructure-getting-started/sctp/sctp-use-cases",
+          "description": "An overview of SCTP use cases in mobile network infrastructure for service providers.",
+          "title": "SCTP Use Cases"
+        },
+        {
+          "url": "https://electronjs.org/docs/latest/tutorial/security",
+          "description": "Guidelines for enhancing security in Electron applications.",
+          "title": "Electron"
+        },
+        {
+          "url": "https://docs.paloaltonetworks.com/prisma-access/administration/prisma-access-mobile-users/mobile-users-globalprotect/set-up-globalprotect-mobile-users",
+          "description": "Instructions for setting up GlobalProtect for mobile users on Prisma Access.",
+          "title": "Set Up GlobalProtect Mobile Users"
+        },
+        {
+          "url": "https://stackoverflow.blog/2021/10/06/best-practices-for-authentication-and-authorization-for-rest-apis/",
+          "description": "Best practices for implementing authentication and authorization in REST APIs.",
+          "title": "Best practices for REST API security: Authentication and authorization - Stack Overflow"
+        },
+        {
+          "url": "https://developer.android.com/guide/components/intents-filters",
+          "description": "An overview of intents and intent filters for inter-app communication in Android development.",
+          "title": "Intents and intent filters  |  App architecture  |  Android Developers"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=oX9aIzejaSc&pp=0gcJCfwAo7VqN5tD",
+          "title": "Galaxy S25 Ultra - First 25 Things To Do! (Tips & Tricks)",
+          "duration": "36m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rJsHc-4w60g",
+          "title": "Power Apps Tutorial | FULL COURSE for Beginners",
+          "duration": "136m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5xpKs0qCqqs",
+          "title": "Google Pixel 9 First 20 Things To Do! (Tips & Tricks)",
+          "duration": "20m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=45k4pQ6nwSc",
+          "title": "Automate Employee Onboarding in Microsoft 365 | Full Tutorial",
+          "duration": "57m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HrILchHvMUA",
+          "title": "Model Driven Power Apps FULL COURSE for Beginners [UPDATED 2024 Edition]",
+          "duration": "141m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AUgZffkurK0",
+          "title": "OpenID Connect & OAuth 2.0 – Security Best Practices - Dominick Baier",
+          "duration": "52m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=56Ihv5MF4_U",
+          "title": "Microsoft Intune From Zero to Hero",
+          "duration": "39m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5ZGT1ASqYss",
+          "title": "iPhone 16 Pro - First 25 Things To Do! (Tips & Tricks)",
+          "duration": "35m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VnfX9YJbaU8",
+          "title": "WiFiManager with ESP32 - Stop Hard-coding WiFi Credentials!",
+          "duration": "54m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/security/best-practices",
+          "description": "A guide outlining best practices for enhancing security on Google Cloud.",
+          "title": "Cloud Security Best Practices Center | Google Cloud"
+        },
+        {
+          "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
+          "description": "Comprehensive documentation for Check Point's latest API offerings.",
+          "title": "Check Point - Management API reference"
+        },
+        {
+          "url": "https://cloud.google.com/architecture/best-practices-vpc-design",
+          "description": "Guidelines for designing effective and scalable VPC architectures on Google Cloud.",
+          "title": "Best practices and reference architectures for VPC design  |  Cloud Architecture Center  |  Google Cloud"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html",
+          "description": "An overview of AWS WAF, a web application firewall service for protecting web applications from common web exploits.",
+          "title": "What are AWS WAF, AWS Shield Advanced, AWS Shield network security director and AWS Firewall Manager? - AWS WAF, AWS Firewall Manager, AWS Shield Advanced, and AWS Shield network security director"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks",
+          "description": "An explanation of how self-service password reset (SSPR) works in Microsoft Entra Identity.",
+          "title": "Self-service password reset deep dive - Microsoft Entra ID | Microsoft Learn"
+        },
+        {
+          "url": "https://www.jit.io/resources/security-standards/the-in-depth-guide-to-owasps-top-10-vulnerabilities",
+          "description": "An in-depth guide to understanding and mitigating OWASP's Top 10 web application security risks.",
+          "title": "The In-Depth Guide to OWASP Top 10 Vulnerabilities | Jit"
+        },
+        {
+          "url": "https://www.adjust.com/blog/dive-into-deeplinking/",
+          "description": "An in-depth exploration of the mechanics and benefits of deep linking in mobile apps.",
+          "title": "A complete guide to mobile app deep linking | Adjust"
+        },
+        {
+          "url": "https://cloud.google.com/security/best-practices",
+          "description": "Guidelines for implementing security best practices on Google Cloud Platform.",
+          "title": "Cloud Security Best Practices Center | Google Cloud"
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security",
+          "description": "An introductory guide to understanding the fundamentals of cyber security.",
+          "title": "What is Cyber Security? A Complete Beginner’s Guide"
+        },
+        {
+          "url": "https://www.sans.org/cyber-security-courses/",
+          "description": "A catalog of cyber security courses offered by SANS Institute.",
+          "title": "Best Cyber Security Courses Online & In Person | SANS Institute"
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+          "description": "A curated list of common interview questions for cyber security roles.",
+          "title": "Top Cybersecurity Interview Questions and Answers for 2025"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=ZQHoC0cR6Qw",
+          "title": "A Security Practitioners Guide to Best Practice GCP Security (Cloud Next '18)",
+          "duration": "42m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=56Ihv5MF4_U",
+          "title": "Microsoft Intune From Zero to Hero",
+          "duration": "39m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ejQ-ojkokVY",
+          "title": "Model-Driven Power Apps Tutorial: Forms Deep Dive",
+          "duration": "41m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=c9TTzhMSFcg",
+          "title": "Galaxy Note 10 Plus - 200+ Tips, Tricks and Hidden Features (ULTIMATE GUIDE)",
+          "duration": "161m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZuQoN2x8T6k",
+          "title": "Introduction to OAuth 2.0 and OpenID Connect By Philippe De Ryck",
+          "duration": "163m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tLqWGysORXA&pp=ygUPI2ZyZWVjY25hY291cnNl",
+          "title": "CCNA Course for Beginners - Full Course 10.5 Hours (Part 1)",
+          "duration": "634m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rJsHc-4w60g",
+          "title": "Power Apps Tutorial | FULL COURSE for Beginners",
+          "duration": "136m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qwA6MmbeGNo&pp=0gcJCfwAo7VqN5tD",
+          "title": "Open-Source Intelligence (OSINT) in 5 Hours - Full Course - Learn OSINT!",
+          "duration": "269m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of data encryption in mobile app security?",
+        "options": [
+          "To increase the app's speed",
+          "To protect sensitive information from unauthorized access",
+          "To make the app more user-friendly",
+          "To reduce the app's size"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how encryption impacts data confidentiality."
+      },
+      {
+        "question": "Which of the following is a common mobile vulnerability according to the OWASP Mobile Top 10?",
+        "options": [
+          "Excessive Data Storage",
+          "Improper Platform Usage",
+          "Fast Network Access",
+          "Unnecessary API Calls"
+        ],
+        "correct_option": 1,
+        "hint": "Consider vulnerabilities related to not following platform guidelines."
+      },
+      {
+        "question": "Why is code obfuscation used in mobile app development?",
+        "options": [
+          "To improve the app's performance",
+          "To reduce the size of the app",
+          "To make the code harder for attackers to understand",
+          "To enhance user experience"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how code obfuscation affects code readability."
+      },
+      {
+        "question": "What is one of the best practices for managing API keys in a mobile app?",
+        "options": [
+          "Hardcoding keys in the app",
+          "Storing keys in a secure vault",
+          "Sharing keys with all users",
+          "Using simple keys for easy access"
+        ],
+        "correct_option": 1,
+        "hint": "Consider where you would securely store sensitive information."
+      },
+      {
+        "question": "What does the 'S' in 'Security' primarily stand for in the context of mobile app security?",
+        "options": [
+          "Speed",
+          "Safety",
+          "Source",
+          "Structure"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how security relates to protection and risk management."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of data encryption in mobile app security?",
+        "options": [
+          "To increase the app's performance",
+          "To prevent unauthorized access to sensitive data",
+          "To make the app more user-friendly",
+          "To reduce the app's battery consumption"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how encryption protects user data from unauthorized access."
+      },
+      {
+        "question": "Which of the following is a best practice for managing API keys in mobile applications?",
+        "options": [
+          "Hardcoding API keys into the app",
+          "Storing API keys in a secure container",
+          "Sharing API keys in public repositories",
+          "Using the same API key for all apps"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how to securely store sensitive information in mobile apps."
+      },
+      {
+        "question": "What is code obfuscation primarily used for in mobile app development?",
+        "options": [
+          "To increase the app load time",
+          "To make the code easier to read",
+          "To protect the source code from reverse engineering",
+          "To improve app functionality"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how developers can protect their code from being easily understood by attackers."
+      },
+      {
+        "question": "Which vulnerability is ranked as the top concern in the OWASP Mobile Top 10?",
+        "options": [
+          "Insecure Data Storage",
+          "Weak Server Side Controls",
+          "Insecure Communication",
+          "Improper Platform Usage"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the most common and critical vulnerability related to data handling in mobile apps."
+      },
+      {
+        "question": "Which practice can help mitigate the risk of reverse engineering in mobile applications?",
+        "options": [
+          "Using descriptive variable names",
+          "Disabling SSL pinning",
+          "Avoiding the use of encryption",
+          "Implementing code obfuscation"
+        ],
+        "correct_option": 3,
+        "hint": "Think about techniques that make it harder for attackers to understand the app's source code."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which encryption algorithm is recommended for encrypting sensitive data stored on mobile devices to ensure high security?",
+        "options": [
+          "AES-256",
+          "MD5",
+          "DES",
+          "SHA-1"
+        ],
+        "correct_option": 0,
+        "hint": "Consider using an algorithm that is known for its strength and is widely recommended for secure data encryption."
+      },
+      {
+        "question": "In the context of mobile app security, what is the purpose of using obfuscation techniques in source code?",
+        "options": [
+          "To improve app performance",
+          "To hide sensitive logic and make reverse engineering difficult",
+          "To reduce app size",
+          "To enhance user interface"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how you might protect the app's intellectual property and prevent unauthorized access to its functionality."
+      },
+      {
+        "question": "What is a best practice for storing API keys in a mobile application?",
+        "options": [
+          "Hard-code them in the app's source code",
+          "Store them in the device's shared preferences",
+          "Use a secure key management service",
+          "Embed them in the app's manifest file"
+        ],
+        "correct_option": 2,
+        "hint": "Consider methods that ensure the keys are not exposed to potential attackers."
+      },
+      {
+        "question": "Which of the following is NOT included in the OWASP Mobile Top 10 vulnerabilities?",
+        "options": [
+          "Insecure Data Storage",
+          "Improper Platform Usage",
+          "Untrusted Inputs",
+          "Insecure Communication"
+        ],
+        "correct_option": 2,
+        "hint": "Familiarize yourself with the OWASP Mobile Top 10 list to identify common mobile security risks."
+      },
+      {
+        "question": "When implementing data encryption for a mobile app, which of the following should be avoided to prevent security risks?",
+        "options": [
+          "Using a strong, industry-standard algorithm",
+          "Generating keys using a secure random number generator",
+          "Storing encryption keys in plaintext",
+          "Regularly updating encryption libraries"
+        ],
+        "correct_option": 2,
+        "hint": "Consider where the most critical security mistakes can occur when handling encryption keys."
+      }
+    ]
+  }
+}

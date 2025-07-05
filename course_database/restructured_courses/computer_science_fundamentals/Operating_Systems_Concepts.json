@@ -16,105 +16,151 @@
     "architecture"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
-        "description": "An overview and guide to building Progressive Web Apps (PWAs) using modern web technologies."
-      },
-      {
-        "url": "https://nodejs.org/api/os.html",
-        "description": "The Node.js OS module documentation provides methods for interacting with the operating system."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model",
-        "description": "An overview of JavaScript's execution model, detailing how code is executed in the JavaScript runtime environment."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/operating-systems/operating-systems/",
-        "description": "An in-depth guide covering key concepts, functionalities, and components of operating systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/",
-        "description": "A comprehensive collection of commonly asked interview questions and answers related to operating systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/operating-systems/file-systems-in-operating-system/",
-        "description": "An overview of file systems in operating systems, including their types, structure, and management."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/operating-systems/introduction-of-operating-system-set-1/",
-        "description": "An introductory guide to the fundamental concepts and functions of operating systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/operating-systems/real-time-operating-system-rtos/",
-        "description": "An overview of Real-Time Operating Systems (RTOS), including their functionalities and applications."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=26QPDBe-NB8",
-      "https://www.youtube.com/watch?v=yK1uBHPdp30",
-      "https://www.youtube.com/watch?v=dOiA2nNJpc0",
-      "https://www.youtube.com/watch?v=fkGCLIQx1MI",
-      "https://www.youtube.com/watch?v=9GDX-IyZ_C8"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is a process in the context of operating systems?",
-      "options": [
-        "A single task that is executed by the CPU",
-        "A collection of threads that share resources",
-        "A binary executable file stored on disk",
-        "A hardware component that manages memory"
+    "beginner": {
+      "docs": [
+        "https://kubernetes.io/docs/concepts/workloads/pods/",
+        "https://www.ibm.com/docs/en/i/7.4?topic=operations-i-concepts",
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "https://kafka.apache.org/documentation/",
+        "https://prometheus.io/docs/introduction/overview/"
       ],
-      "correct_option": 1,
-      "hint": "It involves multiple threads and resource sharing."
+      "notes": [
+        "https://www.geeksforgeeks.org/operating-systems/operating-systems/",
+        "https://os.ecci.ucr.ac.cr/slides/Abraham-Silberschatz-Operating-System-Concepts-10th-2018.pdf",
+        "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+        "https://www.cse.iitb.ac.in/~mythili/os/",
+        "https://www.tutorialspoint.com/operating_system/index.htm",
+        "https://notes.bencuan.me/cs162/chapter-1-os-basics/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=yK1uBHPdp30",
+        "https://www.youtube.com/watch?v=dOiA2nNJpc0&pp=ygUSI2RyaXZlbmJ5c2NoZWR1bGVz",
+        "https://www.youtube.com/watch?v=ROjZy1WbCIA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=9t8xNRqDoT8",
+        "https://www.youtube.com/watch?v=pPzVV2kkGHc&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=j7hNia9mScA",
+        "https://www.youtube.com/watch?v=9GDX-IyZ_C8",
+        "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O",
+        "https://www.youtube.com/playlist?list=PLuteWQUGtU9BU0sQIVqRQa24p-pSBCYNv"
+      ]
     },
-    {
-      "question": "Which of the following is true about threads?",
-      "options": [
-        "Threads run in separate memory spaces",
-        "Threads share the same data and code segments",
-        "Threads execute independently of processes",
-        "Threads cannot share resources"
+    "intermediate": {
+      "docs": [
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "https://kafka.apache.org/documentation/",
+        "https://kubernetes.io/docs/concepts/workloads/pods/",
+        "https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions",
+        "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts"
       ],
-      "correct_option": 1,
-      "hint": "Threads are part of a process and share certain segments."
+      "notes": [
+        "https://en.wikipedia.org/wiki/Operating_system",
+        "https://os.ecci.ucr.ac.cr/slides/Abraham-Silberschatz-Operating-System-Concepts-10th-2018.pdf",
+        "https://github.com/cfenollosa/os-tutorial",
+        "https://www.techtarget.com/whatis/definition/operating-system-OS",
+        "https://drive.uqu.edu.sa/_/mskhayat/files/MySubjects/2017SS%20Operating%20Systems/Abraham%20Silberschatz-Operating%20System%20Concepts%20(9th,2012_12).pdf",
+        "https://www.geeksforgeeks.org/operating-systems/introduction-of-operating-system-set-1/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=dOiA2nNJpc0&pp=ygUOI29zY2xhc3NvbmxpbmU%3D",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=_V8eKsto3Ug",
+        "https://www.youtube.com/watch?v=ZE95URGcT7o&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=I40JZGcfgtk",
+        "https://www.youtube.com/watch?v=vF2Z4T97xcQ",
+        "https://www.youtube.com/watch?v=33-O37ak2Do",
+        "https://www.youtube.com/watch?v=RQ5HzSAx27I"
+      ]
     },
-    {
-      "question": "What is the main goal of CPU scheduling?",
-      "options": [
-        "To maximize CPU idle time",
-        "To ensure all processes have equal priority",
-        "To improve system efficiency and response time",
-        "To allocate more CPU time to I/O-bound processes"
+    "advanced": {
+      "docs": [
+        "https://ebpf.io/what-is-ebpf/",
+        "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+        "https://docs.openstack.org/nova/latest/",
+        "https://docs.cilium.io/en/stable/index.html"
       ],
-      "correct_option": 2,
-      "hint": "Think about system performance and efficiency."
-    },
-    {
-      "question": "Which technique allows for the execution of processes that require more memory than what is physically available?",
-      "options": [
-        "Swapping",
-        "Virtual Memory",
-        "Fragmentation",
-        "Paging"
+      "notes": [
+        "https://www.youtube.com/watch?v=3obEP8eLsCw",
+        "https://www.cse.iitb.ac.in/~mythili/os/",
+        "https://www.youtube.com/watch?v=LLJ01lWu89c",
+        "https://www.storyflint.com/blog/storyteller-os-deep-dive",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI"
       ],
-      "correct_option": 1,
-      "hint": "This technique uses a combination of RAM and disk space."
-    },
-    {
-      "question": "What is the primary purpose of a file system in an operating system?",
-      "options": [
-        "To manage the execution of processes",
-        "To provide a way to store and organize files",
-        "To control access to the CPU",
-        "To handle network communications"
-      ],
-      "correct_option": 1,
-      "hint": "Think about data storage and organization."
+      "videos": [
+        "https://www.youtube.com/watch?v=3obEP8eLsCw",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=LLJ01lWu89c",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=ROjZy1WbCIA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=i0DX8U5ttqQ&pp=ygUJI2RpYmFzaDEy",
+        "https://www.youtube.com/watch?v=mbV7Z-HzFZ4",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=IPvYjXCsTg8",
+        "https://www.youtube.com/watch?v=lZAoFs75_cs"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a process in the context of operating systems?",
+        "options": [
+          "A single task that is executed by the CPU",
+          "A collection of threads that share resources",
+          "A binary executable file stored on disk",
+          "A hardware component that manages memory"
+        ],
+        "correct_option": 1,
+        "hint": "It involves multiple threads and resource sharing."
+      },
+      {
+        "question": "Which of the following is true about threads?",
+        "options": [
+          "Threads run in separate memory spaces",
+          "Threads share the same data and code segments",
+          "Threads execute independently of processes",
+          "Threads cannot share resources"
+        ],
+        "correct_option": 1,
+        "hint": "Threads are part of a process and share certain segments."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the main goal of CPU scheduling?",
+        "options": [
+          "To maximize CPU idle time",
+          "To ensure all processes have equal priority",
+          "To improve system efficiency and response time",
+          "To allocate more CPU time to I/O-bound processes"
+        ],
+        "correct_option": 2,
+        "hint": "Think about system performance and efficiency."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which technique allows for the execution of processes that require more memory than what is physically available?",
+        "options": [
+          "Swapping",
+          "Virtual Memory",
+          "Fragmentation",
+          "Paging"
+        ],
+        "correct_option": 1,
+        "hint": "This technique uses a combination of RAM and disk space."
+      },
+      {
+        "question": "What is the primary purpose of a file system in an operating system?",
+        "options": [
+          "To manage the execution of processes",
+          "To provide a way to store and organize files",
+          "To control access to the CPU",
+          "To handle network communications"
+        ],
+        "correct_option": 1,
+        "hint": "Think about data storage and organization."
+      }
+    ]
+  }
 }

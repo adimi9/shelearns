@@ -21,107 +21,155 @@
     "asynchronous-programming"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://firebase.google.com/docs/auth",
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://firebase.google.com/docs/firestore/quickstart"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
+        "https://m.youtube.com/watch?v=ZX12X-ALwGA",
+        "https://www.youtube.com/watch?v=pmWFzzU_NB4",
+        "https://learn.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-aspnet-core?view=vs-2022",
+        "https://www.youtube.com/watch?v=WfMHUp8tOVE",
+        "https://dotnet.microsoft.com/en-us/apps/aspnet"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
+        "https://www.youtube.com/watch?v=pmWFzzU_NB4",
+        "https://www.youtube.com/watch?v=WfMHUp8tOVE",
+        "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+        "https://www.youtube.com/watch?v=t-JKbw21Gzw",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://www.youtube.com/watch?v=3Lfs5fAc1bU",
+        "https://m.youtube.com/watch?v=ZX12X-ALwGA",
+        "https://www.youtube.com/watch?v=NfUccG5faBQ",
+        "https://www.youtube.com/watch?v=XMGOfJxnH7s"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs/auth",
+        "https://developer.spotify.com/documentation/web-api",
+        "https://firebase.google.com/docs",
+        "https://developer-docs.amazon.com/sp-api/docs/sp-api-sandbox",
+        "https://learn.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics"
+      ],
+      "notes": [
+        "https://community.dynamics.com/forums/thread/details/?threadid=36609b5f-897f-4ff3-81c6-0b1aa1efe10b",
+        "https://www.browserstack.com/guide/best-language-for-web-development",
+        "https://learn.microsoft.com/en-us/azure/azure-app-configuration/feature-management-dotnet-reference",
+        "https://codelabs.developers.google.com/",
+        "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
+        "https://www.youtube.com/watch?v=1sOTTXlIhZo",
+        "https://www.youtube.com/watch?v=3Lfs5fAc1bU",
+        "https://www.youtube.com/watch?v=hw6oTjw9_Ro&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=54ZmhbpjBmg",
+        "https://www.youtube.com/watch?v=fvxQ8bW0vO8",
+        "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=PXtFq5wmGt0",
+        "https://www.youtube.com/@juliocasal/posts"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://learn.microsoft.com/en-us/",
+        "https://shopify.dev/docs/api",
+        "https://codelabs.developers.google.com/"
+      ],
+      "notes": [
+        "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview",
+        "https://codelabs.developers.google.com/",
+        "https://www.turing.com/interview-questions/c-sharp",
+        "https://www.browserstack.com/guide/best-language-for-web-development",
+        "https://learntocodewith.me/posts/backend-development/",
+        "https://www.interviewbit.com/dot-net-interview-questions/",
+        "https://github.com/mikeroyal/Self-Hosting-Guide"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=3Lfs5fAc1bU",
+        "https://www.youtube.com/watch?v=PXtFq5wmGt0",
+        "https://www.youtube.com/watch?v=WfMHUp8tOVE",
+        "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+        "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=0GZMzBB-0dI",
+        "https://www.youtube.com/@akshaymarch7",
+        "https://www.youtube.com/c/ITaskTechnologies",
+        "https://www.youtube.com/watch?v=q_F4PyW8GTg&pp=ygUGIzEwbmV0"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://learn.microsoft.com/en-us/dotnet/",
-        "description": "Comprehensive documentation and resources for learning and developing with Microsoft .NET technologies."
+        "question": "What is one of the primary advantages of using C# over C++ in game development?",
+        "options": [
+          "C# provides automatic memory management.",
+          "C# allows for direct hardware manipulation.",
+          "C# is a lower-level language than C++.",
+          "C# requires manual memory management."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how C# handles memory differently than C++."
       },
       {
-        "url": "https://firebase.google.com/docs/auth",
-        "description": "Firebase Authentication documentation provides guidance on implementing user authentication in apps using Firebase services."
-      },
-      {
-        "url": "https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-9.0",
-        "description": "Comprehensive documentation for building modern web applications using ASP.NET Core 9.0."
+        "question": "Why might a game developer choose C# when using Unity?",
+        "options": [
+          "C# is the only language supported by Unity.",
+          "C# offers faster execution than C++.",
+          "C# code can be written directly in Unity's interface.",
+          "C# simplifies development with built-in libraries and tools."
+        ],
+        "correct_option": 3,
+        "hint": "Think about the development environment and available features in Unity."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.reddit.com/r/webdev/comments/vnh0t0/whats_the_role_of_c_in_web_development_specially/",
-        "description": "Discussion on the role and applications of the C programming language in web development and its relevance."
-      },
-      {
-        "url": "https://dotnet.microsoft.com/en-us/apps/aspnet",
-        "description": "Discover how to build modern web apps using ASP.NET with detailed resources and tools from Microsoft."
-      },
-      {
-        "url": "https://www.reddit.com/r/csharp/comments/1c9iasf/what_is_the_best_option_for_frontend_development/",
-        "description": "Discussion on the best frontend development options for C# applications."
-      },
-      {
-        "url": "https://learn.microsoft.com/en-us/answers/questions/1123214/asp-net-core-web-app-with-sql-(no-entity-framework",
-        "description": "This resource provides guidance on building an ASP.NET Core web application with SQL integration without using Entity Framework."
-      },
-      {
-        "url": "https://www.reddit.com/r/cpp/comments/bpdpug/why_isnt_c_used_to_develop_web_applications/",
-        "description": "Discussion on the reasons C++ is not commonly used for web application development, focusing on language suitability and ecosystem."
+        "question": "Which feature of C# contributes to faster development time compared to C++?",
+        "options": [
+          "C# is a compiled language.",
+          "C# has a large standard library.",
+          "C# requires less boilerplate code.",
+          "C# supports inline assembly."
+        ],
+        "correct_option": 2,
+        "hint": "Consider how C# syntax and structure can reduce repetitive coding."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
-      "https://m.youtube.com/watch?v=ZX12X-ALwGA",
-      "https://www.youtube.com/watch?v=pmWFzzU_NB4",
-      "https://www.reddit.com/r/csharp/comments/mf58ib/how_much_c_knowledge_do_you_need_to_use_wpf/",
-      "https://www.youtube.com/watch?v=WfMHUp8tOVE"
+    "advanced": [
+      {
+        "question": "In the context of game development, what is a significant reason to use C# regarding memory management?",
+        "options": [
+          "C# uses a garbage collector for automatic memory management.",
+          "C# allows manual memory allocation like C++.",
+          "C# requires pointers for memory access.",
+          "C# is designed for low-level system programming."
+        ],
+        "correct_option": 0,
+        "hint": "Think about how C# handles memory allocation automatically."
+      },
+      {
+        "question": "What makes C# easier to learn for new programmers compared to C++?",
+        "options": [
+          "C# has a more complex syntax.",
+          "C# provides better control over hardware.",
+          "C# has simpler and more readable syntax.",
+          "C# has fewer built-in libraries."
+        ],
+        "correct_option": 2,
+        "hint": "Focus on the language syntax and readability for beginners."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is one of the primary advantages of using C# over C++ in game development?",
-      "options": [
-        "C# provides automatic memory management.",
-        "C# allows for direct hardware manipulation.",
-        "C# is a lower-level language than C++.",
-        "C# requires manual memory management."
-      ],
-      "correct_option": 0,
-      "hint": "Consider how C# handles memory differently than C++."
-    },
-    {
-      "question": "Why might a game developer choose C# when using Unity?",
-      "options": [
-        "C# is the only language supported by Unity.",
-        "C# offers faster execution than C++.",
-        "C# code can be written directly in Unity's interface.",
-        "C# simplifies development with built-in libraries and tools."
-      ],
-      "correct_option": 3,
-      "hint": "Think about the development environment and available features in Unity."
-    },
-    {
-      "question": "Which feature of C# contributes to faster development time compared to C++?",
-      "options": [
-        "C# is a compiled language.",
-        "C# has a large standard library.",
-        "C# requires less boilerplate code.",
-        "C# supports inline assembly."
-      ],
-      "correct_option": 2,
-      "hint": "Consider how C# syntax and structure can reduce repetitive coding."
-    },
-    {
-      "question": "In the context of game development, what is a significant reason to use C# regarding memory management?",
-      "options": [
-        "C# uses a garbage collector for automatic memory management.",
-        "C# allows manual memory allocation like C++.",
-        "C# requires pointers for memory access.",
-        "C# is designed for low-level system programming."
-      ],
-      "correct_option": 0,
-      "hint": "Think about how C# handles memory allocation automatically."
-    },
-    {
-      "question": "What makes C# easier to learn for new programmers compared to C++?",
-      "options": [
-        "C# has a more complex syntax.",
-        "C# provides better control over hardware.",
-        "C# has simpler and more readable syntax.",
-        "C# has fewer built-in libraries."
-      ],
-      "correct_option": 2,
-      "hint": "Focus on the language syntax and readability for beginners."
-    }
-  ],
   "preferred_if": [
     "User wants faster development time",
     "Less concern for low-level control"

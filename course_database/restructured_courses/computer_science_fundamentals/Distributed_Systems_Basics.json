@@ -16,105 +16,153 @@
     "cloud"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Glossary/REST",
-        "description": "An overview of REST (Representational State Transfer) principles and how they apply to web service architecture."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox",
-        "description": "An introduction to the basic concepts and properties of the CSS Flexible Box Layout, known as Flexbox, for creating responsive web designs."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/",
-        "description": "Comprehensive documentation and learning resources for web technologies and the open web platform."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/distributed-systems-tutorial/",
-        "description": "This resource provides a comprehensive tutorial on distributed systems, covering fundamental concepts, architecture, and real-world applications."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/",
-        "description": "An in-depth introduction to the fundamental concepts and architecture of distributed systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/what-is-a-distributed-system/",
-        "description": "An introductory explanation of distributed systems, detailing their characteristics, types, and advantages in computer networks."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/operating-systems/operating-systems/",
-        "description": "An overview of operating systems, covering their functions, types, and key concepts."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/eventual-consistency-in-distributive-systems-learn-system-design/",
-        "description": "An overview of eventual consistency in distributed systems, explaining its importance and implementation in system design."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=IJWwfMyPu1c",
-      "https://www.youtube.com/watch?v=m8Icp_Cid5o",
-      "https://www.youtube.com/watch?v=CESKgdNiKJw",
-      "https://www.youtube.com/watch?v=FxAom29OEKE",
-      "https://www.youtube.com/watch?v=ajjOEltiZm4"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is a primary advantage of client-server architecture in distributed systems?",
-      "options": [
-        "Improved security by centralizing data",
-        "Faster data processing due to parallelism",
-        "Redundancy of data to prevent loss",
-        "Reduced latency by local data storage"
+    "beginner": {
+      "docs": [
+        "https://kubernetes.io/docs/concepts/overview/",
+        "https://pytorch.org/docs/stable/distributed.html",
+        "https://restfulapi.net/",
+        "https://kafka.apache.org/documentation/"
       ],
-      "correct_option": 0,
-      "hint": "Think about how centralization can benefit data management."
+      "notes": [
+        "https://www.baeldung.com/cs/distributed-systems-guide",
+        "https://www.geeksforgeeks.org/distributed-systems-tutorial/",
+        "https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/",
+        "https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial",
+        "https://github.com/aphyr/distsys-class",
+        "https://martin.kleppmann.com/2020/11/18/distributed-systems-and-elliptic-curves.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=UEAMfLPZZhE&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=cQP8WApzIQQ",
+        "https://www.youtube.com/watch?v=CESKgdNiKJw",
+        "https://www.youtube.com/watch?v=gxfERVP18-g",
+        "https://www.youtube.com/watch?v=BkSdD5VtyRM",
+        "https://www.youtube.com/watch?v=Y6Ev8GIlbxc",
+        "https://www.youtube.com/watch?v=eW4JgrkwWEM",
+        "https://www.youtube.com/watch?v=NN7-fcm3Cjg",
+        "https://www.youtube.com/watch?v=nFxjaVmFj5E"
+      ]
     },
-    {
-      "question": "Which of the following is a common issue when handling concurrency in distributed systems?",
-      "options": [
-        "Increased data throughput",
-        "Data consistency problems",
-        "Enhanced data encryption",
-        "Improved fault tolerance"
+    "intermediate": {
+      "docs": [
+        "https://pytorch.org/docs/stable/distributed.html",
+        "https://kafka.apache.org/documentation/",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/"
       ],
-      "correct_option": 1,
-      "hint": "Consider how simultaneous operations might affect data integrity."
+      "notes": [
+        "https://aws.amazon.com/what-is/distributed-computing/",
+        "https://www.splunk.com/en_us/blog/learn/distributed-systems.html",
+        "https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html",
+        "https://www.atlassian.com/microservices/microservices-architecture/distributed-architecture",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+        "https://www.baeldung.com/cs/distributed-systems-guide",
+        "https://www.geeksforgeeks.org/system-design/comparison-centralized-decentralized-and-distributed-systems/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=CESKgdNiKJw",
+        "https://www.youtube.com/watch?v=EybGGLbLipI",
+        "https://www.youtube.com/watch?v=TQduOOBg1-U",
+        "https://www.youtube.com/watch?v=6Aq1Jj3Ge4Q",
+        "https://www.youtube.com/watch?v=XhADYHKVcp0",
+        "https://www.youtube.com/watch?v=BUOSup1APPw",
+        "https://www.youtube.com/watch?v=LiIwwKZYShE",
+        "https://www.youtube.com/watch?v=-xYwXUGM7nY",
+        "https://www.youtube.com/watch?v=Vv4HpLfqAz4",
+        "https://www.youtube.com/channel/UCbTggJVf0NDTfWX-C_gUGSg/community"
+      ]
     },
-    {
-      "question": "What is the role of fault tolerance in distributed systems?",
-      "options": [
-        "To ensure the system continues functioning in case of failures",
-        "To enhance the speed of data processing",
-        "To manage the allocation of resources efficiently",
-        "To encrypt data during transmission"
+    "advanced": {
+      "docs": [
+        "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html",
+        "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
+        "https://docs.confluent.io/kafka/introduction.html",
+        "https://docs.python-guide.org/",
+        "https://docs.confluent.io/platform/current/connect/index.html"
       ],
-      "correct_option": 0,
-      "hint": "Think about system reliability during unexpected failures."
-    },
-    {
-      "question": "In the context of Remote Procedure Calls (RPC) in distributed systems, what is one major challenge?",
-      "options": [
-        "Ensuring secure communication",
-        "Achieving high network bandwidth",
-        "Synchronizing clocks across systems",
-        "Maintaining data consistency across nodes"
+      "notes": [
+        "https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/",
+        "https://selectfrom.dev/deep-dive-into-dask-distributed-2-bd101f6d7ef2",
+        "https://www.hellointerview.com/learn/system-design/deep-dives/cassandra",
+        "https://developer.confluent.io/courses/architecture/get-started/",
+        "https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html",
+        "https://www.educative.io/courses/grokking-the-system-design-interview",
+        "https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321"
       ],
-      "correct_option": 0,
-      "hint": "Consider the importance of protecting data across different systems during communication."
-    },
-    {
-      "question": "How do message queues contribute to the efficiency of distributed systems?",
-      "options": [
-        "They allow for asynchronous communication between services",
-        "They ensure data is encrypted end-to-end",
-        "They synchronize system clocks",
-        "They optimize data storage across nodes"
-      ],
-      "correct_option": 0,
-      "hint": "Think about how tasks can be managed without requiring immediate responses."
+      "videos": [
+        "https://www.youtube.com/c/ArpitBhayani",
+        "https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw",
+        "https://www.youtube.com/glich-stream",
+        "https://www.youtube.com/watch?v=3yuBOB3VrCk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Cb0tyU9uSLQ&pp=ygUII3Nka3MwMjU%3D",
+        "https://www.youtube.com/watch?v=N9QllqXI1sE",
+        "https://www.youtube.com/watch?v=nFxjaVmFj5E",
+        "https://www.youtube.com/watch?v=2v4yYhGgK_E",
+        "https://www.youtube.com/watch?v=X40EozwK75s",
+        "https://www.youtube.com/watch?v=HG2Yd-3r4-M"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a primary advantage of client-server architecture in distributed systems?",
+        "options": [
+          "Improved security by centralizing data",
+          "Faster data processing due to parallelism",
+          "Redundancy of data to prevent loss",
+          "Reduced latency by local data storage"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how centralization can benefit data management."
+      },
+      {
+        "question": "Which of the following is a common issue when handling concurrency in distributed systems?",
+        "options": [
+          "Increased data throughput",
+          "Data consistency problems",
+          "Enhanced data encryption",
+          "Improved fault tolerance"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how simultaneous operations might affect data integrity."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the role of fault tolerance in distributed systems?",
+        "options": [
+          "To ensure the system continues functioning in case of failures",
+          "To enhance the speed of data processing",
+          "To manage the allocation of resources efficiently",
+          "To encrypt data during transmission"
+        ],
+        "correct_option": 0,
+        "hint": "Think about system reliability during unexpected failures."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In the context of Remote Procedure Calls (RPC) in distributed systems, what is one major challenge?",
+        "options": [
+          "Ensuring secure communication",
+          "Achieving high network bandwidth",
+          "Synchronizing clocks across systems",
+          "Maintaining data consistency across nodes"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the importance of protecting data across different systems during communication."
+      },
+      {
+        "question": "How do message queues contribute to the efficiency of distributed systems?",
+        "options": [
+          "They allow for asynchronous communication between services",
+          "They ensure data is encrypted end-to-end",
+          "They synchronize system clocks",
+          "They optimize data storage across nodes"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how tasks can be managed without requiring immediate responses."
+      }
+    ]
+  }
 }

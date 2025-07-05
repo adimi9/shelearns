@@ -1,0 +1,289 @@
+{
+  "id": "BE6",
+  "name": "Mastering Backend Development with Google Cloud Run",
+  "category": "Backend Development",
+  "primary_tech": "Cloud Run (Google Cloud)",
+  "topics": [
+    "Introduction to Google Cloud Run",
+    "Understanding Containerization and Docker",
+    "Deploying Applications on Cloud Run",
+    "Creating Scalable Microservices",
+    "Integrating with Google Cloud Services",
+    "Security and Authentication in Cloud Run",
+    "Monitoring and Logging",
+    "Cost Optimization and Management"
+  ],
+  "recommended": false,
+  "tags": [
+    "cloud-run",
+    "google-cloud",
+    "containerization",
+    "backend-development",
+    "serverless",
+    "microservices"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://codelabs.developers.google.com/",
+        "https://cloud.google.com/apigee",
+        "https://developers.google.com/analytics/devguides/collection/ga4",
+        "https://cloud.google.com/bigquery/docs/introduction-sql"
+      ],
+      "notes": [
+        "https://codelabs.developers.google.com/",
+        "https://cloud.google.com/discover/what-is-prompt-engineering",
+        "https://masteringbackend.com/posts/backend-development-ultimate-guide",
+        "https://cloud.google.com/docs/tutorials",
+        "https://www.analyticsmania.com/post/introduction-to-google-tag-manager-server-side-tagging/",
+        "https://firebase.google.com/docs",
+        "https://courses.spatialthoughts.com/end-to-end-gee.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=lvZk_sc8u5I&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=h3fqD6IprIA",
+        "https://www.youtube.com/watch?v=7mz73uXD9DA",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+        "https://www.youtube.com/watch?v=NMnKGHgw8aM",
+        "https://www.youtube.com/watch?v=P4A62b1dkJE&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://cloud.google.com/apigee",
+        "https://firebase.google.com/docs",
+        "https://codelabs.developers.google.com/",
+        "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison"
+      ],
+      "notes": [
+        "https://cloud.google.com/apigee",
+        "https://codelabs.developers.google.com/",
+        "https://cloud.google.com/docs/tutorials",
+        "https://k21academy.com/google-cloud/google-cloud-run/",
+        "https://firebase.google.com/docs",
+        "https://spacelift.io/blog/terraform-azure"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=7mz73uXD9DA",
+        "https://www.youtube.com/watch?v=uJimjSDio_Y",
+        "https://www.youtube.com/watch?v=4FRjoc9ycNs",
+        "https://www.youtube.com/watch?v=SPcwo0Gq9T8",
+        "https://www.youtube.com/watch?v=SWP3k-24jT4",
+        "https://www.youtube.com/watch?v=GAT4iO1Lqak",
+        "https://www.youtube.com/watch?v=X48VuDVv0do"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://cloud.google.com/apigee",
+        "https://codelabs.developers.google.com/",
+        "https://cloud.google.com/discover/what-is-prompt-engineering",
+        "https://grafana.com/docs/k6/latest/",
+        "https://developers.google.com/analytics"
+      ],
+      "notes": [
+        "https://cloud.google.com/discover/what-is-prompt-engineering",
+        "https://codelabs.developers.google.com/",
+        "https://cloud.google.com/apigee",
+        "https://masteringbackend.com/posts/backend-development-ultimate-guide",
+        "https://workshops.aws/",
+        "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+        "https://github.com/mikeroyal/Self-Hosting-Guide"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+        "https://www.youtube.com/watch?v=h3fqD6IprIA",
+        "https://www.youtube.com/watch?v=7mz73uXD9DA",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=P4A62b1dkJE&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=lvZk_sc8u5I&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=DQk8HOVlumI",
+        "https://www.youtube.com/watch?v=SWP3k-24jT4"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is Google Cloud Run primarily used for?",
+        "options": [
+          "Running containerized applications in the cloud",
+          "Developing mobile applications",
+          "Managing databases",
+          "Designing user interfaces"
+        ],
+        "correct_option": 0,
+        "hint": "It's a service for deploying and managing containerized applications."
+      },
+      {
+        "question": "Which technology is essential for understanding containerization in Google Cloud Run?",
+        "options": [
+          "Docker",
+          "Java",
+          "HTML",
+          "Python"
+        ],
+        "correct_option": 0,
+        "hint": "It's a platform that automates the deployment of applications inside software containers."
+      },
+      {
+        "question": "What is a key benefit of deploying applications on Google Cloud Run?",
+        "options": [
+          "Increased hardware costs",
+          "Automatic scaling of applications",
+          "Manual server management",
+          "Limited language support"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how applications handle load changes automatically."
+      },
+      {
+        "question": "How does Google Cloud Run handle security and authentication?",
+        "options": [
+          "By using integrated IAM and OAuth",
+          "By requiring manual encryption setup",
+          "By offering no security features",
+          "By using third-party software only"
+        ],
+        "correct_option": 0,
+        "hint": "It integrates with Google Cloud's security services."
+      },
+      {
+        "question": "Which service can be used to monitor and log applications deployed on Google Cloud Run?",
+        "options": [
+          "Google Cloud Logging",
+          "Google Maps",
+          "Google Drive",
+          "Google Docs"
+        ],
+        "correct_option": 0,
+        "hint": "It's a Google Cloud service specifically for logging and monitoring."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary function of Google Cloud Run in backend development?",
+        "options": [
+          "To host static websites",
+          "To run containerized applications",
+          "To manage databases",
+          "To provide real-time analytics"
+        ],
+        "correct_option": 1,
+        "hint": "Think about what kind of applications Cloud Run is designed to handle."
+      },
+      {
+        "question": "Which command is used to build a Docker image from a Dockerfile?",
+        "options": [
+          "docker build",
+          "docker run",
+          "docker create",
+          "docker image"
+        ],
+        "correct_option": 0,
+        "hint": "It's the command that initiates the build process for Docker images."
+      },
+      {
+        "question": "How does Google Cloud Run ensure that your application can scale to handle increased traffic?",
+        "options": [
+          "By allocating more CPU to the existing container",
+          "By creating multiple instances of the container",
+          "By increasing the memory of the existing container",
+          "By redirecting traffic to other Google Cloud services"
+        ],
+        "correct_option": 1,
+        "hint": "Cloud Run uses a specific mechanism that involves multiple instances."
+      },
+      {
+        "question": "What is a key consideration when integrating Cloud Run with other Google Cloud services?",
+        "options": [
+          "Ensuring the services are in the same project",
+          "Using the same programming language",
+          "Deploying in the same region",
+          "Having the same billing account"
+        ],
+        "correct_option": 2,
+        "hint": "Think about geographical factors that could affect service interaction."
+      },
+      {
+        "question": "Which Google Cloud service can be used in conjunction with Cloud Run for monitoring and logging?",
+        "options": [
+          "Google Cloud Storage",
+          "Google Kubernetes Engine",
+          "Google Cloud Trace",
+          "Google Cloud Logging"
+        ],
+        "correct_option": 3,
+        "hint": "This service specifically deals with logs and monitoring data."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is NOT a characteristic of Google Cloud Run?",
+        "options": [
+          "Serverless execution",
+          "Supports any programming language",
+          "Requires manual scaling",
+          "Automatically manages infrastructure"
+        ],
+        "correct_option": 2,
+        "hint": "Cloud Run is designed to handle scaling automatically."
+      },
+      {
+        "question": "In the context of Cloud Run, what does containerization primarily refer to?",
+        "options": [
+          "Bundling application code into a single executable",
+          "Packing an application with all its dependencies",
+          "Writing application code in a container-specific language",
+          "Deploying applications directly on a virtual machine"
+        ],
+        "correct_option": 1,
+        "hint": "Containerization involves packaging the application with all necessary components."
+      },
+      {
+        "question": "Which command is used to deploy an application to Google Cloud Run using the gcloud CLI?",
+        "options": [
+          "gcloud run deploy",
+          "gcloud app deploy",
+          "gcloud compute deploy",
+          "gcloud container deploy"
+        ],
+        "correct_option": 0,
+        "hint": "This command specifically uses 'run' as part of its syntax."
+      },
+      {
+        "question": "How does Google Cloud Run achieve scalability for microservices?",
+        "options": [
+          "By provisioning additional virtual machines",
+          "By creating multiple replicas of the service",
+          "By increasing CPU and memory allocation manually",
+          "By using a dedicated load balancer for each service"
+        ],
+        "correct_option": 1,
+        "hint": "Cloud Run scales by increasing the number of service instances."
+      },
+      {
+        "question": "Which Google Cloud service can be integrated with Cloud Run for centralized logging and monitoring?",
+        "options": [
+          "Google Stackdriver",
+          "Google Kubernetes Engine",
+          "Google Cloud Functions",
+          "Google BigQuery"
+        ],
+        "correct_option": 0,
+        "hint": "This service provides monitoring, logging, and diagnostics for Google Cloud."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User wants to deploy containers as serverless functions"
+  ]
+}

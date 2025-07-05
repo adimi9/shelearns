@@ -1,0 +1,276 @@
+{
+  "id": "MD5",
+  "name": "Mobile App Security Best Practices",
+  "category": "Mobile Development",
+  "primary_tech": "Security",
+  "topics": [
+    "Data Encryption & Storage Security",
+    "API Key Management",
+    "Code Obfuscation",
+    "Common Mobile Vulnerabilities (OWASP Mobile Top 10)"
+  ],
+  "recommended": true,
+  "tags": [
+    "security",
+    "privacy",
+    "vulnerability"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs/auth",
+        "https://developer.android.com/privacy-and-security/security-tips",
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://learn.microsoft.com/en-us/azure/"
+      ],
+      "notes": [
+        "https://owasp.org/www-project-mobile-app-security/",
+        "https://developer.android.com/privacy-and-security/security-tips",
+        "https://www.consumerfinance.gov/about-us/blog/online-mobile-banking-tips-beginners/",
+        "https://freedom.press/digisec/blog/signal-beginners/",
+        "https://success.trendmicro.com/en-US/solution/KA-0007901",
+        "https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/white-paper/instance-security-best-practice.pdf",
+        "https://www.govcert.gov.hk/doc/PG%20for%20Mobile%20Security_EN.pdf"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=3QOlo2pEpvc",
+        "https://www.youtube.com/watch?v=3NIgBoVJ2FA&pp=ygUOI3Bhc3N3b3Jkc2V0dXA%3D",
+        "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=tXC9DQRWHUQ",
+        "https://www.youtube.com/watch?v=ZuQoN2x8T6k",
+        "https://www.youtube.com/watch?v=rJsHc-4w60g",
+        "https://www.youtube.com/watch?v=56Ihv5MF4_U",
+        "https://m.youtube.com/watch?v=3FNYvj2U0HM&pp=ygUJI21lbnRvcjQz"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developers.google.com/maps/api-security-best-practices",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html",
+        "https://developers.google.com/apis-explorer",
+        "https://firebase.google.com/docs/auth",
+        "https://developer.android.com/guide/topics/permissions/overview"
+      ],
+      "notes": [
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://owasp.org/www-project-mobile-app-security/",
+        "https://docs.paloaltonetworks.com/service-providers/10-1/mobile-network-infrastructure-getting-started/sctp/sctp-use-cases",
+        "https://electronjs.org/docs/latest/tutorial/security",
+        "https://docs.paloaltonetworks.com/prisma-access/administration/prisma-access-mobile-users/mobile-users-globalprotect/set-up-globalprotect-mobile-users",
+        "https://stackoverflow.blog/2021/10/06/best-practices-for-authentication-and-authorization-for-rest-apis/",
+        "https://developer.android.com/guide/components/intents-filters"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=oX9aIzejaSc&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=rJsHc-4w60g",
+        "https://www.youtube.com/watch?v=5xpKs0qCqqs",
+        "https://www.youtube.com/watch?v=45k4pQ6nwSc",
+        "https://www.youtube.com/watch?v=HrILchHvMUA",
+        "https://www.youtube.com/watch?v=AUgZffkurK0",
+        "https://www.youtube.com/watch?v=56Ihv5MF4_U",
+        "https://www.youtube.com/watch?v=5ZGT1ASqYss",
+        "https://www.youtube.com/watch?v=VnfX9YJbaU8"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://cloud.google.com/security/best-practices",
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://cloud.google.com/architecture/best-practices-vpc-design",
+        "https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html"
+      ],
+      "notes": [
+        "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks",
+        "https://www.jit.io/resources/security-standards/the-in-depth-guide-to-owasps-top-10-vulnerabilities",
+        "https://www.adjust.com/blog/dive-into-deeplinking/",
+        "https://cloud.google.com/security/best-practices",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security",
+        "https://www.sans.org/cyber-security-courses/",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ZQHoC0cR6Qw",
+        "https://www.youtube.com/watch?v=56Ihv5MF4_U",
+        "https://www.youtube.com/watch?v=ejQ-ojkokVY",
+        "https://www.youtube.com/watch?v=c9TTzhMSFcg",
+        "https://www.youtube.com/watch?v=ZuQoN2x8T6k",
+        "https://www.youtube.com/watch?v=tLqWGysORXA&pp=ygUPI2ZyZWVjY25hY291cnNl",
+        "https://www.youtube.com/watch?v=rJsHc-4w60g",
+        "https://www.youtube.com/watch?v=qwA6MmbeGNo&pp=0gcJCfwAo7VqN5tD"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of data encryption in mobile app security?",
+        "options": [
+          "To increase the app's speed",
+          "To protect sensitive information from unauthorized access",
+          "To make the app more user-friendly",
+          "To reduce the app's size"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how encryption impacts data confidentiality."
+      },
+      {
+        "question": "Which of the following is a common mobile vulnerability according to the OWASP Mobile Top 10?",
+        "options": [
+          "Excessive Data Storage",
+          "Improper Platform Usage",
+          "Fast Network Access",
+          "Unnecessary API Calls"
+        ],
+        "correct_option": 1,
+        "hint": "Consider vulnerabilities related to not following platform guidelines."
+      },
+      {
+        "question": "Why is code obfuscation used in mobile app development?",
+        "options": [
+          "To improve the app's performance",
+          "To reduce the size of the app",
+          "To make the code harder for attackers to understand",
+          "To enhance user experience"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how code obfuscation affects code readability."
+      },
+      {
+        "question": "What is one of the best practices for managing API keys in a mobile app?",
+        "options": [
+          "Hardcoding keys in the app",
+          "Storing keys in a secure vault",
+          "Sharing keys with all users",
+          "Using simple keys for easy access"
+        ],
+        "correct_option": 1,
+        "hint": "Consider where you would securely store sensitive information."
+      },
+      {
+        "question": "What does the 'S' in 'Security' primarily stand for in the context of mobile app security?",
+        "options": [
+          "Speed",
+          "Safety",
+          "Source",
+          "Structure"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how security relates to protection and risk management."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of data encryption in mobile app security?",
+        "options": [
+          "To increase the app's performance",
+          "To prevent unauthorized access to sensitive data",
+          "To make the app more user-friendly",
+          "To reduce the app's battery consumption"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how encryption protects user data from unauthorized access."
+      },
+      {
+        "question": "Which of the following is a best practice for managing API keys in mobile applications?",
+        "options": [
+          "Hardcoding API keys into the app",
+          "Storing API keys in a secure container",
+          "Sharing API keys in public repositories",
+          "Using the same API key for all apps"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how to securely store sensitive information in mobile apps."
+      },
+      {
+        "question": "What is code obfuscation primarily used for in mobile app development?",
+        "options": [
+          "To increase the app load time",
+          "To make the code easier to read",
+          "To protect the source code from reverse engineering",
+          "To improve app functionality"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how developers can protect their code from being easily understood by attackers."
+      },
+      {
+        "question": "Which vulnerability is ranked as the top concern in the OWASP Mobile Top 10?",
+        "options": [
+          "Insecure Data Storage",
+          "Weak Server Side Controls",
+          "Insecure Communication",
+          "Improper Platform Usage"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the most common and critical vulnerability related to data handling in mobile apps."
+      },
+      {
+        "question": "Which practice can help mitigate the risk of reverse engineering in mobile applications?",
+        "options": [
+          "Using descriptive variable names",
+          "Disabling SSL pinning",
+          "Avoiding the use of encryption",
+          "Implementing code obfuscation"
+        ],
+        "correct_option": 3,
+        "hint": "Think about techniques that make it harder for attackers to understand the app's source code."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which encryption algorithm is recommended for encrypting sensitive data stored on mobile devices to ensure high security?",
+        "options": [
+          "AES-256",
+          "MD5",
+          "DES",
+          "SHA-1"
+        ],
+        "correct_option": 0,
+        "hint": "Consider using an algorithm that is known for its strength and is widely recommended for secure data encryption."
+      },
+      {
+        "question": "In the context of mobile app security, what is the purpose of using obfuscation techniques in source code?",
+        "options": [
+          "To improve app performance",
+          "To hide sensitive logic and make reverse engineering difficult",
+          "To reduce app size",
+          "To enhance user interface"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how you might protect the app's intellectual property and prevent unauthorized access to its functionality."
+      },
+      {
+        "question": "What is a best practice for storing API keys in a mobile application?",
+        "options": [
+          "Hard-code them in the app's source code",
+          "Store them in the device's shared preferences",
+          "Use a secure key management service",
+          "Embed them in the app's manifest file"
+        ],
+        "correct_option": 2,
+        "hint": "Consider methods that ensure the keys are not exposed to potential attackers."
+      },
+      {
+        "question": "Which of the following is NOT included in the OWASP Mobile Top 10 vulnerabilities?",
+        "options": [
+          "Insecure Data Storage",
+          "Improper Platform Usage",
+          "Untrusted Inputs",
+          "Insecure Communication"
+        ],
+        "correct_option": 2,
+        "hint": "Familiarize yourself with the OWASP Mobile Top 10 list to identify common mobile security risks."
+      },
+      {
+        "question": "When implementing data encryption for a mobile app, which of the following should be avoided to prevent security risks?",
+        "options": [
+          "Using a strong, industry-standard algorithm",
+          "Generating keys using a secure random number generator",
+          "Storing encryption keys in plaintext",
+          "Regularly updating encryption libraries"
+        ],
+        "correct_option": 2,
+        "hint": "Consider where the most critical security mistakes can occur when handling encryption keys."
+      }
+    ]
+  }
+}

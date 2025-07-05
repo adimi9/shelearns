@@ -23,107 +23,156 @@
     "microservices"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://codelabs.developers.google.com/",
+        "https://cloud.google.com/apigee",
+        "https://developers.google.com/analytics/devguides/collection/ga4",
+        "https://cloud.google.com/bigquery/docs/introduction-sql"
+      ],
+      "notes": [
+        "https://codelabs.developers.google.com/",
+        "https://cloud.google.com/discover/what-is-prompt-engineering",
+        "https://masteringbackend.com/posts/backend-development-ultimate-guide",
+        "https://cloud.google.com/docs/tutorials",
+        "https://www.analyticsmania.com/post/introduction-to-google-tag-manager-server-side-tagging/",
+        "https://firebase.google.com/docs",
+        "https://courses.spatialthoughts.com/end-to-end-gee.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=lvZk_sc8u5I&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=h3fqD6IprIA",
+        "https://www.youtube.com/watch?v=7mz73uXD9DA",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+        "https://www.youtube.com/watch?v=NMnKGHgw8aM",
+        "https://www.youtube.com/watch?v=P4A62b1dkJE&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://cloud.google.com/apigee",
+        "https://firebase.google.com/docs",
+        "https://codelabs.developers.google.com/",
+        "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison"
+      ],
+      "notes": [
+        "https://cloud.google.com/apigee",
+        "https://codelabs.developers.google.com/",
+        "https://cloud.google.com/docs/tutorials",
+        "https://k21academy.com/google-cloud/google-cloud-run/",
+        "https://firebase.google.com/docs",
+        "https://spacelift.io/blog/terraform-azure"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=7mz73uXD9DA",
+        "https://www.youtube.com/watch?v=uJimjSDio_Y",
+        "https://www.youtube.com/watch?v=4FRjoc9ycNs",
+        "https://www.youtube.com/watch?v=SPcwo0Gq9T8",
+        "https://www.youtube.com/watch?v=SWP3k-24jT4",
+        "https://www.youtube.com/watch?v=GAT4iO1Lqak",
+        "https://www.youtube.com/watch?v=X48VuDVv0do"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://cloud.google.com/apigee",
+        "https://codelabs.developers.google.com/",
+        "https://cloud.google.com/discover/what-is-prompt-engineering",
+        "https://grafana.com/docs/k6/latest/",
+        "https://developers.google.com/analytics"
+      ],
+      "notes": [
+        "https://cloud.google.com/discover/what-is-prompt-engineering",
+        "https://codelabs.developers.google.com/",
+        "https://cloud.google.com/apigee",
+        "https://masteringbackend.com/posts/backend-development-ultimate-guide",
+        "https://workshops.aws/",
+        "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+        "https://github.com/mikeroyal/Self-Hosting-Guide"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+        "https://www.youtube.com/watch?v=h3fqD6IprIA",
+        "https://www.youtube.com/watch?v=7mz73uXD9DA",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=P4A62b1dkJE&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=lvZk_sc8u5I&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=DQk8HOVlumI",
+        "https://www.youtube.com/watch?v=SWP3k-24jT4"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/",
-        "description": "The Mozilla Developer Network (MDN) provides comprehensive documentation and resources for web technologies and web development."
+        "question": "What is Google Cloud Run primarily used for?",
+        "options": [
+          "Deploying virtual machines",
+          "Hosting static websites",
+          "Running containerized applications in a serverless environment",
+          "Managing databases"
+        ],
+        "correct_option": 2,
+        "hint": "It involves containers and serverless architecture."
       },
       {
-        "url": "https://reactjs.org/",
-        "description": "The official website for React, a JavaScript library for building user interfaces, offering documentation, tutorials, and resources."
-      },
-      {
-        "url": "https://developer.mozilla.org/pong/click?code=aHR0cHM6Ly9zcnYuYnV5c2VsbGFkcy5jb20vYWRzL2NsaWNrL3gvR1RORDQyN01DNjdENEtKSUZUWUxZS1FVQ1dZSTVLN0lDWTdJTFozSkNBQkk0NTNORjZZSVZLM0tDQTdEQzIzRUM2U0k2NTNMQzY3REMyM0lDQVlJS1ozSkNBQkk0S0pJQ1RBRFRLM0sySldOQUJZ.IbcpS4VuxO5yQtwo7cEfbWz0spq09RBy7L81oAA1xvU%3D&version=2",
-        "description": "This URL appears to be a tracking or redirect link and does not provide direct access to a specific technical resource for description."
+        "question": "Which of the following is a key benefit of using Google Cloud Run?",
+        "options": [
+          "Requires manual server management",
+          "Provides automatic scaling based on request volume",
+          "Only supports Java applications",
+          "Requires extensive server configuration"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how serverless platforms handle traffic."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.freecodecamp.org/news/how-to-setup-laravel-6-on-google-cloud-run-with-continuous-integration-ci-step-by-step/",
-        "description": "A step-by-step guide on setting up Laravel 6 on Google Cloud Run with continuous integration."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/devops/compute-engine-vs-cloud-run/",
-        "description": "This resource compares Google's Compute Engine and Cloud Run services, highlighting their differences and use cases in cloud computing."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/devops/setting-up-flask-applications-in-google-cloud-run/",
-        "description": "A guide on deploying Flask applications using Google Cloud Run for scalable and efficient cloud hosting."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/cloud-computing/google-cloud-run-working-with-python/",
-        "description": "This resource provides a guide on deploying and managing Python applications using Google Cloud Run."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/compute-engine-vs-cloud-run/",
-        "description": "A comparative analysis of Google Cloud's Compute Engine and Cloud Run services, highlighting their features and use cases."
+        "question": "What is a primary difference between Google Cloud Run and a traditional server-based architecture?",
+        "options": [
+          "Cloud Run requires a fixed number of servers",
+          "Cloud Run automatically scales with demand",
+          "Traditional servers are more cost-effective",
+          "Cloud Run only supports Python applications"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how server resources are allocated and managed."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=v4c6yFk-Pto",
-      "https://www.youtube.com/watch?v=RV6wTVN7Z98",
-      "https://www.youtube.com/watch?v=T63x3ExTLrQ",
-      "https://www.youtube.com/watch?v=fw6NMQrYc6w",
-      "https://www.youtube.com/watch?v=2CHXNWiREBE"
+    "advanced": [
+      {
+        "question": "Which type of applications are best suited for deployment on Google Cloud Run?",
+        "options": [
+          "Monolithic applications",
+          "Applications requiring user-managed infrastructure",
+          "Containerized applications",
+          "Applications with predictable, constant load"
+        ],
+        "correct_option": 2,
+        "hint": "Remember the focus on serverless and containers."
+      },
+      {
+        "question": "How does Google Cloud Run handle incoming traffic?",
+        "options": [
+          "By manually adjusting server capacity",
+          "By queuing requests until servers are available",
+          "By automatically scaling the number of instances based on demand",
+          "By limiting the number of concurrent users"
+        ],
+        "correct_option": 2,
+        "hint": "Think about scalability in serverless environments."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is Google Cloud Run primarily used for?",
-      "options": [
-        "Deploying virtual machines",
-        "Hosting static websites",
-        "Running containerized applications in a serverless environment",
-        "Managing databases"
-      ],
-      "correct_option": 2,
-      "hint": "It involves containers and serverless architecture."
-    },
-    {
-      "question": "Which of the following is a key benefit of using Google Cloud Run?",
-      "options": [
-        "Requires manual server management",
-        "Provides automatic scaling based on request volume",
-        "Only supports Java applications",
-        "Requires extensive server configuration"
-      ],
-      "correct_option": 1,
-      "hint": "Think about how serverless platforms handle traffic."
-    },
-    {
-      "question": "What is a primary difference between Google Cloud Run and a traditional server-based architecture?",
-      "options": [
-        "Cloud Run requires a fixed number of servers",
-        "Cloud Run automatically scales with demand",
-        "Traditional servers are more cost-effective",
-        "Cloud Run only supports Python applications"
-      ],
-      "correct_option": 1,
-      "hint": "Consider how server resources are allocated and managed."
-    },
-    {
-      "question": "Which type of applications are best suited for deployment on Google Cloud Run?",
-      "options": [
-        "Monolithic applications",
-        "Applications requiring user-managed infrastructure",
-        "Containerized applications",
-        "Applications with predictable, constant load"
-      ],
-      "correct_option": 2,
-      "hint": "Remember the focus on serverless and containers."
-    },
-    {
-      "question": "How does Google Cloud Run handle incoming traffic?",
-      "options": [
-        "By manually adjusting server capacity",
-        "By queuing requests until servers are available",
-        "By automatically scaling the number of instances based on demand",
-        "By limiting the number of concurrent users"
-      ],
-      "correct_option": 2,
-      "hint": "Think about scalability in serverless environments."
-    }
-  ],
   "preferred_if": [
     "User wants to deploy containers as serverless functions"
   ]

@@ -1,0 +1,272 @@
+{
+  "id": "BE20",
+  "name": "Authentication & Authorization",
+  "category": "Backend Development",
+  "primary_tech": "Security",
+  "topics": [
+    "JWT (JSON Web Tokens)",
+    "OAuth 2.0 & OpenID Connect",
+    "Password Hashing & Session Management"
+  ],
+  "recommended": true,
+  "tags": [
+    "security",
+    "auth",
+    "web-security"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/",
+        "https://learn.microsoft.com/en-us/graph/auth/auth-concepts",
+        "https://firebase.google.com/docs/auth",
+        "https://developers.zoom.us/docs/api/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=Nlg0JrUt0qg",
+        "https://jwt.io/introduction",
+        "https://www.youtube.com/watch?v=favjC6EKFgw",
+        "https://httpd.apache.org/docs/2.4/howto/auth.html",
+        "https://www.youtube.com/watch?v=w2h54xz6Ndw",
+        "https://strapi.io/blog/a-beginners-guide-to-authentication-and-authorization-in-strapi",
+        "https://www.youtube.com/watch?v=LFlE8yV7lJY"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=84j25sAUohA",
+        "https://www.youtube.com/watch?v=aN1LnNq4z54",
+        "https://www.youtube.com/watch?v=favjC6EKFgw",
+        "https://www.youtube.com/watch?v=Nlg0JrUt0qg",
+        "https://www.youtube.com/watch?v=LFlE8yV7lJY",
+        "https://www.youtube.com/watch?v=w2h54xz6Ndw",
+        "https://www.youtube.com/watch?v=NrYH6HiMk7E",
+        "https://www.youtube.com/watch?v=VZH_lGxqFYU"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developers.google.com/identity/protocols/oauth2",
+        "https://cloud.google.com/docs/authentication",
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html"
+      ],
+      "notes": [
+        "https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization",
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html",
+        "https://openid.net/developers/how-connect-works/",
+        "https://developers.google.com/identity/protocols/oauth2",
+        "https://www.descope.com/blog/post/oauth2-react-authentication-authorization",
+        "https://auth0.com/blog/how-saml-authentication-works/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=996OiexHze0",
+        "https://www.youtube.com/watch?v=_IPFJoGx5_c",
+        "https://www.youtube.com/watch?v=PbUcQUQ7K2o",
+        "https://www.youtube.com/watch?v=jHrjnZM26i4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=fvxQ8bW0vO8",
+        "https://www.youtube.com/watch?v=6DWJIyipxzw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=vzBFJ3WEvOQ",
+        "https://www.youtube.com/watch?v=aCjOmyd_62U"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://expert-help.nice.com/Integrations_and_Extending_Content/API",
+        "https://docs.nestjs.com/security/authentication",
+        "https://www.marcobehler.com/guides/spring-security",
+        "https://www.getknit.dev/blog/how-to-get-employee-data-from-bamboohr-api",
+        "https://supabase.com/docs/guides/auth/social-login/auth-google"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=1MTyCvS05V4",
+        "https://blog.gitguardian.com/kubernetes-tutorial-part-3-authn-authz/",
+        "https://www.youtube.com/watch?v=Ow_Uzedfohk&pp=0gcJCdgAo7VqN5tD",
+        "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks",
+        "https://www.youtube.com/watch?v=_XM9ziOzWk4"
+      ],
+      "videos": [
+        "https://www.youtube.com/@FrankLiuSoftware/community",
+        "https://www.youtube.com/c/mohamadlawand",
+        "https://www.youtube.com/watch?v=1MTyCvS05V4",
+        "https://www.youtube.com/watch?v=YJceYsDn-HI",
+        "https://www.youtube.com/watch?v=Ow_Uzedfohk&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=zS79FDhAhBs",
+        "https://www.youtube.com/watch?v=f5iXXi0prbA",
+        "https://www.youtube.com/watch?v=9TU6zJiXC6g",
+        "https://www.youtube.com/watch?v=i-howKMrtCM"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does JWT stand for in the context of web development?",
+        "options": [
+          "Java Web Tokens",
+          "JavaScript Web Tokens",
+          "JSON Web Tokens",
+          "JavaScript Object Tokens"
+        ],
+        "correct_option": 2,
+        "hint": "It's a standard for creating access tokens that can be used by web applications."
+      },
+      {
+        "question": "Which protocol is often used alongside OAuth 2.0 to provide identity information?",
+        "options": [
+          "LDAP",
+          "OpenID Connect",
+          "SAML",
+          "Kerberos"
+        ],
+        "correct_option": 1,
+        "hint": "This protocol extends OAuth 2.0 to add authentication capabilities."
+      },
+      {
+        "question": "What is the primary purpose of password hashing?",
+        "options": [
+          "To encrypt passwords for secure transmission",
+          "To store passwords in a format that is difficult to reverse",
+          "To compress passwords for faster processing",
+          "To organize passwords alphabetically for easy retrieval"
+        ],
+        "correct_option": 1,
+        "hint": "Hashing makes it difficult to retrieve the original password from the stored data."
+      },
+      {
+        "question": "In OAuth 2.0, which role is responsible for issuing access tokens?",
+        "options": [
+          "Resource Owner",
+          "Client Application",
+          "Authorization Server",
+          "Resource Server"
+        ],
+        "correct_option": 2,
+        "hint": "This role handles the process of authenticating the user and issuing the token."
+      },
+      {
+        "question": "What is a common method for managing user sessions in web applications?",
+        "options": [
+          "JWT",
+          "Cookies",
+          "SSH",
+          "FTP"
+        ],
+        "correct_option": 1,
+        "hint": "This method involves storing session information on the client-side."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which part of a JSON Web Token (JWT) contains the claims?",
+        "options": [
+          "Header",
+          "Payload",
+          "Signature",
+          "Issuer"
+        ],
+        "correct_option": 1,
+        "hint": "The claims are stored in the part of the JWT that holds the main information."
+      },
+      {
+        "question": "In OAuth 2.0, which component is responsible for granting access tokens?",
+        "options": [
+          "Resource Owner",
+          "Client",
+          "Resource Server",
+          "Authorization Server"
+        ],
+        "correct_option": 3,
+        "hint": "This component handles the authentication process and provides tokens."
+      },
+      {
+        "question": "What is the primary purpose of password hashing?",
+        "options": [
+          "To encrypt passwords for secure storage",
+          "To convert plaintext passwords into a fixed-size string",
+          "To ensure passwords are transmitted securely over the network",
+          "To add additional security layers through multi-factor authentication"
+        ],
+        "correct_option": 1,
+        "hint": "Hashing is different from encryption and focuses on transforming data into hashes."
+      },
+      {
+        "question": "OpenID Connect is an authentication layer built on top of which protocol?",
+        "options": [
+          "SAML",
+          "OAuth 2.0",
+          "Kerberos",
+          "LDAP"
+        ],
+        "correct_option": 1,
+        "hint": "This protocol is widely used for authorization, and OpenID Connect adds authentication capabilities."
+      },
+      {
+        "question": "What is the main advantage of using session management over stateless authentication with JWTs?",
+        "options": [
+          "Reduced server load",
+          "Enhanced security through statefulness",
+          "Simplified token revocation",
+          "Improved scalability"
+        ],
+        "correct_option": 2,
+        "hint": "Statefulness provides more control over active sessions and can improve security."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary advantage of using JSON Web Tokens (JWT) over traditional session cookies for authentication?",
+        "options": [
+          "Statelessness in server architecture",
+          "Enhanced encryption methods",
+          "Compatibility with HTTP/2",
+          "Reduced token size"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how JWTs manage user state compared to traditional methods."
+      },
+      {
+        "question": "In OAuth 2.0, what is the role of the Authorization Server?",
+        "options": [
+          "To store user credentials securely",
+          "To issue access tokens after successful authentication",
+          "To handle user registration and password resets",
+          "To manage user roles and permissions"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the server's function in the token lifecycle."
+      },
+      {
+        "question": "Which hashing algorithm is recommended for password hashing due to its resistance to brute force attacks?",
+        "options": [
+          "MD5",
+          "SHA-1",
+          "bcrypt",
+          "AES"
+        ],
+        "correct_option": 2,
+        "hint": "Consider which algorithm is designed specifically for password security."
+      },
+      {
+        "question": "In OpenID Connect, which component is responsible for providing identity information about the user?",
+        "options": [
+          "Resource Server",
+          "Identity Provider",
+          "Client Application",
+          "Authorization Server"
+        ],
+        "correct_option": 1,
+        "hint": "This component is similar to an OAuth 2.0 Authorization Server but with additional identity capabilities."
+      },
+      {
+        "question": "What is a common security concern when managing sessions in web applications?",
+        "options": [
+          "Session hijacking",
+          "Excessive session duration",
+          "Session redundancy",
+          "Session fragmentation"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the risk associated with an attacker taking over a user's session."
+      }
+    ]
+  }
+}

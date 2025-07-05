@@ -1,0 +1,272 @@
+{
+  "id": "BE11",
+  "name": "Node.js & Express.js for APIs",
+  "category": "Backend Development",
+  "primary_tech": "Node.js",
+  "topics": [
+    "Asynchronous JavaScript",
+    "Express.js Routing & Middleware",
+    "REST API Development"
+  ],
+  "recommended": true,
+  "tags": [
+    "JavaScript",
+    "API",
+    "framework"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://expressjs.com/",
+        "https://nodejs.org/docs/latest/api/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://expressjs.com/",
+        "https://www.youtube.com/watch?v=1I5Jn1MWzlI",
+        "https://expressjs.com/en/starter/hello-world.html",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8&pp=ygUII2Z1bGx0dXQ%3D",
+        "https://blog.postman.com/how-to-create-a-rest-api-with-node-js-and-express/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8&pp=ygUII2Z1bGx0dXQ%3D",
+        "https://www.youtube.com/watch?v=1I5Jn1MWzlI",
+        "https://www.youtube.com/watch?v=Zh7psmf1KAA",
+        "https://www.youtube.com/watch?v=y18ubz7gOsQ&pp=ygURI2hhcmFtX2FpbmV4cHJlc3M%3D",
+        "https://www.youtube.com/watch?v=HPo0QhlX5Ao&pp=ygUTI3Jlc3RfYXBpX3dpdGhfbm9kZQ%3D%3D",
+        "https://www.youtube.com/watch?v=32M1al-Y6Ag&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=J2P7TN_-AeQ&pp=ygUMI25wbWlubm9kZWpz"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://expressjs.com/en/api.html",
+        "https://nodejs.org/api/stream.html",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://nodejs.org/api/fs.html",
+        "https://bump.sh/blog/express-api-openapi"
+      ],
+      "notes": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://stackoverflow.com/questions/58833714/how-does-an-api-compare-to-directly-querying-your-database",
+        "https://nodejs.org/api/stream.html",
+        "https://auth0.com/blog/node-js-and-express-tutorial-building-and-securing-restful-apis/",
+        "https://community.auth0.com/t/secure-rest-apis-in-node-js-and-extract-user-info-from-universal-login/28263",
+        "https://expressjs.com/en/guide/using-middleware.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=K-9IPd3oAoo",
+        "https://www.youtube.com/watch?v=_I6gP_nIFIA",
+        "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=r5L1XRZaCR0",
+        "https://www.youtube.com/watch?v=Zh7psmf1KAA",
+        "https://m.youtube.com/watch?v=CnailTcJV_U&t=960s",
+        "https://www.youtube.com/watch?v=KqQoiFBp36A",
+        "https://www.youtube.com/watch?v=qwfE7fSVaZM&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://expressjs.com/",
+        "https://nodejs.org/docs/latest/api/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://expressjs.com/",
+        "https://www.youtube.com/watch?v=TYB-Lz8YGFk",
+        "https://escape.tech/blog/how-to-secure-express-js-api/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=TYB-Lz8YGFk",
+        "https://www.youtube.com/watch?v=fgTGADljAeg",
+        "https://www.youtube.com/watch?v=H9M02of22z4",
+        "https://www.youtube.com/watch?v=TbT7eO1fxuI",
+        "https://www.youtube.com/watch?v=qG-PLm3APSs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=oNlMrpnUSFE",
+        "https://www.youtube.com/c/webdevsimplified"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of Node.js in web development?",
+        "options": [
+          "To style web pages",
+          "To handle server-side operations",
+          "To design databases",
+          "To create client-side scripts"
+        ],
+        "correct_option": 1,
+        "hint": "Node.js is commonly used for the backend."
+      },
+      {
+        "question": "Which method in Express.js is used to define a route that responds to HTTP GET requests?",
+        "options": [
+          "app.post()",
+          "app.get()",
+          "app.put()",
+          "app.delete()"
+        ],
+        "correct_option": 1,
+        "hint": "GET is the standard method to retrieve data from a server."
+      },
+      {
+        "question": "What is middleware in Express.js?",
+        "options": [
+          "A type of route",
+          "A function that executes during the lifecycle of a request to the server",
+          "A database connection",
+          "A CSS framework"
+        ],
+        "correct_option": 1,
+        "hint": "Middleware functions can modify the request and response objects."
+      },
+      {
+        "question": "In a REST API, which HTTP method is typically used to update an existing resource?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method is known for creating or updating resources."
+      },
+      {
+        "question": "Which of the following is an example of asynchronous JavaScript in Node.js?",
+        "options": [
+          "Synchronous file read",
+          "Callback functions",
+          "Static HTML pages",
+          "CSS animations"
+        ],
+        "correct_option": 1,
+        "hint": "Asynchronous operations do not wait for previous operations to complete."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is a correct way to handle asynchronous operations in Node.js?",
+        "options": [
+          "Using setTimeout for all async tasks",
+          "Blocking the main thread with synchronous code",
+          "Using Promises or async/await",
+          "Relying on global variables"
+        ],
+        "correct_option": 2,
+        "hint": "Consider modern JavaScript features for managing async flows."
+      },
+      {
+        "question": "In Express.js, what is the purpose of middleware?",
+        "options": [
+          "To serve static files",
+          "To handle HTTP requests and responses",
+          "To manage database connections",
+          "To provide security and logging"
+        ],
+        "correct_option": 1,
+        "hint": "Middleware functions have access to the request and response objects and the next function in the application’s request-response cycle."
+      },
+      {
+        "question": "How can you define a new route in Express.js?",
+        "options": [
+          "Using app.route() with HTTP method chaining",
+          "By directly modifying the app object",
+          "Through the creation of a new Node.js module",
+          "Using HTML forms"
+        ],
+        "correct_option": 0,
+        "hint": "Express.js provides a specific method to define routes combined with HTTP methods."
+      },
+      {
+        "question": "What HTTP status code is typically returned by a successful POST request in a REST API?",
+        "options": [
+          "200 OK",
+          "404 Not Found",
+          "201 Created",
+          "500 Internal Server Error"
+        ],
+        "correct_option": 2,
+        "hint": "This status code indicates that a new resource has been created successfully."
+      },
+      {
+        "question": "Which method is used to parse JSON payloads in an Express.js application?",
+        "options": [
+          "app.use(express.json())",
+          "app.use(express.urlencoded())",
+          "app.use(express.static())",
+          "app.use(express.raw())"
+        ],
+        "correct_option": 0,
+        "hint": "This middleware is specifically for handling JSON payloads."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a common method to handle asynchronous operations in Node.js, especially to avoid callback hell?",
+        "options": [
+          "Promises",
+          "Synchronous Functions",
+          "AJAX",
+          "Blocking I/O"
+        ],
+        "correct_option": 0,
+        "hint": "Think about modern JavaScript features introduced in ES6."
+      },
+      {
+        "question": "In Express.js, which method is used to define a route that responds to all HTTP methods?",
+        "options": [
+          "app.use()",
+          "app.all()",
+          "app.route()",
+          "app.get()"
+        ],
+        "correct_option": 1,
+        "hint": "This method is commonly used to handle requests regardless of the HTTP method."
+      },
+      {
+        "question": "What middleware function is used in Express.js to parse incoming request bodies in a middleware before your handlers, available under the req.body property?",
+        "options": [
+          "body-parser",
+          "cookie-parser",
+          "express-validator",
+          "express-session"
+        ],
+        "correct_option": 0,
+        "hint": "This middleware is often used for parsing JSON and urlencoded data."
+      },
+      {
+        "question": "Which HTTP status code indicates that a request has succeeded and a new resource has been created as a result?",
+        "options": [
+          "200",
+          "201",
+          "204",
+          "500"
+        ],
+        "correct_option": 1,
+        "hint": "This status code is typically used in response to a POST request."
+      },
+      {
+        "question": "In the context of REST APIs, what is the primary purpose of using Express.js middleware?",
+        "options": [
+          "To handle database connections",
+          "To route HTTP requests",
+          "To modify request and response objects",
+          "To serve static files"
+        ],
+        "correct_option": 2,
+        "hint": "Middleware functions can have access to the request and response objects and can modify them if necessary."
+      }
+    ]
+  }
+}

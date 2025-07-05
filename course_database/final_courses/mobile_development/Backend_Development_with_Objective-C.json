@@ -1,0 +1,390 @@
+{
+  "id": "MD14",
+  "name": "Backend Development with Objective-C",
+  "category": "Mobile Development",
+  "primary_tech": "Objective-C",
+  "topics": [
+    "Introduction to Objective-C language fundamentals",
+    "Building RESTful APIs with Objective-C",
+    "Handling data persistence with Core Data",
+    "Networking and data transmission in Objective-C",
+    "Error handling and debugging techniques",
+    "Implementing security best practices",
+    "Integration with third-party libraries",
+    "Testing and deployment of Objective-C backend services"
+  ],
+  "recommended": false,
+  "tags": [
+    "objective-c",
+    "backend",
+    "api-development",
+    "server-side",
+    "networking",
+    "database",
+    "apple"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/ios/setup",
+          "description": "Instructions for setting up Firebase in an iOS application."
+        },
+        {
+          "url": "https://platform.openai.com/docs/api-reference/introduction",
+          "description": "An introduction to the OpenAI API, detailing its capabilities and usage guidelines."
+        },
+        {
+          "url": "https://firebase.google.com/docs/firestore/quickstart",
+          "description": "A quickstart guide for integrating Firestore into your application."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/",
+          "description": "Official Microsoft documentation for .NET development and resources."
+        },
+        {
+          "url": "https://docs.pytorch.org/executorch/stable/using-executorch-ios.html",
+          "description": "Guide on using PyTorch's Executorch for iOS applications."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/c/programmingwithmosh",
+          "description": "A YouTube channel offering tutorials and courses on various programming languages and technologies."
+        },
+        {
+          "url": "https://forum.freecodecamp.org/t/roadmap-to-learn-mobile-develpment/494700",
+          "description": "A detailed roadmap for learning mobile development skills."
+        },
+        {
+          "url": "https://mcyoung.xyz/2023/08/01/llvm-ir/",
+          "description": "An insightful exploration of LLVM Intermediate Representation (IR) and its applications."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Objective-C",
+          "description": "An overview of the Objective-C programming language, its history, features, and usage."
+        },
+        {
+          "url": "https://docs.pytorch.org/executorch/stable/using-executorch-ios.html",
+          "description": "Guidelines for integrating and using PyTorch's Executorch on iOS devices."
+        },
+        {
+          "url": "https://grpc.io/docs/languages/objective-c/basics/",
+          "description": "An introductory guide to using gRPC with Objective-C."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
+        "https://www.youtube.com/watch?v=kJOqIaGwQ7Y",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+        "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=_bYFu9mBnr4&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/ios/setup",
+          "description": "Instructions for setting up Firebase in an iOS application."
+        },
+        {
+          "url": "https://kotlinlang.org/docs/native-objc-interop.html",
+          "description": "Guidance on Kotlin/Native interoperability with Objective-C."
+        },
+        {
+          "url": "https://firebase.google.com/",
+          "description": "Firebase provides a comprehensive suite of tools for app development and growth."
+        },
+        {
+          "url": "https://docs.pytorch.org/executorch/stable/getting-started.html",
+          "description": "An introductory guide to getting started with PyTorch's Executorch library."
+        },
+        {
+          "url": "https://firebase.google.com/docs/remote-config/get-started",
+          "description": "A guide to getting started with Firebase Remote Config for dynamic app updates."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://forums.swift.org/t/our-journey-with-swift-thus-far-some-notes-and-reflections/70510",
+          "description": "Reflections and insights on the development journey and experiences with Swift."
+        },
+        {
+          "url": "https://firebase.google.com/docs/ios/setup",
+          "description": "Step-by-step instructions for setting up Firebase in an iOS app."
+        },
+        {
+          "url": "https://stackoverflow.com/questions/63607158/xcode-building-for-ios-simulator-but-linking-in-an-object-file-built-for-ios-f",
+          "description": "A solution to the Xcode error when linking an object file built for iOS device while building for iOS Simulator."
+        },
+        {
+          "url": "https://firebase.google.com/docs/remote-config/get-started",
+          "description": "A guide to getting started with Firebase Remote Config for dynamic app updates."
+        },
+        {
+          "url": "https://mcyoung.xyz/2023/08/01/llvm-ir/",
+          "description": "An in-depth exploration of LLVM Intermediate Representation and its applications."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Objective-C",
+          "description": "An overview of Objective-C programming language, its history, and features."
+        },
+        {
+          "url": "https://buildfire.com/programming-languages-for-mobile-app-development/",
+          "description": "An overview of popular programming languages used for mobile app development."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
+        "https://www.youtube.com/watch?v=yqkISICHH-U",
+        "https://www.youtube.com/watch?v=AhAxLiGC7Pc",
+        "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
+        "https://www.youtube.com/watch?v=ADjyDF0RNY8",
+        "https://m.youtube.com/watch?v=CcBHZ0t2Qwc&pp=ygULI2phdmFzY3Jpb3Q%3D",
+        "https://www.youtube.com/watch?v=0h4sxghBNQs",
+        "https://www.youtube.com/watch?v=GAT4iO1Lqak"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "An extensive resource for learning and mastering JavaScript programming language features and best practices."
+        },
+        {
+          "url": "https://pytorch.org/docs/stable/torch.compiler.html",
+          "description": "Documentation on using the PyTorch compiler for optimizing model performance."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+          "description": "Official Microsoft documentation for learning and using C# programming language."
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=34680345",
+          "description": "A discussion thread on Hacker News about a technical topic or news item."
+        },
+        {
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+          "description": "An introduction to AWS Lambda, detailing its features and use cases."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://news.ycombinator.com/item?id=34680345",
+          "description": "A Hacker News discussion thread about advancements in AI-driven code generation tools."
+        },
+        {
+          "url": "https://community.shopify.com/c/shopify-education-and/how-to-become-a-shopify-developer-a-step-by-step-guide/m-p/2831473",
+          "description": "A step-by-step guide on becoming a Shopify developer."
+        },
+        {
+          "url": "https://www.simoahava.com/analytics/awesome-google-tag-manager-resources/",
+          "description": "A curated list of essential resources for mastering Google Tag Manager."
+        },
+        {
+          "url": "https://mcyoung.xyz/2023/08/01/llvm-ir/",
+          "description": "An introduction to LLVM Intermediate Representation (IR) and its applications."
+        },
+        {
+          "url": "https://brightdigit.com/tutorials",
+          "description": "A collection of tutorials on various software development topics and technologies."
+        },
+        {
+          "url": "https://edw.is/learning-vulkan/",
+          "description": "An introductory tutorial series for learning Vulkan graphics API."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=_bYFu9mBnr4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/watch?v=HXquxWtE5vA"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of using Objective-C in backend development?",
+        "options": [
+          "To create dynamic web pages",
+          "To manage server-side applications",
+          "To design frontend user interfaces",
+          "To enhance graphic design elements"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what backend development typically involves."
+      },
+      {
+        "question": "Which framework is commonly used for data persistence in Objective-C?",
+        "options": [
+          "Core Data",
+          "React",
+          "AngularJS",
+          "Vue.js"
+        ],
+        "correct_option": 0,
+        "hint": "It's a native framework that allows data storage and management."
+      },
+      {
+        "question": "What is a common method for handling errors in Objective-C?",
+        "options": [
+          "Console logging",
+          "Try-catch blocks",
+          "Error throwing",
+          "Print statements"
+        ],
+        "correct_option": 1,
+        "hint": "Think about a common error handling technique in many programming languages."
+      },
+      {
+        "question": "Which protocol is often used for networking in Objective-C?",
+        "options": [
+          "HTTP",
+          "FTP",
+          "SMTP",
+          "POP3"
+        ],
+        "correct_option": 0,
+        "hint": "It's the foundational protocol for the web."
+      },
+      {
+        "question": "What is a benefit of integrating third-party libraries in Objective-C backend development?",
+        "options": [
+          "Reduces development time",
+          "Increases code errors",
+          "Decreases application performance",
+          "Limits functionality"
+        ],
+        "correct_option": 0,
+        "hint": "Consider what third-party libraries provide to developers."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a fundamental aspect of Objective-C that distinguishes it from C?",
+        "options": [
+          "Object-oriented programming",
+          "Functional programming",
+          "Procedural programming",
+          "Assembly programming"
+        ],
+        "correct_option": 0,
+        "hint": "It allows defining classes and objects."
+      },
+      {
+        "question": "Which Objective-C framework is primarily used for data persistence?",
+        "options": [
+          "Core Data",
+          "Foundation",
+          "UIKit",
+          "Core Animation"
+        ],
+        "correct_option": 0,
+        "hint": "It provides an object graph management and persistence framework."
+      },
+      {
+        "question": "What is the main advantage of using RESTful APIs in Objective-C backend development?",
+        "options": [
+          "Scalability and statelessness",
+          "Tight coupling with client",
+          "Requires less code",
+          "Automatic error handling"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the architectural style's suitability for distributed systems."
+      },
+      {
+        "question": "Which method is commonly used in Objective-C for handling errors in a network request?",
+        "options": [
+          "NSError",
+          "NSAlert",
+          "NSException",
+          "NSLog"
+        ],
+        "correct_option": 0,
+        "hint": "It's a fundamental part of error handling in Cocoa and Cocoa Touch."
+      },
+      {
+        "question": "What is a common tool used for testing Objective-C backend services?",
+        "options": [
+          "XCTest",
+          "JUnit",
+          "RSpec",
+          "Mocha"
+        ],
+        "correct_option": 0,
+        "hint": "It's part of the Xcode suite for testing Objective-C code."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a primary feature of Objective-C that supports dynamic typing and dynamic binding?",
+        "options": [
+          "Method Swizzling",
+          "Categories",
+          "Protocols",
+          "Blocks"
+        ],
+        "correct_option": 0,
+        "hint": "This feature allows the alteration of method implementations at runtime."
+      },
+      {
+        "question": "What is the primary framework used for data persistence in Objective-C applications, especially when building RESTful APIs?",
+        "options": [
+          "Realm",
+          "SQLite",
+          "Core Data",
+          "Firebase"
+        ],
+        "correct_option": 2,
+        "hint": "This framework provides object graph management and persistence capabilities."
+      },
+      {
+        "question": "In Objective-C, which class is typically used to perform network requests for data transmission?",
+        "options": [
+          "NSURLSession",
+          "NSURLRequest",
+          "NSURLConnection",
+          "NSURL"
+        ],
+        "correct_option": 0,
+        "hint": "This class is part of the Foundation framework and provides API for downloading content."
+      },
+      {
+        "question": "When integrating third-party libraries into an Objective-C project, which tool is commonly used for dependency management?",
+        "options": [
+          "Carthage",
+          "CocoaPods",
+          "Swift Package Manager",
+          "npm"
+        ],
+        "correct_option": 1,
+        "hint": "This tool uses a Podfile to specify dependencies."
+      },
+      {
+        "question": "Which Objective-C feature is crucial for implementing error handling, allowing blocks of code to be tried and exceptions to be caught?",
+        "options": [
+          "Delegation",
+          "KVO (Key-Value Observing)",
+          "NSException",
+          "Grand Central Dispatch (GCD)"
+        ],
+        "correct_option": 2,
+        "hint": "This feature is part of the language's exception handling mechanism."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User needs to maintain older iOS apps"
+  ]
+}

@@ -16,105 +16,148 @@
     "beginners"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction",
-        "description": "An introduction to the Document Object Model (DOM), explaining its role in web development and how it represents a webpage's structure."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        "description": "Comprehensive documentation for learning and using JavaScript, including guides, references, and tutorials."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction",
-        "description": "An introductory guide to JavaScript, covering its fundamentals and essential concepts for beginners."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/programming/index.php",
-        "description": "A comprehensive guide to learning various programming languages and concepts through tutorials and examples."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-science-fundamentals/programming-tutorial/",
-        "description": "A comprehensive guide offering tutorials on fundamental programming concepts and techniques."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-science-fundamentals/introduction-to-programming-languages/",
-        "description": "An introductory guide to the basic concepts and types of programming languages in computer science."
-      },
-      {
-        "url": "https://www.w3schools.com/python/python_intro.asp",
-        "description": "An introductory guide to Python programming, covering basic concepts and syntax for beginners."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/what-is-programming-tutorial-for-beginners/",
-        "description": "A beginner-friendly introduction to programming concepts and fundamentals."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=bJzb-RuUcMU",
-      "https://www.youtube.com/watch?v=CIRGjwYgdT4",
-      "https://www.youtube.com/watch?v=AWliApDc61w",
-      "https://www.youtube.com/watch?v=l26oaHV7D40",
-      "https://www.youtube.com/watch?v=WR1ydijTx5E"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the correct syntax to print \"Hello, World!\" in Python?",
-      "options": [
-        "print(\"Hello, World!\")",
-        "echo \"Hello, World!\"",
-        "printf(\"Hello, World!\")",
-        "System.out.println(\"Hello, World!\")"
+    "beginner": {
+      "docs": [
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://kotlinlang.org/docs/home.html"
       ],
-      "correct_option": 0,
-      "hint": "Use the print function in Python."
+      "notes": [
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.wolfram.com/language/fast-introduction-for-programmers/en/",
+        "https://www.youtube.com/watch?v=2dZiMBwX_5Q",
+        "https://learnyouahaskell.com/introduction",
+        "https://www.youtube.com/watch?v=Z1Yd7upQsXY&pp=0gcJCfwAo7VqN5tD",
+        "https://learnyousomeerlang.com/introduction",
+        "https://www.youtube.com/watch?v=_V8eKsto3Ug"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=GoXwIVyNvX0&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=zOjov-2OZ0E",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=xAcTmDO6NTI",
+        "https://www.youtube.com/watch?v=Z1Yd7upQsXY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=2dZiMBwX_5Q",
+        "https://www.youtube.com/watch?v=4JzDttgdILQ",
+        "https://www.youtube.com/watch?v=52r9qUToOD8&pp=0gcJCfwAo7VqN5tD"
+      ]
     },
-    {
-      "question": "Which of the following is NOT a data type in Python?",
-      "options": [
-        "String",
-        "List",
-        "Dictionary",
-        "IntegerArray"
+    "intermediate": {
+      "docs": [
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0",
+        "https://vuejs.org/guide/introduction",
+        "https://developers.google.com/maps/documentation/places/web-service/overview",
+        "https://swagger.io/specification/"
       ],
-      "correct_option": 3,
-      "hint": "Think about the standard data types used in Python."
+      "notes": [
+        "https://www.youtube.com/watch?v=3289vhOUdKA",
+        "https://stackoverflow.blog/2021/01/12/want-to-teach-your-kids-to-code-here-are-three-apps-that-can-help/",
+        "https://www.youtube.com/watch?v=gpUCkzn0VLg",
+        "https://go.dev/doc/tutorial/getting-started",
+        "https://www.youtube.com/watch?v=iWPjBwXy_Io",
+        "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_V8eKsto3Ug",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=-lgtb-YSUWE&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=eR-XRSKsuR4",
+        "https://www.youtube.com/watch?v=gpUCkzn0VLg",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=EWvNQjAaOHw",
+        "https://www.youtube.com/watch?v=3289vhOUdKA"
+      ]
     },
-    {
-      "question": "What is the output of the following Python code?\n\nx = 5\ny = 10\nif x < y:\n    print(\"x is less than y\")\nelse:\n    print(\"x is greater than or equal to y\")",
-      "options": [
-        "x is less than y",
-        "x is greater than or equal to y",
-        "Error",
-        "x is equal to y"
+    "advanced": {
+      "docs": [
+        "https://www.typescriptlang.org/docs/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/"
       ],
-      "correct_option": 0,
-      "hint": "Consider the values of x and y and the conditional statement used."
-    },
-    {
-      "question": "What is the purpose of functions in programming?",
-      "options": [
-        "To store data",
-        "To perform a specific task and possibly return a value",
-        "To loop through a block of code",
-        "To define a data structure"
+      "notes": [
+        "https://www.youtube.com/watch?v=x2VBq0bBgIc",
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://www.youtube.com/watch?v=cMy8FUYuVok&pp=0gcJCfwAo7VqN5tD",
+        "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
+        "https://www.youtube.com/watch?v=bhtb8SZ-kk4",
+        "https://www.learnpython.org/"
       ],
-      "correct_option": 1,
-      "hint": "Functions are used to encapsulate code to perform a particular task."
-    },
-    {
-      "question": "How do you start a while loop in Python?",
-      "options": [
-        "while x > 0:",
-        "loop(x > 0)",
-        "do while x > 0:",
-        "repeat until x > 0"
-      ],
-      "correct_option": 0,
-      "hint": "The syntax involves the while keyword followed by a condition."
+      "videos": [
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=x2VBq0bBgIc",
+        "https://www.youtube.com/watch?v=cMy8FUYuVok&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=bhtb8SZ-kk4",
+        "https://www.youtube.com/watch?v=BtCvde7aDfU",
+        "https://www.youtube.com/watch?v=T9aRN5JkmL8",
+        "https://www.youtube.com/watch?v=tpCFfeUEGs8",
+        "https://www.youtube.com/watch?v=iutmV3W81ps&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the correct syntax to print \"Hello, World!\" in Python?",
+        "options": [
+          "print(\"Hello, World!\")",
+          "echo \"Hello, World!\"",
+          "printf(\"Hello, World!\")",
+          "System.out.println(\"Hello, World!\")"
+        ],
+        "correct_option": 0,
+        "hint": "Use the print function in Python."
+      },
+      {
+        "question": "Which of the following is NOT a data type in Python?",
+        "options": [
+          "String",
+          "List",
+          "Dictionary",
+          "IntegerArray"
+        ],
+        "correct_option": 3,
+        "hint": "Think about the standard data types used in Python."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the output of the following Python code?\n\nx = 5\ny = 10\nif x < y:\n    print(\"x is less than y\")\nelse:\n    print(\"x is greater than or equal to y\")",
+        "options": [
+          "x is less than y",
+          "x is greater than or equal to y",
+          "Error",
+          "x is equal to y"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the values of x and y and the conditional statement used."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the purpose of functions in programming?",
+        "options": [
+          "To store data",
+          "To perform a specific task and possibly return a value",
+          "To loop through a block of code",
+          "To define a data structure"
+        ],
+        "correct_option": 1,
+        "hint": "Functions are used to encapsulate code to perform a particular task."
+      },
+      {
+        "question": "How do you start a while loop in Python?",
+        "options": [
+          "while x > 0:",
+          "loop(x > 0)",
+          "do while x > 0:",
+          "repeat until x > 0"
+        ],
+        "correct_option": 0,
+        "hint": "The syntax involves the while keyword followed by a condition."
+      }
+    ]
+  }
 }

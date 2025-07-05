@@ -1,0 +1,270 @@
+{
+  "id": "FE1",
+  "name": "Testing in Frontend Development",
+  "category": "Frontend Development",
+  "primary_tech": "Jest",
+  "topics": [
+    "Unit Testing",
+    "Component Testing",
+    "End-to-End Testing"
+  ],
+  "recommended": true,
+  "tags": [
+    "testing",
+    "QA",
+    "frontend"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "https://www.apollographql.com/docs/react",
+        "https://docs.pact.io/",
+        "https://developer.chrome.com/docs/lighthouse/overview",
+        "https://storybook.js.org/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://saucelabs.com/resources/blog/front-end-testing",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "https://www.youtube.com/watch?v=Tef1e9FiSR0"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://www.youtube.com/watch?v=1BT4efG-ItA",
+        "https://www.youtube.com/watch?v=Tef1e9FiSR0",
+        "https://www.youtube.com/watch?v=Y3u2groOG-A",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=aydFCQiUW44"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://storybook.js.org/",
+        "https://jestjs.io/",
+        "https://docs.pact.io/",
+        "https://mochajs.org/"
+      ],
+      "notes": [
+        "https://storybook.js.org/",
+        "https://jestjs.io/",
+        "https://www.cypress.io/",
+        "https://www.joshwcomeau.com/blog/the-end-of-frontend-development/",
+        "https://mochajs.org/",
+        "https://www.browserstack.com/guide/front-end-testing"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=8Xwq35cPwYg",
+        "https://www.youtube.com/watch?v=FgnxcUQ5vho",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=JBSUgDxICg8&pp=ygUNI2plc3R0dXRvcmlhbA%3D%3D",
+        "https://www.youtube.com/watch?v=lKKsjpH09dU",
+        "https://www.youtube.com/watch?v=1BT4efG-ItA",
+        "https://www.youtube.com/watch?v=pAluAXAvL7E"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://grafana.com/docs/k6/latest/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
+      ],
+      "notes": [
+        "https://marcobotto.com/blog/the-hitchhikers-guide-to-the-modern-front-end-development-workflow/",
+        "https://www.outsystems.com/certifications/academy-certifications/?page=0",
+        "https://www.geeksforgeeks.org/60-days-of-frontend-development/",
+        "https://fullstackopen.com/en/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "https://pg-p.ctme.caltech.edu/blog/coding/what-is-unit-testing-in-python"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=Y3u2groOG-A",
+        "https://www.youtube.com/watch?v=Tef1e9FiSR0",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=deybMk7hiuM",
+        "https://www.youtube.com/watch?v=Nw4y5XQyugc",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of unit testing in frontend development?",
+        "options": [
+          "To test the entire application workflow",
+          "To test individual components or functions in isolation",
+          "To ensure the application works on different browsers",
+          "To validate the application's user interface"
+        ],
+        "correct_option": 1,
+        "hint": "Think about testing the smallest parts of the application."
+      },
+      {
+        "question": "Which testing framework is commonly used for unit testing in JavaScript applications?",
+        "options": [
+          "Mocha",
+          "Karma",
+          "Jest",
+          "Protractor"
+        ],
+        "correct_option": 2,
+        "hint": "It is a popular testing framework maintained by Facebook."
+      },
+      {
+        "question": "What type of testing focuses on testing the user interface components independently?",
+        "options": [
+          "Unit Testing",
+          "Component Testing",
+          "Integration Testing",
+          "Regression Testing"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the testing that isolates UI elements."
+      },
+      {
+        "question": "Which type of testing is best suited for simulating a real user scenario from start to finish?",
+        "options": [
+          "Unit Testing",
+          "Component Testing",
+          "End-to-End Testing",
+          "Static Testing"
+        ],
+        "correct_option": 2,
+        "hint": "This type of testing covers the entire application workflow."
+      },
+      {
+        "question": "What is a key advantage of using Jest for testing in frontend development?",
+        "options": [
+          "It requires no setup configuration",
+          "It offers real-time browser testing",
+          "It allows testing without writing any code",
+          "It has built-in support for test coverage"
+        ],
+        "correct_option": 3,
+        "hint": "Consider a feature that helps in understanding how much of the code is tested."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary goal of unit testing in frontend development?",
+        "options": [
+          "To test the entire application in a production-like environment.",
+          "To test individual units or components in isolation.",
+          "To test the integration of multiple units and components.",
+          "To test the user interface responsiveness."
+        ],
+        "correct_option": 1,
+        "hint": "Focus on testing small, isolated pieces of code."
+      },
+      {
+        "question": "Which tool is commonly used for writing unit tests in JavaScript applications?",
+        "options": [
+          "Selenium",
+          "Mocha",
+          "Jest",
+          "Cypress"
+        ],
+        "correct_option": 2,
+        "hint": "It's often paired with React for testing components."
+      },
+      {
+        "question": "In component testing, what is typically being tested?",
+        "options": [
+          "The interaction between the database and the server.",
+          "Individual parts of the UI and their functionality.",
+          "The performance of backend services.",
+          "The security of the application."
+        ],
+        "correct_option": 1,
+        "hint": "Think about testing parts of the user interface."
+      },
+      {
+        "question": "What is a key advantage of using Jest for testing in frontend development?",
+        "options": [
+          "It offers live browser testing capabilities.",
+          "It allows for testing components in isolation with a simple setup.",
+          "It is primarily used for testing backend services.",
+          "It does not require any configuration."
+        ],
+        "correct_option": 1,
+        "hint": "It simplifies testing React components and includes features like mocking."
+      },
+      {
+        "question": "End-to-end testing is best described as testing...",
+        "options": [
+          "Individual units or functions.",
+          "The interaction between user interface and backend services.",
+          "The entire application workflow from start to finish.",
+          "The visual appearance of UI components."
+        ],
+        "correct_option": 2,
+        "hint": "Consider the complete user journey in an application."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In the context of unit testing in frontend development, which of the following is NOT typically considered a characteristic of a good unit test?",
+        "options": [
+          "It should test a single piece of functionality.",
+          "It should be independent of external systems.",
+          "It should have the capability to test multiple components at once.",
+          "It should run quickly."
+        ],
+        "correct_option": 2,
+        "hint": "Consider the scope and isolation level of a unit test."
+      },
+      {
+        "question": "When using Jest for component testing, which feature allows you to mock entire modules to isolate the component under test?",
+        "options": [
+          "jest.fn()",
+          "jest.mock()",
+          "jest.spyOn()",
+          "jest.resetModules()"
+        ],
+        "correct_option": 1,
+        "hint": "This feature is specifically designed to mock modules."
+      },
+      {
+        "question": "In end-to-end testing, which tool integrates well with Jest to simulate user interactions and test the entire application flow?",
+        "options": [
+          "Enzyme",
+          "Cypress",
+          "Mocha",
+          "Sinon"
+        ],
+        "correct_option": 1,
+        "hint": "This tool is known for its comprehensive testing capabilities, including user interaction simulations."
+      },
+      {
+        "question": "Which of the following best describes the difference between snapshot testing and unit testing with Jest?",
+        "options": [
+          "Snapshot testing is for testing components visually, while unit testing checks functionality.",
+          "Snapshot testing is faster than unit testing.",
+          "Unit testing is for testing visual changes, while snapshot testing checks logic.",
+          "Unit testing is more reliable than snapshot testing."
+        ],
+        "correct_option": 0,
+        "hint": "Consider what each testing type primarily verifies or captures."
+      },
+      {
+        "question": "In Jest, what is the purpose of using 'beforeEach' in a test suite?",
+        "options": [
+          "To run a specific piece of code before all tests in the test suite.",
+          "To run a specific piece of code before each test in the test suite.",
+          "To initialize global variables for the test suite.",
+          "To clean up after tests have finished executing."
+        ],
+        "correct_option": 1,
+        "hint": "This function is run multiple times within a test suite, not just once."
+      }
+    ]
+  }
+}

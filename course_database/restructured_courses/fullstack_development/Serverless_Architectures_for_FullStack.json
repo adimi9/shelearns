@@ -16,105 +16,150 @@
     "event-driven"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://reactjs.org/docs/create-a-new-react-app.html",
-        "description": "A guide on how to set up a new React application using various tools and frameworks."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model",
-        "description": "An overview of JavaScript's execution model, including the call stack, event loop, and concurrency model."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API",
-        "description": "An overview of the Service Worker API, detailing its use for enabling offline web experiences and background processes in web applications."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.freecodecamp.org/news/nextjs-clerk-neon-fullstack-development/",
-        "description": "This article guides readers through building a full-stack application using Next.js, Clerk for authentication, and Neon for PostgreSQL database management."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/system-design-tutorial/",
-        "description": "Comprehensive guide to understanding and implementing system design principles and practices."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/websites-apps/what-is-a-web-server-working-and-architecture/",
-        "description": "An overview of web servers, their working principles, and architectural components."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/mern/what-to-learn-after-mern-stack/",
-        "description": "A guide on advanced technologies and skills to pursue after mastering the MERN stack."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/",
-        "description": "A guide on building a three-tier serverless application using AWS CDK v2."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=qQk94CjRvIs",
-      "https://www.youtube.com/watch?v=lL_j7ilk7rc",
-      "https://www.youtube.com/watch?v=sDlCSIDwpDs",
-      "https://www.youtube.com/watch?v=Sxxw3qtb3_g",
-      "https://www.youtube.com/watch?v=W_VV2Fx32_Y"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary function of AWS Lambda in a serverless architecture?",
-      "options": [
-        "To provide an environment to run containerized applications",
-        "To execute code in response to events without provisioning servers",
-        "To manage database scaling automatically",
-        "To create virtual networks for application deployment"
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://www.serverless.com/aws-lambda",
+        "https://repost.aws/questions/QUpWKYBJtdQluHBmHLnqv2KA/aws-beginner-seeking-guidance-for-full-backend-creation",
+        "https://learn.microsoft.com/en-us/azure/",
+        "https://nextjs.org/docs"
       ],
-      "correct_option": 1,
-      "hint": "Think about how AWS Lambda handles the execution of functions."
+      "notes": [
+        "https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/",
+        "https://www.youtube.com/channel/UC7mca3O0DmdSG2Cr80sOD7g",
+        "https://www.datadoghq.com/knowledge-center/serverless-architecture/",
+        "https://www.serverless.com/aws-lambda",
+        "https://repost.aws/questions/QUpWKYBJtdQluHBmHLnqv2KA/aws-beginner-seeking-guidance-for-full-backend-creation",
+        "https://hasura.io/learn/graphql/nextjs-fullstack-serverless/introduction/",
+        "https://www.fullstackfirebase.com/introduction/what-is-serverless"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_15AuFj1rtI",
+        "https://www.youtube.com/watch?v=H7Qe96fqg1M",
+        "https://www.youtube.com/watch?v=qyqc1udFB-0",
+        "https://www.youtube.com/watch?v=FHn8c4Rk_yo",
+        "https://www.youtube.com/watch?v=JDbkoICzQro",
+        "https://www.youtube.com/watch?v=c-jcxtJ0hO0",
+        "https://www.youtube.com/channel/UC7mca3O0DmdSG2Cr80sOD7g",
+        "https://www.youtube.com/c/CloudGurus/videos"
+      ]
     },
-    {
-      "question": "Which of the following is a key benefit of using serverless frameworks like SAM or Serverless Framework?",
-      "options": [
-        "They require a dedicated server for deployment",
-        "They automate the deployment and management of serverless applications",
-        "They provide built-in machine learning capabilities",
-        "They restrict the use of third-party APIs"
+    "intermediate": {
+      "docs": [
+        "https://www.serverless.com/aws-lambda",
+        "https://cloud.google.com/architecture",
+        "https://developers.cloudflare.com/workers/",
+        "https://nextjs.org/docs"
       ],
-      "correct_option": 1,
-      "hint": "Consider the processes they simplify in serverless application management."
+      "notes": [
+        "https://www.linkedin.com/posts/vt1_python-pythondeveloper-pythonconsultant-activity-7236796502956720129-gVuC",
+        "https://open.spotify.com/episode/5fIsKvM7ZxUZYgm5mQSH2d",
+        "https://www.linkedin.com/pulse/top-online-resources-job-updates-edition-apr-4-2025-itversity-h9szc",
+        "https://www.researchgate.net/publication/392665763_NEXT_GENERATION_ARCHITECTURAL_STRATEGIES_FOR_SCALABLE_HEALTHCARE_APPLICATIONS_A_MICROSERVICES_CLOUD_COMPUTING_APPROACH",
+        "https://hevodata.com/learn/data-glossary/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=c-jcxtJ0hO0",
+        "https://www.youtube.com/watch?v=JDbkoICzQro",
+        "https://www.youtube.com/watch?v=TehOjiDJEDk",
+        "https://www.youtube.com/watch?v=lew3--SaD2A",
+        "https://www.youtube.com/watch?v=tcOgi8DRxjs",
+        "https://www.youtube.com/watch?v=UcW_s4BmuD0",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=ng53ydesSFg",
+        "https://www.youtube.com/watch?v=G7Gp2pzSMYY"
+      ]
     },
-    {
-      "question": "In the context of event-driven architectures, what role do events play?",
-      "options": [
-        "They create a continuous loop of data processing",
-        "They act as triggers for FaaS platforms to execute functions",
-        "They store application logs for auditing purposes",
-        "They replace the need for databases in application architecture"
+    "advanced": {
+      "docs": [
+        "https://www.serverless.com/aws-lambda",
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://cloud.google.com/ai/generative-ai",
+        "https://www.oracle.com/fi/cloud/full-stack-disaster-recovery/"
       ],
-      "correct_option": 1,
-      "hint": "Think about how events interact with serverless functions."
-    },
-    {
-      "question": "How does DynamoDB integrate with serverless applications?",
-      "options": [
-        "By providing a serverless function execution environment",
-        "By offering a scalable, NoSQL database solution that can trigger functions",
-        "By serving as a centralized logging system",
-        "By automatically generating front-end code"
+      "notes": [
+        "https://www.serverless.com/aws-lambda",
+        "https://www.linkedin.com/pulse/deep-dive-aws-deeplens-janakiram-msv",
+        "https://www.codementor.io/unit-testing-experts",
+        "https://www.linkedin.com/posts/klueska_made-the-list-twice-i-expect-the-following-activity-7275904834971561985-BrLW",
+        "https://www.cloudflare.com/it-it/press-releases/2023/cloudflare-collaborates-with-microsoft-to-enable-ai-models-to-run-anywhere/",
+        "https://www.linkedin.com/posts/antonkollmats_softwareengineering-activity-7266065540941541376-G5dO",
+        "https://dzone.com/authors/gaurg"
       ],
-      "correct_option": 1,
-      "hint": "Consider DynamoDB's role in data storage and triggering serverless functions."
-    },
-    {
-      "question": "Which of the following is a characteristic of Google Cloud Functions?",
-      "options": [
-        "They require manual scaling of server resources",
-        "They are limited to Java and C++ languages",
-        "They automatically scale based on the number of incoming requests",
-        "They must be deployed on virtual machine instances"
-      ],
-      "correct_option": 2,
-      "hint": "Focus on the scalability feature of Google Cloud Functions."
+      "videos": [
+        "https://www.youtube.com/@maheshkariya",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/channel/UCqCGL2oiIC4sLi1A1n6xHiA",
+        "https://www.youtube.com/watch?v=CG5cYgPV4DQ",
+        "https://www.youtube.com/watch?v=X48mMxEMYps",
+        "https://www.youtube.com/watch?v=Hvk2-qhFEoo",
+        "https://www.youtube.com/watch?v=c_IBs1crl4k",
+        "https://www.youtube.com/watch?v=_htSwKMdk2Y",
+        "https://www.youtube.com/watch?v=LKbwRYtiiMQ"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary function of AWS Lambda in a serverless architecture?",
+        "options": [
+          "To provide an environment to run containerized applications",
+          "To execute code in response to events without provisioning servers",
+          "To manage database scaling automatically",
+          "To create virtual networks for application deployment"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how AWS Lambda handles the execution of functions."
+      },
+      {
+        "question": "Which of the following is a key benefit of using serverless frameworks like SAM or Serverless Framework?",
+        "options": [
+          "They require a dedicated server for deployment",
+          "They automate the deployment and management of serverless applications",
+          "They provide built-in machine learning capabilities",
+          "They restrict the use of third-party APIs"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the processes they simplify in serverless application management."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In the context of event-driven architectures, what role do events play?",
+        "options": [
+          "They create a continuous loop of data processing",
+          "They act as triggers for FaaS platforms to execute functions",
+          "They store application logs for auditing purposes",
+          "They replace the need for databases in application architecture"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how events interact with serverless functions."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "How does DynamoDB integrate with serverless applications?",
+        "options": [
+          "By providing a serverless function execution environment",
+          "By offering a scalable, NoSQL database solution that can trigger functions",
+          "By serving as a centralized logging system",
+          "By automatically generating front-end code"
+        ],
+        "correct_option": 1,
+        "hint": "Consider DynamoDB's role in data storage and triggering serverless functions."
+      },
+      {
+        "question": "Which of the following is a characteristic of Google Cloud Functions?",
+        "options": [
+          "They require manual scaling of server resources",
+          "They are limited to Java and C++ languages",
+          "They automatically scale based on the number of incoming requests",
+          "They must be deployed on virtual machine instances"
+        ],
+        "correct_option": 2,
+        "hint": "Focus on the scalability feature of Google Cloud Functions."
+      }
+    ]
+  }
 }

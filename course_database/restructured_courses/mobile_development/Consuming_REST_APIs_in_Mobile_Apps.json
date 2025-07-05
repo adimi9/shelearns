@@ -16,105 +16,148 @@
     "data"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events",
-        "description": "A guide on how to implement and use server-sent events (SSE) for real-time updates from a server to a web application."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API",
-        "description": "The MDN Web API documentation provides comprehensive information and guidelines for using web APIs to enhance web development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage",
-        "description": "The resource explains how to use the `postMessage` method for safe cross-origin communication between Window objects in web development."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://forums.oracle.com/ords/apexds/post/resources-to-learn-ords-create-and-consume-rest-api-s-throu-0785",
-        "description": "A guide to learning Oracle REST Data Services (ORDS) for creating and consuming REST APIs."
-      },
-      {
-        "url": "https://developers.sap.com/tutorials/cp-mobile-dev-kit-rest-api..html",
-        "description": "This tutorial guides users through integrating REST APIs with SAP's Mobile Development Kit to enhance mobile application capabilities."
-      },
-      {
-        "url": "https://success.outsystems.com/documentation/11/integration_with_external_systems/rest/consume_rest_apis/",
-        "description": "Guide on how to integrate and consume external REST APIs using OutSystems."
-      },
-      {
-        "url": "https://www.reddit.com/r/androiddev/comments/j7b3wr/consume_rest_api_from_kotlin/",
-        "description": "A guide on how to consume REST APIs using Kotlin for Android development."
-      },
-      {
-        "url": "https://learn.microsoft.com/en-us/dotnet/maui/data-cloud/rest?view=net-maui-9.0",
-        "description": "This resource provides guidance on using REST APIs with .NET MAUI for data access and cloud integration."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=YGqCZjdgJJk",
-      "https://m.youtube.com/watch?v=DuNLR_NJv8U&pp=ygUJI3VpbWF1aW1h",
-      "https://www.youtube.com/watch?v=GZvSYJDk-us",
-      "https://m.youtube.com/watch?v=_uZYOgzYheU&pp=ygUHI2RvdGFwaQ%3D%3D",
-      "https://www.youtube.com/watch?v=c708Nf0cHrs"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which HTTP method is typically used to retrieve data from a REST API?",
-      "options": [
-        "GET",
-        "POST",
-        "PUT",
-        "DELETE"
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/rest/api/power-bi/",
+        "https://success.outsystems.com/documentation/11/integration_with_external_systems/rest/consume_rest_apis/",
+        "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts",
+        "https://developer.atlassian.com/cloud/jira/software/rest/",
+        "https://dotnet.microsoft.com/en-us/apps/aspnet/apis"
       ],
-      "correct_option": 0,
-      "hint": "This method is often used to request data from a specified resource."
+      "notes": [
+        "https://www.youtube.com/watch?v=c09XiwOZKsI",
+        "https://m.youtube.com/watch?v=DuNLR_NJv8U&pp=ygUJI3VpbWF1aW1h",
+        "https://www.youtube.com/watch?v=GZvSYJDk-us",
+        "https://dotnet.microsoft.com/en-us/apps/aspnet/apis",
+        "https://www.youtube.com/watch?v=WXsD0ZgxjRw&pp=0gcJCfwAo7VqN5tD"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=c09XiwOZKsI",
+        "https://www.youtube.com/watch?v=GZvSYJDk-us",
+        "https://www.youtube.com/watch?v=YGqCZjdgJJk",
+        "https://m.youtube.com/watch?v=_uZYOgzYheU&pp=ygUHI2RvdGFwaQ%3D%3D",
+        "https://www.youtube.com/watch?v=WXsD0ZgxjRw&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=DuNLR_NJv8U&pp=ygUJI3VpbWF1aW1h",
+        "https://www.youtube.com/watch?v=z3YMz-Gocmw",
+        "https://www.youtube.com/watch?v=EWd3_I4X32g",
+        "https://www.youtube.com/watch?v=NoLF7Dlu5mc",
+        "https://www.youtube.com/c/DevStack"
+      ]
     },
-    {
-      "question": "In the context of consuming REST APIs, what is JSON primarily used for?",
-      "options": [
-        "Styling the UI",
-        "Data Interchange",
-        "Database Management",
-        "Authentication"
+    "intermediate": {
+      "docs": [
+        "https://docs.datadoghq.com/api/latest/",
+        "https://developers.google.com/apis-explorer",
+        "https://success.outsystems.com/documentation/11/integration_with_external_systems/rest/consume_rest_apis/"
       ],
-      "correct_option": 1,
-      "hint": "This format is lightweight and often used to exchange data between a client and server."
+      "notes": [
+        "https://blog.postman.com/rest-api-examples/",
+        "https://learn.microsoft.com/en-us/graph/api/resources/teams-api-overview?view=graph-rest-1.0",
+        "https://success.outsystems.com/documentation/11/integration_with_external_systems/rest/consume_rest_apis/",
+        "https://wpengine.com/resources/using-wordpress-rest-api-plugin/",
+        "https://docs.datadoghq.com/api/latest/",
+        "https://konghq.com/blog/learning-center/graphql"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=F2xAhKpS-Mc",
+        "https://www.youtube.com/watch?v=V82Kcwwxcys",
+        "https://www.youtube.com/watch?v=MfpDlu93Xcg",
+        "https://www.youtube.com/watch?v=XIbZDz_p6vE",
+        "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=fqR-WbmX8PM",
+        "https://www.youtube.com/watch?v=MYe0camYjmY",
+        "https://m.youtube.com/watch?v=8cFNtL538lc",
+        "https://www.youtube.com/watch?v=9KUL0EUBXis"
+      ]
     },
-    {
-      "question": "What is the primary purpose of using asynchronous operations in mobile apps when consuming REST APIs?",
-      "options": [
-        "To improve battery efficiency",
-        "To ensure UI responsiveness",
-        "To increase data security",
-        "To enhance graphics quality"
+    "advanced": {
+      "docs": [
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://www.freecodecamp.org/news/build-consume-and-document-a-rest-api/",
+        "https://docs.github.com/rest",
+        "https://openweathermap.org/api",
+        "https://directus.io/blog/rest-api"
       ],
-      "correct_option": 1,
-      "hint": "This helps in preventing the app from freezing while waiting for a response."
-    },
-    {
-      "question": "Which HTTP method should be used to update an existing resource in a REST API?",
-      "options": [
-        "GET",
-        "POST",
-        "PUT",
-        "DELETE"
+      "notes": [
+        "https://www.freecodecamp.org/news/build-consume-and-document-a-rest-api/",
+        "https://zapier.com/blog/how-to-use-api/",
+        "https://www.integrate.io/blog/salesforce-rest-api-integration/",
+        "https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data",
+        "https://www.moesif.com/blog/technical/api-development/API-For-Dummies/"
       ],
-      "correct_option": 2,
-      "hint": "This method is idempotent, meaning multiple identical requests should have the same effect as a single request."
-    },
-    {
-      "question": "When consuming REST APIs, what is a common practice to handle failures such as network errors?",
-      "options": [
-        "Ignore the errors",
-        "Retry the request",
-        "Switch to a different API",
-        "Change the HTTP method"
-      ],
-      "correct_option": 1,
-      "hint": "This involves attempting the request again after a certain delay or under certain conditions."
+      "videos": [
+        "https://www.youtube.com/@FrankLiuSoftware/community",
+        "https://www.youtube.com/watch?v=WXsD0ZgxjRw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=GZvSYJDk-us",
+        "https://www.youtube.com/channel/UCOyJTFcxGt4ED_RX4YA0ZIg",
+        "https://m.youtube.com/watch?v=8cFNtL538lc",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/user/ProfileTree",
+        "https://www.youtube.com/watch?v=7YcW25PHnAA"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which HTTP method is typically used to retrieve data from a REST API?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correct_option": 0,
+        "hint": "This method is often used to request data from a specified resource."
+      },
+      {
+        "question": "In the context of consuming REST APIs, what is JSON primarily used for?",
+        "options": [
+          "Styling the UI",
+          "Data Interchange",
+          "Database Management",
+          "Authentication"
+        ],
+        "correct_option": 1,
+        "hint": "This format is lightweight and often used to exchange data between a client and server."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of using asynchronous operations in mobile apps when consuming REST APIs?",
+        "options": [
+          "To improve battery efficiency",
+          "To ensure UI responsiveness",
+          "To increase data security",
+          "To enhance graphics quality"
+        ],
+        "correct_option": 1,
+        "hint": "This helps in preventing the app from freezing while waiting for a response."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which HTTP method should be used to update an existing resource in a REST API?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method is idempotent, meaning multiple identical requests should have the same effect as a single request."
+      },
+      {
+        "question": "When consuming REST APIs, what is a common practice to handle failures such as network errors?",
+        "options": [
+          "Ignore the errors",
+          "Retry the request",
+          "Switch to a different API",
+          "Change the HTTP method"
+        ],
+        "correct_option": 1,
+        "hint": "This involves attempting the request again after a certain delay or under certain conditions."
+      }
+    ]
+  }
 }

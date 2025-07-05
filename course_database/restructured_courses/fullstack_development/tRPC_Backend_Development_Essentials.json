@@ -21,107 +21,154 @@
     "api-design"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://trpc.io/",
+        "https://www.thisdot.co/blog/exploring-trpc-with-server-first-ui-frameworks",
+        "https://trpc.io/docs/server/routers",
+        "https://graphql.org/",
+        "https://news.ycombinator.com/item?id=40521518"
+      ],
+      "notes": [
+        "https://trpc.io/",
+        "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+        "https://www.robinwieruch.de/react-trpc/",
+        "https://github.com/Sairyss/backend-best-practices",
+        "https://www.wisp.blog/blog/setting-up-trpc-with-nextjs-14",
+        "https://www.linkedin.com/posts/singhsanket143_backend-development-in-node-activity-7285143672323522560-DIl0",
+        "https://stackoverflow.com/questions/50432556/cannot-use-jsx-unless-the-jsx-flag-is-provided"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=S3k82XXCrBo",
+        "https://www.youtube.com/watch?v=UfUbBWIFdJs",
+        "https://www.youtube.com/watch?v=sxzPXo_eqY0",
+        "https://www.youtube.com/watch?v=SSo-z16wEnc",
+        "https://www.youtube.com/watch?v=NPMc7gMKWsU",
+        "https://www.youtube.com/traversymedia",
+        "https://www.youtube.com/watch?v=QXxy8Uv1LnQ",
+        "https://www.youtube.com/watch?v=1n7slbDB1bQ",
+        "https://www.youtube.com/watch?v=moAQiDvzCwY"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://trpc.io/docs/server/routers",
+        "https://www.thisdot.co/blog/exploring-trpc-with-server-first-ui-frameworks",
+        "https://news.ycombinator.com/item?id=40521518"
+      ],
+      "notes": [
+        "https://www.wallarm.com/what/trpc-protocol",
+        "https://news.ycombinator.com/item?id=40521518",
+        "https://github.com/Sairyss/backend-best-practices",
+        "https://news.ycombinator.com/item?id=41979203",
+        "https://michaeluloth.com/nextjs/",
+        "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+        "https://stackoverflow.com/questions/70541068/instead-change-the-require-of-index-js-to-a-dynamic-import-which-is-available"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=SG82Aqcaaa0",
+        "https://www.youtube.com/watch?v=sxzPXo_eqY0",
+        "https://www.youtube.com/watch?v=cgaBhA2qt7E",
+        "https://www.youtube.com/watch?v=XBkfmulYy8c",
+        "https://www.youtube.com/watch?v=pOQguIkDp5w",
+        "https://www.youtube.com/watch?v=-kNjEoWk2TQ",
+        "https://www.youtube.com/watch?v=NwneaxZFPDo",
+        "https://www.youtube.com/watch?v=5kBI1LadXVA",
+        "https://www.youtube.com/watch?v=dsIuRKBlnqM",
+        "https://www.youtube.com/watch?v=RvyCAdDmFaw"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.thisdot.co/blog/exploring-trpc-with-server-first-ui-frameworks",
+        "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+        "https://clerk.com/docs/how-clerk-works/overview",
+        "https://www.wallarm.com/what/trpc-protocol"
+      ],
+      "notes": [
+        "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+        "https://codedamn.com/learning-path/backend",
+        "https://www.wallarm.com/what/trpc-protocol",
+        "https://refine.dev/blog/zustand-react-state/",
+        "https://news.ycombinator.com/item?id=41979203"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=bH87ZUYp1GU",
+        "https://www.youtube.com/watch?v=sxzPXo_eqY0",
+        "https://www.youtube.com/watch?v=MBlZ8Wzkbi4",
+        "https://www.youtube.com/watch?v=-5RTyEim384",
+        "https://www.youtube.com/watch?v=XBkfmulYy8c",
+        "https://www.youtube.com/watch?v=wm5gMKuwSYk",
+        "https://www.youtube.com/watch?v=dsIuRKBlnqM",
+        "https://www.youtube.com/watch?v=T49rxi1tQpE",
+        "https://www.youtube.com/watch?v=e4yC0A0QU2E",
+        "https://www.youtube.com/watch?v=BiDg-kx04J8"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon",
-        "description": "The page provides documentation on the `sendBeacon` method, which is used to send asynchronous HTTP requests to a web server."
+        "question": "What is the primary purpose of using tRPC in a TypeScript application?",
+        "options": [
+          "To provide runtime type-checking",
+          "To create end-to-end type-safe APIs",
+          "To improve database performance",
+          "To enhance UI rendering capabilities"
+        ],
+        "correct_option": 1,
+        "hint": "It focuses on ensuring type-safety across different layers of the application."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift",
-        "description": "The MDN Web Docs page provides detailed information on the JavaScript Array `unshift()` method, which adds one or more elements to the beginning of an array and returns the new length."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/412",
-        "description": "This page provides detailed information on the HTTP 412 Precondition Failed status code, explaining its usage and implications in web communications."
+        "question": "Which framework is tRPC notably popular with?",
+        "options": [
+          "Angular",
+          "React Native",
+          "Next.js",
+          "Vue.js"
+        ],
+        "correct_option": 2,
+        "hint": "This framework is known for server-side rendering and is built on top of React."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.freecodecamp.org/news/what-is-trpc/",
-        "description": "An introduction to tRPC, explaining its purpose and benefits for building typesafe APIs in full-stack TypeScript applications."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/build-an-invoice-saas-app-with-next-js-and-neon-postgres/",
-        "description": "Learn how to build a SaaS invoice application using Next.js and Neon Postgres through a step-by-step guide."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/a-10x-faster-typescript/",
-        "description": "This resource provides insights and techniques for optimizing TypeScript code to achieve a tenfold increase in performance."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/typescript/a-10x-faster-typescript/",
-        "description": "A guide on optimizing TypeScript code to achieve a tenfold increase in performance."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/how-to-install-eslint-in-vs-code/727745",
-        "description": "A step-by-step guide on installing and configuring ESLint in Visual Studio Code."
+        "question": "How does tRPC achieve type-safety across client and server?",
+        "options": [
+          "By using JSON schema validation",
+          "By sharing TypeScript types between client and server",
+          "By enforcing runtime validation rules",
+          "By converting TypeScript to JavaScript"
+        ],
+        "correct_option": 1,
+        "hint": "It leverages TypeScript's type system to ensure consistency."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=UfUbBWIFdJs",
-      "https://www.youtube.com/watch?v=GuzZN-4kc3w",
-      "https://www.youtube.com/watch?v=YkOSUVzOAA4",
-      "https://www.youtube.com/watch?v=VedrpVSstSY",
-      "https://m.youtube.com/watch?v=XY8zyvxFvqM&pp=ygUNI2pzY291cnNlMjAyMw%3D%3D"
+    "advanced": [
+      {
+        "question": "Which of the following is NOT a feature of tRPC?",
+        "options": [
+          "Automatic endpoint generation",
+          "End-to-end type safety",
+          "GraphQL schema generation",
+          "Integration with Next.js"
+        ],
+        "correct_option": 2,
+        "hint": "tRPC is an alternative to this technology and does not generate its schema."
+      },
+      {
+        "question": "In which layer of a full-stack application would you use tRPC?",
+        "options": [
+          "Database layer",
+          "Backend API layer",
+          "Frontend UI layer",
+          "Operating system layer"
+        ],
+        "correct_option": 1,
+        "hint": "tRPC is used to define and handle communication between client and server."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of using tRPC in a TypeScript application?",
-      "options": [
-        "To provide runtime type-checking",
-        "To create end-to-end type-safe APIs",
-        "To improve database performance",
-        "To enhance UI rendering capabilities"
-      ],
-      "correct_option": 1,
-      "hint": "It focuses on ensuring type-safety across different layers of the application."
-    },
-    {
-      "question": "Which framework is tRPC notably popular with?",
-      "options": [
-        "Angular",
-        "React Native",
-        "Next.js",
-        "Vue.js"
-      ],
-      "correct_option": 2,
-      "hint": "This framework is known for server-side rendering and is built on top of React."
-    },
-    {
-      "question": "How does tRPC achieve type-safety across client and server?",
-      "options": [
-        "By using JSON schema validation",
-        "By sharing TypeScript types between client and server",
-        "By enforcing runtime validation rules",
-        "By converting TypeScript to JavaScript"
-      ],
-      "correct_option": 1,
-      "hint": "It leverages TypeScript's type system to ensure consistency."
-    },
-    {
-      "question": "Which of the following is NOT a feature of tRPC?",
-      "options": [
-        "Automatic endpoint generation",
-        "End-to-end type safety",
-        "GraphQL schema generation",
-        "Integration with Next.js"
-      ],
-      "correct_option": 2,
-      "hint": "tRPC is an alternative to this technology and does not generate its schema."
-    },
-    {
-      "question": "In which layer of a full-stack application would you use tRPC?",
-      "options": [
-        "Database layer",
-        "Backend API layer",
-        "Frontend UI layer",
-        "Operating system layer"
-      ],
-      "correct_option": 1,
-      "hint": "tRPC is used to define and handle communication between client and server."
-    }
-  ],
   "preferred_if": [
     "User is building a full-stack TypeScript application",
     "Values strong type-safety across layers"

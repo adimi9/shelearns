@@ -1,0 +1,395 @@
+{
+  "id": "MD12",
+  "name": "Mobile UI/UX Design Principles",
+  "category": "Mobile Development",
+  "primary_tech": "UI/UX Design",
+  "topics": [
+    "Human Interface Guidelines (iOS)",
+    "Material Design (Android)",
+    "Wireframing & Prototyping",
+    "Usability Testing Basics"
+  ],
+  "recommended": true,
+  "tags": [
+    "design",
+    "UI",
+    "UX",
+    "mobile"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://m3.material.io/",
+          "description": "An informative guide to Material Design 3 principles and components.",
+          "title": "Material Design 3 - Google's latest open source design system"
+        },
+        {
+          "url": "https://developer.android.com/develop/ui/compose/documentation",
+          "description": "Official documentation for building Android UIs using Jetpack Compose.",
+          "title": "Get started with Jetpack Compose  |  Android Developers"
+        },
+        {
+          "url": "https://developer.apple.com/design/human-interface-guidelines",
+          "description": "Apple's Human Interface Guidelines for designing intuitive user experiences.",
+          "title": "Human Interface Guidelines | Apple Developer Documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://m.youtube.com/watch?v=FTFaQWZBqQ8&t=398s",
+          "description": "A detailed tutorial on building a full-stack application using React and Node.js."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cvm_ECH94x4&pp=0gcJCf0Ao7VqN5tD",
+          "description": "An instructional video on how to set up and use Docker for software development."
+        },
+        {
+          "url": "https://www.toptal.com/designers/ui/principles-of-design",
+          "description": "An overview of fundamental design principles for crafting effective user interfaces.",
+          "title": "Attention Required! | Cloudflare"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=N-xuqy6x1Bw&pp=0gcJCfwAo7VqN5tD",
+          "description": "An in-depth tutorial on setting up and using Kubernetes for container orchestration."
+        },
+        {
+          "url": "https://www.figma.com/resource-library/ui-design-principles/",
+          "description": "A resource library outlining fundamental principles of UI design.",
+          "title": "7 Key UI Design Principles + How To Use Them | Figma"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=I0-vBdh4sZ8",
+          "description": "An instructional video on implementing the SOLID principles in software design."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=cvm_ECH94x4&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=N-xuqy6x1Bw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=FTFaQWZBqQ8",
+        "https://www.youtube.com/watch?v=cTUD_vCrY7M",
+        "https://www.youtube.com/watch?v=I0-vBdh4sZ8",
+        "https://www.youtube.com/watch?v=t0aCoqXKFOU&pp=ygUFI3V4cGE%3D",
+        "https://www.youtube.com/watch?v=FhQNH8SiL2E",
+        "https://www.youtube.com/watch?v=tRpoI6vkqLs",
+        "https://www.youtube.com/watch?v=c9Wg6Cb_YlU",
+        "https://www.youtube.com/playlist?list=PLERed4ILxkJ1_kDOXCrEGmB58IsLOiIc3"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://mui.com/",
+          "description": "Comprehensive documentation for Material-UI, a popular React UI framework.",
+          "title": "MUI: The React component library you always wanted"
+        },
+        {
+          "url": "https://developer.android.com/topic/architecture",
+          "description": "An overview of recommended app architecture patterns and best practices for Android development.",
+          "title": "Guide to app architecture  |  App architecture  |  Android Developers"
+        },
+        {
+          "url": "https://developer.amazon.com/docs/fire-tv/design-and-user-experience-guidelines.html",
+          "description": "Guidelines for designing and enhancing user experiences on Amazon Fire TV.",
+          "title": "Design and User Experience Guidelines (Fire TV) | Amazon Fire TV"
+        },
+        {
+          "url": "https://developer.android.com/develop/ui/compose/documentation",
+          "description": "Official documentation for building UI with Jetpack Compose in Android.",
+          "title": "Get started with Jetpack Compose  |  Android Developers"
+        },
+        {
+          "url": "https://www.pencilandpaper.io/articles/ux-design-documentation-guide",
+          "description": "A detailed guide on creating effective UX design documentation.",
+          "title": "UX Design Documentation Guide - Pencil & Paper"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.figma.com/resource-library/ui-design-principles/",
+          "description": "An essential resource on fundamental UI design principles for creating effective user interfaces.",
+          "title": "7 Key UI Design Principles + How To Use Them | Figma"
+        },
+        {
+          "url": "https://www.toptal.com/designers/ui/principles-of-design",
+          "description": "An insightful overview of fundamental design principles for UI designers.",
+          "title": "Attention Required! | Cloudflare"
+        },
+        {
+          "url": "https://www.figma.com/ui-design-tool/",
+          "description": "An overview of Figma's UI design tool, highlighting its collaborative features and design capabilities.",
+          "title": "Free Online UI Design Tool & Software for Teams | Figma"
+        },
+        {
+          "url": "https://dribbble.com/kamushken",
+          "description": "A showcase of creative design projects and portfolios by Kamushken on Dribbble.",
+          "title": "Roman Kamushken | Dribbble"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dynamics365/guidance/develop/ui-ux-design-principles",
+          "description": "Guidelines for UI/UX design principles in Microsoft Dynamics 365 applications.",
+          "title": "Key UI/UX design principles - Dynamics 365 | Microsoft Learn"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=c9Wg6Cb_YlU",
+        "https://www.youtube.com/watch?v=31wzhvz0vsw&pp=ygULI2ZpZ21hdHV0b3I%3D",
+        "https://www.youtube.com/watch?v=xnqdvs4zp2o",
+        "https://www.youtube.com/watch?v=QwSN4n2sjR8&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=87shZMjA4bs",
+        "https://www.youtube.com/watch?v=PeGfX7W1mJk&pp=ygUII3VpbWFrZXI%3D",
+        "https://www.youtube.com/watch?v=v87TjQ6FloI",
+        "https://www.youtube.com/watch?v=Ds51jG10uBE&pp=0gcJCf0Ao7VqN5tD"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://m3.material.io/",
+          "description": "An overview of Material Design 3, Google's design system for building intuitive digital experiences.",
+          "title": "Material Design 3 - Google's latest open source design system"
+        },
+        {
+          "url": "https://developer.android.com/design",
+          "description": "Guidelines and resources for designing intuitive and engaging Android user interfaces.",
+          "title": "Design & Plan  |  Android Developers"
+        },
+        {
+          "url": "https://www.interaction-design.org/literature/topics/ux-design",
+          "description": "An informative overview of user experience (UX) design principles and practices.",
+          "title": "What is User Experience (UX) Design? — updated 2025 | IxDF"
+        },
+        {
+          "url": "https://atlassian.design/",
+          "description": "A comprehensive guide to Atlassian's design principles and resources.",
+          "title": "Atlassian Design System"
+        },
+        {
+          "url": "https://www.interaction-design.org/literature/topics/design-thinking",
+          "description": "An in-depth exploration of the principles and applications of design thinking.",
+          "title": "What is Design Thinking? — updated 2025 | IxDF"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/c/DesignPilot",
+          "description": "A YouTube channel offering tutorials and insights on design and prototyping tools."
+        },
+        {
+          "url": "https://www.toptal.com/designers/ui/principles-of-design",
+          "description": "An insightful overview of fundamental design principles for UI/UX designers.",
+          "title": "Attention Required! | Cloudflare"
+        },
+        {
+          "url": "https://www.interaction-design.org/literature/topics/ui-design",
+          "description": "An in-depth exploration of UI design principles and best practices.",
+          "title": "What is User Interface (UI) Design? | IxDF"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/blogs/100-days-of-ui-ux/",
+          "description": "A structured 100-day program to enhance UI/UX design skills.",
+          "title": "100 Days of UI/UX: A Complete Guide For Beginners - GeeksforGeeks"
+        },
+        {
+          "url": "https://www.interaction-design.org/literature/topics/ux-design",
+          "description": "An in-depth exploration of user experience (UX) design principles and practices.",
+          "title": "What is User Experience (UX) Design? — updated 2025 | IxDF"
+        },
+        {
+          "url": "https://www.justinmind.com/ux-design",
+          "description": "An informative resource on UX design principles and best practices.",
+          "title": "UX design guide for beginners - Justinmind"
+        },
+        {
+          "url": "https://learnui.design/blog/",
+          "description": "A blog offering insights and tutorials on UI/UX design principles and practices.",
+          "title": "Free UI/UX Tutorials & Tools: The Learn UI Design Blog"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/c/DesignPilot",
+        "https://www.youtube.com/watch?v=cvm_ECH94x4&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/channel/UCwR5MDih6AuLql0OqUd8Hag",
+        "https://www.youtube.com/watch?v=cKZEgtQUxlU&pp=ygUMI3VpdXhfY291cnNl",
+        "https://www.youtube.com/@InteractionDesignOrg",
+        "https://www.youtube.com/watch?v=31wzhvz0vsw",
+        "https://www.youtube.com/watch?v=t0aCoqXKFOU&pp=ygUFI3V4cGE%3D",
+        "https://www.youtube.com/channel/UCaHeG3M27TzMM3jr_ZQ5epg",
+        "https://www.youtube.com/watch?v=13bsthjZ6-M"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the purpose of Human Interface Guidelines for iOS?",
+        "options": [
+          "To provide technical details for app coding",
+          "To offer design guidelines for creating intuitive user interfaces",
+          "To help developers understand hardware specifications",
+          "To outline marketing strategies for app promotion"
+        ],
+        "correct_option": 1,
+        "hint": "These guidelines focus on user interface and experience design."
+      },
+      {
+        "question": "Which design system is primarily used for Android app design?",
+        "options": [
+          "Bootstrap",
+          "Material Design",
+          "Foundation",
+          "Tailwind CSS"
+        ],
+        "correct_option": 1,
+        "hint": "This design system was developed by Google."
+      },
+      {
+        "question": "What is wireframing in mobile UI/UX design?",
+        "options": [
+          "Creating a high-fidelity visual of the app",
+          "Developing the app's backend",
+          "Outlining the app's structure and layout",
+          "Conducting user interviews"
+        ],
+        "correct_option": 2,
+        "hint": "It involves sketching the blueprint of the app."
+      },
+      {
+        "question": "What is a common tool used for prototyping in mobile UI/UX design?",
+        "options": [
+          "Photoshop",
+          "Illustrator",
+          "Figma",
+          "Sublime Text"
+        ],
+        "correct_option": 2,
+        "hint": "This tool allows for interactive design and collaboration."
+      },
+      {
+        "question": "What is the main goal of usability testing in mobile app development?",
+        "options": [
+          "To increase app download numbers",
+          "To test the functionality of the app's backend",
+          "To ensure the app is user-friendly and meets user needs",
+          "To enhance the app's graphical elements"
+        ],
+        "correct_option": 2,
+        "hint": "This testing focuses on the user's interaction with the app."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of Apple's Human Interface Guidelines?",
+        "options": [
+          "To ensure apps are visually identical across devices",
+          "To provide a set of design standards for creating intuitive and consistent interfaces",
+          "To mandate the use of specific color schemes",
+          "To enforce the use of only native iOS components"
+        ],
+        "correct_option": 1,
+        "hint": "Think about what ensures a consistent user experience across different apps on iOS."
+      },
+      {
+        "question": "Which principle of Material Design focuses on the use of animations to provide feedback and continuity?",
+        "options": [
+          "Material is the metaphor",
+          "Bold, graphic, intentional",
+          "Motion provides meaning",
+          "Adaptive design"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how animations are used to guide users and enhance understanding."
+      },
+      {
+        "question": "What is the primary goal of wireframing in mobile UI/UX design?",
+        "options": [
+          "To create a high-fidelity prototype",
+          "To establish the basic structure and layout of a user interface",
+          "To test the usability of an app",
+          "To finalize the visual design of the app"
+        ],
+        "correct_option": 1,
+        "hint": "Wireframing is often one of the first steps in the design process."
+      },
+      {
+        "question": "Which of the following is NOT a typical method used in usability testing?",
+        "options": [
+          "A/B testing",
+          "Surveys and questionnaires",
+          "User interviews",
+          "Iterative design"
+        ],
+        "correct_option": 3,
+        "hint": "Think about which method is more related to design processes than testing."
+      },
+      {
+        "question": "In prototyping, what is the main advantage of using interactive prototypes over static wireframes?",
+        "options": [
+          "They are cheaper to produce",
+          "They provide a more accurate representation of the final product",
+          "They require less time to create",
+          "They ensure the app will function correctly"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how much more information you can gather from a prototype that users can interact with."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is NOT a recommended practice according to Apple's Human Interface Guidelines?",
+        "options": [
+          "Using touch gestures for navigation",
+          "Relying on color alone to convey information",
+          "Adhering to the standard UI element sizes",
+          "Providing feedback for user actions"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the accessibility aspect of UI design."
+      },
+      {
+        "question": "When implementing Material Design for Android, what is the significance of elevation in UI elements?",
+        "options": [
+          "It controls the color scheme of elements",
+          "It determines the layering and shadow effects",
+          "It dictates the size of UI components",
+          "It affects the alignment of text"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how elevation affects the visual hierarchy and depth perception."
+      },
+      {
+        "question": "In wireframing, what is the main purpose of using a low-fidelity prototype?",
+        "options": [
+          "To test color schemes",
+          "To evaluate detailed UI animations",
+          "To focus on functionality and layout",
+          "To finalize visual design elements"
+        ],
+        "correct_option": 2,
+        "hint": "Low-fidelity prototypes are often used early in the design process."
+      },
+      {
+        "question": "Which usability testing method involves observing users as they interact with a product in a natural environment?",
+        "options": [
+          "Remote usability testing",
+          "A/B testing",
+          "Contextual inquiry",
+          "Survey study"
+        ],
+        "correct_option": 2,
+        "hint": "This method involves in-depth interaction with the user in their actual environment."
+      },
+      {
+        "question": "What is a key consideration when designing for both iOS and Android platforms simultaneously?",
+        "options": [
+          "Ignoring platform-specific guidelines",
+          "Using identical UI elements for both platforms",
+          "Adhering to each platform's unique design principles",
+          "Prioritizing one platform over the other"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the importance of maintaining the native feel for each platform."
+      }
+    ]
+  }
+}

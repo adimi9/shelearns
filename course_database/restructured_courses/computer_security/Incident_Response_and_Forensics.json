@@ -16,97 +16,151 @@
     "analysis"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
-        "description": "A comprehensive guide on debugging JavaScript, covering common errors and effective strategies for troubleshooting code."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/cybersecurity/cybersecurity_incident_response.php",
-        "description": "This resource provides an overview of cybersecurity incident response strategies and best practices."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/incident-management-in-cyber-security/",
-        "description": "This resource provides an overview of incident management processes and strategies in cybersecurity."
-      },
-      {
-        "url": "https://www.w3schools.com/cybersecurity/",
-        "description": "An introductory guide to cybersecurity concepts and practices for beginners."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/operating-systems/volatile-data-collection-from-window-system/",
-        "description": "This resource explains how to collect volatile data from Windows systems for forensic analysis."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-science-fundamentals/cyber-forensics/",
-        "description": "An overview of cyber forensics principles and techniques used in digital investigation and evidence analysis."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=X9FTyy7owwc",
-      "https://www.youtube.com/watch?v=2BOOl8_nwjQ",
-      "https://www.youtube.com/watch?v=-v94RHNOi-U",
-      "https://www.youtube.com/watch?v=8Q8sMEvXqso",
-      "https://www.youtube.com/watch?v=YZSM3YPn998"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the first phase of the Incident Response Lifecycle?",
-      "options": [
-        "Detection",
-        "Preparation",
-        "Containment",
-        "Recovery"
+    "beginner": {
+      "docs": [
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+        "https://docs.velociraptor.app/",
+        "https://docs.aws.amazon.com/security-ir/latest/userguide/introduction.html",
+        "https://github.com/meirwah/awesome-incident-response",
+        "https://docs.aws.amazon.com/security-ir/latest/userguide/security-incident-response-guide.html"
       ],
-      "correct_option": 1,
-      "hint": "It involves establishing an incident response plan and building the necessary infrastructure."
+      "notes": [
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+        "https://www.sans.org/white-papers/ultimate-guide-getting-started-digital-forensics-incident-response/",
+        "https://www.paloaltonetworks.com/cyberpedia/digital-forensics-and-incident-response",
+        "https://docs.aws.amazon.com/security-ir/latest/userguide/introduction.html",
+        "https://www.cynet.com/incident-response/",
+        "https://docs.aws.amazon.com/security-ir/latest/userguide/appendix-b-incident-response-resources.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=pSDB8Qmh7TQ",
+        "https://www.youtube.com/watch?v=mKUZx1z9dxo",
+        "https://www.youtube.com/watch?v=-CyUlMroIBM",
+        "https://www.youtube.com/watch?v=OIT9oaFmXZU",
+        "https://www.youtube.com/watch?v=MrVkzeaHXRQ",
+        "https://www.youtube.com/watch?v=u2zgEFm5RHQ",
+        "https://www.youtube.com/watch?v=eekzaI0UFDA&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/DFIRScience",
+        "https://www.youtube.com/c/BlackPerl"
+      ]
     },
-    {
-      "question": "Which phase of the Incident Response Lifecycle involves identifying and confirming incidents?",
-      "options": [
-        "Analysis",
-        "Detection",
-        "Preparation",
-        "Recovery"
+    "intermediate": {
+      "docs": [
+        "https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/automate-incident-response-and-forensics.html",
+        "https://github.com/meirwah/awesome-incident-response",
+        "https://cloud.google.com/docs/security/incident-response"
       ],
-      "correct_option": 1,
-      "hint": "This phase comes after preparation and before analysis."
+      "notes": [
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+        "https://www.paloaltonetworks.com/cyberpedia/digital-forensics-and-incident-response",
+        "https://www.binalyze.com/",
+        "https://www.dfir-iris.org/",
+        "https://www.monolithforensics.com/",
+        "https://github.com/meirwah/awesome-incident-response"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=zIwUBTGjbws",
+        "https://www.youtube.com/watch?v=ai_7Fkv6igw",
+        "https://www.youtube.com/watch?v=Q1IoGX--814",
+        "https://www.youtube.com/watch?v=o6boK9dG-Lc",
+        "https://m.youtube.com/watch?v=EA40rztSOd4&pp=ygUGI3ZxbGlm",
+        "https://www.youtube.com/watch?v=iYyWZSNBNcw",
+        "https://www.youtube.com/@SANSForensics",
+        "https://www.youtube.com/channel/UCpccBuBTcHp0pDZexcVMtXQ",
+        "https://www.youtube.com/channel/UC1XlL2kndUEK8l9aRHg1Stw/posts"
+      ]
     },
-    {
-      "question": "In digital forensics, what is the primary purpose of maintaining a chain of custody?",
-      "options": [
-        "To ensure evidence is analyzed promptly",
-        "To minimize the risk of data breach",
-        "To preserve the integrity of evidence",
-        "To speed up the investigation process"
+    "advanced": {
+      "docs": [
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+        "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/cyber-forensics.html",
+        "https://github.com/meirwah/awesome-incident-response",
+        "https://docs.aws.amazon.com/whitepapers/latest/aws-security-incident-response-guide/aws-security-incident-response-guide.pdf",
+        "https://cloud.google.com/docs/security/incident-response"
       ],
-      "correct_option": 2,
-      "hint": "It is crucial for maintaining the legal integrity of the evidence."
-    },
-    {
-      "question": "During which phase of the Incident Response Lifecycle is the root cause of the incident removed?",
-      "options": [
-        "Containment",
-        "Eradication",
-        "Analysis",
-        "Recovery"
+      "notes": [
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+        "https://www.sans.org/digital-forensics-incident-response/",
+        "https://www.blackhat.com/us-25/training/schedule/",
+        "https://www.sans.org/cyber-security-courses/advanced-incident-response-threat-hunting-training/",
+        "https://www.cybereason.com/fundamentals/what-is-dfir"
       ],
-      "correct_option": 1,
-      "hint": "This phase deals with eliminating the threat from the environment."
-    },
-    {
-      "question": "What is the primary goal of malware triage in incident response?",
-      "options": [
-        "To restore affected systems to operational status",
-        "To classify and prioritize malware samples for analysis",
-        "To prevent future incidents",
-        "To detect malware on network devices"
-      ],
-      "correct_option": 1,
-      "hint": "This process helps in managing multiple malware incidents efficiently."
+      "videos": [
+        "https://www.youtube.com/c/BlackPerl",
+        "https://www.youtube.com/playlist?list=PLOWdy-NBQHJug0tGwdRFT8R5vGDttkHqP",
+        "https://www.youtube.com/channel/UCWIEIMHXyJ62RF4aVmU30og/videos",
+        "https://www.youtube.com/watch?v=3hDrPTTGEAU",
+        "https://www.youtube.com/watch?v=C-0JD1Fwk7U",
+        "https://www.youtube.com/watch?v=G8XjSO_eshc",
+        "https://www.youtube.com/watch?v=qYTVRjb7KrI",
+        "https://www.youtube.com/watch?v=8FGIyV12aVU",
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=vW8eAqZyWeo"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the first phase of the Incident Response Lifecycle?",
+        "options": [
+          "Detection",
+          "Preparation",
+          "Containment",
+          "Recovery"
+        ],
+        "correct_option": 1,
+        "hint": "It involves establishing an incident response plan and building the necessary infrastructure."
+      },
+      {
+        "question": "Which phase of the Incident Response Lifecycle involves identifying and confirming incidents?",
+        "options": [
+          "Analysis",
+          "Detection",
+          "Preparation",
+          "Recovery"
+        ],
+        "correct_option": 1,
+        "hint": "This phase comes after preparation and before analysis."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In digital forensics, what is the primary purpose of maintaining a chain of custody?",
+        "options": [
+          "To ensure evidence is analyzed promptly",
+          "To minimize the risk of data breach",
+          "To preserve the integrity of evidence",
+          "To speed up the investigation process"
+        ],
+        "correct_option": 2,
+        "hint": "It is crucial for maintaining the legal integrity of the evidence."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "During which phase of the Incident Response Lifecycle is the root cause of the incident removed?",
+        "options": [
+          "Containment",
+          "Eradication",
+          "Analysis",
+          "Recovery"
+        ],
+        "correct_option": 1,
+        "hint": "This phase deals with eliminating the threat from the environment."
+      },
+      {
+        "question": "What is the primary goal of malware triage in incident response?",
+        "options": [
+          "To restore affected systems to operational status",
+          "To classify and prioritize malware samples for analysis",
+          "To prevent future incidents",
+          "To detect malware on network devices"
+        ],
+        "correct_option": 1,
+        "hint": "This process helps in managing multiple malware incidents efficiently."
+      }
+    ]
+  }
 }

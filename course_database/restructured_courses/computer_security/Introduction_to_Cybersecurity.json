@@ -16,105 +16,154 @@
     "security-awareness"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
-        "description": "A comprehensive guide on web security best practices, techniques, and concepts for developers."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
-        "description": "This resource provides a comprehensive guide to implementing Content Security Policy (CSP) to enhance web security."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security",
-        "description": "This resource provides an introductory guide to implementing basic security measures for server-side web development."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/cybersecurity/",
-        "description": "An educational resource providing tutorials and information on various cybersecurity topics and practices."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-tutorial/",
-        "description": "A comprehensive tutorial on ethical hacking and cybersecurity fundamentals."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/ethical-hacking/what-is-cyber-security/",
-        "description": "An introductory guide explaining the fundamentals and importance of cyber security in protecting digital information and systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/introduction-to-cyber-physical-system/",
-        "description": "An introductory guide to understanding the fundamentals and applications of Cyber-Physical Systems (CPS)."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/ethical-hacking/cyber-crime/",
-        "description": "An overview of cyber crime concepts and their implications in the field of ethical hacking."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=ULGILG-ZhO0",
-      "https://www.youtube.com/watch?v=z5nc9MDbvkw",
-      "https://www.youtube.com/watch?v=b12JrM-6DBY",
-      "https://www.youtube.com/watch?v=agnDpN961xU",
-      "https://www.youtube.com/watch?v=JbEPJv7Ybcs"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What does the 'C' in the CIA Triad stand for in cybersecurity?",
-      "options": [
-        "Confidentiality",
-        "Coverage",
-        "Control",
-        "Communication"
+    "beginner": {
+      "docs": [
+        "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+        "https://developer.zendesk.com/api-reference/ticketing/introduction/",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+        "https://prometheus.io/docs/introduction/overview/",
+        "https://dodcio.defense.gov/Portals/0/Documents/Library/CSResourceReferenceGuide.pdf"
       ],
-      "correct_option": 0,
-      "hint": "This aspect of the CIA Triad focuses on protecting data from unauthorized access."
+      "notes": [
+        "https://www.netacad.com/courses/introduction-to-cybersecurity",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
+        "https://www.w3schools.com/cybersecurity/",
+        "https://mrcet.com/pdf/Lab%20Manuals/IT/CYBER%20SECURITY%20(R18A0521).pdf",
+        "https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-cybersecurity-ethics/",
+        "https://cs50.harvard.edu/cybersecurity/2023/notes/0/",
+        "https://www.cybrary.it/course/introduction-to-it-and-cybersecurity"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ULGILG-ZhO0",
+        "https://www.youtube.com/watch?v=z5nc9MDbvkw",
+        "https://www.youtube.com/watch?v=3oTLTijODA4",
+        "https://www.youtube.com/watch?v=JbEPJv7Ybcs",
+        "https://www.youtube.com/watch?v=sxqUFxtYZ9E",
+        "https://www.youtube.com/watch?v=QxFbPmCTEYM",
+        "https://www.youtube.com/watch?v=fd9LPDSeP_I",
+        "https://www.youtube.com/watch?v=hXSFdwIOfnE",
+        "https://www.youtube.com/watch?v=6dxMBycoL_U",
+        "https://www.youtube.com/watch?v=aRbKFCY4tjE"
+      ]
     },
-    {
-      "question": "Which of the following is considered a common attack vector?",
-      "options": [
-        "Social Engineering",
-        "Data Encryption",
-        "Firewall Setup",
-        "Software Development"
+    "intermediate": {
+      "docs": [
+        "https://www.akamai.com/products/api-security",
+        "https://dodcio.defense.gov/Portals/0/Documents/Library/CSResourceReferenceGuide.pdf",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP"
       ],
-      "correct_option": 0,
-      "hint": "This attack vector involves manipulating individuals to gain confidential information."
+      "notes": [
+        "https://www.splunk.com/en_us/training/free-courses/overview.html",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
+        "https://mrcet.com/downloads/digital_notes/EEE/CyberSecurity.pdf",
+        "https://ebpf.io/",
+        "https://home.treasury.gov/system/files/136/Managing-Artificial-Intelligence-Specific-Cybersecurity-Risks-In-The-Financial-Services-Sector.pdf",
+        "https://www.linkedin.com/learning/complete-guide-to-cybersecurity-a-practical-approach/surveying-the-ai-landscape-and-use-cases",
+        "https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=2eEe5LnEbks",
+        "https://www.youtube.com/watch?v=WWva3v9Hhfk",
+        "https://www.youtube.com/watch?v=xutDqu_OiH8",
+        "https://www.youtube.com/watch?v=S3CZyu6WD7I",
+        "https://www.youtube.com/watch?v=zRDRbRM6B1s",
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=QjyekaB1ewg",
+        "https://www.youtube.com/watch?v=d31eg547Uuo",
+        "https://www.youtube.com/watch?v=qTaOZrDnMzQ",
+        "https://www.youtube.com/playlist?list=PLMYSjEaGLw_uut80YG0zyLsrPJ94Y8LU9"
+      ]
     },
-    {
-      "question": "In cybersecurity, what is a vulnerability?",
-      "options": [
-        "A weakness that can be exploited by threats",
-        "An attack that succeeds in breaching a system",
-        "A strategy to prevent data breaches",
-        "A measure to enhance system performance"
+    "advanced": {
+      "docs": [
+        "https://ebpf.io/what-is-ebpf/",
+        "https://dodcio.defense.gov/Portals/0/Documents/Library/CSResourceReferenceGuide.pdf",
+        "https://www.fortinet.com/training-certification",
+        "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ModelOverview_V2.0_FINAL2_20211202_508.pdf",
+        "https://www.dafcio.af.mil/"
       ],
-      "correct_option": 0,
-      "hint": "This term refers to a flaw or weakness in a system that can be taken advantage of by threats."
-    },
-    {
-      "question": "Which practice is a part of security best practices?",
-      "options": [
-        "Regular updates and patches",
-        "Ignoring security alerts",
-        "Sharing passwords with colleagues",
-        "Disabling firewalls"
+      "notes": [
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
+        "https://mrcet.com/pdf/Lab%20Manuals/IT/CYBER%20SECURITY%20(R18A0521).pdf",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security",
+        "https://dotsecurity.com/insights/introduction-to-cybersecurity",
+        "https://www.sans.org/cyber-security-courses/",
+        "https://www.fortinet.com/training/cybersecurity-professionals"
       ],
-      "correct_option": 0,
-      "hint": "This practice helps in protecting systems from newly discovered vulnerabilities."
-    },
-    {
-      "question": "What is the primary goal of maintaining integrity in the CIA Triad?",
-      "options": [
-        "Ensuring data is accurate and unaltered",
-        "Allowing access to data for everyone",
-        "Preventing data from being backed up",
-        "Increasing system uptime"
-      ],
-      "correct_option": 0,
-      "hint": "Integrity focuses on ensuring that data remains trustworthy and unchanged."
+      "videos": [
+        "https://www.youtube.com/watch?v=2eEe5LnEbks",
+        "https://www.youtube.com/watch?v=Urluwrkhnik",
+        "https://www.youtube.com/watch?v=rz0RL4Xue-A",
+        "https://www.youtube.com/watch?v=uSPAWsDtJkM",
+        "https://m.youtube.com/watch?v=EKdZutMkmTE&pp=ygUMI2N5YmVyc2FsYXJ5",
+        "https://www.youtube.com/watch?v=jecEzjahRTQ",
+        "https://www.youtube.com/watch?v=DGo0IvE44sY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=HZzXbxajz80"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does the 'C' in the CIA Triad stand for in cybersecurity?",
+        "options": [
+          "Confidentiality",
+          "Coverage",
+          "Control",
+          "Communication"
+        ],
+        "correct_option": 0,
+        "hint": "This aspect of the CIA Triad focuses on protecting data from unauthorized access."
+      },
+      {
+        "question": "Which of the following is considered a common attack vector?",
+        "options": [
+          "Social Engineering",
+          "Data Encryption",
+          "Firewall Setup",
+          "Software Development"
+        ],
+        "correct_option": 0,
+        "hint": "This attack vector involves manipulating individuals to gain confidential information."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In cybersecurity, what is a vulnerability?",
+        "options": [
+          "A weakness that can be exploited by threats",
+          "An attack that succeeds in breaching a system",
+          "A strategy to prevent data breaches",
+          "A measure to enhance system performance"
+        ],
+        "correct_option": 0,
+        "hint": "This term refers to a flaw or weakness in a system that can be taken advantage of by threats."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which practice is a part of security best practices?",
+        "options": [
+          "Regular updates and patches",
+          "Ignoring security alerts",
+          "Sharing passwords with colleagues",
+          "Disabling firewalls"
+        ],
+        "correct_option": 0,
+        "hint": "This practice helps in protecting systems from newly discovered vulnerabilities."
+      },
+      {
+        "question": "What is the primary goal of maintaining integrity in the CIA Triad?",
+        "options": [
+          "Ensuring data is accurate and unaltered",
+          "Allowing access to data for everyone",
+          "Preventing data from being backed up",
+          "Increasing system uptime"
+        ],
+        "correct_option": 0,
+        "hint": "Integrity focuses on ensuring that data remains trustworthy and unchanged."
+      }
+    ]
+  }
 }

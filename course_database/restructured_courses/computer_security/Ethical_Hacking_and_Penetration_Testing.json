@@ -16,105 +16,152 @@
     "offensive-security"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://nodejs.org/en/learn/getting-started/security-best-practices",
-        "description": "A guide on implementing security best practices for Node.js applications."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript",
-        "description": "An introductory guide explaining the fundamentals of JavaScript and its role in web development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Privacy",
-        "description": "A comprehensive guide on web privacy principles and practices for developers."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/difference-between-penetration-testing-and-ethical-hacking/",
-        "description": "This resource explains the differences between penetration testing and ethical hacking in computer networks."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/penetration-testing-software-engineering/",
-        "description": "An overview of penetration testing in software engineering, focusing on its importance, methodologies, and tools used to identify security vulnerabilities."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/tag/penetration-testing/",
-        "description": "This resource offers articles and guides on penetration testing, covering techniques and tools for identifying and exploiting security vulnerabilities."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/introduction-to-ethical-hacking/",
-        "description": "An introductory guide explaining the fundamentals and importance of ethical hacking in cybersecurity."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/how-where-can-i-learn-about-ethical-hacking/316624",
-        "description": "A community discussion providing resources and guidance on learning ethical hacking."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=B7tTQ272OHE",
-      "https://www.youtube.com/watch?v=-e_eDYoJbsk",
-      "https://www.youtube.com/watch?v=2_lswM1S264",
-      "https://www.youtube.com/watch?v=25iMrJDyIDk",
-      "https://www.youtube.com/watch?v=3Kq1MIfTWCE"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary goal of reconnaissance in ethical hacking?",
-      "options": [
-        "To identify vulnerabilities in the target system",
-        "To gather as much information as possible about the target",
-        "To exploit the target system",
-        "To report findings to stakeholders"
+    "beginner": {
+      "docs": [
+        "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+        "https://www.kali.org/",
+        "https://offsec.com/courses/pen-200/",
+        "https://github.com/sundowndev/hacker-roadmap"
       ],
-      "correct_option": 1,
-      "hint": "It involves collecting data about the target."
+      "notes": [
+        "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
+        "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=6442s",
+        "https://www.youtube.com/watch?v=WnN6dbos5u8",
+        "https://m.youtube.com/watch?v=odC720S63Fw",
+        "https://www.cybrary.it/video/course-introduction-penetration-testing-and-ethical-hacking",
+        "https://www.netacad.com/courses/ethical-hacker",
+        "https://ep.jhu.edu/courses/695643-introduction-to-ethical-hacking/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
+        "https://www.youtube.com/watch?v=WnN6dbos5u8",
+        "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=6442s",
+        "https://www.youtube.com/watch?v=2_lswM1S264",
+        "https://www.youtube.com/watch?v=lZAoFs75_cs",
+        "https://www.youtube.com/watch?v=hP75mW2ULt4",
+        "https://www.youtube.com/playlist?list=PLBf0hzazHTGOEuhPQSnq-Ej8jRyXxfYvl",
+        "https://www.youtube.com/channel/UC0ZTPkdxlAKf-V33tqXwi3Q"
+      ]
     },
-    {
-      "question": "Which tool is commonly used for scanning and enumeration in penetration testing?",
-      "options": [
-        "Metasploit",
-        "Nmap",
-        "Wireshark",
-        "John the Ripper"
+    "intermediate": {
+      "docs": [
+        "https://www.servicenow.com/docs/bundle/yokohama-security-management/page/product/vulnerability-app-vuln-mgmt/concept/pen_test_overview_avm.html",
+        "https://offsec.com/courses/pen-200/",
+        "https://www.ibm.com/think/insights/pen-testing-methodology",
+        "https://pentest-tools.com/",
+        "https://www.ibm.com/think/topics/penetration-testing"
       ],
-      "correct_option": 1,
-      "hint": "This tool is known for network discovery and security auditing."
+      "notes": [
+        "https://www.invicti.com/blog/web-security/what-is-ethical-hacking/",
+        "https://www.stationx.net/how-to-use-shodan/",
+        "https://www.invicti.com/blog/web-security/types-of-penetration-tests/",
+        "https://www.esecurityplanet.com/networks/kali-linux-tutorial/",
+        "https://www.techtarget.com/searchsecurity/tutorial/Intro-How-to-use-BlackArch-Linux-for-pen-testing"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=2_lswM1S264",
+        "https://www.youtube.com/watch?v=lZAoFs75_cs",
+        "https://www.youtube.com/watch?v=Keld6Wi8aZ4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=2nXOxLpeu80&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Ft6tLATCIVQ",
+        "https://www.youtube.com/watch?v=3FNYvj2U0HM&pp=ygUGI3RjbWdv",
+        "https://www.youtube.com/watch?v=OtcP8c4wZys",
+        "https://www.youtube.com/watch?v=SXMkY-u8Vhk",
+        "https://www.youtube.com/watch?v=8q5mc1AEtYo"
+      ]
     },
-    {
-      "question": "During the vulnerability exploitation phase, what is the main objective?",
-      "options": [
-        "To gather information about the network",
-        "To penetrate the target system and gain unauthorized access",
-        "To document the vulnerabilities",
-        "To monitor network traffic"
+    "advanced": {
+      "docs": [
+        "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+        "https://offsec.com/courses/pen-200/",
+        "https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/",
+        "https://pentera.io/",
+        "https://www.offsec.com/courses/web-300/"
       ],
-      "correct_option": 1,
-      "hint": "It involves taking advantage of weaknesses in the system."
-    },
-    {
-      "question": "In post-exploitation, which activity is typically performed?",
-      "options": [
-        "Installing malware",
-        "Conducting privilege escalation",
-        "Scanning for open ports",
-        "Performing a DoS attack"
+      "notes": [
+        "https://www.youtube.com/watch?v=lZAoFs75_cs",
+        "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=231s",
+        "https://www.youtube.com/watch?v=Keld6Wi8aZ4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/how-to-become-an-ethical-hacker",
+        "https://www.elevationng.org/?u=957514181669",
+        "https://cybersecurityguide.org/programs/cybersecurity-certifications/ceh/",
+        "https://www.linkedin.com/posts/iftekmahmud_web-security-scanning-with-nikto-ethical-activity-7261383688435687424-TeCW"
       ],
-      "correct_option": 1,
-      "hint": "This activity aims to gain higher-level access to the system."
-    },
-    {
-      "question": "What is a crucial element of the reporting phase in penetration testing?",
-      "options": [
-        "Ignoring minor vulnerabilities",
-        "Only reporting critical issues",
-        "Providing detailed documentation of findings and recommendations",
-        "Exploiting additional vulnerabilities"
-      ],
-      "correct_option": 2,
-      "hint": "This phase involves delivering a comprehensive summary of the test results."
+      "videos": [
+        "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=231s",
+        "https://www.youtube.com/watch?v=lZAoFs75_cs",
+        "https://www.youtube.com/watch?v=Keld6Wi8aZ4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=v8ThuHceRfM",
+        "https://www.youtube.com/watch?v=wlqUO09J-nw&pp=ygUII3BpbnRlc2g%3D",
+        "https://www.youtube.com/watch?v=Ft6tLATCIVQ",
+        "https://www.youtube.com/watch?v=W013Y3UInoQ",
+        "https://www.youtube.com/davidbombal",
+        "https://www.youtube.com/playlist?list=PLlDcvddOAkIC3-wIhtW_DgqXXz7u5exil",
+        "https://www.youtube.com/channel/UC39GKRsNps38x7UzydcOZ9w"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary goal of reconnaissance in ethical hacking?",
+        "options": [
+          "To identify vulnerabilities in the target system",
+          "To gather as much information as possible about the target",
+          "To exploit the target system",
+          "To report findings to stakeholders"
+        ],
+        "correct_option": 1,
+        "hint": "It involves collecting data about the target."
+      },
+      {
+        "question": "Which tool is commonly used for scanning and enumeration in penetration testing?",
+        "options": [
+          "Metasploit",
+          "Nmap",
+          "Wireshark",
+          "John the Ripper"
+        ],
+        "correct_option": 1,
+        "hint": "This tool is known for network discovery and security auditing."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "During the vulnerability exploitation phase, what is the main objective?",
+        "options": [
+          "To gather information about the network",
+          "To penetrate the target system and gain unauthorized access",
+          "To document the vulnerabilities",
+          "To monitor network traffic"
+        ],
+        "correct_option": 1,
+        "hint": "It involves taking advantage of weaknesses in the system."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In post-exploitation, which activity is typically performed?",
+        "options": [
+          "Installing malware",
+          "Conducting privilege escalation",
+          "Scanning for open ports",
+          "Performing a DoS attack"
+        ],
+        "correct_option": 1,
+        "hint": "This activity aims to gain higher-level access to the system."
+      },
+      {
+        "question": "What is a crucial element of the reporting phase in penetration testing?",
+        "options": [
+          "Ignoring minor vulnerabilities",
+          "Only reporting critical issues",
+          "Providing detailed documentation of findings and recommendations",
+          "Exploiting additional vulnerabilities"
+        ],
+        "correct_option": 2,
+        "hint": "This phase involves delivering a comprehensive summary of the test results."
+      }
+    ]
+  }
 }

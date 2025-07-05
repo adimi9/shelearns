@@ -1,0 +1,513 @@
+{
+  "id": "FE16",
+  "name": "Remix Essentials for Backend Developers",
+  "category": "Frontend Development",
+  "primary_tech": "Remix",
+  "topics": [
+    "Introduction to Remix and its architecture",
+    "Setting up a Remix project with Node.js",
+    "Understanding loaders and actions for data handling",
+    "Building RESTful APIs with Remix",
+    "Server-side rendering with Remix",
+    "Managing state and data fetching in Remix applications",
+    "Authentication and authorization strategies",
+    "Deployment and scaling Remix applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "remix",
+    "backend",
+    "server-side-rendering",
+    "api-development",
+    "react",
+    "nodejs"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs",
+          "description": "Official documentation for Firebase, covering its features and integration for app development.",
+          "title": "Firebase Documentation"
+        },
+        {
+          "url": "https://www.sanity.io/docs/getting-started",
+          "description": "An introductory guide to getting started with Sanity's content platform.",
+          "title": "Getting started with Sanity | Sanity Docs"
+        },
+        {
+          "url": "https://stoplight.io/api-documentation-guide",
+          "description": "A detailed guide on creating and managing API documentation effectively.",
+          "title": "How to Write API Documentation: a Best Practices Guide | Stoplight"
+        },
+        {
+          "url": "https://shopify.dev/docs/api/liquid",
+          "description": "Documentation for Shopify's Liquid templating language API.",
+          "title": "Liquid reference"
+        },
+        {
+          "url": "https://developer.android.com/develop/ui/compose/documentation",
+          "description": "Official documentation for building user interfaces with Jetpack Compose in Android.",
+          "title": "Get started with Jetpack Compose  |  Android Developers"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.upwork.com/resources/beginners-guide-back-end-development",
+          "description": "An introductory guide to back-end development for beginners.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.epicweb.dev/why-i-wont-use-nextjs",
+          "description": "An opinion piece discussing reasons for avoiding the use of Next.js in web development.",
+          "title": "Why I Won't Use Next.js | Epic Web Dev"
+        },
+        {
+          "url": "https://www.uspto.gov/trademarks/basics",
+          "description": "An introductory guide to understanding the basics of trademarks from the USPTO.",
+          "title": "Trademark basics | USPTO"
+        },
+        {
+          "url": "https://www.datacamp.com/tutorial/21-essential-python-tools",
+          "description": "An overview of 21 essential Python tools for data science and analytics.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.sanity.io/docs/getting-started",
+          "description": "A beginner's guide to getting started with Sanity.io, a platform for structured content.",
+          "title": "Getting started with Sanity | Sanity Docs"
+        },
+        {
+          "url": "https://tex.stackexchange.com/questions/13509/biblatex-in-a-nutshell-for-beginners",
+          "description": "A beginner's guide to using BibLaTeX for managing bibliographies in LaTeX documents.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/windows/wsl/setup/environment",
+          "description": "A guide to setting up and configuring the Windows Subsystem for Linux (WSL) environment.",
+          "title": "Set up a WSL development environment | Microsoft Learn"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+          "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
+          "duration": "1274m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CMgxu_P81-o",
+          "title": "How I would learn & master it if I were to start over again",
+          "duration": "29m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+          "title": "Full Course Web Development [22 Hours] | Learn Full Stack Web Development From Scratch",
+          "duration": "1308m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+          "title": "MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours",
+          "duration": "470m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=O_WW1Z4iBSg",
+          "title": "Building My New Site With Remix JS and Strapi - If you are learning to code stop on by and hang out.",
+          "duration": "113m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Rx9V3Ltiklw&pp=0gcJCfwAo7VqN5tD",
+          "title": "Vibe Coding on Lovable AI for Absolute Beginners (Frontend, Backend, Prompting - all of it)",
+          "duration": "47m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=x4rFhThSX04",
+          "title": "Learn React JS - Full Beginner’s Tutorial & Practice Projects",
+          "duration": "940m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=N-PoAGryyq4",
+          "title": "Design an App from Scratch in Figma (Tutorial)",
+          "duration": "314m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs",
+          "description": "Official documentation for Firebase, covering setup, features, and integration for building apps.",
+          "title": "Firebase Documentation"
+        },
+        {
+          "url": "https://docs.pytorch.org/docs/stable/quantization.html",
+          "description": "Official PyTorch documentation for model quantization techniques to optimize performance.",
+          "title": "Quantization — PyTorch 2.7 documentation"
+        },
+        {
+          "url": "https://stoplight.io/api-documentation-guide",
+          "description": "A detailed guide on best practices for creating effective API documentation.",
+          "title": "How to Write API Documentation: a Best Practices Guide | Stoplight"
+        },
+        {
+          "url": "https://docs.lovable.dev/introduction/introduction",
+          "description": "An introductory guide to understanding and using the Lovable platform.",
+          "title": "Welcome - Lovable Documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.epicweb.dev/why-i-wont-use-nextjs",
+          "description": "An opinion piece outlining reasons for avoiding the use of Next.js in web development.",
+          "title": "Why I Won't Use Next.js | Epic Web Dev"
+        },
+        {
+          "url": "https://docs.lovable.dev/introduction/introduction",
+          "description": "An introductory overview of Lovable's platform and its core functionalities.",
+          "title": "Welcome - Lovable Documentation"
+        },
+        {
+          "url": "https://docs.pytorch.org/docs/stable/quantization.html",
+          "description": "Documentation on quantization techniques in PyTorch for model optimization.",
+          "title": "Quantization — PyTorch 2.7 documentation"
+        },
+        {
+          "url": "https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project",
+          "description": "A step-by-step tutorial on integrating React with a Flask backend to create a full-stack web application.",
+          "title": "How To Create a React + Flask Project - miguelgrinberg.com"
+        },
+        {
+          "url": "https://shopify.dev/docs/apps/build/build",
+          "description": "A step-by-step guide for building Shopify apps using their development platform.",
+          "title": "Build a Shopify app using Remix"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=iZ_aGK2_82A",
+          "title": "Mixpanel Tutorial: Everything You Need to Know",
+          "duration": "58m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-lgtb-YSUWE&pp=0gcJCfwAo7VqN5tD",
+          "title": "Elixir Programming Introduction - Complete Tutorial!",
+          "duration": "95m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bZzyPscbtI8",
+          "title": "Building AI Agents in Pure Python - Beginner Course",
+          "duration": "46m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CxSL0knFxAs",
+          "title": "React Vite Testing Tutorial For Beginners - Vitest Testing Crash Course",
+          "duration": "38m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uoOwVWVl_eU&pp=0gcJCfwAo7VqN5tD",
+          "title": "Generative AI for Java Developers: From Zero to Hero 🦸",
+          "duration": "21m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+          "title": "Easily Deploy Full Stack Node.js Apps on AWS EC2 | Step-by-Step Tutorial",
+          "duration": "29m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=F-8dft30NOA",
+          "title": "Performance/Load Testing with JMeter | JMeter Tutorial",
+          "duration": "19m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=nyiJ3WHNrB4",
+          "title": "Full Stack AI Web Development Guide For 2024 (30 Minutes)",
+          "duration": "29m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SPcwo0Gq9T8",
+          "title": "HashiCorp Terraform Associate Certification Course (003) - Pass the Exam!",
+          "duration": "424m"
+        },
+        {
+          "url": "https://www.youtube.com/c/AlexBerman/community"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://daily.dev/blog/apollos-learning-resources-for-developers",
+          "description": "A curated list of learning resources for developers using Apollo GraphQL.",
+          "title": "Apollo's Learning Resources for Developers"
+        },
+        {
+          "url": "https://docs.soliditylang.org/",
+          "description": "The official documentation for the Solidity programming language, used for writing smart contracts on Ethereum.",
+          "title": "Solidity — Solidity 0.8.30 documentation"
+        },
+        {
+          "url": "https://pytorch.org/docs/stable/torch.compiler_dynamo_overview.html",
+          "description": "An overview of PyTorch's TorchDynamo compiler for optimizing Python code execution.",
+          "title": "Dynamo Overview — PyTorch 2.7 documentation"
+        },
+        {
+          "url": "https://react.dev/",
+          "description": "The official documentation and resource hub for React, a JavaScript library for building user interfaces.",
+          "title": "React"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=CMgxu_P81-o",
+          "description": "A tutorial on building a REST API with Node.js and Express.",
+          "title": "How I would learn & master it if I were to start over again",
+          "duration": "29m"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/erik-seferi-393438202_cprogramming-raycasting-minilibx-activity-7184576872955928576-cIuN",
+          "description": "An overview of implementing raycasting in C using MiniLibX for graphical applications.",
+          "title": "🚀 Hey LinkedIn Fam, thrilled to share my latest project: cub3D - My First RayCaster with miniLibX! | Erik Seferi"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+          "description": "A beginner-friendly tutorial on data structures and algorithms in JavaScript.",
+          "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
+          "duration": "1274m"
+        },
+        {
+          "url": "https://www.upwork.com/resources/beginners-guide-back-end-development",
+          "description": "An introductory guide to understanding and starting a career in back-end development.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+          "description": "An instructional video on implementing OAuth 2.0 authentication in web applications.",
+          "title": "Full Course Web Development [22 Hours] | Learn Full Stack Web Development From Scratch",
+          "duration": "1308m"
+        },
+        {
+          "url": "https://zerotomastery.io/courses/",
+          "description": "A platform offering a wide range of courses to master various technical skills from beginner to advanced levels.",
+          "title": "Expert-Led Courses | Learn New Skills, Get Hired, Advance Your Career | Zero To Mastery"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=CMgxu_P81-o",
+          "title": "How I would learn & master it if I were to start over again",
+          "duration": "29m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+          "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
+          "duration": "1274m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+          "title": "Full Course Web Development [22 Hours] | Learn Full Stack Web Development From Scratch",
+          "duration": "1308m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RceLeh9D85o&pp=0gcJCfwAo7VqN5tD",
+          "title": "Strapi v4 Crash Course 2023 [ Getting Started with Strapi ]",
+          "duration": "70m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+          "title": "MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours",
+          "duration": "470m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=x4rFhThSX04",
+          "title": "Learn React JS - Full Beginner’s Tutorial & Practice Projects",
+          "duration": "940m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&pp=0gcJCfwAo7VqN5tD",
+          "title": "FastAPI Beyond CRUD Full Course - A FastAPI Course",
+          "duration": "772m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iZ_aGK2_82A",
+          "title": "Mixpanel Tutorial: Everything You Need to Know",
+          "duration": "58m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is Remix primarily used for in web development?",
+        "options": [
+          "Client-side rendering",
+          "Server-side rendering",
+          "Database management",
+          "Version control"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how Remix handles web pages compared to traditional client-side frameworks."
+      },
+      {
+        "question": "Which programming language is essential for setting up a Remix project?",
+        "options": [
+          "Python",
+          "Ruby",
+          "JavaScript",
+          "Go"
+        ],
+        "correct_option": 2,
+        "hint": "Remix projects are typically set up using Node.js, which is based on this language."
+      },
+      {
+        "question": "What is the role of loaders in a Remix application?",
+        "options": [
+          "To handle user authentication",
+          "To fetch data for rendering",
+          "To manage state transitions",
+          "To compile TypeScript"
+        ],
+        "correct_option": 1,
+        "hint": "Loaders are used to prepare data before rendering a page."
+      },
+      {
+        "question": "How does Remix handle authentication and authorization?",
+        "options": [
+          "By using server-side sessions and middleware",
+          "By integrating with front-end libraries",
+          "By using a separate microservice",
+          "By storing tokens in local storage"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how server-side logic can be used to manage user sessions securely."
+      },
+      {
+        "question": "What is a key advantage of using Remix for building RESTful APIs?",
+        "options": [
+          "It requires no server resources",
+          "It offers automatic database migrations",
+          "It integrates seamlessly with loaders and actions",
+          "It eliminates the need for a backend"
+        ],
+        "correct_option": 2,
+        "hint": "Remix's architecture allows actions to manage HTTP requests effectively."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary role of loaders in a Remix application?",
+        "options": [
+          "To manage client-side routing",
+          "To handle server-side data fetching",
+          "To perform authentication",
+          "To manage state transitions"
+        ],
+        "correct_option": 1,
+        "hint": "Loaders are designed to fetch data on the server side."
+      },
+      {
+        "question": "Which command is used to create a new Remix project with Node.js?",
+        "options": [
+          "npx create-remix-app",
+          "npm init remix",
+          "remix new",
+          "node remix-init"
+        ],
+        "correct_option": 0,
+        "hint": "The command involves using npx to bootstrap a new Remix application."
+      },
+      {
+        "question": "In Remix, what is a common use case for using actions?",
+        "options": [
+          "To handle HTTP GET requests",
+          "To perform client-side navigation",
+          "To manage server-side POST requests",
+          "To render HTML templates"
+        ],
+        "correct_option": 2,
+        "hint": "Actions are typically used for handling form submissions and other POST request scenarios."
+      },
+      {
+        "question": "How does Remix handle server-side rendering compared to client-side rendering?",
+        "options": [
+          "It uses React hooks for server-side rendering",
+          "It fetches data on the client side after the initial load",
+          "It pre-renders HTML on the server and sends it to the client",
+          "It relies entirely on client-side scripts"
+        ],
+        "correct_option": 2,
+        "hint": "Server-side rendering in Remix involves pre-rendering HTML."
+      },
+      {
+        "question": "What strategy is recommended for managing authentication in a Remix application?",
+        "options": [
+          "Using a client-side authentication library",
+          "Implementing server-side sessions",
+          "Storing tokens in local storage",
+          "Relying on query parameters for authentication"
+        ],
+        "correct_option": 1,
+        "hint": "Server-side solutions are often preferred for secure authentication in Remix."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a primary advantage of using Remix's server-side rendering compared to traditional client-side rendering?",
+        "options": [
+          "Improved SEO and faster initial page loads",
+          "Reduced server costs and infrastructure complexity",
+          "Simplified client-side JavaScript code",
+          "Increased browser compatibility"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the benefits of rendering content on the server before it reaches the client."
+      },
+      {
+        "question": "When setting up a Remix project with Node.js, which command initializes the project with the default template?",
+        "options": [
+          "npx create-remix-app",
+          "npm init remix",
+          "npx remix init",
+          "npm create remix-app"
+        ],
+        "correct_option": 0,
+        "hint": "This command uses npx to run a script that sets up a new Remix application."
+      },
+      {
+        "question": "In Remix, what is the primary purpose of loaders in data handling?",
+        "options": [
+          "To manage client-side state",
+          "To fetch data from the server before rendering",
+          "To process JSON responses from APIs",
+          "To handle user authentication and sessions"
+        ],
+        "correct_option": 1,
+        "hint": "Loaders are designed to prepare data on the server side before it is sent to the client."
+      },
+      {
+        "question": "Which of the following is a key feature of building RESTful APIs with Remix?",
+        "options": [
+          "Automated API documentation generation",
+          "Efficient state management in the client",
+          "Seamless integration with GraphQL",
+          "Streamlined data fetching and mutation with actions"
+        ],
+        "correct_option": 3,
+        "hint": "Consider how Remix utilizes both loaders and actions for handling data."
+      },
+      {
+        "question": "What is a recommended strategy for handling authentication in a Remix application?",
+        "options": [
+          "Using JWTs for client-side token storage",
+          "Implementing server-side session management",
+          "Relying solely on third-party authentication services",
+          "Storing authentication tokens in local storage"
+        ],
+        "correct_option": 1,
+        "hint": "Think about server-side solutions that enhance security and control over user sessions."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User wants modern SSR alternative to Next.js"
+  ]
+}

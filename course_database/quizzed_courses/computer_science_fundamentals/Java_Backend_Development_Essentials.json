@@ -1,0 +1,285 @@
+{
+  "id": "CS11",
+  "name": "Java Backend Development Essentials",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Java",
+  "topics": [
+    "Java Programming Fundamentals",
+    "Object-Oriented Programming in Java",
+    "Introduction to Spring Framework",
+    "Building RESTful APIs with Spring Boot",
+    "Database Integration with Java",
+    "Java Servlets and JSP",
+    "Security and Authentication in Java Applications",
+    "Deploying Java Applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "java",
+    "backend",
+    "spring",
+    "restful-apis",
+    "database-integration",
+    "mvc",
+    "oop"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://firebase.google.com/docs/database",
+        "https://docs.aws.amazon.com/",
+        "https://docs.oracle.com/en/java/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://m.youtube.com/watch?v=tZvjSl9dswg&t=08m23s",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.w3schools.com/java/",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://lp.jetbrains.com/academy/learn-java/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/watch?v=tZvjSl9dswg",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=xdeFYtP6-T0"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+        "https://docs.temporal.io/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://m.youtube.com/watch?v=mRATEFmDmeA&pp=ygUGI2FlbW9y",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.freecodecamp.org/news/design-pattern-for-modern-backend-development-and-use-cases/",
+        "https://www.youtube.com/watch?v=31KTdfRH6nY&pp=0gcJCfwAo7VqN5tD"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/watch?v=31KTdfRH6nY&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=mRATEFmDmeA&pp=ygUGI2FlbW9y",
+        "https://www.youtube.com/watch?v=Gx4iBLKLVHk",
+        "https://www.youtube.com/watch?v=FtaQSdrl7YA",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=uoOwVWVl_eU&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=PeojZFlD8yM"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://daily.dev/blog/how-to-learn-java-step-by-step-core-concepts",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+        "https://developer.android.com/get-started/overview",
+        "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://daily.dev/blog/how-to-learn-java-step-by-step-core-concepts",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.devoxify.com/posts/the-definitive-guide-to-java-backend-developer-career-path/",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=dzUc9vrsldM",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=ioPagXHCRjc&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=eOQN8DJ4Lrg",
+        "https://www.youtube.com/watch?v=aS0t9HTO5V4"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main purpose of the Spring Framework in Java development?",
+        "options": [
+          "To handle HTTP requests and responses",
+          "To manage dependencies and simplify Java application development",
+          "To create graphical user interfaces",
+          "To perform mathematical calculations"
+        ],
+        "correct_option": 1,
+        "hint": "It is used to streamline enterprise application development."
+      },
+      {
+        "question": "Which of these is a key characteristic of Object-Oriented Programming in Java?",
+        "options": [
+          "Functional Programming",
+          "Procedural Programming",
+          "Encapsulation",
+          "Assembly Programming"
+        ],
+        "correct_option": 2,
+        "hint": "It involves bundling data with the methods that operate on that data."
+      },
+      {
+        "question": "What is a primary function of Java Servlets?",
+        "options": [
+          "To generate dynamic web content",
+          "To manage database connections",
+          "To compile Java code",
+          "To handle email sending"
+        ],
+        "correct_option": 0,
+        "hint": "They run on a server and respond to web requests."
+      },
+      {
+        "question": "Which HTTP method is typically used to retrieve data in a RESTful API with Spring Boot?",
+        "options": [
+          "POST",
+          "PUT",
+          "GET",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method is used to request data from a specified resource."
+      },
+      {
+        "question": "What is a common use of JDBC in Java applications?",
+        "options": [
+          "To manage user authentication",
+          "To connect and interact with databases",
+          "To manage application security",
+          "To create graphical interfaces"
+        ],
+        "correct_option": 1,
+        "hint": "It is a Java API that enables Java applications to interact with databases."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of the Spring Framework in Java backend development?",
+        "options": [
+          "To provide a comprehensive programming and configuration model.",
+          "To replace Java syntax with simpler alternatives.",
+          "To serve as a database management system.",
+          "To enhance the performance of Java applets."
+        ],
+        "correct_option": 0,
+        "hint": "Think about Spring's role in the context of Java applications."
+      },
+      {
+        "question": "Which of the following is NOT a feature of object-oriented programming in Java?",
+        "options": [
+          "Inheritance",
+          "Encapsulation",
+          "Polymorphism",
+          "Compilation"
+        ],
+        "correct_option": 3,
+        "hint": "Consider the core concepts that define object-oriented programming."
+      },
+      {
+        "question": "When building RESTful APIs with Spring Boot, which annotation is used to map HTTP requests to handler methods of MVC and REST controllers?",
+        "options": [
+          "@Service",
+          "@Repository",
+          "@Autowired",
+          "@RequestMapping"
+        ],
+        "correct_option": 3,
+        "hint": "This annotation is crucial for defining endpoint mappings."
+      },
+      {
+        "question": "In Java, which interface must be implemented to create a custom comparator for sorting objects?",
+        "options": [
+          "Comparable",
+          "Comparator",
+          "Iterable",
+          "IterableComparator"
+        ],
+        "correct_option": 1,
+        "hint": "This interface provides a method for custom sorting logic."
+      },
+      {
+        "question": "Which component of a Java EE application is responsible for rendering dynamic web content on the client side?",
+        "options": [
+          "Java Beans",
+          "Java Servlets",
+          "JSP (JavaServer Pages)",
+          "JDBC (Java Database Connectivity)"
+        ],
+        "correct_option": 2,
+        "hint": "This technology allows embedding of Java code within HTML."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a key feature of the Spring Framework that facilitates dependency injection?",
+        "options": [
+          "Aspect-Oriented Programming",
+          "Inversion of Control",
+          "Model-View-Controller",
+          "Transaction Management"
+        ],
+        "correct_option": 1,
+        "hint": "This feature helps manage object creation and their dependencies."
+      },
+      {
+        "question": "In Java, which of the following keywords is used to prevent a class from being subclassed?",
+        "options": [
+          "static",
+          "final",
+          "abstract",
+          "synchronized"
+        ],
+        "correct_option": 1,
+        "hint": "This keyword also prevents a method from being overridden."
+      },
+      {
+        "question": "Which annotation in Spring Boot is used to enable auto-configuration of the application context?",
+        "options": [
+          "@SpringBootApplication",
+          "@Configuration",
+          "@EnableAutoConfiguration",
+          "@ComponentScan"
+        ],
+        "correct_option": 2,
+        "hint": "This annotation is part of the Spring Boot core and helps bootstrap the application."
+      },
+      {
+        "question": "When integrating a database with Java using JDBC, which method is used to execute a SQL query that returns a ResultSet?",
+        "options": [
+          "executeQuery()",
+          "executeUpdate()",
+          "execute()",
+          "prepareStatement()"
+        ],
+        "correct_option": 0,
+        "hint": "This method is specifically for queries that return data."
+      },
+      {
+        "question": "In a RESTful API built with Spring Boot, which HTTP method is idempotent and typically used for updating resources?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method is used for updating resources and can be repeated without changing the result."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User aims for enterprise development",
+    "Needs strong typing early on"
+  ]
+}

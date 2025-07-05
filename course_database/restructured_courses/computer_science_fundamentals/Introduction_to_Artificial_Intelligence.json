@@ -16,105 +16,148 @@
     "overview"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/pong/click?code=aHR0cHM6Ly9zcnYuYnV5c2VsbGFkcy5jb20vYWRzL2NsaWNrL3gvR1RORDQyN01DNjdENjI3TkNFQkxZS1FVQ1dZSTUyUVdDQUFJNFozSkNBQkk0NTNZQ1ZTRDRLSktDQTdEQzIzRUM2U0k2NTNMQzY3RENLN1VDV0FJTFozSkNBQkk0S0pFRjY3RFRLM0sySldOQUJZ.OLtIJxIKzeysJsJZQpZFZgHUNkZpX0o8t7sEZP1axhA%3D&version=2",
-        "description": "The URL appears to be encoded or obfuscated and does not directly lead to a specific technical resource for description."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/blog/introducing-ai-help/",
-        "description": "This blog post introduces the AI Help tool designed to assist developers with coding queries on MDN Web Docs."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/plus/docs/features/ai-help",
-        "description": "An overview of AI-powered assistance features available on the MDN Web Docs platform to enhance user experience."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/ai/",
-        "description": "Comprehensive tutorials and resources for learning artificial intelligence concepts and applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligence/",
-        "description": "An introductory guide to the fundamental concepts and applications of artificial intelligence."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/machine-learning/machine-learning/",
-        "description": "An introductory guide to the fundamentals and applications of machine learning concepts and techniques."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/machine-learning/introduction-machine-learning/",
-        "description": "An introductory guide to the fundamental concepts and applications of machine learning."
-      },
-      {
-        "url": "https://www.w3schools.com/python/python_ml_getting_started.asp",
-        "description": "Introduction to getting started with machine learning using Python, including basic concepts and setup instructions."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=a0_lo_GDcFw",
-      "https://www.youtube.com/watch?v=SSE4M0gcmvE",
-      "https://www.youtube.com/watch?v=JMUxmLyrhSk",
-      "https://www.youtube.com/watch?v=ad79nYk2keg",
-      "https://www.youtube.com/watch?v=39zbC_PrNQs"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Who is considered the 'father of artificial intelligence'?",
-      "options": [
-        "Alan Turing",
-        "John McCarthy",
-        "Marvin Minsky",
-        "Herbert Simon"
+    "beginner": {
+      "docs": [
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform",
+        "https://docs.databricks.com/aws/en/machine-learning/",
+        "https://cloud.google.com/vertex-ai/docs",
+        "https://docs.spring.io/spring-ai/reference/index.html"
       ],
-      "correct_option": 1,
-      "hint": "This person coined the term 'artificial intelligence'."
+      "notes": [
+        "https://developers.google.com/machine-learning/crash-course",
+        "https://microsoft.github.io/AI-For-Beginners/",
+        "https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python",
+        "https://www.amazon.com/Artificial-Intelligence-Engines-Introduction-Mathematics/dp/0956372813",
+        "https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Yq0QkCxoTHM",
+        "https://www.youtube.com/watch?v=J8Eh7RqggsU",
+        "https://www.youtube.com/watch?v=E-jO93bk0wE",
+        "https://www.youtube.com/watch?v=AzUZiUz-Wpc",
+        "https://www.youtube.com/watch?v=NckTNpnZW_0",
+        "https://www.youtube.com/watch?v=i_LwzRVP7bg",
+        "https://www.youtube.com/watch?v=gD_HWj_hvbo",
+        "https://www.youtube.com/watch?v=JMUxmLyrhSk"
+      ]
     },
-    {
-      "question": "What is the primary goal of search algorithms in AI problem solving?",
-      "options": [
-        "To find the shortest path",
-        "To maximize resource utilization",
-        "To determine the best solution",
-        "To explore all possible solutions"
+    "intermediate": {
+      "docs": [
+        "https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform",
+        "https://docs.databricks.com/aws/en/machine-learning/",
+        "https://cloud.google.com/vertex-ai"
       ],
-      "correct_option": 2,
-      "hint": "Think about the efficiency and effectiveness of solutions."
+      "notes": [
+        "https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform",
+        "https://artificialintelligenceact.eu/high-level-summary/",
+        "https://cloud.google.com/learn/what-is-artificial-intelligence",
+        "https://docs.databricks.com/aws/en/machine-learning/",
+        "https://www.mckinsey.com/~/media/mckinsey/featured%20insights/artificial%20intelligence/notes%20from%20the%20ai%20frontier%20applications%20and%20value%20of%20deep%20learning/notes-from-the-ai-frontier-insights-from-hundreds-of-use-cases-discussion-paper.pdf",
+        "https://aws.amazon.com/bedrock/",
+        "https://docs.n8n.io/advanced-ai/intro-tutorial/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=YOZGxd6ZC3A",
+        "https://www.youtube.com/watch?v=Vtm7pdD2Ghc",
+        "https://www.youtube.com/watch?v=i3Aizzfuv7Y",
+        "https://www.youtube.com/watch?v=7eh4d6sabA0",
+        "https://www.youtube.com/watch?v=G2fqAlgmoPo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=0Kr1eh1wwb8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=sToCxpd0Sb8",
+        "https://www.youtube.com/watch?v=E1K9SZCm0fQ"
+      ]
     },
-    {
-      "question": "Which of the following is a key component of knowledge representation in AI?",
-      "options": [
-        "Neural networks",
-        "Decision trees",
-        "Semantic networks",
-        "Genetic algorithms"
+    "advanced": {
+      "docs": [
+        "https://cloud.google.com/ai/generative-ai",
+        "https://developers.google.com/machine-learning",
+        "https://cloud.google.com/vertex-ai/docs",
+        "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/"
       ],
-      "correct_option": 2,
-      "hint": "It is a graphical representation of knowledge."
-    },
-    {
-      "question": "Which type of machine learning involves learning from a labeled dataset?",
-      "options": [
-        "Supervised learning",
-        "Unsupervised learning",
-        "Reinforcement learning",
-        "Deep learning"
+      "notes": [
+        "https://www.amazon.com/Python-Advanced-Artificial-Intelligence-intelligent/dp/1789957214",
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://www.amazon.com/Artificial-Intelligence-Engines-Introduction-Mathematics/dp/0956372813",
+        "https://notebooklm.google/",
+        "https://aws.amazon.com/ai/learn/",
+        "https://developers.google.com/machine-learning",
+        "https://microsoft.github.io/AI-For-Beginners/"
       ],
-      "correct_option": 0,
-      "hint": "The data provides the correct answers during training."
-    },
-    {
-      "question": "What was one of the first successful AI programs that played chess?",
-      "options": [
-        "Deep Blue",
-        "AlphaGo",
-        "The Turk",
-        "Mac Hack VI"
-      ],
-      "correct_option": 3,
-      "hint": "This program was developed at MIT in the 1960s."
+      "videos": [
+        "https://www.youtube.com/watch?v=tpCFfeUEGs8",
+        "https://m.youtube.com/watch?v=jGwO_UgTS7I&pp=2AEAkAIB",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=qYNweeDHiyU",
+        "https://www.youtube.com/watch?v=CuUOt5djqSs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=T9aRN5JkmL8",
+        "https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw",
+        "https://www.youtube.com/@gologicatechnologies",
+        "https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Who is considered the 'father of artificial intelligence'?",
+        "options": [
+          "Alan Turing",
+          "John McCarthy",
+          "Marvin Minsky",
+          "Herbert Simon"
+        ],
+        "correct_option": 1,
+        "hint": "This person coined the term 'artificial intelligence'."
+      },
+      {
+        "question": "What is the primary goal of search algorithms in AI problem solving?",
+        "options": [
+          "To find the shortest path",
+          "To maximize resource utilization",
+          "To determine the best solution",
+          "To explore all possible solutions"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the efficiency and effectiveness of solutions."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is a key component of knowledge representation in AI?",
+        "options": [
+          "Neural networks",
+          "Decision trees",
+          "Semantic networks",
+          "Genetic algorithms"
+        ],
+        "correct_option": 2,
+        "hint": "It is a graphical representation of knowledge."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which type of machine learning involves learning from a labeled dataset?",
+        "options": [
+          "Supervised learning",
+          "Unsupervised learning",
+          "Reinforcement learning",
+          "Deep learning"
+        ],
+        "correct_option": 0,
+        "hint": "The data provides the correct answers during training."
+      },
+      {
+        "question": "What was one of the first successful AI programs that played chess?",
+        "options": [
+          "Deep Blue",
+          "AlphaGo",
+          "The Turk",
+          "Mac Hack VI"
+        ],
+        "correct_option": 3,
+        "hint": "This program was developed at MIT in the 1960s."
+      }
+    ]
+  }
 }

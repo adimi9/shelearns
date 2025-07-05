@@ -23,107 +23,153 @@
     "server-side"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+        "https://expressjs.com/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://docs.stripe.com/api"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=XUbOCs2QHYk",
+        "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "http://www.w3schools.com/nodejs/",
+        "https://www.youtube.com/watch?v=MIJt9H69QVc",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=XUbOCs2QHYk",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://www.youtube.com/watch?v=fhRHGAgvrh4",
+        "https://www.youtube.com/watch?v=Hl7diL7SFw8",
+        "https://www.youtube.com/watch?v=w-7RQ46RgxU",
+        "https://www.youtube.com/playlist?list=PLzjZaW71kMwScTRKzoasdyB1sX-a9EbFp",
+        "https://www.youtube.com/c/DipeshMalvia",
+        "https://www.youtube.com/watch?v=RHLxtAo0aEI&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://community.openai.com/t/how-to-train-open-ai-with-my-own-datas-from-database/305762",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://nodejs.org/api/packages.html"
+      ],
+      "notes": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://stackoverflow.com/questions/58833714/how-does-an-api-compare-to-directly-querying-your-database",
+        "https://www.geeksforgeeks.org/node-js/nodejs/",
+        "https://www.linkedin.com/pulse/from-nodejs-go-why-im-making-switch-backend-luqman-shaban-v9qdf",
+        "https://community.openai.com/t/how-to-train-open-ai-with-my-own-datas-from-database/305762",
+        "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-backend"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=bsaGKP8Eon4",
+        "https://www.youtube.com/watch?v=qwfE7fSVaZM",
+        "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=GHVvrYD4VRE",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=mtuYmm2ITvI",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/@hnasr",
+        "https://www.youtube.com/c/GreatAdib"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://nodejs.org/docs/latest/api/",
+        "https://expressjs.com/",
+        "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick",
+        "https://artoonsolutions.com/nodejs-documentation/"
+      ],
+      "notes": [
+        "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
+        "http://nodesource.com/blog/how-nodejs-works/",
+        "https://daily.dev/blog/setup-nodejs-express-project-a-beginners-guide",
+        "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions",
+        "https://blog.risingstack.com/node-js-project-structure-tutorial-node-js-at-scale/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://www.youtube.com/watch?v=fUJ3ULyyA-Y",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=MIJt9H69QVc",
+        "https://www.youtube.com/watch?v=qG-PLm3APSs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=H9M02of22z4"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://nodejs.org/docs/latest/api/",
-        "description": "Comprehensive documentation for the latest Node.js API, detailing modules, classes, and functions."
+        "question": "What is Node.js primarily used for in backend development?",
+        "options": [
+          "Building desktop applications",
+          "Creating scalable network applications",
+          "Developing mobile applications",
+          "Designing user interfaces"
+        ],
+        "correct_option": 1,
+        "hint": "Node.js excels in handling asynchronous I/O operations."
       },
       {
-        "url": "https://nodejs.org/api/documentation.html",
-        "description": "Comprehensive guide to Node.js API documentation, detailing modules, methods, and functionalities for developers."
-      },
-      {
-        "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
-        "description": "An introductory guide to understanding and starting with Node.js for building server-side applications."
+        "question": "Which language is Node.js based on?",
+        "options": [
+          "Python",
+          "Ruby",
+          "Java",
+          "JavaScript"
+        ],
+        "correct_option": 3,
+        "hint": "Node.js is powered by the V8 engine, which is also used by a popular web browser."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "http://www.w3schools.com/nodejs/",
-        "description": "A comprehensive guide to learning Node.js, covering its features, installation, and core concepts for building server-side applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/node-js/nodejs/",
-        "description": "An introductory guide to Node.js, covering its features, installation, and basic usage for server-side programming."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/get-started-with-nodejs/",
-        "description": "This article provides a beginner-friendly introduction to Node.js, covering its basics and setup process."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/help-to-learn-node-js/66187",
-        "description": "A community forum thread offering advice and resources for beginners learning Node.js."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/from-where-should-we-start-learning-node-js/33067",
-        "description": "This forum thread discusses recommended starting points and resources for learning Node.js effectively."
+        "question": "What is a primary advantage of using Node.js for I/O operations?",
+        "options": [
+          "Synchronous processing",
+          "Multi-threaded execution",
+          "Non-blocking asynchronous architecture",
+          "Strong typing"
+        ],
+        "correct_option": 2,
+        "hint": "Node.js uses an event-driven model to handle requests."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=32M1al-Y6Ag&pp=0gcJCfwAo7VqN5tD",
-      "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
-      "https://www.youtube.com/watch?v=f2EqECiTBL8",
-      "https://www.youtube.com/watch?v=CnH3kAXSrmU",
-      "https://www.youtube.com/watch?v=L72fhGm1tfE&pp=0gcJCdgAo7VqN5tD"
+    "advanced": [
+      {
+        "question": "Which of the following best describes Node.js?",
+        "options": [
+          "A JavaScript library for frontend development",
+          "A runtime environment for executing JavaScript on the server",
+          "A framework for building mobile applications",
+          "A database management system"
+        ],
+        "correct_option": 1,
+        "hint": "Node.js allows JavaScript to run outside of a browser."
+      },
+      {
+        "question": "Why might a developer choose Node.js over Python for backend development?",
+        "options": [
+          "It is better for CPU-intensive tasks",
+          "It has a larger standard library",
+          "It uses a synchronous execution model",
+          "It offers high performance for network applications"
+        ],
+        "correct_option": 3,
+        "hint": "Node.js is known for its efficiency in handling multiple concurrent connections."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is Node.js primarily used for in backend development?",
-      "options": [
-        "Building desktop applications",
-        "Creating scalable network applications",
-        "Developing mobile applications",
-        "Designing user interfaces"
-      ],
-      "correct_option": 1,
-      "hint": "Node.js excels in handling asynchronous I/O operations."
-    },
-    {
-      "question": "Which language is Node.js based on?",
-      "options": [
-        "Python",
-        "Ruby",
-        "Java",
-        "JavaScript"
-      ],
-      "correct_option": 3,
-      "hint": "Node.js is powered by the V8 engine, which is also used by a popular web browser."
-    },
-    {
-      "question": "What is a primary advantage of using Node.js for I/O operations?",
-      "options": [
-        "Synchronous processing",
-        "Multi-threaded execution",
-        "Non-blocking asynchronous architecture",
-        "Strong typing"
-      ],
-      "correct_option": 2,
-      "hint": "Node.js uses an event-driven model to handle requests."
-    },
-    {
-      "question": "Which of the following best describes Node.js?",
-      "options": [
-        "A JavaScript library for frontend development",
-        "A runtime environment for executing JavaScript on the server",
-        "A framework for building mobile applications",
-        "A database management system"
-      ],
-      "correct_option": 1,
-      "hint": "Node.js allows JavaScript to run outside of a browser."
-    },
-    {
-      "question": "Why might a developer choose Node.js over Python for backend development?",
-      "options": [
-        "It is better for CPU-intensive tasks",
-        "It has a larger standard library",
-        "It uses a synchronous execution model",
-        "It offers high performance for network applications"
-      ],
-      "correct_option": 3,
-      "hint": "Node.js is known for its efficiency in handling multiple concurrent connections."
-    }
-  ],
   "preferred_if": [
     "User already knows JavaScript",
     "Needs high performance for I/O operations"

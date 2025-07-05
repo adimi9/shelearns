@@ -1,0 +1,381 @@
+{
+  "id": "BE21",
+  "name": "Non-Relational Databases (NoSQL)",
+  "category": "Backend Development",
+  "primary_tech": "NoSQL",
+  "topics": [
+    "Document Databases (MongoDB)",
+    "Key-Value Stores (Redis)",
+    "Graph Databases (Neo4j basics)"
+  ],
+  "recommended": false,
+  "tags": [
+    "database",
+    "NoSQL",
+    "data-modeling"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/database",
+          "description": "Official documentation for Firebase Realtime Database, detailing its features and usage.",
+          "title": "Firebase Realtime Database"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html",
+          "description": "An introductory guide to Amazon DynamoDB, a fully managed NoSQL database service.",
+          "title": "What is Amazon DynamoDB? - Amazon DynamoDB"
+        },
+        {
+          "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+          "description": "An introductory guide explaining NoSQL databases and their benefits.",
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+          "description": "An introductory guide explaining the fundamentals of NoSQL databases.",
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data",
+          "description": "An overview of non-relational data technologies in big data architectures on Azure.",
+          "title": "Non-relational data and NoSQL - Azure Architecture Center | Microsoft Learn"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/nosql-databases",
+          "description": "An overview of NoSQL databases and their applications in modern data management.",
+          "title": "What Is a NoSQL Database? | IBM"
+        },
+        {
+          "url": "https://cloud.google.com/discover/what-is-nosql",
+          "description": "An introduction to NoSQL databases and their benefits in cloud computing.",
+          "title": "What is NoSQL? Databases Explained | Google Cloud"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/non-relational-databases-and-their-types/",
+          "description": "An overview of non-relational databases and their various types.",
+          "title": "Non-Relational Databases and Their Types - GeeksforGeeks"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=uD3p_rZPBUQ",
+        "https://www.youtube.com/watch?v=GV9VBwH_h1U&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=xh4gy1lbL2k",
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+        "https://www.youtube.com/watch?v=FRqrZGB8NBs",
+        "https://www.youtube.com/watch?v=aUPVpIYiLCc",
+        "https://www.youtube.com/playlist?list=PL6n9fhu94yhWowRM5l5KYRRZ9yASZNsJ0",
+        "https://www.youtube.com/user/michaelfudge",
+        "https://www.youtube.com/watch?v=rhzUrejsA4A",
+        "https://www.youtube.com/watch?v=3CzxJ9vb_QQ"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/discover/what-is-nosql",
+          "description": "An introduction to NoSQL databases and their benefits in cloud environments.",
+          "title": "What is NoSQL? Databases Explained | Google Cloud"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html",
+          "description": "An introduction to Amazon DynamoDB, covering its features and benefits.",
+          "title": "What is Amazon DynamoDB? - Amazon DynamoDB"
+        },
+        {
+          "url": "https://www.mongodb.com/resources/basics/databases/document-databases",
+          "description": "An introductory guide to understanding document databases and their role in modern data management.",
+          "title": "Document Database - NoSQL | MongoDB"
+        },
+        {
+          "url": "https://firebase.google.com/docs/database",
+          "description": "Official documentation for Firebase Realtime Database, covering setup and usage.",
+          "title": "Firebase Realtime Database"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+          "description": "An introductory guide explaining the fundamentals of NoSQL databases.",
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB"
+        },
+        {
+          "url": "https://stackoverflow.com/questions/3713313/when-should-i-use-a-nosql-database-instead-of-a-relational-database-is-it-okay",
+          "description": "A discussion on when to choose NoSQL databases over relational databases.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/nosql-databases",
+          "description": "An insightful overview of NoSQL databases and their applications.",
+          "title": "What Is a NoSQL Database? | IBM"
+        },
+        {
+          "url": "https://cloud.google.com/discover/what-is-nosql",
+          "description": "An introductory explanation of NoSQL databases and their use cases.",
+          "title": "What is NoSQL? Databases Explained | Google Cloud"
+        },
+        {
+          "url": "https://www.pluralsight.com/resources/blog/software-development/relational-vs-non-relational-databases",
+          "description": "An insightful comparison of relational and non-relational databases for software development.",
+          "title": "Relational vs. non-relational databases | Pluralsight"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Ls3EQXthqqM",
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+        "https://www.youtube.com/watch?v=byLJcf20vOw",
+        "https://www.youtube.com/watch?v=LvFoyJzzsn4",
+        "https://www.youtube.com/watch?v=uD3p_rZPBUQ",
+        "https://www.youtube.com/watch?v=Hdi1awDJi3Q",
+        "https://www.youtube.com/watch?v=WFycRMLvMKc",
+        "https://www.youtube.com/watch?v=bixPfJ2PT4E",
+        "https://www.youtube.com/watch?v=sq2Eo3qclaY",
+        "https://www.youtube.com/@hnasr"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html",
+          "description": "An introductory guide to Amazon DynamoDB, a fully managed NoSQL database service.",
+          "title": "What is Amazon DynamoDB? - Amazon DynamoDB"
+        },
+        {
+          "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+          "description": "An introductory guide explaining the fundamentals of NoSQL databases.",
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB"
+        },
+        {
+          "url": "https://cloud.google.com/spanner",
+          "description": "An overview of Google Cloud Spanner, a scalable, global, and strongly consistent database service.",
+          "title": "Spanner: Always-on, virtually unlimited scale database | Google Cloud"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+          "description": "An introductory guide explaining the fundamentals and benefits of NoSQL databases.",
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB"
+        },
+        {
+          "url": "https://www.scylladb.com/learn/nosql/",
+          "description": "An educational resource for learning about NoSQL databases with ScyllaDB.",
+          "title": "NoSQL Database Guide - ScyllaDB"
+        },
+        {
+          "url": "https://codethechange.stanford.edu/guides/sql.html",
+          "description": "An introductory guide to SQL for beginners, covering basic concepts and queries.",
+          "title": "Introduction to Database and Structured Query Language (SQL) — Stanford Code the Change Guides documentation"
+        },
+        {
+          "url": "https://www.educative.io/blog/relational-database-deep-dive",
+          "description": "An in-depth exploration of relational databases and their core concepts.",
+          "title": "What is a relational database? A deep dive"
+        },
+        {
+          "url": "https://blazeclan.com/blog/dive-deep-types-nosql-databases/",
+          "description": "An in-depth exploration of various types of NoSQL databases.",
+          "title": "4 Types of NoSQL Databases & When to use them?"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/non-relational-databases-and-their-types/",
+          "description": "An overview of non-relational databases and their various types.",
+          "title": "Non-Relational Databases and Their Types - GeeksforGeeks"
+        },
+        {
+          "url": "https://aws.amazon.com/dynamodb/",
+          "description": "An overview of Amazon DynamoDB, a fully managed NoSQL database service.",
+          "title": "Fast NoSQL Key-Value Database – Amazon DynamoDB – AWS"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+        "https://www.youtube.com/watch?v=xh4gy1lbL2k",
+        "https://www.youtube.com/watch?v=bixPfJ2PT4E",
+        "https://www.youtube.com/watch?v=LvFoyJzzsn4",
+        "https://www.youtube.com/watch?v=EvB7REsf0ic",
+        "https://m.youtube.com/watch?v=jh14LlMHyds&pp=ygUHI25vbnNxbA%3D%3D",
+        "https://www.youtube.com/watch?v=XMEkNZby95M&pp=ygUKI2VsZWN0cm9kYg%3D%3D",
+        "https://www.youtube.com/watch?v=Puc2EjkdycU",
+        "https://www.youtube.com/watch?v=7MfBlmAomeM",
+        "https://www.youtube.com/c/programmingpalli"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What type of database is MongoDB?",
+        "options": [
+          "Document Database",
+          "Relational Database",
+          "Graph Database",
+          "Key-Value Store"
+        ],
+        "correct_option": 0,
+        "hint": "It stores data in JSON-like documents."
+      },
+      {
+        "question": "Which of the following is a primary use case for Key-Value Stores like Redis?",
+        "options": [
+          "Complex querying",
+          "Storing relations between entities",
+          "Caching and session management",
+          "Full-text search"
+        ],
+        "correct_option": 2,
+        "hint": "Think about fast data retrieval and temporary storage."
+      },
+      {
+        "question": "What is a key characteristic of graph databases like Neo4j?",
+        "options": [
+          "They use SQL for queries",
+          "They store data in tables",
+          "They model relationships between data entities",
+          "They are primarily used for full-text search"
+        ],
+        "correct_option": 2,
+        "hint": "Graph databases excel at representing relationships."
+      },
+      {
+        "question": "Which query language is often associated with Neo4j?",
+        "options": [
+          "SQL",
+          "Cypher",
+          "SPARQL",
+          "MDX"
+        ],
+        "correct_option": 1,
+        "hint": "It's not SQL, but it's designed for graph databases."
+      },
+      {
+        "question": "What is a common feature of NoSQL databases?",
+        "options": [
+          "Schema rigidity",
+          "Horizontal scaling",
+          "Vertical scaling",
+          "Fixed table structure"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how NoSQL databases handle large amounts of data across multiple servers."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a common use case for using a document database like MongoDB?",
+        "options": [
+          "Storing unstructured data such as JSON",
+          "Handling complex transactions",
+          "Performing real-time analytics",
+          "Managing relational data with fixed schemas"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the type of data that document databases are optimized to handle."
+      },
+      {
+        "question": "Which of the following operations is Redis particularly well-suited for?",
+        "options": [
+          "Executing complex joins between tables",
+          "Storing and quickly retrieving key-value pairs",
+          "Running graph traversal queries",
+          "Ensuring ACID compliance in transactions"
+        ],
+        "correct_option": 1,
+        "hint": "Redis is known for its speed and simplicity in handling certain data structures."
+      },
+      {
+        "question": "In Neo4j, which of the following is used to represent relationships between nodes?",
+        "options": [
+          "Edges",
+          "Documents",
+          "Keys",
+          "Values"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how connections are typically represented in graph theory."
+      },
+      {
+        "question": "Which command is used to insert a new document into a collection in MongoDB?",
+        "options": [
+          "INSERT INTO",
+          "ADD DOCUMENT",
+          "PUT",
+          "insertOne"
+        ],
+        "correct_option": 3,
+        "hint": "MongoDB commands often follow a specific naming convention related to their function."
+      },
+      {
+        "question": "What is a key advantage of using a graph database like Neo4j over a relational database?",
+        "options": [
+          "Better performance in handling highly interconnected data",
+          "Simpler query language",
+          "More scalable for all types of queries",
+          "Stronger data integrity enforcement"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the type of data structure that graph databases are designed to efficiently manage."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In MongoDB, which of the following operations is used to combine documents from multiple collections?",
+        "options": [
+          "$aggregate",
+          "$lookup",
+          "$merge",
+          "$concat"
+        ],
+        "correct_option": 1,
+        "hint": "Think of an operation that combines documents similar to a SQL JOIN."
+      },
+      {
+        "question": "Which command is used in Redis to remove all keys from all databases?",
+        "options": [
+          "FLUSHDB",
+          "FLUSHALL",
+          "DEL *",
+          "RESET"
+        ],
+        "correct_option": 1,
+        "hint": "This command affects all databases, not just the currently selected one."
+      },
+      {
+        "question": "In Neo4j, which clause is used to match a pattern in the graph?",
+        "options": [
+          "MATCH",
+          "SEARCH",
+          "FIND",
+          "SELECT"
+        ],
+        "correct_option": 0,
+        "hint": "This clause is similar to a standard SQL SELECT but specific to graph patterns."
+      },
+      {
+        "question": "What data structure does Redis primarily use to store strings, lists, sets, and hashes efficiently?",
+        "options": [
+          "B-trees",
+          "Binary trees",
+          "Skip lists",
+          "Hash tables"
+        ],
+        "correct_option": 3,
+        "hint": "Consider a data structure that allows O(1) average time complexity for lookups."
+      },
+      {
+        "question": "In MongoDB, what is the term for the method used to limit the number of documents returned by a query?",
+        "options": [
+          "crop",
+          "limit",
+          "truncate",
+          "reduce"
+        ],
+        "correct_option": 1,
+        "hint": "This method shares its name with a common database term used to restrict query results."
+      }
+    ]
+  }
+}

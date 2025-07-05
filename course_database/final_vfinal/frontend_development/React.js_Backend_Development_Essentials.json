@@ -1,0 +1,493 @@
+{
+  "id": "FE25",
+  "name": "React.js Backend Development Essentials",
+  "category": "Frontend Development",
+  "primary_tech": "React.js",
+  "topics": [
+    "Introduction to React.js and Backend Concepts",
+    "Setting Up a Node.js and Express Environment",
+    "Building RESTful APIs with Express",
+    "Database Integration with MongoDB",
+    "User Authentication and Authorization",
+    "Deploying React Apps with Backend Services",
+    "Error Handling and Debugging in Backend",
+    "Optimizing Backend Performance"
+  ],
+  "recommended": false,
+  "tags": [
+    "reactjs",
+    "backend",
+    "nodejs",
+    "express",
+    "api-design",
+    "database-integration"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs",
+          "description": "Official documentation for Firebase, detailing its features and integration guides.",
+          "title": "Firebase Documentation"
+        },
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building applications using Next.js, a React framework.",
+          "title": "Next.js Docs | Next.js"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "Comprehensive documentation and learning resources for JavaScript on MDN Web Docs.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://react.dev/learn",
+          "description": "A beginner-friendly guide to learning and mastering React concepts and components.",
+          "title": "Quick Start – React"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+          "description": "An introductory video tutorial on using Docker for containerization.",
+          "title": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
+          "duration": "62m"
+        },
+        {
+          "url": "https://www.codecademy.com/catalog/subject/web-development",
+          "description": "An overview of Codecademy's web development courses and learning paths.",
+          "title": "Web Development Courses | Codecademy"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=f2EqECiTBL8&pp=ygUGI25wbTE3",
+          "description": "A tutorial video on using npm 17 for JavaScript package management.",
+          "title": "Node.js Full Course for Beginners | Complete All-in-One Tutorial | 7 Hours",
+          "duration": "410m"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/web-development/",
+          "description": "An extensive overview of web development concepts and technologies.",
+          "title": "Web Development - GeeksforGeeks"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Hl7diL7SFw8",
+          "description": "An instructional video on implementing and understanding the Observer design pattern in software development.",
+          "title": "Introduction - Full Stack Web Development Course [1] | ReactJS, NodeJS, Express, MySQL",
+          "duration": "27m"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=f2EqECiTBL8&pp=ygUGI25wbTE3",
+          "title": "Node.js Full Course for Beginners | Complete All-in-One Tutorial | 7 Hours",
+          "duration": "410m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Hl7diL7SFw8",
+          "title": "Introduction - Full Stack Web Development Course [1] | ReactJS, NodeJS, Express, MySQL",
+          "duration": "27m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+          "title": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
+          "duration": "62m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUJI25leHRqczE0",
+          "title": "Next.js Full Course for Beginners | Nextjs 13 Tutorial | 7 Hours",
+          "duration": "423m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw&pp=0gcJCdgAo7VqN5tD",
+          "title": "Web Development Technologies - A Practical Guide",
+          "duration": "163m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+          "title": "React Native Tutorial for Beginners - Build a React Native App",
+          "duration": "126m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+          "title": "Back-End Web Development (Tutorial for Beginners)",
+          "duration": "188m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs",
+          "description": "Official documentation for Firebase, covering its features and integration guides.",
+          "title": "Firebase Documentation"
+        },
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "The official documentation for building applications with Next.js.",
+          "title": "Next.js Docs | Next.js"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "An extensive resource for learning and referencing JavaScript programming on the web.",
+          "title": "JavaScript | MDN"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://github.com/i18next/i18next/issues/1493",
+          "description": "Discussion and resolution of a bug related to language detection in i18next.",
+          "title": "Step by step tutorial on setting up a project with i18next on React Native · Issue #1493 · i18next/i18next"
+        },
+        {
+          "url": "https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project",
+          "description": "A step-by-step tutorial for integrating React with a Flask backend to create a web project.",
+          "title": "How To Create a React + Flask Project - miguelgrinberg.com"
+        },
+        {
+          "url": "https://forum.djangoproject.com/t/front-end-options-for-django/14934",
+          "description": "A discussion on various front-end integration options for Django applications.",
+          "title": "Front-end options for django - Using Django / Getting Started - Django Forum"
+        },
+        {
+          "url": "https://utkuufuk.com/2019/05/12/fullstack-roadmap/",
+          "description": "A detailed roadmap for becoming a full-stack developer.",
+          "title": "A Beginner's Roadmap to Becoming a Full-Stack Web Developer | Utku's Blog"
+        },
+        {
+          "url": "https://www.mongodb.com/resources/languages/mern-stack",
+          "description": "An overview of building full-stack applications using the MERN stack.",
+          "title": "MERN Stack Explained | MongoDB"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+          "title": "Web Development Technologies - A Practical Guide",
+          "duration": "163m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
+          "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
+          "duration": "305m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WDunoPNBxKA",
+          "title": "React Native Full Course for Beginners | Complete All-in-One Tutorial | 4 Hours",
+          "duration": "265m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUGIzEzc3Ny",
+          "title": "Next.js Full Course for Beginners | Nextjs 13 Tutorial | 7 Hours",
+          "duration": "423m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zuKbR4Q428o",
+          "title": "JavaScript Unit Testing Tutorial for Beginners",
+          "duration": "48m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XxXyfkrP298",
+          "title": "Modern React Web Development Full Course - 12 Hours | 4 Real Industry Web Applications",
+          "duration": "720m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xldTxXtNiuk",
+          "title": "React Django Tutorial - Learn React Python Django In 1 Hour | For Beginners",
+          "duration": "71m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lKKsjpH09dU",
+          "title": "Micro-Frontends Course - Beginner to Expert",
+          "duration": "116m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=B5tcZoNyqGI",
+          "title": "Use React and Spring Boot to Build a Simple CRUD App",
+          "duration": "41m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "A comprehensive resource for learning and mastering JavaScript on the web.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building applications with the Next.js framework.",
+          "title": "Next.js Docs | Next.js"
+        },
+        {
+          "url": "https://react.dev/",
+          "description": "Official documentation and resources for building user interfaces with React.",
+          "title": "React"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/ahsanayaz_angular-is-hard-to-learn-this-was-activity-7249010800290320385-Fwv3",
+          "description": "A discussion on the challenges and solutions for learning Angular effectively.",
+          "title": "😭 \"Angular is hard to learn...\" | Muhammad Ahsan Ayaz"
+        },
+        {
+          "url": "https://www.typescriptlang.org/docs/",
+          "description": "Official documentation for TypeScript, covering language features and usage guidelines.",
+          "title": "TypeScript: The starting point for learning TypeScript"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+          "description": "A video tutorial explaining the fundamentals of neural networks and deep learning.",
+          "title": "Web Development Technologies - A Practical Guide",
+          "duration": "163m"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/akshaymarch7_javascript-react-angular-activity-7275744254327508992-d7fJ",
+          "description": "An informative post comparing JavaScript frameworks React and Angular.",
+          "title": "How to become a good React dev starting from scratch? | Akshay Saini 🚀"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+          "description": "An informative YouTube video tutorial on using the ChatGPT API with Python.",
+          "title": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
+          "duration": "62m"
+        },
+        {
+          "url": "https://blog.isquaredsoftware.com/about/",
+          "description": "An introduction to the mission and expertise of the iSquared Software blog.",
+          "title": "Hi, I'm Mark Erikson · Mark's Dev Blog"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
+          "description": "A tutorial video on advanced techniques for optimizing Python code performance.",
+          "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
+          "duration": "305m"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+          "title": "Web Development Technologies - A Practical Guide",
+          "duration": "163m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
+          "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
+          "duration": "305m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+          "title": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
+          "duration": "62m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+          "title": "React Native Tutorial for Beginners - Build a React Native App",
+          "duration": "126m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZDRZvFNK-ek&pp=0gcJCfwAo7VqN5tD",
+          "title": "Full Stack JavaScript Developer Roadmap 2025",
+          "duration": "41m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+          "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
+          "duration": "1274m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUJI25leHRqczE0",
+          "title": "Next.js Full Course for Beginners | Nextjs 13 Tutorial | 7 Hours",
+          "duration": "423m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=kQ-4bgu2htk",
+          "title": "Learn Web Development And ACTUALLY Get A Job | Ultimate Guide",
+          "duration": "93m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+          "title": "React Tutorial for Beginners",
+          "duration": "80m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is React.js primarily used for in web development?",
+        "options": [
+          "Building user interfaces",
+          "Managing databases",
+          "Setting up servers",
+          "Creating backend APIs"
+        ],
+        "correct_option": 0,
+        "hint": "It's a JavaScript library focused on the front-end."
+      },
+      {
+        "question": "What is the role of Node.js in a React.js backend environment?",
+        "options": [
+          "To style React components",
+          "To manage database queries",
+          "To execute JavaScript on the server side",
+          "To generate static HTML files"
+        ],
+        "correct_option": 2,
+        "hint": "It enables JavaScript to run outside the browser."
+      },
+      {
+        "question": "Which framework is commonly used with Node.js to build RESTful APIs?",
+        "options": [
+          "Django",
+          "Express",
+          "Spring",
+          "Laravel"
+        ],
+        "correct_option": 1,
+        "hint": "It's a minimal and flexible Node.js web application framework."
+      },
+      {
+        "question": "How does MongoDB store its data?",
+        "options": [
+          "In tables with rows and columns",
+          "As JSON-like documents",
+          "In XML format",
+          "As plain text files"
+        ],
+        "correct_option": 1,
+        "hint": "It's a NoSQL database that uses a flexible data model."
+      },
+      {
+        "question": "What is a common use of JWT in backend services?",
+        "options": [
+          "To enhance front-end performance",
+          "To authenticate users",
+          "To compile JavaScript code",
+          "To optimize SQL queries"
+        ],
+        "correct_option": 1,
+        "hint": "It's often used for secure data transmission between parties."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of setting up an Express environment in a React.js backend project?",
+        "options": [
+          "To serve static files and handle HTTP requests",
+          "To compile JSX into JavaScript",
+          "To establish a WebSocket connection",
+          "To create Redux store configurations"
+        ],
+        "correct_option": 0,
+        "hint": "Express.js is used to manage routing and middleware in a Node.js application."
+      },
+      {
+        "question": "Which method is commonly used in Express to define a route for creating a new resource in a RESTful API?",
+        "options": [
+          "app.put()",
+          "app.get()",
+          "app.post()",
+          "app.delete()"
+        ],
+        "correct_option": 2,
+        "hint": "This method is often used to handle form submissions and send data to the server."
+      },
+      {
+        "question": "In MongoDB, which operation would you use to retrieve specific fields from a document?",
+        "options": [
+          "update()",
+          "aggregate()",
+          "find()",
+          "projection()"
+        ],
+        "correct_option": 3,
+        "hint": "This operation is used to limit the fields returned in a query result."
+      },
+      {
+        "question": "Which library is commonly used with Express.js for handling user authentication and authorization?",
+        "options": [
+          "Passport.js",
+          "Jest",
+          "Redux",
+          "Mocha"
+        ],
+        "correct_option": 0,
+        "hint": "This library provides strategies for authenticating with various methods such as OAuth, JWT, etc."
+      },
+      {
+        "question": "What is the advantage of using a Reverse Proxy like Nginx when deploying a React app with a backend server?",
+        "options": [
+          "It compiles React components into static files",
+          "It enhances security and load balancing",
+          "It provides a development server with hot reloading",
+          "It automatically updates the backend code"
+        ],
+        "correct_option": 1,
+        "hint": "A reverse proxy can distribute client requests to different backend servers to improve performance."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary role of Express.js in a React.js backend environment?",
+        "options": [
+          "To manage frontend routing",
+          "To handle HTTP requests and responses",
+          "To serve static files of React components",
+          "To compile React code"
+        ],
+        "correct_option": 1,
+        "hint": "Express.js is often used to build web applications and APIs."
+      },
+      {
+        "question": "Which MongoDB method should be used to update multiple documents in a collection at once?",
+        "options": [
+          "updateOne",
+          "updateMany",
+          "replaceOne",
+          "findAndModify"
+        ],
+        "correct_option": 1,
+        "hint": "This method is similar to updateOne but works on more than one document."
+      },
+      {
+        "question": "In a React.js application using JWT for user authentication, where should the token ideally be stored on the client side to prevent XSS attacks?",
+        "options": [
+          "Local Storage",
+          "Session Storage",
+          "Cookies with HttpOnly flag",
+          "In the Redux store"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the storage that is not accessible via JavaScript."
+      },
+      {
+        "question": "When deploying a React app with a Node.js backend, which of the following is NOT a best practice for optimizing performance?",
+        "options": [
+          "Using a CDN for static assets",
+          "Enabling gzip compression",
+          "Serving the React app and API from the same server",
+          "Implementing server-side rendering"
+        ],
+        "correct_option": 2,
+        "hint": "Separating the frontend and backend servers can help in scaling."
+      },
+      {
+        "question": "Which HTTP status code indicates a successful RESTful API call that has created a new resource?",
+        "options": [
+          "200 OK",
+          "201 Created",
+          "204 No Content",
+          "202 Accepted"
+        ],
+        "correct_option": 1,
+        "hint": "This status code is specifically used for creation operations."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User wants more flexibility"
+  ]
+}

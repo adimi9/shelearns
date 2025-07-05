@@ -1,0 +1,270 @@
+{
+  "id": "BE1",
+  "name": "Testing Backend Applications",
+  "category": "Backend Development",
+  "primary_tech": "Testing Frameworks",
+  "topics": [
+    "Unit Testing (Jest/Pytest)",
+    "Integration Testing",
+    "End-to-End Testing (Supertest/Cypress for APIs)"
+  ],
+  "recommended": true,
+  "tags": [
+    "testing",
+    "QA",
+    "backend"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs/database",
+        "https://flask.palletsprojects.com/",
+        "https://platform.openai.com/docs/api-reference/introduction"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/application-gateway-web-application-firewall-portal",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.datacamp.com/tutorial/python-backend-development",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://www.youtube.com/watch?v=0-7B8xDlo-E",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=D05ugfpcqH0",
+        "https://www.youtube.com/watch?v=z3YMz-Gocmw"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs/database",
+        "https://docs.cypress.io/app/core-concepts/best-practices",
+        "https://developers.google.com/apis-explorer",
+        "https://developer.spotify.com/documentation/web-api"
+      ],
+      "notes": [
+        "https://www.testim.io/blog/jest-testing-a-helpful-introductory-tutorial/",
+        "https://circleci.com/blog/api-mock-testing-nock/",
+        "https://jestjs.io/",
+        "https://fastapi.tiangolo.com/tutorial/testing/",
+        "https://katalon.com/resources-center/blog/end-to-end-e2e-testing"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=3NW0Mz943_E&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=4sR77vaEhy8",
+        "https://www.youtube.com/watch?v=EgpLj86ZHFQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=K5bILysiU_w"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://flask.palletsprojects.com/",
+        "https://docs.djangoproject.com/",
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+        "https://docs.nestjs.com/fundamentals/testing"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=B3O6bXu-NbM",
+        "https://www.datacamp.com/tutorial/python-backend-development",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://testdriven.io/blog/fastapi-react/",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://learn.palantir.com/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=B3O6bXu-NbM",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=LDUZZuBqktA&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=bB7xkRsEq-g",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=kfIS7uO1CPE",
+        "https://www.youtube.com/jamesmontemagno"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main purpose of unit testing in backend applications?",
+        "options": [
+          "To test the entire application in a live environment",
+          "To isolate and test individual components of the application",
+          "To ensure the application passes all security checks",
+          "To validate the application's user interface design"
+        ],
+        "correct_option": 1,
+        "hint": "Think about what makes unit testing different from other types of testing."
+      },
+      {
+        "question": "Which testing framework is commonly used for unit testing in Node.js applications?",
+        "options": [
+          "Pytest",
+          "JUnit",
+          "Jest",
+          "Mocha"
+        ],
+        "correct_option": 2,
+        "hint": "It is a widely used testing framework in the JavaScript ecosystem."
+      },
+      {
+        "question": "In integration testing, what is typically tested?",
+        "options": [
+          "The performance of the application",
+          "The interactions between multiple components or systems",
+          "The visual layout of the web pages",
+          "The spelling and grammar of the code comments"
+        ],
+        "correct_option": 1,
+        "hint": "Integration testing focuses on the cooperation between different parts of the system."
+      },
+      {
+        "question": "Which tool is commonly used for end-to-end testing of APIs?",
+        "options": [
+          "Supertest",
+          "Jest",
+          "Mocha",
+          "Pytest"
+        ],
+        "correct_option": 0,
+        "hint": "This tool is often paired with Node.js to test API endpoints."
+      },
+      {
+        "question": "What does end-to-end testing primarily verify in an application?",
+        "options": [
+          "The application's ability to handle specific inputs",
+          "The overall functionality from start to finish",
+          "The speed of the application",
+          "The syntax correctness of the code"
+        ],
+        "correct_option": 1,
+        "hint": "End-to-end testing checks the application's workflow from beginning to end."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the main purpose of using Jest in backend application testing?",
+        "options": [
+          "To perform unit testing of JavaScript code",
+          "To integrate with databases seamlessly",
+          "To automate deployment processes",
+          "To visualize testing reports"
+        ],
+        "correct_option": 0,
+        "hint": "Jest is primarily used for testing small, isolated units of code."
+      },
+      {
+        "question": "Which of the following is a key advantage of using Pytest for testing Python applications?",
+        "options": [
+          "Requires writing code only in JavaScript",
+          "Supports parameterized testing out of the box",
+          "In-built end-to-end testing capabilities",
+          "Automates code deployment"
+        ],
+        "correct_option": 1,
+        "hint": "Pytest is known for handling multiple test cases with different inputs efficiently."
+      },
+      {
+        "question": "In the context of Integration Testing, what is the primary focus?",
+        "options": [
+          "Testing individual units of code in isolation",
+          "Testing the interaction between different modules",
+          "Testing the entire application as a single unit",
+          "Testing user interfaces for usability"
+        ],
+        "correct_option": 1,
+        "hint": "Integration Testing focuses on how different parts of the application work together."
+      },
+      {
+        "question": "Which testing framework is commonly used for End-to-End testing of APIs?",
+        "options": [
+          "Jest",
+          "Pytest",
+          "Supertest",
+          "Mocha"
+        ],
+        "correct_option": 2,
+        "hint": "The framework is often associated with Node.js and testing HTTP endpoints."
+      },
+      {
+        "question": "What is a common use case for Cypress in backend application testing?",
+        "options": [
+          "Testing browser-based user interactions",
+          "Unit testing JavaScript functions",
+          "Database schema validation",
+          "Automating cloud deployments"
+        ],
+        "correct_option": 0,
+        "hint": "Cypress is primarily used for testing web applications, including API interactions."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which testing framework is commonly used for unit testing in a Node.js environment?",
+        "options": [
+          "Mocha",
+          "Jest",
+          "Chai",
+          "Karma"
+        ],
+        "correct_option": 1,
+        "hint": "It is known for its simplicity and powerful features like built-in mocking."
+      },
+      {
+        "question": "What is the main purpose of integration testing?",
+        "options": [
+          "To test individual units or components",
+          "To test the complete interaction between different modules",
+          "To test the application from the user's perspective",
+          "To ensure the application code is free of syntax errors"
+        ],
+        "correct_option": 1,
+        "hint": "It focuses on verifying the interactions between different parts of the application."
+      },
+      {
+        "question": "In Pytest, which fixture scope allows the fixture to be executed once per session?",
+        "options": [
+          "function",
+          "class",
+          "module",
+          "session"
+        ],
+        "correct_option": 3,
+        "hint": "This scope is useful for expensive setup, like starting a server."
+      },
+      {
+        "question": "What is a common tool for performing end-to-end testing of REST APIs?",
+        "options": [
+          "Postman",
+          "Supertest",
+          "Selenium",
+          "Jasmine"
+        ],
+        "correct_option": 1,
+        "hint": "This tool is often used with Node.js and Express for API testing."
+      },
+      {
+        "question": "Which of the following is true about Cypress in the context of end-to-end testing?",
+        "options": [
+          "It is only used for testing mobile applications",
+          "It runs in a headless browser by default",
+          "It provides an interactive runner for debugging",
+          "It cannot handle network requests"
+        ],
+        "correct_option": 2,
+        "hint": "Cypress allows you to see commands and perform time-travel through screenshots."
+      }
+    ]
+  }
+}

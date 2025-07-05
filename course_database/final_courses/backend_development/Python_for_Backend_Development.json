@@ -1,0 +1,368 @@
+{
+  "id": "BE10",
+  "name": "Python for Backend Development",
+  "category": "Backend Development",
+  "primary_tech": "Python",
+  "topics": [
+    "Python Fundamentals",
+    "Object-Oriented Programming",
+    "Web Frameworks (Flask/Django basics)"
+  ],
+  "recommended": true,
+  "tags": [
+    "language",
+    "fundamentals",
+    "web-development"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://platform.openai.com/docs/api-reference/introduction",
+          "description": "An introduction to the OpenAI API, detailing its features and usage guidelines."
+        },
+        {
+          "url": "https://docs.python.org/",
+          "description": "The official Python documentation covering language reference, library modules, and tutorials."
+        },
+        {
+          "url": "https://flask.palletsprojects.com/",
+          "description": "Official documentation for Flask, a lightweight WSGI web application framework in Python."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "description": "A complete Python programming course for beginners available on YouTube."
+        },
+        {
+          "url": "https://www.datacamp.com/tutorial/python-backend-development",
+          "description": "An introductory tutorial on building backend applications using Python."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+          "description": "A detailed tutorial on building a responsive website using HTML, CSS, and JavaScript."
+        },
+        {
+          "url": "https://packaging.python.org/tutorials/packaging-projects/",
+          "description": "A step-by-step tutorial on how to package Python projects for distribution."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+          "description": "An informative video tutorial on creating and deploying a RESTful API using Node.js and Express."
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/backend-development/",
+          "description": "An introductory guide to backend development concepts and technologies."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=z3YMz-Gocmw",
+          "description": "A detailed tutorial on implementing and understanding hash tables in computer science."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=ftKiHCDVwfA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=-1LoyuANW6M",
+        "https://www.youtube.com/watch?v=z3YMz-Gocmw",
+        "https://www.youtube.com/watch?v=0sOvCWFmrtA",
+        "https://www.youtube.com/watch?v=Z1RJmh_OqeA",
+        "https://www.youtube.com/watch?v=PppslXOR7TA"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://packaging.python.org/en/latest/guides/writing-pyproject-toml/",
+          "description": "A guide to writing and configuring pyproject.toml files for Python projects."
+        },
+        {
+          "url": "https://docs.python.org/",
+          "description": "The official documentation for the Python programming language."
+        },
+        {
+          "url": "https://developer.spotify.com/documentation/web-api",
+          "description": "Official documentation for Spotify's Web API, enabling developers to access Spotify's music catalog and user data."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python",
+          "description": "Official Microsoft documentation for developing Azure Functions using Python."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://packaging.python.org/tutorials/packaging-projects/",
+          "description": "A step-by-step tutorial on how to package Python projects for distribution."
+        },
+        {
+          "url": "https://www.datacamp.com/tutorial/python-backend-development",
+          "description": "An introductory tutorial on Python backend development with practical examples."
+        },
+        {
+          "url": "https://packaging.python.org/en/latest/guides/writing-pyproject-toml/",
+          "description": "A detailed guide on creating and managing pyproject.toml files for Python projects."
+        },
+        {
+          "url": "https://github.com/triton-inference-server/python_backend",
+          "description": "Documentation for the Python backend of NVIDIA's Triton Inference Server."
+        },
+        {
+          "url": "https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project",
+          "description": "A step-by-step tutorial on integrating React with a Flask backend for web development."
+        },
+        {
+          "url": "https://discuss.python.org/t/adding-dependencies-per-packaging-python-projects/14048",
+          "description": "Discussion on best practices for adding dependencies in Python project packaging."
+        },
+        {
+          "url": "https://auth0.com/blog/developing-restful-apis-with-python-and-flask/",
+          "description": "A guide to building RESTful APIs using Python and Flask."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=5xqFjh56AwM",
+        "https://www.youtube.com/watch?v=bZzyPscbtI8",
+        "https://www.youtube.com/watch?v=yDhCweudqyY",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=EgpLj86ZHFQ",
+        "https://www.youtube.com/watch?v=xldTxXtNiuk",
+        "https://www.youtube.com/watch?v=b0HMimUb4f0",
+        "https://www.youtube.com/watch?v=_sWgionzDoM"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://developers.arcgis.com/python/latest/",
+          "description": "Comprehensive documentation for using ArcGIS with the Python API."
+        },
+        {
+          "url": "https://www.python.org/doc/",
+          "description": "The official documentation for the Python programming language, including tutorials and references."
+        },
+        {
+          "url": "https://docs.streamlit.io/",
+          "description": "Official documentation for Streamlit, a framework for creating data apps in Python."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
+          "description": "An expert guide to effectively learning Python programming."
+        },
+        {
+          "url": "https://roadmap.sh/python",
+          "description": "An interactive roadmap for learning Python programming from basics to advanced topics."
+        },
+        {
+          "url": "https://www.datacamp.com/tutorial/python-backend-development",
+          "description": "An introductory tutorial on building backend applications using Python."
+        },
+        {
+          "url": "https://www.freecodecamp.org/news/python-back-end-development-the-beginners-guide/",
+          "description": "A beginner's guide to Python back-end development covering key concepts and tools."
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+          "description": "A curated list of common Python interview questions and answers for job preparation."
+        },
+        {
+          "url": "https://www.codecademy.com/catalog/language/python",
+          "description": "An interactive learning platform offering Python programming courses and projects."
+        },
+        {
+          "url": "https://realpython.com/tutorials/advanced/",
+          "description": "A collection of advanced Python tutorials to enhance programming skills."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+        "https://www.youtube.com/watch?v=NpmFbWO6HPU",
+        "https://www.youtube.com/watch?v=PppslXOR7TA"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a correct syntax to output \"Hello, World!\" in Python?",
+        "options": [
+          "echo(\"Hello, World!\")",
+          "print(\"Hello, World!\")",
+          "console.log(\"Hello, World!\")",
+          "System.out.println(\"Hello, World!\")"
+        ],
+        "correct_option": 1,
+        "hint": "Use the print function."
+      },
+      {
+        "question": "Which keyword is used to create a class in Python?",
+        "options": [
+          "function",
+          "define",
+          "class",
+          "object"
+        ],
+        "correct_option": 2,
+        "hint": "It is a keyword similar to Java and C++."
+      },
+      {
+        "question": "Which of the following is a popular Python web framework for building web applications?",
+        "options": [
+          "Laravel",
+          "Flask",
+          "Spring",
+          "Angular"
+        ],
+        "correct_option": 1,
+        "hint": "It is a lightweight framework often compared to Django."
+      },
+      {
+        "question": "What data type is the result of the expression 5 + 3 in Python?",
+        "options": [
+          "String",
+          "Float",
+          "Integer",
+          "Boolean"
+        ],
+        "correct_option": 2,
+        "hint": "It's a whole number."
+      },
+      {
+        "question": "In Python, which of the following is NOT a valid variable name?",
+        "options": [
+          "my_var",
+          "2ndVar",
+          "_hidden",
+          "varName"
+        ],
+        "correct_option": 1,
+        "hint": "Variable names cannot start with a number."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the purpose of the '__init__' method in a Python class?",
+        "options": [
+          "To initialize the class itself",
+          "To create a new instance of the class",
+          "To delete an instance of the class",
+          "To perform operations after the class is created"
+        ],
+        "correct_option": 1,
+        "hint": "This method is the constructor of a class."
+      },
+      {
+        "question": "Which of the following is NOT a valid HTTP method used in Flask or Django web frameworks?",
+        "options": [
+          "GET",
+          "POST",
+          "FETCH",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method is not standard in HTTP requests."
+      },
+      {
+        "question": "In Django, what is the purpose of the 'manage.py' file?",
+        "options": [
+          "To manage database migrations",
+          "To execute Django administrative tasks",
+          "To define URL patterns",
+          "To store application settings"
+        ],
+        "correct_option": 1,
+        "hint": "This file is primarily used for command-line tasks."
+      },
+      {
+        "question": "Which of the following is a correct way to define a class method in Python?",
+        "options": [
+          "def my_method(self):",
+          "def my_method(cls):",
+          "@classmethod\ndef my_method(cls):",
+          "@staticmethod\ndef my_method(self):"
+        ],
+        "correct_option": 2,
+        "hint": "Class methods use a specific decorator."
+      },
+      {
+        "question": "In Flask, which function is used to start the development server?",
+        "options": [
+          "run_server()",
+          "start()",
+          "run()",
+          "execute()"
+        ],
+        "correct_option": 2,
+        "hint": "This function is called on the Flask application instance."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary purpose of the WSGI interface in Python web applications?",
+        "options": [
+          "To handle HTTP requests directly in the browser",
+          "To serve static files efficiently",
+          "To allow Python applications to communicate with web servers",
+          "To provide a framework for building RESTful APIs"
+        ],
+        "correct_option": 2,
+        "hint": "WSGI acts as a bridge between web servers and Python web applications."
+      },
+      {
+        "question": "In Django, which command is used to create a new application within a project?",
+        "options": [
+          "django-admin startproject",
+          "django-admin startapp",
+          "python manage.py runserver",
+          "django-admin createapp"
+        ],
+        "correct_option": 1,
+        "hint": "This command initializes a directory structure for a new app in Django."
+      },
+      {
+        "question": "Which of the following is true about Python's garbage collection mechanism?",
+        "options": [
+          "It uses a reference counting algorithm exclusively",
+          "It only runs when the program exits",
+          "It can be manually triggered using the gc module",
+          "It completely prevents memory leaks"
+        ],
+        "correct_option": 2,
+        "hint": "Python provides a module that can be used to interact with the garbage collector."
+      },
+      {
+        "question": "In Flask, how would you define a route that responds to both GET and POST methods?",
+        "options": [
+          "@app.route('/', methods=['GET', 'POST'])",
+          "@app.route('/', methods=['POST'])",
+          "@app.route('/', methods=['GET'])",
+          "@app.route('/')"
+        ],
+        "correct_option": 0,
+        "hint": "Flask routes can accept a list of HTTP methods."
+      },
+      {
+        "question": "What is the primary use of Django's ORM system?",
+        "options": [
+          "To perform raw SQL queries directly",
+          "To define the structure of the database",
+          "To map database tables to Python objects",
+          "To provide built-in user authentication"
+        ],
+        "correct_option": 2,
+        "hint": "Django's ORM abstracts the database access, allowing developers to work with Python objects instead of SQL."
+      }
+    ]
+  }
+}

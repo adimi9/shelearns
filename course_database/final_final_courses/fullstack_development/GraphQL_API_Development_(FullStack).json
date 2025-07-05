@@ -1,0 +1,383 @@
+{
+  "id": "FS18",
+  "name": "GraphQL API Development (FullStack)",
+  "category": "FullStack Development",
+  "primary_tech": "GraphQL",
+  "topics": [
+    "Schema Design & Type System",
+    "Queries, Mutations & Subscriptions (Frontend/Backend)",
+    "Apollo Server & Client Integration",
+    "Resolvers & Data Sources"
+  ],
+  "recommended": false,
+  "tags": [
+    "API",
+    "data-fetching",
+    "frontend-backend-communication"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://graphql.org/learn/",
+          "description": "An introductory guide to learning and understanding GraphQL.",
+          "title": "Introduction to GraphQL | GraphQL"
+        },
+        {
+          "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/headless/introduction",
+          "description": "An introduction to headless capabilities in Adobe Experience Manager Cloud Service.",
+          "title": "Introduction to Headless for AEM | Adobe Experience Manager"
+        },
+        {
+          "url": "https://graphql.org/community/resources/books/",
+          "description": "A curated list of books for learning and mastering GraphQL.",
+          "title": "Books | GraphQL"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://graphql.org/learn/",
+          "description": "An introductory guide to understanding and implementing GraphQL APIs.",
+          "title": "Introduction to GraphQL | GraphQL"
+        },
+        {
+          "url": "https://www.howtographql.com/basics/0-introduction/",
+          "description": "An introductory guide to GraphQL fundamentals and concepts.",
+          "title": "Learn GraphQL Fundamentals with Fullstack Tutorial"
+        },
+        {
+          "url": "https://discuss.ocaml.org/t/tutorial-full-stack-web-dev-in-ocaml-w-dream-bonsai-and-graphql/9963",
+          "description": "A tutorial on full-stack web development in OCaml using Dream, Bonsai, and GraphQL.",
+          "title": "Tutorial: Full-Stack Web Dev in OCaml w/ Dream, Bonsai, and GraphQL - Learning - OCaml"
+        },
+        {
+          "url": "https://hasura.io/learn/",
+          "description": "An interactive learning platform for mastering GraphQL with Hasura.",
+          "title": "Fullstack GraphQL Tutorial Series | Learn GraphQL & Hasura"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UC7mca3O0DmdSG2Cr80sOD7g",
+          "description": "A YouTube channel offering tutorials and insights on advanced computer science topics."
+        },
+        {
+          "url": "https://www.apollographql.com/tutorials/",
+          "description": "A series of tutorials for learning how to build applications with Apollo GraphQL.",
+          "title": "Learn with our GraphQL Tutorials, Examples, and Training - GraphQL Tutorials"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=BNYwj0ZvU1U&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=yqWzCV0kU_c&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Zg4XIpnLWQg",
+        "https://www.youtube.com/watch?v=BcLNfwF04Kw",
+        "https://www.youtube.com/watch?v=UYQSVH6B1k4",
+        "https://www.youtube.com/watch?v=hZgFAO4_t4Q",
+        "https://www.youtube.com/watch?v=kY--_5NhQoc",
+        "https://www.youtube.com/watch?v=I6ypD7qv3Z8"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://graphql.org/learn/",
+          "description": "An introductory guide to learning and implementing GraphQL APIs.",
+          "title": "Introduction to GraphQL | GraphQL"
+        },
+        {
+          "url": "https://wundergraph.com/blog/10_graphql_tools_to_increase_developer_productivity",
+          "description": "An overview of ten GraphQL tools designed to enhance developer productivity.",
+          "title": "10 GraphQL Developer Tools I Use To Make Building APIs Easier - WunderGraph"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/api",
+          "description": "An overview of API technologies and their impact on digital transformation.",
+          "title": "What Is an API (Application Programming Interface)? | IBM"
+        },
+        {
+          "url": "https://wundergraph.com/blog/why_not_use_graphql",
+          "description": "An analysis of the limitations and challenges of using GraphQL in API development.",
+          "title": "Why not use GraphQL? - WunderGraph"
+        },
+        {
+          "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/headless/graphql-api/content-fragments",
+          "description": "An overview of using GraphQL API for managing content fragments in Adobe Experience Manager Cloud Service.",
+          "title": "AEM GraphQL API for use with Content Fragments | Adobe Experience Manager"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://discuss.ocaml.org/t/tutorial-full-stack-web-dev-in-ocaml-w-dream-bonsai-and-graphql/9963",
+          "description": "A tutorial on full-stack web development in OCaml using Dream, Bonsai, and GraphQL.",
+          "title": "Tutorial: Full-Stack Web Dev in OCaml w/ Dream, Bonsai, and GraphQL - Learning - OCaml"
+        },
+        {
+          "url": "https://graphql.org/learn/",
+          "description": "An introductory guide to understanding and using GraphQL for APIs.",
+          "title": "Introduction to GraphQL | GraphQL"
+        },
+        {
+          "url": "https://wundergraph.com/blog/10_graphql_tools_to_increase_developer_productivity",
+          "description": "An overview of ten GraphQL tools designed to enhance developer productivity.",
+          "title": "10 GraphQL Developer Tools I Use To Make Building APIs Easier - WunderGraph"
+        },
+        {
+          "url": "https://graphql.org/faq/getting-started/",
+          "description": "An introductory FAQ for getting started with GraphQL.",
+          "title": "Getting Started | GraphQL"
+        },
+        {
+          "url": "https://hasura.io/learn/",
+          "description": "An interactive learning platform for mastering GraphQL with hands-on tutorials and resources.",
+          "title": "Fullstack GraphQL Tutorial Series | Learn GraphQL & Hasura"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=u-BbJyUpohM",
+        "https://www.youtube.com/watch?v=tMTsNn09GNo",
+        "https://www.youtube.com/watch?v=1n7EBOQu6wE",
+        "https://www.youtube.com/watch?v=ufKuYohCt0w",
+        "https://m.youtube.com/watch?v=7DVdVGm7Ht8&t=62168s",
+        "https://www.youtube.com/watch?v=h7MTWLv3xvw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=9G9_2a2k2Ls",
+        "https://www.youtube.com/channel/UCTKSxERKbrpQOTa7QjDPjZg/videos"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://graphql.org/learn/",
+          "description": "An introductory resource for learning the fundamentals of GraphQL.",
+          "title": "Introduction to GraphQL | GraphQL"
+        },
+        {
+          "url": "https://docs.gitlab.com/development/api_graphql_styleguide/",
+          "description": "A style guide for developing GraphQL APIs within GitLab projects.",
+          "title": "Backend GraphQL API guide | GitLab Docs"
+        },
+        {
+          "url": "https://shopify.dev/docs/api",
+          "description": "Official documentation for Shopify's API, detailing integration and development guidelines.",
+          "title": "Shopify API, libraries, and tools"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://graphql.org/learn/",
+          "description": "An introductory guide to learning and understanding GraphQL and its core concepts.",
+          "title": "Introduction to GraphQL | GraphQL"
+        },
+        {
+          "url": "https://fullstackopen.com/en/",
+          "description": "An open online course covering modern web development with JavaScript.",
+          "title": "Full stack open"
+        },
+        {
+          "url": "https://docs.gitlab.com/development/api_graphql_styleguide/",
+          "description": "A style guide for developing and maintaining GraphQL APIs in GitLab.",
+          "title": "Backend GraphQL API guide | GitLab Docs"
+        },
+        {
+          "url": "https://www.infoq.com/articles/ballerina-fullstack-rest-api/",
+          "description": "An informative article on building full-stack REST APIs using the Ballerina programming language.",
+          "title": "Ballerina for Full-Stack Developers: a Guide to Creating Backend APIs - InfoQ"
+        },
+        {
+          "url": "https://khalilstemmler.com/articles/graphql/learning-graphql-in-2020/",
+          "description": "An insightful guide to learning GraphQL in 2020, focusing on key concepts and practical applications.",
+          "title": "I'm Learning Everything GraphQL in 2020 | Khalil Stemmler"
+        },
+        {
+          "url": "https://welearncode.com/beginners-guide-graphql/",
+          "description": "An introductory guide to understanding and using GraphQL for beginners.",
+          "title": "A Complete Beginner's Guide to GraphQL · We Learn Code"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=BNYwj0ZvU1U&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=dP_QfmnghnQ&pp=0gcJCU8JAYcqIYzv",
+        "https://www.youtube.com/watch?v=EEhgiHnnHXg",
+        "https://www.youtube.com/watch?v=x6TiqrULv90",
+        "https://www.youtube.com/watch?v=RceLeh9D85o&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=m3YrZav5-CU",
+        "https://www.youtube.com/watch?v=fdsToXyIZTA",
+        "https://www.youtube.com/playlist?list=PLSDeUiTMfxW6VChKWb26Z_mPR4f6fAmMV",
+        "https://www.youtube.com/@maheshkariya"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a key benefit of using GraphQL over REST APIs?",
+        "options": [
+          "GraphQL allows for multiple endpoints for different data",
+          "GraphQL enables clients to request only the data they need",
+          "GraphQL does not support real-time data fetching",
+          "GraphQL requires less setup than REST"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how GraphQL optimizes data fetching."
+      },
+      {
+        "question": "In GraphQL, what is the purpose of a schema?",
+        "options": [
+          "To define the structure of the data and the types of queries",
+          "To handle authentication and authorization",
+          "To manage the server-side logic of API requests",
+          "To perform caching of API responses"
+        ],
+        "correct_option": 0,
+        "hint": "Consider what foundational element in GraphQL defines what data clients can query."
+      },
+      {
+        "question": "Which of the following is a type of operation you can perform in GraphQL?",
+        "options": [
+          "GET",
+          "POST",
+          "QUERY",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "GraphQL operations allow you to retrieve data."
+      },
+      {
+        "question": "What is the primary role of resolvers in a GraphQL API?",
+        "options": [
+          "To transform API responses into JSON format",
+          "To execute the logic to fetch data for a query",
+          "To manage user sessions and authentication",
+          "To store data in a database"
+        ],
+        "correct_option": 1,
+        "hint": "Resolvers are closely tied to how data is fetched based on client requests."
+      },
+      {
+        "question": "Which tool is commonly used for integrating GraphQL on the client-side?",
+        "options": [
+          "Apollo Server",
+          "Express.js",
+          "Apollo Client",
+          "Node.js"
+        ],
+        "correct_option": 2,
+        "hint": "This tool is specifically designed for client-side operations in GraphQL."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary role of the schema in GraphQL?",
+        "options": [
+          "To validate the frontend UI components",
+          "To define the types and structure of the data available",
+          "To manage server-side caching",
+          "To handle authentication and authorization"
+        ],
+        "correct_option": 1,
+        "hint": "Schemas define the types and structure of data in GraphQL."
+      },
+      {
+        "question": "Which GraphQL feature allows clients to subscribe to real-time updates from the server?",
+        "options": [
+          "Queries",
+          "Mutations",
+          "Resolvers",
+          "Subscriptions"
+        ],
+        "correct_option": 3,
+        "hint": "This feature is specifically designed for real-time data updates."
+      },
+      {
+        "question": "In Apollo Client, which method is used to execute a mutation operation?",
+        "options": [
+          "useQuery",
+          "useMutation",
+          "useSubscription",
+          "useFragment"
+        ],
+        "correct_option": 1,
+        "hint": "This method is specifically designed for handling mutations."
+      },
+      {
+        "question": "What is a common use case for using a resolver in GraphQL?",
+        "options": [
+          "To directly modify the database schema",
+          "To update the client-side state",
+          "To transform or fetch data for a specific field",
+          "To manage user authentication"
+        ],
+        "correct_option": 2,
+        "hint": "Resolvers are used to handle the actual data fetching logic."
+      },
+      {
+        "question": "In Apollo Server, what is the purpose of a data source?",
+        "options": [
+          "To provide a way to connect and fetch data from REST APIs or databases",
+          "To define the type system and schema",
+          "To handle client-side caching",
+          "To manage user authentication and authorization"
+        ],
+        "correct_option": 0,
+        "hint": "Data sources are used to integrate with external data stores or APIs."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a key advantage of using GraphQL's type system in schema design?",
+        "options": [
+          "It allows for dynamic typing similar to JavaScript.",
+          "It enforces a strict schema that helps prevent invalid queries.",
+          "It automatically generates client-side code.",
+          "It eliminates the need for backend resolvers."
+        ],
+        "correct_option": 1,
+        "hint": "Consider how GraphQL's type system impacts the validity of queries."
+      },
+      {
+        "question": "In the context of Apollo Server, what is the primary role of a resolver?",
+        "options": [
+          "To define the structure of the GraphQL schema.",
+          "To handle HTTP requests directly.",
+          "To provide instructions for turning a GraphQL operation into data.",
+          "To serve as a database connection manager."
+        ],
+        "correct_option": 2,
+        "hint": "Resolvers are essential for executing GraphQL operations."
+      },
+      {
+        "question": "What is a typical use case for GraphQL subscriptions in a full-stack application?",
+        "options": [
+          "To perform batch data fetching from the server.",
+          "To execute write operations on the database.",
+          "To receive real-time updates from the server.",
+          "To cache static data on the client side."
+        ],
+        "correct_option": 2,
+        "hint": "Subscriptions are designed for scenarios requiring real-time communication."
+      },
+      {
+        "question": "Which of the following is NOT a valid GraphQL operation type?",
+        "options": [
+          "Query",
+          "Mutation",
+          "Subscription",
+          "Transaction"
+        ],
+        "correct_option": 3,
+        "hint": "Consider the basic operation types supported in GraphQL."
+      },
+      {
+        "question": "How does Apollo Client enhance the usage of GraphQL on the frontend?",
+        "options": [
+          "By providing a REST API abstraction.",
+          "By offering a state management library for local and remote data.",
+          "By automatically generating GraphQL schemas.",
+          "By replacing the need for GraphQL resolvers."
+        ],
+        "correct_option": 1,
+        "hint": "Apollo Client is known for its state management capabilities."
+      }
+    ]
+  }
+}

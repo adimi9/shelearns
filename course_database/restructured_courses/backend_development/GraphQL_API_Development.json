@@ -15,105 +15,147 @@
     "data-fetching"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
-        "description": "The Fetch API documentation provides details on using the Fetch interface to make network requests in web applications."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver",
-        "description": "The MDN Web Docs page provides detailed information on using the MutationObserver API to monitor changes in the DOM."
-      },
-      {
-        "url": "https://legacy.reactjs.org/blog/2015/05/01/graphql-introduction.html",
-        "description": "An introductory blog post explaining the basics and benefits of using GraphQL for data fetching in web applications."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.freecodecamp.org/news/building-consuming-and-documenting-a-graphql-api/",
-        "description": "A comprehensive guide on building, consuming, and documenting a GraphQL API."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/graphql/graphql-tutorial/",
-        "description": "A comprehensive tutorial on GraphQL, covering its core concepts, setup, and implementation."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/devops/amazon-web-services-creating-an-appsync-graphql-api/",
-        "description": "A guide on creating an AppSync GraphQL API using Amazon Web Services (AWS)."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/laravel-graphql-playground-not-showing-up/621917",
-        "description": "Troubleshooting guide for resolving issues with the Laravel GraphQL Playground not displaying."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/blogs/a-comprehensive-guide-to-api-development/",
-        "description": "A detailed guide on API development covering best practices, tools, and techniques."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=eIQh02xuVw4",
-      "https://www.youtube.com/watch?v=Zg4XIpnLWQg",
-      "https://www.youtube.com/watch?v=PTfZcN20fro",
-      "https://www.youtube.com/watch?v=c8XMl9aQVCM",
-      "https://www.youtube.com/watch?v=0TSajs_zzZA"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of the Schema Definition Language (SDL) in GraphQL?",
-      "options": [
-        "To define the structure of the GraphQL API, including types and relationships",
-        "To handle HTTP requests and responses",
-        "To manage authentication and authorization",
-        "To perform data validation on client-side applications"
+    "beginner": {
+      "docs": [
+        "https://graphql.org/learn/",
+        "https://developer.monday.com/api-reference/docs/basics",
+        "https://graphql.org/"
       ],
-      "correct_option": 0,
-      "hint": "SDL is used to outline the blueprint of a GraphQL API."
+      "notes": [
+        "https://graphql.org/learn/",
+        "https://www.apollographql.com/docs/react",
+        "https://graphql.org/",
+        "https://www.apollographql.com/docs/apollo-server/schema/schema",
+        "https://graphql-java.com/tutorials/getting-started-with-spring-boot/",
+        "https://maggieappleton.com/graphql/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Zg4XIpnLWQg",
+        "https://www.youtube.com/watch?v=UYQSVH6B1k4",
+        "https://www.youtube.com/watch?v=yqWzCV0kU_c",
+        "https://www.youtube.com/watch?v=BNYwj0ZvU1U&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=xCzm1bbOpfw&pp=sAQA",
+        "https://www.youtube.com/watch?v=Dr2dDWzThK8",
+        "https://www.youtube.com/watch?v=Zq7H8kYIQIU&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=uNB2N_w_ypo&pp=0gcJCYQJAYcqIYzv"
+      ]
     },
-    {
-      "question": "In GraphQL, what is a mutation typically used for?",
-      "options": [
-        "To retrieve data from the server",
-        "To modify or add data on the server",
-        "To format the response data",
-        "To manage client-side state"
+    "intermediate": {
+      "docs": [
+        "https://graphql.org/",
+        "https://developer.monday.com/api-reference/docs/basics",
+        "https://docs.github.com/en/graphql",
+        "https://developer.monday.com/api-reference/",
+        "https://shopify.dev/docs/api/admin-graphql"
       ],
-      "correct_option": 1,
-      "hint": "Mutations are about altering the data."
+      "notes": [
+        "https://graphql.org/",
+        "https://docs.github.com/en/graphql",
+        "https://graphql.org/learn/",
+        "https://konghq.com/blog/learning-center/graphql",
+        "https://graphql.org/learn/mutations/",
+        "https://www.apollographql.com/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ME3LH2bib3g",
+        "https://www.youtube.com/watch?v=A9_E7_EM9Vw",
+        "https://m.youtube.com/watch?v=Zq7H8kYIQIU",
+        "https://www.youtube.com/watch?v=u-BbJyUpohM",
+        "https://www.youtube.com/watch?v=PBzvJ2Ctjm0",
+        "https://www.youtube.com/watch?v=xMCnDesBggM&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=GsGopNsOKEU",
+        "https://www.youtube.com/watch?v=6rowJlROs2A",
+        "https://www.youtube.com/c/LetsBuildShopify/videos"
+      ]
     },
-    {
-      "question": "Which GraphQL feature allows clients to receive real-time updates from the server?",
-      "options": [
-        "Queries",
-        "Mutations",
-        "Resolvers",
-        "Subscriptions"
+    "advanced": {
+      "docs": [
+        "https://graphql.org/learn/",
+        "https://docs.gitlab.com/development/api_graphql_styleguide/",
+        "https://shopify.dev/docs/api"
       ],
-      "correct_option": 3,
-      "hint": "This feature is similar to a 'live feed'."
-    },
-    {
-      "question": "What role does Apollo Server play in developing a GraphQL API?",
-      "options": [
-        "It provides a client-side library for managing local state",
-        "It acts as a middleware for RESTful APIs",
-        "It serves as a GraphQL server implementation for Node.js",
-        "It is a database management system"
+      "notes": [
+        "https://graphql.org/learn/",
+        "https://docs.gitlab.com/development/api_graphql_styleguide/",
+        "https://www.apollographql.com/blog/a-deep-dive-on-apollo-data-sources",
+        "https://apidog.com/blog/apollo-graphql-tutorial/",
+        "https://www.traceable.ai/blog-post/filter-using-graphql"
       ],
-      "correct_option": 2,
-      "hint": "Apollo Server is used on the backend to handle GraphQL requests."
-    },
-    {
-      "question": "Which component of Apollo Client is responsible for querying the GraphQL server?",
-      "options": [
-        "Apollo Provider",
-        "Apollo Link",
-        "Apollo Cache",
-        "Apollo Query"
-      ],
-      "correct_option": 3,
-      "hint": "This component directly fetches data from the server."
+      "videos": [
+        "https://www.youtube.com/watch?v=yqWzCV0kU_c",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://m.youtube.com/watch?v=dP_QfmnghnQ",
+        "https://m.youtube.com/watch?v=6oOKpVn4Qqg&t=0s",
+        "https://www.youtube.com/watch?v=m3YrZav5-CU",
+        "https://www.youtube.com/watch?v=BNYwj0ZvU1U&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=x6TiqrULv90",
+        "https://www.youtube.com/watch?v=X6fSJZDZZ0I",
+        "https://www.youtube.com/playlist?list=PLBOtlFtGznBjnnEkM4It7kr_XHk-cVUHA"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of the Schema Definition Language (SDL) in GraphQL?",
+        "options": [
+          "To define the structure of the GraphQL API, including types and relationships",
+          "To handle HTTP requests and responses",
+          "To manage authentication and authorization",
+          "To perform data validation on client-side applications"
+        ],
+        "correct_option": 0,
+        "hint": "SDL is used to outline the blueprint of a GraphQL API."
+      },
+      {
+        "question": "In GraphQL, what is a mutation typically used for?",
+        "options": [
+          "To retrieve data from the server",
+          "To modify or add data on the server",
+          "To format the response data",
+          "To manage client-side state"
+        ],
+        "correct_option": 1,
+        "hint": "Mutations are about altering the data."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which GraphQL feature allows clients to receive real-time updates from the server?",
+        "options": [
+          "Queries",
+          "Mutations",
+          "Resolvers",
+          "Subscriptions"
+        ],
+        "correct_option": 3,
+        "hint": "This feature is similar to a 'live feed'."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What role does Apollo Server play in developing a GraphQL API?",
+        "options": [
+          "It provides a client-side library for managing local state",
+          "It acts as a middleware for RESTful APIs",
+          "It serves as a GraphQL server implementation for Node.js",
+          "It is a database management system"
+        ],
+        "correct_option": 2,
+        "hint": "Apollo Server is used on the backend to handle GraphQL requests."
+      },
+      {
+        "question": "Which component of Apollo Client is responsible for querying the GraphQL server?",
+        "options": [
+          "Apollo Provider",
+          "Apollo Link",
+          "Apollo Cache",
+          "Apollo Query"
+        ],
+        "correct_option": 3,
+        "hint": "This component directly fetches data from the server."
+      }
+    ]
+  }
 }

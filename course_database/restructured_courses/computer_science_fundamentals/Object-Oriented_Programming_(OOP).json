@@ -16,105 +16,150 @@
     "architecture"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object-oriented_programming",
-        "description": "This resource provides an introduction to object-oriented programming in JavaScript, covering advanced object concepts and techniques."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes",
-        "description": "An in-depth guide on defining and using classes in JavaScript, covering syntax, inheritance, and key concepts."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Classes_in_JavaScript",
-        "description": "An in-depth guide on understanding and using classes in JavaScript for advanced object-oriented programming."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/java/java_oop.asp",
-        "description": "An introduction to Java Object-Oriented Programming (OOP) concepts, including classes, objects, inheritance, and polymorphism."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/java/object-oriented-programming-oops-concept-in-java/",
-        "description": "An introduction to the core concepts of Object-Oriented Programming (OOP) in Java, including classes, objects, inheritance, polymorphism, encapsulation, and abstraction."
-      },
-      {
-        "url": "https://www.w3schools.com/cpp/cpp_oop.asp",
-        "description": "An introduction to Object-Oriented Programming (OOP) concepts in C++ with examples and explanations."
-      },
-      {
-        "url": "https://www.w3schools.com/cs/cs_oop.php",
-        "description": "An introductory guide to Object-Oriented Programming (OOP) concepts in C# with examples."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/introduction-of-object-oriented-programming/",
-        "description": "An introductory guide to understanding the principles and concepts of object-oriented programming."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=wN0x9eZLix4",
-      "https://www.youtube.com/watch?v=pTB0EiLXUC8",
-      "https://www.youtube.com/watch?v=JeznW_7DlB0",
-      "https://www.youtube.com/watch?v=iLRZi0Gu8Go",
-      "https://www.youtube.com/watch?v=-pEs-Bss8Wc"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of encapsulation in Object-Oriented Programming?",
-      "options": [
-        "To allow direct access to the attributes of an object.",
-        "To bundle the data and methods that operate on the data within one unit.",
-        "To create multiple instances of a class.",
-        "To inherit properties from one class to another."
+    "beginner": {
+      "docs": [
+        "https://docs.python.org/3/tutorial/classes.html",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object-oriented_programming",
+        "https://www.php.net/manual/en/language.oop5.php",
+        "https://docs.nestjs.com/",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop"
       ],
-      "correct_option": 1,
-      "hint": "Encapsulation is about bundling data with the methods that can operate on the data."
+      "notes": [
+        "https://www.youtube.com/watch?v=Vp0vVzJgJ5g&pp=0gcJCfwAo7VqN5tD",
+        "https://devforum.roblox.com/t/roblox-oop-object-oriented-programming/1639499",
+        "https://www.youtube.com/watch?v=j0lBrYSlYaU",
+        "https://devforum.roblox.com/t/efficient-object-oriented-programming-tutorial/1061153",
+        "https://www.youtube.com/watch?v=JeznW_7DlB0",
+        "https://realpython.com/python3-object-oriented-programming/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=JeznW_7DlB0",
+        "https://www.youtube.com/watch?v=Vp0vVzJgJ5g&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=j0lBrYSlYaU",
+        "https://www.youtube.com/watch?v=wN0x9eZLix4",
+        "https://www.youtube.com/watch?v=GEuS0tfLfEY&pp=ygUPI3ByYWtyYXRpa2Vyb29w",
+        "https://www.youtube.com/watch?v=pTB0EiLXUC8",
+        "https://www.youtube.com/watch?v=xG2Vbnv0wvg",
+        "https://www.youtube.com/watch?v=GAvhe6oe-_4",
+        "https://www.youtube.com/codebeauty",
+        "https://www.youtube.com/playlist?list=PLmF-6jvwRvVNVPfGxGPMsf3cZafT83oH8"
+      ]
     },
-    {
-      "question": "Which of the following best describes inheritance in OOP?",
-      "options": [
-        "A class deriving properties and behavior from another class.",
-        "Creating a unique method for a class.",
-        "Encapsulating data within a single class.",
-        "Hiding the complexity of a system."
+    "intermediate": {
+      "docs": [
+        "https://docs.python.org/3/tutorial/classes.html",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object-oriented_programming",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0164121222000310"
       ],
-      "correct_option": 0,
-      "hint": "Inheritance allows a new class to take on the properties of an existing class."
+      "notes": [
+        "https://devforum.roblox.com/t/efficient-object-oriented-programming-tutorial/1061153",
+        "https://docs.python.org/3/tutorial/classes.html",
+        "https://devforum.roblox.com/t/easiest-way-to-do-oop-object-oriented-programming/1973501",
+        "https://www.thecodedmessage.com/posts/oop-3-inheritance/",
+        "https://www.datacamp.com/tutorial/functional-programming-vs-object-oriented-programming"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=EazrhHMySQw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=uUlLAfN3rJc",
+        "https://www.youtube.com/watch?v=Af3s3KsxStY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=c7u3ZdQowgU",
+        "https://www.youtube.com/watch?v=PMFd95RgIwE&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=boEUcROx1N8",
+        "https://www.youtube.com/watch?v=cM_ocyOrs_k",
+        "https://www.youtube.com/watch?v=Jvss8fb1LdA",
+        "https://www.youtube.com/watch?v=DSld0bOmlk8"
+      ]
     },
-    {
-      "question": "What is the key characteristic of polymorphism in Object-Oriented Programming?",
-      "options": [
-        "Methods to be defined once and used for multiple purposes.",
-        "Encapsulating data within a class.",
-        "Creating a single instance of a class.",
-        "Using interfaces to hide implementation details."
+    "advanced": {
+      "docs": [
+        "https://www.typescriptlang.org/docs/",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop",
+        "https://adv-r.hadley.nz/oo.html",
+        "https://realpython.com/python3-object-oriented-programming/"
       ],
-      "correct_option": 0,
-      "hint": "Polymorphism allows methods to process objects differently based on their data type or class."
-    },
-    {
-      "question": "Which design pattern restricts a class to have only one instance?",
-      "options": [
-        "Factory Pattern",
-        "Singleton Pattern",
-        "Observer Pattern",
-        "Decorator Pattern"
+      "notes": [
+        "https://devforum.roblox.com/t/efficient-object-oriented-programming-tutorial/1061153",
+        "https://www.linkedin.com/posts/badhan_oop-programming-coding-activity-7212870207004905472-9UIL",
+        "https://realpython.com/python3-object-oriented-programming/",
+        "https://adv-r.hadley.nz/oo.html",
+        "https://www.linkedin.com/posts/codebeauty_practical-oop-constructors-in-programming-activity-7234572040467283969-AwLE",
+        "https://www.datacamp.com/blog/how-to-learn-python-expert-guide"
       ],
-      "correct_option": 1,
-      "hint": "This pattern ensures a class has only one instance and provides a global point of access to it."
-    },
-    {
-      "question": "What is an interface in OOP?",
-      "options": [
-        "A class with implemented methods.",
-        "A way to inherit behaviors from multiple classes.",
-        "A reference type with only abstract methods.",
-        "A class with both abstract and concrete methods."
-      ],
-      "correct_option": 2,
-      "hint": "An interface contains no implementation but defines a contract for classes to implement."
+      "videos": [
+        "https://www.youtube.com/watch?v=_vr5faCXFo8&pp=ygUJI29vcHBhcnRz",
+        "https://www.youtube.com/watch?v=wN0x9eZLix4",
+        "https://www.youtube.com/watch?v=kiUGf_Z08RQ&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=EazrhHMySQw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=JeznW_7DlB0",
+        "https://www.youtube.com/watch?v=-ghD-XjjO2g",
+        "https://www.youtube.com/@DeepKnowledgeSpace/community",
+        "https://www.youtube.com/channel/UCHuchVhVR-0xs7WUHKuHqlA",
+        "https://www.youtube.com/c/programmingpalli"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of encapsulation in Object-Oriented Programming?",
+        "options": [
+          "To allow direct access to the attributes of an object.",
+          "To bundle the data and methods that operate on the data within one unit.",
+          "To create multiple instances of a class.",
+          "To inherit properties from one class to another."
+        ],
+        "correct_option": 1,
+        "hint": "Encapsulation is about bundling data with the methods that can operate on the data."
+      },
+      {
+        "question": "Which of the following best describes inheritance in OOP?",
+        "options": [
+          "A class deriving properties and behavior from another class.",
+          "Creating a unique method for a class.",
+          "Encapsulating data within a single class.",
+          "Hiding the complexity of a system."
+        ],
+        "correct_option": 0,
+        "hint": "Inheritance allows a new class to take on the properties of an existing class."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the key characteristic of polymorphism in Object-Oriented Programming?",
+        "options": [
+          "Methods to be defined once and used for multiple purposes.",
+          "Encapsulating data within a class.",
+          "Creating a single instance of a class.",
+          "Using interfaces to hide implementation details."
+        ],
+        "correct_option": 0,
+        "hint": "Polymorphism allows methods to process objects differently based on their data type or class."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which design pattern restricts a class to have only one instance?",
+        "options": [
+          "Factory Pattern",
+          "Singleton Pattern",
+          "Observer Pattern",
+          "Decorator Pattern"
+        ],
+        "correct_option": 1,
+        "hint": "This pattern ensures a class has only one instance and provides a global point of access to it."
+      },
+      {
+        "question": "What is an interface in OOP?",
+        "options": [
+          "A class with implemented methods.",
+          "A way to inherit behaviors from multiple classes.",
+          "A reference type with only abstract methods.",
+          "A class with both abstract and concrete methods."
+        ],
+        "correct_option": 2,
+        "hint": "An interface contains no implementation but defines a contract for classes to implement."
+      }
+    ]
+  }
 }

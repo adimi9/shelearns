@@ -23,107 +23,148 @@
     "PaaS"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://www.heroku.com/students/",
+        "https://devcenter.heroku.com/articles/git",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment"
+      ],
+      "notes": [
+        "https://devcenter.heroku.com/articles/getting-started-with-python",
+        "https://www.heroku.com/students/",
+        "https://devcenter.heroku.com/articles/git",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
+        "https://realpython.com/flask-by-example-part-1-project-setup/",
+        "https://www.codecademy.com/article/deploying-a-back-end-with-heroku"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=lwOsI8LtVEQ",
+        "https://www.youtube.com/watch?v=29k5-CHKadQ",
+        "https://www.youtube.com/watch?v=l134cBAJCuc&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=lGtTOLKuvqs",
+        "https://www.youtube.com/watch?v=SCJ27h6kqxs",
+        "https://www.youtube.com/watch?v=DQk3zJlY-eE&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Hej48pi_lOc&pp=ygUSI25ldF9idWZmZXJfbGVuZ3Ro",
+        "https://www.youtube.com/watch?v=ABHvyLf_0Qg"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://www.heroku.com/students/",
+        "https://devcenter.heroku.com/articles/git",
+        "https://northflank.com/blog/vercel-vs-heroku",
+        "https://devcenter.heroku.com/articles/platform-api-reference"
+      ],
+      "notes": [
+        "https://www.heroku.com/students/",
+        "https://devcenter.heroku.com/articles/git",
+        "https://codefresh.io/learn/heroku-deployment-top-3-ways-to-deploy-apps-to-heroku/11-heroku-app-alternatives-to-try-in-2024/",
+        "https://realpython.com/flask-by-example-part-1-project-setup/",
+        "https://titanapps.io/blog/atlassian-forge"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=oocZSB5W5d0",
+        "https://www.youtube.com/watch?v=DBlmF91Accg",
+        "https://www.youtube.com/watch?v=kq5bmrjPPAY",
+        "https://www.youtube.com/watch?v=lyMhbrqOos8",
+        "https://www.youtube.com/watch?v=e2BE8v4Bj-U",
+        "https://www.youtube.com/watch?v=DDvdMEEaLTE",
+        "https://m.youtube.com/watch?v=x7f9x30W_dI",
+        "https://www.youtube.com/watch?v=dGA3ojrt-fs"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.heroku.com/blog/build-openapi-apis-nodejs-fastify/",
+        "https://devcenter.heroku.com/articles/how-heroku-works",
+        "https://www.heroku.com/blog/working-with-chatgpt-functions-on-heroku/"
+      ],
+      "notes": [
+        "https://www.heroku.com/blog/deploying-simple-go-gin-application-on-heroku/",
+        "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
+        "https://www.heroku.com/customers/sciometrix/",
+        "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
+        "https://realpython.com/flask-by-example-part-1-project-setup/",
+        "https://devcenter.heroku.com/articles/how-heroku-works"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=0sOvCWFmrtA",
+        "https://m.youtube.com/watch?v=05DuUvgkaLs&pp=ygUcI2F3c2VsYXN0aWNiZWFuc3RhbGt0dXRvcmlhbA%3D%3D",
+        "https://www.youtube.com/watch?v=DDvdMEEaLTE",
+        "https://www.youtube.com/watch?v=BUh76-xD5qU",
+        "https://www.youtube.com/watch?v=VDw1wutnqN8",
+        "https://www.youtube.com/watch?v=zf8gcvbnsKg",
+        "https://www.youtube.com/watch?v=QJdiEyeJzC4",
+        "https://www.youtube.com/watch?v=1qCaqEs8RW0",
+        "https://www.youtube.com/@codewithzosh"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
-        "description": "A guide on deploying Django applications in a production environment, covering best practices and configurations."
+        "question": "What is a key advantage of using Heroku over traditional IaaS platforms?",
+        "options": [
+          "Greater control over hardware configurations",
+          "Simplified deployment process with no need to manage the underlying infrastructure",
+          "Ability to customize network settings",
+          "Direct access to physical servers"
+        ],
+        "correct_option": 1,
+        "hint": "Heroku abstracts away infrastructure management to simplify the deployment process."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment",
-        "description": "This resource provides guidance on deploying Express and Node.js applications to a production server."
-      },
-      {
-        "url": "https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
-        "description": "A comprehensive guide on deploying Django applications for server-side web development."
+        "question": "Which of the following is a primary feature of Heroku?",
+        "options": [
+          "Managed virtual machines",
+          "Automated scaling and integrated add-ons",
+          "Direct SSH access to servers",
+          "Custom server operating systems"
+        ],
+        "correct_option": 1,
+        "hint": "Heroku is known for its ease of use and integration with various add-ons to extend functionality."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.geeksforgeeks.org/python/getting-started-on-heroku-with-python/",
-        "description": "A guide on deploying Python applications to Heroku, covering setup and deployment steps."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/how-to-migrate-app-from-heroku-to-netfliy-deploy-in-netlify-from-git/352009",
-        "description": "A guide on migrating an application from Heroku to Netlify and deploying it from Git."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/installation-guide/introduction-and-installation-of-heroku-cli-on-windows-machine/",
-        "description": "A step-by-step guide for installing the Heroku CLI on a Windows machine."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/introduction-and-installation-of-heroku-cli-on-windows-machine/",
-        "description": "Guide on installing and setting up the Heroku CLI on a Windows machine."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-i-cut-my-heroku-cost-by-400-5b9d0220ce13/",
-        "description": "A guide on reducing Heroku hosting costs by 400% through optimization techniques."
+        "question": "For which type of project is Heroku particularly well-suited?",
+        "options": [
+          "Projects requiring extensive hardware customization",
+          "Rapid prototyping and development",
+          "Projects needing direct access to server hardware",
+          "High-performance computing tasks"
+        ],
+        "correct_option": 1,
+        "hint": "Heroku is designed to streamline the development process, making it ideal for quick iterations."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=TFFtDLZnbSs",
-      "https://www.youtube.com/watch?v=FSU9a8ojKFk",
-      "https://www.youtube.com/watch?v=ljrQ2NuMXKk",
-      "https://www.youtube.com/watch?v=Kl7mqpAK-bk",
-      "https://www.youtube.com/watch?v=h5wLuVDr0oc"
+    "advanced": [
+      {
+        "question": "Why might a developer choose Heroku instead of managing their own infrastructure?",
+        "options": [
+          "Lower cost than all IaaS options",
+          "More control over network traffic",
+          "Less need for operational maintenance and management",
+          "Ability to host exclusively on physical servers"
+        ],
+        "correct_option": 2,
+        "hint": "By using Heroku, developers can focus more on their application rather than the infrastructure."
+      },
+      {
+        "question": "Which of these best describes Heroku's deployment model?",
+        "options": [
+          "Infrastructure as a Service (IaaS)",
+          "Platform as a Service (PaaS)",
+          "Software as a Service (SaaS)",
+          "Network as a Service (NaaS)"
+        ],
+        "correct_option": 1,
+        "hint": "Heroku provides an environment ready for deployment, abstracting the infrastructure layer."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is a key advantage of using Heroku over traditional IaaS platforms?",
-      "options": [
-        "Greater control over hardware configurations",
-        "Simplified deployment process with no need to manage the underlying infrastructure",
-        "Ability to customize network settings",
-        "Direct access to physical servers"
-      ],
-      "correct_option": 1,
-      "hint": "Heroku abstracts away infrastructure management to simplify the deployment process."
-    },
-    {
-      "question": "Which of the following is a primary feature of Heroku?",
-      "options": [
-        "Managed virtual machines",
-        "Automated scaling and integrated add-ons",
-        "Direct SSH access to servers",
-        "Custom server operating systems"
-      ],
-      "correct_option": 1,
-      "hint": "Heroku is known for its ease of use and integration with various add-ons to extend functionality."
-    },
-    {
-      "question": "For which type of project is Heroku particularly well-suited?",
-      "options": [
-        "Projects requiring extensive hardware customization",
-        "Rapid prototyping and development",
-        "Projects needing direct access to server hardware",
-        "High-performance computing tasks"
-      ],
-      "correct_option": 1,
-      "hint": "Heroku is designed to streamline the development process, making it ideal for quick iterations."
-    },
-    {
-      "question": "Why might a developer choose Heroku instead of managing their own infrastructure?",
-      "options": [
-        "Lower cost than all IaaS options",
-        "More control over network traffic",
-        "Less need for operational maintenance and management",
-        "Ability to host exclusively on physical servers"
-      ],
-      "correct_option": 2,
-      "hint": "By using Heroku, developers can focus more on their application rather than the infrastructure."
-    },
-    {
-      "question": "Which of these best describes Heroku's deployment model?",
-      "options": [
-        "Infrastructure as a Service (IaaS)",
-        "Platform as a Service (PaaS)",
-        "Software as a Service (SaaS)",
-        "Network as a Service (NaaS)"
-      ],
-      "correct_option": 1,
-      "hint": "Heroku provides an environment ready for deployment, abstracting the infrastructure layer."
-    }
-  ],
   "preferred_if": [
     "User prefers simplicity over fine-grained control",
     "Rapid prototyping"

@@ -1,0 +1,514 @@
+{
+  "id": "CSec15",
+  "name": "Ethical Hacking & Penetration Testing",
+  "category": "Computer Security",
+  "primary_tech": "Penetration Testing",
+  "topics": [
+    "Reconnaissance & Footprinting",
+    "Scanning & Enumeration",
+    "Vulnerability Exploitation",
+    "Post-Exploitation & Reporting"
+  ],
+  "recommended": false,
+  "tags": [
+    "hacking",
+    "pentesting",
+    "offensive-security"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+          "description": "An overview of the Certified Ethical Hacker (CEH) certification program by EC-Council.",
+          "title": "CEH Certification | Certified Ethical Hacker Course | EC-Council"
+        },
+        {
+          "url": "https://www.kali.org/",
+          "description": "The official website for Kali Linux, offering downloads, documentation, and support for the penetration testing platform.",
+          "title": "Kali Linux | Penetration Testing and Ethical Hacking Linux Distribution"
+        },
+        {
+          "url": "https://offsec.com/courses/pen-200/",
+          "description": "An in-depth course on penetration testing and ethical hacking techniques.",
+          "title": "Get your OSCP+ certification with PEN-200 | OffSec"
+        },
+        {
+          "url": "https://github.com/sundowndev/hacker-roadmap",
+          "description": "A curated roadmap for aspiring ethical hackers to learn and practice cybersecurity skills.",
+          "title": "GitHub - sundowndev/hacker-roadmap: A collection of hacking tools, resources and references to practice ethical hacking."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
+          "description": "An informative video tutorial on reverse engineering and analyzing malware threats.",
+          "title": "Full Ethical Hacking Course - Network Penetration Testing for Beginners (2019)",
+          "duration": "891m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=6442s",
+          "description": "A detailed tutorial on building and deploying machine learning models with TensorFlow.",
+          "title": "Ethical Hacking in 12 Hours - Full Course - Learn to Hack!",
+          "duration": "736m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WnN6dbos5u8",
+          "description": "A detailed tutorial on building a full-stack application using React and Node.js.",
+          "title": "Full Ethical Hacking Course - Beginner Network Penetration Testing (2019)",
+          "duration": "911m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=odC720S63Fw",
+          "description": "A detailed tutorial on implementing a simple neural network from scratch.",
+          "title": "Simple Penetration Testing Tutorial for Beginners!",
+          "duration": "13m"
+        },
+        {
+          "url": "https://www.cybrary.it/video/course-introduction-penetration-testing-and-ethical-hacking",
+          "description": "An introductory video course on penetration testing and ethical hacking.",
+          "title": "Penetration Testing and Ethical Hacking Course Introduction | Cybrary"
+        },
+        {
+          "url": "https://www.netacad.com/courses/ethical-hacker",
+          "description": "An introductory course on ethical hacking and cybersecurity fundamentals.",
+          "title": "Ethical Hacker"
+        },
+        {
+          "url": "https://ep.jhu.edu/courses/695643-introduction-to-ethical-hacking/",
+          "description": "An introductory course on ethical hacking principles and practices.",
+          "title": "Introduction to Ethical Hacking - 695.643 | Hopkins EP Online"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
+          "title": "Full Ethical Hacking Course - Network Penetration Testing for Beginners (2019)",
+          "duration": "891m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WnN6dbos5u8",
+          "title": "Full Ethical Hacking Course - Beginner Network Penetration Testing (2019)",
+          "duration": "911m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=6442s",
+          "title": "Ethical Hacking in 12 Hours - Full Course - Learn to Hack!",
+          "duration": "736m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2_lswM1S264",
+          "title": "Ethical Hacking 101: Web App Penetration Testing - a full course for beginners",
+          "duration": "167m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lZAoFs75_cs",
+          "title": "Linux for Ethical Hackers (Kali Linux Tutorial)",
+          "duration": "121m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hP75mW2ULt4",
+          "title": "5 Steps to start career in Penetration Testing (ethical hacking) #AskRaghav",
+          "duration": "0m"
+        },
+        {
+          "url": "https://www.youtube.com/playlist?list=PLBf0hzazHTGOEuhPQSnq-Ej8jRyXxfYvl"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UC0ZTPkdxlAKf-V33tqXwi3Q"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://www.servicenow.com/docs/bundle/yokohama-security-management/page/product/vulnerability-app-vuln-mgmt/concept/pen_test_overview_avm.html",
+          "description": "An overview of penetration testing within ServiceNow's Vulnerability Management application.",
+          "title": "Access Denied"
+        },
+        {
+          "url": "https://offsec.com/courses/pen-200/",
+          "description": "An in-depth course on penetration testing techniques and methodologies.",
+          "title": "Get your OSCP+ certification with PEN-200 | OffSec"
+        },
+        {
+          "url": "https://www.ibm.com/think/insights/pen-testing-methodology",
+          "description": "An overview of IBM's penetration testing methodology and best practices.",
+          "title": "Top Penetration Testing Methodologies | IBM"
+        },
+        {
+          "url": "https://pentest-tools.com/",
+          "description": "A platform offering a suite of tools for penetration testing and cybersecurity assessments.",
+          "title": "Pentesting & vulnerability assessment toolkit - Pentest-Tools.com"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/penetration-testing",
+          "description": "An overview of penetration testing techniques and their importance in cybersecurity.",
+          "title": "What is Penetration Testing? | IBM"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.invicti.com/blog/web-security/what-is-ethical-hacking/",
+          "description": "An overview of ethical hacking, its importance, and methodologies in cybersecurity.",
+          "title": "What is ethical hacking? | Invicti"
+        },
+        {
+          "url": "https://www.stationx.net/how-to-use-shodan/",
+          "description": "A detailed tutorial on using Shodan for cybersecurity and network analysis.",
+          "title": "How to Use Shodan for Pentesting: A Step-By-Step Guide"
+        },
+        {
+          "url": "https://www.invicti.com/blog/web-security/types-of-penetration-tests/",
+          "description": "An overview of different types of penetration tests used in web security.",
+          "title": "What Are the 3 Types of Penetration Testing? Methods, Use Cases, and Best Practices"
+        },
+        {
+          "url": "https://www.esecurityplanet.com/networks/kali-linux-tutorial/",
+          "description": "A beginner's tutorial on using Kali Linux for cybersecurity tasks.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.techtarget.com/searchsecurity/tutorial/Intro-How-to-use-BlackArch-Linux-for-pen-testing",
+          "description": "An introductory tutorial on using BlackArch Linux for penetration testing.",
+          "title": "Intro: How to use BlackArch Linux for pen testing | TechTarget"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=2_lswM1S264",
+          "title": "Ethical Hacking 101: Web App Penetration Testing - a full course for beginners",
+          "duration": "167m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lZAoFs75_cs",
+          "title": "Linux for Ethical Hackers (Kali Linux Tutorial)",
+          "duration": "121m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Keld6Wi8aZ4&pp=0gcJCfwAo7VqN5tD",
+          "title": "Penetration Testing with Metasploit: A Comprehensive Tutorial",
+          "duration": "21m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2nXOxLpeu80&pp=0gcJCfwAo7VqN5tD",
+          "title": "Basics of SQL Injection - Penetration Testing for Ethical Hackers",
+          "duration": "102m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ft6tLATCIVQ",
+          "title": "Ethical Hacking Deep Dive: Metasploit, Nmap, and Advanced Techniques",
+          "duration": "41m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3FNYvj2U0HM&pp=ygUGI3RjbWdv",
+          "title": "Ethical Hacking in 15 Hours - 2023 Edition - Learn to Hack! (Part 1)",
+          "duration": "434m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OtcP8c4wZys",
+          "title": "Ethical Hacking Course: Red Teaming For Beginners",
+          "duration": "435m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SXMkY-u8Vhk",
+          "title": "How to Build Your Own Virtual Lab to Practice Penetration Testing",
+          "duration": "39m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8q5mc1AEtYo",
+          "title": "Web App Pentesting - HTTP Headers & Methods",
+          "duration": "33m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+          "description": "An overview of the Certified Ethical Hacker certification program by EC-Council.",
+          "title": "CEH Certification | Certified Ethical Hacker Course | EC-Council"
+        },
+        {
+          "url": "https://offsec.com/courses/pen-200/",
+          "description": "An introductory course on penetration testing techniques and methodologies by Offensive Security.",
+          "title": "Get your OSCP+ certification with PEN-200 | OffSec"
+        },
+        {
+          "url": "https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/",
+          "description": "An overview of the Certified Penetration Testing Professional (CPENT) certification program by EC-Council.",
+          "title": "Penetration Testing Certification | CPENT | Certified Penetration Testing"
+        },
+        {
+          "url": "https://pentera.io/",
+          "description": "An overview of Pentera's automated security validation platform for cybersecurity.",
+          "title": "Pentera - Automated Security Validation"
+        },
+        {
+          "url": "https://www.offsec.com/courses/web-300/",
+          "description": "An advanced course on web application security techniques and exploitation.",
+          "title": "Get your OSWE Certification with WEB-300 | OffSec"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=lZAoFs75_cs",
+          "description": "An educational video explaining the basics of Git and GitHub for beginners.",
+          "title": "Linux for Ethical Hackers (Kali Linux Tutorial)",
+          "duration": "121m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=231s",
+          "description": "A YouTube video tutorial on advanced Python programming techniques.",
+          "title": "Ethical Hacking in 12 Hours - Full Course - Learn to Hack!",
+          "duration": "736m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Keld6Wi8aZ4&pp=0gcJCfwAo7VqN5tD",
+          "description": "An instructional video on implementing OAuth 2.0 authentication in web applications.",
+          "title": "Penetration Testing with Metasploit: A Comprehensive Tutorial",
+          "duration": "21m"
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/how-to-become-an-ethical-hacker",
+          "description": "A step-by-step guide on how to become an ethical hacker.",
+          "title": "How to Become an Ethical Hacker in 2025?"
+        },
+        {
+          "url": "https://www.elevationng.org/?u=957514181669",
+          "description": "An educational platform offering courses and resources for career development and skill enhancement.",
+          "title": "The Elevation Church - Making Greatness Common"
+        },
+        {
+          "url": "https://cybersecurityguide.org/programs/cybersecurity-certifications/ceh/",
+          "description": "An overview of the Certified Ethical Hacker (CEH) certification program and its requirements.",
+          "title": "A Deep Dive into the Certified Ethical Hacker Certification Process"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/iftekmahmud_web-security-scanning-with-nikto-ethical-activity-7261383688435687424-TeCW",
+          "description": "An overview of using Nikto for web security scanning in ethical hacking.",
+          "title": "Dive into the ethical hacking basics. | Iftekhar Mahmud"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=231s",
+          "title": "Ethical Hacking in 12 Hours - Full Course - Learn to Hack!",
+          "duration": "736m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lZAoFs75_cs",
+          "title": "Linux for Ethical Hackers (Kali Linux Tutorial)",
+          "duration": "121m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Keld6Wi8aZ4&pp=0gcJCfwAo7VqN5tD",
+          "title": "Penetration Testing with Metasploit: A Comprehensive Tutorial",
+          "duration": "21m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=v8ThuHceRfM",
+          "title": "Penetration Testing with Wireshark: A Step by Step Tutorial",
+          "duration": "62m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wlqUO09J-nw&pp=ygUII3BpbnRlc2g%3D",
+          "title": "Penetration Testing with Nmap: A Comprehensive Tutorial",
+          "duration": "38m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ft6tLATCIVQ",
+          "title": "Ethical Hacking Deep Dive: Metasploit, Nmap, and Advanced Techniques",
+          "duration": "41m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=W013Y3UInoQ",
+          "title": "Full Hands-On Ethical Hacking Course with Kali Linux for Beginners Step-by-Step | Cyber Security",
+          "duration": "215m"
+        },
+        {
+          "url": "https://www.youtube.com/davidbombal"
+        },
+        {
+          "url": "https://www.youtube.com/playlist?list=PLlDcvddOAkIC3-wIhtW_DgqXXz7u5exil"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UC39GKRsNps38x7UzydcOZ9w"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary goal of reconnaissance in ethical hacking?",
+        "options": [
+          "To launch attacks",
+          "To gather information about the target",
+          "To exploit vulnerabilities",
+          "To install malware"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the first step in understanding the target system."
+      },
+      {
+        "question": "Which tool is commonly used for scanning networks during penetration testing?",
+        "options": [
+          "Wireshark",
+          "Nmap",
+          "Photoshop",
+          "Blender"
+        ],
+        "correct_option": 1,
+        "hint": "This tool helps you discover hosts and services on a computer network."
+      },
+      {
+        "question": "What does footprinting involve in the context of ethical hacking?",
+        "options": [
+          "Creating a footprint of the hacker",
+          "Mapping out the organizational structure",
+          "Collecting as much information as possible about a target",
+          "Leaving traces of hacking activities"
+        ],
+        "correct_option": 2,
+        "hint": "It's similar to reconnaissance and involves gathering detailed information."
+      },
+      {
+        "question": "During vulnerability exploitation, what is the hacker attempting to achieve?",
+        "options": [
+          "Gain unauthorized access",
+          "Repair system vulnerabilities",
+          "Install security patches",
+          "Improve network speed"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the main objective after identifying vulnerabilities."
+      },
+      {
+        "question": "What is the purpose of the post-exploitation phase in penetration testing?",
+        "options": [
+          "To close all vulnerabilities",
+          "To gather evidence and document findings",
+          "To launch additional attacks",
+          "To erase all traces of the test"
+        ],
+        "correct_option": 1,
+        "hint": "This phase focuses on documentation and analysis after gaining access."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following tools is primarily used for network scanning and enumeration in penetration testing?",
+        "options": [
+          "Nmap",
+          "Metasploit",
+          "Wireshark",
+          "Burp Suite"
+        ],
+        "correct_option": 0,
+        "hint": "This tool is widely used for discovering hosts and services on a computer network."
+      },
+      {
+        "question": "What is the primary goal of the reconnaissance phase in penetration testing?",
+        "options": [
+          "To identify and exploit vulnerabilities",
+          "To gather as much information as possible about the target",
+          "To remove all traces of testing activities",
+          "To document and report findings"
+        ],
+        "correct_option": 1,
+        "hint": "This phase involves collecting data about the target before any active engagement."
+      },
+      {
+        "question": "Which technique is commonly used in the vulnerability exploitation phase to gain unauthorized access to systems?",
+        "options": [
+          "Brute force attack",
+          "Social engineering",
+          "Patch management",
+          "Port scanning"
+        ],
+        "correct_option": 0,
+        "hint": "This technique involves trying many passwords or passphrases with the hope of eventually guessing correctly."
+      },
+      {
+        "question": "In the context of post-exploitation, which activity is crucial to maintain access to a compromised system?",
+        "options": [
+          "Installing a backdoor",
+          "Performing a vulnerability scan",
+          "Conducting a denial-of-service attack",
+          "Sniffing network traffic"
+        ],
+        "correct_option": 0,
+        "hint": "This activity involves creating a mechanism to access the system later without exploiting the vulnerability again."
+      },
+      {
+        "question": "Why is reporting an essential part of the penetration testing process?",
+        "options": [
+          "To inform the client about the vulnerabilities and recommendations",
+          "To exploit new vulnerabilities found",
+          "To test the resilience of the report",
+          "To hide the traces of the penetration test"
+        ],
+        "correct_option": 0,
+        "hint": "The report provides a detailed account of the findings and suggests improvements to security."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In the context of ethical hacking, which tool is most commonly used for passive reconnaissance to gather initial information about a target?",
+        "options": [
+          "Nmap",
+          "Maltego",
+          "Metasploit",
+          "Wireshark"
+        ],
+        "correct_option": 1,
+        "hint": "This tool is known for visualizing relationships between data points."
+      },
+      {
+        "question": "During scanning and enumeration, which technique is used to identify live hosts on a network by sending ICMP echo requests?",
+        "options": [
+          "Port Scanning",
+          "Ping Sweep",
+          "OS Fingerprinting",
+          "Service Banner Grabbing"
+        ],
+        "correct_option": 1,
+        "hint": "This technique involves using a type of network diagnostic tool."
+      },
+      {
+        "question": "What is the primary purpose of post-exploitation in penetration testing?",
+        "options": [
+          "To gain elevated privileges",
+          "To document vulnerabilities",
+          "To hide the attacker's presence",
+          "To extract and analyze valuable data"
+        ],
+        "correct_option": 3,
+        "hint": "After initial access, the focus shifts to gathering sensitive information."
+      },
+      {
+        "question": "Which of the following is a common method for exploiting a buffer overflow vulnerability?",
+        "options": [
+          "SQL Injection",
+          "Heap Spray",
+          "Return-to-libc Attack",
+          "Cross-Site Scripting"
+        ],
+        "correct_option": 2,
+        "hint": "This technique involves manipulating the stack to execute shellcode."
+      },
+      {
+        "question": "What is the significance of the reporting phase in penetration testing?",
+        "options": [
+          "To perform a final security audit",
+          "To provide evidence of compliance",
+          "To deliver a detailed analysis of vulnerabilities and remediation measures",
+          "To ensure the attack methods remain confidential"
+        ],
+        "correct_option": 2,
+        "hint": "This phase involves communicating findings to stakeholders and suggesting improvements."
+      }
+    ]
+  }
+}

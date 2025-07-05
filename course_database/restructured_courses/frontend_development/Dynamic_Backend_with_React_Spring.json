@@ -23,107 +23,148 @@
     "api-integration"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://www.joshwcomeau.com/blog/how-i-built-my-blog/",
+        "https://firebase.google.com/docs/hosting"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=Vlk_wpXzUmw",
+        "https://m.youtube.com/watch?v=sWVgMcz8Q44&pp=ygUPI3JlYWN0YnV0dG9uYXBp",
+        "https://www.youtube.com/watch?v=-LUA-LHXobE",
+        "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
+        "https://www.youtube.com/watch?v=B5tcZoNyqGI",
+        "https://www.joshwcomeau.com/react/server-components/",
+        "https://www.youtube.com/watch?v=MY6ZZIn93V8"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Vlk_wpXzUmw",
+        "https://www.youtube.com/watch?v=-LUA-LHXobE",
+        "https://m.youtube.com/watch?v=sWVgMcz8Q44&pp=ygUPI3JlYWN0YnV0dG9uYXBp",
+        "https://www.youtube.com/watch?v=B5tcZoNyqGI",
+        "https://www.youtube.com/watch?v=bqFjrhRrvy8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=TywlS9iAZCM&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=mxOcw4FZRa8",
+        "https://www.youtube.com/watch?v=MY6ZZIn93V8",
+        "https://www.youtube.com/watch?v=jBDTsf8jsEs"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://stackoverflow.com/questions/30967822/when-do-i-use-path-parameters-vs-query-parameters-in-a-restful-api",
+        "https://firebase.google.com/docs/hosting",
+        "https://graphql.org/community/tools-and-libraries/"
+      ],
+      "notes": [
+        "https://www.joshwcomeau.com/react/server-components/",
+        "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
+        "https://stackoverflow.blog/2021/12/28/what-i-wish-i-had-known-about-single-page-applications/",
+        "https://stackoverflow.com/questions/60424844/do-i-need-to-run-npm-run-build-every-time-i-made-changes",
+        "https://github.com/MobileNativeFoundation/discussions/discussions/47"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=B5tcZoNyqGI",
+        "https://www.youtube.com/watch?v=TywlS9iAZCM&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=IxYa6cKimZc&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=sWVgMcz8Q44&pp=ygUPI3JlYWN0YnV0dG9uYXBp",
+        "https://www.youtube.com/watch?v=uLUMM1Y-dd8",
+        "https://www.youtube.com/watch?v=7T-HnTE6v64",
+        "https://www.youtube.com/watch?v=31KTdfRH6nY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=5PdEmeopJVQ&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.joshwcomeau.com/react/server-components/",
+        "https://www.marcobehler.com/guides/spring-security",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      ],
+      "notes": [
+        "https://www.joshwcomeau.com/react/server-components/",
+        "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
+        "https://www.marcobehler.com/guides/spring-security",
+        "https://www.linkedin.com/posts/singhsanket143_advanced-backend-development-roadmap-2025-activity-7284418888820240385-s1uD",
+        "https://www.sourish.dev/blog/industry/personal-projects"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=-LUA-LHXobE",
+        "https://m.youtube.com/watch?v=bqFjrhRrvy8",
+        "https://www.youtube.com/watch?v=rIYzLhkG9TA",
+        "https://www.youtube.com/watch?v=7T-HnTE6v64",
+        "https://www.youtube.com/watch?v=7WKUGdUEFVI",
+        "https://www.youtube.com/watch?v=6_wgB8GO1GM",
+        "https://www.youtube.com/watch?v=HXquxWtE5vA",
+        "https://www.youtube.com/watch?v=j8EUPXFQgbY",
+        "https://www.youtube.com/@akshaymarch7",
+        "https://www.youtube.com/@codewithzosh"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax",
-        "description": "A comprehensive guide on using the spread syntax in JavaScript to expand iterable objects or expressions."
+        "question": "What is React Spring primarily used for in a React application?",
+        "options": [
+          "State management",
+          "Animation",
+          "Routing",
+          "Data fetching"
+        ],
+        "correct_option": 1,
+        "hint": "It's a library for creating animations."
       },
       {
-        "url": "https://reactjs.org/docs/getting-started.html",
-        "description": "An introductory guide to getting started with React, including installation and basic concepts."
-      },
-      {
-        "url": "https://legacy.reactjs.org/docs/faq-styling.html",
-        "description": "The page provides answers to frequently asked questions about styling in React applications."
+        "question": "Which of the following is a feature of React Spring?",
+        "options": [
+          "Heavyweight animation processing",
+          "CSS-only animations",
+          "Physics-based animations",
+          "Database integration"
+        ],
+        "correct_option": 2,
+        "hint": "Think about natural motion and physics."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.geeksforgeeks.org/reactjs/react-spring-introduction-and-installation/",
-        "description": "An introductory guide to using and installing the React Spring animation library in ReactJS applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/reactjs/react-spring-loop-function/",
-        "description": "This resource explains the usage of the `useSpring` hook in React Spring for creating looping animations in React applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/reactjs/react-spring-imperatives-refs/",
-        "description": "This resource provides a guide on using imperative refs with React Spring for animations in ReactJS applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/reactjs/react-spring-cancel-prop/",
-        "description": "The article explains how to use the 'cancel' prop in React Spring to control animation cancellation in ReactJS applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/reactjs/react-spring-loop-prop/",
-        "description": "The article explains how to use the \"loop\" prop in React Spring for creating looping animations in React applications."
+        "question": "Why might a developer choose React Spring over other animation libraries?",
+        "options": [
+          "It is larger in size",
+          "It does not support React",
+          "It focuses on non-interactive animations",
+          "It is lightweight and suitable for React applications"
+        ],
+        "correct_option": 3,
+        "hint": "Consider the size and compatibility with React."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=WKmhhBokAh8",
-      "https://www.youtube.com/watch?v=4caEfeCmEeY",
-      "https://www.youtube.com/watch?v=i-hoSg8iRG0",
-      "https://www.youtube.com/watch?v=mNKxir1qZl0",
-      "https://www.youtube.com/watch?v=-LUA-LHXobE"
+    "advanced": [
+      {
+        "question": "In the context of React Spring, what is a 'spring'?",
+        "options": [
+          "A styled component",
+          "A function for routing",
+          "A physics-based animation function",
+          "A type of state management"
+        ],
+        "correct_option": 2,
+        "hint": "It relates to the natural motion of animations."
+      },
+      {
+        "question": "How does React Spring differ from traditional CSS animations?",
+        "options": [
+          "It runs animations on the server",
+          "It uses physics-based motion instead of keyframes",
+          "It does not support animations",
+          "It is only for mobile applications"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the type of motion it uses for animations."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is React Spring primarily used for in a React application?",
-      "options": [
-        "State management",
-        "Animation",
-        "Routing",
-        "Data fetching"
-      ],
-      "correct_option": 1,
-      "hint": "It's a library for creating animations."
-    },
-    {
-      "question": "Which of the following is a feature of React Spring?",
-      "options": [
-        "Heavyweight animation processing",
-        "CSS-only animations",
-        "Physics-based animations",
-        "Database integration"
-      ],
-      "correct_option": 2,
-      "hint": "Think about natural motion and physics."
-    },
-    {
-      "question": "Why might a developer choose React Spring over other animation libraries?",
-      "options": [
-        "It is larger in size",
-        "It does not support React",
-        "It focuses on non-interactive animations",
-        "It is lightweight and suitable for React applications"
-      ],
-      "correct_option": 3,
-      "hint": "Consider the size and compatibility with React."
-    },
-    {
-      "question": "In the context of React Spring, what is a 'spring'?",
-      "options": [
-        "A styled component",
-        "A function for routing",
-        "A physics-based animation function",
-        "A type of state management"
-      ],
-      "correct_option": 2,
-      "hint": "It relates to the natural motion of animations."
-    },
-    {
-      "question": "How does React Spring differ from traditional CSS animations?",
-      "options": [
-        "It runs animations on the server",
-        "It uses physics-based motion instead of keyframes",
-        "It does not support animations",
-        "It is only for mobile applications"
-      ],
-      "correct_option": 1,
-      "hint": "Consider the type of motion it uses for animations."
-    }
-  ],
   "preferred_if": [
     "User uses React and wants smaller lib"
   ]

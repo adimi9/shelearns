@@ -1,0 +1,407 @@
+{
+  "id": "MD17",
+  "name": "State Management in Mobile Apps",
+  "category": "Mobile Development",
+  "primary_tech": "State Management",
+  "topics": [
+    "Prop Drilling vs. Centralized State",
+    "Provider (Flutter)",
+    "Redux/MobX (React Native)",
+    "ViewModel/LiveData (Android)"
+  ],
+  "recommended": true,
+  "tags": [
+    "architecture",
+    "data-flow",
+    "scalability"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://redux.js.org/introduction/getting-started",
+          "description": "A beginner's guide to getting started with Redux for state management in JavaScript applications.",
+          "title": "Getting Started with Redux | Redux"
+        },
+        {
+          "url": "https://developer.android.com/guide/components/activities/intro-activities",
+          "description": "An introduction to Android activities, explaining their role and lifecycle in app development.",
+          "title": "Introduction to activities  |  App architecture  |  Android Developers"
+        },
+        {
+          "url": "https://firebase.google.com/docs/database",
+          "description": "Official documentation for Firebase Realtime Database, covering its features and usage.",
+          "title": "Firebase Realtime Database"
+        },
+        {
+          "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
+          "description": "Comprehensive documentation for Check Point's latest API offerings.",
+          "title": "Check Point - Management API reference"
+        },
+        {
+          "url": "https://docs.flutter.dev/data-and-backend/state-mgmt/simple",
+          "description": "An introductory guide to simple state management in Flutter applications.",
+          "title": "Simple app state management | Flutter"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://redux.js.org/introduction/getting-started",
+          "description": "An introductory guide to getting started with Redux for state management in JavaScript applications.",
+          "title": "Getting Started with Redux | Redux"
+        },
+        {
+          "url": "https://developer.apple.com/tutorials/app-dev-training/",
+          "description": "Apple's official tutorials for learning app development on their platforms.",
+          "title": "Develop apps for Apple platforms | Apple Developer Documentation"
+        },
+        {
+          "url": "https://docs.flutter.dev/data-and-backend/state-mgmt/simple",
+          "description": "An introduction to simple state management techniques in Flutter applications.",
+          "title": "Simple app state management | Flutter"
+        },
+        {
+          "url": "https://www.youtube.com/c/makeappswithdanny",
+          "description": "A YouTube channel offering tutorials and insights on app development with Flutter."
+        },
+        {
+          "url": "https://www.linkedin.com/posts/johannesmilke_expense-tracker-app-flutter-bloc-tutorial-activity-7226267013524918275-6K3K",
+          "description": "A tutorial on building an expense tracker app using Flutter and Bloc.",
+          "title": "🌟 Flutter BLoC Tutorial for Beginners 🌟 | Johannes Milke"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/watch?v=5lDJNFSWUD8",
+        "https://www.youtube.com/watch?v=SDk_GldOtK8",
+        "https://www.youtube.com/watch?v=LFlE8yV7lJY",
+        "https://www.youtube.com/watch?v=vIIBp6xJJeA&pp=ygUNI2dldHh0dXRvcmlhbA%3D%3D",
+        "https://www.youtube.com/watch?v=bCpFbERgj7s"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://developers.google.com/apis-explorer",
+          "description": "An interactive tool for exploring and testing Google APIs.",
+          "title": "Google APIs Explorer  |  Google for Developers"
+        },
+        {
+          "url": "https://docs.datadoghq.com/api/latest/",
+          "description": "Documentation for the latest version of Datadog's API.",
+          "title": "API Reference"
+        },
+        {
+          "url": "https://redux.js.org/introduction/getting-started",
+          "description": "An introductory guide to getting started with Redux for state management in JavaScript applications.",
+          "title": "Getting Started with Redux | Redux"
+        },
+        {
+          "url": "https://launchdarkly.com/docs/api",
+          "description": "Documentation for the LaunchDarkly REST API, detailing endpoints and usage.",
+          "title": "Overview | LaunchDarkly | Documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://docs.flutter.dev/data-and-backend/state-mgmt/simple",
+          "description": "An introduction to simple state management techniques in Flutter applications.",
+          "title": "Simple app state management | Flutter"
+        },
+        {
+          "url": "https://developer.android.com/guide/components/activities/activity-lifecycle",
+          "description": "An overview of the Android activity lifecycle and its callback methods.",
+          "title": "The activity lifecycle  |  App architecture  |  Android Developers"
+        },
+        {
+          "url": "https://help.salesforce.com/s/articleView?id=release-notes.salesforce_release_notes.htm&language=en_US&release=252&type=5",
+          "description": "Detailed release notes for Salesforce's latest software update, version 252.",
+          "title": "Salesforce Help | Article"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/customize-application-attributes",
+          "description": "Guidance on customizing application attributes for identity provisioning in Microsoft Entra.",
+          "title": "Tutorial - Customize Microsoft Entra attribute mappings in Application Provisioning - Microsoft Entra ID | Microsoft Learn"
+        },
+        {
+          "url": "https://aws.amazon.com/caching/",
+          "description": "An overview of caching solutions and services provided by AWS to enhance application performance.",
+          "title": "What is Caching and How it Works | AWS"
+        },
+        {
+          "url": "https://www.box.com/home",
+          "description": "A cloud-based file storage and collaboration platform for businesses.",
+          "title": "Secure, AI-Powered Content Management, Workflow & Collaboration"
+        },
+        {
+          "url": "https://doc.arcgis.com/en/arcgis-solutions/11.1/reference/use-communications-data-management.htm",
+          "description": "Guidance on managing communications data using ArcGIS Solutions.",
+          "title": "Use Communications Data Management—ArcGIS Solutions | Documentation"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=HSRYHwL6rPs",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=I_J7N0n5YPs",
+        "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=dc3B_mMrZ-Q",
+        "https://www.youtube.com/watch?v=ZeZPmC861E8",
+        "https://www.youtube.com/watch?v=56Ihv5MF4_U"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
+          "description": "Documentation for the latest Check Point API reference and usage guidelines.",
+          "title": "Check Point - Management API reference"
+        },
+        {
+          "url": "https://docs.flutter.dev/get-started/fundamentals/state-management",
+          "description": "An introductory guide to state management in Flutter applications.",
+          "title": "State management | Flutter"
+        },
+        {
+          "url": "https://admob.google.com/home/",
+          "description": "An overview of Google's AdMob platform for mobile app monetization and ad management.",
+          "title": "Google AdMob - Earn More With Mobile App Monetization"
+        },
+        {
+          "url": "https://support.google.com/googlenest/answer/13323253?hl=en",
+          "description": "Instructions for setting up and configuring the Nest Doorbell (battery) with the Google Home app.",
+          "title": "Create advanced home automations with the script editor - Google Nest Help"
+        },
+        {
+          "url": "https://cloud.google.com/dialogflow/cx/docs",
+          "description": "Official documentation for Dialogflow CX, Google's advanced conversational AI platform.",
+          "title": "Conversational Agents (Dialogflow CX) documentation  |  Google Cloud"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://docs.flutter.dev/get-started/fundamentals/state-management",
+          "description": "An introduction to state management concepts and practices in Flutter applications.",
+          "title": "State management | Flutter"
+        },
+        {
+          "url": "https://flutter.dev/learn",
+          "description": "An introductory learning path for building apps with Flutter.",
+          "title": "Learn"
+        },
+        {
+          "url": "https://codewithandrea.com/articles/flutter-deep-links/",
+          "description": "A detailed guide on implementing deep linking in Flutter applications.",
+          "title": "Flutter Deep Linking: The Ultimate Guide"
+        },
+        {
+          "url": "https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture",
+          "description": "An in-depth exploration of iptables and Netfilter architecture for network traffic management.",
+          "title": "A Deep Dive into Iptables and Netfilter Architecture | DigitalOcean"
+        },
+        {
+          "url": "https://getstream.io/blog/compose-tutorials/",
+          "description": "A series of tutorials on building applications using Jetpack Compose.",
+          "title": "Jetpack Compose Tutorials for Beginners"
+        },
+        {
+          "url": "https://www.wrike.com/project-management-guide/faq/what-are-project-management-tools/",
+          "description": "An overview of various tools used in project management to enhance productivity and collaboration.",
+          "title": "Best 21 project management tools: Expert reviews 2025"
+        },
+        {
+          "url": "https://nalexn.github.io/state-management-guide-ios/",
+          "description": "A detailed guide on state management techniques for iOS development.",
+          "title": "The Complete Guide to the State Management in iOS - Alexey Naumov"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=SDk_GldOtK8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=56Ihv5MF4_U",
+        "https://www.youtube.com/watch?v=dCLhUialKPQ",
+        "https://www.youtube.com/watch?v=CQc-QDTmCoQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=CzRQ9mnmh44",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://m.youtube.com/watch?v=8cFNtL538lc",
+        "https://www.youtube.com/c/TheAndroidFactory",
+        "https://www.youtube.com/c/divinecoding/videos"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a primary disadvantage of prop drilling in state management?",
+        "options": [
+          "Increases complexity by introducing intermediaries",
+          "Simplifies the code structure",
+          "Enhances performance by localizing state",
+          "Makes debugging easier"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the impact of passing props through many components."
+      },
+      {
+        "question": "Which package is commonly used in Flutter for state management?",
+        "options": [
+          "Vuex",
+          "Provider",
+          "Redux",
+          "LiveData"
+        ],
+        "correct_option": 1,
+        "hint": "This package is known for its simplicity and is widely used in Flutter applications."
+      },
+      {
+        "question": "What is a key advantage of using Redux in React Native applications?",
+        "options": [
+          "Reduces the need for component re-renders",
+          "Centralizes the app's state",
+          "Eliminates the need for any state management",
+          "Simplifies the use of asynchronous data"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how Redux handles state across various components."
+      },
+      {
+        "question": "In Android development, what is the role of ViewModel in state management?",
+        "options": [
+          "To store UI-related data that survives configuration changes",
+          "To manage database transactions",
+          "To handle network operations",
+          "To provide a UI for the database"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how ViewModel helps in maintaining the UI state even after rotation."
+      },
+      {
+        "question": "What is LiveData primarily used for in Android apps?",
+        "options": [
+          "To perform background tasks",
+          "To observe data changes and update the UI",
+          "To manage user authentication",
+          "To handle file storage"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how LiveData helps in reflecting changes in the app UI automatically."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is prop drilling and why can it be considered a problem in state management?",
+        "options": [
+          "It involves passing data through many layers of components which can lead to tightly coupled components.",
+          "It uses a central store to manage state across components.",
+          "It is a pattern that uses observers to react to state changes.",
+          "It involves using hooks to manage state in function components."
+        ],
+        "correct_option": 0,
+        "hint": "Consider the challenges of passing data through multiple layers of a component tree."
+      },
+      {
+        "question": "In Flutter's Provider package, how does one typically access the nearest instance of a provided object?",
+        "options": [
+          "By using the 'Provider.of' method with the current context.",
+          "By directly referencing the object in the main file.",
+          "By calling a function with the object's name.",
+          "By using global variables."
+        ],
+        "correct_option": 0,
+        "hint": "Think about the method that retrieves the provided object based on the context."
+      },
+      {
+        "question": "Which of the following best describes Redux in the context of React Native applications?",
+        "options": [
+          "A library for managing and centralizing application state with a single source of truth.",
+          "A library that allows direct manipulation of the DOM.",
+          "A package for styling components in React Native.",
+          "A tool for building native modules for React Native."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how Redux handles application state across components."
+      },
+      {
+        "question": "How does MobX differ from Redux in the way it handles state management?",
+        "options": [
+          "MobX uses observables and reactions, while Redux uses a single immutable state tree.",
+          "MobX requires a central store, while Redux does not.",
+          "MobX is only for server-side state management, while Redux is for client-side.",
+          "MobX is used for styling components, while Redux is not."
+        ],
+        "correct_option": 0,
+        "hint": "Think about the key architectural differences between MobX and Redux."
+      },
+      {
+        "question": "In Android development, what is the primary role of a ViewModel in the MVVM architecture?",
+        "options": [
+          "To manage UI-related data in a lifecycle-conscious way.",
+          "To directly handle UI rendering.",
+          "To serve as the main entry point for the application.",
+          "To manage database transactions and queries."
+        ],
+        "correct_option": 0,
+        "hint": "Focus on how the ViewModel interacts with the user interface and lifecycle."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a primary disadvantage of prop drilling when compared to centralized state management?",
+        "options": [
+          "Increased complexity in components",
+          "Higher memory usage",
+          "Difficulty in maintaining code",
+          "Limited data flow control"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the challenges of passing data through multiple layers of components."
+      },
+      {
+        "question": "In Flutter, how does the Provider package differ from using setState for state management?",
+        "options": [
+          "Provider allows for a more global state management approach",
+          "Provider is only compatible with stateless widgets",
+          "setState provides better performance",
+          "Provider does not work with asynchronous operations"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the scope and reusability of state management."
+      },
+      {
+        "question": "Which of the following is true about using Redux for state management in React Native?",
+        "options": [
+          "Redux requires a global store to manage state",
+          "Redux is built into React Native by default",
+          "Redux does not support middleware",
+          "Redux automatically syncs state across devices"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how Redux organizes and centralizes state."
+      },
+      {
+        "question": "In Android development, how do ViewModel and LiveData work together for state management?",
+        "options": [
+          "ViewModel holds UI-related data, LiveData observes it",
+          "LiveData is used to replace ViewModel",
+          "ViewModel directly updates UI components",
+          "LiveData dispatches network requests"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the relationship between data storage and observation."
+      },
+      {
+        "question": "What is a common challenge when managing state with MobX in React Native?",
+        "options": [
+          "Complexity in setting up decorators",
+          "Lack of support for functional components",
+          "Difficulty in tracking state changes",
+          "No support for side effects"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the transparency and tracking of state changes in MobX."
+      }
+    ]
+  }
+}

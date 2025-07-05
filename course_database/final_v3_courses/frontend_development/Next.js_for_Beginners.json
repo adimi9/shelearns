@@ -1,0 +1,488 @@
+{
+  "id": "FE11",
+  "name": "Next.js for Beginners",
+  "category": "Frontend Development",
+  "primary_tech": "Next.js",
+  "topics": [
+    "Pages & Routing",
+    "Server-Side Rendering",
+    "API Routes & Middleware"
+  ],
+  "recommended": true,
+  "tags": [
+    "framework",
+    "SSR",
+    "React-based",
+    "fullstack"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building applications with Next.js, a React framework.",
+          "title": "Next.js Docs | Next.js"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "Comprehensive documentation for JavaScript programming on the web.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://nextjs.org/docs/pages/building-your-application/routing/api-routes",
+          "description": "A guide to creating API routes in Next.js applications.",
+          "title": "Routing: API Routes | Next.js"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+          "description": "A YouTube tutorial explaining the basics of Kubernetes architecture and components.",
+          "title": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
+          "duration": "62m"
+        },
+        {
+          "url": "https://nextjs.org/learn",
+          "description": "An interactive tutorial for learning Next.js, a React framework for building web applications.",
+          "title": "Learn Next.js | Next.js by Vercel - The React Framework"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUJI25leHRqczE0",
+          "description": "An introductory tutorial on using Next.js 14 for web development.",
+          "title": "Next.js Full Course for Beginners | Nextjs 13 Tutorial | 7 Hours",
+          "duration": "423m"
+        },
+        {
+          "url": "https://welearncode.com/beginners-guide-nextjs/",
+          "description": "A beginner's guide to understanding and using Next.js for web development.",
+          "title": "A Complete Beginner's Guide to Next.js · We Learn Code"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/nextjs/nextjs-tutorial/",
+          "description": "A step-by-step tutorial on building web applications using Next.js.",
+          "title": "Next.js Tutorial - GeeksforGeeks"
+        },
+        {
+          "url": "https://www.freecodecamp.org/news/nextjs-tutorial/",
+          "description": "A beginner-friendly tutorial on building web applications using Next.js.",
+          "title": "Get Started with Next.js – The React Library Your Project Needs"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+          "title": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
+          "duration": "62m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUJI25leHRqczE0",
+          "title": "Next.js Full Course for Beginners | Nextjs 13 Tutorial | 7 Hours",
+          "duration": "423m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TJQbDPGzm0Y",
+          "title": "Next.js 13 Crash Course Tutorial #1 - Introduction & New Features",
+          "duration": "14m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=YkdoNnmuQNU",
+          "title": "Next.js 14 Tutorial for Beginners",
+          "duration": "35m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6jQdZcYY8OY",
+          "title": "NextJS 15 Full Course 2025 | Become a NextJS Pro in 1.5 Hours",
+          "duration": "78m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=h2BcitZPMn4",
+          "title": "Introduction to Next.js and React",
+          "duration": "81m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iJejohAs9EY&pp=0gcJCdgAo7VqN5tD",
+          "title": "Next.js Tutorial for Beginners (User CRUD App)",
+          "duration": "205m"
+        },
+        {
+          "url": "https://www.youtube.com/playlist?list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH"
+        },
+        {
+          "url": "https://www.youtube.com/@piyushgargdev"
+        },
+        {
+          "url": "https://www.youtube.com/playlist?list=PL0Zuz27SZ-6Pk-QJIdGd1tGZEzy9RTgtj"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building applications with Next.js, a React framework.",
+          "title": "Next.js Docs | Next.js"
+        },
+        {
+          "url": "https://github.com/vercel/next.js/discussions/72029",
+          "description": "A community discussion on implementing custom server components in Next.js.",
+          "title": "Docs: How to get started with turbopack? · vercel/next.js · Discussion #72029 · GitHub"
+        },
+        {
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/middleware",
+          "description": "Documentation on middleware file conventions in Next.js applications.",
+          "title": "File-system conventions: middleware.js | Next.js"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building web applications with Next.js.",
+          "title": "Next.js Docs | Next.js"
+        },
+        {
+          "url": "https://www.epicweb.dev/why-i-wont-use-nextjs",
+          "description": "An article explaining the reasons for choosing not to use Next.js in web development projects.",
+          "title": "Why I Won't Use Next.js | Epic Web Dev"
+        },
+        {
+          "url": "https://nextjs.org/docs/app/api-reference/file-conventions/middleware",
+          "description": "Detailed documentation on middleware file conventions in Next.js applications.",
+          "title": "File-system conventions: middleware.js | Next.js"
+        },
+        {
+          "url": "https://welearncode.com/beginners-guide-nextjs/",
+          "description": "A beginner's guide to building web applications with Next.js.",
+          "title": "A Complete Beginner's Guide to Next.js · We Learn Code"
+        },
+        {
+          "url": "https://github.com/vercel/next.js/discussions/45426",
+          "description": "A community discussion on implementing and optimizing image components in Next.js.",
+          "title": "Interactive tutorials for next.js · vercel/next.js · Discussion #45426 · GitHub"
+        },
+        {
+          "url": "https://www.inngest.com/docs/getting-started/nextjs-quick-start",
+          "description": "A quick-start guide for integrating Inngest with Next.js applications.",
+          "title": "Next.js Quick Start - Inngest Documentation"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=-2yUgcBqgSM",
+          "title": "Learn AI Agents by Building 4 Full-Stack Apps in 19 Hours! (Next.js 15 Beginner Crash Course | 2025)",
+          "duration": "1189m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=843nec-IvW0",
+          "title": "Next.js Full Course for Beginners | Nextjs 13 Tutorial | 7 Hours",
+          "duration": "423m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AS79oJ3Fcf0",
+          "title": "Next.js with React Testing Library, Jest, TypeScript",
+          "duration": "25m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=7DVdVGm7Ht8&t=62168s",
+          "title": "The Ultimate NEXT.JS 13 Crash Course for Beginners - Build 6 Apps in 18 Hours!",
+          "duration": "1147m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XTNqyEBPAFw",
+          "title": "Testing a Next.js App with React Testing Library & Jest",
+          "duration": "30m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1KPG3LiE4jU",
+          "title": "The Ultimate AI Next.js 13 Crash Course for Beginners - Build 4 Apps in 12 Hours! (2025)",
+          "duration": "763m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=W6V91VeghjI",
+          "title": "Learn Next.js 13.4 Server Actions in 24 minutes (For beginners)",
+          "duration": "24m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=JPX60qarij4",
+          "title": "Templates vs Layouts in NextJs 13",
+          "duration": "16m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SG82Aqcaaa0",
+          "title": "Build a Complete E-Commerce Shop with Next.js 14, Tailwind, React | Full Course 2024",
+          "duration": "720m"
+        },
+        {
+          "url": "https://www.youtube.com/c/GreatAdib"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "The official documentation for Next.js, a React framework for building web applications.",
+          "title": "Next.js Docs | Next.js"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "Comprehensive documentation and resources for JavaScript development on the web.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://nextjs.org/learn",
+          "description": "An interactive tutorial for learning Next.js framework fundamentals.",
+          "title": "Learn Next.js | Next.js by Vercel - The React Framework"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://nextjs.org/learn",
+          "description": "An interactive tutorial for learning Next.js, a React framework for building web applications.",
+          "title": "Learn Next.js | Next.js by Vercel - The React Framework"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/maximilian-schwarzmueller_nextjs-activity-7188159759286419457-nMS5",
+          "description": "An insightful overview of Next.js features and updates by Maximilian Schwarzmüller.",
+          "title": "Hi! | Maximilian Schwarzmüller"
+        },
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building applications with Next.js, a React framework.",
+          "title": "Next.js Docs | Next.js"
+        },
+        {
+          "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+          "description": "A comprehensive course on React and Redux for building dynamic web applications.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.joshwcomeau.com/react/server-components/",
+          "description": "An insightful exploration of React Server Components and their benefits.",
+          "title": "Making Sense of React Server Components • Josh W. Comeau"
+        },
+        {
+          "url": "https://blog.yogeshchavan.dev/master-nextjs-15-like-a-pro-your-ultimate-guide-to-modern-web-development",
+          "description": "An ultimate guide to mastering Next.js 15 for modern web development."
+        },
+        {
+          "url": "https://phrase.com/blog/posts/next-js-app-router-localization-next-intl/",
+          "description": "A guide on implementing localization in Next.js applications using next-intl.",
+          "title": "Next.js Tutorial: App Router Localization with next-intl | Phrase"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=GowPe3iiqTs",
+          "title": "Mastering Next.js 14: A Comprehensive Guide to the Latest Features and Advanced Concepts!",
+          "duration": "304m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=DPSnDz8-GGs",
+          "title": "Full Stack NextJS 14 E-Commerce Course 2024 Edition DEEP DIVE",
+          "duration": "9m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iS1K64X_eXg",
+          "title": "Advanced TypeScript Types for Next.js: The Complete Guide to Elevated Web Development",
+          "duration": "81m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+          "title": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
+          "duration": "62m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUJI25leHRfYXBw",
+          "title": "Next.js Full Course for Beginners | Nextjs 13 Tutorial | 7 Hours",
+          "duration": "423m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FcaNnO6z_Eg",
+          "title": "Spline: A 10-min Deep Dive basics",
+          "duration": "10m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uKALiluBwV8",
+          "title": "Next Js 14 Full Stack Course Part-2 | Deep Dive Into Project Architecture & Build Comment System 👌",
+          "duration": "53m"
+        },
+        {
+          "url": "https://www.youtube.com/c/GreatAdib"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the default file extension for Next.js pages?",
+        "options": [
+          ".html",
+          ".jsx",
+          ".js",
+          ".ts"
+        ],
+        "correct_option": 2,
+        "hint": "It's the standard JavaScript file extension."
+      },
+      {
+        "question": "In Next.js, which function is used for server-side rendering to fetch data at request time?",
+        "options": [
+          "getStaticProps",
+          "getServerSideProps",
+          "getInitialProps",
+          "useEffect"
+        ],
+        "correct_option": 1,
+        "hint": "This function fetches data on each request."
+      },
+      {
+        "question": "What is the purpose of the 'pages' directory in a Next.js project?",
+        "options": [
+          "To store utility functions",
+          "To define API routes",
+          "To create different pages of the application",
+          "To hold CSS files"
+        ],
+        "correct_option": 2,
+        "hint": "This directory is used to create the structure of the web application."
+      },
+      {
+        "question": "How can you create dynamic routes in Next.js?",
+        "options": [
+          "Using query parameters",
+          "Using square brackets in the file name",
+          "Using environment variables",
+          "Using a config file"
+        ],
+        "correct_option": 1,
+        "hint": "You can define these types of routes using a special syntax in file names."
+      },
+      {
+        "question": "What is an API route in Next.js?",
+        "options": [
+          "A way to link to external APIs",
+          "A file that exports a request handler function",
+          "A method to style components",
+          "A function to navigate between pages"
+        ],
+        "correct_option": 1,
+        "hint": "These routes allow you to create your own API endpoints directly in Next.js."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of the 'getServerSideProps' function in Next.js?",
+        "options": [
+          "To fetch data at build time",
+          "To fetch data on the client-side",
+          "To fetch data on every request",
+          "To define API routes"
+        ],
+        "correct_option": 2,
+        "hint": "This function is used for data that changes frequently."
+      },
+      {
+        "question": "In Next.js, where should you place a file to automatically create an API route?",
+        "options": [
+          "In the 'pages/api' directory",
+          "In the 'components' directory",
+          "In the 'lib' directory",
+          "In the 'styles' directory"
+        ],
+        "correct_option": 0,
+        "hint": "API routes have a special directory within the pages folder."
+      },
+      {
+        "question": "Which method is NOT a valid HTTP method for a Next.js API route?",
+        "options": [
+          "GET",
+          "POST",
+          "CONNECT",
+          "TRACE"
+        ],
+        "correct_option": 3,
+        "hint": "Consider standard HTTP methods and which are typically supported."
+      },
+      {
+        "question": "What is the benefit of using Next.js dynamic routing over traditional routing?",
+        "options": [
+          "It only supports static files",
+          "It reduces the need for multiple pages",
+          "It increases server load",
+          "It eliminates the need for a server"
+        ],
+        "correct_option": 1,
+        "hint": "Dynamic routing allows you to handle different URL patterns more efficiently."
+      },
+      {
+        "question": "How can you enable server-side rendering for a specific page in Next.js?",
+        "options": [
+          "Use 'getStaticProps' in your component",
+          "Configure the 'next.config.js' file",
+          "Implement 'getServerSideProps' in the page",
+          "Use the 'Link' component for navigation"
+        ],
+        "correct_option": 2,
+        "hint": "This function runs on the server for every request to the page."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary advantage of using dynamic routing in Next.js?",
+        "options": [
+          "Improved server performance",
+          "Reduced bundle size",
+          "Enhanced SEO capabilities",
+          "Automatic route updates"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how dynamic routing impacts the visibility of individual pages to search engines."
+      },
+      {
+        "question": "In Next.js, which function is used to fetch data at build time for static generation with dynamic routes?",
+        "options": [
+          "getServerSideProps",
+          "getStaticProps",
+          "getInitialProps",
+          "getStaticPaths"
+        ],
+        "correct_option": 3,
+        "hint": "This function is crucial for defining paths that need to be statically generated."
+      },
+      {
+        "question": "How can you implement middleware in a Next.js API route?",
+        "options": [
+          "Using the useMiddleware() function",
+          "By wrapping the handler with a middleware function",
+          "By defining middleware in a separate middleware.js file",
+          "Using a special middleware key in the API route configuration"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how middleware is typically applied in Node.js environments."
+      },
+      {
+        "question": "What is a key benefit of using server-side rendering in Next.js applications?",
+        "options": [
+          "Reduced client-side JavaScript",
+          "Improved client-side routing",
+          "Enhanced server resource utilization",
+          "Immediate content availability"
+        ],
+        "correct_option": 3,
+        "hint": "SSR is often chosen for its impact on the initial user experience of loading content."
+      },
+      {
+        "question": "When defining an API route in Next.js, which method is used to handle HTTP requests?",
+        "options": [
+          "req.handle()",
+          "apiHandler()",
+          "res.send()",
+          "A function with req and res parameters"
+        ],
+        "correct_option": 3,
+        "hint": "This method involves two parameters typically used in Express.js as well."
+      }
+    ]
+  }
+}

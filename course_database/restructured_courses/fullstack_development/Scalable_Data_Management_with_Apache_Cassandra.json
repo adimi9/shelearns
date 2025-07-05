@@ -22,107 +22,151 @@
     "replication"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://cassandra.apache.org/_/index.html",
+        "https://learn.microsoft.com/en-us/azure/",
+        "https://docs.janusgraph.org/"
+      ],
+      "notes": [
+        "https://cassandra.apache.org/_/cassandra-basics.html",
+        "https://www.instaclustr.com/education/apache-cassandra/apache-cassandra-on-aws-the-basics-and-how-to-manage/",
+        "https://cassandra.apache.org/_/index.html",
+        "https://www.instaclustr.com/education/apache-cassandra/apache-cassandra-tutorial-cheat-sheet-basic-setup-and-vector-search/",
+        "https://www.freecodecamp.org/news/the-apache-cassandra-beginner-tutorial/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=PYdLIvBHe2E",
+        "https://www.youtube.com/watch?v=N9QllqXI1sE",
+        "https://www.youtube.com/watch?v=4D39wJu5Too",
+        "https://www.youtube.com/watch?v=J-cSy5MeMOA&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=JHpBp4peJ0I",
+        "https://www.youtube.com/watch?v=u6pKIrfJgkU",
+        "https://www.youtube.com/watch?v=GqAcTrqKcrY",
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+        "https://www.youtube.com/watch?v=DFHzbK2Tuak",
+        "https://www.youtube.com/watch?v=1Y3TvLDh8e4"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://cassandra.apache.org/_/index.html",
+        "https://learn.microsoft.com/en-us/azure/",
+        "https://docs.aws.amazon.com/decision-guides/latest/databases-on-aws-how-to-choose/databases-on-aws-how-to-choose.html"
+      ],
+      "notes": [
+        "https://cassandra.apache.org/_/index.html",
+        "https://www.instaclustr.com/education/apache-cassandra/apache-cassandra-on-aws-the-basics-and-how-to-manage/",
+        "https://www.gridgain.com/resources/papers/introducing-apache-ignite",
+        "https://www.instaclustr.com/education/nosql-database/nosql-tutorial-taking-your-first-steps-in-the-nosql-world/",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+        "https://www.freecodecamp.org/news/the-apache-cassandra-beginner-tutorial/",
+        "https://docs.aws.amazon.com/decision-guides/latest/databases-on-aws-how-to-choose/databases-on-aws-how-to-choose.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=4D39wJu5Too",
+        "https://www.youtube.com/watch?v=N9QllqXI1sE",
+        "https://www.youtube.com/watch?v=u6pKIrfJgkU",
+        "https://www.youtube.com/watch?v=1Y3TvLDh8e4",
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+        "https://www.youtube.com/watch?v=KPh_8DeRgxQ",
+        "https://www.youtube.com/watch?v=qi7uR3ItaOY",
+        "https://www.youtube.com/watch?v=0mntwB6nbc0",
+        "https://www.youtube.com/watch?v=FN1-ICdY5-U",
+        "https://www.youtube.com/watch?v=_-IbQAq9Xr0"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://docs.datastax.com/en/mission-control/reference/cluster-best-practices.html",
+        "https://quix.io/blog/pyflink-deep-dive",
+        "https://www.scylladb.com/learn/dynamodb/introduction-to-dynamodb/"
+      ],
+      "notes": [
+        "https://www.hellointerview.com/learn/system-design/deep-dives/cassandra",
+        "https://www.scylladb.com/learn/apache-cassandra/introduction-to-apache-cassandra/",
+        "https://quix.io/blog/pyflink-deep-dive",
+        "https://www.instaclustr.com/education/apache-cassandra/apache-cassandra-on-aws-the-basics-and-how-to-manage/",
+        "https://portworx.com/wp-content/uploads/2023/08/cassandra-kubernetes-experts-guide.pdf",
+        "https://github.com/Anant/awesome-cassandra",
+        "https://docs.datastax.com/en/hyper-converged-database/1.1/cluster-management/cluster-best-practices.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+        "https://www.youtube.com/watch?v=N9QllqXI1sE",
+        "https://www.youtube.com/watch?v=0mntwB6nbc0",
+        "https://www.youtube.com/watch?v=uQrRbvLyJ4M",
+        "https://www.youtube.com/watch?v=Q56kljmIN14",
+        "https://www.youtube.com/watch?v=CLP6jHs2z14",
+        "https://www.youtube.com/watch?v=DFHzbK2Tuak",
+        "https://www.youtube.com/watch?v=U4y2R3v9tlY&t=47s",
+        "https://www.youtube.com/watch?v=cU01EnyBwQI"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://nodejs.org/api/buffer.html",
-        "description": "This resource provides documentation on the Buffer module in Node.js, detailing its API for handling binary data."
+        "question": "What is a key feature of Cassandra that makes it suitable for big data applications?",
+        "options": [
+          "Support for ACID transactions",
+          "Extreme write scalability and high availability",
+          "Strong consistency across all nodes",
+          "Built-in machine learning capabilities"
+        ],
+        "correct_option": 1,
+        "hint": "Think about its scalability and availability features."
       },
       {
-        "url": "https://nodejs.org/api/n-api.html",
-        "description": "The Node.js N-API documentation provides a stable API for building native add-ons in Node.js."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Database",
-        "description": "An overview of databases, explaining their purpose, types, and fundamental concepts."
+        "question": "Which of the following is a primary reason to choose Cassandra over other NoSQL databases?",
+        "options": [
+          "Support for complex joins",
+          "High throughput for write operations",
+          "Built-in full text search",
+          "Support for in-memory data storage only"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the database's performance with write operations."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.freecodecamp.org/news/the-apache-cassandra-beginner-tutorial/",
-        "description": "A beginner-friendly tutorial on getting started with Apache Cassandra, covering its fundamental concepts and basic operations."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/dbms/apache-cassandra-nosql-database/",
-        "description": "An overview of Apache Cassandra, a NoSQL database management system, including its features, architecture, and use cases."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/dbms/cassandra-nosql-database/",
-        "description": "An overview and introduction to the Cassandra NoSQL database, highlighting its architecture, features, and applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/dbms/sstable-in-apache-cassandra/",
-        "description": "This resource explains the structure and role of SSTables in Apache Cassandra's database management system."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/devops/introduction-to-apache-cassandra/",
-        "description": "An introductory guide to understanding the basics and key features of Apache Cassandra in a DevOps context."
+        "question": "Cassandra is most suitable for applications that require:",
+        "options": [
+          "Real-time analytics on live data streams",
+          "High availability and horizontal scalability",
+          "Complex relational joins",
+          "Single-node deployment"
+        ],
+        "correct_option": 1,
+        "hint": "Think about its architecture and deployment model."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=KZsVSfQVU4I",
-      "https://www.youtube.com/watch?v=jgqu1BcSKUI",
-      "https://www.youtube.com/watch?v=J-cSy5MeMOA",
-      "https://www.youtube.com/watch?v=WFycRMLvMKc",
-      "https://www.youtube.com/watch?v=VsQ4OuH-K1I"
+    "advanced": [
+      {
+        "question": "Which architecture does Cassandra use to ensure high availability?",
+        "options": [
+          "Master-slave architecture",
+          "Single-point architecture",
+          "Peer-to-peer architecture",
+          "Hierarchical architecture"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how data is distributed across nodes in Cassandra."
+      },
+      {
+        "question": "In Cassandra, what ensures that data is distributed evenly across all nodes?",
+        "options": [
+          "Data sharding",
+          "Data replication",
+          "Consistent hashing",
+          "Primary key assignment"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how data is balanced and accessed efficiently."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is a key feature of Cassandra that makes it suitable for big data applications?",
-      "options": [
-        "Support for ACID transactions",
-        "Extreme write scalability and high availability",
-        "Strong consistency across all nodes",
-        "Built-in machine learning capabilities"
-      ],
-      "correct_option": 1,
-      "hint": "Think about its scalability and availability features."
-    },
-    {
-      "question": "Which of the following is a primary reason to choose Cassandra over other NoSQL databases?",
-      "options": [
-        "Support for complex joins",
-        "High throughput for write operations",
-        "Built-in full text search",
-        "Support for in-memory data storage only"
-      ],
-      "correct_option": 1,
-      "hint": "Consider the database's performance with write operations."
-    },
-    {
-      "question": "Cassandra is most suitable for applications that require:",
-      "options": [
-        "Real-time analytics on live data streams",
-        "High availability and horizontal scalability",
-        "Complex relational joins",
-        "Single-node deployment"
-      ],
-      "correct_option": 1,
-      "hint": "Think about its architecture and deployment model."
-    },
-    {
-      "question": "Which architecture does Cassandra use to ensure high availability?",
-      "options": [
-        "Master-slave architecture",
-        "Single-point architecture",
-        "Peer-to-peer architecture",
-        "Hierarchical architecture"
-      ],
-      "correct_option": 2,
-      "hint": "Consider how data is distributed across nodes in Cassandra."
-    },
-    {
-      "question": "In Cassandra, what ensures that data is distributed evenly across all nodes?",
-      "options": [
-        "Data sharding",
-        "Data replication",
-        "Consistent hashing",
-        "Primary key assignment"
-      ],
-      "correct_option": 2,
-      "hint": "Think about how data is balanced and accessed efficiently."
-    }
-  ],
   "preferred_if": [
     "User needs extreme write scalability and high availability"
   ]

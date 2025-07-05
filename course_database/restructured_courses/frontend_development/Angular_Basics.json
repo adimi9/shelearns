@@ -15,105 +15,148 @@
     "TypeScript-based"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_getting_started",
-        "description": "An introductory guide to getting started with Angular for web development."
-      },
-      {
-        "url": "https://reactjs.org/",
-        "description": "The official React documentation provides comprehensive guides and references for building user interfaces using the React JavaScript library."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        "description": "Comprehensive documentation and resources for learning and using JavaScript on the web."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/angular/",
-        "description": "Comprehensive tutorials and examples for learning Angular, a popular web application framework."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/angular-js/angular-tutorial/",
-        "description": "An introductory tutorial for learning the basics of AngularJS, including its features and applications."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/angular-js-tutorials/25698",
-        "description": "A comprehensive forum thread offering a collection of AngularJS tutorials for developers."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/how-to-learn-angular/316827",
-        "description": "A comprehensive guide offering strategies and resources for effectively learning Angular."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/which-version-of-angular-should-i-learn/299063",
-        "description": "Discussion on choosing the appropriate version of Angular to learn based on project needs and industry trends."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=oUmVFHlwZsI",
-      "https://www.youtube.com/watch?v=Ata9cSC2WpM",
-      "https://www.youtube.com/watch?v=k5E2AVpwsko",
-      "https://www.youtube.com/watch?v=23o0evRtrFI",
-      "https://www.youtube.com/watch?v=3dHNOWTI7H8"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is TypeScript primarily used for in Angular development?",
-      "options": [
-        "Style components",
-        "Write HTML templates",
-        "Implement logic and behavior",
-        "Manage server-side code"
+    "beginner": {
+      "docs": [
+        "https://angular.io/guide/architecture",
+        "https://v17.angular.io/guide/testing-components-basics",
+        "https://angular.dev/",
+        "https://jestjs.io/docs/getting-started"
       ],
-      "correct_option": 2,
-      "hint": "TypeScript is a superset of JavaScript."
+      "notes": [
+        "https://www.youtube.com/watch?v=k5E2AVpwsko&pp=0gcJCfwAo7VqN5tD",
+        "https://angular.dev/tutorials/learn-angular",
+        "https://www.youtube.com/watch?v=oUmVFHlwZsI",
+        "https://www.w3schools.com/angular/",
+        "https://www.youtube.com/watch?v=-9VcW7MBDs8",
+        "https://www.simplilearn.com/tutorials/angular-tutorial"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=k5E2AVpwsko&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=oUmVFHlwZsI",
+        "https://www.youtube.com/watch?v=-9VcW7MBDs8",
+        "https://www.youtube.com/watch?v=xAT0lHYhHMY",
+        "https://m.youtube.com/watch?v=_TLhUCjY9iA&t=8m40s",
+        "https://www.youtube.com/watch?v=JWhRMyyF7nc",
+        "https://www.youtube.com/watch?v=FlUCU13dJyo",
+        "https://www.youtube.com/watch?v=0eWrpsCLMJQ",
+        "https://www.youtube.com/watch?v=QETUuZ27N0w",
+        "https://www.youtube.com/playlist?list=PLTjRvDozrdlxAhsPP4ZYtt3G8KbJ449oT"
+      ]
     },
-    {
-      "question": "Which of the following is a core feature of Angular components?",
-      "options": [
-        "Stateful server-side processing",
-        "Dynamic template rendering",
-        "CSS isolation by default",
-        "Asynchronous data handling"
+    "intermediate": {
+      "docs": [
+        "https://v17.angular.io/guide/testing-components-basics",
+        "https://angular.dev/guide/signals",
+        "https://jestjs.io/docs/getting-started",
+        "https://firebase.google.com/docs",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce"
       ],
-      "correct_option": 1,
-      "hint": "Components define views and manage data-binding."
+      "notes": [
+        "https://angular.dev/guide/signals",
+        "https://v17.angular.io/guide/testing-components-basics",
+        "https://angular.dev/guide/testing",
+        "https://blog.angular-university.io/angular-signals/",
+        "https://www.angularminds.com/blog/writing-your-first-angular-unit-test-step-by-step-tutorial"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=RNr1QZM4A38",
+        "https://www.youtube.com/watch?v=bv9z_UfSqgM",
+        "https://m.youtube.com/watch?v=PdVerlfmO6M",
+        "https://www.youtube.com/watch?v=u_awobQ1fws",
+        "https://www.youtube.com/watch?v=Gx4iBLKLVHk",
+        "https://www.youtube.com/watch?v=Qj0oG_TUSUg",
+        "https://www.youtube.com/watch?v=3qBXWUpoPHo",
+        "https://www.youtube.com/channel/UC3cEGKhg3OERn-ihVsJcb7A",
+        "https://www.youtube.com/@NihiraTechiees/videos"
+      ]
     },
-    {
-      "question": "What role does RxJS play in Angular applications?",
-      "options": [
-        "Handling synchronous data flows",
-        "Managing component styles",
-        "Enabling reactive programming",
-        "Providing server-side logic"
+    "advanced": {
+      "docs": [
+        "https://angular.dev/guide/signals",
+        "https://www.typescriptlang.org/docs/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       ],
-      "correct_option": 2,
-      "hint": "RxJS helps in dealing with asynchronous data streams."
-    },
-    {
-      "question": "In Angular, what is a Service commonly used for?",
-      "options": [
-        "Structuring HTML templates",
-        "Handling user interface events",
-        "Encapsulating business logic",
-        "Managing component lifecycle"
+      "notes": [
+        "https://www.youtube.com/watch?v=yJdh1_FbtjU",
+        "https://angular.dev/guide/signals",
+        "https://www.youtube.com/watch?v=N8S2mPuGkgg",
+        "https://blog.angular-university.io/angular-signals/",
+        "https://www.youtube.com/watch?v=RZg6XEGu9EM"
       ],
-      "correct_option": 2,
-      "hint": "Services are typically used for logic that is shared across components."
-    },
-    {
-      "question": "How does Angular facilitate the creation of UI elements?",
-      "options": [
-        "Using JavaScript libraries",
-        "Through server-side rendering",
-        "By defining components",
-        "With AJAX requests"
-      ],
-      "correct_option": 2,
-      "hint": "Components are the building blocks of Angular applications."
+      "videos": [
+        "https://www.youtube.com/watch?v=yJdh1_FbtjU",
+        "https://www.youtube.com/watch?v=N8S2mPuGkgg",
+        "https://www.youtube.com/watch?v=6W6gycuhiN0",
+        "https://www.youtube.com/watch?v=bv9z_UfSqgM",
+        "https://www.youtube.com/watch?v=rtYzt5iWjGs",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=i7SWbfapzUs",
+        "https://www.youtube.com/watch?v=RZg6XEGu9EM",
+        "https://www.youtube.com/playlist?list=PL_euSNU_eLbe7AyMWdG_IHcMnY0N-3r72"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is TypeScript primarily used for in Angular development?",
+        "options": [
+          "Style components",
+          "Write HTML templates",
+          "Implement logic and behavior",
+          "Manage server-side code"
+        ],
+        "correct_option": 2,
+        "hint": "TypeScript is a superset of JavaScript."
+      },
+      {
+        "question": "Which of the following is a core feature of Angular components?",
+        "options": [
+          "Stateful server-side processing",
+          "Dynamic template rendering",
+          "CSS isolation by default",
+          "Asynchronous data handling"
+        ],
+        "correct_option": 1,
+        "hint": "Components define views and manage data-binding."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What role does RxJS play in Angular applications?",
+        "options": [
+          "Handling synchronous data flows",
+          "Managing component styles",
+          "Enabling reactive programming",
+          "Providing server-side logic"
+        ],
+        "correct_option": 2,
+        "hint": "RxJS helps in dealing with asynchronous data streams."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In Angular, what is a Service commonly used for?",
+        "options": [
+          "Structuring HTML templates",
+          "Handling user interface events",
+          "Encapsulating business logic",
+          "Managing component lifecycle"
+        ],
+        "correct_option": 2,
+        "hint": "Services are typically used for logic that is shared across components."
+      },
+      {
+        "question": "How does Angular facilitate the creation of UI elements?",
+        "options": [
+          "Using JavaScript libraries",
+          "Through server-side rendering",
+          "By defining components",
+          "With AJAX requests"
+        ],
+        "correct_option": 2,
+        "hint": "Components are the building blocks of Angular applications."
+      }
+    ]
+  }
 }

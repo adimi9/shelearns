@@ -17,105 +17,149 @@
     "API"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
-        "description": "Introduction to building server-side applications using Express and Node.js."
-      },
-      {
-        "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
-        "description": "An introductory guide to understanding and starting with Node.js for building server-side applications."
-      },
-      {
-        "url": "https://nodejs.org/en",
-        "description": "The Node.js website provides official documentation, downloads, and community resources for the Node.js JavaScript runtime."
-      }
-    ],
-    "notes": [
-      {
-        "url": "http://www.w3schools.com/nodejs/",
-        "description": "A comprehensive tutorial and reference guide for learning and using Node.js, covering its features and applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/node-js/express-js/",
-        "description": "An introductory guide to Express.js, a fast and minimal web framework for Node.js applications."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/which-one-to-learn-nodejs-expressjs-or-django/422772",
-        "description": "A forum discussion comparing Node.js, Express.js, and Django to help developers decide which technology to learn."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/node-js/nodejs/",
-        "description": "An introductory guide to Node.js, covering its features, installation, and basic usage for building scalable network applications."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/what-is-the-best-backend-framework-for-a-react-developer/507169",
-        "description": "Discussion on selecting the most suitable backend framework for developers using React."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=q-xS25lsN3I",
-      "https://www.youtube.com/watch?v=Oe421EPjeBE",
-      "https://www.youtube.com/watch?v=pURHweQ_gg8",
-      "https://www.youtube.com/watch?v=rOpEN1JDaD0",
-      "https://www.youtube.com/watch?v=SccSCuHhOw0"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of middleware in Express.js?",
-      "options": [
-        "To handle HTTP requests and responses",
-        "To serve static files",
-        "To parse URL parameters",
-        "To manage database connections"
+    "beginner": {
+      "docs": [
+        "https://expressjs.com/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://expressjs.com/en/guide/routing.html"
       ],
-      "correct_option": 0,
-      "hint": "Middleware functions are essential for processing requests in a Node.js application."
+      "notes": [
+        "https://www.youtube.com/watch?v=f2EqECiTBL8&pp=ygUGI25wbTE3",
+        "https://expressjs.com/",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://www.youtube.com/watch?v=y18ubz7gOsQ&pp=ygURI2hhcmFtX2FpbmV4cHJlc3M%3D",
+        "https://tamalweb.com/how-much-time-nodejs",
+        "https://www.youtube.com/watch?v=Hej48pi_lOc&pp=ygUSI25ldF9idWZmZXJfbGVuZ3Ro"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=f2EqECiTBL8&pp=ygUGI25wbTE3",
+        "https://www.youtube.com/watch?v=9BD9eK9VqXA",
+        "https://www.youtube.com/watch?v=Hl7diL7SFw8",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://www.youtube.com/watch?v=y18ubz7gOsQ&pp=ygURI2hhcmFtX2FpbmV4cHJlc3M%3D",
+        "https://www.youtube.com/watch?v=Hej48pi_lOc&pp=ygUSI25ldF9idWZmZXJfbGVuZ3Ro",
+        "https://www.youtube.com/watch?v=SccSCuHhOw0",
+        "https://www.youtube.com/c/programmingwithmosh",
+        "https://www.youtube.com/watch?v=olvF02oHS5U",
+        "https://www.youtube.com/watch?v=fhRHGAgvrh4"
+      ]
     },
-    {
-      "question": "Which HTTP method is used to update an existing resource in a RESTful API?",
-      "options": [
-        "GET",
-        "POST",
-        "PUT",
-        "DELETE"
+    "intermediate": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://expressjs.com/en/api.html",
+        "https://bump.sh/blog/express-api-openapi"
       ],
-      "correct_option": 2,
-      "hint": "Think of making changes to something that already exists."
+      "notes": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
+        "https://stackoverflow.com/questions/58833714/how-does-an-api-compare-to-directly-querying-your-database",
+        "https://www.simplilearn.com/tutorials/nodejs-tutorial/what-is-nodejs",
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://www.freecodecamp.org/news/i-built-a-web-api-with-express-flask-aspnet/",
+        "https://webandcrafts.com/blog/node-js-backend"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=qwfE7fSVaZM",
+        "https://www.youtube.com/watch?v=SLpUKAGnm-g",
+        "https://www.youtube.com/watch?v=bsaGKP8Eon4",
+        "https://www.youtube.com/watch?v=Zh7psmf1KAA",
+        "https://www.youtube.com/watch?v=mtuYmm2ITvI",
+        "https://www.youtube.com/watch?v=oNlMrpnUSFE",
+        "https://www.youtube.com/watch?v=KqQoiFBp36A"
+      ]
     },
-    {
-      "question": "What is a common use case for MongoDB in backend development?",
-      "options": [
-        "Storing relational data",
-        "Handling file uploads",
-        "Document-based data storage",
-        "Performing client-side scripting"
+    "advanced": {
+      "docs": [
+        "https://expressjs.com/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "http://www.w3schools.com/nodejs/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       ],
-      "correct_option": 2,
-      "hint": "MongoDB is known for its flexibility with unstructured data."
-    },
-    {
-      "question": "In a CRUD operation, what does 'D' stand for?",
-      "options": [
-        "Delete",
-        "Display",
-        "Deploy",
-        "Develop"
+      "notes": [
+        "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
+        "https://expressjs.com/",
+        "http://nodesource.com/blog/how-nodejs-works/",
+        "https://daily.dev/blog/setup-nodejs-express-project-a-beginners-guide",
+        "https://www.linkedin.com/posts/akshaymarch7_javascript-react-angular-activity-7275744254327508992-d7fJ",
+        "https://www.netguru.com/blog/node-js-books"
       ],
-      "correct_option": 0,
-      "hint": "Consider the operation used to remove a resource."
-    },
-    {
-      "question": "Which function is used in Node.js to handle errors in asynchronous code?",
-      "options": [
-        "try/catch",
-        "throw",
-        "catch",
-        "callback"
-      ],
-      "correct_option": 3,
-      "hint": "Think of a function that is called after an operation completes, whether it succeeds or fails."
+      "videos": [
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://www.youtube.com/watch?v=H9M02of22z4",
+        "https://www.youtube.com/watch?v=MIJt9H69QVc",
+        "https://m.youtube.com/watch?v=4nKWREmCvsE",
+        "https://www.youtube.com/watch?v=fUJ3ULyyA-Y",
+        "https://www.youtube.com/watch?v=hu38B0WQSYQ",
+        "https://www.youtube.com/c/GreatAdib",
+        "https://www.youtube.com/c/webdevsimplified"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of middleware in Express.js?",
+        "options": [
+          "To handle HTTP requests and responses",
+          "To serve static files",
+          "To parse URL parameters",
+          "To manage database connections"
+        ],
+        "correct_option": 0,
+        "hint": "Middleware functions are essential for processing requests in a Node.js application."
+      },
+      {
+        "question": "Which HTTP method is used to update an existing resource in a RESTful API?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "Think of making changes to something that already exists."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a common use case for MongoDB in backend development?",
+        "options": [
+          "Storing relational data",
+          "Handling file uploads",
+          "Document-based data storage",
+          "Performing client-side scripting"
+        ],
+        "correct_option": 2,
+        "hint": "MongoDB is known for its flexibility with unstructured data."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In a CRUD operation, what does 'D' stand for?",
+        "options": [
+          "Delete",
+          "Display",
+          "Deploy",
+          "Develop"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the operation used to remove a resource."
+      },
+      {
+        "question": "Which function is used in Node.js to handle errors in asynchronous code?",
+        "options": [
+          "try/catch",
+          "throw",
+          "catch",
+          "callback"
+        ],
+        "correct_option": 3,
+        "hint": "Think of a function that is called after an operation completes, whether it succeeds or fails."
+      }
+    ]
+  }
 }

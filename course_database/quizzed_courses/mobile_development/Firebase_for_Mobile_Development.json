@@ -1,0 +1,274 @@
+{
+  "id": "MD3",
+  "name": "Firebase for Mobile Development",
+  "category": "Mobile Development",
+  "primary_tech": "Firebase",
+  "topics": [
+    "Firebase Authentication",
+    "Cloud Firestore/Realtime Database",
+    "Cloud Functions for Firebase",
+    "Crashlytics & Analytics"
+  ],
+  "recommended": true,
+  "tags": [
+    "BaaS",
+    "backend-as-a-service",
+    "Google"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://firebase.studio/",
+        "https://firebase.google.com/docs/firestore",
+        "https://docs.flutter.dev/",
+        "https://firebase.google.com/docs/auth"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=UFD4SP91tSM",
+        "https://firebase.google.com/docs/functions/get-started",
+        "https://www.youtube.com/watch?v=sfA3NWDBPZ4",
+        "https://firebase.google.com/docs/guides",
+        "https://www.youtube.com/watch?v=2hR-uWjBAgw",
+        "https://firebase.google.com/docs/emulator-suite",
+        "https://fireship.io/lessons/the-ultimate-beginners-guide-to-firebase/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=2hR-uWjBAgw",
+        "https://www.youtube.com/watch?v=sfA3NWDBPZ4",
+        "https://www.youtube.com/watch?v=UFD4SP91tSM",
+        "https://www.youtube.com/watch?v=LFlE8yV7lJY",
+        "https://www.youtube.com/watch?v=iZ78G3BhDyc",
+        "https://www.youtube.com/watch?v=PMbqo7ue_u0",
+        "https://www.youtube.com/watch?v=9kRgVxULbag",
+        "https://www.youtube.com/watch?v=qSVRbNmd9AU",
+        "https://www.youtube.com/watch?v=e-aAAbY0miY",
+        "https://www.youtube.com/c/makeappswithdanny"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/",
+        "https://developers.google.com/apis-explorer",
+        "https://firebase.google.com/docs",
+        "https://developer.android.com/identity/user-data-ids"
+      ],
+      "notes": [
+        "https://firebase.google.com/",
+        "https://community.appinventor.mit.edu/t/firebase-db-with-app-inventor-tutorial/43872",
+        "https://firebase.google.com/docs/cloud-messaging",
+        "https://codelabs.developers.google.com/",
+        "https://firebase.google.com/docs/app-distribution"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=9kRgVxULbag",
+        "https://www.youtube.com/watch?v=x2zvki_VlRE",
+        "https://www.youtube.com/watch?v=_2CI9sc6xlw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=_qQ6YA2e4iE",
+        "https://www.youtube.com/watch?v=JiBE1U5u_QU",
+        "https://www.youtube.com/watch?v=kLEp5tGDqcI",
+        "https://www.youtube.com/watch?v=zCIfBbm06QM&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=KYG8lXZCVr4&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://firebase.google.com/docs/guides",
+        "https://docs.streamlit.io/",
+        "https://firebase.google.com/",
+        "https://docs.flutter.dev/"
+      ],
+      "notes": [
+        "https://firebase.google.com/docs/guides",
+        "https://www.adjust.com/blog/dive-into-deeplinking/",
+        "https://firebase.google.com/",
+        "https://codelabs.developers.google.com/",
+        "https://www.udemy.com/topic/firebase/",
+        "https://codewithandrea.com/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=9kRgVxULbag",
+        "https://www.youtube.com/watch?v=D05ugfpcqH0&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=CzRQ9mnmh44",
+        "https://www.youtube.com/watch?v=ysvmtLCYou0",
+        "https://www.youtube.com/watch?v=cnJ6MrC8pYo",
+        "https://www.youtube.com/watch?v=LnpGU8vj7TI",
+        "https://www.youtube.com/watch?v=D05ugfpcqH0",
+        "https://www.youtube.com/watch?v=Lxxrh2ez72U"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is Firebase Authentication used for in mobile development?",
+        "options": [
+          "To manage users and their data securely",
+          "To store large files and images",
+          "To deploy applications to the cloud",
+          "To analyze user behavior on your app"
+        ],
+        "correct_option": 0,
+        "hint": "Think about user management and security."
+      },
+      {
+        "question": "Which Firebase service allows you to store and sync data in real-time?",
+        "options": [
+          "Firebase Hosting",
+          "Cloud Firestore",
+          "Firebase Storage",
+          "Firebase Crashlytics"
+        ],
+        "correct_option": 1,
+        "hint": "It's a database service designed for real-time data."
+      },
+      {
+        "question": "What is the purpose of Cloud Functions for Firebase?",
+        "options": [
+          "To host static websites",
+          "To run backend code in response to events",
+          "To create user interfaces",
+          "To store large datasets"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what happens when specific actions trigger backend processes."
+      },
+      {
+        "question": "Which Firebase tool helps you track app crashes and performance issues?",
+        "options": [
+          "Firebase Authentication",
+          "Firebase Realtime Database",
+          "Firebase Crashlytics",
+          "Firebase Cloud Messaging"
+        ],
+        "correct_option": 2,
+        "hint": "It's specifically designed for monitoring app stability and issues."
+      },
+      {
+        "question": "How does Firebase Analytics help mobile developers?",
+        "options": [
+          "By providing user behavior insights",
+          "By storing application data",
+          "By hosting application servers",
+          "By managing database connections"
+        ],
+        "correct_option": 0,
+        "hint": "Think about understanding how users interact with your app."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the main purpose of Firebase Authentication in mobile development?",
+        "options": [
+          "To secure user data in Cloud Firestore.",
+          "To manage user identity and authentication.",
+          "To track user engagement and crash reports.",
+          "To automate cloud functions."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how apps manage user logins and identities."
+      },
+      {
+        "question": "Which of the following best describes how Cloud Firestore differs from the Realtime Database?",
+        "options": [
+          "Firestore is designed for high-speed data transactions, while Realtime Database is not.",
+          "Firestore supports real-time updates, whereas Realtime Database does not.",
+          "Firestore uses a document-model database structure, while Realtime Database uses a JSON tree structure.",
+          "Firestore can only be accessed from mobile devices, whereas Realtime Database is accessible from the web."
+        ],
+        "correct_option": 2,
+        "hint": "Consider the data structure used by each database."
+      },
+      {
+        "question": "What is the primary function of Cloud Functions for Firebase in mobile development?",
+        "options": [
+          "To handle user authentication.",
+          "To execute backend code in response to events triggered by Firebase features.",
+          "To store user data and media files.",
+          "To provide real-time database services."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how backend logic can be automated and triggered by specific events."
+      },
+      {
+        "question": "How does Firebase Crashlytics help improve mobile app quality?",
+        "options": [
+          "By providing tools to test app performance under simulated conditions.",
+          "By offering real-time data replication across different regions.",
+          "By automatically reporting app crashes and providing insights into their causes.",
+          "By managing user authentication and access control."
+        ],
+        "correct_option": 2,
+        "hint": "Consider how developers can identify and fix issues based on user experiences."
+      },
+      {
+        "question": "Which statement about Firebase Analytics is true?",
+        "options": [
+          "It offers real-time analytics for user interactions.",
+          "It can only be used for tracking web applications.",
+          "It provides detailed crash reports for debugging.",
+          "It is primarily used for managing user authentication."
+        ],
+        "correct_option": 0,
+        "hint": "Think about how app user interactions are tracked and analyzed."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a primary benefit of using Firebase Authentication in mobile apps?",
+        "options": [
+          "It allows third-party authentication providers.",
+          "It offers unlimited database storage.",
+          "It provides automatic bug fixing.",
+          "It guarantees real-time data sync."
+        ],
+        "correct_option": 0,
+        "hint": "Think about how Firebase simplifies user sign-in."
+      },
+      {
+        "question": "How can you optimize data retrieval in Cloud Firestore for a mobile application?",
+        "options": [
+          "By using shallow queries.",
+          "By implementing Cloud Functions.",
+          "By storing data as JSON strings.",
+          "By enabling offline persistence."
+        ],
+        "correct_option": 3,
+        "hint": "Consider methods that improve access speed and availability."
+      },
+      {
+        "question": "When using Cloud Functions for Firebase, which event type could trigger a function?",
+        "options": [
+          "App installation",
+          "Database write",
+          "User login",
+          "Device crash"
+        ],
+        "correct_option": 1,
+        "hint": "Think about server-side events that Cloud Functions can listen to."
+      },
+      {
+        "question": "Which Firebase feature would you use to analyze app usage and user behavior effectively?",
+        "options": [
+          "Cloud Firestore",
+          "Crashlytics",
+          "Firebase Analytics",
+          "Cloud Messaging"
+        ],
+        "correct_option": 2,
+        "hint": "This feature provides insights into user interactions."
+      },
+      {
+        "question": "What is the role of Crashlytics in Firebase for mobile development?",
+        "options": [
+          "To manage user authentication",
+          "To analyze app crashes and performance",
+          "To store and sync data in real-time",
+          "To send push notifications"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on identifying and fixing stability issues in apps."
+      }
+    ]
+  }
+}

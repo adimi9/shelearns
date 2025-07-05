@@ -1,0 +1,486 @@
+{
+  "id": "GD2",
+  "name": "Game Audio & Sound Engineering",
+  "category": "Game Development",
+  "primary_tech": "Audio Design",
+  "topics": [
+    "Sound Effects (SFX) Creation",
+    "Music Composition & Integration",
+    "Audio Mixing & Mastering",
+    "Spatial Audio & Occlusion"
+  ],
+  "recommended": false,
+  "tags": [
+    "audio",
+    "sound",
+    "immersion"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+          "description": "An in-depth documentation of the Web Audio API for creating and manipulating audio in web applications.",
+          "title": "Web Audio API - Web APIs | MDN"
+        },
+        {
+          "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-6-documentation",
+          "description": "Comprehensive documentation for Unreal Engine 5.6, covering features, tools, and workflows.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://docs.unity.com/",
+          "description": "Official documentation for Unity, a cross-platform game development engine.",
+          "title": "Unity documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.audiokinetic.com/learn/videos/0v-be268YFc/?course=wwise301&lesson=6&ref=Lesson_6",
+          "description": "An instructional video on advanced spatial audio techniques using Wwise 301.",
+          "title": "Setting up a AAA Wwise project - part 1: THE BASICS"
+        },
+        {
+          "url": "https://thiagoschiefer.com/home/how-to-be-a-game-composer-sound-designer-for-games-a-beginners-guide/",
+          "description": "A beginner's guide to becoming a game composer and sound designer.",
+          "title": "How to become a game composer / sound designer? | Thiago Schiefer"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=vLl34b9zIdk&pp=ygUdI3Jlc2V0c291bmRjb3JlbGliZXJ0eWFpcjJwcm8%3D",
+          "title": "Audio Engineering 101 | Getting Started",
+          "duration": "14m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uaxIGGgcEyg",
+          "title": "Basics of Audio EQ [Full Tutorial]",
+          "duration": "9m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2EkZjppztyo",
+          "title": "Video Game Sound Design 101 with Marshall McGee | Native Instruments",
+          "duration": "41m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=J0hWjMSVx4Y",
+          "title": "Introduction To Game Audio | Nuendo Live Stream with Lee Riley",
+          "duration": "59m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XRAYqWFeYR0&pp=0gcJCfwAo7VqN5tD",
+          "title": "Reaper Tutorial for Beginners | FREE COURSE",
+          "duration": "217m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lZ3ant1u73s",
+          "title": "Mixing And Mastering Tutorial For Beginners",
+          "duration": "9m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wh5wdmjPur8",
+          "title": "Audio Engineering Basics - Sound, Amplitude (dB) & Frequency (Hz) Important to understand from day 1",
+          "duration": "21m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0kBpcACGM6g",
+          "title": "How I Got Started With Audio Programming (And How You Can Too!) | WolfTalk #001",
+          "duration": "40m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=yzJ2VyYkmaA&pp=0gcJCdgAo7VqN5tD",
+          "title": "\ud83d\udd0a How to use Audacity to Record & Edit Audio | Beginners Tutorial",
+          "duration": "38m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=KK9HgQ2ZGgk",
+          "title": "The Basics of UE4 Modding - Part 5 (Sound Waves, Sound Cues and Sound Classes)",
+          "duration": "73m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.unity.com/",
+          "description": "Official documentation for Unity, a comprehensive platform for creating and operating interactive, real-time 3D content.",
+          "title": "Unity documentation"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+          "description": "An in-depth guide to using the Web Audio API for complex audio processing in web applications.",
+          "title": "Web Audio API - Web APIs | MDN"
+        },
+        {
+          "url": "https://www.sonarworks.com/soundid-reference",
+          "description": "A tool for calibrating audio playback to ensure accurate sound reproduction across devices.",
+          "title": "SoundID Reference - Speaker & Headphone Calibration"
+        },
+        {
+          "url": "https://developers.google.com/apis-explorer",
+          "description": "An interactive tool for exploring and testing Google APIs online.",
+          "title": "Google APIs Explorer \u00a0|\u00a0 Google for Developers"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.facebook.com/groups/1503118436634926/posts/4143940352552708/",
+          "description": "A community discussion post about technical issues and solutions in the Facebook group.",
+          "title": "Theatre Sound Designers and Engineers | Hello fellow sound engineers | Facebook"
+        },
+        {
+          "url": "http://eecs.qmul.ac.uk/~gyorgyf/research.html",
+          "description": "An overview of research interests and projects in electrical engineering and computer science by a faculty member at Queen Mary University of London.",
+          "title": "Research - George Fazekas"
+        },
+        {
+          "url": "https://www.steinberg.net/cubase/",
+          "description": "An overview of Cubase, a digital audio workstation for music production by Steinberg.",
+          "title": "Cubase: Music Production Software - DAW | Steinberg"
+        },
+        {
+          "url": "https://www.sonarworks.com/soundid-reference",
+          "description": "A tool for precise audio calibration and sound personalization across devices.",
+          "title": "SoundID Reference - Speaker & Headphone Calibration"
+        },
+        {
+          "url": "https://www.lewitt-audio.com/blog/how-to-record-computer-audio-via-loopback",
+          "description": "A step-by-step guide on recording computer audio using loopback technology.",
+          "title": "How to record computer audio via loopback | LEWITT"
+        },
+        {
+          "url": "https://www.krotosaudio.com/interview-with-sound-designer-andy-gibson/",
+          "description": "An insightful interview with sound designer Andy Gibson discussing his techniques and experiences.",
+          "title": "Tutorial & Interview with Andy Gibson on Game Audio and Igniter - Krotos"
+        },
+        {
+          "url": "https://discussions.unity.com/t/sound-not-working/844545",
+          "description": "A forum discussion addressing issues and solutions for sound not working in Unity projects.",
+          "title": "Sound not working - Unity Engine - Unity Discussions"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=vsuLEM0I7x0",
+          "title": "Tutorial: Game Audio Sound Design Workflow with John Pata",
+          "duration": "30m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=J0hWjMSVx4Y",
+          "title": "Introduction To Game Audio | Nuendo Live Stream with Lee Riley",
+          "duration": "59m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=yzJ2VyYkmaA&pp=0gcJCdgAo7VqN5tD",
+          "title": "\ud83d\udd0a How to use Audacity to Record & Edit Audio | Beginners Tutorial",
+          "duration": "38m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EzmNeAhWqVs",
+          "title": "What is Low Latency C++? (Part 1) - Timur Doumler - CppNow 2023",
+          "duration": "91m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nbZwucBl_oE",
+          "title": "Audio Engineering for DUMMIES | HOFA-College Livestream",
+          "duration": "119m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=yYoQSRAHhIc",
+          "title": "Pro Tools Answers #35 | Using Elastic Audio in Pro Tools (1/2)",
+          "duration": "60m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FNWF43bWQvU",
+          "title": "Pro Tools Tutorial #8: Time Aligning Tracks | Audio Recording School",
+          "duration": "9m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9x4d6gH78GM",
+          "title": "Ableton Sound Design Tutorial  - Washy Techno Rides",
+          "duration": "6m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=z-150Nxem5g",
+          "title": "LOGIC PRO X 10.5 - What's New in Logic 10.5!?",
+          "duration": "15m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://developers.meta.com/horizon/documentation/unity/audio-ovrlipsync-viseme-reference/",
+          "description": "A reference guide for using OVRLipSync visemes in Unity audio applications.",
+          "title": "Meta Developers"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/windows/uwp/gaming/e2e",
+          "description": "A detailed overview of end-to-end game development using the Universal Windows Platform.",
+          "title": "Windows game development guide - UWP applications | Microsoft Learn"
+        },
+        {
+          "url": "https://cloud.google.com/translate",
+          "description": "A detailed overview of Google Cloud's Translation API for translating text in multiple languages.",
+          "title": "Cloud Translation | Google Cloud"
+        },
+        {
+          "url": "https://www.fmod.com/learn",
+          "description": "An educational resource for learning audio programming using FMOD.",
+          "title": "Learn FMOD"
+        }
+      ],
+      "notes": [
+        {
+          "url": "http://www.markwk.com/music-production-learning-journey.html",
+          "description": "An insightful overview of the learning journey in music production.",
+          "title": "From Zero to Album: My Personal Music Production Learning Journey | Mark Koester"
+        },
+        {
+          "url": "https://www.coursera.org/articles/audio-engineering",
+          "description": "An introductory article on the fundamentals and career paths in audio engineering.",
+          "title": "What Is Audio Engineering? Your Career Guide | Coursera"
+        },
+        {
+          "url": "https://www.production-expert.com/production-expert-1/tools-every-dialogue-editor-should-have-in-2024",
+          "description": "An overview of essential tools for dialogue editors in 2024.",
+          "title": "Tools Every Dialogue Editor Should Have In 2024 | Production Expert"
+        },
+        {
+          "url": "https://www.izotope.com/en/learn/audio-dynamics-101-compressors-limiters-expanders-and-gates",
+          "description": "An introductory guide to understanding audio dynamics processors like compressors, limiters, expanders, and gates.",
+          "title": "Access Denied"
+        },
+        {
+          "url": "https://www.linkedin.com/in/sclooney",
+          "description": "Professional profile of S Clooney showcasing skills and career highlights on LinkedIn."
+        },
+        {
+          "url": "https://soundnews.net/reviews/amplifiers/headphone-amps/a-deep-dive-into-the-holo-audio-bliss-kte-headphone-amplifier/",
+          "description": "An in-depth review of the Holo Audio Bliss KTE headphone amplifier.",
+          "title": "A Deep Dive into the Holo Audio Bliss KTE Headphone Amplifier - Soundnews"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=dMltCzdzzag",
+          "title": "Ableton Analog Synth - Full Guide for Beginners | Ableton Tutorial",
+          "duration": "27m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EpLksvFQcc0",
+          "title": "A Guide To Lofi Drums with Adal Jamil (Point Blank LA)",
+          "duration": "18m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7UsUwXe-7N8",
+          "title": "A guide to CLIP VERSIONS Studio One 6 - deep dive tutorial",
+          "duration": "6m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OWkE93kUXx0",
+          "title": "XO by XLN Audio | Multiple Audio Outputs (Output Buses) | Quick Tip Tutorial",
+          "duration": "3m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uCarQdTBIjY",
+          "title": "Using the Behringer POLY D complete deep dive guide tutorial",
+          "duration": "121m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6Ai3-0O9nG4",
+          "title": "The ABLETON MOVE Deep Dive tutorial guide",
+          "duration": "70m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dlbJGlHdeoA",
+          "title": "The ULTIMATE OBS Audio Guide For 2024 & 2025 - Everything YOU Need To Know!",
+          "duration": "119m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=I9fBqKNXIbk",
+          "title": "Music Production For Beginners (9-Hour Course)",
+          "duration": "596m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=UBrnJY7KpT0",
+          "title": "A guide to SYNC POINTS Studio One 6 - deep dive tutorial",
+          "duration": "7m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of sound effects (SFX) in video games?",
+        "options": [
+          "To create a realistic atmosphere",
+          "To distract the player",
+          "To increase game difficulty",
+          "To reduce the need for visual graphics"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how sound effects can enhance the player's experience."
+      },
+      {
+        "question": "Which of the following is a key consideration in music composition for games?",
+        "options": [
+          "Tempo matching the game's pace",
+          "Using as many instruments as possible",
+          "Avoiding all musical repetition",
+          "Composing only in a minor key"
+        ],
+        "correct_option": 0,
+        "hint": "Consider what affects the synchronization of music with game events."
+      },
+      {
+        "question": "What is the main goal of audio mixing in game sound design?",
+        "options": [
+          "To ensure all audio elements are balanced and clear",
+          "To make the music louder than sound effects",
+          "To create random noise",
+          "To eliminate all background sound"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how mixing affects the overall audio quality."
+      },
+      {
+        "question": "Which technique enhances the realism of audio in a 3D game environment?",
+        "options": [
+          "Spatial audio",
+          "Mono sound",
+          "Silence",
+          "Echo removal"
+        ],
+        "correct_option": 0,
+        "hint": "Consider techniques that involve positioning sound in space."
+      },
+      {
+        "question": "What does occlusion in game audio typically refer to?",
+        "options": [
+          "Sound being blocked by objects in the environment",
+          "Increasing the volume of background music",
+          "Using only high-pitched sounds",
+          "Reducing all sound effects"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how physical barriers affect sound transmission."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which technique is most commonly used to create dynamic and evolving sound effects for games?",
+        "options": [
+          "Layering multiple sound sources",
+          "Using a single sound sample",
+          "Recording in a quiet environment",
+          "Reducing the frequency range"
+        ],
+        "correct_option": 0,
+        "hint": "Think about combining different sounds to achieve complexity."
+      },
+      {
+        "question": "In the context of game audio, what does the term 'occlusion' refer to?",
+        "options": [
+          "The effect of sounds being blocked by objects",
+          "The process of reducing noise in a sound file",
+          "The technique of amplifying low-frequency sounds",
+          "The use of reverb to enhance sound quality"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how sound behaves when there are obstacles between the source and the listener."
+      },
+      {
+        "question": "What is the primary goal of audio mixing in game sound design?",
+        "options": [
+          "To ensure all audio elements are at the same volume",
+          "To create a balanced and immersive audio experience",
+          "To make the soundtrack louder than sound effects",
+          "To eliminate any background noise"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how different audio elements are combined to support gameplay."
+      },
+      {
+        "question": "Which element is crucial for integrating music seamlessly into a game environment?",
+        "options": [
+          "Maintaining a consistent tempo",
+          "Using random sound effects",
+          "Avoiding any musical changes",
+          "Ensuring all music is in a minor key"
+        ],
+        "correct_option": 0,
+        "hint": "Consider what helps music transition smoothly during gameplay."
+      },
+      {
+        "question": "How does spatial audio enhance a player's experience in a game?",
+        "options": [
+          "By making the audio louder",
+          "By providing directional sound cues",
+          "By using only stereo sound",
+          "By adding more background music"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how players perceive the location of sounds in a 3D space."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which technique is essential for creating realistic soundscapes in a game environment?",
+        "options": [
+          "Layering ambient sounds with SFX",
+          "Using a single looped audio file",
+          "Relying solely on music tracks",
+          "Ignoring environmental acoustics"
+        ],
+        "correct_option": 0,
+        "hint": "Consider combining multiple audio elements to enhance realism."
+      },
+      {
+        "question": "In music composition for games, what is a critical consideration when integrating music with gameplay?",
+        "options": [
+          "The music should be louder than all other sounds",
+          "The music should have a fixed tempo throughout",
+          "The music should dynamically adapt to player actions",
+          "The music should never loop"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how music can enhance player immersion by reacting to in-game events."
+      },
+      {
+        "question": "What is a common challenge when mixing and mastering audio for games?",
+        "options": [
+          "Ensuring music always overpowers voice lines",
+          "Balancing audio levels across different platforms",
+          "Avoiding the use of equalizers",
+          "Mixing audio without any compression"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how audio might sound different on various devices."
+      },
+      {
+        "question": "Which method is crucial for implementing spatial audio effectively in a game environment?",
+        "options": [
+          "Using mono audio files exclusively",
+          "Implementing head-related transfer functions (HRTFs)",
+          "Layering all sounds in a single channel",
+          "Using reverb to simulate distance"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how human ears perceive the direction and distance of sounds."
+      },
+      {
+        "question": "How can occlusion be realistically simulated in a 3D game audio environment?",
+        "options": [
+          "By lowering the sound volume uniformly",
+          "By applying low-pass filters when objects obstruct sound paths",
+          "By increasing the sound's pitch",
+          "By using stereo widening effects"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the impact of physical barriers on sound frequencies."
+      }
+    ]
+  }
+}

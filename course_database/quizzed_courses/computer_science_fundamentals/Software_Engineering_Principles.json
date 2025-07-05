@@ -1,0 +1,273 @@
+{
+  "id": "CS1",
+  "name": "Software Engineering Principles",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Software Engineering",
+  "topics": [
+    "Software Development Life Cycle (SDLC)",
+    "Agile Methodologies (Scrum, Kanban)",
+    "Requirements Gathering & Analysis",
+    "Testing & Debugging"
+  ],
+  "recommended": true,
+  "tags": [
+    "software-development",
+    "methodologies",
+    "project-management"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "https://semver.org/",
+        "https://developer.roku.com/docs/developer-program/getting-started/roku-dev-prog.md"
+      ],
+      "notes": [
+        "https://www.geeksforgeeks.org/software-engineering/software-engineering-introduction-to-software-engineering/",
+        "https://workat.tech/machine-coding/tutorial/introduction-clean-code-software-design-principles-nwu4qqc63e09",
+        "https://www.geeksforgeeks.org/software-engineering/software-engineering/",
+        "https://workat.tech/machine-coding/tutorial/software-design-principles-dry-yagni-eytrxfhz1fla",
+        "https://www.freecodecamp.org/news/learn-programming-free-software-development-courses-for-beginners/",
+        "https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design",
+        "https://www.bu.edu/academics/eng/courses/eng-ec-327/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8jH07r6135o",
+        "https://www.youtube.com/watch?v=60EqoRcanpo",
+        "https://www.youtube.com/watch?v=lue3dOe-0xI",
+        "https://www.youtube.com/watch?v=-njsRb8Tn70",
+        "https://www.youtube.com/watch?v=NU_1StN5Tkk",
+        "https://m.youtube.com/watch?v=FLtqAi7WNBY&t=1s",
+        "https://www.youtube.com/watch?v=hexfXc7-SsU",
+        "https://www.youtube.com/watch?v=zLP_X4wyHbY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/c/CSDojo"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developer.android.com/topic/architecture",
+        "https://www.sjsu.edu/cs/docs/pdfs/fall-20-syllabi/Tseng_CS%20160_Syllabus_Fall20.pdf",
+        "https://www.linkedin.com/posts/miguelcaetano_what-is-api-meaning-types-examples-activity-7203351194591756288-5jf_"
+      ],
+      "notes": [
+        "https://softwareengineering.stackexchange.com/questions/447532/when-to-not-use-solid-principles",
+        "https://www.geeksforgeeks.org/system-design/singleton-design-pattern/",
+        "https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design",
+        "https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/",
+        "https://mrcet.com/downloads/digital_notes/CSE/III%20Year/Software%20Engineering.pdf",
+        "https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=NU_1StN5Tkk",
+        "https://www.youtube.com/watch?v=OhCp6ppX6bg&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=xrxC5gRNV48&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=kRZE7gRCPQA",
+        "https://www.youtube.com/watch?v=XV_IJY5jpy0",
+        "https://www.youtube.com/watch?v=lch30CjcF7U",
+        "https://www.youtube.com/watch?v=R3JxCOZdL-c&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=HXd7g3RlCIs",
+        "https://www.youtube.com/watch?v=wG2g67RHYyo"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developers.google.com/tech-writing/resources",
+        "https://ebpf.io/what-is-ebpf/",
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "https://learn.microsoft.com/en-us/"
+      ],
+      "notes": [
+        "https://www.scarletink.com/p/guide-to-deep-dive-leadership-principle",
+        "https://www.baeldung.com/solid-principles",
+        "https://www.amazon.jobs/content/our-workplace/leadership-principles",
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://www.geeksforgeeks.org/digital-logic/digital-electronics-logic-design-tutorials/",
+        "https://interviewing.io/blog/how-software-engineering-behavioral-interviews-are-evaluated-meta",
+        "https://refactoring.guru/design-patterns"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=hexfXc7-SsU",
+        "https://www.youtube.com/watch?v=Llnmf5BXLBA",
+        "https://www.youtube.com/watch?v=A6Ud7EGAxrc",
+        "https://www.youtube.com/watch?v=hHjmr_YOqnU",
+        "https://www.youtube.com/watch?v=1BLZGe-TqW0",
+        "https://m.youtube.com/watch?v=jGwO_UgTS7I&pp=2AEAkAIB",
+        "https://www.youtube.com/watch?v=4qN3JBGd1g8",
+        "https://www.youtube.com/watch?v=31wzhvz0vsw"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of the Software Development Life Cycle (SDLC)?",
+        "options": [
+          "To define a structured process for developing software",
+          "To manage project timelines",
+          "To allocate software development resources",
+          "To track software bugs"
+        ],
+        "correct_option": 0,
+        "hint": "It involves different phases from planning to deployment."
+      },
+      {
+        "question": "Which Agile methodology uses iterative cycles called 'sprints'?",
+        "options": [
+          "Kanban",
+          "Scrum",
+          "Waterfall",
+          "Lean"
+        ],
+        "correct_option": 1,
+        "hint": "This methodology often includes roles like Product Owner and Scrum Master."
+      },
+      {
+        "question": "Why is requirements gathering and analysis important in software engineering?",
+        "options": [
+          "It helps in designing the user interface",
+          "It identifies the needs and expectations of stakeholders",
+          "It reduces the cost of software development",
+          "It speeds up the coding process"
+        ],
+        "correct_option": 1,
+        "hint": "Understanding what stakeholders need is crucial for successful software development."
+      },
+      {
+        "question": "What is a common technique used in testing to find and fix bugs?",
+        "options": [
+          "Pair programming",
+          "Code reviews",
+          "Debugging",
+          "Refactoring"
+        ],
+        "correct_option": 2,
+        "hint": "This technique involves identifying errors in the code and correcting them."
+      },
+      {
+        "question": "In Kanban methodology, what is the primary visual tool used to manage tasks?",
+        "options": [
+          "Burndown charts",
+          "Kanban board",
+          "Gantt chart",
+          "Product backlog"
+        ],
+        "correct_option": 1,
+        "hint": "This tool uses columns to represent stages of the task flow."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which phase of the Software Development Life Cycle (SDLC) focuses on translating user requirements into a detailed system design?",
+        "options": [
+          "Requirements Gathering and Analysis",
+          "Design",
+          "Implementation",
+          "Testing"
+        ],
+        "correct_option": 1,
+        "hint": "This phase involves creating a blueprint for the software solution."
+      },
+      {
+        "question": "In Agile methodologies, what is the primary focus of the Scrum framework?",
+        "options": [
+          "Continuous delivery of software",
+          "Iterative and incremental development",
+          "Managing workflow efficiently",
+          "Cross-functional team collaboration"
+        ],
+        "correct_option": 3,
+        "hint": "This framework emphasizes teamwork and collaboration."
+      },
+      {
+        "question": "What is the main purpose of requirements gathering in software engineering?",
+        "options": [
+          "To develop a prototype",
+          "To understand user needs and expectations",
+          "To implement software code",
+          "To test the software for bugs"
+        ],
+        "correct_option": 1,
+        "hint": "This process involves collecting and analyzing what the users truly need."
+      },
+      {
+        "question": "In Kanban, what is a key practice to manage workflow effectively?",
+        "options": [
+          "Daily stand-up meetings",
+          "Limiting work-in-progress",
+          "Sprint reviews",
+          "Backlog grooming"
+        ],
+        "correct_option": 1,
+        "hint": "This practice helps prevent overloading the team and ensures focus."
+      },
+      {
+        "question": "What is the primary objective of software testing and debugging?",
+        "options": [
+          "To enhance user interface design",
+          "To ensure the software meets user requirements",
+          "To optimize the software for speed",
+          "To find and fix defects in the software"
+        ],
+        "correct_option": 3,
+        "hint": "These processes focus on identifying and resolving issues in the code."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following best describes the iterative characteristic of the Agile methodology?",
+        "options": [
+          "A single pass through defined phases",
+          "Continuous delivery of working software",
+          "Strict adherence to initial requirements",
+          "Comprehensive documentation before development"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on delivering software in small, usable increments."
+      },
+      {
+        "question": "In Scrum, what is the purpose of a 'Sprint Retrospective'?",
+        "options": [
+          "To prioritize the product backlog",
+          "To review the product increment",
+          "To improve the process based on the last sprint",
+          "To estimate the story points for the next sprint"
+        ],
+        "correct_option": 2,
+        "hint": "This meeting aims at reflecting on the team's process and finding ways to enhance it."
+      },
+      {
+        "question": "Which testing technique is most effective for validating the requirements during the early stages of development?",
+        "options": [
+          "Integration Testing",
+          "Unit Testing",
+          "Acceptance Testing",
+          "Regression Testing"
+        ],
+        "correct_option": 2,
+        "hint": "This type of testing is often done by the client to confirm the software meets their needs."
+      },
+      {
+        "question": "What is a key advantage of using Kanban over Scrum in software development?",
+        "options": [
+          "Fixed time-boxed iterations",
+          "Flexibility in workflow management",
+          "Detailed role definitions",
+          "Mandatory sprint planning sessions"
+        ],
+        "correct_option": 1,
+        "hint": "Kanban allows for a continuous flow of tasks and adapts to changes quickly."
+      },
+      {
+        "question": "In the context of software engineering, what is the primary goal of debugging?",
+        "options": [
+          "To write new code",
+          "To design the software architecture",
+          "To identify and fix errors in the code",
+          "To gather user requirements"
+        ],
+        "correct_option": 2,
+        "hint": "This process focuses on resolving defects found in the software."
+      }
+    ]
+  }
+}

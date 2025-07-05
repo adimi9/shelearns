@@ -23,107 +23,136 @@
     "api-integration"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://github.com/mikke89/RmlUi/discussions/186",
+        "https://docs.ray.io/en/latest/rllib/index.html",
+        "https://gist.github.com/raysan5/17392498d40e2cb281f5d09c0a4bf798",
+        "https://docs.ray.io/en/latest/tune/index.html",
+        "https://news.ycombinator.com/item?id=31601040"
+      ],
+      "notes": [
+        "https://www.raylib.com/",
+        "https://gist.github.com/raysan5/17392498d40e2cb281f5d09c0a4bf798",
+        "https://zylinski.se/posts/introduction-to-odin/",
+        "https://github.com/raysan5/raylib/blob/master/HISTORY.md",
+        "https://www.linkedin.com/posts/cotterzz_so-i-gave-up-on-godot-and-having-already-activity-7194770448344043520-eNJ0",
+        "https://github.com/raysan5/raylib/discussions/4660",
+        "https://blog.indoorvivants.com/2024-02-05-defeating-toddler-with-raylib"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=7Ukvxmt7Xvk",
+        "https://www.youtube.com/watch?v=sX52Hak4SaY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=hVQkmvWRwB8",
+        "https://www.youtube.com/watch?v=1RDFU4ZJAD4",
+        "https://www.youtube.com/watch?v=Y_AMtpcOxRY",
+        "https://www.youtube.com/watch?v=fTdkqOS5_ro",
+        "https://www.youtube.com/watch?v=LE9iJ9TpZlU",
+        "https://www.youtube.com/watch?v=PmMF0UjmYj0"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://github.com/raysan5/raylib",
+        "https://docs.ray.io/en/latest/rllib/index.html",
+        "https://github.com/raysan5/raylib/discussions/4660"
+      ],
+      "notes": [
+        "https://github.com/raysan5/raylib/discussions/4660",
+        "https://www.raylib.com/",
+        "https://github.com/raysan5/raylib/discussions/2818",
+        "https://zylinski.se/posts/introduction-to-odin/",
+        "https://github.com/raysan5/raylib/blob/master/HISTORY.md",
+        "https://docs.ray.io/en/latest/tune/index.html",
+        "https://www.ray.io/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=hVQkmvWRwB8",
+        "https://www.youtube.com/watch?v=Y_AMtpcOxRY"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://github.com/fffaraz/awesome-cpp",
+        "https://news.ycombinator.com/item?id=41223902",
+        "https://github.com/avelino/awesome-go",
+        "https://news.ycombinator.com/item?id=31601040",
+        "https://docs.ray.io/en/latest/ray-overview/index.html"
+      ],
+      "notes": [
+        "https://www.linkedin.com/posts/erik-seferi-393438202_cprogramming-raycasting-minilibx-activity-7184576872955928576-cIuN",
+        "https://news.ycombinator.com/item?id=41223902",
+        "https://github.com/fffaraz/awesome-cpp",
+        "https://news.ycombinator.com/item?id=34105770",
+        "https://github.com/oz123/awesome-c",
+        "https://formulae.brew.sh/formula/"
+      ],
+      "videos": []
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://github.com/raysan5/raylib",
-        "description": "raylib is a simple and easy-to-use library to learn video game programming."
+        "question": "What is Raylib primarily used for?",
+        "options": [
+          "Developing 3D simulations",
+          "Creating 2D games",
+          "Building web applications",
+          "Designing operating systems"
+        ],
+        "correct_option": 1,
+        "hint": "Raylib is a library tailored for a specific type of game development."
       },
       {
-        "url": "https://docs.ray.io/en/latest/tune/index.html",
-        "description": "Ray Tune documentation provides comprehensive guidance on hyperparameter tuning for machine learning models using the Ray library."
-      },
-      {
-        "url": "https://github.com/mikke89/RmlUi/discussions/186",
-        "description": "Discussion on implementing custom data binding in RmlUi for dynamic UI updates."
+        "question": "Which programming language is Raylib associated with for game development?",
+        "options": [
+          "Python",
+          "Java",
+          "C",
+          "JavaScript"
+        ],
+        "correct_option": 2,
+        "hint": "Raylib is often used with a language known for its performance and low-level capabilities."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.reddit.com/r/raylib/comments/1d2s87x/can_i_create_large_projects_using_raylib/",
-        "description": "Discussion on the feasibility and considerations of using Raylib for developing large-scale projects."
-      },
-      {
-        "url": "https://github.com/raysan5/raylib/discussions/3764",
-        "description": "Discussion on enhancing raylib's 3D rendering capabilities and potential feature implementations."
-      },
-      {
-        "url": "https://www.reddit.com/r/raylib/comments/16nvylh/what_is_the_most_advanced_game_created_with_raylib/",
-        "description": "A discussion thread exploring the most advanced games developed using the Raylib library."
-      },
-      {
-        "url": "https://github.com/raysan5/raylib/discussions/2681",
-        "description": "Discussion on the raylib GitHub page about integrating custom shaders and the challenges involved."
-      },
-      {
-        "url": "https://www.reddit.com/r/raylib/comments/1hn43c2/new_to_raylib_whats_the_best_way_to_set_up_a/",
-        "description": "A discussion thread offering advice and best practices for setting up a project using the Raylib game development library."
+        "question": "What makes Raylib a popular choice for beginners in game development?",
+        "options": [
+          "Complexity and advanced features",
+          "High hardware requirements",
+          "Simple and easy-to-use interface",
+          "Exclusive to professional developers"
+        ],
+        "correct_option": 2,
+        "hint": "Raylib is designed to be accessible and straightforward for new developers."
       }
     ],
-    "videos": [
-      "https://www.reddit.com/r/raylib/comments/16nvylh/what_is_the_most_advanced_game_created_with_raylib/",
-      "https://www.raylib.com/",
-      "https://www.reddit.com/r/learnprogramming/comments/1430rma/anyone_else_use_code_academy_to_learn_programming/",
-      "https://github.com/fffaraz/awesome-cpp",
-      "https://www.reddit.com/r/rust/comments/15w377j/which_is_better_for_rpg_game_development_bevy_or/"
+    "advanced": [
+      {
+        "question": "Which feature of Raylib is particularly beneficial for 2D game development?",
+        "options": [
+          "Built-in web server",
+          "Extensive 3D rendering capabilities",
+          "Simple function-based API",
+          "Real-time collaboration tools"
+        ],
+        "correct_option": 2,
+        "hint": "Raylib's design focuses on providing an intuitive experience for developers."
+      },
+      {
+        "question": "What is one of the main reasons users might choose Raylib for learning game programming?",
+        "options": [
+          "Requires no prior programming knowledge",
+          "Offers high-level abstraction",
+          "Provides a low-level understanding of game mechanics",
+          "Is only compatible with Windows OS"
+        ],
+        "correct_option": 2,
+        "hint": "Raylib allows users to delve deeper into the mechanics of game development."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is Raylib primarily used for?",
-      "options": [
-        "Developing 3D simulations",
-        "Creating 2D games",
-        "Building web applications",
-        "Designing operating systems"
-      ],
-      "correct_option": 1,
-      "hint": "Raylib is a library tailored for a specific type of game development."
-    },
-    {
-      "question": "Which programming language is Raylib associated with for game development?",
-      "options": [
-        "Python",
-        "Java",
-        "C",
-        "JavaScript"
-      ],
-      "correct_option": 2,
-      "hint": "Raylib is often used with a language known for its performance and low-level capabilities."
-    },
-    {
-      "question": "What makes Raylib a popular choice for beginners in game development?",
-      "options": [
-        "Complexity and advanced features",
-        "High hardware requirements",
-        "Simple and easy-to-use interface",
-        "Exclusive to professional developers"
-      ],
-      "correct_option": 2,
-      "hint": "Raylib is designed to be accessible and straightforward for new developers."
-    },
-    {
-      "question": "Which feature of Raylib is particularly beneficial for 2D game development?",
-      "options": [
-        "Built-in web server",
-        "Extensive 3D rendering capabilities",
-        "Simple function-based API",
-        "Real-time collaboration tools"
-      ],
-      "correct_option": 2,
-      "hint": "Raylib's design focuses on providing an intuitive experience for developers."
-    },
-    {
-      "question": "What is one of the main reasons users might choose Raylib for learning game programming?",
-      "options": [
-        "Requires no prior programming knowledge",
-        "Offers high-level abstraction",
-        "Provides a low-level understanding of game mechanics",
-        "Is only compatible with Windows OS"
-      ],
-      "correct_option": 2,
-      "hint": "Raylib allows users to delve deeper into the mechanics of game development."
-    }
-  ],
   "preferred_if": [
     "User wants to learn game programming from scratch (low-level)"
   ]

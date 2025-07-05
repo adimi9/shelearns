@@ -23,107 +23,148 @@
     "state-management"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://docs.nestjs.com/",
+        "https://fastify.io/docs/v5.2.x/Guides/Getting-Started/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction"
+      ],
+      "notes": [
+        "https://start.solidjs.com/",
+        "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
+        "https://www.sencha.com/blog/a-step-by-step-guide-to-an-extjs-tutorial-for-beginners/",
+        "https://blog.boot.dev/education/learn-to-code-the-slow-way/",
+        "https://daily.dev/blog/python-and-javascript-choosing-your-first-language"
+      ],
+      "videos": [
+        "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
+        "https://www.youtube.com/traversymedia",
+        "https://www.youtube.com/drehimself",
+        "https://www.youtube.com/c/webdevsimplified",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+        "https://www.youtube.com/watch?v=8_X0nSrzrCw",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=6jfgz5VcpC4",
+        "https://www.youtube.com/watch?v=GxmfcnU3feo"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://forum.solidproject.org/t/inrupts-data-wallet/7836",
+        "https://forums.meteor.com/t/make-meteor-great-again/61892?page=3",
+        "https://github.com/vercel/next.js/discussions/59373"
+      ],
+      "notes": [
+        "https://discourse.haskell.org/t/frontend-technologies-that-pair-well-with-a-haskell-backend/9398",
+        "https://www.sencha.com/blog/a-step-by-step-guide-to-an-extjs-tutorial-for-beginners/",
+        "https://www.linkedin.com/posts/gisenberg_how-to-build-a-startup-with-v0-cursor-claude-activity-7236097793621204992-0KU7",
+        "https://github.com/vercel/next.js/discussions/59373",
+        "https://www.linkedin.com/posts/nishant-tiwari24_21st-july-2023-the-next-day-after-wasting-activity-7221362157257474051-hhVb"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=ELFORM9fmss",
+        "https://www.youtube.com/watch?v=ANrYhHN8Dl4",
+        "https://www.youtube.com/watch?v=AS79oJ3Fcf0",
+        "https://www.youtube.com/watch?v=h7MTWLv3xvw",
+        "https://www.youtube.com/watch?v=v6LK5alOofs",
+        "https://www.youtube.com/watch?v=pOQguIkDp5w",
+        "https://www.youtube.com/watch?v=YqqRkuizNN4",
+        "https://www.youtube.com/watch?v=Af3s3KsxStY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=1qw5ITr3k9E"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "https://www.linkedin.com/posts/ahsanayaz_angular-is-hard-to-learn-this-was-activity-7249010800290320385-Fwv3",
+        "https://docs.soliditylang.org/"
+      ],
+      "notes": [
+        "https://www.linkedin.com/posts/akshaymarch7_namastenodejs-activity-7233495490997141506-uk1k",
+        "http://nodesource.com/blog/how-nodejs-works/",
+        "https://www.linkedin.com/posts/akshaymarch7_javascript-react-angular-activity-7275744254327508992-d7fJ",
+        "https://daily.dev/blog/setup-nodejs-express-project-a-beginners-guide",
+        "https://www.nucamp.co/blog/eloquent-javascript-will-reading-eloquent-javascript-make-me-jobready"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=GxmfcnU3feo",
+        "https://www.youtube.com/watch?v=8_X0nSrzrCw",
+        "https://www.youtube.com/watch?v=x4rFhThSX04",
+        "https://www.youtube.com/watch?v=6jfgz5VcpC4",
+        "https://www.youtube.com/watch?v=G3e-cpL7ofc&pp=ygUGI3NvaHRs",
+        "https://www.youtube.com/watch?v=fhRHGAgvrh4",
+        "https://www.youtube.com/c/webdevsimplified",
+        "https://www.youtube.com/playlist?list=PLEiEAq2VkUULq2aJA53pkSyperPfVtf7N",
+        "https://www.youtube.com/channel/UCKapdaD5EYfJqpP0Yw2sivQ"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border",
-        "description": "An overview of CSS border properties, detailing how to define the style, width, and color of element borders."
+        "question": "What is a key advantage of using Solid.js over React.js?",
+        "options": [
+          "Supports server-side rendering",
+          "Utilizes fine-grained reactivity for performance",
+          "Offers a virtual DOM for updates",
+          "Built-in state management"
+        ],
+        "correct_option": 1,
+        "hint": "Solid.js is known for its efficient update mechanism that avoids unnecessary rendering."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/outline",
-        "description": "This MDN page provides comprehensive documentation on the CSS outline property, including its syntax, use cases, and examples."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-style",
-        "description": "The page provides detailed documentation on the CSS `border-style` property, which defines the style of an element's border."
+        "question": "How does Solid.js achieve its fast reactivity?",
+        "options": [
+          "By using a virtual DOM",
+          "By compiling templates into optimized JavaScript",
+          "By using a diffing algorithm",
+          "By implementing a single-threaded event loop"
+        ],
+        "correct_option": 1,
+        "hint": "Solid.js compiles its components into highly optimized JavaScript functions."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.freecodecamp.org/news/rock-solid-react-js-foundations-a-beginners-guide-c45c93f5a923/",
-        "description": "A beginner's guide to building strong foundational skills in React.js for effective web development."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/",
-        "description": "An explanation of the SOLID principles in programming using real-life examples for better understanding."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/can-i-learn-javascript-and-typescript-together/147112",
-        "description": "The forum discussion explores whether learning JavaScript and TypeScript simultaneously is beneficial or feasible."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/java-scripts-tutorials-do-not-make-sense/546949",
-        "description": "A forum discussion addressing confusion and seeking clarification on JavaScript tutorials."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/learn-a-framework-not-a-language/102995",
-        "description": "The article discusses the importance of learning programming frameworks over languages to enhance practical development skills."
+        "question": "Which of the following is a characteristic of Solid.js?",
+        "options": [
+          "Uses mutable state",
+          "Relies on a virtual DOM",
+          "Fine-grained reactivity",
+          "Uses hooks for state management"
+        ],
+        "correct_option": 2,
+        "hint": "Solid.js is designed to only update the parts of the UI that need changes."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=WDodWU-B-aY",
-      "https://www.youtube.com/watch?v=uPXn9S31o7Q",
-      "https://www.youtube.com/watch?v=7oDjB9v0zMs",
-      "https://www.youtube.com/watch?v=B6ZWvYGCHU0",
-      "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gU_GvFygZFu0aBysPilkbB"
+    "advanced": [
+      {
+        "question": "What is the primary use case for choosing Solid.js over React.js?",
+        "options": [
+          "Need for server-side rendering",
+          "Building complex animations",
+          "Desire for a faster, more efficient SPA",
+          "Integration with legacy systems"
+        ],
+        "correct_option": 2,
+        "hint": "Solid.js is chosen for its performance benefits in single-page applications."
+      },
+      {
+        "question": "Which of the following best describes the state management approach in Solid.js?",
+        "options": [
+          "Uses a centralized store similar to Redux",
+          "Relies on fine-grained reactivity for state updates",
+          "Uses context providers and consumers",
+          "Employs a virtual DOM for state updates"
+        ],
+        "correct_option": 1,
+        "hint": "Solid.js avoids the need for global state management by efficiently updating states at a granular level."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is a key advantage of using Solid.js over React.js?",
-      "options": [
-        "Supports server-side rendering",
-        "Utilizes fine-grained reactivity for performance",
-        "Offers a virtual DOM for updates",
-        "Built-in state management"
-      ],
-      "correct_option": 1,
-      "hint": "Solid.js is known for its efficient update mechanism that avoids unnecessary rendering."
-    },
-    {
-      "question": "How does Solid.js achieve its fast reactivity?",
-      "options": [
-        "By using a virtual DOM",
-        "By compiling templates into optimized JavaScript",
-        "By using a diffing algorithm",
-        "By implementing a single-threaded event loop"
-      ],
-      "correct_option": 1,
-      "hint": "Solid.js compiles its components into highly optimized JavaScript functions."
-    },
-    {
-      "question": "Which of the following is a characteristic of Solid.js?",
-      "options": [
-        "Uses mutable state",
-        "Relies on a virtual DOM",
-        "Fine-grained reactivity",
-        "Uses hooks for state management"
-      ],
-      "correct_option": 2,
-      "hint": "Solid.js is designed to only update the parts of the UI that need changes."
-    },
-    {
-      "question": "What is the primary use case for choosing Solid.js over React.js?",
-      "options": [
-        "Need for server-side rendering",
-        "Building complex animations",
-        "Desire for a faster, more efficient SPA",
-        "Integration with legacy systems"
-      ],
-      "correct_option": 2,
-      "hint": "Solid.js is chosen for its performance benefits in single-page applications."
-    },
-    {
-      "question": "Which of the following best describes the state management approach in Solid.js?",
-      "options": [
-        "Uses a centralized store similar to Redux",
-        "Relies on fine-grained reactivity for state updates",
-        "Uses context providers and consumers",
-        "Employs a virtual DOM for state updates"
-      ],
-      "correct_option": 1,
-      "hint": "Solid.js avoids the need for global state management by efficiently updating states at a granular level."
-    }
-  ],
   "preferred_if": [
     "User wants React-like but faster"
   ]

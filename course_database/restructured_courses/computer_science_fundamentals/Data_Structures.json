@@ -16,105 +16,155 @@
     "problem-solving"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Data_structures",
-        "description": "A comprehensive guide to understanding and utilizing JavaScript data structures."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
-        "description": "This page provides comprehensive documentation on the JavaScript Set object, detailing its properties, methods, and usage for storing unique values."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Data_structure",
-        "description": "An overview of common data structures, their definitions, and usage in programming."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/data-structures/",
-        "description": "An introductory guide to various data structures, their implementations, and use cases."
-      },
-      {
-        "url": "https://www.w3schools.com/dsa/",
-        "description": "An educational resource offering tutorials and examples on data structures and algorithms."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
-        "description": "A comprehensive tutorial for learning data structures and algorithms with detailed explanations and examples."
-      },
-      {
-        "url": "https://www.w3schools.com/java/java_data_structures.asp",
-        "description": "An introduction to Java data structures, covering arrays, lists, maps, and sets with examples and explanations."
-      },
-      {
-        "url": "https://www.w3schools.com/dsa/dsa_intro.php",
-        "description": "An introductory guide to data structures and algorithms, covering fundamental concepts and their applications."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=8hly31xKli0",
-      "https://www.youtube.com/watch?v=DuDz6B4cqVc",
-      "https://www.youtube.com/watch?v=oz9cEqFynHU",
-      "https://www.youtube.com/watch?v=RBSGKlAvoiM",
-      "https://www.youtube.com/watch?v=jQqQpPMYPXs"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which data structure allows for constant time complexity O(1) for access by index?",
-      "options": [
-        "Linked List",
-        "Array",
-        "Stack",
-        "Queue"
+    "beginner": {
+      "docs": [
+        "https://docs.python.org/3/tutorial/datastructures.html",
+        "https://pandas.pydata.org/docs/user_guide/10min.html",
+        "https://docs.python.org/3/tutorial/index.html",
+        "https://pandas.pydata.org/docs/user_guide/dsintro.html",
+        "https://redis.io/docs/latest/develop/data-types/"
       ],
-      "correct_option": 1,
-      "hint": "Think of a data structure where elements are stored in contiguous memory locations."
+      "notes": [
+        "https://www.geeksforgeeks.org/data-structures/",
+        "https://www.w3schools.com/dsa/",
+        "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+        "https://www.w3schools.com/dsa/dsa_intro.php",
+        "https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/",
+        "https://www.tutorialspoint.com/data_structures_algorithms/index.htm"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8hly31xKli0",
+        "https://www.youtube.com/watch?v=BBpAmxU_NQo",
+        "https://www.youtube.com/watch?v=zg9ih6SVACc",
+        "https://www.youtube.com/watch?v=SFEROgwxicA",
+        "https://www.youtube.com/watch?v=4RLhuZ3N9nc",
+        "https://www.youtube.com/watch?v=Qmt0QwzEmh0",
+        "https://www.youtube.com/watch?v=t2CEgPsws3U&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=_T42E9RkWVQ",
+        "https://www.youtube.com/watch?v=8MmMm2-kJV8",
+        "https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ"
+      ]
     },
-    {
-      "question": "What is the primary advantage of a linked list over an array?",
-      "options": [
-        "Faster access to elements by index",
-        "Dynamic size adjustment",
-        "Random access capability",
-        "Requires less memory"
+    "intermediate": {
+      "docs": [
+        "https://redis.io/docs/latest/develop/data-types/",
+        "https://ziglang.org/documentation/master/",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://go.dev/doc/",
+        "https://onlinedocs.microchip.com/oxy/GUID-14993A90-86D6-4871-9884-75745A5F9716-en-US-2/GUID-F83EA3E5-3E00-480D-8DEC-F86D63212350.html"
       ],
-      "correct_option": 1,
-      "hint": "Consider which data structure can easily grow or shrink in size."
+      "notes": [
+        "https://redis.io/docs/latest/develop/data-types/",
+        "https://docs.xlwings.org/en/stable/datastructures.html",
+        "https://rust-unofficial.github.io/too-many-lists/",
+        "https://realpython.com/python-data-structures/",
+        "https://spacelift.io/blog/yaml",
+        "https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=BBpAmxU_NQo",
+        "https://www.youtube.com/watch?v=vditeSiJdSY",
+        "https://www.youtube.com/watch?v=r51TRDECIw4",
+        "https://www.youtube.com/watch?v=gxdQiBkidWk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=_V8eKsto3Ug",
+        "https://www.youtube.com/watch?v=F7sPauKsZXw&pp=ygUJI2RzY29kaW5n",
+        "https://www.youtube.com/watch?v=8cLIk16rTZk",
+        "https://www.youtube.com/watch?v=qnLQTEqsXsk",
+        "https://www.youtube.com/watch?v=zwb3GmNAtFk",
+        "https://www.youtube.com/@Deeplearningai/posts"
+      ]
     },
-    {
-      "question": "In which scenario would you use a stack data structure?",
-      "options": [
-        "Tracking the browser history",
-        "Implementing a priority queue",
-        "Managing a list of tasks",
-        "Searching an element in a hash table"
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://ebpf.io/what-is-ebpf/",
+        "https://www.typescriptlang.org/docs/",
+        "https://go.dev/doc/",
+        "https://www.netguru.com/blog/api-documentation"
       ],
-      "correct_option": 0,
-      "hint": "Think about the last-in, first-out (LIFO) principle."
-    },
-    {
-      "question": "Which data structure is most suitable for implementing a breadth-first search algorithm?",
-      "options": [
-        "Stack",
-        "Array",
-        "Queue",
-        "Linked List"
+      "notes": [
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://www.yuan-meng.com/posts/mle_interviews/",
+        "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
+        "https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/",
+        "https://www.dataquest.io/blog/tutorial-advanced-for-loops-python-pandas/",
+        "https://www.datanovia.com/learn/programming/python/additional-tutorials/algorithms-data-structures.html",
+        "https://stackify.com/streams-guide-java-8/"
       ],
-      "correct_option": 2,
-      "hint": "Consider a data structure that follows the first-in, first-out (FIFO) principle."
-    },
-    {
-      "question": "What is the primary advantage of using a hash table?",
-      "options": [
-        "Sorted elements",
-        "Faster searching",
-        "Efficient memory usage",
-        "Maintains order of insertion"
-      ],
-      "correct_option": 1,
-      "hint": "Think about the time complexity for search, insert, and delete operations."
+      "videos": [
+        "https://www.youtube.com/watch?v=8hly31xKli0",
+        "https://www.youtube.com/watch?v=kiUGf_Z08RQ&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=AaBnUBQG__o",
+        "https://www.youtube.com/watch?v=lqT37A7LJx8",
+        "https://www.youtube.com/watch?v=G5_Q2_yRFsY",
+        "https://www.youtube.com/watch?v=ioPagXHCRjc&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Uux30Dl_EL4",
+        "https://www.youtube.com/watch?v=DiLA0Ri6RfY",
+        "https://www.youtube.com/watch?v=2uvysYbKdjM"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which data structure allows for constant time complexity O(1) for access by index?",
+        "options": [
+          "Linked List",
+          "Array",
+          "Stack",
+          "Queue"
+        ],
+        "correct_option": 1,
+        "hint": "Think of a data structure where elements are stored in contiguous memory locations."
+      },
+      {
+        "question": "What is the primary advantage of a linked list over an array?",
+        "options": [
+          "Faster access to elements by index",
+          "Dynamic size adjustment",
+          "Random access capability",
+          "Requires less memory"
+        ],
+        "correct_option": 1,
+        "hint": "Consider which data structure can easily grow or shrink in size."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In which scenario would you use a stack data structure?",
+        "options": [
+          "Tracking the browser history",
+          "Implementing a priority queue",
+          "Managing a list of tasks",
+          "Searching an element in a hash table"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the last-in, first-out (LIFO) principle."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which data structure is most suitable for implementing a breadth-first search algorithm?",
+        "options": [
+          "Stack",
+          "Array",
+          "Queue",
+          "Linked List"
+        ],
+        "correct_option": 2,
+        "hint": "Consider a data structure that follows the first-in, first-out (FIFO) principle."
+      },
+      {
+        "question": "What is the primary advantage of using a hash table?",
+        "options": [
+          "Sorted elements",
+          "Faster searching",
+          "Efficient memory usage",
+          "Maintains order of insertion"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the time complexity for search, insert, and delete operations."
+      }
+    ]
+  }
 }

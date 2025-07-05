@@ -1,0 +1,276 @@
+{
+  "id": "FE5",
+  "name": "SASS / SCSS Styling",
+  "category": "Frontend Development",
+  "primary_tech": "SASS / SCSS",
+  "topics": [
+    "Nesting & Variables",
+    "Mixins & Functions",
+    "Modular Architecture"
+  ],
+  "recommended": false,
+  "tags": [
+    "css",
+    "preprocessor",
+    "styling"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://sass-lang.com/documentation/",
+        "https://code.visualstudio.com/docs/languages/css",
+        "https://sass-lang.com/guide/",
+        "https://docusaurus.io/docs/styling-layout",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      ],
+      "notes": [
+        "https://sass-lang.com/guide/",
+        "https://www.w3schools.com/sass/",
+        "https://sass-lang.com/documentation/",
+        "https://www.w3schools.com/sass/sass_intro.asp",
+        "https://code.visualstudio.com/docs/languages/css",
+        "https://forum.freecodecamp.org/t/responsive-design-w-scss/310015",
+        "https://www.toptal.com/sass/theming-scss-tutorial"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=oq3cmfdleME",
+        "https://www.youtube.com/watch?v=_a5j7KoflTs",
+        "https://m.youtube.com/watch?v=Zz6eOVaaelI&t=19s",
+        "https://www.youtube.com/watch?v=jfMHA8SqUL4",
+        "https://www.youtube.com/watch?v=t9IHDRWx1dQ",
+        "https://www.youtube.com/watch?v=kpcjSaRngg8",
+        "https://www.youtube.com/watch?v=_kqN4hl9bGc",
+        "https://www.youtube.com/watch?v=8F1Vof0gTG4"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://sass-lang.com/documentation/at-rules/use/",
+        "https://docs.astro.build/en/guides/styling/",
+        "https://docusaurus.io/docs/styling-layout",
+        "https://webpack.js.org/loaders/sass-loader/",
+        "https://github.com/vitejs/vite/discussions/18388"
+      ],
+      "notes": [
+        "https://sass-lang.com/dart-sass/",
+        "https://docs.astro.build/en/guides/styling/",
+        "https://sass-lang.com/documentation/at-rules/use/",
+        "https://github.com/sass/sass/issues/2875",
+        "https://sass-lang.com/documentation/at-rules/mixin/",
+        "https://stackoverflow.com/questions/45899894/when-to-use-extend-and-mixin-in-sass"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=qfscKppw1mE",
+        "https://www.youtube.com/watch?v=UlOzbc219AM",
+        "https://www.youtube.com/watch?v=EKHd0Dcc4IY",
+        "https://www.youtube.com/watch?v=WDpxqopXd9U",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=oZPR_78wCnY",
+        "https://www.youtube.com/watch?v=aMTRukxrjuE",
+        "https://www.youtube.com/watch?v=p0bGHP-PXD4",
+        "https://www.youtube.com/watch?v=MCXBZ-QKLFU",
+        "https://www.youtube.com/c/Harshitvashisth"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://sass-lang.com/guide/",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "https://sass-lang.com/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      ],
+      "notes": [
+        "https://sass-lang.com/guide/",
+        "https://devndijon.hashnode.dev/customizing-bootstrap-with-sass-for-beginners",
+        "https://sass-lang.com/",
+        "https://www.w3schools.com/css/",
+        "https://blog.angular-university.io/angular-host-context/",
+        "https://www.udemy.com/topic/sass/",
+        "https://www.scalablecss.com/bem-quickstart-guide/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_a5j7KoflTs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=9Ld-aOKsEDk",
+        "https://www.youtube.com/watch?v=cpbN0YAW44g",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=wsnV1r59UCY",
+        "https://www.youtube.com/watch?v=aoQ6S1a32j8",
+        "https://www.youtube.com/watch?v=dHbYcAncAgQ",
+        "https://www.youtube.com/watch?v=45P3xQPaYxc"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary benefit of using variables in SASS/SCSS?",
+        "options": [
+          "To store reusable values like colors and fonts",
+          "To create loops",
+          "To define HTML elements",
+          "To perform arithmetic operations"
+        ],
+        "correct_option": 0,
+        "hint": "Variables help in maintaining consistency and reusability in styles."
+      },
+      {
+        "question": "How do you define a variable in SASS/SCSS?",
+        "options": [
+          "var-color: #333;",
+          "$color: #333;",
+          "color: #333;",
+          "@color: #333;"
+        ],
+        "correct_option": 1,
+        "hint": "In SASS/SCSS, variables start with a dollar sign."
+      },
+      {
+        "question": "What is a SASS mixin used for?",
+        "options": [
+          "To mix two colors",
+          "To define reusable styles",
+          "To create variables",
+          "To import styles from another file"
+        ],
+        "correct_option": 1,
+        "hint": "Mixins allow you to create reusable chunks of code."
+      },
+      {
+        "question": "How can you nest CSS selectors in SCSS?",
+        "options": [
+          "Using @nest directive",
+          "By writing selectors one after another",
+          "By placing a selector inside another selector",
+          "Using & character outside"
+        ],
+        "correct_option": 2,
+        "hint": "Nesting is done by placing one selector inside another."
+      },
+      {
+        "question": "What is modular architecture in SASS/SCSS?",
+        "options": [
+          "Organizing styles into separate files",
+          "Using variables for all styles",
+          "Writing all styles in a single file",
+          "Avoiding mixins and functions"
+        ],
+        "correct_option": 0,
+        "hint": "Modular architecture helps in maintaining code by dividing it into components."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of using variables in SASS/SCSS?",
+        "options": [
+          "To store values that can be reused throughout the stylesheet",
+          "To create loops in the stylesheet",
+          "To import CSS files",
+          "To compile SASS into CSS"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how variables can help in reducing code repetition."
+      },
+      {
+        "question": "Which of the following syntax is correct for nesting selectors in SCSS?",
+        "options": [
+          ".parent .child { color: blue; }",
+          ".parent { &.child { color: blue; }}",
+          ".parent { .child { color: blue; }}",
+          ".parent { child { color: blue; }}"
+        ],
+        "correct_option": 2,
+        "hint": "Nesting in SCSS is achieved by placing the child selector inside the parent selector."
+      },
+      {
+        "question": "What is a mixin in SCSS?",
+        "options": [
+          "A function that returns a value",
+          "A reusable block of styles",
+          "A built-in SCSS function",
+          "A placeholder selector"
+        ],
+        "correct_option": 1,
+        "hint": "Mixins are used to avoid code repetition and can include multiple CSS rules."
+      },
+      {
+        "question": "How does modular architecture benefit SASS/SCSS projects?",
+        "options": [
+          "It increases the compilation time",
+          "It makes the code more maintainable and scalable",
+          "It decreases the number of files",
+          "It ensures that styles are written in plain CSS"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how organizing code into modules affects project management."
+      },
+      {
+        "question": "Which of the following is a correct way to use a function in SCSS?",
+        "options": [
+          "@function example($value) { return $value * 2; }",
+          "example($value) { return $value + 2; }",
+          "$result: example(5);",
+          "@include example(5);"
+        ],
+        "correct_option": 2,
+        "hint": "Functions in SCSS are called similarly to how functions are called in programming languages."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "How does SASS/SCSS handle variable scope when using nested selectors?",
+        "options": [
+          "Variables are global and can be accessed anywhere in the file.",
+          "Variables have a local scope within the nested selector only.",
+          "Variables are scoped to the parent selector of the nesting.",
+          "Variables can only be accessed by mixins within the nested block."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how variables can be reused across different parts of a SASS/SCSS file."
+      },
+      {
+        "question": "What is the primary advantage of using the @extend directive in SASS/SCSS?",
+        "options": [
+          "It allows for code reuse by sharing styles between selectors.",
+          "It compiles faster than using mixins.",
+          "It prevents the need for nesting.",
+          "It automatically generates media queries."
+        ],
+        "correct_option": 0,
+        "hint": "Think about how @extend can reduce redundancy in styling."
+      },
+      {
+        "question": "Which of the following statements best describes the use of mixins in SASS/SCSS?",
+        "options": [
+          "Mixins can only accept parameters but cannot return values.",
+          "Mixins allow for the inclusion of style rules and can accept arguments.",
+          "Mixins are used solely for declaring variables.",
+          "Mixins are a method to include CSS resets."
+        ],
+        "correct_option": 1,
+        "hint": "Mixins are versatile tools for reusing styles with or without parameters."
+      },
+      {
+        "question": "In a modular architecture using SASS/SCSS, what is the purpose of partials?",
+        "options": [
+          "To compile all SASS/SCSS files into a single CSS file.",
+          "To allow for better organization and maintainability of styles.",
+          "To automatically generate source maps for easier debugging.",
+          "To enable the use of JavaScript within stylesheets."
+        ],
+        "correct_option": 1,
+        "hint": "Consider how partials can help manage large codebases."
+      },
+      {
+        "question": "How can you ensure that a SASS/SCSS function does not produce any CSS output?",
+        "options": [
+          "Use the @silent directive inside the function.",
+          "Define the function with the @return directive only.",
+          "Prefix the function name with an underscore.",
+          "Functions inherently do not produce CSS output, only return values."
+        ],
+        "correct_option": 3,
+        "hint": "Think about the nature of functions in programming and their purpose in SASS/SCSS."
+      }
+    ]
+  }
+}

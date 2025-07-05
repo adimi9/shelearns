@@ -1,0 +1,274 @@
+{
+  "id": "CS2",
+  "name": "Computer Architecture & Organization",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Hardware",
+  "topics": [
+    "CPU Components & Function",
+    "Memory Hierarchy (Cache, RAM)",
+    "Instruction Sets & Assembly Language (Basics)",
+    "Input/Output Devices"
+  ],
+  "recommended": false,
+  "tags": [
+    "hardware",
+    "systems",
+    "low-level"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://prometheus.io/docs/introduction/overview/",
+        "https://learn.microsoft.com/en-us/azure/",
+        "https://kubernetes.io/docs/concepts/architecture/"
+      ],
+      "notes": [
+        "https://eecs.ceas.uc.edu/~wilseypa/classes/eece3026/",
+        "https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/",
+        "https://www.eecs.harvard.edu/cs146-246/",
+        "https://vardhaman.org/wp-content/uploads/2021/03/CO.pdf",
+        "https://users.ece.cmu.edu/~jhoe/doku/doku.php?id=18-447_introduction_to_computer_architecture",
+        "https://www.cse.iitd.ac.in/~srsarangi/archbooksoft.html"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=BIpPTqHK-Lc",
+        "https://m.youtube.com/watch?v=9nuAjYRbITQ&t=0s",
+        "https://www.youtube.com/watch?v=Onf7AKGHBzg",
+        "https://www.youtube.com/watch?v=Ol8D69VKX2k",
+        "https://www.youtube.com/watch?v=zLP_X4wyHbY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=ziMRjDlLEwo",
+        "https://www.youtube.com/watch?v=4TzMyXmzL8M",
+        "https://www.youtube.com/user/cmu18447",
+        "https://www.youtube.com/playlist?list=PLwdnzlV3ogoUT7g3BySY2QQesG3eB4dss"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://cloud.google.com/architecture",
+        "https://aws.amazon.com/architecture/",
+        "https://docs.aws.amazon.com/",
+        "https://learn.microsoft.com/en-us/azure/"
+      ],
+      "notes": [
+        "https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/",
+        "https://aws.amazon.com/architecture/",
+        "https://www.geeksforgeeks.org/computer-organization-von-neumann-architecture/",
+        "https://www.influxdata.com/glossary/vector-processing-SIMD/",
+        "https://www.spiceworks.com/tech/iot/articles/what-is-parallel-processing/",
+        "https://www.techtarget.com/searchcloudcomputing/definition/cloud-computing",
+        "https://learn.arcgis.com/en/gallery/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=WKZ_vxCZXbQ",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=ZLbVdvOoTKM",
+        "https://www.youtube.com/watch?v=xrxC5gRNV48&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=m6ozQnqit50",
+        "https://www.youtube.com/watch?v=3Q_XbPmICPg",
+        "https://www.youtube.com/watch?v=_kAP4Wtvauw",
+        "https://www.youtube.com/watch?v=lxwqHEPzuhk"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.dafcio.af.mil/",
+        "https://cloud.google.com/ai/generative-ai",
+        "https://developers.arcgis.com/python/latest/",
+        "https://cloud.google.com/architecture",
+        "https://docs.aws.amazon.com/"
+      ],
+      "notes": [
+        "https://hpca-conf.org/2025/workshop-tutorial/",
+        "https://www.geeksforgeeks.org/digital-logic/digital-electronics-logic-design-tutorials/",
+        "https://frontegg.com/guides/single-sign-on-sso",
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://www.sans.org/cyber-security-courses/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=IPvYjXCsTg8",
+        "https://www.youtube.com/watch?v=85-bp7XxWDQ",
+        "https://www.youtube.com/watch?v=tLqWGysORXA&pp=ygUPI2ZyZWVjY25hY291cnNl",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=jKc98gPybFs&pp=ygUJI3Zpc2lvdmJh",
+        "https://www.youtube.com/watch?v=4qC7H-y7oKI&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=dnQSzGeslHw"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary function of the CPU in a computer system?",
+        "options": [
+          "To execute instructions and process data",
+          "To store data permanently",
+          "To provide power to the computer",
+          "To connect peripheral devices"
+        ],
+        "correct_option": 0,
+        "hint": "It is often referred to as the 'brain' of the computer."
+      },
+      {
+        "question": "Which of the following is the fastest type of memory?",
+        "options": [
+          "Hard Disk Drive",
+          "RAM",
+          "Cache",
+          "USB Flash Drive"
+        ],
+        "correct_option": 2,
+        "hint": "This type of memory is located directly on the CPU."
+      },
+      {
+        "question": "What is an instruction set in computer architecture?",
+        "options": [
+          "A collection of commands a CPU can execute",
+          "A program for managing hardware resources",
+          "A type of input device",
+          "A form of permanent storage"
+        ],
+        "correct_option": 0,
+        "hint": "It is a set of basic operations that a processor can perform."
+      },
+      {
+        "question": "Which device is primarily used for input operations?",
+        "options": [
+          "Printer",
+          "Monitor",
+          "Keyboard",
+          "Speaker"
+        ],
+        "correct_option": 2,
+        "hint": "This device allows users to enter text into a computer."
+      },
+      {
+        "question": "What is the purpose of assembly language in computer systems?",
+        "options": [
+          "To provide a high-level programming language for software development",
+          "To serve as a human-readable representation of machine code",
+          "To manage the operating system",
+          "To store large amounts of data"
+        ],
+        "correct_option": 1,
+        "hint": "It acts as an intermediary language between high-level languages and machine code."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary function of the Arithmetic Logic Unit (ALU) in a CPU?",
+        "options": [
+          "To store data temporarily",
+          "To perform arithmetic and logical operations",
+          "To control data flow",
+          "To manage memory hierarchy"
+        ],
+        "correct_option": 1,
+        "hint": "The ALU is responsible for mathematical and decision-making processes."
+      },
+      {
+        "question": "Which of the following best describes the role of cache memory in the memory hierarchy?",
+        "options": [
+          "It provides the largest storage capacity in the system.",
+          "It is the fastest type of memory used for quick data access.",
+          "It acts as long-term storage for data and programs.",
+          "It only stores data permanently regardless of power supply."
+        ],
+        "correct_option": 1,
+        "hint": "Cache is smaller and faster than main memory (RAM)."
+      },
+      {
+        "question": "In assembly language, what does the instruction 'MOV A, B' typically do?",
+        "options": [
+          "Moves data from register B to register A",
+          "Adds the data in register A and register B",
+          "Subtracts the data in register A from register B",
+          "Multiplies the data in register A by register B"
+        ],
+        "correct_option": 0,
+        "hint": "MOV is used for transferring data between locations."
+      },
+      {
+        "question": "Which component of a computer is primarily responsible for interfacing with input/output devices?",
+        "options": [
+          "Arithmetic Logic Unit (ALU)",
+          "Control Unit (CU)",
+          "Memory Management Unit (MMU)",
+          "I/O Controller"
+        ],
+        "correct_option": 3,
+        "hint": "This component manages communication between the CPU and peripherals."
+      },
+      {
+        "question": "What is the purpose of the instruction set architecture (ISA) in a CPU?",
+        "options": [
+          "To define the hardware components of a computer",
+          "To provide a set of instructions for programming the CPU",
+          "To manage the power supply within the CPU",
+          "To establish network communication protocols"
+        ],
+        "correct_option": 1,
+        "hint": "ISA is a crucial interface between software and hardware."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary function of the control unit within the CPU?",
+        "options": [
+          "To perform arithmetic calculations",
+          "To fetch, decode, and execute instructions",
+          "To store data temporarily",
+          "To manage input/output operations"
+        ],
+        "correct_option": 1,
+        "hint": "Think about which CPU component is responsible for managing the execution of instructions."
+      },
+      {
+        "question": "In a memory hierarchy, which level typically has the fastest access time?",
+        "options": [
+          "Main memory (RAM)",
+          "L2 Cache",
+          "L1 Cache",
+          "Hard Disk Drive"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the smallest and closest memory storage to the CPU."
+      },
+      {
+        "question": "Which of the following is NOT typically included in an instruction set architecture (ISA)?",
+        "options": [
+          "Data types",
+          "Instruction formats",
+          "I/O management",
+          "Addressing modes"
+        ],
+        "correct_option": 2,
+        "hint": "ISAs are focused on the operations and data management of the CPU rather than external communication."
+      },
+      {
+        "question": "What role do buses play in computer architecture?",
+        "options": [
+          "Store data permanently",
+          "Connect different components within the computer",
+          "Perform logical operations",
+          "Execute instructions"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the component responsible for facilitating data transfer between CPU, memory, and peripherals."
+      },
+      {
+        "question": "How does Direct Memory Access (DMA) improve system performance?",
+        "options": [
+          "By allowing CPU to directly manage data transfer",
+          "By reducing CPU load during large data transfers",
+          "By increasing cache size",
+          "By enabling faster arithmetic operations"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how data transfer can occur without CPU intervention."
+      }
+    ]
+  }
+}

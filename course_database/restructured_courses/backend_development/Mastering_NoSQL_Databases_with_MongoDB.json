@@ -23,107 +23,149 @@
     "scalability"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://www.mongodb.com/docs/manual/tutorial/query-documents/",
+        "https://www.numberanalytics.com/blog/mastering-nosql-data-science",
+        "https://www.mongodb.com/docs/manual/"
+      ],
+      "notes": [
+        "https://www.datacamp.com/tutorial/nosql-tutorial",
+        "https://learn.mongodb.com/",
+        "https://www.mongodb.com/docs/manual/tutorial/query-documents/",
+        "https://www.coursera.org/learn/packt-mongodb-tutorial-for-beginners-2024-v8pfw",
+        "https://www.geeksforgeeks.org/mongodb/mongodb-tutorial/",
+        "https://www.w3schools.com/mongodb/",
+        "https://www.geeksforgeeks.org/introduction-to-nosql/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=c2M-rlkkT5o",
+        "https://www.youtube.com/watch?v=tww-gbNPOcA",
+        "https://www.youtube.com/watch?v=o2UIc-oIn-Y",
+        "https://www.youtube.com/watch?v=-PdjUx9JZ2E",
+        "https://www.youtube.com/watch?v=Es7ac0AtHJ8",
+        "https://www.youtube.com/watch?v=grA0HLLiYaI",
+        "https://www.youtube.com/watch?v=6QnY7Ri_ORw",
+        "https://www.youtube.com/playlist?list=PLSDeUiTMfxW6VChKWb26Z_mPR4f6fAmMV",
+        "https://www.youtube.com/c/inovotek-academy/videos",
+        "https://www.youtube.com/c/inovotek-academy"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://www.mongodb.com/docs/manual/",
+        "https://stackoverflow.com/questions/441441/why-should-i-use-document-based-database-instead-of-relational-database",
+        "https://www.mongodb.com/docs/manual/tutorial/query-documents/",
+        "https://www.numberanalytics.com/blog/mastering-nosql-data-science"
+      ],
+      "notes": [
+        "https://www.datacamp.com/tutorial/nosql-tutorial",
+        "https://www.mongodb.com/resources/basics/databases/types",
+        "https://www.geeksforgeeks.org/introduction-to-nosql/",
+        "https://www.mongodb.com/docs/manual/tutorial/query-documents/",
+        "https://www.geeksforgeeks.org/mongodb/mongodb-crud-operations/",
+        "https://learn.mongodb.com/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=4frkp5EsQrE",
+        "https://www.youtube.com/watch?v=mUPQii90K5A",
+        "https://www.youtube.com/watch?v=Pi5ueyl_1jU",
+        "https://www.youtube.com/watch?v=W17JdNf3dsw",
+        "https://www.youtube.com/watch?v=nc-Kpiq1zLc",
+        "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=jmGxQRl2h1M",
+        "https://www.youtube.com/watch?v=q1Y5UUQKVCQ"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.mongodb.com/docs/manual/tutorial/query-documents/",
+        "https://www.wallarm.com/cloud-native-products-101/mongodb-vs-cassandra-nosql-databases",
+        "https://www.mongodb.com/docs/manual/"
+      ],
+      "notes": [
+        "https://www.linkedin.com/posts/r-yaduvanshi_mongodb-notespdf-activity-7278632360055631872-km-5",
+        "https://www.mongodb.com/docs/manual/tutorial/query-documents/",
+        "https://www.datacamp.com/tutorial/nosql-tutorial",
+        "https://www.geeksforgeeks.org/mongodb/mongodb-tutorial/",
+        "https://www.domainindia.com/login/knowledgebase/489/A-Comprehensive-Index-to-Mastering-MERN-Stack-Your-Ultimate-Resource-Guide.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=tww-gbNPOcA",
+        "https://www.youtube.com/playlist?list=PLSDeUiTMfxW6VChKWb26Z_mPR4f6fAmMV",
+        "https://www.youtube.com/watch?v=rMiKdn8o4hU",
+        "https://www.youtube.com/watch?v=WtnnOt7zWWY",
+        "https://www.youtube.com/watch?v=K2wQcoG4QW8",
+        "https://www.youtube.com/watch?v=yuVVKB0EaOQ",
+        "https://m.youtube.com/watch?v=fWHo7RDUMhA",
+        "https://www.youtube.com/playlist?list=PLSDeUiTMfxW5vCie_cwsV6UPcZijHce8j",
+        "https://www.youtube.com/c/inovotek-academy"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/pong/click?code=aHR0cHM6Ly9zcnYuYnV5c2VsbGFkcy5jb20vYWRzL2NsaWNrL3gvR1RORDQyN01DNjdENEtKSUZUWUxZS1FVQ1dZSTVLN0lDWTdJTFozSkNBQkk0NTNORjZZSVZLM0tDQTdEQzIzRUM2U0k2NTNMQzY3REMyM0lDQVlJS1ozSkNBQkk0S0pJQ1RBRFRLM0sySldOQUJZ.IbcpS4VuxO5yQtwo7cEfbWz0spq09RBy7L81oAA1xvU%3D&version=2",
-        "description": "The URL appears to be an encoded link and does not directly point to a specific technical resource, making it challenging to provide a precise description."
+        "question": "What type of database is MongoDB classified as?",
+        "options": [
+          "Relational Database",
+          "Document-based Database",
+          "Graph Database",
+          "Key-Value Store"
+        ],
+        "correct_option": 1,
+        "hint": "MongoDB stores data in a document-like structure similar to JSON."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/mongoose",
-        "description": "This resource provides a comprehensive guide on using Mongoose with Express and Node.js for server-side web development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API",
-        "description": "An overview of the IndexedDB API, a low-level API for client-side storage of significant amounts of structured data, including files/blobs."
+        "question": "Which of the following is a key advantage of using MongoDB over traditional relational databases?",
+        "options": [
+          "Enforced rigid schemas",
+          "Complex joins",
+          "Flexible schema design",
+          "Limited scalability"
+        ],
+        "correct_option": 2,
+        "hint": "MongoDB allows for a more flexible approach to data modeling."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.w3schools.com/mongodb/",
-        "description": "This resource provides tutorials and examples for learning MongoDB, a popular NoSQL database."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/mongodb/mongodb-tutorial/",
-        "description": "A comprehensive tutorial for learning MongoDB, covering core concepts and practical applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/introduction-to-nosql/",
-        "description": "An introductory guide to understanding NoSQL databases and their advantages over traditional relational databases."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/30-days-of-mongo-db/",
-        "description": "A comprehensive 30-day guide to mastering MongoDB, covering fundamental concepts and practical applications."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/why-mongodb-and-not-sql-databases/418134",
-        "description": "This resource discusses the advantages of using MongoDB over SQL databases, focusing on flexibility, scalability, and performance."
+        "question": "In MongoDB, what is the equivalent of a table in a relational database?",
+        "options": [
+          "Document",
+          "Collection",
+          "Row",
+          "Index"
+        ],
+        "correct_option": 1,
+        "hint": "In MongoDB, data is grouped into collections, which are similar to tables."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=ofme2o29ngU",
-      "https://www.youtube.com/watch?v=QPFlGswpyJY",
-      "https://www.youtube.com/watch?v=-56x56UppqQ",
-      "https://m.youtube.com/watch?v=GV9VBwH_h1U&pp=2AEAkAIB",
-      "https://www.youtube.com/watch?v=c2M-rlkkT5o"
+    "advanced": [
+      {
+        "question": "Why might a developer choose MongoDB for a project?",
+        "options": [
+          "To enforce strict data integrity",
+          "For schema-less data storage",
+          "To utilize complex SQL queries",
+          "For built-in transaction support"
+        ],
+        "correct_option": 1,
+        "hint": "MongoDB's strength lies in its ability to store unstructured data."
+      },
+      {
+        "question": "What is the primary data format used by MongoDB to store data?",
+        "options": [
+          "XML",
+          "CSV",
+          "JSON-like BSON",
+          "SQL"
+        ],
+        "correct_option": 2,
+        "hint": "MongoDB uses a binary representation of JSON-like documents."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What type of database is MongoDB classified as?",
-      "options": [
-        "Relational Database",
-        "Document-based Database",
-        "Graph Database",
-        "Key-Value Store"
-      ],
-      "correct_option": 1,
-      "hint": "MongoDB stores data in a document-like structure similar to JSON."
-    },
-    {
-      "question": "Which of the following is a key advantage of using MongoDB over traditional relational databases?",
-      "options": [
-        "Enforced rigid schemas",
-        "Complex joins",
-        "Flexible schema design",
-        "Limited scalability"
-      ],
-      "correct_option": 2,
-      "hint": "MongoDB allows for a more flexible approach to data modeling."
-    },
-    {
-      "question": "In MongoDB, what is the equivalent of a table in a relational database?",
-      "options": [
-        "Document",
-        "Collection",
-        "Row",
-        "Index"
-      ],
-      "correct_option": 1,
-      "hint": "In MongoDB, data is grouped into collections, which are similar to tables."
-    },
-    {
-      "question": "Why might a developer choose MongoDB for a project?",
-      "options": [
-        "To enforce strict data integrity",
-        "For schema-less data storage",
-        "To utilize complex SQL queries",
-        "For built-in transaction support"
-      ],
-      "correct_option": 1,
-      "hint": "MongoDB's strength lies in its ability to store unstructured data."
-    },
-    {
-      "question": "What is the primary data format used by MongoDB to store data?",
-      "options": [
-        "XML",
-        "CSV",
-        "JSON-like BSON",
-        "SQL"
-      ],
-      "correct_option": 2,
-      "hint": "MongoDB uses a binary representation of JSON-like documents."
-    }
-  ],
   "preferred_if": [
     "User needs flexible, schema-less data storage"
   ]

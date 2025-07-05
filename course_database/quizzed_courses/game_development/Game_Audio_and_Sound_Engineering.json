@@ -1,0 +1,276 @@
+{
+  "id": "GD2",
+  "name": "Game Audio & Sound Engineering",
+  "category": "Game Development",
+  "primary_tech": "Audio Design",
+  "topics": [
+    "Sound Effects (SFX) Creation",
+    "Music Composition & Integration",
+    "Audio Mixing & Mastering",
+    "Spatial Audio & Occlusion"
+  ],
+  "recommended": false,
+  "tags": [
+    "audio",
+    "sound",
+    "immersion"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-6-documentation",
+        "https://docs.unity.com/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=uaxIGGgcEyg",
+        "https://www.audiokinetic.com/learn/videos/0v-be268YFc/?course=wwise301&lesson=6&ref=Lesson_6",
+        "https://www.youtube.com/watch?v=vLl34b9zIdk&pp=ygUZI2F1ZGlvZW5naW5lZXJhbmRwcm9kdWNlcg%3D%3D",
+        "https://thiagoschiefer.com/home/how-to-be-a-game-composer-sound-designer-for-games-a-beginners-guide/",
+        "https://www.youtube.com/watch?v=2EkZjppztyo"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=vLl34b9zIdk&pp=ygUdI3Jlc2V0c291bmRjb3JlbGliZXJ0eWFpcjJwcm8%3D",
+        "https://www.youtube.com/watch?v=uaxIGGgcEyg",
+        "https://www.youtube.com/watch?v=2EkZjppztyo",
+        "https://www.youtube.com/watch?v=J0hWjMSVx4Y",
+        "https://www.youtube.com/watch?v=XRAYqWFeYR0&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=lZ3ant1u73s",
+        "https://www.youtube.com/watch?v=wh5wdmjPur8",
+        "https://www.youtube.com/watch?v=0kBpcACGM6g",
+        "https://www.youtube.com/watch?v=yzJ2VyYkmaA&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=KK9HgQ2ZGgk"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.unity.com/",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+        "https://www.sonarworks.com/soundid-reference",
+        "https://developers.google.com/apis-explorer"
+      ],
+      "notes": [
+        "https://www.facebook.com/groups/1503118436634926/posts/4143940352552708/",
+        "http://eecs.qmul.ac.uk/~gyorgyf/research.html",
+        "https://www.steinberg.net/cubase/",
+        "https://www.sonarworks.com/soundid-reference",
+        "https://www.lewitt-audio.com/blog/how-to-record-computer-audio-via-loopback",
+        "https://www.krotosaudio.com/interview-with-sound-designer-andy-gibson/",
+        "https://discussions.unity.com/t/sound-not-working/844545"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=vsuLEM0I7x0",
+        "https://www.youtube.com/watch?v=J0hWjMSVx4Y",
+        "https://www.youtube.com/watch?v=yzJ2VyYkmaA&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=EzmNeAhWqVs",
+        "https://www.youtube.com/watch?v=nbZwucBl_oE",
+        "https://www.youtube.com/watch?v=yYoQSRAHhIc",
+        "https://www.youtube.com/watch?v=FNWF43bWQvU",
+        "https://www.youtube.com/c/ServidaMusic/community",
+        "https://www.youtube.com/watch?v=9x4d6gH78GM",
+        "https://www.youtube.com/watch?v=z-150Nxem5g"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developers.meta.com/horizon/documentation/unity/audio-ovrlipsync-viseme-reference/",
+        "https://learn.microsoft.com/en-us/windows/uwp/gaming/e2e",
+        "https://cloud.google.com/translate",
+        "https://www.fmod.com/learn"
+      ],
+      "notes": [
+        "https://www.youtube.com/c/AftertouchAudio",
+        "http://www.markwk.com/music-production-learning-journey.html",
+        "https://www.coursera.org/articles/audio-engineering",
+        "https://www.production-expert.com/production-expert-1/tools-every-dialogue-editor-should-have-in-2024",
+        "https://www.izotope.com/en/learn/audio-dynamics-101-compressors-limiters-expanders-and-gates",
+        "https://www.linkedin.com/in/sclooney",
+        "https://soundnews.net/reviews/amplifiers/headphone-amps/a-deep-dive-into-the-holo-audio-bliss-kte-headphone-amplifier/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=dMltCzdzzag",
+        "https://www.youtube.com/watch?v=EpLksvFQcc0",
+        "https://www.youtube.com/watch?v=7UsUwXe-7N8",
+        "https://www.youtube.com/watch?v=OWkE93kUXx0",
+        "https://www.youtube.com/watch?v=uCarQdTBIjY",
+        "https://www.youtube.com/watch?v=6Ai3-0O9nG4",
+        "https://www.youtube.com/watch?v=dlbJGlHdeoA",
+        "https://www.youtube.com/watch?v=I9fBqKNXIbk",
+        "https://www.youtube.com/watch?v=UBrnJY7KpT0"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of sound effects (SFX) in video games?",
+        "options": [
+          "To create a realistic atmosphere",
+          "To distract the player",
+          "To increase game difficulty",
+          "To reduce the need for visual graphics"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how sound effects can enhance the player's experience."
+      },
+      {
+        "question": "Which of the following is a key consideration in music composition for games?",
+        "options": [
+          "Tempo matching the game's pace",
+          "Using as many instruments as possible",
+          "Avoiding all musical repetition",
+          "Composing only in a minor key"
+        ],
+        "correct_option": 0,
+        "hint": "Consider what affects the synchronization of music with game events."
+      },
+      {
+        "question": "What is the main goal of audio mixing in game sound design?",
+        "options": [
+          "To ensure all audio elements are balanced and clear",
+          "To make the music louder than sound effects",
+          "To create random noise",
+          "To eliminate all background sound"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how mixing affects the overall audio quality."
+      },
+      {
+        "question": "Which technique enhances the realism of audio in a 3D game environment?",
+        "options": [
+          "Spatial audio",
+          "Mono sound",
+          "Silence",
+          "Echo removal"
+        ],
+        "correct_option": 0,
+        "hint": "Consider techniques that involve positioning sound in space."
+      },
+      {
+        "question": "What does occlusion in game audio typically refer to?",
+        "options": [
+          "Sound being blocked by objects in the environment",
+          "Increasing the volume of background music",
+          "Using only high-pitched sounds",
+          "Reducing all sound effects"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how physical barriers affect sound transmission."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which technique is most commonly used to create dynamic and evolving sound effects for games?",
+        "options": [
+          "Layering multiple sound sources",
+          "Using a single sound sample",
+          "Recording in a quiet environment",
+          "Reducing the frequency range"
+        ],
+        "correct_option": 0,
+        "hint": "Think about combining different sounds to achieve complexity."
+      },
+      {
+        "question": "In the context of game audio, what does the term 'occlusion' refer to?",
+        "options": [
+          "The effect of sounds being blocked by objects",
+          "The process of reducing noise in a sound file",
+          "The technique of amplifying low-frequency sounds",
+          "The use of reverb to enhance sound quality"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how sound behaves when there are obstacles between the source and the listener."
+      },
+      {
+        "question": "What is the primary goal of audio mixing in game sound design?",
+        "options": [
+          "To ensure all audio elements are at the same volume",
+          "To create a balanced and immersive audio experience",
+          "To make the soundtrack louder than sound effects",
+          "To eliminate any background noise"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how different audio elements are combined to support gameplay."
+      },
+      {
+        "question": "Which element is crucial for integrating music seamlessly into a game environment?",
+        "options": [
+          "Maintaining a consistent tempo",
+          "Using random sound effects",
+          "Avoiding any musical changes",
+          "Ensuring all music is in a minor key"
+        ],
+        "correct_option": 0,
+        "hint": "Consider what helps music transition smoothly during gameplay."
+      },
+      {
+        "question": "How does spatial audio enhance a player's experience in a game?",
+        "options": [
+          "By making the audio louder",
+          "By providing directional sound cues",
+          "By using only stereo sound",
+          "By adding more background music"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how players perceive the location of sounds in a 3D space."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which technique is essential for creating realistic soundscapes in a game environment?",
+        "options": [
+          "Layering ambient sounds with SFX",
+          "Using a single looped audio file",
+          "Relying solely on music tracks",
+          "Ignoring environmental acoustics"
+        ],
+        "correct_option": 0,
+        "hint": "Consider combining multiple audio elements to enhance realism."
+      },
+      {
+        "question": "In music composition for games, what is a critical consideration when integrating music with gameplay?",
+        "options": [
+          "The music should be louder than all other sounds",
+          "The music should have a fixed tempo throughout",
+          "The music should dynamically adapt to player actions",
+          "The music should never loop"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how music can enhance player immersion by reacting to in-game events."
+      },
+      {
+        "question": "What is a common challenge when mixing and mastering audio for games?",
+        "options": [
+          "Ensuring music always overpowers voice lines",
+          "Balancing audio levels across different platforms",
+          "Avoiding the use of equalizers",
+          "Mixing audio without any compression"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how audio might sound different on various devices."
+      },
+      {
+        "question": "Which method is crucial for implementing spatial audio effectively in a game environment?",
+        "options": [
+          "Using mono audio files exclusively",
+          "Implementing head-related transfer functions (HRTFs)",
+          "Layering all sounds in a single channel",
+          "Using reverb to simulate distance"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how human ears perceive the direction and distance of sounds."
+      },
+      {
+        "question": "How can occlusion be realistically simulated in a 3D game audio environment?",
+        "options": [
+          "By lowering the sound volume uniformly",
+          "By applying low-pass filters when objects obstruct sound paths",
+          "By increasing the sound's pitch",
+          "By using stereo widening effects"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the impact of physical barriers on sound frequencies."
+      }
+    ]
+  }
+}

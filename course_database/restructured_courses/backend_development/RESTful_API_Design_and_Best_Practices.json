@@ -15,105 +15,153 @@
     "design"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Glossary/REST",
-        "description": "An introductory glossary entry explaining the principles and usage of Representational State Transfer (REST) in web services."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
-        "description": "This resource provides an introduction to responsive design principles and techniques for creating adaptable web layouts using CSS."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API",
-        "description": "Comprehensive documentation on Web APIs for building and interacting with web applications."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/",
-        "description": "A guide on best practices for designing and building robust REST APIs."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/",
-        "description": "A guide on best practices and examples for designing REST API endpoints effectively."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/node-js/rest-api-introduction/",
-        "description": "An introductory guide to creating REST APIs using Node.js."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-work-with-restful-apis-in-react-simplified-steps-and-practical-examples/",
-        "description": "A guide on integrating and using RESTful APIs in React with simplified steps and practical examples."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/blogs/api-design-roadmap/",
-        "description": "A comprehensive guide outlining best practices and strategies for designing effective APIs."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=-mN3VyJuCjM",
-      "https://www.youtube.com/watch?v=_gQaygjm_hg",
-      "https://www.youtube.com/watch?v=7nm1pYuKAhY",
-      "https://www.youtube.com/watch?v=7QfswaV0re4",
-      "https://www.youtube.com/watch?v=faMdrSCVDzc"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which HTTP method is typically used to update a resource in RESTful APIs?",
-      "options": [
-        "GET",
-        "POST",
-        "PUT",
-        "DELETE"
+    "beginner": {
+      "docs": [
+        "https://restfulapi.net/",
+        "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "https://cloud.google.com/apis/design"
       ],
-      "correct_option": 2,
-      "hint": "This method is used to update existing resources or create them if they do not exist."
+      "notes": [
+        "https://restfulapi.net/",
+        "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "https://www.restapitutorial.com/",
+        "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/",
+        "https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/",
+        "https://blog.postman.com/rest-api-examples/",
+        "https://go.dev/doc/tutorial/web-service-gin"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=7QfswaV0re4",
+        "https://www.youtube.com/watch?v=qbLc5a9jdXo",
+        "https://www.youtube.com/watch?v=z3YMz-Gocmw",
+        "https://www.youtube.com/watch?v=7YcW25PHnAA",
+        "https://www.youtube.com/watch?v=Q-BpqyOT3a8&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=y_sOd0RU7Cw",
+        "https://www.youtube.com/watch?v=EWd3_I4X32g",
+        "https://www.youtube.com/watch?v=0sOvCWFmrtA"
+      ]
     },
-    {
-      "question": "What does a 404 HTTP status code signify in a RESTful API?",
-      "options": [
-        "Resource not found",
-        "Internal server error",
-        "Request accepted",
-        "Resource created"
+    "intermediate": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "https://stoplight.io/api-documentation-guide",
+        "https://developers.google.com/apis-explorer",
+        "https://blog.dreamfactory.com/8-api-documentation-examples",
+        "https://swagger.io/resources/articles/best-practices-in-api-design/"
       ],
-      "correct_option": 0,
-      "hint": "This status code indicates that the server cannot find the requested resource."
+      "notes": [
+        "https://restfulapi.net/resource-naming/",
+        "https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/",
+        "https://www.moesif.com/blog/technical/api-design/REST-API-Design-Best-Practices-for-Parameters-and-Query-String-Usage/",
+        "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "https://blog.postman.com/rest-api-examples/",
+        "https://www.postman.com/api-platform/api-design/",
+        "https://swagger.io/resources/articles/best-practices-in-api-design/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=A8t5LSxVJFM",
+        "https://www.youtube.com/watch?v=JDbkoICzQro",
+        "https://www.youtube.com/watch?v=tXo2vO5QNAw",
+        "https://www.youtube.com/watch?v=oPcAT2D-B5k",
+        "https://www.youtube.com/watch?v=X6fSJZDZZ0I",
+        "https://www.youtube.com/watch?v=pH7ZT9cOL0k",
+        "https://www.youtube.com/watch?v=-mN3VyJuCjM",
+        "https://www.youtube.com/watch?v=nE2MjN54few",
+        "https://www.youtube.com/channel/UChPxqdfDbulLE9PyUqhijWw/videos",
+        "https://www.youtube.com/channel/UCC_dVe-RI-vgCZfls06mDZQ/posts"
+      ]
     },
-    {
-      "question": "In RESTful API design, what is the primary purpose of versioning?",
-      "options": [
-        "To improve API security",
-        "To increase API speed",
-        "To manage changes without affecting existing clients",
-        "To simplify API endpoints"
+    "advanced": {
+      "docs": [
+        "https://stoplight.io/api-style-guides-guidelines-and-best-practices",
+        "https://docs.github.com/rest",
+        "https://www.netguru.com/blog/api-documentation",
+        "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html",
+        "https://www.forestadmin.com/blog/an-experts-guide-to-crud-apis-designing-a-robust-one/"
       ],
-      "correct_option": 2,
-      "hint": "Versioning helps in managing changes to the API over time."
-    },
-    {
-      "question": "Which of the following is a common technique for implementing pagination in RESTful APIs?",
-      "options": [
-        "Using HTTP cookies",
-        "Query parameters like 'limit' and 'offset'",
-        "Storing data in XML format",
-        "Using WebSockets"
+      "notes": [
+        "https://www.youtube.com/watch?v=A8t5LSxVJFM",
+        "https://api7.ai/learning-center/api-gateway-guide",
+        "https://www.youtube.com/watch?v=Ms0dFXx3OMc",
+        "https://www.restapitutorial.com/",
+        "https://www.youtube.com/watch?v=MWLe1tqPmUo",
+        "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/"
       ],
-      "correct_option": 1,
-      "hint": "This technique involves specifying the number of records to skip and retrieve."
-    },
-    {
-      "question": "What is the purpose of resource modeling in RESTful API design?",
-      "options": [
-        "To define the database schema",
-        "To manage user authentication",
-        "To represent entities and their relationships",
-        "To encrypt data"
-      ],
-      "correct_option": 2,
-      "hint": "Resource modeling involves defining resources and their interactions in the API."
+      "videos": [
+        "https://www.youtube.com/watch?v=A8t5LSxVJFM",
+        "https://www.youtube.com/watch?v=Ms0dFXx3OMc",
+        "https://www.youtube.com/watch?v=7nm1pYuKAhY",
+        "https://www.youtube.com/watch?v=MWLe1tqPmUo",
+        "https://www.youtube.com/watch?v=EgQJRB9Vs3Y&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://www.youtube.com/watch?v=7YcW25PHnAA",
+        "https://m.youtube.com/watch?v=xg7Dj2AXLyk&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/playlist?list=PL5Lsd0YA4OMFvX88T5xH93NqBALI7TENz",
+        "https://www.youtube.com/c/GreatAdib"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which HTTP method is typically used to update a resource in RESTful APIs?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method is used to update existing resources or create them if they do not exist."
+      },
+      {
+        "question": "What does a 404 HTTP status code signify in a RESTful API?",
+        "options": [
+          "Resource not found",
+          "Internal server error",
+          "Request accepted",
+          "Resource created"
+        ],
+        "correct_option": 0,
+        "hint": "This status code indicates that the server cannot find the requested resource."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In RESTful API design, what is the primary purpose of versioning?",
+        "options": [
+          "To improve API security",
+          "To increase API speed",
+          "To manage changes without affecting existing clients",
+          "To simplify API endpoints"
+        ],
+        "correct_option": 2,
+        "hint": "Versioning helps in managing changes to the API over time."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a common technique for implementing pagination in RESTful APIs?",
+        "options": [
+          "Using HTTP cookies",
+          "Query parameters like 'limit' and 'offset'",
+          "Storing data in XML format",
+          "Using WebSockets"
+        ],
+        "correct_option": 1,
+        "hint": "This technique involves specifying the number of records to skip and retrieve."
+      },
+      {
+        "question": "What is the purpose of resource modeling in RESTful API design?",
+        "options": [
+          "To define the database schema",
+          "To manage user authentication",
+          "To represent entities and their relationships",
+          "To encrypt data"
+        ],
+        "correct_option": 2,
+        "hint": "Resource modeling involves defining resources and their interactions in the API."
+      }
+    ]
+  }
 }

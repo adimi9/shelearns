@@ -16,105 +16,147 @@
     "SQL"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API",
-        "description": "An overview and guide to using the IndexedDB API for client-side storage of significant amounts of structured data."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Database",
-        "description": "An overview of databases, explaining their purpose, types, and fundamental concepts."
-      },
-      {
-        "url": "https://nodejs.org/api/fs.html",
-        "description": "The Node.js File System (fs) module documentation provides comprehensive details on file and directory operations in Node.js."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/dbms/?ref=lbp",
-        "description": "An in-depth guide on Database Management Systems (DBMS), covering concepts, architecture, and various database models."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/dbms/dbms/",
-        "description": "Comprehensive resource covering fundamental concepts and components of Database Management Systems (DBMS)."
-      },
-      {
-        "url": "https://www.w3schools.com/mysql/mysql_rdbms.asp",
-        "description": "An introductory guide to MySQL and relational database management systems (RDBMS)."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
-        "description": "An introductory guide to understanding database management systems (DBMS) and SQL fundamentals."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/",
-        "description": "An introductory guide to understanding the basics and components of Database Management Systems (DBMS)."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=wR0jg0eQsZA",
-      "https://www.youtube.com/watch?v=6Iu45VZGQDk",
-      "https://www.youtube.com/watch?v=mDFXzRBpJTI",
-      "https://www.youtube.com/watch?v=pPqazMTzNOM",
-      "https://www.youtube.com/watch?v=zsjvFFKOm3c"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which of the following is a primary feature of relational databases?",
-      "options": [
-        "Hierarchical data storage",
-        "Schema-less data management",
-        "Table-based organization",
-        "Graph structures"
+    "beginner": {
+      "docs": [
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://learn.microsoft.com/en-us/ef/",
+        "https://firebase.google.com/docs/database",
+        "https://cloud.google.com/learn/what-is-a-relational-database"
       ],
-      "correct_option": 2,
-      "hint": "Relational databases organize data into rows and columns."
+      "notes": [
+        "https://www.geeksforgeeks.org/dbms/?ref=lbp",
+        "https://beginnersbook.com/2015/04/dbms-tutorial/",
+        "https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/",
+        "https://www.tutorialspoint.com/dbms/index.htm",
+        "https://www.geeksforgeeks.org/dbms/dbms/",
+        "https://www.w3schools.com/sql/sql_intro.asp"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=c5HAwKX-suM",
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://www.youtube.com/watch?v=wR0jg0eQsZA&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=zQuFCsTLLSU",
+        "https://www.youtube.com/watch?v=oeYBdghaIjc",
+        "https://www.youtube.com/watch?v=v4bU6n97Vr8",
+        "https://www.youtube.com/watch?v=6Iu45VZGQDk",
+        "https://www.youtube.com/watch?v=xjhQ0e9Hlds",
+        "https://www.youtube.com/playlist?list=PLZ2ps__7DhBYc4jkUk_yQAjYEVFzVzhdU"
+      ]
     },
-    {
-      "question": "What is the main purpose of normalization in database design?",
-      "options": [
-        "To improve data redundancy",
-        "To speed up data retrieval",
-        "To improve data integrity",
-        "To increase storage capacity"
+    "intermediate": {
+      "docs": [
+        "https://neo4j.com/",
+        "https://developers.google.com/apis-explorer",
+        "https://docs.oracle.com/iaas/api/"
       ],
-      "correct_option": 2,
-      "hint": "Normalization aims to eliminate data anomalies by organizing data efficiently."
+      "notes": [
+        "https://ieeexplore.ieee.org/document/1314713/",
+        "https://doc.arcgis.com/en/arcgis-solutions/11.2/reference/use-district-energy-data-management.htm",
+        "https://enterprise.arcgis.com/en/server/10.4/get-started/windows/tutorial-performing-web-editing-using-data-from-a-database.htm",
+        "https://portal.nutanix.com/page/documents/details?targetId=Nutanix-NDB-Oracle-Database-Management-Guide-v2_8:top-oracle-db-management-c.html",
+        "https://www.ntia.gov/sites/default/files/publications/cybersecurity_and_infrastructure_security_agency_cisa_0.pdf",
+        "https://docs.oracle.com/cd/E91711_01/PDF/MDM_Release_Notes_v2_2_0_2.pdf",
+        "https://www.healthit.gov/sites/default/files/facas/2022-08-24_PHDS_TF_MeetingNotes_508_0.pdf"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=-MWNwy2W6YY",
+        "https://www.youtube.com/watch?v=9ur0OpMADuM",
+        "https://www.youtube.com/watch?v=wI4HWGlI6gM&pp=ygUII3Nvc3FsNTQ%3D",
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+        "https://www.youtube.com/watch?v=jHzIGGU-Ph0",
+        "https://www.youtube.com/watch?v=Vxt5hT7UbzE",
+        "https://www.youtube.com/watch?v=_sWgionzDoM"
+      ]
     },
-    {
-      "question": "Which SQL statement is used to ensure that a transaction is saved to the database?",
-      "options": [
-        "ROLLBACK",
-        "COMMIT",
-        "SAVEPOINT",
-        "SET TRANSACTION"
+    "advanced": {
+      "docs": [
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://developers.arcgis.com/python/latest/",
+        "https://cloud.google.com/docs/security/key-management-deep-dive",
+        "https://docs.nvidia.com/nsight-systems/UserGuide/index.html"
       ],
-      "correct_option": 1,
-      "hint": "This command is used to make the changes made by a transaction permanent."
-    },
-    {
-      "question": "Which of the following is a key characteristic of NoSQL databases?",
-      "options": [
-        "Fixed schema",
-        "ACID transactions",
-        "Horizontal scalability",
-        "Table-based data storage"
+      "notes": [
+        "https://www.geeksforgeeks.org/mysql/mysql-tutorial/",
+        "https://www.wrike.com/project-management-guide/faq/what-are-project-management-tools/",
+        "https://www.notion.com/help/intro-to-databases",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+        "https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/"
       ],
-      "correct_option": 2,
-      "hint": "NoSQL databases are known for their ability to handle large-scale data across distributed systems."
-    },
-    {
-      "question": "Which technology is most commonly associated with relational databases?",
-      "options": [
-        "MongoDB",
-        "Cassandra",
-        "MySQL",
-        "Neo4j"
-      ],
-      "correct_option": 2,
-      "hint": "This is an open-source relational database management system."
+      "videos": [
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+        "https://www.youtube.com/watch?v=Sxp8YjKu_Tc",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=3Lfs5fAc1bU",
+        "https://www.youtube.com/watch?v=voTZUMw23pg",
+        "https://www.youtube.com/watch?v=YMj33ToS8cI",
+        "https://www.youtube.com/watch?v=iafduXqwfMs"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which of the following is a primary feature of relational databases?",
+        "options": [
+          "Hierarchical data storage",
+          "Schema-less data management",
+          "Table-based organization",
+          "Graph structures"
+        ],
+        "correct_option": 2,
+        "hint": "Relational databases organize data into rows and columns."
+      },
+      {
+        "question": "What is the main purpose of normalization in database design?",
+        "options": [
+          "To improve data redundancy",
+          "To speed up data retrieval",
+          "To improve data integrity",
+          "To increase storage capacity"
+        ],
+        "correct_option": 2,
+        "hint": "Normalization aims to eliminate data anomalies by organizing data efficiently."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which SQL statement is used to ensure that a transaction is saved to the database?",
+        "options": [
+          "ROLLBACK",
+          "COMMIT",
+          "SAVEPOINT",
+          "SET TRANSACTION"
+        ],
+        "correct_option": 1,
+        "hint": "This command is used to make the changes made by a transaction permanent."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a key characteristic of NoSQL databases?",
+        "options": [
+          "Fixed schema",
+          "ACID transactions",
+          "Horizontal scalability",
+          "Table-based data storage"
+        ],
+        "correct_option": 2,
+        "hint": "NoSQL databases are known for their ability to handle large-scale data across distributed systems."
+      },
+      {
+        "question": "Which technology is most commonly associated with relational databases?",
+        "options": [
+          "MongoDB",
+          "Cassandra",
+          "MySQL",
+          "Neo4j"
+        ],
+        "correct_option": 2,
+        "hint": "This is an open-source relational database management system."
+      }
+    ]
+  }
 }

@@ -1,0 +1,491 @@
+{
+  "id": "GD4",
+  "name": "Game Testing & Quality Assurance",
+  "category": "Game Development",
+  "primary_tech": "QA",
+  "topics": [
+    "Bug Reporting & Tracking",
+    "Functional Testing",
+    "Performance Testing",
+    "Playtesting & Feedback Integration"
+  ],
+  "recommended": true,
+  "tags": [
+    "testing",
+    "QA",
+    "bug-fixing",
+    "quality"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/emulator-suite",
+          "description": "An overview of Firebase Emulator Suite for local development and testing of Firebase apps.",
+          "title": "Introduction to Firebase Local Emulator Suite"
+        },
+        {
+          "url": "https://www.istqb.org/",
+          "description": "Official site for the International Software Testing Qualifications Board (ISTQB) offering resources on software testing certifications.",
+          "title": "International Software Testing Qualifications Board"
+        },
+        {
+          "url": "https://firebase.google.com/docs",
+          "description": "Official documentation for Firebase, covering its features and integration guides.",
+          "title": "Firebase Documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://devforum.roblox.com/t/guide-effectively-qa-testing-your-roblox-experience/2199838",
+          "description": "A guide on effectively QA testing your Roblox experience.",
+          "title": "Guide: Effectively QA Testing Your Roblox Experience - Resources / Community Tutorials - Developer Forum | Roblox"
+        },
+        {
+          "url": "https://www.coursera.org/articles/qa-tester",
+          "description": "An informative article on the role, skills, and career path of a QA tester.",
+          "title": "What Is a QA Tester? Skills, Requirements, and Jobs in 2025 | Coursera"
+        },
+        {
+          "url": "https://riseuplabs.com/game-qa-testing-ultimate-guide/",
+          "description": "An ultimate guide to game QA testing, covering methodologies and best practices.",
+          "title": "Game QA Testing Ultimate Guide - Riseup Labs"
+        },
+        {
+          "url": "https://www.testbytes.net/blog/game-testing-tutorial/",
+          "description": "An introductory tutorial on game testing methodologies and best practices.",
+          "title": "Game Testing Tutorial: How To Perform Game Testing ?"
+        },
+        {
+          "url": "https://www.tumblr.com/askagamedev/127082673401/is-there-a-difference-between-playtesting-and",
+          "description": "An explanation of the differences between playtesting and QA testing in game development.",
+          "title": "Is there a difference between Playtesting and Quality Assurance? – @askagamedev on Tumblr"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=ZFqW90y9Yio",
+          "title": "Game Testing, Debugging, & QA | Spatial Game Dev Academy",
+          "duration": "61m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=yR-_r4gA_BA",
+          "title": "Manual QA: Testing for Beginners - Types of QA Testing - Part 9",
+          "duration": "20m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=n81GxMaHHmo",
+          "title": "How to Become a Game Tester? [Game QA tester]",
+          "duration": "9m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0eMBOjS9tvY&pp=0gcJCf0Ao7VqN5tD",
+          "title": "NO EXPERIENCE - How to Get a Job in Software Testing and QA, 2024",
+          "duration": "7m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qk-xTOt5TI0",
+          "title": "Become a QA Tester and Break into the Games Industry | Webinar",
+          "duration": "84m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MFxk5BZulVU",
+          "title": "Postman Api Testing Tutorial for beginners",
+          "duration": "16m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PmrI25_rbvg",
+          "title": "🐛 What Is Quality Assurance (QA) or Testing | Localization Basics",
+          "duration": "2m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=b19ANqeu30o",
+          "title": "Jira Tutorial for Beginners | Jira Agile Test Management - Part 1",
+          "duration": "49m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=F1FcTI2VDeQ",
+          "title": "Jira Tutorial for QA Testers",
+          "duration": "18m"
+        },
+        {
+          "url": "https://www.youtube.com/c/alexusadays"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://developers.google.com/apis-explorer",
+          "description": "An interactive tool for exploring and testing Google APIs directly from your browser.",
+          "title": "Google APIs Explorer  |  Google for Developers"
+        },
+        {
+          "url": "https://jestjs.io/",
+          "description": "An official site for Jest, a JavaScript testing framework.",
+          "title": "Jest · 🃏 Delightful JavaScript Testing"
+        },
+        {
+          "url": "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders",
+          "description": "An overview of 101 real-world generative AI use cases from industry leaders.",
+          "title": "Real-world gen AI use cases from the world's leading organizations | Google Cloud Blog"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.coursera.org/articles/qa-tester",
+          "description": "An informative article on the role and responsibilities of a QA tester.",
+          "title": "What Is a QA Tester? Skills, Requirements, and Jobs in 2025 | Coursera"
+        },
+        {
+          "url": "https://www.functionize.com/automated-testing/generative-ai-in-software-testing",
+          "description": "An overview of using generative AI to enhance automated software testing processes.",
+          "title": "The Power of Generative AI Testing | Functionize"
+        },
+        {
+          "url": "https://www.testbytes.net/blog/game-testing-tutorial/",
+          "description": "An introductory tutorial on the fundamentals of game testing.",
+          "title": "Game Testing Tutorial: How To Perform Game Testing ?"
+        },
+        {
+          "url": "https://www.headspin.io/blog/ais-transformative-effect-on-automation-testing-and-qa",
+          "description": "Exploration of AI's transformative impact on automation testing and QA processes.",
+          "title": "The Impact of AI on Automation Testing in Quality Assurance | HeadSpin"
+        },
+        {
+          "url": "https://www.testdevlab.com/blog/manual-testing",
+          "description": "An insightful overview of manual testing practices and methodologies.",
+          "title": "Manual Testing: Step-by-Step Process, Types & Techniques (2025)"
+        },
+        {
+          "url": "https://www.virtuosoqa.com/",
+          "description": "An advanced platform for automated software testing and quality assurance.",
+          "title": "QA Automation Testing Tool based on NLP, AI & Machine Learning | Virtuoso QA"
+        },
+        {
+          "url": "https://devforum.roblox.com/t/guide-effectively-qa-testing-your-roblox-experience/2199838",
+          "description": "A guide to effectively QA testing your Roblox experience.",
+          "title": "Guide: Effectively QA Testing Your Roblox Experience - Resources / Community Tutorials - Developer Forum | Roblox"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=nnqy-LB4g7o&pp=0gcJCdgAo7VqN5tD",
+          "title": "15 Steps To Write A Test Case",
+          "duration": "13m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8RNSkWLGROs",
+          "title": "Unreal Engine 5: Mastering Automated Testing Tools for Games | QA and Gameplay Testing Guide",
+          "duration": "26m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=iOheLWYbILw",
+          "title": "ChatGPT for QA: how to use",
+          "duration": "60m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=F1FcTI2VDeQ",
+          "title": "Jira Tutorial for QA Testers",
+          "duration": "18m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_2zxd3UgMjQ",
+          "title": "Test Management Made Easy - Jira App Review",
+          "duration": "23m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AJQOFcdXP1M",
+          "title": "7 Free AI Tools For Software Testers",
+          "duration": "17m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bp6odsK8qes",
+          "title": "Automating Testing of Video Games using GameDriver.io with Shane Evans ( Test Guild meetup)",
+          "duration": "71m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=B-ytMSuwbf8",
+          "title": "Web Design for Beginners | FREE COURSE",
+          "duration": "318m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ezf72VMzQZU",
+          "title": "7 Steps to Write Standard Operating Procedures that ACTUALLY Work",
+          "duration": "15m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://www.istqb.org/",
+          "description": "Official site for ISTQB software testing certification and resources.",
+          "title": "International Software Testing Qualifications Board"
+        },
+        {
+          "url": "https://cloud.google.com/ai/generative-ai",
+          "description": "An overview of Google's Generative AI capabilities and tools for developers.",
+          "title": "Generative AI | Google Cloud"
+        },
+        {
+          "url": "https://workshops.aws/",
+          "description": "A platform providing interactive AWS workshops for hands-on cloud learning and skill development.",
+          "title": "AWS Workshops"
+        },
+        {
+          "url": "https://cloud.google.com/vertex-ai/docs",
+          "description": "Comprehensive documentation for using Vertex AI on Google Cloud.",
+          "title": "Vertex AI documentation  |  Google Cloud"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.coursera.org/articles/qa-tester",
+          "description": "An article explaining the role, responsibilities, and career path of a QA tester.",
+          "title": "What Is a QA Tester? Skills, Requirements, and Jobs in 2025 | Coursera"
+        },
+        {
+          "url": "https://www.istqb.org/",
+          "description": "Official website of the International Software Testing Qualifications Board (ISTQB) offering certification and resources for software testing professionals.",
+          "title": "International Software Testing Qualifications Board"
+        },
+        {
+          "url": "https://unity.com/how-to",
+          "description": "A collection of expert tips and tutorials for mastering Unity development.",
+          "title": "Access Denied"
+        },
+        {
+          "url": "https://www.headspin.io/blog/mobile-app-qa-testing-guide",
+          "description": "A detailed guide on mobile app QA testing strategies and best practices.",
+          "title": "A guide to mobile app QA testing"
+        },
+        {
+          "url": "https://www.lux.camera/the-iphone-16-pro-camera-review-control/",
+          "description": "An in-depth review of the iPhone 16 Pro's camera features and control capabilities.",
+          "title": "The iPhone 16 Pro Camera Review: Control"
+        },
+        {
+          "url": "https://www.udemy.com/topic/quality-assurance/",
+          "description": "A collection of courses focused on quality assurance techniques and methodologies.",
+          "title": "Just a moment..."
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=LLJ01lWu89c",
+          "title": "Garmin Fenix 7: The Complete Beginners Guide",
+          "duration": "46m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8RNSkWLGROs&pp=0gcJCdgAo7VqN5tD",
+          "title": "Unreal Engine 5: Mastering Automated Testing Tools for Games | QA and Gameplay Testing Guide",
+          "duration": "26m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+          "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
+          "duration": "649m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7duYI-inu_I",
+          "title": "Deep Dive: Unit Testing with Jest & React",
+          "duration": "58m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xsVTqzratPs",
+          "title": "Complete SEO Course for Beginners: Learn to Rank #1 in Google",
+          "duration": "117m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pQ4x3Mjnr74",
+          "title": "ULTIMATE PC SETTINGS GUIDE! Black Ops 6 Best Settings [Windows/NVIDIA/Graphics/Keybinds/Controller]",
+          "duration": "39m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gXtY768rB28",
+          "title": "How to Build a QA Team from Scratch? | Mukesh Rajput | #qualityassurance #softwaretesting",
+          "duration": "57m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BZrio_G_1Cs",
+          "title": "The BEST Facebook Ads Tutorial for Beginners 2025 (Full Guide)",
+          "duration": "73m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main purpose of bug reporting in game testing?",
+        "options": [
+          "To identify and document defects in the game",
+          "To create new game features",
+          "To design the game interface",
+          "To develop the game architecture"
+        ],
+        "correct_option": 0,
+        "hint": "The focus is on identifying issues that affect gameplay."
+      },
+      {
+        "question": "Which of the following is a primary task in functional testing?",
+        "options": [
+          "Ensuring the game runs smoothly on all platforms",
+          "Checking if all game features work as intended",
+          "Measuring the frame rate of the game",
+          "Analyzing player feedback"
+        ],
+        "correct_option": 1,
+        "hint": "It involves verifying the functionality of the game features."
+      },
+      {
+        "question": "What is performance testing mainly concerned with in game testing?",
+        "options": [
+          "The visual design of the game",
+          "The speed and responsiveness of the game",
+          "The storyline of the game",
+          "The audio quality of the game"
+        ],
+        "correct_option": 1,
+        "hint": "It focuses on how well the game performs under various conditions."
+      },
+      {
+        "question": "In the context of playtesting, what is feedback integration?",
+        "options": [
+          "Collecting player feedback and making changes to the game accordingly",
+          "Creating new levels based on player suggestions",
+          "Designing the user interface",
+          "Developing new game mechanics"
+        ],
+        "correct_option": 0,
+        "hint": "It involves using player input to improve the game."
+      },
+      {
+        "question": "Which technology is primarily used for bug tracking in game testing?",
+        "options": [
+          "Excel spreadsheets",
+          "Q, A tools",
+          "Graphic design software",
+          "Coding languages"
+        ],
+        "correct_option": 1,
+        "hint": "The technology is specifically designed for managing game testing processes."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of bug reporting in game testing?",
+        "options": [
+          "To document issues for developers to fix",
+          "To rate the game's graphics",
+          "To determine the game's target audience",
+          "To test the game's storyline"
+        ],
+        "correct_option": 0,
+        "hint": "It involves documenting issues encountered during testing."
+      },
+      {
+        "question": "Which of the following is NOT a common tool used for bug tracking?",
+        "options": [
+          "JIRA",
+          "Bugzilla",
+          "Photoshop",
+          "Mantis"
+        ],
+        "correct_option": 2,
+        "hint": "This tool is primarily used for graphic design."
+      },
+      {
+        "question": "What is the main focus of functional testing in games?",
+        "options": [
+          "Ensuring game mechanics work as intended",
+          "Testing the game's marketing strategy",
+          "Assessing the game's storyline",
+          "Evaluating the game's artistic style"
+        ],
+        "correct_option": 0,
+        "hint": "It involves verifying that game features function correctly."
+      },
+      {
+        "question": "During performance testing, which aspect is crucial to evaluate?",
+        "options": [
+          "Frame rate stability",
+          "Voice acting quality",
+          "Character development",
+          "Music composition"
+        ],
+        "correct_option": 0,
+        "hint": "This aspect affects how smoothly the game runs."
+      },
+      {
+        "question": "In playtesting, why is feedback integration important?",
+        "options": [
+          "To improve game design based on player experience",
+          "To increase the game's price",
+          "To enhance the game's advertising",
+          "To decrease development time"
+        ],
+        "correct_option": 0,
+        "hint": "Feedback helps refine the game based on player input."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a crucial step in the bug reporting process?",
+        "options": [
+          "Ignoring minor bugs to focus on major ones",
+          "Providing a detailed description and reproduction steps",
+          "Using generic language to describe the issue",
+          "Assigning a bug to a developer without prior discussion"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the clarity and usefulness of information provided to developers."
+      },
+      {
+        "question": "When conducting functional testing, what is the primary focus?",
+        "options": [
+          "Ensuring the game does not crash under high load",
+          "Checking the game's compliance with design specifications",
+          "Gathering player feedback for future improvements",
+          "Assessing the visual appeal of the game"
+        ],
+        "correct_option": 1,
+        "hint": "Functional testing is mainly concerned with verifying the software against its requirements."
+      },
+      {
+        "question": "In performance testing, which metric is most relevant?",
+        "options": [
+          "Frame rate stability",
+          "Bug severity",
+          "User interface design",
+          "Game narrative"
+        ],
+        "correct_option": 0,
+        "hint": "Performance testing focuses on how well the game runs under various conditions."
+      },
+      {
+        "question": "What is the main goal of playtesting in game development?",
+        "options": [
+          "To finalize the game narrative",
+          "To gather feedback from players to improve game design",
+          "To ensure compliance with industry standards",
+          "To optimize graphics and sound"
+        ],
+        "correct_option": 1,
+        "hint": "Playtesting involves real users to evaluate the game experience."
+      },
+      {
+        "question": "Which technology is commonly used for bug tracking in game development?",
+        "options": [
+          "Version control systems",
+          "Automated testing frameworks",
+          "Project management tools",
+          "Issue tracking software"
+        ],
+        "correct_option": 3,
+        "hint": "This technology helps in monitoring and managing bug reports efficiently."
+      }
+    ]
+  }
+}

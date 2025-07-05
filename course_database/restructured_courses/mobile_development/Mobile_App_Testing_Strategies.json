@@ -16,105 +16,145 @@
     "reliability"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://legacy.reactjs.org/docs/testing.html",
-        "description": "This resource provides comprehensive guidance on testing React applications, covering tools and techniques for effective testing."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
-        "description": "This resource provides an introduction to responsive web design techniques using CSS for adaptable layouts across different devices."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
-        "description": "An overview of Progressive Web Apps (PWAs), detailing their features, benefits, and implementation strategies for enhancing web applications."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/software-testing/what-is-mobile-application-testing/",
-        "description": "An introduction to mobile application testing, covering its importance, types, and methodologies."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/software-testing/software-testing-tutorial/",
-        "description": "A comprehensive tutorial on software testing, covering fundamental concepts, methodologies, and best practices."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/blogs/how-mobile-app-testing-can-boost-chances-of-an-app-success/",
-        "description": "This article explains how effective mobile app testing can significantly enhance the success and reliability of an app."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-to-automate-mobile-testing-strategies/",
-        "description": "This article provides strategies for automating mobile testing to enhance efficiency and reliability in app development."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/software-testing/software-testing-test-strategy/",
-        "description": "A comprehensive guide on developing a test strategy for effective software testing."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=UWFoxol1yV0",
-      "https://www.youtube.com/watch?v=p17bmM-nwkc",
-      "https://www.youtube.com/watch?v=T3q6QcCQZQg",
-      "https://www.youtube.com/watch?v=AjkYTJklAa8",
-      "https://www.youtube.com/watch?v=sO8eGL6SFsA"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of Unit Testing in mobile app development?",
-      "options": [
-        "To test the entire application as a whole",
-        "To test individual components or functions in isolation",
-        "To ensure the app's UI is responsive",
-        "To evaluate the app's performance under stress"
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs/auth",
+        "https://developer.android.com/training/testing/fundamentals",
+        "https://developers.hubspot.com/docs/reference/api/overview"
       ],
-      "correct_option": 1,
-      "hint": "Unit Testing focuses on small parts of the application."
+      "notes": [
+        "https://www.softwaretestinghelp.com/beginners-guide-to-mobile-application-testing/",
+        "https://testgrid.io/blog/appium-testing-tutorial/",
+        "https://www.browserstack.com/guide/manual-testing-tutorial",
+        "https://www.geeksforgeeks.org/software-testing/software-testing-tutorial/",
+        "https://developer.android.com/training/testing/fundamentals",
+        "https://owasp.org/www-project-mobile-app-security/",
+        "https://www.optimizely.com/optimization-glossary/ab-testing/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=eWjOza77Pjk",
+        "https://www.youtube.com/watch?v=3QOlo2pEpvc",
+        "https://www.youtube.com/watch?v=M6j-AJDPFn0",
+        "https://www.youtube.com/watch?v=8vfQ6SWBZ-U",
+        "https://www.youtube.com/watch?v=rSiDdOCUt74",
+        "https://www.youtube.com/watch?v=BZrio_G_1Cs",
+        "https://www.youtube.com/watch?v=LktbfHdEm-U",
+        "https://www.youtube.com/watch?v=Fx3ud5wMHYc"
+      ]
     },
-    {
-      "question": "Which of the following tools is commonly used for UI Testing in Android applications?",
-      "options": [
-        "JUnit",
-        "Espresso",
-        "XCTest",
-        "Mockito"
+    "intermediate": {
+      "docs": [
+        "https://developers.google.com/apis-explorer",
+        "https://docs.datadoghq.com/api/latest/",
+        "https://developer.android.com/training/testing/fundamentals"
       ],
-      "correct_option": 1,
-      "hint": "This tool is specifically designed for Android UI testing."
+      "notes": [
+        "https://www.browserstack.com/guide/exploratory-testing",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/test-studio",
+        "https://ieeexplore.ieee.org/document/6606750/",
+        "https://learn.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows",
+        "https://www.researchgate.net/figure/Tomdroid-model-to-test-creating-and-viewing-notes_fig5_288485408"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=bZgHhBA29Ek&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=kBESOqobduE",
+        "https://www.youtube.com/watch?v=ZeZPmC861E8",
+        "https://www.youtube.com/watch?v=Fx3ud5wMHYc",
+        "https://www.youtube.com/watch?v=M6j-AJDPFn0",
+        "https://www.youtube.com/watch?v=lcUgrciUCPg",
+        "https://www.youtube.com/watch?v=R3JxCOZdL-c&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=tAMu-RPqkok"
+      ]
     },
-    {
-      "question": "In iOS app development, which tool is used for performing Unit Tests?",
-      "options": [
-        "XCUITest",
-        "Espresso",
-        "JUnit",
-        "XCTest"
+    "advanced": {
+      "docs": [
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://openweathermap.org/api"
       ],
-      "correct_option": 3,
-      "hint": "This tool is part of the Xcode testing framework."
-    },
-    {
-      "question": "What is Widget/Component Testing primarily focused on?",
-      "options": [
-        "Testing the integration of multiple systems",
-        "Testing individual UI elements in isolation",
-        "Testing the app's network requests",
-        "Testing the app's security features"
+      "notes": [
+        "https://saucelabs.com/resources/blog/getting-started-with-real-device-testing",
+        "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks",
+        "https://contentsquare.com/guides/usability-testing/methods/",
+        "https://www.lambdatest.com/blog/complete-guide-for-using-xpath-in-selenium-with-examples/",
+        "https://www.sans.org/cyber-security-courses/",
+        "https://www.headspin.io/blog/mobile-app-qa-testing-guide"
       ],
-      "correct_option": 1,
-      "hint": "It involves testing visual and interaction parts of the app."
-    },
-    {
-      "question": "During Integration Testing, what is the main objective?",
-      "options": [
-        "To test only the back-end services",
-        "To identify issues when combining different modules or services",
-        "To improve the app's graphical user interface",
-        "To isolate individual units for testing"
-      ],
-      "correct_option": 1,
-      "hint": "This testing type ensures different parts of the app work together."
+      "videos": [
+        "https://www.youtube.com/watch?v=LktbfHdEm-U",
+        "https://www.youtube.com/watch?v=BZrio_G_1Cs",
+        "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=231s",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=4iIxAI3XQIk",
+        "https://www.youtube.com/watch?v=SWP3k-24jT4",
+        "https://www.youtube.com/watch?v=qwA6MmbeGNo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=LLJ01lWu89c",
+        "https://www.youtube.com/watch?v=IOVFRMuPeVQ"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of Unit Testing in mobile app development?",
+        "options": [
+          "To test the entire application as a whole",
+          "To test individual components or functions in isolation",
+          "To ensure the app's UI is responsive",
+          "To evaluate the app's performance under stress"
+        ],
+        "correct_option": 1,
+        "hint": "Unit Testing focuses on small parts of the application."
+      },
+      {
+        "question": "Which of the following tools is commonly used for UI Testing in Android applications?",
+        "options": [
+          "JUnit",
+          "Espresso",
+          "XCTest",
+          "Mockito"
+        ],
+        "correct_option": 1,
+        "hint": "This tool is specifically designed for Android UI testing."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In iOS app development, which tool is used for performing Unit Tests?",
+        "options": [
+          "XCUITest",
+          "Espresso",
+          "JUnit",
+          "XCTest"
+        ],
+        "correct_option": 3,
+        "hint": "This tool is part of the Xcode testing framework."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is Widget/Component Testing primarily focused on?",
+        "options": [
+          "Testing the integration of multiple systems",
+          "Testing individual UI elements in isolation",
+          "Testing the app's network requests",
+          "Testing the app's security features"
+        ],
+        "correct_option": 1,
+        "hint": "It involves testing visual and interaction parts of the app."
+      },
+      {
+        "question": "During Integration Testing, what is the main objective?",
+        "options": [
+          "To test only the back-end services",
+          "To identify issues when combining different modules or services",
+          "To improve the app's graphical user interface",
+          "To isolate individual units for testing"
+        ],
+        "correct_option": 1,
+        "hint": "This testing type ensures different parts of the app work together."
+      }
+    ]
+  }
 }

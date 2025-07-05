@@ -15,105 +15,152 @@
     "styling"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-        "description": "Comprehensive documentation and resources for learning and using CSS (Cascading Style Sheets) in web development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors",
-        "description": "An overview and guide on using CSS attribute selectors to style HTML elements based on their attributes."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
-        "description": "A guide on how to use CSS nesting to organize and simplify CSS code by embedding style rules within each other."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/css/",
-        "description": "A comprehensive guide to learning and mastering CSS for designing and styling web pages."
-      },
-      {
-        "url": "https://www.w3schools.com/react/react_sass_styling.asp",
-        "description": "This resource provides a guide on how to use SASS for styling React applications."
-      },
-      {
-        "url": "https://www.w3schools.com/sass/",
-        "description": "A comprehensive tutorial and reference guide for learning and using SASS, a CSS preprocessor."
-      },
-      {
-        "url": "https://www.w3schools.com/sass/sass_intro.asp",
-        "description": "An introductory guide to SASS, explaining its features and benefits for enhancing CSS with variables and nesting."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/what-are-the-best-ways-to-create-a-sass-scss-theme-skin/156119",
-        "description": "This forum thread discusses effective methods for creating theme skins using SASS/SCSS."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=akDIJa0AP5c",
-      "https://www.youtube.com/watch?v=oIU8pRHI1pg",
-      "https://www.youtube.com/watch?v=Zz6eOVaaelI",
-      "https://www.youtube.com/watch?v=yt03bkX8cA4",
-      "https://www.youtube.com/watch?v=_a5j7KoflTs"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary benefit of using variables in SASS/SCSS?",
-      "options": [
-        "To store repetitive values for reuse",
-        "To create animations",
-        "To automatically optimize images",
-        "To compile JavaScript"
+    "beginner": {
+      "docs": [
+        "https://sass-lang.com/documentation/",
+        "https://code.visualstudio.com/docs/languages/css",
+        "https://sass-lang.com/guide/",
+        "https://docusaurus.io/docs/styling-layout",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS"
       ],
-      "correct_option": 0,
-      "hint": "Think about repetition and consistency in styling."
+      "notes": [
+        "https://sass-lang.com/guide/",
+        "https://www.w3schools.com/sass/",
+        "https://sass-lang.com/documentation/",
+        "https://www.w3schools.com/sass/sass_intro.asp",
+        "https://code.visualstudio.com/docs/languages/css",
+        "https://forum.freecodecamp.org/t/responsive-design-w-scss/310015",
+        "https://www.toptal.com/sass/theming-scss-tutorial"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=oq3cmfdleME",
+        "https://www.youtube.com/watch?v=_a5j7KoflTs",
+        "https://m.youtube.com/watch?v=Zz6eOVaaelI&t=19s",
+        "https://www.youtube.com/watch?v=jfMHA8SqUL4",
+        "https://www.youtube.com/watch?v=t9IHDRWx1dQ",
+        "https://www.youtube.com/watch?v=kpcjSaRngg8",
+        "https://www.youtube.com/watch?v=_kqN4hl9bGc",
+        "https://www.youtube.com/watch?v=8F1Vof0gTG4"
+      ]
     },
-    {
-      "question": "Which symbol is used in SASS/SCSS to define a variable?",
-      "options": [
-        "$",
-        "#",
-        "@",
-        "&"
+    "intermediate": {
+      "docs": [
+        "https://sass-lang.com/documentation/at-rules/use/",
+        "https://docs.astro.build/en/guides/styling/",
+        "https://docusaurus.io/docs/styling-layout",
+        "https://webpack.js.org/loaders/sass-loader/",
+        "https://github.com/vitejs/vite/discussions/18388"
       ],
-      "correct_option": 0,
-      "hint": "It's the same symbol used for currency in some countries."
+      "notes": [
+        "https://sass-lang.com/dart-sass/",
+        "https://docs.astro.build/en/guides/styling/",
+        "https://sass-lang.com/documentation/at-rules/use/",
+        "https://github.com/sass/sass/issues/2875",
+        "https://sass-lang.com/documentation/at-rules/mixin/",
+        "https://stackoverflow.com/questions/45899894/when-to-use-extend-and-mixin-in-sass"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=qfscKppw1mE",
+        "https://www.youtube.com/watch?v=UlOzbc219AM",
+        "https://www.youtube.com/watch?v=EKHd0Dcc4IY",
+        "https://www.youtube.com/watch?v=WDpxqopXd9U",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=oZPR_78wCnY",
+        "https://www.youtube.com/watch?v=aMTRukxrjuE",
+        "https://www.youtube.com/watch?v=p0bGHP-PXD4",
+        "https://www.youtube.com/watch?v=MCXBZ-QKLFU",
+        "https://www.youtube.com/c/Harshitvashisth"
+      ]
     },
-    {
-      "question": "What is a mixin in SASS/SCSS used for?",
-      "options": [
-        "To include a set of styles",
-        "To import fonts",
-        "To define color schemes",
-        "To create grid layouts"
+    "advanced": {
+      "docs": [
+        "https://sass-lang.com/guide/",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "https://sass-lang.com/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       ],
-      "correct_option": 0,
-      "hint": "It's like a function that saves styles to be reused."
-    },
-    {
-      "question": "How do you nest styles in SCSS?",
-      "options": [
-        "By using brackets",
-        "By using indentation",
-        "By placing selectors inside other selectors",
-        "By using the ':' symbol"
+      "notes": [
+        "https://sass-lang.com/guide/",
+        "https://devndijon.hashnode.dev/customizing-bootstrap-with-sass-for-beginners",
+        "https://sass-lang.com/",
+        "https://www.w3schools.com/css/",
+        "https://blog.angular-university.io/angular-host-context/",
+        "https://www.udemy.com/topic/sass/",
+        "https://www.scalablecss.com/bem-quickstart-guide/"
       ],
-      "correct_option": 2,
-      "hint": "Think about the structure of HTML elements."
-    },
-    {
-      "question": "What does the modular architecture in SASS/SCSS promote?",
-      "options": [
-        "Separation of styles into components",
-        "Using global variables for all styles",
-        "Writing all styles in a single file",
-        "Avoiding the use of mixins"
-      ],
-      "correct_option": 0,
-      "hint": "Modules help in organizing code for better maintenance."
+      "videos": [
+        "https://www.youtube.com/watch?v=_a5j7KoflTs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=9Ld-aOKsEDk",
+        "https://www.youtube.com/watch?v=cpbN0YAW44g",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=wsnV1r59UCY",
+        "https://www.youtube.com/watch?v=aoQ6S1a32j8",
+        "https://www.youtube.com/watch?v=dHbYcAncAgQ",
+        "https://www.youtube.com/watch?v=45P3xQPaYxc"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary benefit of using variables in SASS/SCSS?",
+        "options": [
+          "To store repetitive values for reuse",
+          "To create animations",
+          "To automatically optimize images",
+          "To compile JavaScript"
+        ],
+        "correct_option": 0,
+        "hint": "Think about repetition and consistency in styling."
+      },
+      {
+        "question": "Which symbol is used in SASS/SCSS to define a variable?",
+        "options": [
+          "$",
+          "#",
+          "@",
+          "&"
+        ],
+        "correct_option": 0,
+        "hint": "It's the same symbol used for currency in some countries."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a mixin in SASS/SCSS used for?",
+        "options": [
+          "To include a set of styles",
+          "To import fonts",
+          "To define color schemes",
+          "To create grid layouts"
+        ],
+        "correct_option": 0,
+        "hint": "It's like a function that saves styles to be reused."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "How do you nest styles in SCSS?",
+        "options": [
+          "By using brackets",
+          "By using indentation",
+          "By placing selectors inside other selectors",
+          "By using the ':' symbol"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the structure of HTML elements."
+      },
+      {
+        "question": "What does the modular architecture in SASS/SCSS promote?",
+        "options": [
+          "Separation of styles into components",
+          "Using global variables for all styles",
+          "Writing all styles in a single file",
+          "Avoiding the use of mixins"
+        ],
+        "correct_option": 0,
+        "hint": "Modules help in organizing code for better maintenance."
+      }
+    ]
+  }
 }

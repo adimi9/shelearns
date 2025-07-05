@@ -16,105 +16,149 @@
     "low-level"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://reactjs.org/",
-        "description": "The official website for React, a JavaScript library for building user interfaces."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
-        "description": "This resource provides guidance on organizing CSS to improve the structure and maintainability of web styling."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction",
-        "description": "An introduction to the Document Object Model (DOM), explaining its role in web development and how it represents the structure of a web page."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/",
-        "description": "This resource provides comprehensive tutorials on computer organization and architecture concepts."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-organization-von-neumann-architecture/",
-        "description": "An overview of the Von Neumann architecture, detailing its components and principles in computer organization."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-organization-architecture/direct-memory-access-dma-controller-in-computer-architecture/",
-        "description": "This resource explains the role and functionality of the Direct Memory Access (DMA) controller in computer architecture."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/differences-between-computer-architecture-and-computer-organization/",
-        "description": "This resource explains the key differences between computer architecture and computer organization."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-organization-and-architecture-pipelining-set-1-execution-stages-and-throughput/",
-        "description": "An introductory guide to understanding pipelining execution stages and throughput in computer architecture."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=Ol8D69VKX2k",
-      "https://www.youtube.com/watch?v=GRInNLx3Tug",
-      "https://www.youtube.com/watch?v=L1ung0wil9Y",
-      "https://www.youtube.com/watch?v=4gwYkEK0gOk",
-      "https://www.youtube.com/watch?v=9nuAjYRbITQ"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which component of the CPU is responsible for performing arithmetic and logic operations?",
-      "options": [
-        "Control Unit",
-        "Arithmetic Logic Unit (ALU)",
-        "Registers",
-        "Cache"
+    "beginner": {
+      "docs": [
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://prometheus.io/docs/introduction/overview/",
+        "https://learn.microsoft.com/en-us/azure/",
+        "https://kubernetes.io/docs/concepts/architecture/"
       ],
-      "correct_option": 1,
-      "hint": "This component is abbreviated as ALU."
+      "notes": [
+        "https://eecs.ceas.uc.edu/~wilseypa/classes/eece3026/",
+        "https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/",
+        "https://www.eecs.harvard.edu/cs146-246/",
+        "https://vardhaman.org/wp-content/uploads/2021/03/CO.pdf",
+        "https://users.ece.cmu.edu/~jhoe/doku/doku.php?id=18-447_introduction_to_computer_architecture",
+        "https://www.cse.iitd.ac.in/~srsarangi/archbooksoft.html"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=BIpPTqHK-Lc",
+        "https://m.youtube.com/watch?v=9nuAjYRbITQ&t=0s",
+        "https://www.youtube.com/watch?v=Onf7AKGHBzg",
+        "https://www.youtube.com/watch?v=Ol8D69VKX2k",
+        "https://www.youtube.com/watch?v=zLP_X4wyHbY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=ziMRjDlLEwo",
+        "https://www.youtube.com/watch?v=4TzMyXmzL8M",
+        "https://www.youtube.com/user/cmu18447",
+        "https://www.youtube.com/playlist?list=PLwdnzlV3ogoUT7g3BySY2QQesG3eB4dss"
+      ]
     },
-    {
-      "question": "What is the primary purpose of cache memory in a computer system?",
-      "options": [
-        "To permanently store data",
-        "To improve processing speed by storing frequently accessed data",
-        "To connect the CPU to peripheral devices",
-        "To back up data in case of power failure"
+    "intermediate": {
+      "docs": [
+        "https://cloud.google.com/architecture",
+        "https://aws.amazon.com/architecture/",
+        "https://docs.aws.amazon.com/",
+        "https://learn.microsoft.com/en-us/azure/"
       ],
-      "correct_option": 1,
-      "hint": "Cache memory acts as a high-speed buffer between the CPU and RAM."
+      "notes": [
+        "https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/",
+        "https://aws.amazon.com/architecture/",
+        "https://www.geeksforgeeks.org/computer-organization-von-neumann-architecture/",
+        "https://www.influxdata.com/glossary/vector-processing-SIMD/",
+        "https://www.spiceworks.com/tech/iot/articles/what-is-parallel-processing/",
+        "https://www.techtarget.com/searchcloudcomputing/definition/cloud-computing",
+        "https://learn.arcgis.com/en/gallery/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=WKZ_vxCZXbQ",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=ZLbVdvOoTKM",
+        "https://www.youtube.com/watch?v=xrxC5gRNV48&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=m6ozQnqit50",
+        "https://www.youtube.com/watch?v=3Q_XbPmICPg",
+        "https://www.youtube.com/watch?v=_kAP4Wtvauw",
+        "https://www.youtube.com/watch?v=lxwqHEPzuhk"
+      ]
     },
-    {
-      "question": "Which of the following best describes an instruction set in computer architecture?",
-      "options": [
-        "A series of bits used to represent data",
-        "A collection of commands a CPU can execute",
-        "The physical layout of a CPU",
-        "The hierarchy of memory types"
+    "advanced": {
+      "docs": [
+        "https://www.dafcio.af.mil/",
+        "https://cloud.google.com/ai/generative-ai",
+        "https://developers.arcgis.com/python/latest/",
+        "https://cloud.google.com/architecture",
+        "https://docs.aws.amazon.com/"
       ],
-      "correct_option": 1,
-      "hint": "It's a set of operations a processor can perform."
-    },
-    {
-      "question": "What is the function of the control unit within the CPU?",
-      "options": [
-        "To execute arithmetic operations",
-        "To manage the execution of instructions",
-        "To store data temporarily",
-        "To connect the CPU to external devices"
+      "notes": [
+        "https://hpca-conf.org/2025/workshop-tutorial/",
+        "https://www.geeksforgeeks.org/digital-logic/digital-electronics-logic-design-tutorials/",
+        "https://frontegg.com/guides/single-sign-on-sso",
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://www.sans.org/cyber-security-courses/"
       ],
-      "correct_option": 1,
-      "hint": "The control unit directs the operation of the processor."
-    },
-    {
-      "question": "Which type of device is primarily used for input in a computer system?",
-      "options": [
-        "Monitor",
-        "Keyboard",
-        "Printer",
-        "Speaker"
-      ],
-      "correct_option": 1,
-      "hint": "This device is used to enter data and commands into a computer."
+      "videos": [
+        "https://www.youtube.com/watch?v=IPvYjXCsTg8",
+        "https://www.youtube.com/watch?v=85-bp7XxWDQ",
+        "https://www.youtube.com/watch?v=tLqWGysORXA&pp=ygUPI2ZyZWVjY25hY291cnNl",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=jKc98gPybFs&pp=ygUJI3Zpc2lvdmJh",
+        "https://www.youtube.com/watch?v=4qC7H-y7oKI&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=dnQSzGeslHw"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which component of the CPU is responsible for performing arithmetic and logic operations?",
+        "options": [
+          "Control Unit",
+          "Arithmetic Logic Unit (ALU)",
+          "Registers",
+          "Cache"
+        ],
+        "correct_option": 1,
+        "hint": "This component is abbreviated as ALU."
+      },
+      {
+        "question": "What is the primary purpose of cache memory in a computer system?",
+        "options": [
+          "To permanently store data",
+          "To improve processing speed by storing frequently accessed data",
+          "To connect the CPU to peripheral devices",
+          "To back up data in case of power failure"
+        ],
+        "correct_option": 1,
+        "hint": "Cache memory acts as a high-speed buffer between the CPU and RAM."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following best describes an instruction set in computer architecture?",
+        "options": [
+          "A series of bits used to represent data",
+          "A collection of commands a CPU can execute",
+          "The physical layout of a CPU",
+          "The hierarchy of memory types"
+        ],
+        "correct_option": 1,
+        "hint": "It's a set of operations a processor can perform."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the function of the control unit within the CPU?",
+        "options": [
+          "To execute arithmetic operations",
+          "To manage the execution of instructions",
+          "To store data temporarily",
+          "To connect the CPU to external devices"
+        ],
+        "correct_option": 1,
+        "hint": "The control unit directs the operation of the processor."
+      },
+      {
+        "question": "Which type of device is primarily used for input in a computer system?",
+        "options": [
+          "Monitor",
+          "Keyboard",
+          "Printer",
+          "Speaker"
+        ],
+        "correct_option": 1,
+        "hint": "This device is used to enter data and commands into a computer."
+      }
+    ]
+  }
 }

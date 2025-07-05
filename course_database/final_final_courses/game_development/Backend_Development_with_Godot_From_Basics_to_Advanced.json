@@ -1,0 +1,400 @@
+{
+  "id": "GD15",
+  "name": "Backend Development with Godot: From Basics to Advanced",
+  "category": "Game Development",
+  "primary_tech": "Godot Engine",
+  "topics": [
+    "Introduction to Godot Engine and its Architecture",
+    "Understanding Godot's Networking Capabilities",
+    "Implementing Game Servers with Godot",
+    "Scripting Backend Logic with GDScript",
+    "Database Integration and Management",
+    "Real-time Multiplayer Game Development",
+    "Security Considerations in Game Development",
+    "Deploying and Scaling Godot-based Applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "godot",
+    "backend",
+    "game-server",
+    "networking",
+    "scripting",
+    "gdscript"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://docs.godotengine.org/en/4.4/tutorials/scripting/c_sharp/c_sharp_basics.html",
+          "description": "An introductory guide to C# scripting in the Godot Engine.",
+          "title": "C# basics — Godot Engine (4.4) documentation in English"
+        },
+        {
+          "url": "https://forum.godotengine.org/t/is-godot-gradually-adopting-c-as-its-primary-programming-language/62938",
+          "description": "A discussion on the potential shift of Godot Engine towards C# as its main programming language.",
+          "title": "Is Godot Gradually Adopting C# as Its Primary Programming Language? - Help - Godot Forum"
+        },
+        {
+          "url": "https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html",
+          "description": "A tutorial on implementing high-level multiplayer networking in Godot Engine.",
+          "title": "High-level multiplayer — Godot Engine (stable) documentation in English"
+        },
+        {
+          "url": "https://firebase.google.com/docs/hosting",
+          "description": "An overview of Firebase Hosting for deploying fast and secure web apps.",
+          "title": "Firebase Hosting"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=e1zJS31tr88",
+          "description": "A detailed walkthrough of Kubernetes architecture and components for beginners."
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=1pJyYtBAHks&t=5m53s",
+          "description": "A detailed tutorial on implementing convolutional neural networks (CNNs) using TensorFlow."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ulfGNtiItnc&pp=ygUKI3BvbGxjYWRvdA%3D%3D",
+          "description": "An in-depth explanation of the Pollcadot blockchain network and its ecosystem."
+        },
+        {
+          "url": "https://academy.zenva.com/product-category/all/game-development/godot/",
+          "description": "An extensive collection of Godot game development courses and tutorials.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=e0JLO_5UgQo",
+          "description": "An instructional video on how to use the ChatGPT API for building AI-powered applications."
+        },
+        {
+          "url": "https://docs.godotengine.org/en/4.4/tutorials/scripting/c_sharp/c_sharp_basics.html",
+          "description": "An introductory guide to C# scripting basics in the Godot Engine.",
+          "title": "C# basics — Godot Engine (4.4) documentation in English"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MOJVjFngOs4",
+          "description": "A tutorial video on creating and using Python decorators effectively."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ulfGNtiItnc&pp=ygUKI3BvbGxjYWRvdA%3D%3D",
+        "https://www.youtube.com/watch?v=e1zJS31tr88",
+        "https://www.youtube.com/watch?v=e0JLO_5UgQo",
+        "https://www.youtube.com/watch?v=j-BRiTrw_F0",
+        "https://www.youtube.com/watch?v=MOJVjFngOs4",
+        "https://www.youtube.com/watch?v=z14cfTc40uQ",
+        "https://www.youtube.com/watch?v=Yi1iIM-B7XQ&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=QfvBN1KX_UM",
+        "https://m.youtube.com/watch?v=1pJyYtBAHks&t=5m53s"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://forum.godotengine.org/t/is-godot-gradually-adopting-c-as-its-primary-programming-language/62938",
+          "description": "Discussion on the potential shift of Godot Engine towards using C++ as its primary programming language.",
+          "title": "Is Godot Gradually Adopting C# as Its Primary Programming Language? - Help - Godot Forum"
+        },
+        {
+          "url": "https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html",
+          "description": "An in-depth tutorial on implementing high-level multiplayer networking in Godot Engine.",
+          "title": "High-level multiplayer — Godot Engine (stable) documentation in English"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=24043427",
+          "description": "A Hacker News discussion about the intricacies and challenges of implementing the 'goto' statement in programming languages.",
+          "title": "Making Advanced GUI Applications with Godot | Hacker News"
+        },
+        {
+          "url": "https://docs.godotengine.org/en/4.4/tutorials/scripting/c_sharp/c_sharp_basics.html",
+          "description": "An introductory guide to C# scripting basics in the Godot Engine.",
+          "title": "C# basics — Godot Engine (4.4) documentation in English"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://forum.godotengine.org/t/are-state-machines-needed/107394",
+          "description": "A discussion on the necessity and implementation of state machines in game development using Godot Engine.",
+          "title": "Are State Machines needed? - General - Godot Forum"
+        },
+        {
+          "url": "https://github.com/godotengine/godot-proposals/discussions/4937",
+          "description": "A community discussion on enhancing 3D navigation mesh generation in Godot Engine.",
+          "title": "Make it clear when to use _process and _physics_process · godotengine/godot-proposals · Discussion #4937 · GitHub"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=24043427",
+          "description": "Discussion on Hacker News about the pros and cons of using Rust in production.",
+          "title": "Making Advanced GUI Applications with Godot | Hacker News"
+        },
+        {
+          "url": "https://github.com/LMMS/lmms/issues/6194",
+          "description": "Discussion and tracking of a bug related to note-off events in LMMS software.",
+          "title": "Use Godot for the user interface and input · Issue #6194 · LMMS/lmms"
+        },
+        {
+          "url": "https://www.snopekgames.com/game/retro-tank-party/devlog/2019/switched-webrtc-networking-and-changed-name-retro-tank-party",
+          "description": "Details the transition to WebRTC networking and rebranding of the game to Retro Tank Party.",
+          "title": "Switched to WebRTC for networking (and changed name to \"Retro Tank Party\") | Snopek Games"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8TcWGk1DJVs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=5hyRBuW560c",
+        "https://www.youtube.com/watch?v=ZEqSuggBKo8",
+        "https://www.youtube.com/watch?v=S6QahmMEOJw",
+        "https://www.youtube.com/watch?v=3V78d_GihDA",
+        "https://www.youtube.com/watch?v=pXSCfpnC1hQ",
+        "https://www.youtube.com/watch?v=RY_B1bmSvs0",
+        "https://www.youtube.com/watch?v=OpL0Gcfn4B4&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://news.ycombinator.com/item?id=24043427",
+          "description": "A Hacker News discussion on the impact of remote work on productivity and company culture.",
+          "title": "Making Advanced GUI Applications with Godot | Hacker News"
+        },
+        {
+          "url": "https://kompute.cc/",
+          "description": "A framework for high-performance GPU computing using Vulkan in Python.",
+          "title": "Kompute Docs Home — Kompute Documentation (Python & C++)"
+        },
+        {
+          "url": "https://aptos.dev/en",
+          "description": "Official documentation and resources for developing on the Aptos blockchain platform.",
+          "title": "Aptos Developer Documentation | Aptos Docs (en)"
+        },
+        {
+          "url": "https://workshops.aws/",
+          "description": "A collection of interactive workshops for learning and building on AWS services.",
+          "title": "AWS Workshops"
+        },
+        {
+          "url": "https://www.akamai.com/products/api-security",
+          "description": "An overview of Akamai's API security solutions to protect against threats and vulnerabilities."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://news.ycombinator.com/item?id=24043427",
+          "description": "A Hacker News discussion on the impact and future of remote work post-pandemic.",
+          "title": "Making Advanced GUI Applications with Godot | Hacker News"
+        },
+        {
+          "url": "https://edw.is/learning-vulkan/",
+          "description": "An introductory guide to learning the Vulkan graphics API.",
+          "title": "How I learned Vulkan and wrote a small game engine with it"
+        },
+        {
+          "url": "https://opencourser.com/post/fnyxa2/game-development-the-complete-learning-roadmap",
+          "description": "An in-depth roadmap for learning game development from beginner to advanced levels.",
+          "title": "Game Development: The Complete Learning Roadmap - the Course Notes by OpenCourser"
+        },
+        {
+          "url": "https://www.amazon.com/C-C-Languages-Tools-Books/b?ie=UTF8&node=3956",
+          "description": "A curated collection of books and resources on C and C++ programming languages and tools.",
+          "title": "Amazon.com: C & C++: Books: C++, Visual C++ & More"
+        },
+        {
+          "url": "https://www.udemy.com/course/fastapi-the-complete-course/",
+          "description": "A complete course on FastAPI covering its features and practical applications.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://workshops.aws/",
+          "description": "A platform offering hands-on workshops to learn and build with AWS services.",
+          "title": "AWS Workshops"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=HGu2hUJrAvQ",
+        "https://www.youtube.com/watch?v=S9BHuodNDlo",
+        "https://www.youtube.com/watch?v=RY_B1bmSvs0",
+        "https://www.youtube.com/watch?v=2bSuuzMwda8",
+        "https://www.youtube.com/watch?v=_pFAqbyQemU"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary programming language used for scripting in the Godot Engine?",
+        "options": [
+          "Python",
+          "JavaScript",
+          "GDScript",
+          "Ruby"
+        ],
+        "correct_option": 2,
+        "hint": "It's a language specifically designed for Godot."
+      },
+      {
+        "question": "Which feature of Godot Engine allows developers to manage real-time multiplayer game sessions?",
+        "options": [
+          "Animation Editor",
+          "Networking Capabilities",
+          "Audio Mixer",
+          "Sprite Editor"
+        ],
+        "correct_option": 1,
+        "hint": "It's related to connecting multiple players."
+      },
+      {
+        "question": "What is an essential consideration when deploying Godot applications to ensure user data protection?",
+        "options": [
+          "Graphics Optimization",
+          "Sound Design",
+          "Security Considerations",
+          "Level Design"
+        ],
+        "correct_option": 2,
+        "hint": "Think about protecting information from threats."
+      },
+      {
+        "question": "In Godot, what is the role of a game server?",
+        "options": [
+          "To render graphics",
+          "To handle user input",
+          "To manage game state and interactions",
+          "To play audio files"
+        ],
+        "correct_option": 2,
+        "hint": "It's crucial for multiplayer interactions."
+      },
+      {
+        "question": "Which Godot feature is crucial for integrating databases with the backend?",
+        "options": [
+          "Animation System",
+          "Physics Engine",
+          "Database Integration and Management",
+          "TileMap Editor"
+        ],
+        "correct_option": 2,
+        "hint": "It involves handling data storage and retrieval."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary scripting language used for backend logic in Godot Engine?",
+        "options": [
+          "Python",
+          "GDScript",
+          "JavaScript",
+          "C#"
+        ],
+        "correct_option": 1,
+        "hint": "The language is specifically designed for Godot and resembles Python in its syntax."
+      },
+      {
+        "question": "Which Godot component is crucial for handling real-time multiplayer connections?",
+        "options": [
+          "AnimationTree",
+          "PhysicsServer",
+          "NetworkedMultiplayerENet",
+          "AudioStreamPlayer"
+        ],
+        "correct_option": 2,
+        "hint": "This component is specifically designed to manage networked multiplayer functionalities."
+      },
+      {
+        "question": "How does Godot Engine primarily organize its project structure?",
+        "options": [
+          "Scenes and Nodes",
+          "Classes and Objects",
+          "Modules and Packages",
+          "Scripts and Functions"
+        ],
+        "correct_option": 0,
+        "hint": "Godot uses a tree structure where each part can be a parent or child."
+      },
+      {
+        "question": "Which Godot feature is essential for integrating databases into a game?",
+        "options": [
+          "Script Editor",
+          "HTTPRequest",
+          "VisualScript",
+          "JSON API"
+        ],
+        "correct_option": 1,
+        "hint": "This feature is used to perform network operations, like sending HTTP requests."
+      },
+      {
+        "question": "What is a critical security consideration when developing multiplayer games with Godot?",
+        "options": [
+          "Optimizing audio quality",
+          "Encrypting network traffic",
+          "Improving texture resolution",
+          "Increasing frame rate"
+        ],
+        "correct_option": 1,
+        "hint": "This measure helps prevent unauthorized access and data breaches over network communications."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a critical advantage of using Godot's built-in networking over third-party solutions for real-time multiplayer game development?",
+        "options": [
+          "Seamless integration with Visual Scripting",
+          "Automatic handling of network congestion",
+          "Native support for WebRTC",
+          "Optimized performance due to engine-level support"
+        ],
+        "correct_option": 3,
+        "hint": "Consider the benefits of having networking features directly integrated into the game engine rather than relying on external libraries."
+      },
+      {
+        "question": "In the context of Godot Engine, what is the primary role of the High-Level Multiplayer API?",
+        "options": [
+          "To simplify the synchronization of game states across clients",
+          "To provide a graphical interface for creating multiplayer lobbies",
+          "To encrypt all network traffic automatically",
+          "To monitor server performance metrics"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how the API helps developers manage the multiplayer aspect of the game."
+      },
+      {
+        "question": "How can Godot's GDScript be optimized for backend logic to improve performance in large-scale applications?",
+        "options": [
+          "By using static typing wherever possible",
+          "By avoiding the use of signals",
+          "By limiting the use of inheritance",
+          "By reducing the number of nodes in the scene tree"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the impact of enhancing type safety and predictability in script execution."
+      },
+      {
+        "question": "Which approach is recommended for securely managing player data in a Godot-based multiplayer game?",
+        "options": [
+          "Storing all player data locally on each client's device",
+          "Using Godot's encrypted storage with synchronized calls",
+          "Implementing server-side validation and storage",
+          "Relying solely on HTTPS for data transmission"
+        ],
+        "correct_option": 2,
+        "hint": "Think about where sensitive data should be processed and stored to ensure its security."
+      },
+      {
+        "question": "When deploying a Godot-based application, what is a key consideration for ensuring scalability?",
+        "options": [
+          "Utilizing only Godot's built-in database features",
+          "Configuring the application to run exclusively on dedicated servers",
+          "Designing the architecture to support horizontal scaling",
+          "Focusing on optimizing 3D rendering settings"
+        ],
+        "correct_option": 2,
+        "hint": "Scalability often involves distributing the load across multiple systems."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User prefers open-source tools",
+    "Developing simpler 2D/3D games",
+    "Wants a cleaner, more modular architecture"
+  ]
+}

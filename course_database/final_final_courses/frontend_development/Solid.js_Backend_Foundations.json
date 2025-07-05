@@ -1,0 +1,376 @@
+{
+  "id": "FE14",
+  "name": "Solid.js Backend Foundations",
+  "category": "Frontend Development",
+  "primary_tech": "Solid.js",
+  "topics": [
+    "Introduction to Solid.js and its architecture",
+    "Setting up a Solid.js environment for server-side development",
+    "Building RESTful APIs with Solid.js",
+    "State management in Solid.js applications",
+    "Middleware integration in Solid.js",
+    "Connecting Solid.js with databases",
+    "Error handling and debugging in Solid.js applications",
+    "Deploying Solid.js applications on cloud platforms"
+  ],
+  "recommended": false,
+  "tags": [
+    "solidjs",
+    "backend-development",
+    "javascript",
+    "server-side",
+    "api-design",
+    "state-management"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://docs.nestjs.com/",
+          "description": "Official documentation for building efficient and scalable server-side applications with NestJS.",
+          "title": "Documentation | NestJS - A progressive Node.js framework"
+        },
+        {
+          "url": "https://fastify.io/docs/v5.2.x/Guides/Getting-Started/",
+          "description": "A beginner's guide to getting started with the Fastify web framework.",
+          "title": "Getting-Started | Fastify"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction",
+          "description": "An introductory guide to client-side APIs for web development on MDN Web Docs.",
+          "title": "Introduction to web APIs - Learn web development | MDN"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://start.solidjs.com/",
+          "description": "An introduction and guide to building reactive web applications with SolidJS.",
+          "title": "SolidStart: Fine-Grained Reactivity goes fullstack"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
+          "description": "A YouTube channel offering tutorials and insights on data science and machine learning."
+        },
+        {
+          "url": "https://www.sencha.com/blog/a-step-by-step-guide-to-an-extjs-tutorial-for-beginners/",
+          "description": "A step-by-step beginner's guide to learning ExtJS.",
+          "title": "A Step-by-Step Guide to Ext JS Tutorial for Beginners: JavaScript Tutorials"
+        },
+        {
+          "url": "https://blog.boot.dev/education/learn-to-code-the-slow-way/",
+          "description": "An insightful article advocating for a gradual and thorough approach to learning programming.",
+          "title": "Learn to Code the Slow Way | Boot.dev"
+        },
+        {
+          "url": "https://daily.dev/blog/python-and-javascript-choosing-your-first-language",
+          "description": "A comparative guide to help choose between Python and JavaScript as a first programming language.",
+          "title": "Python and JavaScript: Choosing Your First Language"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
+        "https://www.youtube.com/traversymedia",
+        "https://www.youtube.com/drehimself",
+        "https://www.youtube.com/c/webdevsimplified",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+        "https://www.youtube.com/watch?v=8_X0nSrzrCw",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=6jfgz5VcpC4",
+        "https://www.youtube.com/watch?v=GxmfcnU3feo"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://forum.solidproject.org/t/inrupts-data-wallet/7836",
+          "description": "An overview and discussion on Inrupt's Data Wallet for managing personal data securely.",
+          "title": "Inrupt's Data Wallet - General Discussion - Solid Community Forum"
+        },
+        {
+          "url": "https://forums.meteor.com/t/make-meteor-great-again/61892?page=3",
+          "description": "A community forum discussion focused on strategies to improve and revitalize the Meteor framework.",
+          "title": "Make Meteor great again - community - Meteor Forum"
+        },
+        {
+          "url": "https://github.com/vercel/next.js/discussions/59373",
+          "description": "A discussion on GitHub about handling environment variables in Next.js applications.",
+          "title": "An honest opinion about the `App` vs `Pages` router · vercel/next.js · Discussion #59373 · GitHub"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://discourse.haskell.org/t/frontend-technologies-that-pair-well-with-a-haskell-backend/9398",
+          "description": "An exploration of frontend technologies that integrate effectively with a Haskell backend.",
+          "title": "Frontend technologies that pair well with a Haskell backend - Learn - Haskell Community"
+        },
+        {
+          "url": "https://www.sencha.com/blog/a-step-by-step-guide-to-an-extjs-tutorial-for-beginners/",
+          "description": "A step-by-step guide for beginners to learn ExtJS through a comprehensive tutorial.",
+          "title": "A Step-by-Step Guide to Ext JS Tutorial for Beginners: JavaScript Tutorials"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/gisenberg_how-to-build-a-startup-with-v0-cursor-claude-activity-7236097793621204992-0KU7",
+          "description": "A guide on building a startup using V0 Cursor and Claude tools.",
+          "title": "How to build a startup with v0, cursor, claude and replit in 67 minutes (BEGINNER'S GUIDE). | Greg Isenberg"
+        },
+        {
+          "url": "https://github.com/vercel/next.js/discussions/59373",
+          "description": "A community discussion on implementing and optimizing server-side rendering in Next.js applications.",
+          "title": "An honest opinion about the `App` vs `Pages` router · vercel/next.js · Discussion #59373 · GitHub"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/nishant-tiwari24_21st-july-2023-the-next-day-after-wasting-activity-7221362157257474051-hhVb",
+          "description": "Insights and reflections on productivity improvements after a wasted day.",
+          "title": "21st July 2023, The next day after wasting the 1st semester. | Nishant Tiwari"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=ELFORM9fmss",
+        "https://www.youtube.com/watch?v=ANrYhHN8Dl4",
+        "https://www.youtube.com/watch?v=AS79oJ3Fcf0",
+        "https://www.youtube.com/watch?v=h7MTWLv3xvw",
+        "https://www.youtube.com/watch?v=v6LK5alOofs",
+        "https://www.youtube.com/watch?v=pOQguIkDp5w",
+        "https://www.youtube.com/watch?v=YqqRkuizNN4",
+        "https://www.youtube.com/watch?v=Af3s3KsxStY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=1qw5ITr3k9E"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+          "description": "An introductory resource for learning web development from HTML to JavaScript.",
+          "title": "Learn web development | MDN"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/ahsanayaz_angular-is-hard-to-learn-this-was-activity-7249010800290320385-Fwv3",
+          "description": "Insights into the challenges and learning curve associated with mastering Angular.",
+          "title": "😭 \"Angular is hard to learn...\" | Muhammad Ahsan Ayaz"
+        },
+        {
+          "url": "https://docs.soliditylang.org/",
+          "description": "Official documentation for the Solidity programming language used in Ethereum smart contracts.",
+          "title": "Solidity — Solidity 0.8.30 documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.linkedin.com/posts/akshaymarch7_namastenodejs-activity-7233495490997141506-uk1k",
+          "description": "An insightful post exploring key concepts and features of Node.js for developers.",
+          "title": "See, I told you I will make you fall in love with NodeJS. | Akshay Saini 🚀"
+        },
+        {
+          "url": "http://nodesource.com/blog/how-nodejs-works/",
+          "description": "An overview of how Node.js operates, focusing on its event-driven architecture and asynchronous I/O.",
+          "title": "How Node.js Works: A Comprehensive Guide in 2025"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/akshaymarch7_javascript-react-angular-activity-7275744254327508992-d7fJ",
+          "description": "Insights on the differences and uses of JavaScript frameworks React and Angular.",
+          "title": "How to become a good React dev starting from scratch? | Akshay Saini 🚀"
+        },
+        {
+          "url": "https://daily.dev/blog/setup-nodejs-express-project-a-beginners-guide",
+          "description": "A beginner's guide to setting up a Node.js Express project.",
+          "title": "Setup Node.js Express Project: A Beginner's Guide"
+        },
+        {
+          "url": "https://www.nucamp.co/blog/eloquent-javascript-will-reading-eloquent-javascript-make-me-jobready",
+          "description": "An exploration of whether reading 'Eloquent JavaScript' can prepare individuals for a career in programming.",
+          "title": "Will reading \"Eloquent JavaScript\" make me job-ready?"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=GxmfcnU3feo",
+        "https://www.youtube.com/watch?v=8_X0nSrzrCw",
+        "https://www.youtube.com/watch?v=x4rFhThSX04",
+        "https://www.youtube.com/watch?v=6jfgz5VcpC4",
+        "https://www.youtube.com/watch?v=G3e-cpL7ofc&pp=ygUGI3NvaHRs",
+        "https://www.youtube.com/watch?v=fhRHGAgvrh4",
+        "https://www.youtube.com/c/webdevsimplified",
+        "https://www.youtube.com/playlist?list=PLEiEAq2VkUULq2aJA53pkSyperPfVtf7N",
+        "https://www.youtube.com/channel/UCKapdaD5EYfJqpP0Yw2sivQ"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is Solid.js primarily used for?",
+        "options": [
+          "Client-side rendering",
+          "Server-side rendering",
+          "Creating RESTful APIs",
+          "Data analysis"
+        ],
+        "correct_option": 1,
+        "hint": "Solid.js is known for its efficient rendering system."
+      },
+      {
+        "question": "Which command is commonly used to set up a new Solid.js environment?",
+        "options": [
+          "solid-create",
+          "solid-init",
+          "create-solid",
+          "init-solid"
+        ],
+        "correct_option": 2,
+        "hint": "Think of a common pattern used to start new projects in JavaScript."
+      },
+      {
+        "question": "What is a key benefit of using Solid.js for building RESTful APIs?",
+        "options": [
+          "Enhanced client-side performance",
+          "Seamless integration with databases",
+          "Support for middleware",
+          "All of the above"
+        ],
+        "correct_option": 3,
+        "hint": "Consider all potential benefits Solid.js offers."
+      },
+      {
+        "question": "How does Solid.js handle state management?",
+        "options": [
+          "Using Redux",
+          "Using Context API",
+          "Using reactive primitives",
+          "Using local storage"
+        ],
+        "correct_option": 2,
+        "hint": "Solid.js focuses on reactivity."
+      },
+      {
+        "question": "Which cloud platform is often used for deploying Solid.js applications?",
+        "options": [
+          "AWS Lambda",
+          "Heroku",
+          "Google Cloud",
+          "All of the above"
+        ],
+        "correct_option": 3,
+        "hint": "Consider the flexibility and popularity of deployment platforms."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a primary benefit of using Solid.js for server-side development?",
+        "options": [
+          "Improved client-side rendering",
+          "Better state management compared to other frameworks",
+          "Optimized for static site generation",
+          "Reactive primitives for efficient updates"
+        ],
+        "correct_option": 3,
+        "hint": "Think about how Solid.js handles updates and reactivity."
+      },
+      {
+        "question": "Which command is used to set up a new Solid.js project environment?",
+        "options": [
+          "npm init solid-app",
+          "solid create project",
+          "npx create-solid",
+          "npx solid-init"
+        ],
+        "correct_option": 2,
+        "hint": "The command involves using npx with a Solid.js specific initializer."
+      },
+      {
+        "question": "In Solid.js, what is the primary method for managing application state?",
+        "options": [
+          "Redux",
+          "useState",
+          "createSignal",
+          "useContext"
+        ],
+        "correct_option": 2,
+        "hint": "Solid.js uses a specific reactive primitive for state management."
+      },
+      {
+        "question": "How can middleware be integrated into a Solid.js application?",
+        "options": [
+          "Using a middleware stack similar to Express",
+          "By directly modifying the server configuration",
+          "Through a plugin system unique to Solid.js",
+          "Middleware is not supported in Solid.js"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how traditional Node.js applications integrate middleware."
+      },
+      {
+        "question": "What is a common approach for connecting a Solid.js application to a database?",
+        "options": [
+          "Using RESTful services",
+          "Direct SQL queries",
+          "GraphQL integration",
+          "ORM libraries like Prisma"
+        ],
+        "correct_option": 3,
+        "hint": "Consider modern database connection techniques that abstract SQL complexities."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary architectural pattern that Solid.js is based on, and how does it benefit server-side development?",
+        "options": [
+          "Model-View-Controller (MVC), which separates concerns for better maintainability",
+          "Flux, which centralizes state management for consistency",
+          "Reactive programming, which allows efficient updates and reactivity",
+          "Object-Oriented Programming (OOP), which encapsulates logic in objects"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how Solid.js handles reactivity and updates efficiently."
+      },
+      {
+        "question": "When setting up a Solid.js environment for server-side development, which of the following tools is essential for managing server-side rendering?",
+        "options": [
+          "Node.js",
+          "Webpack",
+          "Babel",
+          "Express.js"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the runtime environment commonly used for JavaScript on the server side."
+      },
+      {
+        "question": "In Solid.js, how can you effectively manage state across a large application?",
+        "options": [
+          "Using Solid.js context API for global state management",
+          "Implementing Redux for state management",
+          "Utilizing localStorage for persistent state",
+          "Employing useState hook for component-level state"
+        ],
+        "correct_option": 0,
+        "hint": "Solid.js provides a built-in mechanism similar to React's Context API for managing global state."
+      },
+      {
+        "question": "Which middleware integration approach is most suitable for handling authentication in a Solid.js application?",
+        "options": [
+          "Using Express.js middleware for authentication processes",
+          "Integrating Redux middleware for authentication",
+          "Employing WebSockets for real-time authentication",
+          "Utilizing client-side cookies for all authentication logic"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the most common server-side framework used with Solid.js for middleware integration."
+      },
+      {
+        "question": "What is a recommended practice for error handling and debugging in a Solid.js application deployed on a cloud platform?",
+        "options": [
+          "Implementing a custom error boundary component",
+          "Relying on console.log statements",
+          "Using a cloud service-specific logging tool",
+          "Ignoring errors in production for performance"
+        ],
+        "correct_option": 2,
+        "hint": "Think about tools that can provide insights into application errors in a production environment."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User wants React-like but faster"
+  ]
+}

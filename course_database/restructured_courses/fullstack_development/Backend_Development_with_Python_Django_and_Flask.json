@@ -24,107 +24,149 @@
     "database-integration"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://flask.palletsprojects.com/",
+        "https://docs.djangoproject.com/",
+        "https://www.uvicorn.org/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://m.youtube.com/watch?v=FNQxxpM1yOs",
+        "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+        "https://www.datacamp.com/tutorial/python-backend-development",
+        "https://www.youtube.com/watch?v=7LNl2JlZKHA&pp=ygUOI21scHl0aG9ucmVhY3Q%3D",
+        "https://flask.palletsprojects.com/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+        "https://www.youtube.com/watch?v=Z1RJmh_OqeA",
+        "https://www.youtube.com/watch?v=7LNl2JlZKHA&pp=ygUOI21scHl0aG9ucmVhY3Q%3D",
+        "https://www.youtube.com/watch?v=PtQiiknWUcI",
+        "https://www.youtube.com/watch?v=jQjjqEjZK58",
+        "https://m.youtube.com/watch?v=FNQxxpM1yOs",
+        "https://www.youtube.com/watch?v=z3YMz-Gocmw",
+        "https://www.youtube.com/c/techwithtim"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.djangoproject.com/",
+        "https://auth0.com/blog/developing-restful-apis-with-python-and-flask/",
+        "https://code.visualstudio.com/docs/python/tutorial-django",
+        "https://fastapi.tiangolo.com/"
+      ],
+      "notes": [
+        "https://github.com/tiangolo/fastapi/discussions/2538",
+        "https://auth0.com/blog/developing-restful-apis-with-python-and-flask/",
+        "https://www.datacamp.com/tutorial/python-backend-development",
+        "https://www.freecodecamp.org/news/i-built-a-web-api-with-express-flask-aspnet/",
+        "https://code.visualstudio.com/docs/python/tutorial-django",
+        "https://blog.jetbrains.com/pycharm/2023/11/django-vs-flask-which-is-the-best-python-web-framework/",
+        "https://learn.microsoft.com/en-us/azure/app-service/tutorial-python-postgresql-app-flask"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=cNlJCQHSmbE",
+        "https://www.youtube.com/watch?v=_sWgionzDoM",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=eUitxqLxICo",
+        "https://www.youtube.com/watch?v=xldTxXtNiuk",
+        "https://www.youtube.com/watch?v=iFEVef5XdMI",
+        "https://www.youtube.com/watch?v=7bhTyCCASPo",
+        "https://www.youtube.com/watch?v=MOif6TIjxtA",
+        "https://www.youtube.com/c/GreatAdib"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://flask.palletsprojects.com/",
+        "https://docs.djangoproject.com/",
+        "https://www.datacamp.com/tutorial/introduction-fastapi-tutorial"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.datacamp.com/tutorial/python-backend-development",
+        "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+        "https://roadmap.sh/python",
+        "https://www.youtube.com/watch?v=PtQiiknWUcI",
+        "https://testdriven.io/blog/developing-a-single-page-app-with-flask-and-vuejs/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+        "https://www.youtube.com/watch?v=PtQiiknWUcI",
+        "https://www.youtube.com/watch?v=45P3xQPaYxc",
+        "https://www.youtube.com/watch?v=Z1RJmh_OqeA",
+        "https://www.youtube.com/watch?v=PppslXOR7TA",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=4pXGCC6dcOg"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
-        "description": "An introduction to web frameworks, explaining their role and benefits in server-side web development."
+        "question": "Which Python framework is known for its strong ORM capabilities, making it ideal for database-driven applications?",
+        "options": [
+          "Flask",
+          "Django",
+          "Pyramid",
+          "Tornado"
+        ],
+        "correct_option": 1,
+        "hint": "This framework follows the 'batteries-included' philosophy and is often compared to Ruby on Rails."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django",
-        "description": "An introductory guide to using the Django framework for server-side web development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Authentication",
-        "description": "A guide on implementing authentication in Django applications, covering user login, logout, and registration processes."
+        "question": "What is one of the main advantages of using Flask for web development?",
+        "options": [
+          "Strong built-in ORM",
+          "Lightweight and flexible",
+          "Built-in admin interface",
+          "Strict project structure"
+        ],
+        "correct_option": 1,
+        "hint": "This framework is known for its simplicity and minimalism."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.geeksforgeeks.org/python/flask-tutorial/",
-        "description": "A comprehensive tutorial on using the Flask framework for developing web applications in Python."
-      },
-      {
-        "url": "https://www.w3schools.com/django/",
-        "description": "A comprehensive guide for learning Django, including tutorials, examples, and references for building web applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/python/differences-between-django-vs-flask/",
-        "description": "A comparative analysis of the key differences between Django and Flask, two popular Python web frameworks."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/django-tutorial/",
-        "description": "A comprehensive guide for learning Django, covering installation, core concepts, and practical implementation."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/flask-creating-first-simple-application/",
-        "description": "A step-by-step guide to creating your first simple web application using the Flask framework."
+        "question": "Which Python web framework is best suited for rapid development and includes an admin panel out of the box?",
+        "options": [
+          "Flask",
+          "Bottle",
+          "Django",
+          "CherryPy"
+        ],
+        "correct_option": 2,
+        "hint": "This framework is often used in enterprise applications due to its comprehensive features."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=Rp5vd34d-z4",
-      "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
-      "https://www.youtube.com/watch?v=45P3xQPaYxc",
-      "https://www.youtube.com/watch?v=PtQiiknWUcI",
-      "https://www.youtube.com/watch?v=Z1RJmh_OqeA"
+    "advanced": [
+      {
+        "question": "Why might a developer choose Django over Flask for a project?",
+        "options": [
+          "Need for a lightweight framework",
+          "Preference for asynchronous support",
+          "Requirement for built-in admin interface",
+          "Desire for a microservices architecture"
+        ],
+        "correct_option": 2,
+        "hint": "Django is known for its extensive built-in features which provide a lot of functionalities out of the box."
+      },
+      {
+        "question": "Which Python framework would be recommended for a developer who prioritizes simplicity and flexibility in web application development?",
+        "options": [
+          "Django",
+          "Flask",
+          "FastAPI",
+          "Web2py"
+        ],
+        "correct_option": 1,
+        "hint": "This micro web framework is often chosen for its minimalistic approach."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "Which Python framework is known for its strong ORM capabilities, making it ideal for database-driven applications?",
-      "options": [
-        "Flask",
-        "Django",
-        "Pyramid",
-        "Tornado"
-      ],
-      "correct_option": 1,
-      "hint": "This framework follows the 'batteries-included' philosophy and is often compared to Ruby on Rails."
-    },
-    {
-      "question": "What is one of the main advantages of using Flask for web development?",
-      "options": [
-        "Strong built-in ORM",
-        "Lightweight and flexible",
-        "Built-in admin interface",
-        "Strict project structure"
-      ],
-      "correct_option": 1,
-      "hint": "This framework is known for its simplicity and minimalism."
-    },
-    {
-      "question": "Which Python web framework is best suited for rapid development and includes an admin panel out of the box?",
-      "options": [
-        "Flask",
-        "Bottle",
-        "Django",
-        "CherryPy"
-      ],
-      "correct_option": 2,
-      "hint": "This framework is often used in enterprise applications due to its comprehensive features."
-    },
-    {
-      "question": "Why might a developer choose Django over Flask for a project?",
-      "options": [
-        "Need for a lightweight framework",
-        "Preference for asynchronous support",
-        "Requirement for built-in admin interface",
-        "Desire for a microservices architecture"
-      ],
-      "correct_option": 2,
-      "hint": "Django is known for its extensive built-in features which provide a lot of functionalities out of the box."
-    },
-    {
-      "question": "Which Python framework would be recommended for a developer who prioritizes simplicity and flexibility in web application development?",
-      "options": [
-        "Django",
-        "Flask",
-        "FastAPI",
-        "Web2py"
-      ],
-      "correct_option": 1,
-      "hint": "This micro web framework is often chosen for its minimalistic approach."
-    }
-  ],
   "preferred_if": [
     "User prefers Python language",
     "Needs strong ORM capabilities (Django)"

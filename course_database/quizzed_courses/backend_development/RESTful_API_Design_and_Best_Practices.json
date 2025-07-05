@@ -1,0 +1,277 @@
+{
+  "id": "BE13",
+  "name": "RESTful API Design & Best Practices",
+  "category": "Backend Development",
+  "primary_tech": "REST APIs",
+  "topics": [
+    "HTTP Methods & Status Codes",
+    "Resource Modeling",
+    "Versioning & Pagination"
+  ],
+  "recommended": true,
+  "tags": [
+    "API",
+    "architecture",
+    "design"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://restfulapi.net/",
+        "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "https://cloud.google.com/apis/design"
+      ],
+      "notes": [
+        "https://restfulapi.net/",
+        "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "https://www.restapitutorial.com/",
+        "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/",
+        "https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/",
+        "https://blog.postman.com/rest-api-examples/",
+        "https://go.dev/doc/tutorial/web-service-gin"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=7QfswaV0re4",
+        "https://www.youtube.com/watch?v=qbLc5a9jdXo",
+        "https://www.youtube.com/watch?v=z3YMz-Gocmw",
+        "https://www.youtube.com/watch?v=7YcW25PHnAA",
+        "https://www.youtube.com/watch?v=Q-BpqyOT3a8&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=y_sOd0RU7Cw",
+        "https://www.youtube.com/watch?v=EWd3_I4X32g",
+        "https://www.youtube.com/watch?v=0sOvCWFmrtA"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "https://stoplight.io/api-documentation-guide",
+        "https://developers.google.com/apis-explorer",
+        "https://blog.dreamfactory.com/8-api-documentation-examples",
+        "https://swagger.io/resources/articles/best-practices-in-api-design/"
+      ],
+      "notes": [
+        "https://restfulapi.net/resource-naming/",
+        "https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/",
+        "https://www.moesif.com/blog/technical/api-design/REST-API-Design-Best-Practices-for-Parameters-and-Query-String-Usage/",
+        "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "https://blog.postman.com/rest-api-examples/",
+        "https://www.postman.com/api-platform/api-design/",
+        "https://swagger.io/resources/articles/best-practices-in-api-design/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=A8t5LSxVJFM",
+        "https://www.youtube.com/watch?v=JDbkoICzQro",
+        "https://www.youtube.com/watch?v=tXo2vO5QNAw",
+        "https://www.youtube.com/watch?v=oPcAT2D-B5k",
+        "https://www.youtube.com/watch?v=X6fSJZDZZ0I",
+        "https://www.youtube.com/watch?v=pH7ZT9cOL0k",
+        "https://www.youtube.com/watch?v=-mN3VyJuCjM",
+        "https://www.youtube.com/watch?v=nE2MjN54few",
+        "https://www.youtube.com/channel/UChPxqdfDbulLE9PyUqhijWw/videos",
+        "https://www.youtube.com/channel/UCC_dVe-RI-vgCZfls06mDZQ/posts"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://stoplight.io/api-style-guides-guidelines-and-best-practices",
+        "https://docs.github.com/rest",
+        "https://www.netguru.com/blog/api-documentation",
+        "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html",
+        "https://www.forestadmin.com/blog/an-experts-guide-to-crud-apis-designing-a-robust-one/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=A8t5LSxVJFM",
+        "https://api7.ai/learning-center/api-gateway-guide",
+        "https://www.youtube.com/watch?v=Ms0dFXx3OMc",
+        "https://www.restapitutorial.com/",
+        "https://www.youtube.com/watch?v=MWLe1tqPmUo",
+        "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=A8t5LSxVJFM",
+        "https://www.youtube.com/watch?v=Ms0dFXx3OMc",
+        "https://www.youtube.com/watch?v=7nm1pYuKAhY",
+        "https://www.youtube.com/watch?v=MWLe1tqPmUo",
+        "https://www.youtube.com/watch?v=EgQJRB9Vs3Y&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://www.youtube.com/watch?v=7YcW25PHnAA",
+        "https://m.youtube.com/watch?v=xg7Dj2AXLyk&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/playlist?list=PL5Lsd0YA4OMFvX88T5xH93NqBALI7TENz",
+        "https://www.youtube.com/c/GreatAdib"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which HTTP method is typically used to retrieve data from a server?",
+        "options": [
+          "POST",
+          "GET",
+          "DELETE",
+          "PUT"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the method that is used to 'get' data."
+      },
+      {
+        "question": "What does the status code 404 indicate in an HTTP response?",
+        "options": [
+          "Success",
+          "Bad Request",
+          "Not Found",
+          "Internal Server Error"
+        ],
+        "correct_option": 2,
+        "hint": "This code is often used when a resource cannot be located."
+      },
+      {
+        "question": "In RESTful API design, what does the acronym CRUD stand for?",
+        "options": [
+          "Create, Read, Update, Delete",
+          "Connect, Retrieve, Undo, Delete",
+          "Create, Replace, Utilize, Discard",
+          "Copy, Read, Update, Drop"
+        ],
+        "correct_option": 0,
+        "hint": "These are the basic operations of persistent storage."
+      },
+      {
+        "question": "Which header is used to specify the version of an API in a request?",
+        "options": [
+          "Content-Type",
+          "Authorization",
+          "Accept-Version",
+          "User-Agent"
+        ],
+        "correct_option": 2,
+        "hint": "This header is used to tell the server which version of the API the client wants."
+      },
+      {
+        "question": "What does 'pagination' help with in RESTful APIs?",
+        "options": [
+          "Securing data",
+          "Managing large sets of data",
+          "Improving data accuracy",
+          "Encrypting data"
+        ],
+        "correct_option": 1,
+        "hint": "It helps to divide the data into pages for easier consumption."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary HTTP method used to update a resource in a RESTful API?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method is idempotent and used for updating resources."
+      },
+      {
+        "question": "Which HTTP status code indicates a successful resource creation?",
+        "options": [
+          "200 OK",
+          "201 Created",
+          "204 No Content",
+          "404 Not Found"
+        ],
+        "correct_option": 1,
+        "hint": "This status code signifies that a request has succeeded and a new resource has been created."
+      },
+      {
+        "question": "In RESTful API design, what is the purpose of using pagination?",
+        "options": [
+          "To enhance security",
+          "To reduce server load",
+          "To handle large datasets efficiently",
+          "To simplify authentication"
+        ],
+        "correct_option": 2,
+        "hint": "This technique is used to manage responses when dealing with large collections of data."
+      },
+      {
+        "question": "Which versioning strategy involves including the version number within the API URL path?",
+        "options": [
+          "Header versioning",
+          "URI versioning",
+          "Query parameter versioning",
+          "Media type versioning"
+        ],
+        "correct_option": 1,
+        "hint": "This strategy makes the version part of the endpoint address."
+      },
+      {
+        "question": "What is the main purpose of resource modeling in RESTful API design?",
+        "options": [
+          "To define the database schema",
+          "To outline the user interface",
+          "To represent and manage the API's resources and relationships",
+          "To set the API security protocols"
+        ],
+        "correct_option": 2,
+        "hint": "This is crucial for defining how resources are structured and interrelated."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which HTTP method is typically considered idempotent but not safe?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method is used to update existing resources."
+      },
+      {
+        "question": "In RESTful APIs, what does a 410 status code signify?",
+        "options": [
+          "Resource created successfully",
+          "Resource not found",
+          "Resource permanently removed",
+          "Resource temporarily unavailable"
+        ],
+        "correct_option": 2,
+        "hint": "This status code indicates that the resource is no longer available and will not be available again."
+      },
+      {
+        "question": "What is a common approach to handling API versioning that allows clients to specify the version in HTTP headers?",
+        "options": [
+          "Query parameters",
+          "Custom request headers",
+          "URI versioning",
+          "Content negotiation"
+        ],
+        "correct_option": 1,
+        "hint": "This method involves sending extra information in the request headers."
+      },
+      {
+        "question": "In resource modeling, which pattern involves representing a collection of resources with an endpoint such as '/products' and a specific resource with '/products/{id}'?",
+        "options": [
+          "Singleton pattern",
+          "Collection pattern",
+          "Factory pattern",
+          "Repository pattern"
+        ],
+        "correct_option": 1,
+        "hint": "This pattern is typically used to organize resources in RESTful APIs."
+      },
+      {
+        "question": "Which HTTP status code is used to indicate successful request processing that resulted in a new resource being created?",
+        "options": [
+          "200 OK",
+          "201 Created",
+          "202 Accepted",
+          "204 No Content"
+        ],
+        "correct_option": 1,
+        "hint": "This status code is returned when a resource has been successfully created, often used in conjunction with POST requests."
+      }
+    ]
+  }
+}

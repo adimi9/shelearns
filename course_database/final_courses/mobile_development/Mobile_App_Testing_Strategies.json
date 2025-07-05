@@ -1,0 +1,354 @@
+{
+  "id": "MD2",
+  "name": "Mobile App Testing Strategies",
+  "category": "Mobile Development",
+  "primary_tech": "Testing",
+  "topics": [
+    "Unit Testing (JUnit, XCTest)",
+    "Widget/Component Testing",
+    "UI Testing (Espresso, XCUITest)",
+    "Integration Testing"
+  ],
+  "recommended": true,
+  "tags": [
+    "testing",
+    "QA",
+    "reliability"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/auth",
+          "description": "Official documentation for Firebase Authentication, detailing user sign-in methods and management."
+        },
+        {
+          "url": "https://developer.android.com/training/testing/fundamentals",
+          "description": "An introductory guide to the fundamentals of testing in Android development."
+        },
+        {
+          "url": "https://developers.hubspot.com/docs/reference/api/overview",
+          "description": "An overview of HubSpot's API documentation, detailing endpoints and integration capabilities."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.softwaretestinghelp.com/beginners-guide-to-mobile-application-testing/",
+          "description": "A beginner's guide to understanding and performing mobile application testing."
+        },
+        {
+          "url": "https://testgrid.io/blog/appium-testing-tutorial/",
+          "description": "A step-by-step tutorial on using Appium for mobile application testing."
+        },
+        {
+          "url": "https://www.browserstack.com/guide/manual-testing-tutorial",
+          "description": "A step-by-step tutorial on conducting manual testing using BrowserStack."
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/software-testing/software-testing-tutorial/",
+          "description": "An in-depth tutorial on software testing concepts and methodologies."
+        },
+        {
+          "url": "https://developer.android.com/training/testing/fundamentals",
+          "description": "An overview of the essential concepts and tools for testing Android applications."
+        },
+        {
+          "url": "https://owasp.org/www-project-mobile-app-security/",
+          "description": "An overview of OWASP's Mobile Application Security project, focusing on enhancing mobile app security."
+        },
+        {
+          "url": "https://www.optimizely.com/optimization-glossary/ab-testing/",
+          "description": "An informative glossary entry explaining A/B testing and its significance in optimization."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=eWjOza77Pjk",
+        "https://www.youtube.com/watch?v=3QOlo2pEpvc",
+        "https://www.youtube.com/watch?v=M6j-AJDPFn0",
+        "https://www.youtube.com/watch?v=8vfQ6SWBZ-U",
+        "https://www.youtube.com/watch?v=rSiDdOCUt74",
+        "https://www.youtube.com/watch?v=BZrio_G_1Cs",
+        "https://www.youtube.com/watch?v=LktbfHdEm-U",
+        "https://www.youtube.com/watch?v=Fx3ud5wMHYc"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://developers.google.com/apis-explorer",
+          "description": "An interactive tool for exploring and testing Google APIs."
+        },
+        {
+          "url": "https://docs.datadoghq.com/api/latest/",
+          "description": "Documentation detailing the latest version of Datadog's API."
+        },
+        {
+          "url": "https://developer.android.com/training/testing/fundamentals",
+          "description": "An overview of fundamental concepts and tools for testing Android applications."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.browserstack.com/guide/exploratory-testing",
+          "description": "An in-depth guide to exploratory testing practices and techniques."
+        },
+        {
+          "url": "https://developer.apple.com/app-store/review/guidelines/",
+          "description": "Apple's official guidelines for app submissions to the App Store."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/test-studio",
+          "description": "An overview of using Test Studio for automated testing in Power Apps Canvas applications."
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/document/6606750/",
+          "description": "A detailed study on the design and implementation of a high-efficiency power amplifier for wireless communication."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows",
+          "description": "A step-by-step tutorial on creating user flows in Azure Active Directory B2C."
+        },
+        {
+          "url": "https://www.researchgate.net/figure/Tomdroid-model-to-test-creating-and-viewing-notes_fig5_288485408",
+          "description": "A model illustrating the process of creating and viewing notes in the Tomdroid application."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=bZgHhBA29Ek&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=kBESOqobduE",
+        "https://www.youtube.com/watch?v=ZeZPmC861E8",
+        "https://www.youtube.com/watch?v=Fx3ud5wMHYc",
+        "https://www.youtube.com/watch?v=M6j-AJDPFn0",
+        "https://www.youtube.com/watch?v=lcUgrciUCPg",
+        "https://www.youtube.com/watch?v=R3JxCOZdL-c&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=tAMu-RPqkok"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
+          "description": "API reference documentation for Check Point's latest software versions."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/",
+          "description": "Official Microsoft documentation for .NET development and related technologies."
+        },
+        {
+          "url": "https://openweathermap.org/api",
+          "description": "Comprehensive documentation for accessing weather data via OpenWeatherMap's API."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://saucelabs.com/resources/blog/getting-started-with-real-device-testing",
+          "description": "An introductory guide to conducting real device testing using Sauce Labs."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks",
+          "description": "An overview of how self-service password reset (SSPR) works in Microsoft Entra ID."
+        },
+        {
+          "url": "https://contentsquare.com/guides/usability-testing/methods/",
+          "description": "An overview of various methods for conducting usability testing."
+        },
+        {
+          "url": "https://www.lambdatest.com/blog/complete-guide-for-using-xpath-in-selenium-with-examples/",
+          "description": "A complete guide to using XPath in Selenium with practical examples."
+        },
+        {
+          "url": "https://www.sans.org/cyber-security-courses/",
+          "description": "A catalog of cyber security training courses offered by SANS Institute."
+        },
+        {
+          "url": "https://www.headspin.io/blog/mobile-app-qa-testing-guide",
+          "description": "A detailed guide on best practices and tools for mobile app QA testing."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=LktbfHdEm-U",
+        "https://www.youtube.com/watch?v=BZrio_G_1Cs",
+        "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=231s",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=4iIxAI3XQIk",
+        "https://www.youtube.com/watch?v=SWP3k-24jT4",
+        "https://www.youtube.com/watch?v=qwA6MmbeGNo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=LLJ01lWu89c",
+        "https://www.youtube.com/watch?v=IOVFRMuPeVQ"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of unit testing in mobile app development?",
+        "options": [
+          "To test the entire application as a whole",
+          "To test individual pieces of code for correctness",
+          "To test user interface interactions",
+          "To test the app's performance under load"
+        ],
+        "correct_option": 1,
+        "hint": "Unit testing focuses on the smallest parts of an application."
+      },
+      {
+        "question": "Which tool is commonly used for unit testing in iOS app development?",
+        "options": [
+          "JUnit",
+          "Espresso",
+          "XCTest",
+          "XCUITest"
+        ],
+        "correct_option": 2,
+        "hint": "This tool is specific to the Apple ecosystem."
+      },
+      {
+        "question": "In the context of mobile app testing, what does UI Testing aim to verify?",
+        "options": [
+          "The app's integration with external services",
+          "The correctness of individual functions",
+          "The performance of the app under stress",
+          "The user interface behaves as expected"
+        ],
+        "correct_option": 3,
+        "hint": "UI Testing focuses on the user's interaction with the app."
+      },
+      {
+        "question": "Which of the following is NOT a unit testing framework?",
+        "options": [
+          "JUnit",
+          "Espresso",
+          "XCTest",
+          "TestNG"
+        ],
+        "correct_option": 1,
+        "hint": "This tool is primarily used for UI testing."
+      },
+      {
+        "question": "What is the main focus of integration testing in mobile apps?",
+        "options": [
+          "Testing the entire user interface",
+          "Verifying the interactions between different modules",
+          "Checking the app's code for syntax errors",
+          "Ensuring each function returns the correct output"
+        ],
+        "correct_option": 1,
+        "hint": "Integration testing deals with combined components or systems."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of using XCTest in mobile app testing?",
+        "options": [
+          "To perform UI testing on Android apps",
+          "To conduct unit testing on iOS apps",
+          "To automate integration testing across platforms",
+          "To execute performance testing on mobile apps"
+        ],
+        "correct_option": 1,
+        "hint": "XCTest is a testing framework used primarily in the iOS ecosystem."
+      },
+      {
+        "question": "Which testing framework is commonly used for UI testing in Android applications?",
+        "options": [
+          "JUnit",
+          "Espresso",
+          "XCUITest",
+          "Selenium"
+        ],
+        "correct_option": 1,
+        "hint": "This framework is specifically designed for Android UI testing and is part of the Android Testing Support Library."
+      },
+      {
+        "question": "In mobile app testing, what is the main focus of integration testing?",
+        "options": [
+          "Testing individual components in isolation",
+          "Ensuring the application meets performance criteria",
+          "Verifying interfaces and interactions between components",
+          "Assessing the visual aspects of the user interface"
+        ],
+        "correct_option": 2,
+        "hint": "Integration testing often involves verifying how different modules or services work together."
+      },
+      {
+        "question": "Which of the following is a key benefit of unit testing in mobile applications?",
+        "options": [
+          "Enhancing the app's user interface design",
+          "Reducing the overall development time",
+          "Facilitating early bug detection",
+          "Improving battery efficiency"
+        ],
+        "correct_option": 2,
+        "hint": "Unit testing involves testing the smallest testable parts of an application to catch errors early."
+      },
+      {
+        "question": "What is the role of widget/component testing in mobile app development?",
+        "options": [
+          "To check the integration between different applications",
+          "To validate the correctness of individual UI components",
+          "To perform load testing on server-side components",
+          "To automate the entire app testing process"
+        ],
+        "correct_option": 1,
+        "hint": "Widget/component testing focuses on the functionality of individual parts of the user interface."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In the context of mobile app testing, which of the following best describes the purpose of unit testing?",
+        "options": [
+          "To verify the correctness of a specific section of code, such as a function or method.",
+          "To evaluate the performance of the application under load.",
+          "To test the application's user interface across different devices.",
+          "To assess the application's integration with third-party services."
+        ],
+        "correct_option": 0,
+        "hint": "Unit testing focuses on individual components or functions in isolation."
+      },
+      {
+        "question": "Which framework is primarily used for UI testing in Android applications and is known for its ability to simulate user interactions?",
+        "options": [
+          "JUnit",
+          "Espresso",
+          "XCTest",
+          "Mockito"
+        ],
+        "correct_option": 1,
+        "hint": "This framework is commonly associated with Android UI testing."
+      },
+      {
+        "question": "When performing integration testing on a mobile application, which aspect is being primarily assessed?",
+        "options": [
+          "The application's user interface design.",
+          "The interaction between different modules and services.",
+          "The security vulnerabilities of the application.",
+          "The application's compatibility with various operating systems."
+        ],
+        "correct_option": 1,
+        "hint": "Integration testing focuses on the collaboration of multiple components."
+      },
+      {
+        "question": "Which testing framework would you use for unit testing in an iOS application?",
+        "options": [
+          "XCUITest",
+          "Espresso",
+          "XCTest",
+          "Robotium"
+        ],
+        "correct_option": 2,
+        "hint": "This framework is built into the Xcode IDE for testing iOS applications."
+      },
+      {
+        "question": "In widget or component testing, what is the primary goal?",
+        "options": [
+          "To ensure that individual UI elements render and function correctly.",
+          "To verify the application's data storage capabilities.",
+          "To test the application's network connectivity.",
+          "To assess the application's installation process."
+        ],
+        "correct_option": 0,
+        "hint": "Widget testing focuses on the behavior and appearance of UI elements."
+      }
+    ]
+  }
+}

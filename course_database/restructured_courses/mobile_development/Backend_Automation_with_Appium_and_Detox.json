@@ -24,107 +24,126 @@
     "mobile"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://www.browserstack.com/docs/app-automate/api-reference/introduction",
+        "https://allurereport.org/docs/",
+        "https://reactnative.dev/docs/testing-overview",
+        "https://github.com/wix/Detox"
+      ],
+      "notes": [
+        "https://www.browserstack.com/docs/app-automate/api-reference/introduction",
+        "https://github.com/wix/Detox",
+        "https://www.browserstack.com/guide/top-ios-testing-frameworks",
+        "https://www.interviewbit.com/appium-interview-questions/",
+        "https://www.qafox.com/introduction-to-codeceptjs/",
+        "https://qaflow.dev/post/how-to-become-a-software-test-automation-engineer-step-by-step/",
+        "https://blog.logrocket.com/react-native-end-to-end-testing-detox/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=uoCzBdFCoqc"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://www.browserstack.com/docs/app-automate/api-reference/introduction",
+        "https://news.ycombinator.com/item?id=43174453",
+        "https://reactnative.dev/docs/testing-overview",
+        "https://github.com/wix/Detox"
+      ],
+      "notes": [
+        "https://saucelabs.com/resources/blog/getting-started-with-automated-testing",
+        "https://www.lizard.global/blog/appium-vs-detox-which-to-choose-in-2023-pros-and-cons",
+        "https://www.browserstack.com/guide/top-ios-testing-frameworks",
+        "https://github.com/wix/Detox",
+        "https://contextqa.com/news/common-qa-pitfalls-in-testing-processes/",
+        "https://apidog.com/blog/ios-automation-testing-tools/",
+        "https://blog.logrocket.com/react-native-end-to-end-testing-detox/"
+      ],
+      "videos": []
+    },
+    "advanced": {
+      "docs": [
+        "https://apidog.com/blog/ios-automation-testing-tools/",
+        "https://github.com/wix/Detox",
+        "https://www.browserstack.com/docs/local-testing/desktop-app-config-guide",
+        "https://saucelabs.com/",
+        "https://www.browserstack.com/docs/app-automate/appium/advanced-features/appium-gestures"
+      ],
+      "notes": [
+        "https://apidog.com/blog/ios-automation-testing-tools/",
+        "https://github.com/wix/Detox",
+        "https://www.browserstack.com/docs/local-testing/desktop-app-config-guide",
+        "https://www.interviewbit.com/appium-interview-questions/",
+        "https://www.browserstack.com/docs/app-automate/appium/advanced-features/appium-gestures",
+        "https://www.lambdatest.com/learning-hub/mobile-testing-interview-questions"
+      ],
+      "videos": []
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://www.browserstack.com/docs/app-automate/api-reference/introduction",
-        "description": "Introduction to BrowserStack's App Automate API, detailing its features for automating mobile app testing."
+        "question": "Which of the following best describes Appium in the context of mobile app testing?",
+        "options": [
+          "A unit testing tool for mobile apps",
+          "A cross-platform end-to-end testing framework",
+          "A manual testing framework for desktop applications",
+          "A performance testing tool for mobile apps"
+        ],
+        "correct_option": 1,
+        "hint": "Appium is used for writing UI tests that can run on multiple mobile platforms."
       },
       {
-        "url": "https://reactnative.dev/docs/testing-overview",
-        "description": "This resource provides an overview of testing strategies and tools for React Native applications."
-      },
-      {
-        "url": "https://www.browserstack.com/docs/requestly",
-        "description": "A guide on using Requestly with BrowserStack to modify network requests for testing and debugging web applications."
+        "question": "What is the primary reason for choosing Detox over other testing frameworks for React Native apps?",
+        "options": [
+          "It supports only iOS apps",
+          "It offers a more manual approach to testing",
+          "It provides fast and reliable end-to-end testing",
+          "It is a paid tool with exclusive features"
+        ],
+        "correct_option": 2,
+        "hint": "Detox is known for its automation and speed in testing React Native apps."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.reddit.com/r/QualityAssurance/comments/12rv4b6/appium_vs_maestro_for_mobile_app_testing/",
-        "description": "A discussion comparing Appium and Maestro for mobile app testing in terms of features, usability, and effectiveness."
-      },
-      {
-        "url": "https://medium.com/@malikchohra/guide-to-testing-in-react-native-end-to-end-test-using-detox-f29fd1344180",
-        "description": "A comprehensive guide on performing end-to-end testing in React Native applications using Detox."
-      },
-      {
-        "url": "https://valeo.wd3.myworkdayjobs.com/pt-BR/valeo_jobs/job/Cairo/Senior-QA-Test-Automation-Engineer_REQ2024049879-1",
-        "description": "This URL provides a job listing for a Senior QA Test Automation Engineer position at Valeo in Cairo."
-      },
-      {
-        "url": "https://saucelabs.com/resources/blog/getting-started-with-automated-testing",
-        "description": "A beginner's guide to implementing automated testing using Sauce Labs' platform and tools."
-      },
-      {
-        "url": "https://www.headspin.io/blog/detox-vs-appium-best-for-react-native",
-        "description": "A comparison of Detox and Appium for testing React Native applications, highlighting their features and use cases."
+        "question": "What is a key feature of both Appium and Detox that makes them suitable for cross-platform testing?",
+        "options": [
+          "They require no code changes in the apps",
+          "They support only Android applications",
+          "They are limited to performance testing",
+          "They are designed for backend testing"
+        ],
+        "correct_option": 0,
+        "hint": "These frameworks allow testing without modifying the application code."
       }
     ],
-    "videos": [
-      "https://www.quora.com/Which-is-best-online-course-on-Udemy-for-selenium-is-Rahul-Shetty-course-is-good-enough-to-buy",
-      "https://kobiton.com/blog/ios-automation-testing-best-practices-top-frameworks/",
-      "https://www.browserstack.com/guide/build-cross-platform-mobile-apps",
-      "https://ca.linkedin.com/in/monfared",
-      "https://www.browserstack.com/guide/top-ios-testing-frameworks"
+    "advanced": [
+      {
+        "question": "Which language is commonly used to write tests in Appium?",
+        "options": [
+          "Python",
+          "Swift",
+          "Ruby",
+          "JavaScript"
+        ],
+        "correct_option": 3,
+        "hint": "Appium supports a language that is widely used in web development and test automation."
+      },
+      {
+        "question": "Why might a company prefer using Appium for their mobile app testing needs?",
+        "options": [
+          "It only supports iOS testing",
+          "It uses proprietary software",
+          "It provides a unified API for both Android and iOS",
+          "It requires extensive manual testing"
+        ],
+        "correct_option": 2,
+        "hint": "Appium is often chosen for its ability to handle tests on multiple platforms with the same codebase."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "Which of the following best describes Appium in the context of mobile app testing?",
-      "options": [
-        "A unit testing tool for mobile apps",
-        "A cross-platform end-to-end testing framework",
-        "A manual testing framework for desktop applications",
-        "A performance testing tool for mobile apps"
-      ],
-      "correct_option": 1,
-      "hint": "Appium is used for writing UI tests that can run on multiple mobile platforms."
-    },
-    {
-      "question": "What is the primary reason for choosing Detox over other testing frameworks for React Native apps?",
-      "options": [
-        "It supports only iOS apps",
-        "It offers a more manual approach to testing",
-        "It provides fast and reliable end-to-end testing",
-        "It is a paid tool with exclusive features"
-      ],
-      "correct_option": 2,
-      "hint": "Detox is known for its automation and speed in testing React Native apps."
-    },
-    {
-      "question": "What is a key feature of both Appium and Detox that makes them suitable for cross-platform testing?",
-      "options": [
-        "They require no code changes in the apps",
-        "They support only Android applications",
-        "They are limited to performance testing",
-        "They are designed for backend testing"
-      ],
-      "correct_option": 0,
-      "hint": "These frameworks allow testing without modifying the application code."
-    },
-    {
-      "question": "Which language is commonly used to write tests in Appium?",
-      "options": [
-        "Python",
-        "Swift",
-        "Ruby",
-        "JavaScript"
-      ],
-      "correct_option": 3,
-      "hint": "Appium supports a language that is widely used in web development and test automation."
-    },
-    {
-      "question": "Why might a company prefer using Appium for their mobile app testing needs?",
-      "options": [
-        "It only supports iOS testing",
-        "It uses proprietary software",
-        "It provides a unified API for both Android and iOS",
-        "It requires extensive manual testing"
-      ],
-      "correct_option": 2,
-      "hint": "Appium is often chosen for its ability to handle tests on multiple platforms with the same codebase."
-    }
-  ],
   "preferred_if": [
     "User needs automated end-to-end UI tests across platforms"
   ]

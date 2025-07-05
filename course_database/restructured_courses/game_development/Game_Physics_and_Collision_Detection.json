@@ -16,105 +16,153 @@
     "simulation"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_collision_detection",
-        "description": "A guide on implementing 3D collision detection techniques in game development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection",
-        "description": "A comprehensive guide on implementing 2D collision detection techniques for game development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Collision_detection",
-        "description": "This tutorial explains how to implement collision detection in a 2D breakout game using pure JavaScript."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/python/collision-detection-in-pygame/",
-        "description": "A guide to implementing collision detection in Pygame using Python for interactive game development."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/the-ultimate-beginners-guide-to-game-development-in-unity-f9bfe972c2b5/",
-        "description": "A comprehensive beginner's guide to game development using Unity, covering essential concepts and tools."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/python/python-arcade-collision-detection/",
-        "description": "This resource provides a guide to implementing collision detection in Python using the Arcade library."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-to-create-a-lotto-balls-blowing-effect/",
-        "description": "A guide on creating a realistic lotto ball blowing effect using HTML, CSS, and JavaScript."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/tips-for-an-indie-game-developer/",
-        "description": "This resource offers essential tips and strategies for aspiring indie game developers to successfully create and market their games."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=3lBYVSplAuo",
-      "https://www.youtube.com/watch?v=MsawDJ6BFto",
-      "https://www.youtube.com/watch?v=eRw_26UJDdA",
-      "https://www.youtube.com/watch?v=Te_TBymgW4k",
-      "https://www.youtube.com/watch?v=IaUcAt0jDqs"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of Rigidbody Dynamics in game physics?",
-      "options": [
-        "To manage object textures",
-        "To simulate realistic motion and interaction of objects",
-        "To enhance game graphics",
-        "To control audio effects"
+    "beginner": {
+      "docs": [
+        "https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html",
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/CollidersOverview.html",
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/collision-in-unreal-engine---overview",
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/class-Rigidbody.html",
+        "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_collision_detection"
       ],
-      "correct_option": 1,
-      "hint": "It relates to the movement and interaction of game objects."
+      "notes": [
+        "https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects",
+        "https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html",
+        "https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics",
+        "https://winter.dev/articles/physics-engine",
+        "https://discourse.threejs.org/t/tutorial-on-javascript-physics-using-ammojs-and-threejs/7285",
+        "https://love2d.org/forums/viewtopic.php?t=78886"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=MsawDJ6BFto",
+        "https://www.youtube.com/watch?v=miQ4YmPtFJE",
+        "https://www.youtube.com/watch?v=ivoLnRVJgks&pp=ygUSI2dhbWVwaHlzaWNzZW5naW5l",
+        "https://www.youtube.com/watch?v=D16hTnDGweo",
+        "https://www.youtube.com/watch?v=B0aGFBo_Ki0",
+        "https://www.youtube.com/watch?v=3Oay1YxkP5c",
+        "https://www.youtube.com/watch?v=9eo0JF2HeEA",
+        "https://www.youtube.com/watch?v=LOhfqjmasi0"
+      ]
     },
-    {
-      "question": "Which of the following is NOT a common collision shape used in physics engines?",
-      "options": [
-        "Sphere",
-        "Cube",
-        "Pyramid",
-        "Capsule"
+    "intermediate": {
+      "docs": [
+        "https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html",
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/CollidersOverview.html",
+        "https://github.com/bulletphysics/bullet3",
+        "https://jrouwe.github.io/JoltPhysics/"
       ],
-      "correct_option": 2,
-      "hint": "Think about the simplest geometric shapes commonly used."
+      "notes": [
+        "https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects",
+        "https://research.ncl.ac.uk/game/mastersdegree/gametechnologies/previousinformation/physics4collisiondetection/2017%20Tutorial%204%20-%20Collision%20Detection.pdf",
+        "https://github.com/jrouwe/JoltPhysics",
+        "https://oramind.com/ogre-bullet-a-beginners-basic-guide/",
+        "https://github.com/bulletphysics/bullet3",
+        "https://winter.dev/articles/physics-engine",
+        "https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Uv7DWq6KFbk",
+        "https://www.youtube.com/watch?v=P_6W-36QfLA",
+        "https://www.youtube.com/watch?v=fJyi7l2tWKo",
+        "https://www.youtube.com/watch?v=-GWTDhOQU6M",
+        "https://www.youtube.com/watch?v=QxpgtVrjYrg",
+        "https://www.youtube.com/watch?v=vGpFwaLUG4U",
+        "https://www.youtube.com/watch?v=Mry6FdWnN7I",
+        "https://www.youtube.com/watch?v=k0vZbIclXjE",
+        "https://www.youtube.com/watch?v=87q_ATDhrVY",
+        "https://www.youtube.com/watch?v=1mSv76tJ40s"
+      ]
     },
-    {
-      "question": "What is the role of triggers in game physics?",
-      "options": [
-        "To render textures",
-        "To manage sound effects",
-        "To detect when objects overlap and initiate events",
-        "To apply forces to objects"
+    "advanced": {
+      "docs": [
+        "https://forum.babylonjs.com/t/havok-engine-documentation/41366",
+        "https://doc.babylonjs.com/features/featuresDeepDive/physics/characterController/",
+        "https://docs.unity3d.com/560/Documentation/Manual/CollidersOverview.html",
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/physics-in-unreal-engine",
+        "https://docs.unity3d.com/550/Documentation/Manual/class-Rigidbody.html"
       ],
-      "correct_option": 2,
-      "hint": "Triggers often involve detecting overlaps for event handling."
-    },
-    {
-      "question": "Which force is responsible for the rotational effect on an object in physics engines?",
-      "options": [
-        "Gravity",
-        "Friction",
-        "Torque",
-        "Normal force"
+      "notes": [
+        "https://winter.dev/articles/physics-engine",
+        "https://olitor.uw.edu/r6-collision-point",
+        "https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics",
+        "https://www.ea.com/games/madden-nfl/madden-nfl-25/news/gridiron-notes-madden-25-gameplay-deep-dive",
+        "https://as3gametuts.com/2011/09/24/pong-5/",
+        "https://edw.is/learning-vulkan/"
       ],
-      "correct_option": 2,
-      "hint": "It relates to rotation rather than linear motion."
-    },
-    {
-      "question": "In the context of game physics, what is a joint used for?",
-      "options": [
-        "To connect two objects and restrict their relative movement",
-        "To change the texture of an object",
-        "To increase the speed of an object",
-        "To detect collision between objects"
-      ],
-      "correct_option": 0,
-      "hint": "It often restricts or defines movement between objects."
+      "videos": [
+        "https://www.youtube.com/watch?v=ZpcOYg1Qfm4",
+        "https://www.youtube.com/watch?v=D16hTnDGweo",
+        "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+        "https://www.youtube.com/watch?v=6T_TDuzEo9o",
+        "https://www.youtube.com/watch?v=Nc_ZMgEFj-A&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=uVYaJNUjL2Y",
+        "https://m.youtube.com/watch?v=XD-7anXSOp0&t=1s",
+        "https://www.youtube.com/watch?v=R5o2CjPb3Tk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=FkEqFvqpyfE",
+        "https://www.youtube.com/channel/UCxzC4EngIsMrPmbm6Nxvb-A"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of Rigidbody Dynamics in game physics?",
+        "options": [
+          "To manage object textures",
+          "To simulate realistic motion and interaction of objects",
+          "To enhance game graphics",
+          "To control audio effects"
+        ],
+        "correct_option": 1,
+        "hint": "It relates to the movement and interaction of game objects."
+      },
+      {
+        "question": "Which of the following is NOT a common collision shape used in physics engines?",
+        "options": [
+          "Sphere",
+          "Cube",
+          "Pyramid",
+          "Capsule"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the simplest geometric shapes commonly used."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the role of triggers in game physics?",
+        "options": [
+          "To render textures",
+          "To manage sound effects",
+          "To detect when objects overlap and initiate events",
+          "To apply forces to objects"
+        ],
+        "correct_option": 2,
+        "hint": "Triggers often involve detecting overlaps for event handling."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which force is responsible for the rotational effect on an object in physics engines?",
+        "options": [
+          "Gravity",
+          "Friction",
+          "Torque",
+          "Normal force"
+        ],
+        "correct_option": 2,
+        "hint": "It relates to rotation rather than linear motion."
+      },
+      {
+        "question": "In the context of game physics, what is a joint used for?",
+        "options": [
+          "To connect two objects and restrict their relative movement",
+          "To change the texture of an object",
+          "To increase the speed of an object",
+          "To detect collision between objects"
+        ],
+        "correct_option": 0,
+        "hint": "It often restricts or defines movement between objects."
+      }
+    ]
+  }
 }

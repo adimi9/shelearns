@@ -1,0 +1,275 @@
+{
+  "id": "GD10",
+  "name": "Game Design Principles & Theory",
+  "category": "Game Development",
+  "primary_tech": "Game Design",
+  "topics": [
+    "Core Loops & Mechanics",
+    "Player Psychology & Motivation",
+    "Narrative & World Building",
+    "Prototyping & Iteration"
+  ],
+  "recommended": true,
+  "tags": [
+    "game-design",
+    "fundamentals",
+    "theory"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5",
+        "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/Basic_theory",
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      ],
+      "notes": [
+        "https://ieeexplore.ieee.org/document/10384599/",
+        "https://willkempartschool.com/a-beginners-guide-to-shadow-light-part-1-drawing/",
+        "https://math.berkeley.edu/~evans/control.course.pdf",
+        "https://en.wikipedia.org/wiki/Game_theory",
+        "https://web.sas.upenn.edu/gmailath/books/modeling-strategic-behavior/",
+        "https://dl.acm.org/doi/fullHtml/10.1145/3582437.3582470"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=G8AT01tuyrk",
+        "https://www.youtube.com/watch?v=dVjibdYG4bs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=jWorjBDcty4",
+        "https://www.youtube.com/watch?v=dFSia1LZI4Y",
+        "https://www.youtube.com/watch?v=WONZVnlam6U",
+        "https://www.youtube.com/watch?v=FryaH599ec0",
+        "https://www.youtube.com/watch?v=dF96uVR3cKk",
+        "https://www.youtube.com/watch?v=Ky14FjJSCKg"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developer.android.com/topic/architecture",
+        "https://miro.com/",
+        "https://vuejs.org/guide/introduction",
+        "https://docs.flutter.dev/resources/architectural-overview",
+        "https://users.rust-lang.org/t/why-do-all-docs-say-refcell-is-bad/37086"
+      ],
+      "notes": [
+        "https://dl.acm.org/doi/fullHtml/10.1145/3582437.3582470",
+        "https://www.investopedia.com/terms/g/gametheory.asp",
+        "https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=1002&context=oa_textbooks",
+        "https://en.wikipedia.org/wiki/Game_theory",
+        "https://www.figma.com/resource-library/design-basics/",
+        "https://www.interaction-design.org/literature/topics/gestalt-principles"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=MMqXxhft-vU",
+        "https://www.youtube.com/watch?v=uF53xsT7mjc",
+        "https://www.youtube.com/watch?v=B-ytMSuwbf8",
+        "https://m.youtube.com/watch?v=-gs8H1GQDV0",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=ub3P8c87cwk&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=gT6EpxYo2v8",
+        "https://www.youtube.com/watch?v=UWwNIMHFdW4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/@SatoriGraphics",
+        "https://www.youtube.com/channel/UC-o87lCF9HaEuj0R-3VT1yg"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf",
+        "https://www.numberanalytics.com/blog/expert-guide-deep-dive-repeated-game-theory",
+        "https://www.interaction-design.org/literature/topics/design-thinking",
+        "https://newsletter.pragmaticengineer.com/p/designing-a-payment-system"
+      ],
+      "notes": [
+        "https://commandersherald.com/brew-like-a-game-designer-your-decks-are-keeping-secrets/",
+        "https://www.successpodcast.com/show-notes/2017/3/29/how-a-game-theory-expert-sold-one-billion-bottles-of-tea-what-he-learned-on-the-journey-with-barry-nalebuff",
+        "https://www.365chess.com/chess-openings/Caro-Kann-Defense",
+        "https://www.devtodev.com/resources/articles/20-best-books-for-game-designers",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2810866275",
+        "https://www.ellenmacarthurfoundation.org/the-circular-economy-in-detail-deep-dive"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=mA79SSv_YEo",
+        "https://www.youtube.com/watch?v=j6Ule7GXaRs",
+        "https://www.youtube.com/watch?v=eijvNLSljoY",
+        "https://www.youtube.com/watch?v=jiBHx5GA1Ko&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8YP1iVMG_Rg",
+        "https://www.youtube.com/watch?v=MMqXxhft-vU",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=fGFl4GjVvrA"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a core loop in game design?",
+        "options": [
+          "A sequence of actions a player repeats throughout the game",
+          "The storyline of the game",
+          "The visual design of game characters",
+          "The background music of the game"
+        ],
+        "correct_option": 0,
+        "hint": "It's a repetitive action sequence that keeps players engaged."
+      },
+      {
+        "question": "Which of the following best describes player motivation in games?",
+        "options": [
+          "Graphics quality",
+          "In-game rewards and progress",
+          "Soundtrack",
+          "Loading screen speed"
+        ],
+        "correct_option": 1,
+        "hint": "Think about what keeps players wanting to achieve more in the game."
+      },
+      {
+        "question": "What role does narrative play in world-building?",
+        "options": [
+          "It sets the gameplay mechanics",
+          "It provides a backstory and context",
+          "It optimizes game performance",
+          "It determines the game's difficulty level"
+        ],
+        "correct_option": 1,
+        "hint": "Narrative helps in creating the story and lore of the game world."
+      },
+      {
+        "question": "What is the purpose of prototyping in game design?",
+        "options": [
+          "To finalize the game graphics",
+          "To test and refine game mechanics",
+          "To launch the game",
+          "To market the game"
+        ],
+        "correct_option": 1,
+        "hint": "Prototyping helps in testing ideas before full development."
+      },
+      {
+        "question": "How do core mechanics relate to player engagement?",
+        "options": [
+          "They dictate the game's soundtrack",
+          "They attract players with visual effects",
+          "They provide fundamental interactions that keep players interested",
+          "They determine the length of the game"
+        ],
+        "correct_option": 2,
+        "hint": "Core mechanics are the essential actions players perform that maintain their interest."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a core loop in game design?",
+        "options": [
+          "A sequence of actions that players repeat frequently throughout the game",
+          "The storyline that drives the game's narrative",
+          "A list of all game mechanics",
+          "The graphical design of a game level"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the repetitive actions players engage in during gameplay."
+      },
+      {
+        "question": "Which of the following is NOT a common player motivation according to player psychology?",
+        "options": [
+          "Social interaction",
+          "Competition",
+          "Game aesthetics",
+          "Speedrunning"
+        ],
+        "correct_option": 3,
+        "hint": "Consider motivations that drive players to engage with the game."
+      },
+      {
+        "question": "In narrative and world building, what is the primary purpose of a game's lore?",
+        "options": [
+          "To provide detailed backstory and context for the game world",
+          "To enhance the game's graphical fidelity",
+          "To define the game's core mechanics",
+          "To design the multiplayer interactions"
+        ],
+        "correct_option": 0,
+        "hint": "Lore often enriches the storytelling aspect of a game."
+      },
+      {
+        "question": "During prototyping and iteration, what is the main goal of creating a prototype?",
+        "options": [
+          "To finalize the game's art style",
+          "To test and refine core gameplay mechanics",
+          "To market the game to potential publishers",
+          "To design the game's soundtrack"
+        ],
+        "correct_option": 1,
+        "hint": "Prototypes are usually simplified versions to explore and improve gameplay."
+      },
+      {
+        "question": "Which game design principle involves understanding what keeps players engaged and returning to the game?",
+        "options": [
+          "Core mechanics",
+          "Player retention",
+          "Narrative depth",
+          "Prototyping"
+        ],
+        "correct_option": 1,
+        "hint": "Think about what maintains a player's interest over time."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following best describes the term 'core loop' in game design?",
+        "options": [
+          "A sequence of repeated actions that keep the player engaged",
+          "A complex narrative that unfolds over time",
+          "The initial tutorial phase of a game",
+          "The graphical style used in the game"
+        ],
+        "correct_option": 0,
+        "hint": "Think about what players consistently do to stay engaged in a game."
+      },
+      {
+        "question": "What is the primary purpose of prototyping in game design?",
+        "options": [
+          "To finalize the game's aesthetic design",
+          "To test game mechanics and iterate based on feedback",
+          "To establish the game's marketing strategy",
+          "To create the final version of the game"
+        ],
+        "correct_option": 1,
+        "hint": "It's an essential process that involves testing and making changes based on what is learned."
+      },
+      {
+        "question": "How does understanding player psychology contribute to game design?",
+        "options": [
+          "It helps in creating complex algorithms for gameplay",
+          "It ensures the game can be easily ported to various platforms",
+          "It aids in designing experiences that maximize player engagement and satisfaction",
+          "It simplifies the process of coding game mechanics"
+        ],
+        "correct_option": 2,
+        "hint": "Consider why players might keep playing a game."
+      },
+      {
+        "question": "In what way does narrative and world-building enhance a game's experience?",
+        "options": [
+          "It provides a visual style for the game",
+          "It allows players to better understand the mechanics",
+          "It creates context and emotional investment for players",
+          "It increases the technical complexity of the game's code"
+        ],
+        "correct_option": 2,
+        "hint": "Think about what makes players care about the game world and its characters."
+      },
+      {
+        "question": "What is an effective strategy for iterating on game mechanics during development?",
+        "options": [
+          "Relying solely on initial design documents",
+          "Ignoring player feedback to maintain original vision",
+          "Conducting playtests and using feedback to make improvements",
+          "Focusing only on graphics and sound design"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how developers can understand if mechanics are working as intended."
+      }
+    ]
+  }
+}

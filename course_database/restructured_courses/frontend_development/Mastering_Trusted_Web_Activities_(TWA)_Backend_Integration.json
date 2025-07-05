@@ -22,87 +22,123 @@
     "backend-services"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://stackoverflow.com/questions/70349597/i-get-the-fatal-unable-to-access-repository-the-requested-url-returned-erro",
+        "https://www.manning.com/liveprojects",
+        "https://riseuplabs.com/pwa-development-ultimate-guide/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9459988/",
+        "https://ftp.idu.ac.id/wp-content/uploads/ebook/tdg/DESIGN%20SISTEM%20DAYA%20GERAK/Fundamentals%20of%20Rocket%20Propulsion.pdf"
+      ],
+      "notes": [
+        "https://stackoverflow.com/questions/70349597/i-get-the-fatal-unable-to-access-repository-the-requested-url-returned-erro",
+        "https://riseuplabs.com/pwa-development-ultimate-guide/",
+        "https://bitfieldconsulting.com/posts/best-go-books",
+        "https://nareshit.com/blogs/15-awesome-things-to-build-and-sell-with-javascript",
+        "https://www.manning.com/liveprojects"
+      ],
+      "videos": []
+    },
+    "intermediate": {
+      "docs": [
+        "https://clarivate.com/",
+        "https://vercel.com/",
+        "https://riseuplabs.com/pwa-development-ultimate-guide/",
+        "https://www.manning.com/liveprojects"
+      ],
+      "notes": [
+        "https://vercel.com/",
+        "https://clarivate.com/",
+        "https://riseuplabs.com/pwa-development-ultimate-guide/",
+        "https://www.manning.com/liveprojects",
+        "https://bitfieldconsulting.com/posts/best-go-books",
+        "https://www.linkedin.com/in/aymenguedri",
+        "https://d3bxy9euw4e147.cloudfront.net/oscms-prodcms/media/documents/IntroductionToBusiness-OP.pdf"
+      ],
+      "videos": []
+    },
+    "advanced": {
+      "docs": [
+        "https://clarivate.com/",
+        "https://stackoverflow.com/questions/70349597/i-get-the-fatal-unable-to-access-repository-the-requested-url-returned-erro",
+        "https://vercel.com/",
+        "https://www.manning.com/liveprojects"
+      ],
+      "notes": [
+        "https://clarivate.com/",
+        "https://riseuplabs.com/pwa-development-ultimate-guide/",
+        "https://stackoverflow.com/questions/70349597/i-get-the-fatal-unable-to-access-repository-the-requested-url-returned-erro",
+        "https://vercel.com/",
+        "https://www.manning.com/liveprojects",
+        "https://bitfieldconsulting.com/posts/best-go-books",
+        "https://nareshit.com/blogs/15-awesome-things-to-build-and-sell-with-javascript"
+      ],
+      "videos": []
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Share_data_between_apps",
-        "description": "This resource provides guidance on sharing data between Progressive Web Apps (PWAs) using web technologies."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/blogs/how-to-build-progressive-web-application-and-submit-it-to-the-play-store/",
-        "description": "This resource provides a step-by-step guide on building a Progressive Web Application (PWA) and submitting it to the Google Play Store."
+        "question": "What is a Trusted Web Activity (TWA)?",
+        "options": [
+          "A way to wrap a Progressive Web App for Android with deeper integration",
+          "A method to build native iOS applications using web technologies",
+          "An alternative to Progressive Web Apps for desktop environments",
+          "A tool for enhancing web security on e-commerce sites"
+        ],
+        "correct_option": 0,
+        "hint": "This technology allows PWAs to be integrated into Android with a more native feel."
       },
       {
-        "url": "https://www.freecodecamp.org/news/an-explanation-of-progressive-web-apps-for-the-non-pwa-crowd-8a400e275ea1/",
-        "description": "An introductory guide to understanding Progressive Web Apps (PWAs) for those unfamiliar with the concept."
+        "question": "Which platform primarily benefits from the use of TWAs?",
+        "options": [
+          "iOS",
+          "Windows",
+          "Android",
+          "Linux"
+        ],
+        "correct_option": 2,
+        "hint": "This platform is known for its mobile operating system."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=9eztp81VP-M",
-      "https://www.youtube.com/watch?v=AF9wjWW6iBY",
-      "https://www.youtube.com/watch?v=3bAQPnxLd4c",
-      "https://www.youtube.com/watch?v=C18YMhmGpKk",
-      "https://m.youtube.com/watch?v=F91EZuhLMBc"
+    "intermediate": [
+      {
+        "question": "What is the main advantage of using a TWA over a standard PWA for Android applications?",
+        "options": [
+          "Higher conversion rates",
+          "Deeper integration with Android features",
+          "Faster loading times",
+          "Better SEO"
+        ],
+        "correct_option": 1,
+        "hint": "TWAs offer more access to native Android features."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a key difference between a PWA and a TWA?",
+        "options": [
+          "PWAs are only for desktop users",
+          "TWAs require a native Android app shell",
+          "PWAs have better offline capabilities",
+          "TWAs are used exclusively for iOS devices"
+        ],
+        "correct_option": 1,
+        "hint": "TWAs need a special app structure to function on Android."
+      },
+      {
+        "question": "What is a common use case for implementing a TWA?",
+        "options": [
+          "Improving SEO ranking for web content",
+          "Providing a native Android experience using web technologies",
+          "Developing cross-platform desktop applications",
+          "Enhancing web security"
+        ],
+        "correct_option": 1,
+        "hint": "The focus is on combining web tech with a native Android feel."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is a Trusted Web Activity (TWA)?",
-      "options": [
-        "A way to wrap a Progressive Web App for Android with deeper integration",
-        "A method to build native iOS applications using web technologies",
-        "An alternative to Progressive Web Apps for desktop environments",
-        "A tool for enhancing web security on e-commerce sites"
-      ],
-      "correct_option": 0,
-      "hint": "This technology allows PWAs to be integrated into Android with a more native feel."
-    },
-    {
-      "question": "Which platform primarily benefits from the use of TWAs?",
-      "options": [
-        "iOS",
-        "Windows",
-        "Android",
-        "Linux"
-      ],
-      "correct_option": 2,
-      "hint": "This platform is known for its mobile operating system."
-    },
-    {
-      "question": "What is the main advantage of using a TWA over a standard PWA for Android applications?",
-      "options": [
-        "Higher conversion rates",
-        "Deeper integration with Android features",
-        "Faster loading times",
-        "Better SEO"
-      ],
-      "correct_option": 1,
-      "hint": "TWAs offer more access to native Android features."
-    },
-    {
-      "question": "What is a key difference between a PWA and a TWA?",
-      "options": [
-        "PWAs are only for desktop users",
-        "TWAs require a native Android app shell",
-        "PWAs have better offline capabilities",
-        "TWAs are used exclusively for iOS devices"
-      ],
-      "correct_option": 1,
-      "hint": "TWAs need a special app structure to function on Android."
-    },
-    {
-      "question": "What is a common use case for implementing a TWA?",
-      "options": [
-        "Improving SEO ranking for web content",
-        "Providing a native Android experience using web technologies",
-        "Developing cross-platform desktop applications",
-        "Enhancing web security"
-      ],
-      "correct_option": 1,
-      "hint": "The focus is on combining web tech with a native Android feel."
-    }
-  ],
   "preferred_if": [
     "User wants native Android experience with web tech"
   ]

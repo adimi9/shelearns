@@ -16,105 +16,145 @@
     "SQL"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
-        "description": "This guide provides an overview of Content Security Policy (CSP) to enhance web application security by preventing cross-site scripting and data injection attacks."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
-        "description": "An overview of web security principles and best practices to protect websites from vulnerabilities and attacks."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Clear-Site-Data",
-        "description": "A guide on using the HTTP header \"Clear-Site-Data\" to instruct browsers to clear user data for a web origin."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/dbms/control-methods-of-database-security/",
-        "description": "An overview of various control methods used to enhance database security in DBMS."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/blogs/database-security-best-practices/",
-        "description": "A guide on implementing best practices for enhancing database security."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/dbms/dbms/",
-        "description": "An overview of Database Management Systems (DBMS), covering fundamental concepts, architecture, and various types of databases."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/",
-        "description": "An introductory guide to Database Management Systems (DBMS), covering fundamental concepts and components."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/dbms/statistical-database-security/",
-        "description": "This resource explains the methods and techniques used to ensure security in statistical databases within a DBMS."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=wR0jg0eQsZA",
-      "https://www.youtube.com/watch?v=2OPVViV-GQk",
-      "https://www.youtube.com/watch?v=HXV3zeQKqGY",
-      "https://www.youtube.com/watch?v=bPVaOlJ6ln0",
-      "https://www.youtube.com/watch?v=inWWhr5tnEA"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of access control in database security?",
-      "options": [
-        "To limit user access based on roles and permissions",
-        "To encrypt data stored in the database",
-        "To log database activities for auditing",
-        "To prevent SQL injection attacks"
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs/database",
+        "https://learn.microsoft.com/en-us/azure/",
+        "https://firebase.google.com/docs/rules/basics"
       ],
-      "correct_option": 0,
-      "hint": "Consider how access control relates to managing who can do what within the database."
+      "notes": [
+        "https://www.w3schools.com/cybersecurity/",
+        "https://www.techtarget.com/searchsecurity/Data-security-guide-Everything-you-need-to-know",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/18/dbseg/introduction-to-oracle-database-security.html",
+        "https://www.dnsstuff.com/sap-security",
+        "https://docs.snowflake.com/en/user-guide/data-sharing-intro",
+        "https://www.pcisecuritystandards.org/pdfs/pci_ssc_quick_guide.pdf"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=xAlR-cwBFSM",
+        "https://www.youtube.com/watch?v=sF014G2BUXM",
+        "https://www.youtube.com/watch?v=qTaOZrDnMzQ",
+        "https://m.youtube.com/watch?v=yuPvoPAlhV4",
+        "https://www.youtube.com/watch?v=dlcZyLVs5kE",
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://www.youtube.com/watch?v=3FumWkHSusY"
+      ]
     },
-    {
-      "question": "Which of the following is a common method for ensuring data encryption at rest?",
-      "options": [
-        "Using Transport Layer Security (TLS)",
-        "Implementing disk encryption",
-        "Utilizing SQL queries",
-        "Applying access control lists"
+    "intermediate": {
+      "docs": [
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html",
+        "https://docs.datadoghq.com/api/latest/",
+        "https://firebase.google.com/docs/database",
+        "https://developers.google.com/apis-explorer",
+        "https://docs.github.com/rest"
       ],
-      "correct_option": 1,
-      "hint": "Think about how data is protected when it's stored on physical media."
+      "notes": [
+        "https://www.box.com/home",
+        "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+        "https://www.mckinsey.com/featured-insights/artificial-intelligence/notes-from-the-ai-frontier-applications-and-value-of-deep-learning",
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "https://support.apple.com/en-us/102651",
+        "https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html",
+        "https://www.pcpd.org.hk/english/enforcement/case_notes/casenotes.php"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=n17RCiV5xpA",
+        "https://www.youtube.com/watch?v=NrBJmtD0kEw",
+        "https://www.youtube.com/watch?v=nj_Dup5aUps",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=NT7EsZ6HRus",
+        "https://www.youtube.com/watch?v=Dbvx-98PeL0",
+        "https://www.youtube.com/watch?v=uhyMqbZI6rM"
+      ]
     },
-    {
-      "question": "What is a crucial step in preventing SQL injection attacks?",
-      "options": [
-        "Encrypting data in transit",
-        "Using parameterized queries",
-        "Auditing all database activities",
-        "Implementing role-based access controls"
+    "advanced": {
+      "docs": [
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://developers.arcgis.com/python/latest/",
+        "https://docs.github.com/rest"
       ],
-      "correct_option": 1,
-      "hint": "Consider techniques that involve securely handling SQL query inputs."
-    },
-    {
-      "question": "In database security, why is auditing and logging database activities important?",
-      "options": [
-        "To encrypt data",
-        "To monitor and detect unauthorized access or anomalies",
-        "To prevent SQL injections",
-        "To control user access"
+      "notes": [
+        "https://support.sap.com/en/my-support/knowledge-base.html",
+        "https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security",
+        "https://claroty.com/team82/research/opc-ua-deep-dive-a-complete-guide-to-the-opc-ua-attack-surface",
+        "https://www.jit.io/resources/security-standards/the-in-depth-guide-to-owasps-top-10-vulnerabilities"
       ],
-      "correct_option": 1,
-      "hint": "Think about how tracking activities can help in identifying security breaches."
-    },
-    {
-      "question": "Which technology is commonly used to encrypt data in transit?",
-      "options": [
-        "SSL/TLS",
-        "AES encryption",
-        "Disk encryption",
-        "Role-based access control"
-      ],
-      "correct_option": 0,
-      "hint": "Consider the protocols used for securing data sent over networks."
+      "videos": [
+        "https://www.youtube.com/watch?v=Ow_Uzedfohk&pp=0gcJCdgAo7VqN5tD",
+        "https://m.youtube.com/watch?v=RsxxsEzQhrM&t=1s",
+        "https://www.youtube.com/watch?v=4qC7H-y7oKI&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=2eAPg2SSXyg",
+        "https://www.youtube.com/watch?v=V-u56LjsCp4",
+        "https://www.youtube.com/watch?v=ibvG-pYKl8U",
+        "https://www.youtube.com/watch?v=WkyyT0pmJSw",
+        "https://www.youtube.com/watch?v=dnQSzGeslHw"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of access control in database security?",
+        "options": [
+          "To limit user access based on roles and permissions",
+          "To encrypt data stored in the database",
+          "To log database activities for auditing",
+          "To prevent SQL injection attacks"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how access control relates to managing who can do what within the database."
+      },
+      {
+        "question": "Which of the following is a common method for ensuring data encryption at rest?",
+        "options": [
+          "Using Transport Layer Security (TLS)",
+          "Implementing disk encryption",
+          "Utilizing SQL queries",
+          "Applying access control lists"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how data is protected when it's stored on physical media."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a crucial step in preventing SQL injection attacks?",
+        "options": [
+          "Encrypting data in transit",
+          "Using parameterized queries",
+          "Auditing all database activities",
+          "Implementing role-based access controls"
+        ],
+        "correct_option": 1,
+        "hint": "Consider techniques that involve securely handling SQL query inputs."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In database security, why is auditing and logging database activities important?",
+        "options": [
+          "To encrypt data",
+          "To monitor and detect unauthorized access or anomalies",
+          "To prevent SQL injections",
+          "To control user access"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how tracking activities can help in identifying security breaches."
+      },
+      {
+        "question": "Which technology is commonly used to encrypt data in transit?",
+        "options": [
+          "SSL/TLS",
+          "AES encryption",
+          "Disk encryption",
+          "Role-based access control"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the protocols used for securing data sent over networks."
+      }
+    ]
+  }
 }

@@ -21,107 +21,127 @@
     "server-architecture"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://doc.photonengine.com/fusion/current/manual/connection-and-matchmaking/matchmaking",
+        "https://www.photonengine.com/pun",
+        "https://doc.photonengine.com/fusion/current/manual/data-transfer/rpcs"
+      ],
+      "notes": [
+        "https://discussions.unity.com/t/multiplayer-game-backend/758768",
+        "https://doc.photonengine.com/fusion/current/manual/connection-and-matchmaking/matchmaking",
+        "https://www.photonengine.com/sdks",
+        "https://www.databricks.com/product/photon",
+        "https://www.photonengine.com/samples"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=mtQaFXK8zaU",
+        "https://www.youtube.com/watch?v=QJDU_uUcPrU",
+        "https://www.youtube.com/watch?v=waX_ch-KhyU"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://doc.photonengine.com/fusion/current/manual/connection-and-matchmaking/matchmaking",
+        "https://docs.databricks.com/aws/en/compute/configure",
+        "https://doc.photonengine.com/fusion/current/manual/data-transfer/rpcs",
+        "https://docs.databricks.com/aws/en/jobs/run-serverless-jobs",
+        "https://developers.meta.com/horizon/documentation/unity/unity-isdk-interaction-sdk-overview/"
+      ],
+      "notes": [
+        "https://www.databricks.com/product/photon",
+        "https://doc.photonengine.com/pun/current/getting-started/feature-overview",
+        "https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/7-0/release-notes/vcenter-server-update-and-patch-releases/vsphere-vcenter-server-70u3o-release-notes.html",
+        "https://doc.photonengine.com/fusion/current/manual/connection-and-matchmaking/matchmaking",
+        "https://docs.databricks.com/aws/en/jobs/run-serverless-jobs",
+        "https://doc.photonengine.com/fusion/v1/getting-started/sdk-download",
+        "https://developers.meta.com/horizon/documentation/unity/unity-isdk-interaction-sdk-overview/"
+      ],
+      "videos": []
+    },
+    "advanced": {
+      "docs": [
+        "https://developers.meta.com/horizon/documentation/unity/unity-isdk-interaction-sdk-overview/",
+        "https://docs.confluent.io/platform/current/schema-registry/index.html",
+        "https://www.photonengine.com/samples",
+        "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "https://unity.com/blog/engine-platform/unity-6-preview-release"
+      ],
+      "notes": [
+        "https://www.photonengine.com/samples",
+        "https://www.databricks.com/product/photon",
+        "https://developers.meta.com/horizon/documentation/unity/unity-isdk-interaction-sdk-overview/",
+        "https://github.com/0xFA11/MultiplayerNetworkingResources",
+        "https://discussions.unity.com/t/how-exactly-do-i-make-a-client-server-multiplayer-game/536155",
+        "https://docs.confluent.io/platform/current/schema-registry/index.html",
+        "https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/7-0/vsphere-availability.html"
+      ],
+      "videos": []
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL",
-        "description": "A tutorial on implementing lighting effects in WebGL for enhanced 3D graphics rendering."
+        "question": "What is Photon Engine primarily used for in game development?",
+        "options": [
+          "Creating single-player games",
+          "Developing in-game graphics",
+          "Implementing real-time multiplayer networking",
+          "Designing game sound effects"
+        ],
+        "correct_option": 2,
+        "hint": "It is a solution for networking in games."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/57",
-        "description": "This page provides detailed release notes and changes introduced in Firefox 57, also known as Firefox Quantum."
-      },
-      {
-        "url": "https://developer.mozilla.org/ja/docs/Mozilla/Firefox/Releases/57",
-        "description": "This page provides detailed release notes and new features for Mozilla Firefox version 57."
+        "question": "Which of the following platforms is NOT supported by Photon Engine for game development?",
+        "options": [
+          "Unity",
+          "Unreal Engine",
+          "Blender",
+          "Godot"
+        ],
+        "correct_option": 2,
+        "hint": "Photon Engine supports game engines, not 3D modeling software."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.geeksforgeeks.org/php/explain-photon-in-wordpress/",
-        "description": "This article explains the Photon module in Jetpack for WordPress, which optimizes image delivery through a content delivery network."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/linux-unix/darkscrape-osint-tool-for-scraping-dark-websites/",
-        "description": "An overview of DarkScrape, an OSINT tool designed for scraping data from dark web websites using Linux/Unix systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/installation-guide/how-to-configure-the-eclipse-with-apache-hadoop/?ref=oin_asr25",
-        "description": "A step-by-step guide on configuring the Eclipse IDE to work with Apache Hadoop for development purposes."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/tools-for-open-source-intelligence-gathering/",
-        "description": "An overview of tools available for conducting open-source intelligence gathering effectively."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/how-to-install-and-use-telnet-on-ubuntu-22-04-lts/",
-        "description": "A guide on installing and using Telnet on Ubuntu 22.04 LTS."
+        "question": "What type of games is Photon Engine best suited for?",
+        "options": [
+          "Turn-based games",
+          "Real-time multiplayer games",
+          "Casual mobile games",
+          "Single-player RPGs"
+        ],
+        "correct_option": 1,
+        "hint": "Photon Engine excels in networking for games played simultaneously by multiple players."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=3yuBOB3VrCk",
-      "https://m.youtube.com/watch?v=6kWNZOFcFQw&t=1180s",
-      "https://www.youtube.com/watch?v=RQFfK7xIL28",
-      "https://www.photonengine.com/",
-      "https://elixirforum.com/t/how-is-the-performance-of-elixir-in-game-backend-project/45142"
+    "advanced": [
+      {
+        "question": "Which feature of Photon Engine helps developers synchronize game state across different clients?",
+        "options": [
+          "Cloud storage",
+          "Dedicated servers",
+          "State synchronization",
+          "Asset management"
+        ],
+        "correct_option": 2,
+        "hint": "This feature ensures that all players see the same game state."
+      },
+      {
+        "question": "What is one advantage of using Photon Engine as a third-party networking solution?",
+        "options": [
+          "It requires no coding knowledge",
+          "It is free for unlimited players",
+          "It offers ready-to-use networking functionalities",
+          "It automatically generates game assets"
+        ],
+        "correct_option": 2,
+        "hint": "Photon Engine provides pre-built networking tools."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is Photon Engine primarily used for in game development?",
-      "options": [
-        "Creating single-player games",
-        "Developing in-game graphics",
-        "Implementing real-time multiplayer networking",
-        "Designing game sound effects"
-      ],
-      "correct_option": 2,
-      "hint": "It is a solution for networking in games."
-    },
-    {
-      "question": "Which of the following platforms is NOT supported by Photon Engine for game development?",
-      "options": [
-        "Unity",
-        "Unreal Engine",
-        "Blender",
-        "Godot"
-      ],
-      "correct_option": 2,
-      "hint": "Photon Engine supports game engines, not 3D modeling software."
-    },
-    {
-      "question": "What type of games is Photon Engine best suited for?",
-      "options": [
-        "Turn-based games",
-        "Real-time multiplayer games",
-        "Casual mobile games",
-        "Single-player RPGs"
-      ],
-      "correct_option": 1,
-      "hint": "Photon Engine excels in networking for games played simultaneously by multiple players."
-    },
-    {
-      "question": "Which feature of Photon Engine helps developers synchronize game state across different clients?",
-      "options": [
-        "Cloud storage",
-        "Dedicated servers",
-        "State synchronization",
-        "Asset management"
-      ],
-      "correct_option": 2,
-      "hint": "This feature ensures that all players see the same game state."
-    },
-    {
-      "question": "What is one advantage of using Photon Engine as a third-party networking solution?",
-      "options": [
-        "It requires no coding knowledge",
-        "It is free for unlimited players",
-        "It offers ready-to-use networking functionalities",
-        "It automatically generates game assets"
-      ],
-      "correct_option": 2,
-      "hint": "Photon Engine provides pre-built networking tools."
-    }
-  ],
   "preferred_if": [
     "User wants a ready-to-use networking solution",
     "Building real-time multiplayer games"

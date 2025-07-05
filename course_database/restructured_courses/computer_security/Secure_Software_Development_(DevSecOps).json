@@ -16,105 +16,152 @@
     "automation"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/blog/optimizing-devsecops-workflows-with-gitlab-conditional-ci-cd-pipelines/",
-        "description": "This blog post explains how to enhance DevSecOps workflows using GitLab's conditional CI/CD pipelines for optimized software development processes."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Clear-Site-Data",
-        "description": "The page provides detailed information on the HTTP header \"Clear-Site-Data,\" which allows web developers to clear browsing data for a specific site."
-      },
-      {
-        "url": "https://nodejs.org/api/corepack.html",
-        "description": "The Node.js Corepack documentation provides guidance on using Corepack to manage package managers in Node.js projects."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/blogs/what-is-devsecops/",
-        "description": "This resource provides an introduction to DevSecOps, explaining its principles and how it integrates security into the DevOps process."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-devsecops-engineer/",
-        "description": "A comprehensive guide on the skills, tools, and steps required to become a DevSecOps engineer."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/what-is-devsecops/",
-        "description": "An introduction to DevSecOps, explaining its role in integrating security practices into the DevOps process."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/devsecops/",
-        "description": "An overview of DevSecOps, emphasizing the integration of security practices into the DevOps process."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/devsecops-best-practices/",
-        "description": "This resource outlines best practices for integrating security into DevOps processes, known as DevSecOps."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=nrhxNNH5lt0",
-      "https://www.youtube.com/watch?v=F5KJVuii0Yw",
-      "https://www.youtube.com/watch?v=gLJdrXPn0ns",
-      "https://www.youtube.com/watch?v=cdb6ernButc",
-      "https://www.youtube.com/watch?v=scEDHsr3APg"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary goal of integrating security into the Software Development Life Cycle (SDLC)?",
-      "options": [
-        "To increase the development speed",
-        "To ensure security is considered at all stages",
-        "To minimize costs of development",
-        "To automate the testing process"
+    "beginner": {
+      "docs": [
+        "https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsTools-ActivitiesGuidebook.pdf",
+        "https://www.cto.mil/wp-content/uploads/2024/05/API-Guide-2023.pdf",
+        "https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf",
+        "https://www.cto.mil/wp-content/uploads/2024/08/API-Tech-Guidance-MVCR1-July2024-Cleared.pdf"
       ],
-      "correct_option": 1,
-      "hint": "Think about the overall objective of DevSecOps in the SDLC."
+      "notes": [
+        "https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsTools-ActivitiesGuidebook.pdf",
+        "https://www.practical-devsecops.com/devsecops-university/",
+        "https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf",
+        "https://drata.com/grc-central/compliance-as-code/devsecops-best-practices",
+        "https://about.gitlab.com/topics/devsecops/beginners-guide-to-container-security/",
+        "https://www.sonatype.com/blog/devsecops-a-beginners-guide",
+        "https://dzone.com/refcardz/introduction-to-devsecops"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=gLJdrXPn0ns",
+        "https://www.youtube.com/watch?v=oD5obfHoPt0",
+        "https://www.youtube.com/watch?v=WJACs-4e9y0",
+        "https://www.youtube.com/watch?v=qI8MRbNGKlM",
+        "https://www.youtube.com/c/fpcomplete",
+        "https://www.youtube.com/watch?v=070ceCeuswM",
+        "https://www.youtube.com/watch?v=yWIomSOSkdg",
+        "https://www.youtube.com/watch?v=F5KJVuii0Yw",
+        "https://www.youtube.com/watch?v=Ke_Wr5zPE0A"
+      ]
     },
-    {
-      "question": "Which of the following best describes threat modeling in DevSecOps?",
-      "options": [
-        "A process of identifying potential threats and vulnerabilities in a system",
-        "A method to speed up software delivery",
-        "A way to automate security testing",
-        "A technique for designing user interfaces"
+    "intermediate": {
+      "docs": [
+        "https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf",
+        "https://csrc.nist.gov/projects/ssdf",
+        "https://dodcio.defense.gov/Portals/0/Documents/Library/DoD%20Enterprise%20DevSecOps%20Fundamentals%20v2.5.pdf",
+        "https://snyk.io/",
+        "https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsTools-ActivitiesGuidebook.pdf"
       ],
-      "correct_option": 0,
-      "hint": "Consider what is being analyzed and identified during threat modeling."
+      "notes": [
+        "https://www.nccoe.nist.gov/projects/software-supply-chain-and-devops-security-practices",
+        "https://about.gitlab.com/",
+        "https://www.atlassian.com/devops/devops-tools/devsecops-tools",
+        "https://www.sdxcentral.com/articles/news/devsecops-adoption-lags-despite-incident-detection-impact/2022/08/",
+        "https://www.linkedin.com/posts/richardselfllm_devsecops-teams-are-ramping-up-the-use-of-activity-7252683769394925569-nXnL",
+        "https://events.afcea.org/Augusta24/Public/eBooth.aspx?IndexInList=161&FromPage=Exhibitors.aspx&ParentBoothID=&ListByBooth=true&BoothID=1018378&Nav=False",
+        "https://www.linkedin.com/posts/erezkaminski_medtech-softwaredevelopment-ai-activity-7232391189843320835-OIjF"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=gLJdrXPn0ns",
+        "https://www.youtube.com/watch?v=z8l7SIm6RlQ",
+        "https://www.youtube.com/watch?v=FOW6ZA2zBHA",
+        "https://www.youtube.com/watch?v=MSAMmqS2J6Q",
+        "https://www.youtube.com/watch?v=orlrck3_mfc",
+        "https://www.youtube.com/watch?v=by25ZKJ6ENU",
+        "https://www.youtube.com/watch?v=etq4hGKY5nw",
+        "https://www.youtube.com/channel/UChRmUH4H5hiYzPiFhvNoCIg",
+        "https://www.youtube.com/channel/UC1XlL2kndUEK8l9aRHg1Stw/posts"
+      ]
     },
-    {
-      "question": "What is the primary difference between Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST)?",
-      "options": [
-        "SAST is used for network security, while DAST is for application security",
-        "SAST analyzes source code, while DAST evaluates running applications",
-        "SAST is faster but less accurate than DAST",
-        "SAST is a manual process, while DAST is automated"
+    "advanced": {
+      "docs": [
+        "https://dodcio.defense.gov/Portals/0/Documents/Library/DoD%20Enterprise%20DevSecOps%20Fundamentals%20v2.5.pdf",
+        "https://training-certifications.checkpoint.com/",
+        "https://aws.amazon.com/certification/certified-devops-engineer-professional/",
+        "https://www.linkedin.com/posts/jit_osv-scanner-vs-npm-audit-a-detailed-comparison-activity-7199119000218267650-QNKd",
+        "https://azure.microsoft.com/en-us"
       ],
-      "correct_option": 1,
-      "hint": "Consider when each testing type is performed during the development process."
-    },
-    {
-      "question": "Which of the following is NOT a part of secure coding guidelines?",
-      "options": [
-        "Avoiding the use of hard-coded passwords",
-        "Implementing proper error handling",
-        "Ensuring high test coverage",
-        "Using cryptographic algorithms appropriately"
+      "notes": [
+        "https://about.gitlab.com/blog/ultimate-guide-to-ci-cd-fundamentals-to-advanced-implementation/",
+        "https://www.wiz.io/academy/application-security-posture-management-aspm",
+        "https://about.gitlab.com/blog/the-ultimate-guide-to-sboms/",
+        "https://www.sans.org/cyber-security-courses/",
+        "https://www.practical-devsecops.com/what-is-devsecops-pipelines/"
       ],
-      "correct_option": 2,
-      "hint": "Think about which option is more related to testing rather than coding practices."
-    },
-    {
-      "question": "In the context of DevSecOps, which of the following technologies is primarily used for continuous integration and deployment?",
-      "options": [
-        "Docker",
-        "Jenkins",
-        "Kubernetes",
-        "Terraform"
-      ],
-      "correct_option": 1,
-      "hint": "This tool is popular for automating the build and deployment process in DevSecOps pipelines."
+      "videos": [
+        "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=pk172-9h-uo",
+        "https://www.youtube.com/watch?v=DZvx35bB9gE",
+        "https://www.youtube.com/watch?v=ZR_NHspROPg",
+        "https://www.youtube.com/watch?v=i740xlsqxEM",
+        "https://www.youtube.com/watch?v=5YpKt7eS2ic",
+        "https://www.youtube.com/watch?v=pAQAdKk_WBs",
+        "https://www.youtube.com/@TechWorldwithNana/community"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary goal of integrating security into the Software Development Life Cycle (SDLC)?",
+        "options": [
+          "To increase the development speed",
+          "To ensure security is considered at all stages",
+          "To minimize costs of development",
+          "To automate the testing process"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the overall objective of DevSecOps in the SDLC."
+      },
+      {
+        "question": "Which of the following best describes threat modeling in DevSecOps?",
+        "options": [
+          "A process of identifying potential threats and vulnerabilities in a system",
+          "A method to speed up software delivery",
+          "A way to automate security testing",
+          "A technique for designing user interfaces"
+        ],
+        "correct_option": 0,
+        "hint": "Consider what is being analyzed and identified during threat modeling."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary difference between Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST)?",
+        "options": [
+          "SAST is used for network security, while DAST is for application security",
+          "SAST analyzes source code, while DAST evaluates running applications",
+          "SAST is faster but less accurate than DAST",
+          "SAST is a manual process, while DAST is automated"
+        ],
+        "correct_option": 1,
+        "hint": "Consider when each testing type is performed during the development process."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is NOT a part of secure coding guidelines?",
+        "options": [
+          "Avoiding the use of hard-coded passwords",
+          "Implementing proper error handling",
+          "Ensuring high test coverage",
+          "Using cryptographic algorithms appropriately"
+        ],
+        "correct_option": 2,
+        "hint": "Think about which option is more related to testing rather than coding practices."
+      },
+      {
+        "question": "In the context of DevSecOps, which of the following technologies is primarily used for continuous integration and deployment?",
+        "options": [
+          "Docker",
+          "Jenkins",
+          "Kubernetes",
+          "Terraform"
+        ],
+        "correct_option": 1,
+        "hint": "This tool is popular for automating the build and deployment process in DevSecOps pipelines."
+      }
+    ]
+  }
 }

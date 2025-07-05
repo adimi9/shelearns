@@ -1,0 +1,381 @@
+{
+  "id": "FS5",
+  "name": "Caching Strategies for FullStack Performance",
+  "category": "FullStack Development",
+  "primary_tech": "Caching",
+  "topics": [
+    "Client-Side Caching (Browser Cache, Service Workers)",
+    "Server-Side Caching (Redis, Memcached)",
+    "CDN (Content Delivery Network)",
+    "Cache Invalidation & Freshness"
+  ],
+  "recommended": true,
+  "tags": [
+    "performance",
+    "optimization",
+    "scalability"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://graphql.org/learn/",
+          "description": "An introductory guide to understanding and using GraphQL effectively.",
+          "title": "Introduction to GraphQL | GraphQL"
+        },
+        {
+          "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching",
+          "description": "Guidelines for implementing and managing caching in Adobe Experience Manager Cloud Service.",
+          "title": "Caching in AEM as a Cloud Service | Adobe Experience Manager"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/",
+          "description": "An extensive resource for learning about Microsoft Azure services and solutions.",
+          "title": "Azure documentation | Microsoft Learn"
+        },
+        {
+          "url": "https://www.catchpoint.com/api-monitoring-tools/api-architecture",
+          "description": "An overview of API architecture and monitoring tools for optimizing performance.",
+          "title": "API Architecture Patterns and Best Practices"
+        },
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building applications with Next.js, a React framework.",
+          "title": "Next.js Docs | Next.js"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://moldstud.com/articles/p-full-stack-development-implementing-caching-mechanisms-for-improved-performance",
+          "description": "An article on implementing caching mechanisms to enhance full-stack development performance.",
+          "title": "Full Stack Development: Implementing Caching Mechanisms for Improved Performance | MoldStud"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/",
+          "description": "An introductory guide to the fundamental concepts of caching system design for beginners.",
+          "title": "Caching - System Design Concept - GeeksforGeeks"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/novalagung_how-to-restrict-app-access-using-cloudflare-activity-7200148267639185408-cuOj",
+          "description": "A guide on restricting application access using Cloudflare's security features.",
+          "title": "It's been a while since I wrote anything technical (other than adding new chapters to my existing free ebooks. | Noval Agung Prayogo"
+        },
+        {
+          "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching",
+          "description": "Guidelines for implementing caching strategies in Adobe Experience Manager Cloud Service.",
+          "title": "Caching in AEM as a Cloud Service | Adobe Experience Manager"
+        },
+        {
+          "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+          "description": "A guide on becoming a full-stack developer and securing a job in the field.",
+          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Zq5fmkH0T78",
+        "https://www.youtube.com/watch?v=F2FmTdLtb_4",
+        "https://www.youtube.com/watch?v=h7MTWLv3xvw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=JDbkoICzQro",
+        "https://www.youtube.com/watch?v=YX5yoApjI3M",
+        "https://www.youtube.com/watch?v=L7-CQpa2JFU",
+        "https://www.youtube.com/watch?v=wTGVHLyV09M",
+        "https://www.youtube.com/watch?v=_f7h6xQXiLA"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.cypress.io/app/core-concepts/best-practices",
+          "description": "Guidelines for implementing best practices in Cypress testing.",
+          "title": "Best Practices | Cypress Documentation"
+        },
+        {
+          "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching",
+          "description": "Guidelines for implementing caching strategies in Adobe Experience Manager Cloud Service.",
+          "title": "Caching in AEM as a Cloud Service | Adobe Experience Manager"
+        },
+        {
+          "url": "https://www.catchpoint.com/api-monitoring-tools/api-architecture",
+          "description": "An overview of API architecture and monitoring tools for ensuring API performance and reliability.",
+          "title": "API Architecture Patterns and Best Practices"
+        },
+        {
+          "url": "https://www.apollographql.com/docs/react/data/queries",
+          "description": "Guidelines for executing GraphQL queries in React applications using Apollo Client.",
+          "title": "Queries - Apollo GraphQL Docs"
+        },
+        {
+          "url": "https://github.com/ben-manes/caffeine",
+          "description": "A high-performance Java caching library providing a flexible and efficient in-memory cache.",
+          "title": "GitHub - ben-manes/caffeine: A high performance caching library for Java"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching",
+          "description": "Guidelines for implementing caching strategies in Adobe Experience Manager Cloud Service.",
+          "title": "Caching in AEM as a Cloud Service | Adobe Experience Manager"
+        },
+        {
+          "url": "https://anvil.works/forum/t/practical-optimization-tips-after-2-months-of-working-with-anvil/20430",
+          "description": "Practical tips for optimizing performance after two months of using Anvil.",
+          "title": "Practical optimization tips after 2 months of working with Anvil - Show and Tell - Anvil Community Forum"
+        },
+        {
+          "url": "https://www.dbta.com/Editorial/Trends-and-Applications/Spark-and-the-Fine-Art-of-Caching-119305.aspx",
+          "description": "An article explaining the importance and techniques of caching in Apache Spark for performance optimization.",
+          "title": "Spark and the Fine Art of Caching - Database Trends and Applications"
+        },
+        {
+          "url": "https://pawelurbanek.com/blog",
+          "description": "Insights and tutorials on software development, data engineering, and technology trends.",
+          "title": "Paweł U. | Ruby on Rails Web Development Consultant Full Stack Blog"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/",
+          "description": "An introductory guide to understanding caching system design concepts for beginners.",
+          "title": "Caching - System Design Concept - GeeksforGeeks"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/c/AdityaVermaTheProgrammingLord/community",
+        "https://www.youtube.com/ByteByteGo",
+        "https://www.youtube.com/watch?v=JDbkoICzQro",
+        "https://www.youtube.com/watch?v=Zq5fmkH0T78",
+        "https://www.youtube.com/watch?v=h7MTWLv3xvw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=fqabW3WRUbw",
+        "https://www.youtube.com/watch?v=QlUt06XLbJE",
+        "https://www.youtube.com/watch?v=fQOekY6FToY"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://github.com/vercel/next.js/discussions/54075",
+          "description": "A discussion on Vercel's Next.js repository about implementing and optimizing server-side rendering.",
+          "title": "Deep Dive: Caching and Revalidating · vercel/next.js · Discussion #54075 · GitHub"
+        },
+        {
+          "url": "https://graphql.org/learn/",
+          "description": "An introductory guide to understanding and using GraphQL for API development.",
+          "title": "Introduction to GraphQL | GraphQL"
+        },
+        {
+          "url": "https://expressjs.com/en/advanced/best-practice-performance.html",
+          "description": "Guidelines for optimizing performance in Express.js applications.",
+          "title": "Performance Best Practices Using Express in Production"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.linkedin.com/posts/sahniaman_springboot-redis-mongodb-activity-7251584216247762945-50rq",
+          "description": "A LinkedIn post discussing the integration of Spring Boot with Redis and MongoDB.",
+          "title": "If you're a Spring Boot developer, understanding Redis caching with MongoDB is a must.. | Aman Sahni"
+        },
+        {
+          "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+          "description": "A guide on becoming a full-stack developer and securing a job in the field.",
+          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/surendrakumar143_react-19-tutorial-for-beginners-full-guide-activity-7289316732257611776-DlRi",
+          "description": "A complete beginner's guide to learning React 19 through a detailed tutorial.",
+          "title": "🚀 Excited to Share My Latest Video! | Surendra Kumar Patel"
+        },
+        {
+          "url": "https://www.datanovia.com/learn/tools/shiny-apps/resources/further-learning.html",
+          "description": "A curated list of resources for further learning and mastering Shiny app development.",
+          "title": "Advanced Shiny Learning Paths: Complete Roadmap to Mastery – datanovia"
+        },
+        {
+          "url": "https://pawelurbanek.com/blog",
+          "description": "A blog offering insights and tutorials on software development and data engineering.",
+          "title": "Paweł U. | Ruby on Rails Web Development Consultant Full Stack Blog"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Zq5fmkH0T78",
+        "https://www.youtube.com/watch?v=h7MTWLv3xvw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=-3bVuFcteUo",
+        "https://www.youtube.com/watch?v=YX5yoApjI3M",
+        "https://www.youtube.com/watch?v=6nY-kci1rlo",
+        "https://www.youtube.com/watch?v=hMs8VNRy5Ys",
+        "https://www.youtube.com/watch?v=L7-CQpa2JFU",
+        "https://www.youtube.com/watch?v=puDYwXXoKtw"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main purpose of client-side caching in web applications?",
+        "options": [
+          "To reduce server load by storing data locally on the user's device",
+          "To increase server processing speed",
+          "To store user credentials securely",
+          "To enhance server-side data storage"
+        ],
+        "correct_option": 0,
+        "hint": "Think about where the data is stored and what it helps reduce."
+      },
+      {
+        "question": "Which technology is commonly used for server-side caching?",
+        "options": [
+          "Redis",
+          "Local Storage",
+          "Service Workers",
+          "CDN"
+        ],
+        "correct_option": 0,
+        "hint": "This technology is known for its efficiency in handling data and is often used alongside Memcached."
+      },
+      {
+        "question": "What role do CDNs play in caching strategies?",
+        "options": [
+          "They distribute content closer to users geographically",
+          "They encrypt data for security",
+          "They act as a database for storing user data",
+          "They provide real-time analytics"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how content can be delivered faster to users based on their location."
+      },
+      {
+        "question": "Which of the following is a method to implement client-side caching?",
+        "options": [
+          "Service Workers",
+          "Memcached",
+          "Redis",
+          "CDN"
+        ],
+        "correct_option": 0,
+        "hint": "This method works within the browser to cache resources."
+      },
+      {
+        "question": "What is cache invalidation?",
+        "options": [
+          "The process of removing outdated or unnecessary cached data",
+          "The process of encrypting cached data",
+          "The process of backing up cached data",
+          "The process of increasing cache size"
+        ],
+        "correct_option": 0,
+        "hint": "Consider what happens when cached data is no longer relevant."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is NOT a primary benefit of using a Content Delivery Network (CDN)?",
+        "options": [
+          "Reduced latency",
+          "Improved cache freshness",
+          "Decreased load on the origin server",
+          "Geographical content distribution"
+        ],
+        "correct_option": 1,
+        "hint": "CDNs primarily aim to distribute content efficiently and reduce server load rather than managing cache freshness."
+      },
+      {
+        "question": "What role do Service Workers play in client-side caching strategies?",
+        "options": [
+          "They serve as a proxy between the web app and the network, managing cache directly.",
+          "They are used to clear all browser caches on demand.",
+          "They replicate server-side caching strategies.",
+          "They solely handle the authentication of user sessions."
+        ],
+        "correct_option": 0,
+        "hint": "Service Workers intercept network requests and can modify or cache responses."
+      },
+      {
+        "question": "In server-side caching, which of the following is a key difference between Redis and Memcached?",
+        "options": [
+          "Redis supports data persistence, while Memcached does not.",
+          "Both Redis and Memcached support complex data structures natively.",
+          "Memcached is built for in-memory caching only, unlike Redis.",
+          "Redis does not support clustering, whereas Memcached does."
+        ],
+        "correct_option": 0,
+        "hint": "Consider the data persistence features of both caching systems."
+      },
+      {
+        "question": "What is a potential downside of aggressive caching strategies?",
+        "options": [
+          "Increased server load",
+          "Higher network bandwidth consumption",
+          "Stale data being served to users",
+          "Decreased application performance"
+        ],
+        "correct_option": 2,
+        "hint": "Aggressive caching might lead to outdated information being displayed to users."
+      },
+      {
+        "question": "Which of the following strategies is most effective for ensuring cache freshness?",
+        "options": [
+          "Setting a very long cache expiration time",
+          "Using ETag headers to validate cached content",
+          "Caching all responses indefinitely",
+          "Relying solely on browser cache settings"
+        ],
+        "correct_option": 1,
+        "hint": "ETag headers help determine if a cached response is still valid."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which caching strategy involves storing resources directly on the client's device to improve performance and offline availability?",
+        "options": [
+          "Browser Cache",
+          "Service Workers",
+          "Redis",
+          "Memcached"
+        ],
+        "correct_option": 1,
+        "hint": "This strategy allows for offline access and is implemented on the client's side."
+      },
+      {
+        "question": "What is a key difference between Redis and Memcached as server-side caching solutions?",
+        "options": [
+          "Redis supports data persistence, Memcached does not",
+          "Memcached supports data persistence, Redis does not",
+          "Redis does not support complex data types, Memcached does",
+          "Memcached supports complex data types, Redis does not"
+        ],
+        "correct_option": 0,
+        "hint": "One of these solutions is known for its ability to save data to disk."
+      },
+      {
+        "question": "How does a CDN improve the performance of a web application?",
+        "options": [
+          "By reducing the physical distance data must travel",
+          "By compressing all data to reduce size",
+          "By encrypting data for security",
+          "By providing real-time data analytics"
+        ],
+        "correct_option": 0,
+        "hint": "CDNs improve performance by distributing content closer to users."
+      },
+      {
+        "question": "What is the primary challenge addressed by cache invalidation strategies?",
+        "options": [
+          "Ensuring data freshness",
+          "Maximizing cache hit rates",
+          "Reducing server load",
+          "Improving data encryption"
+        ],
+        "correct_option": 0,
+        "hint": "The challenge involves keeping cached data up-to-date with the source."
+      },
+      {
+        "question": "Which of the following methods can Service Workers use to handle cache updates in a web application?",
+        "options": [
+          "Stale-While-Revalidate",
+          "Write-Through Caching",
+          "Least Recently Used",
+          "Time-To-Live"
+        ],
+        "correct_option": 0,
+        "hint": "This method involves serving stale content while fetching fresh content in the background."
+      }
+    ]
+  }
+}

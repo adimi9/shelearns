@@ -1,0 +1,273 @@
+{
+  "id": "GD3",
+  "name": "Multiplayer Game Development Basics",
+  "category": "Game Development",
+  "primary_tech": "Networking",
+  "topics": [
+    "Client-Server vs. Peer-to-Peer",
+    "Network Topologies",
+    "RPCs & Networked Variables",
+    "Latency Compensation Basics"
+  ],
+  "recommended": false,
+  "tags": [
+    "multiplayer",
+    "networking",
+    "online"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/networking-and-multiplayer-in-unreal-engine",
+        "https://docs.unity.com/",
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-6-documentation",
+        "https://forums.unrealengine.com/t/resources-to-learn-the-basics-of-blueprint-multiplayer-add-your-suggestions-here/737175",
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=3yuBOB3VrCk&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=McoDjOCb2Zo",
+        "https://www.youtube.com/watch?v=YmUnXsOp_t0",
+        "https://forums.unrealengine.com/t/resources-to-learn-the-basics-of-blueprint-multiplayer-add-your-suggestions-here/737175",
+        "https://www.youtube.com/watch?v=7glCsF9fv3s"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=3yuBOB3VrCk",
+        "https://www.youtube.com/watch?v=YmUnXsOp_t0",
+        "https://www.youtube.com/watch?v=7glCsF9fv3s",
+        "https://www.youtube.com/watch?v=ef6SeknakeU&pp=0gcJCfcAhR29_xXO",
+        "https://www.youtube.com/watch?v=e0JLO_5UgQo&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+        "https://m.youtube.com/watch?v=McoDjOCb2Zo",
+        "https://www.youtube.com/playlist?list=PLtZUQWWVMRK0hxyZnKTVHteWSFvnMiK0Y",
+        "https://www.youtube.com/@CodeMonkeyUnity",
+        "https://www.youtube.com/playlist?list=PLzykqv-wgIQXompUswD5iHllUHxGY7w0q"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.unity.com/",
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html",
+        "https://firebase.google.com/docs/games/setup",
+        "https://doc-api.photonengine.com/en/pun/current/index.html"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=7glCsF9fv3s",
+        "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
+        "https://www.youtube.com/watch?v=RJbLqrWdBGA",
+        "https://tomweiland.net/csharp-networking-tutorial-series/",
+        "https://www.youtube.com/watch?v=3289vhOUdKA"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=7glCsF9fv3s",
+        "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
+        "https://www.youtube.com/watch?v=loxSaI3YY7k",
+        "https://www.youtube.com/watch?v=RJbLqrWdBGA",
+        "https://www.youtube.com/watch?v=kgShNcTxMIg&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=3289vhOUdKA",
+        "https://m.youtube.com/watch?v=g_s0y5yFxYg&t=28s",
+        "https://www.youtube.com/c/EpitomeGames",
+        "https://www.youtube.com/c/Eduonix/videos",
+        "https://www.youtube.com/watch?v=w4YAQV_hkMI"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=926983840",
+        "https://help.figma.com/hc/en-us/categories/360002051613-Get-started",
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/networking-overview-for-unreal-engine"
+      ],
+      "notes": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=926983840",
+        "https://godotforums.org/d/24226-ultimate-multiplayer-dedicated-server-tutorial-series",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=1768819566",
+        "https://unity.com/resources/ultimate-guide-advanced-multiplayer-networking",
+        "https://vagon.io/blog/tutorials-for-learning-unreal-engine"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+        "https://www.youtube.com/watch?v=YmUnXsOp_t0",
+        "https://www.youtube.com/watch?v=3yuBOB3VrCk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=HXquxWtE5vA",
+        "https://www.youtube.com/watch?v=cZnWPVwtAKQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=i3xNb5R_xos",
+        "https://www.youtube.com/watch?v=oonRBOBJcIo",
+        "https://www.youtube.com/watch?v=6G-4oPDxfNI",
+        "https://www.youtube.com/watch?v=8efRGtRCGJ0&pp=0gcJCfwAo7VqN5tD"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main difference between Client-Server and Peer-to-Peer architectures in multiplayer games?",
+        "options": [
+          "Client-Server uses a central server to manage the game state, while Peer-to-Peer relies on direct communication between players.",
+          "Peer-to-Peer uses a central server to manage the game state, while Client-Server relies on direct communication between players.",
+          "Both Client-Server and Peer-to-Peer use central servers, but Peer-to-Peer has backup servers.",
+          "Client-Server and Peer-to-Peer are the same, with just different names."
+        ],
+        "correct_option": 0,
+        "hint": "Think about who manages the game state."
+      },
+      {
+        "question": "Which network topology is typically used in a Client-Server model?",
+        "options": [
+          "Mesh",
+          "Ring",
+          "Star",
+          "Bus"
+        ],
+        "correct_option": 2,
+        "hint": "The central server acts like a hub."
+      },
+      {
+        "question": "What is an RPC in the context of multiplayer game development?",
+        "options": [
+          "Real-time Player Connection",
+          "Remote Procedure Call",
+          "Random Player Chat",
+          "Rapid Processing Cycle"
+        ],
+        "correct_option": 1,
+        "hint": "It's a method to execute code on a remote machine."
+      },
+      {
+        "question": "In networking terms, what does latency compensation aim to achieve?",
+        "options": [
+          "Reduce the game size",
+          "Improve graphics quality",
+          "Synchronize game events between players",
+          "Increase server bandwidth"
+        ],
+        "correct_option": 2,
+        "hint": "It's about ensuring fairness and smoothness in gameplay."
+      },
+      {
+        "question": "What is a networked variable in a multiplayer game?",
+        "options": [
+          "A variable that only exists on the server",
+          "A variable that is synchronized across all clients",
+          "A variable that is used for AI behavior",
+          "A variable that is only updated at the end of the game"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how game state consistency is maintained across players."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a primary advantage of using a Client-Server model over a Peer-to-Peer model in multiplayer game development?",
+        "options": [
+          "Reduced server costs",
+          "Simpler network code",
+          "Centralized control and security",
+          "Lower latency"
+        ],
+        "correct_option": 2,
+        "hint": "Think about which model offers more control and security for game data."
+      },
+      {
+        "question": "Which network topology is most commonly used in multiplayer games to ensure efficient data transmission between multiple clients?",
+        "options": [
+          "Star topology",
+          "Bus topology",
+          "Mesh topology",
+          "Ring topology"
+        ],
+        "correct_option": 0,
+        "hint": "This topology connects all clients to a central hub."
+      },
+      {
+        "question": "In multiplayer game development, what is the primary purpose of Remote Procedure Calls (RPCs)?",
+        "options": [
+          "To execute functions on the client side only",
+          "To update game state variables locally",
+          "To call functions on a remote server or client",
+          "To establish a peer-to-peer connection"
+        ],
+        "correct_option": 2,
+        "hint": "RPCs are used to communicate between different networked entities."
+      },
+      {
+        "question": "Which of the following is a technique used to manage latency in multiplayer games?",
+        "options": [
+          "Increasing server tick rate",
+          "Client-side prediction",
+          "Mesh networking",
+          "Reducing graphics quality"
+        ],
+        "correct_option": 1,
+        "hint": "This technique involves predicting future states to compensate for network delay."
+      },
+      {
+        "question": "What is the role of networked variables in a multiplayer game?",
+        "options": [
+          "To store game data locally",
+          "To synchronize data across all clients",
+          "To encrypt game data",
+          "To initiate peer-to-peer connections"
+        ],
+        "correct_option": 1,
+        "hint": "Networked variables ensure all players have a consistent game state."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In a client-server architecture, what is the primary role of the server?",
+        "options": [
+          "To distribute game state to all connected clients",
+          "To render graphics and sound for the game",
+          "To handle user input and control local game state",
+          "To directly connect clients to each other for data exchange"
+        ],
+        "correct_option": 0,
+        "hint": "Think about what component is responsible for maintaining the overall game state."
+      },
+      {
+        "question": "Which network topology minimizes latency by allowing direct connections between clients?",
+        "options": [
+          "Client-Server",
+          "Mesh",
+          "Star",
+          "Bus"
+        ],
+        "correct_option": 1,
+        "hint": "Consider a topology that creates multiple pathways for communication."
+      },
+      {
+        "question": "What is the primary advantage of Remote Procedure Calls (RPCs) in multiplayer games?",
+        "options": [
+          "They reduce the amount of data that needs to be synchronized",
+          "They enable asynchronous communication between clients",
+          "They allow functions to be executed remotely on different machines",
+          "They improve the graphical fidelity of the game"
+        ],
+        "correct_option": 2,
+        "hint": "Focus on the capability RPCs provide across networked environments."
+      },
+      {
+        "question": "How do networked variables benefit multiplayer game development?",
+        "options": [
+          "They automatically synchronize changes across the network",
+          "They reduce server load by distributing processing to clients",
+          "They store game state locally to minimize latency",
+          "They encrypt data to secure player information"
+        ],
+        "correct_option": 0,
+        "hint": "Consider what networked variables do with data across clients and servers."
+      },
+      {
+        "question": "Which technique helps in dealing with latency issues in multiplayer games?",
+        "options": [
+          "Packet prioritization",
+          "Latency compensation",
+          "Server-side rendering",
+          "Peer-to-peer connections"
+        ],
+        "correct_option": 1,
+        "hint": "This technique aims to smooth out the effects of network delay."
+      }
+    ]
+  }
+}

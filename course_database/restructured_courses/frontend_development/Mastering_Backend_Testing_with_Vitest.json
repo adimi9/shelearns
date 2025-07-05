@@ -23,107 +23,142 @@
     "async-testing"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://vuejs.org/guide/scaling-up/testing",
+        "https://github.com/nestjs/awesome-nestjs",
+        "https://vuejs.org/guide/quick-start"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://blog.seancoughlin.me/mastering-snapshot-testing-with-vite-vitest-or-jest-in-typescript",
+        "https://www.youtube.com/watch?v=CxSL0knFxAs",
+        "https://vuejs.org/guide/scaling-up/testing",
+        "https://www.youtube.com/watch?v=k-pZG6m7ylw",
+        "https://www.codingaddict.io/courses/author/2095597"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=CxSL0knFxAs",
+        "https://www.youtube.com/watch?v=k-pZG6m7ylw",
+        "https://www.youtube.com/watch?v=FDEf3iWEgFI",
+        "https://www.youtube.com/watch?v=k0LPNKWCxx0",
+        "https://www.youtube.com/watch?v=r5L1XRZaCR0",
+        "https://www.youtube.com/watch?v=AS79oJ3Fcf0",
+        "https://www.youtube.com/watch?v=KnlsGreX-ks",
+        "https://www.youtube.com/watch?v=4sR77vaEhy8"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://vuejs.org/guide/scaling-up/testing",
+        "https://github.com/nestjs/awesome-nestjs",
+        "https://www.builder.io/blog/cursor-tips"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://vuejs.org/guide/scaling-up/testing",
+        "https://www.youtube.com/watch?v=CxSL0knFxAs",
+        "https://www.builder.io/blog/cursor-tips",
+        "https://www.youtube.com/watch?v=k-pZG6m7ylw",
+        "https://vueschool.io/articles/vuejs-tutorials/start-testing-with-vitest-beginners-guide/",
+        "https://www.youtube.com/watch?v=r5L1XRZaCR0"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=FDEf3iWEgFI",
+        "https://www.youtube.com/watch?v=CxSL0knFxAs",
+        "https://www.youtube.com/watch?v=k-pZG6m7ylw",
+        "https://www.youtube.com/watch?v=r5L1XRZaCR0",
+        "https://www.youtube.com/watch?v=k0LPNKWCxx0",
+        "https://www.youtube.com/watch?v=RUeaqylweUw",
+        "https://www.youtube.com/watch?v=AS79oJ3Fcf0"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://vuejs.org/guide/scaling-up/testing",
+        "https://github.com/nestjs/awesome-nestjs",
+        "https://www.vuemastery.com/vite-weekend-2021/"
+      ],
+      "notes": [
+        "https://vuejs.org/guide/scaling-up/testing",
+        "https://www.vuemastery.com/courses/",
+        "https://zerotomastery.io/courses/",
+        "https://www.builder.io/blog/cursor-tips",
+        "https://www.linkedin.com/posts/stewheckenberg_ruby-on-rails-is-the-worst-choice-you-could-activity-7263500922700349440-xM9p"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=STeKBm67l6M",
+        "https://www.youtube.com/watch?v=AOZUhOW_css",
+        "https://www.youtube.com/watch?v=aBjmdLmE2zI",
+        "https://www.youtube.com/watch?v=DmmgKvdDcSo"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/AggregateError",
-        "description": "The page provides detailed documentation on the JavaScript AggregateError object, which represents multiple errors as a single error."
+        "question": "What is Vitest primarily used for in frontend development?",
+        "options": [
+          "Designing UI components",
+          "Enhancing application performance",
+          "Testing JavaScript applications",
+          "Managing database connections"
+        ],
+        "correct_option": 2,
+        "hint": "It's a tool that helps ensure code correctness."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty",
-        "description": "This resource explains how to use the `Object.defineProperty()` method in JavaScript to define or modify properties on objects with precise control over their behavior."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/compareDocumentPosition",
-        "description": "Documentation for the `compareDocumentPosition` method, which determines the relative position of two nodes in the document."
+        "question": "Why might a developer choose Vitest over other testing frameworks?",
+        "options": [
+          "To improve application design",
+          "For its fast performance in modern stacks",
+          "To simplify database management",
+          "To enhance CSS styling"
+        ],
+        "correct_option": 1,
+        "hint": "Think about speed and modern development environments."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.freecodecamp.org/news/how-to-do-test-driven-development-with-svelte-and-vitest/",
-        "description": "A guide on implementing test-driven development using Svelte and Vitest."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/reactjs/nextjs-vitest-testing/",
-        "description": "This resource provides a guide on testing Next.js applications using Vitest in React.js projects."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/write-unit-tests-using-react-testing-library/",
-        "description": "A comprehensive guide on writing unit tests for React applications using React Testing Library."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/react-project-with-vite-and-vitest/",
-        "description": "A guide on creating a React project using Vite for fast setup and Vitest for testing."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-to-set-up-a-ci-cd-pipeline-with-husky-and-github-actions/",
-        "description": "A guide on setting up a CI/CD pipeline using Husky and GitHub Actions for automated testing and deployment."
+        "question": "Which of the following is a key feature of Vitest?",
+        "options": [
+          "Integrated CSS preprocessor",
+          "Real-time collaboration",
+          "Fast test execution",
+          "Built-in image editor"
+        ],
+        "correct_option": 2,
+        "hint": "It's related to speed and efficiency in testing."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=CxSL0knFxAs",
-      "https://www.youtube.com/watch?v=cM_AeQHzlGg",
-      "https://m.youtube.com/watch?v=FJRuG85tXV0",
-      "https://www.youtube.com/watch?v=iIMaFgeNzc8",
-      "https://www.youtube.com/watch?v=dopLE8NTgFk"
+    "advanced": [
+      {
+        "question": "What is a primary benefit of using Vitest in a project?",
+        "options": [
+          "Reduced server load",
+          "Faster test execution times",
+          "Improved color contrast",
+          "Automatic data backup"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the performance aspect of testing."
+      },
+      {
+        "question": "In what kind of development environment is Vitest most beneficial?",
+        "options": [
+          "Legacy systems",
+          "Modern frontend stacks",
+          "Backend API development",
+          "Mobile app design"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the type of development environment that benefits from fast and efficient tools."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is Vitest primarily used for in frontend development?",
-      "options": [
-        "Designing UI components",
-        "Enhancing application performance",
-        "Testing JavaScript applications",
-        "Managing database connections"
-      ],
-      "correct_option": 2,
-      "hint": "It's a tool that helps ensure code correctness."
-    },
-    {
-      "question": "Why might a developer choose Vitest over other testing frameworks?",
-      "options": [
-        "To improve application design",
-        "For its fast performance in modern stacks",
-        "To simplify database management",
-        "To enhance CSS styling"
-      ],
-      "correct_option": 1,
-      "hint": "Think about speed and modern development environments."
-    },
-    {
-      "question": "Which of the following is a key feature of Vitest?",
-      "options": [
-        "Integrated CSS preprocessor",
-        "Real-time collaboration",
-        "Fast test execution",
-        "Built-in image editor"
-      ],
-      "correct_option": 2,
-      "hint": "It's related to speed and efficiency in testing."
-    },
-    {
-      "question": "What is a primary benefit of using Vitest in a project?",
-      "options": [
-        "Reduced server load",
-        "Faster test execution times",
-        "Improved color contrast",
-        "Automatic data backup"
-      ],
-      "correct_option": 1,
-      "hint": "Consider the performance aspect of testing."
-    },
-    {
-      "question": "In what kind of development environment is Vitest most beneficial?",
-      "options": [
-        "Legacy systems",
-        "Modern frontend stacks",
-        "Backend API development",
-        "Mobile app design"
-      ],
-      "correct_option": 1,
-      "hint": "Think about the type of development environment that benefits from fast and efficient tools."
-    }
-  ],
   "preferred_if": [
     "User wants fast modern tool"
   ]

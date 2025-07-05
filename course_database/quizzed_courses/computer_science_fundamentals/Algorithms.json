@@ -1,0 +1,277 @@
+{
+  "id": "CS9",
+  "name": "Algorithms",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Algorithms",
+  "topics": [
+    "Sorting Algorithms (Merge, Quick, Heap)",
+    "Searching Algorithms (Binary, BFS, DFS)",
+    "Graph Algorithms (Dijkstra, MST)",
+    "Recursion & Dynamic Programming"
+  ],
+  "recommended": true,
+  "tags": [
+    "algorithms",
+    "optimization",
+    "problem-solving"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://docs.nvidia.com/cuda/cublas/",
+        "https://spinningup.openai.com/en/latest/",
+        "https://www.wolfssl.com/documentation/manuals/wolfssl/",
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://xgboost.readthedocs.io/"
+      ],
+      "notes": [
+        "https://www.sandordargo.com/blog/2019/01/30/stl-algos-intro",
+        "https://www.geeksforgeeks.org/fundamentals-of-algorithms/",
+        "https://arxiv.org/abs/1903.04359",
+        "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/",
+        "https://www.w3schools.com/dsa/dsa_intro.php"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8hly31xKli0",
+        "https://www.youtube.com/watch?v=BBpAmxU_NQo",
+        "https://www.youtube.com/watch?v=t2CEgPsws3U&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=fW_OS3LGB9Q",
+        "https://m.youtube.com/watch?v=JgWm6sQwS_I&t=22m00s",
+        "https://www.youtube.com/watch?v=coqQwbDezUA",
+        "https://www.youtube.com/watch?v=JJkWemM03Lg",
+        "https://www.youtube.com/watch?v=pkYVOmU3MgA",
+        "https://www.youtube.com/watch?v=3XaqEng_K5s",
+        "https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html",
+        "https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform",
+        "https://docs.mulesoft.com/mule-runtime/latest/secure-configuration-properties"
+      ],
+      "notes": [
+        "https://ascpt.onlinelibrary.wiley.com/doi/full/10.1111/cts.70172",
+        "https://www.scale.at/blog/css-layout-modes",
+        "https://enccs.github.io/qas2023/hybrid-life-science/",
+        "https://neptune.ai/blog/clustering-algorithms",
+        "https://enccs.github.io/qas2023/hybrid-quantum-chemistry/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=w7-AU00kAMg",
+        "https://www.youtube.com/watch?v=Mut_u40Sqz4",
+        "https://m.youtube.com/watch?v=ahN1Yea9geA&t=9s",
+        "https://www.youtube.com/watch?v=3B_oB2YrLvk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=f_Yor-ydZjs",
+        "https://www.youtube.com/watch?v=GhmYBgLoQQg&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Ar_Zit1VLG0",
+        "https://m.youtube.com/watch?v=byXOrkoorCk&t=434s",
+        "https://www.youtube.com/watch?v=qmxWuV4psFs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=xpx0nEmcKug"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://spinningup.openai.com/en/latest/",
+        "https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html",
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "https://docs.ultralytics.com/guides/yolo-performance-metrics/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=1gdeekREoq8",
+        "https://m.youtube.com/watch?v=tpCFfeUEGs8&t=6s",
+        "https://www.youtube.com/watch?v=MS5jByTX_pk",
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.datacamp.com/tutorial/guide-to-the-gradient-boosting-algorithm",
+        "https://www.youtube.com/watch?v=U2OzF3zve08"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=1gdeekREoq8",
+        "https://www.youtube.com/watch?v=yD4mCE1z59o",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=MS5jByTX_pk",
+        "https://www.youtube.com/watch?v=tpCFfeUEGs8",
+        "https://www.youtube.com/watch?v=U2OzF3zve08",
+        "https://www.youtube.com/watch?v=Eo1HbXEiJxo&pp=ygUJI2Fua2ljYXJk",
+        "https://www.youtube.com/c/ArpitBhayani"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which of the following is a divide-and-conquer algorithm used for sorting?",
+        "options": [
+          "Bubble Sort",
+          "Quick Sort",
+          "Selection Sort",
+          "Insertion Sort"
+        ],
+        "correct_option": 1,
+        "hint": "This algorithm works by partitioning an array into two sub-arrays and then sorting the sub-arrays independently."
+      },
+      {
+        "question": "What is the primary advantage of using Binary Search over Linear Search?",
+        "options": [
+          "It can handle unsorted data",
+          "It requires less memory",
+          "It is faster on sorted data",
+          "It can find an element in constant time"
+        ],
+        "correct_option": 2,
+        "hint": "This search algorithm works efficiently on sorted arrays by repeatedly dividing the search interval in half."
+      },
+      {
+        "question": "Which algorithm is typically used to find the shortest path in a weighted graph?",
+        "options": [
+          "Depth-First Search",
+          "Breadth-First Search",
+          "Dijkstra's Algorithm",
+          "Kruskal's Algorithm"
+        ],
+        "correct_option": 2,
+        "hint": "This algorithm uses a priority queue to explore the shortest path from the source to all vertices in the graph."
+      },
+      {
+        "question": "What is a characteristic of recursion in programming?",
+        "options": [
+          "It uses loops to iterate",
+          "It calls itself with a smaller problem",
+          "It is a non-repetitive process",
+          "It can only be used in sorting algorithms"
+        ],
+        "correct_option": 1,
+        "hint": "Think of a function that solves a problem by solving smaller instances of the same problem."
+      },
+      {
+        "question": "In dynamic programming, what is the purpose of memoization?",
+        "options": [
+          "To execute the program faster",
+          "To avoid redundant calculations by storing results",
+          "To increase the recursion depth",
+          "To make the code more readable"
+        ],
+        "correct_option": 1,
+        "hint": "This technique stores the results of expensive function calls and reuses them when the same inputs occur again."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which sorting algorithm is based on the divide-and-conquer approach and has an average time complexity of O(n log n)?",
+        "options": [
+          "Bubble Sort",
+          "Quick Sort",
+          "Insertion Sort",
+          "Selection Sort"
+        ],
+        "correct_option": 1,
+        "hint": "This algorithm divides the array into smaller sub-arrays and sorts them individually before combining them."
+      },
+      {
+        "question": "In graph algorithms, which algorithm is used to find the shortest path from a single source vertex to all other vertices in a weighted graph?",
+        "options": [
+          "Kruskal's Algorithm",
+          "Prim's Algorithm",
+          "Dijkstra's Algorithm",
+          "Floyd-Warshall Algorithm"
+        ],
+        "correct_option": 2,
+        "hint": "This algorithm utilizes a priority queue to efficiently find the shortest paths."
+      },
+      {
+        "question": "What is the main difference between binary search and depth-first search (DFS)?",
+        "options": [
+          "Binary search works on sorted arrays, DFS works on trees or graphs",
+          "Binary search is recursive, DFS is not",
+          "Binary search has a time complexity of O(n), DFS has O(log n)",
+          "Binary search uses a stack, DFS uses a queue"
+        ],
+        "correct_option": 0,
+        "hint": "One is used for searching in linear data structures, while the other is used for graph traversal."
+      },
+      {
+        "question": "Which of the following is not a characteristic of dynamic programming?",
+        "options": [
+          "Optimal substructure",
+          "Overlapping subproblems",
+          "Greedy approach",
+          "Memoization"
+        ],
+        "correct_option": 2,
+        "hint": "This characteristic is more associated with algorithms that make the locally optimal choice at each stage."
+      },
+      {
+        "question": "When implementing the Merge Sort algorithm, what is the main operation performed during the 'merge' phase?",
+        "options": [
+          "Swapping elements to sort",
+          "Splitting the array into halves",
+          "Comparing and combining sorted subarrays",
+          "Reversing the order of elements"
+        ],
+        "correct_option": 2,
+        "hint": "This operation combines two sorted arrays into a single sorted array."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following sorting algorithms has the best average time complexity?",
+        "options": [
+          "Merge Sort",
+          "Quick Sort",
+          "Heap Sort",
+          "Bubble Sort"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the time complexity of O(n log n) algorithms."
+      },
+      {
+        "question": "In a binary search tree (BST), what is the average time complexity for searching an element?",
+        "options": [
+          "O(n)",
+          "O(log n)",
+          "O(n^2)",
+          "O(1)"
+        ],
+        "correct_option": 1,
+        "hint": "Binary search trees are designed to achieve logarithmic time complexity."
+      },
+      {
+        "question": "What is a key characteristic of the Quick Sort algorithm?",
+        "options": [
+          "It is a stable sort",
+          "Worst-case time complexity is O(n^2)",
+          "It requires additional space proportional to input size",
+          "It always sorts in place"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the performance in the worst-case scenario."
+      },
+      {
+        "question": "Which algorithm is most suitable for finding the shortest path in a graph with non-negative weights?",
+        "options": [
+          "Depth-First Search (DFS)",
+          "Dijkstra's Algorithm",
+          "Prim's Algorithm",
+          "Breadth-First Search (BFS)"
+        ],
+        "correct_option": 1,
+        "hint": "This algorithm is specifically designed for shortest path problems with non-negative weights."
+      },
+      {
+        "question": "Which approach is utilized by dynamic programming to solve complex problems?",
+        "options": [
+          "Divide and Conquer",
+          "Greedy Method",
+          "Bottom-Up Approach",
+          "Randomized Approach"
+        ],
+        "correct_option": 2,
+        "hint": "Dynamic programming solves problems by breaking them down into simpler subproblems and storing their solutions."
+      }
+    ]
+  }
+}

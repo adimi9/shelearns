@@ -1,0 +1,282 @@
+{
+  "id": "BE16",
+  "name": "Ruby for Backend Development",
+  "category": "Backend Development",
+  "primary_tech": "Ruby",
+  "topics": [
+    "Introduction to Ruby syntax and semantics",
+    "Object-oriented programming with Ruby",
+    "Building web applications with Ruby on Rails",
+    "Understanding MVC architecture",
+    "Creating RESTful APIs with Ruby",
+    "Database integration using Active Record",
+    "Testing and debugging Ruby applications",
+    "Deploying Ruby applications on cloud platforms"
+  ],
+  "recommended": false,
+  "tags": [
+    "ruby",
+    "backend",
+    "rails",
+    "api",
+    "web-development",
+    "sinatra",
+    "database"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://docs.stripe.com/api",
+        "https://stytch.com/docs/api",
+        "https://www.ruby-lang.org/en/documentation/",
+        "https://firebase.google.com/docs/firestore/quickstart",
+        "https://developers.hubspot.com/docs/reference/api/overview"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=TlgSp2XPCY4&pp=ygUbI3JhaWxz44OB44Ol44O844OI44Oq44Ki44Or",
+        "https://www.howtographql.com/graphql-ruby/0-introduction/",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://guides.rubyonrails.org/getting_started.html",
+        "https://www.youtube.com/watch?v=GY7Ps8fqGdc&pp=0gcJCf0Ao7VqN5tD"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=B3Fbujmgo60&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=TlgSp2XPCY4&pp=ygUbI3JhaWxz44OB44Ol44O844OI44Oq44Ki44Or",
+        "https://www.youtube.com/watch?v=GY7Ps8fqGdc&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=sp8TL37ymGk",
+        "https://www.youtube.com/watch?v=3S9fyfmCf1A",
+        "https://www.youtube.com/watch?v=DhxLOC-9kW0",
+        "https://www.youtube.com/watch?v=JywMquavEjU"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.temporal.io/",
+        "https://shopify.dev/docs/api",
+        "https://ipython.readthedocs.io/en/9.2.0/interactive/magics.html"
+      ],
+      "notes": [
+        "https://www.fullstackruby.dev/page/2/",
+        "https://www.toptal.com/ruby/grape-gem-tutorial-how-to-build-a-rest-like-api-in-ruby",
+        "https://rubyroidlabs.com/blog/2023/11/how-to-use-ruby-on-rails-with-react-in-2024/",
+        "https://www.learnenough.com/blog/why-ruby-on-rails-is-so-popular",
+        "https://guides.rubyonrails.org/getting_started.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=h_Nsw5N9FmQ",
+        "https://www.youtube.com/watch?v=BJAwmgRsecE",
+        "https://www.youtube.com/watch?v=_sWgionzDoM",
+        "https://www.youtube.com/watch?v=Fm6o3u_V-hM",
+        "https://www.youtube.com/watch?v=BNUvVDbQ0J0",
+        "https://www.youtube.com/shorts/iey1AikkgKw",
+        "https://www.youtube.com/watch?v=iH1wpdGdLcc",
+        "https://www.youtube.com/watch?v=1sNpvTMrxl4",
+        "https://www.youtube.com/channel/UC3cEGKhg3OERn-ihVsJcb7A",
+        "https://www.youtube.com/channel/UCxcOPU5S9MiVkvbb_5jlS4g"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.ruby-lang.org/en/documentation/",
+        "https://docs.gitlab.com/development/api_graphql_styleguide/",
+        "https://shopify.dev/docs/api",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html"
+      ],
+      "notes": [
+        "https://community.shopify.com/c/shopify-education-and/how-to-become-a-shopify-developer-a-step-by-step-guide/m-p/2831473",
+        "https://docs.gitlab.com/development/api_graphql_styleguide/",
+        "https://www.linkedin.com/posts/pcalcado_to-celebrate-shipping-outropys-native-support-activity-7289832854400770048-xSI7",
+        "https://www.theodinproject.com/paths/full-stack-ruby-on-rails",
+        "https://learntocodewith.me/posts/backend-development/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=MIJt9H69QVc",
+        "https://www.youtube.com/watch?v=zBtwd2OfZsI",
+        "https://www.youtube.com/watch?v=AjRoGrZXGPY&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=BNUvVDbQ0J0",
+        "https://www.youtube.com/watch?v=_1LmirXDC-E"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the correct way to define a class in Ruby?",
+        "options": [
+          "class MyClass end",
+          "define class MyClass end",
+          "MyClass class end",
+          "class MyClass do end"
+        ],
+        "correct_option": 0,
+        "hint": "The keyword to start defining a class in Ruby is 'class'."
+      },
+      {
+        "question": "Which of the following best describes the MVC architecture used in Ruby on Rails?",
+        "options": [
+          "Model-View-Controller",
+          "Module-View-Connection",
+          "Method-Variable-Class",
+          "Main-Variable-Component"
+        ],
+        "correct_option": 0,
+        "hint": "MVC stands for Model-View-Controller."
+      },
+      {
+        "question": "What command is used to start a new Ruby on Rails application?",
+        "options": [
+          "rails new myapp",
+          "ruby generate myapp",
+          "rails create myapp",
+          "ruby new myapp"
+        ],
+        "correct_option": 0,
+        "hint": "Use the 'rails' command to create a new application."
+      },
+      {
+        "question": "In Ruby, which method is commonly used to establish a connection to a database using Active Record?",
+        "options": [
+          "connect_to_db",
+          "establish_connection",
+          "database_connect",
+          "active_record_connect"
+        ],
+        "correct_option": 1,
+        "hint": "The method name starts with 'establish'."
+      },
+      {
+        "question": "How do you run tests in a Ruby on Rails application?",
+        "options": [
+          "rails test",
+          "ruby test",
+          "rails run_tests",
+          "ruby execute_tests"
+        ],
+        "correct_option": 0,
+        "hint": "Use the 'rails' command followed by the word 'test'."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following best describes the role of Active Record in a Ruby on Rails application?",
+        "options": [
+          "It handles the routing of HTTP requests to controllers.",
+          "It provides an interface for connecting to and interacting with databases.",
+          "It defines the views and templates for rendering HTML.",
+          "It manages the deployment of the application to cloud services."
+        ],
+        "correct_option": 1,
+        "hint": "Active Record is primarily concerned with the database layer in Rails."
+      },
+      {
+        "question": "In Ruby, what is the purpose of the 'initialize' method in a class?",
+        "options": [
+          "To define class-level variables that are shared across all instances.",
+          "To set up the initial state of an object when it's created.",
+          "To handle errors that occur during the program execution.",
+          "To define a class method that can be called without an instance."
+        ],
+        "correct_option": 1,
+        "hint": "This method is automatically called when a new object is instantiated."
+      },
+      {
+        "question": "What does MVC stand for in the context of Ruby on Rails architecture?",
+        "options": [
+          "Model-View-Controller",
+          "Main-View-Component",
+          "Module-Value-Configuration",
+          "Method-Version-Class"
+        ],
+        "correct_option": 0,
+        "hint": "This architecture separates concerns of data, user interface, and control logic."
+      },
+      {
+        "question": "Which Ruby method can be used to convert an object to its string representation?",
+        "options": [
+          "to_s",
+          "to_str",
+          "to_string",
+          "stringify"
+        ],
+        "correct_option": 0,
+        "hint": "This method is commonly used to obtain a string version of an object."
+      },
+      {
+        "question": "What is a key characteristic of RESTful APIs created with Ruby on Rails?",
+        "options": [
+          "They use SOAP for message formatting.",
+          "They rely on HTTP methods like GET, POST, PUT, DELETE.",
+          "They require XML data formats for communication.",
+          "They are only compatible with Ruby-based clients."
+        ],
+        "correct_option": 1,
+        "hint": "This architectural style is based on a stateless communication protocol."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is NOT a principle of object-oriented programming as implemented in Ruby?",
+        "options": [
+          "Encapsulation",
+          "Polymorphism",
+          "Inheritance",
+          "Concurrency"
+        ],
+        "correct_option": 3,
+        "hint": "Think about the core concepts of OOP and which one is not typically associated with Ruby's OOP model."
+      },
+      {
+        "question": "In a Ruby on Rails application, which layer of the MVC architecture is responsible for handling database interactions?",
+        "options": [
+          "Model",
+          "View",
+          "Controller",
+          "Router"
+        ],
+        "correct_option": 0,
+        "hint": "Consider which component is tasked with representing and managing the data in the MVC pattern."
+      },
+      {
+        "question": "When creating a RESTful API in Ruby on Rails, which HTTP verb is commonly used to update a resource?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the HTTP method that suggests modifying an existing resource."
+      },
+      {
+        "question": "Which Active Record method would you use to find the first record in a database table that matches certain conditions?",
+        "options": [
+          "find",
+          "find_by",
+          "where",
+          "first"
+        ],
+        "correct_option": 1,
+        "hint": "There is a specific method used to locate a single record by given attributes."
+      },
+      {
+        "question": "What is the main difference between 'require' and 'require_relative' in Ruby?",
+        "options": [
+          "'require' is used for gem dependencies, 'require_relative' is for local files",
+          "'require' loads files once, 'require_relative' loads them every time",
+          "'require' is no longer used in Ruby, only 'require_relative'",
+          "'require' is for Ruby files, 'require_relative' is for non-Ruby files"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how each method interacts with the file paths and the scope of the files they are loading."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User prefers convention over configuration"
+  ]
+}

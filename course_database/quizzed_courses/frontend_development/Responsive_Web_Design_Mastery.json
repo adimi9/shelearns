@@ -1,0 +1,275 @@
+{
+  "id": "FE22",
+  "name": "Responsive Web Design Mastery",
+  "category": "Frontend Development",
+  "primary_tech": "CSS Responsive Design",
+  "topics": [
+    "Media Queries",
+    "Flexbox & Grid",
+    "Mobile-First & Viewport"
+  ],
+  "recommended": true,
+  "tags": [
+    "responsive",
+    "CSS",
+    "layout"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+        "https://vuejs.org/guide/introduction",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+        "https://manual.bubble.io/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=gwiX0oASlEw",
+        "https://m.youtube.com/watch?v=69IbzTWg5PM&pp=ygUGI2t1ZXJp",
+        "https://www.youtube.com/watch?v=srvUrASNj0s",
+        "https://www.w3schools.com/css/css_rwd_intro.asp",
+        "https://www.youtube.com/watch?v=fghWUZfkyew",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+        "https://www.youtube.com/watch?v=FazgJVnrVuI"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=oUVGW_2vp0I",
+        "https://www.youtube.com/watch?v=fghWUZfkyew",
+        "https://www.youtube.com/watch?v=gwiX0oASlEw",
+        "https://www.youtube.com/watch?v=Eb3lOiukwAQ&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=hKsSgU5b0Gw&t=78s",
+        "https://www.youtube.com/watch?v=I2UBjN5ER4s&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=gwiX0oASlEw&pp=ygUJI2ZpaXRuY3Nz",
+        "https://www.youtube.com/watch?v=aYRoHooj0hg",
+        "https://www.youtube.com/@webdesignmastery23",
+        "https://www.youtube.com/playlist?list=PLz_5rPRIvGEAQ2OD8Y7d9TRWxPW2CZwHM"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries",
+        "https://vuejs.org/guide/introduction",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=Hq_SREIPK7M",
+        "https://m.youtube.com/watch?v=6EJVYwichvs",
+        "https://www.youtube.com/watch?v=LMagNcngvcU",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+        "https://www.youtube.com/watch?v=31wzhvz0vsw",
+        "https://www.figma.com/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=LMagNcngvcU",
+        "https://www.youtube.com/watch?v=3HNyXCPDQ7Q",
+        "https://www.youtube.com/watch?v=31wzhvz0vsw",
+        "https://www.youtube.com/watch?v=F627pKNUCVQ",
+        "https://www.youtube.com/watch?v=B-ytMSuwbf8",
+        "https://www.youtube.com/watch?v=IWdDr54qE4A",
+        "https://www.youtube.com/watch?v=FHTbsZEJspU",
+        "https://www.youtube.com/watch?v=p0bGHP-PXD4",
+        "https://www.youtube.com/watch?v=rrd91OK9YYI",
+        "https://www.youtube.com/c/Harshitvashisth"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "https://www.linkedin.com/pulse/my-guide-mastering-api-product-management-gurrpreet-sinngh-iqizc",
+        "https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=31wzhvz0vsw",
+        "https://www.geeksforgeeks.org/60-days-of-frontend-development/",
+        "https://www.youtube.com/watch?v=6biMWgD6_JY",
+        "https://web.dev/learn/design",
+        "https://www.youtube.com/watch?v=ZkiqyA0N71U&pp=0gcJCf0Ao7VqN5tD",
+        "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=31wzhvz0vsw",
+        "https://www.youtube.com/watch?v=cKZEgtQUxlU&pp=ygUMI3VpdXhfY291cnNl",
+        "https://www.youtube.com/watch?v=6biMWgD6_JY",
+        "https://www.youtube.com/watch?v=lCxcTsOHrjo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=RGCgLPMA8m4",
+        "https://www.youtube.com/watch?v=j6Ule7GXaRs",
+        "https://www.youtube.com/watch?v=ZkiqyA0N71U&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=slGF7HOsCPs",
+        "https://www.youtube.com/c/ZeroToMastery"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of media queries in responsive web design?",
+        "options": [
+          "To apply styles based on screen size and resolution",
+          "To create animations for web elements",
+          "To optimize the loading speed of a website",
+          "To manage server-side logic"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how styles change for different devices."
+      },
+      {
+        "question": "Which CSS module is designed to lay out items in a row or column, with flexible sizing?",
+        "options": [
+          "Flexbox",
+          "Grid",
+          "Box Model",
+          "Positioning"
+        ],
+        "correct_option": 0,
+        "hint": "This module is often used for single-dimensional layouts."
+      },
+      {
+        "question": "What is the main difference between Flexbox and Grid in CSS?",
+        "options": [
+          "Flexbox is for single-dimensional layouts, Grid is for two-dimensional layouts",
+          "Flexbox is faster than Grid",
+          "Grid does not support alignment properties",
+          "Flexbox cannot be used for responsive design"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the axes that each layout method primarily manages."
+      },
+      {
+        "question": "What does 'mobile-first' design strategy involve?",
+        "options": [
+          "Designing the desktop version first and then adapting for mobile",
+          "Creating a separate website for mobile users",
+          "Designing for smaller screens first and then enhancing for larger screens",
+          "Prioritizing mobile app development over website development"
+        ],
+        "correct_option": 2,
+        "hint": "This strategy starts with the smallest screen in mind."
+      },
+      {
+        "question": "What is the purpose of the viewport meta tag in HTML?",
+        "options": [
+          "To control the page's dimensions and scaling on different devices",
+          "To link to external CSS files",
+          "To define the character set of the document",
+          "To specify the document's language"
+        ],
+        "correct_option": 0,
+        "hint": "It affects how a webpage is displayed on mobile devices."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of media queries in responsive web design?",
+        "options": [
+          "To apply styles based on device orientation",
+          "To ensure websites are mobile-friendly",
+          "To optimize loading times for large images",
+          "To serve different HTML content for different devices"
+        ],
+        "correct_option": 0,
+        "hint": "Media queries allow you to change styles based on specific conditions such as screen size."
+      },
+      {
+        "question": "Which CSS property is used with Flexbox to define the alignment of items along the main axis?",
+        "options": [
+          "align-items",
+          "justify-content",
+          "align-content",
+          "flex-direction"
+        ],
+        "correct_option": 1,
+        "hint": "This property controls how items are spaced within a flex container along the main axis."
+      },
+      {
+        "question": "How does the Mobile-First approach influence the way you write CSS?",
+        "options": [
+          "It encourages writing CSS for desktop first and then adding mobile styles",
+          "It starts with the smallest screen size and adds styles for larger screens",
+          "It focuses on writing CSS for mobile devices only",
+          "It uses JavaScript to detect mobile devices and apply styles"
+        ],
+        "correct_option": 1,
+        "hint": "Think about writing styles for the smallest screen first and then expanding."
+      },
+      {
+        "question": "In CSS Grid, what does the property 'grid-template-columns' specify?",
+        "options": [
+          "The number of rows in a grid",
+          "The number of columns in a grid",
+          "The size of the grid container",
+          "The spacing between grid items"
+        ],
+        "correct_option": 1,
+        "hint": "This property is used to define how many columns a grid has and their sizes."
+      },
+      {
+        "question": "What is the role of the viewport meta tag in responsive web design?",
+        "options": [
+          "To enable Flexbox and Grid layout",
+          "To control the layout on mobile devices",
+          "To define the screen width for all devices",
+          "To set the color scheme for the website"
+        ],
+        "correct_option": 1,
+        "hint": "It is used to give instructions on how to control the page's dimensions and scaling on different devices."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which CSS property is used to create a flexible container in Flexbox layout?",
+        "options": [
+          "display: flex;",
+          "flex: 1;",
+          "flex-direction: column;",
+          "align-items: center;"
+        ],
+        "correct_option": 0,
+        "hint": "This property is used to define a flex container."
+      },
+      {
+        "question": "In a CSS Grid layout, what does the 'fr' unit represent?",
+        "options": [
+          "Fraction of free space",
+          "Fixed ratio",
+          "Flexible response",
+          "Fraction of the grid"
+        ],
+        "correct_option": 0,
+        "hint": "This unit is used to distribute space within the grid."
+      },
+      {
+        "question": "What is the purpose of the 'viewport' meta tag in responsive web design?",
+        "options": [
+          "To define responsive breakpoints",
+          "To set the initial scale of the webpage",
+          "To apply CSS styles conditionally",
+          "To enable CSS Grid features"
+        ],
+        "correct_option": 1,
+        "hint": "This meta tag is crucial for controlling how a webpage is scaled on different devices."
+      },
+      {
+        "question": "How would you write a media query targeting devices with a maximum width of 768px?",
+        "options": [
+          "@media screen and (max-width: 768px)",
+          "@media only screen and (width: 768px)",
+          "@media all and (min-width: 768px)",
+          "@media screen and (device-width: 768px)"
+        ],
+        "correct_option": 0,
+        "hint": "This query is often used for tablets."
+      },
+      {
+        "question": "What is the default flex-direction value in a Flexbox container?",
+        "options": [
+          "row",
+          "column",
+          "row-reverse",
+          "column-reverse"
+        ],
+        "correct_option": 0,
+        "hint": "Flex items are arranged horizontally by default."
+      }
+    ]
+  }
+}

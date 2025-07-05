@@ -16,105 +16,145 @@
     "multithreading"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://nodejs.org/api/test.html",
-        "description": "The Node.js Test API documentation provides detailed information on the built-in test module for writing and running tests in Node.js applications."
-      },
-      {
-        "url": "https://nodejs.org/api/stream.html",
-        "description": "Comprehensive documentation on Node.js stream module for handling streaming data."
-      },
-      {
-        "url": "https://nodejs.org/api/os.html",
-        "description": "The Node.js OS module documentation provides methods for interacting with the operating system's underlying functionalities."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/go-language/go-concurrency-and-parallelism/",
-        "description": "An introduction to concurrency and parallelism in Go, detailing how to effectively manage multiple goroutines for efficient program execution."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/operating-systems/difference-between-concurrency-and-parallelism/",
-        "description": "This resource explains the key differences between concurrency and parallelism in operating systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/python-program-with-concurrency/",
-        "description": "This resource provides a guide on implementing concurrency in Python programs using various techniques."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/java/java-util-concurrent-package/",
-        "description": "An overview of the java.util.concurrent package, detailing its classes and interfaces for concurrent programming in Java."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/cpp/cpp-concurrency/",
-        "description": "A comprehensive guide to understanding and implementing concurrency in C++ programming."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=RlM9AfWf1WU",
-      "https://www.youtube.com/watch?v=olYdb0DdGtM",
-      "https://www.youtube.com/watch?v=r_MbozD32eo",
-      "https://www.youtube.com/watch?v=VL5dILBZ46o",
-      "https://www.youtube.com/watch?v=B9uR2gLM80E"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary difference between a thread and a process?",
-      "options": [
-        "A thread is a lightweight process, with shared memory space with other threads in the process.",
-        "A thread is heavier than a process, with its own dedicated memory space.",
-        "A process is a lightweight thread, sharing its memory space with other processes.",
-        "A process and a thread are the same, with no differences."
+    "beginner": {
+      "docs": [
+        "https://docs.python.org/3/library/multiprocessing.html",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://docs.prefect.io/v3/get-started",
+        "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/",
+        "https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/"
       ],
-      "correct_option": 0,
-      "hint": "Consider how memory and resources are shared between threads and processes."
+      "notes": [
+        "https://homes.cs.washington.edu/~djg/teachingMaterials/spac/sophomoricParallelismAndConcurrency.pdf",
+        "https://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python",
+        "https://homes.cs.washington.edu/~djg/teachingMaterials/spac/",
+        "https://golangbot.com/concurrency/",
+        "https://www.toptal.com/ruby/ruby-concurrency-and-parallelism-a-practical-primer",
+        "https://jenkov.com/tutorials/java-concurrency/index.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=iEpkP-kkDJ0",
+        "https://www.youtube.com/watch?v=olYdb0DdGtM",
+        "https://www.youtube.com/watch?v=_lvKmkspl1w",
+        "https://www.youtube.com/watch?v=8rEGu20Uw4g&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=18B1pznaU1o",
+        "https://www.youtube.com/watch?v=_uQgGS_VIXM",
+        "https://www.youtube.com/watch?v=Fn0xBsmact4",
+        "https://www.youtube.com/watch?v=vUIkKHKwECs"
+      ]
     },
-    {
-      "question": "Which synchronization primitive is used to allow multiple threads to read but only one to write?",
-      "options": [
-        "Mutex",
-        "Reader-Writer Lock",
-        "Semaphore",
-        "Spinlock"
+    "intermediate": {
+      "docs": [
+        "https://airflow.apache.org/docs/apache-airflow/stable/configurations-ref.html",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://docs.aws.amazon.com/step-functions/latest/dg/state-map-distributed.html"
       ],
-      "correct_option": 1,
-      "hint": "This primitive is specifically designed for scenarios involving multiple readers and a single writer."
+      "notes": [
+        "https://fastapi.tiangolo.com/async/",
+        "https://oxylabs.io/blog/concurrency-vs-parallelism",
+        "https://realpython.com/python-concurrency/",
+        "https://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python",
+        "https://docs.aws.amazon.com/step-functions/latest/dg/state-map-distributed.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=At5mw8T2riY",
+        "https://www.youtube.com/watch?v=fKl2JW_qrso",
+        "https://www.youtube.com/watch?v=3vK4ZPMZZ1E",
+        "https://www.youtube.com/watch?v=CmbNNMdFuQg",
+        "https://www.youtube.com/watch?v=zKrTBH8jqH4",
+        "https://m.youtube.com/watch?v=-xEycsoGoA8&pp=ygUPI29udGhlZ29yb3V0aW5l",
+        "https://www.youtube.com/watch?v=oqeiadeVEGI",
+        "https://www.youtube.com/watch?v=5qQHYxpUq2E"
+      ]
     },
-    {
-      "question": "What is a deadlock in the context of concurrent programming?",
-      "options": [
-        "A situation where threads are executing in parallel without any issues.",
-        "A condition where two or more threads are unable to proceed because each is waiting for the other to release resources.",
-        "A method of ensuring threads do not interfere with each other.",
-        "A type of lock that can be used to prevent race conditions."
+    "advanced": {
+      "docs": [
+        "https://go.dev/doc/",
+        "https://docs.prefect.io/v3/get-started",
+        "https://developer.cisco.com/docs/nso/guides/nso-concurrency-model/",
+        "https://docs.vllm.ai/en/latest/performance/optimization.html",
+        "https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html"
       ],
-      "correct_option": 1,
-      "hint": "Deadlocks involve waiting for resources that never become available."
-    },
-    {
-      "question": "Which of the following is a characteristic of livelock?",
-      "options": [
-        "Threads are perpetually blocked and never make progress.",
-        "Threads keep changing their state in response to each other without making progress.",
-        "Threads execute independently without synchronization issues.",
-        "Threads are deadlocked and cannot proceed."
+      "notes": [
+        "https://www.honeybadger.io/blog/ractors/",
+        "https://testdriven.io/blog/python-concurrency-parallelism/",
+        "https://realpython.com/learning-paths/python-concurrency-parallel-programming/",
+        "https://www.toptal.com/ruby/ruby-concurrency-and-parallelism-a-practical-primer",
+        "https://realpython.com/python-concurrency/"
       ],
-      "correct_option": 1,
-      "hint": "Unlike deadlock, threads in livelock are not blocked but still do not make meaningful progress."
-    },
-    {
-      "question": "What is an example of a parallel programming paradigm?",
-      "options": [
-        "Single-threaded execution",
-        "MapReduce",
-        "Synchronous programming",
-        "Non-blocking I/O"
-      ],
-      "correct_option": 1,
-      "hint": "This paradigm is widely used in handling large scale data processing in parallel."
+      "videos": [
+        "https://www.youtube.com/watch?v=WldMTtUWqTg",
+        "https://www.youtube.com/watch?v=R-z2Hv-7nxk",
+        "https://www.youtube.com/watch?v=w6cqUhSdy-M&pp=ygURI21hcGZ1bmN0aW9uYWxpdHk%3D",
+        "https://www.youtube.com/watch?v=-K11rY57K7k",
+        "https://www.youtube.com/watch?v=RIVcqT2OGPA",
+        "https://www.youtube.com/watch?v=LEcxrLb3OpY",
+        "https://www.youtube.com/watch?v=2eMkNLXAs68",
+        "https://www.youtube.com/watch?v=3vK4ZPMZZ1E"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary difference between a thread and a process?",
+        "options": [
+          "A thread is a lightweight process, with shared memory space with other threads in the process.",
+          "A thread is heavier than a process, with its own dedicated memory space.",
+          "A process is a lightweight thread, sharing its memory space with other processes.",
+          "A process and a thread are the same, with no differences."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how memory and resources are shared between threads and processes."
+      },
+      {
+        "question": "Which synchronization primitive is used to allow multiple threads to read but only one to write?",
+        "options": [
+          "Mutex",
+          "Reader-Writer Lock",
+          "Semaphore",
+          "Spinlock"
+        ],
+        "correct_option": 1,
+        "hint": "This primitive is specifically designed for scenarios involving multiple readers and a single writer."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a deadlock in the context of concurrent programming?",
+        "options": [
+          "A situation where threads are executing in parallel without any issues.",
+          "A condition where two or more threads are unable to proceed because each is waiting for the other to release resources.",
+          "A method of ensuring threads do not interfere with each other.",
+          "A type of lock that can be used to prevent race conditions."
+        ],
+        "correct_option": 1,
+        "hint": "Deadlocks involve waiting for resources that never become available."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a characteristic of livelock?",
+        "options": [
+          "Threads are perpetually blocked and never make progress.",
+          "Threads keep changing their state in response to each other without making progress.",
+          "Threads execute independently without synchronization issues.",
+          "Threads are deadlocked and cannot proceed."
+        ],
+        "correct_option": 1,
+        "hint": "Unlike deadlock, threads in livelock are not blocked but still do not make meaningful progress."
+      },
+      {
+        "question": "What is an example of a parallel programming paradigm?",
+        "options": [
+          "Single-threaded execution",
+          "MapReduce",
+          "Synchronous programming",
+          "Non-blocking I/O"
+        ],
+        "correct_option": 1,
+        "hint": "This paradigm is widely used in handling large scale data processing in parallel."
+      }
+    ]
+  }
 }

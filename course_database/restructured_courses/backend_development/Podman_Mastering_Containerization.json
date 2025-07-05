@@ -23,107 +23,146 @@
     "containerization"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://kubernetes.io/docs/home/",
+        "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html-single/building_running_and_managing_containers/index",
+        "https://www.cio.gov/assets/files/Containerization%20Readiness%20Guide_Final%20_v3.pdf",
+        "https://docs.redhat.com/en-us/documentation/red_hat_enterprise_linux/9/pdf/building_running_and_managing_containers/Red_Hat_Enterprise_Linux-9-Building_running_and_managing_containers-en-US.pdf"
+      ],
+      "notes": [
+        "https://developers.redhat.com/blog/2019/01/15/podman-managing-containers-pods",
+        "https://www.redhat.com/en/blog/run-containers-mac-podman",
+        "https://www.linkedin.com/posts/abhakare_dockercaptain-docker-activity-7229801052349296640-JKvs",
+        "https://docs.redhat.com/en-us/documentation/red_hat_enterprise_linux/9/pdf/building_running_and_managing_containers/Red_Hat_Enterprise_Linux-9-Building_running_and_managing_containers-en-US.pdf",
+        "https://www.udemy.com/course/podman-for-the-absolute-beginners-hands-on-devops/",
+        "https://betterstack.com/community/guides/scaling-docker/podman-run/",
+        "https://edu.anarcho-copy.org/GNU%20Linux%20-%20Unix-Like/Podman/podman-action.pdf"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=YXfA5O5Mr18&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8SVuJQC3D-8",
+        "https://www.youtube.com/watch?v=i7om5emEEgg",
+        "https://www.youtube.com/watch?v=sc-VPf7zPXc",
+        "https://www.youtube.com/watch?v=X7guekGZM20&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8BpCXHJFbQE",
+        "https://www.youtube.com/watch?v=3953PNdFkVw",
+        "https://www.youtube.com/channel/UCLA_wrgCYV2R2ZHgk1xTCqg",
+        "https://www.youtube.com/watch?v=3Fxu-2Ywa7I"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html-single/building_running_and_managing_containers/index",
+        "https://www.cio.gov/assets/files/Containerization%20Readiness%20Guide_Final%20_v3.pdf",
+        "https://kubernetes.io/docs/home/",
+        "https://www.redhat.com/en/blog/run-containers-mac-podman",
+        "https://betterstack.com/community/guides/scaling-docker/podman-run/"
+      ],
+      "notes": [
+        "https://www.redhat.com/en/blog/run-containers-mac-podman",
+        "https://betterstack.com/community/guides/scaling-docker/podman-run/",
+        "https://www.imaginarycloud.com/blog/podman-vs-docker",
+        "https://schoenwald.aero/posts/2025-01-27_podman-multiarch-image/",
+        "https://news.ycombinator.com/item?id=34719137"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=sc-VPf7zPXc",
+        "https://www.youtube.com/watch?v=3953PNdFkVw",
+        "https://www.youtube.com/watch?v=8BpCXHJFbQE",
+        "https://www.youtube.com/watch?v=erp-7MCK5BU",
+        "https://www.youtube.com/watch?v=RgZyX-e6W9E&pp=ygUPI2todXBwa2h1cGFiaGFy",
+        "https://www.youtube.com/watch?v=uo_QN_Dx4oQ",
+        "https://www.youtube.com/watch?v=jGMOixS50pM",
+        "https://www.youtube.com/watch?v=3ev4GX9v1Yg"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "https://cloudnativenow.com/topics/containers/getting-started-with-containers-a-beginners-guide-to-docker-devops/",
+        "https://grafana.com/docs/grafana/latest/setup-grafana/installation/docker/"
+      ],
+      "notes": [
+        "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "https://news.ycombinator.com/item?id=34563353",
+        "https://iximiuz.com/en/posts/container-learning-path/",
+        "https://masteringbackend.com/posts/docker-tutorial",
+        "https://edu.anarcho-copy.org/GNU%20Linux%20-%20Unix-Like/Podman/podman-action.pdf",
+        "https://www.linkedin.com/posts/joe-sabbagh-37912a228_transforming-an-old-laptop-into-a-kubernetes-activity-7272249218793193472-GS4W"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=dzQFBinfHE0",
+        "https://www.youtube.com/watch?v=U1VzcjCB_sY&pp=ygUFI2s4c3c%3D",
+        "https://www.youtube.com/watch?v=jGMOixS50pM",
+        "https://www.youtube.com/watch?v=eVqfmbTn9Ug",
+        "https://www.youtube.com/watch?v=8UyXMtf4uxI"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode",
-        "description": "This page explains JavaScript's strict mode, which enforces stricter parsing and error handling in code."
+        "question": "What is a key feature of Podman that differentiates it from Docker?",
+        "options": [
+          "Podman requires a daemon to run",
+          "Podman is daemonless",
+          "Podman runs only on Windows",
+          "Podman requires root privileges"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how Podman handles processes differently from Docker."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/502",
-        "description": "A detailed explanation of the HTTP 502 Bad Gateway status code, including causes and troubleshooting tips."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/AggregateError",
-        "description": "The page provides documentation on the JavaScript AggregateError object, which represents multiple errors wrapped in a single error object."
+        "question": "Why might a user prefer Podman over Docker for container management?",
+        "options": [
+          "Podman can only be used on MacOS",
+          "Podman runs containers as root by default",
+          "Podman provides a daemonless experience",
+          "Podman does not support Linux environments"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the user's need for a lightweight and secure environment."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.geeksforgeeks.org/devops/how-to-create-a-container-using-podman/",
-        "description": "A guide on using Podman to create and manage containers in a DevOps environment."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/devops/podman/",
-        "description": "An introduction to Podman, its features, and its role in container management within DevOps practices."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/devops/how-to-integrate-podman-with-kubernetes/",
-        "description": "Guide on integrating Podman with Kubernetes for container management and orchestration."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/devops/podman-unshare-command-debugging/",
-        "description": "This resource explains how to use the `podman unshare` command for debugging container issues in DevOps environments."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/devops/rootless-podman/",
-        "description": "An introduction to using rootless Podman for container management in DevOps environments, highlighting its security benefits and setup process."
+        "question": "What is a benefit of Podman's rootless containers?",
+        "options": [
+          "Increased security by not requiring root privileges",
+          "Faster container startup times",
+          "Exclusive to enterprise users",
+          "Limited to Windows environments"
+        ],
+        "correct_option": 0,
+        "hint": "Think about security and permission levels."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=YXfA5O5Mr18",
-      "https://www.youtube.com/watch?v=YXfA5O5Mr18&pp=0gcJCfwAo7VqN5tD",
-      "https://www.youtube.com/watch?v=piwcpd_hWn0",
-      "https://www.youtube.com/watch?v=5ZYGh0vgAbs",
-      "https://www.youtube.com/watch?v=AB04TJvmTO0"
+    "advanced": [
+      {
+        "question": "Which operating system is primarily associated with Podman?",
+        "options": [
+          "Windows",
+          "Linux",
+          "MacOS",
+          "iOS"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the most common environment for containerization."
+      },
+      {
+        "question": "What tag is commonly associated with Podman in discussions about containerization?",
+        "options": [
+          "cloud-computing",
+          "linux",
+          "devops",
+          "windows"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the underlying system Podman is commonly used with."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is a key feature of Podman that differentiates it from Docker?",
-      "options": [
-        "Podman requires a daemon to run",
-        "Podman is daemonless",
-        "Podman runs only on Windows",
-        "Podman requires root privileges"
-      ],
-      "correct_option": 1,
-      "hint": "Think about how Podman handles processes differently from Docker."
-    },
-    {
-      "question": "Why might a user prefer Podman over Docker for container management?",
-      "options": [
-        "Podman can only be used on MacOS",
-        "Podman runs containers as root by default",
-        "Podman provides a daemonless experience",
-        "Podman does not support Linux environments"
-      ],
-      "correct_option": 2,
-      "hint": "Consider the user's need for a lightweight and secure environment."
-    },
-    {
-      "question": "What is a benefit of Podman's rootless containers?",
-      "options": [
-        "Increased security by not requiring root privileges",
-        "Faster container startup times",
-        "Exclusive to enterprise users",
-        "Limited to Windows environments"
-      ],
-      "correct_option": 0,
-      "hint": "Think about security and permission levels."
-    },
-    {
-      "question": "Which operating system is primarily associated with Podman?",
-      "options": [
-        "Windows",
-        "Linux",
-        "MacOS",
-        "iOS"
-      ],
-      "correct_option": 1,
-      "hint": "Consider the most common environment for containerization."
-    },
-    {
-      "question": "What tag is commonly associated with Podman in discussions about containerization?",
-      "options": [
-        "cloud-computing",
-        "linux",
-        "devops",
-        "windows"
-      ],
-      "correct_option": 1,
-      "hint": "Think about the underlying system Podman is commonly used with."
-    }
-  ],
   "preferred_if": [
     "User prefers a daemonless and rootless container environment"
   ]

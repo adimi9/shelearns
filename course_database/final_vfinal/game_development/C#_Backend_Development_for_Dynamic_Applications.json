@@ -1,0 +1,519 @@
+{
+  "id": "GD22",
+  "name": "C# Backend Development for Dynamic Applications",
+  "category": "Game Development",
+  "primary_tech": "C#",
+  "topics": [
+    "Introduction to C# and .NET Framework",
+    "Object-Oriented Programming with C#",
+    "Building RESTful APIs with ASP.NET Core",
+    "Database Integration and Entity Framework",
+    "Asynchronous Programming and Multithreading",
+    "Security Best Practices for C# Applications",
+    "Deploying C# Applications on Cloud Platforms"
+  ],
+  "recommended": false,
+  "tags": [
+    "csharp",
+    "backend-development",
+    "api-design",
+    "dotnet",
+    "asynchronous-programming"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/",
+          "description": "Official Microsoft documentation for .NET development and programming.",
+          "title": ".NET documentation | Microsoft Learn"
+        },
+        {
+          "url": "https://firebase.google.com/docs/auth",
+          "description": "Comprehensive documentation on implementing authentication using Firebase.",
+          "title": "Firebase Authentication"
+        },
+        {
+          "url": "https://platform.openai.com/docs/api-reference/introduction",
+          "description": "An introductory guide to using OpenAI's API, covering key concepts and setup instructions.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://firebase.google.com/docs/firestore/quickstart",
+          "description": "A quickstart guide to setting up and using Cloud Firestore in Firebase applications.",
+          "title": "Get started with Cloud Firestore  |  Firebase"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
+          "description": "A video tutorial on ASP.NET development and its key features.",
+          "title": "Learn FULL STACK Web Development in 2 HOURS! ASP.NET & Angular",
+          "duration": "116m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=ZX12X-ALwGA",
+          "description": "A tutorial video on building a full-stack application using React and Node.js.",
+          "title": "CREATE and CONNECT DATABASES in ASP.NET",
+          "duration": "18m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pmWFzzU_NB4",
+          "description": "A detailed explanation of how to implement caching strategies in web applications.",
+          "title": "C# Razor Pages - Complete Tutorial",
+          "duration": "25m"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-aspnet-core?view=vs-2022",
+          "description": "A beginner's tutorial for building a web app using ASP.NET Core and C# in Visual Studio 2022.",
+          "title": "Tutorial: Create C# ASP.NET Core web application - Visual Studio (Windows) | Microsoft Learn"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WfMHUp8tOVE",
+          "description": "An informative video tutorial on implementing OAuth 2.0 authentication in web applications.",
+          "title": "Blazor Tutorial | CRUD With Blazor, Step By Step | .NET 7",
+          "duration": "146m"
+        },
+        {
+          "url": "https://dotnet.microsoft.com/en-us/apps/aspnet",
+          "description": "An overview of building modern web apps with ASP.NET on the .NET platform.",
+          "title": "ASP.NET Core, an open-source web development framework | .NET"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
+          "title": "Learn FULL STACK Web Development in 2 HOURS! ASP.NET & Angular",
+          "duration": "116m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pmWFzzU_NB4",
+          "title": "C# Razor Pages - Complete Tutorial",
+          "duration": "25m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WfMHUp8tOVE",
+          "title": "Blazor Tutorial | CRUD With Blazor, Step By Step | .NET 7",
+          "duration": "146m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+          "title": "C# Tutorial For Beginners - Learn C# Basics in 1 Hour",
+          "duration": "70m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=t-JKbw21Gzw",
+          "title": "Create a web application with C#, Visual Studio and ASP.NET Core",
+          "duration": "13m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+          "title": "Back-End Web Development (Tutorial for Beginners)",
+          "duration": "188m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3Lfs5fAc1bU",
+          "title": "Microsoft Dynamics 365 Sales (CRM): Tutorial for Beginners",
+          "duration": "47m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=ZX12X-ALwGA",
+          "title": "CREATE and CONNECT DATABASES in ASP.NET",
+          "duration": "18m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=NfUccG5faBQ",
+          "title": "ViewModels in ASP.NET MVC applications - This is how it works",
+          "duration": "7m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XMGOfJxnH7s",
+          "title": "Create and Deploy a Website with REACT and VITE in under 10 minutes",
+          "duration": "8m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/auth",
+          "description": "Official Firebase documentation for implementing authentication in web and mobile apps.",
+          "title": "Firebase Authentication"
+        },
+        {
+          "url": "https://developer.spotify.com/documentation/web-api",
+          "description": "Official documentation for Spotify's Web API, offering tools for accessing and managing Spotify data.",
+          "title": "Web API | Spotify for Developers"
+        },
+        {
+          "url": "https://firebase.google.com/docs",
+          "description": "Official documentation for Firebase, Google's mobile and web application development platform.",
+          "title": "Firebase Documentation"
+        },
+        {
+          "url": "https://developer-docs.amazon.com/sp-api/docs/sp-api-sandbox",
+          "description": "Documentation on using the Amazon Selling Partner API sandbox for testing applications.",
+          "title": "Selling Partner API Sandbox"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics",
+          "description": "Guidance on using Azure Monitor to track custom events and metrics in applications.",
+          "title": "Application Insights API for custom events and metrics - Azure Monitor | Microsoft Learn"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://community.dynamics.com/forums/thread/details/?threadid=36609b5f-897f-4ff3-81c6-0b1aa1efe10b",
+          "description": "Discussion thread addressing issues with Microsoft Dynamics 365 Business Central integration.",
+          "title": "I want to Become CRM Developer, How do i start with it?"
+        },
+        {
+          "url": "https://www.browserstack.com/guide/best-language-for-web-development",
+          "description": "A guide to choosing the best programming language for web development.",
+          "title": "13 Best Languages for Web Development in 2025 | BrowserStack"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/azure-app-configuration/feature-management-dotnet-reference",
+          "description": "A reference guide for implementing feature management in .NET using Azure App Configuration.",
+          "title": ".NET feature flag management - Azure App Configuration | Microsoft Learn"
+        },
+        {
+          "url": "https://codelabs.developers.google.com/",
+          "description": "Interactive tutorials for developers to learn and practice coding skills using Google's technologies.",
+          "title": "Google Codelabs"
+        },
+        {
+          "url": "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps",
+          "description": "An overview of building web applications using ASP.NET on the .NET platform.",
+          "title": "ASP.NET Web Apps - HTML, CSS, JavaScript, and C# | .NET"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
+          "title": "Learn FULL STACK Web Development in 2 HOURS! ASP.NET & Angular",
+          "duration": "116m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1sOTTXlIhZo",
+          "title": "Supercharge Your C# Code: Integrating Python using Python.NET",
+          "duration": "14m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3Lfs5fAc1bU",
+          "title": "Microsoft Dynamics 365 Sales (CRM): Tutorial for Beginners",
+          "duration": "47m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hw6oTjw9_Ro&pp=0gcJCfwAo7VqN5tD",
+          "title": "Use AI to chat with a relational SQL database with natural language!",
+          "duration": "22m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=54ZmhbpjBmg",
+          "title": "Build a WPF MVVM Application - START TO FINISH TUTORIAL",
+          "duration": "244m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fvxQ8bW0vO8",
+          "title": "Getting Started With Keycloak Identity Provider (free Identity Server alternative)",
+          "duration": "12m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+          "title": "Model Driven Power Apps FULL COURSE for Beginners [UPDATED 2024 Edition]",
+          "duration": "141m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PXtFq5wmGt0",
+          "title": "Azure API Management Deep Dive",
+          "duration": "70m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/",
+          "description": "Official Microsoft documentation for .NET development and resources.",
+          "title": ".NET documentation | Microsoft Learn"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "An extensive resource for learning and mastering JavaScript development.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/",
+          "description": "Official Microsoft documentation hub for various products and services.",
+          "title": "Microsoft Learn: Build skills that open doors in your career"
+        },
+        {
+          "url": "https://shopify.dev/docs/api",
+          "description": "Official documentation for Shopify's API, detailing how to integrate and manage Shopify stores programmatically.",
+          "title": "Shopify API, libraries, and tools"
+        },
+        {
+          "url": "https://codelabs.developers.google.com/",
+          "description": "Interactive coding tutorials for learning Google technologies and tools.",
+          "title": "Google Codelabs"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview",
+          "description": "An overview of Azure Application Insights for monitoring and analyzing application performance.",
+          "title": "Application Insights OpenTelemetry observability overview - Azure Monitor | Microsoft Learn"
+        },
+        {
+          "url": "https://codelabs.developers.google.com/",
+          "description": "Interactive tutorials for learning Google technologies and APIs.",
+          "title": "Google Codelabs"
+        },
+        {
+          "url": "https://www.turing.com/interview-questions/c-sharp",
+          "description": "A curated list of common C# interview questions and answers for developers."
+        },
+        {
+          "url": "https://www.browserstack.com/guide/best-language-for-web-development",
+          "description": "An informative guide on choosing the best programming language for web development.",
+          "title": "13 Best Languages for Web Development in 2025 | BrowserStack"
+        },
+        {
+          "url": "https://learntocodewith.me/posts/backend-development/",
+          "description": "An introductory guide to backend development and its key components.",
+          "title": "The Beginner's Guide to Backend Development"
+        },
+        {
+          "url": "https://www.interviewbit.com/dot-net-interview-questions/",
+          "description": "A collection of commonly asked .NET interview questions with detailed answers.",
+          "title": "Top .NET Interview Questions (2025) - InterviewBit"
+        },
+        {
+          "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+          "description": "A detailed guide on setting up and managing self-hosted services and applications.",
+          "title": "GitHub - mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking."
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=3Lfs5fAc1bU",
+          "title": "Microsoft Dynamics 365 Sales (CRM): Tutorial for Beginners",
+          "duration": "47m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PXtFq5wmGt0",
+          "title": "Azure API Management Deep Dive",
+          "duration": "70m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WfMHUp8tOVE",
+          "title": "Blazor Tutorial | CRUD With Blazor, Step By Step | .NET 7",
+          "duration": "146m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+          "title": "C# Tutorial For Beginners - Learn C# Basics in 1 Hour",
+          "duration": "70m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+          "title": "Model Driven Power Apps FULL COURSE for Beginners [UPDATED 2024 Edition]",
+          "duration": "141m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+          "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
+          "duration": "1274m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0GZMzBB-0dI",
+          "title": "Generating Tickets from Email | Power Automate",
+          "duration": "37m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=q_F4PyW8GTg&pp=ygUGIzEwbmV0",
+          "title": "C# Full Course - Learn C# 10 and .NET 6 in 7 hours",
+          "duration": "420m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main purpose of the .NET Framework in C# development?",
+        "options": [
+          "To provide a platform for running C# applications",
+          "To offer a set of tools for designing user interfaces",
+          "To manage databases in C# applications",
+          "To compile C# code into machine language"
+        ],
+        "correct_option": 0,
+        "hint": "It's a platform that supports running C# applications."
+      },
+      {
+        "question": "Which of the following is a fundamental concept of Object-Oriented Programming in C#?",
+        "options": [
+          "Procedures",
+          "Modules",
+          "Inheritance",
+          "Scripts"
+        ],
+        "correct_option": 2,
+        "hint": "This concept allows new classes to inherit properties from existing ones."
+      },
+      {
+        "question": "What is the primary use of ASP.NET Core in C# development?",
+        "options": [
+          "To build console applications",
+          "To develop desktop applications",
+          "To create RESTful APIs",
+          "To manage memory allocation"
+        ],
+        "correct_option": 2,
+        "hint": "It's used for building web services like RESTful APIs."
+      },
+      {
+        "question": "Which library is commonly used for database integration in C# applications?",
+        "options": [
+          "Entity Framework",
+          "Django",
+          "React",
+          "Bootstrap"
+        ],
+        "correct_option": 0,
+        "hint": "It's an ORM framework for C#."
+      },
+      {
+        "question": "Why is asynchronous programming important in C#?",
+        "options": [
+          "It improves user interface design",
+          "It helps in writing cleaner code",
+          "It allows programs to run multiple tasks simultaneously",
+          "It simplifies error handling"
+        ],
+        "correct_option": 2,
+        "hint": "This type of programming helps in managing multiple tasks at the same time."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is a key feature of the .NET Framework that supports C# development?",
+        "options": [
+          "Garbage Collection",
+          "Multiple Inheritance",
+          "Pointer Arithmetic",
+          "Template Metaprogramming"
+        ],
+        "correct_option": 0,
+        "hint": "This feature helps in automatic memory management."
+      },
+      {
+        "question": "In C#, how do you define a class that implements an interface?",
+        "options": [
+          "class MyClass : IMyInterface",
+          "class MyClass implements IMyInterface",
+          "interface MyClass : IMyInterface",
+          "class MyClass inherits IMyInterface"
+        ],
+        "correct_option": 0,
+        "hint": "Use a colon to implement an interface."
+      },
+      {
+        "question": "Which ASP.NET Core feature is essential for building RESTful APIs?",
+        "options": [
+          "Middleware",
+          "ViewState",
+          "WebForms",
+          "SignalR"
+        ],
+        "correct_option": 0,
+        "hint": "This feature allows handling HTTP requests and responses."
+      },
+      {
+        "question": "What is the primary purpose of using Entity Framework in a C# application?",
+        "options": [
+          "To manage user interface components",
+          "To handle background tasks",
+          "To map objects to database tables",
+          "To perform data encryption"
+        ],
+        "correct_option": 2,
+        "hint": "Entity Framework deals with database operations."
+      },
+      {
+        "question": "In C#, what keyword is used to indicate that a method will run asynchronously?",
+        "options": [
+          "async",
+          "await",
+          "task",
+          "future"
+        ],
+        "correct_option": 0,
+        "hint": "This keyword is used in the method signature."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary function of the Common Language Runtime (CLR) in the .NET Framework?",
+        "options": [
+          "To compile C# code into machine code",
+          "To manage memory and execute .NET programs",
+          "To provide a graphical interface for development",
+          "To integrate third-party libraries into C# projects"
+        ],
+        "correct_option": 1,
+        "hint": "The CLR handles memory management and execution of code."
+      },
+      {
+        "question": "In C#, which of the following keywords is used to define an asynchronous method?",
+        "options": [
+          "await",
+          "async",
+          "task",
+          "yield"
+        ],
+        "correct_option": 1,
+        "hint": "This keyword is placed before the method's return type."
+      },
+      {
+        "question": "Which design pattern is commonly used to handle database changes in Entity Framework?",
+        "options": [
+          "Singleton Pattern",
+          "Observer Pattern",
+          "Repository Pattern",
+          "Strategy Pattern"
+        ],
+        "correct_option": 2,
+        "hint": "This pattern is used to abstract the logic for accessing data."
+      },
+      {
+        "question": "When deploying a C# application to a cloud platform, which of the following factors is least important to consider?",
+        "options": [
+          "CPU architecture of the cloud servers",
+          "Scalability of the application",
+          "Security configurations",
+          "Network latency"
+        ],
+        "correct_option": 0,
+        "hint": "Cloud platforms often abstract hardware specifics from the developers."
+      },
+      {
+        "question": "In ASP.NET Core, which attribute would you use to secure a controller action so that only authenticated users can access it?",
+        "options": [
+          "[Authorize]",
+          "[ValidateAntiForgeryToken]",
+          "[RequireHttps]",
+          "[HttpPost]"
+        ],
+        "correct_option": 0,
+        "hint": "This attribute ensures that only authenticated users can access the resource."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User wants faster development time",
+    "Less concern for low-level control"
+  ]
+}

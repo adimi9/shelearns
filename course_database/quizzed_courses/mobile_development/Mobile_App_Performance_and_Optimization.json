@@ -1,0 +1,271 @@
+{
+  "id": "MD1",
+  "name": "Mobile App Performance & Optimization",
+  "category": "Mobile Development",
+  "primary_tech": "Performance",
+  "topics": [
+    "Memory Management",
+    "Battery Usage Optimization",
+    "UI Responsiveness (Jank/Lag)",
+    "Network Efficiency"
+  ],
+  "recommended": true,
+  "tags": [
+    "optimization",
+    "performance",
+    "profiling"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://developer.chrome.com/docs/lighthouse/overview",
+        "https://docs.pytorch.org/executorch/",
+        "https://firebase.google.com/docs/perf-mon",
+        "https://developers.google.com/analytics"
+      ],
+      "notes": [
+        "https://appradar.com/academy/what-is-app-store-optimization-aso",
+        "https://developer.chrome.com/docs/lighthouse/overview",
+        "https://www.sciencedirect.com/science/article/pii/S2772391724000689",
+        "https://www.callstack.com/ebooks/the-ultimate-guide-to-react-native-optimization",
+        "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview",
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=BZrio_G_1Cs",
+        "https://www.youtube.com/watch?v=5ZGT1ASqYss",
+        "https://www.youtube.com/watch?v=kJ5I9md9NG4",
+        "https://www.youtube.com/watch?v=dhCc0Av2U50",
+        "https://m.youtube.com/watch?v=UN0ZDfs2Jgw&t=195s",
+        "https://www.youtube.com/watch?v=s3RyKjnqz_E",
+        "https://www.youtube.com/watch?v=wdYdGefgQhs",
+        "https://www.youtube.com/watch?v=_Y7g_1vuQkY&pp=ygUXI3BhZ2VwZXJmb3JtYW5jZW1ldHJpY3M%3D"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developer.android.com/topic/performance/app-optimization/enable-app-optimization",
+        "https://developer.chrome.com/docs/lighthouse/overview",
+        "https://firebase.google.com/docs/perf-mon"
+      ],
+      "notes": [
+        "https://www.mckinsey.com/~/media/mckinsey/featured%20insights/artificial%20intelligence/notes%20from%20the%20ai%20frontier%20applications%20and%20value%20of%20deep%20learning/notes-from-the-ai-frontier-insights-from-hundreds-of-use-cases-discussion-paper.pdf",
+        "https://developer.android.com/topic/performance/app-optimization/enable-app-optimization",
+        "https://developer.arm.com/Tools%20and%20Software/Arm%20Performance%20Studio",
+        "https://www.browserstack.com/guide/performance-testing-tools",
+        "https://docs.aws.amazon.com/connect/latest/adminguide/amazon-connect-release-notes.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=oX9aIzejaSc&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Hh5zcT2IkaQ",
+        "https://www.youtube.com/watch?v=5ZGT1ASqYss",
+        "https://www.youtube.com/watch?v=Qwb-Za6cBws",
+        "https://www.youtube.com/watch?v=ZeZPmC861E8",
+        "https://www.youtube.com/watch?v=KeLKqqkK2eU",
+        "https://www.youtube.com/watch?v=ZY0SQRBixVU",
+        "https://www.youtube.com/watch?v=pDhExB4y5WU&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=FI8htXD2gE0&pp=0gcJCf0Ao7VqN5tD"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "https://docs.nvidia.com/",
+        "https://developers.google.com/analytics",
+        "https://developer.chrome.com/docs/devtools",
+        "https://developer.android.com/topic/performance/overview"
+      ],
+      "notes": [
+        "https://www.linkedin.com/posts/tunirkapil_best-practice-guide-for-designing-stories-activity-7258161350005149697-yqNU",
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "https://splitmetrics.com/glossary/apple-search-ads-advanced/",
+        "https://open.spotify.com/episode/6DN8MMB2C5guyFSPSljmCt",
+        "https://support.google.com/google-ads/answer/9702955?hl=en"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=BZrio_G_1Cs",
+        "https://www.youtube.com/watch?v=QsFofOx8I_E",
+        "https://www.youtube.com/watch?v=J9JkY9aMLJs&pp=0gcJCX4JAYcqIYzv",
+        "https://www.youtube.com/watch?v=6IL7-EmUhQ0&pp=ygUXI2dvb2dsZXdlYnNpdGVzcGVlZHRlc3Q%3D",
+        "https://www.youtube.com/watch?v=iBiNfa32AnE",
+        "https://www.youtube.com/watch?v=0fONene3OIA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=dj4kNnj4FAQ",
+        "https://www.youtube.com/watch?v=_Y7g_1vuQkY&pp=ygUXI3BhZ2VwZXJmb3JtYW5jZW1ldHJpY3M%3D",
+        "https://www.youtube.com/watch?v=kJ5I9md9NG4"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a common technique to manage memory usage in mobile apps?",
+        "options": [
+          "Garbage collection",
+          "Manual memory allocation",
+          "Direct memory access",
+          "Virtual memory mapping"
+        ],
+        "correct_option": 0,
+        "hint": "This technique automatically reclaims memory by deleting unused objects."
+      },
+      {
+        "question": "Which of the following can help optimize battery usage in a mobile app?",
+        "options": [
+          "Keeping the screen on at all times",
+          "Using background services minimally",
+          "Running all processes in the foreground",
+          "Increasing screen brightness"
+        ],
+        "correct_option": 1,
+        "hint": "Reducing the number of processes running when not in use can help save battery."
+      },
+      {
+        "question": "What is a jank in mobile app UI responsiveness?",
+        "options": [
+          "A smooth UI animation",
+          "A delay or lag in UI response",
+          "A type of network protocol",
+          "An optimized memory allocation"
+        ],
+        "correct_option": 1,
+        "hint": "It refers to noticeable interruptions or delays in the user interface."
+      },
+      {
+        "question": "Which practice improves network efficiency in mobile apps?",
+        "options": [
+          "Sending frequent small packets of data",
+          "Batching network requests",
+          "Using high-resolution images",
+          "Constantly checking for updates"
+        ],
+        "correct_option": 1,
+        "hint": "Grouping network requests can reduce the number of calls and save resources."
+      },
+      {
+        "question": "How can developers reduce memory leaks in mobile applications?",
+        "options": [
+          "Avoid using any third-party libraries",
+          "Frequently restarting the app",
+          "Properly releasing resources when they are no longer needed",
+          "Doubling the app's memory allocation"
+        ],
+        "correct_option": 2,
+        "hint": "It's important to clean up resources that are no longer in use to prevent leaks."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary goal of memory management in mobile app development?",
+        "options": [
+          "To reduce the app size",
+          "To prevent memory leaks and optimize resource usage",
+          "To increase battery life",
+          "To enhance graphics quality"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the stability and sustainability of the app's runtime."
+      },
+      {
+        "question": "Which technique is most effective for reducing battery usage in mobile apps?",
+        "options": [
+          "Using static images instead of animations",
+          "Minimizing background operations and using efficient algorithms",
+          "Increasing the app's cache size",
+          "Utilizing high-resolution assets"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the impact of ongoing processes on device resources."
+      },
+      {
+        "question": "What is a common cause of UI jank or lag in mobile applications?",
+        "options": [
+          "Infrequent app updates",
+          "Excessive use of static layouts",
+          "Long-running operations on the main thread",
+          "High network latency"
+        ],
+        "correct_option": 2,
+        "hint": "Think about what might block the UI from responding smoothly."
+      },
+      {
+        "question": "How can developers improve network efficiency in mobile applications?",
+        "options": [
+          "By compressing data before transmission",
+          "By using higher resolution images",
+          "By increasing the frequency of network requests",
+          "By caching every network call"
+        ],
+        "correct_option": 0,
+        "hint": "Consider techniques that reduce the amount of data sent over the network."
+      },
+      {
+        "question": "Which of the following practices is important for optimizing UI responsiveness?",
+        "options": [
+          "Running resource-intensive tasks on the UI thread",
+          "Implementing lazy loading for off-screen elements",
+          "Increasing the frame rate of animations",
+          "Prioritizing aesthetics over functionality"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how to balance workload distribution across different threads."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary reason for high battery consumption in mobile apps when using frequent GPS updates?",
+        "options": [
+          "Increased CPU usage",
+          "Continuous network requests",
+          "High memory allocation",
+          "Constant sensor activation"
+        ],
+        "correct_option": 3,
+        "hint": "Consider the components that remain active due to GPS."
+      },
+      {
+        "question": "Which tool is most effective for detecting memory leaks in an Android application?",
+        "options": [
+          "Android Profiler",
+          "Logcat",
+          "ADB Shell",
+          "ProGuard"
+        ],
+        "correct_option": 0,
+        "hint": "This tool is part of the Android Studio suite."
+      },
+      {
+        "question": "How can developers minimize jank in a mobile app UI?",
+        "options": [
+          "Decrease network request intervals",
+          "Use a higher resolution for images",
+          "Optimize rendering code",
+          "Increase the number of background threads"
+        ],
+        "correct_option": 2,
+        "hint": "Focus on the process that draws the user interface."
+      },
+      {
+        "question": "What is a common strategy to reduce battery usage related to network activity in mobile apps?",
+        "options": [
+          "Batch network requests",
+          "Use higher resolution images",
+          "Increase GPS usage",
+          "Reduce screen brightness"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how to manage multiple requests efficiently."
+      },
+      {
+        "question": "In iOS development, which method is crucial for releasing memory when an object is no longer needed?",
+        "options": [
+          "retain()",
+          "release()",
+          "deinit",
+          "alloc()"
+        ],
+        "correct_option": 2,
+        "hint": "This method is part of Swift's ARC system."
+      }
+    ]
+  }
+}

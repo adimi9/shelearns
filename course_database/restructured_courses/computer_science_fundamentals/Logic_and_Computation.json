@@ -16,105 +16,151 @@
     "foundations"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://beta.reactjs.org/learn/you-might-not-need-an-effect",
-        "description": "This resource explains scenarios in React where effects may be unnecessary and offers alternative approaches to achieve the same outcomes."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
-        "description": "The WebGPU API documentation provides information on using the WebGPU API for performing high-performance 3D graphics and computation on the web."
-      },
-      {
-        "url": "https://beta.reactjs.org/learn/keeping-components-pure",
-        "description": "This resource provides guidance on ensuring React components remain pure by avoiding side effects and maintaining predictable behavior."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://forum.freecodecamp.org/t/stuck-with-the-calculator-logic/351659",
-        "description": "Discussion on troubleshooting and resolving logic issues in a calculator project on the FreeCodeCamp forum."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/digital-logic/digital-electronics-logic-design-tutorials/",
-        "description": "A comprehensive guide to digital electronics and logic design concepts, covering fundamental principles and practical applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/python/compute-element-wise-logical-and-or-and-not-of-tensors-in-pytorch/",
-        "description": "This resource explains how to perform element-wise logical operations (AND, OR, NOT) on tensors using PyTorch."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/maths/introduction-to-mathematical-logic/",
-        "description": "This resource provides an introduction to the fundamental concepts and principles of mathematical logic."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/artificial-intelligence/fuzzy-logic-introduction/",
-        "description": "An introductory guide to the principles and applications of fuzzy logic in artificial intelligence."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=gI-qXk7XojA",
-      "https://www.youtube.com/watch?v=1I5ZMmrOfnA",
-      "https://www.youtube.com/watch?v=qwcXnG2D7Hk",
-      "https://www.youtube.com/watch?v=JVjv0CCzHok",
-      "https://www.youtube.com/watch?v=2SpuBqvNjHI"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which of the following statements is a valid tautology in propositional logic?",
-      "options": [
-        "A ∨ ¬A",
-        "A ∧ ¬A",
-        "A ∨ B",
-        "A ∧ B"
+    "beginner": {
+      "docs": [
+        "https://docs.nvidia.com/cuda/parallel-thread-execution/",
+        "https://support.google.com/docs/table/25273?hl=en",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://learn.microsoft.com/en-us/azure/"
       ],
-      "correct_option": 0,
-      "hint": "Consider the law of excluded middle."
+      "notes": [
+        "https://www.youtube.com/watch?v=_V8eKsto3Ug",
+        "https://microsoft.github.io/z3guide/docs/logic/intro/",
+        "https://www.youtube.com/watch?v=lAKhT_PNZTE&pp=0gcJCfwAo7VqN5tD",
+        "https://www.ps.uni-saarland.de/courses/cl-ss14/script/icl.pdf",
+        "https://www.youtube.com/watch?v=b0ll-MGDdpY",
+        "https://pubs.aip.org/aip/jap/article/128/16/161101/568458/Introduction-to-spin-wave-computing",
+        "https://www.youtube.com/watch?v=EdluePUJbAQ"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_V8eKsto3Ug",
+        "https://www.youtube.com/watch?v=EdluePUJbAQ&pp=ygUTI2lmc2Z1bmN0aW9uaW5leGNlbA%3D%3D",
+        "https://www.youtube.com/watch?v=LeCwNLwoMkA",
+        "https://www.youtube.com/watch?v=b0ll-MGDdpY",
+        "https://www.youtube.com/watch?v=OER3ziGPSMw",
+        "https://www.youtube.com/watch?v=lAKhT_PNZTE&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=YwGKfOYoOcs",
+        "https://www.youtube.com/watch?v=hgkWSqAMcKc",
+        "https://www.youtube.com/c/ComputingTutor",
+        "https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo"
+      ]
     },
-    {
-      "question": "In predicate logic, which of the following is a valid existential quantifier statement?",
-      "options": [
-        "∀x (P(x) → Q(x))",
-        "∃x (P(x) ∧ ¬Q(x))",
-        "∀x (¬P(x) ∧ Q(x))",
-        "∃x (P(x) → Q(x))"
+    "intermediate": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/azure/logic-apps/workflow-definition-language-functions-reference",
+        "https://docs.databricks.com/aws/en/jobs/configure-job",
+        "https://learn.microsoft.com/en-us/azure/logic-apps/logic-apps-limits-and-config",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/"
       ],
-      "correct_option": 1,
-      "hint": "Existential quantifiers are used to express that a statement is true for some elements in the domain."
+      "notes": [
+        "https://libguides.library.kent.edu/SPSS/ComputeVariables",
+        "https://learn.microsoft.com/en-us/azure/logic-apps/tutorial-build-schedule-recurring-logic-app-workflow",
+        "https://help.tableau.com/current/pro/desktop/en-us/functions_functions_logical.htm",
+        "https://www.gravityforms.com/blog/gravity-forms-calculations-tutorial/",
+        "https://www.datacamp.com/tutorial/how-to-use-chat-gpt-code-interpreter",
+        "https://knowledge.dataiku.com/latest/data-preparation/prepare-recipe/tutorial-visual-logic-processors.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_V8eKsto3Ug",
+        "https://www.youtube.com/watch?v=EdluePUJbAQ",
+        "https://m.youtube.com/watch?v=KkTaQ5OjAGc&t=305s",
+        "https://www.youtube.com/watch?v=yoV0l6C_Gn8",
+        "https://www.youtube.com/watch?v=UOjtJkTQU4Y",
+        "https://www.youtube.com/watch?v=VCEYeB3bRW0&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=M6sXdYg_EP0",
+        "https://www.youtube.com/channel/UCzMhSFyYEO8BjZHHtEW8KkA"
+      ]
     },
-    {
-      "question": "What is the primary difference between a DFA and an NFA in automata theory?",
-      "options": [
-        "A DFA has multiple start states, while an NFA has only one.",
-        "A DFA can have epsilon transitions, while an NFA cannot.",
-        "A DFA is deterministic, while an NFA allows for multiple possible transitions for a given input and state.",
-        "A DFA can process only binary strings, while an NFA can process any strings."
+    "advanced": {
+      "docs": [
+        "https://docs.openstack.org/nova/latest/",
+        "https://support.google.com/googlenest/answer/13323253?hl=en",
+        "https://blog.angular-university.io/angular-signals/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://overreacted.io/a-complete-guide-to-useeffect/"
       ],
-      "correct_option": 2,
-      "hint": "Think about how transitions are handled in each type of automaton."
-    },
-    {
-      "question": "Which of the following problems is undecidable?",
-      "options": [
-        "Checking if a Turing machine halts on a given input",
-        "Checking if a context-free grammar generates a given string",
-        "Checking if a graph is bipartite",
-        "Checking if a string is a palindrome"
+      "notes": [
+        "https://www.geeksforgeeks.org/digital-logic/digital-electronics-logic-design-tutorials/",
+        "https://overreacted.io/a-complete-guide-to-useeffect/",
+        "https://blog.angular-university.io/angular-signals/",
+        "https://corporatefinanceinstitute.com/resources/excel/advanced-excel-formulas-must-know/",
+        "https://docs.aws.amazon.com/decision-guides/latest/compute-on-aws-how-to-choose/choosing-aws-compute-service.html",
+        "https://www.datacamp.com/tutorial/sql-contains"
       ],
-      "correct_option": 0,
-      "hint": "Consider problems related to Turing machines and the Halting Problem."
-    },
-    {
-      "question": "In computational complexity theory, what does the class NP represent?",
-      "options": [
-        "Problems that can be solved in polynomial time by a deterministic Turing machine",
-        "Problems for which a solution can be verified in polynomial time by a deterministic Turing machine",
-        "Problems that can be solved in logarithmic space",
-        "Problems that are undecidable"
-      ],
-      "correct_option": 1,
-      "hint": "Focus on the verification aspect rather than solving the problem."
+      "videos": [
+        "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+        "https://www.youtube.com/watch?v=7cHwPFutzbQ",
+        "https://www.youtube.com/watch?v=EdluePUJbAQ",
+        "https://www.youtube.com/watch?v=ZIPRm5SMir4&pp=ygUGI3BkbXBr",
+        "https://www.youtube.com/watch?v=i7tj1tBM-iI",
+        "https://www.youtube.com/watch?v=nECaTrcShKI&pp=ygUPI25vdGlvbmZvcm11bGEy",
+        "https://www.youtube.com/watch?v=iZJz30LSik4",
+        "https://www.youtube.com/watch?v=TTiblx28uT8",
+        "https://www.youtube.com/watch?v=1BLZGe-TqW0"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which of the following statements is a valid tautology in propositional logic?",
+        "options": [
+          "A ∨ ¬A",
+          "A ∧ ¬A",
+          "A ∨ B",
+          "A ∧ B"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the law of excluded middle."
+      },
+      {
+        "question": "In predicate logic, which of the following is a valid existential quantifier statement?",
+        "options": [
+          "∀x (P(x) → Q(x))",
+          "∃x (P(x) ∧ ¬Q(x))",
+          "∀x (¬P(x) ∧ Q(x))",
+          "∃x (P(x) → Q(x))"
+        ],
+        "correct_option": 1,
+        "hint": "Existential quantifiers are used to express that a statement is true for some elements in the domain."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary difference between a DFA and an NFA in automata theory?",
+        "options": [
+          "A DFA has multiple start states, while an NFA has only one.",
+          "A DFA can have epsilon transitions, while an NFA cannot.",
+          "A DFA is deterministic, while an NFA allows for multiple possible transitions for a given input and state.",
+          "A DFA can process only binary strings, while an NFA can process any strings."
+        ],
+        "correct_option": 2,
+        "hint": "Think about how transitions are handled in each type of automaton."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following problems is undecidable?",
+        "options": [
+          "Checking if a Turing machine halts on a given input",
+          "Checking if a context-free grammar generates a given string",
+          "Checking if a graph is bipartite",
+          "Checking if a string is a palindrome"
+        ],
+        "correct_option": 0,
+        "hint": "Consider problems related to Turing machines and the Halting Problem."
+      },
+      {
+        "question": "In computational complexity theory, what does the class NP represent?",
+        "options": [
+          "Problems that can be solved in polynomial time by a deterministic Turing machine",
+          "Problems for which a solution can be verified in polynomial time by a deterministic Turing machine",
+          "Problems that can be solved in logarithmic space",
+          "Problems that are undecidable"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on the verification aspect rather than solving the problem."
+      }
+    ]
+  }
 }

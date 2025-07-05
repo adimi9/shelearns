@@ -15,105 +15,149 @@
     "frontend"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        "description": "Comprehensive documentation and resources for learning and mastering JavaScript on the web."
-      },
-      {
-        "url": "https://reactjs.org/",
-        "description": "The ReactJS official website provides comprehensive documentation and resources for building user interfaces using the React JavaScript library."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
-        "description": "This resource provides detailed information on the JavaScript `Array.prototype.slice()` method, which returns a shallow copy of a portion of an array into a new array object."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/typescript/",
-        "description": "A comprehensive guide to learning TypeScript, including tutorials, examples, and references."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/typescript/typescript-tutorial/",
-        "description": "A comprehensive tutorial introducing TypeScript, covering its features and how to effectively use it in programming."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/can-i-learn-javascript-and-typescript-together/147112",
-        "description": "Discussion on the feasibility and benefits of learning JavaScript and TypeScript simultaneously."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-to-build-a-simple-game-in-the-browser-with-phaser-3-and-typescript-bdc94719135/",
-        "description": "A guide on creating a simple browser game using Phaser 3 and TypeScript."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/angular-for-beginners-course/",
-        "description": "A beginner-friendly course introducing the fundamentals of Angular for building dynamic web applications."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=d56mG7DezGs",
-      "https://www.youtube.com/watch?v=zQnBQ4tB3ZA",
-      "https://www.youtube.com/watch?v=ydkQlJhodio",
-      "https://www.youtube.com/watch?v=5ChkQKUzDCs",
-      "https://www.youtube.com/watch?v=TPACABQTHvM"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of type annotations in TypeScript?",
-      "options": [
-        "To improve code readability",
-        "To enforce data type constraints",
-        "To enhance runtime performance",
-        "To enable dynamic typing"
+    "beginner": {
+      "docs": [
+        "https://www.typescriptlang.org/",
+        "https://nextjs.org/docs",
+        "https://www.typescriptlang.org/docs/",
+        "https://jestjs.io/docs/getting-started"
       ],
-      "correct_option": 1,
-      "hint": "Type annotations help catch errors at compile time."
+      "notes": [
+        "https://www.youtube.com/watch?v=k5E2AVpwsko&pp=0gcJCfwAo7VqN5tD",
+        "https://www.typescriptlang.org/",
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+        "https://techblog.topdesk.com/coding/front-end-with-typescript-tutorial-step-1-to-3-minimal-typescript/",
+        "https://www.youtube.com/watch?v=61v23Ce5SXA",
+        "https://www.freecodecamp.org/news/angular-for-beginners-course/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=k5E2AVpwsko&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+        "https://www.youtube.com/watch?v=MsnQ5uepIaE&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=61v23Ce5SXA",
+        "https://www.youtube.com/watch?v=xTVQZ46wc28",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://m.youtube.com/watch?v=I2NNxr3WPDo&t=0s",
+        "https://www.youtube.com/DecodedFrontend",
+        "https://www.youtube.com/channel/UC6vRUjYqDuoUsYsku86Lrsw",
+        "https://www.youtube.com/c/ZachGollwitzer"
+      ]
     },
-    {
-      "question": "In TypeScript, what is an interface primarily used for?",
-      "options": [
-        "To define a set of properties and methods for an object",
-        "To manage application state",
-        "To implement inheritance",
-        "To create a user interface design"
+    "intermediate": {
+      "docs": [
+        "https://nextjs.org/docs",
+        "https://jestjs.io/docs/getting-started",
+        "https://react.dev/learn/typescript",
+        "https://docs.amplify.aws/"
       ],
-      "correct_option": 0,
-      "hint": "Interfaces are a way to define the shape of an object."
+      "notes": [
+        "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html",
+        "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+        "https://react.dev/learn/typescript",
+        "https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project",
+        "https://frontendmasters.com/blog/a-complete-guide-to-beginning-with-typescript/",
+        "https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/aem-wknd-tutorial-installation-error/m-p/556710/highlight/true"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=EcCTIExsqmI",
+        "https://www.youtube.com/watch?v=JBSUgDxICg8",
+        "https://www.youtube.com/watch?v=3qBXWUpoPHo",
+        "https://www.youtube.com/watch?v=AS79oJ3Fcf0",
+        "https://www.youtube.com/watch?v=8Xwq35cPwYg",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=vcNtrYfroDY",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o"
+      ]
     },
-    {
-      "question": "How do generics increase the flexibility of functions in TypeScript?",
-      "options": [
-        "By allowing functions to operate on any data type",
-        "By restricting functions to specific data types",
-        "By optimizing code for performance",
-        "By simplifying the syntax of functions"
+    "advanced": {
+      "docs": [
+        "https://www.typescriptlang.org/docs/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://www.typescriptlang.org/docs/handbook/intro.html",
+        "https://nextjs.org/docs",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"
       ],
-      "correct_option": 0,
-      "hint": "Generics help write reusable and flexible code components."
-    },
-    {
-      "question": "Which of the following is a benefit of using TypeScript with React?",
-      "options": [
-        "TypeScript eliminates the need for React components",
-        "TypeScript allows for server-side rendering",
-        "TypeScript provides type safety for React components",
-        "TypeScript automatically styles React components"
+      "notes": [
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://www.typescriptlang.org/docs/",
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+        "https://fullstackopen.com/en/",
+        "https://www.youtube.com/watch?v=d56mG7DezGs",
+        "https://marcobotto.com/blog/the-hitchhikers-guide-to-the-modern-front-end-development-workflow/"
       ],
-      "correct_option": 2,
-      "hint": "Type safety helps prevent runtime errors in React applications."
-    },
-    {
-      "question": "What is a common use of TypeScript in Vue.js applications?",
-      "options": [
-        "To compile Vue templates into JavaScript",
-        "To provide type safety and enhance component structure",
-        "To replace Vue.js directives",
-        "To manage component lifecycle hooks"
-      ],
-      "correct_option": 1,
-      "hint": "TypeScript helps enforce type rules in Vue components."
+      "videos": [
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+        "https://www.youtube.com/watch?v=d56mG7DezGs",
+        "https://www.youtube.com/watch?v=Tef1e9FiSR0",
+        "https://www.youtube.com/watch?v=vcNtrYfroDY",
+        "https://www.youtube.com/watch?v=3qBXWUpoPHo",
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://www.youtube.com/watch?v=Gc4Xh8u19NU"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of type annotations in TypeScript?",
+        "options": [
+          "To improve code readability",
+          "To enforce data type constraints",
+          "To enhance runtime performance",
+          "To enable dynamic typing"
+        ],
+        "correct_option": 1,
+        "hint": "Type annotations help catch errors at compile time."
+      },
+      {
+        "question": "In TypeScript, what is an interface primarily used for?",
+        "options": [
+          "To define a set of properties and methods for an object",
+          "To manage application state",
+          "To implement inheritance",
+          "To create a user interface design"
+        ],
+        "correct_option": 0,
+        "hint": "Interfaces are a way to define the shape of an object."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "How do generics increase the flexibility of functions in TypeScript?",
+        "options": [
+          "By allowing functions to operate on any data type",
+          "By restricting functions to specific data types",
+          "By optimizing code for performance",
+          "By simplifying the syntax of functions"
+        ],
+        "correct_option": 0,
+        "hint": "Generics help write reusable and flexible code components."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a benefit of using TypeScript with React?",
+        "options": [
+          "TypeScript eliminates the need for React components",
+          "TypeScript allows for server-side rendering",
+          "TypeScript provides type safety for React components",
+          "TypeScript automatically styles React components"
+        ],
+        "correct_option": 2,
+        "hint": "Type safety helps prevent runtime errors in React applications."
+      },
+      {
+        "question": "What is a common use of TypeScript in Vue.js applications?",
+        "options": [
+          "To compile Vue templates into JavaScript",
+          "To provide type safety and enhance component structure",
+          "To replace Vue.js directives",
+          "To manage component lifecycle hooks"
+        ],
+        "correct_option": 1,
+        "hint": "TypeScript helps enforce type rules in Vue components."
+      }
+    ]
+  }
 }

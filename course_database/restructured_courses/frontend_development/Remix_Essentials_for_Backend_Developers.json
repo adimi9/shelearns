@@ -23,107 +23,151 @@
     "nodejs"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://www.sanity.io/docs/getting-started",
+        "https://stoplight.io/api-documentation-guide",
+        "https://shopify.dev/docs/api/liquid",
+        "https://developer.android.com/develop/ui/compose/documentation"
+      ],
+      "notes": [
+        "https://www.upwork.com/resources/beginners-guide-back-end-development",
+        "https://www.epicweb.dev/why-i-wont-use-nextjs",
+        "https://www.uspto.gov/trademarks/basics",
+        "https://www.datacamp.com/tutorial/21-essential-python-tools",
+        "https://www.sanity.io/docs/getting-started",
+        "https://tex.stackexchange.com/questions/13509/biblatex-in-a-nutshell-for-beginners",
+        "https://learn.microsoft.com/en-us/windows/wsl/setup/environment"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=CMgxu_P81-o",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=O_WW1Z4iBSg",
+        "https://www.youtube.com/watch?v=Rx9V3Ltiklw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=x4rFhThSX04",
+        "https://www.youtube.com/watch?v=N-PoAGryyq4"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://docs.pytorch.org/docs/stable/quantization.html",
+        "https://stoplight.io/api-documentation-guide",
+        "https://docs.lovable.dev/introduction/introduction"
+      ],
+      "notes": [
+        "https://www.epicweb.dev/why-i-wont-use-nextjs",
+        "https://docs.lovable.dev/introduction/introduction",
+        "https://docs.pytorch.org/docs/stable/quantization.html",
+        "https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project",
+        "https://shopify.dev/docs/apps/build/build"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=iZ_aGK2_82A",
+        "https://www.youtube.com/watch?v=-lgtb-YSUWE&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=bZzyPscbtI8",
+        "https://www.youtube.com/watch?v=CxSL0knFxAs",
+        "https://www.youtube.com/watch?v=uoOwVWVl_eU&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=F-8dft30NOA",
+        "https://m.youtube.com/watch?v=nyiJ3WHNrB4",
+        "https://www.youtube.com/watch?v=SPcwo0Gq9T8",
+        "https://www.youtube.com/c/AlexBerman/community"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://daily.dev/blog/apollos-learning-resources-for-developers",
+        "https://docs.soliditylang.org/",
+        "https://pytorch.org/docs/stable/torch.compiler_dynamo_overview.html",
+        "https://react.dev/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=CMgxu_P81-o",
+        "https://www.linkedin.com/posts/erik-seferi-393438202_cprogramming-raycasting-minilibx-activity-7184576872955928576-cIuN",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.upwork.com/resources/beginners-guide-back-end-development",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://zerotomastery.io/courses/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=CMgxu_P81-o",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://www.youtube.com/watch?v=RceLeh9D85o&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=x4rFhThSX04",
+        "https://www.youtube.com/watch?v=TO4aQ3ghFOc&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=iZ_aGK2_82A"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix",
-        "description": "The MDN Web Docs page explains the CSS `color-mix()` function for blending two colors together."
+        "question": "What is a key feature of Remix that differentiates it from Next.js?",
+        "options": [
+          "Static site generation",
+          "Server-side rendering",
+          "Loaders for data-fetching",
+          "Client-side rendering"
+        ],
+        "correct_option": 2,
+        "hint": "This feature is used to fetch data before rendering the component."
       },
       {
-        "url": "https://reactjs.org/",
-        "description": "Official React documentation providing comprehensive guides and API references for building user interfaces with React."
-      },
-      {
-        "url": "https://reactjs.org/docs/create-a-new-react-app.html",
-        "description": "A guide on how to create a new React application using various tools and templates."
+        "question": "Which of the following is a primary focus of Remix?",
+        "options": [
+          "Static site generation",
+          "Improved client-side navigation",
+          "Web fundamentals",
+          "GraphQL integration"
+        ],
+        "correct_option": 2,
+        "hint": "Remix emphasizes the core principles of the web."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.geeksforgeeks.org/javascript/remix-introduction-installation/",
-        "description": "A guide on introducing and installing Remix, a JavaScript framework for building web applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/javascript/getting-started-with-remix/",
-        "description": "An introductory guide to getting started with the Remix framework for building web applications using JavaScript."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/solidity/steps-to-execute-solidity-smart-contract-using-remix-ide/",
-        "description": "A step-by-step guide on executing Solidity smart contracts using the Remix IDE."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/what-is-remix/",
-        "description": "An introduction to Remix, a full-stack web framework for building modern web applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/javascript/form-vs-fetcher-in-remix/",
-        "description": "This resource explains the differences and use cases between the Form and Fetcher components in the Remix JavaScript framework."
+        "question": "In Remix, what is the purpose of loaders?",
+        "options": [
+          "To bundle JavaScript files",
+          "To handle server-side routing",
+          "To fetch and prepare data for rendering",
+          "To manage client-side state"
+        ],
+        "correct_option": 2,
+        "hint": "Loaders are used to prepare data before a page is rendered."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=d_BhzHVV4aQ",
-      "https://www.youtube.com/watch?v=RBYJTop1e-g",
-      "https://www.youtube.com/watch?v=rw1xAHJnBV8",
-      "https://www.youtube.com/watch?v=Z_33-pco_aA",
-      "https://www.youtube.com/watch?v=HOlYQu_r4Io"
+    "advanced": [
+      {
+        "question": "What type of rendering does Remix primarily support?",
+        "options": [
+          "Client-side rendering",
+          "Server-side rendering",
+          "Static site generation",
+          "Incremental static regeneration"
+        ],
+        "correct_option": 1,
+        "hint": "Remix focuses on rendering content on the server to improve performance and SEO."
+      },
+      {
+        "question": "Which programming language is Remix primarily built with?",
+        "options": [
+          "Python",
+          "Ruby",
+          "JavaScript",
+          "PHP"
+        ],
+        "correct_option": 2,
+        "hint": "Remix is a framework for building React applications, which typically use this language."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is a key feature of Remix that differentiates it from Next.js?",
-      "options": [
-        "Static site generation",
-        "Server-side rendering",
-        "Loaders for data-fetching",
-        "Client-side rendering"
-      ],
-      "correct_option": 2,
-      "hint": "This feature is used to fetch data before rendering the component."
-    },
-    {
-      "question": "Which of the following is a primary focus of Remix?",
-      "options": [
-        "Static site generation",
-        "Improved client-side navigation",
-        "Web fundamentals",
-        "GraphQL integration"
-      ],
-      "correct_option": 2,
-      "hint": "Remix emphasizes the core principles of the web."
-    },
-    {
-      "question": "In Remix, what is the purpose of loaders?",
-      "options": [
-        "To bundle JavaScript files",
-        "To handle server-side routing",
-        "To fetch and prepare data for rendering",
-        "To manage client-side state"
-      ],
-      "correct_option": 2,
-      "hint": "Loaders are used to prepare data before a page is rendered."
-    },
-    {
-      "question": "What type of rendering does Remix primarily support?",
-      "options": [
-        "Client-side rendering",
-        "Server-side rendering",
-        "Static site generation",
-        "Incremental static regeneration"
-      ],
-      "correct_option": 1,
-      "hint": "Remix focuses on rendering content on the server to improve performance and SEO."
-    },
-    {
-      "question": "Which programming language is Remix primarily built with?",
-      "options": [
-        "Python",
-        "Ruby",
-        "JavaScript",
-        "PHP"
-      ],
-      "correct_option": 2,
-      "hint": "Remix is a framework for building React applications, which typically use this language."
-    }
-  ],
   "preferred_if": [
     "User wants modern SSR alternative to Next.js"
   ]

@@ -1,0 +1,286 @@
+{
+  "id": "CS12",
+  "name": "C++ Backend Development Essentials",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "C++",
+  "topics": [
+    "Introduction to C++ Programming",
+    "Object-Oriented Programming with C++",
+    "Data Structures and Algorithms",
+    "Multithreading in C++",
+    "Database Integration using C++",
+    "Building RESTful APIs with C++",
+    "Error Handling and Debugging",
+    "Performance Optimization and Security in C++"
+  ],
+  "recommended": false,
+  "tags": [
+    "C++",
+    "backend",
+    "development",
+    "APIs",
+    "multithreading",
+    "database-integration"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://docs.aws.amazon.com/",
+        "https://firebase.google.com/docs/firestore",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "https://firebase.google.com/docs/database"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://academy.jetbrains.com/",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://mcyoung.xyz/2023/08/01/llvm-ir/",
+        "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+        "https://www.qt.io/academy/course-catalog"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+        "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=HZYbo1y_YdE",
+        "https://www.youtube.com/playlist?list=PLTjRvDozrdlynYXGUfyyMZdrQ0Sz27aud"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://pytorch.org/docs/stable/distributed.html",
+        "https://github.com/Project-OSRM/osrm-backend",
+        "https://docs.pytorch.org/executorch/stable/kernel-library-custom-aten-kernel.html",
+        "https://docs.aws.amazon.com/",
+        "https://docs.pytorch.org/executorch/stable/running-a-model-cpp-tutorial.html"
+      ],
+      "notes": [
+        "https://github.com/Project-OSRM/osrm-backend",
+        "https://edw.is/learning-vulkan/",
+        "https://docs.pytorch.org/tutorials/advanced/extend_dispatcher.html",
+        "https://www.qt.io/academy/course-catalog",
+        "https://docs.pytorch.org/executorch/stable/running-a-model-cpp-tutorial.html",
+        "https://www.freecodecamp.org/news/the-programming-language-pipeline-91d3f449c919/",
+        "https://mcyoung.xyz/2023/08/01/llvm-ir/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=7_H4qzhWbnQ",
+        "https://www.youtube.com/watch?v=3289vhOUdKA",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=NClmyC6olC0",
+        "https://www.youtube.com/watch?v=Rgz6mX93C4Y",
+        "https://www.youtube.com/watch?v=YbpKMIUjvK8",
+        "https://www.youtube.com/watch?v=SWP3k-24jT4",
+        "https://www.youtube.com/watch?v=8TcWGk1DJVs&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://pytorch.org/docs/stable/torch.compiler.html",
+        "https://docs.aws.amazon.com/",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.linkedin.com/posts/singhsanket143_advanced-backend-development-roadmap-2025-activity-7284418888820240385-s1uD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.amazon.com/Best-Sellers-C++-Programming-Language/zgbs/books/9045760011",
+        "https://www.youtube.com/watch?v=_bYFu9mBnr4&pp=0gcJCfwAo7VqN5tD",
+        "https://roadmap.sh/cpp"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=_bYFu9mBnr4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+        "https://www.youtube.com/c/webdevsimplified"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of the 'main' function in a C++ program?",
+        "options": [
+          "To declare global variables",
+          "To define the program's entry point",
+          "To handle exceptions",
+          "To initialize class objects"
+        ],
+        "correct_option": 1,
+        "hint": "It's where the execution of a C++ program begins."
+      },
+      {
+        "question": "In C++, which keyword is used to define a class?",
+        "options": [
+          "struct",
+          "object",
+          "class",
+          "define"
+        ],
+        "correct_option": 2,
+        "hint": "This keyword is also the name of the programming paradigm that uses it extensively."
+      },
+      {
+        "question": "Which of the following data structures is used to implement a LIFO (Last In, First Out) mechanism?",
+        "options": [
+          "Queue",
+          "Stack",
+          "Array",
+          "Linked List"
+        ],
+        "correct_option": 1,
+        "hint": "Think of a stack of plates where you can only remove the top one."
+      },
+      {
+        "question": "What is the primary advantage of using multithreading in C++?",
+        "options": [
+          "Increases code readability",
+          "Enhances program security",
+          "Improves application performance through parallelism",
+          "Simplifies memory management"
+        ],
+        "correct_option": 2,
+        "hint": "It allows for tasks to be executed simultaneously."
+      },
+      {
+        "question": "Which library in C++ is commonly used for database integration?",
+        "options": [
+          "iostream",
+          "cmath",
+          "stdexcept",
+          "sqlite3"
+        ],
+        "correct_option": 3,
+        "hint": "It's a popular lightweight library specifically for database operations."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following features is not part of Object-Oriented Programming in C++?",
+        "options": [
+          "Inheritance",
+          "Polymorphism",
+          "Encapsulation",
+          "Pipeline"
+        ],
+        "correct_option": 3,
+        "hint": "Think of the feature that isn't a core concept in OOP."
+      },
+      {
+        "question": "What is the primary advantage of using multithreading in C++ applications?",
+        "options": [
+          "Increased code readability",
+          "Faster network communication",
+          "Improved program responsiveness",
+          "Simplified error handling"
+        ],
+        "correct_option": 2,
+        "hint": "Consider what multithreading helps improve in an application."
+      },
+      {
+        "question": "In C++, which keyword is used to handle exceptions?",
+        "options": [
+          "try",
+          "catch",
+          "throw",
+          "except"
+        ],
+        "correct_option": 0,
+        "hint": "This keyword is used to start a block of code that may cause an exception."
+      },
+      {
+        "question": "When integrating databases in C++, which library is commonly used?",
+        "options": [
+          "SQLite",
+          "Libcurl",
+          "OpenSSL",
+          "Boost"
+        ],
+        "correct_option": 0,
+        "hint": "This library is a software library that provides a relational database management system."
+      },
+      {
+        "question": "Which of these is a common method to optimize the performance of a C++ program?",
+        "options": [
+          "Using global variables",
+          "Implementing caching",
+          "Decreasing stack size",
+          "Using more loops"
+        ],
+        "correct_option": 1,
+        "hint": "Consider techniques that reduce redundant calculations or data retrieval."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which C++ feature allows objects of different classes to be treated as objects of a common superclass?",
+        "options": [
+          "Encapsulation",
+          "Polymorphism",
+          "Inheritance",
+          "Abstraction"
+        ],
+        "correct_option": 1,
+        "hint": "This feature provides the ability to call derived class methods through base class pointers."
+      },
+      {
+        "question": "In C++, what is the primary advantage of using a smart pointer over a raw pointer?",
+        "options": [
+          "Simplifies syntax",
+          "Allows pointer arithmetic",
+          "Automatic memory management",
+          "Increased execution speed"
+        ],
+        "correct_option": 2,
+        "hint": "This feature helps in preventing memory leaks by automatically deallocating memory when it's no longer needed."
+      },
+      {
+        "question": "What is the primary role of a mutex in multithreading in C++?",
+        "options": [
+          "Improving CPU usage",
+          "Synchronizing access to shared resources",
+          "Increasing memory allocation",
+          "Speeding up thread execution"
+        ],
+        "correct_option": 1,
+        "hint": "This mechanism is crucial for preventing data races when multiple threads access shared data."
+      },
+      {
+        "question": "How does C++ ensure type safety and prevent data corruption when dealing with multiple data types?",
+        "options": [
+          "Using templates",
+          "Using macros",
+          "Using global variables",
+          "Using dynamic typing"
+        ],
+        "correct_option": 0,
+        "hint": "This feature allows functions and classes to operate with generic types."
+      },
+      {
+        "question": "Which C++ library is commonly used for database integration, specifically to interact with SQL databases?",
+        "options": [
+          "Boost",
+          "SQLite3",
+          "ODB",
+          "libmysqlclient"
+        ],
+        "correct_option": 2,
+        "hint": "This library provides an object-relational mapping (ORM) framework for C++."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User interested in game development",
+    "Wants deep understanding of memory"
+  ]
+}

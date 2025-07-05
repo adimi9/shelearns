@@ -16,105 +16,150 @@
     "hardening"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/File_System_API",
-        "description": "Overview of the File System API, enabling web applications to interact with the user's local file system."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia",
-        "description": "The getUserMedia() API documentation details how to access media streams from a user's camera and microphone in web applications."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API",
-        "description": "An overview of the Clipboard API, detailing how web applications can access and modify the system clipboard."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/operating-systems/operating-system-security/",
-        "description": "An overview of operating system security concepts and mechanisms to protect against threats and vulnerabilities."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/operating-systems/operating-systems/",
-        "description": "An overview of operating systems, covering fundamental concepts, types, and functions."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/operating-systems/system-security/",
-        "description": "An overview of system security concepts and mechanisms within operating systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/operating-systems/system-protection-in-operating-system/",
-        "description": "This resource explains the mechanisms and strategies for ensuring system protection in operating systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/operating-systems/kernel-in-operating-system/",
-        "description": "This resource provides an overview of the kernel's role, functions, and types within an operating system."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=26QPDBe-NB8",
-      "https://www.youtube.com/watch?v=inWWhr5tnEA",
-      "https://www.youtube.com/watch?v=_-6grju3KQU",
-      "https://www.youtube.com/watch?v=fkGCLIQx1MI",
-      "https://www.youtube.com/watch?v=RozoeWzT7IM"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of user and permissions management in operating system security?",
-      "options": [
-        "To restrict access to resources and data based on user roles",
-        "To enhance system performance by reducing resource usage",
-        "To facilitate easier data recovery and backup",
-        "To allow unrestricted access to all users"
+    "beginner": {
+      "docs": [
+        "https://kafka.apache.org/documentation/",
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "https://kubernetes.io/docs/reference/kubectl/",
+        "https://docs.clamav.net/"
       ],
-      "correct_option": 0,
-      "hint": "Think about how access control contributes to security."
+      "notes": [
+        "https://support.apple.com/guide/security/welcome/web",
+        "https://cycle.io/learn/linux-security-basics",
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+        "https://info-ee.surrey.ac.uk/Teaching/Unix/",
+        "https://www.loggly.com/ultimate-guide/linux-logging-basics/",
+        "https://en.wikipedia.org/wiki/Operating_system"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=-Dz6_UCN_ik",
+        "https://www.youtube.com/watch?v=ItSIpUjQ7Qk",
+        "https://www.youtube.com/watch?v=ROjZy1WbCIA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=SRyJbiFynyk",
+        "https://www.youtube.com/watch?v=Yg4tV98y69I",
+        "https://www.youtube.com/watch?v=bZDGL-_3srM",
+        "https://www.youtube.com/watch?v=HlmE4c4iY94&pp=ygUPI2RpZ2l0YWxzaG93c29z",
+        "https://www.youtube.com/watch?v=9mDK3C2em7M&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=xKe2YrGlfR0"
+      ]
     },
-    {
-      "question": "Which of the following is a key benefit of patch management and updates?",
-      "options": [
-        "Reduced system speed",
-        "Improved system security and vulnerability management",
-        "Increased complexity in system configuration",
-        "Decreased compatibility with applications"
+    "intermediate": {
+      "docs": [
+        "https://kafka.apache.org/documentation/",
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/store-information-in-variables",
+        "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9"
       ],
-      "correct_option": 1,
-      "hint": "Updates are often released to address security issues."
+      "notes": [
+        "https://docs.mulesoft.com/release-notes/cloudhub/cloudhub-runtimes-release-notes",
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "https://www.cisco.com/c/en/us/td/docs/security/ise/3-3/release_notes/b_ise_33_RN.html",
+        "https://docs.redhat.com/en/documentation/Red_Hat_Enterprise_Linux",
+        "https://cloud.google.com/learn/what-is-iaas",
+        "https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=uF-GSj-Exms&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=2eEe5LnEbks",
+        "https://www.youtube.com/watch?v=nj_Dup5aUps",
+        "https://www.youtube.com/watch?v=lZAoFs75_cs",
+        "https://www.youtube.com/watch?v=OtcP8c4wZys",
+        "https://www.youtube.com/watch?v=-PjMC0gyH9s",
+        "https://www.youtube.com/watch?v=oX9aIzejaSc&pp=0gcJCfwAo7VqN5tD"
+      ]
     },
-    {
-      "question": "What does OS hardening involve?",
-      "options": [
-        "Installing additional software applications",
-        "Disabling unnecessary services and securing settings",
-        "Reducing the hardware specifications",
-        "Simplifying the user interface"
+    "advanced": {
+      "docs": [
+        "https://ebpf.io/what-is-ebpf/",
+        "https://www.cisco.com/c/en/us/td/docs/security/firepower/command_ref/b_Command_Reference_for_Firepower_Threat_Defense/using_the_FTD_CLI.html",
+        "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://www.cisco.com/c/en/us/support/docs/security/secure-firewall-management-center/221577-cisco-secure-firewall-reference-guide.pdf"
       ],
-      "correct_option": 1,
-      "hint": "Consider actions that minimize the attack surface."
-    },
-    {
-      "question": "Which technology is crucial for detecting and responding to malware and rootkits?",
-      "options": [
-        "Web browser",
-        "Anti-malware software",
-        "Spreadsheet application",
-        "Media player"
+      "notes": [
+        "https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf",
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+        "https://ebpf.io/what-is-ebpf/",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/how-to-become-an-ethical-hacker",
+        "https://ecoxpert.se.com/ecostruxure-security-expert/technical-documentation",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-skills"
       ],
-      "correct_option": 1,
-      "hint": "This software is specifically designed to identify malicious activities."
-    },
-    {
-      "question": "Why is regular system updating critical in operating system security?",
-      "options": [
-        "It ensures the latest security patches are applied",
-        "It makes the system more user-friendly",
-        "It increases the size of the operating system",
-        "It replaces outdated hardware components"
-      ],
-      "correct_option": 0,
-      "hint": "Updates often address newly discovered security vulnerabilities."
+      "videos": [
+        "https://www.youtube.com/watch?v=CBHYp3o6uNA",
+        "https://www.youtube.com/watch?v=2eAPg2SSXyg",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=lZAoFs75_cs",
+        "https://www.youtube.com/watch?v=OHs1txVKPHw",
+        "https://www.youtube.com/watch?v=IhtcuP-9c1g",
+        "https://www.youtube.com/watch?v=kP7KpfToMkg",
+        "https://www.youtube.com/watch?v=H5lbHZAmDSs"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of user and permissions management in operating system security?",
+        "options": [
+          "To restrict access to resources and data based on user roles",
+          "To enhance system performance by reducing resource usage",
+          "To facilitate easier data recovery and backup",
+          "To allow unrestricted access to all users"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how access control contributes to security."
+      },
+      {
+        "question": "Which of the following is a key benefit of patch management and updates?",
+        "options": [
+          "Reduced system speed",
+          "Improved system security and vulnerability management",
+          "Increased complexity in system configuration",
+          "Decreased compatibility with applications"
+        ],
+        "correct_option": 1,
+        "hint": "Updates are often released to address security issues."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What does OS hardening involve?",
+        "options": [
+          "Installing additional software applications",
+          "Disabling unnecessary services and securing settings",
+          "Reducing the hardware specifications",
+          "Simplifying the user interface"
+        ],
+        "correct_option": 1,
+        "hint": "Consider actions that minimize the attack surface."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which technology is crucial for detecting and responding to malware and rootkits?",
+        "options": [
+          "Web browser",
+          "Anti-malware software",
+          "Spreadsheet application",
+          "Media player"
+        ],
+        "correct_option": 1,
+        "hint": "This software is specifically designed to identify malicious activities."
+      },
+      {
+        "question": "Why is regular system updating critical in operating system security?",
+        "options": [
+          "It ensures the latest security patches are applied",
+          "It makes the system more user-friendly",
+          "It increases the size of the operating system",
+          "It replaces outdated hardware components"
+        ],
+        "correct_option": 0,
+        "hint": "Updates often address newly discovered security vulnerabilities."
+      }
+    ]
+  }
 }

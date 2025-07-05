@@ -1,0 +1,272 @@
+{
+  "id": "GD17",
+  "name": "C++ Programming for Games",
+  "category": "Game Development",
+  "primary_tech": "C++",
+  "topics": [
+    "C++ Language Fundamentals",
+    "Memory Management",
+    "Pointers & References",
+    "Game-specific Data Structures"
+  ],
+  "recommended": false,
+  "tags": [
+    "programming",
+    "performance",
+    "Unreal"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-6-documentation",
+        "https://forums.unrealengine.com/t/how-to-start-learning-c-for-unreal-engine/462938",
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/API"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=XOs2qynEmNE",
+        "https://forums.unrealengine.com/t/best-beginner-friendly-c-game-development-tutorial-for-unreal/635858",
+        "https://www.youtube.com/watch?v=Mg4b7EyGgEU",
+        "https://www.udemy.com/course/cpp-fundamentals/",
+        "https://www.youtube.com/watch?v=S7lXSihz0ac"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=S7lXSihz0ac",
+        "https://www.youtube.com/watch?v=XOs2qynEmNE",
+        "https://www.youtube.com/watch?v=Mg4b7EyGgEU",
+        "https://www.youtube.com/watch?v=E_-lMZDi7Uw",
+        "https://www.youtube.com/watch?v=Eoq12SNaWI8",
+        "https://www.youtube.com/watch?v=s99UDGdYIUE",
+        "https://www.youtube.com/watch?v=7qm4OR3EmnQ&pp=ygUII2NwcGdhbWU%3D",
+        "https://www.youtube.com/watch?v=PwuIEMUFUnQ"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine",
+        "https://docs.unity.com/",
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/programming-with-cplusplus-in-unreal-engine",
+        "https://stackoverflow.com/questions/7058339/when-should-i-use-pointers-instead-of-references-in-api-design"
+      ],
+      "notes": [
+        "https://cplusplus.com/forum/beginner/77018/",
+        "https://fancytree.hashnode.dev/setting-up-godot-with-c",
+        "https://cplusplus.com/forum/general/255782/",
+        "https://edw.is/learning-vulkan/",
+        "https://dev.epicgames.com/community/learning/tutorials/qM2K/unreal-engine-comparing-blueprints-and-c-use-cases"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=2B-pxN7W5Pw",
+        "https://www.youtube.com/watch?v=EzmNeAhWqVs",
+        "https://www.youtube.com/watch?v=Py11niOE0fo",
+        "https://www.youtube.com/watch?v=Tof5pRedskI",
+        "https://www.youtube.com/watch?v=jjDolw1PIsM",
+        "https://www.youtube.com/watch?v=3289vhOUdKA",
+        "https://www.youtube.com/watch?v=5V3njyRKnkc",
+        "https://www.youtube.com/watch?v=YzIBwqWC6EM",
+        "https://www.youtube.com/watch?v=A3R6T1h0ln8",
+        "https://www.youtube.com/watch?v=dToaepIXW4s"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://news.ycombinator.com/item?id=34569425",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "https://whoisryosuke.com/blog/2023/learning-directx-12-in-2023",
+        "https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=ZzaPdXTrSb8&pp=0gcJCfwAo7VqN5tD",
+        "https://edw.is/learning-vulkan/",
+        "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+        "https://www.learncpp.com/",
+        "https://www.youtube.com/watch?v=_bYFu9mBnr4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.amazon.com/Best-Sellers-C++-Programming-Language/zgbs/books/9045760011",
+        "https://www.youtube.com/watch?v=-TkoO8Z07hI"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+        "https://www.youtube.com/watch?v=-TkoO8Z07hI",
+        "https://www.youtube.com/watch?v=S9BHuodNDlo",
+        "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
+        "https://www.youtube.com/watch?v=jTJvyKZDFsY",
+        "https://www.youtube.com/watch?v=YzIBwqWC6EM",
+        "https://www.youtube.com/watch?v=6UlU_FsicK8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=1srFmjt1Ib0",
+        "https://www.youtube.com/watch?v=oHmS4HC8wK8"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary use of pointers in C++?",
+        "options": [
+          "To store values directly",
+          "To reference memory locations",
+          "To hold characters",
+          "To perform arithmetic operations"
+        ],
+        "correct_option": 1,
+        "hint": "Pointers are used to access memory locations."
+      },
+      {
+        "question": "Which of the following is a fundamental data type in C++?",
+        "options": [
+          "String",
+          "Map",
+          "Int",
+          "Vector"
+        ],
+        "correct_option": 2,
+        "hint": "Think of basic number types."
+      },
+      {
+        "question": "When you allocate memory using 'new' in C++, what must you do to prevent memory leaks?",
+        "options": [
+          "Use 'delete' to deallocate memory",
+          "Reassign the pointer",
+          "Use 'free' function",
+          "Nothing, C++ handles it automatically"
+        ],
+        "correct_option": 0,
+        "hint": "Memory allocated with 'new' needs to be manually deallocated."
+      },
+      {
+        "question": "What symbol is used to denote the address-of operator in C++?",
+        "options": [
+          "*",
+          "&",
+          "@",
+          "#"
+        ],
+        "correct_option": 1,
+        "hint": "This operator is often used with pointers."
+      },
+      {
+        "question": "Which data structure is most commonly used to implement a game map in C++?",
+        "options": [
+          "Queue",
+          "Stack",
+          "Array",
+          "Linked List"
+        ],
+        "correct_option": 2,
+        "hint": "Consider a structure that allows for indexed access to elements."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is a correct way to declare a pointer to an integer in C++?",
+        "options": [
+          "int *p;",
+          "int p*;",
+          "int* p;",
+          "p int*;"
+        ],
+        "correct_option": 0,
+        "hint": "The asterisk symbol (*) is used to declare a pointer."
+      },
+      {
+        "question": "In C++, what is the primary difference between references and pointers?",
+        "options": [
+          "References can be null, pointers cannot.",
+          "References are a type of pointer.",
+          "Pointers can be reassigned, references cannot.",
+          "Pointers can point to constants, references cannot."
+        ],
+        "correct_option": 2,
+        "hint": "Consider the reassignment properties of pointers and references."
+      },
+      {
+        "question": "What is the role of the 'delete' operator in C++?",
+        "options": [
+          "To allocate memory to a variable.",
+          "To deallocate memory previously allocated by 'new'.",
+          "To delete a file from the system.",
+          "To terminate a program."
+        ],
+        "correct_option": 1,
+        "hint": "The 'delete' operator is used in memory management."
+      },
+      {
+        "question": "Which data structure is most commonly used for implementing game state management in C++?",
+        "options": [
+          "Linked List",
+          "Binary Tree",
+          "Hash Table",
+          "Finite State Machine"
+        ],
+        "correct_option": 3,
+        "hint": "Think about how states transition in a game loop."
+      },
+      {
+        "question": "How does C++ handle memory management differently from languages like Java?",
+        "options": [
+          "C++ uses garbage collection automatically.",
+          "C++ requires manual memory management by the programmer.",
+          "C++ does not allow dynamic memory allocation.",
+          "C++ uses only stack memory."
+        ],
+        "correct_option": 1,
+        "hint": "Consider the level of control C++ gives to programmers over memory."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary advantage of using pointers over references in C++ game development?",
+        "options": [
+          "Pointers can be reassigned to point to different objects.",
+          "Pointers are safer and more secure than references.",
+          "Pointers automatically manage memory allocation.",
+          "Pointers are easier to use than references."
+        ],
+        "correct_option": 0,
+        "hint": "Consider the flexibility of changing what a pointer addresses during runtime."
+      },
+      {
+        "question": "Which C++ feature is most crucial for handling dynamic memory allocation efficiently in a game loop?",
+        "options": [
+          "Virtual Functions",
+          "Smart Pointers",
+          "Templates",
+          "Lambda Expressions"
+        ],
+        "correct_option": 1,
+        "hint": "Think about modern C++ features that help manage memory without manual allocation and deallocation."
+      },
+      {
+        "question": "In C++, what is a common use case for a 'std::vector' in game development?",
+        "options": [
+          "Storing a fixed number of game levels",
+          "Managing dynamic lists of game entities",
+          "Implementing a game state machine",
+          "Handling file input and output"
+        ],
+        "correct_option": 1,
+        "hint": "This data structure is used for collections that change size during gameplay."
+      },
+      {
+        "question": "How does the 'placement new' operator benefit game developers in C++?",
+        "options": [
+          "It allows initializing objects in pre-allocated memory.",
+          "It automatically deletes objects after use.",
+          "It simplifies syntax for object creation.",
+          "It provides built-in garbage collection."
+        ],
+        "correct_option": 0,
+        "hint": "This operator is useful for managing memory manually, especially in performance-critical applications."
+      },
+      {
+        "question": "Which of the following C++ features can lead to memory leaks if not used carefully in game development?",
+        "options": [
+          "Constexpr functions",
+          "Smart pointers",
+          "Raw pointers",
+          "Reference variables"
+        ],
+        "correct_option": 2,
+        "hint": "This feature requires manual memory management and deallocation."
+      }
+    ]
+  }
+}

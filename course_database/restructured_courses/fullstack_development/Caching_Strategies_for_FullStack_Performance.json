@@ -16,105 +16,144 @@
     "scalability"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
-        "description": "An overview of Progressive Web Apps (PWAs), including their features, benefits, and how to develop them."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB",
-        "description": "An introductory guide to using the IndexedDB API for client-side storage of significant amounts of structured data."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API",
-        "description": "An overview and guide to using the Service Worker API for enabling background tasks and offline capabilities in web applications."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/",
-        "description": "An introductory guide to understanding and designing caching systems for beginners."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
-        "description": "A comprehensive guide on the skills and steps needed to become a full-stack developer and secure a job in the field."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/caching-in-react/",
-        "description": "This article explains various caching techniques and strategies to optimize performance in React applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/backend-development/",
-        "description": "An introductory guide to backend development, covering fundamental concepts, tools, and technologies."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/three-tier-client-server-architecture-in-distributed-system/",
-        "description": "This resource explains the three-tier client-server architecture in distributed systems, detailing its components and benefits."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=dGAgxozNWFE",
-      "https://www.youtube.com/watch?v=m_RIEG8gyoA",
-      "https://www.youtube.com/watch?v=_yUGiQa6H54",
-      "https://www.youtube.com/watch?v=G1rOthIU-uo",
-      "https://www.youtube.com/watch?v=YO7R0rYWDl8"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of client-side caching in web applications?",
-      "options": [
-        "To reduce server load by storing data in the client's browser",
-        "To increase server processing speed",
-        "To prevent data loss during server crashes",
-        "To enhance database query performance"
+    "beginner": {
+      "docs": [
+        "https://graphql.org/learn/",
+        "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching",
+        "https://learn.microsoft.com/en-us/azure/",
+        "https://www.catchpoint.com/api-monitoring-tools/api-architecture",
+        "https://nextjs.org/docs"
       ],
-      "correct_option": 0,
-      "hint": "Think about where the data is stored and how it affects server interaction."
+      "notes": [
+        "https://moldstud.com/articles/p-full-stack-development-implementing-caching-mechanisms-for-improved-performance",
+        "https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/",
+        "https://www.linkedin.com/posts/novalagung_how-to-restrict-app-access-using-cloudflare-activity-7200148267639185408-cuOj",
+        "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching",
+        "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Zq5fmkH0T78",
+        "https://www.youtube.com/watch?v=F2FmTdLtb_4",
+        "https://www.youtube.com/watch?v=h7MTWLv3xvw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=JDbkoICzQro",
+        "https://www.youtube.com/watch?v=YX5yoApjI3M",
+        "https://www.youtube.com/watch?v=L7-CQpa2JFU",
+        "https://www.youtube.com/watch?v=wTGVHLyV09M",
+        "https://www.youtube.com/watch?v=_f7h6xQXiLA"
+      ]
     },
-    {
-      "question": "Which of the following is a common server-side caching solution?",
-      "options": [
-        "Redis",
-        "Service Workers",
-        "Local Storage",
-        "IndexedDB"
+    "intermediate": {
+      "docs": [
+        "https://docs.cypress.io/app/core-concepts/best-practices",
+        "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching",
+        "https://www.catchpoint.com/api-monitoring-tools/api-architecture",
+        "https://www.apollographql.com/docs/react/data/queries",
+        "https://github.com/ben-manes/caffeine"
       ],
-      "correct_option": 0,
-      "hint": "This solution is often used to store data in-memory to speed up data retrieval."
+      "notes": [
+        "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching",
+        "https://anvil.works/forum/t/practical-optimization-tips-after-2-months-of-working-with-anvil/20430",
+        "https://www.dbta.com/Editorial/Trends-and-Applications/Spark-and-the-Fine-Art-of-Caching-119305.aspx",
+        "https://pawelurbanek.com/blog",
+        "https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/"
+      ],
+      "videos": [
+        "https://www.youtube.com/c/AdityaVermaTheProgrammingLord/community",
+        "https://www.youtube.com/ByteByteGo",
+        "https://www.youtube.com/watch?v=JDbkoICzQro",
+        "https://www.youtube.com/watch?v=Zq5fmkH0T78",
+        "https://www.youtube.com/watch?v=h7MTWLv3xvw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=fqabW3WRUbw",
+        "https://www.youtube.com/watch?v=QlUt06XLbJE",
+        "https://www.youtube.com/watch?v=fQOekY6FToY"
+      ]
     },
-    {
-      "question": "How does a Content Delivery Network (CDN) improve web application performance?",
-      "options": [
-        "By storing copies of web assets closer to users",
-        "By increasing the server's processing power",
-        "By storing user data on the server",
-        "By compressing web assets"
+    "advanced": {
+      "docs": [
+        "https://github.com/vercel/next.js/discussions/54075",
+        "https://graphql.org/learn/",
+        "https://expressjs.com/en/advanced/best-practice-performance.html"
       ],
-      "correct_option": 0,
-      "hint": "Consider how geographical distance impacts data transfer speeds."
-    },
-    {
-      "question": "What is the role of a service worker in client-side caching?",
-      "options": [
-        "To intercept network requests and serve cached responses",
-        "To manage server-side database connections",
-        "To compress data before sending it over the network",
-        "To handle user authentication processes"
+      "notes": [
+        "https://www.linkedin.com/posts/sahniaman_springboot-redis-mongodb-activity-7251584216247762945-50rq",
+        "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+        "https://www.linkedin.com/posts/surendrakumar143_react-19-tutorial-for-beginners-full-guide-activity-7289316732257611776-DlRi",
+        "https://www.datanovia.com/learn/tools/shiny-apps/resources/further-learning.html",
+        "https://pawelurbanek.com/blog"
       ],
-      "correct_option": 0,
-      "hint": "Service workers act as a proxy between the network and the browser."
-    },
-    {
-      "question": "What is cache invalidation and why is it important?",
-      "options": [
-        "It ensures that stale data is removed from the cache to maintain data accuracy",
-        "It increases the speed of data retrieval from the cache",
-        "It compresses cached data to save space",
-        "It encrypts cached data for security"
-      ],
-      "correct_option": 0,
-      "hint": "Think about the challenges of keeping data up-to-date when using caching mechanisms."
+      "videos": [
+        "https://www.youtube.com/watch?v=Zq5fmkH0T78",
+        "https://www.youtube.com/watch?v=h7MTWLv3xvw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=-3bVuFcteUo",
+        "https://www.youtube.com/watch?v=YX5yoApjI3M",
+        "https://www.youtube.com/watch?v=6nY-kci1rlo",
+        "https://www.youtube.com/watch?v=hMs8VNRy5Ys",
+        "https://www.youtube.com/watch?v=L7-CQpa2JFU",
+        "https://www.youtube.com/watch?v=puDYwXXoKtw"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of client-side caching in web applications?",
+        "options": [
+          "To reduce server load by storing data in the client's browser",
+          "To increase server processing speed",
+          "To prevent data loss during server crashes",
+          "To enhance database query performance"
+        ],
+        "correct_option": 0,
+        "hint": "Think about where the data is stored and how it affects server interaction."
+      },
+      {
+        "question": "Which of the following is a common server-side caching solution?",
+        "options": [
+          "Redis",
+          "Service Workers",
+          "Local Storage",
+          "IndexedDB"
+        ],
+        "correct_option": 0,
+        "hint": "This solution is often used to store data in-memory to speed up data retrieval."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "How does a Content Delivery Network (CDN) improve web application performance?",
+        "options": [
+          "By storing copies of web assets closer to users",
+          "By increasing the server's processing power",
+          "By storing user data on the server",
+          "By compressing web assets"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how geographical distance impacts data transfer speeds."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the role of a service worker in client-side caching?",
+        "options": [
+          "To intercept network requests and serve cached responses",
+          "To manage server-side database connections",
+          "To compress data before sending it over the network",
+          "To handle user authentication processes"
+        ],
+        "correct_option": 0,
+        "hint": "Service workers act as a proxy between the network and the browser."
+      },
+      {
+        "question": "What is cache invalidation and why is it important?",
+        "options": [
+          "It ensures that stale data is removed from the cache to maintain data accuracy",
+          "It increases the speed of data retrieval from the cache",
+          "It compresses cached data to save space",
+          "It encrypts cached data for security"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the challenges of keeping data up-to-date when using caching mechanisms."
+      }
+    ]
+  }
 }

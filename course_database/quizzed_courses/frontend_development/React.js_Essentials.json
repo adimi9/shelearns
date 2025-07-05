@@ -1,0 +1,279 @@
+{
+  "id": "FE10",
+  "name": "React.js Essentials",
+  "category": "Frontend Development",
+  "primary_tech": "React.js",
+  "topics": [
+    "JSX, Components, Props & State",
+    "Hooks & Lifecycle",
+    "Context API, Redux"
+  ],
+  "recommended": true,
+  "tags": [
+    "framework",
+    "SPA",
+    "component-based"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://react.dev/learn",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://nextjs.org/docs",
+        "https://redux.js.org/introduction/getting-started",
+        "https://vuejs.org/guide/introduction"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=RVFAyFWO4go",
+        "https://m.youtube.com/watch?v=NqzdVN2tyvQ&t=0s",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://redux.js.org/tutorials/essentials/part-1-overview-concepts",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://reactnative.dev/docs/tutorial"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=RVFAyFWO4go",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/watch?v=m55PTVUrlnA",
+        "https://www.youtube.com/watch?v=NqzdVN2tyvQ&pp=ygUOI3JlZHV4dHJhaW5pbmc%3D",
+        "https://www.youtube.com/watch?v=OA5JAmTcTz4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=WDunoPNBxKA",
+        "https://www.youtube.com/watch?v=nvHeB32ICDM"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+        "https://legacy.reactjs.org/docs/hooks-reference.html",
+        "https://nextjs.org/docs",
+        "https://legacy.reactjs.org/docs/react-component.html",
+        "https://redux-toolkit.js.org/rtk-query/overview"
+      ],
+      "notes": [
+        "https://m.youtube.com/watch?v=NqzdVN2tyvQ&t=0s",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+        "https://www.youtube.com/watch?v=8Xwq35cPwYg",
+        "https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers",
+        "https://www.youtube.com/watch?v=WDunoPNBxKA",
+        "https://redux-toolkit.js.org/rtk-query/overview"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://m.youtube.com/watch?v=NqzdVN2tyvQ&t=0s",
+        "https://www.youtube.com/watch?v=LlvBzyy-558",
+        "https://www.youtube.com/watch?v=8Xwq35cPwYg",
+        "https://www.youtube.com/watch?v=WDunoPNBxKA",
+        "https://www.youtube.com/watch?v=2gE2K8i5tvs&pp=ygUYI3N3aXRjaGNhc2VhbmRyb2lkc3R1ZGlv",
+        "https://www.youtube.com/watch?v=xfKYYRE6-TQ",
+        "https://www.youtube.com/watch?v=665UnOGx3Pg&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=CxSL0knFxAs",
+        "https://www.youtube.com/watch?v=I_J7N0n5YPs"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://reactnative.dev/docs/getting-started",
+        "https://www.typescriptlang.org/docs/",
+        "https://react.dev/",
+        "https://redux.js.org/tutorials/essentials/part-1-overview-concepts"
+      ],
+      "notes": [
+        "https://redux.js.org/tutorials/essentials/part-1-overview-concepts",
+        "https://blog.isquaredsoftware.com/about/",
+        "https://www.udemy.com/topic/react/",
+        "https://www.youtube.com/channel/UCn-y28FZxNA8ys6GCU11bUQ",
+        "https://www.linkedin.com/posts/surendrakumar143_react-19-tutorial-for-beginners-full-guide-activity-7289316732257611776-DlRi",
+        "https://dzone.com/articles/advanced-react-js-concepts-a-deep-dive",
+        "https://javascript.info/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://www.youtube.com/watch?v=UUk1scVLrCQ",
+        "https://www.youtube.com/watch?v=DWvLEspi49U",
+        "https://www.youtube.com/watch?v=x4rFhThSX04",
+        "https://www.youtube.com/watch?v=RVFAyFWO4go",
+        "https://www.youtube.com/watch?v=b9eMGE7QtTk",
+        "https://www.youtube.com/watch?v=WDunoPNBxKA"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is JSX in React?",
+        "options": [
+          "A special syntax used in JavaScript to describe UI elements",
+          "A JavaScript library for building user interfaces",
+          "A CSS preprocessor",
+          "A type of database"
+        ],
+        "correct_option": 0,
+        "hint": "It's a syntax extension for JavaScript."
+      },
+      {
+        "question": "What is a component in React?",
+        "options": [
+          "A reusable piece of UI",
+          "A function that handles HTTP requests",
+          "A server-side language",
+          "A style sheet used for styling"
+        ],
+        "correct_option": 0,
+        "hint": "Components can be functional or class-based."
+      },
+      {
+        "question": "How do you pass data to a component in React?",
+        "options": [
+          "Through props",
+          "Using variables",
+          "By importing JSON files",
+          "With a database query"
+        ],
+        "correct_option": 0,
+        "hint": "It involves a concept similar to function arguments."
+      },
+      {
+        "question": "Which hook is used to add state to a functional component?",
+        "options": [
+          "useState",
+          "useHook",
+          "useEffect",
+          "useContext"
+        ],
+        "correct_option": 0,
+        "hint": "This hook helps manage state in functional components."
+      },
+      {
+        "question": "What does the Context API provide in React?",
+        "options": [
+          "A way to pass data through the component tree without using props",
+          "A method for making network requests",
+          "A built-in debugging tool",
+          "A way to define component styles"
+        ],
+        "correct_option": 0,
+        "hint": "It's used for global state management in React applications."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of JSX in React.js?",
+        "options": [
+          "To enable conditional rendering",
+          "To style components",
+          "To write HTML elements in JavaScript",
+          "To manage component state"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the way React integrates HTML with JavaScript."
+      },
+      {
+        "question": "In React, how do you pass data from a parent component to a child component?",
+        "options": [
+          "Using state",
+          "Using props",
+          "Using hooks",
+          "Using context API"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what mechanism is used to provide data to child components."
+      },
+      {
+        "question": "Which hook would you use to perform side effects in a functional component?",
+        "options": [
+          "useState",
+          "useEffect",
+          "useContext",
+          "useReducer"
+        ],
+        "correct_option": 1,
+        "hint": "This hook is specifically designed for handling side effects."
+      },
+      {
+        "question": "When using the Context API, what component do you use to provide context to child components?",
+        "options": [
+          "ContextProvider",
+          "Context.Consumer",
+          "useContext",
+          "Context.Provider"
+        ],
+        "correct_option": 3,
+        "hint": "This component is responsible for making the context available."
+      },
+      {
+        "question": "In Redux, what is the role of reducers?",
+        "options": [
+          "To dispatch actions",
+          "To update the store based on the action type",
+          "To provide the UI with state",
+          "To handle asynchronous actions"
+        ],
+        "correct_option": 1,
+        "hint": "Reducers are functions that determine changes to the application's state."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In React, what is the primary purpose of using JSX?",
+        "options": [
+          "To write HTML within JavaScript",
+          "To separate HTML from JavaScript",
+          "To enhance CSS capabilities",
+          "To improve JavaScript performance"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how HTML and JavaScript interact in React."
+      },
+      {
+        "question": "Which of the following correctly describes the concept of 'props' in React?",
+        "options": [
+          "A way to directly modify the state of a component",
+          "A method to pass data from parent to child components",
+          "A lifecycle method for initializing components",
+          "A built-in hook for handling side effects"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how data flows through React components."
+      },
+      {
+        "question": "What is the primary role of the 'useEffect' hook in React?",
+        "options": [
+          "To manage component state",
+          "To execute code after rendering",
+          "To handle form inputs",
+          "To apply styles to components"
+        ],
+        "correct_option": 1,
+        "hint": "This hook is often associated with side-effect operations."
+      },
+      {
+        "question": "How does the Context API enhance state management in React applications?",
+        "options": [
+          "By providing a way to avoid prop drilling",
+          "By enabling direct manipulation of the DOM",
+          "By eliminating the need for component lifecycle methods",
+          "By automatically optimizing component rendering"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how data is shared across different levels of the component tree."
+      },
+      {
+        "question": "In Redux, what is the purpose of an action creator?",
+        "options": [
+          "To define the initial state of the store",
+          "To describe how the state changes in response to actions",
+          "To encapsulate the creation of actions",
+          "To connect React components to the Redux store"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how actions are dispatched in Redux."
+      }
+    ]
+  }
+}

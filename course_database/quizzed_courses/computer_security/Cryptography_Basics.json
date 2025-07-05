@@ -1,0 +1,272 @@
+{
+  "id": "CSec10",
+  "name": "Cryptography Basics",
+  "category": "Computer Security",
+  "primary_tech": "Cryptography",
+  "topics": [
+    "Symmetric vs. Asymmetric Encryption",
+    "Hashing Algorithms",
+    "Digital Signatures & Certificates",
+    "Public Key Infrastructure (PKI)"
+  ],
+  "recommended": true,
+  "tags": [
+    "encryption",
+    "data-protection",
+    "algorithms"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://docs.coingecko.com/reference/introduction",
+        "https://docs.oracle.com/javase/8/docs/technotes/guides/security/crypto/CryptoSpec.html",
+        "https://learning.postman.com/docs/introduction/overview/",
+        "https://prometheus.io/docs/prometheus/latest/querying/basics/"
+      ],
+      "notes": [
+        "https://m.youtube.com/watch?v=HPM17_aZB3g&t=2387s",
+        "https://www.youtube.com/watch?v=4w8hJ7KAKcQ",
+        "https://www.coinbase.com/learn/crypto-basics",
+        "https://www.youtube.com/watch?v=j_8PLI_wCVU",
+        "https://arxiv.org/abs/2208.08125"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=j_8PLI_wCVU",
+        "https://www.youtube.com/watch?v=S3NOa8MZfDs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=2ByOXdddmDM",
+        "https://www.youtube.com/watch?v=4w8hJ7KAKcQ",
+        "https://m.youtube.com/watch?v=HPM17_aZB3g&t=2387s",
+        "https://www.youtube.com/watch?v=8aE0f6d2M6o",
+        "https://www.youtube.com/watch?v=aJuBQWuHB_I",
+        "https://www.youtube.com/watch?v=OtZrSMp3eIQ"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://learning.postman.com/docs/tests-and-scripts/write-scripts/postman-sandbox-api-reference/",
+        "https://docs.coingecko.com/reference/introduction",
+        "https://dev.overwolf.com/ow-native/reference/ow-api-overview",
+        "https://docs.aws.amazon.com/",
+        "https://pro.coinmarketcap.com/faq"
+      ],
+      "notes": [
+        "https://www.splunk.com/en_us/blog/learn/cryptography.html",
+        "https://forum.asana.com/t/track-and-manage-crypto-in-asana/145652",
+        "https://www.professormesser.com/security-plus/sy0-501/cryptography-use-cases/",
+        "https://www.mrcy.com/company/blogs/encryption-keys-cliffs-notes-version-part-1",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-encrypt-decrypt-blobs-key-vault",
+        "https://deviceauthority.com/symmetric-encryption-vs-asymmetric-encryption/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=SOnJyqwGn1I",
+        "https://www.youtube.com/watch?v=gAtBM06xwaw",
+        "https://www.youtube.com/watch?v=bTkJr9eq0G4&pp=ygUXI2VkdXJla2Fjb21wdGlhc2VjdXJpdHk%3D",
+        "https://www.youtube.com/watch?v=t9FIPX93bW4",
+        "https://www.youtube.com/watch?v=h_m8MiwTdqA",
+        "https://www.youtube.com/watch?v=EF33KmyprEQ",
+        "https://www.youtube.com/watch?v=WkKWH_mr7es"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://docs.zama.ai/tfhe-rs",
+        "https://docs.cilium.io/en/stable/index.html",
+        "https://docs.aws.amazon.com/",
+        "https://cloud.google.com/vertex-ai/docs",
+        "https://docs.djangoproject.com/"
+      ],
+      "notes": [
+        "https://ssd.eff.org/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work",
+        "https://www.blackhat.com/us-25/training/schedule/",
+        "https://www.coinbase.com/learn/tips-and-tutorials",
+        "https://a16zcrypto.com/posts/podcast/stablecoins-deep-dive/",
+        "https://rails.devcamp.com/trails/dissecting-rails-5/campsites/rails-5-authentication/guides/using-bcrypt-to-implement-encryption-in-ruby"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=2ByOXdddmDM",
+        "https://www.youtube.com/watch?v=vbM2R2CM96Q",
+        "https://www.youtube.com/watch?v=kP7KpfToMkg",
+        "https://www.youtube.com/watch?v=2eAPg2SSXyg",
+        "https://www.youtube.com/watch?v=_I1omSmy44Q",
+        "https://www.youtube.com/watch?v=aaSck7jBDbw&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=tZSH--qwdcE",
+        "https://www.youtube.com/watch?v=zJBef4i57zU",
+        "https://www.youtube.com/watch?v=sWTnFS10tdQ&pp=0gcJCfwAo7VqN5tD"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main difference between symmetric and asymmetric encryption?",
+        "options": [
+          "Symmetric encryption uses two keys, while asymmetric uses one key.",
+          "Symmetric encryption uses one key, while asymmetric uses two keys.",
+          "Symmetric encryption is slower than asymmetric encryption.",
+          "Symmetric encryption is only used for hashing."
+        ],
+        "correct_option": 1,
+        "hint": "Symmetric encryption involves a single key for both encryption and decryption."
+      },
+      {
+        "question": "Which of the following is a characteristic of hashing algorithms?",
+        "options": [
+          "They are reversible.",
+          "They produce a fixed-size output.",
+          "They require a private key.",
+          "They are slower than encryption algorithms."
+        ],
+        "correct_option": 1,
+        "hint": "Hashing algorithms compress input data to a fixed size, regardless of the input size."
+      },
+      {
+        "question": "What role do digital signatures play in cryptography?",
+        "options": [
+          "They ensure the confidentiality of a message.",
+          "They provide a way to verify the authenticity of a message.",
+          "They encrypt data using a symmetric key.",
+          "They compress data to save space."
+        ],
+        "correct_option": 1,
+        "hint": "Digital signatures are used to verify the sender's identity and message integrity."
+      },
+      {
+        "question": "What does PKI stand for in cryptography?",
+        "options": [
+          "Public Key Infrastructure",
+          "Private Key Innovation",
+          "Public Knowledge Integration",
+          "Personal Key Identification"
+        ],
+        "correct_option": 0,
+        "hint": "PKI involves the use of public and private keys for secure communications."
+      },
+      {
+        "question": "Which of the following is NOT a primary technology or concept in cryptography?",
+        "options": [
+          "C",
+          "Y",
+          "Z",
+          "P"
+        ],
+        "correct_option": 2,
+        "hint": "Think of the main letters used in the word 'cryptography'."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In symmetric encryption, how is the key used between the sender and the receiver?",
+        "options": [
+          "The same key is used for both encryption and decryption.",
+          "Different keys are used for encryption and decryption.",
+          "The key changes with every message sent.",
+          "No key is used in symmetric encryption."
+        ],
+        "correct_option": 0,
+        "hint": "Symmetric encryption relies on a single shared key for both processes."
+      },
+      {
+        "question": "Which of the following is a primary advantage of asymmetric encryption over symmetric encryption?",
+        "options": [
+          "It requires fewer computational resources.",
+          "It is faster in processing speed.",
+          "It eliminates the need to securely share keys.",
+          "It uses the same key for encryption and decryption."
+        ],
+        "correct_option": 2,
+        "hint": "Asymmetric encryption uses a pair of keys, which helps in securely exchanging information without prior key sharing."
+      },
+      {
+        "question": "Which hashing algorithm is commonly used in digital signatures due to its collision resistance?",
+        "options": [
+          "MD5",
+          "SHA-256",
+          "SHA-1",
+          "CRC32"
+        ],
+        "correct_option": 1,
+        "hint": "This algorithm is part of the SHA-2 family and is widely used for its security properties."
+      },
+      {
+        "question": "What is the primary function of a digital certificate in a Public Key Infrastructure (PKI)?",
+        "options": [
+          "To encrypt data",
+          "To authenticate the identity of entities",
+          "To store passwords securely",
+          "To hash data"
+        ],
+        "correct_option": 1,
+        "hint": "Digital certificates are used to verify that a public key belongs to the entity it claims to represent."
+      },
+      {
+        "question": "In the context of cryptography, what is a digital signature primarily used for?",
+        "options": [
+          "Encrypting messages",
+          "Decrypting messages",
+          "Authenticating the sender's identity",
+          "Compressing data"
+        ],
+        "correct_option": 2,
+        "hint": "Digital signatures are used to verify the authenticity and integrity of a message or document."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary advantage of asymmetric encryption over symmetric encryption?",
+        "options": [
+          "Faster encryption and decryption",
+          "Simpler key management",
+          "Higher security for large data",
+          "Less computationally intensive"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the complexity of key distribution in symmetric encryption."
+      },
+      {
+        "question": "Which hashing algorithm is known for producing a 256-bit hash value and is commonly used in blockchain technology?",
+        "options": [
+          "MD5",
+          "SHA-256",
+          "Blowfish",
+          "AES"
+        ],
+        "correct_option": 1,
+        "hint": "This algorithm is part of the SHA-2 family and is frequently used in Bitcoin."
+      },
+      {
+        "question": "In the context of digital signatures, what role does a certificate authority (CA) play?",
+        "options": [
+          "Encrypts the data to be signed",
+          "Verifies the identity of the owner of the public key",
+          "Generates the private key for the user",
+          "Provides the hashing algorithm for the signature"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the entity responsible for vouching for the authenticity of public keys."
+      },
+      {
+        "question": "What is one major drawback of using asymmetric cryptography compared to symmetric cryptography?",
+        "options": [
+          "Requires more key pairs",
+          "Is less secure",
+          "Slower processing speed",
+          "Cannot be used for encryption"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the computational requirements for encryption and decryption."
+      },
+      {
+        "question": "In Public Key Infrastructure (PKI), what is the primary purpose of a public key certificate?",
+        "options": [
+          "To encrypt data during transmission",
+          "To authenticate the identity of the public key owner",
+          "To store private keys securely",
+          "To hash data efficiently"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how public keys are verified in a secure manner."
+      }
+    ]
+  }
+}

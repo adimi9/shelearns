@@ -16,105 +16,150 @@
     "cross-platform"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
-        "description": "An overview of Progressive Web Apps (PWAs), including their features, benefits, and implementation techniques."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web",
-        "description": "The MDN Web Docs provide comprehensive documentation and learning resources for web technologies including HTML, CSS, and JavaScript."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
-        "description": "An overview of web accessibility guidelines and best practices for creating inclusive, accessible web content."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/android/android-tutorial/",
-        "description": "A comprehensive guide to learning Android development, covering fundamental concepts and practical tutorials."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/blogs/android-app-development-fundamentals-for-beginners/",
-        "description": "A beginner's guide to understanding the fundamental concepts of Android app development."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/flutter/flutter-tutorial/",
-        "description": "A comprehensive tutorial on developing mobile applications using the Flutter framework."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/introduction-to-android-development/",
-        "description": "An introductory guide to understanding the basics of Android app development."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/web-development/",
-        "description": "An extensive guide covering various aspects and technologies involved in web development."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=yye7rSsiV6k",
-      "https://www.youtube.com/watch?v=fis26HvvDII",
-      "https://www.youtube.com/watch?v=FjrKMcnKahY",
-      "https://www.youtube.com/watch?v=b1oC7sLIgpI",
-      "https://www.youtube.com/watch?v=tZvjSl9dswg"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary difference between iOS and Android operating systems?",
-      "options": [
-        "iOS is open source, while Android is closed source.",
-        "Android supports a wider range of devices than iOS.",
-        "iOS apps must be developed using Java, while Android apps use Swift.",
-        "Android is developed by Apple, while iOS is developed by Google."
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "https://firebase.google.com/docs",
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://developer.android.com/guide/components/fundamentals"
       ],
-      "correct_option": 1,
-      "hint": "Consider the number of manufacturers using each OS."
+      "notes": [
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://m.youtube.com/watch?v=9XMt2hChbRo",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://developer.apple.com/tutorials/app-dev-training/",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/watch?v=a2b9UcgZDdU",
+        "https://m.youtube.com/watch?v=DuNLR_NJv8U&pp=ygUJI3VpbWF1aW1h",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://m.youtube.com/watch?v=9XMt2hChbRo",
+        "https://www.youtube.com/watch?v=K0t-RCSlasE&pp=ygUJI2FwcGJ1aWxk",
+        "https://www.youtube.com/watch?v=FjrKMcnKahY",
+        "https://www.youtube.com/playlist?list=PLfbOp004UaYVt1En4WW3pVuM-vm66OqZe",
+        "https://www.youtube.com/watch?v=xKvzr6NDeS8"
+      ]
     },
-    {
-      "question": "Which of the following is a core principle in mobile UI/UX design?",
-      "options": [
-        "Designing for large screens only",
-        "Ensuring consistent user experience across all devices",
-        "Prioritizing desktop interfaces over mobile",
-        "Using complex navigation structures"
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://developer.android.com/training/testing/fundamentals",
+        "https://firebase.google.com/",
+        "https://developer.android.com/guide/components/fundamentals"
       ],
-      "correct_option": 1,
-      "hint": "Think about the importance of uniformity across platforms."
+      "notes": [
+        "https://developer.android.com/training/testing/fundamentals",
+        "https://developer.x.com/en",
+        "https://learn.microsoft.com/en-us/power-apps/",
+        "https://www.dev4side.com/en/blog/power-apps-tutorial",
+        "https://about.appsheet.com/home/",
+        "https://www.figma.com/resource-library/what-is-a-use-case/",
+        "https://developer.okta.com/docs/guides/embedded-siw/main/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=4ld7NzRenjQ",
+        "https://www.youtube.com/watch?v=LIC8DFW8fOE",
+        "https://www.youtube.com/watch?v=K0t-RCSlasE&pp=ygUJI2FwcGJ1aWxk",
+        "https://www.youtube.com/watch?v=rJsHc-4w60g",
+        "https://www.youtube.com/watch?v=w0H1-b044KY",
+        "https://www.youtube.com/watch?v=PeGfX7W1mJk&pp=ygUII3VpbWFrZXI%3D",
+        "https://www.youtube.com/watch?v=8sAyPDLorek"
+      ]
     },
-    {
-      "question": "What is the first stage of the mobile app lifecycle?",
-      "options": [
-        "App is running in the foreground",
-        "App is in the background",
-        "App is installed and initialized",
-        "App is terminated"
+    "advanced": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "https://developer.android.com/get-started/overview",
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://docs.streamlit.io/"
       ],
-      "correct_option": 2,
-      "hint": "Consider what happens immediately after a user downloads an app."
-    },
-    {
-      "question": "Which tool is commonly used for setting up a development environment for Android apps?",
-      "options": [
-        "Xcode",
-        "Visual Studio Code",
-        "Android Studio",
-        "Eclipse"
+      "notes": [
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+        "https://www.dev4side.com/en/blog/power-apps-tutorial",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.datacamp.com/blog/how-to-learn-python-expert-guide"
       ],
-      "correct_option": 2,
-      "hint": "Think of the IDE specifically tailored for Android development."
-    },
-    {
-      "question": "In the context of mobile app development, what does the term 'responsive design' mean?",
-      "options": [
-        "Designing apps that only work on latest devices",
-        "Creating apps with fixed screen sizes",
-        "Ensuring apps look good on all screen sizes",
-        "Developing apps with minimal code"
-      ],
-      "correct_option": 2,
-      "hint": "Consider the adaptability of app interfaces to various screen dimensions."
+      "videos": [
+        "https://www.youtube.com/watch?v=b1oC7sLIgpI",
+        "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/watch?v=3Lfs5fAc1bU",
+        "https://www.youtube.com/watch?v=IOVFRMuPeVQ",
+        "https://www.youtube.com/watch?v=CzRQ9mnmh44",
+        "https://www.youtube.com/watch?v=K5KVEU3aaeQ",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://www.youtube.com/c/DesignPilot"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary difference between iOS and Android operating systems?",
+        "options": [
+          "iOS is open source, while Android is closed source.",
+          "Android supports a wider range of devices than iOS.",
+          "iOS apps must be developed using Java, while Android apps use Swift.",
+          "Android is developed by Apple, while iOS is developed by Google."
+        ],
+        "correct_option": 1,
+        "hint": "Consider the number of manufacturers using each OS."
+      },
+      {
+        "question": "Which of the following is a core principle in mobile UI/UX design?",
+        "options": [
+          "Designing for large screens only",
+          "Ensuring consistent user experience across all devices",
+          "Prioritizing desktop interfaces over mobile",
+          "Using complex navigation structures"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the importance of uniformity across platforms."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the first stage of the mobile app lifecycle?",
+        "options": [
+          "App is running in the foreground",
+          "App is in the background",
+          "App is installed and initialized",
+          "App is terminated"
+        ],
+        "correct_option": 2,
+        "hint": "Consider what happens immediately after a user downloads an app."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which tool is commonly used for setting up a development environment for Android apps?",
+        "options": [
+          "Xcode",
+          "Visual Studio Code",
+          "Android Studio",
+          "Eclipse"
+        ],
+        "correct_option": 2,
+        "hint": "Think of the IDE specifically tailored for Android development."
+      },
+      {
+        "question": "In the context of mobile app development, what does the term 'responsive design' mean?",
+        "options": [
+          "Designing apps that only work on latest devices",
+          "Creating apps with fixed screen sizes",
+          "Ensuring apps look good on all screen sizes",
+          "Developing apps with minimal code"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the adaptability of app interfaces to various screen dimensions."
+      }
+    ]
+  }
 }

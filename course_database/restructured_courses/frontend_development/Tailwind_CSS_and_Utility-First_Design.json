@@ -15,105 +15,148 @@
     "responsive"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-        "description": "A comprehensive guide to the CSS language, including its syntax, properties, and how it is used to style web pages."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type",
-        "description": "The `:first-of-type` CSS pseudo-class selects the first element of its type among its siblings."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter",
-        "description": "This page provides documentation on the CSS ::first-letter pseudo-element, used to style the first letter of a text block."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/tailwind-css-utility-first-styling-for-rapid-ui-development/",
-        "description": "An introduction to Tailwind CSS, a utility-first framework for efficient and rapid UI development."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/css/tailwind-css/",
-        "description": "This resource provides an introduction and comprehensive guide to using Tailwind CSS for utility-first styling in web development."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/css/introduction-to-tailwind-css/",
-        "description": "An introductory guide to understanding and implementing Tailwind CSS for utility-first styling in web development."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/css/what-is-tailwind-css-4/",
-        "description": "An introductory guide explaining the features and benefits of using Tailwind CSS for utility-first styling in web development."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/css/how-to-add-tailwind-css-to-html/",
-        "description": "A guide on integrating Tailwind CSS into HTML projects for streamlined styling."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=mr15Xzb1Ook",
-      "https://www.youtube.com/watch?v=DenUCuq4G04",
-      "https://www.youtube.com/watch?v=lHZwlzOUOZ4",
-      "https://www.youtube.com/watch?v=A41vgi5y1lA",
-      "https://www.youtube.com/watch?v=6biMWgD6_JY"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What are utility classes in Tailwind CSS?",
-      "options": [
-        "Predefined CSS classes for styling",
-        "Classes for creating JavaScript functions",
-        "HTML elements for structuring content",
-        "Frameworks for backend development"
+    "beginner": {
+      "docs": [
+        "https://tailwindcss.com/docs/styling-with-utility-classes",
+        "https://v2.tailwindcss.com/docs",
+        "https://tailwindcss.com/",
+        "https://samiamdesigns.substack.com/p/i-spent-a-year-loving-to-hate-tailwind"
       ],
-      "correct_option": 0,
-      "hint": "These classes are used to apply specific styles directly in the HTML."
+      "notes": [
+        "https://tailwindcss.com/",
+        "https://daily.dev/blog/tailwind-css-basics-for-beginners",
+        "https://tailwindcss.com/docs/styling-with-utility-classes",
+        "https://samiamdesigns.substack.com/p/i-spent-a-year-loving-to-hate-tailwind",
+        "https://laracasts.com/discuss/channels/general-discussion/need-a-good-tailwind-tutorial"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=xP_uJj8L_1Q&t=0s",
+        "https://www.youtube.com/watch?v=Ybybd3GCNn4",
+        "https://www.youtube.com/watch?v=lCxcTsOHrjo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=DenUCuq4G04&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8k165Y0qBN0",
+        "https://www.youtube.com/watch?v=elgqxmdVms8",
+        "https://www.youtube.com/watch?v=GcX4iEhDgM8",
+        "https://www.youtube.com/playlist?list=PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O"
+      ]
     },
-    {
-      "question": "How can you customize themes in Tailwind CSS?",
-      "options": [
-        "By using Tailwind's built-in command line tool",
-        "By directly modifying the Tailwind CSS source files",
-        "By configuring the `tailwind.config.js` file",
-        "By changing the CSS file linked in HTML"
+    "intermediate": {
+      "docs": [
+        "https://tailwindcss.com/",
+        "https://github.com/tailwindlabs/tailwindcss/issues/13136",
+        "https://tailwindcss.com/docs/adding-custom-styles",
+        "https://github.com/tailwindlabs/tailwindcss/discussions/5258",
+        "https://tailwindcss.com/docs/upgrade-guide"
       ],
-      "correct_option": 2,
-      "hint": "Look for a configuration file specific to Tailwind CSS."
+      "notes": [
+        "https://tailwindcss.com/",
+        "https://www.geeksforgeeks.org/css/tailwind-css/",
+        "https://tailwindcss.com/docs/adding-custom-styles",
+        "https://tsh.io/blog/tailwind-css-tutorial/",
+        "https://kinsta.com/blog/tailwind-css/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=6XIT2nXIbLU",
+        "https://www.youtube.com/watch?v=ZqEa8fTxypQ",
+        "https://www.youtube.com/watch?v=UI4v1MuyJio",
+        "https://www.youtube.com/watch?v=NPYQUDmOeYI",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=EZajJGOMWas",
+        "https://www.youtube.com/watch?v=Ep3wrPdkiBg",
+        "https://www.youtube.com/c/GreatAdib",
+        "https://www.youtube.com/@JCBCB"
+      ]
     },
-    {
-      "question": "Which utility class is used for applying a margin of 8 units in Tailwind CSS?",
-      "options": [
-        "m-8",
-        "margin-8",
-        "mt-8",
-        "ml-8"
+    "advanced": {
+      "docs": [
+        "https://tailwindcss.com/",
+        "https://daily.dev/blog/tailwind-css-basics-for-beginners",
+        "https://tailwindcss.com/plus",
+        "https://nextjs.org/docs/app/building-your-application/styling/tailwind-css"
       ],
-      "correct_option": 0,
-      "hint": "It uses a single letter to denote margin followed by the value."
-    },
-    {
-      "question": "How does Tailwind CSS handle responsive design?",
-      "options": [
-        "By using media queries directly in CSS files",
-        "Through the use of responsive utility prefixes",
-        "By providing a separate stylesheet for each screen size",
-        "By using JavaScript to detect screen size changes"
+      "notes": [
+        "https://tailwindcss.com/",
+        "https://daily.dev/blog/tailwind-css-basics-for-beginners",
+        "https://www.locofy.ai/blog/create-a-custom-theme-with-tailwindcss",
+        "https://tailgrids.com/blog/tailwind-css-introduction-and-setup-guide",
+        "https://www.material-tailwind.com/blog/how-to-learn-tailwind-css",
+        "https://www.geeksforgeeks.org/css/tailwind-css/"
       ],
-      "correct_option": 1,
-      "hint": "These prefixes help you apply styles based on screen sizes directly in HTML."
-    },
-    {
-      "question": "What is the purpose of the 'dark' variant in Tailwind CSS?",
-      "options": [
-        "To automatically switch to a dark theme at night",
-        "To provide styles that adapt to a user's OS dark mode setting",
-        "To allow developers to create dark-themed websites manually",
-        "To apply a grayscale filter to the entire webpage"
-      ],
-      "correct_option": 1,
-      "hint": "Think about how user preferences in operating systems can influence web design."
+      "videos": [
+        "https://www.youtube.com/watch?v=lCxcTsOHrjo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=6biMWgD6_JY",
+        "https://www.youtube.com/watch?v=DenUCuq4G04&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=tS7upsfuxmo",
+        "https://www.youtube.com/watch?v=3LPFKVOc3QI",
+        "https://www.youtube.com/watch?v=D-2FYNLuo4M",
+        "https://www.youtube.com/watch?v=lTWR_DuQAvw",
+        "https://www.youtube.com/watch?v=MYTjeqaezHw",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/c/GreatAdib"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What are utility classes in Tailwind CSS?",
+        "options": [
+          "Predefined CSS classes for styling",
+          "Classes for creating JavaScript functions",
+          "HTML elements for structuring content",
+          "Frameworks for backend development"
+        ],
+        "correct_option": 0,
+        "hint": "These classes are used to apply specific styles directly in the HTML."
+      },
+      {
+        "question": "How can you customize themes in Tailwind CSS?",
+        "options": [
+          "By using Tailwind's built-in command line tool",
+          "By directly modifying the Tailwind CSS source files",
+          "By configuring the `tailwind.config.js` file",
+          "By changing the CSS file linked in HTML"
+        ],
+        "correct_option": 2,
+        "hint": "Look for a configuration file specific to Tailwind CSS."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which utility class is used for applying a margin of 8 units in Tailwind CSS?",
+        "options": [
+          "m-8",
+          "margin-8",
+          "mt-8",
+          "ml-8"
+        ],
+        "correct_option": 0,
+        "hint": "It uses a single letter to denote margin followed by the value."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "How does Tailwind CSS handle responsive design?",
+        "options": [
+          "By using media queries directly in CSS files",
+          "Through the use of responsive utility prefixes",
+          "By providing a separate stylesheet for each screen size",
+          "By using JavaScript to detect screen size changes"
+        ],
+        "correct_option": 1,
+        "hint": "These prefixes help you apply styles based on screen sizes directly in HTML."
+      },
+      {
+        "question": "What is the purpose of the 'dark' variant in Tailwind CSS?",
+        "options": [
+          "To automatically switch to a dark theme at night",
+          "To provide styles that adapt to a user's OS dark mode setting",
+          "To allow developers to create dark-themed websites manually",
+          "To apply a grayscale filter to the entire webpage"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how user preferences in operating systems can influence web design."
+      }
+    ]
+  }
 }

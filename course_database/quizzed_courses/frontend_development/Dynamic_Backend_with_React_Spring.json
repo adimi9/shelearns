@@ -1,0 +1,281 @@
+{
+  "id": "FE24",
+  "name": "Dynamic Backend with React Spring",
+  "category": "Frontend Development",
+  "primary_tech": "React Spring",
+  "topics": [
+    "Introduction to React Spring and its capabilities",
+    "Setting up a Node.js environment for backend development",
+    "Integrating React Spring with Express.js",
+    "Creating dynamic animations for backend data visualization",
+    "Handling data with RESTful API and React Spring",
+    "Optimizing backend performance with animation techniques",
+    "Advanced animation techniques for server-side rendering",
+    "Securing backend endpoints with JWT and React Spring"
+  ],
+  "recommended": false,
+  "tags": [
+    "react-spring",
+    "backend-development",
+    "animations",
+    "web-performance",
+    "nodejs",
+    "api-integration"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://www.joshwcomeau.com/blog/how-i-built-my-blog/",
+        "https://firebase.google.com/docs/hosting"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=Vlk_wpXzUmw",
+        "https://m.youtube.com/watch?v=sWVgMcz8Q44&pp=ygUPI3JlYWN0YnV0dG9uYXBp",
+        "https://www.youtube.com/watch?v=-LUA-LHXobE",
+        "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
+        "https://www.youtube.com/watch?v=B5tcZoNyqGI",
+        "https://www.joshwcomeau.com/react/server-components/",
+        "https://www.youtube.com/watch?v=MY6ZZIn93V8"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Vlk_wpXzUmw",
+        "https://www.youtube.com/watch?v=-LUA-LHXobE",
+        "https://m.youtube.com/watch?v=sWVgMcz8Q44&pp=ygUPI3JlYWN0YnV0dG9uYXBp",
+        "https://www.youtube.com/watch?v=B5tcZoNyqGI",
+        "https://www.youtube.com/watch?v=bqFjrhRrvy8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=TywlS9iAZCM&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=mxOcw4FZRa8",
+        "https://www.youtube.com/watch?v=MY6ZZIn93V8",
+        "https://www.youtube.com/watch?v=jBDTsf8jsEs"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://stackoverflow.com/questions/30967822/when-do-i-use-path-parameters-vs-query-parameters-in-a-restful-api",
+        "https://firebase.google.com/docs/hosting",
+        "https://graphql.org/community/tools-and-libraries/"
+      ],
+      "notes": [
+        "https://www.joshwcomeau.com/react/server-components/",
+        "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
+        "https://stackoverflow.blog/2021/12/28/what-i-wish-i-had-known-about-single-page-applications/",
+        "https://stackoverflow.com/questions/60424844/do-i-need-to-run-npm-run-build-every-time-i-made-changes",
+        "https://github.com/MobileNativeFoundation/discussions/discussions/47"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=B5tcZoNyqGI",
+        "https://www.youtube.com/watch?v=TywlS9iAZCM&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=IxYa6cKimZc&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=sWVgMcz8Q44&pp=ygUPI3JlYWN0YnV0dG9uYXBp",
+        "https://www.youtube.com/watch?v=uLUMM1Y-dd8",
+        "https://www.youtube.com/watch?v=7T-HnTE6v64",
+        "https://www.youtube.com/watch?v=31KTdfRH6nY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=5PdEmeopJVQ&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.joshwcomeau.com/react/server-components/",
+        "https://www.marcobehler.com/guides/spring-security",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      ],
+      "notes": [
+        "https://www.joshwcomeau.com/react/server-components/",
+        "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
+        "https://www.marcobehler.com/guides/spring-security",
+        "https://www.linkedin.com/posts/singhsanket143_advanced-backend-development-roadmap-2025-activity-7284418888820240385-s1uD",
+        "https://www.sourish.dev/blog/industry/personal-projects"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=-LUA-LHXobE",
+        "https://m.youtube.com/watch?v=bqFjrhRrvy8",
+        "https://www.youtube.com/watch?v=rIYzLhkG9TA",
+        "https://www.youtube.com/watch?v=7T-HnTE6v64",
+        "https://www.youtube.com/watch?v=7WKUGdUEFVI",
+        "https://www.youtube.com/watch?v=6_wgB8GO1GM",
+        "https://www.youtube.com/watch?v=HXquxWtE5vA",
+        "https://www.youtube.com/watch?v=j8EUPXFQgbY",
+        "https://www.youtube.com/@akshaymarch7",
+        "https://www.youtube.com/@codewithzosh"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is React Spring primarily used for in web development?",
+        "options": [
+          "Creating static web pages",
+          "Developing mobile applications",
+          "Implementing dynamic animations",
+          "Writing backend logic"
+        ],
+        "correct_option": 2,
+        "hint": "Think about what kind of user interface feature React Spring enhances."
+      },
+      {
+        "question": "What is the first step in setting up a Node.js environment for backend development?",
+        "options": [
+          "Install a database",
+          "Set up a frontend framework",
+          "Install Node.js",
+          "Create RESTful APIs"
+        ],
+        "correct_option": 2,
+        "hint": "You need the runtime environment first."
+      },
+      {
+        "question": "How does React Spring integrate with Express.js for backend data visualization?",
+        "options": [
+          "By creating static HTML pages",
+          "Through dynamic animations",
+          "By storing data in XML format",
+          "Using SQL queries"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how animations can enhance data representation."
+      },
+      {
+        "question": "Which method is commonly used to handle data with RESTful API and React Spring?",
+        "options": [
+          "POST requests in SQL",
+          "GET and POST requests",
+          "XML data exchange",
+          "FTP file transfer"
+        ],
+        "correct_option": 1,
+        "hint": "Think about common HTTP methods in RESTful services."
+      },
+      {
+        "question": "How can backend endpoints be secured when using JWT and React Spring?",
+        "options": [
+          "By storing passwords in plain text",
+          "Using HTTP instead of HTTPS",
+          "Implementing JWT authentication",
+          "Disabling all user access"
+        ],
+        "correct_option": 2,
+        "hint": "JWT stands for JSON Web Token, used for secure transmission."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of React Spring in a dynamic backend environment?",
+        "options": [
+          "To handle RESTful API requests",
+          "To manage server-side rendering",
+          "To create dynamic animations",
+          "To secure backend endpoints"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the visual aspect that React Spring enhances."
+      },
+      {
+        "question": "Which module is essential for integrating React Spring with Express.js?",
+        "options": [
+          "react-router",
+          "express-react-spring",
+          "express-spring-bridge",
+          "react-spring"
+        ],
+        "correct_option": 3,
+        "hint": "Consider the name of the library that provides animation capabilities."
+      },
+      {
+        "question": "How can you optimize backend performance using React Spring animations?",
+        "options": [
+          "By reducing the number of animations",
+          "By using lazy loading for animations",
+          "By implementing server-side caching",
+          "By compressing animation files"
+        ],
+        "correct_option": 1,
+        "hint": "Think about techniques that delay the loading until necessary."
+      },
+      {
+        "question": "What is a common use of JWT in securing backend endpoints with React Spring?",
+        "options": [
+          "Encrypting animation files",
+          "Authenticating users",
+          "Managing animation states",
+          "Enhancing animation speed"
+        ],
+        "correct_option": 1,
+        "hint": "JWT is often used for verifying identities."
+      },
+      {
+        "question": "Which of the following is an advanced technique for server-side rendering with React Spring?",
+        "options": [
+          "Using CSS animations",
+          "Implementing WebSockets",
+          "Leveraging React Suspense",
+          "Using Redux for state management"
+        ],
+        "correct_option": 2,
+        "hint": "Consider techniques that allow real-time updates and interactions."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In the context of using React Spring for backend development, which of the following best describes its primary capability?",
+        "options": [
+          "Creating robust frontend UI components",
+          "Providing server-side rendering capabilities",
+          "Facilitating dynamic animations for data visualization",
+          "Managing state for large-scale applications"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the core focus of React Spring in relation to animations."
+      },
+      {
+        "question": "When setting up a Node.js environment for backend development with React Spring, which tool is essential for managing package dependencies?",
+        "options": [
+          "Webpack",
+          "Babel",
+          "npm",
+          "Yarn"
+        ],
+        "correct_option": 2,
+        "hint": "This tool is commonly used for package management in Node.js projects."
+      },
+      {
+        "question": "How does integrating React Spring with Express.js enhance backend functionality?",
+        "options": [
+          "By improving database query speed",
+          "By allowing dynamic animation of API responses",
+          "By providing a templating engine for server-side views",
+          "By enhancing security through built-in middleware"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how React Spring can visually enrich server responses."
+      },
+      {
+        "question": "Which method would be most effective for optimizing backend performance using animation techniques with React Spring?",
+        "options": [
+          "Implementing lazy loading for animations",
+          "Using React Hooks for state management",
+          "Utilizing middleware for request handling",
+          "Applying server-side caching"
+        ],
+        "correct_option": 0,
+        "hint": "Consider techniques that reduce the initial load time of animations."
+      },
+      {
+        "question": "What is a key benefit of securing backend endpoints with JWT when using React Spring?",
+        "options": [
+          "JWT allows for stateful session management",
+          "JWT provides encryption for data at rest",
+          "JWT enables stateless authentication",
+          "JWT ensures faster data transmission"
+        ],
+        "correct_option": 2,
+        "hint": "JWT is known for its ability to maintain sessions without storing them on the server."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User uses React and wants smaller lib"
+  ]
+}

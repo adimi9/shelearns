@@ -24,107 +24,154 @@
     "apple"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs/ios/setup",
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://firebase.google.com/docs/firestore/quickstart",
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://docs.pytorch.org/executorch/stable/using-executorch-ios.html"
+      ],
+      "notes": [
+        "https://www.youtube.com/c/programmingwithmosh",
+        "https://forum.freecodecamp.org/t/roadmap-to-learn-mobile-develpment/494700",
+        "https://mcyoung.xyz/2023/08/01/llvm-ir/",
+        "https://en.wikipedia.org/wiki/Objective-C",
+        "https://docs.pytorch.org/executorch/stable/using-executorch-ios.html",
+        "https://grpc.io/docs/languages/objective-c/basics/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
+        "https://www.youtube.com/watch?v=kJOqIaGwQ7Y",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+        "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=_bYFu9mBnr4&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs/ios/setup",
+        "https://kotlinlang.org/docs/native-objc-interop.html",
+        "https://firebase.google.com/",
+        "https://docs.pytorch.org/executorch/stable/getting-started.html",
+        "https://firebase.google.com/docs/remote-config/get-started"
+      ],
+      "notes": [
+        "https://forums.swift.org/t/our-journey-with-swift-thus-far-some-notes-and-reflections/70510",
+        "https://firebase.google.com/docs/ios/setup",
+        "https://stackoverflow.com/questions/63607158/xcode-building-for-ios-simulator-but-linking-in-an-object-file-built-for-ios-f",
+        "https://firebase.google.com/docs/remote-config/get-started",
+        "https://mcyoung.xyz/2023/08/01/llvm-ir/",
+        "https://en.wikipedia.org/wiki/Objective-C",
+        "https://buildfire.com/programming-languages-for-mobile-app-development/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
+        "https://www.youtube.com/watch?v=yqkISICHH-U",
+        "https://www.youtube.com/watch?v=AhAxLiGC7Pc",
+        "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
+        "https://www.youtube.com/watch?v=ADjyDF0RNY8",
+        "https://m.youtube.com/watch?v=CcBHZ0t2Qwc&pp=ygULI2phdmFzY3Jpb3Q%3D",
+        "https://www.youtube.com/watch?v=0h4sxghBNQs",
+        "https://www.youtube.com/watch?v=GAT4iO1Lqak"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://pytorch.org/docs/stable/torch.compiler.html",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "https://news.ycombinator.com/item?id=34680345",
+        "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
+      ],
+      "notes": [
+        "https://news.ycombinator.com/item?id=34680345",
+        "https://community.shopify.com/c/shopify-education-and/how-to-become-a-shopify-developer-a-step-by-step-guide/m-p/2831473",
+        "https://www.simoahava.com/analytics/awesome-google-tag-manager-resources/",
+        "https://mcyoung.xyz/2023/08/01/llvm-ir/",
+        "https://brightdigit.com/tutorials",
+        "https://edw.is/learning-vulkan/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=_bYFu9mBnr4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/watch?v=HXquxWtE5vA"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://firebase.google.com/docs/ios/setup",
-        "description": "This resource provides step-by-step instructions for setting up Firebase in an iOS app."
+        "question": "What is one of the primary reasons developers might still choose Objective-C over Swift for iOS development?",
+        "options": [
+          "Objective-C is newer and more modern than Swift.",
+          "Objective-C is the only language that can be used for iOS development.",
+          "Objective-C is required for maintaining older legacy iOS applications.",
+          "Objective-C has better performance than Swift."
+        ],
+        "correct_option": 2,
+        "hint": "Consider the historical context of iOS development and legacy systems."
       },
       {
-        "url": "https://kotlinlang.org/docs/native-objc-interop.html",
-        "description": "A guide on using Kotlin/Native to interact with Objective-C APIs and libraries."
-      },
-      {
-        "url": "https://firebase.google.com/",
-        "description": "Firebase provides a comprehensive platform for building, improving, and growing mobile and web applications."
+        "question": "Which file extension is commonly used for Objective-C implementation files?",
+        "options": [
+          ".objc",
+          ".m",
+          ".swift",
+          ".h"
+        ],
+        "correct_option": 1,
+        "hint": "Objective-C implementation files use a specific extension different from Swift files."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.reddit.com/r/iOSProgramming/comments/sco1jm/modern_objectivec_resources/",
-        "description": "A curated list of modern resources and tutorials for learning and mastering Objective-C programming."
-      },
-      {
-        "url": "https://stackoverflow.com/questions/30887751/how-to-connect-from-your-ios-app-to-a-backend-server-how-to-read-modify-and-fe",
-        "description": "This Stack Overflow post discusses methods for connecting an iOS app to a backend server to read, modify, and fetch data."
-      },
-      {
-        "url": "https://www.reddit.com/r/iOSProgramming/comments/uypp1w/companies_that_still_use_objectivec/",
-        "description": "Discussion on companies that continue to use Objective-C in iOS programming."
-      },
-      {
-        "url": "https://www.quora.com/What-backend-programming-languages-and-or-frameworks-are-typically-used-when-developing-native-iOS-apps-with-Objective-C-or-Swift",
-        "description": "This resource discusses common backend programming languages and frameworks used in developing native iOS apps with Objective-C or Swift."
-      },
-      {
-        "url": "https://stackoverflow.com/questions/44814745/obj-c-post-json-data-to-server",
-        "description": "Guidance on posting JSON data to a server using Objective-C."
+        "question": "In Objective-C, what is the keyword used to define a class interface?",
+        "options": [
+          "@class",
+          "@implementation",
+          "@interface",
+          "@define"
+        ],
+        "correct_option": 2,
+        "hint": "This keyword is similar to defining a blueprint of a class."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=8sXRyHI3bLw",
-      "https://www.reddit.com/r/csharp/comments/pc0vdq/what_should_i_learn_for_c_backend_development/",
-      "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
-      "https://www.reddit.com/r/learnprogramming/comments/1430rma/anyone_else_use_code_academy_to_learn_programming/",
-      "https://www.youtube.com/watch?v=rHux0gMZ3Eg"
+    "advanced": [
+      {
+        "question": "What is a key characteristic of Objective-C that differentiates it from Swift?",
+        "options": [
+          "Objective-C is a functional programming language.",
+          "Objective-C uses message passing for method calls.",
+          "Objective-C does not support object-oriented programming.",
+          "Objective-C is only used for macOS applications."
+        ],
+        "correct_option": 1,
+        "hint": "Objective-C's syntax for calling methods is different from traditional function calls."
+      },
+      {
+        "question": "Which of the following is a valid way to import a framework in Objective-C?",
+        "options": [
+          "#include <UIKit.h>",
+          "import UIKit",
+          "@import UIKit;",
+          "#import <UIKit/UIKit.h>"
+        ],
+        "correct_option": 3,
+        "hint": "Objective-C uses a specific directive different from C-style includes."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is one of the primary reasons developers might still choose Objective-C over Swift for iOS development?",
-      "options": [
-        "Objective-C is newer and more modern than Swift.",
-        "Objective-C is the only language that can be used for iOS development.",
-        "Objective-C is required for maintaining older legacy iOS applications.",
-        "Objective-C has better performance than Swift."
-      ],
-      "correct_option": 2,
-      "hint": "Consider the historical context of iOS development and legacy systems."
-    },
-    {
-      "question": "Which file extension is commonly used for Objective-C implementation files?",
-      "options": [
-        ".objc",
-        ".m",
-        ".swift",
-        ".h"
-      ],
-      "correct_option": 1,
-      "hint": "Objective-C implementation files use a specific extension different from Swift files."
-    },
-    {
-      "question": "In Objective-C, what is the keyword used to define a class interface?",
-      "options": [
-        "@class",
-        "@implementation",
-        "@interface",
-        "@define"
-      ],
-      "correct_option": 2,
-      "hint": "This keyword is similar to defining a blueprint of a class."
-    },
-    {
-      "question": "What is a key characteristic of Objective-C that differentiates it from Swift?",
-      "options": [
-        "Objective-C is a functional programming language.",
-        "Objective-C uses message passing for method calls.",
-        "Objective-C does not support object-oriented programming.",
-        "Objective-C is only used for macOS applications."
-      ],
-      "correct_option": 1,
-      "hint": "Objective-C's syntax for calling methods is different from traditional function calls."
-    },
-    {
-      "question": "Which of the following is a valid way to import a framework in Objective-C?",
-      "options": [
-        "#include <UIKit.h>",
-        "import UIKit",
-        "@import UIKit;",
-        "#import <UIKit/UIKit.h>"
-      ],
-      "correct_option": 3,
-      "hint": "Objective-C uses a specific directive different from C-style includes."
-    }
-  ],
   "preferred_if": [
     "User needs to maintain older iOS apps"
   ]

@@ -24,107 +24,140 @@
     "security"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://www.okta.com/services/certification/",
+        "https://developer.okta.com/docs/concepts/saml/",
+        "https://www.okta.com/services/training/",
+        "https://developer.okta.com/docs/guides/create-an-api-token/main/",
+        "https://wilsonmar.github.io/okta/"
+      ],
+      "notes": [
+        "https://www.okta.com/services/training/",
+        "https://iamse.blog/category/ciam/okta-ciam/",
+        "https://auth0.com/docs/get-started/identity-fundamentals/identity-and-access-management",
+        "https://iamse.blog/tag/oauth2/",
+        "https://auth0.com/docs/get-started/identity-fundamentals/introduction-to-auth0"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=pAzqscDx580&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=HixIrBNgoBY&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=x7uSmQk9aeY",
+        "https://www.youtube.com/watch?v=ZuQoN2x8T6k",
+        "https://www.youtube.com/watch?v=4vFEZ0A3dN8",
+        "https://www.youtube.com/watch?v=MOCeQYbQPPU&pp=ygUGI2F1dGgy",
+        "https://www.youtube.com/watch?v=2WNjmT2z7c4",
+        "https://www.youtube.com/watch?v=EJFp-B936Ig"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developer.okta.com/docs/reference/error-codes/",
+        "https://www.okta.com/services/certification/",
+        "https://developer.okta.com/docs/guides/create-an-api-token/main/",
+        "https://help.okta.com/en-us/content/topics/directory/ad-agent-about-service-account.htm",
+        "https://www.okta.com/services/training/"
+      ],
+      "notes": [
+        "https://iamse.blog/category/ciam/okta-ciam/",
+        "https://www.okta.com/services/training/",
+        "https://developer.okta.com/docs/guides/create-an-api-token/main/",
+        "https://www.okta.com/services/certification/",
+        "https://developer.okta.com/docs/concepts/policies/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=s724GgNUt1g"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.okta.com/docs/concepts/saml/",
+        "https://www.okta.com/services/certification/",
+        "https://auth0.com/blog/a-complete-guide-to-lombok/",
+        "https://www.okta.com/services/training/",
+        "https://iamse.blog/2025/05/20/smarter-access-control-a-deep-dive-into-okta-authentication-policies-and-related-elements/"
+      ],
+      "notes": [
+        "https://www.okta.com/services/training/",
+        "https://iamse.blog/category/ciam/okta-ciam/",
+        "https://www.okta.com/services/certification/",
+        "https://iamse.blog/tag/oauth2/",
+        "https://developer.okta.com/docs/concepts/saml/",
+        "https://help.okta.com/oie/en-us/content/topics/releasenotes/archive/oie-relnotes-2021.htm"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ZuQoN2x8T6k",
+        "https://www.youtube.com/watch?v=k5xvNB4pCV0",
+        "https://www.youtube.com/watch?v=BHSRb6DeNmc",
+        "https://www.youtube.com/watch?v=4vFEZ0A3dN8",
+        "https://www.youtube.com/watch?v=s724GgNUt1g",
+        "https://m.youtube.com/watch?v=Q39YxkEdVRQ"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/curriculum/extensions/other-tooling-types/",
-        "description": "This resource provides an overview of various tooling types for web development, focusing on browser extensions and their applications."
+        "question": "What is a primary benefit of using Auth0 or Okta for authentication and authorization?",
+        "options": [
+          "They provide a fully managed authentication service, reducing development overhead.",
+          "They offer database management solutions to store user data.",
+          "They are primarily used for frontend development tasks.",
+          "They provide a platform for developing AI-driven applications."
+        ],
+        "correct_option": 0,
+        "hint": "Focus on the core functionality that reduces development effort related to user identity management."
       },
       {
-        "url": "https://legacy.reactjs.org/warnings/invalid-hook-call-warning.html",
-        "description": "This page explains the causes and solutions for the \"Invalid Hook Call Warning\" in React applications."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/431",
-        "description": "This resource provides detailed information about HTTP status code 431, which indicates a request header fields too large error."
+        "question": "Which of the following best describes a use case for Auth0 or Okta?",
+        "options": [
+          "Developing a custom encryption algorithm for data security.",
+          "Implementing a complex AI model for user behavior analysis.",
+          "Managing user identities and securing application access.",
+          "Building a microservices architecture from scratch."
+        ],
+        "correct_option": 2,
+        "hint": "Consider the primary role of these platforms in application security."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.geeksforgeeks.org/software-testing/how-to-call-apis-secured-by-auth0-in-postman/",
-        "description": "This resource provides a guide on using Postman to call APIs secured with Auth0 authentication."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/trying-to-setup-git-and-github-for-projects/436532",
-        "description": "A forum discussion offering guidance on setting up Git and GitHub for projects."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-to-use-cognito-for-web-applications/",
-        "description": "A guide on integrating AWS Cognito for authentication in web applications."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/intro-to-webauthn/",
-        "description": "An introductory guide to WebAuthn, explaining how it enhances web security through passwordless authentication."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/react-passport-authentication/",
-        "description": "A guide to implementing user authentication in React applications using Passport.js."
+        "question": "How do platforms like Auth0 and Okta help developers focus on application logic?",
+        "options": [
+          "By offering tools for frontend design.",
+          "By managing authentication and authorization processes.",
+          "By providing analytics and reporting services.",
+          "By offering cloud storage solutions."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how these platforms streamline security processes."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=kB0JyyivwCg",
-      "https://www.youtube.com/watch?v=PbUcQUQ7K2o",
-      "https://www.youtube.com/watch?v=cGXygA5MAno",
-      "https://www.youtube.com/watch?v=X3L9GLrWQqI",
-      "https://www.youtube.com/watch?v=F8Duksxp4i4"
+    "advanced": [
+      {
+        "question": "What type of service are Auth0 and Okta classified as?",
+        "options": [
+          "Platform as a Service (PaaS)",
+          "Infrastructure as a Service (IaaS)",
+          "Software as a Service (SaaS)",
+          "Backend as a Service (BaaS)"
+        ],
+        "correct_option": 2,
+        "hint": "These services provide ready-to-use solutions over the internet."
+      },
+      {
+        "question": "Why might a developer choose a managed solution like Auth0 or Okta over building custom authentication?",
+        "options": [
+          "To have complete control over every aspect of user data.",
+          "To reduce the need for in-depth security expertise and focus on core application development.",
+          "To improve the performance of frontend rendering.",
+          "To integrate directly with hardware-level security features."
+        ],
+        "correct_option": 1,
+        "hint": "Consider what developers aim to achieve by using managed authentication services."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is a primary benefit of using Auth0 or Okta for authentication and authorization?",
-      "options": [
-        "They provide a fully managed authentication service, reducing development overhead.",
-        "They offer database management solutions to store user data.",
-        "They are primarily used for frontend development tasks.",
-        "They provide a platform for developing AI-driven applications."
-      ],
-      "correct_option": 0,
-      "hint": "Focus on the core functionality that reduces development effort related to user identity management."
-    },
-    {
-      "question": "Which of the following best describes a use case for Auth0 or Okta?",
-      "options": [
-        "Developing a custom encryption algorithm for data security.",
-        "Implementing a complex AI model for user behavior analysis.",
-        "Managing user identities and securing application access.",
-        "Building a microservices architecture from scratch."
-      ],
-      "correct_option": 2,
-      "hint": "Consider the primary role of these platforms in application security."
-    },
-    {
-      "question": "How do platforms like Auth0 and Okta help developers focus on application logic?",
-      "options": [
-        "By offering tools for frontend design.",
-        "By managing authentication and authorization processes.",
-        "By providing analytics and reporting services.",
-        "By offering cloud storage solutions."
-      ],
-      "correct_option": 1,
-      "hint": "Think about how these platforms streamline security processes."
-    },
-    {
-      "question": "What type of service are Auth0 and Okta classified as?",
-      "options": [
-        "Platform as a Service (PaaS)",
-        "Infrastructure as a Service (IaaS)",
-        "Software as a Service (SaaS)",
-        "Backend as a Service (BaaS)"
-      ],
-      "correct_option": 2,
-      "hint": "These services provide ready-to-use solutions over the internet."
-    },
-    {
-      "question": "Why might a developer choose a managed solution like Auth0 or Okta over building custom authentication?",
-      "options": [
-        "To have complete control over every aspect of user data.",
-        "To reduce the need for in-depth security expertise and focus on core application development.",
-        "To improve the performance of frontend rendering.",
-        "To integrate directly with hardware-level security features."
-      ],
-      "correct_option": 1,
-      "hint": "Consider what developers aim to achieve by using managed authentication services."
-    }
-  ],
   "preferred_if": [
     "User wants a quick and secure managed solution",
     "Focus is on application logic rather than auth implementation"

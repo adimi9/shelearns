@@ -21,107 +21,128 @@
     "continuous-integration"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+        "https://learning.postman.com/",
+        "https://docs.n8n.io/"
+      ],
+      "notes": [
+        "https://circleci.com/blog/making-http-requests-with-axios/",
+        "https://github.com/milanm/DevOps-Roadmap",
+        "https://realpython.com/python-continuous-integration/",
+        "https://www.leapwork.com/blog/regression-testing",
+        "https://spacelift.io/blog/how-to-become-devops-engineer",
+        "https://mimo.org/blog/back-end-development"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=5qx12m89KCo",
+        "https://www.youtube.com/watch?v=Iwz_R9Qi47s",
+        "https://www.youtube.com/watch?v=qSbE7NOXm8U",
+        "https://www.youtube.com/watch?v=bL5GaBjKAAw",
+        "https://www.youtube.com/watch?v=b0lGp-EhjuQ"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+        "https://github.com/avelino/awesome-go",
+        "https://docs.n8n.io/",
+        "https://github.com/punkpeye/awesome-mcp-servers"
+      ],
+      "notes": [
+        "https://circleci.com/blog/making-http-requests-with-axios/",
+        "https://masteringbackend.com/posts/automate-code-coverage-in-android-development-using-bitrise-and-codecov/",
+        "https://realpython.com/python-continuous-integration/",
+        "https://www.leapwork.com/blog/regression-testing",
+        "https://github.com/milanm/DevOps-Roadmap"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Iwz_R9Qi47s"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+        "https://grafana.com/docs/k6/latest/reference/integrations/",
+        "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "https://bugbug.io/blog/testing-frameworks/cypress-cheat-sheet/",
+        "https://github.com/milanm/DevOps-Roadmap"
+      ],
+      "notes": [
+        "https://github.com/milanm/DevOps-Roadmap",
+        "https://www.leapwork.com/blog/regression-testing",
+        "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "https://www.techtarget.com/searchsoftwarequality/CI-CD-pipelines-explained-Everything-you-need-to-know",
+        "https://mimo.org/blog/back-end-development",
+        "https://www.theseniordev.com/blog/senior-backend-developer-roadmap-2024-a-complete-guide"
+      ],
+      "videos": []
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://nodejs.org/api/corepack.html",
-        "description": "The Node.js Corepack documentation provides guidance on managing package managers like Yarn and pnpm within Node.js projects."
+        "question": "What is CircleCI primarily used for in the context of software development?",
+        "options": [
+          "Project management",
+          "Continuous Integration and Continuous Deployment",
+          "Database management",
+          "Code editing"
+        ],
+        "correct_option": 1,
+        "hint": "It's a CI/CD platform."
       },
       {
-        "url": "https://es.legacy.reactjs.org/docs/release-channels.html",
-        "description": "This page explains the different release channels available for React, including stable, next, and experimental versions."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/curriculum/extensions/testing/",
-        "description": "This resource provides guidance on testing browser extensions, covering best practices and tools for effective extension development and debugging."
+        "question": "Which feature of CircleCI makes it appealing for developers working on open-source projects?",
+        "options": [
+          "Closed source code",
+          "Complex setup",
+          "Ease of use and integrations",
+          "Limited platform support"
+        ],
+        "correct_option": 2,
+        "hint": "Think about what developers value in a CI/CD tool."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.freecodecamp.org/news/laravel-continuous-deployment-with-circleci-and-deployer-c70b27fa70d2/",
-        "description": "This resource provides a guide on setting up continuous deployment for Laravel applications using CircleCI and Deployer."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/secure-web-server-with-continuous-integration-using-nginx-and-circleci/",
-        "description": "Learn how to secure a web server using Nginx and CircleCI for continuous integration."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/devops/how-to-make-a-ci-cd-pipeline-in-jenkins/",
-        "description": "This resource provides a step-by-step guide on creating a CI/CD pipeline using Jenkins."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/devops/what-is-ci-cd/",
-        "description": "An introduction to Continuous Integration and Continuous Deployment (CI/CD) in DevOps, explaining its principles and benefits."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/continuous-integration-and-continuous-developmentci-cd/",
-        "description": "An overview of Continuous Integration and Continuous Development (CI/CD) practices, tools, and benefits in software development."
+        "question": "What primary advantage does CircleCI offer as a cloud-based CI/CD platform?",
+        "options": [
+          "Requires on-premise hardware",
+          "Manual deployment processes",
+          "Managed infrastructure",
+          "No integration options"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the benefits of cloud-based services."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=_XaYv9zvHUk",
-      "https://www.youtube.com/watch?v=l76BPdbt0gc&pp=ygUSI2NpbWd3ZWJpbmFyc2VyaWVz",
-      "https://www.youtube.com/watch?v=4dp4JFpOpX0",
-      "https://www.youtube.com/watch?v=eZxKs1mrxTM",
-      "https://www.youtube.com/watch?v=qegFqum-M9o"
+    "advanced": [
+      {
+        "question": "How does CircleCI support automation in software development?",
+        "options": [
+          "By requiring manual code reviews",
+          "By automating testing and deployment",
+          "By providing manual debugging tools",
+          "By restricting code commits"
+        ],
+        "correct_option": 1,
+        "hint": "Automation is a key feature of CI/CD."
+      },
+      {
+        "question": "Why might a developer choose CircleCI over other CI/CD tools?",
+        "options": [
+          "It offers no integrations",
+          "It's known for its complexity",
+          "It provides a managed cloud solution",
+          "It's only suitable for enterprise projects"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the advantages of cloud-based solutions for managing CI/CD."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is CircleCI primarily used for in the context of software development?",
-      "options": [
-        "Project management",
-        "Continuous Integration and Continuous Deployment",
-        "Database management",
-        "Code editing"
-      ],
-      "correct_option": 1,
-      "hint": "It's a CI/CD platform."
-    },
-    {
-      "question": "Which feature of CircleCI makes it appealing for developers working on open-source projects?",
-      "options": [
-        "Closed source code",
-        "Complex setup",
-        "Ease of use and integrations",
-        "Limited platform support"
-      ],
-      "correct_option": 2,
-      "hint": "Think about what developers value in a CI/CD tool."
-    },
-    {
-      "question": "What primary advantage does CircleCI offer as a cloud-based CI/CD platform?",
-      "options": [
-        "Requires on-premise hardware",
-        "Manual deployment processes",
-        "Managed infrastructure",
-        "No integration options"
-      ],
-      "correct_option": 2,
-      "hint": "Consider the benefits of cloud-based services."
-    },
-    {
-      "question": "How does CircleCI support automation in software development?",
-      "options": [
-        "By requiring manual code reviews",
-        "By automating testing and deployment",
-        "By providing manual debugging tools",
-        "By restricting code commits"
-      ],
-      "correct_option": 1,
-      "hint": "Automation is a key feature of CI/CD."
-    },
-    {
-      "question": "Why might a developer choose CircleCI over other CI/CD tools?",
-      "options": [
-        "It offers no integrations",
-        "It's known for its complexity",
-        "It provides a managed cloud solution",
-        "It's only suitable for enterprise projects"
-      ],
-      "correct_option": 2,
-      "hint": "Think about the advantages of cloud-based solutions for managing CI/CD."
-    }
-  ],
   "preferred_if": [
     "User wants a managed cloud CI/CD solution",
     "Working with open-source projects"

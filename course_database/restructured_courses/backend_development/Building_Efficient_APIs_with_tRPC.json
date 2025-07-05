@@ -22,107 +22,93 @@
     "Microservices"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon",
-        "description": "The MDN Web Docs page on the Navigator.sendBeacon API explains how to asynchronously send small amounts of data to a server for analytics or diagnostics."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift",
-        "description": "The MDN Web Docs page provides a detailed explanation of the JavaScript `Array.prototype.unshift()` method, which adds one or more elements to the beginning of an array and returns the new length of the array."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/412",
-        "description": "The page explains the HTTP 412 Precondition Failed status code, which indicates that a server condition set in the request headers is not met."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.freecodecamp.org/news/what-is-trpc/",
-        "description": "An introduction to tRPC, explaining its purpose and how it enables type-safe APIs for TypeScript applications."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/build-an-invoice-saas-app-with-next-js-and-neon-postgres/",
-        "description": "This guide provides step-by-step instructions to build an invoice SaaS application using Next.js and Neon Postgres."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/a-10x-faster-typescript/",
-        "description": "This resource explores techniques and strategies to significantly improve TypeScript performance by up to ten times."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/typescript/a-10x-faster-typescript/",
-        "description": "The article provides insights and techniques for significantly improving the performance and speed of TypeScript code."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/how-to-install-eslint-in-vs-code/727745",
-        "description": "A guide on installing and configuring ESLint in Visual Studio Code for improved code quality and consistency."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=UfUbBWIFdJs",
-      "https://www.youtube.com/watch?v=GuzZN-4kc3w",
-      "https://www.youtube.com/watch?v=YkOSUVzOAA4",
-      "https://www.youtube.com/watch?v=VedrpVSstSY",
-      "https://m.youtube.com/watch?v=XY8zyvxFvqM&pp=ygUNI2pzY291cnNlMjAyMw%3D%3D"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary advantage of using tRPC in a TypeScript application?",
-      "options": [
-        "It allows for real-time data synchronization.",
-        "It provides end-to-end type safety for APIs.",
-        "It enhances the application's performance.",
-        "It simplifies database migrations."
+    "beginner": {
+      "docs": [
+        "https://trpc.io/",
+        "https://graphql.org/",
+        "https://github.com/avelino/awesome-go",
+        "https://redux-toolkit.js.org/rtk-query/overview",
+        "https://learn.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-9.0"
       ],
-      "correct_option": 1,
-      "hint": "Consider the main benefit for TypeScript developers looking for API solutions."
+      "notes": [
+        "https://trpc.io/",
+        "https://docs.deno.com/examples/trpc_tutorial/",
+        "https://www.wisp.blog/blog/setting-up-trpc-with-nextjs-14",
+        "https://betterstack.com/community/guides/scaling-nodejs/vitejs-explained/",
+        "https://www.linkedin.com/pulse/getting-started-trpc-beginners-guide-type-safe-apis-vimal-prakash-m0zac",
+        "https://graphql.org/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=EtV-0zTCPxQ",
+        "https://m.youtube.com/watch?v=P_q9XcbtucM",
+        "https://www.youtube.com/watch?v=oRmsGCs9Dow",
+        "https://www.youtube.com/watch?v=2wz19HOyu1w",
+        "https://www.youtube.com/watch?v=ffJ38dBzrlY&pp=0gcJCf0Ao7VqN5tD",
+        "https://m.youtube.com/watch?v=Zq7H8kYIQIU",
+        "https://www.youtube.com/watch?v=OwxxCibSFKk&pp=ygUMI2FycGFuY3JlYXRl",
+        "https://www.youtube.com/watch?v=xWuUY53y0g8",
+        "https://www.youtube.com/watch?v=OPqi0ugoVlU",
+        "https://www.youtube.com/watch?v=U8TKbNwgcSQ"
+      ]
     },
-    {
-      "question": "Which of the following is a key feature of tRPC?",
-      "options": [
-        "It automatically generates RESTful endpoints.",
-        "It integrates seamlessly with GraphQL queries.",
-        "It eliminates the need for manual type definitions for API endpoints.",
-        "It provides built-in authentication mechanisms."
+    "intermediate": {
+      "docs": [
+        "https://graphql.org/",
+        "https://openapistack.co/docs/intro/",
+        "https://www.speakeasy.com/blog/apis-vs-sdks-difference"
       ],
-      "correct_option": 2,
-      "hint": "Focus on how tRPC handles types in TypeScript applications."
+      "notes": [
+        "https://www.descope.com/blog/post/authenticating-api-trpc",
+        "https://wundergraph.com/blog/graphql-vs-federation-vs-trpc-vs-rest-vs-grpc-vs-asyncapi-vs-webhooks",
+        "https://github.com/trpc/trpc/discussions/1504",
+        "https://directus.io/blog/rest-graphql-tprc",
+        "https://www.wisp.blog/blog/how-to-use-trpc-with-nextjs-15-app-router",
+        "https://www.inngest.com/blog",
+        "https://www.wallarm.com/what/trpc-vs-rest"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=Zq7H8kYIQIU",
+        "https://www.youtube.com/watch?v=zu_g17ePajA",
+        "https://www.youtube.com/watch?v=oI9A84NBC3w",
+        "https://www.youtube.com/watch?v=NwneaxZFPDo",
+        "https://www.youtube.com/watch?v=dFEIsaabtX0",
+        "https://www.youtube.com/watch?v=D9PM96W_p7c&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=zv72WMmVkPw",
+        "https://www.youtube.com/watch?v=tjKdQ2F9FEE",
+        "https://www.youtube.com/watch?v=RvyCAdDmFaw",
+        "https://www.youtube.com/watch?v=8Uyka3fzXek"
+      ]
     },
-    {
-      "question": "In a full-stack TypeScript application, how does tRPC ensure type safety?",
-      "options": [
-        "By using JSON Schema validation.",
-        "By leveraging TypeScript's type inference.",
-        "By requiring explicit type annotations in every function.",
-        "By generating type-safe API documentation."
+    "advanced": {
+      "docs": [
+        "https://github.com/avelino/awesome-go",
+        "https://www.linkedin.com/posts/free-code-camp_what-is-the-trpc-library-explained-with-activity-7217906732306505730-XJ88",
+        "https://betterstack.com/community/guides/scaling-nodejs/vitejs-explained/",
+        "https://www.wallarm.com/what/trpc-vs-rest",
+        "https://wundergraph.com/blog"
       ],
-      "correct_option": 1,
-      "hint": "Think about how TypeScript itself helps with type safety."
-    },
-    {
-      "question": "Which of the following best describes a use case for tRPC?",
-      "options": [
-        "Developing a Python-based web application.",
-        "Building a cross-platform mobile app with Flutter.",
-        "Creating a full-stack application with extreme type safety in TypeScript.",
-        "Implementing a microservices architecture with Java."
+      "notes": [
+        "https://betterstack.com/community/guides/scaling-nodejs/vitejs-explained/",
+        "https://www.linkedin.com/pulse/getting-started-trpc-beginners-guide-type-safe-apis-vimal-prakash-m0zac",
+        "https://github.com/avelino/awesome-go",
+        "https://refine.dev/blog/zustand-react-state/",
+        "https://www.inngest.com/blog",
+        "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+        "https://www.wallarm.com/what/trpc-vs-rest"
       ],
-      "correct_option": 2,
-      "hint": "Focus on the programming language and the main advantage of tRPC."
-    },
-    {
-      "question": "How does tRPC differ from traditional REST APIs in terms of type handling?",
-      "options": [
-        "tRPC uses XML for data transmission, unlike REST.",
-        "tRPC requires less manual handling of types due to its integration with TypeScript.",
-        "tRPC is slower because it uses WebSockets.",
-        "tRPC can only be used with relational databases."
-      ],
-      "correct_option": 1,
-      "hint": "Consider how tRPC interacts with TypeScript compared to REST APIs."
+      "videos": [
+        "https://www.youtube.com/watch?v=EtV-0zTCPxQ",
+        "https://www.youtube.com/watch?v=m3YrZav5-CU",
+        "https://www.youtube.com/watch?v=fEmSH4jM4qI",
+        "https://www.youtube.com/watch?v=xWuUY53y0g8",
+        "https://www.youtube.com/watch?v=0kogy25BsBo",
+        "https://www.youtube.com/watch?v=-5RTyEim384",
+        "https://www.youtube.com/watch?v=MBlZ8Wzkbi4",
+        "https://m.youtube.com/watch?v=BSrd_rU0Ioo",
+        "https://www.youtube.com/watch?v=8IiIXeTOl_o"
+      ]
     }
-  ],
+  },
   "preferred_if": [
     "User is building a full-stack TypeScript application",
     "Wants extreme type safety"

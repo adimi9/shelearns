@@ -1,0 +1,391 @@
+{
+  "id": "FE2",
+  "name": "TypeScript for Frontend",
+  "category": "Frontend Development",
+  "primary_tech": "TypeScript",
+  "topics": [
+    "Type Annotations & Interfaces",
+    "Generics",
+    "TS in React/Vue"
+  ],
+  "recommended": true,
+  "tags": [
+    "typescript",
+    "typed",
+    "frontend"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://www.typescriptlang.org/",
+          "description": "The official TypeScript website offering documentation, tutorials, and resources for developers.",
+          "title": "TypeScript: JavaScript With Syntax For Types."
+        },
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building web applications using Next.js framework.",
+          "title": "Next.js Docs | Next.js"
+        },
+        {
+          "url": "https://www.typescriptlang.org/docs/",
+          "description": "Official documentation for learning and using TypeScript programming language.",
+          "title": "TypeScript: The starting point for learning TypeScript"
+        },
+        {
+          "url": "https://jestjs.io/docs/getting-started",
+          "description": "An introductory guide to getting started with testing using Jest.",
+          "title": "Getting Started · Jest"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=k5E2AVpwsko&pp=0gcJCfwAo7VqN5tD",
+          "description": "An introductory tutorial on using Git and GitHub for version control."
+        },
+        {
+          "url": "https://www.typescriptlang.org/",
+          "description": "The official website for TypeScript, offering documentation, resources, and tools for TypeScript developers.",
+          "title": "TypeScript: JavaScript With Syntax For Types."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+          "description": "A YouTube tutorial on setting up and using Docker containers effectively."
+        },
+        {
+          "url": "https://techblog.topdesk.com/coding/front-end-with-typescript-tutorial-step-1-to-3-minimal-typescript/",
+          "description": "A step-by-step tutorial on setting up a minimal TypeScript environment for front-end development.",
+          "title": "Front-end with TypeScript Tutorial - Step 1 to 3: Minimal TypeScript - TOPdesk Tech Blog"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=61v23Ce5SXA",
+          "description": "A tutorial on implementing and understanding the BERT model for natural language processing."
+        },
+        {
+          "url": "https://www.freecodecamp.org/news/angular-for-beginners-course/",
+          "description": "An introductory course on Angular for beginners to learn the basics of building web applications.",
+          "title": "Angular for Beginners Course + TypeScript [Full Front-End Tutorial]"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=k5E2AVpwsko&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+        "https://www.youtube.com/watch?v=MsnQ5uepIaE&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=61v23Ce5SXA",
+        "https://www.youtube.com/watch?v=xTVQZ46wc28",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://m.youtube.com/watch?v=I2NNxr3WPDo&t=0s",
+        "https://www.youtube.com/DecodedFrontend",
+        "https://www.youtube.com/channel/UC6vRUjYqDuoUsYsku86Lrsw",
+        "https://www.youtube.com/c/ZachGollwitzer"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building applications using Next.js framework.",
+          "title": "Next.js Docs | Next.js"
+        },
+        {
+          "url": "https://jestjs.io/docs/getting-started",
+          "description": "An introductory guide to getting started with Jest for JavaScript testing.",
+          "title": "Getting Started · Jest"
+        },
+        {
+          "url": "https://react.dev/learn/typescript",
+          "description": "An introductory guide to using TypeScript with React for enhanced type safety and development efficiency.",
+          "title": "Using TypeScript – React"
+        },
+        {
+          "url": "https://docs.amplify.aws/",
+          "description": "Comprehensive documentation for AWS Amplify, a framework for building scalable mobile and web applications.",
+          "title": "Amplify Documentation - AWS Amplify Gen 2 Documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html",
+          "description": "A quick introduction to TypeScript's key features and benefits in five minutes.",
+          "title": "TypeScript: Documentation - TypeScript for JavaScript Programmers"
+        },
+        {
+          "url": "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+          "description": "Discussion on resolving file name casing conflicts in C++ projects.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://react.dev/learn/typescript",
+          "description": "An introductory guide to using TypeScript with React for building robust applications.",
+          "title": "Using TypeScript – React"
+        },
+        {
+          "url": "https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project",
+          "description": "A step-by-step tutorial on integrating React with Flask to create a full-stack web application.",
+          "title": "How To Create a React + Flask Project - miguelgrinberg.com"
+        },
+        {
+          "url": "https://frontendmasters.com/blog/a-complete-guide-to-beginning-with-typescript/",
+          "description": "A complete guide for beginners to learn and start using TypeScript in web development.",
+          "title": "A Complete Guide to Beginning with TypeScript – Frontend Masters Blog"
+        },
+        {
+          "url": "https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/aem-wknd-tutorial-installation-error/m-p/556710/highlight/true",
+          "description": "A troubleshooting guide for installation errors in the Adobe Experience Manager WKND tutorial.",
+          "title": "403 Forbidden"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=EcCTIExsqmI",
+        "https://www.youtube.com/watch?v=JBSUgDxICg8",
+        "https://www.youtube.com/watch?v=3qBXWUpoPHo",
+        "https://www.youtube.com/watch?v=AS79oJ3Fcf0",
+        "https://www.youtube.com/watch?v=8Xwq35cPwYg",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=vcNtrYfroDY",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://www.typescriptlang.org/docs/",
+          "description": "Official documentation for learning and using TypeScript effectively.",
+          "title": "TypeScript: The starting point for learning TypeScript"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "An extensive resource for learning and referencing JavaScript programming concepts and syntax.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+          "description": "An introductory guide to TypeScript, explaining its features and benefits.",
+          "title": "TypeScript: Handbook - The TypeScript Handbook"
+        },
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building applications using the Next.js framework.",
+          "title": "Next.js Docs | Next.js"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+          "description": "An in-depth guide to using the Canvas API for drawing graphics on the web.",
+          "title": "Canvas API - Web APIs | MDN"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+          "description": "A beginner-friendly tutorial on learning Python programming from scratch."
+        },
+        {
+          "url": "https://www.typescriptlang.org/docs/",
+          "description": "Official documentation for learning and using TypeScript, a typed superset of JavaScript.",
+          "title": "TypeScript: The starting point for learning TypeScript"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+          "description": "An introductory tutorial on using the OpenAI API for developers."
+        },
+        {
+          "url": "https://fullstackopen.com/en/",
+          "description": "An open online course covering modern web development techniques and tools.",
+          "title": "Full stack open"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=d56mG7DezGs",
+          "description": "A YouTube video tutorial on understanding and implementing Docker for containerization."
+        },
+        {
+          "url": "https://marcobotto.com/blog/the-hitchhikers-guide-to-the-modern-front-end-development-workflow/",
+          "description": "An insightful overview of modern front-end development workflows and tools.",
+          "title": "The Hitchhiker's guide to the modern front end development workflow - marcobotto.com"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+        "https://www.youtube.com/watch?v=d56mG7DezGs",
+        "https://www.youtube.com/watch?v=Tef1e9FiSR0",
+        "https://www.youtube.com/watch?v=vcNtrYfroDY",
+        "https://www.youtube.com/watch?v=3qBXWUpoPHo",
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://www.youtube.com/watch?v=Gc4Xh8u19NU"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of type annotations in TypeScript?",
+        "options": [
+          "To improve code readability",
+          "To speed up code execution",
+          "To allow dynamic typing",
+          "To enable runtime type checking"
+        ],
+        "correct_option": 0,
+        "hint": "Type annotations help in understanding what types of data are expected."
+      },
+      {
+        "question": "Which TypeScript feature allows you to define the shape of an object?",
+        "options": [
+          "Modules",
+          "Interfaces",
+          "Enums",
+          "Generics"
+        ],
+        "correct_option": 1,
+        "hint": "This feature is similar to classes but is used for type checking only."
+      },
+      {
+        "question": "In TypeScript, what are generics used for?",
+        "options": [
+          "To define multiple types at once",
+          "To enforce strict null checks",
+          "To create reusable components",
+          "To compile TypeScript to JavaScript"
+        ],
+        "correct_option": 2,
+        "hint": "Generics allow you to create components that can work with any data type."
+      },
+      {
+        "question": "How does TypeScript enhance React development?",
+        "options": [
+          "By enabling server-side rendering",
+          "By providing type safety for components",
+          "By reducing bundle size",
+          "By automating UI testing"
+        ],
+        "correct_option": 1,
+        "hint": "TypeScript helps catch errors at compile time rather than runtime."
+      },
+      {
+        "question": "How can TypeScript be used in a Vue.js project?",
+        "options": [
+          "By using a special TypeScript syntax",
+          "By configuring Vue CLI to support TypeScript",
+          "By writing all components as JavaScript classes",
+          "By disabling reactivity system"
+        ],
+        "correct_option": 1,
+        "hint": "Vue CLI provides an option to add TypeScript support during project setup."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary benefit of using TypeScript interfaces over type aliases for defining object shapes?",
+        "options": [
+          "Interfaces can be extended through declaration merging.",
+          "Type aliases provide better performance at runtime.",
+          "Interfaces allow for recursive types, while type aliases do not.",
+          "Type aliases support multiple inheritance, unlike interfaces."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how TypeScript interfaces handle multiple declarations."
+      },
+      {
+        "question": "How do generics improve the flexibility and reusability of functions in TypeScript?",
+        "options": [
+          "Generics enforce stricter type checking.",
+          "Generics allow functions to accept any type without losing type safety.",
+          "Generics limit functions to a single specific type.",
+          "Generics improve runtime performance by eliminating type checks."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how generics provide a way to work with variable types while maintaining type safety."
+      },
+      {
+        "question": "In a TypeScript React component, how would you define props of type string using interfaces?",
+        "options": [
+          "interface Props { text: number; }",
+          "interface Props { text: string; }",
+          "type Props = { text: number; }",
+          "type Props = { text: boolean; }"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how interfaces are used to define the shape of props in React."
+      },
+      {
+        "question": "Which of the following is a correct way to apply generics to a function in TypeScript?",
+        "options": [
+          "function identity<T>(arg: T): T { return arg; }",
+          "function identity(arg: T): T { return arg; }",
+          "function identity<T extends string>(arg: number): T { return arg; }",
+          "function identity(arg: T): number { return arg; }"
+        ],
+        "correct_option": 0,
+        "hint": "Remember that generics are specified by placing a type variable in angle brackets."
+      },
+      {
+        "question": "In a Vue component using TypeScript, how can you ensure that a prop of type number is required?",
+        "options": [
+          "props: { count: { type: Number, required: true } }",
+          "props: { count: { type: 'number', required: true } }",
+          "props: { count: { type: Number, default: 0 } }",
+          "props: { count: { type: 'Number', required: false } }"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how props are defined in Vue and how TypeScript types are specified for them."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In TypeScript, how can you ensure type safety when using a function that accepts multiple argument types?",
+        "options": [
+          "Use function overloading",
+          "Implement a type guard",
+          "Define a union type",
+          "All of the above"
+        ],
+        "correct_option": 3,
+        "hint": "Consider how you can cater to multiple types while ensuring type safety."
+      },
+      {
+        "question": "What is the main advantage of using generics in TypeScript?",
+        "options": [
+          "They allow for dynamic typing",
+          "They enable strict null checks",
+          "They provide a way to create reusable components",
+          "They simplify the syntax for type annotations"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how generics can enhance the reusability and flexibility of your code."
+      },
+      {
+        "question": "How do interfaces in TypeScript differ from type aliases when extending existing types?",
+        "options": [
+          "Interfaces cannot extend other interfaces",
+          "Type aliases cannot extend interfaces",
+          "Interfaces can be merged, while type aliases cannot",
+          "Type aliases are more performant than interfaces"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how interfaces and type aliases handle extensions and merging."
+      },
+      {
+        "question": "In a React component written in TypeScript, how would you define the type for component props?",
+        "options": [
+          "Use type aliases",
+          "Use an interface",
+          "Use class inheritance",
+          "Use a generic type"
+        ],
+        "correct_option": 1,
+        "hint": "React components often require structured typing for props."
+      },
+      {
+        "question": "When integrating TypeScript with Vue, which feature allows you to ensure that all props are correctly typed?",
+        "options": [
+          "Vue's PropType utility",
+          "TypeScript's enum feature",
+          "Using decorators",
+          "Vue's data function"
+        ],
+        "correct_option": 0,
+        "hint": "Vue provides a utility specifically designed for prop typing in TypeScript."
+      }
+    ]
+  }
+}

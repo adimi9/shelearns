@@ -1,20 +1,27 @@
-import requests, json, os
-import re # Import re for the file matching
-from dotenv import load_dotenv # Assuming you still want to load .env for API keys
+import requests, json, os, random, time
+from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
 
-# 🎯 Add your (mock/test) API keys here
-# These should ideally come from environment variables for security
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 GOOGLE_CX = os.getenv("GOOGLE_CX")
-YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 
-def google_search(query, num=3):
-    """Generic search using Google Custom Search."""
+EXCLUDED_SITES = [
+    "medium.com",
+    "quora.com",
+    "reddit.com",
+    "dev.to",
+    "hashnode.com"
+]
+
+def build_query(base_query):
+    exclusions = " ".join([f"-site:{site}" for site in EXCLUDED_SITES])
+    return f"{base_query} {exclusions}"
+
+def google_search(query, num=5, delay=2, retries=3):
     if not GOOGLE_API_KEY or not GOOGLE_CX:
-        print("❌ Google API keys (GOOGLE_API_KEY or GOOGLE_CX) are not set. Cannot perform search.")
+        print("❌ Google API keys are not set.")
         return []
 
     url = "https://www.googleapis.com/customsearch/v1"
@@ -24,88 +31,85 @@ def google_search(query, num=3):
         "cx": GOOGLE_CX,
         "num": num
     }
-    try:
-        res = requests.get(url, params=params).json()
-        return [i["link"] for i in res.get("items", [])]
-    except Exception as e:
-        print(f"❌ Google Search error for query: {query} — {e}")
-        return []
+
+    attempt = 0
+    while attempt < retries:
+        try:
+            time.sleep(delay)
+            res = requests.get(url, params=params)
+            data = res.json()
+
+            if "items" in data:
+                return [item["link"] for item in data["items"]]
+            elif "error" in data:
+                print(f"⚠️ API Error: {data['error'].get('message', 'Unknown error')} (attempt {attempt + 1})")
+        except Exception as e:
+            print(f"❌ Exception during search: {e} (attempt {attempt + 1})")
+
+        attempt += 1
+        time.sleep(delay * (2 ** attempt))
+
+    print(f"❌ Failed: {query}")
+    return []
 
 def enrich_course(file_path):
     with open(file_path, encoding="utf-8") as f:
         course = json.load(f)
 
     name = course.get("name")
-    print(f"> Processing resources for: {name}")
+    print(f"> Enriching: {name}")
 
-    # Ensure 'resources' dictionary exists
     course.setdefault("resources", {})
-    # Ensure 'docs', 'notes', 'videos' lists exist within 'resources'
-    course["resources"].setdefault("docs", [])
-    course["resources"].setdefault("notes", [])
-    course["resources"].setdefault("videos", [])
 
-    # Only fetch if the list is empty
-    if not course["resources"]["docs"]:
-        docs_query = f"{name} documentation OR official docs OR API reference"
-        docs = google_search(docs_query, num=3)[:3]
-        course["resources"]["docs"] = docs
-        if docs:
-            print(f"  ✅ Docs updated for {name}")
-        else:
-            print(f"  ⚠️ No docs found for {name}")
-    else:
-        print(f"  ➡️ Docs already present for {name}. Skipping.")
+    for level in ["beginner", "intermediate", "advanced"]:
+        course["resources"].setdefault(level, {})
 
-    if not course["resources"]["notes"]:
-        notes_query = f"{name} tutorial OR guide OR notes OR how-to"
-        notes = google_search(notes_query, num=5)[:5]
-        course["resources"]["notes"] = notes
-        if notes:
-            print(f"  ✅ Notes updated for {name}")
-        else:
-            print(f"  ⚠️ No notes found for {name}")
-    else:
-        print(f"  ➡️ Notes already present for {name}. Skipping.")
+        level_modifier = {
+            "beginner": "for beginners OR basics OR introduction",
+            "intermediate": "for intermediates OR use cases OR workflows",
+            "advanced": "advanced OR deep dive OR expert guide OR internals"
+        }[level]
 
-    if not course["resources"]["videos"]:
-        # Corrected YouTube search query to be more effective with Google Custom Search
-        # The original `site:youtube.com` is not a valid public domain for search.
-        # A more common way to search YouTube via Google Search is to just include "youtube" in the query
-        # or specify "site:youtube.com" if you have a specific YouTube API key for direct YouTube searches.
-        # For general Google Search, just including "youtube" or "video" in the query is often sufficient.
-        # If you want to use the YouTube Data API, you'd integrate the `youtube` tool here.
-        vids_query = f"{name} tutorial OR crash course youtube"
-        videos = google_search(vids_query, num=5)[:5]
-        course["resources"]["videos"] = videos
-        if videos:
-            print(f"  ✅ Videos updated for {name}")
-        else:
-            print(f"  ⚠️ No videos found for {name}")
-    else:
-        print(f"  ➡️ Videos already present for {name}. Skipping.")
+        # Docs
+        docs_count = random.randint(3, 5)
+        docs_query = build_query(f"{name} documentation OR official docs OR API reference {level_modifier}")
+        docs = google_search(docs_query, num=docs_count)
+        course["resources"][level]["docs"] = docs
+        print(f"  [{level}] {'✅' if docs else '⚠️'} Docs: {len(docs)}")
+
+        # Notes
+        notes_count = random.randint(5, 7)
+        notes_query = build_query(f"{name} tutorial OR notes {level_modifier}")
+        notes = google_search(notes_query, num=notes_count)
+        course["resources"][level]["notes"] = notes
+        print(f"  [{level}] {'✅' if notes else '⚠️'} Notes: {len(notes)}")
+
+        # Videos
+        videos_count = random.randint(8, 10)
+        vids_query = build_query(f"{name} tutorial OR course {level_modifier} site:youtube.com")
+        videos = google_search(vids_query, num=videos_count)
+        course["resources"][level]["videos"] = videos
+        print(f"  [{level}] {'✅' if videos else '⚠️'} Videos: {len(videos)}")
 
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(course, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Updated {file_path}\n")
+    print(f"✅ Saved: {file_path}\n")
 
-def enrich_all(root="restructured_courses"):
-    """
-    Loops through all subfolders in the root directory and processes JSON files.
-    """
+ROOT_DIR = os.path.join(os.path.dirname(__file__), "..", "restructured_courses")
+
+def enrich_all(root=ROOT_DIR):
     if not GOOGLE_API_KEY or not GOOGLE_CX:
-        print("\nWARNING: Google API keys (GOOGLE_API_KEY, GOOGLE_CX) are not set as environment variables.")
-        print("Please set them in your .env file to enable resource enrichment.")
+        print("❗ Missing Google API keys. Set them in .env.")
         return
 
-    print(f"\nStarting resource enrichment for files in '{root}'...")
+    print(f"\n🚀 Starting enrichment in '{root}'...\n")
     for rootdir, _, files in os.walk(root):
         for f in files:
             if f.endswith(".json"):
                 file_path = os.path.join(rootdir, f)
                 enrich_course(file_path)
-    print("\nResource enrichment complete.")
+    print("✅ All files processed.\n")
 
 if __name__ == "__main__":
     enrich_all()

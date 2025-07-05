@@ -16,105 +16,149 @@
     "unity"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/",
-        "description": "Comprehensive documentation and resources for web developers on HTML, CSS, JavaScript, and web APIs."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection",
-        "description": "A comprehensive guide on implementing 2D collision detection techniques for game development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
-        "description": "An in-depth guide to the Canvas API for drawing graphics and animations on the web using JavaScript."
-      }
-    ],
-    "notes": [
-      {
-        "url": "http://www.w3schools.com/cs/index.php",
-        "description": "An introductory guide to learning C# programming, including tutorials, examples, and references."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-to-choose-a-programming-language-and-escape-tutorial-purgatory/",
-        "description": "A guide to selecting a programming language and overcoming the cycle of endless tutorials."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/c-sharp/csharp-programming-language/",
-        "description": "An introductory guide to the C# programming language, covering its features, syntax, and applications."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/is-freecodecamp-a-good-path-for-aspiring-game-engineers/145439",
-        "description": "Discussion on the suitability of FreeCodeCamp as a learning path for aspiring game engineers."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/c-sharp/c-sharp-tutorial/",
-        "description": "A comprehensive tutorial for learning C# programming, covering fundamental concepts and advanced topics."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=GhQdlIFylQ8",
-      "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
-      "https://www.youtube.com/watch?v=sNMtjs_wQiE",
-      "https://www.youtube.com/watch?v=gfkTfcpWqAY",
-      "https://www.youtube.com/watch?v=IFayQioG71A"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the purpose of the 'Main' method in a C# program?",
-      "options": [
-        "To serve as the entry point of the program",
-        "To define the structure of a class",
-        "To handle exception errors",
-        "To store data"
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "https://docs.unity.com/",
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://docs.godotengine.org/en/4.4/tutorials/scripting/c_sharp/c_sharp_basics.html"
       ],
-      "correct_option": 0,
-      "hint": "It is where the program execution begins."
+      "notes": [
+        "https://www.youtube.com/watch?v=XLW3Biw-a68",
+        "https://learn.unity.com/pathway/junior-programmer",
+        "https://www.youtube.com/watch?v=TgqAqniukTg",
+        "https://www.simplilearn.com/tutorials/c-sharp-tutorial/c-sharp-game-programming",
+        "https://www.youtube.com/watch?v=VEnZzwW_OJM",
+        "https://discussions.unity.com/t/tutorial-for-starting-2d/908378"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=XLW3Biw-a68",
+        "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
+        "https://www.youtube.com/watch?v=VEnZzwW_OJM",
+        "https://www.youtube.com/watch?v=TgqAqniukTg",
+        "https://www.youtube.com/watch?v=1p29y6dvQiI",
+        "https://www.youtube.com/watch?v=5DF55w6b4b4",
+        "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+        "https://www.youtube.com/watch?v=_cCGBMmMOFw",
+        "https://www.youtube.com/watch?v=9tMvzrqBUP8",
+        "https://www.youtube.com/c/GameDeveloperTraining"
+      ]
     },
-    {
-      "question": "Which of the following is a key feature of Object-Oriented Programming?",
-      "options": [
-        "Encapsulation",
-        "Static typing",
-        "Interpreted execution",
-        "Functional paradigm"
+    "intermediate": {
+      "docs": [
+        "https://docs.unity.com/",
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-scenarios"
       ],
-      "correct_option": 0,
-      "hint": "It involves bundling data with the methods that operate on that data."
+      "notes": [
+        "https://tomweiland.net/csharp-networking-tutorial-series/",
+        "https://github.com/ajcomeau/RogueGameDev",
+        "http://rbwhitaker.wikidot.com/c-sharp-tutorials",
+        "https://codehs.com/tutorial/mattarnold/unity-coding-part-1",
+        "https://gamedevhq.com/c-sharp-switch-statements/",
+        "https://forum.godotengine.org/t/2d-game-tutorial-script-not-working/81418"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=VEnZzwW_OJM",
+        "https://www.youtube.com/watch?v=DiXQJXz8FOM&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=kgShNcTxMIg&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=pr5FBtu5SvQ&pp=ygUUI2NvdW50dW5pdHl0ZXN0ZXJkaXk%3D",
+        "https://www.youtube.com/watch?v=PeojZFlD8yM",
+        "https://www.youtube.com/watch?v=GUTURxgcoj4",
+        "https://www.youtube.com/watch?v=ub3P8c87cwk&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=0P9S7R00Nt8",
+        "https://www.youtube.com/watch?v=UyTJLDGcT64"
+      ]
     },
-    {
-      "question": "In Unity, which method is called only once during the lifetime of a script?",
-      "options": [
-        "Update()",
-        "FixedUpdate()",
-        "Awake()",
-        "Start()"
+    "advanced": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "https://www.typescriptlang.org/docs/",
+        "https://learn.microsoft.com/en-us/dotnet/"
       ],
-      "correct_option": 2,
-      "hint": "This method is used for initialization that needs to be done before the game starts."
-    },
-    {
-      "question": "Which data structure is most efficient for implementing a FIFO (First-In-First-Out) order in a game?",
-      "options": [
-        "Stack",
-        "Queue",
-        "Array",
-        "Tree"
+      "notes": [
+        "https://www.vintagestory.at/forums/topic/4932-better-modding-guidetutorial/",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "https://www.youtube.com/jamesmontemagno",
+        "https://softwareengineering.stackexchange.com/questions/91976/on-developing-deep-programming-knowledge",
+        "https://unity.com/how-to",
+        "https://gamedevhq.com/c-sharp-interfaces/",
+        "https://newsletter.pragmaticengineer.com/p/building-a-simple-game"
       ],
-      "correct_option": 1,
-      "hint": "This data structure is specifically designed for FIFO operations."
-    },
-    {
-      "question": "In C#, what is inheritance primarily used for?",
-      "options": [
-        "To allow a class to acquire properties of another class",
-        "To store multiple values in a single variable",
-        "To define interfaces",
-        "To perform asynchronous programming"
-      ],
-      "correct_option": 0,
-      "hint": "It allows creating a new class that is based on an existing class."
+      "videos": [
+        "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
+        "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+        "https://www.youtube.com/watch?v=6G-4oPDxfNI",
+        "https://www.youtube.com/watch?v=OSw0fU1AMII",
+        "https://www.youtube.com/watch?v=M5ugY7fWydE",
+        "https://www.youtube.com/watch?v=VEnZzwW_OJM",
+        "https://www.youtube.com/watch?v=GGob3dGP5hw",
+        "https://www.youtube.com/watch?v=5DF55w6b4b4",
+        "https://www.youtube.com/watch?v=YT8s-90oDC0"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the purpose of the 'Main' method in a C# program?",
+        "options": [
+          "To serve as the entry point of the program",
+          "To define the structure of a class",
+          "To handle exception errors",
+          "To store data"
+        ],
+        "correct_option": 0,
+        "hint": "It is where the program execution begins."
+      },
+      {
+        "question": "Which of the following is a key feature of Object-Oriented Programming?",
+        "options": [
+          "Encapsulation",
+          "Static typing",
+          "Interpreted execution",
+          "Functional paradigm"
+        ],
+        "correct_option": 0,
+        "hint": "It involves bundling data with the methods that operate on that data."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In Unity, which method is called only once during the lifetime of a script?",
+        "options": [
+          "Update()",
+          "FixedUpdate()",
+          "Awake()",
+          "Start()"
+        ],
+        "correct_option": 2,
+        "hint": "This method is used for initialization that needs to be done before the game starts."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which data structure is most efficient for implementing a FIFO (First-In-First-Out) order in a game?",
+        "options": [
+          "Stack",
+          "Queue",
+          "Array",
+          "Tree"
+        ],
+        "correct_option": 1,
+        "hint": "This data structure is specifically designed for FIFO operations."
+      },
+      {
+        "question": "In C#, what is inheritance primarily used for?",
+        "options": [
+          "To allow a class to acquire properties of another class",
+          "To store multiple values in a single variable",
+          "To define interfaces",
+          "To perform asynchronous programming"
+        ],
+        "correct_option": 0,
+        "hint": "It allows creating a new class that is based on an existing class."
+      }
+    ]
+  }
 }

@@ -15,105 +15,155 @@
     "component-based"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        "description": "A comprehensive resource for learning and understanding JavaScript, including guides, references, and tutorials."
-      },
-      {
-        "url": "https://reactjs.org/docs/getting-started.html",
-        "description": "An introductory guide to getting started with React, covering the basics and core concepts of building React applications."
-      },
-      {
-        "url": "https://legacy.reactjs.org/docs/hooks-overview.html",
-        "description": "An overview of React Hooks, explaining their purpose and how they enable state and side-effect management in functional components."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/js/",
-        "description": "Comprehensive tutorials and references for learning JavaScript programming from beginner to advanced levels."
-      },
-      {
-        "url": "https://www.w3schools.com/REACT/DEFAULT.ASP",
-        "description": "A comprehensive tutorial for learning React, covering fundamental concepts and practical examples."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/reactjs/react/",
-        "description": "An introductory guide to understanding and using ReactJS for building user interfaces."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/reactjs/reactjs-basics-concepts-complete-reference/",
-        "description": "A comprehensive guide covering the fundamental concepts and basics of ReactJS for developers."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/javascript/javascript-tutorial/",
-        "description": "Comprehensive guide for learning JavaScript from basics to advanced concepts."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=SqcY0GlETPk",
-      "https://www.youtube.com/watch?v=wIyHSOugGGw",
-      "https://www.youtube.com/watch?v=Tn6-PIqc4UM",
-      "https://www.youtube.com/watch?v=s2skans2dP4",
-      "https://www.youtube.com/watch?v=m55PTVUrlnA"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is JSX primarily used for in React?",
-      "options": [
-        "To define component lifecycle methods",
-        "To describe the UI structure",
-        "To manage state and props",
-        "To interact with the Redux store"
+    "beginner": {
+      "docs": [
+        "https://react.dev/learn",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://nextjs.org/docs",
+        "https://redux.js.org/introduction/getting-started",
+        "https://vuejs.org/guide/introduction"
       ],
-      "correct_option": 1,
-      "hint": "JSX is a syntax extension that resembles HTML."
+      "notes": [
+        "https://www.youtube.com/watch?v=RVFAyFWO4go",
+        "https://m.youtube.com/watch?v=NqzdVN2tyvQ&t=0s",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://redux.js.org/tutorials/essentials/part-1-overview-concepts",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://reactnative.dev/docs/tutorial"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=RVFAyFWO4go",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/watch?v=m55PTVUrlnA",
+        "https://www.youtube.com/watch?v=NqzdVN2tyvQ&pp=ygUOI3JlZHV4dHJhaW5pbmc%3D",
+        "https://www.youtube.com/watch?v=OA5JAmTcTz4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=WDunoPNBxKA",
+        "https://www.youtube.com/watch?v=nvHeB32ICDM"
+      ]
     },
-    {
-      "question": "In React, what is a component?",
-      "options": [
-        "A function or class that optionally receives input and returns a React element",
-        "A global variable used for state management",
-        "A method for optimizing performance",
-        "A style guide for consistent UI"
+    "intermediate": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+        "https://legacy.reactjs.org/docs/hooks-reference.html",
+        "https://nextjs.org/docs",
+        "https://legacy.reactjs.org/docs/react-component.html",
+        "https://redux-toolkit.js.org/rtk-query/overview"
       ],
-      "correct_option": 0,
-      "hint": "Components are the building blocks of any React app."
+      "notes": [
+        "https://m.youtube.com/watch?v=NqzdVN2tyvQ&t=0s",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+        "https://www.youtube.com/watch?v=8Xwq35cPwYg",
+        "https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers",
+        "https://www.youtube.com/watch?v=WDunoPNBxKA",
+        "https://redux-toolkit.js.org/rtk-query/overview"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://m.youtube.com/watch?v=NqzdVN2tyvQ&t=0s",
+        "https://www.youtube.com/watch?v=LlvBzyy-558",
+        "https://www.youtube.com/watch?v=8Xwq35cPwYg",
+        "https://www.youtube.com/watch?v=WDunoPNBxKA",
+        "https://www.youtube.com/watch?v=2gE2K8i5tvs&pp=ygUYI3N3aXRjaGNhc2VhbmRyb2lkc3R1ZGlv",
+        "https://www.youtube.com/watch?v=xfKYYRE6-TQ",
+        "https://www.youtube.com/watch?v=665UnOGx3Pg&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=CxSL0knFxAs",
+        "https://www.youtube.com/watch?v=I_J7N0n5YPs"
+      ]
     },
-    {
-      "question": "How does the 'useState' hook function in React?",
-      "options": [
-        "It manages component state and returns an updated state value and a function to update it",
-        "It connects the component to the Redux store",
-        "It replaces the render method in class components",
-        "It is used for routing in single-page applications"
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://reactnative.dev/docs/getting-started",
+        "https://www.typescriptlang.org/docs/",
+        "https://react.dev/",
+        "https://redux.js.org/tutorials/essentials/part-1-overview-concepts"
       ],
-      "correct_option": 0,
-      "hint": "useState is a hook that lets you add React state to function components."
-    },
-    {
-      "question": "What is the primary purpose of the Context API in React?",
-      "options": [
-        "To manage and update state across multiple components",
-        "To define and reuse component styles",
-        "To handle asynchronous operations",
-        "To allow component reusability"
+      "notes": [
+        "https://redux.js.org/tutorials/essentials/part-1-overview-concepts",
+        "https://blog.isquaredsoftware.com/about/",
+        "https://www.udemy.com/topic/react/",
+        "https://www.youtube.com/channel/UCn-y28FZxNA8ys6GCU11bUQ",
+        "https://www.linkedin.com/posts/surendrakumar143_react-19-tutorial-for-beginners-full-guide-activity-7289316732257611776-DlRi",
+        "https://dzone.com/articles/advanced-react-js-concepts-a-deep-dive",
+        "https://javascript.info/"
       ],
-      "correct_option": 0,
-      "hint": "Context is designed to share data that can be considered global for a tree of React components."
-    },
-    {
-      "question": "Which of the following is true about Redux in React?",
-      "options": [
-        "Redux uses a single source of truth for the application's state",
-        "Redux is built into React and requires no additional library",
-        "Redux manages component side-effects",
-        "Redux automatically handles component rendering"
-      ],
-      "correct_option": 0,
-      "hint": "Redux centralizes the application's state and logic."
+      "videos": [
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://www.youtube.com/watch?v=UUk1scVLrCQ",
+        "https://www.youtube.com/watch?v=DWvLEspi49U",
+        "https://www.youtube.com/watch?v=x4rFhThSX04",
+        "https://www.youtube.com/watch?v=RVFAyFWO4go",
+        "https://www.youtube.com/watch?v=b9eMGE7QtTk",
+        "https://www.youtube.com/watch?v=WDunoPNBxKA"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is JSX primarily used for in React?",
+        "options": [
+          "To define component lifecycle methods",
+          "To describe the UI structure",
+          "To manage state and props",
+          "To interact with the Redux store"
+        ],
+        "correct_option": 1,
+        "hint": "JSX is a syntax extension that resembles HTML."
+      },
+      {
+        "question": "In React, what is a component?",
+        "options": [
+          "A function or class that optionally receives input and returns a React element",
+          "A global variable used for state management",
+          "A method for optimizing performance",
+          "A style guide for consistent UI"
+        ],
+        "correct_option": 0,
+        "hint": "Components are the building blocks of any React app."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "How does the 'useState' hook function in React?",
+        "options": [
+          "It manages component state and returns an updated state value and a function to update it",
+          "It connects the component to the Redux store",
+          "It replaces the render method in class components",
+          "It is used for routing in single-page applications"
+        ],
+        "correct_option": 0,
+        "hint": "useState is a hook that lets you add React state to function components."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary purpose of the Context API in React?",
+        "options": [
+          "To manage and update state across multiple components",
+          "To define and reuse component styles",
+          "To handle asynchronous operations",
+          "To allow component reusability"
+        ],
+        "correct_option": 0,
+        "hint": "Context is designed to share data that can be considered global for a tree of React components."
+      },
+      {
+        "question": "Which of the following is true about Redux in React?",
+        "options": [
+          "Redux uses a single source of truth for the application's state",
+          "Redux is built into React and requires no additional library",
+          "Redux manages component side-effects",
+          "Redux automatically handles component rendering"
+        ],
+        "correct_option": 0,
+        "hint": "Redux centralizes the application's state and logic."
+      }
+    ]
+  }
 }

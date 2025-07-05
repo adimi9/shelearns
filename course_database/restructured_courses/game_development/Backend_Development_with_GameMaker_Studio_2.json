@@ -23,107 +23,147 @@
     "GML"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://manual.gamemaker.io/monthly/en/",
+        "https://develop.games/",
+        "https://firebase.google.com/docs/app-check"
+      ],
+      "notes": [
+        "https://develop.games/",
+        "https://manual.gamemaker.io/monthly/en/",
+        "https://forum.gamemaker.io/index.php?threads/introduce-yourself.83/page-19",
+        "https://steamcommunity.com/app/214850/discussions/0/619574421187422390/?l=spanish",
+        "https://forum.gamemaker.io/index.php?tags/programmer-needed/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=fmR5ZWMYlVA",
+        "https://www.youtube.com/watch?v=8TcWGk1DJVs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=3289vhOUdKA",
+        "https://www.youtube.com/watch?v=HwI90YLqMaY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=EJ5207SjmuE",
+        "https://www.youtube.com/watch?v=waY3LfJhQLY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=3yuBOB3VrCk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developers.meta.com/horizon/",
+        "https://docs.unity.com/",
+        "https://kinsta.com/blog/scripting-languages/",
+        "https://firebase.google.com/docs/games/setup"
+      ],
+      "notes": [
+        "https://forum.gamemaker.io/index.php?threads/client-server-architecture.54443/",
+        "https://gamemakerblog.com/2017/09/05/gamemaker-tutorial-drawing-custom-health-bars-with-sprite-parts/",
+        "https://forum.gamemaker.io/index.php?threads/should-i-go-with-gamemaker-visual-scripting-or-godot.104767/",
+        "https://discussions.unity.com/t/is-it-viable-to-create-a-whole-game-using-visual-scripting/895240",
+        "https://lisyarus.github.io/blog/posts/so-you-want-to-make-a-game-engine.html",
+        "https://discuss.gradle.org/t/deprecated-gradle-features-were-used-in-this-build-making-it-incompatible-with-gradle-9-0/48195"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8TcWGk1DJVs&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
+        "https://www.youtube.com/watch?v=3289vhOUdKA",
+        "https://www.youtube.com/watch?v=lxRAj1Gijic",
+        "https://www.youtube.com/watch?v=FOzWxKfa5tY&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=FXZ0G95_7Cs",
+        "https://www.youtube.com/watch?v=4smfnwPiBUY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=pCK6prSq8aw"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+        "https://github.com/mikeroyal/Zorin-OS-Guide",
+        "https://unity.com/",
+        "https://github.com/mikeroyal/Apple-Silicon-Guide"
+      ],
+      "notes": [
+        "https://www.amazon.com/Compilers-Languages-Tools-Programming-Books/b?ie=UTF8&node=3971",
+        "https://www.tumblr.com/alaingalvan/156398356239/biggy-and-smalls-snorlax-and-pikachu-little-guy",
+        "https://www.amazon.com/Compiler-Design-Languages-Tools-Books/b?ie=UTF8&node=3970",
+        "https://github.com/mikeroyal/Pop_OS-Guide",
+        "https://www.amazon.ca/b?ie=UTF8&node=939960"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
+        "https://www.youtube.com/watch?v=3yuBOB3VrCk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=S9BHuodNDlo",
+        "https://www.youtube.com/watch?v=lxRAj1Gijic",
+        "https://www.youtube.com/watch?v=XY6Ig48tAnk",
+        "https://www.youtube.com/watch?v=jzCxywhTAUI",
+        "https://www.youtube.com/watch?v=c-nIsB3fonE",
+        "https://www.youtube.com/watch?v=GK9jQryYVCk&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=d3n42sOrEKE",
+        "https://www.youtube.com/watch?v=bmaMQ4Ph6hU"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://manual.gamemaker.io/monthly/en/",
-        "description": "The URL provides access to the monthly updated manual for GameMaker, offering comprehensive guidance and documentation for game development."
+        "question": "What is the primary programming language used in GameMaker Studio 2?",
+        "options": [
+          "JavaScript",
+          "Python",
+          "GML",
+          "C++"
+        ],
+        "correct_option": 2,
+        "hint": "It is a language specifically designed for GameMaker Studio."
       },
       {
-        "url": "https://www.reddit.com/r/gamedev/comments/1bro6ni/we_are_the_developers_of_sdl_ask_us_anything/",
-        "description": "A Reddit AMA session where the developers of SDL (Simple DirectMedia Layer) answer questions about their work and the library."
-      },
-      {
-        "url": "https://developers.meta.com/horizon/",
-        "description": "A comprehensive guide for developers to create and integrate experiences within Meta's Horizon platform."
+        "question": "What is a key advantage of using GameMaker Studio 2 for 2D game development?",
+        "options": [
+          "Focuses on 3D rendering",
+          "Requires extensive coding knowledge",
+          "Offers a user-friendly interface",
+          "Only supports mobile platforms"
+        ],
+        "correct_option": 2,
+        "hint": "This advantage makes it accessible to beginners."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.reddit.com/r/gamemaker/comments/119lbhe/rocket_networking_the_ultimate_solution_for/",
-        "description": "A discussion on Reddit about Rocket Networking as a comprehensive solution for multiplayer game development using GameMaker."
-      },
-      {
-        "url": "https://manual.gamemaker.io/monthly/en/",
-        "description": "The URL provides access to the comprehensive monthly updated manual for GameMaker, detailing its features and functionalities."
-      },
-      {
-        "url": "https://www.reddit.com/r/gamemaker/comments/fpd2bd/tutorial_configurations_macros_gamemaker_studio_2/",
-        "description": "A tutorial on using configurations and macros in GameMaker Studio 2 to enhance game development efficiency."
-      },
-      {
-        "url": "https://forum.gamemaker.io/index.php?tags/programmer-needed/",
-        "description": "A forum tag for connecting with programmers available for hire or collaboration within the GameMaker community."
-      },
-      {
-        "url": "https://develop.games/",
-        "description": "A comprehensive platform offering resources, tutorials, and tools for game developers to create and enhance their games."
+        "question": "Which feature of GameMaker Studio 2 makes it particularly appealing for developers focusing exclusively on 2D games?",
+        "options": [
+          "Complex 3D modeling tools",
+          "Integrated 2D physics engine",
+          "Extensive VR support",
+          "Advanced AI scripting"
+        ],
+        "correct_option": 1,
+        "hint": "This feature helps in creating realistic 2D interactions."
       }
     ],
-    "videos": [
-      "https://www.reddit.com/r/gamemaker/comments/dxhw76/is_gamemaker_a_good_place_to_start_making_games/",
-      "https://develop.games/",
-      "https://www.reddit.com/r/learnprogramming/comments/ezedi1/about_to_finish_cs_degree_but_cant_code/",
-      "https://www.facebook.com/GMSTutorials/",
-      "https://www.reddit.com/r/gamemaker/comments/nv67bu/best_practices_for_a_new_game/"
+    "advanced": [
+      {
+        "question": "What is a common use case for developers choosing GameMaker Studio 2?",
+        "options": [
+          "Developing large-scale AAA 3D games",
+          "Creating simple 2D games with an easy learning curve",
+          "Building augmented reality applications",
+          "Designing complex multiplayer online games"
+        ],
+        "correct_option": 1,
+        "hint": "The preference is towards simplicity and 2D focus."
+      },
+      {
+        "question": "Which of the following is NOT true about GameMaker Studio 2?",
+        "options": [
+          "It has a drag-and-drop interface for beginners.",
+          "It only supports 3D game development.",
+          "It uses GML as its primary scripting language.",
+          "It is designed with a focus on ease of use for 2D games."
+        ],
+        "correct_option": 1,
+        "hint": "Consider the primary focus and capabilities of GameMaker Studio 2."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is the primary programming language used in GameMaker Studio 2?",
-      "options": [
-        "JavaScript",
-        "Python",
-        "GML",
-        "C++"
-      ],
-      "correct_option": 2,
-      "hint": "It is a language specifically designed for GameMaker Studio."
-    },
-    {
-      "question": "What is a key advantage of using GameMaker Studio 2 for 2D game development?",
-      "options": [
-        "Focuses on 3D rendering",
-        "Requires extensive coding knowledge",
-        "Offers a user-friendly interface",
-        "Only supports mobile platforms"
-      ],
-      "correct_option": 2,
-      "hint": "This advantage makes it accessible to beginners."
-    },
-    {
-      "question": "Which feature of GameMaker Studio 2 makes it particularly appealing for developers focusing exclusively on 2D games?",
-      "options": [
-        "Complex 3D modeling tools",
-        "Integrated 2D physics engine",
-        "Extensive VR support",
-        "Advanced AI scripting"
-      ],
-      "correct_option": 1,
-      "hint": "This feature helps in creating realistic 2D interactions."
-    },
-    {
-      "question": "What is a common use case for developers choosing GameMaker Studio 2?",
-      "options": [
-        "Developing large-scale AAA 3D games",
-        "Creating simple 2D games with an easy learning curve",
-        "Building augmented reality applications",
-        "Designing complex multiplayer online games"
-      ],
-      "correct_option": 1,
-      "hint": "The preference is towards simplicity and 2D focus."
-    },
-    {
-      "question": "Which of the following is NOT true about GameMaker Studio 2?",
-      "options": [
-        "It has a drag-and-drop interface for beginners.",
-        "It only supports 3D game development.",
-        "It uses GML as its primary scripting language.",
-        "It is designed with a focus on ease of use for 2D games."
-      ],
-      "correct_option": 1,
-      "hint": "Consider the primary focus and capabilities of GameMaker Studio 2."
-    }
-  ],
   "preferred_if": [
     "User focuses exclusively on 2D games",
     "Wants a simpler learning curve"

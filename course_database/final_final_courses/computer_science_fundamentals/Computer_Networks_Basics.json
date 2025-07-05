@@ -1,0 +1,395 @@
+{
+  "id": "CS16",
+  "name": "Computer Networks Basics",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Networking",
+  "topics": [
+    "OSI Model & TCP/IP Stack",
+    "IP Addressing & Routing",
+    "Protocols (HTTP, FTP, DNS)",
+    "Network Security Fundamentals"
+  ],
+  "recommended": true,
+  "tags": [
+    "networking",
+    "internet",
+    "protocols"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "description": "An authoritative resource on HTML elements, attributes, and best practices for web development.",
+          "title": "HTML: HyperText Markup Language | MDN"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/",
+          "description": "Official documentation for Amazon Web Services, covering a wide range of cloud computing topics and services.",
+          "title": "Welcome to AWS Documentation"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "An extensive resource for learning and mastering JavaScript on the web.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://kubernetes.io/docs/reference/kubectl/",
+          "description": "A detailed reference guide for using the kubectl command-line tool in Kubernetes.",
+          "title": "Command line tool (kubectl) | Kubernetes"
+        },
+        {
+          "url": "https://graphql.org/learn/",
+          "description": "An introductory guide to understanding and implementing GraphQL APIs.",
+          "title": "Introduction to GraphQL | GraphQL"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.netacad.com/courses/networking-basics",
+          "description": "An introductory course on fundamental networking concepts and skills.",
+          "title": "Free Computer Networking Course by Cisco: Start Learning Now"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/computer-networks/basics-computer-networking/",
+          "description": "An introductory overview of the fundamental concepts in computer networking.",
+          "title": "Basics of Computer Networking - GeeksforGeeks"
+        },
+        {
+          "url": "https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html",
+          "description": "An introductory guide to networking basics for small businesses.",
+          "title": "Networking Basics: What You Need To Know - Cisco"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/computer-networks/computer-network-tutorials/",
+          "description": "An extensive collection of tutorials on computer networks covering fundamental concepts and advanced topics.",
+          "title": "Computer Network Tutorial - GeeksforGeeks"
+        },
+        {
+          "url": "https://www.w3schools.com/cybersecurity/cybersecurity_networking.php",
+          "description": "An introductory guide to networking concepts in cybersecurity.",
+          "title": "Cyber Security Networking Basics"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=wfOr0zX3D24",
+        "https://www.youtube.com/watch?v=TVvEheZVwdg",
+        "https://www.youtube.com/watch?v=GyTLPl5t-0Q",
+        "https://www.youtube.com/watch?v=9SIjoeE93lo",
+        "https://www.youtube.com/watch?v=k9ZigsW9il0",
+        "https://www.youtube.com/watch?v=PhjHXeMNpp8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=FM169QUIQco",
+        "https://www.youtube.com/watch?v=fErDcUtd8fA",
+        "https://www.youtube.com/watch?v=qiQR5rTSshw",
+        "https://www.youtube.com/user/danscourses"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.aws.amazon.com/",
+          "description": "Official documentation for Amazon Web Services (AWS) covering various services and features.",
+          "title": "Welcome to AWS Documentation"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "description": "An authoritative reference guide for HTML, its elements, and usage in web development.",
+          "title": "HTML: HyperText Markup Language | MDN"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+          "description": "An overview of key concepts and features of Amazon EC2.",
+          "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/",
+          "description": "Official Microsoft Azure documentation and resources for cloud services and solutions.",
+          "title": "Azure documentation | Microsoft Learn"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.csselectronics.com/pages/can-bus-simple-intro-tutorial",
+          "description": "An introductory tutorial explaining the basics of the CAN bus system.",
+          "title": "CAN Bus Explained - A Simple Intro [2025] – CSS Electronics"
+        },
+        {
+          "url": "https://aws.amazon.com/what-is/neural-network/",
+          "description": "An introductory overview of neural networks and their applications on AWS.",
+          "title": "What is a Neural Network? - Artificial Neural Network Explained - AWS"
+        },
+        {
+          "url": "https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html",
+          "description": "A tutorial on using Distributed Data Parallel in PyTorch for scalable model training.",
+          "title": "Getting Started with Distributed Data Parallel — PyTorch Tutorials 2.7.0+cu126 documentation"
+        },
+        {
+          "url": "https://spacelift.io/blog/docker-networking",
+          "description": "An in-depth exploration of Docker networking concepts and configurations.",
+          "title": "Docker Networking - Basics, Network Types & Examples"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/devops/aws-tutorial/",
+          "description": "An introductory tutorial on using AWS for DevOps practices.",
+          "title": "Amazon Web Services (AWS) Tutorial - GeeksforGeeks"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=k9ZigsW9il0&pp=ygULI25ldHdvZWtpbmc%3D",
+        "https://www.youtube.com/watch?v=qTaOZrDnMzQ",
+        "https://www.youtube.com/watch?v=ty0HMs48U1k",
+        "https://www.youtube.com/watch?v=zfiSAzpy9NM&pp=ygULI2NubmZlYXR1cmU%3D",
+        "https://www.youtube.com/watch?v=LcWFedjaR4Q",
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=7mz73uXD9DA"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "An extensive resource for learning and mastering JavaScript on the web.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://docs.cilium.io/en/stable/index.html",
+          "description": "Comprehensive documentation for Cilium, an open-source networking and security solution for cloud-native environments.",
+          "title": "Welcome to Cilium’s documentation! — Cilium 1.17.5 documentation"
+        },
+        {
+          "url": "https://keras.io/",
+          "description": "The official documentation site for the Keras deep learning API.",
+          "title": "Keras: Deep Learning for humans"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+          "description": "Official Microsoft documentation for learning and using C# programming language.",
+          "title": "C# Guide - .NET managed language | Microsoft Learn"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/",
+          "description": "Official documentation for Amazon Web Services (AWS) providing detailed guides and resources for AWS products and services.",
+          "title": "Welcome to AWS Documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.datacamp.com/blog/how-to-learn-ai",
+          "description": "A guide on effective strategies for learning artificial intelligence.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://zerotomastery.io/blog/introduction-to-networking/",
+          "description": "An introductory guide to the fundamentals of computer networking.",
+          "title": "A Beginners Guide To Computer Networking | Zero To Mastery"
+        },
+        {
+          "url": "https://www.wireshark.org/",
+          "description": "The official website for Wireshark, a popular network protocol analyzer tool.",
+          "title": "Wireshark • Go Deep"
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
+          "description": "An introductory tutorial on the fundamentals of cyber security for beginners.",
+          "title": "Cyber Security For Beginners: A Basic Guide | Simplilearn"
+        },
+        {
+          "url": "https://www.emqx.com/en/blog/the-easiest-guide-to-getting-started-with-mqtt",
+          "description": "An introductory guide to getting started with MQTT for beginners.",
+          "title": "Mastering MQTT: The Ultimate Beginner's Guide for 2025 | EMQ"
+        },
+        {
+          "url": "https://cs231n.stanford.edu/",
+          "description": "An in-depth course on Convolutional Neural Networks for visual recognition by Stanford University.",
+          "title": "Stanford University CS231n: Deep Learning for Computer Vision"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=IPvYjXCsTg8",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=tLqWGysORXA",
+        "https://www.youtube.com/watch?v=ty0HMs48U1k",
+        "https://www.youtube.com/watch?v=HTpZ1rLRsNQ",
+        "https://www.youtube.com/watch?v=2eAPg2SSXyg",
+        "https://www.youtube.com/watch?v=tpCFfeUEGs8",
+        "https://www.youtube.com/watch?v=jKc98gPybFs&pp=ygUJI3Zpc2lvdmJh",
+        "https://www.youtube.com/c/PracticalNetworking"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What layer of the OSI model is responsible for routing decisions?",
+        "options": [
+          "Application Layer",
+          "Transport Layer",
+          "Network Layer",
+          "Data Link Layer"
+        ],
+        "correct_option": 2,
+        "hint": "This layer handles path determination and logical addressing."
+      },
+      {
+        "question": "Which protocol is used to translate domain names into IP addresses?",
+        "options": [
+          "FTP",
+          "DNS",
+          "HTTP",
+          "SMTP"
+        ],
+        "correct_option": 1,
+        "hint": "This protocol is essential for resolving website URLs to their corresponding IP addresses."
+      },
+      {
+        "question": "What is the primary purpose of the Transport layer in the TCP/IP model?",
+        "options": [
+          "Data encryption",
+          "Packet routing",
+          "Data delivery and error checking",
+          "Physical addressing"
+        ],
+        "correct_option": 2,
+        "hint": "This layer ensures reliable delivery of data between hosts."
+      },
+      {
+        "question": "Which type of IP address is used to identify a unique device on a network?",
+        "options": [
+          "Subnet mask",
+          "Default gateway",
+          "MAC address",
+          "IP address"
+        ],
+        "correct_option": 3,
+        "hint": "This address is assigned to each device and is used for identification on the network."
+      },
+      {
+        "question": "What is the main function of a firewall in network security?",
+        "options": [
+          "Encrypt data",
+          "Block unauthorized access",
+          "Speed up internet connection",
+          "Assign IP addresses"
+        ],
+        "correct_option": 1,
+        "hint": "This device or software acts as a barrier, protecting the network from unauthorized access."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which layer of the OSI model is responsible for reliable data transfer, error recovery, and flow control?",
+        "options": [
+          "Application Layer",
+          "Transport Layer",
+          "Network Layer",
+          "Data Link Layer"
+        ],
+        "correct_option": 1,
+        "hint": "This layer ensures complete data transfer and manages end-to-end communication."
+      },
+      {
+        "question": "What is the primary function of the Domain Name System (DNS) in networking?",
+        "options": [
+          "To provide secure data encryption",
+          "To resolve domain names into IP addresses",
+          "To route data packets between networks",
+          "To manage network traffic congestion"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how human-friendly names are translated into machine-friendly formats."
+      },
+      {
+        "question": "In the context of IP addressing, which of the following is a valid subnet mask for a Class C network?",
+        "options": [
+          "255.0.0.0",
+          "255.255.255.0",
+          "255.255.0.0",
+          "255.255.255.255"
+        ],
+        "correct_option": 1,
+        "hint": "Class C networks typically use a subnet mask that allows for 256 addresses."
+      },
+      {
+        "question": "Which protocol is primarily used to transfer web pages over the Internet?",
+        "options": [
+          "HTTP",
+          "FTP",
+          "SMTP",
+          "SNMP"
+        ],
+        "correct_option": 0,
+        "hint": "This protocol defines how messages are formatted and transmitted on the World Wide Web."
+      },
+      {
+        "question": "What is a common method used to enhance network security by controlling incoming and outgoing network traffic?",
+        "options": [
+          "Firewalls",
+          "Switches",
+          "Bridges",
+          "Routers"
+        ],
+        "correct_option": 0,
+        "hint": "This security measure acts as a barrier between a trusted and untrusted network."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which layer of the OSI model is responsible for establishing, managing, and terminating connections between applications?",
+        "options": [
+          "Session Layer",
+          "Transport Layer",
+          "Network Layer",
+          "Data Link Layer"
+        ],
+        "correct_option": 0,
+        "hint": "This layer is the fifth layer in the OSI model."
+      },
+      {
+        "question": "In the TCP/IP model, which layer is responsible for logical addressing and routing?",
+        "options": [
+          "Application Layer",
+          "Internet Layer",
+          "Network Interface Layer",
+          "Transport Layer"
+        ],
+        "correct_option": 1,
+        "hint": "This layer corresponds to the Network Layer in the OSI model."
+      },
+      {
+        "question": "What is the primary purpose of the Domain Name System (DNS) in networking?",
+        "options": [
+          "To assign dynamic IP addresses",
+          "To map domain names to IP addresses",
+          "To ensure secure data transmission",
+          "To monitor network traffic"
+        ],
+        "correct_option": 1,
+        "hint": "This protocol translates human-friendly domain names to IP addresses."
+      },
+      {
+        "question": "Which protocol is commonly used for secure web browsing by encrypting data between the client and server?",
+        "options": [
+          "FTP",
+          "HTTP",
+          "HTTPS",
+          "DNS"
+        ],
+        "correct_option": 2,
+        "hint": "The protocol is similar to HTTP but includes security features."
+      },
+      {
+        "question": "Which type of attack involves intercepting and altering communication between two parties without their knowledge?",
+        "options": [
+          "DDoS Attack",
+          "Man-in-the-Middle Attack",
+          "Phishing Attack",
+          "SQL Injection"
+        ],
+        "correct_option": 1,
+        "hint": "This attack is abbreviated as MITM."
+      }
+    ]
+  }
+}

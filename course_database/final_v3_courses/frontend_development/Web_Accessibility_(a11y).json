@@ -1,0 +1,518 @@
+{
+  "id": "FE20",
+  "name": "Web Accessibility (a11y)",
+  "category": "Frontend Development",
+  "primary_tech": "Accessibility Standards",
+  "topics": [
+    "Semantic HTML",
+    "ARIA & Screen Readers",
+    "Testing Accessibility"
+  ],
+  "recommended": true,
+  "tags": [
+    "accessibility",
+    "a11y",
+    "compliance"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+          "description": "An in-depth resource on web accessibility best practices and guidelines.",
+          "title": "Accessibility | MDN"
+        },
+        {
+          "url": "https://www.w3.org/TR/WCAG21/",
+          "description": "The official guidelines for web accessibility standards, WCAG 2.1.",
+          "title": "Web Content Accessibility Guidelines (WCAG) 2.1"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
+          "description": "An overview of ARIA (Accessible Rich Internet Applications) to enhance web accessibility.",
+          "title": "ARIA - Accessibility | MDN"
+        },
+        {
+          "url": "https://legacy.reactjs.org/docs/accessibility.html",
+          "description": "Guidelines for improving accessibility in React applications.",
+          "title": "Accessibility – React"
+        },
+        {
+          "url": "https://www.a11yproject.com/",
+          "description": "A community-driven effort to make web accessibility easier for developers.",
+          "title": "Home - The A11Y Project"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+          "description": "An authoritative resource on web accessibility standards and best practices.",
+          "title": "Accessibility | MDN"
+        },
+        {
+          "url": "https://www.a11yproject.com/checklist/",
+          "description": "An accessibility checklist for ensuring web content is inclusive and usable for all users.",
+          "title": "Checklist - The A11Y Project"
+        },
+        {
+          "url": "https://web.dev/learn/accessibility",
+          "description": "An educational resource offering a comprehensive introduction to web accessibility best practices.",
+          "title": "Learn Accessibility  |  web.dev"
+        },
+        {
+          "url": "https://www.a11yproject.com/",
+          "description": "A community-driven effort to make web accessibility easier for developers and designers.",
+          "title": "Home - The A11Y Project"
+        },
+        {
+          "url": "https://www.deque.com/web-accessibility-beginners-guide/",
+          "description": "An introductory guide to understanding and implementing web accessibility.",
+          "title": "The Beginner’s Guide to Web Accessibility | Deque Systems"
+        },
+        {
+          "url": "https://www.w3.org/TR/WCAG21/",
+          "description": "The Web Content Accessibility Guidelines (WCAG) 2.1, providing standards for making web content more accessible.",
+          "title": "Web Content Accessibility Guidelines (WCAG) 2.1"
+        },
+        {
+          "url": "https://www.w3schools.com/accessibility/",
+          "description": "An introductory guide to web accessibility principles and practices.",
+          "title": "Accessibility Tutorial"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=e2nkq3h1P68",
+          "title": "Learn Accessibility - Full a11y Tutorial",
+          "duration": "93m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=NEK3aMPs1Us",
+          "title": "Web Content Accessibility Guidelines (WCAG 2.1) Crash Course",
+          "duration": "84m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nUBpmGHxDro",
+          "title": "Intro to Web Accessibility",
+          "duration": "67m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DgFXUx2QwB0",
+          "title": "Testing Web Pages for Web Accessibility Part 1",
+          "duration": "73m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xdyir8CAp8U",
+          "title": "Web Accessibility Guidelines - Introduction to Web Accessibility",
+          "duration": "9m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gzI1y1wBCWw",
+          "title": "Accessibility Testing Tools To Know | Web A11Y Tools",
+          "duration": "14m"
+        },
+        {
+          "url": "https://www.youtube.com/playlist?list=PLYDwWPRvXB8-8LG2hZv25HO6C3w_vezZb"
+        },
+        {
+          "url": "https://www.youtube.com/playlist?list=PL0Zuz27SZ-6PA3nkkEAr91n4bK-NunwPU"
+        },
+        {
+          "url": "https://www.youtube.com/kevinpowell"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20SHvU2PKsM",
+          "title": "Introduction to Web Accessibility and W3C Standards",
+          "duration": "4m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
+          "description": "An in-depth resource on ARIA roles and properties for enhancing web accessibility.",
+          "title": "ARIA - Accessibility | MDN"
+        },
+        {
+          "url": "https://legacy.reactjs.org/docs/accessibility.html",
+          "description": "Guidelines for ensuring accessibility in React applications.",
+          "title": "Accessibility – React"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles",
+          "description": "A detailed reference guide to ARIA roles for enhancing web accessibility.",
+          "title": "WAI-ARIA Roles - ARIA | MDN"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.a11yproject.com/checklist/",
+          "description": "A comprehensive checklist for ensuring web accessibility compliance.",
+          "title": "Checklist - The A11Y Project"
+        },
+        {
+          "url": "https://legacy.reactjs.org/docs/accessibility.html",
+          "description": "Guidelines for improving accessibility in React applications.",
+          "title": "Accessibility – React"
+        },
+        {
+          "url": "https://www.w3.org/TR/WCAG21/",
+          "description": "The official guidelines for web content accessibility, known as WCAG 2.1, detailing standards to make web content more accessible to people with disabilities.",
+          "title": "Web Content Accessibility Guidelines (WCAG) 2.1"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
+          "description": "An in-depth guide to using ARIA for enhancing web accessibility.",
+          "title": "ARIA - Accessibility | MDN"
+        },
+        {
+          "url": "https://www.w3.org/WAI/tutorials/images/decorative/",
+          "description": "Guidelines for using decorative images in web accessibility design.",
+          "title": "Decorative Images | Web Accessibility Initiative (WAI) | W3C"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+          "description": "An introductory guide to implementing accessibility in HTML for web development.",
+          "title": "HTML: A good basis for accessibility - Learn web development | MDN"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=0hqhAIjE_8I",
+          "title": "ARIA HTML Tutorial - What is ARIA & Why it's Important to Use!",
+          "duration": "13m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CqxfrrMwhaY",
+          "title": "Automated Accessibility Testing in JavaScript Frameworks - axe-con 2021",
+          "duration": "48m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gzI1y1wBCWw",
+          "title": "Accessibility Testing Tools To Know | Web A11Y Tools",
+          "duration": "14m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-YwZC2_nWc4",
+          "title": "How to make website navigation accessible - Full tutorial and guide",
+          "duration": "57m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-dBsgG7L2EQ",
+          "title": "Testing Web Accessibility",
+          "duration": "27m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=-n5Ul7WPc3Y&t=0s",
+          "title": "Using Automation to Test UI Components for Accessibility",
+          "duration": "56m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HFiuCh5fmeA",
+          "title": "Web Accessibility Testing with VoiceOver on iOS",
+          "duration": "12m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LE1DqB5NIm4",
+          "title": "PLAYWRIGHT ACCESSIBILITY TESTING IN DETAIL",
+          "duration": "24m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1A6SrPwmGpg",
+          "title": "You Suck At Accessibility (But You Don't Have To)",
+          "duration": "13m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://www.w3.org/TR/WCAG21/",
+          "description": "The Web Content Accessibility Guidelines (WCAG) 2.1 provide recommendations for making web content more accessible.",
+          "title": "Web Content Accessibility Guidelines (WCAG) 2.1"
+        },
+        {
+          "url": "https://dequeuniversity.com/",
+          "description": "A platform offering comprehensive training and resources on web accessibility and inclusive design.",
+          "title": "Deque University: Web Accessibility Training and Courses"
+        },
+        {
+          "url": "https://docs.flutter.dev/ui/accessibility-and-internationalization/accessibility",
+          "description": "A guide to implementing accessibility features in Flutter applications.",
+          "title": "Accessibility | Flutter"
+        },
+        {
+          "url": "https://www.deque.com/axe/",
+          "description": "An accessibility testing tool for web applications to ensure compliance with accessibility standards.",
+          "title": "Accessibility Testing Tools & Software: Axe"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+          "description": "A beginner-friendly guide to learning web development on MDN Web Docs.",
+          "title": "Learn web development | MDN"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.a11y-collective.com/blog/html-screen-reader/",
+          "description": "An informative guide on how HTML is interpreted by screen readers for improved web accessibility.",
+          "title": "Expert Guide: Writing HTML for Screen Reader Users - The A11Y Collective"
+        },
+        {
+          "url": "https://www.w3.org/TR/WCAG21/",
+          "description": "The Web Content Accessibility Guidelines (WCAG) 2.1 standard for making web content more accessible.",
+          "title": "Web Content Accessibility Guidelines (WCAG) 2.1"
+        },
+        {
+          "url": "https://dequeuniversity.com/",
+          "description": "An educational platform offering accessibility training and resources for digital inclusion.",
+          "title": "Deque University: Web Accessibility Training and Courses"
+        },
+        {
+          "url": "https://www.a11y-collective.com/category/code/page/2/",
+          "description": "A collection of articles focused on accessibility in web development and coding practices.",
+          "title": "Code & development Archives - Page 2 of 3 - The A11Y Collective"
+        },
+        {
+          "url": "https://www.ssa.gov/accessibility/andi/help/install.html",
+          "description": "Instructions for installing the ANDI accessibility testing tool for web developers.",
+          "title": "ANDI - Accessibility Testing Tool - Install"
+        },
+        {
+          "url": "https://www.deque.com/web-accessibility-beginners-guide/",
+          "description": "An introductory guide to understanding and implementing web accessibility.",
+          "title": "The Beginner’s Guide to Web Accessibility | Deque Systems"
+        },
+        {
+          "url": "https://wpmudev.com/blog/making-wordpress-accessible/",
+          "description": "A guide to enhancing accessibility features in WordPress websites.",
+          "title": "The Ultimate Guide to Web Accessibility & WordPress - WPMU DEV"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=e2nkq3h1P68",
+          "title": "Learn Accessibility - Full a11y Tutorial",
+          "duration": "93m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-YwZC2_nWc4",
+          "title": "How to make website navigation accessible - Full tutorial and guide",
+          "duration": "57m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Y6ZHcKhV6JM",
+          "title": "NMOER Event Deep Dive into Digital Accessibility",
+          "duration": "47m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HFiuCh5fmeA",
+          "title": "Web Accessibility Testing with VoiceOver on iOS",
+          "duration": "12m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=kHfW23Gb2_Q",
+          "title": "The #1 Front-End Skill Nobody Talks About",
+          "duration": "4m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=a01vcZMTJqU",
+          "title": "FULL CPACC Study Guide 📚 | Pass the Certified Professional in Accessibility Core Competencies Exam!",
+          "duration": "95m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cfVUds5GgsE",
+          "title": "A Guide to an Accessible Heading Hierarchy",
+          "duration": "37m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Gm_bD1abFXI",
+          "title": "Build more accessible apps in Angular",
+          "duration": "59m"
+        },
+        {
+          "url": "https://www.youtube.com/kevinpowell"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=V1ZgXuPKF7k",
+          "title": "Transforming Your Team with Accessibility Training",
+          "duration": "55m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does semantic HTML refer to in web development?",
+        "options": [
+          "Using HTML tags that have meaning and structure",
+          "Adding comments to HTML code",
+          "Styling HTML with CSS",
+          "Creating dynamic content with JavaScript"
+        ],
+        "correct_option": 0,
+        "hint": "Semantic HTML involves using tags that convey meaning about the content they enclose."
+      },
+      {
+        "question": "What is the role of ARIA in web accessibility?",
+        "options": [
+          "To style websites",
+          "To enhance the functionality of screen readers",
+          "To provide faster loading times",
+          "To improve search engine optimization"
+        ],
+        "correct_option": 1,
+        "hint": "ARIA is used to make applications more accessible, particularly for screen reader users."
+      },
+      {
+        "question": "Which tool is commonly used for testing web accessibility?",
+        "options": [
+          "Photoshop",
+          "WAVE",
+          "Google Analytics",
+          "Visual Studio Code"
+        ],
+        "correct_option": 1,
+        "hint": "This tool provides visual feedback about the accessibility of your web content."
+      },
+      {
+        "question": "What is a screen reader?",
+        "options": [
+          "A device that projects images onto a wall",
+          "Software that reads aloud the text on a screen",
+          "A tool for creating screen captures",
+          "An application for editing videos"
+        ],
+        "correct_option": 1,
+        "hint": "Screen readers are essential for users who are blind or visually impaired."
+      },
+      {
+        "question": "Which HTML element should be used for the main content of a document?",
+        "options": [
+          "<footer>",
+          "<header>",
+          "<main>",
+          "<aside>"
+        ],
+        "correct_option": 2,
+        "hint": "This element is specifically designed for the primary content of a webpage."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which semantic HTML element is best suited for representing the main content of a webpage?",
+        "options": [
+          "<div>",
+          "<section>",
+          "<article>",
+          "<main>"
+        ],
+        "correct_option": 3,
+        "hint": "This element implies the dominant content of the <body> of a document."
+      },
+      {
+        "question": "What is the primary purpose of using ARIA roles in web development?",
+        "options": [
+          "To enhance the visual design of a webpage",
+          "To improve SEO ranking",
+          "To provide additional semantic information to screen readers",
+          "To increase webpage loading speed"
+        ],
+        "correct_option": 2,
+        "hint": "ARIA roles are mainly used to bridge the gap between what can be done with HTML and the needs of screen readers."
+      },
+      {
+        "question": "Which tool can be used to test the accessibility of a website?",
+        "options": [
+          "React.js",
+          "Axe",
+          "Bootstrap",
+          "jQuery"
+        ],
+        "correct_option": 1,
+        "hint": "This tool is a popular accessibility testing tool that integrates with browsers."
+      },
+      {
+        "question": "What does the ARIA attribute 'aria-live' do for screen readers?",
+        "options": [
+          "It hides the element from screen readers",
+          "It updates the screen reader when the content changes",
+          "It makes the element focusable",
+          "It changes the visual display of the element"
+        ],
+        "correct_option": 1,
+        "hint": "This attribute is about dynamic content, ensuring updates are announced by screen readers."
+      },
+      {
+        "question": "In terms of web accessibility, what is the significance of using correct heading levels (e.g., <h1>, <h2>, <h3>)?",
+        "options": [
+          "It improves the visual aesthetics of the website",
+          "It enhances the SEO of the website",
+          "It helps screen readers navigate the content effectively",
+          "It increases the loading speed of web pages"
+        ],
+        "correct_option": 2,
+        "hint": "Screen readers rely on these elements to create an outline of the content, improving navigation."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What role does the HTML5 <article> element play in semantic HTML for accessibility?",
+        "options": [
+          "Defines a section in a document",
+          "Specifies independent, self-contained content",
+          "Acts as a container for introductory content",
+          "Indicates a thematic grouping of content"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how <article> relates to content that could stand alone."
+      },
+      {
+        "question": "Which ARIA attribute would you use to improve accessibility for screen readers by providing a label for an element that does not have a visible text label?",
+        "options": [
+          "aria-label",
+          "aria-labelledby",
+          "aria-hidden",
+          "aria-controls"
+        ],
+        "correct_option": 0,
+        "hint": "This attribute directly assigns a text label to an element."
+      },
+      {
+        "question": "In accessibility testing, which of the following tools is best suited for simulating screen reader behavior?",
+        "options": [
+          "Lighthouse",
+          "Wave",
+          "NVDA",
+          "Axe"
+        ],
+        "correct_option": 2,
+        "hint": "Consider tools that are actual screen readers."
+      },
+      {
+        "question": "What is the main purpose of the ARIA 'role' attribute in web development?",
+        "options": [
+          "To provide a description of an element",
+          "To control the visibility of elements",
+          "To define the type of user interface element",
+          "To establish a relationship between elements"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how ARIA helps define the purpose of elements to assistive technologies."
+      },
+      {
+        "question": "When testing for keyboard accessibility, which key should be primarily used to navigate through interactive elements?",
+        "options": [
+          "Enter",
+          "Spacebar",
+          "Tab",
+          "Arrow keys"
+        ],
+        "correct_option": 2,
+        "hint": "This key is typically used to move focus forward through interactive elements."
+      }
+    ]
+  }
+}

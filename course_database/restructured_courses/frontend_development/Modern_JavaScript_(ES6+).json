@@ -15,105 +15,147 @@
     "language"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        "description": "Comprehensive documentation and resources for learning and mastering JavaScript on the web."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes",
-        "description": "An overview of JavaScript classes, including syntax, inheritance, and usage, as defined in the ECMAScript 2015 standard."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
-        "description": "A comprehensive guide to understanding and using JavaScript modules for code organization and reuse."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/js/js_es6.asp",
-        "description": "An overview of ES6 features in JavaScript, including syntax changes and new functionalities."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/the-modern-javascript-tutorial/273711",
-        "description": "A comprehensive guide covering modern JavaScript concepts and features for developers."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/the-best-udemy-web-development-courses-top-free-courses/188730",
-        "description": "A curated list of top-rated free Udemy courses for web development recommended by the FreeCodeCamp community."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/write-less-do-more-with-javascript-es6-5fd4a8e50ee2/",
-        "description": "This article explains how to enhance JavaScript productivity using ES6 features."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/es6-too-much-of-a-learning-curve/199058",
-        "description": "Discussion on the challenges and learning curve associated with adopting ES6 JavaScript features."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=NCwa_xi0Uuc",
-      "https://www.youtube.com/watch?v=nZ1DMMsyVyI",
-      "https://www.youtube.com/watch?v=BI1o2H9z9fo",
-      "https://www.youtube.com/watch?v=1WCA0W5tI08",
-      "https://www.youtube.com/watch?v=1lFXj5h8IMA"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the main difference between 'let' and 'var' in JavaScript?",
-      "options": [
-        "'let' is block-scoped, 'var' is function-scoped",
-        "Both 'let' and 'var' are block-scoped",
-        "'var' is block-scoped, 'let' is function-scoped",
-        "Both 'let' and 'var' are function-scoped"
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://javascript.info/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes",
+        "https://docraptor.com/documentation/article/3778430-using-modern-javascript-es6-ecmascript-2015-with-docraptor",
+        "https://www.w3schools.com/js/js_es6.asp"
       ],
-      "correct_option": 0,
-      "hint": "Consider the scope where 'let' and 'var' are applicable."
+      "notes": [
+        "https://www.youtube.com/watch?v=NCwa_xi0Uuc",
+        "https://m.youtube.com/watch?v=WZQc7RUAg18&t=0s",
+        "https://www.youtube.com/watch?v=Ks0Z_qP2WEk",
+        "https://m.youtube.com/watch?v=1lFXj5h8IMA&t=4s",
+        "https://www.youtube.com/watch?v=IEf1KAcK6A8"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=NCwa_xi0Uuc",
+        "https://www.youtube.com/watch?v=Ks0Z_qP2WEk",
+        "https://www.youtube.com/watch?v=nZ1DMMsyVyI",
+        "https://www.youtube.com/watch?v=hdI2bqOjy3c",
+        "https://m.youtube.com/watch?v=1lFXj5h8IMA&t=4s",
+        "https://m.youtube.com/watch?v=WZQc7RUAg18&t=0s",
+        "https://www.youtube.com/watch?v=IEf1KAcK6A8",
+        "https://www.youtube.com/channel/UCEsOe19aGFcM31zLG2M2sXw"
+      ]
     },
-    {
-      "question": "Which of the following is a new feature introduced in ES6?",
-      "options": [
-        "Arrow functions",
-        "Global variables",
-        "XMLHttpRequest",
-        "Synchronous JavaScript"
+    "intermediate": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://www.typescriptlang.org/tsconfig/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch",
+        "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"
       ],
-      "correct_option": 0,
-      "hint": "ES6 introduced a new syntax for writing functions concisely."
+      "notes": [
+        "https://www.youtube.com/channel/UCEsOe19aGFcM31zLG2M2sXw",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://blog.miguelgrinberg.com/post/the-react-mega-tutorial-chapter-1-modern-javascript",
+        "https://discuss.prosemirror.net/t/how-to-install-prosemirror/1797",
+        "https://marcobotto.com/blog/the-hitchhikers-guide-to-the-modern-front-end-development-workflow/"
+      ],
+      "videos": [
+        "https://www.youtube.com/channel/UCEsOe19aGFcM31zLG2M2sXw",
+        "https://www.youtube.com/watch?v=O4DaRScJFNs",
+        "https://www.youtube.com/watch?v=j59qQ7YWLxw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/playlist?list=PLHdCowjFIBmKWMk4f_gH6mtui-ur8K2XC",
+        "https://www.youtube.com/watch?v=K_fFFRM7PEA",
+        "https://www.youtube.com/@letcode",
+        "https://www.youtube.com/c/Harshitvashisth",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=HFoe0Wc-UbI",
+        "https://www.youtube.com/watch?v=GPP_XBydGR8"
+      ]
     },
-    {
-      "question": "How can you create a Promise in JavaScript?",
-      "options": [
-        "Using the 'new Promise' constructor",
-        "Using the 'createPromise' method",
-        "By declaring a variable as 'promise'",
-        "By using 'async' keyword alone"
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://javascript.info/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+        "https://www.typescriptlang.org/docs/",
+        "https://www.linkedin.com/posts/dmitrykostyuk_apps-script-with-vite-clasp-github-actions-activity-7244283003676364800-OZsA"
       ],
-      "correct_option": 0,
-      "hint": "Promises are objects that represent the eventual completion or failure of an asynchronous operation."
-    },
-    {
-      "question": "What will the following code output: console.log(typeof null)?",
-      "options": [
-        "'object'",
-        "'null'",
-        "'undefined'",
-        "'boolean'"
+      "notes": [
+        "https://javascript.info/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+        "https://marcobotto.com/blog/the-hitchhikers-guide-to-the-modern-front-end-development-workflow/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://www.linkedin.com/posts/dmitrykostyuk_apps-script-with-vite-clasp-github-actions-activity-7244283003676364800-OZsA"
       ],
-      "correct_option": 0,
-      "hint": "Consider how JavaScript defines the type of null."
-    },
-    {
-      "question": "Which method is used to send an HTTP request using the Fetch API?",
-      "options": [
-        "fetch()",
-        "httpRequest()",
-        "sendRequest()",
-        "getFetch()"
-      ],
-      "correct_option": 0,
-      "hint": "This method is named after the API itself."
+      "videos": [
+        "https://www.youtube.com/watch?v=NCwa_xi0Uuc",
+        "https://www.youtube.com/watch?v=BI1o2H9z9fo",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+        "https://www.youtube.com/watch?v=uBDk_wgVh4E",
+        "https://www.youtube.com/watch?v=hdI2bqOjy3c&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=kqtD5dpn9C8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=lfmg-EJ8gm4"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main difference between 'let' and 'var' in JavaScript?",
+        "options": [
+          "'let' is block-scoped, 'var' is function-scoped",
+          "Both 'let' and 'var' are block-scoped",
+          "'var' is block-scoped, 'let' is function-scoped",
+          "Both 'let' and 'var' are function-scoped"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the scope where 'let' and 'var' are applicable."
+      },
+      {
+        "question": "Which of the following is a new feature introduced in ES6?",
+        "options": [
+          "Arrow functions",
+          "Global variables",
+          "XMLHttpRequest",
+          "Synchronous JavaScript"
+        ],
+        "correct_option": 0,
+        "hint": "ES6 introduced a new syntax for writing functions concisely."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "How can you create a Promise in JavaScript?",
+        "options": [
+          "Using the 'new Promise' constructor",
+          "Using the 'createPromise' method",
+          "By declaring a variable as 'promise'",
+          "By using 'async' keyword alone"
+        ],
+        "correct_option": 0,
+        "hint": "Promises are objects that represent the eventual completion or failure of an asynchronous operation."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What will the following code output: console.log(typeof null)?",
+        "options": [
+          "'object'",
+          "'null'",
+          "'undefined'",
+          "'boolean'"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how JavaScript defines the type of null."
+      },
+      {
+        "question": "Which method is used to send an HTTP request using the Fetch API?",
+        "options": [
+          "fetch()",
+          "httpRequest()",
+          "sendRequest()",
+          "getFetch()"
+        ],
+        "correct_option": 0,
+        "hint": "This method is named after the API itself."
+      }
+    ]
+  }
 }

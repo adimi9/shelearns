@@ -16,105 +16,150 @@
     "web-development"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
-        "description": "A comprehensive guide to learning web development, covering HTML, CSS, and JavaScript fundamentals."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
-        "description": "An introductory guide to using Express with Node.js for server-side web development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        "description": "Comprehensive documentation and learning resources for JavaScript, including guides, references, and tutorials."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/mern/understand-mern-stack/",
-        "description": "An introductory guide to understanding the MERN stack, which combines MongoDB, Express.js, React, and Node.js for web development."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/javascript/introduction-to-mean-stack/",
-        "description": "An introductory guide to understanding and using the MEAN stack for full-stack JavaScript development."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/blogs/what-is-full-stack-development/",
-        "description": "An overview of full stack development, explaining the roles, skills, and technologies involved in both front-end and back-end web development."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-i-landed-a-full-stack-developer-job-without-a-tech-degree-or-work-experience-6add97be2051/",
-        "description": "This article shares a personal journey and strategies for securing a full-stack developer job without a formal tech degree or prior work experience."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/web-development/",
-        "description": "A comprehensive guide to web development covering fundamental concepts, tools, and technologies for building websites and web applications."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=98BzS5Oz5E4",
-      "https://www.youtube.com/watch?v=rpJO0T08Bnc",
-      "https://www.youtube.com/watch?v=-9DsYOGyZ8k",
-      "https://www.youtube.com/watch?v=fk_peo5L_Uo",
-      "https://www.youtube.com/watch?v=Sxxw3qtb3_g"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What does the 'C' stand for in the MERN and MEVN stacks?",
-      "options": [
-        "Controller",
-        "Component",
-        "Client",
-        "Concept"
+    "beginner": {
+      "docs": [
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "https://www.geeksforgeeks.org/mern/understand-mern-stack/",
+        "https://firebase.google.com/docs/guides"
       ],
-      "correct_option": 2,
-      "hint": "It's the part of the architecture where the user interacts with the system."
+      "notes": [
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://www.geeksforgeeks.org/mern/understand-mern-stack/",
+        "https://www.mongodb.com/resources/basics/full-stack-development",
+        "https://www.oracle.com/th/database/mern-stack/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=7CqJlxBYj-M",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://www.youtube.com/watch?v=ZDRZvFNK-ek&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Hl7diL7SFw8",
+        "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=XlvsJLer_No"
+      ]
     },
-    {
-      "question": "In the client-server architecture, what role does the server primarily play?",
-      "options": [
-        "It processes user input directly.",
-        "It manages database interactions and business logic.",
-        "It provides a graphical interface for users.",
-        "It only transmits data between users."
+    "intermediate": {
+      "docs": [
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+        "https://www.mongodb.com/resources/languages/mean-stack",
+        "https://www.geeksforgeeks.org/mern/understand-mern-stack/",
+        "https://www.oracle.com/th/database/mern-stack/"
       ],
-      "correct_option": 1,
-      "hint": "The server's main responsibility is handling requests and managing data."
+      "notes": [
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://www.linkedin.com/posts/hnaser_i-used-to-build-database-applications-without-activity-7225774955286646785-kJBD",
+        "https://www.mongodb.com/resources/languages/mean-stack",
+        "https://www.oracle.com/th/database/mern-stack/",
+        "https://www.simplilearn.com/tutorials/mongodb-tutorial/what-is-mern-stack-introduction-and-examples",
+        "https://www.geeksforgeeks.org/mern/understand-mern-stack/",
+        "https://aws.amazon.com/what-is/full-stack-development/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+        "https://www.youtube.com/watch?v=TztVMhZxORQ",
+        "https://www.youtube.com/watch?v=PuQz1w80ddw",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=iiADhChRriM",
+        "https://www.youtube.com/watch?v=BJjsfNO5JTo"
+      ]
     },
-    {
-      "question": "Which of the following is a key component of the MERN stack?",
-      "options": [
-        "Vue.js",
-        "Angular",
-        "React",
-        "Svelte"
+    "advanced": {
+      "docs": [
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "https://firebase.google.com/docs/guides",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://www.freecodecamp.org/news/mern-stack-roadmap-what-you-need-to-know-to-build-full-stack-apps/"
       ],
-      "correct_option": 2,
-      "hint": "This library is used for building user interfaces and is developed by Facebook."
-    },
-    {
-      "question": "What is the primary purpose of an API in a web application?",
-      "options": [
-        "To design the layout of the application",
-        "To facilitate communication between frontend and backend",
-        "To store user data",
-        "To enhance the visual appearance of the application"
+      "notes": [
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://fullstackopen.com/en/",
+        "https://www.youtube.com/watch?v=ZDRZvFNK-ek&pp=0gcJCfwAo7VqN5tD",
+        "https://risesumit.hashnode.dev/how-i-became-a-mern-full-stack-developer-in-just-15-days-and-my-life-journey-as-web-developer-devretro2022"
       ],
-      "correct_option": 1,
-      "hint": "APIs serve as a bridge for different parts of a web application to communicate."
-    },
-    {
-      "question": "When setting up a basic project in the MERN stack, which component is typically initialized first?",
-      "options": [
-        "Frontend framework",
-        "Backend server",
-        "Database",
-        "Version control system"
-      ],
-      "correct_option": 1,
-      "hint": "This component deals with handling requests and routes from the beginning."
+      "videos": [
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://www.youtube.com/watch?v=ZDRZvFNK-ek&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=qDHnCFMZ9HA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=77jIzgvCIYY",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=Llnmf5BXLBA",
+        "https://www.youtube.com/c/swhizztechnologies"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does the 'C' stand for in the MERN and MEVN stacks?",
+        "options": [
+          "Controller",
+          "Component",
+          "Client",
+          "Concept"
+        ],
+        "correct_option": 2,
+        "hint": "It's the part of the architecture where the user interacts with the system."
+      },
+      {
+        "question": "In the client-server architecture, what role does the server primarily play?",
+        "options": [
+          "It processes user input directly.",
+          "It manages database interactions and business logic.",
+          "It provides a graphical interface for users.",
+          "It only transmits data between users."
+        ],
+        "correct_option": 1,
+        "hint": "The server's main responsibility is handling requests and managing data."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is a key component of the MERN stack?",
+        "options": [
+          "Vue.js",
+          "Angular",
+          "React",
+          "Svelte"
+        ],
+        "correct_option": 2,
+        "hint": "This library is used for building user interfaces and is developed by Facebook."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary purpose of an API in a web application?",
+        "options": [
+          "To design the layout of the application",
+          "To facilitate communication between frontend and backend",
+          "To store user data",
+          "To enhance the visual appearance of the application"
+        ],
+        "correct_option": 1,
+        "hint": "APIs serve as a bridge for different parts of a web application to communicate."
+      },
+      {
+        "question": "When setting up a basic project in the MERN stack, which component is typically initialized first?",
+        "options": [
+          "Frontend framework",
+          "Backend server",
+          "Database",
+          "Version control system"
+        ],
+        "correct_option": 1,
+        "hint": "This component deals with handling requests and routes from the beginning."
+      }
+    ]
+  }
 }

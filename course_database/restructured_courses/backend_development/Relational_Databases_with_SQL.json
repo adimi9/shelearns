@@ -15,105 +15,156 @@
     "data-management"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API",
-        "description": "An overview and guide on using the IndexedDB API for client-side storage of significant amounts of structured data."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Database",
-        "description": "An overview of databases, explaining their purpose, types, and basic concepts in the context of web development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology",
-        "description": "An introduction to the basic terminology used in the IndexedDB API for client-side storage in web applications."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/mysql/mysql_rdbms.asp",
-        "description": "An introductory guide to understanding the fundamentals of MySQL and relational database management systems (RDBMS)."
-      },
-      {
-        "url": "https://www.w3schools.com/sql/sql_intro.asp",
-        "description": "Introduction to SQL, covering basic concepts and commands for managing and querying databases."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/sql/sql-tutorial/",
-        "description": "A comprehensive tutorial for learning SQL, covering basic to advanced concepts and practical examples."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/relational-database-course-sql-reference-object-reset-issue/585078",
-        "description": "Discussion on resolving an issue with resetting SQL reference objects in FreeCodeCamp's relational database course."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/relational-database-course-stuck-on-learn-relational-databases-by-building-a-mario-database-module/490759",
-        "description": "A forum discussion addressing issues and solutions for learners stuck on the \"Learn Relational Databases by Building a Mario Database\" module in a FreeCodeCamp course."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=HXV3zeQKqGY",
-      "https://www.youtube.com/watch?v=zsjvFFKOm3c",
-      "https://www.youtube.com/watch?v=7S_tz1z_5bA",
-      "https://www.youtube.com/watch?v=kbKty5ZVKMY",
-      "https://www.youtube.com/watch?v=3s0lFtUrhSQ"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary goal of database normalization?",
-      "options": [
-        "To increase data redundancy",
-        "To ensure data integrity and reduce redundancy",
-        "To make databases larger",
-        "To decrease database performance"
+    "beginner": {
+      "docs": [
+        "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+        "https://duckdb.org/docs/stable/sql/introduction.html",
+        "https://learn.microsoft.com/en-us/ef/",
+        "https://cloud.google.com/learn/what-is-a-relational-database",
+        "https://learn.microsoft.com/en-us/azure/cosmos-db/"
       ],
-      "correct_option": 1,
-      "hint": "Normalization aims to improve the structure of the database."
+      "notes": [
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://m.youtube.com/watch?v=DiQ5Hni6oRI",
+        "https://www.youtube.com/watch?v=MiAl2mQ718s&pp=ygUMI2RibXNwcm9qZWN0",
+        "https://www.w3schools.com/sql/sql_intro.asp",
+        "https://online.stanford.edu/courses/soe-ydatabases0005-databases-relational-databases-and-sql",
+        "https://www.geeksforgeeks.org/sql/sql-tutorial/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://www.youtube.com/watch?v=MiAl2mQ718s&pp=ygUMI2RibXNwcm9qZWN0",
+        "https://www.youtube.com/watch?v=7mz73uXD9DA",
+        "https://www.youtube.com/watch?v=9Pzj7Aj25lw&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=DiQ5Hni6oRI",
+        "https://www.youtube.com/watch?v=2XCaKYH0Ydo",
+        "https://www.youtube.com/@joeyblue1",
+        "https://www.youtube.com/user/michaelfudge",
+        "https://www.youtube.com/playlist?list=PLD20298E653A970F8",
+        "https://www.youtube.com/playlist?list=PLGjZwEtPN7j96A9JNpA4ouI3bH-uWZ0Ht"
+      ]
     },
-    {
-      "question": "Which SQL command is used to remove records from a table?",
-      "options": [
-        "SELECT",
-        "INSERT",
-        "DELETE",
-        "UPDATE"
+    "intermediate": {
+      "docs": [
+        "https://cloud.google.com/sql",
+        "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+        "https://cloud.google.com/sql/docs/postgres",
+        "https://learn.microsoft.com/en-us/azure/cosmos-db/",
+        "https://firebase.google.com/docs/database"
       ],
-      "correct_option": 2,
-      "hint": "This command permanently removes data from a table."
+      "notes": [
+        "https://www.youtube.com/watch?v=7mz73uXD9DA",
+        "https://fastapi.tiangolo.com/tutorial/sql-databases/",
+        "https://www.youtube.com/watch?v=9ur0OpMADuM",
+        "https://stackoverflow.com/questions/3713313/when-should-i-use-a-nosql-database-instead-of-a-relational-database-is-it-okay",
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+        "https://www.youtube.com/watch?v=hw6oTjw9_Ro&pp=0gcJCfwAo7VqN5tD"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=7mz73uXD9DA",
+        "https://www.youtube.com/watch?v=9ur0OpMADuM",
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://www.youtube.com/watch?v=GEBzsz8ZSXs",
+        "https://www.youtube.com/watch?v=hw6oTjw9_Ro&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=9Pzj7Aj25lw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+        "https://www.youtube.com/watch?v=NRPWGLCrvBU",
+        "https://www.youtube.com/@hnasr"
+      ]
     },
-    {
-      "question": "Which of the following is a popular open-source relational database management system?",
-      "options": [
-        "Oracle",
-        "PostgreSQL",
-        "MongoDB",
-        "SQLite"
+    "advanced": {
+      "docs": [
+        "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/18/cncpt/introduction-to-oracle-database.html",
+        "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SQLServer.html",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/23/books.html",
+        "https://www.mongodb.com/docs/manual/reference/sql-comparison/"
       ],
-      "correct_option": 1,
-      "hint": "This system is known for its powerful features and open-source nature."
-    },
-    {
-      "question": "In SQL, which keyword is used to extract only unique records from a result set?",
-      "options": [
-        "UNIQUE",
-        "DISTINCT",
-        "LIMIT",
-        "GROUP BY"
+      "notes": [
+        "https://www.youtube.com/watch?v=7mz73uXD9DA",
+        "https://sites.northwestern.edu/researchcomputing/resource-guides/resource-guide-sql/",
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://rivery.io/blog/6-best-free-resources-for-learning-sql/",
+        "https://www.youtube.com/watch?v=MiAl2mQ718s&pp=ygUMI2RibXNwcm9qZWN0",
+        "https://www.physicsforums.com/threads/what-is-intermediate-advanced-sql-and-how-to-learn-it.1054189/",
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0"
       ],
-      "correct_option": 1,
-      "hint": "This keyword is often used to prevent duplicates in the output."
-    },
-    {
-      "question": "What is the correct SQL statement to update data in a table?",
-      "options": [
-        "ALTER TABLE",
-        "UPDATE TABLE",
-        "UPDATE",
-        "MODIFY"
-      ],
-      "correct_option": 2,
-      "hint": "This command changes existing records in a table."
+      "videos": [
+        "https://www.youtube.com/watch?v=7mz73uXD9DA",
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+        "https://www.youtube.com/watch?v=MiAl2mQ718s&pp=ygUMI2RibXNwcm9qZWN0",
+        "https://www.youtube.com/watch?v=sODB9huT1kg",
+        "https://www.youtube.com/watch?v=voTZUMw23pg",
+        "https://www.youtube.com/watch?v=BNUvVDbQ0J0",
+        "https://m.youtube.com/watch?v=85pG_pDkITY",
+        "https://www.youtube.com/playlist?list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF",
+        "https://www.youtube.com/playlist?list=PLf0swTFhTI8oQNiY2ZTf81zvKB7-y3y4e"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary goal of database normalization?",
+        "options": [
+          "To increase data redundancy",
+          "To ensure data integrity and reduce redundancy",
+          "To make databases larger",
+          "To decrease database performance"
+        ],
+        "correct_option": 1,
+        "hint": "Normalization aims to improve the structure of the database."
+      },
+      {
+        "question": "Which SQL command is used to remove records from a table?",
+        "options": [
+          "SELECT",
+          "INSERT",
+          "DELETE",
+          "UPDATE"
+        ],
+        "correct_option": 2,
+        "hint": "This command permanently removes data from a table."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is a popular open-source relational database management system?",
+        "options": [
+          "Oracle",
+          "PostgreSQL",
+          "MongoDB",
+          "SQLite"
+        ],
+        "correct_option": 1,
+        "hint": "This system is known for its powerful features and open-source nature."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In SQL, which keyword is used to extract only unique records from a result set?",
+        "options": [
+          "UNIQUE",
+          "DISTINCT",
+          "LIMIT",
+          "GROUP BY"
+        ],
+        "correct_option": 1,
+        "hint": "This keyword is often used to prevent duplicates in the output."
+      },
+      {
+        "question": "What is the correct SQL statement to update data in a table?",
+        "options": [
+          "ALTER TABLE",
+          "UPDATE TABLE",
+          "UPDATE",
+          "MODIFY"
+        ],
+        "correct_option": 2,
+        "hint": "This command changes existing records in a table."
+      }
+    ]
+  }
 }

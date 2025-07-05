@@ -1,0 +1,277 @@
+{
+  "id": "CSec14",
+  "name": "Cloud Security",
+  "category": "Computer Security",
+  "primary_tech": "Cloud Security",
+  "topics": [
+    "Cloud Service Models (IaaS, PaaS, SaaS) Security",
+    "Shared Responsibility Model",
+    "Cloud Identity & Access Management (IAM)",
+    "Container Security Basics (Docker, Kubernetes)"
+  ],
+  "recommended": true,
+  "tags": [
+    "cloud",
+    "AWS",
+    "Azure",
+    "GCP"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://cloud.google.com/docs",
+        "https://docs.aws.amazon.com/",
+        "https://firebase.google.com/docs/firestore/quickstart"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=sF014G2BUXM",
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+        "https://www.youtube.com/watch?v=Rm7NXLAS8_M",
+        "https://www.esecurityplanet.com/cloud/cloud-security-fundamentals/",
+        "https://www.youtube.com/watch?v=fpNmvxYhsN0",
+        "https://www.wiz.io/academy/what-is-cloud-security",
+        "https://www.youtube.com/watch?v=NigrDcxP3eA"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Rm7NXLAS8_M",
+        "https://www.youtube.com/watch?v=sF014G2BUXM",
+        "https://www.youtube.com/watch?v=NigrDcxP3eA",
+        "https://www.youtube.com/watch?v=8a9RS8mce2k",
+        "https://www.youtube.com/watch?v=xAlR-cwBFSM",
+        "https://www.youtube.com/watch?v=fpNmvxYhsN0",
+        "https://www.youtube.com/watch?v=8OC0lj53KKI",
+        "https://www.youtube.com/watch?v=wb0_-wHvLmM"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://cloud.google.com/security-command-center/docs",
+        "https://developers.google.com/apis-explorer",
+        "https://cloud.google.com/architecture",
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html",
+        "https://docs.datadoghq.com/api/latest/"
+      ],
+      "notes": [
+        "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+        "https://www.box.com/home",
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "https://help.ovhcloud.com/csm/en-ca-public-cloud-network-stormshield-vrack?id=kb_article_view&sysparm_article=KB0065105",
+        "https://insights.infoblox.com/solution-notes/infoblox-solution-note-transform-healthcare-it-optimize-operations-secure-data-and-improve-patient-outcomes",
+        "https://help.alteryx.com/aac/en/release-notes/release-notes-for-designer-cloud---trifacta-classic.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=3SV9v49UKH0",
+        "https://www.youtube.com/watch?v=0OzIMgcpVMY",
+        "https://www.youtube.com/watch?v=NIFLJ56qIMs",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=gzxmCvVTGMo",
+        "https://www.youtube.com/watch?v=boEB2fMUZnU",
+        "https://www.youtube.com/watch?v=_MxRJrnQKB0",
+        "https://www.youtube.com/watch?v=m6ozQnqit50",
+        "https://www.youtube.com/playlist?list=PLg-OPs3nqPB8Tp4t14_yibqS78N_PW1bS"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://cloud.google.com/ai/generative-ai",
+        "https://learn.microsoft.com/en-us/docs/",
+        "https://cloud.google.com/load-balancing/docs",
+        "https://docs.aws.amazon.com/"
+      ],
+      "notes": [
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security",
+        "https://backstage.forgerock.com/university/ping/certification",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+        "https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/",
+        "https://orca.security/resources/",
+        "https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-shadow-it",
+        "https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=V-u56LjsCp4",
+        "https://www.youtube.com/watch?v=ZQHoC0cR6Qw",
+        "https://www.youtube.com/watch?v=wUb6OgAXDpM",
+        "https://m.youtube.com/watch?v=RsxxsEzQhrM&t=1s",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=9Phn949Iez4",
+        "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+        "https://www.youtube.com/watch?v=-a3EX758Mq8&pp=ygUWI-2BtOudvOyasOuTnO2KuOugiOydvA%3D%3D",
+        "https://www.youtube.com/watch?v=Urluwrkhnik"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does IaaS stand for in cloud computing?",
+        "options": [
+          "Internet as a Service",
+          "Infrastructure as a Service",
+          "Integration as a Service",
+          "Implementation as a Service"
+        ],
+        "correct_option": 1,
+        "hint": "IaaS provides virtualized computing resources over the internet."
+      },
+      {
+        "question": "In the Shared Responsibility Model, who is responsible for securing the data stored in the cloud?",
+        "options": [
+          "Cloud Service Provider",
+          "Cloud Customer",
+          "Government",
+          "Third-party Auditors"
+        ],
+        "correct_option": 1,
+        "hint": "The customer manages the security of their data and applications."
+      },
+      {
+        "question": "Which of the following is a key component of Cloud Identity & Access Management (IAM)?",
+        "options": [
+          "User Authentication",
+          "Network Configuration",
+          "Data Encryption",
+          "Virtualization"
+        ],
+        "correct_option": 0,
+        "hint": "IAM focuses on managing user identities and access permissions."
+      },
+      {
+        "question": "What security measure is essential for protecting containers like Docker and Kubernetes?",
+        "options": [
+          "Data Backups",
+          "Container Isolation",
+          "Firewall Configuration",
+          "Load Balancing"
+        ],
+        "correct_option": 1,
+        "hint": "Proper isolation ensures that containers do not interfere with each other."
+      },
+      {
+        "question": "Which cloud service model provides the customer with hardware resources such as servers and storage?",
+        "options": [
+          "Software as a Service (SaaS)",
+          "Platform as a Service (PaaS)",
+          "Infrastructure as a Service (IaaS)",
+          "Development as a Service (DaaS)"
+        ],
+        "correct_option": 2,
+        "hint": "This model offers virtualized computing resources as a service."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a primary concern when using Infrastructure as a Service (IaaS) in cloud security?",
+        "options": [
+          "Data encryption during transmission",
+          "Application layer security",
+          "Network configuration and traffic monitoring",
+          "User interface design"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the aspects of networking and control within IaaS."
+      },
+      {
+        "question": "In the Shared Responsibility Model, which of the following is the customer's responsibility?",
+        "options": [
+          "Physical security of data centers",
+          "Configuration management",
+          "Infrastructure maintenance",
+          "Hypervisor management"
+        ],
+        "correct_option": 1,
+        "hint": "Think about what customers can manage directly through their cloud accounts."
+      },
+      {
+        "question": "Which component is essential for managing permissions and access in Cloud Identity & Access Management (IAM)?",
+        "options": [
+          "Roles and Policies",
+          "Database encryption",
+          "Virtual Machine (VM) setup",
+          "Service Level Agreements (SLAs)"
+        ],
+        "correct_option": 0,
+        "hint": "It involves defining who can access what resources in the cloud."
+      },
+      {
+        "question": "What is a best practice for securing Docker containers?",
+        "options": [
+          "Running containers as root user",
+          "Using minimal base images",
+          "Disabling all logging",
+          "Avoiding container orchestration"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on reducing the attack surface of the container."
+      },
+      {
+        "question": "In Kubernetes, what is a primary security concern when managing clusters?",
+        "options": [
+          "Service discovery",
+          "User authentication and authorization",
+          "Load balancing",
+          "Data backup procedures"
+        ],
+        "correct_option": 1,
+        "hint": "Think about controlling who can access and perform actions in the cluster."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which security responsibility is typically shared between the cloud provider and the customer in a SaaS model?",
+        "options": [
+          "Data governance and rights management",
+          "Physical hardware security",
+          "Network traffic protection",
+          "Application code security"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the layers of responsibility in a SaaS environment."
+      },
+      {
+        "question": "In the Shared Responsibility Model, who is responsible for managing the physical security of data centers?",
+        "options": [
+          "Cloud provider",
+          "Customer",
+          "Third-party security service",
+          "Both cloud provider and customer"
+        ],
+        "correct_option": 0,
+        "hint": "Think about who has control over the physical infrastructure in cloud environments."
+      },
+      {
+        "question": "Which of the following is a key feature of Cloud Identity & Access Management (IAM) systems?",
+        "options": [
+          "Automated patch management",
+          "Role-based access control",
+          "Container orchestration",
+          "Data encryption at rest"
+        ],
+        "correct_option": 1,
+        "hint": "IAM systems primarily deal with managing user permissions and roles."
+      },
+      {
+        "question": "What is a primary security concern associated with Docker containers?",
+        "options": [
+          "Virtual machine sprawl",
+          "Kernel exploits",
+          "Data at rest encryption",
+          "Network latency"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the shared resources and isolation challenges in a containerized environment."
+      },
+      {
+        "question": "How does Kubernetes enhance security for container deployments?",
+        "options": [
+          "By enforcing resource limits and isolations",
+          "By providing built-in firewall solutions",
+          "By offering automated data backup",
+          "By integrating with on-premise security tools"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how Kubernetes manages and isolates resources within clusters."
+      }
+    ]
+  }
+}

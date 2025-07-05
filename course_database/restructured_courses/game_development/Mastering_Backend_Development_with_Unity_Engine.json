@@ -24,107 +24,152 @@
     "API"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html",
+        "https://discussions.unity.com/t/what-exactly-does-scripting-backend-mean-what-does-unity-implement-differently-from-mono/797247",
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/AROverview.html"
+      ],
+      "notes": [
+        "https://edw.is/learning-vulkan/",
+        "https://discussions.unity.com/t/unity3d-in-web-browser-asp-net-sql-possible/832058",
+        "https://github.com/codecrafters-io/build-your-own-x",
+        "https://discussions.unity.com/t/how-exactly-do-i-make-a-client-server-multiplayer-game/536155",
+        "https://www.udemy.com/topic/unity/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://www.youtube.com/watch?v=TgqAqniukTg",
+        "https://www.youtube.com/watch?v=S9BHuodNDlo",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://www.youtube.com/watch?v=6UlU_FsicK8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=sX52Hak4SaY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/c/JavaScriptMastery"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html",
+        "https://learn.microsoft.com/en-us/azure/",
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/VROverview.html",
+        "https://codelabs.developers.google.com/",
+        "https://github.com/ocornut/imgui"
+      ],
+      "notes": [
+        "https://edw.is/learning-vulkan/",
+        "https://community.alteryx.com/t5/Engine-Works/Alteryx-Because-I-Can-Snake-Game/bc-p/927686/highlight/true",
+        "https://unity.com/blog/engine-platform/web-runtime-updates-enhance-browser-experience",
+        "https://learn.unity.com/courses",
+        "https://unity.com/learn",
+        "https://github.com/codecrafters-io/build-your-own-x"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8RNSkWLGROs&pp=0gcJCdgAo7VqN5tD",
+        "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=3289vhOUdKA",
+        "https://m.youtube.com/watch?v=CcBHZ0t2Qwc&pp=ygULI2phdmFzY3Jpb3Q%3D",
+        "https://www.youtube.com/watch?v=1sOTTXlIhZo",
+        "https://www.youtube.com/watch?v=ZqEa8fTxypQ",
+        "https://www.youtube.com/watch?v=bZzyPscbtI8",
+        "https://www.youtube.com/watch?v=wID7MQleXHQ",
+        "https://www.youtube.com/channel/UC6wkyzoWlTlkjG7CwNXEQbg"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://codelabs.developers.google.com/",
+        "https://developers.google.com/search/docs/fundamentals/how-search-works",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+        "https://unity.com/campaign/unity-6-resources"
+      ],
+      "notes": [
+        "https://edw.is/learning-vulkan/",
+        "https://coloso.global/en/event/lowestpriceweek202503-2",
+        "https://unity.com/how-to",
+        "https://coloso.global/en/event/aprilfoolsday202504-couponpack",
+        "https://unity.com/products/unity-certifications"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=6UlU_FsicK8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=S9BHuodNDlo",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=bB7xkRsEq-g",
+        "https://www.youtube.com/watch?v=8RNSkWLGROs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=9MUgLaF22Yo"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://discussions.unity.com/t/what-exactly-does-scripting-backend-mean-what-does-unity-implement-differently-from-mono/797247",
-        "description": "This resource explains the concept of scripting backend in Unity and how it differs from Mono implementations."
+        "question": "What programming language is primarily used for scripting in Unity Engine?",
+        "options": [
+          "Python",
+          "Java",
+          "C#",
+          "Ruby"
+        ],
+        "correct_option": 2,
+        "hint": "It is a language developed by Microsoft and widely used for game development in Unity."
       },
       {
-        "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html",
-        "description": "The Unity Manual provides comprehensive guidance and instructions for using Unity's features and tools effectively in game development."
-      },
-      {
-        "url": "https://www.reddit.com/r/Python/comments/12xrvwz/is_it_just_me_or_are_the_docs_for_sqlalchemy_a/",
-        "description": "Discussion thread on Reddit about the perceived complexity and usability of SQLAlchemy documentation."
+        "question": "Why might beginners find Unity Engine more accessible compared to other game engines?",
+        "options": [
+          "It requires advanced programming knowledge.",
+          "It has a vast asset store and a user-friendly interface.",
+          "It only supports 2D games.",
+          "It is exclusively used for AAA games."
+        ],
+        "correct_option": 1,
+        "hint": "Consider the resources and tools available to users that simplify the development process."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.reddit.com/r/gamedev/comments/vw3150/how_long_did_it_take_you_to_learn_unity/",
-        "description": "A Reddit discussion thread where game developers share their experiences and timelines for learning Unity."
-      },
-      {
-        "url": "https://edw.is/learning-vulkan/",
-        "description": "A comprehensive guide to learning Vulkan, a high-efficiency graphics and compute API."
-      },
-      {
-        "url": "https://www.reddit.com/r/gamedev/comments/8715e5/unity_for_beginner_then_unreal_after_mastering/",
-        "description": "Discussion on transitioning from Unity to Unreal Engine for game development after gaining proficiency."
-      },
-      {
-        "url": "https://discussions.unity.com/t/why-is-gameview-so-damn-slow/718580",
-        "description": "This resource discusses potential causes and solutions for performance issues in Unity's Game View."
-      },
-      {
-        "url": "https://www.linkedin.com/posts/mayankgrover_gamedev-programming-gameprogramming-activity-7283055578501824513-nfRr",
-        "description": "A LinkedIn post by Mayank Grover discussing insights and experiences related to game development and programming."
+        "question": "What type of games is Unity Engine particularly well-suited for developing?",
+        "options": [
+          "Only AAA console games",
+          "Mobile and indie games",
+          "Massively Multiplayer Online Games (MMOs)",
+          "Virtual Reality (VR) only"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the scalability and accessibility of the games developed using Unity."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
-      "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
-      "https://www.youtube.com/watch?v=1oTuMPIwHmk",
-      "https://www.reddit.com/r/unrealengine/comments/1bf0cde/where_do_i_find_good_multiplayer_tutorials/",
-      "https://www.youtube.com/watch?v=f2EqECiTBL8"
+    "advanced": [
+      {
+        "question": "Which feature of Unity Engine supports a wide variety of assets for game development?",
+        "options": [
+          "Limited scripting options",
+          "A vast asset store",
+          "Only supports 3D modeling",
+          "Requires high-end hardware"
+        ],
+        "correct_option": 1,
+        "hint": "This feature provides pre-made elements that can be used in game development."
+      },
+      {
+        "question": "What is an advantage of using C# in Unity Engine?",
+        "options": [
+          "It is an obsolete language.",
+          "It is not supported by Unity.",
+          "It is known for its performance and versatility in game development.",
+          "It only works on Windows platforms."
+        ],
+        "correct_option": 2,
+        "hint": "Consider the language's reputation and compatibility with Unity."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What programming language is primarily used for scripting in Unity Engine?",
-      "options": [
-        "Python",
-        "Java",
-        "C#",
-        "Ruby"
-      ],
-      "correct_option": 2,
-      "hint": "It is a language developed by Microsoft and widely used for game development in Unity."
-    },
-    {
-      "question": "Why might beginners find Unity Engine more accessible compared to other game engines?",
-      "options": [
-        "It requires advanced programming knowledge.",
-        "It has a vast asset store and a user-friendly interface.",
-        "It only supports 2D games.",
-        "It is exclusively used for AAA games."
-      ],
-      "correct_option": 1,
-      "hint": "Consider the resources and tools available to users that simplify the development process."
-    },
-    {
-      "question": "What type of games is Unity Engine particularly well-suited for developing?",
-      "options": [
-        "Only AAA console games",
-        "Mobile and indie games",
-        "Massively Multiplayer Online Games (MMOs)",
-        "Virtual Reality (VR) only"
-      ],
-      "correct_option": 1,
-      "hint": "Think about the scalability and accessibility of the games developed using Unity."
-    },
-    {
-      "question": "Which feature of Unity Engine supports a wide variety of assets for game development?",
-      "options": [
-        "Limited scripting options",
-        "A vast asset store",
-        "Only supports 3D modeling",
-        "Requires high-end hardware"
-      ],
-      "correct_option": 1,
-      "hint": "This feature provides pre-made elements that can be used in game development."
-    },
-    {
-      "question": "What is an advantage of using C# in Unity Engine?",
-      "options": [
-        "It is an obsolete language.",
-        "It is not supported by Unity.",
-        "It is known for its performance and versatility in game development.",
-        "It only works on Windows platforms."
-      ],
-      "correct_option": 2,
-      "hint": "Consider the language's reputation and compatibility with Unity."
-    }
-  ],
   "preferred_if": [
     "User prefers C#",
     "Developing mobile or indie games"

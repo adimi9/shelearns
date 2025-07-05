@@ -1,0 +1,511 @@
+{
+  "id": "FS17",
+  "name": "Deployment with Docker & Cloud Platforms",
+  "category": "FullStack Development",
+  "primary_tech": "DevOps",
+  "topics": [
+    "Dockerizing FullStack Applications",
+    "Container Orchestration (Docker Compose, Kubernetes basics)",
+    "Cloud Hosting (AWS EC2/Elastic Beanstalk, Google Cloud Run, Heroku)",
+    "Domain Management & SSL"
+  ],
+  "recommended": true,
+  "tags": [
+    "devops",
+    "deployment",
+    "cloud",
+    "containerization"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://www.docker.com/",
+          "description": "The official website for Docker, providing containerization tools and resources for developers.",
+          "title": "Docker: Accelerated Container Application Development"
+        },
+        {
+          "url": "https://docs.docker.com/compose/",
+          "description": "Official documentation for Docker Compose, detailing setup, usage, and configuration.",
+          "title": "Docker Compose | Docker Docs"
+        },
+        {
+          "url": "https://cloud.google.com/run/docs/deploying",
+          "description": "A guide on deploying applications using Google Cloud Run.",
+          "title": "Deploying container images to Cloud Run  |  Cloud Run Documentation  |  Google Cloud"
+        },
+        {
+          "url": "https://docs.docker.com/get-started/docker-overview/",
+          "description": "An introductory overview of Docker's platform and containerization technology.",
+          "title": "What is Docker? | Docker Docs"
+        },
+        {
+          "url": "https://cloud.google.com/functions/docs/deploy",
+          "description": "Guide on deploying functions using Google Cloud Functions.",
+          "title": "Deploy a function  |  Cloud Run functions Documentation  |  Google Cloud"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://docker-curriculum.com/",
+          "description": "An introductory guide to learning Docker through practical exercises and examples.",
+          "title": "A Docker Tutorial for Beginners"
+        },
+        {
+          "url": "https://www.docker.com/",
+          "description": "The official website for Docker, providing resources, documentation, and tools for containerization technology.",
+          "title": "Docker: Accelerated Container Application Development"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/introduction-to-docker/",
+          "description": "An introductory guide to understanding and using Docker for containerization.",
+          "title": "What is Docker? - GeeksforGeeks"
+        },
+        {
+          "url": "https://www.docker.com/resources/what-container/",
+          "description": "An introductory guide explaining what containers are and how they work in Docker.",
+          "title": "What is a Container? | Docker"
+        },
+        {
+          "url": "https://docs.docker.com/compose/",
+          "description": "Official documentation for Docker Compose, a tool for defining and running multi-container Docker applications.",
+          "title": "Docker Compose | Docker Docs"
+        },
+        {
+          "url": "https://www.coursera.org/courses?query=kubernetes",
+          "description": "A collection of online courses focused on learning Kubernetes.",
+          "title": "Best Kubernetes Courses & Certificates [2025] | Coursera Learn Online"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/core/docker/build-container",
+          "description": "A guide on building Docker containers for .NET Core applications.",
+          "title": "Containerize an app with Docker tutorial - .NET | Microsoft Learn"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=fw6NMQrYc6w",
+          "title": "How to Deploy a Machine Learning Model to Google Cloud for 20% Software Engineers (CS329s tutorial)",
+          "duration": "119m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+          "title": "Complete Docker Course - From BEGINNER to PRO! (Learn Containers)",
+          "duration": "284m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7CvD6oHmYxU",
+          "title": "Manually Deploy Docker Image to Google Cloud Run | Tutorial",
+          "duration": "4m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qP8kir2GUgo&pp=0gcJCfwAo7VqN5tD",
+          "title": "GitLab CI CD Tutorial for Beginners [Crash Course]",
+          "duration": "69m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+          "title": "Complete Kubernetes Course - From BEGINNER to PRO",
+          "duration": "374m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=To-KzPB_EnE",
+          "title": "Jenkins Tutorial For Beginners | Jenkins Full Course | Jenkins Tutorial",
+          "duration": "183m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XltFOyGanYE",
+          "title": "Kubernetes 101: Deploying Your First Application!",
+          "duration": "40m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4BibQ69MD8c",
+          "title": "Azure DevOps Tutorial for Beginners | CI/CD with Azure Pipelines",
+          "duration": "36m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.docker.com/",
+          "description": "Official Docker documentation providing comprehensive guides and tutorials for containerization.",
+          "title": "Docker Docs"
+        },
+        {
+          "url": "https://cloud.google.com/run/docs/deploying",
+          "description": "Instructions for deploying applications using Google Cloud Run.",
+          "title": "Deploying container images to Cloud Run  |  Cloud Run Documentation  |  Google Cloud"
+        },
+        {
+          "url": "https://docs.docker.com/compose/",
+          "description": "Official documentation for Docker Compose, detailing its setup and usage.",
+          "title": "Docker Compose | Docker Docs"
+        },
+        {
+          "url": "https://docs.prefect.io/3.0/deploy",
+          "description": "Guidelines for deploying and managing workflows using Prefect 3.0.",
+          "title": "Deployments - Prefect"
+        },
+        {
+          "url": "https://www.docker.com/",
+          "description": "Official site for Docker, providing containerization solutions and resources.",
+          "title": "Docker: Accelerated Container Application Development"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.docker.com/",
+          "description": "The official site for Docker, offering resources for containerization and cloud-native application development.",
+          "title": "Docker: Accelerated Container Application Development"
+        },
+        {
+          "url": "https://docker-curriculum.com/",
+          "description": "An introductory tutorial for learning Docker and containerization concepts.",
+          "title": "A Docker Tutorial for Beginners"
+        },
+        {
+          "url": "https://docs.docker.com/compose/",
+          "description": "Official documentation for Docker Compose, detailing usage and configuration.",
+          "title": "Docker Compose | Docker Docs"
+        },
+        {
+          "url": "https://cloud.google.com/build",
+          "description": "Google Cloud Build is a CI/CD service for building, testing, and deploying applications quickly and at scale.",
+          "title": "Cloud Build serverless CI/CD platform | Google Cloud"
+        },
+        {
+          "url": "https://hub.docker.com/",
+          "description": "The official platform for discovering and sharing containerized applications using Docker.",
+          "title": "Docker Hub Container Image Library | App Containerization"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=UHHkehy3SQk&pp=0gcJCf0Ao7VqN5tD",
+          "title": "How to self-host N8N in the cloud for FREE for UNLIMITED automations",
+          "duration": "51m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4BibQ69MD8c",
+          "title": "Azure DevOps Tutorial for Beginners | CI/CD with Azure Pipelines",
+          "duration": "36m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=taJlPG82Ucw&pp=0gcJCfwAo7VqN5tD",
+          "title": "Coolify Crash Course | Self Host 101 | Secure Set up",
+          "duration": "89m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qP8kir2GUgo&pp=0gcJCfwAo7VqN5tD",
+          "title": "GitLab CI CD Tutorial for Beginners [Crash Course]",
+          "duration": "69m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7QIA6Ja9xyU",
+          "title": "Automation with Docker for CI/CD Workflows",
+          "duration": "33m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
+          "title": "GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker",
+          "duration": "32m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=c5dw_jsGNBk",
+          "title": "n8n + Crawl4AI - Scrape ANY Website in Minutes with NO Code",
+          "duration": "33m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CoZM9BCJcJ4",
+          "title": "Deploying AI/ML Workloads on Kubernetes with Google Cloud & Python",
+          "duration": "21m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4FRjoc9ycNs",
+          "title": "Build and deploy to Cloud Run using GitHub Action",
+          "duration": "23m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://docs.docker.com/compose/",
+          "description": "Official documentation for Docker Compose, detailing its usage and configuration.",
+          "title": "Docker Compose | Docker Docs"
+        },
+        {
+          "url": "https://www.docker.com/",
+          "description": "The official site for Docker, providing resources and tools for containerization and DevOps solutions.",
+          "title": "Docker: Accelerated Container Application Development"
+        },
+        {
+          "url": "https://docs.docker.com/engine/install/",
+          "description": "Instructions for installing Docker Engine on various operating systems.",
+          "title": "Install | Docker Docs"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.docker.com/",
+          "description": "The official website for Docker, offering resources and tools for containerization and application development.",
+          "title": "Docker: Accelerated Container Application Development"
+        },
+        {
+          "url": "https://docs.docker.com/engine/install/",
+          "description": "Step-by-step instructions for installing Docker Engine on various platforms.",
+          "title": "Install | Docker Docs"
+        },
+        {
+          "url": "https://www.igmguru.com/blog/docker-tutorial",
+          "description": "An introductory tutorial on using Docker for containerization and application deployment.",
+          "title": "Best Docker Tutorial For Beginners in 2025 | An Expert Guide"
+        },
+        {
+          "url": "https://docker-curriculum.com/",
+          "description": "An introductory tutorial for learning Docker through practical exercises and examples.",
+          "title": "A Docker Tutorial for Beginners"
+        },
+        {
+          "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+          "description": "A detailed guide on setting up and managing self-hosted services and applications.",
+          "title": "GitHub - mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking."
+        },
+        {
+          "url": "https://www.coursera.org/courses?query=kubernetes",
+          "description": "A collection of online courses focused on learning Kubernetes.",
+          "title": "Best Kubernetes Courses & Certificates [2025] | Coursera Learn Online"
+        },
+        {
+          "url": "https://www.datacamp.com/blog/introduction-to-docker-certification",
+          "description": "An introductory guide to obtaining Docker certification and its benefits.",
+          "title": "Just a moment..."
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+          "title": "Complete Docker Course - From BEGINNER to PRO! (Learn Containers)",
+          "duration": "284m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+          "title": "Complete Kubernetes Course - From BEGINNER to PRO",
+          "duration": "374m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=JoHUi9KvnOA&pp=0gcJCbIJAYcqIYzv",
+          "title": "Kubernetes Beginner To Expert Level In One Video | Ultimate Kubernetes Guide | #kubernetes #k8s",
+          "duration": "420m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vwDezts_aFg",
+          "title": "OpenShift in 1 hour with Demo | Most Popular Kubernetes Platform used by Organizations",
+          "duration": "62m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jEIpGf2_Oyk",
+          "title": "15-Minute Guide: Clone GitHub Apps and Deploy with Docker & Kubernetes | Smoothstack",
+          "duration": "12m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DTtaAHBJhXg&pp=0gcJCfwAo7VqN5tD",
+          "title": "Installing Kubernetes with Rancher in 2024!",
+          "duration": "17m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Hvk2-qhFEoo",
+          "title": "Journey to the Cloud: IBM Cloud Deployment 4 Ways",
+          "duration": "82m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
+          "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
+          "duration": "158m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=v69xRlO0_7w",
+          "title": "Advanced image builder: A practical guide to deploying RHEL with automation",
+          "duration": "46m"
+        },
+        {
+          "url": "https://www.youtube.com/@Codanics/videos"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of Docker in application deployment?",
+        "options": [
+          "To create virtual machines",
+          "To containerize applications for consistent environments",
+          "To replace cloud hosting services",
+          "To manage domain names"
+        ],
+        "correct_option": 1,
+        "hint": "Docker is used for creating isolated environments for applications."
+      },
+      {
+        "question": "Which tool is used for orchestrating multiple Docker containers?",
+        "options": [
+          "Docker Hub",
+          "Docker Compose",
+          "Dockerfile",
+          "Docker CLI"
+        ],
+        "correct_option": 1,
+        "hint": "It is a tool to define and run multi-container Docker applications."
+      },
+      {
+        "question": "Which cloud platform is specifically designed for deploying applications directly from a container image?",
+        "options": [
+          "AWS EC2",
+          "Google Cloud Run",
+          "Heroku",
+          "AWS Elastic Beanstalk"
+        ],
+        "correct_option": 1,
+        "hint": "This platform abstracts away infrastructure management and is serverless."
+      },
+      {
+        "question": "Why is it important to manage domain names and SSL certificates in deployment?",
+        "options": [
+          "To improve application performance",
+          "To ensure secure and reliable user access",
+          "To increase container orchestration efficiency",
+          "To reduce cloud hosting costs"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the importance of security and trust in web applications."
+      },
+      {
+        "question": "What does the 'DevOps' approach emphasize in the context of deploying applications?",
+        "options": [
+          "Focusing solely on development",
+          "Isolating development and operations teams",
+          "Continuous integration and delivery",
+          "Manual server management"
+        ],
+        "correct_option": 2,
+        "hint": "DevOps seeks to automate and integrate the processes of software development and IT operations."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of using Docker Compose in a full-stack application deployment?",
+        "options": [
+          "To build and test Docker images",
+          "To manage multiple Docker containers as a single service",
+          "To automate the scaling of containers",
+          "To provide a graphical user interface for Docker"
+        ],
+        "correct_option": 1,
+        "hint": "Think about managing complex applications with several interdependent services."
+      },
+      {
+        "question": "Which of the following commands is used to deploy an application using Kubernetes?",
+        "options": [
+          "kubectl deploy",
+          "kubectl apply -f",
+          "docker run",
+          "kubectl start"
+        ],
+        "correct_option": 1,
+        "hint": "This command applies a configuration to a Kubernetes cluster."
+      },
+      {
+        "question": "What is the advantage of using AWS Elastic Beanstalk for deploying applications?",
+        "options": [
+          "It requires no configuration",
+          "Automatic scaling and health monitoring",
+          "It is the cheapest option available",
+          "It only supports Java applications"
+        ],
+        "correct_option": 1,
+        "hint": "Consider features that simplify management and scaling of applications."
+      },
+      {
+        "question": "Which cloud platform provides a service called 'Cloud Run' for deploying containerized applications?",
+        "options": [
+          "Microsoft Azure",
+          "Amazon Web Services",
+          "Google Cloud Platform",
+          "IBM Cloud"
+        ],
+        "correct_option": 2,
+        "hint": "This service is part of a cloud platform known for its extensive AI and machine learning tools."
+      },
+      {
+        "question": "What is the main benefit of using SSL certificates with your domain in a deployment?",
+        "options": [
+          "Increased website speed",
+          "Improved SEO ranking",
+          "Encrypted data transfer",
+          "Reduced server costs"
+        ],
+        "correct_option": 2,
+        "hint": "Think about security and data integrity in web communications."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "When deploying a full-stack application using Docker, which of the following steps is essential to ensure the backend and frontend services communicate properly within a Docker network?",
+        "options": [
+          "Expose the services on the same Docker bridge network",
+          "Use the --publish flag to expose ports to the host",
+          "Set up an external load balancer to manage traffic",
+          "Run Docker containers in detached mode"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how Docker networks allow for internal service communication."
+      },
+      {
+        "question": "In Kubernetes, what is the primary purpose of a Service?",
+        "options": [
+          "To provide persistent storage for Pods",
+          "To expose an application running on a set of Pods",
+          "To manage configuration data for Pods",
+          "To scale Pods based on resource usage"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how services facilitate communication to Pods."
+      },
+      {
+        "question": "Which AWS service would you use to deploy and manage containerized applications without managing the underlying infrastructure?",
+        "options": [
+          "AWS Lambda",
+          "AWS Elastic Beanstalk",
+          "Amazon EC2",
+          "Amazon ECS"
+        ],
+        "correct_option": 3,
+        "hint": "Consider the service that specifically supports container orchestration without requiring server management."
+      },
+      {
+        "question": "When using Google Cloud Run, which of the following is a notable advantage over traditional VM-based hosting?",
+        "options": [
+          "Direct access to underlying hardware",
+          "Automatic scaling based on traffic",
+          "Dedicated IP addresses for each container",
+          "Full control over the operating system"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on the scalability and management features of serverless platforms."
+      },
+      {
+        "question": "In the context of domain management, what is the main benefit of using Let's Encrypt for SSL certificates?",
+        "options": [
+          "They offer wildcard certificates for free",
+          "They provide lifetime validity for certificates",
+          "They automate certificate issuance and renewal",
+          "They offer higher encryption standards than paid certificates"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the automation features provided by Let's Encrypt."
+      }
+    ]
+  }
+}

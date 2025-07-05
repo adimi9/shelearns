@@ -1,0 +1,441 @@
+{
+  "id": "GD24",
+  "name": "Backend Development with Raylib: From Basics to Advanced",
+  "category": "Game Development",
+  "primary_tech": "Raylib",
+  "topics": [
+    "Introduction to Raylib and its Architecture",
+    "Setting Up a Raylib Development Environment",
+    "Understanding Raylib Core Concepts and Data Structures",
+    "Managing Game Resources and Assets in Raylib",
+    "Developing and Integrating Backend Services with Raylib",
+    "Implementing Game Logic and Mechanics using Raylib",
+    "Optimizing Raylib Applications for Performance",
+    "Deploying and Maintaining Raylib-Based Applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "raylib",
+    "backend-development",
+    "game-engine",
+    "c-programming",
+    "graphics",
+    "api-integration"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://github.com/mikke89/RmlUi/discussions/186",
+          "description": "A discussion on implementing a custom element in the RmlUi library.",
+          "title": "Thirdparty integrations and resources · mikke89/RmlUi · Discussion #186 · GitHub"
+        },
+        {
+          "url": "https://docs.ray.io/en/latest/rllib/index.html",
+          "description": "An in-depth guide to using RLlib for scalable reinforcement learning in Python.",
+          "title": "RLlib: Industry-Grade, Scalable Reinforcement Learning — Ray 2.47.1"
+        },
+        {
+          "url": "https://gist.github.com/raysan5/17392498d40e2cb281f5d09c0a4bf798",
+          "description": "A tutorial on creating a simple raylib game with C programming.",
+          "title": "raylib vs SDL - A libraries comparison · GitHub"
+        },
+        {
+          "url": "https://docs.ray.io/en/latest/tune/index.html",
+          "description": "An overview of using Ray Tune for scalable hyperparameter tuning in machine learning models.",
+          "title": "Ray Tune: Hyperparameter Tuning — Ray 2.47.1"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=31601040",
+          "description": "A Hacker News discussion on the impact of remote work on software development productivity.",
+          "title": "Rust Is Hard, Or: The Misery of Mainstream Programming | Hacker News"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.raylib.com/",
+          "description": "An open-source C library for learning video games programming.",
+          "title": "raylib | A simple and easy-to-use library to enjoy videogames programming"
+        },
+        {
+          "url": "https://gist.github.com/raysan5/17392498d40e2cb281f5d09c0a4bf798",
+          "description": "A collection of C programming tips and tricks for optimizing performance and code efficiency.",
+          "title": "raylib vs SDL - A libraries comparison · GitHub"
+        },
+        {
+          "url": "https://zylinski.se/posts/introduction-to-odin/",
+          "description": "An introductory guide to programming with the Odin language.",
+          "title": "Introduction to the Odin Programming Language | Karl Zylinski"
+        },
+        {
+          "url": "https://github.com/raysan5/raylib/blob/master/HISTORY.md",
+          "description": "A chronological changelog detailing the updates and improvements made to the raylib library.",
+          "title": "raylib/HISTORY.md at master · raysan5/raylib · GitHub"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/cotterzz_so-i-gave-up-on-godot-and-having-already-activity-7194770448344043520-eNJ0",
+          "description": "A personal account discussing the transition from Godot to Unity for game development.",
+          "title": "So I gave up on Godot, and having already decided Unity and Unreal weren't for me, that left very little choice on the game engine front. | John Cotterell"
+        },
+        {
+          "url": "https://github.com/raysan5/raylib/discussions/4660",
+          "description": "A discussion on the raylib GitHub page about implementing new features and addressing user queries.",
+          "title": "raylib 6.0 wishlist! · raysan5/raylib · Discussion #4660 · GitHub"
+        },
+        {
+          "url": "https://blog.indoorvivants.com/2024-02-05-defeating-toddler-with-raylib",
+          "description": "An exploration of using Raylib to create games that challenge toddlers.",
+          "title": "Simple anti-toddler game with Scala Native and Raylib"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=7Ukvxmt7Xvk",
+          "title": "The Astro Framework with James Quick",
+          "duration": "47m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sX52Hak4SaY&pp=0gcJCfwAo7VqN5tD",
+          "title": "How to start Gamedev in C++",
+          "duration": "5m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hVQkmvWRwB8",
+          "title": "How to vibe code with Lovable, Cursor, Windsurf, and Claude Code",
+          "duration": "26m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1RDFU4ZJAD4",
+          "title": "Real-time 3D Games with .NET and Unity",
+          "duration": "28m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Y_AMtpcOxRY",
+          "title": "Setting up a Python project on GitHub",
+          "duration": "26m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fTdkqOS5_ro",
+          "title": "How to Program a Simple Login Form and User Registration Project Using C++ and MS Visual Studio!",
+          "duration": "18m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LE9iJ9TpZlU",
+          "title": "include errors detected. please update your includepath SOLVED visual studio code C and C++",
+          "duration": "4m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PmMF0UjmYj0",
+          "title": "Library Management System in C Programming with Source Code | Library Management Mini Project",
+          "duration": "19m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://github.com/raysan5/raylib",
+          "description": "A simple and easy-to-use library to enjoy videogames programming.",
+          "title": "GitHub - raysan5/raylib: A simple and easy-to-use library to enjoy videogames programming"
+        },
+        {
+          "url": "https://docs.ray.io/en/latest/rllib/index.html",
+          "description": "Documentation for RLlib, a scalable reinforcement learning library in Ray.",
+          "title": "RLlib: Industry-Grade, Scalable Reinforcement Learning — Ray 2.47.1"
+        },
+        {
+          "url": "https://github.com/raysan5/raylib/discussions/4660",
+          "description": "Discussion on implementing and optimizing 3D rendering features in raylib.",
+          "title": "raylib 6.0 wishlist! · raysan5/raylib · Discussion #4660 · GitHub"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://github.com/raysan5/raylib/discussions/4660",
+          "description": "A discussion on enhancing raylib's 3D camera system with new features and improvements.",
+          "title": "raylib 6.0 wishlist! · raysan5/raylib · Discussion #4660 · GitHub"
+        },
+        {
+          "url": "https://www.raylib.com/",
+          "description": "A simple and easy-to-use library for learning video game programming.",
+          "title": "raylib | A simple and easy-to-use library to enjoy videogames programming"
+        },
+        {
+          "url": "https://github.com/raysan5/raylib/discussions/2818",
+          "description": "A discussion on enhancing raylib's functionality with new features and improvements.",
+          "title": "DrawTextureTiled will be removed from latest raylib version ? · raysan5/raylib · Discussion #2818 · GitHub"
+        },
+        {
+          "url": "https://zylinski.se/posts/introduction-to-odin/",
+          "description": "An introductory guide to programming with the Odin language.",
+          "title": "Introduction to the Odin Programming Language | Karl Zylinski"
+        },
+        {
+          "url": "https://github.com/raysan5/raylib/blob/master/HISTORY.md",
+          "description": "A changelog documenting the version history and updates of the raylib library.",
+          "title": "raylib/HISTORY.md at master · raysan5/raylib · GitHub"
+        },
+        {
+          "url": "https://docs.ray.io/en/latest/tune/index.html",
+          "description": "An in-depth guide to hyperparameter tuning using Ray Tune.",
+          "title": "Ray Tune: Hyperparameter Tuning — Ray 2.47.1"
+        },
+        {
+          "url": "https://www.ray.io/",
+          "description": "An open-source platform for scaling Python applications from single machines to large clusters.",
+          "title": "Scale Machine Learning & AI Computing | Ray by Anyscale"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=hVQkmvWRwB8",
+          "title": "How to vibe code with Lovable, Cursor, Windsurf, and Claude Code",
+          "duration": "26m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Y_AMtpcOxRY",
+          "title": "Setting up a Python project on GitHub",
+          "duration": "26m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://github.com/fffaraz/awesome-cpp",
+          "description": "A curated list of awesome C++ frameworks, libraries, and resources.",
+          "title": "GitHub - fffaraz/awesome-cpp: A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=41223902",
+          "description": "A Hacker News discussion thread about the impact of AI on software development jobs.",
+          "title": "Go is my hammer, and everything is a nail | Hacker News"
+        },
+        {
+          "url": "https://github.com/avelino/awesome-go",
+          "description": "A curated list of awesome Go frameworks, libraries, and software.",
+          "title": "GitHub - avelino/awesome-go: A curated list of awesome Go frameworks, libraries and software"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=31601040",
+          "description": "A discussion on Hacker News about the implications of a new programming language feature.",
+          "title": "Rust Is Hard, Or: The Misery of Mainstream Programming | Hacker News"
+        },
+        {
+          "url": "https://docs.ray.io/en/latest/ray-overview/index.html",
+          "description": "An overview of Ray, a framework for scaling Python applications from a single machine to a cluster.",
+          "title": "Overview — Ray 2.47.1"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.linkedin.com/posts/erik-seferi-393438202_cprogramming-raycasting-minilibx-activity-7184576872955928576-cIuN",
+          "description": "An exploration of raycasting techniques using C programming and MiniLibX.",
+          "title": "🚀 Hey LinkedIn Fam, thrilled to share my latest project: cub3D - My First RayCaster with miniLibX! | Erik Seferi"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=41223902",
+          "description": "Discussion on Hacker News about the implications of a new technology or software update.",
+          "title": "Go is my hammer, and everything is a nail | Hacker News"
+        },
+        {
+          "url": "https://github.com/fffaraz/awesome-cpp",
+          "description": "A curated list of awesome C++ frameworks, libraries, and resources.",
+          "title": "GitHub - fffaraz/awesome-cpp: A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff."
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=34105770",
+          "description": "A Hacker News discussion on the implications of AI-generated code on software development.",
+          "title": "Ask HN: Learn C in 2023? | Hacker News"
+        },
+        {
+          "url": "https://github.com/oz123/awesome-c",
+          "description": "A curated list of awesome C programming resources, tools, and libraries.",
+          "title": "GitHub - oz123/awesome-c: A curated list of awesome C frameworks, libraries, resources and other shiny things. Inspired by all the other awesome-... projects out there."
+        },
+        {
+          "url": "https://formulae.brew.sh/formula/",
+          "description": "A searchable database of Homebrew package formulas for macOS.",
+          "title": "homebrew-core — Homebrew Formulae"
+        }
+      ],
+      "videos": []
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is Raylib primarily used for?",
+        "options": [
+          "Web development",
+          "Game development",
+          "Data analysis",
+          "Machine learning"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the context of the course."
+      },
+      {
+        "question": "Which of the following is essential to begin developing with Raylib?",
+        "options": [
+          "A web browser",
+          "An IDE",
+          "A Raylib development environment",
+          "A database server"
+        ],
+        "correct_option": 2,
+        "hint": "Think about what you need to set up before coding."
+      },
+      {
+        "question": "What is a key concept in Raylib for handling graphics?",
+        "options": [
+          "Sprites",
+          "Nodes",
+          "Frames",
+          "Arrays"
+        ],
+        "correct_option": 0,
+        "hint": "This is a common term in game development."
+      },
+      {
+        "question": "Which component is important for managing game resources in Raylib?",
+        "options": [
+          "Asset loader",
+          "Database manager",
+          "Cache handler",
+          "Event dispatcher"
+        ],
+        "correct_option": 0,
+        "hint": "It's about loading images, sounds, etc."
+      },
+      {
+        "question": "What is crucial for optimizing performance in Raylib applications?",
+        "options": [
+          "Using minimalistic code",
+          "Implementing complex algorithms",
+          "Increasing data size",
+          "Adding more graphics"
+        ],
+        "correct_option": 0,
+        "hint": "Simplifying can often lead to better performance."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary role of Raylib in game development?",
+        "options": [
+          "Managing game assets and resources",
+          "Providing a simple and easy-to-use API for game development",
+          "Handling backend services",
+          "Optimizing network communication"
+        ],
+        "correct_option": 1,
+        "hint": "Raylib is designed to help with the game development process."
+      },
+      {
+        "question": "Which of the following is essential for setting up a Raylib development environment?",
+        "options": [
+          "Installing a game engine",
+          "Configuring a web server",
+          "Setting up a proper compiler like GCC or Clang",
+          "Creating a cloud database"
+        ],
+        "correct_option": 2,
+        "hint": "Raylib requires a tool to translate code into executable programs."
+      },
+      {
+        "question": "In Raylib, what is the purpose of data structures like images, textures, and sounds?",
+        "options": [
+          "They optimize network protocols",
+          "They hold and manage game resources and assets",
+          "They define game physics",
+          "They handle user input"
+        ],
+        "correct_option": 1,
+        "hint": "These are related to the visual and auditory elements of a game."
+      },
+      {
+        "question": "How does Raylib help in implementing game logic and mechanics?",
+        "options": [
+          "By providing a robust backend framework",
+          "Through its simple-to-use API and functions",
+          "By offering cloud storage solutions",
+          "By integrating with third-party analytics tools"
+        ],
+        "correct_option": 1,
+        "hint": "Raylib's API is a key component in crafting game mechanics."
+      },
+      {
+        "question": "What is a key consideration when optimizing Raylib applications for performance?",
+        "options": [
+          "Increasing the number of assets used",
+          "Minimizing the use of shaders",
+          "Reducing memory usage and efficient resource management",
+          "Maximizing the code complexity"
+        ],
+        "correct_option": 2,
+        "hint": "Optimization often involves careful management of system resources."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "When setting up a Raylib development environment, which of the following is not a necessary step?",
+        "options": [
+          "Installing a C compiler",
+          "Downloading the Raylib library",
+          "Configuring the PATH environment variable",
+          "Installing a Java JDK"
+        ],
+        "correct_option": 3,
+        "hint": "Raylib is primarily a C library."
+      },
+      {
+        "question": "Which Raylib data structure is most suitable for managing a collection of game objects with varying properties?",
+        "options": [
+          "Texture2D",
+          "Mesh",
+          "Model",
+          "Struct"
+        ],
+        "correct_option": 3,
+        "hint": "Consider a structure that can hold different data types."
+      },
+      {
+        "question": "In Raylib, which function is used to begin the drawing process for rendering game objects on the screen?",
+        "options": [
+          "BeginMode3D()",
+          "BeginDrawing()",
+          "InitWindow()",
+          "LoadModel()"
+        ],
+        "correct_option": 1,
+        "hint": "This function initializes the drawing canvas."
+      },
+      {
+        "question": "How does Raylib optimize game performance related to texture management?",
+        "options": [
+          "By using texture atlases to minimize state changes",
+          "By automatically compressing textures",
+          "By using a global texture cache",
+          "By limiting texture resolution"
+        ],
+        "correct_option": 0,
+        "hint": "This technique reduces the number of texture bindings needed during rendering."
+      },
+      {
+        "question": "What is the primary role of back-end services in a Raylib-based application?",
+        "options": [
+          "Rendering 3D models",
+          "Handling user input",
+          "Managing game state and interactions",
+          "Playing sound effects"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the part of the application that manages data and logic."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User wants to learn game programming from scratch (low-level)"
+  ]
+}

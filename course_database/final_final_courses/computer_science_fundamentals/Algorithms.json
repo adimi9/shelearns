@@ -1,0 +1,400 @@
+{
+  "id": "CS9",
+  "name": "Algorithms",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Algorithms",
+  "topics": [
+    "Sorting Algorithms (Merge, Quick, Heap)",
+    "Searching Algorithms (Binary, BFS, DFS)",
+    "Graph Algorithms (Dijkstra, MST)",
+    "Recursion & Dynamic Programming"
+  ],
+  "recommended": true,
+  "tags": [
+    "algorithms",
+    "optimization",
+    "problem-solving"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://docs.nvidia.com/cuda/cublas/",
+          "description": "Official documentation for NVIDIA's cuBLAS library, detailing its API and usage for GPU-accelerated linear algebra operations.",
+          "title": "1. Introduction — cuBLAS 12.9 documentation"
+        },
+        {
+          "url": "https://spinningup.openai.com/en/latest/",
+          "description": "An educational resource for understanding and implementing deep reinforcement learning algorithms.",
+          "title": "Welcome to Spinning Up in Deep RL! — Spinning Up documentation"
+        },
+        {
+          "url": "https://www.wolfssl.com/documentation/manuals/wolfssl/",
+          "description": "The official manual for using and implementing the wolfSSL embedded SSL/TLS library.",
+          "title": "1. Introduction - wolfSSL Manual"
+        },
+        {
+          "url": "https://platform.openai.com/docs/api-reference/introduction",
+          "description": "An introduction to the OpenAI API, detailing its capabilities and usage.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://xgboost.readthedocs.io/",
+          "description": "Official documentation for XGBoost, a scalable and flexible gradient boosting library.",
+          "title": "XGBoost Documentation — xgboost 3.0.2 documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.sandordargo.com/blog/2019/01/30/stl-algos-intro",
+          "description": "An introduction to the Standard Template Library (STL) algorithms in C++.",
+          "title": "The big STL Algorithms tutorial: Introduction | Sandor Dargo's Blog"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/fundamentals-of-algorithms/",
+          "description": "An extensive overview of fundamental algorithms and their applications.",
+          "title": "Algorithms Tutorial - GeeksforGeeks"
+        },
+        {
+          "url": "https://arxiv.org/abs/1903.04359",
+          "description": "A research paper on BERT's effectiveness in improving language understanding tasks.",
+          "title": "[1903.04359] Introduction to Coding Quantum Algorithms: A Tutorial Series Using Qiskit"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/",
+          "description": "Lecture notes for MIT's Introduction to Algorithms course, covering key algorithmic concepts.",
+          "title": "Lecture Notes | Introduction to Algorithms | Electrical Engineering and Computer Science | MIT OpenCourseWare"
+        },
+        {
+          "url": "https://www.w3schools.com/dsa/dsa_intro.php",
+          "description": "An introductory guide to data structures and algorithms.",
+          "title": "DSA Introduction"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8hly31xKli0",
+        "https://www.youtube.com/watch?v=BBpAmxU_NQo",
+        "https://www.youtube.com/watch?v=t2CEgPsws3U&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=fW_OS3LGB9Q",
+        "https://m.youtube.com/watch?v=JgWm6sQwS_I&t=22m00s",
+        "https://www.youtube.com/watch?v=coqQwbDezUA",
+        "https://www.youtube.com/watch?v=JJkWemM03Lg",
+        "https://www.youtube.com/watch?v=pkYVOmU3MgA",
+        "https://www.youtube.com/watch?v=3XaqEng_K5s",
+        "https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html",
+          "description": "An overview of built-in algorithms and frameworks supported by AWS SageMaker for machine learning.",
+          "title": "Built-in algorithms and pretrained models in Amazon SageMaker - Amazon SageMaker AI"
+        },
+        {
+          "url": "https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html",
+          "description": "An overview of the H2O AutoML tool for automating machine learning model training and selection.",
+          "title": "H2O AutoML: Automatic Machine Learning — H2O 3.46.0.7 documentation"
+        },
+        {
+          "url": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+          "description": "Official NVIDIA documentation for CUDA C programming, detailing parallel computing architecture and API usage.",
+          "title": "CUDA C++ Programming Guide — CUDA C++ Programming Guide"
+        },
+        {
+          "url": "https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform",
+          "description": "An introduction to Google's Vertex AI unified platform for streamlined machine learning operations.",
+          "title": "Introduction to Vertex AI  |  Google Cloud"
+        },
+        {
+          "url": "https://docs.mulesoft.com/mule-runtime/latest/secure-configuration-properties",
+          "description": "Guidelines for securing configuration properties in MuleSoft applications.",
+          "title": "Secure Configuration Properties | MuleSoft Documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://ascpt.onlinelibrary.wiley.com/doi/full/10.1111/cts.70172",
+          "description": "An in-depth analysis of clinical and translational science methodologies.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.scale.at/blog/css-layout-modes",
+          "description": "An overview of different CSS layout modes and their applications in web design.",
+          "title": "Tutorial: Four CSS Layout Modes and Their Use Cases | scale – your web solutions."
+        },
+        {
+          "url": "https://enccs.github.io/qas2023/hybrid-life-science/",
+          "description": "An overview of hybrid computing techniques in life sciences for the ENCCS QAS 2023 workshop.",
+          "title": "Hybrid Algorithms - Use Cases for Quantum Life Science — Quantum Autumn School 2023 documentation"
+        },
+        {
+          "url": "https://neptune.ai/blog/clustering-algorithms",
+          "description": "An informative overview of various clustering algorithms and their applications.",
+          "title": "Exploring Clustering Algorithms: Explanation and Use Cases"
+        },
+        {
+          "url": "https://enccs.github.io/qas2023/hybrid-quantum-chemistry/",
+          "description": "An introduction to hybrid quantum chemistry methods and their applications.",
+          "title": "Hybrid Algorithms - Use Cases for Quantum Chemistry — Quantum Autumn School 2023 documentation"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=w7-AU00kAMg",
+        "https://www.youtube.com/watch?v=Mut_u40Sqz4",
+        "https://m.youtube.com/watch?v=ahN1Yea9geA&t=9s",
+        "https://www.youtube.com/watch?v=3B_oB2YrLvk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=f_Yor-ydZjs",
+        "https://www.youtube.com/watch?v=GhmYBgLoQQg&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Ar_Zit1VLG0",
+        "https://m.youtube.com/watch?v=byXOrkoorCk&t=434s",
+        "https://www.youtube.com/watch?v=qmxWuV4psFs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=xpx0nEmcKug"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://spinningup.openai.com/en/latest/",
+          "description": "An educational resource for learning deep reinforcement learning algorithms.",
+          "title": "Welcome to Spinning Up in Deep RL! — Spinning Up documentation"
+        },
+        {
+          "url": "https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html",
+          "description": "An overview of H2O's AutoML capabilities for automated machine learning model training and selection.",
+          "title": "H2O AutoML: Automatic Machine Learning — H2O 3.46.0.7 documentation"
+        },
+        {
+          "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+          "description": "An introductory guide to SEO best practices for improving website visibility on Google Search.",
+          "title": "SEO Starter Guide: The Basics | Google Search Central  |  Documentation  |  Google for Developers"
+        },
+        {
+          "url": "https://docs.ultralytics.com/guides/yolo-performance-metrics/",
+          "description": "A detailed guide on evaluating YOLO model performance using various metrics.",
+          "title": "Performance Metrics Deep Dive - Ultralytics YOLO Docs"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "Comprehensive documentation and learning resources for JavaScript on MDN Web Docs.",
+          "title": "JavaScript | MDN"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=1gdeekREoq8",
+          "description": "An instructional video on using the OpenAI API for language model integration."
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=tpCFfeUEGs8&t=6s",
+          "description": "A tutorial video on creating a full-stack application using Next.js, Tailwind CSS, and Prisma."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MS5jByTX_pk",
+          "description": "An informative video tutorial on creating a real-time chat application using Node.js and Socket.io."
+        },
+        {
+          "url": "https://www.datacamp.com/blog/how-to-learn-ai",
+          "description": "A beginner-friendly guide to learning artificial intelligence effectively.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+          "description": "An instructional video on building a full-stack application using Next.js and Tailwind CSS."
+        },
+        {
+          "url": "https://www.datacamp.com/tutorial/guide-to-the-gradient-boosting-algorithm",
+          "description": "An introductory tutorial on the gradient boosting algorithm and its applications.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=U2OzF3zve08",
+          "description": "An instructional video on setting up and using Docker for containerization."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=1gdeekREoq8",
+        "https://www.youtube.com/watch?v=yD4mCE1z59o",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=MS5jByTX_pk",
+        "https://www.youtube.com/watch?v=tpCFfeUEGs8",
+        "https://www.youtube.com/watch?v=U2OzF3zve08",
+        "https://www.youtube.com/watch?v=Eo1HbXEiJxo&pp=ygUJI2Fua2ljYXJk",
+        "https://www.youtube.com/c/ArpitBhayani"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which of the following is a divide-and-conquer algorithm used for sorting?",
+        "options": [
+          "Bubble Sort",
+          "Quick Sort",
+          "Selection Sort",
+          "Insertion Sort"
+        ],
+        "correct_option": 1,
+        "hint": "This algorithm works by partitioning an array into two sub-arrays and then sorting the sub-arrays independently."
+      },
+      {
+        "question": "What is the primary advantage of using Binary Search over Linear Search?",
+        "options": [
+          "It can handle unsorted data",
+          "It requires less memory",
+          "It is faster on sorted data",
+          "It can find an element in constant time"
+        ],
+        "correct_option": 2,
+        "hint": "This search algorithm works efficiently on sorted arrays by repeatedly dividing the search interval in half."
+      },
+      {
+        "question": "Which algorithm is typically used to find the shortest path in a weighted graph?",
+        "options": [
+          "Depth-First Search",
+          "Breadth-First Search",
+          "Dijkstra's Algorithm",
+          "Kruskal's Algorithm"
+        ],
+        "correct_option": 2,
+        "hint": "This algorithm uses a priority queue to explore the shortest path from the source to all vertices in the graph."
+      },
+      {
+        "question": "What is a characteristic of recursion in programming?",
+        "options": [
+          "It uses loops to iterate",
+          "It calls itself with a smaller problem",
+          "It is a non-repetitive process",
+          "It can only be used in sorting algorithms"
+        ],
+        "correct_option": 1,
+        "hint": "Think of a function that solves a problem by solving smaller instances of the same problem."
+      },
+      {
+        "question": "In dynamic programming, what is the purpose of memoization?",
+        "options": [
+          "To execute the program faster",
+          "To avoid redundant calculations by storing results",
+          "To increase the recursion depth",
+          "To make the code more readable"
+        ],
+        "correct_option": 1,
+        "hint": "This technique stores the results of expensive function calls and reuses them when the same inputs occur again."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which sorting algorithm is based on the divide-and-conquer approach and has an average time complexity of O(n log n)?",
+        "options": [
+          "Bubble Sort",
+          "Quick Sort",
+          "Insertion Sort",
+          "Selection Sort"
+        ],
+        "correct_option": 1,
+        "hint": "This algorithm divides the array into smaller sub-arrays and sorts them individually before combining them."
+      },
+      {
+        "question": "In graph algorithms, which algorithm is used to find the shortest path from a single source vertex to all other vertices in a weighted graph?",
+        "options": [
+          "Kruskal's Algorithm",
+          "Prim's Algorithm",
+          "Dijkstra's Algorithm",
+          "Floyd-Warshall Algorithm"
+        ],
+        "correct_option": 2,
+        "hint": "This algorithm utilizes a priority queue to efficiently find the shortest paths."
+      },
+      {
+        "question": "What is the main difference between binary search and depth-first search (DFS)?",
+        "options": [
+          "Binary search works on sorted arrays, DFS works on trees or graphs",
+          "Binary search is recursive, DFS is not",
+          "Binary search has a time complexity of O(n), DFS has O(log n)",
+          "Binary search uses a stack, DFS uses a queue"
+        ],
+        "correct_option": 0,
+        "hint": "One is used for searching in linear data structures, while the other is used for graph traversal."
+      },
+      {
+        "question": "Which of the following is not a characteristic of dynamic programming?",
+        "options": [
+          "Optimal substructure",
+          "Overlapping subproblems",
+          "Greedy approach",
+          "Memoization"
+        ],
+        "correct_option": 2,
+        "hint": "This characteristic is more associated with algorithms that make the locally optimal choice at each stage."
+      },
+      {
+        "question": "When implementing the Merge Sort algorithm, what is the main operation performed during the 'merge' phase?",
+        "options": [
+          "Swapping elements to sort",
+          "Splitting the array into halves",
+          "Comparing and combining sorted subarrays",
+          "Reversing the order of elements"
+        ],
+        "correct_option": 2,
+        "hint": "This operation combines two sorted arrays into a single sorted array."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following sorting algorithms has the best average time complexity?",
+        "options": [
+          "Merge Sort",
+          "Quick Sort",
+          "Heap Sort",
+          "Bubble Sort"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the time complexity of O(n log n) algorithms."
+      },
+      {
+        "question": "In a binary search tree (BST), what is the average time complexity for searching an element?",
+        "options": [
+          "O(n)",
+          "O(log n)",
+          "O(n^2)",
+          "O(1)"
+        ],
+        "correct_option": 1,
+        "hint": "Binary search trees are designed to achieve logarithmic time complexity."
+      },
+      {
+        "question": "What is a key characteristic of the Quick Sort algorithm?",
+        "options": [
+          "It is a stable sort",
+          "Worst-case time complexity is O(n^2)",
+          "It requires additional space proportional to input size",
+          "It always sorts in place"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the performance in the worst-case scenario."
+      },
+      {
+        "question": "Which algorithm is most suitable for finding the shortest path in a graph with non-negative weights?",
+        "options": [
+          "Depth-First Search (DFS)",
+          "Dijkstra's Algorithm",
+          "Prim's Algorithm",
+          "Breadth-First Search (BFS)"
+        ],
+        "correct_option": 1,
+        "hint": "This algorithm is specifically designed for shortest path problems with non-negative weights."
+      },
+      {
+        "question": "Which approach is utilized by dynamic programming to solve complex problems?",
+        "options": [
+          "Divide and Conquer",
+          "Greedy Method",
+          "Bottom-Up Approach",
+          "Randomized Approach"
+        ],
+        "correct_option": 2,
+        "hint": "Dynamic programming solves problems by breaking them down into simpler subproblems and storing their solutions."
+      }
+    ]
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "id": "CSec12",
+  "name": "Secure Software Development (DevSecOps)",
+  "category": "Computer Security",
+  "primary_tech": "DevSecOps",
+  "topics": [
+    "Security in SDLC",
+    "Threat Modeling",
+    "Static & Dynamic Application Security Testing (SAST/DAST)",
+    "Secure Coding Guidelines"
+  ],
+  "recommended": true,
+  "tags": [
+    "software-development",
+    "devops",
+    "automation"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsTools-ActivitiesGuidebook.pdf",
+          "description": "A guidebook detailing tools and activities for implementing DevSecOps in defense environments."
+        },
+        {
+          "url": "https://www.cto.mil/wp-content/uploads/2024/05/API-Guide-2023.pdf",
+          "description": "A detailed guide on API development and best practices for 2023."
+        },
+        {
+          "url": "https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf",
+          "description": "The DoD Enterprise DevSecOps Reference Design provides guidelines for implementing DevSecOps practices within the Department of Defense."
+        },
+        {
+          "url": "https://www.cto.mil/wp-content/uploads/2024/08/API-Tech-Guidance-MVCR1-July2024-Cleared.pdf",
+          "description": "Technical guidance on API development and management for 2024."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsTools-ActivitiesGuidebook.pdf",
+          "description": "A guidebook detailing tools and activities for implementing DevSecOps in defense projects."
+        },
+        {
+          "url": "https://www.practical-devsecops.com/devsecops-university/",
+          "description": "An educational platform offering courses and certifications in DevSecOps.",
+          "title": "DevSecOps University ( DevSecOps learning resources)"
+        },
+        {
+          "url": "https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf",
+          "description": "The official DoD guide on implementing DevSecOps practices within defense enterprise environments."
+        },
+        {
+          "url": "https://drata.com/grc-central/compliance-as-code/devsecops-best-practices",
+          "description": "An overview of DevSecOps best practices for implementing compliance as code.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://about.gitlab.com/topics/devsecops/beginners-guide-to-container-security/",
+          "description": "An introductory guide to implementing container security within a DevSecOps framework.",
+          "title": "A beginner’s guide to container security"
+        },
+        {
+          "url": "https://www.sonatype.com/blog/devsecops-a-beginners-guide",
+          "description": "An introductory guide to implementing DevSecOps practices in software development.",
+          "title": "DevSecOps: A beginner's guide"
+        },
+        {
+          "url": "https://dzone.com/refcardz/introduction-to-devsecops",
+          "description": "An introductory guide to integrating security into DevOps practices.",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=gLJdrXPn0ns",
+        "https://www.youtube.com/watch?v=oD5obfHoPt0",
+        "https://www.youtube.com/watch?v=WJACs-4e9y0",
+        "https://www.youtube.com/watch?v=qI8MRbNGKlM",
+        "https://www.youtube.com/c/fpcomplete",
+        "https://www.youtube.com/watch?v=070ceCeuswM",
+        "https://www.youtube.com/watch?v=yWIomSOSkdg",
+        "https://www.youtube.com/watch?v=F5KJVuii0Yw",
+        "https://www.youtube.com/watch?v=Ke_Wr5zPE0A"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf",
+          "description": "A reference design document for implementing DevSecOps practices in the Department of Defense."
+        },
+        {
+          "url": "https://csrc.nist.gov/projects/ssdf",
+          "description": "An overview of the Secure Software Development Framework (SSDF) by NIST.",
+          "title": "Secure Software Development Framework | CSRC"
+        },
+        {
+          "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/DoD%20Enterprise%20DevSecOps%20Fundamentals%20v2.5.pdf",
+          "description": "An overview of the fundamental principles and practices of DevSecOps within the Department of Defense."
+        },
+        {
+          "url": "https://snyk.io/",
+          "description": "A platform for securing and managing open source and container vulnerabilities.",
+          "title": "Snyk AI-powered Developer Security Platform | AI-powered AppSec Tool & Security Platform | Snyk"
+        },
+        {
+          "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsTools-ActivitiesGuidebook.pdf",
+          "description": "A guidebook detailing tools and activities for implementing DevSecOps in defense projects."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.nccoe.nist.gov/projects/software-supply-chain-and-devops-security-practices",
+          "description": "Guidelines for enhancing software supply chain and DevOps security practices.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://about.gitlab.com/",
+          "description": "An overview of GitLab's features, offerings, and company information.",
+          "title": "The most-comprehensive AI-powered DevSecOps platform"
+        },
+        {
+          "url": "https://www.atlassian.com/devops/devops-tools/devsecops-tools",
+          "description": "An overview of essential DevSecOps tools for integrating security into DevOps workflows.",
+          "title": "DevSecOps Tools | Atlassian"
+        },
+        {
+          "url": "https://www.sdxcentral.com/articles/news/devsecops-adoption-lags-despite-incident-detection-impact/2022/08/",
+          "description": "An analysis of the slow adoption of DevSecOps despite its benefits in incident detection.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.linkedin.com/posts/richardselfllm_devsecops-teams-are-ramping-up-the-use-of-activity-7252683769394925569-nXnL",
+          "description": "Insights into how DevSecOps teams are increasing the use of AI and ML technologies.",
+          "title": "How long will it be before these teams finally give these untrustworthy LLM based coding systems the boot? | Richard Self"
+        },
+        {
+          "url": "https://events.afcea.org/Augusta24/Public/eBooth.aspx?IndexInList=161&FromPage=Exhibitors.aspx&ParentBoothID=&ListByBooth=true&BoothID=1018378&Nav=False",
+          "description": "Information about an exhibitor at the AFCEA TechNet Augusta 2024 event.",
+          "title": "2024 AFCEA TechNet Augusta Conference and Expo"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/erezkaminski_medtech-softwaredevelopment-ai-activity-7232391189843320835-OIjF",
+          "description": "Insights into the intersection of medtech, software development, and AI.",
+          "title": "🚀 Exciting News from Ketryx! | Erez Kaminski"
+        }
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=gLJdrXPn0ns",
+        "https://www.youtube.com/watch?v=z8l7SIm6RlQ",
+        "https://www.youtube.com/watch?v=FOW6ZA2zBHA",
+        "https://www.youtube.com/watch?v=MSAMmqS2J6Q",
+        "https://www.youtube.com/watch?v=orlrck3_mfc",
+        "https://www.youtube.com/watch?v=by25ZKJ6ENU",
+        "https://www.youtube.com/watch?v=etq4hGKY5nw",
+        "https://www.youtube.com/channel/UChRmUH4H5hiYzPiFhvNoCIg",
+        "https://www.youtube.com/channel/UC1XlL2kndUEK8l9aRHg1Stw/posts"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/DoD%20Enterprise%20DevSecOps%20Fundamentals%20v2.5.pdf",
+          "description": "An official guide outlining the fundamentals of DevSecOps practices within the Department of Defense."
+        },
+        {
+          "url": "https://training-certifications.checkpoint.com/",
+          "description": "A platform offering certifications and training for Check Point cybersecurity solutions.",
+          "title": "ERROR: The request could not be satisfied"
+        },
+        {
+          "url": "https://aws.amazon.com/certification/certified-devops-engineer-professional/",
+          "description": "An overview of the AWS Certified DevOps Engineer - Professional certification, detailing exam objectives and preparation resources.",
+          "title": "AWS Certified DevOps Engineer – Professional"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/jit_osv-scanner-vs-npm-audit-a-detailed-comparison-activity-7199119000218267650-QNKd",
+          "description": "A detailed comparison between OSV Scanner and npm audit for vulnerability scanning.",
+          "title": "Using #opensource libraries? | Jit"
+        },
+        {
+          "url": "https://azure.microsoft.com/en-us",
+          "description": "The official Microsoft Azure site providing cloud services, solutions, and resources.",
+          "title": "Cloud Computing Services | Microsoft Azure"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://about.gitlab.com/blog/ultimate-guide-to-ci-cd-fundamentals-to-advanced-implementation/",
+          "description": "An in-depth guide to understanding and implementing CI/CD from basics to advanced levels.",
+          "title": "Ultimate guide to CI/CD: Fundamentals to advanced implementation"
+        },
+        {
+          "url": "https://www.wiz.io/academy/application-security-posture-management-aspm",
+          "description": "An introduction to Application Security Posture Management (ASPM) and its benefits for securing applications.",
+          "title": "What is Application Security Posture Management (ASPM)? | Wiz"
+        },
+        {
+          "url": "https://about.gitlab.com/blog/the-ultimate-guide-to-sboms/",
+          "description": "An in-depth guide to Software Bill of Materials (SBOMs) and their importance in software development.",
+          "title": "The ultimate guide to SBOMs"
+        },
+        {
+          "url": "https://www.sans.org/cyber-security-courses/",
+          "description": "An overview of cybersecurity training courses offered by SANS Institute.",
+          "title": "Best Cyber Security Courses Online & In Person | SANS Institute"
+        },
+        {
+          "url": "https://www.practical-devsecops.com/what-is-devsecops-pipelines/",
+          "description": "An overview of DevSecOps pipelines and their role in integrating security into DevOps workflows.",
+          "title": "What is DevSecOps Pipelines? - Easy Guide to Understand"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=pk172-9h-uo",
+        "https://www.youtube.com/watch?v=DZvx35bB9gE",
+        "https://www.youtube.com/watch?v=ZR_NHspROPg",
+        "https://www.youtube.com/watch?v=i740xlsqxEM",
+        "https://www.youtube.com/watch?v=5YpKt7eS2ic",
+        "https://www.youtube.com/watch?v=pAQAdKk_WBs",
+        "https://www.youtube.com/@TechWorldwithNana/community"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary goal of integrating security into the Software Development Life Cycle (SDLC)?",
+        "options": [
+          "To ensure timely delivery of software",
+          "To reduce the cost of software development",
+          "To identify and mitigate security risks early",
+          "To improve the user interface of the software"
+        ],
+        "correct_option": 2,
+        "hint": "Think about what is crucial for safeguarding software throughout its development."
+      },
+      {
+        "question": "Which practice involves identifying potential security threats and vulnerabilities in a software system?",
+        "options": [
+          "Threat Modeling",
+          "Agile Development",
+          "Test-Driven Development",
+          "Continuous Integration"
+        ],
+        "correct_option": 0,
+        "hint": "This practice is focused on anticipating and mitigating risks."
+      },
+      {
+        "question": "What does SAST stand for in the context of security testing?",
+        "options": [
+          "Systematic Application Security Testing",
+          "Static Application Security Testing",
+          "Software Application Security Testing",
+          "Standard Application Security Testing"
+        ],
+        "correct_option": 1,
+        "hint": "The first word relates to something that doesn't change or move."
+      },
+      {
+        "question": "Which approach is used to examine a running application for vulnerabilities?",
+        "options": [
+          "Static Application Security Testing",
+          "Dynamic Application Security Testing",
+          "Unit Testing",
+          "Load Testing"
+        ],
+        "correct_option": 1,
+        "hint": "This method involves testing the application in its active state."
+      },
+      {
+        "question": "Why are secure coding guidelines important in software development?",
+        "options": [
+          "They help make the code run faster",
+          "They ensure the code is error-free",
+          "They help prevent security vulnerabilities",
+          "They simplify the coding process"
+        ],
+        "correct_option": 2,
+        "hint": "The primary concern is about preventing weaknesses that could be exploited by attackers."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the main purpose of integrating security into the Software Development Life Cycle (SDLC)?",
+        "options": [
+          "To improve software performance",
+          "To reduce development costs",
+          "To identify and mitigate security risks early",
+          "To ensure compliance with design standards"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the benefits of addressing security issues early in the development process."
+      },
+      {
+        "question": "Which phase of the SDLC is most concerned with threat modeling?",
+        "options": [
+          "Design",
+          "Implementation",
+          "Testing",
+          "Deployment"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the phase where system architecture is defined and potential threats are identified."
+      },
+      {
+        "question": "What distinguishes Static Application Security Testing (SAST) from Dynamic Application Security Testing (DAST)?",
+        "options": [
+          "SAST tests the application at runtime, while DAST tests the static code",
+          "SAST provides feedback on code quality, while DAST focuses on performance",
+          "SAST analyzes source code or binaries, while DAST tests running applications",
+          "SAST is performed after deployment, while DAST is done during development"
+        ],
+        "correct_option": 2,
+        "hint": "Consider which testing method involves analyzing the actual code versus the application during execution."
+      },
+      {
+        "question": "Which of the following is NOT a key principle of secure coding guidelines?",
+        "options": [
+          "Validate input data",
+          "Use of hard-coded credentials",
+          "Implement least privilege",
+          "Error handling and logging"
+        ],
+        "correct_option": 1,
+        "hint": "Identify the option that could potentially introduce security vulnerabilities."
+      },
+      {
+        "question": "In DevSecOps, what is a primary benefit of shifting security practices left?",
+        "options": [
+          "Faster deployment times",
+          "Reduced need for security expertise",
+          "Increased automation of security tasks",
+          "Earlier detection and resolution of security issues"
+        ],
+        "correct_option": 3,
+        "hint": "Consider how applying security measures earlier in the development process impacts the overall security posture."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary goal of integrating security into the Software Development Life Cycle (SDLC)?",
+        "options": [
+          "To reduce the cost of software development",
+          "To ensure software is delivered faster",
+          "To identify and address vulnerabilities early in the development process",
+          "To enhance user experience"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the benefits of addressing security issues early rather than later in the lifecycle."
+      },
+      {
+        "question": "In Threat Modeling, which of the following activities is most critical for identifying potential security risks?",
+        "options": [
+          "Establishing user stories",
+          "Creating data flow diagrams",
+          "Conducting code reviews",
+          "Performing usability testing"
+        ],
+        "correct_option": 1,
+        "hint": "This activity involves understanding how data moves through the system and where vulnerabilities may exist."
+      },
+      {
+        "question": "What is a key difference between Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST)?",
+        "options": [
+          "SAST analyzes running applications, while DAST examines code in a non-running state",
+          "SAST is used only for web applications, while DAST can be used for any type of application",
+          "SAST examines code in a non-running state, while DAST analyzes running applications",
+          "SAST is faster than DAST in all scenarios"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how each testing method interacts with the application code or deployed application."
+      },
+      {
+        "question": "Which secure coding guideline is most effective in preventing SQL Injection attacks?",
+        "options": [
+          "Use of prepared statements and parameterized queries",
+          "Implementing password complexity requirements",
+          "Encrypting data at rest",
+          "Applying consistent error handling"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how you can prevent attackers from manipulating SQL queries."
+      },
+      {
+        "question": "In the context of DevSecOps, what does the term 'shift left' mean?",
+        "options": [
+          "Moving security testing to later stages of development",
+          "Involving security teams only during deployment",
+          "Integrating security practices early in the development process",
+          "Focusing on production environment security"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the benefits of addressing security concerns early in the SDLC."
+      }
+    ]
+  }
+}

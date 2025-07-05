@@ -16,105 +16,147 @@
     "scalability"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://reactjs.org/",
-        "description": "Official documentation and resources for building user interfaces with the React JavaScript library."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Introduction",
-        "description": "Introduction to server-side web development concepts and technologies for beginners."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment",
-        "description": "A guide on deploying Node.js applications using the Express framework in a server-side environment."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/what-is-high-level-design-learn-system-design/",
-        "description": "This resource provides an overview of high-level design concepts in system design, explaining their importance and implementation."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/system-design-tutorial/",
-        "description": "A comprehensive tutorial on system design principles and best practices for building scalable and efficient systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design-netflix-a-complete-architecture/",
-        "description": "This resource provides a comprehensive overview of the system design and architecture of Netflix."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/best-way-to-master-spring-boot-a-complete-roadmap/",
-        "description": "A comprehensive roadmap for mastering Spring Boot, detailing essential concepts and learning strategies."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/system-design-horizontal-and-vertical-scaling/",
-        "description": "This resource explains the concepts of horizontal and vertical scaling in system design."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=lL_j7ilk7rc",
-      "https://www.youtube.com/watch?v=sDlCSIDwpDs",
-      "https://www.youtube.com/watch?v=uFhw-wIV8gA",
-      "https://www.youtube.com/watch?v=L9TfZdODuFQ",
-      "https://www.youtube.com/watch?v=o-k7h2G3Gco"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of decomposing services in a microservices architecture?",
-      "options": [
-        "To simplify monolithic applications into smaller, manageable pieces",
-        "To increase the complexity of the system",
-        "To reduce the number of services in the architecture",
-        "To ensure each service handles multiple business functions"
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/azure/architecture/microservices/",
+        "https://docs.aws.amazon.com/prescriptive-guidance/latest/micro-frontends-aws/introduction.html",
+        "https://microservices.io/patterns/microservices.html"
       ],
-      "correct_option": 0,
-      "hint": "Think about the benefits of breaking down a large application into manageable parts."
+      "notes": [
+        "https://www.youtube.com/watch?v=FDjmWxETjn8",
+        "https://cloud.google.com/architecture/microservices-architecture-introduction",
+        "https://www.youtube.com/watch?v=4BibQ69MD8c",
+        "https://aws.amazon.com/microservices/",
+        "https://microservices.io/patterns/microservices.html",
+        "https://www.splunk.com/en_us/blog/learn/observability.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=FDjmWxETjn8",
+        "https://www.youtube.com/watch?v=s4ShbtOHMCA",
+        "https://www.youtube.com/watch?v=4BibQ69MD8c",
+        "https://www.youtube.com/watch?v=ZJ7afDSrb3s",
+        "https://www.youtube.com/watch?v=lsKU38RKQSo",
+        "https://www.youtube.com/watch?v=DoWhZO7nbCY",
+        "https://www.youtube.com/watch?v=5t1fW3KG920",
+        "https://www.youtube.com/watch?v=7Py0rZ5UQlg"
+      ]
     },
-    {
-      "question": "Which protocol is commonly used for synchronous inter-service communication in microservices?",
-      "options": [
-        "HTTP/REST",
-        "SMTP",
-        "FTP",
-        "SNMP"
+    "intermediate": {
+      "docs": [
+        "https://cloud.google.com/architecture",
+        "https://aws.amazon.com/architecture/",
+        "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures"
       ],
-      "correct_option": 0,
-      "hint": "Consider the most popular protocol used for web-based APIs."
+      "notes": [
+        "https://www.linkedin.com/posts/pushkar910_ai-aiagents-agents-activity-7291689297194205186-5wjB",
+        "https://www.researchgate.net/figure/The-data-flow-of-three-benchmarking-cases-1-2-Device-cloud-device-edge-cloud-an_fig2_348968771",
+        "https://www.linkedin.com/posts/lucamezzalira_microservice-observability-serverless-activity-7215459515360514048-Zg2q",
+        "https://br.linkedin.com/in/raul-de-a-vieira/en",
+        "https://www.oreilly.com/search/?q=Introduction%20to%20the%20Go%20Programming%20Language&order_by=relevance&rows=100",
+        "https://www3.cs.stonybrook.edu/~amiri/publication.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=4BibQ69MD8c",
+        "https://www.youtube.com/watch?v=lsKU38RKQSo",
+        "https://www.youtube.com/watch?v=VRnTvBDeaSo",
+        "https://www.youtube.com/watch?v=DoWhZO7nbCY",
+        "https://www.youtube.com/watch?v=5t1fW3KG920",
+        "https://www.youtube.com/watch?v=ZJ7afDSrb3s",
+        "https://www.youtube.com/watch?v=5uax1zpRags",
+        "https://www.youtube.com/watch?v=xvSO8cIOmlE",
+        "https://www.youtube.com/watch?v=I6ZBUEc4LrU",
+        "https://www.youtube.com/watch?v=XmhEZiS26os"
+      ]
     },
-    {
-      "question": "What role does an API Gateway play in a microservices architecture?",
-      "options": [
-        "It acts as a single entry point for client requests",
-        "It stores all the data for the microservices",
-        "It directly processes data without any service involvement",
-        "It replaces the need for direct communication between services"
+    "advanced": {
+      "docs": [
+        "https://cloud.google.com/architecture",
+        "https://aws.amazon.com/architecture/",
+        "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+        "https://www.ibm.com/think/topics/api"
       ],
-      "correct_option": 0,
-      "hint": "Think about how client requests are managed in a microservices environment."
-    },
-    {
-      "question": "What is a service mesh primarily used for in a microservices architecture?",
-      "options": [
-        "To manage and secure inter-service communication",
-        "To store logs and traces",
-        "To serve as a database for microservices",
-        "To interface directly with clients"
+      "notes": [
+        "https://www.linkedin.com/posts/ksivaprasadreddy_spring-boot-microservices-course-building-activity-7191302038410911745-bskF",
+        "https://dzone.com/authors/borisza",
+        "https://www.linkedin.com/posts/billglover_you-are-not-a-fullstack-developer-back-activity-7236350155313004544-Vpb0",
+        "https://www.oreilly.com/search/?q=Introduction%20to%20the%20Go%20Programming%20Language&order_by=relevance&rows=100",
+        "https://br.linkedin.com/in/raul-de-a-vieira/en"
       ],
-      "correct_option": 0,
-      "hint": "Consider its role in managing communication between services."
-    },
-    {
-      "question": "Which tool is commonly used for distributed tracing in a microservices environment?",
-      "options": [
-        "Jaeger",
-        "Nagios",
-        "Kubernetes",
-        "Jenkins"
-      ],
-      "correct_option": 0,
-      "hint": "Look for a tool specifically designed for tracking requests across services."
+      "videos": [
+        "https://www.youtube.com/watch?v=FDjmWxETjn8",
+        "https://www.youtube.com/watch?v=4BibQ69MD8c",
+        "https://www.youtube.com/watch?v=DoWhZO7nbCY",
+        "https://www.youtube.com/watch?v=-SRk0hHa-S0",
+        "https://www.youtube.com/watch?v=jvUeS4z7s8U",
+        "https://www.youtube.com/watch?v=1GzYjdAZ6PM",
+        "https://www.youtube.com/watch?v=LAkqDPesTpU",
+        "https://www.youtube.com/watch?v=5dnRXyU2REc",
+        "https://www.youtube.com/channel/UCXjzzrOwJVqdQzz0Lut6UbQ",
+        "https://www.youtube.com/watch?v=nrNnupMWvW8"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of decomposing services in a microservices architecture?",
+        "options": [
+          "To simplify monolithic applications into smaller, manageable pieces",
+          "To increase the complexity of the system",
+          "To reduce the number of services in the architecture",
+          "To ensure each service handles multiple business functions"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the benefits of breaking down a large application into manageable parts."
+      },
+      {
+        "question": "Which protocol is commonly used for synchronous inter-service communication in microservices?",
+        "options": [
+          "HTTP/REST",
+          "SMTP",
+          "FTP",
+          "SNMP"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the most popular protocol used for web-based APIs."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What role does an API Gateway play in a microservices architecture?",
+        "options": [
+          "It acts as a single entry point for client requests",
+          "It stores all the data for the microservices",
+          "It directly processes data without any service involvement",
+          "It replaces the need for direct communication between services"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how client requests are managed in a microservices environment."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a service mesh primarily used for in a microservices architecture?",
+        "options": [
+          "To manage and secure inter-service communication",
+          "To store logs and traces",
+          "To serve as a database for microservices",
+          "To interface directly with clients"
+        ],
+        "correct_option": 0,
+        "hint": "Consider its role in managing communication between services."
+      },
+      {
+        "question": "Which tool is commonly used for distributed tracing in a microservices environment?",
+        "options": [
+          "Jaeger",
+          "Nagios",
+          "Kubernetes",
+          "Jenkins"
+        ],
+        "correct_option": 0,
+        "hint": "Look for a tool specifically designed for tracking requests across services."
+      }
+    ]
+  }
 }

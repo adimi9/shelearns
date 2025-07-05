@@ -1,0 +1,385 @@
+{
+  "id": "CS6",
+  "name": "Concurrency & Parallelism",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Concurrency",
+  "topics": [
+    "Threads & Processes",
+    "Synchronization Primitives (Locks, Semaphores)",
+    "Deadlocks & Livelocks",
+    "Parallel Programming Paradigms"
+  ],
+  "recommended": true,
+  "tags": [
+    "performance",
+    "systems",
+    "multithreading"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://docs.python.org/3/library/multiprocessing.html",
+          "description": "Detailed documentation on Python's multiprocessing library for parallel execution.",
+          "title": "multiprocessing — Process-based parallelism — Python 3.13.5 documentation"
+        },
+        {
+          "url": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+          "description": "An in-depth programming guide for developing applications using NVIDIA's CUDA C language.",
+          "title": "CUDA C++ Programming Guide — CUDA C++ Programming Guide"
+        },
+        {
+          "url": "https://docs.prefect.io/v3/get-started",
+          "description": "A beginner's guide to getting started with Prefect for workflow automation.",
+          "title": "Introduction - Prefect"
+        },
+        {
+          "url": "https://docs.swift.org/swift-book/documentation/the-swift-programming-language/concurrency/",
+          "description": "An in-depth guide to concurrency in the Swift programming language.",
+          "title": "Documentation"
+        },
+        {
+          "url": "https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/",
+          "description": "An overview of using CronJobs for scheduled tasks in Kubernetes.",
+          "title": "CronJob | Kubernetes"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://homes.cs.washington.edu/~djg/teachingMaterials/spac/sophomoricParallelismAndConcurrency.pdf",
+          "description": "An introductory guide to parallelism and concurrency concepts for computer science students."
+        },
+        {
+          "url": "https://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python",
+          "description": "An introductory guide to understanding concurrency and parallelism in Python for beginners.",
+          "title": "Attention Required! | Cloudflare"
+        },
+        {
+          "url": "https://homes.cs.washington.edu/~djg/teachingMaterials/spac/",
+          "description": "Lecture notes and materials for a course on the principles and techniques of computer systems.",
+          "title": "Sophomoric Parallelism and Concurrency"
+        },
+        {
+          "url": "https://golangbot.com/concurrency/",
+          "description": "An introductory guide to concurrency in Go programming.",
+          "title": "Understanding Concurrency in Go (Golang) | golangbot.com"
+        },
+        {
+          "url": "https://www.toptal.com/ruby/ruby-concurrency-and-parallelism-a-practical-primer",
+          "description": "A practical introduction to concurrency and parallelism in Ruby programming.",
+          "title": "Attention Required! | Cloudflare"
+        },
+        {
+          "url": "https://jenkov.com/tutorials/java-concurrency/index.html",
+          "description": "A detailed tutorial series on Java concurrency and multithreading concepts.",
+          "title": "Java Concurrency and Multithreading Tutorial"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=iEpkP-kkDJ0",
+        "https://www.youtube.com/watch?v=olYdb0DdGtM",
+        "https://www.youtube.com/watch?v=_lvKmkspl1w",
+        "https://www.youtube.com/watch?v=8rEGu20Uw4g&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=18B1pznaU1o",
+        "https://www.youtube.com/watch?v=_uQgGS_VIXM",
+        "https://www.youtube.com/watch?v=Fn0xBsmact4",
+        "https://www.youtube.com/watch?v=vUIkKHKwECs"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://airflow.apache.org/docs/apache-airflow/stable/configurations-ref.html",
+          "description": "Detailed reference guide for Apache Airflow configuration options.",
+          "title": "Configuration Reference — Airflow 3.0.2 Documentation"
+        },
+        {
+          "url": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+          "description": "The official programming guide for developing applications using NVIDIA's CUDA C.",
+          "title": "CUDA C++ Programming Guide — CUDA C++ Programming Guide"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/step-functions/latest/dg/state-map-distributed.html",
+          "description": "Guidance on using distributed map state in AWS Step Functions for processing large datasets.",
+          "title": "Using Map state in Distributed mode for large-scale parallel workloads in Step Functions - AWS Step Functions"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://fastapi.tiangolo.com/async/",
+          "description": "An in-depth guide to using asynchronous programming with FastAPI.",
+          "title": "Concurrency and async / await - FastAPI"
+        },
+        {
+          "url": "https://oxylabs.io/blog/concurrency-vs-parallelism",
+          "description": "An insightful comparison of concurrency and parallelism in computing.",
+          "title": "Concurrency vs parallelism: the main differences"
+        },
+        {
+          "url": "https://realpython.com/python-concurrency/",
+          "description": "An in-depth tutorial on implementing concurrency in Python using threads, asyncio, and multiprocessing.",
+          "title": "Speed Up Your Python Program With Concurrency – Real Python"
+        },
+        {
+          "url": "https://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python",
+          "description": "An introductory guide to concurrency and parallelism concepts in Python for beginners.",
+          "title": "Attention Required! | Cloudflare"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/step-functions/latest/dg/state-map-distributed.html",
+          "description": "Guide on using distributed map state in AWS Step Functions for scalable parallel processing.",
+          "title": "Using Map state in Distributed mode for large-scale parallel workloads in Step Functions - AWS Step Functions"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=At5mw8T2riY",
+        "https://www.youtube.com/watch?v=fKl2JW_qrso",
+        "https://www.youtube.com/watch?v=3vK4ZPMZZ1E",
+        "https://www.youtube.com/watch?v=CmbNNMdFuQg",
+        "https://www.youtube.com/watch?v=zKrTBH8jqH4",
+        "https://m.youtube.com/watch?v=-xEycsoGoA8&pp=ygUPI29udGhlZ29yb3V0aW5l",
+        "https://www.youtube.com/watch?v=oqeiadeVEGI",
+        "https://www.youtube.com/watch?v=5qQHYxpUq2E"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://go.dev/doc/",
+          "description": "Official documentation and resources for the Go programming language.",
+          "title": "Documentation - The Go Programming Language"
+        },
+        {
+          "url": "https://docs.prefect.io/v3/get-started",
+          "description": "A beginner's guide to getting started with Prefect for workflow orchestration.",
+          "title": "Introduction - Prefect"
+        },
+        {
+          "url": "https://developer.cisco.com/docs/nso/guides/nso-concurrency-model/",
+          "description": "An overview of the concurrency model used in Cisco's Network Services Orchestrator (NSO).",
+          "title": "NSO Concurrency Model - Network Services Orchestrator (NSO) v6.3 - Cisco DevNet"
+        },
+        {
+          "url": "https://docs.vllm.ai/en/latest/performance/optimization.html",
+          "description": "Guidelines for optimizing performance in vLLM applications.",
+          "title": "Optimization and Tuning - vLLM"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-concurrency.html",
+          "description": "An overview of managing concurrency for AWS Lambda functions.",
+          "title": "Understanding Lambda function scaling - AWS Lambda"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.honeybadger.io/blog/ractors/",
+          "description": "An introduction to Ractors in Ruby for concurrent programming.",
+          "title": "A Beginner's Guide to Ractors in Ruby - Honeybadger Developer Blog"
+        },
+        {
+          "url": "https://testdriven.io/blog/python-concurrency-parallelism/",
+          "description": "An in-depth exploration of concurrency and parallelism concepts in Python programming.",
+          "title": "Parallelism, Concurrency, and AsyncIO in Python - by example | TestDriven.io"
+        },
+        {
+          "url": "https://realpython.com/learning-paths/python-concurrency-parallel-programming/",
+          "description": "A learning path focused on mastering concurrency and parallel programming in Python.",
+          "title": "Concurrency and Async Programming (Learning Path) – Real Python"
+        },
+        {
+          "url": "https://www.toptal.com/ruby/ruby-concurrency-and-parallelism-a-practical-primer",
+          "description": "A practical primer on implementing concurrency and parallelism in Ruby applications.",
+          "title": "Attention Required! | Cloudflare"
+        },
+        {
+          "url": "https://realpython.com/python-concurrency/",
+          "description": "An in-depth tutorial on achieving concurrency in Python using threading, multiprocessing, and async features.",
+          "title": "Speed Up Your Python Program With Concurrency – Real Python"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=WldMTtUWqTg",
+        "https://www.youtube.com/watch?v=R-z2Hv-7nxk",
+        "https://www.youtube.com/watch?v=w6cqUhSdy-M&pp=ygURI21hcGZ1bmN0aW9uYWxpdHk%3D",
+        "https://www.youtube.com/watch?v=-K11rY57K7k",
+        "https://www.youtube.com/watch?v=RIVcqT2OGPA",
+        "https://www.youtube.com/watch?v=LEcxrLb3OpY",
+        "https://www.youtube.com/watch?v=2eMkNLXAs68",
+        "https://www.youtube.com/watch?v=3vK4ZPMZZ1E"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which of the following is a key difference between a thread and a process?",
+        "options": [
+          "Threads share the same memory space, processes do not.",
+          "Processes share the same memory space, threads do not.",
+          "Threads can run on different machines, processes cannot.",
+          "Processes are part of threads."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how threads and processes manage memory."
+      },
+      {
+        "question": "What is a lock used for in concurrency?",
+        "options": [
+          "To increase the speed of execution",
+          "To prevent unauthorized access to data",
+          "To ensure only one thread accesses a resource at a time",
+          "To encrypt data being processed"
+        ],
+        "correct_option": 2,
+        "hint": "It helps in managing access to shared resources."
+      },
+      {
+        "question": "Which of the following best describes a deadlock?",
+        "options": [
+          "Two processes are completed without any dependencies.",
+          "Two or more processes are unable to proceed because each is waiting for the other to release resources.",
+          "A process is using all CPU resources.",
+          "Two threads are running in parallel without issues."
+        ],
+        "correct_option": 1,
+        "hint": "Think of a situation where processes are stuck waiting for each other."
+      },
+      {
+        "question": "What is a semaphore primarily used for in concurrent programming?",
+        "options": [
+          "To store process data",
+          "To manage concurrent access to a shared resource",
+          "To compile code",
+          "To execute processes faster"
+        ],
+        "correct_option": 1,
+        "hint": "It is a synchronization tool that controls access."
+      },
+      {
+        "question": "Which parallel programming paradigm involves dividing a task into sub-tasks that can be solved simultaneously?",
+        "options": [
+          "Sequential programming",
+          "Procedural programming",
+          "Parallel computing",
+          "Object-oriented programming"
+        ],
+        "correct_option": 2,
+        "hint": "This paradigm focuses on executing multiple operations at once."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary difference between a thread and a process in concurrency?",
+        "options": [
+          "Threads share the same memory space, while processes have separate memory spaces.",
+          "Processes are lightweight, whereas threads are considered heavyweight.",
+          "Threads have separate memory spaces, while processes share the same memory space.",
+          "Processes can only run on a single core, but threads can run on multiple cores."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how threads and processes manage memory."
+      },
+      {
+        "question": "Which synchronization primitive would be most appropriate to use when multiple threads need to update a shared resource safely?",
+        "options": [
+          "Mutex",
+          "Thread",
+          "Process",
+          "Fork"
+        ],
+        "correct_option": 0,
+        "hint": "Think about which primitive is specifically designed for mutual exclusion."
+      },
+      {
+        "question": "In the context of concurrency, what is a livelock?",
+        "options": [
+          "A situation where two or more processes are unable to proceed because each is waiting for the other to release a lock.",
+          "A situation where a process is unable to obtain a lock because it keeps getting preempted by higher priority processes.",
+          "A situation where processes keep changing state in response to each other but none progress.",
+          "A situation where a process is stuck in an infinite loop due to a coding error."
+        ],
+        "correct_option": 2,
+        "hint": "Livelocks are similar to deadlocks but involve constant state changes."
+      },
+      {
+        "question": "Which parallel programming paradigm involves dividing a task into smaller sub-tasks that can be executed simultaneously?",
+        "options": [
+          "Data Parallelism",
+          "Task Parallelism",
+          "Pipeline Parallelism",
+          "Recursive Parallelism"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the paradigm that focuses on breaking down tasks rather than data."
+      },
+      {
+        "question": "How can deadlocks be prevented in a multithreaded environment?",
+        "options": [
+          "By using a single global lock for all resources.",
+          "By ensuring a strict order of resource allocation.",
+          "By allowing processes to preempt resources owned by other processes.",
+          "By avoiding the use of locks altogether."
+        ],
+        "correct_option": 1,
+        "hint": "Think about resource allocation strategies that prevent circular wait conditions."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a key difference between a thread and a process in a concurrent programming environment?",
+        "options": [
+          "Threads share the same memory space, while processes have separate memory spaces.",
+          "Threads have separate memory spaces, while processes share the same memory space.",
+          "Threads can run on multiple cores, while processes are limited to a single core.",
+          "Threads are managed by the operating system, while processes are not."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how memory space is allocated for threads versus processes."
+      },
+      {
+        "question": "Which of the following is NOT a function of synchronization primitives in concurrent programming?",
+        "options": [
+          "Avoiding race conditions",
+          "Ensuring sequential execution",
+          "Preventing deadlocks",
+          "Increasing execution time of threads"
+        ],
+        "correct_option": 3,
+        "hint": "Synchronization primitives help manage access to shared resources."
+      },
+      {
+        "question": "In parallel programming, what is a primary characteristic of a livelock?",
+        "options": [
+          "Two or more threads are blocked forever, waiting for each other to release resources.",
+          "Threads constantly change state with respect to each other but make no progress.",
+          "A single thread is executing multiple tasks simultaneously.",
+          "Multiple threads are executing the same task without any order."
+        ],
+        "correct_option": 1,
+        "hint": "Livelock involves constant state changes without any actual progress."
+      },
+      {
+        "question": "Which of the following is commonly used as a synchronization primitive to manage access to a shared resource?",
+        "options": [
+          "Fork",
+          "Join",
+          "Mutex",
+          "Pipeline"
+        ],
+        "correct_option": 2,
+        "hint": "This primitive is often used to lock critical sections in code."
+      },
+      {
+        "question": "In the context of parallel programming paradigms, what does Amdahl's Law primarily address?",
+        "options": [
+          "The maximum improvement to an overall system when only part of the system is improved.",
+          "The efficiency of distributed computing systems in handling large datasets.",
+          "The ability of parallel systems to decrease processing time linearly with added resources.",
+          "The complexity of debugging concurrent programs."
+        ],
+        "correct_option": 0,
+        "hint": "Amdahl's Law focuses on the limits of parallel improvement."
+      }
+    ]
+  }
+}

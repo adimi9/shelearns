@@ -22,107 +22,147 @@
     "multiplayer"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/multiplayer-programming-quick-start-for-unreal-engine",
+        "https://developers.meta.com/horizon/documentation/unreal/unreal-audio/",
+        "https://discussions.unity.com/t/what-exactly-does-scripting-backend-mean-what-does-unity-implement-differently-from-mono/797247"
+      ],
+      "notes": [
+        "https://coloso.global/en/event/lowestpriceweek202503-2",
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/multiplayer-programming-quick-start-for-unreal-engine",
+        "https://coloso.global/en/event/aprilfoolsday202504-couponpack",
+        "https://www.coursera.org/partners/packt",
+        "https://learn.unity.com/",
+        "https://www.coursera.org/courses?query=game%20development",
+        "https://www.linkedin.com/posts/cotterzz_so-i-gave-up-on-godot-and-having-already-activity-7194770448344043520-eNJ0"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=6UlU_FsicK8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=kt0FrkQgw8w&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=uGcpFo7a9Ow",
+        "https://www.youtube.com/watch?v=sQ1zvdS8eU8",
+        "https://www.youtube.com/watch?v=T323mpYjgbI&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=EszVNFnxjK4",
+        "https://www.youtube.com/watch?v=rQxUD091PQI",
+        "https://www.youtube.com/@CodeGRrow",
+        "https://www.youtube.com/watch?v=G5BPwk_bTYk"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://github.com/ocornut/imgui/issues/7892",
+        "https://developers.meta.com/horizon/documentation/unreal/unreal-audio/",
+        "https://github.com/ocornut/imgui",
+        "https://developers.meta.com/horizon/documentation/unreal/meta-xr-audio-sdk-unreal/"
+      ],
+      "notes": [
+        "https://edw.is/learning-vulkan/",
+        "https://developers.meta.com/horizon/documentation/unreal/unreal-audio/",
+        "https://github.com/vinjn/awesome-vulkan",
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5.4-release-notes?application_version=5.4",
+        "https://github.com/ocornut/imgui/issues/7892",
+        "https://news.ycombinator.com/item?id=44038209",
+        "https://aws.amazon.com/gamelift/servers/getting-started/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8RNSkWLGROs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=bZzyPscbtI8",
+        "https://www.youtube.com/watch?v=picePk8lb48"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://github.com/mikeroyal/Unreal-Engine-Guide",
+        "https://news.ycombinator.com/item?id=42431103",
+        "https://grafana.com/docs/grafana/latest/getting-started/get-started-grafana-prometheus/",
+        "https://dev.epicgames.com/community/learning/paths/Mk1/unreal-engine-fortnite-unreal-fest-seattle-2024-talks-and-demos",
+        "https://workshops.aws/"
+      ],
+      "notes": [
+        "https://edw.is/learning-vulkan/",
+        "https://coloso.global/en/event/lowestpriceweek202503-2",
+        "https://github.com/mikeroyal/Unreal-Engine-Guide",
+        "https://coloso.global/en/event/aprilfoolsday202504-couponpack",
+        "https://www.coursera.org/partners/packt",
+        "https://www.amazon.com/Best-Sellers-C++-Programming-Language/zgbs/books/9045760011",
+        "https://zerotomastery.io/courses/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=6UlU_FsicK8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8RNSkWLGROs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=S9BHuodNDlo",
+        "https://www.youtube.com/watch?v=bZzyPscbtI8",
+        "https://www.youtube.com/watch?v=QyD9_7KCqjQ",
+        "https://www.youtube.com/watch?v=T323mpYjgbI&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=3obEP8eLsCw",
+        "https://www.youtube.com/watch?v=EszVNFnxjK4"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://www.reddit.com/r/programming/comments/11z9j9m/epics_verse_programming_language_reference/",
-        "description": "A comprehensive reference guide for Epic's Verse programming language, detailing its syntax and features for developers."
+        "question": "Which programming language is primarily used with Unreal Engine?",
+        "options": [
+          "Java",
+          "Python",
+          "C++",
+          "JavaScript"
+        ],
+        "correct_option": 2,
+        "hint": "It's a language known for its performance and is commonly used in game development."
       },
       {
-        "url": "https://discussions.unity.com/t/what-exactly-does-scripting-backend-mean-what-does-unity-implement-differently-from-mono/797247",
-        "description": "This resource explains the concept of scripting backends in Unity and how Unity's implementation differs from Mono."
-      },
-      {
-        "url": "https://www.reddit.com/r/unrealengine/comments/1bf0cde/where_do_i_find_good_multiplayer_tutorials/",
-        "description": "A discussion thread seeking recommendations for quality multiplayer tutorials for Unreal Engine development."
+        "question": "What is one of the main reasons developers choose Unreal Engine over other engines?",
+        "options": [
+          "Ease of use for 2D games",
+          "High-fidelity graphics capabilities",
+          "Focus on mobile game development",
+          "Simple scripting language"
+        ],
+        "correct_option": 1,
+        "hint": "This engine is renowned for its ability to produce realistic visuals."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.geeksforgeeks.org/websites-apps/unity-vs-unreal-engine/",
-        "description": "A comparative analysis of Unity and Unreal Engine, highlighting their features, strengths, and ideal use cases for game development."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/code-an-endless-runner-game-using-unreal-engine-and-c/",
-        "description": "Learn how to develop an endless runner game using Unreal Engine and C++ through this step-by-step tutorial."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/tag/unreal-engine/",
-        "description": "Explore articles and tutorials on game development using Unreal Engine on FreeCodeCamp's dedicated tag page."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/installation-guide/how-to-install-unreal-engine-on-windows/",
-        "description": "A step-by-step guide on installing Unreal Engine on Windows."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/unreal-engine-course-create-a-2d-snake-game/",
-        "description": "A comprehensive guide to creating a 2D Snake game using Unreal Engine, suitable for beginners."
+        "question": "For which type of game development is Unreal Engine particularly well-suited?",
+        "options": [
+          "Mobile games",
+          "Text-based adventures",
+          "AAA console/PC games",
+          "Simple puzzle games"
+        ],
+        "correct_option": 2,
+        "hint": "Unreal Engine is often used in large-scale, high-budget game projects."
       }
     ],
-    "videos": [
-      "https://www.reddit.com/r/unrealengine/comments/1bf0cde/where_do_i_find_good_multiplayer_tutorials/",
-      "https://www.linkedin.com/posts/gorka-aranzabal_how-to-create-a-souls-like-game-in-unreal-activity-7241853394221469698-fZc9",
-      "https://www.reddit.com/r/unrealengine/comments/11q15gg/to_everyone_being_overwhelmed_with_the_amount_of/",
-      "https://www.linkedin.com/posts/bencloward_shader-creation-for-everyone-an-intro-activity-7280614160994869248--WxE",
-      "https://forums.unrealengine.com/t/learning-game-development-is-not-easy/259181"
+    "advanced": [
+      {
+        "question": "What feature of Unreal Engine makes it a preferred choice for developing photorealistic games?",
+        "options": [
+          "Built-in 2D sprite editor",
+          "Robust asset store",
+          "Advanced rendering capabilities",
+          "Simple user interface"
+        ],
+        "correct_option": 2,
+        "hint": "This feature allows for high-quality visual output, crucial for realistic graphics."
+      },
+      {
+        "question": "Why might a developer with experience in C++ prefer using Unreal Engine?",
+        "options": [
+          "It uses a drag-and-drop interface",
+          "C++ is the main scripting language",
+          "It requires no prior programming knowledge",
+          "It has a large library of 2D assets"
+        ],
+        "correct_option": 1,
+        "hint": "Unreal Engine leverages a language known for its efficiency and performance."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "Which programming language is primarily used with Unreal Engine?",
-      "options": [
-        "Java",
-        "Python",
-        "C++",
-        "JavaScript"
-      ],
-      "correct_option": 2,
-      "hint": "It's a language known for its performance and is commonly used in game development."
-    },
-    {
-      "question": "What is one of the main reasons developers choose Unreal Engine over other engines?",
-      "options": [
-        "Ease of use for 2D games",
-        "High-fidelity graphics capabilities",
-        "Focus on mobile game development",
-        "Simple scripting language"
-      ],
-      "correct_option": 1,
-      "hint": "This engine is renowned for its ability to produce realistic visuals."
-    },
-    {
-      "question": "For which type of game development is Unreal Engine particularly well-suited?",
-      "options": [
-        "Mobile games",
-        "Text-based adventures",
-        "AAA console/PC games",
-        "Simple puzzle games"
-      ],
-      "correct_option": 2,
-      "hint": "Unreal Engine is often used in large-scale, high-budget game projects."
-    },
-    {
-      "question": "What feature of Unreal Engine makes it a preferred choice for developing photorealistic games?",
-      "options": [
-        "Built-in 2D sprite editor",
-        "Robust asset store",
-        "Advanced rendering capabilities",
-        "Simple user interface"
-      ],
-      "correct_option": 2,
-      "hint": "This feature allows for high-quality visual output, crucial for realistic graphics."
-    },
-    {
-      "question": "Why might a developer with experience in C++ prefer using Unreal Engine?",
-      "options": [
-        "It uses a drag-and-drop interface",
-        "C++ is the main scripting language",
-        "It requires no prior programming knowledge",
-        "It has a large library of 2D assets"
-      ],
-      "correct_option": 1,
-      "hint": "Unreal Engine leverages a language known for its efficiency and performance."
-    }
-  ],
   "preferred_if": [
     "User aims for photorealistic graphics",
     "Developing for console/PC AAA titles",

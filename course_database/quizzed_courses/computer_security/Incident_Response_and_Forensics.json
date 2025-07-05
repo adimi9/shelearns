@@ -1,0 +1,276 @@
+{
+  "id": "CSec13",
+  "name": "Incident Response & Forensics",
+  "category": "Computer Security",
+  "primary_tech": "Incident Response",
+  "topics": [
+    "Incident Response Lifecycle (Preparation, Detection, Analysis, Containment, Eradication, Recovery)",
+    "Digital Forensics Basics",
+    "Log Analysis",
+    "Malware Triage"
+  ],
+  "recommended": true,
+  "tags": [
+    "forensics",
+    "post-breach",
+    "analysis"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+        "https://docs.velociraptor.app/",
+        "https://docs.aws.amazon.com/security-ir/latest/userguide/introduction.html",
+        "https://github.com/meirwah/awesome-incident-response",
+        "https://docs.aws.amazon.com/security-ir/latest/userguide/security-incident-response-guide.html"
+      ],
+      "notes": [
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+        "https://www.sans.org/white-papers/ultimate-guide-getting-started-digital-forensics-incident-response/",
+        "https://www.paloaltonetworks.com/cyberpedia/digital-forensics-and-incident-response",
+        "https://docs.aws.amazon.com/security-ir/latest/userguide/introduction.html",
+        "https://www.cynet.com/incident-response/",
+        "https://docs.aws.amazon.com/security-ir/latest/userguide/appendix-b-incident-response-resources.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=pSDB8Qmh7TQ",
+        "https://www.youtube.com/watch?v=mKUZx1z9dxo",
+        "https://www.youtube.com/watch?v=-CyUlMroIBM",
+        "https://www.youtube.com/watch?v=OIT9oaFmXZU",
+        "https://www.youtube.com/watch?v=MrVkzeaHXRQ",
+        "https://www.youtube.com/watch?v=u2zgEFm5RHQ",
+        "https://www.youtube.com/watch?v=eekzaI0UFDA&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/DFIRScience",
+        "https://www.youtube.com/c/BlackPerl"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/automate-incident-response-and-forensics.html",
+        "https://github.com/meirwah/awesome-incident-response",
+        "https://cloud.google.com/docs/security/incident-response"
+      ],
+      "notes": [
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+        "https://www.paloaltonetworks.com/cyberpedia/digital-forensics-and-incident-response",
+        "https://www.binalyze.com/",
+        "https://www.dfir-iris.org/",
+        "https://www.monolithforensics.com/",
+        "https://github.com/meirwah/awesome-incident-response"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=zIwUBTGjbws",
+        "https://www.youtube.com/watch?v=ai_7Fkv6igw",
+        "https://www.youtube.com/watch?v=Q1IoGX--814",
+        "https://www.youtube.com/watch?v=o6boK9dG-Lc",
+        "https://m.youtube.com/watch?v=EA40rztSOd4&pp=ygUGI3ZxbGlm",
+        "https://www.youtube.com/watch?v=iYyWZSNBNcw",
+        "https://www.youtube.com/@SANSForensics",
+        "https://www.youtube.com/channel/UCpccBuBTcHp0pDZexcVMtXQ",
+        "https://www.youtube.com/channel/UC1XlL2kndUEK8l9aRHg1Stw/posts"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+        "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/cyber-forensics.html",
+        "https://github.com/meirwah/awesome-incident-response",
+        "https://docs.aws.amazon.com/whitepapers/latest/aws-security-incident-response-guide/aws-security-incident-response-guide.pdf",
+        "https://cloud.google.com/docs/security/incident-response"
+      ],
+      "notes": [
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+        "https://www.sans.org/digital-forensics-incident-response/",
+        "https://www.blackhat.com/us-25/training/schedule/",
+        "https://www.sans.org/cyber-security-courses/advanced-incident-response-threat-hunting-training/",
+        "https://www.cybereason.com/fundamentals/what-is-dfir"
+      ],
+      "videos": [
+        "https://www.youtube.com/c/BlackPerl",
+        "https://www.youtube.com/playlist?list=PLOWdy-NBQHJug0tGwdRFT8R5vGDttkHqP",
+        "https://www.youtube.com/channel/UCWIEIMHXyJ62RF4aVmU30og/videos",
+        "https://www.youtube.com/watch?v=3hDrPTTGEAU",
+        "https://www.youtube.com/watch?v=C-0JD1Fwk7U",
+        "https://www.youtube.com/watch?v=G8XjSO_eshc",
+        "https://www.youtube.com/watch?v=qYTVRjb7KrI",
+        "https://www.youtube.com/watch?v=8FGIyV12aVU",
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=vW8eAqZyWeo"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the first phase of the Incident Response Lifecycle?",
+        "options": [
+          "Detection",
+          "Preparation",
+          "Analysis",
+          "Recovery"
+        ],
+        "correct_option": 1,
+        "hint": "It involves setting up policies and resources before an incident occurs."
+      },
+      {
+        "question": "Which phase of the Incident Response Lifecycle involves identifying and verifying the occurrence of a security event?",
+        "options": [
+          "Eradication",
+          "Containment",
+          "Detection",
+          "Recovery"
+        ],
+        "correct_option": 2,
+        "hint": "This phase is about discovering the incident."
+      },
+      {
+        "question": "In digital forensics, what is the primary goal when analyzing a compromised system?",
+        "options": [
+          "To recover data",
+          "To identify the attacker",
+          "To determine the cause and impact of the breach",
+          "To restore system functionality"
+        ],
+        "correct_option": 2,
+        "hint": "The goal is to understand what happened and how."
+      },
+      {
+        "question": "What does log analysis typically involve in the context of incident response?",
+        "options": [
+          "Reviewing user activities",
+          "Monitoring network traffic",
+          "Checking software updates",
+          "Identifying anomalies"
+        ],
+        "correct_option": 3,
+        "hint": "It involves looking for unusual patterns."
+      },
+      {
+        "question": "What is the purpose of malware triage in an incident response scenario?",
+        "options": [
+          "To eliminate the malware",
+          "To prioritize malware threats for further analysis",
+          "To recover lost data",
+          "To alert system administrators"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the initial step before in-depth analysis."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the main goal of the preparation phase in the Incident Response Lifecycle?",
+        "options": [
+          "To identify and contain security incidents",
+          "To eradicate threats from the system",
+          "To ensure readiness to handle incidents",
+          "To recover systems to a normal state"
+        ],
+        "correct_option": 2,
+        "hint": "This phase involves readiness and planning to handle future incidents."
+      },
+      {
+        "question": "Which of the following best describes digital forensics?",
+        "options": [
+          "The process of monitoring network traffic",
+          "The application of scientific methods to recover and investigate data",
+          "The creation of incident response plans",
+          "The isolation of affected systems during an incident"
+        ],
+        "correct_option": 1,
+        "hint": "This field involves recovering and investigating data from digital sources."
+      },
+      {
+        "question": "In log analysis, what is the primary purpose of correlating logs from different sources?",
+        "options": [
+          "To increase the volume of data collected",
+          "To identify patterns and anomalies across systems",
+          "To improve system performance",
+          "To enhance data encryption methods"
+        ],
+        "correct_option": 1,
+        "hint": "This process helps in identifying patterns and anomalies across systems."
+      },
+      {
+        "question": "What is the primary objective of the containment phase in incident response?",
+        "options": [
+          "To eradicate the threat completely",
+          "To isolate and limit the impact of the incident",
+          "To restore normal operations",
+          "To analyze the root cause of the incident"
+        ],
+        "correct_option": 1,
+        "hint": "This phase is about limiting the damage and preventing further spread."
+      },
+      {
+        "question": "Which step in malware triage involves determining the potential impact of the malware?",
+        "options": [
+          "Scanning for malware signatures",
+          "Dynamic analysis in a sandbox environment",
+          "Reviewing system logs for anomalies",
+          "Assessing the malware's capabilities and intent"
+        ],
+        "correct_option": 3,
+        "hint": "This step involves understanding what the malware can do and its potential targets."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which phase of the Incident Response Lifecycle involves implementing measures to restore affected systems to normal operation and verifying their integrity?",
+        "options": [
+          "Detection and Analysis",
+          "Containment",
+          "Eradication",
+          "Recovery"
+        ],
+        "correct_option": 3,
+        "hint": "This phase comes after eradication and focuses on restoring normal operations."
+      },
+      {
+        "question": "What is the primary goal during the Containment phase of the Incident Response Lifecycle?",
+        "options": [
+          "Eliminate the threat entirely from the system",
+          "Restrict the threat's ability to cause further harm",
+          "Identify the root cause of the incident",
+          "Collect evidence for legal proceedings"
+        ],
+        "correct_option": 1,
+        "hint": "This phase aims to limit or prevent further damage during an incident."
+      },
+      {
+        "question": "In digital forensics, which of the following is NOT considered a volatile data source?",
+        "options": [
+          "RAM",
+          "Network connections",
+          "System logs",
+          "CPU cache"
+        ],
+        "correct_option": 2,
+        "hint": "Think about data that remains after a system is powered off."
+      },
+      {
+        "question": "During log analysis, which type of log would be most useful for identifying unauthorized access attempts on a system?",
+        "options": [
+          "System logs",
+          "Application logs",
+          "Security logs",
+          "Event logs"
+        ],
+        "correct_option": 2,
+        "hint": "This log type specifically tracks access and security-related actions."
+      },
+      {
+        "question": "In malware triage, what is the primary purpose of static analysis?",
+        "options": [
+          "Execute the malware to observe its behavior",
+          "Detect malicious activity in network traffic",
+          "Analyze the malware without executing it",
+          "Remove malware from infected systems"
+        ],
+        "correct_option": 2,
+        "hint": "This type of analysis involves examining the code or binary without running it."
+      }
+    ]
+  }
+}

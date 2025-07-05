@@ -1,0 +1,267 @@
+{
+  "id": "GD8",
+  "name": "Interactive Audio Programming with FMOD/Wwise",
+  "category": "Game Development",
+  "primary_tech": "FMOD/Wwise",
+  "topics": [
+    "Introduction to Game Audio Middleware",
+    "Setting Up FMOD and Wwise Environments",
+    "Sound Design Principles and Techniques",
+    "Integrating FMOD and Wwise with Game Engines",
+    "Creating Interactive Soundscapes",
+    "Implementing Dynamic Audio Systems",
+    "Optimizing Audio for Performance",
+    "Advanced Techniques in 3D Audio Placement"
+  ],
+  "recommended": false,
+  "tags": [
+    "audio-engineering",
+    "FMOD",
+    "Wwise",
+    "game-development",
+    "sound-design",
+    "middleware",
+    "interactive-audio"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://www.audiokinetic.com/learn/videos/dLO1Yk-NXm8/?course=wwise251&lesson=5&ref=Lesson5_Playback_Limits",
+        "https://www.fmod.com/docs/2.00/studio/welcome-to-fmod-studio.html",
+        "https://developers.meta.com/horizon/documentation/unreal/audio-osp-fmod-overview/"
+      ],
+      "notes": [
+        "https://javierzumer.com/blog/2017/8/9/an-introduction-to-game-audio",
+        "https://www.audiokinetic.com/learn/videos/dLO1Yk-NXm8/?course=wwise251&lesson=5&ref=Lesson5_Playback_Limits",
+        "https://javierzumer.com/blog/2021/1/30/learning-c-notes-part-i",
+        "https://www.linkedin.com/in/sclooney",
+        "https://discussions.unity.com/t/how-do-i-go-about-audio-in-video-games/849313",
+        "https://www.gameaudiolearning.com/knowledgebase/audio-middleware-and-how-to-use-it"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=3VEvwvOAHvc",
+        "https://www.youtube.com/watch?v=MZbsUC7IlDc",
+        "https://www.youtube.com/watch?v=rcBHIOjZDpk",
+        "https://www.youtube.com/watch?v=RfzshDQILr8",
+        "https://www.youtube.com/watch?v=ge-ZalSWHUA",
+        "https://www.youtube.com/watch?v=9g3H3WaxUM8",
+        "https://www.youtube.com/watch?v=N5klv3zre_I",
+        "https://www.youtube.com/watch?v=QujIch7TPBU"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developers.meta.com/horizon/documentation/unreal/audio-osp-fmod-overview/",
+        "https://www.fmod.com/docs/2.01/studio/fmod-studio-concepts.html",
+        "https://developers.meta.com/horizon/documentation/unity/meta-xr-audio-sdk-fmod-troubleshooting/",
+        "https://news.ycombinator.com/item?id=15240762",
+        "https://developers.meta.com/horizon/documentation/unity/audio-osp-fmod-reverb/"
+      ],
+      "notes": [
+        "https://javierzumer.com/blog/2021/1/30/learning-c-notes-part-i",
+        "https://discussions.unity.com/t/how-do-i-go-about-audio-in-video-games/849313",
+        "https://javierzumer.com/blog/category/Technical",
+        "https://developers.meta.com/horizon/documentation/unreal/audio-osp-fmod-overview/",
+        "https://ioi.dk/?panel=job%3Fid%3D3168132"
+      ],
+      "videos": [
+        "https://music.youtube.com/playlist?list=PL8mG-RkN2uTw7PhlnAr4pZZz2QubIbujH"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.fmod.com/learn",
+        "https://developers.meta.com/horizon/documentation/unity/audio-ovrlipsync-viseme-reference/",
+        "https://news.ycombinator.com/item?id=15240762"
+      ],
+      "notes": [
+        "https://www.linkedin.com/in/sclooney",
+        "https://www.fmod.com/learn",
+        "https://developers.meta.com/horizon/documentation/unity/audio-osp-fmod-reverb/",
+        "https://developer.oculus.com/documentation/unity/audio-ovrlipsync-viseme-reference/?locale=el_GR",
+        "https://developers.meta.com/horizon/documentation/unity/meta-xr-audio-sdk-fmod-troubleshooting/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=dNm3khLmcfM",
+        "https://music.youtube.com/playlist?list=PL8mG-RkN2uTw7PhlnAr4pZZz2QubIbujH"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of game audio middleware like FMOD and Wwise?",
+        "options": [
+          "To create high-quality graphics",
+          "To manage and implement sound in games",
+          "To improve game physics",
+          "To develop artificial intelligence"
+        ],
+        "correct_option": 1,
+        "hint": "It's related to sound management in games."
+      },
+      {
+        "question": "Which of the following is a key step when setting up FMOD or Wwise?",
+        "options": [
+          "Creating 3D models",
+          "Configuring audio drivers",
+          "Installing a graphics plugin",
+          "Setting up a database"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the initial setup for audio."
+      },
+      {
+        "question": "What is a fundamental principle of sound design according to the course?",
+        "options": [
+          "Creating complex algorithms",
+          "Balancing frequencies",
+          "Maximizing volume",
+          "Using monochrome visuals"
+        ],
+        "correct_option": 1,
+        "hint": "It's related to the frequency spectrum of sounds."
+      },
+      {
+        "question": "How can FMOD and Wwise be integrated with game engines?",
+        "options": [
+          "By using specialized plugins or SDKs",
+          "By writing custom graphics code",
+          "By installing additional RAM",
+          "By using a separate computer"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the use of software tools or libraries."
+      },
+      {
+        "question": "What technique might be used for optimizing audio for performance in a game engine?",
+        "options": [
+          "Reducing polygon count",
+          "Limiting the number of active audio channels",
+          "Increasing the texture resolution",
+          "Enhancing the frame rate"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what aspect of audio can be reduced to save resources."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary function of game audio middleware like FMOD and Wwise?",
+        "options": [
+          "To create 3D models for games",
+          "To manage and implement audio in games",
+          "To optimize graphics rendering",
+          "To develop game physics engines"
+        ],
+        "correct_option": 1,
+        "hint": "It involves managing sound and music within game engines."
+      },
+      {
+        "question": "Which of the following is a necessary step when setting up an FMOD environment for game audio development?",
+        "options": [
+          "Creating a new 3D model",
+          "Installing a physics engine",
+          "Configuring audio drivers",
+          "Designing a user interface"
+        ],
+        "correct_option": 2,
+        "hint": "Think about audio-specific configurations."
+      },
+      {
+        "question": "In sound design, what is the purpose of using techniques such as layering and filtering?",
+        "options": [
+          "To create realistic textures",
+          "To enhance sound complexity and quality",
+          "To improve game performance",
+          "To reduce development time"
+        ],
+        "correct_option": 1,
+        "hint": "These techniques aim to make audio more immersive."
+      },
+      {
+        "question": "When integrating Wwise with a game engine, which of the following is a crucial consideration?",
+        "options": [
+          "The number of character animations",
+          "Audio file format compatibility",
+          "Texture resolution",
+          "Network latency"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how audio files will interact with the engine."
+      },
+      {
+        "question": "Which advanced technique in 3D audio placement involves adjusting sounds based on listener's position and orientation?",
+        "options": [
+          "Audio compression",
+          "Stereo panning",
+          "Occlusion and obstruction",
+          "Spatial audio mapping"
+        ],
+        "correct_option": 3,
+        "hint": "This technique deals with how sound is perceived in a 3D space."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is one key advantage of using middleware like FMOD or Wwise in game audio development?",
+        "options": [
+          "Reduced CPU load compared to native audio engines",
+          "Ability to adjust audio levels in real-time without reprogramming",
+          "Simplified graphical interface for creating 2D game art",
+          "Enhanced multiplayer network synchronization"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the flexibility middleware offers to sound designers without needing to involve programmers."
+      },
+      {
+        "question": "In FMOD, which component is responsible for controlling the playback and manipulation of audio tracks?",
+        "options": [
+          "Event Editor",
+          "Mixer",
+          "Studio API",
+          "Event System"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the tool used for organizing and managing different sound instances."
+      },
+      {
+        "question": "When integrating Wwise with a game engine, what is the primary file format used to package and transport audio assets?",
+        "options": [
+          "Wwise SoundBank",
+          "WAV",
+          "MP3",
+          "Wwise Audio File"
+        ],
+        "correct_option": 0,
+        "hint": "This format is specific to Wwise and is crucial for runtime audio management."
+      },
+      {
+        "question": "Which technique in sound design involves dynamically changing audio content based on game events or player actions?",
+        "options": [
+          "Audio Layering",
+          "Sound Synthesis",
+          "Interactive Music",
+          "Dynamic Mixing"
+        ],
+        "correct_option": 2,
+        "hint": "This technique often involves modifying music tracks to reflect the game's current state."
+      },
+      {
+        "question": "What is a critical consideration when optimizing audio for performance in game development using FMOD or Wwise?",
+        "options": [
+          "Maximizing the number of polyphonic tracks",
+          "Balancing audio quality and memory usage",
+          "Ensuring all sound assets are stereo",
+          "Using only low-frequency effects"
+        ],
+        "correct_option": 1,
+        "hint": "Optimization often requires trade-offs between quality and available resources."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User needs advanced audio features and workflow",
+    "Working on larger, more complex projects"
+  ]
+}

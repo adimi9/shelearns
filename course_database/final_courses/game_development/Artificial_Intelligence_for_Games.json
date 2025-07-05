@@ -1,0 +1,363 @@
+{
+  "id": "GD21",
+  "name": "Artificial Intelligence for Games",
+  "category": "Game Development",
+  "primary_tech": "Game AI",
+  "topics": [
+    "Pathfinding (A* Algorithm)",
+    "State Machines & Behavior Trees",
+    "Decision Making (Utility AI, GOAP)",
+    "Flocking & Crowd Simulation"
+  ],
+  "recommended": false,
+  "tags": [
+    "AI",
+    "NPC",
+    "behavior"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/artificial-intelligence-in-unreal-engine",
+          "description": "A detailed guide on implementing artificial intelligence in Unreal Engine projects."
+        },
+        {
+          "url": "https://cloud.google.com/vertex-ai",
+          "description": "Overview of Vertex AI, Google's platform for building, deploying, and scaling machine learning models."
+        },
+        {
+          "url": "https://shap.readthedocs.io/en/latest/example_notebooks/overviews/An%20introduction%20to%20explainable%20AI%20with%20Shapley%20values.html",
+          "description": "An introductory guide to explainable AI using Shapley values with SHAP."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/c/LearnCodeByGaming",
+          "description": "A YouTube channel offering coding tutorials and programming challenges through gaming."
+        },
+        {
+          "url": "https://www.gamedev.net/tutorials/programming/artificial-intelligence/the-total-beginners-guide-to-game-ai-r4942/",
+          "description": "An introductory guide to understanding and implementing game AI for beginners."
+        },
+        {
+          "url": "https://www.youtube.com/user/derekbanas",
+          "description": "A YouTube channel offering in-depth tutorials on programming and technology topics."
+        },
+        {
+          "url": "https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python",
+          "description": "An introductory course on artificial intelligence using Python, offered by Harvard University."
+        },
+        {
+          "url": "https://learn.unity.com/course/artificial-intelligence-for-beginners",
+          "description": "An introductory course on implementing artificial intelligence in Unity for beginners."
+        },
+        {
+          "url": "https://hourofcode.com/learn",
+          "description": "A collection of free, interactive coding tutorials for beginners of all ages."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=pRuXWgndg6I",
+        "https://www.youtube.com/watch?v=UeaR1XXDUec",
+        "https://www.youtube.com/watch?v=iOh7QUZGyiU",
+        "https://www.youtube.com/watch?v=aBVGKoNZQUw",
+        "https://www.youtube.com/watch?v=AzUZiUz-Wpc",
+        "https://www.youtube.com/watch?v=E-jO93bk0wE&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=3289vhOUdKA",
+        "https://www.youtube.com/watch?v=tQGfTzgxQIc"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/vertex-ai",
+          "description": "An overview of Google's Vertex AI platform for building, deploying, and scaling AI models."
+        },
+        {
+          "url": "https://www.nvidia.com/en-us/",
+          "description": "NVIDIA's official website for exploring their graphics technology and products."
+        },
+        {
+          "url": "https://cloud.google.com/document-ai",
+          "description": "An overview of Google Cloud's Document AI solutions for automated document processing."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://artificialintelligenceact.eu/high-level-summary/",
+          "description": "A high-level summary of the proposed European Union Artificial Intelligence Act."
+        },
+        {
+          "url": "https://www.mckinsey.com/~/media/mckinsey/featured%20insights/artificial%20intelligence/notes%20from%20the%20ai%20frontier%20applications%20and%20value%20of%20deep%20learning/notes-from-the-ai-frontier-insights-from-hundreds-of-use-cases-discussion-paper.pdf",
+          "description": "An in-depth discussion paper on the applications and value of deep learning across various industries."
+        },
+        {
+          "url": "https://cloud.google.com/use-cases/ai-data-analytics",
+          "description": "Explores AI and data analytics use cases on Google Cloud."
+        },
+        {
+          "url": "https://www.mckinsey.com/featured-insights/artificial-intelligence/notes-from-the-ai-frontier-applications-and-value-of-deep-learning",
+          "description": "Insights into the applications and economic value of deep learning in various industries."
+        },
+        {
+          "url": "https://www.gatesnotes.com/brave-new-words",
+          "description": "An insightful exploration of how AI is revolutionizing language and communication."
+        },
+        {
+          "url": "https://www.techtarget.com/searchenterpriseai/definition/AI-Artificial-Intelligence",
+          "description": "An in-depth explanation of artificial intelligence and its applications in enterprise settings."
+        },
+        {
+          "url": "https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained",
+          "description": "An overview of machine learning concepts and their applications in business from MIT Sloan."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ceY3JCyF134",
+        "https://www.youtube.com/watch?v=3289vhOUdKA",
+        "https://www.youtube.com/watch?v=6RPQCbMsO28",
+        "https://www.youtube.com/watch?v=2TJxpyO3ei4",
+        "https://www.youtube.com/watch?v=OpL0Gcfn4B4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=j3LW5no-5Ao",
+        "https://www.youtube.com/watch?v=x60zHw_z4NM",
+        "https://www.youtube.com/watch?v=Uy6LcpyGj7w"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/ai/generative-ai",
+          "description": "An overview of Google's generative AI tools and services for developers."
+        },
+        {
+          "url": "https://d2l.ai/",
+          "description": "An interactive deep learning book with code, math, and discussions for building AI models."
+        },
+        {
+          "url": "https://cloud.google.com/vertex-ai",
+          "description": "An overview of Google's Vertex AI platform for building, deploying, and scaling machine learning models."
+        },
+        {
+          "url": "https://developers.google.com/machine-learning/crash-course",
+          "description": "An introductory course to machine learning concepts and techniques by Google."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.ea.com/games/ea-sports-fc/fc-25/news/pitch-notes-fc-25-gameplay-deep-dive",
+          "description": "An in-depth exploration of gameplay features and mechanics in EA Sports FC 25."
+        },
+        {
+          "url": "https://www.amazon.com/Python-Advanced-Artificial-Intelligence-intelligent/dp/1789957214",
+          "description": "A book detailing advanced techniques for using Python in artificial intelligence applications."
+        },
+        {
+          "url": "https://notebooklm.google/",
+          "description": "An AI-powered tool for enhancing research and learning through interactive notebooks."
+        },
+        {
+          "url": "https://www.datacamp.com/blog/how-to-learn-ai",
+          "description": "A comprehensive guide on strategies and resources for learning artificial intelligence."
+        },
+        {
+          "url": "https://get.mem.ai/blog/mem-deep-dives",
+          "description": "In-depth explorations of Mem's features and functionalities for enhanced productivity."
+        },
+        {
+          "url": "https://huyenchip.com/2018/03/30/guide-to-Artificial-Intelligence-Stanford.html",
+          "description": "An insightful guide to studying Artificial Intelligence at Stanford University."
+        },
+        {
+          "url": "https://www.techtarget.com/searchenterpriseai/definition/AI-Artificial-Intelligence",
+          "description": "An in-depth explanation of artificial intelligence, its applications, and impact on technology."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ayWcs5FbxGY",
+        "https://www.youtube.com/watch?v=UBSiMlYvwwM&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=WXuK6gekU1Y",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=V_xro1bcAuA",
+        "https://www.youtube.com/watch?v=A-a1VrtPeTY",
+        "https://www.youtube.com/watch?v=8392NJjj8s0",
+        "https://www.youtube.com/watch?v=FbCA_qQSvYM",
+        "https://www.youtube.com/channel/UCU0mFyHbP6vpxPCzUvBqrQQ",
+        "https://www.youtube.com/@RanveerAllahbadia/community"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of the A* algorithm in game AI?",
+        "options": [
+          "To simulate realistic character animations",
+          "To find the shortest path between two points",
+          "To generate random levels",
+          "To improve game graphics"
+        ],
+        "correct_option": 1,
+        "hint": "This algorithm is used for navigation purposes."
+      },
+      {
+        "question": "Which of the following is a characteristic of a finite state machine in game AI?",
+        "options": [
+          "It can only be in one state at a time",
+          "It generates random decisions",
+          "It learns from player behavior",
+          "It is used for rendering graphics"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how states transition in AI."
+      },
+      {
+        "question": "What does GOAP stand for in the context of game AI?",
+        "options": [
+          "Goal-Oriented Action Planning",
+          "Game-Oriented Advanced Programming",
+          "Graphical Optimization and Planning",
+          "Generalized Operational AI Protocol"
+        ],
+        "correct_option": 0,
+        "hint": "It's a method for planning actions based on goals."
+      },
+      {
+        "question": "In flocking and crowd simulation, which rule is essential for maintaining group cohesion?",
+        "options": [
+          "Separation",
+          "Alignment",
+          "Cohesion",
+          "Avoidance"
+        ],
+        "correct_option": 2,
+        "hint": "It's about keeping the group together."
+      },
+      {
+        "question": "What is the main advantage of using Utility AI in games?",
+        "options": [
+          "It creates a completely random behavior",
+          "It simplifies pathfinding",
+          "It allows for more nuanced decision-making",
+          "It improves graphic rendering"
+        ],
+        "correct_option": 2,
+        "hint": "Think about decision-making flexibility."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which heuristic is commonly used in the A* algorithm to estimate the cost to reach the goal?",
+        "options": [
+          "Dijkstra's heuristic",
+          "Manhattan distance",
+          "Breadth-first search",
+          "Depth-first search"
+        ],
+        "correct_option": 1,
+        "hint": "It is often used in grid-based pathfinding."
+      },
+      {
+        "question": "In a finite state machine, what is a transition?",
+        "options": [
+          "A condition that triggers a change from one state to another",
+          "A state where an agent remains indefinitely",
+          "A method to optimize pathfinding",
+          "A decision-making process based on utility"
+        ],
+        "correct_option": 0,
+        "hint": "It involves moving from one state to another based on certain conditions."
+      },
+      {
+        "question": "What is a key advantage of behavior trees over finite state machines in game AI?",
+        "options": [
+          "They are less flexible",
+          "They are more rigid",
+          "They allow for more complex and reusable behaviors",
+          "They consume more memory"
+        ],
+        "correct_option": 2,
+        "hint": "This AI technique provides better organization and modularity."
+      },
+      {
+        "question": "How does Utility AI differ from GOAP in decision-making?",
+        "options": [
+          "Utility AI uses pre-defined strategies, GOAP is reactive",
+          "Utility AI evaluates actions based on a utility score, GOAP plans actions to achieve goals",
+          "Utility AI is used for pathfinding, GOAP for state transitions",
+          "Utility AI is less dynamic than GOAP"
+        ],
+        "correct_option": 1,
+        "hint": "Both methods involve evaluating actions, but one uses a scoring system."
+      },
+      {
+        "question": "Which of the following is a primary behavior in flocking simulations?",
+        "options": [
+          "Pathfinding",
+          "Seeking",
+          "Avoidance",
+          "Alignment"
+        ],
+        "correct_option": 3,
+        "hint": "This behavior ensures that agents move in the same direction as their neighbors."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a key benefit of using the A* Algorithm in pathfinding for game AI?",
+        "options": [
+          "It guarantees the shortest path with the lowest cost.",
+          "It uses minimal memory resources.",
+          "It is the fastest algorithm available for all scenarios.",
+          "It does not require a heuristic function."
+        ],
+        "correct_option": 0,
+        "hint": "Consider the algorithm's ability to find optimal paths efficiently."
+      },
+      {
+        "question": "Which component of a Behavior Tree is responsible for choosing one of several possible actions based on specific conditions?",
+        "options": [
+          "Sequence Node",
+          "Selector Node",
+          "Decorator Node",
+          "Leaf Node"
+        ],
+        "correct_option": 1,
+        "hint": "This node type checks multiple children and selects one based on success conditions."
+      },
+      {
+        "question": "In Utility AI, how is a decision typically made between two competing actions?",
+        "options": [
+          "By selecting the action with the highest probability of success.",
+          "By choosing the action with the least computational cost.",
+          "By evaluating the utility score of each action and selecting the highest.",
+          "By randomly selecting an action to ensure variability."
+        ],
+        "correct_option": 2,
+        "hint": "Think about how actions are ranked and chosen based on scores."
+      },
+      {
+        "question": "What role does the heuristic function play in the A* Algorithm?",
+        "options": [
+          "It determines the cost of the path taken so far.",
+          "It estimates the cost to reach the goal from a given node.",
+          "It ensures the algorithm runs in polynomial time.",
+          "It provides a random factor to explore multiple paths."
+        ],
+        "correct_option": 1,
+        "hint": "This function helps guide the algorithm towards the goal efficiently."
+      },
+      {
+        "question": "Which concept in Flocking behavior is essential for simulating realistic group movement in games?",
+        "options": [
+          "Pathfinding",
+          "Cohesion",
+          "State Machines",
+          "Utility AI"
+        ],
+        "correct_option": 1,
+        "hint": "This concept involves keeping the group together."
+      }
+    ]
+  }
+}

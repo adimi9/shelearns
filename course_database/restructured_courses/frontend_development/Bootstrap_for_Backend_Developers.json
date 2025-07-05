@@ -22,107 +22,151 @@
     "front-end-integration"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://getbootstrap.com/docs/4.4/getting-started/introduction/",
+        "https://firebase.google.com/docs",
+        "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+        "https://getbootstrap.com/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=kDzI77KI9cI",
+        "https://getbootstrap.com/docs/4.4/getting-started/introduction/",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://getbootstrap.com/",
+        "https://www.youtube.com/watch?v=TlgSp2XPCY4&pp=ygUbI3JhaWxz44OB44Ol44O844OI44Oq44Ki44Or"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=kDzI77KI9cI",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=9OlMQpivP2Q",
+        "https://www.youtube.com/watch?v=TlgSp2XPCY4&pp=ygUbI3JhaWxz44OB44Ol44O844OI44Oq44Ki44Or",
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+        "https://www.youtube.com/watch?v=dam0GPOAvVI",
+        "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
+        "https://www.youtube.com/watch?v=f63mo1ZRobM&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+        "https://developer.spotify.com/documentation/web-api",
+        "https://firebase.google.com/",
+        "https://docs.amplify.aws/"
+      ],
+      "notes": [
+        "https://stackoverflow.com/questions/47913041/initial-setup-of-terraform-backend-using-terraform",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+        "https://discuss.ocaml.org/t/tutorial-full-stack-web-dev-in-ocaml-w-dream-bonsai-and-graphql/9963",
+        "https://auth0.com/blog/developing-restful-apis-with-python-and-flask/",
+        "https://community.theta360.guide/t/looking-for-good-react-templates-and-an-easy-workflow/8990",
+        "https://edw.is/learning-vulkan/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=svPDhmXY1Yg",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=Gx4iBLKLVHk",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=u9Tg7BUJpGE",
+        "https://www.youtube.com/watch?v=IxYa6cKimZc&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=lXYLTTPM5x4&pp=ygUSI2FzcG5ldGRldmVsb3BtZW50",
+        "https://www.youtube.com/watch?v=f1R_bykXHGE"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://getbootstrap.com/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+        "https://www.typescriptlang.org/docs/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://getbootstrap.com/",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://edw.is/learning-vulkan/",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=f63mo1ZRobM&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+        "https://www.youtube.com/watch?v=Tef1e9FiSR0",
+        "https://www.youtube.com/watch?v=ZDRZvFNK-ek&pp=0gcJCfwAo7VqN5tD"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
-        "description": "A comprehensive guide on using Accessible Rich Internet Applications (ARIA) to enhance web accessibility."
+        "question": "What is Bootstrap primarily used for in web development?",
+        "options": [
+          "Creating responsive layouts and components",
+          "Managing server-side logic",
+          "Database management",
+          "Handling client-side scripting"
+        ],
+        "correct_option": 0,
+        "hint": "Consider what Bootstrap provides to help developers design websites."
       },
       {
-        "url": "https://reactjs.org/",
-        "description": "The official React documentation website provides comprehensive guides, tutorials, and API references for building user interfaces with React."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-controls",
-        "description": "The page provides detailed information about the ARIA 'aria-controls' attribute, which is used to indicate the element that controls the current element's content."
+        "question": "Which of the following is a key feature of Bootstrap?",
+        "options": [
+          "Server-side scripting capabilities",
+          "Pre-designed components and responsive grid system",
+          "Advanced animation tools",
+          "Direct database connectivity"
+        ],
+        "correct_option": 1,
+        "hint": "Think about what Bootstrap offers to help quickly build UI components."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.w3schools.com/bootstrap5/",
-        "description": "A comprehensive guide for learning and implementing Bootstrap 5, including tutorials, examples, and references."
-      },
-      {
-        "url": "https://www.w3schools.com/bootstrap/",
-        "description": "Comprehensive tutorials and examples for learning and implementing Bootstrap, a popular front-end web development framework."
-      },
-      {
-        "url": "https://www.w3schools.com/bootstrap4/",
-        "description": "This resource provides comprehensive tutorials and examples for learning and using Bootstrap 4 for responsive web design."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/bootstrap/bootstrap-tutorial/",
-        "description": "A comprehensive tutorial on Bootstrap, covering its features and how to use it for responsive web design."
-      },
-      {
-        "url": "https://www.w3schools.com/bootstrap/bootstrap_get_started.asp",
-        "description": "A beginner's guide to getting started with Bootstrap, including setup instructions and basic usage tips."
+        "question": "Bootstrap is built on which of the following technologies?",
+        "options": [
+          "Python and Django",
+          "HTML, CSS, and JavaScript",
+          "PHP and MySQL",
+          "Ruby on Rails"
+        ],
+        "correct_option": 1,
+        "hint": "Remember the front-end technologies."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=Jyvffr3aCp0",
-      "https://m.youtube.com/watch?v=4sosXZsdy-s&t=155s",
-      "https://www.youtube.com/watch?v=5GcQtLDGXy8",
-      "https://www.youtube.com/watch?v=-qfEOE4vtxE&pp=0gcJCfwAo7VqN5tD",
-      "https://www.youtube.com/watch?v=O_9u1P5YjVc"
+    "advanced": [
+      {
+        "question": "Which class in Bootstrap is used to create a responsive layout?",
+        "options": [
+          ".container",
+          ".card",
+          ".button",
+          ".modal"
+        ],
+        "correct_option": 0,
+        "hint": "This class helps in creating a fixed-width layout that adapts to different screen sizes."
+      },
+      {
+        "question": "How does Bootstrap help developers compared to writing custom CSS from scratch?",
+        "options": [
+          "By providing a backend framework",
+          "By offering a set of pre-styled UI components and a grid system",
+          "By allowing direct integration with databases",
+          "By providing a comprehensive JavaScript library"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on what Bootstrap offers out-of-the-box for styling and layout."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is Bootstrap primarily used for in web development?",
-      "options": [
-        "Creating responsive layouts and components",
-        "Managing server-side logic",
-        "Database management",
-        "Handling client-side scripting"
-      ],
-      "correct_option": 0,
-      "hint": "Consider what Bootstrap provides to help developers design websites."
-    },
-    {
-      "question": "Which of the following is a key feature of Bootstrap?",
-      "options": [
-        "Server-side scripting capabilities",
-        "Pre-designed components and responsive grid system",
-        "Advanced animation tools",
-        "Direct database connectivity"
-      ],
-      "correct_option": 1,
-      "hint": "Think about what Bootstrap offers to help quickly build UI components."
-    },
-    {
-      "question": "Bootstrap is built on which of the following technologies?",
-      "options": [
-        "Python and Django",
-        "HTML, CSS, and JavaScript",
-        "PHP and MySQL",
-        "Ruby on Rails"
-      ],
-      "correct_option": 1,
-      "hint": "Remember the front-end technologies."
-    },
-    {
-      "question": "Which class in Bootstrap is used to create a responsive layout?",
-      "options": [
-        ".container",
-        ".card",
-        ".button",
-        ".modal"
-      ],
-      "correct_option": 0,
-      "hint": "This class helps in creating a fixed-width layout that adapts to different screen sizes."
-    },
-    {
-      "question": "How does Bootstrap help developers compared to writing custom CSS from scratch?",
-      "options": [
-        "By providing a backend framework",
-        "By offering a set of pre-styled UI components and a grid system",
-        "By allowing direct integration with databases",
-        "By providing a comprehensive JavaScript library"
-      ],
-      "correct_option": 1,
-      "hint": "Focus on what Bootstrap offers out-of-the-box for styling and layout."
-    }
-  ],
   "preferred_if": [
     "User prefers ready-made components"
   ]

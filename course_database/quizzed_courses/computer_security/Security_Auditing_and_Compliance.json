@@ -1,0 +1,277 @@
+{
+  "id": "CSec4",
+  "name": "Security Auditing & Compliance",
+  "category": "Computer Security",
+  "primary_tech": "Auditing & Compliance",
+  "topics": [
+    "Security Frameworks (NIST, ISO 27001)",
+    "Regulatory Compliance (GDPR, HIPAA)",
+    "Risk Assessments & Management",
+    "Internal & External Audits"
+  ],
+  "recommended": false,
+  "tags": [
+    "compliance",
+    "risk-management",
+    "governance"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://www.pcisecuritystandards.org/pdfs/pci_ssc_quick_guide.pdf",
+        "https://cloud.google.com/compliance",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/18/dbseg/introduction-to-auditing.html",
+        "https://learn.microsoft.com/en-us/purview/audit-solutions-overview"
+      ],
+      "notes": [
+        "https://secureframe.com/hub/soc-2/what-is-soc-2",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/18/dbseg/introduction-to-auditing.html",
+        "https://auditboard.com/blog/soc-2-framework-guide-the-complete-introduction",
+        "https://escape.tech/blog/application-security-audit-an-in-depth-guide/",
+        "https://www.pcisecuritystandards.org/pdfs/pci_ssc_quick_guide.pdf",
+        "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-92.pdf",
+        "https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=pC0G8Cqk_ak",
+        "https://www.youtube.com/watch?v=ev6tQbnI22Q",
+        "https://www.youtube.com/watch?v=M2Ea-sEQBVA",
+        "https://www.youtube.com/watch?v=bnR2uOzEDcA",
+        "https://www.youtube.com/watch?v=TcrsxqMBpfc",
+        "https://www.youtube.com/watch?v=5PnpyTM73Xc",
+        "https://www.youtube.com/watch?v=0Ne0ggsza9U",
+        "https://www.youtube.com/watch?v=LLKza5oULAA",
+        "https://www.youtube.com/watch?v=j1PWXw7yST4&pp=ygULI3ByYWJoYW5haXI%3D"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.tenable.com/nessus/compliance-checks-reference/Content/PDF/NessusComplianceChecksReference.pdf",
+        "https://docs.datadoghq.com/api/latest/",
+        "https://cloud.google.com/security/compliance/hipaa"
+      ],
+      "notes": [
+        "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+        "https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html",
+        "https://www.wolterskluwer.com/en/solutions/teammate/teammate-audit",
+        "https://techdocs.broadcom.com/us/en/ca-mainframe-software/security/ca-compliance-event-manager/7-0/release-notes.html",
+        "https://nola.gov/nola/media/NOPD/Consent%20Decree/NOPD%20Audits/Use-of-Force-Audit-Report-2nd-Half-2021.pdf",
+        "https://www.linkedin.com/pulse/domain-4b-notes-2024-kerron-boothe-ph-d--nc5ke"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=k1m8GoCqzT8",
+        "https://www.youtube.com/watch?v=wBsZE7GTmhk&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Z2okRecJC7E",
+        "https://www.youtube.com/watch?v=7vwj5RieUyY",
+        "https://www.youtube.com/watch?v=IDjkC7NEQL8",
+        "https://www.youtube.com/watch?v=k9bZxA7ufUc",
+        "https://m.youtube.com/watch?v=tvd1MUf3aHE",
+        "https://www.youtube.com/watch?v=yajTwkAPN6Q&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=As6SEUHFzV8",
+        "https://www.youtube.com/user/docuware"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://cloud.google.com/compliance",
+        "https://developer.tenable.com/reference/navigate",
+        "https://learn.microsoft.com/en-us/power-platform/guidance/coe/starter-kit",
+        "https://docs.tenable.com/nessus/Content/ScanAndPolicyTemplates.htm",
+        "https://sc1.checkpoint.com/documents/latest/APIs/"
+      ],
+      "notes": [
+        "https://docs.tenable.com/nessus/Content/ScanAndPolicyTemplates.htm",
+        "https://auditboard.com/blog/audit-checklist-how-to-conduct-an-audit-step-by-step",
+        "https://www.wolterskluwer.com/en/solutions/teammate/teammate-audit",
+        "https://www.upguard.com/blog/how-to-perform-a-cybersecurity-audit",
+        "https://www.sans.org/cyber-security-courses/",
+        "https://learn.microsoft.com/en-us/power-platform/guidance/coe/starter-kit",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Z2okRecJC7E",
+        "https://m.youtube.com/watch?v=Bz-8jM3jg-8&t=4980s",
+        "https://www.youtube.com/watch?v=V-u56LjsCp4",
+        "https://www.youtube.com/watch?v=VrKGk7C55y0",
+        "https://www.youtube.com/watch?v=4wGns611G4w",
+        "https://www.youtube.com/watch?v=SD_QPIvFSMY",
+        "https://www.youtube.com/watch?v=T8kp0rvM4cQ&pp=ygUJI2NvbW5pdXN0",
+        "https://www.youtube.com/watch?v=Pz7enIMx39s",
+        "https://www.youtube.com/watch?v=F2_4ghuQERU"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of security frameworks like NIST and ISO 27001?",
+        "options": [
+          "To establish a set of guidelines and best practices for managing cybersecurity risk",
+          "To create a legal framework for prosecuting cybercriminals",
+          "To provide software solutions for network security",
+          "To certify cybersecurity professionals"
+        ],
+        "correct_option": 0,
+        "hint": "Think about guidelines and best practices in cybersecurity."
+      },
+      {
+        "question": "Which regulation focuses on the protection of personal health information?",
+        "options": [
+          "GDPR",
+          "HIPAA",
+          "ISO 27001",
+          "NIST"
+        ],
+        "correct_option": 1,
+        "hint": "Consider regulations related to healthcare."
+      },
+      {
+        "question": "What is the first step in a typical risk assessment process?",
+        "options": [
+          "Risk Mitigation",
+          "Risk Identification",
+          "Risk Evaluation",
+          "Risk Monitoring"
+        ],
+        "correct_option": 1,
+        "hint": "It's about recognizing potential risks."
+      },
+      {
+        "question": "What is typically the main focus of an internal audit?",
+        "options": [
+          "Assessing compliance with internal policies and procedures",
+          "Evaluating competitors' strategies",
+          "Implementing new security software",
+          "Training employees on new technologies"
+        ],
+        "correct_option": 0,
+        "hint": "Think about evaluating internal standards and practices."
+      },
+      {
+        "question": "Which of the following is a key aspect of GDPR compliance?",
+        "options": [
+          "Data minimization",
+          "Unlimited data storage",
+          "Mandatory physical security checks",
+          "Third-party software audits"
+        ],
+        "correct_option": 0,
+        "hint": "Focus on reducing the amount of personal data collected and stored."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is a key component of the NIST Cybersecurity Framework?",
+        "options": [
+          "Identify",
+          "Control",
+          "Implement",
+          "Enforce"
+        ],
+        "correct_option": 0,
+        "hint": "This component involves understanding the business context, resources, and risks."
+      },
+      {
+        "question": "What is the primary goal of ISO 27001 certification?",
+        "options": [
+          "To enhance customer satisfaction",
+          "To ensure business continuity",
+          "To establish a robust information security management system",
+          "To reduce operational costs"
+        ],
+        "correct_option": 2,
+        "hint": "This certification focuses on securing information assets."
+      },
+      {
+        "question": "Which regulation primarily governs data protection and privacy within the European Union?",
+        "options": [
+          "HIPAA",
+          "GDPR",
+          "PCI DSS",
+          "SOX"
+        ],
+        "correct_option": 1,
+        "hint": "This regulation applies to the EU and EEA."
+      },
+      {
+        "question": "In risk assessments, what does the term 'residual risk' refer to?",
+        "options": [
+          "The risk that remains after implementing controls",
+          "The initial risk before any controls",
+          "The total risk of an organization",
+          "The risk transferred to a third party"
+        ],
+        "correct_option": 0,
+        "hint": "This type of risk is often accepted by organizations after controls are applied."
+      },
+      {
+        "question": "What is the main difference between internal and external audits?",
+        "options": [
+          "Internal audits are more detailed",
+          "External audits are conducted by third parties",
+          "Internal audits are more expensive",
+          "External audits focus on financial statements only"
+        ],
+        "correct_option": 1,
+        "hint": "These audits are conducted by independent organizations."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a key difference between NIST and ISO 27001 frameworks?",
+        "options": [
+          "NIST provides guidelines mainly for U.S. federal agencies, while ISO 27001 is internationally recognized.",
+          "NIST is focused solely on risk management, whereas ISO 27001 includes physical security controls.",
+          "ISO 27001 requires certification, while NIST guidelines are only recommendations.",
+          "NIST is applicable to healthcare sector only, while ISO 27001 applies to all sectors."
+        ],
+        "correct_option": 0,
+        "hint": "Consider the scope and applicability of both frameworks."
+      },
+      {
+        "question": "What is a primary requirement of the GDPR that distinguishes it from other regulatory frameworks like HIPAA?",
+        "options": [
+          "Data portability for individuals.",
+          "Encryption of all stored data.",
+          "Mandatory data breach notification within 72 hours.",
+          "Annual compliance audits."
+        ],
+        "correct_option": 0,
+        "hint": "Think about data subject rights under GDPR."
+      },
+      {
+        "question": "In the context of risk assessments, what does the term 'risk appetite' refer to?",
+        "options": [
+          "The total amount of risk an organization is willing to accept.",
+          "The process of identifying potential threats to the organization.",
+          "The likelihood of a risk occurring.",
+          "The impact of a risk on the organization's operations."
+        ],
+        "correct_option": 0,
+        "hint": "Consider what an organization's tolerance towards risk means."
+      },
+      {
+        "question": "How does an internal audit differ from an external audit in terms of objectives?",
+        "options": [
+          "Internal audits focus on operational efficiency, while external audits focus on financial accuracy.",
+          "External audits are conducted by employees, while internal audits are conducted by third parties.",
+          "Internal audits are mandatory for public companies, external audits are not.",
+          "External audits evaluate compliance with internal policies, internal audits do not."
+        ],
+        "correct_option": 0,
+        "hint": "Think about the primary focus areas of internal versus external audits."
+      },
+      {
+        "question": "What is a critical component of conducting an effective security compliance audit?",
+        "options": [
+          "Regularly updating audit checklists to include new regulations.",
+          "Only focusing on financial records.",
+          "Relying solely on automated tools for assessment.",
+          "Ignoring minor policy deviations."
+        ],
+        "correct_option": 0,
+        "hint": "Consider the importance of staying current with regulations and standards."
+      }
+    ]
+  }
+}

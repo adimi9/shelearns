@@ -16,105 +16,150 @@
     "revenue"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Publishing_games/Game_monetization",
-        "description": "This resource provides guidance on strategies and best practices for monetizing games effectively."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Introduction",
-        "description": "An introductory guide to game development concepts and technologies on the web."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript",
-        "description": "This tutorial guides you through creating a 2D Breakout game using pure JavaScript."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.freecodecamp.org/news/the-new-creator-economy-daos-community-ownership-and-cryptoeconomics/",
-        "description": "An overview of the new creator economy focusing on DAOs, community ownership, and cryptoeconomics."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/finance/revenue-model-components-types-benefits-preparation/",
-        "description": "An overview of revenue model components, types, benefits, and preparation strategies in finance."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/interview-with-a-self-taught-developer-turned-mobile-game-entrepreneur/",
-        "description": "An interview with a self-taught developer who transitioned into a successful mobile game entrepreneur."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/gfg-academy/how-geeksforgeeks-generates-revenue/",
-        "description": "This resource explains the various revenue generation strategies employed by GeeksforGeeks."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-to-start-a-software-youtube-channel/",
-        "description": "A guide on launching and growing a successful software-focused YouTube channel."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=oTQPxPFROck",
-      "https://www.youtube.com/watch?v=0gDB5viTYuo",
-      "https://www.youtube.com/watch?v=Z92jsBzeYk0",
-      "https://www.youtube.com/watch?v=yDqb1RlX2Kc",
-      "https://www.youtube.com/watch?v=qKVjhgdaJzE"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary difference between Free-to-Play and Premium game models?",
-      "options": [
-        "Free-to-Play games are always free and don’t generate any revenue.",
-        "Premium games charge players upfront and do not offer additional purchases.",
-        "Free-to-Play games generate revenue through in-game purchases and ads.",
-        "Premium games offer a subscription-based revenue model."
+    "beginner": {
+      "docs": [
+        "https://docs.unity.com/",
+        "https://www.moesif.com/blog/api-monetization/api-strategy/guide-to-monetization-models/",
+        "https://developers.meta.com/horizon-worlds/learn/",
+        "https://cloud.google.com/solutions/new-channels-using-apis",
+        "https://admob.google.com/home/"
       ],
-      "correct_option": 2,
-      "hint": "Consider how each model generates revenue."
+      "notes": [
+        "https://www.investopedia.com/terms/b/businessmodel.asp",
+        "https://www.aaronnemoyten.com/2018/03/18/monetization-design-the-basics/",
+        "https://www.playwire.com/game-monetization",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://developers.meta.com/horizon-worlds/learn/",
+        "https://www.sciencedirect.com/science/article/pii/S0024630113000691"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=w0H1-b044KY",
+        "https://www.youtube.com/watch?v=itgmO78eK5I&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=TmuDsq4m4Ts",
+        "https://www.youtube.com/watch?v=EykVnX4TjCE",
+        "https://www.youtube.com/watch?v=2oUbOcdOUFQ",
+        "https://www.youtube.com/watch?v=M_CZeA9sJJM",
+        "https://www.youtube.com/watch?v=Hh2zqaf0Fvg",
+        "https://www.youtube.com/watch?v=53jVXJgU7FA",
+        "https://www.youtube.com/watch?v=HhmpiirwQyk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/channel/UCGk1LitxAZVnqQn0_nt5qxw"
+      ]
     },
-    {
-      "question": "Which of the following is a common method for monetizing Free-to-Play games?",
-      "options": [
-        "Charging an upfront fee before playing.",
-        "Offering a single purchase for all future updates.",
-        "Implementing in-game advertisements and microtransactions.",
-        "Requiring a monthly subscription to access the game."
+    "intermediate": {
+      "docs": [
+        "https://docs.unity.com/",
+        "https://cloud.google.com/vertex-ai",
+        "https://www.vonage.com/resources/articles/what-is-a-network-api/",
+        "https://cloud.google.com/looker"
       ],
-      "correct_option": 2,
-      "hint": "Think about ways Free-to-Play games might encourage spending without an initial cost."
+      "notes": [
+        "https://www.playwire.com/blog/6-game-monetization-models",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://www.investopedia.com/terms/b/businessmodel.asp",
+        "https://www.kai-waehner.de/blog/2020/07/16/apache-kafka-gaming-games-industry-bookmaker-betting-gambling-video-streaming/",
+        "https://notes.mtb.xyz/p/how-to-index-an-entire-business-model",
+        "https://www.altexsoft.com/blog/revenue-model-types/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=w0H1-b044KY",
+        "https://www.youtube.com/watch?v=2GZ2SNXWK-c",
+        "https://www.youtube.com/watch?v=HhmpiirwQyk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=kgShNcTxMIg&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=BdMEQzt_js0&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=CoeMC92XfYQ",
+        "https://www.youtube.com/watch?v=hUf3NakqPjA",
+        "https://www.youtube.com/watch?v=FI9lM_5xhzA",
+        "https://www.youtube.com/watch?v=QFc7jXZ2pdE"
+      ]
     },
-    {
-      "question": "What is a potential downside of using a subscription model for game monetization?",
-      "options": [
-        "Lower initial user acquisition compared to Free-to-Play.",
-        "Inability to offer any additional purchases.",
-        "No way to integrate advertisements.",
-        "No consistent revenue stream."
+    "advanced": {
+      "docs": [
+        "https://admob.google.com/home/",
+        "https://www.moesif.com/blog/api-monetization/api-strategy/guide-to-monetization-models/",
+        "https://cloud.google.com/vertex-ai",
+        "https://developers.meta.com/horizon-worlds/learn/",
+        "https://cloud.google.com/ai/generative-ai"
       ],
-      "correct_option": 0,
-      "hint": "Consider how the requirement for ongoing payments might affect new users."
-    },
-    {
-      "question": "How do in-game purchases typically function in Free-to-Play games?",
-      "options": [
-        "They are mandatory for game progression.",
-        "They offer players optional enhancements or cosmetic items.",
-        "They replace the need for advertisements.",
-        "They are the same as subscription fees."
+      "notes": [
+        "https://www.strategyzer.com/business-models-the-toolkit-to-design-a-disruptive-company",
+        "https://www.investopedia.com/terms/b/businessmodel.asp",
+        "https://www.monetizenow.io/podcast",
+        "https://setupad.com/blog/game-monetization-models/",
+        "https://www.adjust.com/blog/mobile-gaming-analytics/"
       ],
-      "correct_option": 1,
-      "hint": "Think about what players get in exchange for in-game purchases."
-    },
-    {
-      "question": "What is a common method of ad integration in mobile games?",
-      "options": [
-        "Playing ads only at the beginning of the game.",
-        "Offering rewards for watching ads voluntarily.",
-        "Interrupting gameplay every few seconds with ads.",
-        "Requiring an ad to be watched before starting the game."
-      ],
-      "correct_option": 1,
-      "hint": "Consider how ads can be used without disrupting the user experience too much."
+      "videos": [
+        "https://www.youtube.com/watch?v=w0H1-b044KY",
+        "https://www.youtube.com/watch?v=TmuDsq4m4Ts",
+        "https://www.youtube.com/watch?v=Hh2zqaf0Fvg",
+        "https://www.youtube.com/watch?v=XQ604EEQHlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=c_6XsMe9eXE&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=xsVTqzratPs",
+        "https://www.youtube.com/watch?v=ySX7DFDcNr8&pp=ygURI2luZHVzdHJ5cGF5bWVudHM%3D",
+        "https://www.youtube.com/watch?v=h2FDq3agImI&pp=0gcJCfwAo7VqN5tD"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary difference between Free-to-Play and Premium game models?",
+        "options": [
+          "Free-to-Play games are always free and don’t generate any revenue.",
+          "Premium games charge players upfront and do not offer additional purchases.",
+          "Free-to-Play games generate revenue through in-game purchases and ads.",
+          "Premium games offer a subscription-based revenue model."
+        ],
+        "correct_option": 2,
+        "hint": "Consider how each model generates revenue."
+      },
+      {
+        "question": "Which of the following is a common method for monetizing Free-to-Play games?",
+        "options": [
+          "Charging an upfront fee before playing.",
+          "Offering a single purchase for all future updates.",
+          "Implementing in-game advertisements and microtransactions.",
+          "Requiring a monthly subscription to access the game."
+        ],
+        "correct_option": 2,
+        "hint": "Think about ways Free-to-Play games might encourage spending without an initial cost."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a potential downside of using a subscription model for game monetization?",
+        "options": [
+          "Lower initial user acquisition compared to Free-to-Play.",
+          "Inability to offer any additional purchases.",
+          "No way to integrate advertisements.",
+          "No consistent revenue stream."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how the requirement for ongoing payments might affect new users."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "How do in-game purchases typically function in Free-to-Play games?",
+        "options": [
+          "They are mandatory for game progression.",
+          "They offer players optional enhancements or cosmetic items.",
+          "They replace the need for advertisements.",
+          "They are the same as subscription fees."
+        ],
+        "correct_option": 1,
+        "hint": "Think about what players get in exchange for in-game purchases."
+      },
+      {
+        "question": "What is a common method of ad integration in mobile games?",
+        "options": [
+          "Playing ads only at the beginning of the game.",
+          "Offering rewards for watching ads voluntarily.",
+          "Interrupting gameplay every few seconds with ads.",
+          "Requiring an ad to be watched before starting the game."
+        ],
+        "correct_option": 1,
+        "hint": "Consider how ads can be used without disrupting the user experience too much."
+      }
+    ]
+  }
 }

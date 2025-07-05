@@ -15,105 +15,151 @@
     "layout"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
-        "description": "An introductory guide to web development fundamentals and best practices for beginners."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/display",
-        "description": "An overview of the CSS 'display' property, detailing its role in defining how an element is displayed on a webpage."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/MDN/Tutorials",
-        "description": "A comprehensive collection of tutorials on web development topics provided by MDN Web Docs."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/css/css_rwd_intro.asp",
-        "description": "An introduction to responsive web design using CSS, explaining how to create web pages that adapt to different screen sizes."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/my-personal-portfolio-project-detailed-workflow-i-used-to-build-it/463353",
-        "description": "This resource details a comprehensive workflow used for building a personal portfolio project."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/best-course-on-bootstrap-to-learn-bootstrap-for-someone-who-requires-more-mentoring/574158",
-        "description": "Discussion on recommended Bootstrap courses for learners needing additional mentoring support."
-      },
-      {
-        "url": "https://www.w3schools.com/js/",
-        "description": "W3Schools JavaScript Tutorial provides comprehensive guides and examples for learning JavaScript programming."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/a-practical-guide-to-learning-front-end-development-for-beginners-da6516505e41/",
-        "description": "A practical guide offering beginners a structured approach to learning front-end development."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=TG6XSFeOT3g",
-      "https://www.youtube.com/watch?v=6x-ileFxDJE",
-      "https://www.youtube.com/watch?v=9oKcIcvzqrs",
-      "https://www.youtube.com/watch?v=gAXbB_4BavE",
-      "https://www.youtube.com/watch?v=QRrPE9aj3wI"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of media queries in responsive web design?",
-      "options": [
-        "To change the color scheme of a website",
-        "To adjust the layout based on device characteristics",
-        "To improve website loading speed",
-        "To enhance website security"
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+        "https://vuejs.org/guide/introduction",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+        "https://manual.bubble.io/"
       ],
-      "correct_option": 1,
-      "hint": "Media queries help in adapting the design to different screen sizes."
+      "notes": [
+        "https://www.youtube.com/watch?v=gwiX0oASlEw",
+        "https://m.youtube.com/watch?v=69IbzTWg5PM&pp=ygUGI2t1ZXJp",
+        "https://www.youtube.com/watch?v=srvUrASNj0s",
+        "https://www.w3schools.com/css/css_rwd_intro.asp",
+        "https://www.youtube.com/watch?v=fghWUZfkyew",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+        "https://www.youtube.com/watch?v=FazgJVnrVuI"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=oUVGW_2vp0I",
+        "https://www.youtube.com/watch?v=fghWUZfkyew",
+        "https://www.youtube.com/watch?v=gwiX0oASlEw",
+        "https://www.youtube.com/watch?v=Eb3lOiukwAQ&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=hKsSgU5b0Gw&t=78s",
+        "https://www.youtube.com/watch?v=I2UBjN5ER4s&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=gwiX0oASlEw&pp=ygUJI2ZpaXRuY3Nz",
+        "https://www.youtube.com/watch?v=aYRoHooj0hg",
+        "https://www.youtube.com/@webdesignmastery23",
+        "https://www.youtube.com/playlist?list=PLz_5rPRIvGEAQ2OD8Y7d9TRWxPW2CZwHM"
+      ]
     },
-    {
-      "question": "Which CSS property is commonly used with Flexbox to align items along the main axis?",
-      "options": [
-        "align-items",
-        "justify-content",
-        "flex-direction",
-        "flex-wrap"
+    "intermediate": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries",
+        "https://vuejs.org/guide/introduction",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS"
       ],
-      "correct_option": 1,
-      "hint": "This property is often used to distribute space within a container."
+      "notes": [
+        "https://www.youtube.com/watch?v=Hq_SREIPK7M",
+        "https://m.youtube.com/watch?v=6EJVYwichvs",
+        "https://www.youtube.com/watch?v=LMagNcngvcU",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+        "https://www.youtube.com/watch?v=31wzhvz0vsw",
+        "https://www.figma.com/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=LMagNcngvcU",
+        "https://www.youtube.com/watch?v=3HNyXCPDQ7Q",
+        "https://www.youtube.com/watch?v=31wzhvz0vsw",
+        "https://www.youtube.com/watch?v=F627pKNUCVQ",
+        "https://www.youtube.com/watch?v=B-ytMSuwbf8",
+        "https://www.youtube.com/watch?v=IWdDr54qE4A",
+        "https://www.youtube.com/watch?v=FHTbsZEJspU",
+        "https://www.youtube.com/watch?v=p0bGHP-PXD4",
+        "https://www.youtube.com/watch?v=rrd91OK9YYI",
+        "https://www.youtube.com/c/Harshitvashisth"
+      ]
     },
-    {
-      "question": "In a mobile-first approach, what is prioritized when designing websites?",
-      "options": [
-        "Desktop layouts",
-        "Tablet layouts",
-        "Mobile layouts",
-        "Print layouts"
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "https://www.linkedin.com/pulse/my-guide-mastering-api-product-management-gurrpreet-sinngh-iqizc",
+        "https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma"
       ],
-      "correct_option": 2,
-      "hint": "The approach focuses on smaller screens first."
-    },
-    {
-      "question": "What is the default value of the 'flex-direction' property in Flexbox?",
-      "options": [
-        "column",
-        "row",
-        "row-reverse",
-        "column-reverse"
+      "notes": [
+        "https://www.youtube.com/watch?v=31wzhvz0vsw",
+        "https://www.geeksforgeeks.org/60-days-of-frontend-development/",
+        "https://www.youtube.com/watch?v=6biMWgD6_JY",
+        "https://web.dev/learn/design",
+        "https://www.youtube.com/watch?v=ZkiqyA0N71U&pp=0gcJCf0Ao7VqN5tD",
+        "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
       ],
-      "correct_option": 1,
-      "hint": "This default value is the most common layout direction."
-    },
-    {
-      "question": "Which of the following units is most suitable for responsive typography?",
-      "options": [
-        "px",
-        "em",
-        "pt",
-        "rem"
-      ],
-      "correct_option": 3,
-      "hint": "This unit is relative to the root element's font size."
+      "videos": [
+        "https://www.youtube.com/watch?v=31wzhvz0vsw",
+        "https://www.youtube.com/watch?v=cKZEgtQUxlU&pp=ygUMI3VpdXhfY291cnNl",
+        "https://www.youtube.com/watch?v=6biMWgD6_JY",
+        "https://www.youtube.com/watch?v=lCxcTsOHrjo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=RGCgLPMA8m4",
+        "https://www.youtube.com/watch?v=j6Ule7GXaRs",
+        "https://www.youtube.com/watch?v=ZkiqyA0N71U&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=slGF7HOsCPs",
+        "https://www.youtube.com/c/ZeroToMastery"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of media queries in responsive web design?",
+        "options": [
+          "To change the color scheme of a website",
+          "To adjust the layout based on device characteristics",
+          "To improve website loading speed",
+          "To enhance website security"
+        ],
+        "correct_option": 1,
+        "hint": "Media queries help in adapting the design to different screen sizes."
+      },
+      {
+        "question": "Which CSS property is commonly used with Flexbox to align items along the main axis?",
+        "options": [
+          "align-items",
+          "justify-content",
+          "flex-direction",
+          "flex-wrap"
+        ],
+        "correct_option": 1,
+        "hint": "This property is often used to distribute space within a container."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In a mobile-first approach, what is prioritized when designing websites?",
+        "options": [
+          "Desktop layouts",
+          "Tablet layouts",
+          "Mobile layouts",
+          "Print layouts"
+        ],
+        "correct_option": 2,
+        "hint": "The approach focuses on smaller screens first."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the default value of the 'flex-direction' property in Flexbox?",
+        "options": [
+          "column",
+          "row",
+          "row-reverse",
+          "column-reverse"
+        ],
+        "correct_option": 1,
+        "hint": "This default value is the most common layout direction."
+      },
+      {
+        "question": "Which of the following units is most suitable for responsive typography?",
+        "options": [
+          "px",
+          "em",
+          "pt",
+          "rem"
+        ],
+        "correct_option": 3,
+        "hint": "This unit is relative to the root element's font size."
+      }
+    ]
+  }
 }

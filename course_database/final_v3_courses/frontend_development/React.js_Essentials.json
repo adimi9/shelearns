@@ -1,0 +1,538 @@
+{
+  "id": "FE10",
+  "name": "React.js Essentials",
+  "category": "Frontend Development",
+  "primary_tech": "React.js",
+  "topics": [
+    "JSX, Components, Props & State",
+    "Hooks & Lifecycle",
+    "Context API, Redux"
+  ],
+  "recommended": true,
+  "tags": [
+    "framework",
+    "SPA",
+    "component-based"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://react.dev/learn",
+          "description": "An interactive learning platform for mastering React development.",
+          "title": "Quick Start – React"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "Comprehensive documentation and resources for JavaScript programming on MDN Web Docs.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building web applications using the Next.js framework.",
+          "title": "Next.js Docs | Next.js"
+        },
+        {
+          "url": "https://redux.js.org/introduction/getting-started",
+          "description": "An introductory guide to getting started with Redux for state management in JavaScript applications.",
+          "title": "Getting Started with Redux | Redux"
+        },
+        {
+          "url": "https://vuejs.org/guide/introduction",
+          "description": "An introductory guide to the Vue.js framework for building user interfaces.",
+          "title": "Introduction | Vue.js"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=RVFAyFWO4go",
+          "description": "A YouTube tutorial on creating a RESTful API with Node.js, Express, and MongoDB.",
+          "title": "React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours",
+          "duration": "529m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=NqzdVN2tyvQ&t=0s",
+          "description": "An introductory tutorial on how the Internet works, covering key concepts like IP addresses and DNS.",
+          "title": "React Redux Full Course for Beginners | Redux Toolkit Complete Tutorial",
+          "duration": "239m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+          "description": "A beginner-friendly tutorial on Python programming basics.",
+          "title": "React Tutorial for Beginners",
+          "duration": "80m"
+        },
+        {
+          "url": "https://redux.js.org/tutorials/essentials/part-1-overview-concepts",
+          "description": "An introductory tutorial to essential concepts of Redux for state management in JavaScript applications.",
+          "title": "Redux Essentials, Part 1: Redux Overview and Concepts | Redux"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+          "description": "A detailed tutorial on understanding and implementing the basics of machine learning.",
+          "title": "React Native Tutorial for Beginners - Build a React Native App",
+          "duration": "126m"
+        },
+        {
+          "url": "https://reactnative.dev/docs/tutorial",
+          "description": "An introductory tutorial for building a basic React Native app.",
+          "title": "Learn the Basics · React Native"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=RVFAyFWO4go",
+          "title": "React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours",
+          "duration": "529m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+          "title": "React Tutorial for Beginners",
+          "duration": "80m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+          "title": "React Native Tutorial for Beginners - Build a React Native App",
+          "duration": "126m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=m55PTVUrlnA",
+          "title": "All The JavaScript You Need To Know For React",
+          "duration": "28m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=NqzdVN2tyvQ&pp=ygUOI3JlZHV4dHJhaW5pbmc%3D",
+          "title": "React Redux Full Course for Beginners | Redux Toolkit Complete Tutorial",
+          "duration": "239m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OA5JAmTcTz4&pp=0gcJCfwAo7VqN5tD",
+          "title": "React JS Tutorial For Beginners 2025",
+          "duration": "20m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
+          "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
+          "duration": "305m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WDunoPNBxKA",
+          "title": "React Native Full Course for Beginners | Complete All-in-One Tutorial | 4 Hours",
+          "duration": "265m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nvHeB32ICDM",
+          "title": "ReactJS Crash Course",
+          "duration": "82m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+          "description": "An introductory guide to getting started with React for web development.",
+          "title": "Getting started with React - Learn web development | MDN"
+        },
+        {
+          "url": "https://legacy.reactjs.org/docs/hooks-reference.html",
+          "description": "A detailed reference guide for React Hooks API, explaining each hook's usage and features.",
+          "title": "Hooks API Reference – React"
+        },
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building web applications using the Next.js framework.",
+          "title": "Next.js Docs | Next.js"
+        },
+        {
+          "url": "https://legacy.reactjs.org/docs/react-component.html",
+          "description": "An in-depth guide to understanding and using React components.",
+          "title": "React.Component – React"
+        },
+        {
+          "url": "https://redux-toolkit.js.org/rtk-query/overview",
+          "description": "An overview of RTK Query, a tool for efficient data fetching and caching with Redux Toolkit.",
+          "title": "RTK Query Overview | Redux Toolkit"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://m.youtube.com/watch?v=NqzdVN2tyvQ&t=0s",
+          "description": "An introductory tutorial on the basics of Git and GitHub for version control.",
+          "title": "React Redux Full Course for Beginners | Redux Toolkit Complete Tutorial",
+          "duration": "239m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
+          "description": "An overview of the Rust programming language's features and benefits for developers.",
+          "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
+          "duration": "305m"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+          "description": "An introductory guide to getting started with React for web development.",
+          "title": "Getting started with React - Learn web development | MDN"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8Xwq35cPwYg",
+          "description": "An instructional video on using GitHub Copilot for code generation and development efficiency.",
+          "title": "React Testing for Beginners: Start Here!",
+          "duration": "77m"
+        },
+        {
+          "url": "https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers",
+          "description": "A detailed tutorial on understanding state, actions, and reducers in Redux.",
+          "title": "Redux Fundamentals, Part 3: State, Actions, and Reducers | Redux"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WDunoPNBxKA",
+          "description": "A YouTube video tutorial on implementing JWT authentication in a Node.js application.",
+          "title": "React Native Full Course for Beginners | Complete All-in-One Tutorial | 4 Hours",
+          "duration": "265m"
+        },
+        {
+          "url": "https://redux-toolkit.js.org/rtk-query/overview",
+          "description": "An overview of RTK Query for efficient data fetching and caching in Redux Toolkit.",
+          "title": "RTK Query Overview | Redux Toolkit"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
+          "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
+          "duration": "305m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=NqzdVN2tyvQ&t=0s",
+          "title": "React Redux Full Course for Beginners | Redux Toolkit Complete Tutorial",
+          "duration": "239m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LlvBzyy-558",
+          "title": "React Hooks Course - All React Hooks Explained",
+          "duration": "86m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8Xwq35cPwYg",
+          "title": "React Testing for Beginners: Start Here!",
+          "duration": "77m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WDunoPNBxKA",
+          "title": "React Native Full Course for Beginners | Complete All-in-One Tutorial | 4 Hours",
+          "duration": "265m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2gE2K8i5tvs&pp=ygUYI3N3aXRjaGNhc2VhbmRyb2lkc3R1ZGlv",
+          "title": "Learn Switch Statements In 7 Minutes",
+          "duration": "6m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xfKYYRE6-TQ",
+          "title": "All React Hooks Explained - React Hooks Tutorial 2025",
+          "duration": "88m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=665UnOGx3Pg&pp=0gcJCfwAo7VqN5tD",
+          "title": "All The Typescript You Need to Know For React Development - Learn TS For React in 50 Minutes",
+          "duration": "50m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CxSL0knFxAs",
+          "title": "React Vite Testing Tutorial For Beginners - Vitest Testing Crash Course",
+          "duration": "38m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=I_J7N0n5YPs",
+          "title": "Top React Native ESSENTIALS Tech Stack for 2025",
+          "duration": "16m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "Comprehensive documentation and guides for JavaScript programming on the web.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://reactnative.dev/docs/getting-started",
+          "description": "Official documentation for getting started with React Native development.",
+          "title": "React Native"
+        },
+        {
+          "url": "https://www.typescriptlang.org/docs/",
+          "description": "Official documentation for TypeScript programming language, covering syntax, features, and usage.",
+          "title": "TypeScript: The starting point for learning TypeScript"
+        },
+        {
+          "url": "https://react.dev/",
+          "description": "Official documentation for React, a JavaScript library for building user interfaces.",
+          "title": "React"
+        },
+        {
+          "url": "https://redux.js.org/tutorials/essentials/part-1-overview-concepts",
+          "description": "An introductory guide to the core concepts and setup of Redux in JavaScript applications.",
+          "title": "Redux Essentials, Part 1: Redux Overview and Concepts | Redux"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://redux.js.org/tutorials/essentials/part-1-overview-concepts",
+          "description": "An introductory guide to essential concepts of Redux for state management in JavaScript applications.",
+          "title": "Redux Essentials, Part 1: Redux Overview and Concepts | Redux"
+        },
+        {
+          "url": "https://blog.isquaredsoftware.com/about/",
+          "description": "An overview of Mark Erikson's work and contributions to the React and Redux ecosystems.",
+          "title": "Hi, I'm Mark Erikson · Mark's Dev Blog"
+        },
+        {
+          "url": "https://www.udemy.com/topic/react/",
+          "description": "An educational platform offering courses on React, a popular JavaScript library for building user interfaces.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCn-y28FZxNA8ys6GCU11bUQ",
+          "description": "A YouTube channel offering tutorials and insights on advanced machine learning and AI techniques."
+        },
+        {
+          "url": "https://www.linkedin.com/posts/surendrakumar143_react-19-tutorial-for-beginners-full-guide-activity-7289316732257611776-DlRi",
+          "description": "A complete beginner's guide to learning React 19 through a detailed tutorial.",
+          "title": "🚀 Excited to Share My Latest Video! | Surendra Kumar Patel"
+        },
+        {
+          "url": "https://dzone.com/articles/advanced-react-js-concepts-a-deep-dive",
+          "description": "An in-depth exploration of advanced concepts in React.js for experienced developers.",
+          "title": "Attention Required! | Cloudflare"
+        },
+        {
+          "url": "https://javascript.info/",
+          "description": "An extensive resource for learning modern JavaScript from basics to advanced topics.",
+          "title": "The Modern JavaScript Tutorial"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
+          "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
+          "duration": "305m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+          "title": "React Native Tutorial for Beginners - Build a React Native App",
+          "duration": "126m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+          "title": "React Tutorial for Beginners",
+          "duration": "80m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=UUk1scVLrCQ",
+          "title": "React Lists & Keys: The Essential Guide to Performance (Tutorial #11)",
+          "duration": "15m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DWvLEspi49U",
+          "title": "Deep Dive into Two-Way Data Binding in React.js (Tutorial #5)",
+          "duration": "9m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=x4rFhThSX04",
+          "title": "Learn React JS - Full Beginner’s Tutorial & Practice Projects",
+          "duration": "940m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RVFAyFWO4go",
+          "title": "React JS Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours",
+          "duration": "529m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=b9eMGE7QtTk",
+          "title": "React JS Full Course | Build an App and Master React in 1 Hour",
+          "duration": "71m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WDunoPNBxKA",
+          "title": "React Native Full Course for Beginners | Complete All-in-One Tutorial | 4 Hours",
+          "duration": "265m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is JSX in React?",
+        "options": [
+          "A special syntax used in JavaScript to describe UI elements",
+          "A JavaScript library for building user interfaces",
+          "A CSS preprocessor",
+          "A type of database"
+        ],
+        "correct_option": 0,
+        "hint": "It's a syntax extension for JavaScript."
+      },
+      {
+        "question": "What is a component in React?",
+        "options": [
+          "A reusable piece of UI",
+          "A function that handles HTTP requests",
+          "A server-side language",
+          "A style sheet used for styling"
+        ],
+        "correct_option": 0,
+        "hint": "Components can be functional or class-based."
+      },
+      {
+        "question": "How do you pass data to a component in React?",
+        "options": [
+          "Through props",
+          "Using variables",
+          "By importing JSON files",
+          "With a database query"
+        ],
+        "correct_option": 0,
+        "hint": "It involves a concept similar to function arguments."
+      },
+      {
+        "question": "Which hook is used to add state to a functional component?",
+        "options": [
+          "useState",
+          "useHook",
+          "useEffect",
+          "useContext"
+        ],
+        "correct_option": 0,
+        "hint": "This hook helps manage state in functional components."
+      },
+      {
+        "question": "What does the Context API provide in React?",
+        "options": [
+          "A way to pass data through the component tree without using props",
+          "A method for making network requests",
+          "A built-in debugging tool",
+          "A way to define component styles"
+        ],
+        "correct_option": 0,
+        "hint": "It's used for global state management in React applications."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of JSX in React.js?",
+        "options": [
+          "To enable conditional rendering",
+          "To style components",
+          "To write HTML elements in JavaScript",
+          "To manage component state"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the way React integrates HTML with JavaScript."
+      },
+      {
+        "question": "In React, how do you pass data from a parent component to a child component?",
+        "options": [
+          "Using state",
+          "Using props",
+          "Using hooks",
+          "Using context API"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what mechanism is used to provide data to child components."
+      },
+      {
+        "question": "Which hook would you use to perform side effects in a functional component?",
+        "options": [
+          "useState",
+          "useEffect",
+          "useContext",
+          "useReducer"
+        ],
+        "correct_option": 1,
+        "hint": "This hook is specifically designed for handling side effects."
+      },
+      {
+        "question": "When using the Context API, what component do you use to provide context to child components?",
+        "options": [
+          "ContextProvider",
+          "Context.Consumer",
+          "useContext",
+          "Context.Provider"
+        ],
+        "correct_option": 3,
+        "hint": "This component is responsible for making the context available."
+      },
+      {
+        "question": "In Redux, what is the role of reducers?",
+        "options": [
+          "To dispatch actions",
+          "To update the store based on the action type",
+          "To provide the UI with state",
+          "To handle asynchronous actions"
+        ],
+        "correct_option": 1,
+        "hint": "Reducers are functions that determine changes to the application's state."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In React, what is the primary purpose of using JSX?",
+        "options": [
+          "To write HTML within JavaScript",
+          "To separate HTML from JavaScript",
+          "To enhance CSS capabilities",
+          "To improve JavaScript performance"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how HTML and JavaScript interact in React."
+      },
+      {
+        "question": "Which of the following correctly describes the concept of 'props' in React?",
+        "options": [
+          "A way to directly modify the state of a component",
+          "A method to pass data from parent to child components",
+          "A lifecycle method for initializing components",
+          "A built-in hook for handling side effects"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how data flows through React components."
+      },
+      {
+        "question": "What is the primary role of the 'useEffect' hook in React?",
+        "options": [
+          "To manage component state",
+          "To execute code after rendering",
+          "To handle form inputs",
+          "To apply styles to components"
+        ],
+        "correct_option": 1,
+        "hint": "This hook is often associated with side-effect operations."
+      },
+      {
+        "question": "How does the Context API enhance state management in React applications?",
+        "options": [
+          "By providing a way to avoid prop drilling",
+          "By enabling direct manipulation of the DOM",
+          "By eliminating the need for component lifecycle methods",
+          "By automatically optimizing component rendering"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how data is shared across different levels of the component tree."
+      },
+      {
+        "question": "In Redux, what is the purpose of an action creator?",
+        "options": [
+          "To define the initial state of the store",
+          "To describe how the state changes in response to actions",
+          "To encapsulate the creation of actions",
+          "To connect React components to the Redux store"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how actions are dispatched in Redux."
+      }
+    ]
+  }
+}

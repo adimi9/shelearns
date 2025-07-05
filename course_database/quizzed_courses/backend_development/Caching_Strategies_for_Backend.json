@@ -1,0 +1,276 @@
+{
+  "id": "BE5",
+  "name": "Caching Strategies for Backend",
+  "category": "Backend Development",
+  "primary_tech": "Caching",
+  "topics": [
+    "In-Memory Caching",
+    "Distributed Caching (Redis/Memcached)",
+    "Cache Invalidation Strategies"
+  ],
+  "recommended": true,
+  "tags": [
+    "performance",
+    "optimization",
+    "scalability"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://docs.djangoproject.com/en/5.2/topics/cache/",
+        "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts",
+        "https://nextjs.org/docs",
+        "https://learn.microsoft.com/en-us/azure/api-management/api-management-policies"
+      ],
+      "notes": [
+        "https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/",
+        "https://aws.amazon.com/caching/",
+        "https://docs.djangoproject.com/en/5.2/topics/cache/",
+        "https://www.prisma.io/dataguide/managing-databases/introduction-database-caching",
+        "https://redis.io/learn/howtos/solutions/microservices/caching",
+        "https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies",
+        "https://guides.rubyonrails.org/caching_with_rails.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=bP4BeUjNkXc",
+        "https://www.youtube.com/watch?v=_JGgGR3Rp60",
+        "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=gSSsZReIFRk",
+        "https://www.youtube.com/watch?v=hfLi2cgScms",
+        "https://www.youtube.com/watch?v=yM5mxZdqeGc",
+        "https://www.youtube.com/watch?v=w9r55wd2CAk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=_93bg_NnjqM",
+        "https://m.youtube.com/watch?v=jgpVdJB2sKQ&t=796s"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.djangoproject.com/en/5.2/topics/cache/",
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html",
+        "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts",
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-caching.html"
+      ],
+      "notes": [
+        "https://aws.amazon.com/caching/",
+        "https://docs.djangoproject.com/en/5.2/topics/cache/",
+        "https://github.com/remix-run/remix/discussions/3055",
+        "https://redis.io/learn/howtos/solutions/microservices/caching",
+        "https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html",
+        "https://cromwell.readthedocs.io/en/stable/Configuring/",
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=bP4BeUjNkXc",
+        "https://www.youtube.com/watch?v=hfLi2cgScms",
+        "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=SpQzWtqulhM",
+        "https://m.youtube.com/watch?v=jgpVdJB2sKQ&t=796s",
+        "https://www.youtube.com/watch?v=h7MTWLv3xvw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=-Ai7GDa2OgE",
+        "https://www.youtube.com/watch?v=fqabW3WRUbw",
+        "https://www.youtube.com/channel/UCC_dVe-RI-vgCZfls06mDZQ/community",
+        "https://www.youtube.com/@juliocasal/posts"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://nextjs.org/docs/app/guides/caching",
+        "https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/",
+        "https://github.com/vercel/next.js/discussions/54075",
+        "https://cloud.google.com/docs/security/key-management-deep-dive"
+      ],
+      "notes": [
+        "https://buildwithstudio.com/knowledge/",
+        "https://www.sitepoint.com/django-caching-comprehensive-guide/",
+        "https://www.elastic.co/blog/elasticsearch-caching-deep-dive-boosting-query-speed-one-cache-at-a-time",
+        "https://nextjs.org/docs/app/guides/caching",
+        "https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=bP4BeUjNkXc",
+        "https://www.youtube.com/watch?v=SpQzWtqulhM",
+        "https://www.youtube.com/watch?v=VBlSe8tvg4U",
+        "https://www.youtube.com/watch?v=5W2Yff00H8s",
+        "https://www.youtube.com/watch?v=NEzu4FD25KM",
+        "https://www.youtube.com/watch?v=Ku7maf9K1Ps",
+        "https://www.youtube.com/watch?v=-5RTyEim384",
+        "https://m.youtube.com/watch?v=jgpVdJB2sKQ&t=796s",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/c/TheBigDataShow/community"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of caching in backend systems?",
+        "options": [
+          "To increase data retrieval speed",
+          "To secure data from unauthorized access",
+          "To reduce hardware costs",
+          "To provide data redundancy"
+        ],
+        "correct_option": 0,
+        "hint": "Caching is mainly used to improve performance."
+      },
+      {
+        "question": "Which of the following is an example of a distributed caching system?",
+        "options": [
+          "Redis",
+          "SQLite",
+          "MySQL",
+          "PostgreSQL"
+        ],
+        "correct_option": 0,
+        "hint": "This caching system is known for its key-value store capabilities and is often used in distributed environments."
+      },
+      {
+        "question": "What is an advantage of in-memory caching?",
+        "options": [
+          "Faster data retrieval",
+          "Permanent data storage",
+          "Increased data security",
+          "Reduced server load"
+        ],
+        "correct_option": 0,
+        "hint": "In-memory caching stores data in RAM for quick access."
+      },
+      {
+        "question": "Which technology is NOT typically used for caching purposes?",
+        "options": [
+          "Redis",
+          "Memcached",
+          "SQLite",
+          "Apache Ignite"
+        ],
+        "correct_option": 2,
+        "hint": "This is a database management system, not a caching solution."
+      },
+      {
+        "question": "What does cache invalidation ensure in a caching strategy?",
+        "options": [
+          "Data freshness and accuracy",
+          "Data encryption",
+          "Data redundancy",
+          "Data compression"
+        ],
+        "correct_option": 0,
+        "hint": "Cache invalidation helps maintain the correctness of stored data."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a primary advantage of using in-memory caching?",
+        "options": [
+          "Reduced database load",
+          "Increased data security",
+          "Improved data persistence",
+          "Lower hardware costs"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how caching helps improve access times to data."
+      },
+      {
+        "question": "Which technology is commonly used for distributed caching?",
+        "options": [
+          "Redis",
+          "SQLite",
+          "PostgreSQL",
+          "MongoDB"
+        ],
+        "correct_option": 0,
+        "hint": "This technology is known for its key-value storage and support for complex data structures."
+      },
+      {
+        "question": "What is a key challenge associated with cache invalidation?",
+        "options": [
+          "Ensuring data consistency",
+          "Reducing storage costs",
+          "Improving query speed",
+          "Enhancing security features"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the potential discrepancies between cached data and the source data."
+      },
+      {
+        "question": "Which caching strategy involves updating the cache only when the data changes?",
+        "options": [
+          "Write-through caching",
+          "Lazy caching",
+          "Write-back caching",
+          "Write-around caching"
+        ],
+        "correct_option": 0,
+        "hint": "This strategy involves synchronously updating the cache and the database."
+      },
+      {
+        "question": "In Redis, what is the purpose of the LRU cache eviction policy?",
+        "options": [
+          "To remove the least recently used items",
+          "To remove items based on size",
+          "To prioritize frequently accessed data",
+          "To clear the cache at regular intervals"
+        ],
+        "correct_option": 0,
+        "hint": "LRU stands for Least Recently Used."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a common challenge when implementing in-memory caching in a distributed system?",
+        "options": [
+          "Data synchronization across nodes",
+          "Increased read latency",
+          "Limited write capacity",
+          "Higher storage costs"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the challenges of maintaining consistency across multiple servers."
+      },
+      {
+        "question": "Which type of caching strategy would be most effective for reducing database load in a high-traffic application with frequent reads and infrequent writes?",
+        "options": [
+          "Write-through caching",
+          "Read-through caching",
+          "Write-back caching",
+          "Cache-aside pattern"
+        ],
+        "correct_option": 3,
+        "hint": "Think about a caching strategy that is triggered by the application before accessing the database."
+      },
+      {
+        "question": "In a Redis cache setup, which command is used to ensure that a key is only set if it does not already exist?",
+        "options": [
+          "SETNX",
+          "SETEX",
+          "GETSET",
+          "MSET"
+        ],
+        "correct_option": 0,
+        "hint": "The command name includes the abbreviation for 'set if not exists'."
+      },
+      {
+        "question": "What is a potential downside of using Memcached for distributed caching when compared to Redis?",
+        "options": [
+          "Lack of persistence",
+          "Higher latency",
+          "Complex setup",
+          "Limited language support"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the capabilities for data retention after a server restart."
+      },
+      {
+        "question": "Which cache invalidation strategy is based on removing cache entries that are least recently used?",
+        "options": [
+          "Write-around",
+          "Least Recently Used (LRU)",
+          "Time-to-Live (TTL)",
+          "First-In-First-Out (FIFO)"
+        ],
+        "correct_option": 1,
+        "hint": "This strategy focuses on usage frequency to manage cache entries."
+      }
+    ]
+  }
+}

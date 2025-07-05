@@ -16,105 +16,149 @@
     "web-sockets"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
-        "description": "An overview of the WebSockets API, detailing how to establish persistent, full-duplex communication channels between a client and server over a single TCP connection."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API",
-        "description": "An overview of the WebRTC API, which enables real-time communication capabilities in web browsers and mobile applications."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications",
-        "description": "A guide on developing client applications using the WebSockets API for real-time, bidirectional communication over a single TCP connection."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/reactjs/real-time-updates-with-websockets-and-react-hooks/",
-        "description": "This resource explains how to implement real-time updates in React applications using WebSockets and React Hooks."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/websockets-for-real-time-distributed-systems/",
-        "description": "An overview of using WebSockets for enabling real-time communication in distributed systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/",
-        "description": "This resource explains WebSocket technology and highlights its differences from HTTP."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/server-sent-events-vs-websockets/",
-        "description": "This article compares Server-Sent Events (SSE) and WebSockets, highlighting their differences, use cases, and performance in real-time web applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/differences-between-websocket-and-webrtc-in-system-design/",
-        "description": "The article compares WebSocket and WebRTC protocols in system design, highlighting their differences and use cases."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=1BfCnjr_Vjg",
-      "https://www.youtube.com/watch?v=CzcfeL7ymbU",
-      "https://www.youtube.com/watch?v=sVY6M9_YOwk",
-      "https://www.youtube.com/watch?v=2Nt-ZrNP22A",
-      "https://www.youtube.com/watch?v=bnvH4_58yXM"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of the WebSocket protocol?",
-      "options": [
-        "To establish a full-duplex communication channel over a single TCP connection",
-        "To enhance HTTP requests with additional security features",
-        "To improve the speed of data transmission over the internet",
-        "To provide a fallback for AJAX in real-time applications"
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+        "https://socket.io/docs/v4/",
+        "https://firebase.google.com/docs/database",
+        "https://developers.zoom.us/docs/api/"
       ],
-      "correct_option": 0,
-      "hint": "Think about how WebSockets differ from traditional HTTP in terms of communication direction."
+      "notes": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+        "https://ably.com/blog/websockets-react-tutorial",
+        "https://blog.logrocket.com/websocket-tutorial-socket-io/",
+        "https://www.bairesdev.com/blog/react-websockets-tutorial/",
+        "https://www.learnenough.com/action-cable",
+        "https://impressit.io/blog/guide-to-websockets",
+        "https://www.pedroalonso.net/blog/websockets-nextjs-part-1/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=J8xReLuBNPY",
+        "https://www.youtube.com/watch?v=qdhnC_FUBbs&pp=ygUiI2NoYXRhcHBsaWNhdGlvbmlubGFyYXZlbHdlYnNvY2tldA%3D%3D",
+        "https://www.youtube.com/watch?v=8ARodQ4Wlf4",
+        "https://www.youtube.com/watch?v=FduLSXEHLng",
+        "https://www.youtube.com/watch?v=TywlS9iAZCM&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=fREqfdCphRA",
+        "https://www.youtube.com/watch?v=aiVVpHp5LcY",
+        "https://www.youtube.com/watch?v=u7siCTdGhuw",
+        "https://www.youtube.com/watch?v=wpzQa2J0YM8",
+        "https://m.youtube.com/watch?v=EvUI4vRhF88&t=3m33s"
+      ]
     },
-    {
-      "question": "Which Node.js library is commonly used to simplify the implementation of WebSockets?",
-      "options": [
-        "Express.js",
-        "Socket.IO",
-        "Axios",
-        "Nest.js"
+    "intermediate": {
+      "docs": [
+        "https://ai.google.dev/gemini-api/docs/live",
+        "https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/realtime-audio-websockets",
+        "https://socket.io/docs/v4/",
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api.html"
       ],
-      "correct_option": 1,
-      "hint": "This library is specifically designed to handle WebSockets and falls back to other protocols if necessary."
+      "notes": [
+        "https://www.youtube.com/watch?v=J8xReLuBNPY",
+        "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
+        "https://www.youtube.com/watch?v=Q7Us_DjMbXU",
+        "https://ably.com/blog/websockets-react-tutorial",
+        "https://www.youtube.com/watch?v=TywlS9iAZCM&pp=0gcJCfwAo7VqN5tD"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=J8xReLuBNPY",
+        "https://www.youtube.com/watch?v=Q7Us_DjMbXU",
+        "https://www.youtube.com/watch?v=TywlS9iAZCM&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
+        "https://www.youtube.com/watch?v=FduLSXEHLng",
+        "https://www.youtube.com/watch?v=8ARodQ4Wlf4",
+        "https://www.youtube.com/watch?v=7T-HnTE6v64",
+        "https://www.youtube.com/watch?v=vSrnDfrghns&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=aiVVpHp5LcY",
+        "https://www.youtube.com/watch?v=2Nt-ZrNP22A"
+      ]
     },
-    {
-      "question": "What is a key advantage of using WebSockets for building real-time features like chat applications?",
-      "options": [
-        "WebSockets reduce server load by eliminating the need for polling.",
-        "WebSockets increase latency by adding more steps in communication.",
-        "WebSockets are easier to implement than AJAX.",
-        "WebSockets allow only one-way communication."
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+        "https://ai.google.dev/gemini-api/docs/live",
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api.html",
+        "https://maybe.works/blogs/react-websocket"
       ],
-      "correct_option": 0,
-      "hint": "Consider how WebSockets manage data flow compared to HTTP polling."
-    },
-    {
-      "question": "Which of the following is a challenge when scaling WebSockets for a large number of users?",
-      "options": [
-        "Maintaining a persistent connection with each client",
-        "Ensuring data privacy over the connections",
-        "Managing HTTP request headers efficiently",
-        "Reducing the server's CPU usage"
+      "notes": [
+        "https://ably.com/topic/websockets",
+        "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+        "https://towardsdatascience.com/deep-dive-into-websockets-and-their-role-in-client-server-communication-aac387e10cb6/",
+        "https://maybe.works/blogs/react-websocket",
+        "https://engineeringatscale.substack.com/p/designing-real-time-collaborative"
       ],
-      "correct_option": 0,
-      "hint": "Think about the nature of WebSocket connections and what they require from the server."
-    },
-    {
-      "question": "In the context of Socket.IO, what is the primary function of namespaces?",
-      "options": [
-        "To segregate different types of client connections on the same server",
-        "To enhance security by encrypting data packets",
-        "To manage different versions of the Socket.IO library",
-        "To log user activities for monitoring purposes"
-      ],
-      "correct_option": 0,
-      "hint": "Consider how namespaces help organize and manage WebSocket connections on a server."
+      "videos": [
+        "https://www.youtube.com/watch?v=XgFzHXOk8IQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=M995OXMGpC4",
+        "https://www.youtube.com/watch?v=7T-HnTE6v64",
+        "https://www.youtube.com/watch?v=FduLSXEHLng",
+        "https://www.youtube.com/watch?v=2Z2PDsqgJP8",
+        "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
+        "https://www.youtube.com/watch?v=rT-nduaJp_E",
+        "https://www.youtube.com/watch?v=ub7RVLSn3mc"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of the WebSocket protocol?",
+        "options": [
+          "To establish a full-duplex communication channel over a single TCP connection",
+          "To enhance HTTP requests with additional security features",
+          "To improve the speed of data transmission over the internet",
+          "To provide a fallback for AJAX in real-time applications"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how WebSockets differ from traditional HTTP in terms of communication direction."
+      },
+      {
+        "question": "Which Node.js library is commonly used to simplify the implementation of WebSockets?",
+        "options": [
+          "Express.js",
+          "Socket.IO",
+          "Axios",
+          "Nest.js"
+        ],
+        "correct_option": 1,
+        "hint": "This library is specifically designed to handle WebSockets and falls back to other protocols if necessary."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a key advantage of using WebSockets for building real-time features like chat applications?",
+        "options": [
+          "WebSockets reduce server load by eliminating the need for polling.",
+          "WebSockets increase latency by adding more steps in communication.",
+          "WebSockets are easier to implement than AJAX.",
+          "WebSockets allow only one-way communication."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how WebSockets manage data flow compared to HTTP polling."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a challenge when scaling WebSockets for a large number of users?",
+        "options": [
+          "Maintaining a persistent connection with each client",
+          "Ensuring data privacy over the connections",
+          "Managing HTTP request headers efficiently",
+          "Reducing the server's CPU usage"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the nature of WebSocket connections and what they require from the server."
+      },
+      {
+        "question": "In the context of Socket.IO, what is the primary function of namespaces?",
+        "options": [
+          "To segregate different types of client connections on the same server",
+          "To enhance security by encrypting data packets",
+          "To manage different versions of the Socket.IO library",
+          "To log user activities for monitoring purposes"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how namespaces help organize and manage WebSocket connections on a server."
+      }
+    ]
+  }
 }

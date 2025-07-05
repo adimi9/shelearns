@@ -1,0 +1,271 @@
+{
+  "id": "FE3",
+  "name": "State Management Patterns",
+  "category": "Frontend Development",
+  "primary_tech": "Redux",
+  "topics": [
+    "Local & Global State",
+    "Redux / Zustand",
+    "Server-State Management"
+  ],
+  "recommended": true,
+  "tags": [
+    "state",
+    "redux",
+    "frontend"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://www.apollographql.com/docs/react",
+        "https://vuejs.org/guide/introduction",
+        "https://vuex.vuejs.org/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=rF6eq1oru-Y",
+        "https://docs.flutter.dev/data-and-backend/state-mgmt/options",
+        "https://www.youtube.com/watch?v=SDk_GldOtK8",
+        "https://redux.js.org/tutorials/fundamentals/part-1-overview",
+        "https://www.youtube.com/watch?v=ZnevdXDH25Q",
+        "https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=SDk_GldOtK8",
+        "https://www.youtube.com/watch?v=rF6eq1oru-Y",
+        "https://www.youtube.com/watch?v=ZnevdXDH25Q",
+        "https://www.youtube.com/watch?v=-Y8brhQKvtA",
+        "https://www.youtube.com/watch?v=NU_1StN5Tkk",
+        "https://www.youtube.com/watch?v=oxeYeMHVLII",
+        "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=poQXNp9ItL4",
+        "https://www.youtube.com/rivaanranawat"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions",
+        "https://redux-toolkit.js.org/rtk-query/overview",
+        "https://docs.cypress.io/app/core-concepts/best-practices",
+        "https://docs.dapr.io/developing-applications/building-blocks/actors/actors-overview/"
+      ],
+      "notes": [
+        "https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview",
+        "https://www.ni.com/en/support/documentation/supplemental/16/simple-state-machine-template-documentation.html",
+        "https://vuejs.org/guide/scaling-up/state-management",
+        "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html",
+        "https://docs.flutter.dev/data-and-backend/state-mgmt/simple",
+        "https://auth0.com/blog/state-management-in-angular-with-akita-1/",
+        "https://developer.android.com/develop/ui/compose/state"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=-Y8brhQKvtA",
+        "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=NU_1StN5Tkk",
+        "https://www.youtube.com/watch?v=aHCDrAbH_go&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=QgK_-G-hWeA",
+        "https://www.youtube.com/watch?v=1qe0cTPJHpU",
+        "https://www.youtube.com/c/HusseinNasser-software-engineering/community",
+        "https://www.youtube.com/channel/UC3cEGKhg3OERn-ihVsJcb7A",
+        "https://www.youtube.com/channel/UCrL69sErRwEyr7_p0qVCkOQ/videos"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://docs.flutter.dev/get-started/fundamentals/state-management",
+        "https://react.dev/reference/react/useState"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=SDk_GldOtK8&pp=0gcJCfwAo7VqN5tD",
+        "https://overreacted.io/a-complete-guide-to-useeffect/",
+        "https://www.youtube.com/watch?v=UgJJ0zROAJM",
+        "https://www.redpanda.com/guides/kafka-architecture-kafka-streams",
+        "https://www.youtube.com/watch?v=qVTlioAqUv8"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=SDk_GldOtK8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=UgJJ0zROAJM",
+        "https://www.youtube.com/watch?v=5OzLrbk82zY&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=bHEdQWEtyKY",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=qVTlioAqUv8",
+        "https://www.youtube.com/watch?v=dCLhUialKPQ",
+        "https://www.youtube.com/c/DrJacobGoodin"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is local state primarily used for in an application?",
+        "options": [
+          "To manage data that is shared across multiple components",
+          "To handle data specific to a single component",
+          "To manage server-side data",
+          "To synchronize data across different applications"
+        ],
+        "correct_option": 1,
+        "hint": "Local state is often specific to a single component and is not shared across the application."
+      },
+      {
+        "question": "Which library is commonly used for managing global state in React applications?",
+        "options": [
+          "Vuex",
+          "MobX",
+          "Redux",
+          "Context API"
+        ],
+        "correct_option": 2,
+        "hint": "This library is known for its predictable state container and is widely used in the React ecosystem."
+      },
+      {
+        "question": "What is a key advantage of using server-state management over client-side state management?",
+        "options": [
+          "Improved security of client data",
+          "Reduced server load",
+          "Access to real-time data updates",
+          "Simplified application code"
+        ],
+        "correct_option": 2,
+        "hint": "Server-state management allows handling data that changes frequently and needs to be kept up-to-date in real-time."
+      },
+      {
+        "question": "Which of the following is NOT a primary technology used in Redux?",
+        "options": [
+          "Actions",
+          "Reducers",
+          "Services",
+          "Store"
+        ],
+        "correct_option": 2,
+        "hint": "This term is more commonly associated with architecture patterns like microservices rather than Redux."
+      },
+      {
+        "question": "Zustand is a state management library known for its...",
+        "options": [
+          "High complexity and steep learning curve",
+          "Simplicity and minimal boilerplate code",
+          "Exclusive use with server-side rendering",
+          "Heavy reliance on class components"
+        ],
+        "correct_option": 1,
+        "hint": "Zustand is appreciated for its straightforward API and ease of use with minimal setup."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following best describes local state management?",
+        "options": [
+          "State that is managed within a single component",
+          "State that is shared across multiple components",
+          "State that is stored on a server",
+          "State that is globally accessible"
+        ],
+        "correct_option": 0,
+        "hint": "Local state is confined to the component where it is declared."
+      },
+      {
+        "question": "What is a primary advantage of using Redux for global state management?",
+        "options": [
+          "Simplicity in setup",
+          "Predictability of state changes",
+          "Automatic state synchronization with server",
+          "Direct component-to-component communication"
+        ],
+        "correct_option": 1,
+        "hint": "Redux uses a single source of truth, making state changes predictable."
+      },
+      {
+        "question": "In Zustand, what is the purpose of using selectors?",
+        "options": [
+          "To dispatch actions to modify the state",
+          "To extract specific parts of the state",
+          "To log state changes",
+          "To initialize the store"
+        ],
+        "correct_option": 1,
+        "hint": "Selectors help in retrieving specific data from the store without affecting other parts."
+      },
+      {
+        "question": "How does server-state management typically differ from client-state management?",
+        "options": [
+          "Server-state is always read-only",
+          "Server-state is synchronized with remote databases",
+          "Client-state cannot be cached",
+          "Server-state requires no management"
+        ],
+        "correct_option": 1,
+        "hint": "Server-state often involves fetching and updating data from a server."
+      },
+      {
+        "question": "When using Redux, what role does a middleware play?",
+        "options": [
+          "To automatically update the UI",
+          "To handle side effects",
+          "To manage component rendering",
+          "To store local state"
+        ],
+        "correct_option": 1,
+        "hint": "Middleware is used to extend Redux capabilities, often for handling asynchronous operations."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following statements correctly differentiates local state from global state in state management?",
+        "options": [
+          "Local state is managed within individual components, while global state is shared across multiple components.",
+          "Local state is managed by external libraries, while global state is managed within the application.",
+          "Local state is immutable, while global state is mutable.",
+          "Local state is only used for UI components, while global state is used for backend data management."
+        ],
+        "correct_option": 0,
+        "hint": "Think about where each type of state is accessible."
+      },
+      {
+        "question": "In Redux, what is the primary purpose of middleware?",
+        "options": [
+          "To enhance the performance of reducers by caching results.",
+          "To intercept dispatched actions and add additional behavior before they reach the reducer.",
+          "To directly modify the state tree for optimized state mutations.",
+          "To manage asynchronous logic by directly updating the state."
+        ],
+        "correct_option": 1,
+        "hint": "Middleware acts between the dispatching of an action and the moment it reaches the reducer."
+      },
+      {
+        "question": "Which of the following is a key feature of Zustand compared to Redux?",
+        "options": [
+          "Zustand uses a single global store by default, whereas Redux encourages multiple stores.",
+          "Zustand requires the use of reducers to manage state changes.",
+          "Zustand has a simpler API with no boilerplate code for creating actions and reducers.",
+          "Zustand manages server-side state by default."
+        ],
+        "correct_option": 2,
+        "hint": "Consider the amount of setup required to use each library."
+      },
+      {
+        "question": "What is a primary advantage of managing server-state separately from client-state in applications?",
+        "options": [
+          "It allows for more efficient local storage management.",
+          "It reduces the complexity of the server-side code.",
+          "It enables synchronization between the server and client without excessive re-renders.",
+          "It ensures all state changes are handled exclusively on the server."
+        ],
+        "correct_option": 2,
+        "hint": "Think about how server-state management can affect the user interface."
+      },
+      {
+        "question": "In a Redux application, which of the following best describes the role of the store?",
+        "options": [
+          "It defines the structure of the state and initializes the app.",
+          "It is responsible for directly rendering components based on the state.",
+          "It holds the application state and provides methods to dispatch actions and subscribe to changes.",
+          "It acts as a middleware to manage state transitions."
+        ],
+        "correct_option": 2,
+        "hint": "Consider what component holds and manages the state in Redux."
+      }
+    ]
+  }
+}

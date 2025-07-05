@@ -20,107 +20,152 @@
     "database-integration"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://firebase.google.com/docs/database",
+        "https://docs.aws.amazon.com/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://m.youtube.com/watch?v=tZvjSl9dswg&t=08m23s",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.w3schools.com/java/",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://lp.jetbrains.com/academy/learn-java/",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://www.youtube.com/watch?v=tZvjSl9dswg",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=IufJyvwMsZo",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/watch?v=xdeFYtP6-T0",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/c/programmingwithmosh"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+        "https://docs.temporal.io/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://m.youtube.com/watch?v=mRATEFmDmeA&pp=ygUGI2FlbW9y",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.freecodecamp.org/news/design-pattern-for-modern-backend-development-and-use-cases/",
+        "https://www.youtube.com/watch?v=31KTdfRH6nY&pp=0gcJCfwAo7VqN5tD",
+        "https://github.com/arialdomartini/Back-End-Developer-Interview-Questions"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/watch?v=31KTdfRH6nY&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=mRATEFmDmeA&pp=ygUGI2FlbW9y",
+        "https://www.youtube.com/watch?v=Gx4iBLKLVHk",
+        "https://www.youtube.com/watch?v=FtaQSdrl7YA",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=uoOwVWVl_eU&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=PeojZFlD8yM"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://daily.dev/blog/how-to-learn-java-step-by-step-core-concepts",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://daily.dev/blog/how-to-learn-java-step-by-step-core-concepts",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.devoxify.com/posts/the-definitive-guide-to-java-backend-developer-career-path/",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://community.shopify.com/c/shopify-education-and/how-to-become-a-shopify-developer-a-step-by-step-guide/m-p/2831473"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=dzUc9vrsldM",
+        "https://www.youtube.com/watch?v=aS0t9HTO5V4",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=ioPagXHCRjc&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=eOQN8DJ4Lrg"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://www.reddit.com/r/learnjava/comments/1618623/what_is_the_best_and_realistic_way_of_learning/",
-        "description": "Discussion on effective and realistic strategies for learning Java programming."
+        "question": "Which programming language was traditionally used for Android app development before Kotlin gained popularity?",
+        "options": [
+          "Python",
+          "Java",
+          "Swift",
+          "C#"
+        ],
+        "correct_option": 1,
+        "hint": "This language is known for its 'write once, run anywhere' capability."
       },
       {
-        "url": "https://firebase.google.com/docs",
-        "description": "Comprehensive documentation for using Firebase to build and manage mobile and web applications."
-      },
-      {
-        "url": "https://www.reddit.com/r/SpringBoot/comments/1d4t8ia/how_important_it_is_to_learn_openapiswagger/",
-        "description": "Discussion on the significance of learning OpenAPI/Swagger for Spring Boot development."
+        "question": "Why might a developer choose to use Java for Android app development?",
+        "options": [
+          "It is the only language supported by Android.",
+          "Java has a vast existing codebase and many libraries.",
+          "Java is faster than Kotlin in every aspect.",
+          "Java code can be directly executed on iOS devices."
+        ],
+        "correct_option": 1,
+        "hint": "Consider the legacy aspects and existing resources available in this language."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.reddit.com/r/learnjava/comments/1fp2zj8/how_did_you_learn_backend_development_with_java/",
-        "description": "This Reddit thread discusses personal experiences and strategies for learning backend development with Java."
-      },
-      {
-        "url": "https://www.devoxify.com/posts/the-definitive-guide-to-java-backend-developer-career-path/",
-        "description": "A comprehensive guide detailing the career path, skills, and tools needed for Java backend developers."
-      },
-      {
-        "url": "https://www.reddit.com/r/learnjava/comments/162uodh/backend_java_developer_guide/",
-        "description": "A community-driven guide offering insights and resources for aspiring backend Java developers."
-      },
-      {
-        "url": "https://medium.com/@byrne.greg/transitioning-from-java-to-javascript-quick-guide-on-the-basics-you-need-to-immediately-know-ef95140a7d71",
-        "description": "A quick guide for Java developers transitioning to JavaScript, covering essential basics."
-      },
-      {
-        "url": "https://www.reddit.com/r/learnprogramming/comments/l8kish/i_literally_have_no_clue_on_where_to_start_with/",
-        "description": "A Reddit thread offering guidance and resources for beginners unsure of how to start learning programming."
+        "question": "What is a major advantage of using Java for maintaining older Android apps?",
+        "options": [
+          "Java apps are automatically converted to Kotlin.",
+          "Java provides better UI design tools.",
+          "Java has extensive documentation and community support.",
+          "Java allows for real-time app updates."
+        ],
+        "correct_option": 2,
+        "hint": "Think about the support and resources available for a language that has been around for a long time."
       }
     ],
-    "videos": [
-      "https://www.reddit.com/r/learnjava/comments/1fp2zj8/how_did_you_learn_backend_development_with_java/",
-      "https://medium.com/@byrne.greg/transitioning-from-java-to-javascript-quick-guide-on-the-basics-you-need-to-immediately-know-ef95140a7d71",
-      "https://www.reddit.com/r/learnjava/comments/10cbkob/course_recommendations_for_java_backend/",
-      "https://www.w3schools.com/java/",
-      "https://www.reddit.com/r/learnjava/comments/12rcfyh/how_to_learn_backend_development_using_java/"
+    "advanced": [
+      {
+        "question": "In the context of Android development, what does the term 'legacy code' typically refer to?",
+        "options": [
+          "Newly written Kotlin code",
+          "Old Java code that is still in use",
+          "Deprecated Android Studio features",
+          "Recent updates to the Android SDK"
+        ],
+        "correct_option": 1,
+        "hint": "This term often describes older code that continues to be maintained and used."
+      },
+      {
+        "question": "Which of the following is a common reason for maintaining older Android apps written in Java?",
+        "options": [
+          "Java offers better graphics rendering.",
+          "Java apps are completely incompatible with Kotlin.",
+          "The existing Java codebase is extensive and costly to rewrite.",
+          "Java apps always perform better than Kotlin apps."
+        ],
+        "correct_option": 2,
+        "hint": "Consider the cost and effort associated with rewriting an existing app in a new language."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "Which programming language was traditionally used for Android app development before Kotlin gained popularity?",
-      "options": [
-        "Python",
-        "Java",
-        "Swift",
-        "C#"
-      ],
-      "correct_option": 1,
-      "hint": "This language is known for its 'write once, run anywhere' capability."
-    },
-    {
-      "question": "Why might a developer choose to use Java for Android app development?",
-      "options": [
-        "It is the only language supported by Android.",
-        "Java has a vast existing codebase and many libraries.",
-        "Java is faster than Kotlin in every aspect.",
-        "Java code can be directly executed on iOS devices."
-      ],
-      "correct_option": 1,
-      "hint": "Consider the legacy aspects and existing resources available in this language."
-    },
-    {
-      "question": "What is a major advantage of using Java for maintaining older Android apps?",
-      "options": [
-        "Java apps are automatically converted to Kotlin.",
-        "Java provides better UI design tools.",
-        "Java has extensive documentation and community support.",
-        "Java allows for real-time app updates."
-      ],
-      "correct_option": 2,
-      "hint": "Think about the support and resources available for a language that has been around for a long time."
-    },
-    {
-      "question": "In the context of Android development, what does the term 'legacy code' typically refer to?",
-      "options": [
-        "Newly written Kotlin code",
-        "Old Java code that is still in use",
-        "Deprecated Android Studio features",
-        "Recent updates to the Android SDK"
-      ],
-      "correct_option": 1,
-      "hint": "This term often describes older code that continues to be maintained and used."
-    },
-    {
-      "question": "Which of the following is a common reason for maintaining older Android apps written in Java?",
-      "options": [
-        "Java offers better graphics rendering.",
-        "Java apps are completely incompatible with Kotlin.",
-        "The existing Java codebase is extensive and costly to rewrite.",
-        "Java apps always perform better than Kotlin apps."
-      ],
-      "correct_option": 2,
-      "hint": "Consider the cost and effort associated with rewriting an existing app in a new language."
-    }
-  ],
   "preferred_if": [
     "User needs to maintain older Android apps"
   ]

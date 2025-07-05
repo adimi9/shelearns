@@ -1,0 +1,368 @@
+{
+  "id": "CSec11",
+  "name": "Operating System Security",
+  "category": "Computer Security",
+  "primary_tech": "OS Security",
+  "topics": [
+    "User & Permissions Management",
+    "Patch Management & Updates",
+    "Hardening OS Configurations",
+    "Malware & Rootkit Detection"
+  ],
+  "recommended": false,
+  "tags": [
+    "system-security",
+    "endpoint-protection",
+    "hardening"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://kafka.apache.org/documentation/",
+          "description": "Official documentation for Apache Kafka, covering setup, configuration, and usage."
+        },
+        {
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+          "description": "An overview of key concepts related to Amazon EC2 services."
+        },
+        {
+          "url": "https://kubernetes.io/docs/reference/kubectl/",
+          "description": "Comprehensive reference documentation for kubectl command-line tool in Kubernetes."
+        },
+        {
+          "url": "https://docs.clamav.net/",
+          "description": "Official documentation for ClamAV, an open-source antivirus engine."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://support.apple.com/guide/security/welcome/web",
+          "description": "An overview of Apple's security features and practices across its products and services."
+        },
+        {
+          "url": "https://cycle.io/learn/linux-security-basics",
+          "description": "An introductory guide to fundamental Linux security concepts and practices."
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+          "description": "NIST's guide on computer security incident handling and response strategies."
+        },
+        {
+          "url": "https://info-ee.surrey.ac.uk/Teaching/Unix/",
+          "description": "An educational resource for learning Unix operating system fundamentals."
+        },
+        {
+          "url": "https://www.loggly.com/ultimate-guide/linux-logging-basics/",
+          "description": "An in-depth guide to understanding and managing logging in Linux systems."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Operating_system",
+          "description": "An overview of operating systems, their functions, history, and types."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=-Dz6_UCN_ik",
+        "https://www.youtube.com/watch?v=ItSIpUjQ7Qk",
+        "https://www.youtube.com/watch?v=ROjZy1WbCIA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=SRyJbiFynyk",
+        "https://www.youtube.com/watch?v=Yg4tV98y69I",
+        "https://www.youtube.com/watch?v=bZDGL-_3srM",
+        "https://www.youtube.com/watch?v=HlmE4c4iY94&pp=ygUPI2RpZ2l0YWxzaG93c29z",
+        "https://www.youtube.com/watch?v=9mDK3C2em7M&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=xKe2YrGlfR0"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://kafka.apache.org/documentation/",
+          "description": "Official documentation for Apache Kafka, covering setup, configuration, and usage."
+        },
+        {
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+          "description": "An overview of core concepts and features of Amazon EC2."
+        },
+        {
+          "url": "https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/store-information-in-variables",
+          "description": "Guidelines on storing information in variables within GitHub Actions workflows."
+        },
+        {
+          "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9",
+          "description": "Official documentation for Red Hat Enterprise Linux 9, covering installation, configuration, and system management."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://docs.mulesoft.com/release-notes/cloudhub/cloudhub-runtimes-release-notes",
+          "description": "Release notes detailing updates and changes for CloudHub runtimes in MuleSoft."
+        },
+        {
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+          "description": "An overview of key concepts related to Amazon EC2."
+        },
+        {
+          "url": "https://www.cisco.com/c/en/us/td/docs/security/ise/3-3/release_notes/b_ise_33_RN.html",
+          "description": "Release notes detailing updates and features for Cisco Identity Services Engine version 3.3."
+        },
+        {
+          "url": "https://docs.redhat.com/en/documentation/Red_Hat_Enterprise_Linux",
+          "description": "Official documentation for Red Hat Enterprise Linux, covering installation, configuration, and management."
+        },
+        {
+          "url": "https://cloud.google.com/learn/what-is-iaas",
+          "description": "An introduction to Infrastructure as a Service (IaaS) on Google Cloud."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10",
+          "description": "A detailed guide on using AzCopy v10 for data transfer to and from Azure Storage."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=uF-GSj-Exms&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=2eEe5LnEbks",
+        "https://www.youtube.com/watch?v=nj_Dup5aUps",
+        "https://www.youtube.com/watch?v=lZAoFs75_cs",
+        "https://www.youtube.com/watch?v=OtcP8c4wZys",
+        "https://www.youtube.com/watch?v=-PjMC0gyH9s",
+        "https://www.youtube.com/watch?v=oX9aIzejaSc&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://ebpf.io/what-is-ebpf/",
+          "description": "An introduction to eBPF, explaining its function and applications in enhancing Linux kernel capabilities."
+        },
+        {
+          "url": "https://www.cisco.com/c/en/us/td/docs/security/firepower/command_ref/b_Command_Reference_for_Firepower_Threat_Defense/using_the_FTD_CLI.html",
+          "description": "A detailed command reference guide for using the Firepower Threat Defense CLI."
+        },
+        {
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+          "description": "An introduction to AWS Lambda, detailing its features and how to use it for serverless computing."
+        },
+        {
+          "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
+          "description": "Documentation for Check Point's latest API reference and usage guidelines."
+        },
+        {
+          "url": "https://www.cisco.com/c/en/us/support/docs/security/secure-firewall-management-center/221577-cisco-secure-firewall-reference-guide.pdf",
+          "description": "A detailed reference guide for managing Cisco Secure Firewall systems."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf",
+          "description": "An in-depth guide detailing Apple's security features and protocols across its platforms."
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+          "description": "NIST Special Publication 800-61 Revision 2, a guide on computer security incident handling."
+        },
+        {
+          "url": "https://ebpf.io/what-is-ebpf/",
+          "description": "An introduction to eBPF, explaining its functionality and applications in the Linux kernel."
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/how-to-become-an-ethical-hacker",
+          "description": "A step-by-step guide on becoming an ethical hacker and building a career in cybersecurity."
+        },
+        {
+          "url": "https://ecoxpert.se.com/ecostruxure-security-expert/technical-documentation",
+          "description": "Technical documentation for EcoStruxure Security Expert solutions by Schneider Electric."
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-skills",
+          "description": "An overview of essential skills needed for a career in cybersecurity."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=CBHYp3o6uNA",
+        "https://www.youtube.com/watch?v=2eAPg2SSXyg",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=lZAoFs75_cs",
+        "https://www.youtube.com/watch?v=OHs1txVKPHw",
+        "https://www.youtube.com/watch?v=IhtcuP-9c1g",
+        "https://www.youtube.com/watch?v=kP7KpfToMkg",
+        "https://www.youtube.com/watch?v=H5lbHZAmDSs"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of user and permissions management in an operating system?",
+        "options": [
+          "To enhance system performance",
+          "To prevent unauthorized access",
+          "To speed up software installations",
+          "To reduce hardware costs"
+        ],
+        "correct_option": 1,
+        "hint": "Think about protecting system resources from unauthorized access."
+      },
+      {
+        "question": "What is patch management primarily concerned with?",
+        "options": [
+          "Installing new applications",
+          "Updating software to fix vulnerabilities",
+          "Creating backups",
+          "Monitoring network traffic"
+        ],
+        "correct_option": 1,
+        "hint": "It involves keeping software up-to-date to address security vulnerabilities."
+      },
+      {
+        "question": "Which of the following is a method to harden OS configurations?",
+        "options": [
+          "Leaving default settings unchanged",
+          "Installing antivirus software",
+          "Configuring firewalls",
+          "Disabling unused services"
+        ],
+        "correct_option": 3,
+        "hint": "Consider roles that reduce potential attack surfaces by minimizing unnecessary features."
+      },
+      {
+        "question": "What is the main goal of malware detection on an operating system?",
+        "options": [
+          "To increase system speed",
+          "To identify and remove harmful software",
+          "To improve graphical interface",
+          "To enhance network connectivity"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on identifying and eliminating harmful software."
+      },
+      {
+        "question": "What is a rootkit primarily used for in terms of security threats?",
+        "options": [
+          "To enhance system performance",
+          "To hide malicious activities",
+          "To improve user interface",
+          "To update software automatically"
+        ],
+        "correct_option": 1,
+        "hint": "Think about what cyber attackers use to conceal their presence on a system."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which command in Unix-based systems is commonly used to modify file permissions?",
+        "options": [
+          "chmod",
+          "chown",
+          "ls",
+          "pwd"
+        ],
+        "correct_option": 0,
+        "hint": "It stands for 'change mode'."
+      },
+      {
+        "question": "What is the primary purpose of patch management in an operating system?",
+        "options": [
+          "To improve user interface",
+          "To add new features",
+          "To fix security vulnerabilities",
+          "To enhance system performance"
+        ],
+        "correct_option": 2,
+        "hint": "It involves updating the system to protect against known vulnerabilities."
+      },
+      {
+        "question": "Which of the following is a common method to harden an operating system?",
+        "options": [
+          "Installing multiple antivirus programs",
+          "Disabling unnecessary services",
+          "Increasing the screen brightness",
+          "Using weak passwords"
+        ],
+        "correct_option": 1,
+        "hint": "This method involves reducing the attack surface by minimizing active services."
+      },
+      {
+        "question": "What is a rootkit designed to do?",
+        "options": [
+          "Enhance computer speed",
+          "Provide unauthorized access while hiding its presence",
+          "Boost network connectivity",
+          "Improve system stability"
+        ],
+        "correct_option": 1,
+        "hint": "It's a type of malware that aims to stay hidden while providing control over a system."
+      },
+      {
+        "question": "Which permission allows a user to execute a file in Unix-based systems?",
+        "options": [
+          "Read (r)",
+          "Write (w)",
+          "Execute (x)",
+          "None of the above"
+        ],
+        "correct_option": 2,
+        "hint": "This permission is needed to run a program or script."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a best practice for managing user permissions to enhance operating system security?",
+        "options": [
+          "Granting administrative privileges to all users by default",
+          "Implementing the principle of least privilege",
+          "Sharing administrator passwords among all staff",
+          "Using a single user account for all system access"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the principle that limits user access to only what is necessary for their role."
+      },
+      {
+        "question": "What is the primary purpose of a patch management strategy in operating system security?",
+        "options": [
+          "To increase system performance",
+          "To add new features to the operating system",
+          "To detect and remove malware",
+          "To address vulnerabilities and prevent exploits"
+        ],
+        "correct_option": 3,
+        "hint": "Think about what updates usually aim to fix in system software."
+      },
+      {
+        "question": "Which configuration change can harden an operating system against unauthorized access?",
+        "options": [
+          "Enabling guest accounts",
+          "Disabling unused services and ports",
+          "Setting all files to be world-readable",
+          "Installing beta software versions"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what can be minimized to reduce potential attack surfaces."
+      },
+      {
+        "question": "What is one common method used to detect rootkits on an operating system?",
+        "options": [
+          "Using a firewall",
+          "Employing a signature-based antivirus",
+          "Conducting a memory dump analysis",
+          "Installing regular software updates"
+        ],
+        "correct_option": 2,
+        "hint": "Think about what involves analyzing the system's memory or files for hidden malicious code."
+      },
+      {
+        "question": "How can regular updates and patches contribute to the security of an operating system?",
+        "options": [
+          "By improving user experience",
+          "By introducing new user interfaces",
+          "By closing security vulnerabilities",
+          "By enhancing color schemes"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the primary goal of updates regarding system weaknesses."
+      }
+    ]
+  }
+}

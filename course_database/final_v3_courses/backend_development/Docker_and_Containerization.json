@@ -1,0 +1,489 @@
+{
+  "id": "BE23",
+  "name": "Docker & Containerization",
+  "category": "Backend Development",
+  "primary_tech": "Docker",
+  "topics": [
+    "Dockerfile & Image Building",
+    "Container Orchestration (Docker Compose)",
+    "Container Networking & Volumes"
+  ],
+  "recommended": true,
+  "tags": [
+    "devops",
+    "containerization",
+    "deployment"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://docs.docker.com/",
+          "description": "Official Docker documentation providing comprehensive guides and references for containerization.",
+          "title": "Docker Docs"
+        },
+        {
+          "url": "https://www.docker.com/resources/what-container/",
+          "description": "An introductory resource explaining the concept and benefits of containerization with Docker.",
+          "title": "What is a Container? | Docker"
+        },
+        {
+          "url": "https://docs.docker.com/get-started/",
+          "description": "An introductory guide to getting started with Docker.",
+          "title": "Get started | Docker Docs"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://docker-curriculum.com/",
+          "description": "An introductory tutorial for learning Docker and containerization concepts.",
+          "title": "A Docker Tutorial for Beginners"
+        },
+        {
+          "url": "https://www.docker.com/101-tutorial/",
+          "description": "An introductory tutorial for learning the basics of Docker and containerization.",
+          "title": "Docker 101 Tutorial | Docker"
+        },
+        {
+          "url": "https://endjin.com/blog/2022/01/introduction-to-containers-and-docker",
+          "description": "An introductory guide to understanding containers and Docker technology.",
+          "title": "Introduction to Containers and Docker | endjin - Azure Data Analytics Consultancy UK"
+        },
+        {
+          "url": "https://docs.docker.com/get-started/introduction/",
+          "description": "An introductory guide to getting started with Docker for containerization.",
+          "title": "Introduction | Docker Docs"
+        },
+        {
+          "url": "https://spacelift.io/blog/docker-tutorial",
+          "description": "A beginner-friendly tutorial on using Docker for containerization.",
+          "title": "Docker Tutorial for Beginners - Introduction & Getting Started"
+        },
+        {
+          "url": "https://docs.docker.com/get-started/workshop/02_our_app/",
+          "description": "A step-by-step workshop guide for building and deploying a Dockerized application.",
+          "title": "Part 1: Containerize an application | Docker Docs"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/core/docker/build-container",
+          "description": "A guide on building Docker containers for .NET Core applications.",
+          "title": "Containerize an app with Docker tutorial - .NET | Microsoft Learn"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=b0HMimUb4f0",
+          "title": "Docker Tutorial for Beginners",
+          "duration": "50m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+          "title": "Complete Docker Course - From BEGINNER to PRO! (Learn Containers)",
+          "duration": "284m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pTFZFxd4hOI",
+          "title": "Docker Tutorial for Beginners",
+          "duration": "56m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=JBtWxj9l7zM",
+          "title": "Docker Tutorial - Docker Container Tutorial for Beginners",
+          "duration": "8m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ul96dslvVwY",
+          "title": "Day 1/40 - Docker Tutorial For Beginners - Docker Fundamentals - CKA Full Course 2025",
+          "duration": "25m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=17Bl31rlnRM",
+          "title": "Docker Tutorial for Beginners - What is Docker? Introduction to Containers",
+          "duration": "102m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+          "title": "Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers",
+          "duration": "130m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pg19Z8LL06w&pp=0gcJCfwAo7VqN5tD",
+          "title": "Docker Crash Course for Absolute Beginners [NEW]",
+          "duration": "67m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.docker.com/",
+          "description": "Official Docker documentation providing comprehensive guidance on containerization.",
+          "title": "Docker Docs"
+        },
+        {
+          "url": "https://www.docker.com/resources/what-container/",
+          "description": "An introductory guide explaining the concept and benefits of containerization using Docker.",
+          "title": "What is a Container? | Docker"
+        },
+        {
+          "url": "https://docs.docker.com/compose/",
+          "description": "Official documentation for Docker Compose, detailing configuration and usage.",
+          "title": "Docker Compose | Docker Docs"
+        },
+        {
+          "url": "https://www.docker.com/",
+          "description": "The official site for Docker, offering resources and tools for containerization and DevOps.",
+          "title": "Docker: Accelerated Container Application Development"
+        },
+        {
+          "url": "https://docs.docker.com/build/building/best-practices/",
+          "description": "A guide to best practices for building Docker images efficiently and securely.",
+          "title": "Best practices | Docker Docs"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://docs.docker.com/",
+          "description": "Official documentation for Docker, covering installation, usage, and management of containers.",
+          "title": "Docker Docs"
+        },
+        {
+          "url": "https://www.docker.com/blog/how-to-dockerize-your-python-applications/",
+          "description": "A step-by-step guide on containerizing Python applications using Docker.",
+          "title": "How to “Dockerize” Your Python Applications | Docker"
+        },
+        {
+          "url": "https://docs.docker.com/compose/",
+          "description": "Official documentation for using Docker Compose to define and run multi-container applications.",
+          "title": "Docker Compose | Docker Docs"
+        },
+        {
+          "url": "https://www.docker.com/blog/use-cases-and-tips-for-using-the-busybox-docker-official-image/",
+          "description": "Insights and tips for effectively using the BusyBox Docker Official Image.",
+          "title": "How to Use the BusyBox Docker Official Image | Docker"
+        },
+        {
+          "url": "https://hub.docker.com/",
+          "description": "A platform for sharing and discovering container images for Docker.",
+          "title": "Docker Hub Container Image Library | App Containerization"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=b0HMimUb4f0",
+          "title": "Docker Tutorial for Beginners",
+          "duration": "50m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=JyEwKm-OfxA",
+          "title": "Docker-in-Docker: Containerized CI Workflows (DockerCon 2023)",
+          "duration": "36m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RHjXPN_h1YA",
+          "title": "Docker Crash Course for Developers | Hands on Examples",
+          "duration": "49m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pTFZFxd4hOI",
+          "title": "Docker Tutorial for Beginners",
+          "duration": "56m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=n8YCPg0_Fpk",
+          "title": "Virtualisation & Containerisation With Docker Basics | Day 10",
+          "duration": "107m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=U7TY_qUD8yA",
+          "title": "Using Docker Containers with GitHub Actions",
+          "duration": "9m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=I6ZBUEc4LrU",
+          "title": "Day-29 | Docker Interview Questions with Answers | How many can you answer ? | Comment your score",
+          "duration": "38m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7QIA6Ja9xyU",
+          "title": "Automation with Docker for CI/CD Workflows",
+          "duration": "33m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://docs.docker.com/engine/",
+          "description": "Official documentation for Docker Engine, detailing installation, configuration, and usage.",
+          "title": "Docker Engine | Docker Docs"
+        },
+        {
+          "url": "https://www.docker.com/",
+          "description": "The official site for Docker, offering tools and resources for containerization and application development.",
+          "title": "Docker: Accelerated Container Application Development"
+        },
+        {
+          "url": "https://docs.docker.com/compose/",
+          "description": "Official documentation for Docker Compose, detailing usage, configuration, and deployment.",
+          "title": "Docker Compose | Docker Docs"
+        },
+        {
+          "url": "https://www.docker.com/products/docker-desktop/",
+          "description": "An overview of Docker Desktop, a tool for building and sharing containerized applications on Windows and macOS.",
+          "title": "Docker Desktop: The #1 Containerization Tool for Developers | Docker"
+        },
+        {
+          "url": "https://docs.docker.com/build/building/best-practices/",
+          "description": "Guidelines and best practices for building efficient Docker images.",
+          "title": "Best practices | Docker Docs"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+          "description": "An educational video tutorial on creating a basic web application using Flask.",
+          "title": "Complete Docker Course - From BEGINNER to PRO! (Learn Containers)",
+          "duration": "284m"
+        },
+        {
+          "url": "https://tailscale.com/blog/docker-tailscale-guide",
+          "description": "A guide on integrating Tailscale with Docker for secure network connections.",
+          "title": "Contain your excitement: A deep dive into using Tailscale with Docker"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CvSFl4jI8Hg",
+          "description": "A tutorial video on implementing a simple neural network using Python and NumPy.",
+          "title": "Container Images Deep Dive (DockerCon 2023)",
+          "duration": "44m"
+        },
+        {
+          "url": "https://masteringbackend.com/posts/docker-tutorial",
+          "description": "An in-depth tutorial on using Docker for backend development.",
+          "title": "The Definitive Guide To Docker in 2023 - Mastering Backend"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3F1ZOkqK7Ww",
+          "description": "A tutorial video on implementing a simple neural network from scratch using Python.",
+          "title": "Everything about containers and docker |Begginers Guide | multi stage |volumes | networking #devops",
+          "duration": "203m"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+          "title": "Complete Docker Course - From BEGINNER to PRO! (Learn Containers)",
+          "duration": "284m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+          "title": "Complete Kubernetes Course - From BEGINNER to PRO",
+          "duration": "374m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CvSFl4jI8Hg",
+          "title": "Container Images Deep Dive (DockerCon 2023)",
+          "duration": "44m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-dth0I3ZQ1w",
+          "title": "Mastering Docker: A Comprehensive Guide from Basics to Advanced | Day 11",
+          "duration": "122m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3F1ZOkqK7Ww",
+          "title": "Everything about containers and docker |Begginers Guide | multi stage |volumes | networking #devops",
+          "duration": "203m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+          "title": "Docker Tutorial for Beginners [FULL COURSE in 3 Hours]",
+          "duration": "166m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pTFZFxd4hOI",
+          "title": "Docker Tutorial for Beginners",
+          "duration": "56m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=n8YCPg0_Fpk",
+          "title": "Virtualisation & Containerisation With Docker Basics | Day 10",
+          "duration": "107m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main purpose of a Dockerfile in Docker?",
+        "options": [
+          "To run containers",
+          "To build Docker images",
+          "To manage network settings",
+          "To set environment variables"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the initial step required before running a container."
+      },
+      {
+        "question": "Which command is used to start a multi-container application defined in a Docker Compose file?",
+        "options": [
+          "docker-compose up",
+          "docker-compose start",
+          "docker-compose run",
+          "docker-compose launch"
+        ],
+        "correct_option": 0,
+        "hint": "This command also creates any needed networks and volumes."
+      },
+      {
+        "question": "What is the role of a Docker image in containerization?",
+        "options": [
+          "It is a running instance of a container",
+          "It acts as a template to create containers",
+          "It is used to connect containers",
+          "It is a tool to orchestrate containers"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what is needed before you can run a container."
+      },
+      {
+        "question": "Which Docker feature allows containers to communicate with each other and external networks?",
+        "options": [
+          "Docker Volumes",
+          "Docker Networks",
+          "Docker Compose",
+          "Docker Engine"
+        ],
+        "correct_option": 1,
+        "hint": "This feature is related to connectivity and communication."
+      },
+      {
+        "question": "What is the purpose of Docker Volumes?",
+        "options": [
+          "To store persistent data",
+          "To manage container resources",
+          "To build Docker images",
+          "To define multi-container applications"
+        ],
+        "correct_option": 0,
+        "hint": "Think about data persistence beyond the lifecycle of a container."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of a Dockerfile in the Docker ecosystem?",
+        "options": [
+          "To define the commands to create a Docker image",
+          "To manage the orchestration of multiple containers",
+          "To handle networking between containers",
+          "To store persistent data for containers"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the role of Dockerfile in the context of image creation."
+      },
+      {
+        "question": "In Docker Compose, which file format is typically used to define the services and configurations?",
+        "options": [
+          "YAML",
+          "JSON",
+          "XML",
+          "INI"
+        ],
+        "correct_option": 0,
+        "hint": "This format is known for its readability and is widely used in configuration files."
+      },
+      {
+        "question": "Which Docker command is used to build an image from a Dockerfile?",
+        "options": [
+          "docker build",
+          "docker create",
+          "docker run",
+          "docker image"
+        ],
+        "correct_option": 0,
+        "hint": "This command involves compiling the instructions in the Dockerfile into a Docker image."
+      },
+      {
+        "question": "When using Docker volumes, what is the primary benefit compared to bind mounts?",
+        "options": [
+          "Volumes are stored in a part of the host filesystem managed by Docker",
+          "Volumes allow for faster image building",
+          "Volumes are automatically backed up to the cloud",
+          "Volumes provide better network performance"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the management and storage location differences between volumes and bind mounts."
+      },
+      {
+        "question": "Which network driver in Docker provides a container with its own IP address and allows it to communicate with other containers without NAT?",
+        "options": [
+          "Bridge",
+          "Host",
+          "Overlay",
+          "None"
+        ],
+        "correct_option": 2,
+        "hint": "This driver is commonly used in Docker Swarm for network isolation and communication."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which Dockerfile command is used to set an environment variable that will persist in the image?",
+        "options": [
+          "ENV",
+          "RUN",
+          "CMD",
+          "LABEL"
+        ],
+        "correct_option": 0,
+        "hint": "This command is specifically designed to set variables that are accessible during the container runtime."
+      },
+      {
+        "question": "In Docker Compose, how do you specify the version of the Compose file format you are using?",
+        "options": [
+          "version: '3.8'",
+          "format: '3.8'",
+          "compose_version: '3.8'",
+          "file_version: '3.8'"
+        ],
+        "correct_option": 0,
+        "hint": "This is defined at the top of the docker-compose.yml file."
+      },
+      {
+        "question": "Which Docker networking mode allows containers to share the same network namespace?",
+        "options": [
+          "Bridge",
+          "Host",
+          "None",
+          "Overlay"
+        ],
+        "correct_option": 1,
+        "hint": "In this mode, containers share the host system's network stack."
+      },
+      {
+        "question": "What is the purpose of the 'VOLUME' instruction in a Dockerfile?",
+        "options": [
+          "To expose a port for networking",
+          "To run a command during build",
+          "To define a mount point for persistent data",
+          "To set an environment variable"
+        ],
+        "correct_option": 2,
+        "hint": "This instruction is used to designate a directory for persistent storage."
+      },
+      {
+        "question": "In Docker Compose, what command is used to run multiple services defined in a docker-compose.yml file?",
+        "options": [
+          "docker-compose up",
+          "docker-compose start",
+          "docker-compose run",
+          "docker-compose deploy"
+        ],
+        "correct_option": 0,
+        "hint": "This command both builds and starts the services."
+      }
+    ]
+  }
+}

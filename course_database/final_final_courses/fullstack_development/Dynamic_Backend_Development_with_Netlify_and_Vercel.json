@@ -1,0 +1,400 @@
+{
+  "id": "FS6",
+  "name": "Dynamic Backend Development with Netlify & Vercel",
+  "category": "FullStack Development",
+  "primary_tech": "Netlify/Vercel",
+  "topics": [
+    "Introduction to Serverless Concepts",
+    "Deploying with Netlify Functions",
+    "API Integration and Management",
+    "Using Vercel for Dynamic Routing",
+    "Building JAMstack Applications",
+    "Environment Configuration and Secrets Management",
+    "Optimizing Serverless Deployments",
+    "Monitoring and Debugging Serverless Applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "Netlify",
+    "Vercel",
+    "backend",
+    "serverless",
+    "fullstack",
+    "JAMstack"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://docs.expo.dev/router/reference/api-routes/",
+          "description": "A detailed reference guide for API routes in Expo's router.",
+          "title": "API Routes - Expo Documentation"
+        },
+        {
+          "url": "https://cli.vuejs.org/guide/deployment",
+          "description": "A guide on deploying Vue.js applications using the Vue CLI.",
+          "title": "Deployment | Vue CLI"
+        },
+        {
+          "url": "https://create-react-app.dev/docs/deployment/",
+          "description": "Guidelines for deploying applications created with Create React App.",
+          "title": "Deployment | Create React App"
+        },
+        {
+          "url": "https://docs.astro.build/en/guides/routing/",
+          "description": "A detailed guide on implementing routing in Astro projects.",
+          "title": "Routing | Docs"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=yLMODEUPJdU&pp=0gcJCfwAo7VqN5tD",
+          "description": "A YouTube tutorial on building a full-stack web application using React, Node.js, and Express."
+        },
+        {
+          "url": "https://www.linkedin.com/posts/addyosmani_softwareengineers-programming-reactjs-activity-7191481521675902976-8fqS",
+          "description": "Insights on improving React application performance from a software engineering perspective.",
+          "title": "A huge thanks for your reaction to \"Building large-scale web apps - A React field guide\"! | Addy Osmani"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FvsvHzcwOmQ",
+          "description": "A tutorial video on using GitHub Copilot for code assistance in Visual Studio Code."
+        },
+        {
+          "url": "https://makendran.hashnode.dev/nhost-the-perfect-backend-101-the-essential-guide",
+          "description": "An essential guide to understanding and using Nhost as an ideal backend solution.",
+          "title": "Vercel Security Checkpoint"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lwOsI8LtVEQ",
+          "description": "An in-depth tutorial on understanding JavaScript closures and their practical applications."
+        },
+        {
+          "url": "https://docusaurus.io/docs/deployment",
+          "description": "Guidelines for deploying Docusaurus websites efficiently.",
+          "title": "Docusaurus"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=yLMODEUPJdU&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=FvsvHzcwOmQ",
+        "https://www.youtube.com/watch?v=lwOsI8LtVEQ",
+        "https://www.youtube.com/watch?v=oIsf9zE-TRI&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=l134cBAJCuc&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Wm0Zd2jawAc",
+        "https://www.youtube.com/watch?v=oocZSB5W5d0"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://northflank.com/blog/vercel-vs-netlify-choosing-the-deployment-platform-in-2025",
+          "description": "A comparison of Vercel and Netlify for choosing a deployment platform in 2025.",
+          "title": "Vercel vs Netlify: Choosing the right one in 2025 (and what comes next) | Blog — Northflank"
+        },
+        {
+          "url": "https://vercel.com/",
+          "description": "A platform for deploying and managing modern web applications and static sites.",
+          "title": "Vercel: Build and deploy the best web experiences with the AI Cloud"
+        },
+        {
+          "url": "https://github.com/vercel/next.js/discussions/14807",
+          "description": "A discussion thread exploring the implementation of internationalized routing in Next.js applications.",
+          "title": "Vercel.json's \"includeFiles\" with `pages/api` serverless functions · vercel/next.js · Discussion #14807 · GitHub"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://vercel.com/",
+          "description": "A platform for deploying and hosting web applications seamlessly.",
+          "title": "Vercel: Build and deploy the best web experiences with the AI Cloud"
+        },
+        {
+          "url": "https://answers.netlify.com/t/server-side-rendering-with-netlify-functions/2897",
+          "description": "A guide on implementing server-side rendering using Netlify Functions.",
+          "title": "Server Side Rendering with Netlify Functions - Support - Netlify Support Forums"
+        },
+        {
+          "url": "https://docusaurus.io/docs/deployment",
+          "description": "Step-by-step instructions for deploying a Docusaurus site to various hosting platforms.",
+          "title": "Docusaurus"
+        },
+        {
+          "url": "https://skillshack.dev/threads/how-when-and-why-you-should-switch-from-vercel-to-a-different-hosting-provider-especially-for-nextjs",
+          "description": "Guidance on transitioning from Vercel to alternative hosting solutions for Next.js projects.",
+          "title": "skillShack(⚡) => { How, When, and Why you should switch from Vercel to a different Hosting Provider (Especially for Next.js) }"
+        },
+        {
+          "url": "https://www.netlify.com/",
+          "description": "A platform offering web hosting and serverless backend services for static websites and web applications.",
+          "title": "Scale & Ship Faster with a Composable Web Architecture | Netlify"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=a_5vCXPmRSo",
+        "https://www.youtube.com/watch?v=oocZSB5W5d0",
+        "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=taJlPG82Ucw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=FHTbsZEJspU",
+        "https://www.youtube.com/watch?v=hn1IkJk24ow",
+        "https://www.youtube.com/watch?v=RYavimJMaa0",
+        "https://www.youtube.com/watch?v=RcEmaTVIE24",
+        "https://www.youtube.com/watch?v=Nx-f2B27I-M",
+        "https://www.youtube.com/watch?v=GT0_U7Sz8Uc"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://vercel.com/",
+          "description": "A platform for frontend developers to deploy and host web applications effortlessly.",
+          "title": "Vercel: Build and deploy the best web experiences with the AI Cloud"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/addyosmani_softwareengineers-programming-reactjs-activity-7191481521675902976-8fqS",
+          "description": "Insights into software engineering practices and ReactJS development.",
+          "title": "A huge thanks for your reaction to \"Building large-scale web apps - A React field guide\"! | Addy Osmani"
+        },
+        {
+          "url": "https://northflank.com/blog/netlify-alternatives",
+          "description": "An overview of alternative platforms to Netlify for web hosting and deployment.",
+          "title": "7 Netlify alternatives in 2025: Where to go when your app grows up | Blog — Northflank"
+        },
+        {
+          "url": "https://hygraph.com/blog/strapi-alternative",
+          "description": "An informative comparison of Strapi and Hygraph as headless CMS alternatives.",
+          "title": "Top 7 Strapi Alternatives | Hygraph"
+        },
+        {
+          "url": "https://www.netlify.com/pricing/",
+          "description": "Detailed information on Netlify's pricing plans and features.",
+          "title": "Pricing and Plans | Netlify"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.linkedin.com/posts/addyosmani_softwareengineers-programming-reactjs-activity-7191481521675902976-8fqS",
+          "description": "Insights into improving ReactJS application performance and best practices.",
+          "title": "A huge thanks for your reaction to \"Building large-scale web apps - A React field guide\"! | Addy Osmani"
+        },
+        {
+          "url": "https://vercel.com/",
+          "description": "A platform for deploying and hosting modern web applications with ease.",
+          "title": "Vercel: Build and deploy the best web experiences with the AI Cloud"
+        },
+        {
+          "url": "https://designcode.io/cursor/",
+          "description": "A detailed tutorial on using Cursor for efficient code navigation and editing.",
+          "title": "Create your Dream Apps with Cursor and Claude AI - Design+Code"
+        },
+        {
+          "url": "https://vercel.com/guides",
+          "description": "A collection of guides and tutorials for deploying applications using Vercel.",
+          "title": "Guides"
+        },
+        {
+          "url": "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
+          "description": "A step-by-step guide to building a React frontend with a Java backend.",
+          "title": "Full-Stack Development With React and Java (Spring Boot): Complete 2025 Guide"
+        },
+        {
+          "url": "https://masteringbackend.com/posts/how-to-deploy-your-node-js-backend-project-to-vercel-a-step-by-step-guide",
+          "description": "A step-by-step guide for deploying Node.js backend projects to Vercel.",
+          "title": "How to Deploy Your Node.js Backend Project to Vercel: A Step-by-Step Guide - Mastering Backend"
+        },
+        {
+          "url": "https://www.netlify.com/pricing/",
+          "description": "An overview of Netlify's pricing plans and features for web deployment services.",
+          "title": "Pricing and Plans | Netlify"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=9AydJ-cg8fU",
+        "https://www.youtube.com/watch?v=YQCDUJ6hhNY&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=iPvryoo3uNI",
+        "https://www.youtube.com/watch?v=LiQdOAkXkks",
+        "https://www.youtube.com/watch?v=wm5gMKuwSYk",
+        "https://www.youtube.com/watch?v=VDw1wutnqN8",
+        "https://www.youtube.com/watch?v=PqQIeNO5l6A"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a primary benefit of using serverless architecture?",
+        "options": [
+          "Eliminates the need to manage servers",
+          "Requires constant server monitoring",
+          "Increases hardware dependency",
+          "Decreases application scalability"
+        ],
+        "correct_option": 0,
+        "hint": "This architectural model allows developers to focus on code rather than infrastructure."
+      },
+      {
+        "question": "Which service allows deploying serverless functions on the edge for faster performance?",
+        "options": [
+          "Netlify Functions",
+          "Vercel Edge Functions",
+          "AWS Lambda",
+          "Google Cloud Functions"
+        ],
+        "correct_option": 1,
+        "hint": "This service is known for its seamless integration with frontend frameworks and offering edge functions."
+      },
+      {
+        "question": "In the context of JAMstack applications, what does 'JAM' stand for?",
+        "options": [
+          "JavaScript, APIs, Markup",
+          "Java, Angular, MySQL",
+          "Jenkins, Apache, MongoDB",
+          "JSON, Asynchronous, Middleware"
+        ],
+        "correct_option": 0,
+        "hint": "This stack emphasizes decoupling the frontend from the backend with a focus on pre-rendered content."
+      },
+      {
+        "question": "What is a common use case for Netlify Functions?",
+        "options": [
+          "Hosting static websites",
+          "Providing dynamic backend capabilities",
+          "Creating frontend UI components",
+          "Managing DNS settings"
+        ],
+        "correct_option": 1,
+        "hint": "These functions allow for running backend code in response to events."
+      },
+      {
+        "question": "Which feature of Vercel supports dynamic routing in applications?",
+        "options": [
+          "Vercel Deployments",
+          "Vercel Dynamic Routes",
+          "Vercel Edge Caching",
+          "Vercel Serverless Functions"
+        ],
+        "correct_option": 3,
+        "hint": "This feature allows handling paths that aren't pre-defined at build time."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is one of the main benefits of using serverless computing in backend development?",
+        "options": [
+          "Reduced server costs",
+          "Guaranteed uptime",
+          "Unlimited storage",
+          "Direct hardware control"
+        ],
+        "correct_option": 0,
+        "hint": "Think about cost-efficiency and infrastructure management."
+      },
+      {
+        "question": "When deploying a function with Netlify, what file must be configured to specify environment variables?",
+        "options": [
+          "netlify.toml",
+          "package.json",
+          "config.yaml",
+          "server.js"
+        ],
+        "correct_option": 0,
+        "hint": "It's a configuration file specific to Netlify."
+      },
+      {
+        "question": "Which method is commonly used in Vercel to handle dynamic routing in a serverless environment?",
+        "options": [
+          "Using Express.js middleware",
+          "Defining routes in vercel.json",
+          "Server-side rendering",
+          "Client-side redirects"
+        ],
+        "correct_option": 1,
+        "hint": "This method involves a specific JSON configuration file."
+      },
+      {
+        "question": "In the context of JAMstack applications, what does the 'J' stand for?",
+        "options": [
+          "JavaScript",
+          "Java",
+          "JSON",
+          "JQuery"
+        ],
+        "correct_option": 0,
+        "hint": "It's a programming language used for dynamic functionalities."
+      },
+      {
+        "question": "Which tool can be used to monitor and debug serverless functions deployed on Netlify?",
+        "options": [
+          "Netlify Analytics",
+          "AWS CloudWatch",
+          "Netlify Logs",
+          "Google Analytics"
+        ],
+        "correct_option": 2,
+        "hint": "This feature is part of the Netlify platform."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary advantage of using serverless functions in a JAMstack application?",
+        "options": [
+          "Reduced server maintenance cost",
+          "Improved SEO",
+          "Static site generation",
+          "Enhanced database management"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the operational benefits related to servers."
+      },
+      {
+        "question": "When deploying with Netlify Functions, which command is essential to build and deploy functions locally before going live?",
+        "options": [
+          "netlify build",
+          "netlify serve",
+          "ntl dev",
+          "netlify init"
+        ],
+        "correct_option": 2,
+        "hint": "It's a command that helps simulate Netlify's environment locally."
+      },
+      {
+        "question": "How does Vercel handle dynamic routing in a serverless environment?",
+        "options": [
+          "By using a server-side framework",
+          "Through a configuration file with route definitions",
+          "By leveraging Next.js file-based routing",
+          "Via an external API service"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the built-in capabilities of frameworks supported by Vercel."
+      },
+      {
+        "question": "Which method is preferred for securing environment variables in a Netlify deployment?",
+        "options": [
+          "Storing them in a .env file in the project root",
+          "Using Netlify's UI to set environment variables",
+          "Hardcoding them in the source code",
+          "Encrypting them in a separate file"
+        ],
+        "correct_option": 1,
+        "hint": "Think about Netlify's built-in features for managing sensitive information."
+      },
+      {
+        "question": "In the context of optimizing serverless deployments, what role does 'cold start' play?",
+        "options": [
+          "It enhances the startup time of functions",
+          "It refers to the initial delay when invoking a function",
+          "It optimizes the runtime performance of functions",
+          "It's an approach for caching static assets"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what happens the first time a serverless function is executed."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User is building JAMstack/Next.js/Nuxt.js applications",
+    "Wants simplified deployment workflow"
+  ]
+}

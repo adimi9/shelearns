@@ -1,0 +1,412 @@
+{
+  "id": "FE5",
+  "name": "SASS / SCSS Styling",
+  "category": "Frontend Development",
+  "primary_tech": "SASS / SCSS",
+  "topics": [
+    "Nesting & Variables",
+    "Mixins & Functions",
+    "Modular Architecture"
+  ],
+  "recommended": false,
+  "tags": [
+    "css",
+    "preprocessor",
+    "styling"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://sass-lang.com/documentation/",
+          "description": "Official documentation for the Sass CSS preprocessor, detailing syntax and features.",
+          "title": "Sass: Documentation"
+        },
+        {
+          "url": "https://code.visualstudio.com/docs/languages/css",
+          "description": "Official documentation for using and configuring CSS in Visual Studio Code.",
+          "title": "CSS, SCSS and Less"
+        },
+        {
+          "url": "https://sass-lang.com/guide/",
+          "description": "An introductory guide to using Sass for efficient and powerful CSS styling.",
+          "title": "Sass: Sass Basics"
+        },
+        {
+          "url": "https://docusaurus.io/docs/styling-layout",
+          "description": "Guidelines for customizing the styling and layout in Docusaurus projects.",
+          "title": "Docusaurus"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+          "description": "An extensive reference and guide to CSS (Cascading Style Sheets) for web development.",
+          "title": "CSS: Cascading Style Sheets | MDN"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://sass-lang.com/guide/",
+          "description": "An introductory guide to using Sass for enhancing CSS with variables, nesting, and more.",
+          "title": "Sass: Sass Basics"
+        },
+        {
+          "url": "https://www.w3schools.com/sass/",
+          "description": "An educational resource for learning SASS, a CSS preprocessor, with interactive examples and tutorials.",
+          "title": "Sass Tutorial"
+        },
+        {
+          "url": "https://sass-lang.com/documentation/",
+          "description": "Official documentation for Sass, a CSS preprocessor scripting language.",
+          "title": "Sass: Documentation"
+        },
+        {
+          "url": "https://www.w3schools.com/sass/sass_intro.asp",
+          "description": "An introductory guide to SASS, a CSS preprocessor, and its features.",
+          "title": "Sass Introduction"
+        },
+        {
+          "url": "https://code.visualstudio.com/docs/languages/css",
+          "description": "Official documentation for CSS language support in Visual Studio Code.",
+          "title": "CSS, SCSS and Less"
+        },
+        {
+          "url": "https://forum.freecodecamp.org/t/responsive-design-w-scss/310015",
+          "description": "A discussion on implementing responsive design using SCSS in web development.",
+          "title": "Responsive Design w/ SCSS - HTML-CSS - The freeCodeCamp Forum"
+        },
+        {
+          "url": "https://www.toptal.com/sass/theming-scss-tutorial",
+          "description": "A tutorial on creating themes using SCSS for customizable web design.",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=oq3cmfdleME",
+        "https://www.youtube.com/watch?v=_a5j7KoflTs",
+        "https://m.youtube.com/watch?v=Zz6eOVaaelI&t=19s",
+        "https://www.youtube.com/watch?v=jfMHA8SqUL4",
+        "https://www.youtube.com/watch?v=t9IHDRWx1dQ",
+        "https://www.youtube.com/watch?v=kpcjSaRngg8",
+        "https://www.youtube.com/watch?v=_kqN4hl9bGc",
+        "https://www.youtube.com/watch?v=8F1Vof0gTG4"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://sass-lang.com/documentation/at-rules/use/",
+          "description": "An explanation of the @use rule in Sass for managing stylesheets and namespaces.",
+          "title": "Sass: @use"
+        },
+        {
+          "url": "https://docs.astro.build/en/guides/styling/",
+          "description": "Guidelines for styling web applications using Astro framework.",
+          "title": "Styles and CSS | Docs"
+        },
+        {
+          "url": "https://docusaurus.io/docs/styling-layout",
+          "description": "Guidelines for customizing the styling and layout of Docusaurus sites.",
+          "title": "Docusaurus"
+        },
+        {
+          "url": "https://webpack.js.org/loaders/sass-loader/",
+          "description": "Documentation for integrating Sass into projects using webpack's sass-loader.",
+          "title": "sass-loader | webpack"
+        },
+        {
+          "url": "https://github.com/vitejs/vite/discussions/18388",
+          "description": "A discussion on Vite's plugin system and its capabilities for extending build functionality.",
+          "title": "How to globally inject SCSS variables now that Sass has deprecated @import? · vitejs/vite · Discussion #18388 · GitHub"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://sass-lang.com/dart-sass/",
+          "description": "Official documentation for Dart Sass, a modern CSS preprocessor.",
+          "title": "Sass: Dart Sass"
+        },
+        {
+          "url": "https://docs.astro.build/en/guides/styling/",
+          "description": "A guide on styling techniques and best practices in Astro projects.",
+          "title": "Styles and CSS | Docs"
+        },
+        {
+          "url": "https://sass-lang.com/documentation/at-rules/use/",
+          "description": "An overview of the @use rule for modularizing and importing stylesheets in Sass.",
+          "title": "Sass: @use"
+        },
+        {
+          "url": "https://github.com/sass/sass/issues/2875",
+          "description": "Discussion on the implementation and challenges of adding the 'extend' feature to Sass modules.",
+          "title": "Limitations of @use for chunking · Issue #2875 · sass/sass"
+        },
+        {
+          "url": "https://sass-lang.com/documentation/at-rules/mixin/",
+          "description": "Documentation on defining and using mixins in Sass for reusable styles.",
+          "title": "Sass: @mixin and @include"
+        },
+        {
+          "url": "https://stackoverflow.com/questions/45899894/when-to-use-extend-and-mixin-in-sass",
+          "description": "Discussion on the differences and use cases for extend and mixin in SASS.",
+          "title": "Just a moment..."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=qfscKppw1mE",
+        "https://www.youtube.com/watch?v=UlOzbc219AM",
+        "https://www.youtube.com/watch?v=EKHd0Dcc4IY",
+        "https://www.youtube.com/watch?v=WDpxqopXd9U",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=oZPR_78wCnY",
+        "https://www.youtube.com/watch?v=aMTRukxrjuE",
+        "https://www.youtube.com/watch?v=p0bGHP-PXD4",
+        "https://www.youtube.com/watch?v=MCXBZ-QKLFU",
+        "https://www.youtube.com/c/Harshitvashisth"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://sass-lang.com/guide/",
+          "description": "An introductory guide to using Sass for enhancing CSS with variables, nesting, and more.",
+          "title": "Sass: Sass Basics"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+          "description": "An extensive resource for learning and referencing CSS properties and techniques.",
+          "title": "CSS: Cascading Style Sheets | MDN"
+        },
+        {
+          "url": "https://sass-lang.com/",
+          "description": "An official resource for learning and using the Sass CSS preprocessor.",
+          "title": "Sass: Syntactically Awesome Style Sheets"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "Comprehensive documentation and resources for learning and using JavaScript on the web.",
+          "title": "JavaScript | MDN"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://sass-lang.com/guide/",
+          "description": "An introductory guide to using and understanding Sass for efficient CSS styling.",
+          "title": "Sass: Sass Basics"
+        },
+        {
+          "url": "https://devndijon.hashnode.dev/customizing-bootstrap-with-sass-for-beginners",
+          "description": "A beginner's guide to customizing Bootstrap using Sass for enhanced web design.",
+          "title": "Vercel Security Checkpoint"
+        },
+        {
+          "url": "https://sass-lang.com/",
+          "description": "Official website for Sass, a powerful CSS extension language.",
+          "title": "Sass: Syntactically Awesome Style Sheets"
+        },
+        {
+          "url": "https://www.w3schools.com/css/",
+          "description": "An educational resource for learning and referencing CSS basics and advanced techniques.",
+          "title": "CSS Tutorial"
+        },
+        {
+          "url": "https://blog.angular-university.io/angular-host-context/",
+          "description": "An in-depth exploration of the Angular host-context selector for styling components.",
+          "title": "Angular :host, :host-context, ::ng-deep - The Complete Guide"
+        },
+        {
+          "url": "https://www.udemy.com/topic/sass/",
+          "description": "An online course platform offering tutorials on mastering SASS for web development.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.scalablecss.com/bem-quickstart-guide/",
+          "description": "A quickstart guide to implementing BEM methodology for scalable CSS.",
+          "title": "BEM Methodology In CSS: A Quick Start Guide - Scalable CSS"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_a5j7KoflTs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=9Ld-aOKsEDk",
+        "https://www.youtube.com/watch?v=cpbN0YAW44g",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=wsnV1r59UCY",
+        "https://www.youtube.com/watch?v=aoQ6S1a32j8",
+        "https://www.youtube.com/watch?v=dHbYcAncAgQ",
+        "https://www.youtube.com/watch?v=45P3xQPaYxc"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary benefit of using variables in SASS/SCSS?",
+        "options": [
+          "To store reusable values like colors and fonts",
+          "To create loops",
+          "To define HTML elements",
+          "To perform arithmetic operations"
+        ],
+        "correct_option": 0,
+        "hint": "Variables help in maintaining consistency and reusability in styles."
+      },
+      {
+        "question": "How do you define a variable in SASS/SCSS?",
+        "options": [
+          "var-color: #333;",
+          "$color: #333;",
+          "color: #333;",
+          "@color: #333;"
+        ],
+        "correct_option": 1,
+        "hint": "In SASS/SCSS, variables start with a dollar sign."
+      },
+      {
+        "question": "What is a SASS mixin used for?",
+        "options": [
+          "To mix two colors",
+          "To define reusable styles",
+          "To create variables",
+          "To import styles from another file"
+        ],
+        "correct_option": 1,
+        "hint": "Mixins allow you to create reusable chunks of code."
+      },
+      {
+        "question": "How can you nest CSS selectors in SCSS?",
+        "options": [
+          "Using @nest directive",
+          "By writing selectors one after another",
+          "By placing a selector inside another selector",
+          "Using & character outside"
+        ],
+        "correct_option": 2,
+        "hint": "Nesting is done by placing one selector inside another."
+      },
+      {
+        "question": "What is modular architecture in SASS/SCSS?",
+        "options": [
+          "Organizing styles into separate files",
+          "Using variables for all styles",
+          "Writing all styles in a single file",
+          "Avoiding mixins and functions"
+        ],
+        "correct_option": 0,
+        "hint": "Modular architecture helps in maintaining code by dividing it into components."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of using variables in SASS/SCSS?",
+        "options": [
+          "To store values that can be reused throughout the stylesheet",
+          "To create loops in the stylesheet",
+          "To import CSS files",
+          "To compile SASS into CSS"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how variables can help in reducing code repetition."
+      },
+      {
+        "question": "Which of the following syntax is correct for nesting selectors in SCSS?",
+        "options": [
+          ".parent .child { color: blue; }",
+          ".parent { &.child { color: blue; }}",
+          ".parent { .child { color: blue; }}",
+          ".parent { child { color: blue; }}"
+        ],
+        "correct_option": 2,
+        "hint": "Nesting in SCSS is achieved by placing the child selector inside the parent selector."
+      },
+      {
+        "question": "What is a mixin in SCSS?",
+        "options": [
+          "A function that returns a value",
+          "A reusable block of styles",
+          "A built-in SCSS function",
+          "A placeholder selector"
+        ],
+        "correct_option": 1,
+        "hint": "Mixins are used to avoid code repetition and can include multiple CSS rules."
+      },
+      {
+        "question": "How does modular architecture benefit SASS/SCSS projects?",
+        "options": [
+          "It increases the compilation time",
+          "It makes the code more maintainable and scalable",
+          "It decreases the number of files",
+          "It ensures that styles are written in plain CSS"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how organizing code into modules affects project management."
+      },
+      {
+        "question": "Which of the following is a correct way to use a function in SCSS?",
+        "options": [
+          "@function example($value) { return $value * 2; }",
+          "example($value) { return $value + 2; }",
+          "$result: example(5);",
+          "@include example(5);"
+        ],
+        "correct_option": 2,
+        "hint": "Functions in SCSS are called similarly to how functions are called in programming languages."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "How does SASS/SCSS handle variable scope when using nested selectors?",
+        "options": [
+          "Variables are global and can be accessed anywhere in the file.",
+          "Variables have a local scope within the nested selector only.",
+          "Variables are scoped to the parent selector of the nesting.",
+          "Variables can only be accessed by mixins within the nested block."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how variables can be reused across different parts of a SASS/SCSS file."
+      },
+      {
+        "question": "What is the primary advantage of using the @extend directive in SASS/SCSS?",
+        "options": [
+          "It allows for code reuse by sharing styles between selectors.",
+          "It compiles faster than using mixins.",
+          "It prevents the need for nesting.",
+          "It automatically generates media queries."
+        ],
+        "correct_option": 0,
+        "hint": "Think about how @extend can reduce redundancy in styling."
+      },
+      {
+        "question": "Which of the following statements best describes the use of mixins in SASS/SCSS?",
+        "options": [
+          "Mixins can only accept parameters but cannot return values.",
+          "Mixins allow for the inclusion of style rules and can accept arguments.",
+          "Mixins are used solely for declaring variables.",
+          "Mixins are a method to include CSS resets."
+        ],
+        "correct_option": 1,
+        "hint": "Mixins are versatile tools for reusing styles with or without parameters."
+      },
+      {
+        "question": "In a modular architecture using SASS/SCSS, what is the purpose of partials?",
+        "options": [
+          "To compile all SASS/SCSS files into a single CSS file.",
+          "To allow for better organization and maintainability of styles.",
+          "To automatically generate source maps for easier debugging.",
+          "To enable the use of JavaScript within stylesheets."
+        ],
+        "correct_option": 1,
+        "hint": "Consider how partials can help manage large codebases."
+      },
+      {
+        "question": "How can you ensure that a SASS/SCSS function does not produce any CSS output?",
+        "options": [
+          "Use the @silent directive inside the function.",
+          "Define the function with the @return directive only.",
+          "Prefix the function name with an underscore.",
+          "Functions inherently do not produce CSS output, only return values."
+        ],
+        "correct_option": 3,
+        "hint": "Think about the nature of functions in programming and their purpose in SASS/SCSS."
+      }
+    ]
+  }
+}

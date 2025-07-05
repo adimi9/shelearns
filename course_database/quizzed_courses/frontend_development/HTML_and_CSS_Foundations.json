@@ -1,0 +1,279 @@
+{
+  "id": "FE8",
+  "name": "HTML & CSS Foundations",
+  "category": "Frontend Development",
+  "primary_tech": [
+    "HTML",
+    "CSS"
+  ],
+  "topics": [
+    "HTML Syntax & Semantics",
+    "CSS Box Model & Layout",
+    "Responsive Design"
+  ],
+  "recommended": true,
+  "tags": [
+    "markup",
+    "styling",
+    "fundamentals"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "https://www.theodinproject.com/lessons/foundations-introduction-to-html-and-css",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "https://electronjs.org/docs/latest",
+        "https://teamtreehouse.com/community/foundation-framework-basics-using-v4-documentation"
+      ],
+      "notes": [
+        "https://www.codecademy.com/catalog/language/html-css",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
+        "https://www.theodinproject.com/lessons/foundations-introduction-to-html-and-css",
+        "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "https://www.w3schools.com/html/",
+        "https://online.duke.edu/course/programming-and-the-web-for-beginners/",
+        "https://www.w3schools.com/html/html_css.asp"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+        "https://www.youtube.com/watch?v=_drzb7j9Bg4",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=Eb3lOiukwAQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=jQr-bM6-XTc",
+        "https://www.youtube.com/watch?v=iG2jotQo9NI&pp=0gcJCf0Ao7VqN5tD",
+        "https://m.youtube.com/watch?v=tr7EH48TFiE&t=0s",
+        "https://www.youtube.com/@DaveGrayTeachesCode"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "https://vuejs.org/guide/introduction",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "https://nextjs.org/docs",
+        "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements"
+      ],
+      "notes": [
+        "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "https://tailwindcss.com/",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "https://realpython.com/html-css-python/",
+        "https://www.codecademy.com/learn/learn-css"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=WbNNESIxJnY",
+        "https://www.youtube.com/watch?v=FtaQSdrl7YA",
+        "https://www.youtube.com/watch?v=0hqhAIjE_8I",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUGIzEzc3Ny",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=QwSN4n2sjR8",
+        "https://www.youtube.com/channel/UCoenK-6AKTzjwPB8fi2BWrw",
+        "https://www.youtube.com/@syntaxfm"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "https://vuejs.org/guide/introduction",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://nextjs.org/docs",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      ],
+      "notes": [
+        "https://www.w3schools.com/html/",
+        "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "https://www.w3schools.com/css/",
+        "https://explore.reallygoodemails.com/new-to-email-coding-heres-where-to-start-2494422f0bd4",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
+        "https://web.dev/learn/css",
+        "https://www.geeksforgeeks.org/60-days-of-frontend-development/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=G3e-cpL7ofc&pp=ygUGI2R2Y3Nz",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=lCxcTsOHrjo",
+        "https://www.youtube.com/watch?v=OXGznpKZ_sA",
+        "https://www.youtube.com/watch?v=iG2jotQo9NI&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=HGTJBPNC-Gw",
+        "https://www.youtube.com/kevinpowell",
+        "https://www.youtube.com/c/ProgrammingAdvices/videos",
+        "https://www.youtube.com/c/webdevsimplified"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does HTML stand for?",
+        "options": [
+          "Hyper Text Markup Language",
+          "Hyperlinks and Text Markup Language",
+          "High Text Markup Language",
+          "Hyperlinking Text Markup Language"
+        ],
+        "correct_option": 0,
+        "hint": "It's a language used to create web pages."
+      },
+      {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+          "<link>",
+          "<a>",
+          "<href>",
+          "<url>"
+        ],
+        "correct_option": 1,
+        "hint": "It stands for 'anchor'."
+      },
+      {
+        "question": "In CSS, which property is used to change the background color of an element?",
+        "options": [
+          "background-color",
+          "color",
+          "bgcolor",
+          "background-style"
+        ],
+        "correct_option": 0,
+        "hint": "It is a compound word starting with 'background'."
+      },
+      {
+        "question": "What is the purpose of the CSS Box Model?",
+        "options": [
+          "To define elements as boxes with padding, borders, and margins",
+          "To create animations",
+          "To style text",
+          "To connect HTML and CSS"
+        ],
+        "correct_option": 0,
+        "hint": "It involves margins, borders, padding, and content."
+      },
+      {
+        "question": "Which viewport width should media queries start from to ensure responsive design?",
+        "options": [
+          "0px",
+          "768px",
+          "1024px",
+          "320px"
+        ],
+        "correct_option": 3,
+        "hint": "It is commonly used as the width for mobile devices."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which HTML element is used to define important text that is usually bold and significant?",
+        "options": [
+          "<important>",
+          "<strong>",
+          "<b>",
+          "<em>"
+        ],
+        "correct_option": 1,
+        "hint": "This tag is used to indicate that the text has strong importance."
+      },
+      {
+        "question": "In the CSS box model, which property is used to control the space between the element border and the content?",
+        "options": [
+          "margin",
+          "padding",
+          "border",
+          "content"
+        ],
+        "correct_option": 1,
+        "hint": "This property adjusts the space between the border and the content."
+      },
+      {
+        "question": "What is the main purpose of the CSS flexbox layout model?",
+        "options": [
+          "To create grid layouts",
+          "To provide a flexible way to layout items in a container",
+          "To make text responsive",
+          "To standardize browser behavior"
+        ],
+        "correct_option": 1,
+        "hint": "This layout model offers a way to align and distribute space among items in a container."
+      },
+      {
+        "question": "Which of the following is a semantic HTML5 element?",
+        "options": [
+          "<div>",
+          "<section>",
+          "<span>",
+          "<font>"
+        ],
+        "correct_option": 1,
+        "hint": "This element is used to define a section in a document and has semantic meaning."
+      },
+      {
+        "question": "In responsive web design, which CSS unit is relative to the viewport width?",
+        "options": [
+          "em",
+          "px",
+          "vw",
+          "rem"
+        ],
+        "correct_option": 2,
+        "hint": "This unit is a percentage of the viewport's width."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which HTML5 element is used to define navigation links?",
+        "options": [
+          "<nav>",
+          "<header>",
+          "<footer>",
+          "<section>"
+        ],
+        "correct_option": 0,
+        "hint": "This element is specifically designed for navigation purposes."
+      },
+      {
+        "question": "How can you center a block element horizontally using CSS?",
+        "options": [
+          "Use 'margin: 0 auto;'",
+          "Set 'text-align: center;'",
+          "Apply 'position: absolute;'",
+          "Utilize 'display: inline-block;'"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how margins can be used to center block elements."
+      },
+      {
+        "question": "In CSS, what does the 'box-sizing: border-box;' property do?",
+        "options": [
+          "Includes padding and border in the element's total width and height",
+          "Excludes margin from the total width and height",
+          "Sets the box model to use the default content-box",
+          "Automatically adjusts the width and height based on content"
+        ],
+        "correct_option": 0,
+        "hint": "This property alters the default CSS box model."
+      },
+      {
+        "question": "Which of the following CSS properties is NOT related to responsive design?",
+        "options": [
+          "flex-wrap",
+          "media",
+          "min-width",
+          "border-radius"
+        ],
+        "correct_option": 3,
+        "hint": "Consider which property affects the shape of elements rather than layout or media queries."
+      },
+      {
+        "question": "What is the primary purpose of the <meta viewport> tag in responsive web design?",
+        "options": [
+          "To control the viewport's width and scaling on mobile devices",
+          "To add metadata about the HTML document",
+          "To link external stylesheets",
+          "To define character encoding"
+        ],
+        "correct_option": 0,
+        "hint": "This tag is crucial for making sites mobile-friendly."
+      }
+    ]
+  }
+}

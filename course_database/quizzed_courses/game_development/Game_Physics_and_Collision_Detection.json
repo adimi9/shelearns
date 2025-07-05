@@ -1,0 +1,278 @@
+{
+  "id": "GD20",
+  "name": "Game Physics & Collision Detection",
+  "category": "Game Development",
+  "primary_tech": "Physics Engines",
+  "topics": [
+    "Rigidbody Dynamics",
+    "Collision Shapes & Layers",
+    "Triggers & Overlaps",
+    "Forces, Torques & Joints"
+  ],
+  "recommended": true,
+  "tags": [
+    "physics",
+    "gameplay",
+    "simulation"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html",
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/CollidersOverview.html",
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/collision-in-unreal-engine---overview",
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/class-Rigidbody.html",
+        "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_collision_detection"
+      ],
+      "notes": [
+        "https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects",
+        "https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html",
+        "https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics",
+        "https://winter.dev/articles/physics-engine",
+        "https://discourse.threejs.org/t/tutorial-on-javascript-physics-using-ammojs-and-threejs/7285",
+        "https://love2d.org/forums/viewtopic.php?t=78886"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=MsawDJ6BFto",
+        "https://www.youtube.com/watch?v=miQ4YmPtFJE",
+        "https://www.youtube.com/watch?v=ivoLnRVJgks&pp=ygUSI2dhbWVwaHlzaWNzZW5naW5l",
+        "https://www.youtube.com/watch?v=D16hTnDGweo",
+        "https://www.youtube.com/watch?v=B0aGFBo_Ki0",
+        "https://www.youtube.com/watch?v=3Oay1YxkP5c",
+        "https://www.youtube.com/watch?v=9eo0JF2HeEA",
+        "https://www.youtube.com/watch?v=LOhfqjmasi0"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html",
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/CollidersOverview.html",
+        "https://github.com/bulletphysics/bullet3",
+        "https://jrouwe.github.io/JoltPhysics/"
+      ],
+      "notes": [
+        "https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects",
+        "https://research.ncl.ac.uk/game/mastersdegree/gametechnologies/previousinformation/physics4collisiondetection/2017%20Tutorial%204%20-%20Collision%20Detection.pdf",
+        "https://github.com/jrouwe/JoltPhysics",
+        "https://oramind.com/ogre-bullet-a-beginners-basic-guide/",
+        "https://github.com/bulletphysics/bullet3",
+        "https://winter.dev/articles/physics-engine",
+        "https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Uv7DWq6KFbk",
+        "https://www.youtube.com/watch?v=P_6W-36QfLA",
+        "https://www.youtube.com/watch?v=fJyi7l2tWKo",
+        "https://www.youtube.com/watch?v=-GWTDhOQU6M",
+        "https://www.youtube.com/watch?v=QxpgtVrjYrg",
+        "https://www.youtube.com/watch?v=vGpFwaLUG4U",
+        "https://www.youtube.com/watch?v=Mry6FdWnN7I",
+        "https://www.youtube.com/watch?v=k0vZbIclXjE",
+        "https://www.youtube.com/watch?v=87q_ATDhrVY",
+        "https://www.youtube.com/watch?v=1mSv76tJ40s"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://forum.babylonjs.com/t/havok-engine-documentation/41366",
+        "https://doc.babylonjs.com/features/featuresDeepDive/physics/characterController/",
+        "https://docs.unity3d.com/560/Documentation/Manual/CollidersOverview.html",
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/physics-in-unreal-engine",
+        "https://docs.unity3d.com/550/Documentation/Manual/class-Rigidbody.html"
+      ],
+      "notes": [
+        "https://winter.dev/articles/physics-engine",
+        "https://olitor.uw.edu/r6-collision-point",
+        "https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics",
+        "https://www.ea.com/games/madden-nfl/madden-nfl-25/news/gridiron-notes-madden-25-gameplay-deep-dive",
+        "https://as3gametuts.com/2011/09/24/pong-5/",
+        "https://edw.is/learning-vulkan/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ZpcOYg1Qfm4",
+        "https://www.youtube.com/watch?v=D16hTnDGweo",
+        "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+        "https://www.youtube.com/watch?v=6T_TDuzEo9o",
+        "https://www.youtube.com/watch?v=Nc_ZMgEFj-A&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=uVYaJNUjL2Y",
+        "https://m.youtube.com/watch?v=XD-7anXSOp0&t=1s",
+        "https://www.youtube.com/watch?v=R5o2CjPb3Tk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=FkEqFvqpyfE",
+        "https://www.youtube.com/channel/UCxzC4EngIsMrPmbm6Nxvb-A"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of using rigidbody dynamics in game physics?",
+        "options": [
+          "To simulate realistic object movement and interactions",
+          "To create static environments",
+          "To make objects transparent",
+          "To add sound effects to collisions"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how objects move and interact in the real world."
+      },
+      {
+        "question": "Which of the following is NOT a common collision shape used in game physics engines?",
+        "options": [
+          "Sphere",
+          "Cube",
+          "Pyramid",
+          "Capsule"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the basic geometric shapes that are easy to calculate."
+      },
+      {
+        "question": "What is the role of triggers in game physics?",
+        "options": [
+          "To apply force to objects",
+          "To detect when objects overlap without physical collision",
+          "To render objects",
+          "To change the color of objects"
+        ],
+        "correct_option": 1,
+        "hint": "Triggers are often used to detect events without impacting object movement."
+      },
+      {
+        "question": "Which force is necessary to simulate the effect of gravity on a falling object?",
+        "options": [
+          "Normal force",
+          "Friction",
+          "Centripetal force",
+          "Gravitational force"
+        ],
+        "correct_option": 3,
+        "hint": "Think about the force that pulls objects towards the Earth."
+      },
+      {
+        "question": "What does a joint do in the context of game physics engines?",
+        "options": [
+          "Connects two objects to enable movement relative to each other",
+          "Changes the mass of an object",
+          "Removes friction between surfaces",
+          "Increases the size of an object"
+        ],
+        "correct_option": 0,
+        "hint": "Joints are used to simulate connections that allow relative motion."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary role of a Rigidbody in a physics engine?",
+        "options": [
+          "To detect collisions between objects",
+          "To apply forces and simulate motion",
+          "To render graphics on the screen",
+          "To manage the game's user interface"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the component that handles dynamics and forces in game physics."
+      },
+      {
+        "question": "Which of the following best describes collision layers?",
+        "options": [
+          "They are used to apply gravity to objects in different directions.",
+          "They determine which objects can collide with each other.",
+          "They define the shape and size of the game world.",
+          "They are used to create visual effects during collisions."
+        ],
+        "correct_option": 1,
+        "hint": "Consider how developers control which objects interact with each other."
+      },
+      {
+        "question": "How do triggers differ from regular colliders in game physics?",
+        "options": [
+          "Triggers block the movement of objects, while regular colliders do not.",
+          "Triggers detect overlaps without affecting object movement, while regular colliders cause physical reactions.",
+          "Triggers are used for visual effects, while regular colliders handle physics calculations.",
+          "Triggers are only used in 3D games, while regular colliders are used in both 2D and 3D games."
+        ],
+        "correct_option": 1,
+        "hint": "Think about the role of triggers in detecting events without stopping objects."
+      },
+      {
+        "question": "Which force is responsible for causing rotational motion in physics engines?",
+        "options": [
+          "Gravity",
+          "Friction",
+          "Torque",
+          "Lift"
+        ],
+        "correct_option": 2,
+        "hint": "This force is a rotational equivalent to linear forces."
+      },
+      {
+        "question": "What is the function of joints in a physics engine?",
+        "options": [
+          "To connect two objects and constrain their relative movement",
+          "To increase the speed of collision detection algorithms",
+          "To apply textures to objects",
+          "To simulate lighting effects on surfaces"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how joints might be used to simulate mechanical connections."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In a physics engine, how is a Rigidbody different from a static body?",
+        "options": [
+          "A Rigidbody is affected by forces and can move, while a static body is immovable.",
+          "A Rigidbody can only rotate, while a static body can only translate.",
+          "A Rigidbody is used for collision detection, while a static body cannot collide.",
+          "A Rigidbody can only move in one direction, while a static body can move freely."
+        ],
+        "correct_option": 0,
+        "hint": "Consider the effects of forces and motion on each type of body."
+      },
+      {
+        "question": "What is the primary purpose of using collision layers in a physics engine?",
+        "options": [
+          "To optimize rendering performance.",
+          "To allow certain objects to collide with specific objects only.",
+          "To manage memory allocation for physics calculations.",
+          "To enhance the visual appearance of collisions."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how collision detection can be controlled between different objects."
+      },
+      {
+        "question": "In the context of triggers in game physics, what typically happens when an object enters a trigger zone?",
+        "options": [
+          "The object is immediately destroyed.",
+          "The physics engine ignores the object.",
+          "A predefined event or function is executed.",
+          "The object stops moving."
+        ],
+        "correct_option": 2,
+        "hint": "Consider what a trigger is designed to initiate in gameplay."
+      },
+      {
+        "question": "How does applying torque to a Rigidbody affect its motion in a physics engine?",
+        "options": [
+          "It changes the linear velocity of the Rigidbody.",
+          "It causes the Rigidbody to rotate around its center of mass.",
+          "It increases the mass of the Rigidbody.",
+          "It only affects objects in a zero-gravity environment."
+        ],
+        "correct_option": 1,
+        "hint": "Torque is related to rotational motion rather than linear motion."
+      },
+      {
+        "question": "Which of the following is a key advantage of using joints in a physics engine?",
+        "options": [
+          "They eliminate the need for collision detection.",
+          "They allow for complex constraints between objects.",
+          "They reduce the computational load of rendering.",
+          "They guarantee objects will never intersect."
+        ],
+        "correct_option": 1,
+        "hint": "Consider what joints are meant to achieve in terms of object interaction."
+      }
+    ]
+  }
+}

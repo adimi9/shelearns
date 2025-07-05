@@ -1,0 +1,275 @@
+{
+  "id": "MD10",
+  "name": "iOS App Development with Swift",
+  "category": "Mobile Development",
+  "primary_tech": "Swift",
+  "topics": [
+    "Swift Programming Language",
+    "Xcode IDE",
+    "UIKit/SwiftUI Basics",
+    "View Controllers & Navigation"
+  ],
+  "recommended": true,
+  "tags": [
+    "iOS",
+    "native",
+    "Apple",
+    "programming"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html",
+        "https://developer.apple.com/tutorials/app-dev-training/",
+        "https://firebase.google.com/docs",
+        "https://developer.apple.com/documentation/swift/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=CwA1VWP0Ldw&pp=0gcJCfwAo7VqN5tD",
+        "https://developer.apple.com/tutorials/develop-in-swift/",
+        "https://www.youtube.com/watch?v=yuo50-TiKgo",
+        "https://developer.apple.com/tutorials/app-dev-training/",
+        "https://www.youtube.com/watch?v=8Xcq4yRQ0pU"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=CwA1VWP0Ldw&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=fTGA8cjbf5Y&pp=ygUII2FwcGZ1bGw%3D",
+        "https://www.youtube.com/watch?v=3CMYu5Nomgc",
+        "https://www.youtube.com/watch?v=83WXmhin_LU",
+        "https://www.youtube.com/watch?v=yuo50-TiKgo",
+        "https://www.youtube.com/watch?v=uE8RCE45Yxc",
+        "https://www.youtube.com/watch?v=8Xcq4yRQ0pU",
+        "https://www.youtube.com/watch?v=uWEblkT0_Zk",
+        "https://www.youtube.com/watch?v=8Xg7E9shq0U&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/codewithchris"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs/ios/setup",
+        "https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html",
+        "https://firebase.google.com/docs"
+      ],
+      "notes": [
+        "https://forums.swift.org/t/is-it-good-idea-to-use-swift-for-windows-linux-apps/67219",
+        "https://swift.org/getting-started/",
+        "https://forums.swift.org/t/building-non-ui-programs-e-g-command-line-tools-servers-etc/71368",
+        "https://developer.apple.com/swift/",
+        "https://clean-swift.com/step-by-step-walkthrough-of-ios-test-driven-development-in-swift/",
+        "https://www.andrewhoog.com/post/how-to-build-an-ios-app-with-github-actions-2023/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=83WXmhin_LU",
+        "https://www.youtube.com/watch?v=CwA1VWP0Ldw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=CsuUwdoVwyw",
+        "https://www.youtube.com/watch?v=augrMEQeasU",
+        "https://www.youtube.com/watch?v=B4yJ85IaTUw",
+        "https://www.youtube.com/watch?v=S5qyWuVp3J4",
+        "https://www.youtube.com/watch?v=K0t-RCSlasE&pp=ygUJI2FwcGJ1aWxk",
+        "https://www.youtube.com/watch?v=MyYV65boqec",
+        "https://www.youtube.com/c/xcodingwithalfian"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.apple.com/swift/resources/",
+        "https://docs.mixpanel.com/docs/tracking-methods/sdks/swift",
+        "https://developer.apple.com/tutorials/app-dev-training/",
+        "https://developer.spotify.com/documentation/ios/getting-started"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+        "https://m.youtube.com/watch?v=EJQW864XpmA",
+        "https://www.youtube.com/watch?v=1whvTugenL4",
+        "https://m.youtube.com/watch?v=wargRHa8oKQ",
+        "https://www.youtube.com/watch?v=b1oC7sLIgpI",
+        "https://developer.apple.com/learn/",
+        "https://www.linkedin.com/posts/aleksa-simic-10bba5182_github-twostrawscontrolroom-a-macos-app-activity-7186423166909521920-v-2O"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+        "https://www.youtube.com/watch?v=b1oC7sLIgpI",
+        "https://m.youtube.com/watch?v=wargRHa8oKQ",
+        "https://www.youtube.com/watch?v=1whvTugenL4",
+        "https://www.youtube.com/watch?v=3CMYu5Nomgc",
+        "https://www.youtube.com/watch?v=XTAziR-tY-A",
+        "https://m.youtube.com/watch?v=EJQW864XpmA",
+        "https://www.youtube.com/watch?v=lkU5s5V1GTg",
+        "https://www.youtube.com/jamesmontemagno"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary programming language used for iOS app development?",
+        "options": [
+          "Python",
+          "Java",
+          "Swift",
+          "C++"
+        ],
+        "correct_option": 2,
+        "hint": "It starts with an 'S' and is developed by Apple."
+      },
+      {
+        "question": "Which IDE is primarily used for developing iOS applications?",
+        "options": [
+          "Visual Studio",
+          "Xcode",
+          "Eclipse",
+          "NetBeans"
+        ],
+        "correct_option": 1,
+        "hint": "This IDE is specifically designed for macOS."
+      },
+      {
+        "question": "What is UIKit primarily used for in iOS app development?",
+        "options": [
+          "Networking",
+          "User Interface Design",
+          "Database Management",
+          "Memory Management"
+        ],
+        "correct_option": 1,
+        "hint": "It helps in creating the visual layout of apps."
+      },
+      {
+        "question": "In Swift, which keyword is used to declare a constant?",
+        "options": [
+          "let",
+          "var",
+          "const",
+          "immutable"
+        ],
+        "correct_option": 0,
+        "hint": "It starts with the letter 'l'."
+      },
+      {
+        "question": "Which component is essential for managing views and navigation in an iOS app?",
+        "options": [
+          "Storyboard",
+          "View Controller",
+          "Asset Catalog",
+          "App Delegate"
+        ],
+        "correct_option": 1,
+        "hint": "It's responsible for managing a set of views."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is a characteristic of Swift's optionals?",
+        "options": [
+          "Optionals can only be used with integers.",
+          "Optionals cannot hold nil.",
+          "Optionals help in handling the absence of a value.",
+          "Optionals are automatically unwrapped by the compiler."
+        ],
+        "correct_option": 2,
+        "hint": "Think about how Swift handles missing values without crashing."
+      },
+      {
+        "question": "In Xcode, what is the purpose of the Interface Builder?",
+        "options": [
+          "To write Swift code.",
+          "To manage version control.",
+          "To design and arrange the UI components visually.",
+          "To compile the Swift code into executable applications."
+        ],
+        "correct_option": 2,
+        "hint": "It involves working with the visual layout of your app."
+      },
+      {
+        "question": "What is the primary role of a View Controller in iOS app development?",
+        "options": [
+          "To manage the data model.",
+          "To handle the user interface and interactions.",
+          "To compile the app for the App Store.",
+          "To manage memory allocation."
+        ],
+        "correct_option": 1,
+        "hint": "Think about the component that acts as an intermediary between the view and the model."
+      },
+      {
+        "question": "Which of the following is true about SwiftUI compared to UIKit?",
+        "options": [
+          "SwiftUI is only usable for macOS applications.",
+          "SwiftUI requires more code than UIKit for similar tasks.",
+          "SwiftUI allows for declarative syntax.",
+          "SwiftUI does not support live previews."
+        ],
+        "correct_option": 2,
+        "hint": "Consider the programming paradigm introduced with SwiftUI."
+      },
+      {
+        "question": "How does Navigation Controller assist in iOS app development?",
+        "options": [
+          "It provides tools for network connectivity.",
+          "It manages a stack of view controllers for hierarchical navigation.",
+          "It automatically adjusts for different screen sizes.",
+          "It offers templates for common UI components."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how view controllers are organized for user navigation."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following Swift features allows for defining a sequence of actions that can be executed in parallel, improving performance?",
+        "options": [
+          "Generics",
+          "Optionals",
+          "Grand Central Dispatch (GCD)",
+          "Closures"
+        ],
+        "correct_option": 2,
+        "hint": "Think about concurrency and task management in Swift."
+      },
+      {
+        "question": "In Xcode, which tool is primarily used for managing multiple UI screens and their transitions in an iOS app?",
+        "options": [
+          "Storyboard",
+          "Playground",
+          "Assistant Editor",
+          "Simulator"
+        ],
+        "correct_option": 0,
+        "hint": "It's a visual representation of the app’s UI flow."
+      },
+      {
+        "question": "When using SwiftUI, what is the primary protocol that must be implemented to create a new user interface element?",
+        "options": [
+          "UIViewRepresentable",
+          "View",
+          "CustomStringConvertible",
+          "Decodable"
+        ],
+        "correct_option": 1,
+        "hint": "This protocol is fundamental to building UI in SwiftUI."
+      },
+      {
+        "question": "How does Swift handle memory management for class instances?",
+        "options": [
+          "Manual Reference Counting",
+          "Automatic Reference Counting",
+          "Garbage Collection",
+          "Reference Counting by the Developer"
+        ],
+        "correct_option": 1,
+        "hint": "Swift uses a system that automatically tracks and manages memory usage."
+      },
+      {
+        "question": "In UIKit, what is the purpose of a UINavigationController?",
+        "options": [
+          "To manage the hierarchy of views",
+          "To handle network requests",
+          "To manage the lifecycle of an app",
+          "To animate view transitions"
+        ],
+        "correct_option": 0,
+        "hint": "It helps organize view controllers in a stack-based navigation interface."
+      }
+    ]
+  }
+}

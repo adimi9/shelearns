@@ -1,0 +1,287 @@
+{
+  "id": "BE15",
+  "name": "Node.js for Backend Development",
+  "category": "Backend Development",
+  "primary_tech": "Node.js",
+  "topics": [
+    "Introduction to Node.js and its Architecture",
+    "Understanding the Event Loop and Asynchronous Programming",
+    "Setting Up a Basic Server with HTTP Module",
+    "Building RESTful APIs using Express.js",
+    "Database Integration with Node.js and MongoDB",
+    "Implementing Authentication and Authorization",
+    "Error Handling and Debugging",
+    "Deploying Node.js Applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "nodejs",
+    "backend",
+    "javascript",
+    "express",
+    "api-development",
+    "server-side"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+        "https://expressjs.com/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://docs.stripe.com/api"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=XUbOCs2QHYk",
+        "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "http://www.w3schools.com/nodejs/",
+        "https://www.youtube.com/watch?v=MIJt9H69QVc",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=XUbOCs2QHYk",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://www.youtube.com/watch?v=fhRHGAgvrh4",
+        "https://www.youtube.com/watch?v=Hl7diL7SFw8",
+        "https://www.youtube.com/watch?v=w-7RQ46RgxU",
+        "https://www.youtube.com/playlist?list=PLzjZaW71kMwScTRKzoasdyB1sX-a9EbFp",
+        "https://www.youtube.com/c/DipeshMalvia",
+        "https://www.youtube.com/watch?v=RHLxtAo0aEI&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://community.openai.com/t/how-to-train-open-ai-with-my-own-datas-from-database/305762",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://nodejs.org/api/packages.html"
+      ],
+      "notes": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://stackoverflow.com/questions/58833714/how-does-an-api-compare-to-directly-querying-your-database",
+        "https://www.geeksforgeeks.org/node-js/nodejs/",
+        "https://www.linkedin.com/pulse/from-nodejs-go-why-im-making-switch-backend-luqman-shaban-v9qdf",
+        "https://community.openai.com/t/how-to-train-open-ai-with-my-own-datas-from-database/305762",
+        "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-backend"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=bsaGKP8Eon4",
+        "https://www.youtube.com/watch?v=qwfE7fSVaZM",
+        "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=GHVvrYD4VRE",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=mtuYmm2ITvI",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/@hnasr",
+        "https://www.youtube.com/c/GreatAdib"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://nodejs.org/docs/latest/api/",
+        "https://expressjs.com/",
+        "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick",
+        "https://artoonsolutions.com/nodejs-documentation/"
+      ],
+      "notes": [
+        "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
+        "http://nodesource.com/blog/how-nodejs-works/",
+        "https://daily.dev/blog/setup-nodejs-express-project-a-beginners-guide",
+        "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions",
+        "https://blog.risingstack.com/node-js-project-structure-tutorial-node-js-at-scale/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://www.youtube.com/watch?v=fUJ3ULyyA-Y",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=MIJt9H69QVc",
+        "https://www.youtube.com/watch?v=qG-PLm3APSs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=H9M02of22z4"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is Node.js primarily used for?",
+        "options": [
+          "Frontend development",
+          "Mobile app development",
+          "Backend development",
+          "Game development"
+        ],
+        "correct_option": 2,
+        "hint": "Node.js is commonly used for server-side applications."
+      },
+      {
+        "question": "Which of the following best describes the Node.js event loop?",
+        "options": [
+          "A synchronous loop for handling requests",
+          "A mechanism to handle asynchronous operations",
+          "A loop for rendering HTML",
+          "A loop for compiling C++ code"
+        ],
+        "correct_option": 1,
+        "hint": "The event loop is essential for non-blocking operations in Node.js."
+      },
+      {
+        "question": "Which module is used to create a basic HTTP server in Node.js?",
+        "options": [
+          "fs",
+          "http",
+          "express",
+          "mysql"
+        ],
+        "correct_option": 1,
+        "hint": "This module is built into Node.js for creating web servers."
+      },
+      {
+        "question": "Which framework is commonly used for building RESTful APIs in Node.js?",
+        "options": [
+          "Django",
+          "Express.js",
+          "Flask",
+          "Spring"
+        ],
+        "correct_option": 1,
+        "hint": "This framework is popular for its simplicity and minimalism."
+      },
+      {
+        "question": "Which database is commonly integrated with Node.js for handling JSON-like documents?",
+        "options": [
+          "MySQL",
+          "Oracle",
+          "MongoDB",
+          "PostgreSQL"
+        ],
+        "correct_option": 2,
+        "hint": "This database is known for its NoSQL capabilities and BSON format."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary role of the event loop in Node.js?",
+        "options": [
+          "To manage asynchronous callbacks and events",
+          "To compile JavaScript code into machine code",
+          "To handle HTTP requests and responses",
+          "To create RESTful APIs"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how Node.js handles non-blocking operations."
+      },
+      {
+        "question": "Which module in Node.js is used to create a basic HTTP server?",
+        "options": [
+          "express",
+          "http",
+          "fs",
+          "net"
+        ],
+        "correct_option": 1,
+        "hint": "This module's name is similar to the protocol it handles."
+      },
+      {
+        "question": "In Express.js, which method is used to define a route for HTTP GET requests?",
+        "options": [
+          "app.post()",
+          "app.put()",
+          "app.get()",
+          "app.delete()"
+        ],
+        "correct_option": 2,
+        "hint": "This method is named after the HTTP method for retrieving data."
+      },
+      {
+        "question": "What is the purpose of middleware in Express.js?",
+        "options": [
+          "To handle routing",
+          "To serve static files",
+          "To modify request and response objects",
+          "To manage database connections"
+        ],
+        "correct_option": 2,
+        "hint": "Middleware functions can change the req and res objects."
+      },
+      {
+        "question": "Which Node.js package is commonly used for integrating MongoDB with Node.js applications?",
+        "options": [
+          "mongoose",
+          "sequelize",
+          "pg",
+          "redis"
+        ],
+        "correct_option": 0,
+        "hint": "This package's name is related to a large, flightless bird."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary role of the event loop in Node.js?",
+        "options": [
+          "To execute synchronous code",
+          "To manage I/O operations asynchronously",
+          "To schedule tasks for the CPU",
+          "To compile JavaScript code"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how Node.js handles operations that might block the main thread."
+      },
+      {
+        "question": "Which HTTP method is idempotent and should be used to update a resource in a RESTful API built with Express.js?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method should have the same effect no matter how many times it's called."
+      },
+      {
+        "question": "In the context of Node.js, what does the 'fs' module primarily deal with?",
+        "options": [
+          "Networking",
+          "File System",
+          "Cryptography",
+          "Event Handling"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what 'fs' might stand for."
+      },
+      {
+        "question": "When integrating Node.js with MongoDB, which of the following libraries is commonly used for database interactions?",
+        "options": [
+          "Sequelize",
+          "Mongoose",
+          "TypeORM",
+          "Bookshelf"
+        ],
+        "correct_option": 1,
+        "hint": "This library simplifies interactions with MongoDB by providing a schema-based solution."
+      },
+      {
+        "question": "What is the purpose of middleware in an Express.js application?",
+        "options": [
+          "To serve static files",
+          "To handle HTTP requests and responses",
+          "To provide a mechanism for filtering and processing requests",
+          "To manage session data"
+        ],
+        "correct_option": 2,
+        "hint": "Middleware acts as a processing layer for requests before they reach the route handler."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User already knows JavaScript",
+    "Needs high performance for I/O operations"
+  ]
+}

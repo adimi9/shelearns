@@ -16,105 +16,150 @@
     "theory"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/Basic_theory",
-        "description": "An introductory guide to the fundamental principles and techniques for implementing 3D graphics on the web."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection",
-        "description": "A comprehensive guide on implementing 2D collision detection techniques in game development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_A-Frame",
-        "description": "This resource provides a step-by-step guide on creating a basic 3D web demo using A-Frame."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/game-design/",
-        "description": "An introductory guide to the fundamental principles and processes involved in game design."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/blogs/game-ux-design/",
-        "description": "An insightful blog post that explores the principles and practices of user experience (UX) design in video games."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/the-ultimate-beginners-guide-to-game-development-in-unity-f9bfe972c2b5/",
-        "description": "A beginner-friendly guide to developing games using Unity, covering essential concepts and tools."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/game-prototyping/",
-        "description": "An overview of game prototyping techniques and their importance in the game development process."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/ethical-hacking/what-is-cryptoeconomics/",
-        "description": "An overview of cryptoeconomics, exploring its role in blockchain technology and its application in creating decentralized systems."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=G8AT01tuyrk",
-      "https://www.youtube.com/watch?v=pF2LGYVRCwI",
-      "https://www.youtube.com/watch?v=iIOIT3dCy5w",
-      "https://www.youtube.com/watch?v=YueJukoFBMU",
-      "https://www.youtube.com/watch?v=LBtucVc8l0M"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which of the following best describes a 'core loop' in game design?",
-      "options": [
-        "A sequence of actions players repeatedly perform to progress",
-        "The storyline that drives the game's narrative",
-        "The main menu system of a game",
-        "A graphical representation of game mechanics"
+    "beginner": {
+      "docs": [
+        "https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5",
+        "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/Basic_theory",
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
       ],
-      "correct_option": 0,
-      "hint": "It's a repetitive sequence that keeps players engaged."
+      "notes": [
+        "https://ieeexplore.ieee.org/document/10384599/",
+        "https://willkempartschool.com/a-beginners-guide-to-shadow-light-part-1-drawing/",
+        "https://math.berkeley.edu/~evans/control.course.pdf",
+        "https://en.wikipedia.org/wiki/Game_theory",
+        "https://web.sas.upenn.edu/gmailath/books/modeling-strategic-behavior/",
+        "https://dl.acm.org/doi/fullHtml/10.1145/3582437.3582470"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=G8AT01tuyrk",
+        "https://www.youtube.com/watch?v=dVjibdYG4bs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=jWorjBDcty4",
+        "https://www.youtube.com/watch?v=dFSia1LZI4Y",
+        "https://www.youtube.com/watch?v=WONZVnlam6U",
+        "https://www.youtube.com/watch?v=FryaH599ec0",
+        "https://www.youtube.com/watch?v=dF96uVR3cKk",
+        "https://www.youtube.com/watch?v=Ky14FjJSCKg"
+      ]
     },
-    {
-      "question": "What is the primary motivation for players in a game according to player psychology?",
-      "options": [
-        "To enjoy the graphics",
-        "To achieve goals and overcome challenges",
-        "To socialize with friends",
-        "To explore different cultures"
+    "intermediate": {
+      "docs": [
+        "https://developer.android.com/topic/architecture",
+        "https://miro.com/",
+        "https://vuejs.org/guide/introduction",
+        "https://docs.flutter.dev/resources/architectural-overview",
+        "https://users.rust-lang.org/t/why-do-all-docs-say-refcell-is-bad/37086"
       ],
-      "correct_option": 1,
-      "hint": "Think about why players strive to complete levels or missions."
+      "notes": [
+        "https://dl.acm.org/doi/fullHtml/10.1145/3582437.3582470",
+        "https://www.investopedia.com/terms/g/gametheory.asp",
+        "https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=1002&context=oa_textbooks",
+        "https://en.wikipedia.org/wiki/Game_theory",
+        "https://www.figma.com/resource-library/design-basics/",
+        "https://www.interaction-design.org/literature/topics/gestalt-principles"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=MMqXxhft-vU",
+        "https://www.youtube.com/watch?v=uF53xsT7mjc",
+        "https://www.youtube.com/watch?v=B-ytMSuwbf8",
+        "https://m.youtube.com/watch?v=-gs8H1GQDV0",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=ub3P8c87cwk&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=gT6EpxYo2v8",
+        "https://www.youtube.com/watch?v=UWwNIMHFdW4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/@SatoriGraphics",
+        "https://www.youtube.com/channel/UC-o87lCF9HaEuj0R-3VT1yg"
+      ]
     },
-    {
-      "question": "In narrative and world building, what is essential for creating a compelling game world?",
-      "options": [
-        "Detailed character backstories",
-        "Realistic physics engine",
-        "High-definition graphics",
-        "Complex multiplayer features"
+    "advanced": {
+      "docs": [
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf",
+        "https://www.numberanalytics.com/blog/expert-guide-deep-dive-repeated-game-theory",
+        "https://www.interaction-design.org/literature/topics/design-thinking",
+        "https://newsletter.pragmaticengineer.com/p/designing-a-payment-system"
       ],
-      "correct_option": 0,
-      "hint": "Consider the elements that make characters and worlds feel alive."
-    },
-    {
-      "question": "What is the purpose of prototyping in game design?",
-      "options": [
-        "To finalize the game's marketing strategy",
-        "To test and refine game mechanics and concepts",
-        "To create the final graphics and animations",
-        "To develop the online multiplayer system"
+      "notes": [
+        "https://commandersherald.com/brew-like-a-game-designer-your-decks-are-keeping-secrets/",
+        "https://www.successpodcast.com/show-notes/2017/3/29/how-a-game-theory-expert-sold-one-billion-bottles-of-tea-what-he-learned-on-the-journey-with-barry-nalebuff",
+        "https://www.365chess.com/chess-openings/Caro-Kann-Defense",
+        "https://www.devtodev.com/resources/articles/20-best-books-for-game-designers",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2810866275",
+        "https://www.ellenmacarthurfoundation.org/the-circular-economy-in-detail-deep-dive"
       ],
-      "correct_option": 1,
-      "hint": "Think about how developers can experiment with game ideas."
-    },
-    {
-      "question": "Which of the following is a common tool used in the iteration process of game development?",
-      "options": [
-        "A/B testing",
-        "Final release versions",
-        "Marketing surveys",
-        "Legal contracts"
-      ],
-      "correct_option": 0,
-      "hint": "It's a method to compare different versions to improve design."
+      "videos": [
+        "https://www.youtube.com/watch?v=mA79SSv_YEo",
+        "https://www.youtube.com/watch?v=j6Ule7GXaRs",
+        "https://www.youtube.com/watch?v=eijvNLSljoY",
+        "https://www.youtube.com/watch?v=jiBHx5GA1Ko&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8YP1iVMG_Rg",
+        "https://www.youtube.com/watch?v=MMqXxhft-vU",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=fGFl4GjVvrA"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which of the following best describes a 'core loop' in game design?",
+        "options": [
+          "A sequence of actions players repeatedly perform to progress",
+          "The storyline that drives the game's narrative",
+          "The main menu system of a game",
+          "A graphical representation of game mechanics"
+        ],
+        "correct_option": 0,
+        "hint": "It's a repetitive sequence that keeps players engaged."
+      },
+      {
+        "question": "What is the primary motivation for players in a game according to player psychology?",
+        "options": [
+          "To enjoy the graphics",
+          "To achieve goals and overcome challenges",
+          "To socialize with friends",
+          "To explore different cultures"
+        ],
+        "correct_option": 1,
+        "hint": "Think about why players strive to complete levels or missions."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In narrative and world building, what is essential for creating a compelling game world?",
+        "options": [
+          "Detailed character backstories",
+          "Realistic physics engine",
+          "High-definition graphics",
+          "Complex multiplayer features"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the elements that make characters and worlds feel alive."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the purpose of prototyping in game design?",
+        "options": [
+          "To finalize the game's marketing strategy",
+          "To test and refine game mechanics and concepts",
+          "To create the final graphics and animations",
+          "To develop the online multiplayer system"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how developers can experiment with game ideas."
+      },
+      {
+        "question": "Which of the following is a common tool used in the iteration process of game development?",
+        "options": [
+          "A/B testing",
+          "Final release versions",
+          "Marketing surveys",
+          "Legal contracts"
+        ],
+        "correct_option": 0,
+        "hint": "It's a method to compare different versions to improve design."
+      }
+    ]
+  }
 }

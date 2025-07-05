@@ -16,105 +16,147 @@
     "frontend-backend-communication"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://legacy.reactjs.org/docs/higher-order-components.html",
-        "description": "An overview of Higher-Order Components in React, explaining their use for reusing component logic."
-      },
-      {
-        "url": "https://nodejs.org/api/assert.html",
-        "description": "The Node.js \"assert\" module documentation provides a guide to using assertion functions for testing invariants in JavaScript code."
-      },
-      {
-        "url": "https://es.reactjs.org/docs/create-a-new-react-app.html",
-        "description": "A guide on setting up a new React application using various tools and frameworks."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.freecodecamp.org/news/lessons-learned-from-deploying-my-first-full-stack-web-application-34f94ec0a286/",
-        "description": "Insights and tips from deploying a first full-stack web application, covering challenges and solutions encountered."
-      },
-      {
-        "url": "https://www.freecodecamp.org/",
-        "description": "A comprehensive platform offering free coding tutorials and interactive learning to help users develop programming skills."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/web-development/",
-        "description": "An in-depth guide to web development covering various technologies, tools, and frameworks."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/i-built-a-web-api-with-express-flask-aspnet/",
-        "description": "This article compares building a web API using Express, Flask, and ASP.NET, highlighting their differences and use cases."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/graphql-zero-to-production-a7c4f786a57b/",
-        "description": "A comprehensive guide on building and deploying a GraphQL API from scratch to production-ready status."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=eIQh02xuVw4",
-      "https://www.youtube.com/watch?v=BcLNfwF04Kw",
-      "https://www.youtube.com/watch?v=yWzKJPw_VzM",
-      "https://www.youtube.com/watch?v=c8XMl9aQVCM",
-      "https://www.youtube.com/watch?v=PTfZcN20fro"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of the type system in GraphQL schema design?",
-      "options": [
-        "To enforce authentication and authorization",
-        "To define types and relationships between them",
-        "To execute mutations on the server",
-        "To manage subscriptions for real-time updates"
+    "beginner": {
+      "docs": [
+        "https://graphql.org/learn/",
+        "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/headless/introduction",
+        "https://graphql.org/community/resources/books/"
       ],
-      "correct_option": 1,
-      "hint": "It's related to how data structures are defined and connected."
+      "notes": [
+        "https://graphql.org/learn/",
+        "https://www.howtographql.com/basics/0-introduction/",
+        "https://discuss.ocaml.org/t/tutorial-full-stack-web-dev-in-ocaml-w-dream-bonsai-and-graphql/9963",
+        "https://hasura.io/learn/",
+        "https://www.youtube.com/channel/UC7mca3O0DmdSG2Cr80sOD7g",
+        "https://www.apollographql.com/tutorials/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=BNYwj0ZvU1U&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=yqWzCV0kU_c&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Zg4XIpnLWQg",
+        "https://www.youtube.com/watch?v=BcLNfwF04Kw",
+        "https://www.youtube.com/watch?v=UYQSVH6B1k4",
+        "https://www.youtube.com/watch?v=hZgFAO4_t4Q",
+        "https://www.youtube.com/watch?v=kY--_5NhQoc",
+        "https://www.youtube.com/watch?v=I6ypD7qv3Z8"
+      ]
     },
-    {
-      "question": "In GraphQL, what is a mutation used for?",
-      "options": [
-        "To fetch data",
-        "To modify server-side data",
-        "To establish real-time data subscriptions",
-        "To define the schema"
+    "intermediate": {
+      "docs": [
+        "https://graphql.org/learn/",
+        "https://wundergraph.com/blog/10_graphql_tools_to_increase_developer_productivity",
+        "https://www.ibm.com/think/topics/api",
+        "https://wundergraph.com/blog/why_not_use_graphql",
+        "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/headless/graphql-api/content-fragments"
       ],
-      "correct_option": 1,
-      "hint": "It's the equivalent of performing 'create', 'update', or 'delete' operations."
+      "notes": [
+        "https://discuss.ocaml.org/t/tutorial-full-stack-web-dev-in-ocaml-w-dream-bonsai-and-graphql/9963",
+        "https://graphql.org/learn/",
+        "https://wundergraph.com/blog/10_graphql_tools_to_increase_developer_productivity",
+        "https://graphql.org/faq/getting-started/",
+        "https://hasura.io/learn/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=u-BbJyUpohM",
+        "https://www.youtube.com/watch?v=tMTsNn09GNo",
+        "https://www.youtube.com/watch?v=1n7EBOQu6wE",
+        "https://www.youtube.com/watch?v=ufKuYohCt0w",
+        "https://m.youtube.com/watch?v=7DVdVGm7Ht8&t=62168s",
+        "https://www.youtube.com/watch?v=h7MTWLv3xvw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=9G9_2a2k2Ls",
+        "https://www.youtube.com/channel/UCTKSxERKbrpQOTa7QjDPjZg/videos"
+      ]
     },
-    {
-      "question": "Which GraphQL feature allows clients to receive real-time updates from the server?",
-      "options": [
-        "Queries",
-        "Mutations",
-        "Resolvers",
-        "Subscriptions"
+    "advanced": {
+      "docs": [
+        "https://graphql.org/learn/",
+        "https://docs.gitlab.com/development/api_graphql_styleguide/",
+        "https://shopify.dev/docs/api"
       ],
-      "correct_option": 3,
-      "hint": "It's not a way to fetch or modify data, but to listen for changes."
-    },
-    {
-      "question": "What is the role of resolvers in a GraphQL API?",
-      "options": [
-        "To authenticate user requests",
-        "To define the structure of the data",
-        "To handle the execution of queries and mutations",
-        "To integrate third-party APIs"
+      "notes": [
+        "https://graphql.org/learn/",
+        "https://fullstackopen.com/en/",
+        "https://docs.gitlab.com/development/api_graphql_styleguide/",
+        "https://www.infoq.com/articles/ballerina-fullstack-rest-api/",
+        "https://khalilstemmler.com/articles/graphql/learning-graphql-in-2020/",
+        "https://welearncode.com/beginners-guide-graphql/"
       ],
-      "correct_option": 2,
-      "hint": "They are functions that execute when a query or mutation is called."
-    },
-    {
-      "question": "How does Apollo Client typically integrate with a frontend application?",
-      "options": [
-        "By using RESTful API calls",
-        "Through direct database connections",
-        "Via GraphQL queries and mutations",
-        "Using WebSockets for all data transfers"
-      ],
-      "correct_option": 2,
-      "hint": "It involves executing GraphQL operations to communicate with the server."
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=BNYwj0ZvU1U&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=dP_QfmnghnQ&pp=0gcJCU8JAYcqIYzv",
+        "https://www.youtube.com/watch?v=EEhgiHnnHXg",
+        "https://www.youtube.com/watch?v=x6TiqrULv90",
+        "https://www.youtube.com/watch?v=RceLeh9D85o&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=m3YrZav5-CU",
+        "https://www.youtube.com/watch?v=fdsToXyIZTA",
+        "https://www.youtube.com/playlist?list=PLSDeUiTMfxW6VChKWb26Z_mPR4f6fAmMV",
+        "https://www.youtube.com/@maheshkariya"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of the type system in GraphQL schema design?",
+        "options": [
+          "To enforce authentication and authorization",
+          "To define types and relationships between them",
+          "To execute mutations on the server",
+          "To manage subscriptions for real-time updates"
+        ],
+        "correct_option": 1,
+        "hint": "It's related to how data structures are defined and connected."
+      },
+      {
+        "question": "In GraphQL, what is a mutation used for?",
+        "options": [
+          "To fetch data",
+          "To modify server-side data",
+          "To establish real-time data subscriptions",
+          "To define the schema"
+        ],
+        "correct_option": 1,
+        "hint": "It's the equivalent of performing 'create', 'update', or 'delete' operations."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which GraphQL feature allows clients to receive real-time updates from the server?",
+        "options": [
+          "Queries",
+          "Mutations",
+          "Resolvers",
+          "Subscriptions"
+        ],
+        "correct_option": 3,
+        "hint": "It's not a way to fetch or modify data, but to listen for changes."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the role of resolvers in a GraphQL API?",
+        "options": [
+          "To authenticate user requests",
+          "To define the structure of the data",
+          "To handle the execution of queries and mutations",
+          "To integrate third-party APIs"
+        ],
+        "correct_option": 2,
+        "hint": "They are functions that execute when a query or mutation is called."
+      },
+      {
+        "question": "How does Apollo Client typically integrate with a frontend application?",
+        "options": [
+          "By using RESTful API calls",
+          "Through direct database connections",
+          "Via GraphQL queries and mutations",
+          "Using WebSockets for all data transfers"
+        ],
+        "correct_option": 2,
+        "hint": "It involves executing GraphQL operations to communicate with the server."
+      }
+    ]
+  }
 }

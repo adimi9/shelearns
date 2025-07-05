@@ -1,0 +1,278 @@
+{
+  "id": "MD16",
+  "name": "Cross-Platform Mobile with Flutter (Dart)",
+  "category": "Mobile Development",
+  "primary_tech": "Flutter",
+  "topics": [
+    "Dart Programming Language",
+    "Flutter Widgets & Layouts",
+    "State Management in Flutter",
+    "Platform Channels"
+  ],
+  "recommended": true,
+  "tags": [
+    "cross-platform",
+    "Dart",
+    "Google",
+    "hybrid"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://docs.flutter.dev/",
+        "https://flutter.dev/",
+        "https://api.flutter.dev/",
+        "https://docs.flutter.dev/resources/architectural-overview",
+        "https://firebase.google.com/docs/flutter/setup"
+      ],
+      "notes": [
+        "https://flutter.dev/",
+        "https://www.amazon.com/Flutter-Beginners-introductory-cross-platform-applications/dp/1788996089",
+        "https://forum.djangoproject.com/t/best-approach-for-developing-a-cross-platform-mobile-app-alongside-a-django-web-app/21554",
+        "https://docs.flutter.dev/resources/architectural-overview",
+        "https://www.solutionstreet.com/blog/2024/03/26/flutterflow-tutorial-part-1/",
+        "https://dart.dev/overview",
+        "https://frontendmasters.com/courses/flutter/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=CzRQ9mnmh44",
+        "https://www.youtube.com/watch?v=CZr3pKM44wk",
+        "https://www.youtube.com/watch?v=VPvVD8t02U8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=TSIhiZ5jRB0",
+        "https://www.youtube.com/watch?v=VEzqSeNkqjs",
+        "https://www.youtube.com/watch?v=8sAyPDLorek",
+        "https://www.youtube.com/watch?v=rwrUezKCc34",
+        "https://www.youtube.com/watch?v=DvZuJeTHWaw&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs/flutter/setup",
+        "https://docs.flutter.dev/resources/architectural-overview",
+        "https://api.flutter.dev/",
+        "https://flutter.dev/multi-platform/web",
+        "https://developers.google.com/solutions/catalog"
+      ],
+      "notes": [
+        "https://flutter.dev/multi-platform/desktop",
+        "https://docs.flutter.dev/resources/architectural-overview",
+        "https://forum.juce.com/t/soul-lang-with-flutter-and-dart-ffi/36549",
+        "https://flutter.dev/ai",
+        "https://blog.mapchart.net/app/flutter-for-developing-mapchart-mobile-app/",
+        "https://flutter.dev/multi-platform"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sAyPDLorek",
+        "https://m.youtube.com/watch?v=NMb4RDpbRXs",
+        "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=q89Nh0EDM-Q",
+        "https://www.youtube.com/watch?v=mEPm9w5QlJM",
+        "https://www.youtube.com/watch?v=4mATPCxj5M8",
+        "https://www.youtube.com/watch?v=V8P_S9OLI_I&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=ydKrZ9S5Pmg",
+        "https://www.youtube.com/resocoder"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://docs.flutter.dev/",
+        "https://flutter.dev/learn",
+        "https://docs.flutter.dev/resources/architectural-overview"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=CzRQ9mnmh44",
+        "https://flutter.dev/learn",
+        "https://docs.flutter.dev/resources/architectural-overview",
+        "https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/",
+        "https://techflairz.com/building-cross-platform-apps-flutter-webview-tutorial/",
+        "https://www.linkedin.com/posts/midhunarmid_flutter-app-development-malayalam-interviewcraft-activity-7230917089828466688-9T0w",
+        "https://www.classcentral.com/report/best-flutter-and-dart-courses/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=CzRQ9mnmh44",
+        "https://www.youtube.com/watch?v=dzog64ENKG0",
+        "https://www.youtube.com/watch?v=x0uinJvhNxI",
+        "https://m.youtube.com/watch?v=NMb4RDpbRXs",
+        "https://www.youtube.com/watch?v=3HREQwLmy88",
+        "https://www.youtube.com/watch?v=VPvVD8t02U8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=DvZuJeTHWaw&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/channel/UChCAJNpMwoEUYCsE_eSyU4w",
+        "https://www.youtube.com/playlist?list=PLjVLYmrlmjGfGLShoW0vVX_tcyT8u1Y3E",
+        "https://www.youtube.com/channel/UCrTnsT4OYZ53l0QGKqLeD5Q/videos"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What programming language is used for developing Flutter applications?",
+        "options": [
+          "Java",
+          "Kotlin",
+          "Dart",
+          "Swift"
+        ],
+        "correct_option": 2,
+        "hint": "This language was developed by Google and is known for its simplicity and ease of use."
+      },
+      {
+        "question": "Which widget is used to create a scrollable list of items in Flutter?",
+        "options": [
+          "Container",
+          "Row",
+          "Column",
+          "ListView"
+        ],
+        "correct_option": 3,
+        "hint": "This widget is similar to a Column but scrollable."
+      },
+      {
+        "question": "What is the purpose of the 'setState' method in Flutter?",
+        "options": [
+          "To initialize a widget",
+          "To update the UI when a state changes",
+          "To destroy a widget",
+          "To create a new widget tree"
+        ],
+        "correct_option": 1,
+        "hint": "This method is used to notify the framework that the internal state of a widget has changed."
+      },
+      {
+        "question": "Which Flutter widget is used to create a flexible grid layout?",
+        "options": [
+          "Stack",
+          "GridView",
+          "ListTile",
+          "Text"
+        ],
+        "correct_option": 1,
+        "hint": "This widget allows for creating a 2D array of widgets."
+      },
+      {
+        "question": "What is the role of platform channels in Flutter?",
+        "options": [
+          "To style widgets",
+          "To handle network requests",
+          "To communicate with native platform code",
+          "To manage application state"
+        ],
+        "correct_option": 2,
+        "hint": "This feature allows Flutter to interact with the platform-specific features not available through the Flutter framework."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the purpose of the 'build' method in Flutter?",
+        "options": [
+          "To initialize state variables",
+          "To handle user input",
+          "To create and return a widget tree",
+          "To execute background tasks"
+        ],
+        "correct_option": 2,
+        "hint": "This method is crucial for rendering the UI in Flutter."
+      },
+      {
+        "question": "Which Flutter widget would you use to create a scrollable list of items?",
+        "options": [
+          "Column",
+          "Row",
+          "ListView",
+          "Container"
+        ],
+        "correct_option": 2,
+        "hint": "This widget is specifically designed for displaying a list of items that can be scrolled vertically or horizontally."
+      },
+      {
+        "question": "In Dart, which keyword is used to define a constant value that cannot be changed?",
+        "options": [
+          "var",
+          "final",
+          "const",
+          "static"
+        ],
+        "correct_option": 2,
+        "hint": "This keyword is used when the value is known at compile time and will never change."
+      },
+      {
+        "question": "What is the primary role of State Management in Flutter apps?",
+        "options": [
+          "To manage network requests",
+          "To handle error logging",
+          "To manage the UI lifecycle and preserve state across changes",
+          "To perform database operations"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how the app's UI responds to changes in data."
+      },
+      {
+        "question": "Which mechanism does Flutter use to communicate with platform-specific code?",
+        "options": [
+          "Platform Views",
+          "Platform Channels",
+          "Method Channels",
+          "Event Streams"
+        ],
+        "correct_option": 1,
+        "hint": "This is a bridge that allows Dart code to call native code on Android and iOS."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is an advanced feature of Dart that allows for defining compile-time constants?",
+        "options": [
+          "final keyword",
+          "const keyword",
+          "static keyword",
+          "dynamic keyword"
+        ],
+        "correct_option": 1,
+        "hint": "This keyword is used to declare variables that are compile-time constants."
+      },
+      {
+        "question": "In Flutter, which widget is commonly used for creating scrollable lists containing a large number of children efficiently?",
+        "options": [
+          "Column",
+          "ListView.builder",
+          "GridView",
+          "Stack"
+        ],
+        "correct_option": 1,
+        "hint": "This widget creates children lazily as they scroll into view."
+      },
+      {
+        "question": "When using Provider for state management in Flutter, which method should be used to read the current value of a provider without listening to changes?",
+        "options": [
+          "Provider.of(context)",
+          "context.watch()",
+          "context.select()",
+          "context.read()"
+        ],
+        "correct_option": 3,
+        "hint": "This method is used to access the provider's value without establishing a subscription."
+      },
+      {
+        "question": "What is the purpose of a platform channel in Flutter?",
+        "options": [
+          "To add animations to Flutter apps",
+          "To enable communication between Dart and native code",
+          "To manage the state of Flutter applications",
+          "To define routes and navigation"
+        ],
+        "correct_option": 1,
+        "hint": "This feature is used to integrate Flutter with platform-specific code."
+      },
+      {
+        "question": "Which Dart feature allows for creating a collection with a fixed number of elements at compile time?",
+        "options": [
+          "List",
+          "Map",
+          "Set",
+          "Array"
+        ],
+        "correct_option": 3,
+        "hint": "This collection type is not resizable once initialized."
+      }
+    ]
+  }
+}

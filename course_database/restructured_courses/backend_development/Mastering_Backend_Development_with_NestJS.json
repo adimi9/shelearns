@@ -23,107 +23,156 @@
     "api-development"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://www.youtube.com/watch?v=8_X0nSrzrCw",
+        "https://m.youtube.com/watch?v=juNVinepwKA",
+        "https://www.youtube.com/watch?v=6He5Gyuuvxk",
+        "https://courses.nestjs.com/",
+        "https://firebase.google.com/docs"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=8_X0nSrzrCw",
+        "https://masteringbackend.com/posts/backend-development-ultimate-guide",
+        "https://www.youtube.com/watch?v=cAj6gzAMNfA",
+        "https://courses.nestjs.com/",
+        "https://www.evergrowingdev.com/p/6-best-online-resources-to-learn",
+        "https://www.linkedin.com/posts/roshnivr_namaste-node-js-activity-7230877058720010240-cPyw"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8_X0nSrzrCw",
+        "https://www.youtube.com/watch?v=cAj6gzAMNfA",
+        "https://www.youtube.com/watch?v=9BD9eK9VqXA",
+        "https://www.youtube.com/watch?v=sFnAHC9lLaw",
+        "https://m.youtube.com/watch?v=dP_QfmnghnQ",
+        "https://www.youtube.com/watch?v=T49rxi1tQpE",
+        "https://www.youtube.com/watch?v=UgX5lgv4uVM&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/c/programmingwithmosh",
+        "https://www.youtube.com/@procademy"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://github.com/nestjs/awesome-nestjs",
+        "https://firebase.google.com/docs",
+        "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts",
+        "https://docs.nestjs.com/recipes/cqrs",
+        "https://shopify.dev/docs/api"
+      ],
+      "notes": [
+        "https://www.linkedin.com/posts/nishant-tiwari24_21st-july-2023-the-next-day-after-wasting-activity-7221362157257474051-hhVb",
+        "https://github.com/nestjs/awesome-nestjs",
+        "https://masteringbackend.com/posts/backend-development-ultimate-guide",
+        "https://github.com/unusualcodeorg/wimm-node-app",
+        "https://www.facebook.com/groups/2151269675001891/posts/4032854283510078/",
+        "https://www.djamware.com/post/6865112f09c9304f72317be7/understanding-dependency-injection-in-nestjs",
+        "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=rOpEN1JDaD0",
+        "https://m.youtube.com/watch?v=843nec-IvW0",
+        "https://www.youtube.com/watch?v=U6LbW2IFUQw",
+        "https://www.youtube.com/watch?v=GTDYsV5pyZU",
+        "https://www.youtube.com/watch?v=iYX-3hCVmK8",
+        "https://www.youtube.com/watch?v=JyolNYRbAcs&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=3289vhOUdKA",
+        "https://www.youtube.com/watch?v=qwfE7fSVaZM"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://courses.nestjs.com/",
+        "https://github.com/nestjs/awesome-nestjs",
+        "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+        "https://www.linkedin.com/posts/roshnivr_namaste-node-js-activity-7230877058720010240-cPyw",
+        "https://grafana.com/docs/k6/latest/"
+      ],
+      "notes": [
+        "https://masteringbackend.com/posts/nestjs-typescrpt-ultimate-guide",
+        "https://courses.nestjs.com/",
+        "https://masteringbackend.com/posts/backend-development-ultimate-guide",
+        "https://www.linkedin.com/posts/roshnivr_namaste-node-js-activity-7230877058720010240-cPyw",
+        "https://www.tomray.dev/nestjs-course",
+        "https://code99.io/blogs"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8_X0nSrzrCw",
+        "https://www.youtube.com/watch?v=TOmbaKtcpUg",
+        "https://www.youtube.com/watch?v=yuVVKB0EaOQ",
+        "https://www.youtube.com/watch?v=dP_QfmnghnQ&pp=0gcJCU8JAYcqIYzv",
+        "https://www.youtube.com/watch?v=UuYH37ihmIs",
+        "https://www.youtube.com/watch?v=Idu7XNFi31c",
+        "https://www.youtube.com/watch?v=rlYVelhroDU",
+        "https://www.youtube.com/watch?v=T49rxi1tQpE",
+        "https://www.youtube.com/watch?v=UgX5lgv4uVM",
+        "https://www.youtube.com/watch?v=0ap-bTGNZF0"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://reactjs.org/",
-        "description": "Official documentation and resources for building user interfaces with React, a JavaScript library."
+        "question": "What programming language is primarily used with NestJS?",
+        "options": [
+          "JavaScript",
+          "TypeScript",
+          "Python",
+          "Ruby"
+        ],
+        "correct_option": 1,
+        "hint": "It is a superset of JavaScript often used for its type safety."
       },
       {
-        "url": "https://nodejs.org/en",
-        "description": "Official Node.js website providing downloads, documentation, and resources for developers."
-      },
-      {
-        "url": "https://nodejs.org/api/child_process.html",
-        "description": "Provides documentation on Node.js's child_process module for executing external processes in a non-blocking way."
+        "question": "Which architectural pattern does NestJS primarily use?",
+        "options": [
+          "Model-View-Controller",
+          "Event-Driven",
+          "Microservices",
+          "Dependency Injection"
+        ],
+        "correct_option": 3,
+        "hint": "This pattern allows for creating loosely coupled modules."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.geeksforgeeks.org/javascript/nestjs/",
-        "description": "An introductory guide to using NestJS, a progressive Node.js framework for building efficient, reliable, and scalable server-side applications."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/build-web-apis-with-nestjs-beginners-guide/",
-        "description": "A beginner's guide to building web APIs using NestJS, covering fundamental concepts and practical implementation steps."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/comprehensive-nestjs-course/",
-        "description": "A detailed NestJS course covering fundamentals, architecture, and building scalable server-side applications."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/tag/nestjs/",
-        "description": "Comprehensive articles and tutorials on NestJS, covering its features, use cases, and best practices for building scalable server-side applications."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/nest-js-tutorial/312471",
-        "description": "A comprehensive guide on building scalable server-side applications using NestJS, a progressive Node.js framework."
+        "question": "What is a key reason for choosing NestJS over Express.js?",
+        "options": [
+          "It is built with TypeScript and offers a more structured framework.",
+          "It is faster than Express.js.",
+          "It uses a different web server.",
+          "It has more middleware options."
+        ],
+        "correct_option": 0,
+        "hint": "It is related to the programming language preference and structure."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=wqhNoDE6pb4",
-      "https://www.youtube.com/watch?v=xzu3QXwo1BU&pp=ygUII25lc3RkZXY%3D",
-      "https://www.youtube.com/watch?v=8_X0nSrzrCw",
-      "https://www.youtube.com/watch?v=2gtiffE3__U",
-      "https://www.youtube.com/watch?v=W1gvIw0GNl8"
+    "advanced": [
+      {
+        "question": "What kind of applications is NestJS particularly suited for?",
+        "options": [
+          "Mobile applications",
+          "Enterprise-grade applications",
+          "Simple static websites",
+          "Desktop applications"
+        ],
+        "correct_option": 1,
+        "hint": "It is designed for scalability and maintainability."
+      },
+      {
+        "question": "Which of the following is a core feature of NestJS?",
+        "options": [
+          "Built-in support for GraphQL",
+          "Automatic code generation",
+          "Built-in state management",
+          "Server-side rendering"
+        ],
+        "correct_option": 0,
+        "hint": "It relates to a popular query language for APIs."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What programming language is primarily used with NestJS?",
-      "options": [
-        "JavaScript",
-        "TypeScript",
-        "Python",
-        "Ruby"
-      ],
-      "correct_option": 1,
-      "hint": "It is a superset of JavaScript often used for its type safety."
-    },
-    {
-      "question": "Which architectural pattern does NestJS primarily use?",
-      "options": [
-        "Model-View-Controller",
-        "Event-Driven",
-        "Microservices",
-        "Dependency Injection"
-      ],
-      "correct_option": 3,
-      "hint": "This pattern allows for creating loosely coupled modules."
-    },
-    {
-      "question": "What is a key reason for choosing NestJS over Express.js?",
-      "options": [
-        "It is built with TypeScript and offers a more structured framework.",
-        "It is faster than Express.js.",
-        "It uses a different web server.",
-        "It has more middleware options."
-      ],
-      "correct_option": 0,
-      "hint": "It is related to the programming language preference and structure."
-    },
-    {
-      "question": "What kind of applications is NestJS particularly suited for?",
-      "options": [
-        "Mobile applications",
-        "Enterprise-grade applications",
-        "Simple static websites",
-        "Desktop applications"
-      ],
-      "correct_option": 1,
-      "hint": "It is designed for scalability and maintainability."
-    },
-    {
-      "question": "Which of the following is a core feature of NestJS?",
-      "options": [
-        "Built-in support for GraphQL",
-        "Automatic code generation",
-        "Built-in state management",
-        "Server-side rendering"
-      ],
-      "correct_option": 0,
-      "hint": "It relates to a popular query language for APIs."
-    }
-  ],
   "preferred_if": [
     "User prefers TypeScript",
     "Building enterprise-grade applications"

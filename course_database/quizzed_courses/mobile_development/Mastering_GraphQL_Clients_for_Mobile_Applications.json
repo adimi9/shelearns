@@ -1,0 +1,288 @@
+{
+  "id": "MD22",
+  "name": "Mastering GraphQL Clients for Mobile Applications",
+  "category": "Mobile Development",
+  "primary_tech": "GraphQL Clients",
+  "topics": [
+    "Introduction to GraphQL and its advantages over REST",
+    "Setting up a GraphQL client for mobile apps",
+    "Querying data with GraphQL from mobile apps",
+    "Handling mutations and subscriptions in GraphQL",
+    "Managing local state with GraphQL clients",
+    "Error handling and caching strategies",
+    "Optimizing performance for GraphQL queries",
+    "Security best practices for using GraphQL clients"
+  ],
+  "recommended": false,
+  "tags": [
+    "graphql",
+    "mobile-development",
+    "backend",
+    "api-integration",
+    "client-side"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://www.linkedin.com/pulse/my-guide-mastering-api-product-management-gurrpreet-sinngh-iqizc",
+        "https://docs.github.com/",
+        "https://www.contentful.com/blog/graphql-tools-for-getting-started-with-contentful/",
+        "https://graphql.org/learn/best-practices/",
+        "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts"
+      ],
+      "notes": [
+        "https://www.howtographql.com/",
+        "https://www.apollographql.com/tutorials/",
+        "https://www.solo.io/topics/graphql",
+        "https://www.mindbowser.com/apollo-angular-graphql-guide/",
+        "https://www.djamware.com/post/5d424058905a96a9152014b8/react-native-and-apollo-graphql-tutorial-2025-edition-build-a-modern-mobile-app",
+        "https://www.notjust.dev/projects/stackoverflow",
+        "https://graphql.org/learn/best-practices/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=09K3QeQLoCE",
+        "https://www.youtube.com/watch?v=UYQSVH6B1k4",
+        "https://www.youtube.com/watch?v=bpHq_-bPkGo",
+        "https://www.youtube.com/watch?v=dFQZjzTEVWA",
+        "https://www.youtube.com/watch?v=0vofqzcFF1Y",
+        "https://www.youtube.com/watch?v=-qAhg4EDIwQ",
+        "https://www.youtube.com/watch?v=oL1yc0BuqL0&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=mjG6O1ZGdSI",
+        "https://www.youtube.com/watch?v=ZsEGtn663Fk"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://community.canvaslms.com/t5/The-Product-Blog/From-the-Engineering-Deck-Instructure-amp-GraphQL/ba-p/477314",
+        "https://shopify.dev/docs/api",
+        "https://www.linkedin.com/pulse/my-guide-mastering-api-product-management-gurrpreet-sinngh-iqizc",
+        "https://cloud.google.com/apigee"
+      ],
+      "notes": [
+        "https://www.solo.io/topics/graphql",
+        "https://emmo.net.co/articles/post/magento-2-graphql-complete-guide-for-2025-version-248.html",
+        "https://www.datacamp.com/tutorial/graphql-vs-rest",
+        "https://www.contentful.com/blog/how-to-use-graphql-variables/",
+        "https://www.mindbowser.com/apollo-angular-graphql-guide/",
+        "https://www.vuemastery.com/blog/why-you-should-use-vue-graphql/",
+        "https://workshops.aws/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=6a3Dz8gwjdg",
+        "https://www.youtube.com/watch?v=FLQok6PGg3E",
+        "https://www.youtube.com/watch?v=2HBIzEx6IZA",
+        "https://www.youtube.com/watch?v=ELFORM9fmss",
+        "https://www.youtube.com/watch?v=edym2_mCj2I",
+        "https://www.youtube.com/watch?v=4sR77vaEhy8",
+        "https://www.youtube.com/watch?v=tEMrD9t85v4&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=3289vhOUdKA",
+        "https://www.youtube.com/watch?v=NlXfg5Pxxh8"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.linkedin.com/pulse/my-guide-mastering-api-product-management-gurrpreet-sinngh-iqizc",
+        "https://shopify.dev/docs/api",
+        "https://workshops.aws/",
+        "https://docs.github.com/"
+      ],
+      "notes": [
+        "https://www.linkedin.com/pulse/apollo-client-deep-dive-practical-insights-from-weekend-dorneles-46xxf?utm_source=rss&utm_campaign=articles_sitemaps&utm_medium=google_news",
+        "https://www.solo.io/topics/graphql",
+        "https://www.apollographql.com/tutorials/",
+        "https://workshops.aws/",
+        "https://blog.algomaster.io/p/rest-vs-graphql",
+        "https://emmo.net.co/articles/post/magento-2-graphql-complete-guide-for-2025-version-248.html",
+        "https://www.datacamp.com/tutorial/graphql-vs-rest"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=NEzu4FD25KM",
+        "https://www.youtube.com/watch?v=dz4sqR3EyjI",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=hJCjYdxySIw",
+        "https://www.youtube.com/watch?v=yW6HnMUAWNU",
+        "https://www.youtube.com/watch?v=DgVjEo3OGBI",
+        "https://www.youtube.com/watch?v=3cD5UFWsNOA",
+        "https://www.youtube.com/watch?v=pmqbNxjrxu8",
+        "https://www.youtube.com/watch?v=HV5u-HjEFvY"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is one major advantage of using GraphQL over REST for mobile applications?",
+        "options": [
+          "GraphQL allows fetching multiple resources in a single request.",
+          "GraphQL is easier to set up than REST.",
+          "GraphQL is more secure than REST by default.",
+          "GraphQL does not require an internet connection."
+        ],
+        "correct_option": 0,
+        "hint": "Think about how data is fetched in GraphQL compared to REST."
+      },
+      {
+        "question": "Which library is commonly used to set up a GraphQL client in a mobile application?",
+        "options": [
+          "Apollo Client",
+          "Retrofit",
+          "Axios",
+          "Volley"
+        ],
+        "correct_option": 0,
+        "hint": "This library is popular for GraphQL clients and is named after a space mission."
+      },
+      {
+        "question": "What is the primary purpose of a mutation in GraphQL?",
+        "options": [
+          "To query data from the server",
+          "To create or update data on the server",
+          "To subscribe to real-time updates",
+          "To manage local state"
+        ],
+        "correct_option": 1,
+        "hint": "Mutations change data on the server."
+      },
+      {
+        "question": "How can you optimize performance for GraphQL queries in mobile apps?",
+        "options": [
+          "Use caching strategies to store previously fetched data",
+          "Increase the mobile device's RAM",
+          "Reduce the mobile app's graphics quality",
+          "Use XML instead of JSON"
+        ],
+        "correct_option": 0,
+        "hint": "Consider methods that reduce the need to fetch the same data repeatedly."
+      },
+      {
+        "question": "What is a best practice for handling errors in GraphQL queries for mobile apps?",
+        "options": [
+          "Ignore errors and retry the query",
+          "Use error handling middleware to manage errors",
+          "Display the raw error message to the user",
+          "Switch to a REST API to avoid errors"
+        ],
+        "correct_option": 1,
+        "hint": "Think about a systematic way to manage errors across the application."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is one key advantage of using GraphQL over REST for mobile applications?",
+        "options": [
+          "GraphQL allows fetching multiple resources in a single request.",
+          "GraphQL automatically encrypts all data transmissions.",
+          "GraphQL requires less server-side configuration than REST.",
+          "GraphQL is inherently faster than REST in all scenarios."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how GraphQL handles data fetching compared to REST."
+      },
+      {
+        "question": "When setting up a GraphQL client for a mobile app, which library is commonly used to manage state and caching?",
+        "options": [
+          "Redux",
+          "Apollo Client",
+          "MobX",
+          "Retrofit"
+        ],
+        "correct_option": 1,
+        "hint": "This library is known for its integration with GraphQL and React."
+      },
+      {
+        "question": "In a GraphQL client for mobile apps, how is a mutation different from a query?",
+        "options": [
+          "A mutation fetches data, while a query modifies data.",
+          "A mutation modifies or adds data, while a query fetches data.",
+          "A mutation is always asynchronous, while a query is synchronous.",
+          "A mutation can only be used for deleting data."
+        ],
+        "correct_option": 1,
+        "hint": "Think about the purpose of a mutation in altering the state."
+      },
+      {
+        "question": "Which strategy can be used to optimize GraphQL queries for better performance in mobile applications?",
+        "options": [
+          "Always using the POST method for queries",
+          "Implementing query batching and caching",
+          "Reducing the number of fields in mutations",
+          "Using GraphQL fragments instead of queries"
+        ],
+        "correct_option": 1,
+        "hint": "Consider techniques that minimize network requests and improve data retrieval."
+      },
+      {
+        "question": "What is a best practice for ensuring the security of GraphQL client applications?",
+        "options": [
+          "Avoid using HTTPS for GraphQL endpoints.",
+          "Store sensitive data directly in GraphQL queries.",
+          "Use persisted queries to limit the query surface area.",
+          "Disable caching to prevent data leaks."
+        ],
+        "correct_option": 2,
+        "hint": "Focus on minimizing the exposure of sensitive data through queries."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a key advantage of using GraphQL over REST for mobile applications?",
+        "options": [
+          "GraphQL allows multiple endpoints for different data types.",
+          "REST supports more complex queries than GraphQL.",
+          "GraphQL enables fetching multiple resources in a single request.",
+          "REST automatically handles client-side caching."
+        ],
+        "correct_option": 2,
+        "hint": "Consider how GraphQL can reduce the number of requests needed to retrieve data."
+      },
+      {
+        "question": "Which of the following is a necessary step when setting up a GraphQL client for a mobile app?",
+        "options": [
+          "Defining RESTful endpoints for data access.",
+          "Creating a schema using XML.",
+          "Configuring the client with an endpoint URL and headers.",
+          "Installing a separate REST client for comparison."
+        ],
+        "correct_option": 2,
+        "hint": "Think about the initial configuration required for a GraphQL client to communicate with a server."
+      },
+      {
+        "question": "How does GraphQL handle errors differently compared to traditional REST APIs?",
+        "options": [
+          "GraphQL does not return any error messages by default.",
+          "Errors in GraphQL are returned in the response body alongside data.",
+          "GraphQL requires a separate endpoint for error messages.",
+          "REST APIs group errors and data in the same response body by default."
+        ],
+        "correct_option": 1,
+        "hint": "Consider how GraphQL can provide both data and error information in a single response."
+      },
+      {
+        "question": "What is a crucial aspect of optimizing performance for GraphQL queries in mobile applications?",
+        "options": [
+          "Always using POST requests to reduce latency.",
+          "Limiting the depth of queries to reduce server load.",
+          "Fetching all available fields in every query to ensure completeness.",
+          "Disabling caching to prevent outdated data."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how query complexity can affect server performance and response time."
+      },
+      {
+        "question": "Which practice is recommended for enhancing security when using GraphQL clients in mobile apps?",
+        "options": [
+          "Embedding authentication tokens directly in the mobile app code.",
+          "Allowing unrestricted queries from any client.",
+          "Implementing query whitelisting to control access.",
+          "Disabling encryption to improve performance."
+        ],
+        "correct_option": 2,
+        "hint": "Consider measures that limit what queries can be executed to protect sensitive data."
+      }
+    ]
+  },
+  "preferred_if": [
+    "Backend uses GraphQL",
+    "Client needs flexible data queries"
+  ]
+}

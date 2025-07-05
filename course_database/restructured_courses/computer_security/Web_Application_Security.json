@@ -16,105 +16,147 @@
     "vulnerabilities"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
-        "description": "An overview of web security principles and best practices for protecting applications from vulnerabilities and attacks."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
-        "description": "A comprehensive guide on implementing Content Security Policy (CSP) to enhance web application security by controlling resource loading."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security",
-        "description": "A comprehensive guide introducing fundamental concepts and practices for enhancing website security in server-side web development."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.freecodecamp.org/news/tag/web-security/",
-        "description": "Explore articles and tutorials on web security to enhance your understanding and skills in protecting web applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/software-engineering/securing-web-applications/",
-        "description": "An overview of best practices and strategies for securing web applications in software engineering."
-      },
-      {
-        "url": "https://www.w3schools.com/cybersecurity/",
-        "description": "An introductory guide to cybersecurity principles and practices for beginners."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/best-websites-for-learning-web-security/279588",
-        "description": "A curated list of recommended websites for learning web security concepts and practices."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/build-a-web-application-security-scanner-with-python/",
-        "description": "Learn how to create a web application security scanner using Python through this comprehensive guide."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=Qnl2BjxXpkk",
-      "https://www.youtube.com/watch?v=Dp019cWu1cg",
-      "https://www.youtube.com/watch?v=80VviDER96I",
-      "https://www.youtube.com/watch?v=MVCkzo5-AfM",
-      "https://www.youtube.com/watch?v=UBUNrFtufWo"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which of the following is a type of attack where malicious scripts are injected into otherwise benign and trusted websites?",
-      "options": [
-        "Cross-Site Scripting (XSS)",
-        "SQL Injection",
-        "Cross-Site Request Forgery (CSRF)",
-        "File Inclusion"
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://firebase.google.com/docs",
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://docs.djangoproject.com/",
+        "https://learning.postman.com/docs/introduction/overview/"
       ],
-      "correct_option": 0,
-      "hint": "This attack involves executing scripts in the context of another user's browser."
+      "notes": [
+        "https://www.invicti.com/blog/web-security/getting-started-web-application-security/",
+        "https://developer.okta.com/blog/2022/05/09/beginners-app-sec",
+        "https://portswigger.net/web-security",
+        "https://www.zaproxy.org/getting-started/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=3QOlo2pEpvc",
+        "https://www.youtube.com/watch?v=80VviDER96I",
+        "https://www.youtube.com/watch?v=XOlg8yyoumY",
+        "https://www.youtube.com/watch?v=36qwcfuxELk",
+        "https://www.youtube.com/watch?v=24fHLWXGS-M",
+        "https://www.youtube.com/watch?v=2_lswM1S264",
+        "https://www.youtube.com/watch?v=Qnl2BjxXpkk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=MVCkzo5-AfM&pp=0gcJCdgAo7VqN5tD"
+      ]
     },
-    {
-      "question": "What is the primary purpose of the OWASP Top 10?",
-      "options": [
-        "To provide a list of the most critical security risks to web applications",
-        "To offer a comprehensive guide on all types of cybersecurity threats",
-        "To rank programming languages by their security features",
-        "To list the top 10 secure coding practices"
+    "intermediate": {
+      "docs": [
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html",
+        "https://docs.datadoghq.com/api/latest/",
+        "https://developers.google.com/apis-explorer",
+        "https://www.akamai.com/products/api-security"
       ],
-      "correct_option": 0,
-      "hint": "The list aims to raise awareness about the most critical web application security risks."
+      "notes": [
+        "https://www.box.com/home",
+        "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+        "https://techdocs.broadcom.com/us/en/symantec-security-software/identity-security/vip-authentication-hub/3-4/VIP-Authentication-Hub-Demo-Environment/policy-use-cases.html",
+        "https://support.google.com/accounts/answer/185833?hl=en",
+        "https://techdocs.broadcom.com/us/en/vmware-security-load-balancing/avi-load-balancer/avi-load-balancer/22-1/vmware-avi-load-balancer-gslb-guide/gslb-configuration/configuration-for-common-use-cases.html",
+        "https://docs.pingidentity.com/pingds/8/security-guide/web-applications.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=2_lswM1S264",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=spm90jwC94A",
+        "https://www.youtube.com/watch?v=s2hZSCuhxW4",
+        "https://www.youtube.com/watch?v=lBOAEDQWO9o",
+        "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=tIyWCzGyJis",
+        "https://www.youtube.com/watch?v=MimyJrruDVM"
+      ]
     },
-    {
-      "question": "Which security vulnerability is primarily concerned with session fixation and session hijacking?",
-      "options": [
-        "Authentication & Session Management Vulnerabilities",
-        "Insecure Direct Object References",
-        "Cross-Site Scripting (XSS)",
-        "Security Misconfiguration"
+    "advanced": {
+      "docs": [
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://developers.arcgis.com/python/latest/",
+        "https://ebpf.io/what-is-ebpf/",
+        "https://developer.tenable.com/reference/navigate",
+        "https://learn.microsoft.com/en-us/dotnet/"
       ],
-      "correct_option": 0,
-      "hint": "This vulnerability involves the management of user sessions and authentication processes."
-    },
-    {
-      "question": "What is a common secure coding practice when dealing with user input?",
-      "options": [
-        "Sanitize and validate all user inputs",
-        "Use default usernames and passwords",
-        "Store passwords in plain text",
-        "Disable security features for easier debugging"
+      "notes": [
+        "https://testdriven.io/guides/flask-deep-dive/",
+        "https://www.offsec.com/courses/web-300/",
+        "https://www.jit.io/resources/security-standards/the-in-depth-guide-to-owasps-top-10-vulnerabilities",
+        "https://www.marcobehler.com/guides/spring-security",
+        "https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture"
       ],
-      "correct_option": 0,
-      "hint": "The practice involves ensuring that user input does not lead to vulnerabilities like SQL injection."
-    },
-    {
-      "question": "Which web security tool is commonly used for scanning web applications for vulnerabilities?",
-      "options": [
-        "Burp Suite",
-        "Visual Studio Code",
-        "Jira",
-        "Adobe Photoshop"
-      ],
-      "correct_option": 0,
-      "hint": "This tool is widely used for penetration testing and vulnerability analysis of web applications."
+      "videos": [
+        "https://www.youtube.com/watch?v=DHiZbIks9i0",
+        "https://www.youtube.com/watch?v=2eAPg2SSXyg",
+        "https://m.youtube.com/watch?v=RsxxsEzQhrM&t=1s",
+        "https://www.youtube.com/watch?v=B3O6bXu-NbM",
+        "https://www.youtube.com/watch?v=tLqWGysORXA&pp=ygUPI2ZyZWVjY25hY291cnNl",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=SVo6cDnQQm0",
+        "https://www.youtube.com/watch?v=dcAY-qrzTYA",
+        "https://www.youtube.com/watch?v=kP7KpfToMkg"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which of the following is a type of attack where malicious scripts are injected into otherwise benign and trusted websites?",
+        "options": [
+          "Cross-Site Scripting (XSS)",
+          "SQL Injection",
+          "Cross-Site Request Forgery (CSRF)",
+          "File Inclusion"
+        ],
+        "correct_option": 0,
+        "hint": "This attack involves executing scripts in the context of another user's browser."
+      },
+      {
+        "question": "What is the primary purpose of the OWASP Top 10?",
+        "options": [
+          "To provide a list of the most critical security risks to web applications",
+          "To offer a comprehensive guide on all types of cybersecurity threats",
+          "To rank programming languages by their security features",
+          "To list the top 10 secure coding practices"
+        ],
+        "correct_option": 0,
+        "hint": "The list aims to raise awareness about the most critical web application security risks."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which security vulnerability is primarily concerned with session fixation and session hijacking?",
+        "options": [
+          "Authentication & Session Management Vulnerabilities",
+          "Insecure Direct Object References",
+          "Cross-Site Scripting (XSS)",
+          "Security Misconfiguration"
+        ],
+        "correct_option": 0,
+        "hint": "This vulnerability involves the management of user sessions and authentication processes."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a common secure coding practice when dealing with user input?",
+        "options": [
+          "Sanitize and validate all user inputs",
+          "Use default usernames and passwords",
+          "Store passwords in plain text",
+          "Disable security features for easier debugging"
+        ],
+        "correct_option": 0,
+        "hint": "The practice involves ensuring that user input does not lead to vulnerabilities like SQL injection."
+      },
+      {
+        "question": "Which web security tool is commonly used for scanning web applications for vulnerabilities?",
+        "options": [
+          "Burp Suite",
+          "Visual Studio Code",
+          "Jira",
+          "Adobe Photoshop"
+        ],
+        "correct_option": 0,
+        "hint": "This tool is widely used for penetration testing and vulnerability analysis of web applications."
+      }
+    ]
+  }
 }

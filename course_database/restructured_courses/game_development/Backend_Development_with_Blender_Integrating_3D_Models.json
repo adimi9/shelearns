@@ -22,107 +22,148 @@
     "data-processing"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://docs.blender.org/api/current/info_quickstart.html",
+        "https://docs.unity3d.com/530/Documentation/Manual/HOWTO-ImportObjectBlender.html",
+        "https://docs.blender.org/api/current/index.html"
+      ],
+      "notes": [
+        "https://docs.blender.org/api/current/info_quickstart.html",
+        "https://edw.is/learning-vulkan/",
+        "https://devtalk.blender.org/t/asset-browser-so-slowwww/19909?page=2",
+        "https://en.wikipedia.org/wiki/Blender_(software)",
+        "https://moldstud.com/articles/p-beginners-guide-to-using-blender-for-ar-development-master-3d-modeling-skills",
+        "https://www.linkedin.com/posts/samerps_b3d-blender3d-fasthenry-activity-7216817808628723712-VoC7",
+        "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-27/issue-8/083014/BlenderPhotonics--an-integrated-open-source-software-environment-for-three/10.1117/1.JBO.27.8.083014.pdf"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=EzzcEL_1o9o",
+        "https://www.youtube.com/watch?v=kt0FrkQgw8w&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=H0K2IwsM4MQ",
+        "https://www.youtube.com/watch?v=MOif6TIjxtA",
+        "https://www.youtube.com/watch?v=wWTAQP7-ZUQ",
+        "https://www.youtube.com/watch?v=NSjuREl10N8",
+        "https://www.youtube.com/watch?v=QCS1DOu2IzU",
+        "https://www.youtube.com/watch?v=5WNoynmnEAs",
+        "https://www.youtube.com/watch?v=0fYi8SGA20k"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://github.com/modelcontextprotocol/servers",
+        "https://docs.blender.org/api/current/info_quickstart.html",
+        "https://platform.stability.ai/docs/api-reference",
+        "https://devtalk.blender.org/t/alternative-rendering-backends/830",
+        "https://developer.nvidia.com/isaac/sim"
+      ],
+      "notes": [
+        "https://edw.is/learning-vulkan/",
+        "https://docs.blender.org/api/current/info_quickstart.html",
+        "https://github.com/modelcontextprotocol/servers",
+        "https://devtalk.blender.org/t/alternative-rendering-backends/830",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9720862/",
+        "https://monadical.com/posts/build-a-digital-human-with-large-language-models.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=MOif6TIjxtA",
+        "https://www.youtube.com/watch?v=3_OoICZYwy4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=JRwTCKjc37o",
+        "https://www.youtube.com/watch?v=picePk8lb48",
+        "https://www.youtube.com/watch?v=28M5SwKsZpA",
+        "https://www.youtube.com/watch?v=tXhKY6_QgiM",
+        "https://www.youtube.com/watch?v=P4-Nxy5bkUw",
+        "https://www.youtube.com/watch?v=FXZ0G95_7Cs"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://docs.unity3d.com/530/Documentation/Manual/HOWTO-ImportObjectBlender.html",
+        "https://docs.pytorch.org/tutorials/advanced/cpp_frontend.html",
+        "https://docs.unity3d.com/550/Documentation/Manual/BlenderAndRigify.html",
+        "https://github.com/mikeroyal/Apple-Silicon-Guide",
+        "https://a16z.com/a-deep-dive-into-mcp-and-the-future-of-ai-tooling/"
+      ],
+      "notes": [
+        "https://edw.is/learning-vulkan/",
+        "https://designcode.io/cursor/",
+        "https://www.coursera.org/partners/packt",
+        "https://opencourser.com/post/fnyxa2/game-development-the-complete-learning-roadmap",
+        "https://github.com/MrNeRF/awesome-3D-gaussian-splatting",
+        "https://docs.unity3d.com/530/Documentation/Manual/HOWTO-ImportObjectBlender.html",
+        "https://moldstud.com/articles/p-beginners-guide-to-using-blender-for-ar-development-master-3d-modeling-skills"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=3jRX_5eiDWw",
+        "https://www.youtube.com/watch?v=06TE_U21FK4",
+        "https://www.youtube.com/watch?v=hWqouafRX2Y",
+        "https://www.youtube.com/watch?v=RGKi6LSPDLU"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
-        "description": "An introduction to the WebGPU API, detailing its purpose for enabling high-performance graphics and computation on the web."
+        "question": "What is Blender primarily used for in game development?",
+        "options": [
+          "Rendering final game scenes",
+          "Creating custom 3D assets",
+          "Designing sound effects",
+          "Writing game scripts"
+        ],
+        "correct_option": 1,
+        "hint": "Blender is not primarily a rendering engine."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode",
-        "description": "The resource explains the CSS `mix-blend-mode` property, which determines how an element's content blends with its background."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/video",
-        "description": "This resource provides detailed documentation on the HTML `<video>` element, including its attributes, usage, and examples."
+        "question": "Which feature of Blender makes it ideal for creating custom game assets?",
+        "options": [
+          "Its built-in game engine",
+          "Its 3D modeling capabilities",
+          "Its sound editing tools",
+          "Its texturing limitations"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the primary function of Blender as a 3D creation suite."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.reddit.com/r/threejs/comments/17o6op2/what_is_the_role_of_frontend_developer_working_on/",
-        "description": "Discussion on the role and responsibilities of a frontend developer working with the Three.js library."
-      },
-      {
-        "url": "https://medium.com/@tam.tamanna18/a-comprehensive-guide-to-the-best-mcp-servers-for-2025-5ee541b2b00f",
-        "description": "A detailed guide to the top Minecraft server platforms for 2025."
-      },
-      {
-        "url": "https://www.reddit.com/r/opengl/comments/y1z3jn/from_blender_to_opengl/",
-        "description": "A discussion on transitioning 3D models from Blender to OpenGL, including tips and techniques for successful integration."
-      },
-      {
-        "url": "https://digialps.com/stablegen-ai-textures-your-3d-models-in-seconds-with-blender/",
-        "description": "This resource explains how to use StableGen AI to rapidly generate textures for 3D models in Blender."
-      },
-      {
-        "url": "https://www.linkedin.com/posts/danilomakiosaito_xr-spatialcomputing-design-activity-7237112693122359296-TSr-",
-        "description": "This LinkedIn post discusses the intersection of XR and spatial computing in design applications."
+        "question": "Why might a game developer choose Blender over other 3D modeling software?",
+        "options": [
+          "It is open-source and free",
+          "It has superior rendering capabilities",
+          "It includes built-in game engines",
+          "It offers advanced sound design features"
+        ],
+        "correct_option": 0,
+        "hint": "Cost and accessibility are major factors."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=jswn8h40Qx0&pp=0gcJCdgAo7VqN5tD",
-      "https://www.youtube.com/watch?v=DHe-xROc6jw&pp=0gcJCdgAo7VqN5tD",
-      "https://www.youtube.com/watch?v=hnqr8Qiw_yw",
-      "https://www.youtube.com/watch?v=jsoLphuoxIg",
-      "https://www.youtube.com/watch?v=4haAdmHqGOw"
+    "advanced": [
+      {
+        "question": "What is a key advantage of using Blender for 3D modeling in game development?",
+        "options": [
+          "Its ability to export directly to game consoles",
+          "Its extensive library of pre-made game assets",
+          "Its flexibility in creating complex 3D models",
+          "Its focus on 2D asset creation"
+        ],
+        "correct_option": 2,
+        "hint": "Think about Blender's capabilities in modeling, not pre-made assets."
+      },
+      {
+        "question": "Which of the following is NOT a primary feature of Blender?",
+        "options": [
+          "3D asset creation",
+          "Animation tools",
+          "Game rendering engine",
+          "Sculpting tools"
+        ],
+        "correct_option": 2,
+        "hint": "Blender is more about creation and less about final rendering."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is Blender primarily used for in game development?",
-      "options": [
-        "Rendering final game scenes",
-        "Creating custom 3D assets",
-        "Designing sound effects",
-        "Writing game scripts"
-      ],
-      "correct_option": 1,
-      "hint": "Blender is not primarily a rendering engine."
-    },
-    {
-      "question": "Which feature of Blender makes it ideal for creating custom game assets?",
-      "options": [
-        "Its built-in game engine",
-        "Its 3D modeling capabilities",
-        "Its sound editing tools",
-        "Its texturing limitations"
-      ],
-      "correct_option": 1,
-      "hint": "Consider the primary function of Blender as a 3D creation suite."
-    },
-    {
-      "question": "Why might a game developer choose Blender over other 3D modeling software?",
-      "options": [
-        "It is open-source and free",
-        "It has superior rendering capabilities",
-        "It includes built-in game engines",
-        "It offers advanced sound design features"
-      ],
-      "correct_option": 0,
-      "hint": "Cost and accessibility are major factors."
-    },
-    {
-      "question": "What is a key advantage of using Blender for 3D modeling in game development?",
-      "options": [
-        "Its ability to export directly to game consoles",
-        "Its extensive library of pre-made game assets",
-        "Its flexibility in creating complex 3D models",
-        "Its focus on 2D asset creation"
-      ],
-      "correct_option": 2,
-      "hint": "Think about Blender's capabilities in modeling, not pre-made assets."
-    },
-    {
-      "question": "Which of the following is NOT a primary feature of Blender?",
-      "options": [
-        "3D asset creation",
-        "Animation tools",
-        "Game rendering engine",
-        "Sculpting tools"
-      ],
-      "correct_option": 2,
-      "hint": "Blender is more about creation and less about final rendering."
-    }
-  ],
   "preferred_if": [
     "User wants to create custom 3D assets for games"
   ]

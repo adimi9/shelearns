@@ -16,105 +16,148 @@
     "protocols"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
-        "description": "An overview of web security best practices and technologies for protecting websites from vulnerabilities and attacks."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
-        "description": "This guide provides an overview of Content Security Policy (CSP) and how to implement it to enhance web security by controlling resources the browser can load."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security",
-        "description": "An introductory guide to enhancing website security through server-side best practices."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/cybersecurity/",
-        "description": "An introductory guide to cybersecurity fundamentals and best practices for protecting digital information."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/network-security/",
-        "description": "An overview of network security concepts and practices to protect data and resources from unauthorized access and cyber threats."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-tutorial/",
-        "description": "This resource provides a comprehensive tutorial on ethical hacking and cybersecurity fundamentals."
-      },
-      {
-        "url": "https://www.w3schools.com/cybersecurity/cybersecurity_networking.php",
-        "description": "An introductory guide to networking concepts within the field of cybersecurity."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/computer-network-tutorials/",
-        "description": "A comprehensive collection of tutorials covering various topics and concepts in computer networks."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=NQ1cvwEvh44",
-      "https://www.youtube.com/watch?v=sesacY7Xz3c",
-      "https://www.youtube.com/watch?v=KjN64N6-_Sk",
-      "https://www.youtube.com/watch?v=U7FxlKD0AUM",
-      "https://www.youtube.com/watch?v=lYvijnPI1Rg"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary function of a firewall in network security?",
-      "options": [
-        "To provide a secure connection between remote users and the network",
-        "To monitor and filter incoming and outgoing network traffic",
-        "To encrypt data transmitted over the network",
-        "To detect and respond to network intrusions"
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/Security",
+        "https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-9.0",
+        "https://docs.aws.amazon.com/",
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/"
       ],
-      "correct_option": 1,
-      "hint": "This device acts as a barrier between a trusted and an untrusted network."
+      "notes": [
+        "https://www.w3schools.com/cybersecurity/",
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+        "https://mrcet.com/pdf/Lab%20Manuals/IT/CYBER%20SECURITY%20(R18A0521).pdf",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
+        "https://www.eccu.edu/blog/cybersecurity/fundamentals-of-information-security/",
+        "https://www.knowledgehut.com/blog/security/cyber-security-fundamentals",
+        "https://www.netacad.com/courses/introduction-to-cybersecurity"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=44l3h0FAcOw",
+        "https://www.youtube.com/watch?v=kcks1FLBVOI",
+        "https://www.youtube.com/watch?v=aRbKFCY4tjE",
+        "https://www.youtube.com/watch?v=Asurd09LmCU&pp=ygUdI2N5YmVyX2NyaW1lX3JlcG9ydGluZ19wb3J0YWw%3D",
+        "https://www.youtube.com/watch?v=4uKUSEqEosg",
+        "https://www.youtube.com/watch?v=o99nZlTNGqQ",
+        "https://m.youtube.com/live/OM6-R6PXYH0",
+        "https://www.youtube.com/watch?v=nzZkKoREEGo",
+        "https://www.youtube.com/watch?v=uaxqV9anY_c"
+      ]
     },
-    {
-      "question": "Which technology uses encryption to create a secure connection over the internet?",
-      "options": [
-        "Firewall",
-        "VPN",
-        "IDS",
-        "Network Segmentation"
+    "intermediate": {
+      "docs": [
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "https://cloud.google.com/docs",
+        "https://docs.aws.amazon.com/",
+        "https://learn.microsoft.com/en-us/azure/",
+        "https://duo.com/docs"
       ],
-      "correct_option": 1,
-      "hint": "Think of a virtual private road for your data."
+      "notes": [
+        "https://mrcet.com/pdf/Lab%20Manuals/IT/CYBER%20SECURITY%20(R18A0521).pdf",
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+        "https://nordlayer.com/learn/network-security/basics/",
+        "https://www.sans.org/cyber-security-courses/",
+        "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/basics",
+        "https://www.hivemq.com/mqtt/mqtt-security-fundamentals/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=2eEe5LnEbks",
+        "https://www.youtube.com/watch?v=OgKdLvwSIYY",
+        "https://www.youtube.com/watch?v=GpUyeMwzmBU",
+        "https://www.youtube.com/watch?v=Dbvx-98PeL0",
+        "https://www.youtube.com/watch?v=5abffC-K40c",
+        "https://www.youtube.com/watch?v=WWva3v9Hhfk",
+        "https://www.youtube.com/watch?v=0OzIMgcpVMY",
+        "https://www.youtube.com/watch?v=qwA6MmbeGNo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=jmVPLwjm_zs"
+      ]
     },
-    {
-      "question": "What is the purpose of an IDS (Intrusion Detection System)?",
-      "options": [
-        "To prevent unauthorized access by blocking traffic",
-        "To detect and alert on suspicious activities within the network",
-        "To encrypt data for secure transmission",
-        "To segment the network into smaller parts"
+    "advanced": {
+      "docs": [
+        "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html",
+        "https://www.fortinet.com/training-certification",
+        "https://docs.cilium.io/en/stable/index.html"
       ],
-      "correct_option": 1,
-      "hint": "This system is like a security camera for your network."
-    },
-    {
-      "question": "Which of the following is a benefit of network segmentation?",
-      "options": [
-        "Increased data encryption",
-        "Improved network performance and security",
-        "Simplified network architecture",
-        "Enhanced wireless signal strength"
+      "notes": [
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
+        "https://github.com/Hamed233/Cybersecurity-Mastery-Roadmap",
+        "https://www.sans.org/cyber-security-courses/",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+        "https://www.fortinet.com/nse-training"
       ],
-      "correct_option": 1,
-      "hint": "It involves dividing a network into parts to improve efficiency and security."
-    },
-    {
-      "question": "What is a common security risk associated with wireless networks?",
-      "options": [
-        "Data encryption being too strong",
-        "Limited network scalability",
-        "Unauthorized access due to weak encryption",
-        "Excessive use of network segmentation"
-      ],
-      "correct_option": 2,
-      "hint": "Think about how easy it is for anyone to detect wireless signals."
+      "videos": [
+        "https://www.youtube.com/watch?v=tLqWGysORXA&pp=ygUPI2ZyZWVjY25hY291cnNl",
+        "https://www.youtube.com/watch?v=HZzXbxajz80",
+        "https://www.youtube.com/watch?v=Urluwrkhnik",
+        "https://m.youtube.com/watch?v=EKdZutMkmTE&pp=ygUMI2N5YmVyc2FsYXJ5",
+        "https://www.youtube.com/watch?v=zWZbVz9rdwk",
+        "https://www.youtube.com/watch?v=qMmqWly86JM",
+        "https://www.youtube.com/watch?v=SVo6cDnQQm0",
+        "https://www.youtube.com/watch?v=BVZBcNDDC-4"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary function of a firewall in network security?",
+        "options": [
+          "To provide a secure connection between remote users and the network",
+          "To monitor and filter incoming and outgoing network traffic",
+          "To encrypt data transmitted over the network",
+          "To detect and respond to network intrusions"
+        ],
+        "correct_option": 1,
+        "hint": "This device acts as a barrier between a trusted and an untrusted network."
+      },
+      {
+        "question": "Which technology uses encryption to create a secure connection over the internet?",
+        "options": [
+          "Firewall",
+          "VPN",
+          "IDS",
+          "Network Segmentation"
+        ],
+        "correct_option": 1,
+        "hint": "Think of a virtual private road for your data."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the purpose of an IDS (Intrusion Detection System)?",
+        "options": [
+          "To prevent unauthorized access by blocking traffic",
+          "To detect and alert on suspicious activities within the network",
+          "To encrypt data for secure transmission",
+          "To segment the network into smaller parts"
+        ],
+        "correct_option": 1,
+        "hint": "This system is like a security camera for your network."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a benefit of network segmentation?",
+        "options": [
+          "Increased data encryption",
+          "Improved network performance and security",
+          "Simplified network architecture",
+          "Enhanced wireless signal strength"
+        ],
+        "correct_option": 1,
+        "hint": "It involves dividing a network into parts to improve efficiency and security."
+      },
+      {
+        "question": "What is a common security risk associated with wireless networks?",
+        "options": [
+          "Data encryption being too strong",
+          "Limited network scalability",
+          "Unauthorized access due to weak encryption",
+          "Excessive use of network segmentation"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how easy it is for anyone to detect wireless signals."
+      }
+    ]
+  }
 }

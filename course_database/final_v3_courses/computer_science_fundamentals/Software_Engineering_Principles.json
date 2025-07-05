@@ -1,0 +1,493 @@
+{
+  "id": "CS1",
+  "name": "Software Engineering Principles",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Software Engineering",
+  "topics": [
+    "Software Development Life Cycle (SDLC)",
+    "Agile Methodologies (Scrum, Kanban)",
+    "Requirements Gathering & Analysis",
+    "Testing & Debugging"
+  ],
+  "recommended": true,
+  "tags": [
+    "software-development",
+    "methodologies",
+    "project-management"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+          "description": "Guidelines for designing robust and scalable APIs on Azure.",
+          "title": "Web API Design Best Practices - Azure Architecture Center | Microsoft Learn"
+        },
+        {
+          "url": "https://semver.org/",
+          "description": "An authoritative specification for Semantic Versioning 2.0.0.",
+          "title": "Semantic Versioning 2.0.0 | Semantic Versioning"
+        },
+        {
+          "url": "https://developer.roku.com/docs/developer-program/getting-started/roku-dev-prog.md",
+          "description": "An introductory guide for developers to start building applications on the Roku platform.",
+          "title": "ERROR: The request could not be satisfied"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.geeksforgeeks.org/software-engineering/software-engineering-introduction-to-software-engineering/",
+          "description": "An introductory guide to the fundamental concepts of software engineering.",
+          "title": "Introduction to Software Engineering - GeeksforGeeks"
+        },
+        {
+          "url": "https://workat.tech/machine-coding/tutorial/introduction-clean-code-software-design-principles-nwu4qqc63e09",
+          "description": "An introductory guide to clean code and software design principles.",
+          "title": "Introduction to Clean Code and Software Design Principles"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/software-engineering/software-engineering/",
+          "description": "An overview of key concepts and practices in software engineering.",
+          "title": "Software Engineering Tutorial - GeeksforGeeks"
+        },
+        {
+          "url": "https://workat.tech/machine-coding/tutorial/software-design-principles-dry-yagni-eytrxfhz1fla",
+          "description": "An overview of essential software design principles including DRY and YAGNI.",
+          "title": "Software Design Principles (Basics) | DRY, YAGNI, KISS, etc"
+        },
+        {
+          "url": "https://www.freecodecamp.org/news/learn-programming-free-software-development-courses-for-beginners/",
+          "description": "A curated list of free software development courses for beginners.",
+          "title": "Learn Programming – Free Software Development Courses for Beginners"
+        },
+        {
+          "url": "https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design",
+          "description": "An introduction to the SOLID principles of object-oriented design.",
+          "title": "SOLID Design Principles Explained: Building Better Software Architecture | DigitalOcean"
+        },
+        {
+          "url": "https://www.bu.edu/academics/eng/courses/eng-ec-327/",
+          "description": "Course details and curriculum for ENG EC 327, Introduction to Software Engineering, at Boston University.",
+          "title": "ENG EC 327 » Academics | Boston University"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=8jH07r6135o",
+          "title": "#Software #Engineering - Lecture 1 : Introduction, Software Products, Process Activities & Ethics",
+          "duration": "53m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=60EqoRcanpo",
+          "title": "Software Design Principles For Beginners",
+          "duration": "53m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lue3dOe-0xI",
+          "title": "Software Engineering Principles",
+          "duration": "60m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-njsRb8Tn70",
+          "title": "An Introduction to Software Design - With Python",
+          "duration": "34m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=NU_1StN5Tkk",
+          "title": "Design Patterns in Plain English | Mosh Hamedani",
+          "duration": "80m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=FLtqAi7WNBY&t=1s",
+          "title": "Software Design Tutorial #1 - Software Engineering & Software Architecture",
+          "duration": "40m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hexfXc7-SsU",
+          "title": "10 Udemy Courses Every Developer SHOULD Own (NOT just coding)",
+          "duration": "19m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zLP_X4wyHbY&pp=0gcJCfwAo7VqN5tD",
+          "title": "Lecture 1. Introduction and Basics - Carnegie Mellon - Computer Architecture 2015 - Onur Mutlu",
+          "duration": "114m"
+        },
+        {
+          "url": "https://www.youtube.com/c/CSDojo"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://developer.android.com/topic/architecture",
+          "description": "An overview of recommended architecture guidelines for Android app development.",
+          "title": "Guide to app architecture  |  App architecture  |  Android Developers"
+        },
+        {
+          "url": "https://www.sjsu.edu/cs/docs/pdfs/fall-20-syllabi/Tseng_CS%20160_Syllabus_Fall20.pdf",
+          "description": "The syllabus for San Jose State University's Fall 2020 CS 160 course on software engineering."
+        },
+        {
+          "url": "https://www.linkedin.com/posts/miguelcaetano_what-is-api-meaning-types-examples-activity-7203351194591756288-5jf_",
+          "description": "An overview of APIs, including their meaning, types, and examples.",
+          "title": "A very good article about APIs - aimed at both software developers, technical writers, and project managers: | Miguel Caetano"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://softwareengineering.stackexchange.com/questions/447532/when-to-not-use-solid-principles",
+          "description": "Discussion on scenarios where SOLID principles may not be applicable in software design.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/system-design/singleton-design-pattern/",
+          "description": "An explanation and implementation guide for the Singleton Design Pattern in system design.",
+          "title": "Singleton Method Design Pattern - GeeksforGeeks"
+        },
+        {
+          "url": "https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design",
+          "description": "An overview of the SOLID principles for effective object-oriented design.",
+          "title": "SOLID Design Principles Explained: Building Better Software Architecture | DigitalOcean"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/",
+          "description": "An explanation of SOLID principles in programming with real-life examples.",
+          "title": "SOLID Principles in Programming: Understand With Real Life Examples - GeeksforGeeks"
+        },
+        {
+          "url": "https://mrcet.com/downloads/digital_notes/CSE/III%20Year/Software%20Engineering.pdf",
+          "description": "An educational resource outlining key concepts and methodologies in Software Engineering for third-year computer science students."
+        },
+        {
+          "url": "https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow",
+          "description": "An overview of the Gitflow Workflow, detailing its branching model and use cases.",
+          "title": "Gitflow Workflow | Atlassian Git Tutorial"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=NU_1StN5Tkk",
+          "title": "Design Patterns in Plain English | Mosh Hamedani",
+          "duration": "80m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OhCp6ppX6bg&pp=0gcJCfwAo7VqN5tD",
+          "title": "How I Mastered Low Level Design Interviews",
+          "duration": "8m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xrxC5gRNV48&pp=0gcJCfwAo7VqN5tD",
+          "title": "Clean Architecture: The ONE Change That Transforms Use Cases From Terrible to Super Useful",
+          "duration": "19m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=kRZE7gRCPQA",
+          "title": "AI Agent Mastery: Agent Architectures",
+          "duration": "61m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XV_IJY5jpy0",
+          "title": "QA Engineer From Scratch FULL AUDIO ENGLISH COURSE",
+          "duration": "641m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lch30CjcF7U",
+          "title": "Manual Software Testing Training - Part 2 | Manual Testing Free Course",
+          "duration": "73m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=R3JxCOZdL-c&pp=0gcJCfwAo7VqN5tD",
+          "title": "Test Automation engineer Full course in 10 hours [2024] | Testing Course For Beginners | Edureka",
+          "duration": "576m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HXd7g3RlCIs",
+          "title": "How to Create a Software Architecture | Embedded System Project Series #6",
+          "duration": "24m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wG2g67RHYyo",
+          "title": "Platform Building for Data Mesh - Show me how it is done! by Tom De Wolf",
+          "duration": "37m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://developers.google.com/tech-writing/resources",
+          "description": "A resource hub offering tools and tips for effective technical writing.",
+          "title": "Technical writing resources  |  Technical Writing  |  Google for Developers"
+        },
+        {
+          "url": "https://ebpf.io/what-is-ebpf/",
+          "description": "An introduction to eBPF, explaining its purpose and applications in enhancing Linux kernel functionality.",
+          "title": "What is eBPF? An Introduction and Deep Dive into the eBPF Technology"
+        },
+        {
+          "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+          "description": "An introductory guide to search engine optimization (SEO) for improving website visibility on Google.",
+          "title": "SEO Starter Guide: The Basics | Google Search Central  |  Documentation  |  Google for Developers"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/",
+          "description": "The official Microsoft Learn platform offering extensive technical documentation and learning resources.",
+          "title": "Microsoft Learn: Build skills that open doors in your career"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.scarletink.com/p/guide-to-deep-dive-leadership-principle",
+          "description": "An in-depth exploration of leadership principles for effective management.",
+          "title": "A Guide to the Deep Dive Leadership Principle"
+        },
+        {
+          "url": "https://www.baeldung.com/solid-principles",
+          "description": "An in-depth explanation of the SOLID principles in object-oriented programming.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.amazon.jobs/content/our-workplace/leadership-principles",
+          "description": "An overview of Amazon's core leadership principles guiding decision-making and culture.",
+          "title": "Leadership Principles"
+        },
+        {
+          "url": "https://www.datacamp.com/blog/how-to-learn-ai",
+          "description": "A practical guide for beginners on learning artificial intelligence effectively.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/digital-logic/digital-electronics-logic-design-tutorials/",
+          "description": "An educational resource covering various topics in digital electronics and logic design.",
+          "title": "Digital Electronics and Logic Design Tutorials - GeeksforGeeks"
+        },
+        {
+          "url": "https://interviewing.io/blog/how-software-engineering-behavioral-interviews-are-evaluated-meta",
+          "description": "Insights into how Meta evaluates software engineering behavioral interviews.",
+          "title": "How SWE behavioral interviews are evaluated at Meta"
+        },
+        {
+          "url": "https://refactoring.guru/design-patterns",
+          "description": "A detailed resource explaining various software design patterns and their implementations.",
+          "title": "Design Patterns"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=hexfXc7-SsU",
+          "title": "10 Udemy Courses Every Developer SHOULD Own (NOT just coding)",
+          "duration": "19m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Llnmf5BXLBA",
+          "title": "Canva Tutorial For Beginners: A Free 2 Hour Masterclass",
+          "duration": "140m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=A6Ud7EGAxrc",
+          "title": "Software Design Patterns, Principles, and Best Practices",
+          "duration": "15m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hHjmr_YOqnU",
+          "title": "Azure AI Fundamentals Certification 2024 (AI-900) - Full Course to PASS the Exam",
+          "duration": "263m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1BLZGe-TqW0",
+          "title": "How to Mix Like a Pro (12-Hour Mixing Course)",
+          "duration": "719m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=jGwO_UgTS7I&pp=2AEAkAIB",
+          "title": "Stanford CS229: Machine Learning Course, Lecture 1 - Andrew Ng (Autumn 2018)",
+          "duration": "75m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4qN3JBGd1g8",
+          "title": "Secure by Design – the Architect's Guide to Security Design Principles • Eoin Woods • GOTO 2016",
+          "duration": "43m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=31wzhvz0vsw",
+          "title": "Figma Advanced Tutorial: A 2-hour Masterclass",
+          "duration": "132m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of the Software Development Life Cycle (SDLC)?",
+        "options": [
+          "To define a structured process for developing software",
+          "To manage project timelines",
+          "To allocate software development resources",
+          "To track software bugs"
+        ],
+        "correct_option": 0,
+        "hint": "It involves different phases from planning to deployment."
+      },
+      {
+        "question": "Which Agile methodology uses iterative cycles called 'sprints'?",
+        "options": [
+          "Kanban",
+          "Scrum",
+          "Waterfall",
+          "Lean"
+        ],
+        "correct_option": 1,
+        "hint": "This methodology often includes roles like Product Owner and Scrum Master."
+      },
+      {
+        "question": "Why is requirements gathering and analysis important in software engineering?",
+        "options": [
+          "It helps in designing the user interface",
+          "It identifies the needs and expectations of stakeholders",
+          "It reduces the cost of software development",
+          "It speeds up the coding process"
+        ],
+        "correct_option": 1,
+        "hint": "Understanding what stakeholders need is crucial for successful software development."
+      },
+      {
+        "question": "What is a common technique used in testing to find and fix bugs?",
+        "options": [
+          "Pair programming",
+          "Code reviews",
+          "Debugging",
+          "Refactoring"
+        ],
+        "correct_option": 2,
+        "hint": "This technique involves identifying errors in the code and correcting them."
+      },
+      {
+        "question": "In Kanban methodology, what is the primary visual tool used to manage tasks?",
+        "options": [
+          "Burndown charts",
+          "Kanban board",
+          "Gantt chart",
+          "Product backlog"
+        ],
+        "correct_option": 1,
+        "hint": "This tool uses columns to represent stages of the task flow."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which phase of the Software Development Life Cycle (SDLC) focuses on translating user requirements into a detailed system design?",
+        "options": [
+          "Requirements Gathering and Analysis",
+          "Design",
+          "Implementation",
+          "Testing"
+        ],
+        "correct_option": 1,
+        "hint": "This phase involves creating a blueprint for the software solution."
+      },
+      {
+        "question": "In Agile methodologies, what is the primary focus of the Scrum framework?",
+        "options": [
+          "Continuous delivery of software",
+          "Iterative and incremental development",
+          "Managing workflow efficiently",
+          "Cross-functional team collaboration"
+        ],
+        "correct_option": 3,
+        "hint": "This framework emphasizes teamwork and collaboration."
+      },
+      {
+        "question": "What is the main purpose of requirements gathering in software engineering?",
+        "options": [
+          "To develop a prototype",
+          "To understand user needs and expectations",
+          "To implement software code",
+          "To test the software for bugs"
+        ],
+        "correct_option": 1,
+        "hint": "This process involves collecting and analyzing what the users truly need."
+      },
+      {
+        "question": "In Kanban, what is a key practice to manage workflow effectively?",
+        "options": [
+          "Daily stand-up meetings",
+          "Limiting work-in-progress",
+          "Sprint reviews",
+          "Backlog grooming"
+        ],
+        "correct_option": 1,
+        "hint": "This practice helps prevent overloading the team and ensures focus."
+      },
+      {
+        "question": "What is the primary objective of software testing and debugging?",
+        "options": [
+          "To enhance user interface design",
+          "To ensure the software meets user requirements",
+          "To optimize the software for speed",
+          "To find and fix defects in the software"
+        ],
+        "correct_option": 3,
+        "hint": "These processes focus on identifying and resolving issues in the code."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following best describes the iterative characteristic of the Agile methodology?",
+        "options": [
+          "A single pass through defined phases",
+          "Continuous delivery of working software",
+          "Strict adherence to initial requirements",
+          "Comprehensive documentation before development"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on delivering software in small, usable increments."
+      },
+      {
+        "question": "In Scrum, what is the purpose of a 'Sprint Retrospective'?",
+        "options": [
+          "To prioritize the product backlog",
+          "To review the product increment",
+          "To improve the process based on the last sprint",
+          "To estimate the story points for the next sprint"
+        ],
+        "correct_option": 2,
+        "hint": "This meeting aims at reflecting on the team's process and finding ways to enhance it."
+      },
+      {
+        "question": "Which testing technique is most effective for validating the requirements during the early stages of development?",
+        "options": [
+          "Integration Testing",
+          "Unit Testing",
+          "Acceptance Testing",
+          "Regression Testing"
+        ],
+        "correct_option": 2,
+        "hint": "This type of testing is often done by the client to confirm the software meets their needs."
+      },
+      {
+        "question": "What is a key advantage of using Kanban over Scrum in software development?",
+        "options": [
+          "Fixed time-boxed iterations",
+          "Flexibility in workflow management",
+          "Detailed role definitions",
+          "Mandatory sprint planning sessions"
+        ],
+        "correct_option": 1,
+        "hint": "Kanban allows for a continuous flow of tasks and adapts to changes quickly."
+      },
+      {
+        "question": "In the context of software engineering, what is the primary goal of debugging?",
+        "options": [
+          "To write new code",
+          "To design the software architecture",
+          "To identify and fix errors in the code",
+          "To gather user requirements"
+        ],
+        "correct_option": 2,
+        "hint": "This process focuses on resolving defects found in the software."
+      }
+    ]
+  }
+}

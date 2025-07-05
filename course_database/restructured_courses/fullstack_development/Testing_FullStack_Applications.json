@@ -17,105 +17,150 @@
     "devops"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
-        "description": "An overview of ARIA (Accessible Rich Internet Applications) and how it enhances web accessibility."
-      },
-      {
-        "url": "https://reactjs.org/",
-        "description": "The official React documentation site provides comprehensive resources and guides for building user interfaces with the React JavaScript library."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
-        "description": "An overview of Progressive Web Apps, including their features, benefits, and how to develop them using modern web technologies."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://forum.freecodecamp.org/t/queston-about-news-section-how-to-build-a-full-stack-authentication-app/568310",
-        "description": "This forum post discusses building a full-stack authentication app, focusing on integrating authentication features."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
-        "description": "A guide on how to become a full-stack developer and secure a job in the field."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/struggling-with-transferring-repl-it-projects-to-vscode/448072",
-        "description": "Guidance on transferring projects from Repl.it to Visual Studio Code, addressing common challenges and solutions."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/mern-stack-roadmap-what-you-need-to-know-to-build-full-stack-apps/",
-        "description": "A comprehensive guide to understanding and implementing the MERN stack for building full-stack web applications."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/full-stack-project-tutorial-create-a-notes-app-using-react-and-node-js/",
-        "description": "This tutorial guides you through building a full-stack notes app using React for the frontend and Node.js for the backend."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=Zq5fmkH0T78",
-      "https://www.youtube.com/watch?v=aIy46jQsDLM",
-      "https://www.youtube.com/watch?v=u6QfIXgjwGQ",
-      "https://www.youtube.com/watch?v=O3BUHwfHf84",
-      "https://www.youtube.com/watch?v=9FiaVLvzAJI"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary goal of unit testing in full-stack applications?",
-      "options": [
-        "To test the application as a whole system",
-        "To verify the functionality of individual components in isolation",
-        "To ensure the database schema is correct",
-        "To test the user interface in various browsers"
+    "beginner": {
+      "docs": [
+        "https://docs.djangoproject.com/",
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://docs.lovable.dev/introduction",
+        "https://flask.palletsprojects.com/"
       ],
-      "correct_option": 1,
-      "hint": "Unit testing focuses on components, not the whole system."
+      "notes": [
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://m.youtube.com/watch?v=NqzdVN2tyvQ&t=0s",
+        "https://www.youtube.com/watch?v=vUYopHWOURg&pp=0gcJCf0Ao7VqN5tD",
+        "https://github.com/practical-tutorials/project-based-learning",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=2_lswM1S264",
+        "https://www.youtube.com/watch?v=a0osIaAOFSE",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=K5KVEU3aaeQ",
+        "https://www.youtube.com/watch?v=9SGDpanrc8U",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=nJ25yl34Uqw",
+        "https://www.youtube.com/watch?v=vUYopHWOURg&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=gieEQFIfgYc"
+      ]
     },
-    {
-      "question": "Which tool is commonly used for end-to-end testing in full-stack applications?",
-      "options": [
-        "Mocha",
-        "Jest",
-        "Cypress",
-        "Sinon"
+    "intermediate": {
+      "docs": [
+        "https://docs.cypress.io/app/get-started/why-cypress",
+        "https://firebase.google.com/docs/studio",
+        "https://docs.cypress.io/app/core-concepts/best-practices"
       ],
-      "correct_option": 2,
-      "hint": "This tool is known for testing web applications by simulating user interactions."
+      "notes": [
+        "https://www.keysight.com/de/de/products/software/software-testing/eggplant-test/api-evaluation.html",
+        "https://www.shopify.com/ph/partners/blog/shopify-admin-authenticate-app",
+        "https://pg-p.ctme.caltech.edu/blog/coding/what-is-unit-testing-in-python",
+        "https://reflect.run/articles/page/4/",
+        "https://github.com/tiangolo/full-stack-fastapi-couchbase/blob/master/README.md",
+        "https://www.linkedin.com/posts/mitch-allen-com_typescript-cucumber-bdd-tutorial-mac-activity-7160587247887503361-zHLk"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=2_lswM1S264",
+        "https://www.youtube.com/watch?v=JyolNYRbAcs&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=8Xwq35cPwYg",
+        "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/@aiwithbrandon/videos",
+        "https://www.youtube.com/watch?v=ZZ1lnw8D3Qo"
+      ]
     },
-    {
-      "question": "What is a key advantage of using test doubles in unit testing?",
-      "options": [
-        "They eliminate the need for integration tests",
-        "They improve the performance of the production system",
-        "They allow testing of components in isolation",
-        "They ensure that the entire system is free of bugs"
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://docs.djangoproject.com/",
+        "https://learn.microsoft.com/en-us/dotnet/"
       ],
-      "correct_option": 2,
-      "hint": "Test doubles help isolate the unit being tested from its dependencies."
-    },
-    {
-      "question": "In integration testing of API endpoints, what is typically verified?",
-      "options": [
-        "The correctness of individual UI components",
-        "The interaction between different parts of the application",
-        "The load capacity of the server",
-        "The style and layout of front-end components"
+      "notes": [
+        "https://fullstackopen.com/en/",
+        "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
+        "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions",
+        "https://pg-p.ctme.caltech.edu/blog/coding/what-is-unit-testing-in-python",
+        "https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/"
       ],
-      "correct_option": 1,
-      "hint": "Integration testing focuses on the interaction of integrated units."
-    },
-    {
-      "question": "What is a common use case for Playwright in testing full-stack applications?",
-      "options": [
-        "Unit testing backend services",
-        "Mocking database calls",
-        "End-to-end testing across multiple browsers",
-        "Static code analysis"
-      ],
-      "correct_option": 2,
-      "hint": "Playwright is used for cross-browser testing in an end-to-end manner."
+      "videos": [
+        "https://www.youtube.com/watch?v=K5KVEU3aaeQ",
+        "https://www.youtube.com/watch?v=hHjmr_YOqnU",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=nJ25yl34Uqw",
+        "https://www.youtube.com/watch?v=CzRQ9mnmh44",
+        "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+        "https://www.youtube.com/watch?v=H2EJuAcrZYU&pp=ygUPI2NvdXJzZWNvbXBsZXRl",
+        "https://www.youtube.com/c/GreatAdib",
+        "https://www.youtube.com/watch?v=Ae-r8hsbPUo"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary goal of unit testing in full-stack applications?",
+        "options": [
+          "To test the application as a whole system",
+          "To verify the functionality of individual components in isolation",
+          "To ensure the database schema is correct",
+          "To test the user interface in various browsers"
+        ],
+        "correct_option": 1,
+        "hint": "Unit testing focuses on components, not the whole system."
+      },
+      {
+        "question": "Which tool is commonly used for end-to-end testing in full-stack applications?",
+        "options": [
+          "Mocha",
+          "Jest",
+          "Cypress",
+          "Sinon"
+        ],
+        "correct_option": 2,
+        "hint": "This tool is known for testing web applications by simulating user interactions."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a key advantage of using test doubles in unit testing?",
+        "options": [
+          "They eliminate the need for integration tests",
+          "They improve the performance of the production system",
+          "They allow testing of components in isolation",
+          "They ensure that the entire system is free of bugs"
+        ],
+        "correct_option": 2,
+        "hint": "Test doubles help isolate the unit being tested from its dependencies."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In integration testing of API endpoints, what is typically verified?",
+        "options": [
+          "The correctness of individual UI components",
+          "The interaction between different parts of the application",
+          "The load capacity of the server",
+          "The style and layout of front-end components"
+        ],
+        "correct_option": 1,
+        "hint": "Integration testing focuses on the interaction of integrated units."
+      },
+      {
+        "question": "What is a common use case for Playwright in testing full-stack applications?",
+        "options": [
+          "Unit testing backend services",
+          "Mocking database calls",
+          "End-to-end testing across multiple browsers",
+          "Static code analysis"
+        ],
+        "correct_option": 2,
+        "hint": "Playwright is used for cross-browser testing in an end-to-end manner."
+      }
+    ]
+  }
 }

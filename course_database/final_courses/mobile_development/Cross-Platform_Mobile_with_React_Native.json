@@ -1,0 +1,364 @@
+{
+  "id": "MD15",
+  "name": "Cross-Platform Mobile with React Native",
+  "category": "Mobile Development",
+  "primary_tech": "React Native",
+  "topics": [
+    "React Native Components & APIs",
+    "Flexbox for Layout",
+    "Navigation in React Native",
+    "Bridging Native Modules"
+  ],
+  "recommended": true,
+  "tags": [
+    "cross-platform",
+    "JavaScript",
+    "React",
+    "hybrid"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://reactnative.dev/",
+          "description": "The official documentation site for React Native, a framework for building native apps using React."
+        },
+        {
+          "url": "https://cs47.stanford.edu/",
+          "description": "Stanford's CS47 course focusing on cross-platform mobile development using React Native."
+        },
+        {
+          "url": "https://reactnative.dev/docs/getting-started",
+          "description": "Official documentation for getting started with React Native development."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://reactnative.dev/",
+          "description": "Official documentation for building mobile applications using React Native."
+        },
+        {
+          "url": "https://forum.djangoproject.com/t/best-approach-for-developing-a-cross-platform-mobile-app-alongside-a-django-web-app/21554",
+          "description": "Discussion on strategies for developing a cross-platform mobile app with a Django web app."
+        },
+        {
+          "url": "https://www.apriorit.com/dev-blog/web-mobile-cross-platform-app-development-react-native",
+          "description": "An insightful overview of cross-platform app development using React Native."
+        },
+        {
+          "url": "https://bia.is/react-native-from-a-mobile-developer-perspective/",
+          "description": "An insightful analysis of React Native from the viewpoint of a mobile developer."
+        },
+        {
+          "url": "https://sendbird.com/developer/tutorials/flutter-vs-react-native-choosing-the-right-cross-platform-mobile-app-development-framework",
+          "description": "A comparative analysis of Flutter and React Native for cross-platform mobile app development."
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/reactjs-tutorial/flutter-vs-react-native",
+          "description": "A detailed comparison between Flutter and React Native for mobile app development."
+        },
+        {
+          "url": "https://www.toptal.com/react-native/cold-dive-into-react-native-a-beginners-tutorial",
+          "description": "A beginner's tutorial for diving into React Native development."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/watch?v=do78xbPwHV0",
+        "https://www.youtube.com/watch?v=f8Z9JyB2EIE",
+        "https://www.youtube.com/watch?v=bCpFbERgj7s",
+        "https://www.youtube.com/watch?v=wbj-DuaL748",
+        "https://www.youtube.com/watch?v=KFULlIuqcsA",
+        "https://www.youtube.com/watch?v=2wOvhDtqsW8",
+        "https://www.youtube.com/watch?v=CZr3pKM44wk",
+        "https://www.youtube.com/watch?v=_tqvevHzom0",
+        "https://www.youtube.com/watch?v=HERDh_fekqY"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.expo.dev/workflow/continuous-native-generation/",
+          "description": "An overview of continuous native generation in Expo for seamless app development workflows."
+        },
+        {
+          "url": "https://reactnative.dev/docs/textinput",
+          "description": "Detailed documentation on using the TextInput component in React Native applications."
+        },
+        {
+          "url": "https://playwright.dev/",
+          "description": "An official site offering documentation and resources for Playwright, a framework for web testing and automation."
+        },
+        {
+          "url": "https://reactnative.dev/docs/more-resources",
+          "description": "A curated list of additional resources for learning and mastering React Native."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.apriorit.com/dev-blog/web-mobile-cross-platform-app-development-react-native",
+          "description": "An in-depth exploration of cross-platform app development using React Native."
+        },
+        {
+          "url": "https://devforum.zoom.us/t/how-to-integrate-zoom-sdk-in-react-native-mobile-application/14869",
+          "description": "A guide on integrating Zoom SDK into a React Native mobile application."
+        },
+        {
+          "url": "https://forum.juce.com/t/soul-lang-with-flutter-and-dart-ffi/36549",
+          "description": "Discussion on integrating SOUL language with Flutter using Dart FFI."
+        },
+        {
+          "url": "https://sendbird.com/developer/tutorials/flutter-vs-react-native-choosing-the-right-cross-platform-mobile-app-development-framework",
+          "description": "A comparison guide to choosing between Flutter and React Native for cross-platform mobile app development."
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=23558730",
+          "description": "Discussion on Hacker News about the impact of remote work on productivity and creativity."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=2wOvhDtqsW8",
+        "https://m.youtube.com/watch?v=NMb4RDpbRXs",
+        "https://www.youtube.com/watch?v=crXMb0Pz2zc",
+        "https://www.youtube.com/watch?v=I_J7N0n5YPs",
+        "https://www.youtube.com/watch?v=1ETOJloLK3Y",
+        "https://www.youtube.com/watch?v=GcqFhoUuNNI",
+        "https://m.youtube.com/watch?v=XSHifNNWML4&pp=ygURI3Rlc3RkYXBwbGljYXRpb24%3D",
+        "https://www.youtube.com/watch?v=GmDYLq1Op48"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://reactnative.dev/docs/getting-started",
+          "description": "Official guide for setting up and starting with React Native development."
+        },
+        {
+          "url": "https://react.dev/",
+          "description": "The official React documentation for building user interfaces with the React library."
+        },
+        {
+          "url": "https://ionicframework.com/",
+          "description": "A platform for building cross-platform mobile, web, and desktop apps using web technologies."
+        },
+        {
+          "url": "https://github.com/anisurrahman072/React-Native-Advanced-Guide",
+          "description": "An advanced guide for developing mobile applications using React Native."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+          "description": "An introductory tutorial on the basics of Python programming."
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=NMb4RDpbRXs",
+          "description": "An introductory video tutorial on understanding and implementing REST APIs."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=f8Z9JyB2EIE",
+          "description": "A tutorial video on implementing and understanding the basics of RESTful APIs."
+        },
+        {
+          "url": "https://www.netguru.com/blog/learn-react-native",
+          "description": "An introductory guide to learning and mastering React Native for mobile app development."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=YEzS55Cl7Rs",
+          "description": "An introductory tutorial on using Git and GitHub for version control."
+        },
+        {
+          "url": "https://www.udemy.com/topic/react-native/",
+          "description": "An online learning platform offering courses on React Native development."
+        },
+        {
+          "url": "https://www.designveloper.com/blog/react-native-courses/",
+          "description": "An overview of top courses for learning React Native development."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/watch?v=f8Z9JyB2EIE",
+        "https://www.youtube.com/watch?v=DDmqukrpvrM",
+        "https://www.youtube.com/watch?v=dzog64ENKG0",
+        "https://www.youtube.com/watch?v=YEzS55Cl7Rs",
+        "https://m.youtube.com/watch?v=NMb4RDpbRXs",
+        "https://www.youtube.com/watch?v=bCpFbERgj7s",
+        "https://www.youtube.com/watch?v=kqdrn-jEaXY"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which of the following is NOT a core component of React Native?",
+        "options": [
+          "View",
+          "Text",
+          "Button",
+          "Map"
+        ],
+        "correct_option": 3,
+        "hint": "It's a component used for displaying geographical data."
+      },
+      {
+        "question": "What is the main purpose of Flexbox in React Native?",
+        "options": [
+          "To handle user input",
+          "To manage navigation",
+          "To create animations",
+          "To layout user interfaces"
+        ],
+        "correct_option": 3,
+        "hint": "It's related to arranging and aligning items on the screen."
+      },
+      {
+        "question": "Which package is commonly used for navigation in React Native apps?",
+        "options": [
+          "react-navigation",
+          "react-native-maps",
+          "react-native-camera",
+          "react-native-gesture-handler"
+        ],
+        "correct_option": 0,
+        "hint": "This package is specifically designed for navigating between different screens."
+      },
+      {
+        "question": "What is the function of bridging in React Native?",
+        "options": [
+          "To connect React Native with third-party libraries",
+          "To execute asynchronous operations",
+          "To handle user gestures",
+          "To optimize app performance"
+        ],
+        "correct_option": 0,
+        "hint": "It involves connecting native modules to JavaScript code."
+      },
+      {
+        "question": "Which React Native component would you use to display a scrollable list?",
+        "options": [
+          "View",
+          "FlatList",
+          "TextInput",
+          "Image"
+        ],
+        "correct_option": 1,
+        "hint": "This component is specifically designed for rendering large lists efficiently."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which React Native component is primarily used to create scrollable lists of data?",
+        "options": [
+          "FlatList",
+          "ScrollView",
+          "SectionList",
+          "ListView"
+        ],
+        "correct_option": 0,
+        "hint": "It's a component specifically designed for performance and rendering large lists."
+      },
+      {
+        "question": "What is the purpose of Flexbox in React Native layout design?",
+        "options": [
+          "To allow for complex animations",
+          "To create responsive layouts",
+          "To manage state across components",
+          "To handle API requests"
+        ],
+        "correct_option": 1,
+        "hint": "It is used to determine the alignment and distribution of space among items in a container."
+      },
+      {
+        "question": "Which library is commonly used to implement navigation in a React Native application?",
+        "options": [
+          "React Navigation",
+          "Redux",
+          "Axios",
+          "MobX"
+        ],
+        "correct_option": 0,
+        "hint": "It's a popular library specifically for handling different types of navigation patterns."
+      },
+      {
+        "question": "In React Native, what does the term 'Bridging' refer to?",
+        "options": [
+          "Connecting two different components",
+          "Linking JavaScript with native code",
+          "Synchronizing state across components",
+          "Merging two different themes"
+        ],
+        "correct_option": 1,
+        "hint": "It involves integrating JavaScript with platform-specific functionality."
+      },
+      {
+        "question": "What is a key difference between the React Native components 'View' and 'Text'?",
+        "options": [
+          "'View' supports styling, 'Text' does not",
+          "'Text' is used for displaying text, 'View' is not",
+          "'View' can contain other components, 'Text' cannot",
+          "'Text' can contain images, 'View' cannot"
+        ],
+        "correct_option": 2,
+        "hint": "One is meant for layout and can be a container for other components."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the purpose of the 'useWindowDimensions' hook in React Native?",
+        "options": [
+          "To provide device orientation information",
+          "To fetch and manage window dimensions dynamically",
+          "To handle user gestures on the screen",
+          "To manage network requests for window data"
+        ],
+        "correct_option": 1,
+        "hint": "This hook helps adapt UI components to screen size changes."
+      },
+      {
+        "question": "In React Native Flexbox, which property defines the alignment of children along the main axis?",
+        "options": [
+          "flexDirection",
+          "alignItems",
+          "justifyContent",
+          "alignSelf"
+        ],
+        "correct_option": 2,
+        "hint": "This property is used to distribute space between and around content items."
+      },
+      {
+        "question": "Which React Navigation component is primarily used for creating a stack-based navigation pattern?",
+        "options": [
+          "DrawerNavigator",
+          "TabNavigator",
+          "StackNavigator",
+          "BottomTabNavigator"
+        ],
+        "correct_option": 2,
+        "hint": "This component manages a stack of screen components."
+      },
+      {
+        "question": "What is the main role of the 'RCTBridgeModule' in React Native?",
+        "options": [
+          "To create custom native UI components",
+          "To bridge JavaScript code with native code",
+          "To handle navigation between screens",
+          "To manage asynchronous data fetching"
+        ],
+        "correct_option": 1,
+        "hint": "This module is essential for integrating non-JS functionalities."
+      },
+      {
+        "question": "How does React Native's 'SafeAreaView' component enhance UI layout?",
+        "options": [
+          "By optimizing the app's memory usage",
+          "By automatically handling device orientation changes",
+          "By rendering components outside the safe area boundaries",
+          "By ensuring content is rendered within the safe area boundaries of a device"
+        ],
+        "correct_option": 3,
+        "hint": "This component prevents content from being overlapped by hardware elements like notches or home indicators."
+      }
+    ]
+  }
+}

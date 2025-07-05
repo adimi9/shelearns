@@ -16,105 +16,152 @@
     "problem-solving"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://legacy.reactjs.org/docs/reconciliation.html",
-        "description": "This documentation explains the reconciliation process in React, detailing how the library efficiently updates and renders components."
-      },
-      {
-        "url": "https://nodejs.org/api/crypto.html",
-        "description": "The Node.js Crypto module documentation provides details on cryptographic functionality for implementing secure data encryption and decryption."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto",
-        "description": "The SubtleCrypto interface provides a set of cryptographic operations for web applications, allowing secure data encryption, decryption, and digital signatures."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/fundamentals-of-algorithms/",
-        "description": "An introductory guide to understanding and implementing fundamental algorithms across various domains."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/introduction-to-algorithms/",
-        "description": "This resource provides an overview and foundational understanding of algorithms, including their design, analysis, and implementation."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
-        "description": "Comprehensive tutorial for learning data structures and algorithms with practical examples and explanations."
-      },
-      {
-        "url": "https://www.w3schools.com/dsa/",
-        "description": "A comprehensive guide to data structures and algorithms with tutorials and examples for learning and implementation."
-      },
-      {
-        "url": "https://www.w3schools.com/dsa/dsa_intro.php",
-        "description": "An introductory guide to data structures and algorithms, covering fundamental concepts and their applications."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=rL8X2mlNHPM",
-      "https://www.youtube.com/watch?v=oz9cEqFynHU",
-      "https://www.youtube.com/watch?v=8hly31xKli0",
-      "https://www.youtube.com/watch?v=jQqQpPMYPXs",
-      "https://www.youtube.com/watch?v=BBpAmxU_NQo"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which sorting algorithm is known for its divide and conquer approach and has an average time complexity of O(n log n)?",
-      "options": [
-        "Merge Sort",
-        "Bubble Sort",
-        "Insertion Sort",
-        "Selection Sort"
+    "beginner": {
+      "docs": [
+        "https://docs.nvidia.com/cuda/cublas/",
+        "https://spinningup.openai.com/en/latest/",
+        "https://www.wolfssl.com/documentation/manuals/wolfssl/",
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://xgboost.readthedocs.io/"
       ],
-      "correct_option": 0,
-      "hint": "It divides the array into halves and combines them after sorting."
+      "notes": [
+        "https://www.sandordargo.com/blog/2019/01/30/stl-algos-intro",
+        "https://www.geeksforgeeks.org/fundamentals-of-algorithms/",
+        "https://arxiv.org/abs/1903.04359",
+        "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/",
+        "https://www.w3schools.com/dsa/dsa_intro.php"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8hly31xKli0",
+        "https://www.youtube.com/watch?v=BBpAmxU_NQo",
+        "https://www.youtube.com/watch?v=t2CEgPsws3U&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=fW_OS3LGB9Q",
+        "https://m.youtube.com/watch?v=JgWm6sQwS_I&t=22m00s",
+        "https://www.youtube.com/watch?v=coqQwbDezUA",
+        "https://www.youtube.com/watch?v=JJkWemM03Lg",
+        "https://www.youtube.com/watch?v=pkYVOmU3MgA",
+        "https://www.youtube.com/watch?v=3XaqEng_K5s",
+        "https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY"
+      ]
     },
-    {
-      "question": "What is the time complexity of searching for an element in a balanced binary search tree using Binary Search?",
-      "options": [
-        "O(log n)",
-        "O(n^2)",
-        "O(n log n)",
-        "O(n)"
+    "intermediate": {
+      "docs": [
+        "https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html",
+        "https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform",
+        "https://docs.mulesoft.com/mule-runtime/latest/secure-configuration-properties"
       ],
-      "correct_option": 0,
-      "hint": "The complexity is logarithmic in nature."
+      "notes": [
+        "https://ascpt.onlinelibrary.wiley.com/doi/full/10.1111/cts.70172",
+        "https://www.scale.at/blog/css-layout-modes",
+        "https://enccs.github.io/qas2023/hybrid-life-science/",
+        "https://neptune.ai/blog/clustering-algorithms",
+        "https://enccs.github.io/qas2023/hybrid-quantum-chemistry/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=w7-AU00kAMg",
+        "https://www.youtube.com/watch?v=Mut_u40Sqz4",
+        "https://m.youtube.com/watch?v=ahN1Yea9geA&t=9s",
+        "https://www.youtube.com/watch?v=3B_oB2YrLvk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=f_Yor-ydZjs",
+        "https://www.youtube.com/watch?v=GhmYBgLoQQg&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Ar_Zit1VLG0",
+        "https://m.youtube.com/watch?v=byXOrkoorCk&t=434s",
+        "https://www.youtube.com/watch?v=qmxWuV4psFs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=xpx0nEmcKug"
+      ]
     },
-    {
-      "question": "Which algorithm is used to find the shortest path from a single source to all other vertices in a graph with non-negative weights?",
-      "options": [
-        "Dijkstra's Algorithm",
-        "Prim's Algorithm",
-        "Floyd-Warshall Algorithm",
-        "Kruskal's Algorithm"
+    "advanced": {
+      "docs": [
+        "https://spinningup.openai.com/en/latest/",
+        "https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html",
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "https://docs.ultralytics.com/guides/yolo-performance-metrics/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       ],
-      "correct_option": 0,
-      "hint": "This algorithm uses a priority queue to find the shortest path."
-    },
-    {
-      "question": "In dynamic programming, what is a common technique used to solve problems by breaking them down into simpler subproblems?",
-      "options": [
-        "Memoization",
-        "Recursion",
-        "Backtracking",
-        "Brute Force"
+      "notes": [
+        "https://www.youtube.com/watch?v=1gdeekREoq8",
+        "https://m.youtube.com/watch?v=tpCFfeUEGs8&t=6s",
+        "https://www.youtube.com/watch?v=MS5jByTX_pk",
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.datacamp.com/tutorial/guide-to-the-gradient-boosting-algorithm",
+        "https://www.youtube.com/watch?v=U2OzF3zve08"
       ],
-      "correct_option": 0,
-      "hint": "This technique involves storing solutions to subproblems to avoid redundant calculations."
-    },
-    {
-      "question": "Which graph algorithm is used to find a Minimum Spanning Tree (MST) and uses a greedy approach?",
-      "options": [
-        "Prim's Algorithm",
-        "Dijkstra's Algorithm",
-        "Bellman-Ford Algorithm",
-        "Depth First Search"
-      ],
-      "correct_option": 0,
-      "hint": "This algorithm grows the MST one edge at a time, always choosing the smallest edge."
+      "videos": [
+        "https://www.youtube.com/watch?v=1gdeekREoq8",
+        "https://www.youtube.com/watch?v=yD4mCE1z59o",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=MS5jByTX_pk",
+        "https://www.youtube.com/watch?v=tpCFfeUEGs8",
+        "https://www.youtube.com/watch?v=U2OzF3zve08",
+        "https://www.youtube.com/watch?v=Eo1HbXEiJxo&pp=ygUJI2Fua2ljYXJk",
+        "https://www.youtube.com/c/ArpitBhayani"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which sorting algorithm is known for its divide and conquer approach and has an average time complexity of O(n log n)?",
+        "options": [
+          "Merge Sort",
+          "Bubble Sort",
+          "Insertion Sort",
+          "Selection Sort"
+        ],
+        "correct_option": 0,
+        "hint": "It divides the array into halves and combines them after sorting."
+      },
+      {
+        "question": "What is the time complexity of searching for an element in a balanced binary search tree using Binary Search?",
+        "options": [
+          "O(log n)",
+          "O(n^2)",
+          "O(n log n)",
+          "O(n)"
+        ],
+        "correct_option": 0,
+        "hint": "The complexity is logarithmic in nature."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which algorithm is used to find the shortest path from a single source to all other vertices in a graph with non-negative weights?",
+        "options": [
+          "Dijkstra's Algorithm",
+          "Prim's Algorithm",
+          "Floyd-Warshall Algorithm",
+          "Kruskal's Algorithm"
+        ],
+        "correct_option": 0,
+        "hint": "This algorithm uses a priority queue to find the shortest path."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In dynamic programming, what is a common technique used to solve problems by breaking them down into simpler subproblems?",
+        "options": [
+          "Memoization",
+          "Recursion",
+          "Backtracking",
+          "Brute Force"
+        ],
+        "correct_option": 0,
+        "hint": "This technique involves storing solutions to subproblems to avoid redundant calculations."
+      },
+      {
+        "question": "Which graph algorithm is used to find a Minimum Spanning Tree (MST) and uses a greedy approach?",
+        "options": [
+          "Prim's Algorithm",
+          "Dijkstra's Algorithm",
+          "Bellman-Ford Algorithm",
+          "Depth First Search"
+        ],
+        "correct_option": 0,
+        "hint": "This algorithm grows the MST one edge at a time, always choosing the smallest edge."
+      }
+    ]
+  }
 }

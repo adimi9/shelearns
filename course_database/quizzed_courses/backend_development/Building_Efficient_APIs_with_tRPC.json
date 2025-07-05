@@ -1,0 +1,289 @@
+{
+  "id": "BE28",
+  "name": "Building Efficient APIs with tRPC",
+  "category": "Backend Development",
+  "primary_tech": "tRPC",
+  "topics": [
+    "Introduction to tRPC and its Benefits",
+    "Setting up a tRPC Server with Node.js",
+    "Defining Endpoints with TypeScript",
+    "Client-Server Communication in tRPC",
+    "Error Handling and Validation in tRPC",
+    "Authentication and Authorization Strategies",
+    "Deploying tRPC Applications",
+    "Integrating tRPC with Frontend Frameworks"
+  ],
+  "recommended": false,
+  "tags": [
+    "tRPC",
+    "TypeScript",
+    "API Development",
+    "Node.js",
+    "Microservices"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://trpc.io/",
+        "https://graphql.org/",
+        "https://github.com/avelino/awesome-go",
+        "https://redux-toolkit.js.org/rtk-query/overview",
+        "https://learn.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-9.0"
+      ],
+      "notes": [
+        "https://trpc.io/",
+        "https://docs.deno.com/examples/trpc_tutorial/",
+        "https://www.wisp.blog/blog/setting-up-trpc-with-nextjs-14",
+        "https://betterstack.com/community/guides/scaling-nodejs/vitejs-explained/",
+        "https://www.linkedin.com/pulse/getting-started-trpc-beginners-guide-type-safe-apis-vimal-prakash-m0zac",
+        "https://graphql.org/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=EtV-0zTCPxQ",
+        "https://m.youtube.com/watch?v=P_q9XcbtucM",
+        "https://www.youtube.com/watch?v=oRmsGCs9Dow",
+        "https://www.youtube.com/watch?v=2wz19HOyu1w",
+        "https://www.youtube.com/watch?v=ffJ38dBzrlY&pp=0gcJCf0Ao7VqN5tD",
+        "https://m.youtube.com/watch?v=Zq7H8kYIQIU",
+        "https://www.youtube.com/watch?v=OwxxCibSFKk&pp=ygUMI2FycGFuY3JlYXRl",
+        "https://www.youtube.com/watch?v=xWuUY53y0g8",
+        "https://www.youtube.com/watch?v=OPqi0ugoVlU",
+        "https://www.youtube.com/watch?v=U8TKbNwgcSQ"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://graphql.org/",
+        "https://openapistack.co/docs/intro/",
+        "https://www.speakeasy.com/blog/apis-vs-sdks-difference"
+      ],
+      "notes": [
+        "https://www.descope.com/blog/post/authenticating-api-trpc",
+        "https://wundergraph.com/blog/graphql-vs-federation-vs-trpc-vs-rest-vs-grpc-vs-asyncapi-vs-webhooks",
+        "https://github.com/trpc/trpc/discussions/1504",
+        "https://directus.io/blog/rest-graphql-tprc",
+        "https://www.wisp.blog/blog/how-to-use-trpc-with-nextjs-15-app-router",
+        "https://www.inngest.com/blog",
+        "https://www.wallarm.com/what/trpc-vs-rest"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=Zq7H8kYIQIU",
+        "https://www.youtube.com/watch?v=zu_g17ePajA",
+        "https://www.youtube.com/watch?v=oI9A84NBC3w",
+        "https://www.youtube.com/watch?v=NwneaxZFPDo",
+        "https://www.youtube.com/watch?v=dFEIsaabtX0",
+        "https://www.youtube.com/watch?v=D9PM96W_p7c&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=zv72WMmVkPw",
+        "https://www.youtube.com/watch?v=tjKdQ2F9FEE",
+        "https://www.youtube.com/watch?v=RvyCAdDmFaw",
+        "https://www.youtube.com/watch?v=8Uyka3fzXek"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://github.com/avelino/awesome-go",
+        "https://www.linkedin.com/posts/free-code-camp_what-is-the-trpc-library-explained-with-activity-7217906732306505730-XJ88",
+        "https://betterstack.com/community/guides/scaling-nodejs/vitejs-explained/",
+        "https://www.wallarm.com/what/trpc-vs-rest",
+        "https://wundergraph.com/blog"
+      ],
+      "notes": [
+        "https://betterstack.com/community/guides/scaling-nodejs/vitejs-explained/",
+        "https://www.linkedin.com/pulse/getting-started-trpc-beginners-guide-type-safe-apis-vimal-prakash-m0zac",
+        "https://github.com/avelino/awesome-go",
+        "https://refine.dev/blog/zustand-react-state/",
+        "https://www.inngest.com/blog",
+        "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
+        "https://www.wallarm.com/what/trpc-vs-rest"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=EtV-0zTCPxQ",
+        "https://www.youtube.com/watch?v=m3YrZav5-CU",
+        "https://www.youtube.com/watch?v=fEmSH4jM4qI",
+        "https://www.youtube.com/watch?v=xWuUY53y0g8",
+        "https://www.youtube.com/watch?v=0kogy25BsBo",
+        "https://www.youtube.com/watch?v=-5RTyEim384",
+        "https://www.youtube.com/watch?v=MBlZ8Wzkbi4",
+        "https://m.youtube.com/watch?v=BSrd_rU0Ioo",
+        "https://www.youtube.com/watch?v=8IiIXeTOl_o"
+      ]
+    }
+  },
+  "preferred_if": [
+    "User is building a full-stack TypeScript application",
+    "Wants extreme type safety"
+  ],
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is one of the main benefits of using tRPC?",
+        "options": [
+          "It allows for real-time communication between clients and servers.",
+          "It provides automatic TypeScript support for both client and server.",
+          "It is specifically designed for mobile app development.",
+          "It requires no server-side setup."
+        ],
+        "correct_option": 1,
+        "hint": "Think about the type-safety feature that tRPC offers."
+      },
+      {
+        "question": "Which Node.js package is essential for setting up a tRPC server?",
+        "options": [
+          "express",
+          "trpc",
+          "graphql",
+          "axios"
+        ],
+        "correct_option": 1,
+        "hint": "The package shares its name with the technology you are learning about."
+      },
+      {
+        "question": "When defining endpoints in tRPC with TypeScript, what is a key advantage?",
+        "options": [
+          "Automatic generation of HTML documentation.",
+          "Ensures type safety across client and server.",
+          "Increased server performance.",
+          "No need for any server configuration."
+        ],
+        "correct_option": 1,
+        "hint": "Consider how TypeScript can help maintain consistency between client and server."
+      },
+      {
+        "question": "How does tRPC handle client-server communication?",
+        "options": [
+          "Using WebSockets exclusively.",
+          "Through RESTful API calls.",
+          "By leveraging remote procedure calls (RPC) over HTTP.",
+          "With GraphQL queries and mutations."
+        ],
+        "correct_option": 2,
+        "hint": "tRPC uses a communication mechanism that allows calling functions remotely."
+      },
+      {
+        "question": "What is a common strategy for authentication in tRPC applications?",
+        "options": [
+          "Using JSON Web Tokens (JWT).",
+          "Relying on IP address verification.",
+          "Implementing OAuth 3.0.",
+          "Using cookies only."
+        ],
+        "correct_option": 0,
+        "hint": "Think about a popular token-based authentication method."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a primary benefit of using tRPC in API development?",
+        "options": [
+          "Simplified client-server communication",
+          "Increased server load",
+          "More complex authentication",
+          "Reduced security"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how tRPC affects client-server interaction."
+      },
+      {
+        "question": "Which of the following is required to set up a basic tRPC server with Node.js?",
+        "options": [
+          "Express.js",
+          "Flask",
+          "Django",
+          "Rails"
+        ],
+        "correct_option": 0,
+        "hint": "Consider a popular Node.js framework often used for building APIs."
+      },
+      {
+        "question": "How does TypeScript enhance endpoint definition in tRPC?",
+        "options": [
+          "By enforcing type safety",
+          "By increasing runtime errors",
+          "By slowing down development",
+          "By reducing code readability"
+        ],
+        "correct_option": 0,
+        "hint": "Think about TypeScript's primary feature."
+      },
+      {
+        "question": "Which statement about client-server communication in tRPC is true?",
+        "options": [
+          "It requires manual JSON parsing",
+          "It automatically handles HTTP requests",
+          "It is less efficient than REST",
+          "It does not support TypeScript"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how tRPC abstracts certain tasks in communication."
+      },
+      {
+        "question": "What is a common strategy for handling authentication in tRPC applications?",
+        "options": [
+          "Storing passwords in plain text",
+          "Using JSON Web Tokens (JWT)",
+          "Ignoring authentication",
+          "Relying solely on client-side validation"
+        ],
+        "correct_option": 1,
+        "hint": "Think about a widely used method for authentication in modern applications."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary advantage of using tRPC over REST APIs in terms of client-server communication?",
+        "options": [
+          "tRPC eliminates the need for manual endpoint definition on the client.",
+          "tRPC requires less bandwidth than REST APIs.",
+          "tRPC automatically generates GraphQL queries for client-server communication.",
+          "tRPC provides a built-in caching mechanism to speed up requests."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how tRPC leverages TypeScript for defining endpoints."
+      },
+      {
+        "question": "Which module should be imported to set up a tRPC server using Node.js?",
+        "options": [
+          "import { createTRPCServer } from 'trpc'",
+          "import { initTRPCServer } from 'trpc/server'",
+          "import { createServer } from 'trpc'",
+          "import { initServer } from 'trpc/server'"
+        ],
+        "correct_option": 0,
+        "hint": "Focus on the function responsible for creating a tRPC server."
+      },
+      {
+        "question": "In tRPC, how is type safety between client and server achieved?",
+        "options": [
+          "By using TypeScript to define contracts on both sides.",
+          "By employing JSON schema validation.",
+          "Through runtime type-checking with JavaScript.",
+          "By using predefined type libraries for each endpoint."
+        ],
+        "correct_option": 0,
+        "hint": "Think about how tRPC utilizes TypeScript beyond typical JavaScript practices."
+      },
+      {
+        "question": "Which of the following is NOT a recommended strategy for handling authentication in a tRPC application?",
+        "options": [
+          "Using JSON Web Tokens (JWT) for stateless authentication.",
+          "Implementing OAuth for third-party authentication.",
+          "Embedding user credentials directly into each API call.",
+          "Utilizing session-based authentication with cookies."
+        ],
+        "correct_option": 2,
+        "hint": "Consider security best practices regarding credential management."
+      },
+      {
+        "question": "What is a crucial step when deploying a tRPC application to ensure it works seamlessly with frontend frameworks?",
+        "options": [
+          "Ensure the server is configured to handle CORS properly.",
+          "Embed all frontend framework code within tRPC endpoints.",
+          "Disable all CORS policies for unrestricted access.",
+          "Use server-side rendering exclusively for all requests."
+        ],
+        "correct_option": 0,
+        "hint": "Think about a common issue when making API requests from different origins."
+      }
+    ]
+  }
+}

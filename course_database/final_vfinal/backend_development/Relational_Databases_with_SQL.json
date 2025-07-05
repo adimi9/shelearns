@@ -1,0 +1,512 @@
+{
+  "id": "BE12",
+  "name": "Relational Databases with SQL",
+  "category": "Backend Development",
+  "primary_tech": "SQL",
+  "topics": [
+    "Database Design (Normalization)",
+    "SQL Queries (SELECT, INSERT, UPDATE, DELETE)",
+    "PostgreSQL/MySQL Basics"
+  ],
+  "recommended": true,
+  "tags": [
+    "database",
+    "SQL",
+    "data-management"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+          "description": "An introductory guide to Amazon RDS, detailing its features and setup process.",
+          "title": "What is Amazon Relational Database Service (Amazon RDS)? - Amazon Relational Database Service"
+        },
+        {
+          "url": "https://duckdb.org/docs/stable/sql/introduction.html",
+          "description": "An introductory guide to SQL usage and features in DuckDB.",
+          "title": "SQL Introduction – DuckDB"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/ef/",
+          "description": "An official guide to using Entity Framework for data access in .NET applications.",
+          "title": "Entity Framework documentation hub | Microsoft Learn"
+        },
+        {
+          "url": "https://cloud.google.com/learn/what-is-a-relational-database",
+          "description": "An introductory guide explaining the fundamentals of relational databases.",
+          "title": "What Is A Relational Database (RDBMS)? | Google Cloud"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/",
+          "description": "An in-depth resource for understanding and utilizing Azure Cosmos DB, Microsoft's globally distributed, multi-model database service.",
+          "title": "Azure Cosmos DB | Microsoft Learn"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+          "description": "A tutorial video on using Docker for beginners.",
+          "title": "SQL Course for Beginners [Full Course]",
+          "duration": "190m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=DiQ5Hni6oRI",
+          "description": "An instructional video on setting up and using GitHub Actions for CI/CD automation.",
+          "title": "SQL Databases with Pandas and Python - A Complete Guide",
+          "duration": "16m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MiAl2mQ718s&pp=ygUMI2RibXNwcm9qZWN0",
+          "description": "An overview of the DBMS Project with a focus on its key features and implementation.",
+          "title": "SQL Database Design Tutorial for Beginners | Data Analyst Portfolio Project (1/3)",
+          "duration": "15m"
+        },
+        {
+          "url": "https://www.w3schools.com/sql/sql_intro.asp",
+          "description": "An introductory guide to SQL, covering basic concepts and syntax.",
+          "title": "SQL Introduction"
+        },
+        {
+          "url": "https://online.stanford.edu/courses/soe-ydatabases0005-databases-relational-databases-and-sql",
+          "description": "An introductory course on relational databases and SQL offered by Stanford Online.",
+          "title": "403 Forbidden"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/sql/sql-tutorial/",
+          "description": "An in-depth SQL tutorial covering basic to advanced database management concepts.",
+          "title": "SQL Tutorial - GeeksforGeeks"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+          "title": "SQL Course for Beginners [Full Course]",
+          "duration": "190m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MiAl2mQ718s&pp=ygUMI2RibXNwcm9qZWN0",
+          "title": "SQL Database Design Tutorial for Beginners | Data Analyst Portfolio Project (1/3)",
+          "duration": "15m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7mz73uXD9DA",
+          "title": "SQL for Data Analytics - Learn SQL in 4 Hours",
+          "duration": "248m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9Pzj7Aj25lw&pp=0gcJCfwAo7VqN5tD",
+          "title": "Learn SQL in 1 Hour - SQL Basics for Beginners",
+          "duration": "62m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=DiQ5Hni6oRI",
+          "title": "SQL Databases with Pandas and Python - A Complete Guide",
+          "duration": "16m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2XCaKYH0Ydo",
+          "title": "Learning Golang: Relational Databases - Introduction to database/sql",
+          "duration": "25m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/sql",
+          "description": "Google Cloud SQL documentation for managing and using relational databases in the cloud.",
+          "title": "Cloud SQL for MySQL, PostgreSQL, and SQL Server | Google Cloud"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+          "description": "An introduction and comprehensive guide to using Amazon RDS.",
+          "title": "What is Amazon Relational Database Service (Amazon RDS)? - Amazon Relational Database Service"
+        },
+        {
+          "url": "https://cloud.google.com/sql/docs/postgres",
+          "description": "Official documentation for managing PostgreSQL databases on Google Cloud SQL.",
+          "title": "Cloud SQL for PostgreSQL documentation  |  Google Cloud"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/cosmos-db/",
+          "description": "An overview and detailed documentation on using Azure Cosmos DB for globally distributed, multi-model database solutions.",
+          "title": "Azure Cosmos DB | Microsoft Learn"
+        },
+        {
+          "url": "https://firebase.google.com/docs/database",
+          "description": "Official documentation for using Firebase Realtime Database to store and sync data.",
+          "title": "Firebase Realtime Database"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=7mz73uXD9DA",
+          "description": "An instructional video on implementing and understanding advanced data structures in computer science.",
+          "title": "SQL for Data Analytics - Learn SQL in 4 Hours",
+          "duration": "248m"
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/tutorial/sql-databases/",
+          "description": "A tutorial on using SQL databases with FastAPI for efficient data management.",
+          "title": "SQL (Relational) Databases - FastAPI"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9ur0OpMADuM",
+          "description": "A tutorial on how to create a custom Node.js CLI tool using JavaScript.",
+          "title": "How to use Azure SQL Databases | Azure Fundamentals",
+          "duration": "13m"
+        },
+        {
+          "url": "https://stackoverflow.com/questions/3713313/when-should-i-use-a-nosql-database-instead-of-a-relational-database-is-it-okay",
+          "description": "A discussion on when to choose a NoSQL database over a relational database.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+          "description": "An introductory tutorial on the fundamentals of Git and GitHub for beginners.",
+          "title": "SQL Course for Beginners [Full Course]",
+          "duration": "190m"
+        },
+        {
+          "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+          "description": "An introduction to the fundamentals and benefits of NoSQL databases.",
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hw6oTjw9_Ro&pp=0gcJCfwAo7VqN5tD",
+          "description": "A tutorial video on using GitHub Copilot for efficient coding assistance.",
+          "title": "Use AI to chat with a relational SQL database with natural language!",
+          "duration": "22m"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=7mz73uXD9DA",
+          "title": "SQL for Data Analytics - Learn SQL in 4 Hours",
+          "duration": "248m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9ur0OpMADuM",
+          "title": "How to use Azure SQL Databases | Azure Fundamentals",
+          "duration": "13m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+          "title": "SQL Course for Beginners [Full Course]",
+          "duration": "190m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GEBzsz8ZSXs",
+          "title": "How I use SQL as a Data Analyst",
+          "duration": "15m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hw6oTjw9_Ro&pp=0gcJCfwAo7VqN5tD",
+          "title": "Use AI to chat with a relational SQL database with natural language!",
+          "duration": "22m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9Pzj7Aj25lw&pp=0gcJCfwAo7VqN5tD",
+          "title": "Learn SQL in 1 Hour - SQL Basics for Beginners",
+          "duration": "62m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+          "title": "NoSQL vs SQL – Which Type of Database Should You Use?",
+          "duration": "85m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=NRPWGLCrvBU",
+          "title": "How I Use SQL as a BI Analyst",
+          "duration": "9m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+          "description": "An introductory guide to Amazon RDS, detailing its features and setup instructions.",
+          "title": "What is Amazon Relational Database Service (Amazon RDS)? - Amazon Relational Database Service"
+        },
+        {
+          "url": "https://docs.oracle.com/en/database/oracle/oracle-database/18/cncpt/introduction-to-oracle-database.html",
+          "description": "An introductory guide to the fundamental concepts of Oracle Database architecture and components.",
+          "title": "Database Concepts"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SQLServer.html",
+          "description": "A detailed user guide for managing SQL Server instances on Amazon RDS.",
+          "title": "Amazon RDS for Microsoft SQL Server - Amazon Relational Database Service"
+        },
+        {
+          "url": "https://docs.oracle.com/en/database/oracle/oracle-database/23/books.html",
+          "description": "Oracle Database 23c documentation covering installation, administration, and advanced features.",
+          "title": "Oracle Database 23ai - Books"
+        },
+        {
+          "url": "https://www.mongodb.com/docs/manual/reference/sql-comparison/",
+          "description": "A detailed comparison of SQL and MongoDB query language features.",
+          "title": "SQL to MongoDB Mapping Chart - Database Manual - MongoDB Docs"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=7mz73uXD9DA",
+          "description": "An instructional video on creating and managing Docker containers for beginners.",
+          "title": "SQL for Data Analytics - Learn SQL in 4 Hours",
+          "duration": "248m"
+        },
+        {
+          "url": "https://sites.northwestern.edu/researchcomputing/resource-guides/resource-guide-sql/",
+          "description": "A detailed resource guide for learning and using SQL in research computing.",
+          "title": "Resource Guide: SQL | Research Computing and Data Services Resources"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+          "description": "A tutorial on Docker and containerization concepts for beginners.",
+          "title": "SQL Course for Beginners [Full Course]",
+          "duration": "190m"
+        },
+        {
+          "url": "https://rivery.io/blog/6-best-free-resources-for-learning-sql/",
+          "description": "A curated list of the top six free resources for learning SQL effectively.",
+          "title": "10 Best Resources To Learn SQL For Free (2025) | Rivery"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MiAl2mQ718s&pp=ygUMI2RibXNwcm9qZWN0",
+          "description": "An instructional video on setting up and using DBMS Project for database management.",
+          "title": "SQL Database Design Tutorial for Beginners | Data Analyst Portfolio Project (1/3)",
+          "duration": "15m"
+        },
+        {
+          "url": "https://www.physicsforums.com/threads/what-is-intermediate-advanced-sql-and-how-to-learn-it.1054189/",
+          "description": "A discussion on the concepts of intermediate to advanced SQL and learning resources.",
+          "title": "What is intermediate-advanced SQL and how to learn it?"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+          "description": "An informative video tutorial on mastering regular expressions in Python.",
+          "title": "NoSQL vs SQL – Which Type of Database Should You Use?",
+          "duration": "85m"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=7mz73uXD9DA",
+          "title": "SQL for Data Analytics - Learn SQL in 4 Hours",
+          "duration": "248m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+          "title": "SQL Course for Beginners [Full Course]",
+          "duration": "190m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+          "title": "NoSQL vs SQL – Which Type of Database Should You Use?",
+          "duration": "85m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MiAl2mQ718s&pp=ygUMI2RibXNwcm9qZWN0",
+          "title": "SQL Database Design Tutorial for Beginners | Data Analyst Portfolio Project (1/3)",
+          "duration": "15m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sODB9huT1kg",
+          "title": "Azure Databricks SQL Introduction and Deep Dive",
+          "duration": "45m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=voTZUMw23pg",
+          "title": "SQL Tutorial for Beginners with SQL Server | Full Course | 2024",
+          "duration": "135m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BNUvVDbQ0J0",
+          "title": "Introduction to Sqlite for Beginners: Full Sqlite3 DB Tutorial",
+          "duration": "14m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=85pG_pDkITY",
+          "title": "PostgreSQL Tutorial Full Course 2022",
+          "duration": "222m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main purpose of normalization in database design?",
+        "options": [
+          "To reduce data redundancy",
+          "To increase data redundancy",
+          "To remove foreign keys",
+          "To create more tables"
+        ],
+        "correct_option": 0,
+        "hint": "Normalization helps in organizing data efficiently."
+      },
+      {
+        "question": "Which SQL command is used to retrieve data from a database table?",
+        "options": [
+          "INSERT",
+          "UPDATE",
+          "DELETE",
+          "SELECT"
+        ],
+        "correct_option": 3,
+        "hint": "This command is often used to display data."
+      },
+      {
+        "question": "In SQL, which command is used to add new records to a table?",
+        "options": [
+          "SELECT",
+          "INSERT",
+          "UPDATE",
+          "DELETE"
+        ],
+        "correct_option": 1,
+        "hint": "This command helps in adding data to a table."
+      },
+      {
+        "question": "What is the default database used by PostgreSQL?",
+        "options": [
+          "postgres",
+          "mysql",
+          "default_db",
+          "main_db"
+        ],
+        "correct_option": 0,
+        "hint": "PostgreSQL uses its own name for the default database."
+      },
+      {
+        "question": "Which SQL statement is used to modify existing records in a table?",
+        "options": [
+          "INSERT",
+          "UPDATE",
+          "SELECT",
+          "DELETE"
+        ],
+        "correct_option": 1,
+        "hint": "This command is used to change data in a table."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the main purpose of database normalization?",
+        "options": [
+          "To increase data redundancy",
+          "To improve database performance",
+          "To eliminate data anomalies and redundancy",
+          "To make databases larger"
+        ],
+        "correct_option": 2,
+        "hint": "Think about reducing redundancy and improving data integrity."
+      },
+      {
+        "question": "Which SQL statement would you use to add a new row to a table?",
+        "options": [
+          "SELECT",
+          "INSERT",
+          "UPDATE",
+          "DELETE"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the keyword that signifies adding data."
+      },
+      {
+        "question": "In PostgreSQL, which of the following is a valid data type for storing plain text?",
+        "options": [
+          "VARCHAR",
+          "INT",
+          "BOOLEAN",
+          "FLOAT"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the data type used for variable-length character strings."
+      },
+      {
+        "question": "Which command in SQL is used to modify existing records in a table?",
+        "options": [
+          "SELECT",
+          "INSERT",
+          "UPDATE",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the keyword that signifies changing existing data."
+      },
+      {
+        "question": "What is the primary difference between a PRIMARY KEY and a UNIQUE constraint in SQL?",
+        "options": [
+          "PRIMARY KEY allows nulls, UNIQUE does not",
+          "PRIMARY KEY does not allow nulls, UNIQUE does",
+          "PRIMARY KEY can be applied to multiple columns, UNIQUE cannot",
+          "PRIMARY KEY allows duplicate values, UNIQUE does not"
+        ],
+        "correct_option": 1,
+        "hint": "Consider which constraint allows or does not allow null values."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following best describes the purpose of database normalization?",
+        "options": [
+          "To increase the size of the database",
+          "To ensure data redundancy",
+          "To minimize data anomalies and redundancy",
+          "To decrease the database performance"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the objectives of organizing a database efficiently."
+      },
+      {
+        "question": "In SQL, which keyword is used to combine rows from two or more tables based on a related column between them?",
+        "options": [
+          "JOIN",
+          "MERGE",
+          "UNION",
+          "CONNECT"
+        ],
+        "correct_option": 0,
+        "hint": "This keyword is essential for relational database queries involving multiple tables."
+      },
+      {
+        "question": "What is the result of the following SQL command: DELETE FROM employees WHERE salary > 50000;?",
+        "options": [
+          "It updates the salaries of employees to 50000.",
+          "It deletes all employees with a salary greater than 50000.",
+          "It selects employees with a salary greater than 50000.",
+          "It adds new entries for employees with a salary greater than 50000."
+        ],
+        "correct_option": 1,
+        "hint": "Consider the action performed by the DELETE command in SQL."
+      },
+      {
+        "question": "In PostgreSQL, what is the purpose of the EXPLAIN command?",
+        "options": [
+          "To execute a query without returning data",
+          "To show the execution plan of a query",
+          "To format the output of a query",
+          "To describe the structure of a table"
+        ],
+        "correct_option": 1,
+        "hint": "This command is used to optimize query performance by understanding how it will be executed."
+      },
+      {
+        "question": "What is the primary key used for in a relational database table?",
+        "options": [
+          "To uniquely identify each row in the table",
+          "To define the foreign key relationship between tables",
+          "To allow duplicate values in a column",
+          "To perform aggregate functions on the table"
+        ],
+        "correct_option": 0,
+        "hint": "It is essential for ensuring each record can be uniquely identified."
+      }
+    ]
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "id": "CS14",
+  "name": "Discrete Mathematics for CS",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Mathematics",
+  "topics": [
+    "Logic & Proofs",
+    "Set Theory",
+    "Functions & Relations",
+    "Combinatorics & Probability"
+  ],
+  "recommended": true,
+  "tags": [
+    "mathematics",
+    "logic",
+    "foundations"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://uvacsadvising.org/courses.html",
+        "https://news.ycombinator.com/item?id=41267478",
+        "https://github.com/ossu/computer-science"
+      ],
+      "notes": [
+        "https://www.coursera.org/specializations/discrete-mathematics",
+        "http://www.eecs70.org/",
+        "https://www.cs.yale.edu/homes/aspnes/classes/202/notes.pdf",
+        "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+        "https://www.cip.ifi.lmu.de/~grinberg/t/23wd/",
+        "https://libguides.brooklyn.cuny.edu/cisc2210-briskman"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=tI82c6yUwfo",
+        "https://www.youtube.com/watch?v=UwYJUKVc-Hs",
+        "https://www.youtube.com/watch?v=MYCYC55f2SE",
+        "https://www.youtube.com/watch?v=1WVfLVv-olw",
+        "https://www.youtube.com/watch?v=8hhhiloqSIY",
+        "https://m.youtube.com/watch?v=FMh8qNV3PHk",
+        "https://www.youtube.com/watch?v=x1aLs7DHWQw",
+        "https://www.youtube.com/watch?v=Qzd7VvDyiEI",
+        "https://www.youtube.com/watch?v=aVSYOI45Gy0",
+        "https://www.youtube.com/watch?v=8xvHsh3MGvg"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://uvacsadvising.org/courses.html",
+        "https://github.com/ossu/computer-science",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/display",
+        "https://matheducators.stackexchange.com/questions/20830/should-mathematical-logic-be-included-in-a-discrete-mathematics-course-for-compu"
+      ],
+      "notes": [
+        "https://calnewport.com/case-study-how-i-got-the-highest-grade-in-my-discrete-math-class/",
+        "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+        "https://www.cs.yale.edu/homes/aspnes/classes/202/notes.pdf",
+        "https://www2.cs.uh.edu/~arjun/courses/ds/DiscMaths4CompSc.pdf",
+        "https://github.com/chuanyangjin/NYU-Course-Notes-and-Resources",
+        "https://matheducators.stackexchange.com/questions/18801/whats-the-point-of-learning-equivalence-relations"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=oJhAPsy9hBU",
+        "https://www.youtube.com/watch?v=YFZzLQN5qOU",
+        "https://www.youtube.com/watch?v=VCEYeB3bRW0&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=T68vN1FNY4o",
+        "https://www.youtube.com/watch?v=fxSRGJz5-Gw",
+        "https://www.youtube.com/watch?v=A3Ffwsnad0k",
+        "https://www.youtube.com/watch?v=t_3ACuzEe_8",
+        "https://m.youtube.com/watch?v=honkPbYEc7Q&pp=ygUSI3JlY3VycmVuY2VzdXBwb3J0"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://uvacsadvising.org/courses.html",
+        "https://github.com/ossu/computer-science",
+        "https://www.numberanalytics.com/blog/finite-sets-discrete-math-guide",
+        "https://github.com/jwasham/coding-interview-university",
+        "https://www.codecademy.com/catalog/subject/computer-science"
+      ],
+      "notes": [
+        "https://github.com/ossu/computer-science",
+        "https://calnewport.com/case-study-how-i-got-the-highest-grade-in-my-discrete-math-class/",
+        "https://teachyourselfcs.com/",
+        "https://www.geeksforgeeks.org/engineering-mathematics/discrete-mathematics-tutorial/",
+        "https://www.codecademy.com/catalog/language/python",
+        "https://guide.berkeley.edu/courses/compsci/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=AaBnUBQG__o",
+        "https://www.youtube.com/watch?v=UwYJUKVc-Hs",
+        "https://www.youtube.com/watch?v=_CXwZ5xyFno",
+        "https://www.youtube.com/watch?v=2RDrcR7urdA",
+        "https://www.youtube.com/watch?v=vEM4YnRFGoA",
+        "https://www.youtube.com/watch?v=ivR4y6z_DaY",
+        "https://m.youtube.com/watch?v=xAeiXy8-9Y8&t=6s",
+        "https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw",
+        "https://www.youtube.com/c/ChrisTralie",
+        "https://www.youtube.com/@Samanwayam"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the truth value of the logical expression (p ∧ ¬p)?",
+        "options": [
+          "True",
+          "False",
+          "True if p is true",
+          "False if p is false"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the logical AND operation and negation."
+      },
+      {
+        "question": "Which of the following is NOT a set?",
+        "options": [
+          "{1, 2, 3}",
+          "{x | x > 5}",
+          "{a, b, c}",
+          "(3, 4, 5)"
+        ],
+        "correct_option": 3,
+        "hint": "Sets are usually denoted by curly braces."
+      },
+      {
+        "question": "If f(x) = x^2 and g(x) = 3x, what is (f ∘ g)(x)?",
+        "options": [
+          "3x^2",
+          "9x^2",
+          "x^2 + 3x",
+          "9x"
+        ],
+        "correct_option": 1,
+        "hint": "Substitute g(x) into f(x)."
+      },
+      {
+        "question": "How many different ways can you arrange the letters in the word 'MATH'?",
+        "options": [
+          "12",
+          "16",
+          "24",
+          "36"
+        ],
+        "correct_option": 2,
+        "hint": "Use the factorial of the number of letters."
+      },
+      {
+        "question": "What is the probability of flipping a fair coin and getting heads?",
+        "options": [
+          "0",
+          "0.5",
+          "1",
+          "0.25"
+        ],
+        "correct_option": 1,
+        "hint": "A fair coin has two sides."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the contrapositive of the statement 'If it rains, then the ground is wet'?",
+        "options": [
+          "If the ground is wet, then it rains.",
+          "If it does not rain, then the ground is not wet.",
+          "If the ground is not wet, then it does not rain.",
+          "If it rains, then the ground is not wet."
+        ],
+        "correct_option": 2,
+        "hint": "The contrapositive of a statement 'If P, then Q' is 'If not Q, then not P'."
+      },
+      {
+        "question": "In set theory, what is the result of the operation A ∪ (B ∩ C)?",
+        "options": [
+          "(A ∪ B) ∩ (A ∪ C)",
+          "(A ∩ B) ∪ (A ∩ C)",
+          "A ∪ B ∪ C",
+          "A ∩ B ∩ C"
+        ],
+        "correct_option": 0,
+        "hint": "Use the distributive law of union over intersection."
+      },
+      {
+        "question": "What is the inverse of the function f(x) = 3x + 7?",
+        "options": [
+          "f^(-1)(x) = (x - 7) / 3",
+          "f^(-1)(x) = 3x - 7",
+          "f^(-1)(x) = (x + 7) / 3",
+          "f^(-1)(x) = x / 3 + 7"
+        ],
+        "correct_option": 0,
+        "hint": "To find the inverse, solve the equation y = 3x + 7 for x."
+      },
+      {
+        "question": "How many different ways can 5 people be seated in a row?",
+        "options": [
+          "5",
+          "10",
+          "60",
+          "120"
+        ],
+        "correct_option": 3,
+        "hint": "Use the formula for permutations of n distinct objects, n!."
+      },
+      {
+        "question": "What is the probability of drawing an ace from a standard deck of 52 cards?",
+        "options": [
+          "1/13",
+          "1/52",
+          "1/4",
+          "1/26"
+        ],
+        "correct_option": 0,
+        "hint": "There are 4 aces in a deck of 52 cards."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Consider a set S with 5 elements. How many different subsets can S have?",
+        "options": [
+          "10",
+          "25",
+          "32",
+          "50"
+        ],
+        "correct_option": 2,
+        "hint": "Use the formula 2^n for the number of subsets of a set with n elements."
+      },
+      {
+        "question": "If a function f: A → B is both injective and surjective, what type of function is it?",
+        "options": [
+          "Bijective",
+          "Partial",
+          "Composite",
+          "Constant"
+        ],
+        "correct_option": 0,
+        "hint": "Such a function is known for having an inverse."
+      },
+      {
+        "question": "What is the probability of rolling a sum of 7 with two six-sided dice?",
+        "options": [
+          "1/36",
+          "1/6",
+          "1/12",
+          "1/8"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the total number of possible outcomes and the favorable outcomes for a sum of 7."
+      },
+      {
+        "question": "In logic, which of the following is equivalent to the implication P → Q?",
+        "options": [
+          "¬P ∨ Q",
+          "P ∧ ¬Q",
+          "¬(P ∧ Q)",
+          "P ∨ Q"
+        ],
+        "correct_option": 0,
+        "hint": "This is known as the disjunction form of an implication."
+      },
+      {
+        "question": "How many different permutations can be made from the letters of the word 'MATHEMATICS'?",
+        "options": [
+          "11!",
+          "11!/(2!2!)",
+          "11!/2!",
+          "11!/4!"
+        ],
+        "correct_option": 1,
+        "hint": "Remember to divide by factorial of the count of each repeated letter."
+      }
+    ]
+  }
+}

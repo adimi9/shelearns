@@ -16,105 +16,148 @@
     "pixel-art"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection",
-        "description": "This resource provides techniques and explanations for implementing 2D collision detection in game development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games",
-        "description": "A comprehensive guide for developers on creating, optimizing, and distributing web-based games."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript",
-        "description": "A step-by-step tutorial for creating a 2D Breakout game using pure JavaScript."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.freecodecamp.org/news/how-to-choose-a-programming-language-and-escape-tutorial-purgatory/",
-        "description": "This article provides guidance on selecting a programming language and offers strategies to effectively learn coding beyond tutorials."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/what-2d-game-engine-to-use-for-your-next-game/",
-        "description": "A guide to choosing the right 2D game engine for your next game development project."
-      },
-      {
-        "url": "https://www.w3schools.com/graphics/game_canvas.asp",
-        "description": "This resource provides a tutorial on creating games using the HTML5 canvas element."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/python/pygame-tutorial/",
-        "description": "A tutorial on using the Pygame library for developing games with Python."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/tag/game-development/",
-        "description": "A comprehensive collection of articles and tutorials on game development, covering various tools, techniques, and programming languages."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=iHF5fwsqu4I",
-      "https://www.youtube.com/watch?v=XtQMytORBmM",
-      "https://www.youtube.com/watch?v=QKgTZWbwD1U",
-      "https://www.youtube.com/watch?v=36ax5HbHwbU",
-      "https://www.youtube.com/watch?v=Z92jsBzeYk0"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is a sprite in 2D game development?",
-      "options": [
-        "A graphical object used to represent characters or objects in a game",
-        "A background image used for setting the scene",
-        "A sound file used in a game",
-        "A type of game engine"
+    "beginner": {
+      "docs": [
+        "https://docs.unity.com/",
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/Unity2D.html",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"
       ],
-      "correct_option": 0,
-      "hint": "Think of graphical objects that move in a game."
+      "notes": [
+        "https://www.youtube.com/watch?v=XtQMytORBmM",
+        "https://discussions.unity.com/t/tutorial-for-starting-2d/908378",
+        "https://www.youtube.com/watch?v=1f9ndBcs-to",
+        "https://learncodebygaming.com/blog/how-to-make-a-video-game-in-java-2d-basics",
+        "https://www.youtube.com/watch?v=S8lMTwSRoRg",
+        "https://forums.unrealengine.com/t/complete-2d-game-in-unreal-engine-tutorial-video-and-text-formats/27598"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=S8lMTwSRoRg",
+        "https://www.youtube.com/watch?v=1f9ndBcs-to",
+        "https://www.youtube.com/watch?v=025QFeZfeyM",
+        "https://www.youtube.com/watch?v=XtQMytORBmM",
+        "https://www.youtube.com/watch?v=Qif4jxhGT9c",
+        "https://www.youtube.com/watch?v=dEKs-3GhVKQ",
+        "https://www.youtube.com/watch?v=LOhfqjmasi0",
+        "https://www.youtube.com/watch?v=QplEeEAJxck&pp=0gcJCfwAo7VqN5tD"
+      ]
     },
-    {
-      "question": "Which of the following is a primary function of a tilemap in 2D games?",
-      "options": [
-        "To manage audio files",
-        "To organize and display terrain and environments",
-        "To handle user input",
-        "To control game physics"
+    "intermediate": {
+      "docs": [
+        "https://docs.unity.com/",
+        "https://developers.meta.com/horizon/",
+        "https://discussions.unity.com/t/why-does-the-playables-api-exist-when-should-i-use-it-rather-than-mecanim-animator-controllers/796009",
+        "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html"
       ],
-      "correct_option": 1,
-      "hint": "Tilemaps are often used for creating the game world."
+      "notes": [
+        "https://www.youtube.com/watch?v=tO2gthp45MA",
+        "https://github.com/a327ex/blog/issues/39",
+        "https://www.youtube.com/watch?v=tO3kLfvN6s4",
+        "https://edw.is/learning-vulkan/",
+        "https://www.youtube.com/watch?v=8OMghdHP-zs",
+        "https://michaelbitzos.com/devblog/implementing-stairs-in-2d-top-down-games"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8OMghdHP-zs",
+        "https://www.youtube.com/watch?v=tO3kLfvN6s4",
+        "https://www.youtube.com/watch?v=VEnZzwW_OJM",
+        "https://www.youtube.com/watch?v=jsuBXckPvMw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=tO2gthp45MA",
+        "https://www.youtube.com/watch?v=A3R6T1h0ln8",
+        "https://www.youtube.com/watch?v=RuTmd4g5K8Q",
+        "https://www.youtube.com/watch?v=JUs6pPk_y8I",
+        "https://www.youtube.com/watch?v=lALvR4j6RCM"
+      ]
     },
-    {
-      "question": "How does a 2D physics engine contribute to game development?",
-      "options": [
-        "By providing tools for creating game graphics",
-        "By simulating realistic movements and collisions",
-        "By managing game audio effects",
-        "By designing user interfaces"
+    "advanced": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+        "https://learn.microsoft.com/en-us/windows/uwp/gaming/e2e",
+        "https://create.roblox.com/docs"
       ],
-      "correct_option": 1,
-      "hint": "Think about how objects move and interact in a game environment."
-    },
-    {
-      "question": "What is the purpose of a camera system in 2D games?",
-      "options": [
-        "To capture photos of gameplay",
-        "To manage game character inventory",
-        "To control what part of the game world is visible to the player",
-        "To detect collisions between objects"
+      "notes": [
+        "https://www.youtube.com/watch?v=cNccvVoymb0",
+        "https://a5huynh.github.io/posts/2018/adventures-in-rust/",
+        "https://www.youtube.com/watch?v=s0O3a2AgoBA&pp=0gcJCdgAo7VqN5tD",
+        "https://learncodebygaming.com/blog/how-to-make-a-video-game-in-java-2d-basics",
+        "https://www.youtube.com/watch?v=Qif4jxhGT9c",
+        "https://edw.is/learning-vulkan/"
       ],
-      "correct_option": 2,
-      "hint": "Consider how players view the game world."
-    },
-    {
-      "question": "What is an essential aspect of UI/HUD design in 2D games?",
-      "options": [
-        "Creating complex 3D models",
-        "Designing intuitive and accessible interfaces for players",
-        "Writing game storylines",
-        "Developing AI for enemies"
-      ],
-      "correct_option": 1,
-      "hint": "Focus on how players interact with and receive information from the game."
+      "videos": [
+        "https://www.youtube.com/watch?v=cNccvVoymb0",
+        "https://www.youtube.com/watch?v=s0O3a2AgoBA&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Qif4jxhGT9c",
+        "https://www.youtube.com/watch?v=Pkc4A1ukbJU",
+        "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+        "https://www.youtube.com/watch?v=nBCDzE9MDbk",
+        "https://www.youtube.com/watch?v=jxYYnATgJWc",
+        "https://www.youtube.com/watch?v=3FyuypHa7KQ",
+        "https://www.youtube.com/watch?v=_nmNsvysVA0&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/@crzyzhaa/videos"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a sprite in 2D game development?",
+        "options": [
+          "A graphical object used to represent characters or objects in a game",
+          "A background image used for setting the scene",
+          "A sound file used in a game",
+          "A type of game engine"
+        ],
+        "correct_option": 0,
+        "hint": "Think of graphical objects that move in a game."
+      },
+      {
+        "question": "Which of the following is a primary function of a tilemap in 2D games?",
+        "options": [
+          "To manage audio files",
+          "To organize and display terrain and environments",
+          "To handle user input",
+          "To control game physics"
+        ],
+        "correct_option": 1,
+        "hint": "Tilemaps are often used for creating the game world."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "How does a 2D physics engine contribute to game development?",
+        "options": [
+          "By providing tools for creating game graphics",
+          "By simulating realistic movements and collisions",
+          "By managing game audio effects",
+          "By designing user interfaces"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how objects move and interact in a game environment."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the purpose of a camera system in 2D games?",
+        "options": [
+          "To capture photos of gameplay",
+          "To manage game character inventory",
+          "To control what part of the game world is visible to the player",
+          "To detect collisions between objects"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how players view the game world."
+      },
+      {
+        "question": "What is an essential aspect of UI/HUD design in 2D games?",
+        "options": [
+          "Creating complex 3D models",
+          "Designing intuitive and accessible interfaces for players",
+          "Writing game storylines",
+          "Developing AI for enemies"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on how players interact with and receive information from the game."
+      }
+    ]
+  }
 }

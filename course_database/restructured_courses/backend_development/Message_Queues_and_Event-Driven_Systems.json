@@ -15,105 +15,147 @@
     "distributed-systems"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model",
-        "description": "An overview of JavaScript's execution model, including the call stack, event loop, and concurrency model."
-      },
-      {
-        "url": "https://nodejs.org/api/events.html",
-        "description": "The Node.js Events API documentation details the EventEmitter class for handling events and asynchronous operations in Node.js applications."
-      },
-      {
-        "url": "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick",
-        "description": "An explanation of how Node.js handles asynchronous operations using the event loop, timers, and process.nextTick()."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/advance-java/event-driven-communication-with-messaging-queues/",
-        "description": "This resource explains how to implement event-driven communication using messaging queues in advanced Java applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/event-driven-architecture-system-design/",
-        "description": "An overview of event-driven architecture, explaining its principles, components, and benefits in system design."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/message-driven-architecture-vs-event-driven-architecture/",
-        "description": "This resource compares message-driven and event-driven architectures, highlighting their differences and use cases in system design."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/error-handling-in-event-driven-architecture/",
-        "description": "An overview of error handling strategies in event-driven architecture systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/message-broker-vs-message-queue/",
-        "description": "This resource explains the differences and use cases of message brokers and message queues in system design."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=gOuAqRaDdHA",
-      "https://www.youtube.com/watch?v=DYFocSiPOl8",
-      "https://www.youtube.com/watch?v=NQ3fZtyXji0",
-      "https://www.youtube.com/watch?v=oUJbuFMyBDk",
-      "https://www.youtube.com/watch?v=xErwDaOc-Gs"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary advantage of using a Publish/Subscribe pattern in message queues?",
-      "options": [
-        "Allows direct communication between sender and receiver",
-        "Enables asynchronous communication and decoupling of services",
-        "Increases the security of message transmission",
-        "Reduces the overall cost of message processing"
+    "beginner": {
+      "docs": [
+        "https://www.ateam-oracle.com/post/event-driven-integrations-primer",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/23/adque/aq-introduction.html",
+        "https://cloud.google.com/pubsub/docs/overview",
+        "https://docs.aws.amazon.com/lambda/latest/dg/concepts-event-driven-architectures.html"
       ],
-      "correct_option": 1,
-      "hint": "Think about how services interact and remain independent."
+      "notes": [
+        "https://quix.io/blog/what-why-how-of-event-driven-programming",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/23/adque/aq-introduction.html",
+        "http://www.kurrent.io/event-driven-architecture",
+        "https://www.ateam-oracle.com/post/event-driven-integrations-primer",
+        "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven",
+        "https://keda.sh/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=RojKJnF_WWQ",
+        "https://www.youtube.com/watch?v=1yC_bw0tWhQ",
+        "https://www.youtube.com/watch?v=rSIirRFa77s&pp=ygUJI3N1YmV2ZW50",
+        "https://www.youtube.com/watch?v=gA2-eqDVSng",
+        "https://www.youtube.com/watch?v=dpl4xKkPxHY",
+        "https://www.youtube.com/watch?v=bfVddTJNiAw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=QkdkLdMBuL0&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=WRGgmoA4PgA",
+        "https://www.youtube.com/watch?v=nFxjaVmFj5E"
+      ]
     },
-    {
-      "question": "Which of the following is a key feature of RabbitMQ?",
-      "options": [
-        "Built-in support for distributed transactions",
-        "Advanced real-time analytics",
-        "Support for multiple messaging protocols",
-        "Integrated machine learning capabilities"
+    "intermediate": {
+      "docs": [
+        "https://www.ateam-oracle.com/post/event-driven-integrations-primer",
+        "https://cloud.google.com/pubsub/docs/overview",
+        "https://architect.salesforce.com/decision-guides/event-driven"
       ],
-      "correct_option": 2,
-      "hint": "Consider RabbitMQ's versatility in handling different protocols."
+      "notes": [
+        "https://quix.io/blog/what-why-how-of-event-driven-programming",
+        "https://stackoverflow.com/questions/1659351/message-driven-vs-event-driven-approaches-to-application-integration",
+        "https://www.ateam-oracle.com/post/event-driven-integrations-primer",
+        "https://www.tinybird.co/blog-posts/event-driven-architecture-best-practices-for-databases-and-files",
+        "https://docs.aws.amazon.com/lambda/latest/dg/concepts-event-driven-architectures.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=RojKJnF_WWQ",
+        "https://www.youtube.com/watch?v=xErwDaOc-Gs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=-JCup-nOG2g",
+        "https://www.youtube.com/watch?v=rSIirRFa77s&pp=ygUJI3N1YmV2ZW50",
+        "https://www.youtube.com/watch?v=S3IAVii92xw",
+        "https://www.youtube.com/watch?v=rJHTK2TfZ1I",
+        "https://www.youtube.com/watch?v=IWkg7EwcUds",
+        "https://www.youtube.com/watch?v=QkdkLdMBuL0&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Fb_0UOD2X2I&pp=0gcJCf0Ao7VqN5tD"
+      ]
     },
-    {
-      "question": "In Kafka, what is the purpose of a consumer group?",
-      "options": [
-        "To ensure load balancing across multiple producers",
-        "To allow multiple consumers to read from a partition independently",
-        "To aggregate messages from multiple topics",
-        "To coordinate the processing of messages across multiple consumers"
+    "advanced": {
+      "docs": [
+        "https://www.astronomer.io/docs/learn/airflow-event-driven-scheduling",
+        "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+        "https://docs.nvidia.com/nsight-systems/UserGuide/index.html"
       ],
-      "correct_option": 3,
-      "hint": "Think about how Kafka manages consumption of messages across different clients."
-    },
-    {
-      "question": "What does idempotency ensure in the context of message processing?",
-      "options": [
-        "Every message is processed exactly once",
-        "Duplicate messages are ignored, ensuring only one processing",
-        "Messages are processed in the order they are received",
-        "Only authorized users can send messages"
+      "notes": [
+        "https://solace.com/event-driven-architecture-patterns/",
+        "https://www.architecture-weekly.com/p/whole-architecture-weekly-content",
+        "https://learning.sap.com/learning-journeys/discovering-event-driven-integration-with-sap-integration-suite-advanced-event-mesh/understanding-sap-integration-suite-advanced-event-mesh-in-the-event-driven-architecture_c11f81e8-f173-4384-8df2-cca83e5541ce",
+        "https://newsletter.pragmaticengineer.com/p/designing-a-payment-system",
+        "https://github.com/AutoMQ/automq/wiki/Differences-Between-Event-Streaming-and-Message-Queuing",
+        "https://dzone.com/articles/oracle-advanced-queue-a-guide"
       ],
-      "correct_option": 1,
-      "hint": "It's about handling duplicate messages."
-    },
-    {
-      "question": "What is a Dead Letter Queue (DLQ) used for in message queuing systems?",
-      "options": [
-        "To temporarily store messages during maintenance",
-        "To hold messages that cannot be processed successfully",
-        "To archive messages after processing",
-        "To encrypt messages before transmission"
-      ],
-      "correct_option": 1,
-      "hint": "Think about where problematic messages are stored for later analysis."
+      "videos": [
+        "https://www.youtube.com/watch?v=X40EozwK75s",
+        "https://www.youtube.com/watch?v=nFxjaVmFj5E",
+        "https://www.youtube.com/watch?v=QkdkLdMBuL0&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=SqVfCyfCJqw&pp=ygUJIzHRgWthZmth",
+        "https://www.youtube.com/watch?v=hNDjd9I_VGA",
+        "https://www.youtube.com/watch?v=tPYa1r_cZ2E&pp=ygUFI3lzcXM%3D",
+        "https://www.youtube.com/watch?v=VXsAgYoC1Jc&pp=ygUHI3Nuc2FoaQ%3D%3D",
+        "https://www.youtube.com/watch?v=UEg40Te8pnE",
+        "https://www.youtube.com/watch?v=jQo-KeJB1ws",
+        "https://www.youtube.com/t/partnerships_faq"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary advantage of using a Publish/Subscribe pattern in message queues?",
+        "options": [
+          "Allows direct communication between sender and receiver",
+          "Enables asynchronous communication and decoupling of services",
+          "Increases the security of message transmission",
+          "Reduces the overall cost of message processing"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how services interact and remain independent."
+      },
+      {
+        "question": "Which of the following is a key feature of RabbitMQ?",
+        "options": [
+          "Built-in support for distributed transactions",
+          "Advanced real-time analytics",
+          "Support for multiple messaging protocols",
+          "Integrated machine learning capabilities"
+        ],
+        "correct_option": 2,
+        "hint": "Consider RabbitMQ's versatility in handling different protocols."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In Kafka, what is the purpose of a consumer group?",
+        "options": [
+          "To ensure load balancing across multiple producers",
+          "To allow multiple consumers to read from a partition independently",
+          "To aggregate messages from multiple topics",
+          "To coordinate the processing of messages across multiple consumers"
+        ],
+        "correct_option": 3,
+        "hint": "Think about how Kafka manages consumption of messages across different clients."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What does idempotency ensure in the context of message processing?",
+        "options": [
+          "Every message is processed exactly once",
+          "Duplicate messages are ignored, ensuring only one processing",
+          "Messages are processed in the order they are received",
+          "Only authorized users can send messages"
+        ],
+        "correct_option": 1,
+        "hint": "It's about handling duplicate messages."
+      },
+      {
+        "question": "What is a Dead Letter Queue (DLQ) used for in message queuing systems?",
+        "options": [
+          "To temporarily store messages during maintenance",
+          "To hold messages that cannot be processed successfully",
+          "To archive messages after processing",
+          "To encrypt messages before transmission"
+        ],
+        "correct_option": 1,
+        "hint": "Think about where problematic messages are stored for later analysis."
+      }
+    ]
+  }
 }

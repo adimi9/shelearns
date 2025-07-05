@@ -1,0 +1,273 @@
+{
+  "id": "CSec3",
+  "name": "Identity & Access Management (IAM)",
+  "category": "Computer Security",
+  "primary_tech": "IAM",
+  "topics": [
+    "Authentication Methods (MFA, SSO)",
+    "Authorization Models (RBAC, ABAC)",
+    "Identity Federation",
+    "Directory Services (LDAP, Active Directory)"
+  ],
+  "recommended": true,
+  "tags": [
+    "authentication",
+    "authorization",
+    "user-management"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+        "https://cloud.google.com/iam/docs/overview",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html",
+        "https://cloud.google.com/security/products/iam"
+      ],
+      "notes": [
+        "https://m.youtube.com/watch?v=hAk-7ImN6iM&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=iF9fs8Rw4Uo&pp=ygUNI2loZXJlZm9yZWlhbQ%3D%3D",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+        "https://learn.microsoft.com/en-us/entra/fundamentals/introduction-identity-access-management",
+        "https://cloud.google.com/iam/docs/overview"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=hAk-7ImN6iM&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=iF9fs8Rw4Uo&pp=ygUNI2loZXJlZm9yZWlhbQ%3D%3D",
+        "https://m.youtube.com/watch?v=gsgdAyGhV0o&t=0s",
+        "https://www.youtube.com/watch?v=3XmLU4gVZss&pp=ygUGI19pYW1f",
+        "https://www.youtube.com/watch?v=C1MnZYziA8k",
+        "https://www.youtube.com/watch?v=fcSXiUsU5lE",
+        "https://www.youtube.com/watch?v=_KhrGFV_Npw&pp=ygUZI2FueWRlc2trYWlzZWNvbm5lY3RrYXJlbg%3D%3D",
+        "https://www.youtube.com/watch?v=n-njtZpb-Dk",
+        "https://www.youtube.com/watch?v=PHjBwcGuEsU"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+        "https://cloud.google.com/iam/docs",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html",
+        "https://cloud.google.com/security/products/iam"
+      ],
+      "notes": [
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started-account-iam.html",
+        "https://learn.microsoft.com/en-us/entra/fundamentals/introduction-identity-access-management",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html",
+        "https://www.sailpoint.com/identity-library/identity-and-access-management",
+        "https://cloud.google.com/security/products/iam",
+        "https://aws.amazon.com/iam/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=iF9fs8Rw4Uo",
+        "https://www.youtube.com/watch?v=YMj33ToS8cI",
+        "https://www.youtube.com/watch?v=PPkPcU1iX1g",
+        "https://www.youtube.com/watch?v=DyHrppoArKQ",
+        "https://www.youtube.com/watch?v=8WLoAfydS_4",
+        "https://www.youtube.com/watch?v=lAkadozQwdo",
+        "https://www.youtube.com/watch?v=ng5n4MsymRE",
+        "https://www.youtube.com/watch?v=QZKpufELZCA",
+        "https://www.youtube.com/watch?v=fvxQ8bW0vO8",
+        "https://www.youtube.com/playlist?list=PLYzY6x_1mm-Y_VIUkTvVnwyHcCSMXFH3g"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://cloud.google.com/iam/docs",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html",
+        "https://aws.amazon.com/iam/resources/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=YMj33ToS8cI",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html",
+        "https://www.youtube.com/watch?v=z-tbVVojMp0",
+        "https://www.datacamp.com/tutorial/aws-identity-and-access-management-iam-guide",
+        "https://www.youtube.com/watch?v=T7p8IN5Hjo4",
+        "https://cloud.google.com/security/products/iam",
+        "https://saviynt.com/glossary-listing/identity-access-management-iam"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=YMj33ToS8cI",
+        "https://www.youtube.com/watch?v=z-tbVVojMp0",
+        "https://www.youtube.com/watch?v=T7p8IN5Hjo4",
+        "https://www.youtube.com/watch?v=YjV6XiowFNw",
+        "https://www.youtube.com/watch?v=WYH8SQW6RJQ",
+        "https://www.youtube.com/watch?v=8WLoAfydS_4",
+        "https://www.youtube.com/watch?v=mfjTdjpTrVI",
+        "https://www.youtube.com/watch?v=bO25vbkoJlA"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does MFA stand for in the context of Identity & Access Management?",
+        "options": [
+          "Multi-Factor Authentication",
+          "Multiple Framework Authorization",
+          "Multi-Form Access",
+          "Managed Federation Access"
+        ],
+        "correct_option": 0,
+        "hint": "It involves using more than one method to verify identity."
+      },
+      {
+        "question": "Which of the following is a key benefit of using Single Sign-On (SSO)?",
+        "options": [
+          "Increased password complexity",
+          "Access to multiple applications with one login",
+          "More frequent password changes",
+          "Individual passwords for each application"
+        ],
+        "correct_option": 1,
+        "hint": "SSO allows a user to access multiple applications with one set of login credentials."
+      },
+      {
+        "question": "In Role-Based Access Control (RBAC), access permissions are primarily assigned based on what?",
+        "options": [
+          "The user's job role",
+          "The time of day",
+          "The user's personal preferences",
+          "The user's IP address"
+        ],
+        "correct_option": 0,
+        "hint": "RBAC assigns permissions based on the user's position in an organization."
+      },
+      {
+        "question": "What is the primary purpose of LDAP in Directory Services?",
+        "options": [
+          "To provide a protocol for accessing and maintaining distributed directory information services",
+          "To encrypt data at rest",
+          "To manage database transactions",
+          "To provide a user interface for directory management"
+        ],
+        "correct_option": 0,
+        "hint": "LDAP is a protocol used to access and manage directory services over a network."
+      },
+      {
+        "question": "Which technology is often used to establish Identity Federation across multiple organizations?",
+        "options": [
+          "SAML",
+          "FTP",
+          "HTTP",
+          "SMTP"
+        ],
+        "correct_option": 0,
+        "hint": "This technology is an XML-based open standard for exchanging authentication and authorization data."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following authentication methods involves using more than one verification factor to access a resource?",
+        "options": [
+          "Single Sign-On (SSO)",
+          "Multi-Factor Authentication (MFA)",
+          "Role-Based Access Control (RBAC)",
+          "Attribute-Based Access Control (ABAC)"
+        ],
+        "correct_option": 1,
+        "hint": "It enhances security by requiring multiple proofs of identity."
+      },
+      {
+        "question": "In Role-Based Access Control (RBAC), access permissions are assigned based on what?",
+        "options": [
+          "User attributes",
+          "User roles",
+          "User identity",
+          "User behavior"
+        ],
+        "correct_option": 1,
+        "hint": "This model is based on the job functions within an organization."
+      },
+      {
+        "question": "Which directory service protocol is primarily used for accessing and maintaining distributed directory information services over a network?",
+        "options": [
+          "OAuth",
+          "Kerberos",
+          "LDAP",
+          "SAML"
+        ],
+        "correct_option": 2,
+        "hint": "It's commonly used to query and modify directory services running over TCP/IP."
+      },
+      {
+        "question": "What is the primary function of Identity Federation in IAM?",
+        "options": [
+          "To store user credentials",
+          "To enable single sign-on across multiple systems",
+          "To encrypt data at rest",
+          "To manage user roles and permissions"
+        ],
+        "correct_option": 1,
+        "hint": "It allows users to log in once and access multiple related systems without re-authenticating."
+      },
+      {
+        "question": "Which technology is a directory service developed by Microsoft for Windows domain networks?",
+        "options": [
+          "OpenLDAP",
+          "Active Directory",
+          "Kerberos",
+          "RADIUS"
+        ],
+        "correct_option": 1,
+        "hint": "It is extensively used in Windows environments for managing computers and other devices on a network."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following best describes the purpose of Identity Federation in IAM?",
+        "options": [
+          "To provide a unified interface for managing user identities across multiple systems.",
+          "To authenticate users once and gain access to multiple systems without re-authenticating.",
+          "To enable users to use a single identity across different security domains.",
+          "To store and manage user credentials in a centralized directory."
+        ],
+        "correct_option": 2,
+        "hint": "Identity Federation allows linking identities across different security domains."
+      },
+      {
+        "question": "In an RBAC (Role-Based Access Control) model, which of the following is NOT considered a primary component?",
+        "options": [
+          "Roles",
+          "Permissions",
+          "Attributes",
+          "Users"
+        ],
+        "correct_option": 2,
+        "hint": "RBAC is primarily concerned with roles and permissions rather than attributes."
+      },
+      {
+        "question": "What is the main advantage of using Multi-Factor Authentication (MFA) over Single Sign-On (SSO)?",
+        "options": [
+          "MFA reduces the risk of unauthorized access by requiring multiple forms of verification.",
+          "MFA simplifies user access by reducing the number of passwords required.",
+          "MFA allows a single login to access multiple systems and applications.",
+          "MFA centralizes identity management for better control."
+        ],
+        "correct_option": 0,
+        "hint": "MFA enhances security by requiring additional verification methods."
+      },
+      {
+        "question": "In an Attribute-Based Access Control (ABAC) system, what role do attributes play?",
+        "options": [
+          "Attributes define the roles that users are assigned.",
+          "Attributes determine the policies that dictate access.",
+          "Attributes are irrelevant to access control decisions.",
+          "Attributes are used to authenticate users."
+        ],
+        "correct_option": 1,
+        "hint": "In ABAC, access is controlled based on attributes and policies."
+      },
+      {
+        "question": "Which protocol is commonly used by Directory Services like LDAP to maintain and query directory information?",
+        "options": [
+          "HTTP",
+          "SMTP",
+          "HTTPS",
+          "LDAP"
+        ],
+        "correct_option": 3,
+        "hint": "The protocol shares its name with the directory service itself."
+      }
+    ]
+  }
+}

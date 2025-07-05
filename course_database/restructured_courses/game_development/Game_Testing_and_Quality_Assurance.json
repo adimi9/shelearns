@@ -17,105 +17,147 @@
     "quality"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web",
-        "description": "An overview of techniques and technologies for creating 3D web experiences."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API",
-        "description": "An overview of the Gamepad API, detailing how it enables web applications to interact with game controllers."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
-        "description": "A comprehensive guide for beginners to learn the fundamentals of web development, including HTML, CSS, and JavaScript."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-game-tester/",
-        "description": "A guide on the steps and skills needed to pursue a career as a game tester."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-an-quality-assurance-qa-tester/",
-        "description": "A comprehensive guide on becoming a Quality Assurance (QA) tester, covering essential skills, tools, and career pathways."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/quality-assurance-and-testing-with-chai-im-totally-lost/592278",
-        "description": "A forum discussion addressing confusion and seeking guidance on using Chai for quality assurance and testing."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/software-testing/software-testing-interview-questions/",
-        "description": "A comprehensive list of common interview questions and answers for software testing roles."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/software-testing/software-testing-tutorial/",
-        "description": "This resource offers a comprehensive tutorial on software testing, covering fundamental concepts, techniques, and methodologies."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=22_O8zj8EeI",
-      "https://www.youtube.com/watch?v=xQvJlak9vbY",
-      "https://www.youtube.com/watch?v=u6QfIXgjwGQ",
-      "https://www.youtube.com/watch?v=jqxwfc-Oh3c",
-      "https://www.youtube.com/watch?v=aelS-6m2LLE"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of bug reporting in game testing?",
-      "options": [
-        "To identify and document software defects",
-        "To increase the game's difficulty",
-        "To enhance graphics quality",
-        "To develop new game levels"
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs/emulator-suite",
+        "https://www.istqb.org/",
+        "https://firebase.google.com/docs"
       ],
-      "correct_option": 0,
-      "hint": "It involves identifying issues that deviate from expected behavior."
+      "notes": [
+        "https://devforum.roblox.com/t/guide-effectively-qa-testing-your-roblox-experience/2199838",
+        "https://www.coursera.org/articles/qa-tester",
+        "https://riseuplabs.com/game-qa-testing-ultimate-guide/",
+        "https://www.testbytes.net/blog/game-testing-tutorial/",
+        "https://www.tumblr.com/askagamedev/127082673401/is-there-a-difference-between-playtesting-and"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ZFqW90y9Yio",
+        "https://www.youtube.com/watch?v=yR-_r4gA_BA",
+        "https://www.youtube.com/watch?v=n81GxMaHHmo",
+        "https://www.youtube.com/watch?v=0eMBOjS9tvY&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=qk-xTOt5TI0",
+        "https://www.youtube.com/watch?v=MFxk5BZulVU",
+        "https://www.youtube.com/watch?v=PmrI25_rbvg",
+        "https://www.youtube.com/watch?v=b19ANqeu30o",
+        "https://www.youtube.com/watch?v=F1FcTI2VDeQ",
+        "https://www.youtube.com/c/alexusadays"
+      ]
     },
-    {
-      "question": "Which of the following best describes functional testing in game QA?",
-      "options": [
-        "Testing the game's performance under heavy load",
-        "Ensuring all game features work according to the requirements",
-        "Gathering player feedback for future updates",
-        "Improving the artistic quality of the game"
+    "intermediate": {
+      "docs": [
+        "https://developers.google.com/apis-explorer",
+        "https://jestjs.io/",
+        "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders"
       ],
-      "correct_option": 1,
-      "hint": "It focuses on verifying that each game function operates correctly."
+      "notes": [
+        "https://www.coursera.org/articles/qa-tester",
+        "https://www.functionize.com/automated-testing/generative-ai-in-software-testing",
+        "https://www.testbytes.net/blog/game-testing-tutorial/",
+        "https://www.headspin.io/blog/ais-transformative-effect-on-automation-testing-and-qa",
+        "https://www.testdevlab.com/blog/manual-testing",
+        "https://www.virtuosoqa.com/",
+        "https://devforum.roblox.com/t/guide-effectively-qa-testing-your-roblox-experience/2199838"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=nnqy-LB4g7o&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8RNSkWLGROs",
+        "https://m.youtube.com/watch?v=iOheLWYbILw",
+        "https://www.youtube.com/watch?v=F1FcTI2VDeQ",
+        "https://www.youtube.com/watch?v=_2zxd3UgMjQ",
+        "https://www.youtube.com/watch?v=AJQOFcdXP1M",
+        "https://www.youtube.com/watch?v=bp6odsK8qes",
+        "https://www.youtube.com/watch?v=B-ytMSuwbf8",
+        "https://www.youtube.com/watch?v=Ezf72VMzQZU"
+      ]
     },
-    {
-      "question": "What is a primary goal of performance testing in game development?",
-      "options": [
-        "To determine the game's storyline",
-        "To enhance the game's narrative",
-        "To ensure the game runs smoothly under various conditions",
-        "To test the game's multiplayer capabilities"
+    "advanced": {
+      "docs": [
+        "https://www.istqb.org/",
+        "https://cloud.google.com/ai/generative-ai",
+        "https://workshops.aws/",
+        "https://cloud.google.com/vertex-ai/docs"
       ],
-      "correct_option": 2,
-      "hint": "It aims to assess how the game performs under stress and in different environments."
-    },
-    {
-      "question": "What is playtesting primarily used for in game development?",
-      "options": [
-        "To develop new game engines",
-        "To gather feedback from players for improvement",
-        "To enhance the game’s soundtrack",
-        "To design new character models"
+      "notes": [
+        "https://www.coursera.org/articles/qa-tester",
+        "https://www.istqb.org/",
+        "https://unity.com/how-to",
+        "https://www.headspin.io/blog/mobile-app-qa-testing-guide",
+        "https://www.lux.camera/the-iphone-16-pro-camera-review-control/",
+        "https://www.udemy.com/topic/quality-assurance/"
       ],
-      "correct_option": 1,
-      "hint": "It involves evaluating the player experience to refine the game."
-    },
-    {
-      "question": "Which technology is commonly used for bug tracking in game QA?",
-      "options": [
-        "Jira",
-        "Unity",
-        "Photoshop",
-        "Blender"
-      ],
-      "correct_option": 0,
-      "hint": "This tool is widely used for tracking issues and project management in software development."
+      "videos": [
+        "https://www.youtube.com/watch?v=LLJ01lWu89c",
+        "https://www.youtube.com/watch?v=8RNSkWLGROs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+        "https://www.youtube.com/watch?v=7duYI-inu_I",
+        "https://www.youtube.com/watch?v=xsVTqzratPs",
+        "https://www.youtube.com/watch?v=pQ4x3Mjnr74",
+        "https://www.youtube.com/watch?v=gXtY768rB28",
+        "https://www.youtube.com/watch?v=BZrio_G_1Cs"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of bug reporting in game testing?",
+        "options": [
+          "To identify and document software defects",
+          "To increase the game's difficulty",
+          "To enhance graphics quality",
+          "To develop new game levels"
+        ],
+        "correct_option": 0,
+        "hint": "It involves identifying issues that deviate from expected behavior."
+      },
+      {
+        "question": "Which of the following best describes functional testing in game QA?",
+        "options": [
+          "Testing the game's performance under heavy load",
+          "Ensuring all game features work according to the requirements",
+          "Gathering player feedback for future updates",
+          "Improving the artistic quality of the game"
+        ],
+        "correct_option": 1,
+        "hint": "It focuses on verifying that each game function operates correctly."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a primary goal of performance testing in game development?",
+        "options": [
+          "To determine the game's storyline",
+          "To enhance the game's narrative",
+          "To ensure the game runs smoothly under various conditions",
+          "To test the game's multiplayer capabilities"
+        ],
+        "correct_option": 2,
+        "hint": "It aims to assess how the game performs under stress and in different environments."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is playtesting primarily used for in game development?",
+        "options": [
+          "To develop new game engines",
+          "To gather feedback from players for improvement",
+          "To enhance the game’s soundtrack",
+          "To design new character models"
+        ],
+        "correct_option": 1,
+        "hint": "It involves evaluating the player experience to refine the game."
+      },
+      {
+        "question": "Which technology is commonly used for bug tracking in game QA?",
+        "options": [
+          "Jira",
+          "Unity",
+          "Photoshop",
+          "Blender"
+        ],
+        "correct_option": 0,
+        "hint": "This tool is widely used for tracking issues and project management in software development."
+      }
+    ]
+  }
 }

@@ -24,107 +24,134 @@
     "data-modeling"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/azure/",
+        "https://grafana.com/docs/loki/latest/configure/storage/",
+        "https://kubernetes.io/docs/home/",
+        "https://grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/integration-apache-cassandra/"
+      ],
+      "notes": [
+        "https://cassandra.apache.org/_/cassandra-basics.html",
+        "https://grafana.com/docs/loki/latest/configure/storage/",
+        "https://www.geeksforgeeks.org/introduction-to-nosql/",
+        "https://grafana.com/tutorials/",
+        "https://github.com/donnemartin/system-design-primer"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=WmYNfOxYO8M",
+        "https://www.youtube.com/watch?v=G-EAVcMHEko",
+        "https://www.youtube.com/watch?v=yuVVKB0EaOQ",
+        "https://www.youtube.com/watch?v=nMSp3ygB5F0&pp=ygUKI3RpZXIzdXNlcg%3D%3D",
+        "https://www.youtube.com/watch?v=wdsiQEa5mQY",
+        "https://www.youtube.com/watch?v=wwZy_K3LORQ&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=aria5gmElSc",
+        "https://www.youtube.com/watch?v=V5M925ZQEJU"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/azure/",
+        "https://grafana.com/docs/loki/latest/configure/",
+        "https://github.com/donnemartin/system-design-primer",
+        "https://grafana.com/docs/loki/latest/operations/storage/",
+        "https://kubernetes.io/docs/reference/kubectl/quick-reference/"
+      ],
+      "notes": [
+        "https://github.com/donnemartin/system-design-primer",
+        "https://www.geeksforgeeks.org/introduction-to-nosql/",
+        "https://github.com/karanpratapsingh/system-design",
+        "https://learn.microsoft.com/en-us/azure/",
+        "https://loadforge.com/guides/choosing-the-best-nosql-database-a-comparison-of-the-top-5-options"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=wdsiQEa5mQY",
+        "https://www.youtube.com/@learncodewithsaurabh"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://grafana.com/docs/loki/latest/configure/",
+        "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "https://grafana.com/docs/loki/latest/configure/storage/",
+        "https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321"
+      ],
+      "notes": [
+        "https://grafana.com/tutorials/",
+        "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "https://www.hellointerview.com/learn/system-design/deep-dives/cassandra",
+        "https://www.geeksforgeeks.org/best-way-to-master-spring-boot-a-complete-roadmap/",
+        "https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=yuVVKB0EaOQ",
+        "https://www.youtube.com/@learncodewithsaurabh"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://nodejs.org/api/buffer.html",
-        "description": "The Node.js Buffer API documentation provides details on handling binary data in Node.js applications."
+        "question": "What is a primary advantage of using Cassandra over traditional relational databases?",
+        "options": [
+          "High write throughput",
+          "Complex query capabilities",
+          "Strict ACID transactions",
+          "Structured schema"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the performance aspect in write operations."
       },
       {
-        "url": "https://nodejs.org/api/n-api.html",
-        "description": "The Node.js N-API documentation provides a stable API for building native add-ons in Node.js."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Database",
-        "description": "An overview of what a database is, including its purpose and common types, as explained in the MDN Web Docs glossary."
+        "question": "Which of the following best describes Cassandra's architecture?",
+        "options": [
+          "Master-slave architecture",
+          "Peer-to-peer architecture",
+          "Single server architecture",
+          "Client-server architecture"
+        ],
+        "correct_option": 1,
+        "hint": "Each node in Cassandra is equal, with no single point of failure."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.freecodecamp.org/news/the-apache-cassandra-beginner-tutorial/",
-        "description": "A beginner-friendly tutorial introducing the key concepts and basic operations of Apache Cassandra."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/dbms/apache-cassandra-nosql-database/",
-        "description": "An overview of Apache Cassandra, a NoSQL database management system, including its features and architecture."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/dbms/cassandra-nosql-database/",
-        "description": "An overview of Apache Cassandra, a highly scalable NoSQL database designed for handling large amounts of data across many commodity servers."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/dbms/sstable-in-apache-cassandra/",
-        "description": "An overview of the SSTable data structure in Apache Cassandra, detailing its role in data storage and retrieval."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/devops/introduction-to-apache-cassandra/",
-        "description": "An introductory guide to Apache Cassandra, covering its architecture, features, and use cases in DevOps."
+        "question": "For which type of workload is Cassandra particularly well-suited?",
+        "options": [
+          "High read throughput with complex queries",
+          "High write throughput with linear scalability",
+          "Batch processing of large datasets",
+          "Transaction processing with strong consistency"
+        ],
+        "correct_option": 1,
+        "hint": "Think about workloads that require fast and scalable write operations."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=KZsVSfQVU4I",
-      "https://www.youtube.com/watch?v=jgqu1BcSKUI",
-      "https://www.youtube.com/watch?v=J-cSy5MeMOA",
-      "https://www.youtube.com/watch?v=WFycRMLvMKc",
-      "https://www.youtube.com/watch?v=VsQ4OuH-K1I"
+    "advanced": [
+      {
+        "question": "What consistency model does Cassandra primarily use?",
+        "options": [
+          "Strong consistency",
+          "Eventual consistency",
+          "Sequential consistency",
+          "Strict consistency"
+        ],
+        "correct_option": 1,
+        "hint": "This consistency model allows for high availability and partition tolerance."
+      },
+      {
+        "question": "Which use case is NOT ideal for Cassandra?",
+        "options": [
+          "Real-time analytics",
+          "Financial transactions requiring strict ACID compliance",
+          "High-velocity sensor data logging",
+          "Social media feed storage"
+        ],
+        "correct_option": 1,
+        "hint": "Consider scenarios that require strong transactional integrity and consistency."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is a primary advantage of using Cassandra over traditional relational databases?",
-      "options": [
-        "High write throughput",
-        "Complex query capabilities",
-        "Strict ACID transactions",
-        "Structured schema"
-      ],
-      "correct_option": 0,
-      "hint": "Consider the performance aspect in write operations."
-    },
-    {
-      "question": "Which of the following best describes Cassandra's architecture?",
-      "options": [
-        "Master-slave architecture",
-        "Peer-to-peer architecture",
-        "Single server architecture",
-        "Client-server architecture"
-      ],
-      "correct_option": 1,
-      "hint": "Each node in Cassandra is equal, with no single point of failure."
-    },
-    {
-      "question": "For which type of workload is Cassandra particularly well-suited?",
-      "options": [
-        "High read throughput with complex queries",
-        "High write throughput with linear scalability",
-        "Batch processing of large datasets",
-        "Transaction processing with strong consistency"
-      ],
-      "correct_option": 1,
-      "hint": "Think about workloads that require fast and scalable write operations."
-    },
-    {
-      "question": "What consistency model does Cassandra primarily use?",
-      "options": [
-        "Strong consistency",
-        "Eventual consistency",
-        "Sequential consistency",
-        "Strict consistency"
-      ],
-      "correct_option": 1,
-      "hint": "This consistency model allows for high availability and partition tolerance."
-    },
-    {
-      "question": "Which use case is NOT ideal for Cassandra?",
-      "options": [
-        "Real-time analytics",
-        "Financial transactions requiring strict ACID compliance",
-        "High-velocity sensor data logging",
-        "Social media feed storage"
-      ],
-      "correct_option": 1,
-      "hint": "Consider scenarios that require strong transactional integrity and consistency."
-    }
-  ],
   "preferred_if": [
     "User needs extreme scalability and high write throughput"
   ]

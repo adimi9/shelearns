@@ -1,0 +1,484 @@
+{
+  "id": "FE7",
+  "name": "Progressive Web Apps (PWA)",
+  "category": "Frontend Development",
+  "primary_tech": "PWA",
+  "topics": [
+    "Service Workers",
+    "Offline Support",
+    "Web App Manifest & Installation"
+  ],
+  "recommended": true,
+  "tags": [
+    "offline",
+    "web app",
+    "modern web"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+          "description": "An in-depth guide to building and deploying Progressive Web Apps (PWAs).",
+          "title": "Progressive web apps | MDN"
+        },
+        {
+          "url": "https://web.dev/explore/progressive-web-apps",
+          "description": "An exploration of Progressive Web Apps (PWAs) with resources and guides for developers.",
+          "title": "Progressive Web Apps  |  web.dev"
+        },
+        {
+          "url": "https://www.freecodecamp.org/news/what-are-progressive-web-apps/",
+          "description": "An introductory article explaining the features and benefits of Progressive Web Apps.",
+          "title": "What is a PWA? Progressive Web Apps for Beginners"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/",
+          "description": "A guide on creating and deploying Progressive Web Apps using Microsoft Edge.",
+          "title": "Get started with PWAs - Microsoft Edge Developer documentation | Microsoft Learn"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://m.youtube.com/watch?v=dap6yIe1uK4&t=2340s",
+          "description": "A detailed tutorial on using the ChatGPT API for building conversational AI applications.",
+          "title": "Progressive Web Apps (PWA) Tutorial for Beginners - Getting Started",
+          "duration": "40m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BByUknfLTuA",
+          "description": "An introductory video tutorial on the basics of Kubernetes for beginners.",
+          "title": "Introduction to PWAs [1 of 17] | PWA for Beginners",
+          "duration": "13m"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+          "description": "An in-depth guide on building Progressive Web Apps (PWAs) on MDN Web Docs.",
+          "title": "Progressive web apps | MDN"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4XT23X0Fjfk",
+          "description": "A tutorial on using Obsidian for effective note-taking and knowledge management.",
+          "title": "PWA Tutorial for Beginners #1 - What Are PWA's?",
+          "duration": "7m"
+        },
+        {
+          "url": "https://web.dev/explore/progressive-web-apps",
+          "description": "A detailed exploration of progressive web apps and their implementation.",
+          "title": "Progressive Web Apps  |  web.dev"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://m.youtube.com/watch?v=dap6yIe1uK4&t=2340s",
+          "title": "Progressive Web Apps (PWA) Tutorial for Beginners - Getting Started",
+          "duration": "40m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4XT23X0Fjfk",
+          "title": "PWA Tutorial for Beginners #1 - What Are PWA's?",
+          "duration": "7m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BByUknfLTuA",
+          "title": "Introduction to PWAs [1 of 17] | PWA for Beginners",
+          "duration": "13m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nNa4KrD3vAY",
+          "title": "How to Create a Progressive Web App (PWA)",
+          "duration": "193m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gcx-3qi7t7c",
+          "title": "Progressive Web App tutorial – learn to build a PWA from scratch",
+          "duration": "39m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1WWweyBaWZk&pp=ygUaI21hZ2VudG8ycHJvZ3Jlc3NpdmV3ZWJhcHA%3D",
+          "title": "What Is A Progressive Web App (PWA) - Why Is It A Game-Changer In eCommerce",
+          "duration": "6m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=othhfZ0mGjU&t=464s",
+          "title": "Build your First Angular PWA from Scratch (Angular 6 PWA Tutorial)",
+          "duration": "26m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+          "description": "An in-depth guide to developing Progressive Web Apps on the web.",
+          "title": "Progressive web apps | MDN"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/aspnet/core/blazor/progressive-web-app?view=aspnetcore-9.0",
+          "description": "A guide on building Progressive Web Apps using Blazor in ASP.NET Core.",
+          "title": "ASP.NET Core Blazor Progressive Web Application (PWA) | Microsoft Learn"
+        },
+        {
+          "url": "https://web.dev/explore/progressive-web-apps",
+          "description": "An introduction to building and exploring Progressive Web Apps (PWAs).",
+          "title": "Progressive Web Apps  |  web.dev"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://learn.microsoft.com/en-us/aspnet/core/blazor/progressive-web-app?view=aspnetcore-9.0",
+          "description": "A guide on building Progressive Web Apps using Blazor in ASP.NET Core.",
+          "title": "ASP.NET Core Blazor Progressive Web Application (PWA) | Microsoft Learn"
+        },
+        {
+          "url": "https://web.dev/explore/progressive-web-apps",
+          "description": "An exploration guide to understanding and building Progressive Web Apps.",
+          "title": "Progressive Web Apps  |  web.dev"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+          "description": "An in-depth resource on building and deploying Progressive Web Apps (PWAs).",
+          "title": "Progressive web apps | MDN"
+        },
+        {
+          "url": "https://developer.chrome.com/blog/getting-started-pwa",
+          "description": "An introductory guide to building Progressive Web Apps (PWAs) with Chrome.",
+          "title": "Getting started with Progressive Web Apps  |  Blog  |  Chrome for Developers"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers",
+          "description": "A tutorial on using service workers to enable offline functionality in Progressive Web Apps.",
+          "title": "js13kGames: Making the PWA work offline with service workers - Progressive web apps | MDN"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=_AhTzpIQJTw",
+          "title": "KotlinConf 2019: Building Progressive Web Apps in Kotlin by Erik Hellman",
+          "duration": "35m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qw1JmUudpjk",
+          "title": "PWA series #5: Workbox routing",
+          "duration": "7m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=T5Us3zUJihE",
+          "title": "Progressive Web Apps (PWAs) vs native mobile apps | Leigh Kendell and Aranda Morrison",
+          "duration": "28m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IzXDKxGrAxw",
+          "title": "Enable your portal as a Progressive Web App",
+          "duration": "3m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nkI8QanTjLs",
+          "title": "Progressive Web Apps (PWAs): Storage mechanisms and best practices",
+          "duration": "42m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ko7-NPl2UP0",
+          "title": "Visual LANSA 15+ is Here!",
+          "duration": "58m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8dpZxb7b4d4",
+          "title": "Joomla PWA – Joomla Progressive Web App",
+          "duration": "5m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1BfCnjr_Vjg",
+          "title": "WebSockets in 100 Seconds & Beyond with Socket.io",
+          "duration": "8m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+          "description": "An in-depth guide to building and deploying Progressive Web Apps (PWAs).",
+          "title": "Progressive web apps | MDN"
+        },
+        {
+          "url": "https://web.dev/explore/progressive-web-apps",
+          "description": "An exploration of Progressive Web Apps, covering their features and benefits.",
+          "title": "Progressive Web Apps  |  web.dev"
+        },
+        {
+          "url": "https://knowledge.intershop.com/",
+          "description": "A central hub for accessing Intershop's technical documentation, support, and resources.",
+          "title": "Knowledge Home"
+        },
+        {
+          "url": "https://support.intershop.com/kb/go.php/a/ENFDEVDOC/pages/1889741292/Guide+-+Intershop+Commerce+Platform+-+Customization+Options",
+          "description": "A detailed guide on customization options for the Intershop Commerce Platform.",
+          "title": "Guide - Intershop Commerce Platform - Customization Options"
+        },
+        {
+          "url": "https://developer.chrome.com/blog/getting-started-pwa",
+          "description": "An introductory guide to building Progressive Web Apps (PWAs) using Chrome.",
+          "title": "Getting started with Progressive Web Apps  |  Blog  |  Chrome for Developers"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://web.dev/explore/progressive-web-apps",
+          "description": "An in-depth exploration of Progressive Web Apps (PWAs) and their implementation.",
+          "title": "Progressive Web Apps  |  web.dev"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+          "description": "An in-depth guide to building Progressive Web Apps (PWAs) on the web.",
+          "title": "Progressive web apps | MDN"
+        },
+        {
+          "url": "https://web.dev/learn/pwa",
+          "description": "An in-depth learning path for building Progressive Web Apps (PWAs).",
+          "title": "Learn PWA  |  web.dev"
+        },
+        {
+          "url": "https://developer.chrome.com/blog/getting-started-pwa",
+          "description": "An introductory guide to building Progressive Web Apps (PWAs) using Chrome.",
+          "title": "Getting started with Progressive Web Apps  |  Blog  |  Chrome for Developers"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Tutorials",
+          "description": "Step-by-step tutorials for building and optimizing Progressive Web Apps.",
+          "title": "Tutorials - Progressive web apps | MDN"
+        },
+        {
+          "url": "https://ignitevisibility.com/progressive-web-apps-amp-seo/",
+          "description": "An insightful overview of how Progressive Web Apps (PWAs) and Accelerated Mobile Pages (AMP) impact SEO strategies.",
+          "title": "Advanced SEO: Progressive Web Apps & AMP Technical Guide"
+        },
+        {
+          "url": "https://www.codica.com/blog/how-to-create-pwa-with-react/",
+          "description": "A step-by-step guide on creating Progressive Web Apps using React.",
+          "title": "How to Create a PWA with React 📱 Progressive Web Apps Guide | Codica"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=oMjpRTyotZg",
+          "title": "Building a Progressive Web App with Angular Material: A Comprehensive Tutorial Series",
+          "duration": "45m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=JVMiTexyp6U&pp=0gcJCfwAo7VqN5tD",
+          "title": "How I implement PWA push Notification",
+          "duration": "14m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZdNVTw6hj54",
+          "title": "How to Install Microsoft 365 Copilot as an 'App' for Easy Access",
+          "duration": "3m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=kxSuXvvsPGE",
+          "title": "Effortlessly Convert Your Bubble App to a PWA - RapidDev Plugin Tutorial",
+          "duration": "20m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TI3s1--45h0",
+          "title": "SwUpdate in Angular | Check for update in Angular PWA | Progressive Web Apps Development",
+          "duration": "17m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jbnDoMpDuak",
+          "title": "Ep3 - If else statement in Javascript: All you need to know",
+          "duration": "8m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=U5jYqNgltk8",
+          "title": "Exploring SWUpdate Service: A Deep Dive into Angular's Service Worker Update Service",
+          "duration": "44m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Gwup7MV_fXs",
+          "title": "Why \"vanilla JavaScript first\" might NOT be the best approach!",
+          "duration": "10m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ddbHp8tGBwQ",
+          "title": "List your Progressive Web App in Google Play | Session",
+          "duration": "11m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary role of a Service Worker in a Progressive Web App?",
+        "options": [
+          "To manage offline caching and background tasks",
+          "To render the user interface",
+          "To handle user authentication",
+          "To host the web application"
+        ],
+        "correct_option": 0,
+        "hint": "It acts like a proxy between the app and the network."
+      },
+      {
+        "question": "Which file format is commonly used for the Web App Manifest?",
+        "options": [
+          ".json",
+          ".xml",
+          ".html",
+          ".css"
+        ],
+        "correct_option": 0,
+        "hint": "This file format is often used for configuration in web apps."
+      },
+      {
+        "question": "What feature allows a Progressive Web App to work without an internet connection?",
+        "options": [
+          "Offline caching",
+          "Responsive design",
+          "Continuous integration",
+          "Server-side rendering"
+        ],
+        "correct_option": 0,
+        "hint": "It involves storing resources locally."
+      },
+      {
+        "question": "Which of the following is NOT a characteristic of Progressive Web Apps?",
+        "options": [
+          "Limited to specific operating systems",
+          "Offline functionality",
+          "Installable on the home screen",
+          "Responsive design"
+        ],
+        "correct_option": 0,
+        "hint": "PWAs are designed to be platform-independent."
+      },
+      {
+        "question": "What is the purpose of the Web App Manifest in a PWA?",
+        "options": [
+          "To describe the app's metadata and provide a home screen icon",
+          "To handle data encryption",
+          "To manage user sessions",
+          "To create server-side logic"
+        ],
+        "correct_option": 0,
+        "hint": "It defines how the PWA should appear to the user."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary role of a Service Worker in a Progressive Web App?",
+        "options": [
+          "To manage push notifications",
+          "To act as a proxy between the web app and the network",
+          "To handle user authentication",
+          "To manage the app's user interface layout"
+        ],
+        "correct_option": 1,
+        "hint": "Service Workers are designed to intercept network requests and manage caching."
+      },
+      {
+        "question": "Which file format is used for the Web App Manifest in a PWA?",
+        "options": [
+          "XML",
+          "JSON",
+          "YAML",
+          "CSV"
+        ],
+        "correct_option": 1,
+        "hint": "The Web App Manifest is a simple file format that uses key-value pairs to define the PWA's metadata."
+      },
+      {
+        "question": "How does a PWA provide offline support to users?",
+        "options": [
+          "By storing all app data in local storage",
+          "By using Service Workers to cache resources",
+          "By having a dedicated offline server",
+          "By using cookies to save user sessions"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how PWAs can continue to function even without a network connection."
+      },
+      {
+        "question": "Which of the following is NOT a feature of the Web App Manifest?",
+        "options": [
+          "Defines the app's icon",
+          "Specifies the app's theme color",
+          "Controls the app's network requests",
+          "Sets the app's display orientation"
+        ],
+        "correct_option": 2,
+        "hint": "The Web App Manifest is primarily concerned with the app's appearance and metadata, not network operations."
+      },
+      {
+        "question": "What happens when a user installs a PWA on their device?",
+        "options": [
+          "The app runs in a standalone window without browser UI",
+          "The app gains access to the device's file system",
+          "The app is added to the device's native app store",
+          "The app is converted into a native mobile app"
+        ],
+        "correct_option": 0,
+        "hint": "Installing a PWA simulates a native app experience, removing typical browser elements."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which lifecycle event in a Service Worker is used to cache static assets for offline use?",
+        "options": [
+          "fetch",
+          "install",
+          "activate",
+          "sync"
+        ],
+        "correct_option": 1,
+        "hint": "This event is triggered when the Service Worker is first registered."
+      },
+      {
+        "question": "What is the primary role of a Service Worker in a Progressive Web App?",
+        "options": [
+          "To serve as a proxy between the network and the app",
+          "To manage user data storage",
+          "To handle user authentication",
+          "To enforce security policies"
+        ],
+        "correct_option": 0,
+        "hint": "Service Workers are scripts that your browser runs in the background, separate from a web page, opening the door to features that don't need a web page or user interaction."
+      },
+      {
+        "question": "How does a Web App Manifest contribute to the installation of a PWA?",
+        "options": [
+          "It allows for push notifications",
+          "It provides metadata for the app, like its name and icons",
+          "It manages offline caching",
+          "It handles real-time data synchronization"
+        ],
+        "correct_option": 1,
+        "hint": "The manifest file is a simple JSON file that allows you to control how your app appears to the user."
+      },
+      {
+        "question": "Which method is used to register a Service Worker in a web application?",
+        "options": [
+          "navigator.serviceWorker.register()",
+          "window.addServiceWorker()",
+          "document.registerServiceWorker()",
+          "serviceWorker.init()"
+        ],
+        "correct_option": 0,
+        "hint": "This method is called on the navigator object to initiate Service Worker registration."
+      },
+      {
+        "question": "What is the purpose of the 'activate' event in a Service Worker lifecycle?",
+        "options": [
+          "To update the Service Worker",
+          "To delete old caches and manage versions",
+          "To intercept network requests",
+          "To install new assets"
+        ],
+        "correct_option": 1,
+        "hint": "This event is used to clean up old caches when a new Service Worker takes control."
+      }
+    ]
+  }
+}

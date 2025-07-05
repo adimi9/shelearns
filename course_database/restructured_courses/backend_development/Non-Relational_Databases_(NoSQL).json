@@ -15,105 +15,149 @@
     "data-modeling"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API",
-        "description": "The MDN Web Docs page provides comprehensive documentation on using the IndexedDB API for client-side storage of significant amounts of structured data."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Database",
-        "description": "An overview of databases, explaining their purpose, types, and how they are used in software development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology",
-        "description": "An overview of fundamental terms and concepts related to the IndexedDB API for client-side storage in web applications."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/introduction-to-nosql/",
-        "description": "An introductory guide to understanding NoSQL databases and their features compared to traditional SQL databases."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/non-relational-databases-and-their-types/",
-        "description": "An overview of non-relational databases, exploring their types and distinguishing features."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/dbms/types-of-nosql-databases/",
-        "description": "An overview of the different types of NoSQL databases, their characteristics, and use cases."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/difference-between-sql-and-nosql/",
-        "description": "This resource explains the key differences between SQL and NoSQL databases, highlighting their use cases and advantages."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/dbms/querying-in-nosql/",
-        "description": "An overview of querying techniques and methods in NoSQL databases, highlighting their differences from traditional SQL queries."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=0buKQHokLK8",
-      "https://www.youtube.com/watch?v=_Ss42Vb1SU4",
-      "https://www.youtube.com/watch?v=Q5aTUc7c4jg",
-      "https://www.youtube.com/watch?v=xh4gy1lbL2k",
-      "https://www.youtube.com/watch?v=E9AgJnsEvG4"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is a primary feature of document databases like MongoDB?",
-      "options": [
-        "They store data in tables with rows and columns.",
-        "They use a schema-less data model.",
-        "They rely on SQL for queries.",
-        "They do not support indexing."
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs/database",
+        "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained"
       ],
-      "correct_option": 1,
-      "hint": "Consider how document databases handle data structures."
+      "notes": [
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+        "https://learn.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data",
+        "https://www.ibm.com/think/topics/nosql-databases",
+        "https://cloud.google.com/discover/what-is-nosql",
+        "https://www.geeksforgeeks.org/non-relational-databases-and-their-types/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=uD3p_rZPBUQ",
+        "https://www.youtube.com/watch?v=GV9VBwH_h1U&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=xh4gy1lbL2k",
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+        "https://www.youtube.com/watch?v=FRqrZGB8NBs",
+        "https://www.youtube.com/watch?v=aUPVpIYiLCc",
+        "https://www.youtube.com/playlist?list=PL6n9fhu94yhWowRM5l5KYRRZ9yASZNsJ0",
+        "https://www.youtube.com/user/michaelfudge",
+        "https://www.youtube.com/watch?v=rhzUrejsA4A",
+        "https://www.youtube.com/watch?v=3CzxJ9vb_QQ"
+      ]
     },
-    {
-      "question": "Which data structure is primarily used by key-value stores such as Redis?",
-      "options": [
-        "Graphs",
-        "Documents",
-        "Key-Value Pairs",
-        "Tables"
+    "intermediate": {
+      "docs": [
+        "https://cloud.google.com/discover/what-is-nosql",
+        "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html",
+        "https://www.mongodb.com/resources/basics/databases/document-databases",
+        "https://firebase.google.com/docs/database"
       ],
-      "correct_option": 2,
-      "hint": "Think about the simplest form of data storage in NoSQL databases."
+      "notes": [
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+        "https://stackoverflow.com/questions/3713313/when-should-i-use-a-nosql-database-instead-of-a-relational-database-is-it-okay",
+        "https://www.ibm.com/think/topics/nosql-databases",
+        "https://cloud.google.com/discover/what-is-nosql",
+        "https://www.pluralsight.com/resources/blog/software-development/relational-vs-non-relational-databases"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Ls3EQXthqqM",
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+        "https://www.youtube.com/watch?v=byLJcf20vOw",
+        "https://www.youtube.com/watch?v=LvFoyJzzsn4",
+        "https://www.youtube.com/watch?v=uD3p_rZPBUQ",
+        "https://www.youtube.com/watch?v=Hdi1awDJi3Q",
+        "https://www.youtube.com/watch?v=WFycRMLvMKc",
+        "https://www.youtube.com/watch?v=bixPfJ2PT4E",
+        "https://www.youtube.com/watch?v=sq2Eo3qclaY",
+        "https://www.youtube.com/@hnasr"
+      ]
     },
-    {
-      "question": "In Neo4j, what are the main components used to represent data?",
-      "options": [
-        "Nodes and Relationships",
-        "Tables and Columns",
-        "Keys and Values",
-        "Documents and Collections"
+    "advanced": {
+      "docs": [
+        "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+        "https://cloud.google.com/spanner"
       ],
-      "correct_option": 0,
-      "hint": "Consider how graph databases structure their data."
-    },
-    {
-      "question": "Which NoSQL database is known for being a graph database?",
-      "options": [
-        "MongoDB",
-        "Redis",
-        "Neo4j",
-        "Cassandra"
+      "notes": [
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+        "https://www.scylladb.com/learn/nosql/",
+        "https://codethechange.stanford.edu/guides/sql.html",
+        "https://www.educative.io/blog/relational-database-deep-dive",
+        "https://blazeclan.com/blog/dive-deep-types-nosql-databases/",
+        "https://www.geeksforgeeks.org/non-relational-databases-and-their-types/",
+        "https://aws.amazon.com/dynamodb/"
       ],
-      "correct_option": 2,
-      "hint": "Focus on databases that use nodes and relationships."
-    },
-    {
-      "question": "What distinguishes NoSQL databases from traditional SQL databases?",
-      "options": [
-        "NoSQL databases always use a fixed schema.",
-        "NoSQL databases cannot handle large volumes of data.",
-        "NoSQL databases offer more flexible data models.",
-        "NoSQL databases are only used for small applications."
-      ],
-      "correct_option": 2,
-      "hint": "Think about the flexibility in data modeling with NoSQL databases."
+      "videos": [
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+        "https://www.youtube.com/watch?v=xh4gy1lbL2k",
+        "https://www.youtube.com/watch?v=bixPfJ2PT4E",
+        "https://www.youtube.com/watch?v=LvFoyJzzsn4",
+        "https://www.youtube.com/watch?v=EvB7REsf0ic",
+        "https://m.youtube.com/watch?v=jh14LlMHyds&pp=ygUHI25vbnNxbA%3D%3D",
+        "https://www.youtube.com/watch?v=XMEkNZby95M&pp=ygUKI2VsZWN0cm9kYg%3D%3D",
+        "https://www.youtube.com/watch?v=Puc2EjkdycU",
+        "https://www.youtube.com/watch?v=7MfBlmAomeM",
+        "https://www.youtube.com/c/programmingpalli"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a primary feature of document databases like MongoDB?",
+        "options": [
+          "They store data in tables with rows and columns.",
+          "They use a schema-less data model.",
+          "They rely on SQL for queries.",
+          "They do not support indexing."
+        ],
+        "correct_option": 1,
+        "hint": "Consider how document databases handle data structures."
+      },
+      {
+        "question": "Which data structure is primarily used by key-value stores such as Redis?",
+        "options": [
+          "Graphs",
+          "Documents",
+          "Key-Value Pairs",
+          "Tables"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the simplest form of data storage in NoSQL databases."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In Neo4j, what are the main components used to represent data?",
+        "options": [
+          "Nodes and Relationships",
+          "Tables and Columns",
+          "Keys and Values",
+          "Documents and Collections"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how graph databases structure their data."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which NoSQL database is known for being a graph database?",
+        "options": [
+          "MongoDB",
+          "Redis",
+          "Neo4j",
+          "Cassandra"
+        ],
+        "correct_option": 2,
+        "hint": "Focus on databases that use nodes and relationships."
+      },
+      {
+        "question": "What distinguishes NoSQL databases from traditional SQL databases?",
+        "options": [
+          "NoSQL databases always use a fixed schema.",
+          "NoSQL databases cannot handle large volumes of data.",
+          "NoSQL databases offer more flexible data models.",
+          "NoSQL databases are only used for small applications."
+        ],
+        "correct_option": 2,
+        "hint": "Think about the flexibility in data modeling with NoSQL databases."
+      }
+    ]
+  }
 }

@@ -22,107 +22,150 @@
     "schema-design"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://graphql.org/learn/",
+        "https://www.apollographql.com/docs/react",
+        "https://www.contentful.com/developers/docs/references/graphql/",
+        "https://forum.camunda.io/t/developing-the-camunda-graphql-extension/2872",
+        "https://www.coursera.org/courses?query=api"
+      ],
+      "notes": [
+        "https://graphql.org/learn/",
+        "https://www.apollographql.com/tutorials/",
+        "https://www.youtube.com/@PedroTechnologies/community",
+        "https://www.howtographql.com/",
+        "https://graphql-java.com/tutorials/getting-started-with-spring-boot/",
+        "https://www.howtographql.com/graphql-go/0-introduction/",
+        "https://escape.tech/blog/learning-graphql-roadmap-8-steps-to-master-graphql/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=MIJt9H69QVc",
+        "https://www.youtube.com/watch?v=BNYwj0ZvU1U&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=M_Oes39FNuk&pp=ygUQI2dyYXBocWxhZHZhbmNlZA%3D%3D",
+        "https://www.youtube.com/watch?v=UYQSVH6B1k4",
+        "https://www.youtube.com/watch?v=rliHohNhuKw",
+        "https://www.youtube.com/watch?v=xMCnDesBggM&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=x6TiqrULv90",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://graphql.org/learn/",
+        "https://forum.camunda.io/t/developing-the-camunda-graphql-extension/2872",
+        "https://graphql.org/community/tools-and-libraries/",
+        "https://developer.monday.com/api-reference/",
+        "https://www.contentful.com/developers/docs/references/graphql/"
+      ],
+      "notes": [
+        "https://graphql.org/learn/",
+        "https://www.solo.io/topics/graphql",
+        "https://graphql.org/community/tools-and-libraries/",
+        "https://discuss.dgraph.io/t/react-app-cant-create-mutations-due-to-cors-errors/9716",
+        "https://www.solo.io/topics/graphql/graphql-tutorial",
+        "https://www.vuemastery.com/blog/why-you-should-use-vue-graphql/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=xMCnDesBggM&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=6a3Dz8gwjdg",
+        "https://m.youtube.com/watch?v=7DVdVGm7Ht8&t=62168s",
+        "https://www.youtube.com/watch?v=jx_PfJfhKO0",
+        "https://www.youtube.com/watch?v=AjAij2j81Js",
+        "https://m.youtube.com/watch?v=X6fSJZDZZ0I",
+        "https://www.youtube.com/watch?v=zDm2hpPIKJI",
+        "https://www.youtube.com/watch?v=djMy4QsPWiI&pp=ygUNI3JlYWN0ZXhwcmVzcw%3D%3D"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://graphql.org/learn/",
+        "https://www.departmentofproduct.com/blog/how-to-read-api-documentation/",
+        "https://www.apollographql.com/tutorials/"
+      ],
+      "notes": [
+        "https://graphql.org/learn/",
+        "https://www.apollographql.com/tutorials/",
+        "https://community.shopify.com/c/shopify-education-and/how-to-become-a-shopify-developer-a-step-by-step-guide/m-p/2831473",
+        "https://www.codewithjay.com/free-online-courses",
+        "https://www.callstack.com/blog/setting-up-graphql-with-hapi-js"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=MIJt9H69QVc",
+        "https://www.youtube.com/watch?v=x6TiqrULv90",
+        "https://www.youtube.com/watch?v=BNYwj0ZvU1U&pp=0gcJCf0Ao7VqN5tD",
+        "https://m.youtube.com/watch?v=dP_QfmnghnQ",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=xWuUY53y0g8",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://legacy.reactjs.org/blog/2015/05/01/graphql-introduction.html",
-        "description": "An introductory blog post explaining the basics and benefits of using GraphQL for data fetching in web applications."
+        "question": "What is a key advantage of using GraphQL over REST for API design?",
+        "options": [
+          "GraphQL allows clients to request only the data they need.",
+          "GraphQL requires less server-side code than REST.",
+          "GraphQL automatically scales without additional configuration.",
+          "GraphQL is faster than REST in all scenarios."
+        ],
+        "correct_option": 0,
+        "hint": "Consider the flexibility offered to clients in terms of data selection."
       },
       {
-        "url": "https://legacy.reactjs.org/blog/2015/02/20/introducing-relay-and-graphql.html",
-        "description": "The blog post introduces Relay and GraphQL, highlighting their roles in building data-driven React applications."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
-        "description": "An overview of the Fetch API for making network requests in JavaScript, including usage examples and detailed specifications."
+        "question": "Which of the following best describes GraphQL?",
+        "options": [
+          "A database management system for storing API data.",
+          "A query language for your API, allowing clients to specify data needs.",
+          "A server-side technology for enhancing RESTful APIs.",
+          "A client-side framework for building user interfaces."
+        ],
+        "correct_option": 1,
+        "hint": "Focus on how GraphQL interacts with APIs."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.geeksforgeeks.org/graphql/graphql-tutorial/",
-        "description": "A comprehensive tutorial on GraphQL covering its basics, features, and implementation."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/a-beginners-guide-to-graphql-86f849ce1bec/",
-        "description": "A beginner's guide to understanding and implementing GraphQL for efficient data querying in web development."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/graphql-zero-to-production-a7c4f786a57b/",
-        "description": "A comprehensive guide to building and deploying a production-ready GraphQL API from scratch."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/laravel-graphql-playground-not-showing-up/621917",
-        "description": "Discussion on troubleshooting and resolving issues with displaying the GraphQL Playground in a Laravel application."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/how-to-integrate-graphql-in-react-js/",
-        "description": "This resource provides a step-by-step guide on integrating GraphQL with a React.js application."
+        "question": "In GraphQL, what is the purpose of a resolver?",
+        "options": [
+          "To resolve conflicts between different queries in a request.",
+          "To map and execute a query against the data source.",
+          "To define the structure and type of data available in the API.",
+          "To manage user authentication and authorization."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how GraphQL processes and maps queries to data."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=xMCnDesBggM&pp=0gcJCf0Ao7VqN5tD",
-      "https://www.youtube.com/watch?v=BcLNfwF04Kw",
-      "https://www.youtube.com/watch?v=WtkKwO1viI8",
-      "https://www.youtube.com/watch?v=qux4-yWeZvo",
-      "https://www.youtube.com/watch?v=yqWzCV0kU_c"
+    "advanced": [
+      {
+        "question": "How does GraphQL handle multiple resource requests in a single API call compared to REST?",
+        "options": [
+          "GraphQL sends one request that can fetch multiple resources as needed.",
+          "GraphQL requires multiple requests for each resource, similar to REST.",
+          "GraphQL can only handle one resource per request, unlike REST.",
+          "GraphQL uses a batch processing system to handle multiple requests at once."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how GraphQL's query structure is designed for efficiency."
+      },
+      {
+        "question": "What role does the GraphQL schema play in API design?",
+        "options": [
+          "It caches frequent queries to improve performance.",
+          "It defines the types and structure of data that clients can request.",
+          "It automatically translates RESTful endpoints into GraphQL queries.",
+          "It handles user authentication and session management."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how clients know what data is available and how it's structured."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is a key advantage of using GraphQL over REST for API design?",
-      "options": [
-        "GraphQL allows clients to request only the data they need.",
-        "GraphQL requires less server-side code than REST.",
-        "GraphQL automatically scales without additional configuration.",
-        "GraphQL is faster than REST in all scenarios."
-      ],
-      "correct_option": 0,
-      "hint": "Consider the flexibility offered to clients in terms of data selection."
-    },
-    {
-      "question": "Which of the following best describes GraphQL?",
-      "options": [
-        "A database management system for storing API data.",
-        "A query language for your API, allowing clients to specify data needs.",
-        "A server-side technology for enhancing RESTful APIs.",
-        "A client-side framework for building user interfaces."
-      ],
-      "correct_option": 1,
-      "hint": "Focus on how GraphQL interacts with APIs."
-    },
-    {
-      "question": "In GraphQL, what is the purpose of a resolver?",
-      "options": [
-        "To resolve conflicts between different queries in a request.",
-        "To map and execute a query against the data source.",
-        "To define the structure and type of data available in the API.",
-        "To manage user authentication and authorization."
-      ],
-      "correct_option": 1,
-      "hint": "Think about how GraphQL processes and maps queries to data."
-    },
-    {
-      "question": "How does GraphQL handle multiple resource requests in a single API call compared to REST?",
-      "options": [
-        "GraphQL sends one request that can fetch multiple resources as needed.",
-        "GraphQL requires multiple requests for each resource, similar to REST.",
-        "GraphQL can only handle one resource per request, unlike REST.",
-        "GraphQL uses a batch processing system to handle multiple requests at once."
-      ],
-      "correct_option": 0,
-      "hint": "Consider how GraphQL's query structure is designed for efficiency."
-    },
-    {
-      "question": "What role does the GraphQL schema play in API design?",
-      "options": [
-        "It caches frequent queries to improve performance.",
-        "It defines the types and structure of data that clients can request.",
-        "It automatically translates RESTful endpoints into GraphQL queries.",
-        "It handles user authentication and session management."
-      ],
-      "correct_option": 1,
-      "hint": "Think about how clients know what data is available and how it's structured."
-    }
-  ],
   "preferred_if": [
     "User needs flexible data fetching for clients",
     "Client-driven data requirements"

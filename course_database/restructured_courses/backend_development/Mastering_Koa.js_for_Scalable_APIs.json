@@ -22,107 +22,138 @@
     "asynchronous"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://pi.tech/blog/best-web-app-development-platforms",
+        "https://www.designgurus.io/answers/detail/what-is-the-first-language-to-learn-for-backend",
+        "https://br.linkedin.com/in/guilhermewelter/en"
+      ],
+      "notes": [
+        "https://www.designgurus.io/answers/detail/what-is-the-first-language-to-learn-for-backend",
+        "https://www.nucamp.co/blog/coding-bootcamp-web-development-fundamentals-nodejs-fundamentals-beginners-guide-to-serverside-javascript",
+        "https://tillitsdone.com/blog_category/all/",
+        "https://zerotomastery.io/courses/learn-node-js/",
+        "https://www.softkit.dev/blog/node-vs-react/",
+        "https://github.com/vuejs/awesome-vue",
+        "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=GHTA143_b-s",
+        "https://www.youtube.com/watch?v=QoLqMDSBZAs",
+        "https://www.youtube.com/watch?v=635aFcLPW0A",
+        "https://www.youtube.com/watch?v=USD2bURLtSo",
+        "https://www.youtube.com/watch?v=sFnAHC9lLaw",
+        "https://www.youtube.com/watch?v=ksbLskgk5ZE",
+        "https://www.youtube.com/watch?v=wwZy_K3LORQ&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=KHM2wsTCR1k"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://pi.tech/blog/best-web-app-development-platforms",
+        "https://github.com/goldbergyoni/nodebestpractices",
+        "https://www.sitepoint.com/node-js-development-tools/",
+        "https://github.com/vuejs/awesome-vue",
+        "https://www.upgrad.com/blog/10-best-backend-for-react/"
+      ],
+      "notes": [
+        "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
+        "https://www.bairesdev.com/blog/node-js-microservices/",
+        "https://www.softkit.dev/blog/node-vs-react/",
+        "https://tillitsdone.com/blog_category/all/",
+        "https://github.com/sindresorhus/awesome-nodejs",
+        "https://www.upgrad.com/blog/10-best-backend-for-react/",
+        "https://www.linkedin.com/posts/orkes-inc_guide-to-backend-for-frontend-bff-pattern-activity-7259595531964829696-AUon"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=vFI_Nf2PWFQ",
+        "https://www.youtube.com/watch?v=KHM2wsTCR1k"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.designgurus.io/answers/detail/what-is-the-first-language-to-learn-for-backend",
+        "https://courses.nestjs.com/",
+        "https://pi.tech/blog/best-web-app-development-platforms",
+        "https://nuxt.com/",
+        "https://github.com/goldbergyoni/nodebestpractices"
+      ],
+      "notes": [
+        "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
+        "https://tillitsdone.com/blog_category/all/",
+        "https://www.nucamp.co/blog/coding-bootcamp-web-development-fundamentals-nodejs-fundamentals-beginners-guide-to-serverside-javascript",
+        "https://www.designgurus.io/answers/detail/what-is-the-first-language-to-learn-for-backend",
+        "https://www.linkedin.com/posts/akshaymarch7_i-already-said-in-namaste-nodejs-well-dive-activity-7230857692024598528-wjy0"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=QoLqMDSBZAs",
+        "https://www.youtube.com/watch?v=sFnAHC9lLaw"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://nodejs.org/en/about",
-        "description": "An overview of Node.js, detailing its purpose, features, and benefits for building scalable network applications."
+        "question": "What is Koa.js primarily known for?",
+        "options": [
+          "Being a feature-rich framework",
+          "Its simplicity and minimalism",
+          "A large community support",
+          "Built-in database support"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the primary reason developers choose Koa.js over other frameworks."
       },
       {
-        "url": "https://nodejs.org/en/learn/getting-started/nodejs-the-difference-between-development-and-production",
-        "description": "This resource explains the differences between development and production environments in Node.js applications."
-      },
-      {
-        "url": "https://nodejs.org/api/zlib.html",
-        "description": "The Node.js Zlib module documentation provides details on using the Zlib library for compression and decompression operations."
+        "question": "Who created Koa.js?",
+        "options": [
+          "The Vue.js team",
+          "The Angular team",
+          "The React team",
+          "The Express team"
+        ],
+        "correct_option": 3,
+        "hint": "Think about which team is known for creating another popular Node.js framework."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.geeksforgeeks.org/node-js/express-js-vs-koajs-in-node-js/",
-        "description": "A comparative analysis of Express.js and Koa.js frameworks in Node.js, highlighting their features and differences."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/hapijs-vs-koajs-in-node-js/",
-        "description": "A comparative analysis of Hapi.js and Koa.js frameworks in Node.js, highlighting their features and differences."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/different-servers-in-node-js/",
-        "description": "An overview of various server types in Node.js, including their features and use cases."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/php/php-vs-node-js/",
-        "description": "A comprehensive comparison of PHP and Node.js, highlighting their differences, advantages, and suitable use cases for web development."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/node-js/node-js-frameworks/",
-        "description": "An overview of popular Node.js frameworks, highlighting their features and use cases."
+        "question": "Which of the following best describes Koa.js in terms of middleware?",
+        "options": [
+          "Koa.js uses a built-in middleware stack",
+          "Koa.js has a large collection of official middleware",
+          "Koa.js is designed to use async functions as middleware",
+          "Koa.js does not support middleware"
+        ],
+        "correct_option": 2,
+        "hint": "Consider Koa.js's approach to handling asynchronous operations."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=z84uTk5zmak",
-      "https://www.youtube.com/watch?v=wKzcWbxVtKA",
-      "https://www.youtube.com/watch?v=y0xx7pAwUxA",
-      "https://www.youtube.com/watch?v=Div1km7DQrI",
-      "https://www.youtube.com/watch?v=2lprC0yYeFw"
+    "advanced": [
+      {
+        "question": "What is a key reason a developer might choose Koa.js over Express.js?",
+        "options": [
+          "Koa.js is better for handling real-time applications",
+          "Koa.js offers more built-in features",
+          "Koa.js provides a more lightweight and modular approach",
+          "Koa.js has a larger user base"
+        ],
+        "correct_option": 2,
+        "hint": "Think about what 'minimalist' implies in the context of web frameworks."
+      },
+      {
+        "question": "In what language is Koa.js written?",
+        "options": [
+          "Python",
+          "JavaScript",
+          "Ruby",
+          "Java"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the primary programming language used for Node.js frameworks."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is Koa.js primarily known for?",
-      "options": [
-        "Being a feature-rich framework",
-        "Its simplicity and minimalism",
-        "A large community support",
-        "Built-in database support"
-      ],
-      "correct_option": 1,
-      "hint": "Consider the primary reason developers choose Koa.js over other frameworks."
-    },
-    {
-      "question": "Who created Koa.js?",
-      "options": [
-        "The Vue.js team",
-        "The Angular team",
-        "The React team",
-        "The Express team"
-      ],
-      "correct_option": 3,
-      "hint": "Think about which team is known for creating another popular Node.js framework."
-    },
-    {
-      "question": "Which of the following best describes Koa.js in terms of middleware?",
-      "options": [
-        "Koa.js uses a built-in middleware stack",
-        "Koa.js has a large collection of official middleware",
-        "Koa.js is designed to use async functions as middleware",
-        "Koa.js does not support middleware"
-      ],
-      "correct_option": 2,
-      "hint": "Consider Koa.js's approach to handling asynchronous operations."
-    },
-    {
-      "question": "What is a key reason a developer might choose Koa.js over Express.js?",
-      "options": [
-        "Koa.js is better for handling real-time applications",
-        "Koa.js offers more built-in features",
-        "Koa.js provides a more lightweight and modular approach",
-        "Koa.js has a larger user base"
-      ],
-      "correct_option": 2,
-      "hint": "Think about what 'minimalist' implies in the context of web frameworks."
-    },
-    {
-      "question": "In what language is Koa.js written?",
-      "options": [
-        "Python",
-        "JavaScript",
-        "Ruby",
-        "Java"
-      ],
-      "correct_option": 1,
-      "hint": "Consider the primary programming language used for Node.js frameworks."
-    }
-  ],
   "preferred_if": [
     "User prefers lightweight frameworks"
   ]

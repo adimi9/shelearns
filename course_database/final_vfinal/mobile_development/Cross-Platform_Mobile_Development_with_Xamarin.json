@@ -1,0 +1,498 @@
+{
+  "id": "MD20",
+  "name": "Cross-Platform Mobile Development with Xamarin",
+  "category": "Mobile Development",
+  "primary_tech": "Xamarin",
+  "topics": [
+    "Introduction to Xamarin and Cross-Platform Development",
+    "Setting Up Xamarin Environment and Tools",
+    "C# Fundamentals for Xamarin",
+    "Building User Interfaces with Xamarin.Forms",
+    "Data Handling and Storage in Xamarin Apps",
+    "Integrating Web APIs and Services",
+    "Testing and Deployment of Xamarin Applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "xamarin",
+    "mobile-development",
+    "cross-platform",
+    "csharp",
+    "app-development"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-9.0",
+          "description": "An overview of .NET MAUI for building cross-platform applications.",
+          "title": ".NET Multi-platform App UI documentation - .NET MAUI | Microsoft Learn"
+        },
+        {
+          "url": "https://dotnet.microsoft.com/en-us/apps/xamarin",
+          "description": "An overview of building cross-platform mobile applications using Xamarin in .NET.",
+          "title": "Mobile development with Xamarin | .NET"
+        },
+        {
+          "url": "https://docs.telerik.com/devtools/xamarin/introduction",
+          "description": "An introduction to using Telerik UI for Xamarin to enhance mobile app development.",
+          "title": "Telerik UI for Xamarin Documentation - Telerik UI for Xamarin"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://m.youtube.com/watch?v=zvp7wvbyceo&t=525s",
+          "description": "A tutorial video on building a full-stack web application using React and Node.js.",
+          "title": "Xamarin Tutorial for Beginners - Build iOS & Android Apps with C#, Visual Studio, and Xamarin.Forms",
+          "duration": "38m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DuNLR_NJv8U&pp=ygUJI2FzbWF1aW50",
+          "description": "An introductory tutorial on using the AsmAuint tool for assembly code analysis.",
+          "title": "Learn .NET MAUI - Full Course for Beginners | Build cross-platform apps in C#",
+          "duration": "248m"
+        },
+        {
+          "url": "https://dotnet.microsoft.com/en-us/apps/xamarin",
+          "description": "An overview of Xamarin for building cross-platform mobile applications with .NET.",
+          "title": "Mobile development with Xamarin | .NET"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rumfIg9qJ_Y",
+          "description": "An informative video tutorial on implementing microservices architecture using Spring Boot and Spring Cloud.",
+          "title": ".NET MAUI Tutorial for Beginners - Build iOS, Android, macOS, & Windows Apps with C# & Visual Studio",
+          "duration": "67m"
+        },
+        {
+          "url": "https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/intro",
+          "description": "A step-by-step tutorial for building your first .NET MAUI application.",
+          "title": ".NET MAUI tutorial - Your first multi-platform app in C# | .NET"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wb44QN3G2LE",
+          "description": "An instructional video on implementing a simple neural network from scratch in Python.",
+          "title": "Cross Platform Development in Visual Studio (Xamarin Android IOS UWP)",
+          "duration": "12m"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://m.youtube.com/watch?v=zvp7wvbyceo&t=525s",
+          "title": "Xamarin Tutorial for Beginners - Build iOS & Android Apps with C#, Visual Studio, and Xamarin.Forms",
+          "duration": "38m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=DuNLR_NJv8U&pp=ygUJI3VpbWF1aW1h",
+          "title": "Learn .NET MAUI - Full Course for Beginners | Build cross-platform apps in C#",
+          "duration": "248m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rumfIg9qJ_Y",
+          "title": ".NET MAUI Tutorial for Beginners - Build iOS, Android, macOS, & Windows Apps with C# & Visual Studio",
+          "duration": "67m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wb44QN3G2LE",
+          "title": "Cross Platform Development in Visual Studio (Xamarin Android IOS UWP)",
+          "duration": "12m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=93ZU6j59wL4",
+          "title": "Xamarin Forms Tutorial: Build Native Mobile Apps with C#",
+          "duration": "72m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IcWnbZ6joDs",
+          "title": "Visual Studio 2019 Launch: Cross-platform iOS & Android development with Xamarin",
+          "duration": "30m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sr48IF3Yp-s",
+          "title": "Better Xamarin Development with Rider for Mac",
+          "duration": "67m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.telerik.com/devtools/maui/introduction",
+          "description": "An introduction to using Telerik UI components in .NET MAUI applications.",
+          "title": ".NET MAUI Documentation - Telerik UI for .NET MAUI"
+        },
+        {
+          "url": "https://air.unimi.it/retrieve/dfa8b9a9-a042-748b-e053-3a05fe0a3a96/mascetti2021developing.pdf",
+          "description": "A detailed exploration of developing accessible mobile applications for users with disabilities."
+        },
+        {
+          "url": "http://jonathanpeppers.com/Blog/xamarin's-tiny-cuts",
+          "description": "Insights and solutions for common small issues encountered in Xamarin development.",
+          "title": "Xamarin's Tiny Cuts | Jonathan Peppers' Blog | Xamarin MVP | C# .Net Developer | Bowling Green, KY | Jon Peppers"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui?view=net-maui-9.0",
+          "description": "An introduction to .NET MAUI, a framework for creating cross-platform apps.",
+          "title": "What is .NET MAUI? - .NET MAUI | Microsoft Learn"
+        },
+        {
+          "url": "https://www.devexpress.com/maui/",
+          "description": "An overview of DevExpress UI components and tools for .NET MAUI application development.",
+          "title": ".NET MAUI Controls for Mobile Apps (.NET 7, .NET 8)"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://learn.microsoft.com/en-us/visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio?view=vs-2022",
+          "description": "An overview of cross-platform mobile development using Visual Studio.",
+          "title": "Build cross-platform apps in Visual Studio | Microsoft Learn"
+        },
+        {
+          "url": "https://github.com/dotnet/maui/discussions/15203",
+          "description": "A discussion on the GitHub repository for .NET MAUI regarding project setup and troubleshooting.",
+          "title": "MAUI is just a SCAM · dotnet/maui · Discussion #15203 · GitHub"
+        },
+        {
+          "url": "https://www.browserstack.com/guide/build-cross-platform-mobile-apps",
+          "description": "A detailed guide on building cross-platform mobile applications using BrowserStack.",
+          "title": "How to build Cross-Platform Mobile Apps | BrowserStack"
+        },
+        {
+          "url": "https://sendbird.com/developer/tutorials/choosing-a-cross-platform-app-development-framework-a-detailed-comparison",
+          "description": "A detailed comparison guide for selecting a cross-platform app development framework.",
+          "title": "A detailed comparison of cross platform app development frameworks | Sendbird"
+        },
+        {
+          "url": "https://auth0.com/blog/developing-mobile-apps-with-xamarin-forms-and-azure-functions/",
+          "description": "An article on building mobile apps using Xamarin.Forms and Azure Functions.",
+          "title": "Developing Mobile Apps with Xamarin Forms and Azure Functions"
+        },
+        {
+          "url": "https://fulcrum.rocks/blog/cross-platform-app-development",
+          "description": "An insightful blog post on best practices and tools for cross-platform app development.",
+          "title": "Cross-Platform App Development: Will it Work for Your Business? - Fulcrum"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=WhmCQvi4Jtw",
+          "title": "ArcGIS Runtime SDK for .NET: Building Xamarin Apps",
+          "duration": "61m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QUHSdp6Z_iI",
+          "title": "Borderless, Outline, Underline Custom Entry using .NET MAUI Handler / Xamarin",
+          "duration": "8m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=s5CbRD1NGj8",
+          "title": "Native vs hybrid vs cross platform mobile app development in Hindi",
+          "duration": "19m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1sOTTXlIhZo",
+          "title": "Supercharge Your C# Code: Integrating Python using Python.NET",
+          "duration": "14m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_B0D2ieaP-Y",
+          "title": "Coding experience with Rider for Specflow with C# .NET - Cross-platform test automation",
+          "duration": "8m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=N29gwHWHBCA",
+          "title": "iOS Chat App Tutorial - Build a Fully-Featured App in Swift",
+          "duration": "24m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Q2EybPKnsog",
+          "title": "Enabling UI Automation with .Net Maui - Syed Hoque",
+          "duration": "28m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CpkecWpaXW4",
+          "title": "Top 10 Cross-Platform Frameworks for App Development",
+          "duration": "1m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Yqvekq3IHa8",
+          "title": "How to Import Excel Data to Android",
+          "duration": "13m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AzGrLAh-ltY",
+          "title": "From Code-Behind Code to MVVM with XAML and C#",
+          "duration": "19m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+          "description": "An official Microsoft resource for learning and mastering C# programming in .NET.",
+          "title": "C# Guide - .NET managed language | Microsoft Learn"
+        },
+        {
+          "url": "https://devblogs.microsoft.com/xamarin/announcing-xamarin-3/",
+          "description": "Announcement and overview of new features in Xamarin 3 for mobile app development.",
+          "title": "Announcing Xamarin 3 - Xamarin Blog"
+        },
+        {
+          "url": "https://ionicframework.com/",
+          "description": "A platform for building cross-platform mobile applications using web technologies.",
+          "title": "Ionic Framework - The Cross-Platform App Development Leader"
+        },
+        {
+          "url": "https://www.growin.com/mastering-net-and-c-your-complete-12-step-guide-to-success",
+          "description": "A complete 12-step guide to mastering .NET and C# programming.",
+          "title": "Page Not Found - Growin"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/jamesmontemagno",
+          "description": "A YouTube channel offering tutorials and insights on mobile app development using Xamarin and .NET."
+        },
+        {
+          "url": "https://tech-on-diapers.hashnode.dev/creating-cross-platform-applications-with-c-and-xamarin",
+          "description": "A guide to building cross-platform applications using C# and Xamarin.",
+          "title": "Vercel Security Checkpoint"
+        },
+        {
+          "url": "https://dotnetfoundation.org/news-events/detail/a-guide-to-establishing-a-thriving-.net-user-group-from-scratch",
+          "description": "A guide to creating and nurturing a successful .NET user group from the ground up.",
+          "title": "A Guide to Establishing a Thriving .NET User Group from Scratch | .NET Foundation"
+        },
+        {
+          "url": "https://platform.uno/blog/uno-extensions-navigation-guide/",
+          "description": "A detailed guide on implementing navigation using Uno Platform extensions.",
+          "title": "Navigation in Uno Platform: A Comprehensive Guide to Uno.Extensions Navigation"
+        },
+        {
+          "url": "https://github.com/dotnet/maui/discussions/15203",
+          "description": "A discussion thread on GitHub about handling Android app lifecycle events in .NET MAUI.",
+          "title": "MAUI is just a SCAM · dotnet/maui · Discussion #15203 · GitHub"
+        },
+        {
+          "url": "https://vslive.com/Blogs/News-and-Tips/List/Blog-List.aspx?aliId=1471647751%2F%2F%2F%2F%27&m=1&Page=5",
+          "description": "A blog featuring news and tips on Visual Studio Live events and technologies.",
+          "title": "Visual Studio Live! News & Tips -- Visual Studio Live!: Training Conferences and Events for Enterprise Microsoft .NET and Azure Developers"
+        },
+        {
+          "url": "https://www.browserstack.com/guide/build-cross-platform-mobile-apps",
+          "description": "A guide to building cross-platform mobile apps using BrowserStack's tools and services.",
+          "title": "How to build Cross-Platform Mobile Apps | BrowserStack"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+          "title": "React Native Tutorial for Beginners - Build a React Native App",
+          "duration": "126m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_GzjFRUKtuU&pp=0gcJCfwAo7VqN5tD",
+          "title": "Exploring UI Design in .NET MAUI",
+          "duration": "62m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=n8UL4EohZOM",
+          "title": "how to implement add &  edit in .NET MAUI with Firebase db",
+          "duration": "45m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iB8ZCs07Zzs",
+          "title": "TikTok just Released its React Native killer Lynx | Future of Mobile Development",
+          "duration": "12m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7WQoGDhoGfA&pp=ygULI2JsYXpvcm1hdWk%3D",
+          "title": ".Net Maui Blazor Hybrid App | Getting started | Mixing and Matching",
+          "duration": "44m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=B-5e0PJtSDs",
+          "title": "DotNet MAUI MVVM: Deep Dive into MVVM Architecture with .NET MAUI",
+          "duration": "27m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is Xamarin primarily used for?",
+        "options": [
+          "Web Development",
+          "Cross-Platform Mobile App Development",
+          "Desktop Application Development",
+          "Game Development"
+        ],
+        "correct_option": 1,
+        "hint": "Xamarin focuses on mobile platforms."
+      },
+      {
+        "question": "Which programming language is primarily used in Xamarin development?",
+        "options": [
+          "Java",
+          "JavaScript",
+          "C#",
+          "Python"
+        ],
+        "correct_option": 2,
+        "hint": "It is a language developed by Microsoft and widely used in .NET."
+      },
+      {
+        "question": "What is the purpose of Xamarin.Forms?",
+        "options": [
+          "To create native UIs for each platform",
+          "To build cross-platform user interfaces",
+          "To handle database operations",
+          "To integrate AI services"
+        ],
+        "correct_option": 1,
+        "hint": "Xamarin.Forms allows developers to share UI code across platforms."
+      },
+      {
+        "question": "Which tool is essential for setting up the Xamarin development environment?",
+        "options": [
+          "Xcode",
+          "Android Studio",
+          "Visual Studio",
+          "NetBeans"
+        ],
+        "correct_option": 2,
+        "hint": "This tool is developed by Microsoft and supports C#."
+      },
+      {
+        "question": "What is a common method for storing data in a Xamarin app?",
+        "options": [
+          "Local storage using SQLite",
+          "Storing in XML files",
+          "Using external SSDs",
+          "Storing in cloud only"
+        ],
+        "correct_option": 0,
+        "hint": "This method involves a local database system suitable for mobile apps."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary benefit of using Xamarin for mobile app development?",
+        "options": [
+          "It supports only iOS platform.",
+          "It uses Java as the programming language.",
+          "It allows code sharing across multiple platforms.",
+          "It provides built-in advertising services."
+        ],
+        "correct_option": 2,
+        "hint": "Think about the advantage of using one codebase for multiple platforms."
+      },
+      {
+        "question": "Which of the following is essential for setting up the Xamarin development environment?",
+        "options": [
+          "XCode",
+          "Eclipse",
+          "Visual Studio",
+          "Android Studio"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the IDE commonly used for .NET projects."
+      },
+      {
+        "question": "In Xamarin.Forms, which element is used to build a page that navigates to other pages?",
+        "options": [
+          "StackLayout",
+          "NavigationPage",
+          "ContentPage",
+          "MasterDetailPage"
+        ],
+        "correct_option": 1,
+        "hint": "This element is specifically designed to handle navigation."
+      },
+      {
+        "question": "How can data be stored locally in a Xamarin app?",
+        "options": [
+          "Using cloud storage services",
+          "Using SQL Server",
+          "Using SQLite",
+          "Using Excel sheets"
+        ],
+        "correct_option": 2,
+        "hint": "This is a lightweight database often used in mobile applications."
+      },
+      {
+        "question": "Which technology is used in Xamarin to consume web APIs?",
+        "options": [
+          "XAML",
+          "HttpClient",
+          "ASP.NET",
+          "Entity Framework"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the technology commonly used for making HTTP requests in C#."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following best describes the purpose of Xamarin.Essentials in a cross-platform mobile application?",
+        "options": [
+          "To provide a set of APIs to access native device features like sensors, battery, and network information.",
+          "To compile C# code into native binaries for iOS and Android platforms.",
+          "To offer a library for building native user interfaces across different platforms.",
+          "To integrate third-party libraries and frameworks into Xamarin applications."
+        ],
+        "correct_option": 0,
+        "hint": "Consider the role of Xamarin.Essentials in simplifying access to device features."
+      },
+      {
+        "question": "What is the primary advantage of using Xamarin.Forms over Xamarin.Android and Xamarin.iOS for UI development?",
+        "options": [
+          "Xamarin.Forms allows sharing of up to 90% of code across platforms, including UI code.",
+          "Xamarin.Forms provides access to platform-specific hardware features.",
+          "Xamarin.Forms supports advanced 3D graphics rendering.",
+          "Xamarin.Forms applications run faster than native applications."
+        ],
+        "correct_option": 0,
+        "hint": "Think about code sharing and UI development flexibility."
+      },
+      {
+        "question": "In Xamarin, how can you efficiently handle data storage for offline access within an application?",
+        "options": [
+          "By storing data in a local SQLite database.",
+          "By using Xamarin.Essentials to cache data locally.",
+          "By implementing a custom file storage solution using native code.",
+          "By relying on cloud storage for all data needs."
+        ],
+        "correct_option": 0,
+        "hint": "Consider the most common method for local data persistence."
+      },
+      {
+        "question": "Which C# feature is particularly beneficial for handling asynchronous operations when integrating web APIs in a Xamarin app?",
+        "options": [
+          "The async and await keywords.",
+          "Extension methods.",
+          "LINQ queries.",
+          "Delegates and events."
+        ],
+        "correct_option": 0,
+        "hint": "Look for language constructs that simplify asynchronous programming."
+      },
+      {
+        "question": "What is a common method for testing Xamarin applications to ensure compatibility across different devices and platforms?",
+        "options": [
+          "Using Xamarin Test Cloud to automate testing on real devices.",
+          "Relying solely on emulator testing for all platforms.",
+          "Implementing unit tests using NUnit framework exclusively.",
+          "Testing manually on a single device for each platform."
+        ],
+        "correct_option": 0,
+        "hint": "Consider tools specifically designed for cross-device and cross-platform testing."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User has strong C#/.NET background",
+    "Developing for enterprise environments"
+  ]
+}

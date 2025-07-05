@@ -15,105 +15,149 @@
     "modern web"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
-        "description": "An overview of Progressive Web Apps (PWAs), detailing their features, benefits, and implementation strategies for enhancing web applications."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app",
-        "description": "An introductory guide explaining the concept, features, and benefits of Progressive Web Apps (PWAs)."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest",
-        "description": "An overview of how to configure the web app manifest for Progressive Web Apps (PWAs) to control their appearance and behavior on devices."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.freecodecamp.org/news/what-are-progressive-web-apps-pwa-guide/",
-        "description": "This guide explains the concept, benefits, and implementation of Progressive Web Apps (PWAs)."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/",
-        "description": "Learn how to build a Progressive Web App (PWA) from scratch using HTML, CSS, and JavaScript with this comprehensive guide."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/making-a-simple-pwa-under-5-minutes/",
-        "description": "A guide on creating a simple Progressive Web App (PWA) in under five minutes."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/how-to-build-a-progressive-web-app-pwa-from-scratch/",
-        "description": "A step-by-step guide on building a Progressive Web App (PWA) from scratch."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/websites-apps/what-is-a-progressive-web-app-pwa/",
-        "description": "An introduction to Progressive Web Apps (PWAs), explaining their features and benefits in enhancing web app user experiences."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=sFsRylCQblw",
-      "https://www.youtube.com/watch?v=dap6yIe1uK4",
-      "https://www.youtube.com/watch?v=1WWweyBaWZk",
-      "https://www.youtube.com/watch?v=blx2hBeUcYY",
-      "https://www.youtube.com/watch?v=c6LE1IHgx-0"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What role do Service Workers play in Progressive Web Apps?",
-      "options": [
-        "To enhance CSS styling",
-        "To manage offline caching and network requests",
-        "To provide user authentication",
-        "To handle server-side rendering"
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+        "https://web.dev/explore/progressive-web-apps",
+        "https://www.freecodecamp.org/news/what-are-progressive-web-apps/",
+        "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/"
       ],
-      "correct_option": 1,
-      "hint": "Service Workers act as a proxy between the web app and the network."
+      "notes": [
+        "https://m.youtube.com/watch?v=dap6yIe1uK4&t=2340s",
+        "https://www.youtube.com/watch?v=BByUknfLTuA",
+        "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+        "https://www.youtube.com/watch?v=4XT23X0Fjfk",
+        "https://web.dev/explore/progressive-web-apps"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=dap6yIe1uK4&t=2340s",
+        "https://www.youtube.com/watch?v=4XT23X0Fjfk",
+        "https://www.youtube.com/watch?v=BByUknfLTuA",
+        "https://www.youtube.com/watch?v=nNa4KrD3vAY",
+        "https://www.youtube.com/watch?v=gcx-3qi7t7c",
+        "https://www.youtube.com/watch?v=1WWweyBaWZk&pp=ygUaI21hZ2VudG8ycHJvZ3Jlc3NpdmV3ZWJhcHA%3D",
+        "https://m.youtube.com/watch?v=othhfZ0mGjU&t=464s",
+        "https://www.youtube.com/playlist?list=PLlrxD0HtieHjqO1pNqScMngrV7oFro-TY"
+      ]
     },
-    {
-      "question": "Which file specifies the metadata required for a Progressive Web App to be installable on a device?",
-      "options": [
-        "index.html",
-        "service-worker.js",
-        "manifest.json",
-        "app.js"
+    "intermediate": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+        "https://learn.microsoft.com/en-us/aspnet/core/blazor/progressive-web-app?view=aspnetcore-9.0",
+        "https://web.dev/explore/progressive-web-apps"
       ],
-      "correct_option": 2,
-      "hint": "This file contains information like the app's name, icons, and theme colors."
+      "notes": [
+        "https://learn.microsoft.com/en-us/aspnet/core/blazor/progressive-web-app?view=aspnetcore-9.0",
+        "https://web.dev/explore/progressive-web-apps",
+        "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+        "https://developer.chrome.com/blog/getting-started-pwa",
+        "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_AhTzpIQJTw",
+        "https://www.youtube.com/watch?v=qw1JmUudpjk",
+        "https://www.youtube.com/watch?v=T5Us3zUJihE",
+        "https://www.youtube.com/watch?v=IzXDKxGrAxw",
+        "https://www.youtube.com/watch?v=nkI8QanTjLs",
+        "https://www.youtube.com/watch?v=Ko7-NPl2UP0",
+        "https://www.youtube.com/playlist?list=PLibAMtD70sYHWHkiRn7WeRIxW7MZEx6Yh",
+        "https://www.youtube.com/@ChromeDevs",
+        "https://www.youtube.com/watch?v=8dpZxb7b4d4",
+        "https://www.youtube.com/watch?v=1BfCnjr_Vjg"
+      ]
     },
-    {
-      "question": "How do Service Workers contribute to offline support in PWAs?",
-      "options": [
-        "By sending push notifications",
-        "By caching resources to serve them when offline",
-        "By enhancing the visual design",
-        "By managing user sessions"
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+        "https://web.dev/explore/progressive-web-apps",
+        "https://knowledge.intershop.com/",
+        "https://support.intershop.com/kb/go.php/a/ENFDEVDOC/pages/1889741292/Guide+-+Intershop+Commerce+Platform+-+Customization+Options",
+        "https://developer.chrome.com/blog/getting-started-pwa"
       ],
-      "correct_option": 1,
-      "hint": "Service Workers can store assets locally to ensure availability without a network connection."
-    },
-    {
-      "question": "What is a key benefit of Web App Manifests in PWAs?",
-      "options": [
-        "Improved SEO",
-        "Ease of user authentication",
-        "Seamless background updates",
-        "Enabling the app to be added to the home screen"
+      "notes": [
+        "https://web.dev/explore/progressive-web-apps",
+        "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+        "https://web.dev/learn/pwa",
+        "https://developer.chrome.com/blog/getting-started-pwa",
+        "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Tutorials",
+        "https://ignitevisibility.com/progressive-web-apps-amp-seo/",
+        "https://www.codica.com/blog/how-to-create-pwa-with-react/"
       ],
-      "correct_option": 3,
-      "hint": "Web App Manifests provide a native-like experience by allowing installation on devices."
-    },
-    {
-      "question": "Which of the following technologies is NOT directly associated with Progressive Web Apps?",
-      "options": [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "Python"
-      ],
-      "correct_option": 3,
-      "hint": "Consider frontend technologies typically used in web development."
+      "videos": [
+        "https://www.youtube.com/watch?v=oMjpRTyotZg",
+        "https://www.youtube.com/watch?v=JVMiTexyp6U&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=ZdNVTw6hj54",
+        "https://www.youtube.com/watch?v=kxSuXvvsPGE",
+        "https://www.youtube.com/watch?v=TI3s1--45h0",
+        "https://www.youtube.com/watch?v=jbnDoMpDuak",
+        "https://www.youtube.com/watch?v=U5jYqNgltk8",
+        "https://www.youtube.com/watch?v=Gwup7MV_fXs",
+        "https://www.youtube.com/user/AdvancedInstaller",
+        "https://www.youtube.com/watch?v=ddbHp8tGBwQ"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What role do Service Workers play in Progressive Web Apps?",
+        "options": [
+          "To enhance CSS styling",
+          "To manage offline caching and network requests",
+          "To provide user authentication",
+          "To handle server-side rendering"
+        ],
+        "correct_option": 1,
+        "hint": "Service Workers act as a proxy between the web app and the network."
+      },
+      {
+        "question": "Which file specifies the metadata required for a Progressive Web App to be installable on a device?",
+        "options": [
+          "index.html",
+          "service-worker.js",
+          "manifest.json",
+          "app.js"
+        ],
+        "correct_option": 2,
+        "hint": "This file contains information like the app's name, icons, and theme colors."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "How do Service Workers contribute to offline support in PWAs?",
+        "options": [
+          "By sending push notifications",
+          "By caching resources to serve them when offline",
+          "By enhancing the visual design",
+          "By managing user sessions"
+        ],
+        "correct_option": 1,
+        "hint": "Service Workers can store assets locally to ensure availability without a network connection."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a key benefit of Web App Manifests in PWAs?",
+        "options": [
+          "Improved SEO",
+          "Ease of user authentication",
+          "Seamless background updates",
+          "Enabling the app to be added to the home screen"
+        ],
+        "correct_option": 3,
+        "hint": "Web App Manifests provide a native-like experience by allowing installation on devices."
+      },
+      {
+        "question": "Which of the following technologies is NOT directly associated with Progressive Web Apps?",
+        "options": [
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Python"
+        ],
+        "correct_option": 3,
+        "hint": "Consider frontend technologies typically used in web development."
+      }
+    ]
+  }
 }

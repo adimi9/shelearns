@@ -23,107 +23,152 @@
     "identity-management"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://docs.flutter.dev/data-and-backend/firebase",
+        "https://firebase.google.com/docs/guides"
+      ],
+      "notes": [
+        "https://firebase.google.com/docs",
+        "https://codelabs.developers.google.com/",
+        "https://firebase.google.com/community/learn",
+        "https://docs.flutter.dev/data-and-backend/firebase",
+        "https://github.com/practical-tutorials/project-based-learning",
+        "https://www.udemy.com/topic/firebase/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=iZ78G3BhDyc",
+        "https://www.youtube.com/watch?v=lkjrUW8fI40",
+        "https://www.youtube.com/watch?v=_ycD0d7skdQ",
+        "https://www.youtube.com/watch?v=uikATllLdRc&pp=ygURI25leHRqc2FuZHJvaWRhcHA%3D",
+        "https://www.youtube.com/watch?v=WpIDez53SK4&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=kyphLGnSz6Q&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=0RWLaJxW7Oc",
+        "https://www.youtube.com/watch?v=r-IlbcKoSRg&pp=0gcJCfcAhR29_xXO",
+        "https://www.youtube.com/channel/UCnKhcV7frITmrYbIU5MrMZw",
+        "https://www.youtube.com/c/GreatAdib"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://codelabs.developers.google.com/",
+        "https://firebase.google.com/docs/database/android/read-and-write",
+        "https://github.com/vuejs/awesome-vue"
+      ],
+      "notes": [
+        "https://firebase.google.com/docs",
+        "https://codelabs.developers.google.com/",
+        "https://www.elevationng.org/?u=1095961990169",
+        "https://github.com/practical-tutorials/project-based-learning",
+        "https://www.linkedin.com/posts/peterfriese_having-way-too-much-with-genkit-and-gemini-activity-7267230642029957120-7UbJ",
+        "https://cloud.google.com/blog/products/application-development/firebase-studio-lets-you-build-full-stack-ai-apps-with-gemini"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=J8xReLuBNPY",
+        "https://www.youtube.com/watch?v=GnodscC2p-A&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=jnaeB6LjoQs",
+        "https://www.youtube.com/watch?v=ELFORM9fmss",
+        "https://www.youtube.com/watch?v=oNoRw69ro2k",
+        "https://www.youtube.com/watch?v=JiO_bQFh5Tc",
+        "https://www.youtube.com/watch?v=_sWgionzDoM",
+        "https://www.youtube.com/watch?v=7fAB4WS29oM",
+        "https://www.youtube.com/watch?v=900P-fkceN8",
+        "https://www.youtube.com/watch?v=S7-HupxKYZA"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://firebase.google.com/docs/guides",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://codelabs.developers.google.com/"
+      ],
+      "notes": [
+        "https://masteringbackend.com/posts/backend-development-ultimate-guide",
+        "https://www.udemy.com/topic/firebase/",
+        "https://codelabs.developers.google.com/",
+        "https://firebase.google.com/docs/guides",
+        "https://www.newline.co/@zaoyang/what-is-supabase-and-how-it-can-replace-your-entire-backend--62b84205",
+        "https://github.com/practical-tutorials/project-based-learning",
+        "https://reactresources.com/topics/advanced-concepts"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUJI25leHRqczE0",
+        "https://www.youtube.com/watch?v=lfHOAzFAul0",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=_13UW57UmQA",
+        "https://m.youtube.com/watch?v=6WaPYOHZB2E",
+        "https://www.youtube.com/watch?v=hu38B0WQSYQ",
+        "https://www.youtube.com/watch?v=rlYVelhroDU",
+        "https://www.youtube.com/c/GreatAdib",
+        "https://www.youtube.com/channel/UCnKhcV7frITmrYbIU5MrMZw"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API",
-        "description": "The Web Authentication API documentation provides guidance on implementing secure user authentication using public key credentials."
+        "question": "What is Firebase Authentication primarily used for?",
+        "options": [
+          "Providing a managed database service",
+          "Enhancing mobile app performance",
+          "Handling user authentication and authorization",
+          "Storing large amounts of data"
+        ],
+        "correct_option": 2,
+        "hint": "It's a Google-managed service focused on user management."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/",
-        "description": "Mozilla Developer Network (MDN) provides comprehensive documentation and resources for web developers covering HTML, CSS, JavaScript, and more."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/407",
-        "description": "The page provides detailed information about HTTP status code 407, which indicates that a client must authenticate itself with a proxy."
+        "question": "Which company manages Firebase Authentication?",
+        "options": [
+          "Microsoft",
+          "Amazon",
+          "Google",
+          "Apple"
+        ],
+        "correct_option": 2,
+        "hint": "This company also owns the Android operating system."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.freecodecamp.org/news/use-firebase-authentication-in-a-react-app/",
-        "description": "A guide on integrating Firebase Authentication into a React application for secure user authentication."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/firebase/what-is-firebase-authentication/",
-        "description": "An overview of Firebase Authentication, explaining its features and benefits for securing user identities in applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/user-authentication-using-firebase-in-android/",
-        "description": "This resource explains how to implement user authentication in Android applications using Firebase."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/authenticate-react-app-using-firebase/",
-        "description": "A guide on implementing authentication in a React application using Firebase."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-to-add-authentication-to-a-vue-app-using-firebase/",
-        "description": "This article explains how to implement authentication in a Vue.js application using Firebase."
+        "question": "What is a primary benefit of using Firebase Authentication for developers?",
+        "options": [
+          "It requires no coding skills",
+          "It offers a free hardware device",
+          "It is a managed service that simplifies authentication",
+          "It provides unlimited data storage"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the advantages of using a managed SaaS solution."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=PKwu15ldZ7k",
-      "https://www.youtube.com/watch?v=N-CS73eHld0",
-      "https://www.youtube.com/watch?v=knk5Fjrpde0",
-      "https://www.youtube.com/watch?v=2hR-uWjBAgw",
-      "https://www.youtube.com/watch?v=aN1LnNq4z54"
+    "advanced": [
+      {
+        "question": "What kind of applications is Firebase Authentication most suitable for?",
+        "options": [
+          "Desktop applications",
+          "Mobile and web applications",
+          "Legacy software systems",
+          "Embedded systems"
+        ],
+        "correct_option": 1,
+        "hint": "Think about applications that require quick development and deployment."
+      },
+      {
+        "question": "Which of the following is NOT a feature of Firebase Authentication?",
+        "options": [
+          "Multi-factor authentication",
+          "OAuth integration",
+          "Real-time database management",
+          "Email and password login"
+        ],
+        "correct_option": 2,
+        "hint": "This feature is more related to data storage and retrieval than authentication."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is Firebase Authentication primarily used for?",
-      "options": [
-        "Providing a managed database service",
-        "Enhancing mobile app performance",
-        "Handling user authentication and authorization",
-        "Storing large amounts of data"
-      ],
-      "correct_option": 2,
-      "hint": "It's a Google-managed service focused on user management."
-    },
-    {
-      "question": "Which company manages Firebase Authentication?",
-      "options": [
-        "Microsoft",
-        "Amazon",
-        "Google",
-        "Apple"
-      ],
-      "correct_option": 2,
-      "hint": "This company also owns the Android operating system."
-    },
-    {
-      "question": "What is a primary benefit of using Firebase Authentication for developers?",
-      "options": [
-        "It requires no coding skills",
-        "It offers a free hardware device",
-        "It is a managed service that simplifies authentication",
-        "It provides unlimited data storage"
-      ],
-      "correct_option": 2,
-      "hint": "Consider the advantages of using a managed SaaS solution."
-    },
-    {
-      "question": "What kind of applications is Firebase Authentication most suitable for?",
-      "options": [
-        "Desktop applications",
-        "Mobile and web applications",
-        "Legacy software systems",
-        "Embedded systems"
-      ],
-      "correct_option": 1,
-      "hint": "Think about applications that require quick development and deployment."
-    },
-    {
-      "question": "Which of the following is NOT a feature of Firebase Authentication?",
-      "options": [
-        "Multi-factor authentication",
-        "OAuth integration",
-        "Real-time database management",
-        "Email and password login"
-      ],
-      "correct_option": 2,
-      "hint": "This feature is more related to data storage and retrieval than authentication."
-    }
-  ],
   "preferred_if": [
     "User wants managed solution",
     "Developing mobile/web apps quickly"

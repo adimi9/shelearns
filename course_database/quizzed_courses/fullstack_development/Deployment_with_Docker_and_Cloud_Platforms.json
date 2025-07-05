@@ -1,0 +1,277 @@
+{
+  "id": "FS17",
+  "name": "Deployment with Docker & Cloud Platforms",
+  "category": "FullStack Development",
+  "primary_tech": "DevOps",
+  "topics": [
+    "Dockerizing FullStack Applications",
+    "Container Orchestration (Docker Compose, Kubernetes basics)",
+    "Cloud Hosting (AWS EC2/Elastic Beanstalk, Google Cloud Run, Heroku)",
+    "Domain Management & SSL"
+  ],
+  "recommended": true,
+  "tags": [
+    "devops",
+    "deployment",
+    "cloud",
+    "containerization"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://www.docker.com/",
+        "https://docs.docker.com/compose/",
+        "https://cloud.google.com/run/docs/deploying",
+        "https://docs.docker.com/get-started/docker-overview/",
+        "https://cloud.google.com/functions/docs/deploy"
+      ],
+      "notes": [
+        "https://docker-curriculum.com/",
+        "https://www.docker.com/",
+        "https://www.geeksforgeeks.org/introduction-to-docker/",
+        "https://www.docker.com/resources/what-container/",
+        "https://docs.docker.com/compose/",
+        "https://www.coursera.org/courses?query=kubernetes",
+        "https://learn.microsoft.com/en-us/dotnet/core/docker/build-container"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=fw6NMQrYc6w",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=7CvD6oHmYxU",
+        "https://www.youtube.com/watch?v=qP8kir2GUgo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+        "https://www.youtube.com/watch?v=To-KzPB_EnE",
+        "https://www.youtube.com/watch?v=XltFOyGanYE",
+        "https://www.youtube.com/watch?v=4BibQ69MD8c"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.docker.com/",
+        "https://cloud.google.com/run/docs/deploying",
+        "https://docs.docker.com/compose/",
+        "https://docs.prefect.io/3.0/deploy",
+        "https://www.docker.com/"
+      ],
+      "notes": [
+        "https://www.docker.com/",
+        "https://docker-curriculum.com/",
+        "https://docs.docker.com/compose/",
+        "https://cloud.google.com/build",
+        "https://hub.docker.com/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=UHHkehy3SQk&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=4BibQ69MD8c",
+        "https://www.youtube.com/watch?v=taJlPG82Ucw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=qP8kir2GUgo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=7QIA6Ja9xyU",
+        "https://www.youtube.com/watch?v=R8_veQiYBjI",
+        "https://www.youtube.com/watch?v=c5dw_jsGNBk",
+        "https://www.youtube.com/watch?v=CoZM9BCJcJ4",
+        "https://www.youtube.com/watch?v=4FRjoc9ycNs"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://docs.docker.com/compose/",
+        "https://www.docker.com/",
+        "https://docs.docker.com/engine/install/"
+      ],
+      "notes": [
+        "https://www.docker.com/",
+        "https://docs.docker.com/engine/install/",
+        "https://www.igmguru.com/blog/docker-tutorial",
+        "https://docker-curriculum.com/",
+        "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "https://www.coursera.org/courses?query=kubernetes",
+        "https://www.datacamp.com/blog/introduction-to-docker-certification"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+        "https://www.youtube.com/watch?v=JoHUi9KvnOA&pp=0gcJCbIJAYcqIYzv",
+        "https://www.youtube.com/watch?v=vwDezts_aFg",
+        "https://www.youtube.com/watch?v=jEIpGf2_Oyk",
+        "https://www.youtube.com/watch?v=DTtaAHBJhXg&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Hvk2-qhFEoo",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=v69xRlO0_7w",
+        "https://www.youtube.com/@Codanics/videos"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of Docker in application deployment?",
+        "options": [
+          "To create virtual machines",
+          "To containerize applications for consistent environments",
+          "To replace cloud hosting services",
+          "To manage domain names"
+        ],
+        "correct_option": 1,
+        "hint": "Docker is used for creating isolated environments for applications."
+      },
+      {
+        "question": "Which tool is used for orchestrating multiple Docker containers?",
+        "options": [
+          "Docker Hub",
+          "Docker Compose",
+          "Dockerfile",
+          "Docker CLI"
+        ],
+        "correct_option": 1,
+        "hint": "It is a tool to define and run multi-container Docker applications."
+      },
+      {
+        "question": "Which cloud platform is specifically designed for deploying applications directly from a container image?",
+        "options": [
+          "AWS EC2",
+          "Google Cloud Run",
+          "Heroku",
+          "AWS Elastic Beanstalk"
+        ],
+        "correct_option": 1,
+        "hint": "This platform abstracts away infrastructure management and is serverless."
+      },
+      {
+        "question": "Why is it important to manage domain names and SSL certificates in deployment?",
+        "options": [
+          "To improve application performance",
+          "To ensure secure and reliable user access",
+          "To increase container orchestration efficiency",
+          "To reduce cloud hosting costs"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the importance of security and trust in web applications."
+      },
+      {
+        "question": "What does the 'DevOps' approach emphasize in the context of deploying applications?",
+        "options": [
+          "Focusing solely on development",
+          "Isolating development and operations teams",
+          "Continuous integration and delivery",
+          "Manual server management"
+        ],
+        "correct_option": 2,
+        "hint": "DevOps seeks to automate and integrate the processes of software development and IT operations."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of using Docker Compose in a full-stack application deployment?",
+        "options": [
+          "To build and test Docker images",
+          "To manage multiple Docker containers as a single service",
+          "To automate the scaling of containers",
+          "To provide a graphical user interface for Docker"
+        ],
+        "correct_option": 1,
+        "hint": "Think about managing complex applications with several interdependent services."
+      },
+      {
+        "question": "Which of the following commands is used to deploy an application using Kubernetes?",
+        "options": [
+          "kubectl deploy",
+          "kubectl apply -f",
+          "docker run",
+          "kubectl start"
+        ],
+        "correct_option": 1,
+        "hint": "This command applies a configuration to a Kubernetes cluster."
+      },
+      {
+        "question": "What is the advantage of using AWS Elastic Beanstalk for deploying applications?",
+        "options": [
+          "It requires no configuration",
+          "Automatic scaling and health monitoring",
+          "It is the cheapest option available",
+          "It only supports Java applications"
+        ],
+        "correct_option": 1,
+        "hint": "Consider features that simplify management and scaling of applications."
+      },
+      {
+        "question": "Which cloud platform provides a service called 'Cloud Run' for deploying containerized applications?",
+        "options": [
+          "Microsoft Azure",
+          "Amazon Web Services",
+          "Google Cloud Platform",
+          "IBM Cloud"
+        ],
+        "correct_option": 2,
+        "hint": "This service is part of a cloud platform known for its extensive AI and machine learning tools."
+      },
+      {
+        "question": "What is the main benefit of using SSL certificates with your domain in a deployment?",
+        "options": [
+          "Increased website speed",
+          "Improved SEO ranking",
+          "Encrypted data transfer",
+          "Reduced server costs"
+        ],
+        "correct_option": 2,
+        "hint": "Think about security and data integrity in web communications."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "When deploying a full-stack application using Docker, which of the following steps is essential to ensure the backend and frontend services communicate properly within a Docker network?",
+        "options": [
+          "Expose the services on the same Docker bridge network",
+          "Use the --publish flag to expose ports to the host",
+          "Set up an external load balancer to manage traffic",
+          "Run Docker containers in detached mode"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how Docker networks allow for internal service communication."
+      },
+      {
+        "question": "In Kubernetes, what is the primary purpose of a Service?",
+        "options": [
+          "To provide persistent storage for Pods",
+          "To expose an application running on a set of Pods",
+          "To manage configuration data for Pods",
+          "To scale Pods based on resource usage"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how services facilitate communication to Pods."
+      },
+      {
+        "question": "Which AWS service would you use to deploy and manage containerized applications without managing the underlying infrastructure?",
+        "options": [
+          "AWS Lambda",
+          "AWS Elastic Beanstalk",
+          "Amazon EC2",
+          "Amazon ECS"
+        ],
+        "correct_option": 3,
+        "hint": "Consider the service that specifically supports container orchestration without requiring server management."
+      },
+      {
+        "question": "When using Google Cloud Run, which of the following is a notable advantage over traditional VM-based hosting?",
+        "options": [
+          "Direct access to underlying hardware",
+          "Automatic scaling based on traffic",
+          "Dedicated IP addresses for each container",
+          "Full control over the operating system"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on the scalability and management features of serverless platforms."
+      },
+      {
+        "question": "In the context of domain management, what is the main benefit of using Let's Encrypt for SSL certificates?",
+        "options": [
+          "They offer wildcard certificates for free",
+          "They provide lifetime validity for certificates",
+          "They automate certificate issuance and renewal",
+          "They offer higher encryption standards than paid certificates"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the automation features provided by Let's Encrypt."
+      }
+    ]
+  }
+}

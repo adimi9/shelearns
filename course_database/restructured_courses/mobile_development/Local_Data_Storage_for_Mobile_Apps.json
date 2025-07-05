@@ -16,105 +16,145 @@
     "data-persistence"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://firebase.google.com/docs/cli",
-        "description": "Firebase CLI documentation provides instructions and reference for using the Firebase Command Line Interface to manage and deploy Firebase projects."
-      },
-      {
-        "url": "https://developer.android.com/training/data-storage/room",
-        "description": "This resource provides guidance on using the Room persistence library for efficient data storage in Android applications."
-      },
-      {
-        "url": "https://firebase.google.com/docs/database",
-        "description": "Comprehensive guide on using Firebase Realtime Database for building real-time, collaborative applications."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.dropboxforum.com/discussions/101001016/dropbox-ios-app-taking-up-1-3gb-of-local-app-data-storage-but-no-offline-files/623899",
-        "description": "Discussion on resolving issues with the Dropbox iOS app consuming excessive local storage without offline files."
-      },
-      {
-        "url": "https://www.outsystems.com/forums/discussion/49078/how-to-see-all-data-record-in-local-storage-on-mobile-application/",
-        "description": "A forum discussion on how to view all data records stored in local storage within an OutSystems mobile application."
-      },
-      {
-        "url": "https://www.reddit.com/r/AndroidQuestions/comments/18wcffl/where_are_the_actual_files_for_samsung_notes/",
-        "description": "This forum discussion explores the file storage locations for Samsung Notes on Android devices."
-      },
-      {
-        "url": "https://dev.to/rdegges/please-stop-using-local-storage-1i04",
-        "description": "The article explains why relying on local storage for sensitive data is insecure and suggests safer alternatives."
-      },
-      {
-        "url": "https://www.reddit.com/r/shortcuts/comments/1aujuqc/does_anyone_know_how_to_clear_an_app_cache_on/",
-        "description": "Discussion on methods to clear app cache on iOS devices using Shortcuts."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=6Mv5SrGUnzE",
-      "https://www.youtube.com/watch?v=FB9GpmL0Qe0",
-      "https://www.youtube.com/watch?v=y9hiZuzaBhQ",
-      "https://www.youtube.com/watch?v=G1rOthIU-uo",
-      "https://www.youtube.com/watch?v=dU7GwCOgvNY"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which of the following is a key-value storage system used for storing simple data in mobile apps?",
-      "options": [
-        "SQLite Database",
-        "Shared Preferences/UserDefaults",
-        "Realm",
-        "File System Access"
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs/database",
+        "https://developer.android.com/training/data-storage/room",
+        "https://firebase.google.com/docs/firestore/quickstart"
       ],
-      "correct_option": 1,
-      "hint": "It's often used for storing user settings or app preferences."
+      "notes": [
+        "https://developer.android.com/training/data-storage/room",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://firebase.google.com/docs/database",
+        "https://cloud.google.com/storage",
+        "https://firebase.google.com/docs/emulator-suite",
+        "https://cloud.google.com/learn/what-is-cloud-storage",
+        "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=krRkm8w22A8&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=c6aGVrjE974",
+        "https://www.youtube.com/watch?v=-ZRDZyUjEEI&pp=ygUQI2xvY2Fsc3RvcmFnZWFwaQ%3D%3D",
+        "https://www.youtube.com/watch?v=6VejFu1nEYs&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=mMgr47QBZWA",
+        "https://www.youtube.com/watch?v=nK0rtoU_D2Q",
+        "https://www.youtube.com/watch?v=Af3w1LYgiHY",
+        "https://www.youtube.com/watch?v=nUM2UzUycM8"
+      ]
     },
-    {
-      "question": "What is a primary advantage of using SQLite databases for mobile app data storage?",
-      "options": [
-        "High performance for complex queries",
-        "Automatic data syncing",
-        "Schema-less data structure",
-        "Built-in encryption"
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs/cli",
+        "https://developer.android.com/training/data-storage",
+        "https://firebase.google.com/docs/database",
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python"
       ],
-      "correct_option": 0,
-      "hint": "This database system is known for its ability to handle complex SQL queries efficiently."
+      "notes": [
+        "https://www.ramotion.com/blog/what-is-web-storage/",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://developer.android.com/training/data-storage",
+        "https://cloud.google.com/learn/what-is-cloud-storage",
+        "https://developer.android.com/training/data-storage/room"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=bOd3wO0uFr8&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=taJlPG82Ucw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=2TJxpyO3ei4",
+        "https://www.youtube.com/watch?v=0_Ij8FEvY4U",
+        "https://www.youtube.com/watch?v=6VejFu1nEYs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=VYxIcmYLYYQ",
+        "https://m.youtube.com/watch?v=EXctz9fYwWM&pp=ygURI2xpbmtsb2NhbHN0b3JhZ2U%3D",
+        "https://www.youtube.com/watch?v=zIfxkub7CLY&pp=0gcJCdgAo7VqN5tD"
+      ]
     },
-    {
-      "question": "Which mobile database is known for being schema-less and suitable for offline-first apps?",
-      "options": [
-        "Core Data",
-        "SQLDelight",
-        "Realm",
-        "Shared Preferences"
+    "advanced": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview",
+        "https://docs.streamlit.io/",
+        "https://cloud.google.com/vertex-ai"
       ],
-      "correct_option": 2,
-      "hint": "This NoSQL database is popular for its flexibility and ease of use in mobile apps."
-    },
-    {
-      "question": "What is the purpose of using File System Access in mobile apps?",
-      "options": [
-        "To perform network operations",
-        "To manage user accounts",
-        "To read and write files directly",
-        "To handle in-app purchases"
+      "notes": [
+        "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview",
+        "https://budibase.com/blog/how-to-make-a-web-app/",
+        "https://www.tdisdi.com/sdi-diver-news/top-15-must-have-scuba-diving-apps-for-android-and-ios/",
+        "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8590973/"
       ],
-      "correct_option": 2,
-      "hint": "It's used when you need to work with files directly on the device's storage."
-    },
-    {
-      "question": "Which technology would you use to store structured data with complex relationships in iOS apps?",
-      "options": [
-        "UserDefaults",
-        "Realm",
-        "Core Data",
-        "Hive"
-      ],
-      "correct_option": 2,
-      "hint": "This technology is specifically designed for managing object graphs and data persistence in iOS."
+      "videos": [
+        "https://www.youtube.com/watch?v=bhtb8SZ-kk4",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+        "https://www.youtube.com/watch?v=rJsHc-4w60g",
+        "https://www.youtube.com/watch?v=IPvYjXCsTg8",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=SWP3k-24jT4",
+        "https://www.youtube.com/watch?v=56Ihv5MF4_U"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which of the following is a key-value storage system used for storing simple data in mobile apps?",
+        "options": [
+          "SQLite Database",
+          "Shared Preferences/UserDefaults",
+          "Realm",
+          "File System Access"
+        ],
+        "correct_option": 1,
+        "hint": "It's often used for storing user settings or app preferences."
+      },
+      {
+        "question": "What is a primary advantage of using SQLite databases for mobile app data storage?",
+        "options": [
+          "High performance for complex queries",
+          "Automatic data syncing",
+          "Schema-less data structure",
+          "Built-in encryption"
+        ],
+        "correct_option": 0,
+        "hint": "This database system is known for its ability to handle complex SQL queries efficiently."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which mobile database is known for being schema-less and suitable for offline-first apps?",
+        "options": [
+          "Core Data",
+          "SQLDelight",
+          "Realm",
+          "Shared Preferences"
+        ],
+        "correct_option": 2,
+        "hint": "This NoSQL database is popular for its flexibility and ease of use in mobile apps."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the purpose of using File System Access in mobile apps?",
+        "options": [
+          "To perform network operations",
+          "To manage user accounts",
+          "To read and write files directly",
+          "To handle in-app purchases"
+        ],
+        "correct_option": 2,
+        "hint": "It's used when you need to work with files directly on the device's storage."
+      },
+      {
+        "question": "Which technology would you use to store structured data with complex relationships in iOS apps?",
+        "options": [
+          "UserDefaults",
+          "Realm",
+          "Core Data",
+          "Hive"
+        ],
+        "correct_option": 2,
+        "hint": "This technology is specifically designed for managing object graphs and data persistence in iOS."
+      }
+    ]
+  }
 }

@@ -16,97 +16,151 @@
     "privacy"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Privacy",
-        "description": "An overview of web privacy principles and best practices for protecting user data on the web."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/cybersecurity/",
-        "description": "An introductory guide to fundamental cybersecurity concepts and practices."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/what-is-cyberethics/",
-        "description": "An overview of cyberethics, exploring the ethical guidelines and principles governing online behavior and digital interactions."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/ethical-hacking/cyber-crime/",
-        "description": "An overview of cyber crime, its types, and methods of protection in the context of ethical hacking."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/cyber-laws-in-india/",
-        "description": "An overview of cyber laws in India, detailing legal frameworks and regulations governing digital activities."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-tutorial/",
-        "description": "An introductory guide to ethical hacking and cybersecurity principles."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=inWWhr5tnEA",
-      "https://www.youtube.com/watch?v=jZtM2sJrYVE",
-      "https://www.youtube.com/watch?v=xeDZalBaLkQ",
-      "https://www.youtube.com/watch?v=Uel5PMCXRCw",
-      "https://www.youtube.com/watch?v=LEX80TgFcJk"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which of the following is a primary legal framework governing cybersecurity in many countries?",
-      "options": [
-        "General Data Protection Regulation (GDPR)",
-        "International Traffic in Arms Regulations (ITAR)",
-        "Health Insurance Portability and Accountability Act (HIPAA)",
-        "Sarbanes-Oxley Act"
+    "beginner": {
+      "docs": [
+        "https://dodcio.defense.gov/Portals/0/Documents/Library/CSResourceReferenceGuide.pdf",
+        "https://www.federalregister.gov/documents/2024/10/15/2024-22905/cybersecurity-maturity-model-certification-cmmc-program",
+        "https://www.nist.gov/cyberframework",
+        "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf"
       ],
-      "correct_option": 0,
-      "hint": "This regulation is particularly important in the European Union."
+      "notes": [
+        "https://www.scu.edu/media/ethics-center/technology-ethics/IntroToCybersecurityEthics.pdf",
+        "https://kanchiuniv.ac.in/wp-content/uploads/2024/06/StudyMaterial_CLE.pdf",
+        "https://mrcet.com/pdf/Lab%20Manuals/IT/CYBER%20SECURITY%20(R18A0521).pdf",
+        "https://www.augusta.edu/online/blog/cybersecurity-ethics",
+        "https://www.geeksforgeeks.org/computer-networks/what-is-cyberethics/",
+        "https://www.bu.edu/riscs/engec521/",
+        "https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=6442s",
+        "https://www.youtube.com/watch?v=hXSFdwIOfnE&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=5AKoBHYnWBc",
+        "https://www.youtube.com/watch?v=Bn_Af1yt2Zo",
+        "https://www.youtube.com/watch?v=xeDZalBaLkQ&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=aFpI0VIkRKg",
+        "https://www.youtube.com/playlist?list=PLMcqDZKC82kAgU3G4GkevpFFOX2GmOhVO",
+        "https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo",
+        "https://www.youtube.com/intl/ALL_in/howyoutubeworks/policies/community-guidelines/",
+        "https://www.youtube.com/watch?v=woNY9og8H_s"
+      ]
     },
-    {
-      "question": "What is a key difference between ethical hacking and illegal hacking?",
-      "options": [
-        "Ethical hacking is always unapproved, illegal hacking is approved",
-        "Ethical hacking aims to fix vulnerabilities, illegal hacking exploits them",
-        "Ethical hacking never involves penetration testing, illegal hacking does",
-        "Ethical hackers use different tools from illegal hackers"
+    "intermediate": {
+      "docs": [
+        "https://dodcio.defense.gov/Portals/0/Documents/Library/CSResourceReferenceGuide.pdf",
+        "https://www.mass.gov/",
+        "https://www.una.edu/administration/docs/Legal-Issues-for-Faculty-6-10-19.pdf",
+        "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html",
+        "https://laspositascollege.edu/class-schedule/assets/docs/catalog/archives/Addendum2007.pdf"
       ],
-      "correct_option": 1,
-      "hint": "Consider the intent and permission involved in each type of hacking."
+      "notes": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8963864/",
+        "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+        "https://www.augusta.edu/online/blog/cybersecurity-ethics",
+        "https://www.upguard.com/blog/cybersecurity-ethics",
+        "https://www.ukcybersecuritycouncil.org.uk/thought-leadership/papers/ethics-in-artificial-intelligence/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=3FNYvj2U0HM&pp=ygUGI3RjbWdv",
+        "https://m.youtube.com/watch?v=Xv-O2HizYCY",
+        "https://www.youtube.com/watch?v=aFpI0VIkRKg",
+        "https://www.youtube.com/watch?v=XWuP5Yf5ILI&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=wNAT0oJAujk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=qBwPwgPb7E4",
+        "https://www.youtube.com/watch?v=6NdPeYCwEFE",
+        "https://www.youtube.com/intl/ALL_in/howyoutubeworks/policies/community-guidelines/",
+        "https://www.youtube.com/strongdm",
+        "https://www.youtube.com/playlist?list=PLrR3n8zGac3Jo-tj0K0Fjgn3YMhR2QzMx"
+      ]
     },
-    {
-      "question": "Which of the following is a major concern of intellectual property laws in the context of cyber law?",
-      "options": [
-        "Data encryption standards",
-        "Protection of software code and digital media",
-        "Network security protocols",
-        "User authentication methods"
+    "advanced": {
+      "docs": [
+        "https://www.dafcio.af.mil/",
+        "https://dodcio.defense.gov/Portals/0/Documents/Library/CSResourceReferenceGuide.pdf",
+        "https://www.linkedin.com/posts/sethkprice_aimarketing-contentcreation-marketingtips-activity-7282800714240671744-CTKk",
+        "https://ualr.edu/gradschool/wp-content/uploads/sites/226/2006/10/Graduate_Catalog_2013.pdf"
       ],
-      "correct_option": 1,
-      "hint": "This involves the protection of creations of the mind in the digital space."
-    },
-    {
-      "question": "What is the main purpose of privacy laws in cybersecurity?",
-      "options": [
-        "To ensure companies can freely share user data",
-        "To protect personal data from unauthorized access",
-        "To allow governments to monitor all online activities",
-        "To prevent cyber attacks on national infrastructure"
+      "notes": [
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/how-to-become-an-ethical-hacker",
+        "https://www.upguard.com/blog/cybersecurity-ethics",
+        "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+        "https://mrcet.com/pdf/Lab%20Manuals/IT/CYBER%20SECURITY%20(R18A0521).pdf",
+        "https://mobar.org/site/Lawyer_Resources/Practice-Management/Protect_a_Practice/site/content/Lawyer-Resources/Law_Practice_Management/Protect_a_Practice.aspx?hkey=45d7e372-bdf0-48fb-be21-6111c6dfd7df",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8963864/"
       ],
-      "correct_option": 1,
-      "hint": "These laws focus on safeguarding personal information."
-    },
-    {
-      "question": "Which of the following is often a part of a professional code of conduct in cybersecurity?",
-      "options": [
-        "Mandatory reporting of all security breaches",
-        "Personal use of company resources is allowed",
-        "Ignoring minor security threats",
-        "Obtaining user consent before accessing data"
-      ],
-      "correct_option": 3,
-      "hint": "Consider the importance of user consent and ethical standards in professional practices."
+      "videos": [
+        "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=231s",
+        "https://www.youtube.com/watch?v=hXSFdwIOfnE",
+        "https://www.youtube.com/watch?v=3FNYvj2U0HM&pp=ygUGIzUxaGNt",
+        "https://www.youtube.com/watch?v=aFpI0VIkRKg",
+        "https://www.youtube.com/watch?v=K6w3c6lJmQI&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/intl/ALL_in/howyoutubeworks/policies/community-guidelines/",
+        "https://www.youtube.com/watch?v=t8r7cUjYONU",
+        "https://www.youtube.com/watch?v=7LKAMoaqPXA&pp=ygUOI25tYXBrYWxpbGludXg%3D"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which of the following is a primary legal framework governing cybersecurity in many countries?",
+        "options": [
+          "General Data Protection Regulation (GDPR)",
+          "International Traffic in Arms Regulations (ITAR)",
+          "Health Insurance Portability and Accountability Act (HIPAA)",
+          "Sarbanes-Oxley Act"
+        ],
+        "correct_option": 0,
+        "hint": "This regulation is particularly important in the European Union."
+      },
+      {
+        "question": "What is a key difference between ethical hacking and illegal hacking?",
+        "options": [
+          "Ethical hacking is always unapproved, illegal hacking is approved",
+          "Ethical hacking aims to fix vulnerabilities, illegal hacking exploits them",
+          "Ethical hacking never involves penetration testing, illegal hacking does",
+          "Ethical hackers use different tools from illegal hackers"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the intent and permission involved in each type of hacking."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is a major concern of intellectual property laws in the context of cyber law?",
+        "options": [
+          "Data encryption standards",
+          "Protection of software code and digital media",
+          "Network security protocols",
+          "User authentication methods"
+        ],
+        "correct_option": 1,
+        "hint": "This involves the protection of creations of the mind in the digital space."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the main purpose of privacy laws in cybersecurity?",
+        "options": [
+          "To ensure companies can freely share user data",
+          "To protect personal data from unauthorized access",
+          "To allow governments to monitor all online activities",
+          "To prevent cyber attacks on national infrastructure"
+        ],
+        "correct_option": 1,
+        "hint": "These laws focus on safeguarding personal information."
+      },
+      {
+        "question": "Which of the following is often a part of a professional code of conduct in cybersecurity?",
+        "options": [
+          "Mandatory reporting of all security breaches",
+          "Personal use of company resources is allowed",
+          "Ignoring minor security threats",
+          "Obtaining user consent before accessing data"
+        ],
+        "correct_option": 3,
+        "hint": "Consider the importance of user consent and ethical standards in professional practices."
+      }
+    ]
+  }
 }

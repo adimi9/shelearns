@@ -1,0 +1,412 @@
+{
+  "id": "BE2",
+  "name": "Cloud Deployment & Infrastructure (IaaS)",
+  "category": "Backend Development",
+  "primary_tech": "Cloud Platforms",
+  "topics": [
+    "AWS/Azure/GCP Compute Basics (EC2, VMs)",
+    "Networking & VPCs",
+    "Managed Databases"
+  ],
+  "recommended": true,
+  "tags": [
+    "cloud",
+    "devops",
+    "infrastructure"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/learn/paas-vs-iaas-vs-saas",
+          "description": "An overview of the differences between PaaS, IaaS, and SaaS cloud service models.",
+          "title": "PaaS vs IaaS vs SaaS: What's the difference? | Google Cloud"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/",
+          "description": "An official Microsoft resource for learning about Azure cloud services and solutions.",
+          "title": "Azure documentation | Microsoft Learn"
+        },
+        {
+          "url": "https://cloud.google.com/learn/what-is-iaas",
+          "description": "An overview of Infrastructure as a Service (IaaS) and its benefits in cloud computing.",
+          "title": "What is IaaS (Infrastructure as a Service)? | Google Cloud"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+          "description": "An overview and guide to using the AWS Cloud Development Kit (CDK) for infrastructure as code.",
+          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2"
+        },
+        {
+          "url": "https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengoverview.htm",
+          "description": "An overview of Oracle Cloud Infrastructure Container Engine for Kubernetes.",
+          "title": "Overview of Kubernetes Engine (OKE)"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://cloud.google.com/learn/what-is-iaas",
+          "description": "An introduction to Infrastructure as a Service (IaaS) and its benefits on Google Cloud.",
+          "title": "What is IaaS (Infrastructure as a Service)? | Google Cloud"
+        },
+        {
+          "url": "https://www.cio.gov/assets/resources/Cloud%20Operations%20Best%20Practices%20&%20Resources%20Guide%20-%20October%202023.pdf",
+          "description": "A guide outlining best practices and resources for effective cloud operations management."
+        },
+        {
+          "url": "https://cloud.google.com/learn/paas-vs-iaas-vs-saas",
+          "description": "A detailed comparison of PaaS, IaaS, and SaaS cloud service models.",
+          "title": "PaaS vs IaaS vs SaaS: What's the difference? | Google Cloud"
+        },
+        {
+          "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing",
+          "description": "An introductory guide explaining the fundamentals of cloud computing.",
+          "title": "What Is Cloud Computing? | Microsoft Azure"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/iaas-paas-saas",
+          "description": "An overview of cloud service models: IaaS, PaaS, and SaaS.",
+          "title": "What Are IaaS, PaaS and SaaS? | IBM"
+        },
+        {
+          "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas",
+          "description": "An explanation of Infrastructure as a Service (IaaS) in cloud computing.",
+          "title": "What is Infrastructure as a Service (IaaS)? | Microsoft Azure"
+        },
+        {
+          "url": "https://www.techtarget.com/searchcloudcomputing/definition/cloud-computing",
+          "description": "An overview of cloud computing, including its definition and key characteristics.",
+          "title": "What is Cloud Computing? Types, Examples and Benefits | Definition from TechTarget"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=9CVBohl6w0Q&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=9-4gNNjpO2g",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=TJOwP5VhvAo&pp=ygURI2F6dXJlY2xvdWRza2lsbHM%3D",
+        "https://www.youtube.com/watch?v=xQ5mBBiTe9Q",
+        "https://www.youtube.com/watch?v=YQXX4paUiUs",
+        "https://www.youtube.com/watch?v=SLB_c_ayRMo",
+        "https://www.youtube.com/playlist?list=PLoL3y5BaIvw0O-XGwSPPb3R1v1P6hGK8P",
+        "https://www.youtube.com/user/OracleLearning"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.oracle.com/iaas/api/",
+          "description": "Official documentation for Oracle Cloud Infrastructure API.",
+          "title": "Oracle Cloud Infrastructure API Reference and Endpoints"
+        },
+        {
+          "url": "https://cloud.google.com/learn/paas-vs-iaas-vs-saas",
+          "description": "An overview comparing PaaS, IaaS, and SaaS cloud service models.",
+          "title": "PaaS vs IaaS vs SaaS: What's the difference? | Google Cloud"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/",
+          "description": "Official documentation and resources for Microsoft Azure services and solutions.",
+          "title": "Azure documentation | Microsoft Learn"
+        },
+        {
+          "url": "https://cloud.google.com/deployment-manager/docs",
+          "description": "Documentation for Google Cloud Deployment Manager, a tool for managing resources on Google Cloud.",
+          "title": "Google Cloud Deployment Manager documentation  |  Cloud Deployment Manager Documentation"
+        },
+        {
+          "url": "https://developer.hashicorp.com/terraform",
+          "description": "An official resource for learning and utilizing HashiCorp Terraform for infrastructure as code.",
+          "title": "Terraform | HashiCorp Developer"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://cloud.google.com/learn/what-is-iaas",
+          "description": "An introductory guide to Infrastructure as a Service (IaaS) on Google Cloud.",
+          "title": "What is IaaS (Infrastructure as a Service)? | Google Cloud"
+        },
+        {
+          "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas",
+          "description": "An explanation of Infrastructure as a Service (IaaS) in cloud computing.",
+          "title": "What is Infrastructure as a Service (IaaS)? | Microsoft Azure"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/iaas-paas-saas",
+          "description": "An overview of IaaS, PaaS, and SaaS cloud service models.",
+          "title": "What Are IaaS, PaaS and SaaS? | IBM"
+        },
+        {
+          "url": "https://developer.hashicorp.com/terraform",
+          "description": "Official documentation for HashiCorp Terraform, a tool for building, changing, and versioning infrastructure safely and efficiently.",
+          "title": "Terraform | HashiCorp Developer"
+        },
+        {
+          "url": "https://www.techtarget.com/searchcloudcomputing/definition/cloud-computing",
+          "description": "An in-depth explanation of cloud computing and its key components.",
+          "title": "What is Cloud Computing? Types, Examples and Benefits | Definition from TechTarget"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/software-engineering/difference-between-iaas-paas-and-saas/",
+          "description": "An explanation of the differences between IaaS, PaaS, and SaaS in software engineering.",
+          "title": "Difference between SaaS, PaaS and IaaS - GeeksforGeeks"
+        },
+        {
+          "url": "https://www.techtarget.com/searchcloudcomputing/definition/Infrastructure-as-a-Service-IaaS",
+          "description": "An in-depth explanation of Infrastructure as a Service (IaaS) in cloud computing.",
+          "title": "What is Infrastructure as a Service (IaaS)? | Definition from TechTarget"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=9CVBohl6w0Q&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=YQXX4paUiUs",
+        "https://www.youtube.com/watch?v=Uq5w1lnKzlk&pp=ygUJI2Njb3Vyc2Vz",
+        "https://www.youtube.com/watch?v=HdMB2YCtVr4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=0NZpFT2RBZ4",
+        "https://www.youtube.com/watch?v=in5-pwSVxwc",
+        "https://www.youtube.com/watch?v=irs2q7YefHA&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+          "description": "An introductory guide to using the AWS Cloud Development Kit (CDK) for infrastructure as code.",
+          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2"
+        },
+        {
+          "url": "https://cloud.google.com/learn/certification",
+          "description": "An overview of Google Cloud certification programs and learning paths.",
+          "title": "Certifications | Google Cloud"
+        },
+        {
+          "url": "https://www.digitalocean.com/",
+          "description": "A cloud computing platform offering scalable infrastructure and developer-friendly tools.",
+          "title": "DigitalOcean | Cloud Infrastructure for Developers"
+        },
+        {
+          "url": "https://cloud.google.com/learn/paas-vs-iaas-vs-saas",
+          "description": "An overview of the differences between PaaS, IaaS, and SaaS in cloud computing.",
+          "title": "PaaS vs IaaS vs SaaS: What's the difference? | Google Cloud"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing",
+          "description": "An introductory explanation of cloud computing and its benefits.",
+          "title": "What Is Cloud Computing? | Microsoft Azure"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+          "description": "An introductory guide to using the AWS Cloud Development Kit (CDK) for infrastructure as code.",
+          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2"
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+          "description": "A collection of essential Azure interview questions and answers for job preparation.",
+          "title": "35 Azure Interview Questions and Answers You Must Prepare"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cloud_computing",
+          "description": "An overview of cloud computing concepts, models, and services.",
+          "title": "Cloud computing - Wikipedia"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/microsoft-azure/",
+          "description": "An introductory guide to Microsoft Azure's cloud services and features.",
+          "title": "Microsoft Azure Tutorial - GeeksforGeeks"
+        },
+        {
+          "url": "https://www.datacamp.com/blog/top-aws-interview-questions-and-answers",
+          "description": "A curated list of common AWS interview questions and answers to help candidates prepare.",
+          "title": "Just a moment..."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=HdMB2YCtVr4&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Hvk2-qhFEoo",
+        "https://m.youtube.com/watch?v=mluS8ovuBKg",
+        "https://www.youtube.com/watch?v=0NZpFT2RBZ4",
+        "https://www.youtube.com/watch?v=cBwxLSZMN9o",
+        "https://www.youtube.com/watch?v=Uq5w1lnKzlk&pp=ygUJI2Njb3Vyc2Vz",
+        "https://www.youtube.com/watch?v=_iGb7oYYa30",
+        "https://www.youtube.com/watch?v=C6ev2RqLKhg",
+        "https://www.youtube.com/@VirtuozzoInc/videos"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of EC2 in AWS?",
+        "options": [
+          "To provide scalable computing capacity in the cloud",
+          "To offer a managed database service",
+          "To establish secure network connections",
+          "To store large amounts of data"
+        ],
+        "correct_option": 0,
+        "hint": "EC2 is primarily used for computing resources."
+      },
+      {
+        "question": "Which cloud provider offers Virtual Machines as a compute service?",
+        "options": [
+          "AWS",
+          "Azure",
+          "Google Cloud Platform",
+          "All of the above"
+        ],
+        "correct_option": 3,
+        "hint": "All major cloud providers offer virtual machines."
+      },
+      {
+        "question": "What does VPC stand for in cloud networking?",
+        "options": [
+          "Virtual Private Cloud",
+          "Variable Packet Control",
+          "Verified Personal Computer",
+          "Virtual Public Circuit"
+        ],
+        "correct_option": 0,
+        "hint": "It's a private network within a cloud environment."
+      },
+      {
+        "question": "Which service is an example of a managed database?",
+        "options": [
+          "AWS RDS",
+          "Azure Blob Storage",
+          "Google Cloud CDN",
+          "AWS Lambda"
+        ],
+        "correct_option": 0,
+        "hint": "This service manages databases so you don't have to."
+      },
+      {
+        "question": "What is a key benefit of using managed databases in the cloud?",
+        "options": [
+          "Full control over the hardware",
+          "Automatic updates and backups",
+          "Manual scaling of resources",
+          "Increased physical security"
+        ],
+        "correct_option": 1,
+        "hint": "Managed services often include automated maintenance features."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following best describes an Amazon EC2 instance?",
+        "options": [
+          "A virtual server in AWS's cloud for running applications",
+          "A managed database service for MySQL and PostgreSQL",
+          "A cloud storage service for objects",
+          "A service for deploying containerized applications"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the primary function of EC2 in AWS."
+      },
+      {
+        "question": "What is the main purpose of a Virtual Private Cloud (VPC) in cloud computing?",
+        "options": [
+          "To provide scalable object storage",
+          "To enable secure and isolated network environments",
+          "To offer a managed service for deploying containerized applications",
+          "To automate the infrastructure provisioning process"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how VPCs help in network management."
+      },
+      {
+        "question": "In Microsoft Azure, what is a Virtual Machine (VM) primarily used for?",
+        "options": [
+          "Storing unstructured data",
+          "Running applications and services",
+          "Deploying containerized applications",
+          "Managing network configurations"
+        ],
+        "correct_option": 1,
+        "hint": "Virtual Machines are typically used for computational tasks."
+      },
+      {
+        "question": "Which of the following is a managed database service provided by Google Cloud Platform (GCP)?",
+        "options": [
+          "Google Compute Engine",
+          "Google Cloud Storage",
+          "Google Cloud SQL",
+          "Google Kubernetes Engine"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the service that explicitly mentions SQL."
+      },
+      {
+        "question": "What is a common use case for AWS Elastic Load Balancing?",
+        "options": [
+          "To store large volumes of data",
+          "To distribute incoming application traffic across multiple targets",
+          "To manage user authentication and authorization",
+          "To host containerized applications"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how load balancing helps with traffic management."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which AWS service allows you to run and manage containers at scale using Kubernetes?",
+        "options": [
+          "Amazon ECS",
+          "Amazon EKS",
+          "AWS Lambda",
+          "AWS Batch"
+        ],
+        "correct_option": 1,
+        "hint": "This service is specifically designed for Kubernetes."
+      },
+      {
+        "question": "In Azure, what is the primary service used to manage and deploy virtual networks and subnets?",
+        "options": [
+          "Azure Blob Storage",
+          "Azure Virtual Network",
+          "Azure Traffic Manager",
+          "Azure CDN"
+        ],
+        "correct_option": 1,
+        "hint": "This service relates to networking and virtual environments."
+      },
+      {
+        "question": "Which Google Cloud service provides a scalable MySQL database with built-in high availability?",
+        "options": [
+          "Bigtable",
+          "Firestore",
+          "Cloud SQL",
+          "Datastore"
+        ],
+        "correct_option": 2,
+        "hint": "This service is designed for managed relational databases."
+      },
+      {
+        "question": "What component of an AWS VPC allows you to connect your VPC to the internet?",
+        "options": [
+          "NAT Gateway",
+          "Internet Gateway",
+          "VPN Gateway",
+          "Direct Connect"
+        ],
+        "correct_option": 1,
+        "hint": "This component is essential for internet connectivity."
+      },
+      {
+        "question": "Which Azure service is used for deploying, managing, and scaling web applications?",
+        "options": [
+          "Azure Kubernetes Service",
+          "Azure App Services",
+          "Azure Functions",
+          "Azure Logic Apps"
+        ],
+        "correct_option": 1,
+        "hint": "This service is specifically tailored for web applications."
+      }
+    ]
+  }
+}

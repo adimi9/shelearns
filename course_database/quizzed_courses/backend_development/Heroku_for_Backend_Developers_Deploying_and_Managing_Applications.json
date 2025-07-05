@@ -1,0 +1,282 @@
+{
+  "id": "BE8",
+  "name": "Heroku for Backend Developers: Deploying and Managing Applications",
+  "category": "Backend Development",
+  "primary_tech": "Heroku",
+  "topics": [
+    "Introduction to Heroku and Platform as a Service (PaaS)",
+    "Setting Up and Configuring a Heroku Account",
+    "Deploying Applications Using Heroku CLI",
+    "Managing Application Environments and Configurations",
+    "Scaling Applications and Managing Resources",
+    "Integrating Add-ons and Third-party Services",
+    "Monitoring and Logging with Heroku",
+    "Best Practices for Security and Performance on Heroku"
+  ],
+  "recommended": false,
+  "tags": [
+    "heroku",
+    "backend",
+    "deployment",
+    "cloud-hosting",
+    "app-management",
+    "PaaS"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://www.heroku.com/students/",
+        "https://devcenter.heroku.com/articles/git",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment"
+      ],
+      "notes": [
+        "https://devcenter.heroku.com/articles/getting-started-with-python",
+        "https://www.heroku.com/students/",
+        "https://devcenter.heroku.com/articles/git",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
+        "https://realpython.com/flask-by-example-part-1-project-setup/",
+        "https://www.codecademy.com/article/deploying-a-back-end-with-heroku"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=lwOsI8LtVEQ",
+        "https://www.youtube.com/watch?v=29k5-CHKadQ",
+        "https://www.youtube.com/watch?v=l134cBAJCuc&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=lGtTOLKuvqs",
+        "https://www.youtube.com/watch?v=SCJ27h6kqxs",
+        "https://www.youtube.com/watch?v=DQk3zJlY-eE&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Hej48pi_lOc&pp=ygUSI25ldF9idWZmZXJfbGVuZ3Ro",
+        "https://www.youtube.com/watch?v=ABHvyLf_0Qg"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://www.heroku.com/students/",
+        "https://devcenter.heroku.com/articles/git",
+        "https://northflank.com/blog/vercel-vs-heroku",
+        "https://devcenter.heroku.com/articles/platform-api-reference"
+      ],
+      "notes": [
+        "https://www.heroku.com/students/",
+        "https://devcenter.heroku.com/articles/git",
+        "https://codefresh.io/learn/heroku-deployment-top-3-ways-to-deploy-apps-to-heroku/11-heroku-app-alternatives-to-try-in-2024/",
+        "https://realpython.com/flask-by-example-part-1-project-setup/",
+        "https://titanapps.io/blog/atlassian-forge"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=oocZSB5W5d0",
+        "https://www.youtube.com/watch?v=DBlmF91Accg",
+        "https://www.youtube.com/watch?v=kq5bmrjPPAY",
+        "https://www.youtube.com/watch?v=lyMhbrqOos8",
+        "https://www.youtube.com/watch?v=e2BE8v4Bj-U",
+        "https://www.youtube.com/watch?v=DDvdMEEaLTE",
+        "https://m.youtube.com/watch?v=x7f9x30W_dI",
+        "https://www.youtube.com/watch?v=dGA3ojrt-fs"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.heroku.com/blog/build-openapi-apis-nodejs-fastify/",
+        "https://devcenter.heroku.com/articles/how-heroku-works",
+        "https://www.heroku.com/blog/working-with-chatgpt-functions-on-heroku/"
+      ],
+      "notes": [
+        "https://www.heroku.com/blog/deploying-simple-go-gin-application-on-heroku/",
+        "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
+        "https://www.heroku.com/customers/sciometrix/",
+        "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
+        "https://realpython.com/flask-by-example-part-1-project-setup/",
+        "https://devcenter.heroku.com/articles/how-heroku-works"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=0sOvCWFmrtA",
+        "https://m.youtube.com/watch?v=05DuUvgkaLs&pp=ygUcI2F3c2VsYXN0aWNiZWFuc3RhbGt0dXRvcmlhbA%3D%3D",
+        "https://www.youtube.com/watch?v=DDvdMEEaLTE",
+        "https://www.youtube.com/watch?v=BUh76-xD5qU",
+        "https://www.youtube.com/watch?v=VDw1wutnqN8",
+        "https://www.youtube.com/watch?v=zf8gcvbnsKg",
+        "https://www.youtube.com/watch?v=QJdiEyeJzC4",
+        "https://www.youtube.com/watch?v=1qCaqEs8RW0",
+        "https://www.youtube.com/@codewithzosh"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is Heroku primarily used for?",
+        "options": [
+          "Building desktop applications",
+          "Deploying and managing web applications",
+          "Designing user interfaces",
+          "Creating video games"
+        ],
+        "correct_option": 1,
+        "hint": "Heroku is a Platform as a Service (PaaS) focused on web applications."
+      },
+      {
+        "question": "Which command is used to deploy an application to Heroku using the Heroku CLI?",
+        "options": [
+          "heroku deploy",
+          "git push heroku main",
+          "heroku start",
+          "deploy heroku app"
+        ],
+        "correct_option": 1,
+        "hint": "Think about a common git command used with a remote repository."
+      },
+      {
+        "question": "What is a key benefit of using Heroku for application deployment?",
+        "options": [
+          "Requires no coding knowledge",
+          "Automatic scaling of applications",
+          "Free unlimited resources",
+          "Exclusive to mobile apps"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how Heroku handles application growth and resource management."
+      },
+      {
+        "question": "How can you monitor and view logs for your application on Heroku?",
+        "options": [
+          "Using the Heroku CLI",
+          "Directly from the database",
+          "Through local file storage",
+          "Using a third-party app only"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the tools provided by Heroku itself."
+      },
+      {
+        "question": "Which of the following is a best practice for securing applications on Heroku?",
+        "options": [
+          "Disabling all logs",
+          "Using environment variables for sensitive information",
+          "Allowing unrestricted access",
+          "Hardcoding API keys in the code"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how to handle sensitive data securely."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of Heroku as a Platform as a Service (PaaS)?",
+        "options": [
+          "To provide infrastructure for deploying applications",
+          "To offer a platform for building mobile applications",
+          "To facilitate serverless computing",
+          "To enhance front-end development capabilities"
+        ],
+        "correct_option": 0,
+        "hint": "Heroku focuses on simplifying the deployment and management of applications by providing necessary infrastructure."
+      },
+      {
+        "question": "Which command is used to deploy an application to Heroku using the Heroku CLI?",
+        "options": [
+          "heroku deploy",
+          "git push heroku master",
+          "heroku push",
+          "git deploy heroku"
+        ],
+        "correct_option": 1,
+        "hint": "Think of how you push code to a remote repository, but in this case, to Heroku."
+      },
+      {
+        "question": "How can you scale a Heroku application to handle more traffic?",
+        "options": [
+          "Increase the number of dynos",
+          "Upgrade to a larger database",
+          "Add more add-ons",
+          "Enhance the logging capabilities"
+        ],
+        "correct_option": 0,
+        "hint": "Scaling in Heroku is often achieved by adjusting the number of running processes."
+      },
+      {
+        "question": "What is a recommended practice for managing sensitive configuration data in Heroku applications?",
+        "options": [
+          "Store them in environment variables",
+          "Hardcode them in the application code",
+          "Store them in a database",
+          "Include them in version control"
+        ],
+        "correct_option": 0,
+        "hint": "It's a common best practice to keep sensitive data outside the codebase."
+      },
+      {
+        "question": "Which Heroku feature allows you to extend application functionality with third-party services?",
+        "options": [
+          "Heroku Add-ons",
+          "Heroku Labs",
+          "Heroku Marketplace",
+          "Heroku Extensions"
+        ],
+        "correct_option": 0,
+        "hint": "These are modular components that can be added to Heroku applications to extend functionality."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary advantage of using Heroku as a Platform as a Service (PaaS) for backend developers?",
+        "options": [
+          "Ease of scaling applications without managing infrastructure",
+          "Enhanced control over hardware configurations",
+          "Ability to directly manage server operating systems",
+          "Direct integration with hardware-level APIs"
+        ],
+        "correct_option": 0,
+        "hint": "Focus on why developers choose PaaS over traditional infrastructure."
+      },
+      {
+        "question": "Which command is used to deploy an application to Heroku using the Heroku CLI?",
+        "options": [
+          "heroku deploy",
+          "heroku push",
+          "git push heroku main",
+          "git deploy heroku"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the common git-based workflow for deploying applications."
+      },
+      {
+        "question": "When configuring environment variables in a Heroku app, which method should be used for sensitive information such as API keys?",
+        "options": [
+          "Hardcoding in the application code",
+          "Using Heroku's config vars",
+          "Storing in a public GitHub repository",
+          "Including in the Dockerfile"
+        ],
+        "correct_option": 1,
+        "hint": "Think about best practices for environment-specific settings and security."
+      },
+      {
+        "question": "To effectively scale a Heroku application, which component is primarily adjusted?",
+        "options": [
+          "Dynos",
+          "Buildpacks",
+          "Add-ons",
+          "Slug size"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the basic unit of computing in Heroku's architecture."
+      },
+      {
+        "question": "What is a recommended best practice for monitoring performance and logs in Heroku?",
+        "options": [
+          "Regularly check the Heroku Dashboard",
+          "Implement log drains to external services",
+          "Manually inspect log files on the server",
+          "Use only Heroku CLI for monitoring"
+        ],
+        "correct_option": 1,
+        "hint": "Think about integrating additional tools for comprehensive monitoring."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User prefers simplicity over fine-grained control",
+    "Rapid prototyping"
+  ]
+}

@@ -16,105 +16,151 @@
     "scalability"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://docs.datadoghq.com/api/latest/",
-        "description": "This resource provides comprehensive documentation for the latest version of Datadog's API, detailing available endpoints and usage."
-      },
-      {
-        "url": "https://developers.google.com/apis-explorer",
-        "description": "Explore and test Google APIs interactively using the Google APIs Explorer tool."
-      },
-      {
-        "url": "https://developer.android.com/develop/ui/compose/state",
-        "description": "This resource provides guidance on managing state in Jetpack Compose for Android UI development."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/reactjs/state-management-in-react-hooks-context-api-and-redux/",
-        "description": "An overview of state management in React using Hooks, Context API, and Redux."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/android/state-management-in-android-jetpack-compose/",
-        "description": "This resource explains state management techniques in Android Jetpack Compose for building responsive and interactive UIs."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-to-develop-a-flutter-app-from-scratch/",
-        "description": "A step-by-step guide on building a Flutter app from scratch for beginners."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/state-management-in-android-jetpack-compose/",
-        "description": "This resource explains state management techniques in Android Jetpack Compose for building responsive and dynamic user interfaces."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/reactjs/jotai-a-lightweight-state-management-solution-for-react/",
-        "description": "An introduction to Jotai, a lightweight state management solution for React applications."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=bCpFbERgj7s",
-      "https://developer.android.com/develop/ui/compose/state",
-      "https://www.youtube.com/watch?v=WT9-4DXUqsM",
-      "https://medium.com/bumble-tech/crash-course-on-the-android-ui-layer-part-2-2335171467e0",
-      "https://www.youtube.com/watch?v=5lDJNFSWUD8"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is a primary disadvantage of prop drilling in mobile app state management?",
-      "options": [
-        "Increased code complexity",
-        "Improved state visibility",
-        "Better performance",
-        "Simplifies debugging"
+    "beginner": {
+      "docs": [
+        "https://redux.js.org/introduction/getting-started",
+        "https://developer.android.com/guide/components/activities/intro-activities",
+        "https://firebase.google.com/docs/database",
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://docs.flutter.dev/data-and-backend/state-mgmt/simple"
       ],
-      "correct_option": 0,
-      "hint": "Consider how prop drilling affects code maintenance and scalability."
+      "notes": [
+        "https://redux.js.org/introduction/getting-started",
+        "https://developer.apple.com/tutorials/app-dev-training/",
+        "https://docs.flutter.dev/data-and-backend/state-mgmt/simple",
+        "https://www.youtube.com/c/makeappswithdanny",
+        "https://www.linkedin.com/posts/johannesmilke_expense-tracker-app-flutter-bloc-tutorial-activity-7226267013524918275-6K3K"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/watch?v=5lDJNFSWUD8",
+        "https://www.youtube.com/watch?v=SDk_GldOtK8",
+        "https://www.youtube.com/watch?v=LFlE8yV7lJY",
+        "https://www.youtube.com/watch?v=vIIBp6xJJeA&pp=ygUNI2dldHh0dXRvcmlhbA%3D%3D",
+        "https://www.youtube.com/watch?v=bCpFbERgj7s"
+      ]
     },
-    {
-      "question": "Which state management solution in Flutter uses an InheritedWidget to manage state efficiently?",
-      "options": [
-        "Redux",
-        "MobX",
-        "Provider",
-        "ViewModel"
+    "intermediate": {
+      "docs": [
+        "https://developers.google.com/apis-explorer",
+        "https://docs.datadoghq.com/api/latest/",
+        "https://redux.js.org/introduction/getting-started",
+        "https://launchdarkly.com/docs/api"
       ],
-      "correct_option": 2,
-      "hint": "This solution is built into the Flutter framework and is widely used for its simplicity."
+      "notes": [
+        "https://docs.flutter.dev/data-and-backend/state-mgmt/simple",
+        "https://developer.android.com/guide/components/activities/activity-lifecycle",
+        "https://help.salesforce.com/s/articleView?id=release-notes.salesforce_release_notes.htm&language=en_US&release=252&type=5",
+        "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/customize-application-attributes",
+        "https://aws.amazon.com/caching/",
+        "https://www.box.com/home",
+        "https://doc.arcgis.com/en/arcgis-solutions/11.1/reference/use-communications-data-management.htm"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=HSRYHwL6rPs",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=I_J7N0n5YPs",
+        "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=dc3B_mMrZ-Q",
+        "https://www.youtube.com/watch?v=ZeZPmC861E8",
+        "https://www.youtube.com/watch?v=56Ihv5MF4_U"
+      ]
     },
-    {
-      "question": "In React Native, which library is known for its unidirectional data flow and predictability?",
-      "options": [
-        "Provider",
-        "ViewModel",
-        "MobX",
-        "Redux"
+    "advanced": {
+      "docs": [
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://docs.flutter.dev/get-started/fundamentals/state-management",
+        "https://admob.google.com/home/",
+        "https://support.google.com/googlenest/answer/13323253?hl=en",
+        "https://cloud.google.com/dialogflow/cx/docs"
       ],
-      "correct_option": 3,
-      "hint": "This library is popular for managing the state of large applications with a single source of truth."
-    },
-    {
-      "question": "Which Android architecture component provides a lifecycle-aware way to manage UI-related data?",
-      "options": [
-        "LiveData",
-        "Redux",
-        "MobX",
-        "Provider"
+      "notes": [
+        "https://docs.flutter.dev/get-started/fundamentals/state-management",
+        "https://flutter.dev/learn",
+        "https://codewithandrea.com/articles/flutter-deep-links/",
+        "https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture",
+        "https://getstream.io/blog/compose-tutorials/",
+        "https://www.wrike.com/project-management-guide/faq/what-are-project-management-tools/",
+        "https://nalexn.github.io/state-management-guide-ios/"
       ],
-      "correct_option": 0,
-      "hint": "This component is part of the Android Jetpack suite and helps with observing data changes."
-    },
-    {
-      "question": "In the context of state management, what is a key benefit of using a centralized state over prop drilling?",
-      "options": [
-        "Easier debugging",
-        "Less boilerplate code",
-        "Improved performance",
-        "Better reusability"
-      ],
-      "correct_option": 3,
-      "hint": "Consider how a centralized state can affect component reusability and state management across the application."
+      "videos": [
+        "https://www.youtube.com/watch?v=SDk_GldOtK8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=56Ihv5MF4_U",
+        "https://www.youtube.com/watch?v=dCLhUialKPQ",
+        "https://www.youtube.com/watch?v=CQc-QDTmCoQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=CzRQ9mnmh44",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://m.youtube.com/watch?v=8cFNtL538lc",
+        "https://www.youtube.com/c/TheAndroidFactory",
+        "https://www.youtube.com/c/divinecoding/videos"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a primary disadvantage of prop drilling in mobile app state management?",
+        "options": [
+          "Increased code complexity",
+          "Improved state visibility",
+          "Better performance",
+          "Simplifies debugging"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how prop drilling affects code maintenance and scalability."
+      },
+      {
+        "question": "Which state management solution in Flutter uses an InheritedWidget to manage state efficiently?",
+        "options": [
+          "Redux",
+          "MobX",
+          "Provider",
+          "ViewModel"
+        ],
+        "correct_option": 2,
+        "hint": "This solution is built into the Flutter framework and is widely used for its simplicity."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In React Native, which library is known for its unidirectional data flow and predictability?",
+        "options": [
+          "Provider",
+          "ViewModel",
+          "MobX",
+          "Redux"
+        ],
+        "correct_option": 3,
+        "hint": "This library is popular for managing the state of large applications with a single source of truth."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which Android architecture component provides a lifecycle-aware way to manage UI-related data?",
+        "options": [
+          "LiveData",
+          "Redux",
+          "MobX",
+          "Provider"
+        ],
+        "correct_option": 0,
+        "hint": "This component is part of the Android Jetpack suite and helps with observing data changes."
+      },
+      {
+        "question": "In the context of state management, what is a key benefit of using a centralized state over prop drilling?",
+        "options": [
+          "Easier debugging",
+          "Less boilerplate code",
+          "Improved performance",
+          "Better reusability"
+        ],
+        "correct_option": 3,
+        "hint": "Consider how a centralized state can affect component reusability and state management across the application."
+      }
+    ]
+  }
 }

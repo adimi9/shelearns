@@ -1,0 +1,283 @@
+{
+  "id": "MD6",
+  "name": "Mastering Backend Development with AWS Amplify",
+  "category": "Mobile Development",
+  "primary_tech": "AWS Amplify",
+  "topics": [
+    "Introduction to AWS Amplify and its ecosystem",
+    "Setting up a serverless backend with Amplify",
+    "Building and managing APIs with AWS Amplify",
+    "Data storage solutions using Amplify DataStore",
+    "User authentication and authorization",
+    "Integrating with other AWS services",
+    "Deploying and managing Amplify applications",
+    "Monitoring and debugging Amplify backends"
+  ],
+  "recommended": false,
+  "tags": [
+    "AWS Amplify",
+    "cloud computing",
+    "backend development",
+    "serverless architecture",
+    "API management"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison",
+        "https://docs.usebasin.com/",
+        "https://workshops.aws/"
+      ],
+      "notes": [
+        "https://ibrahimcesar.cloud/blog/aws-amplify-sam-cdk-what-to-choose-for-infrastructure-as-code-on-aws/",
+        "https://workshops.aws/",
+        "https://www.evergrowingdev.com/p/5-top-free-resources-to-learn-aws",
+        "https://cloudvisor.co/blog/aws-mobile-app-development-a-comprehensive-guide/",
+        "https://www.coursera.org/courses?query=aws",
+        "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+        "https://docs.aws.amazon.com/lambda/latest/dg/lambda-dg.pdf"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=4DUX-Uzddus",
+        "https://www.youtube.com/watch?v=SqTdHCTWqks&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=51r3zPOun5g",
+        "https://www.youtube.com/watch?v=bpHq_-bPkGo",
+        "https://www.youtube.com/watch?v=fHK6e6en0YA",
+        "https://www.youtube.com/watch?v=A2rs1aR-Ryg",
+        "https://www.youtube.com/watch?v=5yImsd8XKVk",
+        "https://www.youtube.com/watch?v=ldYcgPKEZC8",
+        "https://www.youtube.com/channel/UC5ZtVqOSHyivmBNXP8Htnkg",
+        "https://www.youtube.com/c/JGogoi/videos"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison",
+        "https://workshops.aws/",
+        "https://docs.usebasin.com/"
+      ],
+      "notes": [
+        "https://ibrahimcesar.cloud/blog/aws-amplify-sam-cdk-what-to-choose-for-infrastructure-as-code-on-aws/",
+        "https://workshops.aws/",
+        "https://github.com/cloudposse/terraform-aws-amplify-app",
+        "https://kane.mx/posts/2024/aws-amplify-you-need-to-know/",
+        "https://cloudvisor.co/blog/aws-mobile-app-development-a-comprehensive-guide/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=FLQok6PGg3E",
+        "https://www.youtube.com/watch?v=mRUPnke5zNg",
+        "https://www.youtube.com/watch?v=actyksjs9eE",
+        "https://www.youtube.com/watch?v=SIl5PM4m2KM",
+        "https://www.youtube.com/watch?v=51r3zPOun5g",
+        "https://www.youtube.com/watch?v=2L_XE6g3atI",
+        "https://m.youtube.com/watch?v=eRXXgT88aMM&pp=ygUGI3Rlw6do",
+        "https://www.youtube.com/watch?v=wYpCWwD1oz0",
+        "https://www.youtube.com/c/TechTalkwithRitesh",
+        "https://www.youtube.com/watch?v=Cz0unTbOfgo"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://workshops.aws/",
+        "https://docs.usebasin.com/",
+        "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison",
+        "https://www.serverlessguru.com/blog/deep-dive-into-vpc-links-in-amazon-api-gateway"
+      ],
+      "notes": [
+        "https://workshops.aws/",
+        "https://www.linkedin.com/posts/dreamerkumar_using-web-components-and-aws-amplify-gen-activity-7223335821246894081-5GeM",
+        "https://kane.mx/posts/2024/aws-amplify-you-need-to-know/",
+        "https://docs.aws.amazon.com/serverless/latest/devguide/serverless-core.pdf",
+        "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+        "https://www.serverlessguru.com/blog/deep-dive-into-vpc-links-in-amazon-api-gateway"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=mRUPnke5zNg",
+        "https://www.youtube.com/watch?v=2L_XE6g3atI",
+        "https://www.youtube.com/watch?v=5yImsd8XKVk",
+        "https://www.youtube.com/watch?v=FvCt7GxvRDA&pp=ygUSI2NlcnRpZmllZGxlYXJuaW5n",
+        "https://www.youtube.com/watch?v=fdsToXyIZTA",
+        "https://www.youtube.com/watch?v=SqTdHCTWqks&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=_bwDxDiP5Nw",
+        "https://www.youtube.com/watch?v=pqQGU-JsD7k"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is AWS Amplify primarily used for?",
+        "options": [
+          "Front-end development",
+          "Back-end development",
+          "Database management",
+          "Network configuration"
+        ],
+        "correct_option": 1,
+        "hint": "AWS Amplify is focused on handling server-side operations."
+      },
+      {
+        "question": "Which feature of AWS Amplify helps in building and managing APIs?",
+        "options": [
+          "Amplify Console",
+          "Amplify DataStore",
+          "Amplify API",
+          "Amplify Storage"
+        ],
+        "correct_option": 2,
+        "hint": "This feature focuses on creating interfaces for applications to interact with."
+      },
+      {
+        "question": "How does AWS Amplify handle user authentication and authorization?",
+        "options": [
+          "Using IAM roles",
+          "Using Amplify Auth",
+          "Through API Gateway",
+          "Using S3 Buckets"
+        ],
+        "correct_option": 1,
+        "hint": "This feature is part of Amplify's suite for managing user access."
+      },
+      {
+        "question": "What is Amplify DataStore used for?",
+        "options": [
+          "Storing and syncing data",
+          "Authenticating users",
+          "Managing API endpoints",
+          "Deploying applications"
+        ],
+        "correct_option": 0,
+        "hint": "This feature is concerned with data storage solutions."
+      },
+      {
+        "question": "Which AWS service is NOT directly integrated with AWS Amplify?",
+        "options": [
+          "DynamoDB",
+          "Lambda",
+          "EC2",
+          "S3"
+        ],
+        "correct_option": 2,
+        "hint": "This service is primarily used for virtual servers, not directly managed by Amplify."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a primary purpose of AWS Amplify in backend development?",
+        "options": [
+          "To provide a comprehensive suite for building and managing serverless applications",
+          "To create virtual machines for hosting applications",
+          "To manage networking and firewall configurations",
+          "To automate CI/CD pipelines for containerized applications"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how AWS Amplify simplifies backend processes."
+      },
+      {
+        "question": "Which AWS service is commonly integrated with AWS Amplify to enhance user authentication capabilities?",
+        "options": [
+          "Amazon S3",
+          "AWS Lambda",
+          "Amazon Cognito",
+          "AWS CloudFormation"
+        ],
+        "correct_option": 2,
+        "hint": "This service specializes in managing user identities."
+      },
+      {
+        "question": "When using Amplify DataStore, what is the primary benefit it provides for data storage?",
+        "options": [
+          "Facilitates real-time and offline data synchronization",
+          "Increases storage capacity in Amazon S3",
+          "Enhances data encryption standards",
+          "Provides automated backups for databases"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how DataStore handles data when the device is offline."
+      },
+      {
+        "question": "Which AWS service can be used to monitor and debug backend operations in AWS Amplify?",
+        "options": [
+          "Amazon CloudWatch",
+          "AWS Elastic Beanstalk",
+          "AWS Step Functions",
+          "Amazon RDS"
+        ],
+        "correct_option": 0,
+        "hint": "This service is known for logging and monitoring AWS resources."
+      },
+      {
+        "question": "What type of backend architecture does AWS Amplify primarily support?",
+        "options": [
+          "Monolithic architecture",
+          "Client-server architecture",
+          "Serverless architecture",
+          "Microservices architecture"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the nature of Amplify's deployment model."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a key advantage of using AWS Amplify for building and managing APIs compared to traditional backend frameworks?",
+        "options": [
+          "Serverless architecture reduces infrastructure management overhead.",
+          "It provides built-in SQL database integration.",
+          "Allows direct access to AWS EC2 instances.",
+          "Offers automatic code refactoring for legacy systems."
+        ],
+        "correct_option": 0,
+        "hint": "Consider what serverless architecture implies for managing infrastructure."
+      },
+      {
+        "question": "When setting up user authentication with AWS Amplify, which service is primarily used to manage user identities and credentials?",
+        "options": [
+          "AWS IAM",
+          "Amazon Cognito",
+          "AWS Lambda",
+          "AWS S3"
+        ],
+        "correct_option": 1,
+        "hint": "Think of a service specifically designed for user pools and identity management."
+      },
+      {
+        "question": "Which feature of AWS Amplify DataStore allows it to efficiently handle offline data access and synchronization?",
+        "options": [
+          "Direct SQL queries",
+          "Optimistic concurrency control",
+          "Real-time data processing",
+          "GraphQL schema stitching"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how data consistency is maintained in distributed systems with potential conflicts."
+      },
+      {
+        "question": "In the context of integrating AWS Amplify with other AWS services, what role does AWS Lambda play?",
+        "options": [
+          "It provides a NoSQL database service.",
+          "It serves as a compute service for running code in response to events.",
+          "It manages user authentication and authorization.",
+          "It stores and retrieves media files."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how AWS Lambda is used in event-driven architectures."
+      },
+      {
+        "question": "Which tool or service would you use to monitor and debug AWS Amplify backend applications efficiently?",
+        "options": [
+          "Amazon CloudWatch",
+          "AWS CodeBuild",
+          "AWS CloudFormation",
+          "Amazon RDS"
+        ],
+        "correct_option": 0,
+        "hint": "Consider a service that aggregates logs and metrics for AWS services."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User is already in the AWS ecosystem",
+    "Needs more customization and control"
+  ]
+}

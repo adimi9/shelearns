@@ -15,105 +15,154 @@
     "compliance"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
-        "description": "A comprehensive guide on web accessibility best practices and techniques to ensure inclusive digital experiences for all users."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
-        "description": "An overview of Accessible Rich Internet Applications (ARIA) and how to enhance web accessibility using ARIA roles, properties, and states."
-      },
-      {
-        "url": "https://legacy.reactjs.org/docs/accessibility.html",
-        "description": "This page provides guidelines and best practices for ensuring accessibility in React applications."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/accessibility/",
-        "description": "An educational guide on web accessibility standards and best practices for creating inclusive websites."
-      },
-      {
-        "url": "https://www.w3schools.com/html/html_accessibility.asp",
-        "description": "This page provides guidelines and examples for enhancing web accessibility using HTML."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/best-practices-for-writing-accessible-technical-documentation/",
-        "description": "A guide to best practices for creating accessible and inclusive technical documentation."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/build-an-accessible-web-app-with-html-sass-and-javascript/",
-        "description": "A guide to building an accessible web application using HTML, SASS, and JavaScript."
-      },
-      {
-        "url": "https://www.w3schools.com/accessibility/accessibility_screen_readers.php",
-        "description": "A guide on how to make web content accessible for screen readers, enhancing usability for visually impaired users."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=e2nkq3h1P68",
-      "https://www.youtube.com/watch?v=2oiBKSjOOFE",
-      "https://www.youtube.com/watch?v=VyWRmepESoQ",
-      "https://www.youtube.com/watch?v=WQiFPrkBoWU",
-      "https://www.youtube.com/watch?v=7hNgdIhZedc"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of using semantic HTML in web accessibility?",
-      "options": [
-        "To enhance website appearance",
-        "To improve website loading speed",
-        "To provide meaningful structure to web content",
-        "To enable advanced graphics on a webpage"
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+        "https://www.w3.org/TR/WCAG21/",
+        "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
+        "https://legacy.reactjs.org/docs/accessibility.html",
+        "https://www.a11yproject.com/"
       ],
-      "correct_option": 2,
-      "hint": "Semantic HTML helps in conveying the structure and meaning of web content to assistive technologies."
+      "notes": [
+        "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+        "https://www.a11yproject.com/checklist/",
+        "https://web.dev/learn/accessibility",
+        "https://www.a11yproject.com/",
+        "https://www.deque.com/web-accessibility-beginners-guide/",
+        "https://www.w3.org/TR/WCAG21/",
+        "https://www.w3schools.com/accessibility/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=e2nkq3h1P68",
+        "https://www.youtube.com/watch?v=NEK3aMPs1Us",
+        "https://www.youtube.com/watch?v=nUBpmGHxDro",
+        "https://www.youtube.com/watch?v=DgFXUx2QwB0",
+        "https://www.youtube.com/watch?v=xdyir8CAp8U",
+        "https://www.youtube.com/watch?v=gzI1y1wBCWw",
+        "https://www.youtube.com/playlist?list=PLYDwWPRvXB8-8LG2hZv25HO6C3w_vezZb",
+        "https://www.youtube.com/playlist?list=PL0Zuz27SZ-6PA3nkkEAr91n4bK-NunwPU",
+        "https://www.youtube.com/kevinpowell",
+        "https://www.youtube.com/watch?v=20SHvU2PKsM"
+      ]
     },
-    {
-      "question": "Which ARIA attribute would you use to define a button's current expanded state to screen readers?",
-      "options": [
-        "aria-label",
-        "aria-expanded",
-        "aria-checked",
-        "aria-pressed"
+    "intermediate": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
+        "https://legacy.reactjs.org/docs/accessibility.html",
+        "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles"
       ],
-      "correct_option": 1,
-      "hint": "This ARIA attribute is often used in conjunction with collapsible elements."
+      "notes": [
+        "https://www.a11yproject.com/checklist/",
+        "https://legacy.reactjs.org/docs/accessibility.html",
+        "https://www.w3.org/TR/WCAG21/",
+        "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA",
+        "https://www.w3.org/WAI/tutorials/images/decorative/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=0hqhAIjE_8I",
+        "https://www.youtube.com/watch?v=CqxfrrMwhaY",
+        "https://www.youtube.com/watch?v=gzI1y1wBCWw",
+        "https://www.youtube.com/watch?v=-YwZC2_nWc4",
+        "https://www.youtube.com/watch?v=-dBsgG7L2EQ",
+        "https://m.youtube.com/watch?v=-n5Ul7WPc3Y&t=0s",
+        "https://www.youtube.com/watch?v=HFiuCh5fmeA",
+        "https://www.youtube.com/watch?v=LE1DqB5NIm4",
+        "https://www.youtube.com/watch?v=1A6SrPwmGpg"
+      ]
     },
-    {
-      "question": "What is a key guideline when testing web accessibility?",
-      "options": [
-        "Only test on desktop browsers",
-        "Disable CSS during testing",
-        "Use a screen reader for testing",
-        "Rely solely on automated tools"
+    "advanced": {
+      "docs": [
+        "https://www.w3.org/TR/WCAG21/",
+        "https://dequeuniversity.com/",
+        "https://docs.flutter.dev/ui/accessibility-and-internationalization/accessibility",
+        "https://www.deque.com/axe/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development"
       ],
-      "correct_option": 2,
-      "hint": "Testing with assistive technologies provides insight into real user experiences."
-    },
-    {
-      "question": "What does the term 'a11y' stand for in web development?",
-      "options": [
-        "Application scalability",
-        "Accessibility",
-        "Anonymous login",
-        "Advanced logic"
+      "notes": [
+        "https://www.a11y-collective.com/blog/html-screen-reader/",
+        "https://www.w3.org/TR/WCAG21/",
+        "https://dequeuniversity.com/",
+        "https://www.a11y-collective.com/category/code/page/2/",
+        "https://www.ssa.gov/accessibility/andi/help/install.html",
+        "https://www.deque.com/web-accessibility-beginners-guide/",
+        "https://wpmudev.com/blog/making-wordpress-accessible/"
       ],
-      "correct_option": 1,
-      "hint": "The term is a numeronym for a key aspect of inclusive web design."
-    },
-    {
-      "question": "Which of the following is NOT considered a primary technology under web accessibility standards?",
-      "options": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Python"
-      ],
-      "correct_option": 3,
-      "hint": "Focus on technologies that are directly involved in creating web interfaces."
+      "videos": [
+        "https://www.youtube.com/watch?v=e2nkq3h1P68",
+        "https://www.youtube.com/watch?v=-YwZC2_nWc4",
+        "https://www.youtube.com/watch?v=Y6ZHcKhV6JM",
+        "https://www.youtube.com/watch?v=HFiuCh5fmeA",
+        "https://www.youtube.com/watch?v=kHfW23Gb2_Q",
+        "https://www.youtube.com/watch?v=a01vcZMTJqU",
+        "https://www.youtube.com/watch?v=cfVUds5GgsE",
+        "https://www.youtube.com/watch?v=Gm_bD1abFXI",
+        "https://www.youtube.com/kevinpowell",
+        "https://www.youtube.com/watch?v=V1ZgXuPKF7k"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of using semantic HTML in web accessibility?",
+        "options": [
+          "To enhance website appearance",
+          "To improve website loading speed",
+          "To provide meaningful structure to web content",
+          "To enable advanced graphics on a webpage"
+        ],
+        "correct_option": 2,
+        "hint": "Semantic HTML helps in conveying the structure and meaning of web content to assistive technologies."
+      },
+      {
+        "question": "Which ARIA attribute would you use to define a button's current expanded state to screen readers?",
+        "options": [
+          "aria-label",
+          "aria-expanded",
+          "aria-checked",
+          "aria-pressed"
+        ],
+        "correct_option": 1,
+        "hint": "This ARIA attribute is often used in conjunction with collapsible elements."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a key guideline when testing web accessibility?",
+        "options": [
+          "Only test on desktop browsers",
+          "Disable CSS during testing",
+          "Use a screen reader for testing",
+          "Rely solely on automated tools"
+        ],
+        "correct_option": 2,
+        "hint": "Testing with assistive technologies provides insight into real user experiences."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What does the term 'a11y' stand for in web development?",
+        "options": [
+          "Application scalability",
+          "Accessibility",
+          "Anonymous login",
+          "Advanced logic"
+        ],
+        "correct_option": 1,
+        "hint": "The term is a numeronym for a key aspect of inclusive web design."
+      },
+      {
+        "question": "Which of the following is NOT considered a primary technology under web accessibility standards?",
+        "options": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Python"
+        ],
+        "correct_option": 3,
+        "hint": "Focus on technologies that are directly involved in creating web interfaces."
+      }
+    ]
+  }
 }

@@ -1,0 +1,458 @@
+{
+  "id": "FE17",
+  "name": "Mastering SvelteKit for Backend Development",
+  "category": "Frontend Development",
+  "primary_tech": "SvelteKit",
+  "topics": [
+    "Introduction to SvelteKit and its architecture",
+    "Setting up a SvelteKit project",
+    "Server-side rendering with SvelteKit",
+    "Building RESTful APIs with SvelteKit",
+    "State management in SvelteKit applications",
+    "Integrating databases and data fetching",
+    "Authentication and authorization in SvelteKit",
+    "Deploying SvelteKit applications"
+  ],
+  "recommended": false,
+  "tags": [
+    "sveltekit",
+    "backend",
+    "web-development",
+    "server-side",
+    "api",
+    "javascript",
+    "fullstack"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://github.com/sveltejs/kit/issues/8524",
+          "description": "Discussion and solutions for handling environment variables in SvelteKit.",
+          "title": "Sveltekit documentation is not beginner friendly at all. \u00b7 Issue #8524 \u00b7 sveltejs/kit"
+        },
+        {
+          "url": "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+          "description": "Discussion on resolving file name casing issues in C++ projects on Stack Overflow.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://codelabs.developers.google.com/",
+          "description": "Interactive tutorials for developers to learn coding and build projects using Google technologies.",
+          "title": "Google Codelabs"
+        },
+        {
+          "url": "https://svelte.dev/tutorial",
+          "description": "An interactive tutorial for learning the Svelte JavaScript framework.",
+          "title": "Introduction / Welcome to Svelte \u2022 Svelte Tutorial"
+        },
+        {
+          "url": "https://sveltekit.io/blog/sveltekit-api",
+          "description": "An introduction to building APIs with SvelteKit.",
+          "title": "Let's Build an API with SvelteKit"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://svelte.dev/tutorial",
+          "description": "An interactive tutorial for learning the Svelte JavaScript framework.",
+          "title": "Introduction / Welcome to Svelte \u2022 Svelte Tutorial"
+        },
+        {
+          "url": "https://github.com/sveltejs/kit/issues/8524",
+          "description": "Discussion and tracking of an issue related to adapter-static in SvelteKit.",
+          "title": "Sveltekit documentation is not beginner friendly at all. \u00b7 Issue #8524 \u00b7 sveltejs/kit"
+        },
+        {
+          "url": "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+          "description": "Discussion on resolving filename casing issues in C++ projects on Stack Overflow.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://sveltekit.io/blog/sveltekit-api",
+          "description": "An introduction to creating APIs with SvelteKit.",
+          "title": "Let's Build an API with SvelteKit"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=MoGkX4RvZ38",
+          "title": "Learn How To Build Modern Web Apps With SvelteKit",
+          "duration": "300m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TIbL0VOE900",
+          "title": "Learn SvelteKit by building a Full Stack CRUD app | SvelteKit & Firebase (Auth + DB)",
+          "duration": "80m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AARXJkJBbJ4",
+          "title": "Mastering Full Stack App Development: Udemy Clone | Code Baseline #06",
+          "duration": "11m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=kYGCxNUTozI",
+          "title": "\ud83d\udd25 Svelte 5 E-Commerce App (Part 1) | \ud83d\udce6 SvelteKit, TypeScript, Prisma, Lucia, Super-Forms",
+          "duration": "114m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mAcKzdW5fR8",
+          "title": "Using WebSockets With SvelteKit",
+          "duration": "10m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-2UjwQzxvBQ",
+          "title": "SvelteKit & TailwindCSS Tutorial \u2013 Build & Deploy a Web Portfolio",
+          "duration": "73m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=b2ftRSX1iZ0",
+          "title": "\ud83d\udd25 Build the Ultimate Learning Platform with SvelteKit, PocketBase & TailwindCSS! \ud83d\ude80 (Udemy Clone)",
+          "duration": "475m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OpXLWJd2iO0",
+          "title": "Inertia 2.0: It's like Next but better (and you can use React!)",
+          "duration": "19m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://github.com/sveltejs/kit/issues/8524",
+          "description": "Discussion and tracking of a specific issue related to SvelteKit's functionality or bug.",
+          "title": "Sveltekit documentation is not beginner friendly at all. \u00b7 Issue #8524 \u00b7 sveltejs/kit"
+        },
+        {
+          "url": "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+          "description": "Discussion on resolving filename casing issues in C++ projects on different operating systems.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://sveltekit.io/blog/sveltekit-auth",
+          "description": "An overview of authentication strategies in SvelteKit applications.",
+          "title": "SvelteKit Auth - Let's Decide What To Use"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=41889674",
+          "description": "A discussion on Hacker News about the latest trends in AI technology.",
+          "title": "Svelte 5 Released | Hacker News"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://github.com/sveltejs/kit/issues/8524",
+          "description": "Discussion and tracking of a specific issue related to SvelteKit framework development.",
+          "title": "Sveltekit documentation is not beginner friendly at all. \u00b7 Issue #8524 \u00b7 sveltejs/kit"
+        },
+        {
+          "url": "https://sveltekit.io/blog/sveltekit-auth",
+          "description": "An overview of authentication strategies and implementations in SvelteKit.",
+          "title": "SvelteKit Auth - Let's Decide What To Use"
+        },
+        {
+          "url": "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+          "description": "Discussion on resolving file name casing issues in C++ projects on Stack Overflow.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=41889674",
+          "description": "Discussion on Hacker News about a new programming language feature release.",
+          "title": "Svelte 5 Released | Hacker News"
+        },
+        {
+          "url": "https://sveltekit.io/blog/svelte-vs-sveltekit",
+          "description": "A comparative analysis of Svelte and SvelteKit highlighting their differences and use cases.",
+          "title": "Svelte Vs Sveltekit"
+        },
+        {
+          "url": "https://codelabs.developers.google.com/",
+          "description": "Step-by-step tutorials for Google technologies and APIs.",
+          "title": "Google Codelabs"
+        },
+        {
+          "url": "https://cloudinary.com/guides/front-end-development/integrating-cloudinary-with-svelte-and-sveltekit",
+          "description": "A guide on integrating Cloudinary with Svelte and SvelteKit for front-end development.",
+          "title": "Integrating Cloudinary with Svelte and SvelteKit | Cloudinary"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=mAcKzdW5fR8",
+          "title": "Using WebSockets With SvelteKit",
+          "duration": "10m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SF5o1v0pGLc",
+          "title": "Top 5 React Frameworks in 2025 | Remix, Gatsby, Astro, Blitz, and Next.js",
+          "duration": "11m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=F6O2xxV0UOg",
+          "title": "Building User Auth Service with Prisma ORM and Nest JS #18",
+          "duration": "27m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://codelabs.developers.google.com/",
+          "description": "Interactive tutorials for learning Google technologies and APIs.",
+          "title": "Google Codelabs"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=41889674",
+          "description": "Discussion on Hacker News about the implications of a new technology or startup.",
+          "title": "Svelte 5 Released | Hacker News"
+        },
+        {
+          "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+          "description": "A detailed guide on setting up and managing self-hosted services and applications.",
+          "title": "GitHub - mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking."
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=30206989",
+          "description": "A discussion thread on Hacker News about the impact and future of quantum computing.",
+          "title": "Don't make me think, or why I switched to Rails from JavaScript SPAs | Hacker News"
+        },
+        {
+          "url": "https://grafana.com/docs/alloy/latest/",
+          "description": "Documentation for Alloy, Grafana's open-source data visualization and monitoring tool.",
+          "title": "Grafana Alloy | Grafana Alloy documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+          "description": "A detailed guide on setting up and managing self-hosted services and applications.",
+          "title": "GitHub - mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking."
+        },
+        {
+          "url": "https://www.linkedin.com/posts/r-ahulanand_hackathon-indigo-lab37-activity-7224844818722521088-7vqp",
+          "description": "Highlights from a hackathon event organized by Indigo Lab37 featuring innovative tech projects.",
+          "title": "One should face failures to know the real value of success. | Rahul Anand"
+        },
+        {
+          "url": "https://svar.dev/blog/svelte-learning-resources/",
+          "description": "A curated list of resources for learning Svelte, a modern JavaScript framework.",
+          "title": "A List of the Best Resources for Learning Svelte | SVAR Blog"
+        },
+        {
+          "url": "https://codelabs.developers.google.com/",
+          "description": "A platform offering guided, hands-on coding tutorials for developers to learn Google technologies.",
+          "title": "Google Codelabs"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=41889674",
+          "description": "Discussion thread on Hacker News about the latest advancements in AI technology.",
+          "title": "Svelte 5 Released | Hacker News"
+        },
+        {
+          "url": "https://www.coursera.org/partners/packt",
+          "description": "An educational platform offering online courses and resources in partnership with Packt Publishing.",
+          "title": "Packt Online Courses | Coursera"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=42279172",
+          "description": "Discussion on Hacker News about a recent tech development or issue.",
+          "title": "If not React, then what? | Hacker News"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=EtV-0zTCPxQ",
+          "title": "Building a Full-Stack Application with trpc and React | Step-by-Step Tutorial",
+          "duration": "84m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=F6O2xxV0UOg",
+          "title": "Building User Auth Service with Prisma ORM and Nest JS #18",
+          "duration": "27m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=kyStFUrqCO0",
+          "title": "Dialog with Shadcn UI in your Next js projects | Part 13",
+          "duration": "10m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is SvelteKit primarily used for in web development?",
+        "options": [
+          "Front-end development",
+          "Back-end development",
+          "Database management",
+          "Mobile app development"
+        ],
+        "correct_option": 1,
+        "hint": "SvelteKit is a framework built on top of Svelte for full-stack development."
+      },
+      {
+        "question": "Which command is used to create a new SvelteKit project?",
+        "options": [
+          "npx create-svelte my-app",
+          "svelte init my-app",
+          "npm install sveltekit",
+          "git clone sveltekit-template"
+        ],
+        "correct_option": 0,
+        "hint": "It involves using 'npx' with 'create-svelte'."
+      },
+      {
+        "question": "What is a key feature of server-side rendering in SvelteKit?",
+        "options": [
+          "It improves SEO and performance",
+          "It only works with static sites",
+          "It requires no server setup",
+          "It automatically updates the database"
+        ],
+        "correct_option": 0,
+        "hint": "This feature makes web pages more accessible to search engines."
+      },
+      {
+        "question": "Which of the following is a benefit of using SvelteKit for building RESTful APIs?",
+        "options": [
+          "Automatic endpoint generation",
+          "No need for routing setup",
+          "Built-in RESTful methods",
+          "Serverless architecture by default"
+        ],
+        "correct_option": 0,
+        "hint": "SvelteKit provides convenient ways to handle endpoints."
+      },
+      {
+        "question": "What is the purpose of state management in SvelteKit applications?",
+        "options": [
+          "To manage user authentication",
+          "To handle application data consistency",
+          "To deploy the application",
+          "To integrate third-party APIs"
+        ],
+        "correct_option": 1,
+        "hint": "State management is crucial for data handling across components."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of SvelteKit in the context of backend development?",
+        "options": [
+          "To handle frontend styling",
+          "To manage state within a single-page application",
+          "To provide a framework for server-side rendering and routing",
+          "To facilitate database migrations"
+        ],
+        "correct_option": 2,
+        "hint": "Consider SvelteKit's role in both client and server-side operations."
+      },
+      {
+        "question": "Which command is used to create a new SvelteKit project?",
+        "options": [
+          "npx create-svelte my-app",
+          "svelte new my-app",
+          "npm init svelte my-app",
+          "create-svelte-app my-app"
+        ],
+        "correct_option": 0,
+        "hint": "The command leverages npx to execute quickly without global installation."
+      },
+      {
+        "question": "In SvelteKit, which of the following best describes server-side rendering (SSR)?",
+        "options": [
+          "Rendering HTML on the client-side only",
+          "Generating HTML on the server before sending it to the client",
+          "Compiling JavaScript on the server",
+          "Caching responses in the client browser"
+        ],
+        "correct_option": 1,
+        "hint": "SSR involves pre-rendering HTML on the server."
+      },
+      {
+        "question": "What feature does SvelteKit use to manage state across multiple components?",
+        "options": [
+          "Context API",
+          "Redux",
+          "Vuex",
+          "MobX"
+        ],
+        "correct_option": 0,
+        "hint": "This feature allows passing data through the component tree without manually passing props."
+      },
+      {
+        "question": "Which method is commonly used for data fetching in a SvelteKit application?",
+        "options": [
+          "XMLHttpRequest",
+          "fetch",
+          "axios",
+          "GraphQL"
+        ],
+        "correct_option": 1,
+        "hint": "This method is native to JavaScript and widely used for making HTTP requests."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following best describes the role of the `+page.server.js` file in a SvelteKit project?",
+        "options": [
+          "It contains client-side JavaScript logic.",
+          "It defines server-side logic, including data fetching and actions.",
+          "It is used for defining CSS styles globally.",
+          "It configures the routing for the application."
+        ],
+        "correct_option": 1,
+        "hint": "This file is responsible for handling server-side logic and data processing."
+      },
+      {
+        "question": "In SvelteKit, what is the purpose of the `load` function within a `+page.js` file?",
+        "options": [
+          "To manage state globally across the application.",
+          "To initiate server-side rendering of the page.",
+          "To fetch data and pass it as props to the component.",
+          "To define routing paths for the application."
+        ],
+        "correct_option": 2,
+        "hint": "This function is used for data fetching and providing data to components."
+      },
+      {
+        "question": "How does SvelteKit enhance performance with server-side rendering (SSR)?",
+        "options": [
+          "By executing all JavaScript on the client side.",
+          "By pre-rendering pages on the server before sending them to the client.",
+          "By loading all data on the client side after the initial page load.",
+          "By using client-side routing exclusively."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how the server processes pages before they reach the client."
+      },
+      {
+        "question": "When integrating databases with SvelteKit, which approach is recommended for secure data fetching?",
+        "options": [
+          "Directly querying the database from the client-side code.",
+          "Using the `fetch` API in server-side endpoints to interact with the database.",
+          "Embedding database queries within Svelte components.",
+          "Storing database credentials in client-side environment variables."
+        ],
+        "correct_option": 1,
+        "hint": "Consider where database queries should be handled to maintain security."
+      },
+      {
+        "question": "What is a primary benefit of using SvelteKit's built-in form actions for handling form submissions?",
+        "options": [
+          "They automatically validate user input on the client side.",
+          "They allow server-side processing without JavaScript.",
+          "They enable seamless integration of third-party libraries.",
+          "They provide automatic data binding without user intervention."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how SvelteKit's form actions process data without requiring client-side JavaScript."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User prefers Svelte ecosystem"
+  ]
+}

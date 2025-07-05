@@ -23,107 +23,147 @@
     "gdscript"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://docs.godotengine.org/en/4.4/tutorials/scripting/c_sharp/c_sharp_basics.html",
+        "https://forum.godotengine.org/t/is-godot-gradually-adopting-c-as-its-primary-programming-language/62938",
+        "https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html",
+        "https://firebase.google.com/docs/hosting"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=e1zJS31tr88",
+        "https://m.youtube.com/watch?v=1pJyYtBAHks&t=5m53s",
+        "https://www.youtube.com/watch?v=ulfGNtiItnc&pp=ygUKI3BvbGxjYWRvdA%3D%3D",
+        "https://academy.zenva.com/product-category/all/game-development/godot/",
+        "https://www.youtube.com/watch?v=e0JLO_5UgQo",
+        "https://docs.godotengine.org/en/4.4/tutorials/scripting/c_sharp/c_sharp_basics.html",
+        "https://www.youtube.com/watch?v=MOJVjFngOs4"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ulfGNtiItnc&pp=ygUKI3BvbGxjYWRvdA%3D%3D",
+        "https://www.youtube.com/watch?v=e1zJS31tr88",
+        "https://www.youtube.com/watch?v=e0JLO_5UgQo",
+        "https://www.youtube.com/watch?v=j-BRiTrw_F0",
+        "https://www.youtube.com/watch?v=MOJVjFngOs4",
+        "https://www.youtube.com/watch?v=z14cfTc40uQ",
+        "https://www.youtube.com/watch?v=Yi1iIM-B7XQ&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=QfvBN1KX_UM",
+        "https://m.youtube.com/watch?v=1pJyYtBAHks&t=5m53s"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://forum.godotengine.org/t/is-godot-gradually-adopting-c-as-its-primary-programming-language/62938",
+        "https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html",
+        "https://news.ycombinator.com/item?id=24043427",
+        "https://docs.godotengine.org/en/4.4/tutorials/scripting/c_sharp/c_sharp_basics.html"
+      ],
+      "notes": [
+        "https://forum.godotengine.org/t/are-state-machines-needed/107394",
+        "https://github.com/godotengine/godot-proposals/discussions/4937",
+        "https://news.ycombinator.com/item?id=24043427",
+        "https://github.com/LMMS/lmms/issues/6194",
+        "https://www.snopekgames.com/game/retro-tank-party/devlog/2019/switched-webrtc-networking-and-changed-name-retro-tank-party"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8TcWGk1DJVs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=5hyRBuW560c",
+        "https://www.youtube.com/watch?v=ZEqSuggBKo8",
+        "https://www.youtube.com/watch?v=S6QahmMEOJw",
+        "https://www.youtube.com/watch?v=3V78d_GihDA",
+        "https://www.youtube.com/watch?v=pXSCfpnC1hQ",
+        "https://www.youtube.com/watch?v=RY_B1bmSvs0",
+        "https://www.youtube.com/watch?v=OpL0Gcfn4B4&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://news.ycombinator.com/item?id=24043427",
+        "https://kompute.cc/",
+        "https://aptos.dev/en",
+        "https://workshops.aws/",
+        "https://www.akamai.com/products/api-security"
+      ],
+      "notes": [
+        "https://news.ycombinator.com/item?id=24043427",
+        "https://edw.is/learning-vulkan/",
+        "https://opencourser.com/post/fnyxa2/game-development-the-complete-learning-roadmap",
+        "https://www.amazon.com/C-C-Languages-Tools-Books/b?ie=UTF8&node=3956",
+        "https://www.udemy.com/course/fastapi-the-complete-course/",
+        "https://workshops.aws/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=HGu2hUJrAvQ",
+        "https://www.youtube.com/watch?v=S9BHuodNDlo",
+        "https://www.youtube.com/watch?v=RY_B1bmSvs0",
+        "https://www.youtube.com/watch?v=2bSuuzMwda8",
+        "https://www.youtube.com/watch?v=_pFAqbyQemU"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://www.reddit.com/r/csharp/comments/10xukjk/best_c_book_that_covers_everything_from_beginner/",
-        "description": "Discussion and recommendations for comprehensive C# books covering beginner to advanced topics."
+        "question": "What is a primary reason developers choose Godot Engine over Unity?",
+        "options": [
+          "Higher licensing fees",
+          "Open-source nature",
+          "More complex architecture",
+          "Limited platform support"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the cost and openness of the software."
       },
       {
-        "url": "https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html",
-        "description": "This resource provides a tutorial on implementing high-level multiplayer features in the Godot Engine."
-      },
-      {
-        "url": "https://www.reddit.com/r/godot/comments/1dtq76d/godot_for_experienced_programmers/",
-        "description": "A discussion thread offering insights and advice for experienced programmers transitioning to using the Godot game engine."
+        "question": "Which scripting language is primarily used in Godot Engine?",
+        "options": [
+          "C#",
+          "JavaScript",
+          "Python",
+          "GDScript"
+        ],
+        "correct_option": 3,
+        "hint": "This language is specifically designed for ease of use within Godot."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.reddit.com/r/godot/comments/1kr6mck/struggling_with_godot_tutorials_should_i_continue/",
-        "description": "This discussion on Reddit explores whether to persist with Godot tutorials and shares experiences and advice from the community."
-      },
-      {
-        "url": "https://blog.nimblepros.com/blogs/on-learning-a-new-language/",
-        "description": "This blog post explores effective strategies and insights for learning a new programming language."
-      },
-      {
-        "url": "https://www.reddit.com/r/godot/comments/1dtq76d/godot_for_experienced_programmers/",
-        "description": "A discussion thread offering insights and advice for experienced programmers getting started with the Godot game engine."
-      },
-      {
-        "url": "https://forum.godotengine.org/t/is-godot-gradually-adopting-c-as-its-primary-programming-language/62938",
-        "description": "Discussion on Godot Engine's potential shift towards C# as its primary programming language."
-      },
-      {
-        "url": "https://www.reddit.com/r/VALORANT/comments/w67f0b/advanced_tutorial_for_teaching_the_basics/",
-        "description": "A comprehensive guide for teaching the fundamental mechanics and strategies of VALORANT to beginners."
+        "question": "What is a key advantage of Godot Engine's architecture?",
+        "options": [
+          "Less modular",
+          "Focus on 2D only",
+          "Cleaner and more modular",
+          "Complex and rigid"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how the architecture might aid in game development flexibility."
       }
     ],
-    "videos": [
-      "https://www.reddit.com/r/godot/comments/16t7t99/what_online_courses_for_godot_are_the_bestmost/",
-      "https://github.com/JoseDeFreitas/awesome-youtubers",
-      "https://www.reddit.com/r/godot/comments/1dtq76d/godot_for_experienced_programmers/",
-      "https://dev.to/christinec_dev/lets-learn-godot-4-by-making-an-rpg-part-1-project-overview-setup-bgc",
-      "https://www.reddit.com/r/VALORANT/comments/w67f0b/advanced_tutorial_for_teaching_the_basics/"
+    "advanced": [
+      {
+        "question": "Why might a developer prefer Godot Engine for simpler 2D games?",
+        "options": [
+          "Higher complexity",
+          "Open-source and lightweight",
+          "Expensive tools",
+          "Limited to 3D games"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what makes Godot appealing for smaller scale projects."
+      },
+      {
+        "question": "How does Godot Engine support the open-source community?",
+        "options": [
+          "Closed development process",
+          "Proprietary software",
+          "Community contributions",
+          "Restricted access to source code"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how open-source projects typically grow and improve."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is a primary reason developers choose Godot Engine over Unity?",
-      "options": [
-        "Higher licensing fees",
-        "Open-source nature",
-        "More complex architecture",
-        "Limited platform support"
-      ],
-      "correct_option": 1,
-      "hint": "Consider the cost and openness of the software."
-    },
-    {
-      "question": "Which scripting language is primarily used in Godot Engine?",
-      "options": [
-        "C#",
-        "JavaScript",
-        "Python",
-        "GDScript"
-      ],
-      "correct_option": 3,
-      "hint": "This language is specifically designed for ease of use within Godot."
-    },
-    {
-      "question": "What is a key advantage of Godot Engine's architecture?",
-      "options": [
-        "Less modular",
-        "Focus on 2D only",
-        "Cleaner and more modular",
-        "Complex and rigid"
-      ],
-      "correct_option": 2,
-      "hint": "Think about how the architecture might aid in game development flexibility."
-    },
-    {
-      "question": "Why might a developer prefer Godot Engine for simpler 2D games?",
-      "options": [
-        "Higher complexity",
-        "Open-source and lightweight",
-        "Expensive tools",
-        "Limited to 3D games"
-      ],
-      "correct_option": 1,
-      "hint": "Consider what makes Godot appealing for smaller scale projects."
-    },
-    {
-      "question": "How does Godot Engine support the open-source community?",
-      "options": [
-        "Closed development process",
-        "Proprietary software",
-        "Community contributions",
-        "Restricted access to source code"
-      ],
-      "correct_option": 2,
-      "hint": "Think about how open-source projects typically grow and improve."
-    }
-  ],
   "preferred_if": [
     "User prefers open-source tools",
     "Developing simpler 2D/3D games",

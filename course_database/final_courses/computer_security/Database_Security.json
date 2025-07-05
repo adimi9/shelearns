@@ -1,0 +1,357 @@
+{
+  "id": "CSec2",
+  "name": "Database Security",
+  "category": "Computer Security",
+  "primary_tech": "Database Security",
+  "topics": [
+    "Access Control & Privileges",
+    "Data Encryption at Rest & In Transit",
+    "SQL Injection Prevention",
+    "Auditing & Logging Database Activities"
+  ],
+  "recommended": false,
+  "tags": [
+    "database",
+    "data-protection",
+    "SQL"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/database",
+          "description": "Official documentation for Firebase Realtime Database, covering setup and management."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/",
+          "description": "Official Microsoft documentation for Azure services and solutions."
+        },
+        {
+          "url": "https://firebase.google.com/docs/rules/basics",
+          "description": "An introduction to the basic concepts of Firebase security rules."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.w3schools.com/cybersecurity/",
+          "description": "An introductory guide to cybersecurity concepts and practices."
+        },
+        {
+          "url": "https://www.techtarget.com/searchsecurity/Data-security-guide-Everything-you-need-to-know",
+          "description": "An extensive guide covering all essential aspects of data security."
+        },
+        {
+          "url": "https://docs.oracle.com/en/database/oracle/oracle-database/18/dbseg/introduction-to-oracle-database-security.html",
+          "description": "An introduction to security features and best practices in Oracle Database 18c."
+        },
+        {
+          "url": "https://www.dnsstuff.com/sap-security",
+          "description": "An overview of essential SAP security practices and tools for protecting enterprise systems."
+        },
+        {
+          "url": "https://docs.snowflake.com/en/user-guide/data-sharing-intro",
+          "description": "An introductory guide to data sharing capabilities in Snowflake."
+        },
+        {
+          "url": "https://www.pcisecuritystandards.org/pdfs/pci_ssc_quick_guide.pdf",
+          "description": "A quick guide to understanding PCI Security Standards and compliance requirements."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=xAlR-cwBFSM",
+        "https://www.youtube.com/watch?v=sF014G2BUXM",
+        "https://www.youtube.com/watch?v=qTaOZrDnMzQ",
+        "https://m.youtube.com/watch?v=yuPvoPAlhV4",
+        "https://www.youtube.com/watch?v=dlcZyLVs5kE",
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://www.youtube.com/watch?v=3FumWkHSusY"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html",
+          "description": "A detailed reference guide on configuring security group rules in Amazon EC2."
+        },
+        {
+          "url": "https://docs.datadoghq.com/api/latest/",
+          "description": "Comprehensive documentation for the latest version of Datadog's API."
+        },
+        {
+          "url": "https://firebase.google.com/docs/database",
+          "description": "Official documentation for Firebase Realtime Database usage and features."
+        },
+        {
+          "url": "https://developers.google.com/apis-explorer",
+          "description": "An interactive tool for exploring and testing Google APIs directly in the browser."
+        },
+        {
+          "url": "https://docs.github.com/rest",
+          "description": "Official documentation for GitHub's REST API, detailing endpoints and usage."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.box.com/home",
+          "description": "A secure cloud storage platform for file sharing and collaboration."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+          "description": "Latest release notes and updates for Microsoft Defender for Cloud."
+        },
+        {
+          "url": "https://www.mckinsey.com/featured-insights/artificial-intelligence/notes-from-the-ai-frontier-applications-and-value-of-deep-learning",
+          "description": "An analysis of the applications and economic impact of deep learning technologies."
+        },
+        {
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+          "description": "An overview of key concepts and features of Amazon EC2 for cloud computing."
+        },
+        {
+          "url": "https://support.apple.com/en-us/102651",
+          "description": "Instructions for using iPhone Recovery Mode to restore or update your device."
+        },
+        {
+          "url": "https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html",
+          "description": "An overview of HIPAA security regulations and compliance requirements for professionals."
+        },
+        {
+          "url": "https://www.pcpd.org.hk/english/enforcement/case_notes/casenotes.php",
+          "description": "Case notes detailing data privacy enforcement actions by the Hong Kong Privacy Commissioner."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=n17RCiV5xpA",
+        "https://www.youtube.com/watch?v=NrBJmtD0kEw",
+        "https://www.youtube.com/watch?v=nj_Dup5aUps",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=NT7EsZ6HRus",
+        "https://www.youtube.com/watch?v=Dbvx-98PeL0",
+        "https://www.youtube.com/watch?v=uhyMqbZI6rM"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
+          "description": "Comprehensive documentation for Check Point's latest API offerings."
+        },
+        {
+          "url": "https://developers.arcgis.com/python/latest/",
+          "description": "Comprehensive documentation for using the ArcGIS API with Python for geographic data analysis."
+        },
+        {
+          "url": "https://docs.github.com/rest",
+          "description": "Comprehensive documentation for GitHub's REST API, detailing endpoints and usage."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://support.sap.com/en/my-support/knowledge-base.html",
+          "description": "A resource hub for accessing SAP's knowledge base and support documentation."
+        },
+        {
+          "url": "https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf",
+          "description": "An in-depth guide detailing security features and practices for Apple platforms."
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security",
+          "description": "An introductory guide to understanding the fundamentals of cyber security."
+        },
+        {
+          "url": "https://claroty.com/team82/research/opc-ua-deep-dive-a-complete-guide-to-the-opc-ua-attack-surface",
+          "description": "An in-depth analysis of the OPC UA protocol's vulnerabilities and attack surface."
+        },
+        {
+          "url": "https://www.jit.io/resources/security-standards/the-in-depth-guide-to-owasps-top-10-vulnerabilities",
+          "description": "An in-depth guide to understanding and mitigating OWASP's top 10 security vulnerabilities."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Ow_Uzedfohk&pp=0gcJCdgAo7VqN5tD",
+        "https://m.youtube.com/watch?v=RsxxsEzQhrM&t=1s",
+        "https://www.youtube.com/watch?v=4qC7H-y7oKI&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=2eAPg2SSXyg",
+        "https://www.youtube.com/watch?v=V-u56LjsCp4",
+        "https://www.youtube.com/watch?v=ibvG-pYKl8U",
+        "https://www.youtube.com/watch?v=WkyyT0pmJSw",
+        "https://www.youtube.com/watch?v=dnQSzGeslHw"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of access control in database security?",
+        "options": [
+          "To encrypt data during transmission",
+          "To restrict unauthorized access to data",
+          "To log database activities",
+          "To prevent SQL injection attacks"
+        ],
+        "correct_option": 1,
+        "hint": "It involves setting permissions to limit who can view or use resources."
+      },
+      {
+        "question": "Which of the following is a common method to prevent SQL injection attacks?",
+        "options": [
+          "Using strong passwords",
+          "Implementing firewalls",
+          "Parameterizing SQL queries",
+          "Encrypting data at rest"
+        ],
+        "correct_option": 2,
+        "hint": "It involves using placeholders in SQL statements to prevent code execution."
+      },
+      {
+        "question": "What does encrypting data at rest mean?",
+        "options": [
+          "Data is encrypted only during transmission",
+          "Data is encrypted when stored",
+          "Data is encrypted only when being processed",
+          "Data is encrypted before being deleted"
+        ],
+        "correct_option": 1,
+        "hint": "This type of encryption protects stored data from unauthorized access."
+      },
+      {
+        "question": "Why is auditing and logging database activities important?",
+        "options": [
+          "To improve database performance",
+          "To track and review user activities",
+          "To prevent unauthorized data deletion",
+          "To simplify database management"
+        ],
+        "correct_option": 1,
+        "hint": "It helps in monitoring and detecting suspicious activities."
+      },
+      {
+        "question": "Which technology ensures data privacy during transmission?",
+        "options": [
+          "Access control",
+          "SQL injection",
+          "Data encryption",
+          "Auditing"
+        ],
+        "correct_option": 2,
+        "hint": "It involves scrambling data so it cannot be easily read during transfer."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is a method to prevent SQL injection attacks?",
+        "options": [
+          "Use parameterized queries",
+          "Disable SQL commands",
+          "Allow all user input",
+          "Encrypt database tables"
+        ],
+        "correct_option": 0,
+        "hint": "This method ensures that user inputs are treated as values rather than executable parts of SQL queries."
+      },
+      {
+        "question": "What is the primary purpose of data encryption at rest?",
+        "options": [
+          "To protect data during transmission",
+          "To secure data stored on disk",
+          "To enhance query performance",
+          "To allow anonymous access to data"
+        ],
+        "correct_option": 1,
+        "hint": "This type of encryption focuses on data that is not actively moving through the network."
+      },
+      {
+        "question": "Which action is NOT a part of effective access control management?",
+        "options": [
+          "Regularly updating access permissions",
+          "Using strong authentication methods",
+          "Granting broad access rights by default",
+          "Implementing role-based access control"
+        ],
+        "correct_option": 2,
+        "hint": "This action contradicts the principle of least privilege."
+      },
+      {
+        "question": "How does auditing and logging contribute to database security?",
+        "options": [
+          "By preventing unauthorized access",
+          "By providing evidence of security breaches",
+          "By encrypting data at rest",
+          "By enhancing network speed"
+        ],
+        "correct_option": 1,
+        "hint": "This process helps in tracking and reviewing database activities for suspicious actions."
+      },
+      {
+        "question": "What is a recommended practice for securing data in transit?",
+        "options": [
+          "Storing data in plain text",
+          "Using SSL/TLS protocols",
+          "Relying on network firewalls alone",
+          "Disabling encryption services"
+        ],
+        "correct_option": 1,
+        "hint": "This protocol encrypts data during transmission to protect it from interception."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In the context of access control, which principle ensures that users have the minimum levels of access necessary to perform their job functions?",
+        "options": [
+          "Role-Based Access Control",
+          "Principle of Least Privilege",
+          "Mandatory Access Control",
+          "Discretionary Access Control"
+        ],
+        "correct_option": 1,
+        "hint": "This principle aims to reduce the risk of abuse by limiting access to only what's necessary."
+      },
+      {
+        "question": "Which encryption method is recommended to protect sensitive data during transmission over a network?",
+        "options": [
+          "Symmetric encryption",
+          "Asymmetric encryption",
+          "Hashing",
+          "Tokenization"
+        ],
+        "correct_option": 1,
+        "hint": "This method uses a pair of keys, a public key for encryption and a private key for decryption."
+      },
+      {
+        "question": "What is the most effective method to prevent SQL injection attacks?",
+        "options": [
+          "Using prepared statements and parameterized queries",
+          "Disabling database management interfaces",
+          "Encrypting database connections",
+          "Implementing role-based access control"
+        ],
+        "correct_option": 0,
+        "hint": "This method involves using placeholders for query parameters to prevent malicious input."
+      },
+      {
+        "question": "Which of the following is a primary benefit of auditing and logging database activities?",
+        "options": [
+          "Improving database performance",
+          "Ensuring data consistency",
+          "Detecting unauthorized access",
+          "Enhancing data encryption"
+        ],
+        "correct_option": 2,
+        "hint": "This activity helps in monitoring and reviewing access patterns to identify suspicious behavior."
+      },
+      {
+        "question": "When encrypting data at rest, which technique is crucial to ensure that the data can be securely decrypted by authorized users?",
+        "options": [
+          "Using a strong, unique encryption key for each session",
+          "Storing encryption keys in the same database",
+          "Embedding encryption keys within application code",
+          "Employing a single global encryption key"
+        ],
+        "correct_option": 0,
+        "hint": "This technique involves managing encryption keys separately and securely to maintain control over access."
+      }
+    ]
+  }
+}

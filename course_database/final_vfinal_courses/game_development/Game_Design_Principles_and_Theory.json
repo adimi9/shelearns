@@ -1,0 +1,495 @@
+{
+  "id": "GD10",
+  "name": "Game Design Principles & Theory",
+  "category": "Game Development",
+  "primary_tech": "Game Design",
+  "topics": [
+    "Core Loops & Mechanics",
+    "Player Psychology & Motivation",
+    "Narrative & World Building",
+    "Prototyping & Iteration"
+  ],
+  "recommended": true,
+  "tags": [
+    "game-design",
+    "fundamentals",
+    "theory"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5",
+          "description": "An introductory guide to the fundamental principles of database design.",
+          "title": "Database design basics - Microsoft Support"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_on_the_web/Basic_theory",
+          "description": "An introduction to the fundamental concepts of 3D graphics on the web.",
+          "title": "Explaining basic 3D theory - Game development | MDN"
+        },
+        {
+          "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+          "description": "An introductory guide to SEO best practices for improving search visibility on Google.",
+          "title": "SEO Starter Guide: The Basics | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://ieeexplore.ieee.org/document/10384599/",
+          "description": "An IEEE paper detailing advanced techniques in machine learning for network optimization.",
+          "title": "Request Rejected"
+        },
+        {
+          "url": "https://willkempartschool.com/a-beginners-guide-to-shadow-light-part-1-drawing/",
+          "description": "An introductory guide to understanding and drawing shadows and light for beginners.",
+          "title": "A Beginners Guide to Light & Shadow - Part 1"
+        },
+        {
+          "url": "https://math.berkeley.edu/~evans/control.course.pdf",
+          "description": "Lecture notes on control theory from a course at UC Berkeley."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Game_theory",
+          "description": "An overview of game theory, its principles, applications, and key concepts.",
+          "title": "Game theory - Wikipedia"
+        },
+        {
+          "url": "https://web.sas.upenn.edu/gmailath/books/modeling-strategic-behavior/",
+          "description": "An academic resource on modeling strategic behavior in decision-making contexts.",
+          "title": "Modeling Strategic Behavior \u2013 George J. Mailath | Dept of Economics | Univ of Pennsylvania"
+        },
+        {
+          "url": "https://dl.acm.org/doi/fullHtml/10.1145/3582437.3582470",
+          "description": "An exploration of the architectural challenges and solutions in building scalable blockchain systems.",
+          "title": "Just a moment..."
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=G8AT01tuyrk",
+          "title": "Basic Principles of Game Design",
+          "duration": "9m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dVjibdYG4bs&pp=0gcJCfwAo7VqN5tD",
+          "title": "Introduction to Puzzle Design",
+          "duration": "32m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jWorjBDcty4",
+          "title": "Sound Design COMPLETE course - EVERYTHING you need to know to craft any sound.",
+          "duration": "158m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dFSia1LZI4Y",
+          "title": "What is Graphic Design? Ep1/45 [Beginners Guide to Graphic Design]",
+          "duration": "6m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WONZVnlam6U",
+          "title": "Beginners Guide to Graphic Design | 45 Episode FREE Series",
+          "duration": "3m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FryaH599ec0",
+          "title": "The Gestalt Principles | Basics for Beginners",
+          "duration": "17m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dF96uVR3cKk",
+          "title": "Level Design Fundamentals - Let's Learn Game Design Pt 1",
+          "duration": "21m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ky14FjJSCKg",
+          "title": "Upgrade Your Designs and Layout with Gestalt Theory - NEW SKILLSHARE CLASS!",
+          "duration": "1m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://developer.android.com/topic/architecture",
+          "description": "An overview of recommended architecture patterns for Android app development.",
+          "title": "Guide to app architecture \u00a0|\u00a0 App architecture \u00a0|\u00a0 Android Developers"
+        },
+        {
+          "url": "https://miro.com/",
+          "description": "An online collaborative whiteboard platform for team brainstorming and project planning.",
+          "title": "Miro | The Innovation Workspace"
+        },
+        {
+          "url": "https://vuejs.org/guide/introduction",
+          "description": "An introductory guide to the Vue.js framework for building user interfaces.",
+          "title": "Introduction | Vue.js"
+        },
+        {
+          "url": "https://docs.flutter.dev/resources/architectural-overview",
+          "description": "An overview of Flutter's architecture, explaining its core principles and components.",
+          "title": "Flutter architectural overview | Flutter"
+        },
+        {
+          "url": "https://users.rust-lang.org/t/why-do-all-docs-say-refcell-is-bad/37086",
+          "description": "A discussion exploring the misconceptions and appropriate use cases of RefCell in Rust programming.",
+          "title": "Why do all docs say RefCell is bad? - The Rust Programming Language Forum"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://dl.acm.org/doi/fullHtml/10.1145/3582437.3582470",
+          "description": "An in-depth analysis of the challenges and solutions in implementing privacy-preserving machine learning.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.investopedia.com/terms/g/gametheory.asp",
+          "description": "An overview of game theory concepts and their applications in economics and strategic decision-making.",
+          "title": "Game Theory: A Comprehensive Guide"
+        },
+        {
+          "url": "https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=1002&context=oa_textbooks",
+          "description": "An open-access textbook on data structures and algorithms for computer science students.",
+          "title": "403 Forbidden"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Game_theory",
+          "description": "An overview of game theory, its concepts, and applications in strategic decision making.",
+          "title": "Game theory - Wikipedia"
+        },
+        {
+          "url": "https://www.figma.com/resource-library/design-basics/",
+          "description": "An introductory guide to the fundamental principles of design using Figma.",
+          "title": "Learn Design & Design Basics | Figma"
+        },
+        {
+          "url": "https://www.interaction-design.org/literature/topics/gestalt-principles",
+          "description": "An overview of Gestalt principles and their application in design.",
+          "title": "What are the Gestalt Principles? | IxDF"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=MMqXxhft-vU",
+          "title": "How to Use ChatGPT for Instructional Design",
+          "duration": "46m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uF53xsT7mjc",
+          "title": "Theoretical Foundations of Graph Neural Networks",
+          "duration": "72m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=B-ytMSuwbf8",
+          "title": "Web Design for Beginners | FREE COURSE",
+          "duration": "318m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=-gs8H1GQDV0",
+          "title": "My Guide to Artificial Intelligence in Graphic Design - Prompts, Usage, Legal Issues",
+          "duration": "16m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+          "title": "Web Development Technologies - A Practical Guide",
+          "duration": "163m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ub3P8c87cwk&pp=0gcJCdgAo7VqN5tD",
+          "title": "Intro to Unit Testing in C# using XUnit",
+          "duration": "102m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gT6EpxYo2v8",
+          "title": "Are You Using These 2025 Graphic Design Game-Changers? (Must Know)",
+          "duration": "8m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=UWwNIMHFdW4&pp=0gcJCfwAo7VqN5tD",
+          "title": "60-30-10 Color Rule",
+          "duration": "6m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+          "description": "An introductory guide to SEO best practices for improving website visibility on Google Search.",
+          "title": "SEO Starter Guide: The Basics | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers"
+        },
+        {
+          "url": "https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf",
+          "description": "The official 2020 Scrum Guide detailing the framework and roles for agile project management."
+        },
+        {
+          "url": "https://www.numberanalytics.com/blog/expert-guide-deep-dive-repeated-game-theory",
+          "description": "An expert guide exploring the concepts and applications of repeated game theory.",
+          "title": "Expert Guide: Deep Dive into Repeated Game Theory"
+        },
+        {
+          "url": "https://www.interaction-design.org/literature/topics/design-thinking",
+          "description": "An in-depth exploration of design thinking principles and their application in creative problem-solving.",
+          "title": "What is Design Thinking? \u2014 updated 2025 | IxDF"
+        },
+        {
+          "url": "https://newsletter.pragmaticengineer.com/p/designing-a-payment-system",
+          "description": "An in-depth exploration of the key considerations and strategies for designing a robust payment system.",
+          "title": "Designing a Payment System - by Gergely Orosz"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://commandersherald.com/brew-like-a-game-designer-your-decks-are-keeping-secrets/",
+          "description": "An article on designing Magic: The Gathering decks with strategic insights from game designers.",
+          "title": "Brew like a Game Designer - Your Decks are Keeping Secrets | Commander's Herald"
+        },
+        {
+          "url": "https://www.successpodcast.com/show-notes/2017/3/29/how-a-game-theory-expert-sold-one-billion-bottles-of-tea-what-he-learned-on-the-journey-with-barry-nalebuff",
+          "description": "Insights from a game theory expert on selling one billion bottles of tea and lessons learned.",
+          "title": "How a Game Theory Expert Sold One Billion Bottles of Tea & What He Learned On The Journey with Barry Nalebuff \u2014 The Science of Success Podcast"
+        },
+        {
+          "url": "https://www.365chess.com/chess-openings/Caro-Kann-Defense",
+          "description": "An in-depth exploration of the Caro-Kann Defense chess opening.",
+          "title": "The Complete Guide to Mastering the Caro-Kann Defense | 365Chess"
+        },
+        {
+          "url": "https://www.devtodev.com/resources/articles/20-best-books-for-game-designers",
+          "description": "A curated list of essential books for aspiring and professional game designers.",
+          "title": "devtodev | 20 Best Books for Game Designers"
+        },
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2810866275",
+          "description": "A detailed guide on installing and configuring mods for Stormworks: Build and Rescue.",
+          "title": "Steam Community :: Guide :: UnicornPoacher's Transport Fever 2 Guide"
+        },
+        {
+          "url": "https://www.ellenmacarthurfoundation.org/the-circular-economy-in-detail-deep-dive",
+          "description": "An in-depth exploration of the principles and implementation of the circular economy.",
+          "title": "The circular economy in detail"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=mA79SSv_YEo",
+          "title": "Game Development Books you MUST READ",
+          "duration": "9m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=j6Ule7GXaRs",
+          "title": "Learn Web Design For Beginners - Full Course",
+          "duration": "187m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=eijvNLSljoY",
+          "title": "A DEEP DIVE INTO THE HISTORY OF INTERIOR DESIGN",
+          "duration": "14m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jiBHx5GA1Ko&pp=0gcJCfwAo7VqN5tD",
+          "title": "How to Get Started in Graphic Design in 2025: Beginner\u2019s Guide (Part 1 of FREE Course)",
+          "duration": "6m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8YP1iVMG_Rg",
+          "title": "Master The Italian Game: Chess Strategy Explained",
+          "duration": "19m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MMqXxhft-vU",
+          "title": "How to Use ChatGPT for Instructional Design",
+          "duration": "46m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+          "title": "Web Development Technologies - A Practical Guide",
+          "duration": "163m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+          "title": "[1hr Talk] Intro to Large Language Models",
+          "duration": "59m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fGFl4GjVvrA",
+          "title": "10 Chess Tips To CRUSH Everyone",
+          "duration": "47m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a core loop in game design?",
+        "options": [
+          "A sequence of actions a player repeats throughout the game",
+          "The storyline of the game",
+          "The visual design of game characters",
+          "The background music of the game"
+        ],
+        "correct_option": 0,
+        "hint": "It's a repetitive action sequence that keeps players engaged."
+      },
+      {
+        "question": "Which of the following best describes player motivation in games?",
+        "options": [
+          "Graphics quality",
+          "In-game rewards and progress",
+          "Soundtrack",
+          "Loading screen speed"
+        ],
+        "correct_option": 1,
+        "hint": "Think about what keeps players wanting to achieve more in the game."
+      },
+      {
+        "question": "What role does narrative play in world-building?",
+        "options": [
+          "It sets the gameplay mechanics",
+          "It provides a backstory and context",
+          "It optimizes game performance",
+          "It determines the game's difficulty level"
+        ],
+        "correct_option": 1,
+        "hint": "Narrative helps in creating the story and lore of the game world."
+      },
+      {
+        "question": "What is the purpose of prototyping in game design?",
+        "options": [
+          "To finalize the game graphics",
+          "To test and refine game mechanics",
+          "To launch the game",
+          "To market the game"
+        ],
+        "correct_option": 1,
+        "hint": "Prototyping helps in testing ideas before full development."
+      },
+      {
+        "question": "How do core mechanics relate to player engagement?",
+        "options": [
+          "They dictate the game's soundtrack",
+          "They attract players with visual effects",
+          "They provide fundamental interactions that keep players interested",
+          "They determine the length of the game"
+        ],
+        "correct_option": 2,
+        "hint": "Core mechanics are the essential actions players perform that maintain their interest."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a core loop in game design?",
+        "options": [
+          "A sequence of actions that players repeat frequently throughout the game",
+          "The storyline that drives the game's narrative",
+          "A list of all game mechanics",
+          "The graphical design of a game level"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the repetitive actions players engage in during gameplay."
+      },
+      {
+        "question": "Which of the following is NOT a common player motivation according to player psychology?",
+        "options": [
+          "Social interaction",
+          "Competition",
+          "Game aesthetics",
+          "Speedrunning"
+        ],
+        "correct_option": 3,
+        "hint": "Consider motivations that drive players to engage with the game."
+      },
+      {
+        "question": "In narrative and world building, what is the primary purpose of a game's lore?",
+        "options": [
+          "To provide detailed backstory and context for the game world",
+          "To enhance the game's graphical fidelity",
+          "To define the game's core mechanics",
+          "To design the multiplayer interactions"
+        ],
+        "correct_option": 0,
+        "hint": "Lore often enriches the storytelling aspect of a game."
+      },
+      {
+        "question": "During prototyping and iteration, what is the main goal of creating a prototype?",
+        "options": [
+          "To finalize the game's art style",
+          "To test and refine core gameplay mechanics",
+          "To market the game to potential publishers",
+          "To design the game's soundtrack"
+        ],
+        "correct_option": 1,
+        "hint": "Prototypes are usually simplified versions to explore and improve gameplay."
+      },
+      {
+        "question": "Which game design principle involves understanding what keeps players engaged and returning to the game?",
+        "options": [
+          "Core mechanics",
+          "Player retention",
+          "Narrative depth",
+          "Prototyping"
+        ],
+        "correct_option": 1,
+        "hint": "Think about what maintains a player's interest over time."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following best describes the term 'core loop' in game design?",
+        "options": [
+          "A sequence of repeated actions that keep the player engaged",
+          "A complex narrative that unfolds over time",
+          "The initial tutorial phase of a game",
+          "The graphical style used in the game"
+        ],
+        "correct_option": 0,
+        "hint": "Think about what players consistently do to stay engaged in a game."
+      },
+      {
+        "question": "What is the primary purpose of prototyping in game design?",
+        "options": [
+          "To finalize the game's aesthetic design",
+          "To test game mechanics and iterate based on feedback",
+          "To establish the game's marketing strategy",
+          "To create the final version of the game"
+        ],
+        "correct_option": 1,
+        "hint": "It's an essential process that involves testing and making changes based on what is learned."
+      },
+      {
+        "question": "How does understanding player psychology contribute to game design?",
+        "options": [
+          "It helps in creating complex algorithms for gameplay",
+          "It ensures the game can be easily ported to various platforms",
+          "It aids in designing experiences that maximize player engagement and satisfaction",
+          "It simplifies the process of coding game mechanics"
+        ],
+        "correct_option": 2,
+        "hint": "Consider why players might keep playing a game."
+      },
+      {
+        "question": "In what way does narrative and world-building enhance a game's experience?",
+        "options": [
+          "It provides a visual style for the game",
+          "It allows players to better understand the mechanics",
+          "It creates context and emotional investment for players",
+          "It increases the technical complexity of the game's code"
+        ],
+        "correct_option": 2,
+        "hint": "Think about what makes players care about the game world and its characters."
+      },
+      {
+        "question": "What is an effective strategy for iterating on game mechanics during development?",
+        "options": [
+          "Relying solely on initial design documents",
+          "Ignoring player feedback to maintain original vision",
+          "Conducting playtests and using feedback to make improvements",
+          "Focusing only on graphics and sound design"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how developers can understand if mechanics are working as intended."
+      }
+    ]
+  }
+}

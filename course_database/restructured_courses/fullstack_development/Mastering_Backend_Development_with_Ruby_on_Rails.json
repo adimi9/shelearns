@@ -23,107 +23,150 @@
     "web-applications"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://daily.dev/blog/how-to-start-learning-backend-development-structured-learning-path",
+        "https://guides.rubyonrails.org/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://www.linkedin.com/posts/robertbabaev2001_supabase-security-rubyonrails-activity-7231000049902649344-kg9W",
+        "https://www.numberanalytics.com/blog/mastering-backend-development"
+      ],
+      "notes": [
+        "https://gorails.com/forum/how-did-you-become-good-at-back-end-development-ruby-on-rails",
+        "https://daily.dev/blog/how-to-start-learning-backend-development-structured-learning-path",
+        "https://learntocodewith.me/posts/backend-development/",
+        "https://www.linkedin.com/posts/stewheckenberg_ruby-on-rails-is-the-worst-choice-you-could-activity-7263500922700349440-xM9p",
+        "https://www.designgurus.io/answers/detail/what-is-the-first-language-to-learn-for-backend"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=DhxLOC-9kW0",
+        "https://www.youtube.com/watch?v=E7xd01BOn_4",
+        "https://www.youtube.com/watch?v=BJAwmgRsecE",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=FJiIvFoxqsc",
+        "https://www.youtube.com/watch?v=YZvRrldjf1Y",
+        "https://www.youtube.com/watch?v=iWVXs6GHlRM",
+        "https://www.youtube.com/watch?v=AhAxLiGC7Pc",
+        "https://www.youtube.com/watch?v=HPLqOtyr1qs",
+        "https://www.youtube.com/c/programmingwithmosh"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://shopify.dev/docs/api",
+        "https://daily.dev/blog/how-to-start-learning-backend-development-structured-learning-path",
+        "https://www.linkedin.com/posts/robertbabaev2001_supabase-security-rubyonrails-activity-7231000049902649344-kg9W",
+        "https://news.ycombinator.com/item?id=30206989",
+        "https://docs.astro.build/en/concepts/why-astro/"
+      ],
+      "notes": [
+        "https://daily.dev/blog/how-to-start-learning-backend-development-structured-learning-path",
+        "https://www.linkedin.com/posts/akshaymarch7_nodejs-javascript-activity-7227649877248237569-WNd5",
+        "https://www.fullstackacademy.com/blog/learn-ruby-on-rails-for-free-with-these-6-websites",
+        "https://www.linkedin.com/posts/dustin-specker_software-engineering-devops-activity-7218978506087546884-ikr1",
+        "https://github.com/practical-tutorials/project-based-learning"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=BJAwmgRsecE",
+        "https://www.youtube.com/watch?v=FHTbsZEJspU",
+        "https://www.youtube.com/watch?v=AhAxLiGC7Pc",
+        "https://www.youtube.com/watch?v=4mOkFXyxfsU&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=SF5o1v0pGLc",
+        "https://www.youtube.com/channel/UCxcOPU5S9MiVkvbb_5jlS4g",
+        "https://www.youtube.com/channel/UC3cEGKhg3OERn-ihVsJcb7A"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://daily.dev/blog/how-to-start-learning-backend-development-structured-learning-path",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://shopify.dev/docs/api",
+        "https://www.nilebits.com/blog/2024/02/ruby-on-rails-postgres-supabase/"
+      ],
+      "notes": [
+        "https://www.linkedin.com/posts/lucadelpuppo_this-week-i-received-my-copy-of-mastering-activity-7215314344262197248-C4Sn",
+        "https://daily.dev/blog/how-to-start-learning-backend-development-structured-learning-path",
+        "https://masteringbackend.com/posts/backend-development-ultimate-guide",
+        "https://community.shopify.com/c/shopify-education-and/how-to-become-a-shopify-developer-a-step-by-step-guide/m-p/2831473",
+        "https://roadmap.sh/backend/project-ideas",
+        "https://www.designgurus.io/answers/detail/what-is-the-first-language-to-learn-for-backend",
+        "https://learntocodewith.me/posts/backend-development/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=nnHYfNRGFKQ",
+        "https://www.youtube.com/watch?v=9bGZM4g02Qs",
+        "https://www.youtube.com/watch?v=AhAxLiGC7Pc",
+        "https://www.youtube.com/watch?v=YZvRrldjf1Y",
+        "https://www.youtube.com/watch?v=iWVXs6GHlRM",
+        "https://www.youtube.com/watch?v=rbY1OikZkLI"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Ruby",
-        "description": "An explanation of the \"ruby\" annotation in HTML, used for pronunciation guides and annotations above or alongside text."
+        "question": "What is a key principle of Ruby on Rails that enhances developer productivity?",
+        "options": [
+          "Convention over configuration",
+          "Code first, schema later",
+          "Manual configuration",
+          "Functional programming"
+        ],
+        "correct_option": 0,
+        "hint": "This principle reduces the number of decisions developers need to make."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ruby",
-        "description": "A comprehensive guide on the use and implementation of the HTML `<ruby>` element for annotations in East Asian typography."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies",
-        "description": "A comprehensive guide on using cookies in HTTP, including setting, retrieving, and managing them for web development."
+        "question": "Ruby on Rails is primarily used for what type of development?",
+        "options": [
+          "Frontend development",
+          "Backend development",
+          "Mobile app development",
+          "Desktop application development"
+        ],
+        "correct_option": 1,
+        "hint": "Ruby on Rails is known for its server-side capabilities."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.geeksforgeeks.org/ruby/ruby-on-rails-tutorial/",
-        "description": "A comprehensive tutorial for learning Ruby on Rails, covering fundamental concepts and practical applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/ruby/ruby-on-rails-introduction/",
-        "description": "An introductory guide to Ruby on Rails, explaining its features, benefits, and basic application development."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/i-want-to-learn-ruby-on-rails-from-scratch/431723",
-        "description": "A forum discussion offering guidance and resources for beginners learning Ruby on Rails from scratch."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/lets-create-an-intermediate-level-ruby-on-rails-application-d7c6e997c63f/",
-        "description": "A guide to building an intermediate-level Ruby on Rails application, enhancing your skills with practical examples."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/a-cautionary-tale-of-learning-to-code-my-own-eddb24d9d5a7/",
-        "description": "This article shares a personal journey highlighting the challenges and insights gained while learning to code independently."
+        "question": "Which programming language is Ruby on Rails built on?",
+        "options": [
+          "JavaScript",
+          "Python",
+          "Ruby",
+          "PHP"
+        ],
+        "correct_option": 2,
+        "hint": "This language is known for its elegance and productivity."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=B3Fbujmgo60&pp=0gcJCfwAo7VqN5tD",
-      "https://www.youtube.com/watch?v=pPy0GQJLZUM",
-      "https://www.youtube.com/watch?v=xyDoP5a_dvo",
-      "https://www.youtube.com/watch?v=GY7Ps8fqGdc&pp=0gcJCf0Ao7VqN5tD",
-      "https://www.youtube.com/watch?v=Ei4Aa6RJTyo"
+    "advanced": [
+      {
+        "question": "What kind of framework is Ruby on Rails considered to be?",
+        "options": [
+          "Unopinionated",
+          "Opinionated",
+          "Cross-platform",
+          "Microservices"
+        ],
+        "correct_option": 1,
+        "hint": "This framework type dictates the structure and design patterns of applications."
+      },
+      {
+        "question": "What is a common use case for choosing Ruby on Rails over other frameworks?",
+        "options": [
+          "Low-level system programming",
+          "Rapid web application development",
+          "Game development",
+          "Frontend UI design"
+        ],
+        "correct_option": 1,
+        "hint": "Ruby on Rails is favored for its speed in building web applications."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is a key principle of Ruby on Rails that enhances developer productivity?",
-      "options": [
-        "Convention over configuration",
-        "Code first, schema later",
-        "Manual configuration",
-        "Functional programming"
-      ],
-      "correct_option": 0,
-      "hint": "This principle reduces the number of decisions developers need to make."
-    },
-    {
-      "question": "Ruby on Rails is primarily used for what type of development?",
-      "options": [
-        "Frontend development",
-        "Backend development",
-        "Mobile app development",
-        "Desktop application development"
-      ],
-      "correct_option": 1,
-      "hint": "Ruby on Rails is known for its server-side capabilities."
-    },
-    {
-      "question": "Which programming language is Ruby on Rails built on?",
-      "options": [
-        "JavaScript",
-        "Python",
-        "Ruby",
-        "PHP"
-      ],
-      "correct_option": 2,
-      "hint": "This language is known for its elegance and productivity."
-    },
-    {
-      "question": "What kind of framework is Ruby on Rails considered to be?",
-      "options": [
-        "Unopinionated",
-        "Opinionated",
-        "Cross-platform",
-        "Microservices"
-      ],
-      "correct_option": 1,
-      "hint": "This framework type dictates the structure and design patterns of applications."
-    },
-    {
-      "question": "What is a common use case for choosing Ruby on Rails over other frameworks?",
-      "options": [
-        "Low-level system programming",
-        "Rapid web application development",
-        "Game development",
-        "Frontend UI design"
-      ],
-      "correct_option": 1,
-      "hint": "Ruby on Rails is favored for its speed in building web applications."
-    }
-  ],
   "preferred_if": [
     "User values developer productivity",
     "Likes opinionated frameworks"

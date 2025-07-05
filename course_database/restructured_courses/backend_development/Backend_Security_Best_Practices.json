@@ -15,105 +15,260 @@
     "cybersecurity"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://nodejs.org/en/learn/getting-started/security-best-practices",
-        "description": "A guide on implementing security best practices in Node.js applications to protect against common vulnerabilities."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies",
-        "description": "A comprehensive guide on using cookies in HTTP for managing state and session data on the web."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
-        "description": "A comprehensive guide to implementing Content Security Policy (CSP) to enhance web application security by controlling resources the browser can load."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/blogs/database-security-best-practices/",
-        "description": "A guide to essential best practices for ensuring database security."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/",
-        "description": "A guide outlining best practices for designing and building efficient and scalable REST APIs."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/websites-apps/backend-developer-roadmap/",
-        "description": "A comprehensive guide outlining the essential skills and technologies for aspiring backend developers."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/the-ultimate-guide-to-secure-web-development-frontend-best-practices/",
-        "description": "A comprehensive guide outlining best practices for secure front-end web development."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/blogs/api-security-best-practices/",
-        "description": "This resource outlines essential best practices for ensuring API security."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=Mbz39bz1_HQ",
-      "https://www.youtube.com/watch?v=XBu54nfzxAQ",
-      "https://www.youtube.com/watch?v=OeEHJgzqS1k",
-      "https://www.youtube.com/watch?v=rOpEN1JDaD0",
-      "https://www.youtube.com/watch?v=sesacY7Xz3c"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What does the 'A' in OWASP Top 10 stand for?",
-      "options": [
-        "Access Control",
-        "Application Security",
-        "Authentication",
-        "Authorization"
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs/auth",
+        "https://kubernetes.io/docs/concepts/services-networking/ingress/",
+        "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts",
+        "https://docs.aws.amazon.com/",
+        "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design"
       ],
-      "correct_option": 1,
-      "hint": "It's a term related to securing software applications."
+      "notes": [
+        "https://www.datacamp.com/tutorial/python-backend-development",
+        "https://www.cisco.com/c/en/us/products/collateral/security/fireamp-endpoints/secure-endpoint-og.html",
+        "https://learntocodewith.me/posts/backend-development/",
+        "https://documentation.ubuntu.com/server/explanation/intro-to/security/",
+        "https://hayksimonyan.substack.com/p/backend-developer-roadmap-2025-the"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=tXC9DQRWHUQ",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=3QaFEu-KkR8",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/watch?v=EWd3_I4X32g",
+        "https://www.youtube.com/watch?v=hexfXc7-SsU",
+        "https://www.youtube.com/watch?v=Sggdhot-MoM"
+      ]
     },
-    {
-      "question": "Which of the following is NOT a key aspect of input validation and sanitization?",
-      "options": [
-        "Data type enforcement",
-        "SQL injection prevention",
-        "Secure password storage",
-        "Boundary checks"
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs/auth",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html",
+        "https://docs.stripe.com/webhooks"
       ],
-      "correct_option": 2,
-      "hint": "It's more related to data storage than input handling."
+      "notes": [
+        "https://www.env0.com/blog/terragrunt",
+        "https://www.datacamp.com/tutorial/python-backend-development",
+        "https://spacelift.io/blog/terraform-s3-backend",
+        "https://curity.io/resources/learn/spa-best-practices/",
+        "https://airflow.apache.org/docs/apache-airflow/stable/best-practices.html",
+        "https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html",
+        "https://github.com/Sairyss/backend-best-practices"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=eUqbsu_HWK0",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=Kd9pLy4ob8I",
+        "https://www.youtube.com/watch?v=ooyOmiczY1g",
+        "https://www.youtube.com/watch?v=NrBJmtD0kEw",
+        "https://www.youtube.com/watch?v=Sggdhot-MoM",
+        "https://www.youtube.com/watch?v=6DWJIyipxzw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=rOpEN1JDaD0",
+        "https://www.youtube.com/watch?v=YojKXiG5_3Q"
+      ]
     },
-    {
-      "question": "What is a primary benefit of logging and monitoring in backend security?",
-      "options": [
-        "Improving website speed",
-        "Detecting unauthorized access",
-        "Reducing server load",
-        "Enhancing user experience"
+    "advanced": {
+      "docs": [
+        "https://cloud.google.com/docs/security/key-management-deep-dive",
+        "https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html",
+        "https://cloud.google.com/architecture/best-practices-vpc-design",
+        "https://docs.docker.com/build/building/best-practices/",
+        "https://escape.tech/blog/how-to-secure-fastapi-api/"
       ],
-      "correct_option": 1,
-      "hint": "It involves tracking and identifying security incidents."
-    },
-    {
-      "question": "Which OWASP Top 10 category focuses on the risk of data exposure?",
-      "options": [
-        "Sensitive Data Exposure",
-        "Broken Access Control",
-        "Security Misconfiguration",
-        "Cross-Site Scripting"
+      "notes": [
+        "https://www.xano.com/learn/",
+        "https://escape.tech/blog/how-to-secure-express-js-api/",
+        "https://www.datacamp.com/tutorial/python-backend-development",
+        "https://www.env0.com/resources/how-tos",
+        "https://api7.ai/learning-center/api-gateway-guide",
+        "https://github.com/dariubs/GoBooks",
+        "https://www.armosec.io/blog/kubernetes-deployment-and-service/"
       ],
-      "correct_option": 0,
-      "hint": "This category deals with safeguarding private information."
-    },
-    {
-      "question": "What is the main purpose of input sanitization in backend security?",
-      "options": [
-        "To prevent unauthorized file access",
-        "To ensure user input is stored correctly",
-        "To protect against injection attacks",
-        "To enhance data encryption"
-      ],
-      "correct_option": 2,
-      "hint": "It involves neutralizing harmful input before processing."
+      "videos": [
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=PXtFq5wmGt0",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=hexfXc7-SsU",
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=2T86xAtR6Fo"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does OWASP stand for in the context of web security?",
+        "options": [
+          "Open Web Application Security Project",
+          "Online Web Access Security Plan",
+          "Operational Web Application Safety Protocol",
+          "Official Web Application Software Program"
+        ],
+        "correct_option": 0,
+        "hint": "Think about an organization dedicated to improving software security."
+      },
+      {
+        "question": "Which of the following is an example of input validation?",
+        "options": [
+          "Checking user input for expected data types",
+          "Logging user activities",
+          "Encrypting user passwords",
+          "Monitoring server performance"
+        ],
+        "correct_option": 0,
+        "hint": "Input validation involves verifying that the input matches expected criteria."
+      },
+      {
+        "question": "What is a common risk of not sanitizing user inputs?",
+        "options": [
+          "Increased bandwidth usage",
+          "Cross-Site Scripting (XSS) attacks",
+          "Faster application performance",
+          "Improved user experience"
+        ],
+        "correct_option": 1,
+        "hint": "This type of attack involves injecting malicious scripts into web pages."
+      },
+      {
+        "question": "Which OWASP Top 10 category focuses on ensuring user inputs are properly checked and cleaned?",
+        "options": [
+          "Injection",
+          "Security Misconfiguration",
+          "Sensitive Data Exposure",
+          "Broken Authentication"
+        ],
+        "correct_option": 0,
+        "hint": "This category involves attacks where untrusted data is sent to an interpreter."
+      },
+      {
+        "question": "Why is logging and monitoring important for security?",
+        "options": [
+          "To track user preferences",
+          "To enhance user interface design",
+          "To detect and respond to suspicious activities",
+          "To increase page load speed"
+        ],
+        "correct_option": 2,
+        "hint": "It's about keeping an eye on what happens in your application to catch issues early."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of input validation in backend security?",
+        "options": [
+          "To enhance user interface aesthetics",
+          "To prevent unauthorized data access",
+          "To improve database performance",
+          "To ensure secure data storage"
+        ],
+        "correct_option": 1,
+        "hint": "Think about protecting against malicious inputs."
+      },
+      {
+        "question": "Which OWASP Top 10 vulnerability involves unvalidated redirects and forwards?",
+        "options": [
+          "A1: Injection",
+          "A4: Insecure Design",
+          "A10: Server-Side Request Forgery (SSRF)",
+          "A10: Unvalidated Redirects and Forwards"
+        ],
+        "correct_option": 3,
+        "hint": "Consider vulnerabilities related to URL handling."
+      },
+      {
+        "question": "What is a key benefit of implementing logging in backend systems?",
+        "options": [
+          "To speed up data processing",
+          "To track and analyze security incidents",
+          "To reduce server load",
+          "To enhance user experience"
+        ],
+        "correct_option": 1,
+        "hint": "Think about incident tracking and analysis."
+      },
+      {
+        "question": "Which of the following is NOT a best practice for logging sensitive information?",
+        "options": [
+          "Masking sensitive data in logs",
+          "Storing logs in a secure location",
+          "Logging user passwords",
+          "Regularly reviewing log files"
+        ],
+        "correct_option": 2,
+        "hint": "Consider what information should not be exposed even in logs."
+      },
+      {
+        "question": "How does monitoring complement logging in backend security?",
+        "options": [
+          "By providing real-time alerts for suspicious activities",
+          "By increasing the amount of stored data",
+          "By improving application speed",
+          "By enhancing user interface design"
+        ],
+        "correct_option": 0,
+        "hint": "Think about real-time detection and alerting capabilities."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is NOT part of the OWASP Top 10 vulnerabilities?",
+        "options": [
+          "Injection",
+          "Broken Authentication",
+          "Data Encryption",
+          "Security Misconfiguration"
+        ],
+        "correct_option": 2,
+        "hint": "The OWASP Top 10 focuses on vulnerabilities rather than specific security practices."
+      },
+      {
+        "question": "What is the primary goal of input validation in backend security?",
+        "options": [
+          "To enhance performance",
+          "To prevent unauthorized access",
+          "To ensure data integrity and prevent injection attacks",
+          "To improve user interface"
+        ],
+        "correct_option": 2,
+        "hint": "Think about protecting the system from malicious input."
+      },
+      {
+        "question": "Which logging practice is recommended to enhance security monitoring?",
+        "options": [
+          "Logging all user passwords",
+          "Using plaintext logs for easy access",
+          "Logging failed login attempts",
+          "Ignoring warning messages in logs"
+        ],
+        "correct_option": 2,
+        "hint": "Consider what types of events could indicate potential security threats."
+      },
+      {
+        "question": "In the context of backend security, what role does input sanitization play?",
+        "options": [
+          "It encrypts data to protect confidentiality",
+          "It formats data to meet user expectations",
+          "It removes or neutralizes harmful data",
+          "It compresses data for faster transmission"
+        ],
+        "correct_option": 2,
+        "hint": "This process involves cleaning data to prevent security vulnerabilities."
+      },
+      {
+        "question": "Why is security monitoring crucial for backend systems?",
+        "options": [
+          "To identify performance bottlenecks",
+          "To ensure legal compliance",
+          "To detect and respond to security incidents in real-time",
+          "To prevent software updates"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the importance of being aware of and responding to security threats."
+      }
+    ]
+  }
 }

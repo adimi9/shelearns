@@ -1,0 +1,396 @@
+{
+  "id": "CS3",
+  "name": "Introduction to Artificial Intelligence",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Artificial Intelligence",
+  "topics": [
+    "AI History & Concepts",
+    "Problem Solving (Search Algorithms)",
+    "Knowledge Representation & Reasoning",
+    "Machine Learning Overview"
+  ],
+  "recommended": false,
+  "tags": [
+    "AI",
+    "machine-learning",
+    "overview"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://platform.openai.com/docs/api-reference/introduction",
+          "description": "An introduction to OpenAI's API with guidelines for usage and integration.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform",
+          "description": "An introduction to Google Cloud's Vertex AI unified platform for machine learning.",
+          "title": "Introduction to Vertex AI  |  Google Cloud"
+        },
+        {
+          "url": "https://docs.databricks.com/aws/en/machine-learning/",
+          "description": "A detailed guide on using Databricks for machine learning on AWS.",
+          "title": "Databricks Documentation"
+        },
+        {
+          "url": "https://cloud.google.com/vertex-ai/docs",
+          "description": "An overview of Google Cloud's Vertex AI platform for building and deploying machine learning models.",
+          "title": "Vertex AI documentation  |  Google Cloud"
+        },
+        {
+          "url": "https://docs.spring.io/spring-ai/reference/index.html",
+          "description": "Official documentation for integrating AI capabilities into Spring applications.",
+          "title": "Introduction :: Spring AI Reference"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://developers.google.com/machine-learning/crash-course",
+          "description": "An introductory course on machine learning concepts and techniques by Google.",
+          "title": "Machine Learning  |  Google for Developers"
+        },
+        {
+          "url": "https://microsoft.github.io/AI-For-Beginners/",
+          "description": "An introductory course on artificial intelligence concepts and applications for beginners.",
+          "title": "AI for Beginners"
+        },
+        {
+          "url": "https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python",
+          "description": "An introductory course on artificial intelligence using Python, offered by Harvard University.",
+          "title": "CS50's Introduction to Artificial Intelligence with Python | Harvard University"
+        },
+        {
+          "url": "https://www.amazon.com/Artificial-Intelligence-Engines-Introduction-Mathematics/dp/0956372813",
+          "description": "An introductory book on the mathematics behind artificial intelligence engines.",
+          "title": "Artificial Intelligence Engines: A Tutorial Introduction to the Mathematics of Deep Learning : Stone, James V: Amazon.sg: Books"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/",
+          "description": "An introductory course on implementing AI solutions using Microsoft Azure.",
+          "title": "Introduction to AI in Azure - Training | Microsoft Learn"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Yq0QkCxoTHM",
+        "https://www.youtube.com/watch?v=J8Eh7RqggsU",
+        "https://www.youtube.com/watch?v=E-jO93bk0wE",
+        "https://www.youtube.com/watch?v=AzUZiUz-Wpc",
+        "https://www.youtube.com/watch?v=NckTNpnZW_0",
+        "https://www.youtube.com/watch?v=i_LwzRVP7bg",
+        "https://www.youtube.com/watch?v=gD_HWj_hvbo",
+        "https://www.youtube.com/watch?v=JMUxmLyrhSk"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform",
+          "description": "An introduction to Google Cloud's Vertex AI, a unified platform for machine learning.",
+          "title": "Introduction to Vertex AI  |  Google Cloud"
+        },
+        {
+          "url": "https://docs.databricks.com/aws/en/machine-learning/",
+          "description": "Comprehensive documentation on machine learning capabilities and tools in Databricks for AWS.",
+          "title": "Databricks Documentation"
+        },
+        {
+          "url": "https://cloud.google.com/vertex-ai",
+          "description": "A platform for building, deploying, and scaling machine learning models on Google Cloud.",
+          "title": "Vertex AI Platform | Google Cloud"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform",
+          "description": "An introduction to Google Cloud's Vertex AI unified platform for building, deploying, and scaling machine learning models.",
+          "title": "Introduction to Vertex AI  |  Google Cloud"
+        },
+        {
+          "url": "https://artificialintelligenceact.eu/high-level-summary/",
+          "description": "A high-level summary of the EU's Artificial Intelligence Act and its implications.",
+          "title": "High-level summary of the AI Act | EU Artificial Intelligence Act"
+        },
+        {
+          "url": "https://cloud.google.com/learn/what-is-artificial-intelligence",
+          "description": "An introductory overview of artificial intelligence and its applications.",
+          "title": "What Is Artificial Intelligence (AI)? | Google Cloud"
+        },
+        {
+          "url": "https://docs.databricks.com/aws/en/machine-learning/",
+          "description": "An overview of machine learning capabilities and workflows on Databricks for AWS.",
+          "title": "Databricks Documentation"
+        },
+        {
+          "url": "https://www.mckinsey.com/~/media/mckinsey/featured%20insights/artificial%20intelligence/notes%20from%20the%20ai%20frontier%20applications%20and%20value%20of%20deep%20learning/notes-from-the-ai-frontier-insights-from-hundreds-of-use-cases-discussion-paper.pdf",
+          "description": "Insights into the applications and economic value of deep learning from various use cases."
+        },
+        {
+          "url": "https://aws.amazon.com/bedrock/",
+          "description": "An overview of AWS Bedrock, a service for building and scaling generative AI applications.",
+          "title": "Build Generative AI Applications with Foundation Models – Amazon Bedrock – AWS"
+        },
+        {
+          "url": "https://docs.n8n.io/advanced-ai/intro-tutorial/",
+          "description": "An introductory tutorial on using advanced AI features in n8n workflows.",
+          "title": "Tutorial: Build an AI workflow in n8n | n8n Docs"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=YOZGxd6ZC3A",
+        "https://www.youtube.com/watch?v=Vtm7pdD2Ghc",
+        "https://www.youtube.com/watch?v=i3Aizzfuv7Y",
+        "https://www.youtube.com/watch?v=7eh4d6sabA0",
+        "https://www.youtube.com/watch?v=G2fqAlgmoPo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=0Kr1eh1wwb8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=sToCxpd0Sb8",
+        "https://www.youtube.com/watch?v=E1K9SZCm0fQ"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/ai/generative-ai",
+          "description": "An overview of Google's generative AI services and tools on their cloud platform.",
+          "title": "Generative AI | Google Cloud"
+        },
+        {
+          "url": "https://developers.google.com/machine-learning",
+          "description": "Comprehensive resources and guides for machine learning development using Google's tools.",
+          "title": "Machine Learning  |  Google for Developers"
+        },
+        {
+          "url": "https://cloud.google.com/vertex-ai/docs",
+          "description": "Official documentation for Google Cloud's Vertex AI, detailing its machine learning platform features and usage.",
+          "title": "Vertex AI documentation  |  Google Cloud"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/",
+          "description": "An overview of AI and machine learning architecture best practices on Microsoft Azure.",
+          "title": "AI Architecture Design - Azure Architecture Center | Microsoft Learn"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.amazon.com/Python-Advanced-Artificial-Intelligence-intelligent/dp/1789957214",
+          "description": "A book offering advanced techniques and insights into artificial intelligence using Python.",
+          "title": "Python: Advanced Guide to Artificial Intelligence: Expert machine learning systems and intelligent agents using Python : Bonaccorso, Giuseppe, Fandango, Armando, Shanmugamani, Rajalingappaa: Amazon.sg: Books"
+        },
+        {
+          "url": "https://www.datacamp.com/blog/how-to-learn-ai",
+          "description": "A practical guide on effective strategies for learning artificial intelligence.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.amazon.com/Artificial-Intelligence-Engines-Introduction-Mathematics/dp/0956372813",
+          "description": "An introductory book on the mathematics underpinning artificial intelligence engines.",
+          "title": "Artificial Intelligence Engines: A Tutorial Introduction to the Mathematics of Deep Learning : Stone, James V: Amazon.sg: Books"
+        },
+        {
+          "url": "https://notebooklm.google/",
+          "description": "An AI-powered tool for managing and interacting with digital notebooks.",
+          "title": "Google NotebookLM | Note Taking & Research Assistant Powered by AI"
+        },
+        {
+          "url": "https://aws.amazon.com/ai/learn/",
+          "description": "An educational resource hub for learning about AI and machine learning on AWS.",
+          "title": "AI Courses and Training - Learn Artificial Intelligence - AWS"
+        },
+        {
+          "url": "https://developers.google.com/machine-learning",
+          "description": "An extensive resource for learning and implementing machine learning with Google's tools and best practices.",
+          "title": "Machine Learning  |  Google for Developers"
+        },
+        {
+          "url": "https://microsoft.github.io/AI-For-Beginners/",
+          "description": "An introductory course on artificial intelligence for beginners by Microsoft.",
+          "title": "AI for Beginners"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=tpCFfeUEGs8",
+        "https://m.youtube.com/watch?v=jGwO_UgTS7I&pp=2AEAkAIB",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=qYNweeDHiyU",
+        "https://www.youtube.com/watch?v=CuUOt5djqSs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=T9aRN5JkmL8",
+        "https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw",
+        "https://www.youtube.com/@gologicatechnologies",
+        "https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is one of the earliest events in the history of Artificial Intelligence?",
+        "options": [
+          "The creation of the first neural network",
+          "The development of the Turing Test",
+          "The invention of the microprocessor",
+          "The launch of the first personal computer"
+        ],
+        "correct_option": 1,
+        "hint": "It is a test developed to assess a machine's ability to exhibit intelligent behavior."
+      },
+      {
+        "question": "What is the primary goal of search algorithms in problem-solving?",
+        "options": [
+          "To create an infinite number of solutions",
+          "To find the most complex solution",
+          "To solve problems by finding the best path",
+          "To eliminate all possible solutions"
+        ],
+        "correct_option": 2,
+        "hint": "These algorithms are used to navigate paths efficiently to reach a goal."
+      },
+      {
+        "question": "Which of the following is a common method for knowledge representation in AI?",
+        "options": [
+          "Binary encoding",
+          "Decision trees",
+          "Vector spaces",
+          "JSON files"
+        ],
+        "correct_option": 1,
+        "hint": "This method uses a tree-like model of decisions and their possible consequences."
+      },
+      {
+        "question": "What is a fundamental concept of machine learning in AI?",
+        "options": [
+          "Learning from data",
+          "Storing large amounts of data",
+          "Predicting future internet trends",
+          "Creating complex mechanical parts"
+        ],
+        "correct_option": 0,
+        "hint": "It involves algorithms that improve automatically through experience."
+      },
+      {
+        "question": "Which area of AI involves finding patterns or insights from data?",
+        "options": [
+          "Data structuring",
+          "Machine learning",
+          "Algorithm sorting",
+          "Network modeling"
+        ],
+        "correct_option": 1,
+        "hint": "This area focuses on the development of algorithms that can learn from and make predictions on data."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which early AI program was designed to mimic human problem-solving and was considered a milestone in AI history?",
+        "options": [
+          "Deep Blue",
+          "ELIZA",
+          "Logic Theorist",
+          "Watson"
+        ],
+        "correct_option": 2,
+        "hint": "This program was developed in the 1950s and aimed at proving mathematical theorems."
+      },
+      {
+        "question": "What is the primary goal of heuristic search algorithms in AI problem-solving?",
+        "options": [
+          "To find the optimal solution quickly by exploring all possibilities",
+          "To find a satisfactory solution quickly by exploring fewer possibilities",
+          "To guarantee finding the best solution regardless of time",
+          "To randomly search for solutions and pick the first one found"
+        ],
+        "correct_option": 1,
+        "hint": "These algorithms aim to reduce the search space examined."
+      },
+      {
+        "question": "In knowledge representation, which method uses a network of nodes and relations to represent information?",
+        "options": [
+          "Semantic networks",
+          "Rule-based systems",
+          "Frame representation",
+          "Logical representation"
+        ],
+        "correct_option": 0,
+        "hint": "This method is often visualized as a graph."
+      },
+      {
+        "question": "Which machine learning approach involves learning from labeled data to make predictions or decisions?",
+        "options": [
+          "Unsupervised learning",
+          "Reinforcement learning",
+          "Supervised learning",
+          "Semi-supervised learning"
+        ],
+        "correct_option": 2,
+        "hint": "This approach requires input-output pairs for training."
+      },
+      {
+        "question": "What is the significance of the Turing Test in the context of Artificial Intelligence?",
+        "options": [
+          "It measures the computational speed of AI systems.",
+          "It evaluates the ability of a machine to exhibit intelligent behavior equivalent to a human.",
+          "It assesses the accuracy of AI systems in solving mathematical problems.",
+          "It determines the data processing capacity of AI models."
+        ],
+        "correct_option": 1,
+        "hint": "This test involves a human evaluator interacting with both a machine and a human without knowing which is which."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a key contribution of John McCarthy to the field of Artificial Intelligence?",
+        "options": [
+          "Development of the Turing Test",
+          "Inventing the term 'Artificial Intelligence'",
+          "Creating the first neural network",
+          "Proposing the concept of the perceptron"
+        ],
+        "correct_option": 1,
+        "hint": "Consider who coined the term 'Artificial Intelligence'."
+      },
+      {
+        "question": "In the context of search algorithms, what does A* algorithm primarily rely on to guarantee the shortest path?",
+        "options": [
+          "Heuristic function",
+          "Depth-first search",
+          "Breadth-first search",
+          "Randomized search"
+        ],
+        "correct_option": 0,
+        "hint": "Think about what guides the A* algorithm to find the optimal path efficiently."
+      },
+      {
+        "question": "What is the primary challenge in knowledge representation for AI systems?",
+        "options": [
+          "Data storage efficiency",
+          "Natural language processing",
+          "Capturing and using common sense knowledge",
+          "Algorithm speed"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the difficulty in programming AI to understand everyday human logic."
+      },
+      {
+        "question": "Which type of machine learning involves learning from a label-free dataset?",
+        "options": [
+          "Supervised learning",
+          "Reinforcement learning",
+          "Unsupervised learning",
+          "Semi-supervised learning"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the learning method that does not use labeled data."
+      },
+      {
+        "question": "What is the main focus of reasoning in AI?",
+        "options": [
+          "Emulating human emotion",
+          "Deriving new information from existing knowledge",
+          "Storing large amounts of data",
+          "Improving computational speed"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the goal of reasoning as making inferences from existing data."
+      }
+    ]
+  }
+}

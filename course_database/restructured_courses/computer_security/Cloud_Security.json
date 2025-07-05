@@ -17,105 +17,151 @@
     "GCP"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://nodejs.org/en/learn/getting-started/security-best-practices",
-        "description": "An introductory guide to implementing security best practices in Node.js applications."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
-        "description": "An overview of web security principles and best practices for developers to protect web applications from vulnerabilities."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy",
-        "description": "The page provides detailed documentation on the Content-Security-Policy HTTP header, which helps enhance security by controlling resources the browser can load."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/aws/aws_cloudessentials_sec_securityintroduction.php",
-        "description": "An introduction to AWS cloud security essentials, focusing on key security concepts and practices."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/software-engineering/cloud-computing-security/",
-        "description": "This resource provides an overview of security challenges and solutions in cloud computing."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/cloud-security-architecture/",
-        "description": "An overview of cloud security architecture, detailing its components, principles, and best practices for safeguarding cloud environments."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/cloud-computing/security-model-of-aws-cloud/",
-        "description": "Overview of the security model and practices employed by AWS Cloud to ensure data protection and compliance."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/advance-java/spring-cloud-security/",
-        "description": "An introduction to implementing security in Spring Cloud applications using advanced Java techniques."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=Ijkvx1u0w6o",
-      "https://www.youtube.com/watch?v=PEl3RWFKOFk",
-      "https://www.youtube.com/watch?v=EPlIByXc5yI",
-      "https://www.youtube.com/watch?v=M988_fsOSWo",
-      "https://www.youtube.com/watch?v=3XFODda6YXo"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which cloud service model gives customers the most control over their computing resources?",
-      "options": [
-        "SaaS",
-        "PaaS",
-        "IaaS",
-        "FaaS"
+    "beginner": {
+      "docs": [
+        "https://cloud.google.com/docs",
+        "https://docs.aws.amazon.com/",
+        "https://firebase.google.com/docs/firestore/quickstart"
       ],
-      "correct_option": 2,
-      "hint": "This model provides virtualized computing resources over the internet."
+      "notes": [
+        "https://www.youtube.com/watch?v=sF014G2BUXM",
+        "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+        "https://www.youtube.com/watch?v=Rm7NXLAS8_M",
+        "https://www.esecurityplanet.com/cloud/cloud-security-fundamentals/",
+        "https://www.youtube.com/watch?v=fpNmvxYhsN0",
+        "https://www.wiz.io/academy/what-is-cloud-security",
+        "https://www.youtube.com/watch?v=NigrDcxP3eA"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Rm7NXLAS8_M",
+        "https://www.youtube.com/watch?v=sF014G2BUXM",
+        "https://www.youtube.com/watch?v=NigrDcxP3eA",
+        "https://www.youtube.com/watch?v=8a9RS8mce2k",
+        "https://www.youtube.com/watch?v=xAlR-cwBFSM",
+        "https://www.youtube.com/watch?v=fpNmvxYhsN0",
+        "https://www.youtube.com/watch?v=8OC0lj53KKI",
+        "https://www.youtube.com/watch?v=wb0_-wHvLmM"
+      ]
     },
-    {
-      "question": "In the Shared Responsibility Model, who is responsible for configuring security settings in the cloud?",
-      "options": [
-        "Cloud Provider",
-        "Customer",
-        "Third-party Vendor",
-        "Government"
+    "intermediate": {
+      "docs": [
+        "https://cloud.google.com/security-command-center/docs",
+        "https://developers.google.com/apis-explorer",
+        "https://cloud.google.com/architecture",
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html",
+        "https://docs.datadoghq.com/api/latest/"
       ],
-      "correct_option": 1,
-      "hint": "The responsibility lies with the entity that has control over the configuration."
+      "notes": [
+        "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+        "https://www.box.com/home",
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "https://help.ovhcloud.com/csm/en-ca-public-cloud-network-stormshield-vrack?id=kb_article_view&sysparm_article=KB0065105",
+        "https://insights.infoblox.com/solution-notes/infoblox-solution-note-transform-healthcare-it-optimize-operations-secure-data-and-improve-patient-outcomes",
+        "https://help.alteryx.com/aac/en/release-notes/release-notes-for-designer-cloud---trifacta-classic.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=3SV9v49UKH0",
+        "https://www.youtube.com/watch?v=0OzIMgcpVMY",
+        "https://www.youtube.com/watch?v=NIFLJ56qIMs",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=gzxmCvVTGMo",
+        "https://www.youtube.com/watch?v=boEB2fMUZnU",
+        "https://www.youtube.com/watch?v=_MxRJrnQKB0",
+        "https://www.youtube.com/watch?v=m6ozQnqit50",
+        "https://www.youtube.com/playlist?list=PLg-OPs3nqPB8Tp4t14_yibqS78N_PW1bS"
+      ]
     },
-    {
-      "question": "What is a primary benefit of using Cloud Identity and Access Management (IAM)?",
-      "options": [
-        "Improved hardware performance",
-        "Enhanced user interface design",
-        "Fine-grained access control",
-        "Automatic software updates"
+    "advanced": {
+      "docs": [
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://cloud.google.com/ai/generative-ai",
+        "https://learn.microsoft.com/en-us/docs/",
+        "https://cloud.google.com/load-balancing/docs",
+        "https://docs.aws.amazon.com/"
       ],
-      "correct_option": 2,
-      "hint": "IAM helps in managing permissions and access for users."
-    },
-    {
-      "question": "Which of the following tools is commonly used for container orchestration?",
-      "options": [
-        "Docker",
-        "Kubernetes",
-        "Terraform",
-        "Chef"
+      "notes": [
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security",
+        "https://backstage.forgerock.com/university/ping/certification",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+        "https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/",
+        "https://orca.security/resources/",
+        "https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-shadow-it",
+        "https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture"
       ],
-      "correct_option": 1,
-      "hint": "This tool is known for automating the deployment, scaling, and operations of application containers."
-    },
-    {
-      "question": "What is a critical security measure for managing Docker containers?",
-      "options": [
-        "Using default passwords",
-        "Running containers as root",
-        "Implementing network segmentation",
-        "Disabling logging"
-      ],
-      "correct_option": 2,
-      "hint": "This practice involves isolating containers to limit the impact of a breach."
+      "videos": [
+        "https://www.youtube.com/watch?v=V-u56LjsCp4",
+        "https://www.youtube.com/watch?v=ZQHoC0cR6Qw",
+        "https://www.youtube.com/watch?v=wUb6OgAXDpM",
+        "https://m.youtube.com/watch?v=RsxxsEzQhrM&t=1s",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=9Phn949Iez4",
+        "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+        "https://www.youtube.com/watch?v=-a3EX758Mq8&pp=ygUWI-2BtOudvOyasOuTnO2KuOugiOydvA%3D%3D",
+        "https://www.youtube.com/watch?v=Urluwrkhnik"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which cloud service model gives customers the most control over their computing resources?",
+        "options": [
+          "SaaS",
+          "PaaS",
+          "IaaS",
+          "FaaS"
+        ],
+        "correct_option": 2,
+        "hint": "This model provides virtualized computing resources over the internet."
+      },
+      {
+        "question": "In the Shared Responsibility Model, who is responsible for configuring security settings in the cloud?",
+        "options": [
+          "Cloud Provider",
+          "Customer",
+          "Third-party Vendor",
+          "Government"
+        ],
+        "correct_option": 1,
+        "hint": "The responsibility lies with the entity that has control over the configuration."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a primary benefit of using Cloud Identity and Access Management (IAM)?",
+        "options": [
+          "Improved hardware performance",
+          "Enhanced user interface design",
+          "Fine-grained access control",
+          "Automatic software updates"
+        ],
+        "correct_option": 2,
+        "hint": "IAM helps in managing permissions and access for users."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following tools is commonly used for container orchestration?",
+        "options": [
+          "Docker",
+          "Kubernetes",
+          "Terraform",
+          "Chef"
+        ],
+        "correct_option": 1,
+        "hint": "This tool is known for automating the deployment, scaling, and operations of application containers."
+      },
+      {
+        "question": "What is a critical security measure for managing Docker containers?",
+        "options": [
+          "Using default passwords",
+          "Running containers as root",
+          "Implementing network segmentation",
+          "Disabling logging"
+        ],
+        "correct_option": 2,
+        "hint": "This practice involves isolating containers to limit the impact of a breach."
+      }
+    ]
+  }
 }

@@ -24,107 +24,142 @@
     "fullstack"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://github.com/sveltejs/kit/issues/8524",
+        "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+        "https://codelabs.developers.google.com/",
+        "https://svelte.dev/tutorial",
+        "https://sveltekit.io/blog/sveltekit-api"
+      ],
+      "notes": [
+        "https://svelte.dev/tutorial",
+        "https://github.com/sveltejs/kit/issues/8524",
+        "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+        "https://sveltekit.io/blog/sveltekit-api",
+        "https://www.youtube.com/playlist?list=PLNonIcU6qKdBGHTgMKGAsIry58GXdRNzZ"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=MoGkX4RvZ38",
+        "https://www.youtube.com/watch?v=TIbL0VOE900",
+        "https://www.youtube.com/watch?v=AARXJkJBbJ4",
+        "https://www.youtube.com/watch?v=kYGCxNUTozI",
+        "https://www.youtube.com/watch?v=mAcKzdW5fR8",
+        "https://www.youtube.com/watch?v=-2UjwQzxvBQ",
+        "https://www.youtube.com/playlist?list=PLNonIcU6qKdBGHTgMKGAsIry58GXdRNzZ",
+        "https://www.youtube.com/watch?v=b2ftRSX1iZ0",
+        "https://www.youtube.com/watch?v=OpXLWJd2iO0"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://github.com/sveltejs/kit/issues/8524",
+        "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+        "https://sveltekit.io/blog/sveltekit-auth",
+        "https://news.ycombinator.com/item?id=41889674"
+      ],
+      "notes": [
+        "https://github.com/sveltejs/kit/issues/8524",
+        "https://sveltekit.io/blog/sveltekit-auth",
+        "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+        "https://news.ycombinator.com/item?id=41889674",
+        "https://sveltekit.io/blog/svelte-vs-sveltekit",
+        "https://codelabs.developers.google.com/",
+        "https://cloudinary.com/guides/front-end-development/integrating-cloudinary-with-svelte-and-sveltekit"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=mAcKzdW5fR8",
+        "https://www.youtube.com/watch?v=SF5o1v0pGLc",
+        "https://www.youtube.com/watch?v=F6O2xxV0UOg"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://codelabs.developers.google.com/",
+        "https://news.ycombinator.com/item?id=41889674",
+        "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "https://news.ycombinator.com/item?id=30206989",
+        "https://grafana.com/docs/alloy/latest/"
+      ],
+      "notes": [
+        "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "https://www.linkedin.com/posts/r-ahulanand_hackathon-indigo-lab37-activity-7224844818722521088-7vqp",
+        "https://svar.dev/blog/svelte-learning-resources/",
+        "https://codelabs.developers.google.com/",
+        "https://news.ycombinator.com/item?id=41889674",
+        "https://www.coursera.org/partners/packt",
+        "https://news.ycombinator.com/item?id=42279172"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=EtV-0zTCPxQ",
+        "https://www.youtube.com/watch?v=F6O2xxV0UOg",
+        "https://www.youtube.com/watch?v=kyStFUrqCO0"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_getting_started",
-        "description": "A beginner's guide to getting started with the Svelte framework for web development."
+        "question": "What is SvelteKit primarily used for?",
+        "options": [
+          "Building mobile applications",
+          "Creating static websites",
+          "Developing fullstack applications with SSR support",
+          "Designing desktop applications"
+        ],
+        "correct_option": 2,
+        "hint": "SvelteKit is designed for building applications with server-side rendering."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_Todo_list_beginning",
-        "description": "A beginner's guide to building a to-do list application using the Svelte framework."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_stores",
-        "description": "An introduction to using Svelte stores for managing state in Svelte applications."
+        "question": "Which of the following features is a key advantage of using SvelteKit?",
+        "options": [
+          "Client-side rendering only",
+          "Python integration",
+          "Server-side rendering",
+          "No support for JavaScript"
+        ],
+        "correct_option": 2,
+        "hint": "SvelteKit offers a built-in feature that allows rendering on the server."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.freecodecamp.org/news/learn-sveltekit-full-course/",
-        "description": "A comprehensive full-course guide to learning SvelteKit for building modern web applications."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/how-to-route-programmatically-in-sveltekit/",
-        "description": "This resource explains how to implement programmatic routing in SvelteKit applications."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/learn-sveltekit-and-tailwind-css-by-building-a-web-portfolio/",
-        "description": "Learn how to build a web portfolio using SvelteKit and Tailwind CSS through this comprehensive tutorial."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/javascript/how-to-get-query-string-parameter-in-sveltekit/",
-        "description": "A guide on retrieving query string parameters in SvelteKit applications using JavaScript."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/build-your-developer-portfolio-from-scratch-with-sveltekit-and-graphcms/",
-        "description": "Learn how to build a developer portfolio from scratch using SvelteKit and GraphCMS in this comprehensive guide."
+        "question": "SvelteKit is a framework based on which primary technology?",
+        "options": [
+          "React",
+          "Angular",
+          "Svelte",
+          "Vue"
+        ],
+        "correct_option": 2,
+        "hint": "SvelteKit is built around a popular, compiler-based UI framework."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=QKxJW6VVp6w",
-      "https://www.youtube.com/watch?v=9OlLxkaeVvw",
-      "https://www.youtube.com/watch?v=5IajHJULs5I",
-      "https://www.youtube.com/watch?v=vb7CgDcA_6U",
-      "https://www.youtube.com/watch?v=UU7MgYIbtAk"
+    "advanced": [
+      {
+        "question": "What does SSR stand for in the context of SvelteKit?",
+        "options": [
+          "Single State Rendering",
+          "Server-side Rendering",
+          "Secure Socket Routing",
+          "Svelte Script Runner"
+        ],
+        "correct_option": 1,
+        "hint": "SSR is a technique used to render web pages on the server rather than in the browser."
+      },
+      {
+        "question": "Which of the following is a common use case for SvelteKit?",
+        "options": [
+          "Building proprietary databases",
+          "Developing Svelte-based applications with SEO benefits",
+          "Creating blockchain applications",
+          "Designing machine learning models"
+        ],
+        "correct_option": 1,
+        "hint": "SvelteKit is often used where server-side rendering can improve SEO."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is SvelteKit primarily used for?",
-      "options": [
-        "Building mobile applications",
-        "Creating static websites",
-        "Developing fullstack applications with SSR support",
-        "Designing desktop applications"
-      ],
-      "correct_option": 2,
-      "hint": "SvelteKit is designed for building applications with server-side rendering."
-    },
-    {
-      "question": "Which of the following features is a key advantage of using SvelteKit?",
-      "options": [
-        "Client-side rendering only",
-        "Python integration",
-        "Server-side rendering",
-        "No support for JavaScript"
-      ],
-      "correct_option": 2,
-      "hint": "SvelteKit offers a built-in feature that allows rendering on the server."
-    },
-    {
-      "question": "SvelteKit is a framework based on which primary technology?",
-      "options": [
-        "React",
-        "Angular",
-        "Svelte",
-        "Vue"
-      ],
-      "correct_option": 2,
-      "hint": "SvelteKit is built around a popular, compiler-based UI framework."
-    },
-    {
-      "question": "What does SSR stand for in the context of SvelteKit?",
-      "options": [
-        "Single State Rendering",
-        "Server-side Rendering",
-        "Secure Socket Routing",
-        "Svelte Script Runner"
-      ],
-      "correct_option": 1,
-      "hint": "SSR is a technique used to render web pages on the server rather than in the browser."
-    },
-    {
-      "question": "Which of the following is a common use case for SvelteKit?",
-      "options": [
-        "Building proprietary databases",
-        "Developing Svelte-based applications with SEO benefits",
-        "Creating blockchain applications",
-        "Designing machine learning models"
-      ],
-      "correct_option": 1,
-      "hint": "SvelteKit is often used where server-side rendering can improve SEO."
-    }
-  ],
   "preferred_if": [
     "User prefers Svelte ecosystem"
   ]

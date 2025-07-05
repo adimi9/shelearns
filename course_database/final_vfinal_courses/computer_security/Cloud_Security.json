@@ -1,0 +1,488 @@
+{
+  "id": "CSec14",
+  "name": "Cloud Security",
+  "category": "Computer Security",
+  "primary_tech": "Cloud Security",
+  "topics": [
+    "Cloud Service Models (IaaS, PaaS, SaaS) Security",
+    "Shared Responsibility Model",
+    "Cloud Identity & Access Management (IAM)",
+    "Container Security Basics (Docker, Kubernetes)"
+  ],
+  "recommended": true,
+  "tags": [
+    "cloud",
+    "AWS",
+    "Azure",
+    "GCP"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/docs",
+          "description": "Comprehensive documentation for Google Cloud services and solutions.",
+          "title": "Google Cloud Documentation"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/",
+          "description": "Official documentation for Amazon Web Services (AWS) providing guidance on cloud computing services.",
+          "title": "Welcome to AWS Documentation"
+        },
+        {
+          "url": "https://firebase.google.com/docs/firestore/quickstart",
+          "description": "A quickstart guide to setting up and using Google Firestore in your applications.",
+          "title": "Get started with Cloud Firestore \u00a0|\u00a0 Firebase"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/security/fundamentals/overview",
+          "description": "An overview of Microsoft's Azure security fundamentals and best practices.",
+          "title": "Introduction to Azure security | Microsoft Learn"
+        },
+        {
+          "url": "https://www.esecurityplanet.com/cloud/cloud-security-fundamentals/",
+          "description": "An essential guide to understanding the fundamentals of cloud security.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.wiz.io/academy/what-is-cloud-security",
+          "description": "An introduction to the principles and practices of cloud security.",
+          "title": "Cloud Security 101 for CloudSec, AppSec, and SecOps Managers | Wiz"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=Rm7NXLAS8_M",
+          "title": "Cloud Security for Beginners: Part 1 - Starting Off in the Cloud",
+          "duration": "64m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sF014G2BUXM",
+          "title": "Cloud Security Tutorial For Beginners | What is Cloud Security?",
+          "duration": "16m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=NigrDcxP3eA",
+          "title": "Cloud Security Engineer Roadmap For Beginners",
+          "duration": "15m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8a9RS8mce2k",
+          "title": "How I Would Learn Cloud Security as a Complete Beginner | FULL Cloud Security Analyst Roadmap 2025",
+          "duration": "12m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xAlR-cwBFSM",
+          "title": "Cloud Security 101  ( Free course for absolute beginners 2022 ! )",
+          "duration": "53m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fpNmvxYhsN0",
+          "title": "Beginner's Guide to AWS Security - @CloudSecurityPodcast",
+          "duration": "27m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8OC0lj53KKI",
+          "title": "Cloud Security for Dummies",
+          "duration": "53m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wb0_-wHvLmM",
+          "title": "How to learn Cloud Security? | Cloud Security Expert breaks it down step-by-step",
+          "duration": "11m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/security-command-center/docs",
+          "description": "Documentation for Google Cloud's Security Command Center, detailing its features and usage for security management.",
+          "title": "Security Command Center documentation \u00a0|\u00a0 Google Cloud"
+        },
+        {
+          "url": "https://developers.google.com/apis-explorer",
+          "description": "An interactive tool for exploring and testing Google APIs directly in the browser.",
+          "title": "Google APIs Explorer \u00a0|\u00a0 Google for Developers"
+        },
+        {
+          "url": "https://cloud.google.com/architecture",
+          "description": "A collection of guides and best practices for designing cloud architectures on Google Cloud Platform.",
+          "title": "Cloud Architecture Guidance and Topologies \u00a0|\u00a0 Google Cloud"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html",
+          "description": "Detailed reference guide for configuring AWS EC2 security group rules.",
+          "title": "Security group rules for different use cases - Amazon Elastic Compute Cloud"
+        },
+        {
+          "url": "https://docs.datadoghq.com/api/latest/",
+          "description": "Documentation for the latest version of Datadog's API, detailing endpoints and usage.",
+          "title": "API Reference"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/defender-for-cloud/release-notes",
+          "description": "Monthly release notes detailing updates and features for Microsoft Defender for Cloud.",
+          "title": "What's new in Microsoft Defender for Cloud features - Microsoft Defender for Cloud | Microsoft Learn"
+        },
+        {
+          "url": "https://www.box.com/home",
+          "description": "A cloud-based platform for secure file storage, sharing, and collaboration.",
+          "title": "Secure, AI-Powered Content Management, Workflow & Collaboration"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+          "description": "An overview of key concepts and features of Amazon EC2.",
+          "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud"
+        },
+        {
+          "url": "https://help.ovhcloud.com/csm/en-ca-public-cloud-network-stormshield-vrack?id=kb_article_view&sysparm_article=KB0065105",
+          "description": "Instructions for integrating Stormshield Network Security with OVHcloud's vRack in Public Cloud.",
+          "title": "Securing your OVHcloud infrastructure with Stormshield Network Security - OVHcloud"
+        },
+        {
+          "url": "https://insights.infoblox.com/solution-notes/infoblox-solution-note-transform-healthcare-it-optimize-operations-secure-data-and-improve-patient-outcomes",
+          "description": "A solution note detailing how Infoblox optimizes IT operations and secures data in healthcare.",
+          "title": "[Solution Note] Transform Healthcare: Optimize IT Operations, Secure Data And Improve Patient Outcomes"
+        },
+        {
+          "url": "https://help.alteryx.com/aac/en/release-notes/release-notes-for-designer-cloud---trifacta-classic.html",
+          "description": "Release notes detailing updates and features for Alteryx Designer Cloud Trifacta Classic.",
+          "title": "Release Notes for Designer Cloud - Trifacta Classic"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=3SV9v49UKH0",
+          "title": "Cloud Flight Simulator Part 1: GitLab CI, Workflows, and Secrets",
+          "duration": "56m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0OzIMgcpVMY",
+          "title": "A Journey of Elastic SIEM: Getting Started through Threat Analysis Part 1",
+          "duration": "61m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=NIFLJ56qIMs",
+          "title": "GCP Workflows, 1/2 - Basics of Orchestration Engines and a GCP Labs example",
+          "duration": "60m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
+          "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
+          "duration": "158m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gzxmCvVTGMo",
+          "title": "Business Process Flows: Tutorial for Beginners",
+          "duration": "34m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=boEB2fMUZnU",
+          "title": "Top 4 AI Tools for Engineers that are ACTUALLY useful",
+          "duration": "19m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_MxRJrnQKB0",
+          "title": "Netskope Explained: Series Summary | Netskope Smart Cloud Security 101\u200b\u2014Short Use Cases & Tutorials",
+          "duration": "1m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=m6ozQnqit50",
+          "title": "Google Cloud Platform Full Course 2024 | Google Cloud Platform Tutorial | GCP Course | Simplilearn",
+          "duration": "239m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
+          "description": "Comprehensive documentation for the latest Check Point API integrations and usage.",
+          "title": "Check Point - Management API reference"
+        },
+        {
+          "url": "https://cloud.google.com/ai/generative-ai",
+          "description": "An overview of Google's generative AI capabilities and tools for developers.",
+          "title": "Generative AI | Google Cloud"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/docs/",
+          "description": "A central hub for accessing Microsoft's official documentation across various products and technologies.",
+          "title": "Technical documentation | Microsoft Learn"
+        },
+        {
+          "url": "https://cloud.google.com/load-balancing/docs",
+          "description": "An overview of load balancing services and features provided by Google Cloud.",
+          "title": "Cloud Load Balancing documentation \u00a0|\u00a0 Google Cloud"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/",
+          "description": "Official documentation for Amazon Web Services (AWS) offering detailed guides and API references.",
+          "title": "Welcome to AWS Documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security",
+          "description": "An introductory guide explaining the fundamentals and importance of cyber security.",
+          "title": "What is Cyber Security? A Complete Beginner\u2019s Guide"
+        },
+        {
+          "url": "https://backstage.forgerock.com/university/ping/certification",
+          "description": "Certification program details for ForgeRock's identity and access management solutions.",
+          "title": "Certification | ForgeRock Backstage"
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+          "description": "A curated list of essential cybersecurity interview questions and answers.",
+          "title": "Top Cybersecurity Interview Questions and Answers for 2025"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/",
+          "description": "Official guide to obtaining Microsoft Azure Solutions Architect certification.",
+          "title": "Microsoft Certified: Azure Solutions Architect Expert - Certifications | Microsoft Learn"
+        },
+        {
+          "url": "https://orca.security/resources/",
+          "description": "A hub for cloud security resources and insights from Orca Security.",
+          "title": "Resource Library | Orca Security"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/defender-cloud-apps/tutorial-shadow-it",
+          "description": "A tutorial on using Microsoft Defender for Cloud Apps to manage shadow IT.",
+          "title": "Discover and manage Shadow IT - Microsoft Defender for Cloud Apps | Microsoft Learn"
+        },
+        {
+          "url": "https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture",
+          "description": "An in-depth exploration of iptables and Netfilter architecture for network traffic management.",
+          "title": "A Deep Dive into Iptables and Netfilter Architecture | DigitalOcean"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=V-u56LjsCp4",
+          "title": "AWS CloudTrail 101: A Beginner's Guide to Becoming an Expert!",
+          "duration": "12m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZQHoC0cR6Qw",
+          "title": "A Security Practitioners Guide to Best Practice GCP Security (Cloud Next '18)",
+          "duration": "42m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wUb6OgAXDpM",
+          "title": "Amazon EC2 Security Groups Deep Dive",
+          "duration": "4m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=RsxxsEzQhrM&t=1s",
+          "title": "Deep Dive on Microsoft Entra Private Access",
+          "duration": "61m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+          "title": "Complete Docker Course - From BEGINNER to PRO! (Learn Containers)",
+          "duration": "284m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9Phn949Iez4",
+          "title": "From Beginner to Expert: The Ultimate Cybersecurity Certification Guide!",
+          "duration": "25m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+          "title": "Complete Kubernetes Course - From BEGINNER to PRO",
+          "duration": "374m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-a3EX758Mq8&pp=ygUWI-2BtOudvOyasOuTnO2KuOugiOydvA%3D%3D",
+          "title": "A Deep Dive into AWS CloudTrail",
+          "duration": "26m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Urluwrkhnik",
+          "title": "Is Google's Cybersecurity Certification Worth It? (Deep Dive & Honest Review!)",
+          "duration": "10m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does IaaS stand for in cloud computing?",
+        "options": [
+          "Internet as a Service",
+          "Infrastructure as a Service",
+          "Integration as a Service",
+          "Implementation as a Service"
+        ],
+        "correct_option": 1,
+        "hint": "IaaS provides virtualized computing resources over the internet."
+      },
+      {
+        "question": "In the Shared Responsibility Model, who is responsible for securing the data stored in the cloud?",
+        "options": [
+          "Cloud Service Provider",
+          "Cloud Customer",
+          "Government",
+          "Third-party Auditors"
+        ],
+        "correct_option": 1,
+        "hint": "The customer manages the security of their data and applications."
+      },
+      {
+        "question": "Which of the following is a key component of Cloud Identity & Access Management (IAM)?",
+        "options": [
+          "User Authentication",
+          "Network Configuration",
+          "Data Encryption",
+          "Virtualization"
+        ],
+        "correct_option": 0,
+        "hint": "IAM focuses on managing user identities and access permissions."
+      },
+      {
+        "question": "What security measure is essential for protecting containers like Docker and Kubernetes?",
+        "options": [
+          "Data Backups",
+          "Container Isolation",
+          "Firewall Configuration",
+          "Load Balancing"
+        ],
+        "correct_option": 1,
+        "hint": "Proper isolation ensures that containers do not interfere with each other."
+      },
+      {
+        "question": "Which cloud service model provides the customer with hardware resources such as servers and storage?",
+        "options": [
+          "Software as a Service (SaaS)",
+          "Platform as a Service (PaaS)",
+          "Infrastructure as a Service (IaaS)",
+          "Development as a Service (DaaS)"
+        ],
+        "correct_option": 2,
+        "hint": "This model offers virtualized computing resources as a service."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a primary concern when using Infrastructure as a Service (IaaS) in cloud security?",
+        "options": [
+          "Data encryption during transmission",
+          "Application layer security",
+          "Network configuration and traffic monitoring",
+          "User interface design"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the aspects of networking and control within IaaS."
+      },
+      {
+        "question": "In the Shared Responsibility Model, which of the following is the customer's responsibility?",
+        "options": [
+          "Physical security of data centers",
+          "Configuration management",
+          "Infrastructure maintenance",
+          "Hypervisor management"
+        ],
+        "correct_option": 1,
+        "hint": "Think about what customers can manage directly through their cloud accounts."
+      },
+      {
+        "question": "Which component is essential for managing permissions and access in Cloud Identity & Access Management (IAM)?",
+        "options": [
+          "Roles and Policies",
+          "Database encryption",
+          "Virtual Machine (VM) setup",
+          "Service Level Agreements (SLAs)"
+        ],
+        "correct_option": 0,
+        "hint": "It involves defining who can access what resources in the cloud."
+      },
+      {
+        "question": "What is a best practice for securing Docker containers?",
+        "options": [
+          "Running containers as root user",
+          "Using minimal base images",
+          "Disabling all logging",
+          "Avoiding container orchestration"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on reducing the attack surface of the container."
+      },
+      {
+        "question": "In Kubernetes, what is a primary security concern when managing clusters?",
+        "options": [
+          "Service discovery",
+          "User authentication and authorization",
+          "Load balancing",
+          "Data backup procedures"
+        ],
+        "correct_option": 1,
+        "hint": "Think about controlling who can access and perform actions in the cluster."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which security responsibility is typically shared between the cloud provider and the customer in a SaaS model?",
+        "options": [
+          "Data governance and rights management",
+          "Physical hardware security",
+          "Network traffic protection",
+          "Application code security"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the layers of responsibility in a SaaS environment."
+      },
+      {
+        "question": "In the Shared Responsibility Model, who is responsible for managing the physical security of data centers?",
+        "options": [
+          "Cloud provider",
+          "Customer",
+          "Third-party security service",
+          "Both cloud provider and customer"
+        ],
+        "correct_option": 0,
+        "hint": "Think about who has control over the physical infrastructure in cloud environments."
+      },
+      {
+        "question": "Which of the following is a key feature of Cloud Identity & Access Management (IAM) systems?",
+        "options": [
+          "Automated patch management",
+          "Role-based access control",
+          "Container orchestration",
+          "Data encryption at rest"
+        ],
+        "correct_option": 1,
+        "hint": "IAM systems primarily deal with managing user permissions and roles."
+      },
+      {
+        "question": "What is a primary security concern associated with Docker containers?",
+        "options": [
+          "Virtual machine sprawl",
+          "Kernel exploits",
+          "Data at rest encryption",
+          "Network latency"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the shared resources and isolation challenges in a containerized environment."
+      },
+      {
+        "question": "How does Kubernetes enhance security for container deployments?",
+        "options": [
+          "By enforcing resource limits and isolations",
+          "By providing built-in firewall solutions",
+          "By offering automated data backup",
+          "By integrating with on-premise security tools"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how Kubernetes manages and isolates resources within clusters."
+      }
+    ]
+  }
+}

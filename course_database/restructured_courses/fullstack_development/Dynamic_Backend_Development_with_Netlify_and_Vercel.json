@@ -23,107 +23,149 @@
     "JAMstack"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://docs.expo.dev/router/reference/api-routes/",
+        "https://cli.vuejs.org/guide/deployment",
+        "https://create-react-app.dev/docs/deployment/",
+        "https://docs.astro.build/en/guides/routing/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=yLMODEUPJdU&pp=0gcJCfwAo7VqN5tD",
+        "https://www.linkedin.com/posts/addyosmani_softwareengineers-programming-reactjs-activity-7191481521675902976-8fqS",
+        "https://www.youtube.com/watch?v=FvsvHzcwOmQ",
+        "https://makendran.hashnode.dev/nhost-the-perfect-backend-101-the-essential-guide",
+        "https://www.youtube.com/watch?v=lwOsI8LtVEQ",
+        "https://docusaurus.io/docs/deployment"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=yLMODEUPJdU&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=FvsvHzcwOmQ",
+        "https://www.youtube.com/watch?v=lwOsI8LtVEQ",
+        "https://www.youtube.com/watch?v=oIsf9zE-TRI&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=l134cBAJCuc&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Wm0Zd2jawAc",
+        "https://www.youtube.com/watch?v=oocZSB5W5d0"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://northflank.com/blog/vercel-vs-netlify-choosing-the-deployment-platform-in-2025",
+        "https://vercel.com/",
+        "https://github.com/vercel/next.js/discussions/14807"
+      ],
+      "notes": [
+        "https://vercel.com/",
+        "https://answers.netlify.com/t/server-side-rendering-with-netlify-functions/2897",
+        "https://docusaurus.io/docs/deployment",
+        "https://skillshack.dev/threads/how-when-and-why-you-should-switch-from-vercel-to-a-different-hosting-provider-especially-for-nextjs",
+        "https://www.netlify.com/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=a_5vCXPmRSo",
+        "https://www.youtube.com/watch?v=oocZSB5W5d0",
+        "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=taJlPG82Ucw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=FHTbsZEJspU",
+        "https://www.youtube.com/watch?v=hn1IkJk24ow",
+        "https://www.youtube.com/watch?v=RYavimJMaa0",
+        "https://www.youtube.com/watch?v=RcEmaTVIE24",
+        "https://www.youtube.com/watch?v=Nx-f2B27I-M",
+        "https://www.youtube.com/watch?v=GT0_U7Sz8Uc"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://vercel.com/",
+        "https://www.linkedin.com/posts/addyosmani_softwareengineers-programming-reactjs-activity-7191481521675902976-8fqS",
+        "https://northflank.com/blog/netlify-alternatives",
+        "https://hygraph.com/blog/strapi-alternative",
+        "https://www.netlify.com/pricing/"
+      ],
+      "notes": [
+        "https://www.linkedin.com/posts/addyosmani_softwareengineers-programming-reactjs-activity-7191481521675902976-8fqS",
+        "https://vercel.com/",
+        "https://designcode.io/cursor/",
+        "https://vercel.com/guides",
+        "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
+        "https://masteringbackend.com/posts/how-to-deploy-your-node-js-backend-project-to-vercel-a-step-by-step-guide",
+        "https://www.netlify.com/pricing/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=9AydJ-cg8fU",
+        "https://www.youtube.com/watch?v=YQCDUJ6hhNY&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=iPvryoo3uNI",
+        "https://www.youtube.com/watch?v=LiQdOAkXkks",
+        "https://www.youtube.com/watch?v=wm5gMKuwSYk",
+        "https://www.youtube.com/watch?v=VDw1wutnqN8",
+        "https://www.youtube.com/watch?v=PqQIeNO5l6A"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers",
-        "description": "A guide on how to implement and use Service Workers to enhance web app performance and offline capabilities."
+        "question": "Which of the following best describes the primary benefit of using Netlify for JAMstack applications?",
+        "options": [
+          "Provides a serverless backend environment",
+          "Offers integrated CI/CD for streamlined deployment",
+          "Includes a built-in SQL database for data storage",
+          "Enables real-time chat functionality"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the deployment process for JAMstack."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/curriculum/extensions/other-tooling-types/",
-        "description": "The page provides an overview of various tooling types used in web development, focusing on extensions beyond standard tools."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/curriculum/extensions/a-practical-understanding-of-javascript-frameworks/",
-        "description": "An overview of JavaScript frameworks, offering practical insights into their usage and benefits for web development."
+        "question": "What feature does Vercel offer that simplifies the deployment of Next.js applications?",
+        "options": [
+          "Built-in authentication system",
+          "Automatic server scaling",
+          "Instant cache invalidation",
+          "SQL database integration"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how Vercel optimizes content delivery."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://forum.freecodecamp.org/t/how-can-i-deploy-my-portfolio-website-to-netlify-please-help/441405",
-        "description": "A forum discussion offering guidance on deploying a portfolio website to Netlify."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/reactjs/how-to-create-and-deploy-your-first-gatsby-site/",
-        "description": "A step-by-step guide on creating and deploying your first Gatsby site using ReactJS."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/node-js/how-to-deploy-node-js-app-on-netlify/",
-        "description": "A guide on deploying a Node.js application on the Netlify platform."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/uploading-a-basic-next-js-app/621523",
-        "description": "A forum discussion on the steps and considerations for uploading a basic Next.js application."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-to-add-a-netlify-form-to-a-react-app/",
-        "description": "A guide on integrating a Netlify form into a React application for seamless form handling and submissions."
+        "question": "When using Netlify for hosting a Nuxt.js application, which feature aids in handling backend logic?",
+        "options": [
+          "Server-side rendering",
+          "Serverless functions",
+          "Real-time data synchronization",
+          "Built-in analytics dashboard"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how Netlify manages backend operations without servers."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=Z47liG3OWdk",
-      "https://www.youtube.com/watch?v=FvsvHzcwOmQ&pp=0gcJCdgAo7VqN5tD",
-      "https://www.youtube.com/watch?v=OQ4O4daD434",
-      "https://www.youtube.com/watch?v=yLMODEUPJdU",
-      "https://www.youtube.com/c/JamesQQuick/videos"
+    "advanced": [
+      {
+        "question": "What is a common advantage shared by both Netlify and Vercel for frontend hosting?",
+        "options": [
+          "Integrated support for Docker containers",
+          "Built-in cryptocurrency payments",
+          "Serverless deployment with global CDN",
+          "Native mobile app development"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the global reach and deployment model."
+      },
+      {
+        "question": "For a developer looking to implement a CI/CD workflow with minimal configuration for a JAMstack site, why might they choose Vercel?",
+        "options": [
+          "Provides a drag-and-drop site builder",
+          "Offers Git-based deployment automation",
+          "Includes a proprietary IDE for coding",
+          "Requires no coding for setup"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on how Vercel simplifies the development cycle integration."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "Which of the following best describes the primary benefit of using Netlify for JAMstack applications?",
-      "options": [
-        "Provides a serverless backend environment",
-        "Offers integrated CI/CD for streamlined deployment",
-        "Includes a built-in SQL database for data storage",
-        "Enables real-time chat functionality"
-      ],
-      "correct_option": 1,
-      "hint": "Think about the deployment process for JAMstack."
-    },
-    {
-      "question": "What feature does Vercel offer that simplifies the deployment of Next.js applications?",
-      "options": [
-        "Built-in authentication system",
-        "Automatic server scaling",
-        "Instant cache invalidation",
-        "SQL database integration"
-      ],
-      "correct_option": 2,
-      "hint": "Consider how Vercel optimizes content delivery."
-    },
-    {
-      "question": "When using Netlify for hosting a Nuxt.js application, which feature aids in handling backend logic?",
-      "options": [
-        "Server-side rendering",
-        "Serverless functions",
-        "Real-time data synchronization",
-        "Built-in analytics dashboard"
-      ],
-      "correct_option": 1,
-      "hint": "Think about how Netlify manages backend operations without servers."
-    },
-    {
-      "question": "What is a common advantage shared by both Netlify and Vercel for frontend hosting?",
-      "options": [
-        "Integrated support for Docker containers",
-        "Built-in cryptocurrency payments",
-        "Serverless deployment with global CDN",
-        "Native mobile app development"
-      ],
-      "correct_option": 2,
-      "hint": "Consider the global reach and deployment model."
-    },
-    {
-      "question": "For a developer looking to implement a CI/CD workflow with minimal configuration for a JAMstack site, why might they choose Vercel?",
-      "options": [
-        "Provides a drag-and-drop site builder",
-        "Offers Git-based deployment automation",
-        "Includes a proprietary IDE for coding",
-        "Requires no coding for setup"
-      ],
-      "correct_option": 1,
-      "hint": "Focus on how Vercel simplifies the development cycle integration."
-    }
-  ],
   "preferred_if": [
     "User is building JAMstack/Next.js/Nuxt.js applications",
     "Wants simplified deployment workflow"

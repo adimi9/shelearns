@@ -1,0 +1,280 @@
+{
+  "id": "CS8",
+  "name": "Data Structures",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Data Structures",
+  "topics": [
+    "Arrays & Linked Lists",
+    "Stacks & Queues",
+    "Trees (Binary, BST, AVL)",
+    "Hash Tables"
+  ],
+  "recommended": true,
+  "tags": [
+    "algorithms",
+    "data",
+    "problem-solving"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://docs.python.org/3/tutorial/datastructures.html",
+        "https://pandas.pydata.org/docs/user_guide/10min.html",
+        "https://docs.python.org/3/tutorial/index.html",
+        "https://pandas.pydata.org/docs/user_guide/dsintro.html",
+        "https://redis.io/docs/latest/develop/data-types/"
+      ],
+      "notes": [
+        "https://www.geeksforgeeks.org/data-structures/",
+        "https://www.w3schools.com/dsa/",
+        "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+        "https://www.w3schools.com/dsa/dsa_intro.php",
+        "https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/",
+        "https://www.tutorialspoint.com/data_structures_algorithms/index.htm"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8hly31xKli0",
+        "https://www.youtube.com/watch?v=BBpAmxU_NQo",
+        "https://www.youtube.com/watch?v=zg9ih6SVACc",
+        "https://www.youtube.com/watch?v=SFEROgwxicA",
+        "https://www.youtube.com/watch?v=4RLhuZ3N9nc",
+        "https://www.youtube.com/watch?v=Qmt0QwzEmh0",
+        "https://www.youtube.com/watch?v=t2CEgPsws3U&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=_T42E9RkWVQ",
+        "https://www.youtube.com/watch?v=8MmMm2-kJV8",
+        "https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://redis.io/docs/latest/develop/data-types/",
+        "https://ziglang.org/documentation/master/",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://go.dev/doc/",
+        "https://onlinedocs.microchip.com/oxy/GUID-14993A90-86D6-4871-9884-75745A5F9716-en-US-2/GUID-F83EA3E5-3E00-480D-8DEC-F86D63212350.html"
+      ],
+      "notes": [
+        "https://redis.io/docs/latest/develop/data-types/",
+        "https://docs.xlwings.org/en/stable/datastructures.html",
+        "https://rust-unofficial.github.io/too-many-lists/",
+        "https://realpython.com/python-data-structures/",
+        "https://spacelift.io/blog/yaml",
+        "https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=BBpAmxU_NQo",
+        "https://www.youtube.com/watch?v=vditeSiJdSY",
+        "https://www.youtube.com/watch?v=r51TRDECIw4",
+        "https://www.youtube.com/watch?v=gxdQiBkidWk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=_V8eKsto3Ug",
+        "https://www.youtube.com/watch?v=F7sPauKsZXw&pp=ygUJI2RzY29kaW5n",
+        "https://www.youtube.com/watch?v=8cLIk16rTZk",
+        "https://www.youtube.com/watch?v=qnLQTEqsXsk",
+        "https://www.youtube.com/watch?v=zwb3GmNAtFk",
+        "https://www.youtube.com/@Deeplearningai/posts"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://ebpf.io/what-is-ebpf/",
+        "https://www.typescriptlang.org/docs/",
+        "https://go.dev/doc/",
+        "https://www.netguru.com/blog/api-documentation"
+      ],
+      "notes": [
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://www.yuan-meng.com/posts/mle_interviews/",
+        "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
+        "https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/",
+        "https://www.dataquest.io/blog/tutorial-advanced-for-loops-python-pandas/",
+        "https://www.datanovia.com/learn/programming/python/additional-tutorials/algorithms-data-structures.html",
+        "https://stackify.com/streams-guide-java-8/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8hly31xKli0",
+        "https://www.youtube.com/watch?v=kiUGf_Z08RQ&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=AaBnUBQG__o",
+        "https://www.youtube.com/watch?v=lqT37A7LJx8",
+        "https://www.youtube.com/watch?v=G5_Q2_yRFsY",
+        "https://www.youtube.com/watch?v=ioPagXHCRjc&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Uux30Dl_EL4",
+        "https://www.youtube.com/watch?v=DiLA0Ri6RfY",
+        "https://www.youtube.com/watch?v=2uvysYbKdjM"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary characteristic that differentiates an array from a linked list?",
+        "options": [
+          "Arrays have fixed size and linked lists are dynamic.",
+          "Arrays use nodes and linked lists use indexes.",
+          "Arrays can only store integers while linked lists can store any type.",
+          "Arrays are always faster than linked lists."
+        ],
+        "correct_option": 0,
+        "hint": "Think about the memory allocation and structure of these data structures."
+      },
+      {
+        "question": "In a stack data structure, which operation is used to add an element?",
+        "options": [
+          "Enqueue",
+          "Push",
+          "Insert",
+          "Append"
+        ],
+        "correct_option": 1,
+        "hint": "Stacks follow LIFO (Last In, First Out) principle."
+      },
+      {
+        "question": "What is the maximum number of children a node can have in a binary tree?",
+        "options": [
+          "Two",
+          "Three",
+          "Four",
+          "Unlimited"
+        ],
+        "correct_option": 0,
+        "hint": "The structure is called binary for a reason."
+      },
+      {
+        "question": "Which data structure uses a key-value pair for storing data?",
+        "options": [
+          "Array",
+          "Stack",
+          "Queue",
+          "Hash Table"
+        ],
+        "correct_option": 3,
+        "hint": "This data structure is often used for quick data retrieval based on unique keys."
+      },
+      {
+        "question": "What operation is used to remove an element from the front of a queue?",
+        "options": [
+          "Pop",
+          "Dequeue",
+          "Shift",
+          "Delete"
+        ],
+        "correct_option": 1,
+        "hint": "Queues follow FIFO (First In, First Out) principle."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the average time complexity of accessing an element in an array?",
+        "options": [
+          "O(1)",
+          "O(n)",
+          "O(log n)",
+          "O(n^2)"
+        ],
+        "correct_option": 0,
+        "hint": "Accessing elements by index in an array is direct."
+      },
+      {
+        "question": "Which data structure is best suited for implementing a LIFO order?",
+        "options": [
+          "Queue",
+          "Binary Tree",
+          "Stack",
+          "Hash Table"
+        ],
+        "correct_option": 2,
+        "hint": "LIFO stands for Last In, First Out."
+      },
+      {
+        "question": "In a Binary Search Tree, what is the time complexity of searching for an element in the average case?",
+        "options": [
+          "O(n)",
+          "O(n^2)",
+          "O(log n)",
+          "O(1)"
+        ],
+        "correct_option": 2,
+        "hint": "Binary Search Trees allow for efficient searching by reducing the problem size in half each step."
+      },
+      {
+        "question": "Which of the following operations is typically O(1) in a hash table?",
+        "options": [
+          "Insertion",
+          "Deletion",
+          "Search",
+          "All of the above"
+        ],
+        "correct_option": 3,
+        "hint": "Hash tables provide constant time complexity for these operations in the average case."
+      },
+      {
+        "question": "What is the main advantage of using a doubly linked list over a singly linked list?",
+        "options": [
+          "Easier to implement",
+          "Uses less memory",
+          "Faster access time",
+          "Ability to traverse in both directions"
+        ],
+        "correct_option": 3,
+        "hint": "Doubly linked lists have two pointers, one for the next node and one for the previous node."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following operations would be most efficient on a circular buffer implemented with an array?",
+        "options": [
+          "Inserting an element at the beginning",
+          "Removing an element from the end",
+          "Accessing an element by index",
+          "Inserting an element at the end"
+        ],
+        "correct_option": 3,
+        "hint": "Consider how a circular buffer is designed to handle insertions at its ends."
+      },
+      {
+        "question": "In a doubly linked list, what is the time complexity of deleting a node if a pointer to that node is provided?",
+        "options": [
+          "O(1)",
+          "O(n)",
+          "O(log n)",
+          "O(n log n)"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how many pointers need to be updated to remove a node when you already have a direct reference to it."
+      },
+      {
+        "question": "What is the primary advantage of using an AVL tree over a simple binary search tree?",
+        "options": [
+          "Faster insertions",
+          "Guaranteed O(log n) search time",
+          "Simpler implementation",
+          "Reduced memory usage"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the role of balancing in an AVL tree."
+      },
+      {
+        "question": "In the context of hash tables, which collision resolution method involves using a secondary hash function?",
+        "options": [
+          "Chaining",
+          "Linear probing",
+          "Quadratic probing",
+          "Double hashing"
+        ],
+        "correct_option": 3,
+        "hint": "This method involves a second hash function to determine the step size for resolving collisions."
+      },
+      {
+        "question": "Which data structure is best suited for implementing a browser's forward and backward navigation?",
+        "options": [
+          "Queue",
+          "Stack",
+          "Linked list",
+          "Binary search tree"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the LIFO nature of this operation, which allows reversing actions."
+      }
+    ]
+  }
+}

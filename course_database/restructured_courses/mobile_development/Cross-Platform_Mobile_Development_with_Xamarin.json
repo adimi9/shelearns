@@ -21,107 +21,154 @@
     "app-development"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-9.0",
+        "https://dotnet.microsoft.com/en-us/apps/xamarin",
+        "https://docs.telerik.com/devtools/xamarin/introduction"
+      ],
+      "notes": [
+        "https://m.youtube.com/watch?v=zvp7wvbyceo&t=525s",
+        "https://www.youtube.com/watch?v=DuNLR_NJv8U&pp=ygUJI2FzbWF1aW50",
+        "https://dotnet.microsoft.com/en-us/apps/xamarin",
+        "https://www.youtube.com/watch?v=rumfIg9qJ_Y",
+        "https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/intro",
+        "https://www.youtube.com/watch?v=wb44QN3G2LE"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=zvp7wvbyceo&t=525s",
+        "https://m.youtube.com/watch?v=DuNLR_NJv8U&pp=ygUJI3VpbWF1aW1h",
+        "https://www.youtube.com/watch?v=rumfIg9qJ_Y",
+        "https://www.youtube.com/watch?v=wb44QN3G2LE",
+        "https://www.youtube.com/watch?v=93ZU6j59wL4",
+        "https://www.youtube.com/jamesmontemagno",
+        "https://www.youtube.com/channel/UCe-f02uZgEXdHmHpC3loAQg",
+        "https://www.youtube.com/watch?v=IcWnbZ6joDs",
+        "https://www.youtube.com/playlist?list=PLwOF5UVsZWUjN-kBumQtwAT4p9JZ6pt0c",
+        "https://www.youtube.com/watch?v=sr48IF3Yp-s"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.telerik.com/devtools/maui/introduction",
+        "https://air.unimi.it/retrieve/dfa8b9a9-a042-748b-e053-3a05fe0a3a96/mascetti2021developing.pdf",
+        "http://jonathanpeppers.com/Blog/xamarin's-tiny-cuts",
+        "https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui?view=net-maui-9.0",
+        "https://www.devexpress.com/maui/"
+      ],
+      "notes": [
+        "https://learn.microsoft.com/en-us/visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio?view=vs-2022",
+        "https://github.com/dotnet/maui/discussions/15203",
+        "https://www.browserstack.com/guide/build-cross-platform-mobile-apps",
+        "https://sendbird.com/developer/tutorials/choosing-a-cross-platform-app-development-framework-a-detailed-comparison",
+        "https://auth0.com/blog/developing-mobile-apps-with-xamarin-forms-and-azure-functions/",
+        "https://fulcrum.rocks/blog/cross-platform-app-development"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=WhmCQvi4Jtw",
+        "https://www.youtube.com/watch?v=QUHSdp6Z_iI",
+        "https://www.youtube.com/watch?v=s5CbRD1NGj8",
+        "https://www.youtube.com/watch?v=1sOTTXlIhZo",
+        "https://www.youtube.com/watch?v=_B0D2ieaP-Y",
+        "https://www.youtube.com/watch?v=N29gwHWHBCA",
+        "https://www.youtube.com/watch?v=Q2EybPKnsog",
+        "https://www.youtube.com/watch?v=CpkecWpaXW4",
+        "https://www.youtube.com/watch?v=Yqvekq3IHa8",
+        "https://www.youtube.com/watch?v=AzGrLAh-ltY"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "https://devblogs.microsoft.com/xamarin/announcing-xamarin-3/",
+        "https://ionicframework.com/",
+        "https://www.growin.com/mastering-net-and-c-your-complete-12-step-guide-to-success"
+      ],
+      "notes": [
+        "https://www.youtube.com/jamesmontemagno",
+        "https://tech-on-diapers.hashnode.dev/creating-cross-platform-applications-with-c-and-xamarin",
+        "https://dotnetfoundation.org/news-events/detail/a-guide-to-establishing-a-thriving-.net-user-group-from-scratch",
+        "https://platform.uno/blog/uno-extensions-navigation-guide/",
+        "https://github.com/dotnet/maui/discussions/15203",
+        "https://vslive.com/Blogs/News-and-Tips/List/Blog-List.aspx?aliId=1471647751%2F%2F%2F%2F%27&m=1&Page=5",
+        "https://www.browserstack.com/guide/build-cross-platform-mobile-apps"
+      ],
+      "videos": [
+        "https://www.youtube.com/jamesmontemagno",
+        "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        "https://www.youtube.com/visualstudio",
+        "https://www.youtube.com/watch?v=_GzjFRUKtuU&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=n8UL4EohZOM",
+        "https://www.youtube.com/c/SajawalKhanJadoon",
+        "https://www.youtube.com/watch?v=iB8ZCs07Zzs",
+        "https://www.youtube.com/watch?v=7WQoGDhoGfA&pp=ygULI2JsYXpvcm1hdWk%3D",
+        "https://www.youtube.com/watch?v=B-5e0PJtSDs"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-9.0",
-        "description": "Explore Microsoft's documentation on .NET MAUI, a framework for building cross-platform applications with .NET."
+        "question": "What programming languages are primarily used in Xamarin for cross-platform mobile development?",
+        "options": [
+          "JavaScript and TypeScript",
+          "C# and .NET",
+          "Swift and Objective-C",
+          "Java and Kotlin"
+        ],
+        "correct_option": 1,
+        "hint": "This framework uses languages associated with Microsoft technologies."
       },
       {
-        "url": "https://dotnet.microsoft.com/en-us/apps/xamarin",
-        "description": "The page provides an overview of Xamarin, a platform for building cross-platform mobile applications using .NET and C#."
-      },
-      {
-        "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
-        "description": "Comprehensive documentation and resources for learning and mastering C# programming language in .NET."
+        "question": "Which company developed Xamarin as a cross-platform mobile development framework?",
+        "options": [
+          "Google",
+          "Apple",
+          "Facebook",
+          "Microsoft"
+        ],
+        "correct_option": 3,
+        "hint": "This company is known for its Windows operating system and Azure cloud services."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://dotnet.microsoft.com/en-us/apps/xamarin",
-        "description": "Explore how Xamarin enables developers to build native Android, iOS, and Windows apps using .NET and C#."
-      },
-      {
-        "url": "https://www.reddit.com/r/csharp/comments/g9ok2n/is_xamarin_the_best_option_for_cross_platform_app/",
-        "description": "A discussion on the pros and cons of using Xamarin for cross-platform app development in C#."
-      },
-      {
-        "url": "https://www.amazon.com/Xamarin-Mobile-Application-Development-Cross-Platform/dp/1484202155",
-        "description": "A comprehensive guide to developing cross-platform mobile applications using Xamarin."
-      },
-      {
-        "url": "https://www.reddit.com/r/dotnet/comments/1av5y4y/is_c_right_for_developing_android_apps/",
-        "description": "Discussion on the suitability of C# for developing Android applications."
-      },
-      {
-        "url": "https://stackoverflow.com/questions/76652602/xamarin-is-end-of-life-what-is-its-replacement-for-developing-an-android-app-in",
-        "description": "This Stack Overflow page discusses alternatives for developing Android apps following Xamarin's end-of-life."
+        "question": "What is a primary advantage of using Xamarin for developers familiar with C# and .NET?",
+        "options": [
+          "Native performance without writing any platform-specific code",
+          "Ability to use a single codebase across multiple platforms",
+          "Access to a wide variety of third-party libraries",
+          "Simplified user interface design with HTML and CSS"
+        ],
+        "correct_option": 1,
+        "hint": "This advantage is related to code reuse across different platforms."
       }
     ],
-    "videos": [
-      "https://m.youtube.com/watch?v=DuNLR_NJv8U&pp=ygUJI3VpbWF1aW1h",
-      "https://www.youtube.com/watch?v=93ZU6j59wL4",
-      "https://m.youtube.com/watch?v=zvp7wvbyceo&t=525s",
-      "https://www.youtube.com/watch?v=rumfIg9qJ_Y",
-      "https://www.reddit.com/r/FlutterDev/comments/14n19ss/is_flutter_really_that_good/"
+    "advanced": [
+      {
+        "question": "Which integrated development environment (IDE) is most commonly used with Xamarin for application development?",
+        "options": [
+          "Visual Studio",
+          "Xcode",
+          "Android Studio",
+          "Eclipse"
+        ],
+        "correct_option": 0,
+        "hint": "This IDE is developed by Microsoft and supports C# and .NET."
+      },
+      {
+        "question": "For enterprise environments, why might a developer choose Xamarin over Flutter?",
+        "options": [
+          "Easier integration with existing C# and .NET systems",
+          "Better performance on iOS devices",
+          "More vibrant open-source community",
+          "Simpler syntax and programming model"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the developer's familiarity with Microsoft technologies."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What programming languages are primarily used in Xamarin for cross-platform mobile development?",
-      "options": [
-        "JavaScript and TypeScript",
-        "C# and .NET",
-        "Swift and Objective-C",
-        "Java and Kotlin"
-      ],
-      "correct_option": 1,
-      "hint": "This framework uses languages associated with Microsoft technologies."
-    },
-    {
-      "question": "Which company developed Xamarin as a cross-platform mobile development framework?",
-      "options": [
-        "Google",
-        "Apple",
-        "Facebook",
-        "Microsoft"
-      ],
-      "correct_option": 3,
-      "hint": "This company is known for its Windows operating system and Azure cloud services."
-    },
-    {
-      "question": "What is a primary advantage of using Xamarin for developers familiar with C# and .NET?",
-      "options": [
-        "Native performance without writing any platform-specific code",
-        "Ability to use a single codebase across multiple platforms",
-        "Access to a wide variety of third-party libraries",
-        "Simplified user interface design with HTML and CSS"
-      ],
-      "correct_option": 1,
-      "hint": "This advantage is related to code reuse across different platforms."
-    },
-    {
-      "question": "Which integrated development environment (IDE) is most commonly used with Xamarin for application development?",
-      "options": [
-        "Visual Studio",
-        "Xcode",
-        "Android Studio",
-        "Eclipse"
-      ],
-      "correct_option": 0,
-      "hint": "This IDE is developed by Microsoft and supports C# and .NET."
-    },
-    {
-      "question": "For enterprise environments, why might a developer choose Xamarin over Flutter?",
-      "options": [
-        "Easier integration with existing C# and .NET systems",
-        "Better performance on iOS devices",
-        "More vibrant open-source community",
-        "Simpler syntax and programming model"
-      ],
-      "correct_option": 0,
-      "hint": "Consider the developer's familiarity with Microsoft technologies."
-    }
-  ],
   "preferred_if": [
     "User has strong C#/.NET background",
     "Developing for enterprise environments"

@@ -1,0 +1,278 @@
+{
+  "id": "CS5",
+  "name": "Distributed Systems Basics",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Distributed Systems",
+  "topics": [
+    "Client-Server Architecture",
+    "Concurrency Issues",
+    "Fault Tolerance & Consistency",
+    "RPC & Message Queues (Concepts)"
+  ],
+  "recommended": false,
+  "tags": [
+    "systems",
+    "scalability",
+    "cloud"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://kubernetes.io/docs/concepts/overview/",
+        "https://pytorch.org/docs/stable/distributed.html",
+        "https://restfulapi.net/",
+        "https://kafka.apache.org/documentation/"
+      ],
+      "notes": [
+        "https://www.baeldung.com/cs/distributed-systems-guide",
+        "https://www.geeksforgeeks.org/distributed-systems-tutorial/",
+        "https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/",
+        "https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial",
+        "https://github.com/aphyr/distsys-class",
+        "https://martin.kleppmann.com/2020/11/18/distributed-systems-and-elliptic-curves.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=UEAMfLPZZhE&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=cQP8WApzIQQ",
+        "https://www.youtube.com/watch?v=CESKgdNiKJw",
+        "https://www.youtube.com/watch?v=gxfERVP18-g",
+        "https://www.youtube.com/watch?v=BkSdD5VtyRM",
+        "https://www.youtube.com/watch?v=Y6Ev8GIlbxc",
+        "https://www.youtube.com/watch?v=eW4JgrkwWEM",
+        "https://www.youtube.com/watch?v=NN7-fcm3Cjg",
+        "https://www.youtube.com/watch?v=nFxjaVmFj5E"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://pytorch.org/docs/stable/distributed.html",
+        "https://kafka.apache.org/documentation/",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/"
+      ],
+      "notes": [
+        "https://aws.amazon.com/what-is/distributed-computing/",
+        "https://www.splunk.com/en_us/blog/learn/distributed-systems.html",
+        "https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html",
+        "https://www.atlassian.com/microservices/microservices-architecture/distributed-architecture",
+        "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+        "https://www.baeldung.com/cs/distributed-systems-guide",
+        "https://www.geeksforgeeks.org/system-design/comparison-centralized-decentralized-and-distributed-systems/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=CESKgdNiKJw",
+        "https://www.youtube.com/watch?v=EybGGLbLipI",
+        "https://www.youtube.com/watch?v=TQduOOBg1-U",
+        "https://www.youtube.com/watch?v=6Aq1Jj3Ge4Q",
+        "https://www.youtube.com/watch?v=XhADYHKVcp0",
+        "https://www.youtube.com/watch?v=BUOSup1APPw",
+        "https://www.youtube.com/watch?v=LiIwwKZYShE",
+        "https://www.youtube.com/watch?v=-xYwXUGM7nY",
+        "https://www.youtube.com/watch?v=Vv4HpLfqAz4",
+        "https://www.youtube.com/channel/UCbTggJVf0NDTfWX-C_gUGSg/community"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html",
+        "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
+        "https://docs.confluent.io/kafka/introduction.html",
+        "https://docs.python-guide.org/",
+        "https://docs.confluent.io/platform/current/connect/index.html"
+      ],
+      "notes": [
+        "https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/",
+        "https://selectfrom.dev/deep-dive-into-dask-distributed-2-bd101f6d7ef2",
+        "https://www.hellointerview.com/learn/system-design/deep-dives/cassandra",
+        "https://developer.confluent.io/courses/architecture/get-started/",
+        "https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html",
+        "https://www.educative.io/courses/grokking-the-system-design-interview",
+        "https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321"
+      ],
+      "videos": [
+        "https://www.youtube.com/c/ArpitBhayani",
+        "https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw",
+        "https://www.youtube.com/glich-stream",
+        "https://www.youtube.com/watch?v=3yuBOB3VrCk&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Cb0tyU9uSLQ&pp=ygUII3Nka3MwMjU%3D",
+        "https://www.youtube.com/watch?v=N9QllqXI1sE",
+        "https://www.youtube.com/watch?v=nFxjaVmFj5E",
+        "https://www.youtube.com/watch?v=2v4yYhGgK_E",
+        "https://www.youtube.com/watch?v=X40EozwK75s",
+        "https://www.youtube.com/watch?v=HG2Yd-3r4-M"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of a client-server architecture in distributed systems?",
+        "options": [
+          "To centralize database management",
+          "To separate user interfaces from data processing",
+          "To ensure all servers are located in the same physical location",
+          "To eliminate the need for network protocols"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the separation of concerns between the client and server."
+      },
+      {
+        "question": "Which issue is most commonly associated with concurrency in distributed systems?",
+        "options": [
+          "Data redundancy",
+          "Network latency",
+          "Race conditions",
+          "Hardware failures"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the problems that occur when multiple processes access shared resources."
+      },
+      {
+        "question": "What is fault tolerance in the context of distributed systems?",
+        "options": [
+          "The ability to prevent any errors from occurring",
+          "The ability to continue operation despite failures",
+          "Ensuring all data is permanently stored",
+          "Maximizing the speed of data processing"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how a system can handle failures and still operate."
+      },
+      {
+        "question": "Which technology is commonly used for remote procedure calls (RPC) in distributed systems?",
+        "options": [
+          "HTTP",
+          "SMTP",
+          "XML-RPC",
+          "FTP"
+        ],
+        "correct_option": 2,
+        "hint": "Look for a protocol specifically designed for executing code on remote servers."
+      },
+      {
+        "question": "What is the primary advantage of using message queues in distributed systems?",
+        "options": [
+          "Increasing the speed of message delivery",
+          "Ensuring messages are delivered in real-time",
+          "Decoupling the sender and receiver of messages",
+          "Reducing the size of the messages sent"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how message queues manage communication between different parts of a system."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a key advantage of using a client-server architecture in distributed systems?",
+        "options": [
+          "Improved scalability by adding more clients",
+          "Centralized control over resources",
+          "Reduced network latency",
+          "Simplified client-side code"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the control aspect in client-server models."
+      },
+      {
+        "question": "Which of the following is a common concurrency issue in distributed systems?",
+        "options": [
+          "Data serialization",
+          "Deadlock",
+          "Load balancing",
+          "Protocol mismatch"
+        ],
+        "correct_option": 1,
+        "hint": "This issue involves processes waiting indefinitely for resources."
+      },
+      {
+        "question": "In terms of fault tolerance, what is a primary goal for a distributed system?",
+        "options": [
+          "Minimizing the number of servers",
+          "Ensuring the system continues to operate despite failures",
+          "Achieving the fastest possible data processing",
+          "Reducing the cost of hardware"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what is essential for system reliability in the face of failures."
+      },
+      {
+        "question": "Which technology is primarily used in distributed systems to handle remote procedure calls (RPC)?",
+        "options": [
+          "HTTP",
+          "gRPC",
+          "SOAP",
+          "SMTP"
+        ],
+        "correct_option": 1,
+        "hint": "This is a high-performance RPC framework developed by Google."
+      },
+      {
+        "question": "What role do message queues play in distributed systems?",
+        "options": [
+          "Directly executing client requests",
+          "Facilitating asynchronous communication between services",
+          "Maintaining a global state of the system",
+          "Handling data encryption"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how message queues help in communication without direct interaction."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary challenge addressed by distributed systems in a client-server architecture?",
+        "options": [
+          "Scalability and load balancing",
+          "Single point of failure",
+          "User interface design",
+          "Programming language compatibility"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the ability to handle increased loads."
+      },
+      {
+        "question": "Which concurrency issue can occur when multiple processes access shared data simultaneously without proper synchronization?",
+        "options": [
+          "Deadlock",
+          "Race condition",
+          "Starvation",
+          "Livelock"
+        ],
+        "correct_option": 1,
+        "hint": "This issue involves unpredictable results due to timing."
+      },
+      {
+        "question": "What is the primary goal of fault tolerance in distributed systems?",
+        "options": [
+          "To ensure data consistency",
+          "To prevent security breaches",
+          "To maintain system availability despite failures",
+          "To optimize network latency"
+        ],
+        "correct_option": 2,
+        "hint": "Think about system behavior during component failures."
+      },
+      {
+        "question": "In the context of distributed systems, what does RPC stand for and what is its primary purpose?",
+        "options": [
+          "Remote Procedure Call; to enable a program to cause a procedure to execute in another address space",
+          "Random Packet Communication; to randomly distribute network packets",
+          "Reliable Protocol Connectivity; to ensure stable network connections",
+          "Resource Priority Control; to manage resource allocation"
+        ],
+        "correct_option": 0,
+        "hint": "It involves executing procedures across network boundaries."
+      },
+      {
+        "question": "How do message queues facilitate communication between distributed system components?",
+        "options": [
+          "By providing a direct and synchronized communication channel",
+          "By allowing asynchronous communication and decoupling of services",
+          "By using peer-to-peer direct messaging",
+          "By establishing a central shared memory for data exchange"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the decoupling and timing of message delivery."
+      }
+    ]
+  }
+}

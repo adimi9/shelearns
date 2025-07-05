@@ -24,107 +24,157 @@
     "fullstack"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://pinia.vuejs.org/introduction.html",
+        "https://vuejs.org/guide/quick-start",
+        "https://v2.vuejs.org/v2/guide/",
+        "https://vuejs.org/",
+        "https://cli.vuejs.org/guide/deployment"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=Jkb4wmGrPiw",
+        "https://vuejs.org/guide/scaling-up/ssr.html",
+        "https://www.youtube.com/watch?v=JAgeFLJYrUY",
+        "https://v2.vuejs.org/v2/guide/",
+        "https://www.youtube.com/watch?v=4Re7hZdsoOI",
+        "https://vueschool.io/articles/vuejs-tutorials/the-ultimate-guide-for-using-vue-js-with-laravel/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Jkb4wmGrPiw",
+        "https://www.youtube.com/watch?v=JAgeFLJYrUY",
+        "https://www.youtube.com/watch?v=1GNsWa_EZdw",
+        "https://www.youtube.com/watch?v=z7mMQuGxBOg",
+        "https://www.youtube.com/watch?v=4via-J98jwM",
+        "https://www.youtube.com/watch?v=nhKCRYJQO_4",
+        "https://www.youtube.com/watch?v=qZXt1Aom3Cs",
+        "https://www.youtube.com/watch?v=G9BM1q5Jl50"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://vuejs.org/guide/extras/ways-of-using-vue",
+        "https://pinia.vuejs.org/introduction.html",
+        "https://vuejs.org/guide/scaling-up/ssr.html",
+        "https://github.com/vuejs/awesome-vue",
+        "https://vuejs.org/guide/scaling-up/testing"
+      ],
+      "notes": [
+        "https://vuejs.org/guide/extras/ways-of-using-vue",
+        "https://pinia.vuejs.org/introduction.html",
+        "https://vuejs.org/guide/scaling-up/ssr.html",
+        "https://github.com/vuejs/awesome-vue",
+        "https://v2.vuejs.org/v2/guide/",
+        "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+        "https://www.vuemastery.com/blog/why-you-should-use-vue-graphql/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=actyksjs9eE",
+        "https://www.youtube.com/watch?v=F1zWhqmPOqk",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUGIzEzc3Ny",
+        "https://www.youtube.com/watch?v=LMagNcngvcU",
+        "https://www.youtube.com/watch?v=lKKsjpH09dU",
+        "https://www.youtube.com/watch?v=ZqEa8fTxypQ",
+        "https://www.youtube.com/watch?v=eUitxqLxICo",
+        "https://www.youtube.com/watch?v=FDEf3iWEgFI",
+        "https://www.youtube.com/channel/UC6wkyzoWlTlkjG7CwNXEQbg"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://v2.vuejs.org/v2/guide/",
+        "https://vuejs.org/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://vuejs.org/guide/extras/reactivity-in-depth",
+        "https://vueschool.io/articles/vuejs-tutorials/the-ultimate-guide-for-using-vue-js-with-laravel/"
+      ],
+      "notes": [
+        "https://v2.vuejs.org/v2/guide/",
+        "https://www.linkedin.com/posts/benjamenpyle_datadog-rum-provides-deep-application-insights-activity-7240769849436594176-tUYP",
+        "https://www.vuemastery.com/courses/",
+        "https://vueschool.io/articles/vuejs-tutorials/the-ultimate-guide-for-using-vue-js-with-laravel/",
+        "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
+        "https://vuejs.org/guide/extras/reactivity-in-depth",
+        "https://zerotomastery.io/blog/node-js-projects-for-beginners-and-above/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=pgWZLS75Nmo",
+        "https://www.youtube.com/watch?v=fUJ3ULyyA-Y",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUJI25leHRqczE0",
+        "https://www.youtube.com/watch?v=8_X0nSrzrCw",
+        "https://www.youtube.com/watch?v=Tef1e9FiSR0",
+        "https://www.youtube.com/@akshaymarch7",
+        "https://www.youtube.com/playlist?list=PLEiEAq2VkUULCC3eEATL4zzuapTjmo1Z_",
+        "https://www.youtube.com/channel/UCKapdaD5EYfJqpP0Yw2sivQ"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_getting_started",
-        "description": "An introductory guide to getting started with the Vue.js framework for web development."
+        "question": "What is a key reason for choosing Vue.js over React for building SPAs?",
+        "options": [
+          "Vue.js offers a simpler learning curve.",
+          "Vue.js is faster than React.",
+          "Vue.js has more extensive tooling than React.",
+          "Vue.js is better for large-scale applications."
+        ],
+        "correct_option": 0,
+        "hint": "Consider ease of learning and simplicity."
       },
       {
-        "url": "https://reactjs.org/",
-        "description": "Official React documentation providing comprehensive guides and resources for building user interfaces with React."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce",
-        "description": "The MDN Web Docs page on `Array.prototype.reduce()` explains how to use the `reduce` method to execute a reducer function on each array element, resulting in a single output value."
+        "question": "What feature of Vue.js makes it particularly appealing for users who prefer simpler syntax?",
+        "options": [
+          "Two-way data binding",
+          "Virtual DOM",
+          "Server-side rendering",
+          "JSX syntax"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how data is managed and updated in Vue.js."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.w3schools.com/vue/",
-        "description": "A comprehensive tutorial for learning and implementing Vue.js, including examples and interactive exercises."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/javascript/vue-js/",
-        "description": "An introductory guide to understanding and using the Vue.js framework in JavaScript development."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/what-should-i-learn-first-react-js-or-vue-js/466962",
-        "description": "A discussion on the FreeCodeCamp forum comparing React.js and Vue.js to help developers decide which to learn first."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/vue-js-vs-react-thoughts-and-opinions/107746",
-        "description": "A forum discussion comparing Vue.js and React, sharing thoughts and opinions on their differences and use cases."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/vue-js-resources/48285",
-        "description": "A comprehensive list of resources and tutorials for learning and mastering Vue.js."
+        "question": "How does Vue.js primarily differ from React in terms of syntax preference?",
+        "options": [
+          "Vue uses templates while React uses JSX.",
+          "Vue requires more code for the same functionality.",
+          "Vue lacks component-based architecture.",
+          "Vue does not support reactivity."
+        ],
+        "correct_option": 0,
+        "hint": "Consider the way components are structured in Vue.js."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=VeNfHj6MhgA",
-      "https://www.youtube.com/watch?v=qZXt1Aom3Cs",
-      "https://www.youtube.com/watch?v=5oKpoqmUj64",
-      "https://www.youtube.com/watch?v=KTFH4P8unUQ&pp=ygUEI3Z1Mw%3D%3D",
-      "https://www.youtube.com/watch?v=hiOUHcx4Ja8"
+    "advanced": [
+      {
+        "question": "Which of the following is a tag commonly associated with Vue.js?",
+        "options": [
+          "framework",
+          "library",
+          "tooling",
+          "backend"
+        ],
+        "correct_option": 0,
+        "hint": "Vue.js is primarily used for building user interfaces."
+      },
+      {
+        "question": "Which aspect of Vue.js makes it suitable for building Single Page Applications (SPAs)?",
+        "options": [
+          "Its reactivity system",
+          "Its server-side capabilities",
+          "Its extensive library ecosystem",
+          "Its CSS styling capabilities"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how Vue.js handles data updates and UI changes."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is a key reason for choosing Vue.js over React for building SPAs?",
-      "options": [
-        "Vue.js offers a simpler learning curve.",
-        "Vue.js is faster than React.",
-        "Vue.js has more extensive tooling than React.",
-        "Vue.js is better for large-scale applications."
-      ],
-      "correct_option": 0,
-      "hint": "Consider ease of learning and simplicity."
-    },
-    {
-      "question": "What feature of Vue.js makes it particularly appealing for users who prefer simpler syntax?",
-      "options": [
-        "Two-way data binding",
-        "Virtual DOM",
-        "Server-side rendering",
-        "JSX syntax"
-      ],
-      "correct_option": 0,
-      "hint": "Think about how data is managed and updated in Vue.js."
-    },
-    {
-      "question": "How does Vue.js primarily differ from React in terms of syntax preference?",
-      "options": [
-        "Vue uses templates while React uses JSX.",
-        "Vue requires more code for the same functionality.",
-        "Vue lacks component-based architecture.",
-        "Vue does not support reactivity."
-      ],
-      "correct_option": 0,
-      "hint": "Consider the way components are structured in Vue.js."
-    },
-    {
-      "question": "Which of the following is a tag commonly associated with Vue.js?",
-      "options": [
-        "framework",
-        "library",
-        "tooling",
-        "backend"
-      ],
-      "correct_option": 0,
-      "hint": "Vue.js is primarily used for building user interfaces."
-    },
-    {
-      "question": "Which aspect of Vue.js makes it suitable for building Single Page Applications (SPAs)?",
-      "options": [
-        "Its reactivity system",
-        "Its server-side capabilities",
-        "Its extensive library ecosystem",
-        "Its CSS styling capabilities"
-      ],
-      "correct_option": 0,
-      "hint": "Think about how Vue.js handles data updates and UI changes."
-    }
-  ],
   "preferred_if": [
     "User prefers Vue syntax"
   ]

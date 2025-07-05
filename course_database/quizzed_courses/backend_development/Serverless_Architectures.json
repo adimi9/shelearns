@@ -1,0 +1,268 @@
+{
+  "id": "BE3",
+  "name": "Serverless Architectures",
+  "category": "Backend Development",
+  "primary_tech": "Serverless",
+  "topics": [
+    "FaaS (Functions-as-a-Service)",
+    "AWS Lambda/Google Cloud Functions",
+    "Serverless Framework/SAM"
+  ],
+  "recommended": false,
+  "tags": [
+    "serverless",
+    "cloud",
+    "event-driven"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://www.serverless.com/framework/docs/providers/aws/guide/serverless.yml",
+        "https://cloud.google.com/bigquery/docs/introduction",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html"
+      ],
+      "notes": [
+        "https://www.datadoghq.com/knowledge-center/serverless-architecture/",
+        "https://www.serverless.com/aws-lambda",
+        "https://www.baeldung.com/cs/serverless-architecture",
+        "https://www.serverless.com/framework/docs/providers/aws/guide/intro",
+        "https://aws.amazon.com/serverless/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=EBSdyoO3goc&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=5fTtmeCpSRw",
+        "https://www.youtube.com/watch?v=5rG-YgTHMC8",
+        "https://www.youtube.com/watch?v=Vxf-rOEO1q4",
+        "https://www.youtube.com/watch?v=RtiWU1DrMaM",
+        "https://www.youtube.com/watch?v=ciTa2I7-tDE",
+        "https://www.youtube.com/watch?v=rSIirRFa77s&pp=ygUJI3N1YmV2ZW50",
+        "https://www.youtube.com/watch?v=VGerk8hrP9U",
+        "https://www.youtube.com/playlist?list=PLVHgQku8Z935QbKFvttpxUF1WlNWt1dZ9"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.databricks.com/aws/en/jobs/run-serverless-jobs",
+        "https://cloud.google.com/dataproc-serverless/docs",
+        "https://aws.amazon.com/lambda/",
+        "https://cloud.google.com/appengine/docs",
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html"
+      ],
+      "notes": [
+        "https://www.serverless.com/blog/eventbridge-use-cases-and-tutorial",
+        "https://aws.amazon.com/serverless/",
+        "https://www.serverless.com/aws-lambda",
+        "https://aws.amazon.com/tutorials/create-a-serverless-workflow-step-functions-lambda/",
+        "https://www.ibm.com/think/topics/serverless"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=5fTtmeCpSRw",
+        "https://www.youtube.com/watch?v=jfNJsuuzh7w",
+        "https://www.youtube.com/watch?v=JDbkoICzQro",
+        "https://www.youtube.com/watch?v=ng53ydesSFg",
+        "https://www.youtube.com/watch?v=VAyhnFX_zb8",
+        "https://www.youtube.com/watch?v=jV0tIqS2_Q4",
+        "https://www.youtube.com/watch?v=ZsVcig8-JUo",
+        "https://www.youtube.com/watch?v=EBSdyoO3goc"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.serverless.com/aws-lambda",
+        "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+        "https://cloud.google.com/blog/products/data-analytics/new-blog-series-bigquery-explained-overview"
+      ],
+      "notes": [
+        "https://www.serverless.com/aws-lambda",
+        "https://api7.ai/learning-center/api-gateway-guide",
+        "https://panoply.io/data-warehouse-guide/bigquery-architecture/",
+        "https://docs.aws.amazon.com/serverless/latest/devguide/serverless-core.pdf",
+        "https://serverlessland.com/learn"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=lLrjaVdBuM0",
+        "https://www.youtube.com/watch?v=cF1chd45Vhw",
+        "https://www.youtube.com/watch?v=laT683IWvXY",
+        "https://www.youtube.com/watch?v=6X4lSPkn4ps",
+        "https://www.youtube.com/watch?v=5rG-YgTHMC8",
+        "https://m.youtube.com/watch?v=Y6jbFC8tvVw&t=132s",
+        "https://www.youtube.com/watch?v=usOmwLZNVuM",
+        "https://www.youtube.com/watch?v=ibvG-pYKl8U",
+        "https://www.youtube.com/watch?v=umEw0PODDjs"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does FaaS stand for in serverless architectures?",
+        "options": [
+          "Functions-as-a-Service",
+          "Framework-as-a-Service",
+          "Features-as-a-Service",
+          "File-as-a-Service"
+        ],
+        "correct_option": 0,
+        "hint": "It's related to deploying individual functions."
+      },
+      {
+        "question": "Which of the following is a popular serverless compute service provided by Amazon?",
+        "options": [
+          "AWS Lambda",
+          "AWS EC2",
+          "AWS S3",
+          "AWS RDS"
+        ],
+        "correct_option": 0,
+        "hint": "It's named after a Greek letter."
+      },
+      {
+        "question": "What is the primary benefit of using serverless architectures?",
+        "options": [
+          "Automatic scaling",
+          "Increased server maintenance",
+          "Higher fixed costs",
+          "Complex setup"
+        ],
+        "correct_option": 0,
+        "hint": "Think about cost and resource management."
+      },
+      {
+        "question": "Which framework is specifically designed to help deploy serverless applications?",
+        "options": [
+          "Serverless Framework",
+          "Django",
+          "Flask",
+          "Spring"
+        ],
+        "correct_option": 0,
+        "hint": "Its name is quite literal."
+      },
+      {
+        "question": "Which of these is a serverless compute service from Google Cloud Platform?",
+        "options": [
+          "Google Cloud Functions",
+          "Google Compute Engine",
+          "Google Cloud Storage",
+          "Google App Engine"
+        ],
+        "correct_option": 0,
+        "hint": "Focus on functions as the service type."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a primary advantage of using FaaS in serverless architectures?",
+        "options": [
+          "Reduced latency",
+          "Increased control over infrastructure",
+          "Automatic scaling",
+          "Higher cost efficiency"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how FaaS handles varying workloads without manual intervention."
+      },
+      {
+        "question": "Which of the following programming languages is NOT natively supported by AWS Lambda?",
+        "options": [
+          "Python",
+          "Ruby",
+          "Go",
+          "C++"
+        ],
+        "correct_option": 3,
+        "hint": "AWS Lambda supports several popular languages, but not all are native."
+      },
+      {
+        "question": "What is the serverless framework used for?",
+        "options": [
+          "Managing databases",
+          "Orchestrating serverless functions",
+          "Developing mobile apps",
+          "Monitoring network traffic"
+        ],
+        "correct_option": 1,
+        "hint": "This framework is primarily used to simplify the deployment and management of serverless applications."
+      },
+      {
+        "question": "How does Google Cloud Functions differ from AWS Lambda in its execution model?",
+        "options": [
+          "Google Cloud Functions supports longer execution times",
+          "Google Cloud Functions automatically scales with traffic",
+          "AWS Lambda allows for more concurrent executions",
+          "AWS Lambda supports more runtime environments"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the time limits imposed by each platform."
+      },
+      {
+        "question": "What is a key characteristic of serverless architectures compared to traditional server-based architectures?",
+        "options": [
+          "Lower security risks",
+          "Complete elimination of servers",
+          "Pay-as-you-go pricing model",
+          "Higher complexity in deployment"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the financial model most associated with serverless solutions."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which service in AWS provides a framework specifically for deploying serverless applications?",
+        "options": [
+          "AWS CloudFormation",
+          "AWS SAM",
+          "AWS Elastic Beanstalk",
+          "AWS CodeDeploy"
+        ],
+        "correct_option": 1,
+        "hint": "It's an extension of AWS CloudFormation for serverless applications."
+      },
+      {
+        "question": "In the context of Google Cloud Functions, which of the following languages is NOT supported?",
+        "options": [
+          "Node.js",
+          "Python",
+          "Java",
+          "Ruby"
+        ],
+        "correct_option": 3,
+        "hint": "This language is known for web development but isn't supported by Google Cloud Functions."
+      },
+      {
+        "question": "Which component is NOT part of the Serverless Framework architecture?",
+        "options": [
+          "Serverless CLI",
+          "Serverless Dashboard",
+          "Serverless Application Model",
+          "Serverless Plugin"
+        ],
+        "correct_option": 2,
+        "hint": "This component is specific to AWS."
+      },
+      {
+        "question": "What is a common challenge when using FaaS in serverless architectures?",
+        "options": [
+          "Automatic scaling",
+          "Cold start latency",
+          "Built-in security",
+          "Simplified deployment"
+        ],
+        "correct_option": 1,
+        "hint": "It's related to initial function invocation time."
+      },
+      {
+        "question": "Which of the following is a primary benefit of using AWS Lambda?",
+        "options": [
+          "Dedicated server management",
+          "Long-term processing capabilities",
+          "Event-driven execution",
+          "Manual scaling"
+        ],
+        "correct_option": 2,
+        "hint": "AWS Lambda excels at responding to events with automatic scaling."
+      }
+    ]
+  }
+}

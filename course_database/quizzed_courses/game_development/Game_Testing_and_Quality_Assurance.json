@@ -1,0 +1,273 @@
+{
+  "id": "GD4",
+  "name": "Game Testing & Quality Assurance",
+  "category": "Game Development",
+  "primary_tech": "QA",
+  "topics": [
+    "Bug Reporting & Tracking",
+    "Functional Testing",
+    "Performance Testing",
+    "Playtesting & Feedback Integration"
+  ],
+  "recommended": true,
+  "tags": [
+    "testing",
+    "QA",
+    "bug-fixing",
+    "quality"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs/emulator-suite",
+        "https://www.istqb.org/",
+        "https://firebase.google.com/docs"
+      ],
+      "notes": [
+        "https://devforum.roblox.com/t/guide-effectively-qa-testing-your-roblox-experience/2199838",
+        "https://www.coursera.org/articles/qa-tester",
+        "https://riseuplabs.com/game-qa-testing-ultimate-guide/",
+        "https://www.testbytes.net/blog/game-testing-tutorial/",
+        "https://www.tumblr.com/askagamedev/127082673401/is-there-a-difference-between-playtesting-and"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ZFqW90y9Yio",
+        "https://www.youtube.com/watch?v=yR-_r4gA_BA",
+        "https://www.youtube.com/watch?v=n81GxMaHHmo",
+        "https://www.youtube.com/watch?v=0eMBOjS9tvY&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=qk-xTOt5TI0",
+        "https://www.youtube.com/watch?v=MFxk5BZulVU",
+        "https://www.youtube.com/watch?v=PmrI25_rbvg",
+        "https://www.youtube.com/watch?v=b19ANqeu30o",
+        "https://www.youtube.com/watch?v=F1FcTI2VDeQ",
+        "https://www.youtube.com/c/alexusadays"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developers.google.com/apis-explorer",
+        "https://jestjs.io/",
+        "https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders"
+      ],
+      "notes": [
+        "https://www.coursera.org/articles/qa-tester",
+        "https://www.functionize.com/automated-testing/generative-ai-in-software-testing",
+        "https://www.testbytes.net/blog/game-testing-tutorial/",
+        "https://www.headspin.io/blog/ais-transformative-effect-on-automation-testing-and-qa",
+        "https://www.testdevlab.com/blog/manual-testing",
+        "https://www.virtuosoqa.com/",
+        "https://devforum.roblox.com/t/guide-effectively-qa-testing-your-roblox-experience/2199838"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=nnqy-LB4g7o&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8RNSkWLGROs",
+        "https://m.youtube.com/watch?v=iOheLWYbILw",
+        "https://www.youtube.com/watch?v=F1FcTI2VDeQ",
+        "https://www.youtube.com/watch?v=_2zxd3UgMjQ",
+        "https://www.youtube.com/watch?v=AJQOFcdXP1M",
+        "https://www.youtube.com/watch?v=bp6odsK8qes",
+        "https://www.youtube.com/watch?v=B-ytMSuwbf8",
+        "https://www.youtube.com/watch?v=Ezf72VMzQZU"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.istqb.org/",
+        "https://cloud.google.com/ai/generative-ai",
+        "https://workshops.aws/",
+        "https://cloud.google.com/vertex-ai/docs"
+      ],
+      "notes": [
+        "https://www.coursera.org/articles/qa-tester",
+        "https://www.istqb.org/",
+        "https://unity.com/how-to",
+        "https://www.headspin.io/blog/mobile-app-qa-testing-guide",
+        "https://www.lux.camera/the-iphone-16-pro-camera-review-control/",
+        "https://www.udemy.com/topic/quality-assurance/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=LLJ01lWu89c",
+        "https://www.youtube.com/watch?v=8RNSkWLGROs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+        "https://www.youtube.com/watch?v=7duYI-inu_I",
+        "https://www.youtube.com/watch?v=xsVTqzratPs",
+        "https://www.youtube.com/watch?v=pQ4x3Mjnr74",
+        "https://www.youtube.com/watch?v=gXtY768rB28",
+        "https://www.youtube.com/watch?v=BZrio_G_1Cs"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main purpose of bug reporting in game testing?",
+        "options": [
+          "To identify and document defects in the game",
+          "To create new game features",
+          "To design the game interface",
+          "To develop the game architecture"
+        ],
+        "correct_option": 0,
+        "hint": "The focus is on identifying issues that affect gameplay."
+      },
+      {
+        "question": "Which of the following is a primary task in functional testing?",
+        "options": [
+          "Ensuring the game runs smoothly on all platforms",
+          "Checking if all game features work as intended",
+          "Measuring the frame rate of the game",
+          "Analyzing player feedback"
+        ],
+        "correct_option": 1,
+        "hint": "It involves verifying the functionality of the game features."
+      },
+      {
+        "question": "What is performance testing mainly concerned with in game testing?",
+        "options": [
+          "The visual design of the game",
+          "The speed and responsiveness of the game",
+          "The storyline of the game",
+          "The audio quality of the game"
+        ],
+        "correct_option": 1,
+        "hint": "It focuses on how well the game performs under various conditions."
+      },
+      {
+        "question": "In the context of playtesting, what is feedback integration?",
+        "options": [
+          "Collecting player feedback and making changes to the game accordingly",
+          "Creating new levels based on player suggestions",
+          "Designing the user interface",
+          "Developing new game mechanics"
+        ],
+        "correct_option": 0,
+        "hint": "It involves using player input to improve the game."
+      },
+      {
+        "question": "Which technology is primarily used for bug tracking in game testing?",
+        "options": [
+          "Excel spreadsheets",
+          "Q, A tools",
+          "Graphic design software",
+          "Coding languages"
+        ],
+        "correct_option": 1,
+        "hint": "The technology is specifically designed for managing game testing processes."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of bug reporting in game testing?",
+        "options": [
+          "To document issues for developers to fix",
+          "To rate the game's graphics",
+          "To determine the game's target audience",
+          "To test the game's storyline"
+        ],
+        "correct_option": 0,
+        "hint": "It involves documenting issues encountered during testing."
+      },
+      {
+        "question": "Which of the following is NOT a common tool used for bug tracking?",
+        "options": [
+          "JIRA",
+          "Bugzilla",
+          "Photoshop",
+          "Mantis"
+        ],
+        "correct_option": 2,
+        "hint": "This tool is primarily used for graphic design."
+      },
+      {
+        "question": "What is the main focus of functional testing in games?",
+        "options": [
+          "Ensuring game mechanics work as intended",
+          "Testing the game's marketing strategy",
+          "Assessing the game's storyline",
+          "Evaluating the game's artistic style"
+        ],
+        "correct_option": 0,
+        "hint": "It involves verifying that game features function correctly."
+      },
+      {
+        "question": "During performance testing, which aspect is crucial to evaluate?",
+        "options": [
+          "Frame rate stability",
+          "Voice acting quality",
+          "Character development",
+          "Music composition"
+        ],
+        "correct_option": 0,
+        "hint": "This aspect affects how smoothly the game runs."
+      },
+      {
+        "question": "In playtesting, why is feedback integration important?",
+        "options": [
+          "To improve game design based on player experience",
+          "To increase the game's price",
+          "To enhance the game's advertising",
+          "To decrease development time"
+        ],
+        "correct_option": 0,
+        "hint": "Feedback helps refine the game based on player input."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a crucial step in the bug reporting process?",
+        "options": [
+          "Ignoring minor bugs to focus on major ones",
+          "Providing a detailed description and reproduction steps",
+          "Using generic language to describe the issue",
+          "Assigning a bug to a developer without prior discussion"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the clarity and usefulness of information provided to developers."
+      },
+      {
+        "question": "When conducting functional testing, what is the primary focus?",
+        "options": [
+          "Ensuring the game does not crash under high load",
+          "Checking the game's compliance with design specifications",
+          "Gathering player feedback for future improvements",
+          "Assessing the visual appeal of the game"
+        ],
+        "correct_option": 1,
+        "hint": "Functional testing is mainly concerned with verifying the software against its requirements."
+      },
+      {
+        "question": "In performance testing, which metric is most relevant?",
+        "options": [
+          "Frame rate stability",
+          "Bug severity",
+          "User interface design",
+          "Game narrative"
+        ],
+        "correct_option": 0,
+        "hint": "Performance testing focuses on how well the game runs under various conditions."
+      },
+      {
+        "question": "What is the main goal of playtesting in game development?",
+        "options": [
+          "To finalize the game narrative",
+          "To gather feedback from players to improve game design",
+          "To ensure compliance with industry standards",
+          "To optimize graphics and sound"
+        ],
+        "correct_option": 1,
+        "hint": "Playtesting involves real users to evaluate the game experience."
+      },
+      {
+        "question": "Which technology is commonly used for bug tracking in game development?",
+        "options": [
+          "Version control systems",
+          "Automated testing frameworks",
+          "Project management tools",
+          "Issue tracking software"
+        ],
+        "correct_option": 3,
+        "hint": "This technology helps in monitoring and managing bug reports efficiently."
+      }
+    ]
+  }
+}

@@ -1,0 +1,499 @@
+{
+  "id": "BE20",
+  "name": "Authentication & Authorization",
+  "category": "Backend Development",
+  "primary_tech": "Security",
+  "topics": [
+    "JWT (JSON Web Tokens)",
+    "OAuth 2.0 & OpenID Connect",
+    "Password Hashing & Session Management"
+  ],
+  "recommended": true,
+  "tags": [
+    "security",
+    "auth",
+    "web-security"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://platform.openai.com/docs/api-reference/introduction",
+          "description": "An introductory guide to the OpenAI API, covering key concepts and usage instructions.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/",
+          "description": "An introductory guide to using Trello's REST API for developers.",
+          "title": "API Introduction"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/graph/auth/auth-concepts",
+          "description": "An overview of authentication concepts for Microsoft Graph API.",
+          "title": "Authentication and authorization basics - Microsoft Graph | Microsoft Learn"
+        },
+        {
+          "url": "https://firebase.google.com/docs/auth",
+          "description": "An overview of Firebase Authentication services for user identity management.",
+          "title": "Firebase Authentication"
+        },
+        {
+          "url": "https://developers.zoom.us/docs/api/",
+          "description": "Official documentation for Zoom's API, detailing integration and usage guidelines.",
+          "title": "Zoom Developer APIs"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=Nlg0JrUt0qg",
+          "description": "A YouTube video tutorial on building a CRUD application using React and Firebase.",
+          "title": "User Password Authentication | Node.js & Express Tutorials for Beginners",
+          "duration": "26m"
+        },
+        {
+          "url": "https://jwt.io/introduction",
+          "description": "An introductory guide to JSON Web Tokens (JWT) and their applications.",
+          "title": "JSON Web Token Introduction - jwt.io"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=favjC6EKFgw",
+          "description": "An instructional video on creating a REST API using Django and Django REST Framework.",
+          "title": "JWT Authentication | Node JS and Express tutorials for Beginners",
+          "duration": "60m"
+        },
+        {
+          "url": "https://httpd.apache.org/docs/2.4/howto/auth.html",
+          "description": "A guide on configuring authentication in Apache HTTP Server 2.4.",
+          "title": "Authentication and Authorization - Apache HTTP Server Version 2.4"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=w2h54xz6Ndw",
+          "description": "An insightful video tutorial on implementing and understanding neural networks with PyTorch.",
+          "title": "Next-Auth Login Authentication Tutorial with Next.js App Directory",
+          "duration": "40m"
+        },
+        {
+          "url": "https://strapi.io/blog/a-beginners-guide-to-authentication-and-authorization-in-strapi",
+          "description": "An introductory guide to implementing authentication and authorization in Strapi.",
+          "title": "Beginners Guide to Authentication & Authorization in Strapi"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LFlE8yV7lJY",
+          "description": "An instructional video on implementing and understanding the Decorator design pattern in Python.",
+          "title": "Flutter Firebase Tutorial For Beginners | FlutterFire Course | Firebase Auth, Firestore DB, Storage",
+          "duration": "96m"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=84j25sAUohA",
+          "title": "Kubernetes Tutorial For Beginners | Kubernetes User Authentication and Authorization",
+          "duration": "13m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=aN1LnNq4z54",
+          "title": "Firebase Authentication Tutorial #1 - Introduction",
+          "duration": "6m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=favjC6EKFgw",
+          "title": "JWT Authentication | Node JS and Express tutorials for Beginners",
+          "duration": "60m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Nlg0JrUt0qg",
+          "title": "User Password Authentication | Node.js & Express Tutorials for Beginners",
+          "duration": "26m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LFlE8yV7lJY",
+          "title": "Flutter Firebase Tutorial For Beginners | FlutterFire Course | Firebase Auth, Firestore DB, Storage",
+          "duration": "96m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=w2h54xz6Ndw",
+          "title": "Next-Auth Login Authentication Tutorial with Next.js App Directory",
+          "duration": "40m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=NrYH6HiMk7E",
+          "title": "Bearer Token Authentication in Postman (8) / Postman Crash Course for beginners",
+          "duration": "4m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VZH_lGxqFYU",
+          "title": "oAuth for Beginners - How oauth authentication🔒 works ?",
+          "duration": "10m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://developers.google.com/identity/protocols/oauth2",
+          "description": "An overview of OAuth 2.0 protocols for implementing secure authentication and authorization in applications.",
+          "title": "Using OAuth 2.0 to Access Google APIs  |  Google Account Authorization  |  Google for Developers"
+        },
+        {
+          "url": "https://cloud.google.com/docs/authentication",
+          "description": "A detailed guide on authentication methods for Google Cloud services.",
+          "title": "Authentication methods at Google  |  Google Cloud"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html",
+          "description": "A guide on using AWS Lambda authorizers with API Gateway for request authentication.",
+          "title": "Use API Gateway Lambda authorizers - Amazon API Gateway"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/app-service/overview-authentication-authorization",
+          "description": "An overview of authentication and authorization features in Azure App Service.",
+          "title": "Authentication and Authorization - Azure App Service | Microsoft Learn"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-use-lambda-authorizer.html",
+          "description": "Guidance on using AWS Lambda authorizers with API Gateway for request authentication.",
+          "title": "Use API Gateway Lambda authorizers - Amazon API Gateway"
+        },
+        {
+          "url": "https://openid.net/developers/how-connect-works/",
+          "description": "An overview of how OpenID Connect enables secure user authentication.",
+          "title": "How OpenID Connect Works - OpenID Foundation"
+        },
+        {
+          "url": "https://developers.google.com/identity/protocols/oauth2",
+          "description": "Detailed documentation on Google's OAuth 2.0 authentication protocols.",
+          "title": "Using OAuth 2.0 to Access Google APIs  |  Google Account Authorization  |  Google for Developers"
+        },
+        {
+          "url": "https://www.descope.com/blog/post/oauth2-react-authentication-authorization",
+          "description": "A guide to implementing OAuth 2.0 authentication and authorization in React applications.",
+          "title": "Adding OAuth 2.0 to React for Authentication & Authorization"
+        },
+        {
+          "url": "https://auth0.com/blog/how-saml-authentication-works/",
+          "description": "An in-depth explanation of how SAML authentication functions in securing web applications.",
+          "title": "What is SAML and how does SAML Authentication Work | Auth0"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=996OiexHze0",
+          "title": "OAuth 2.0 and OpenID Connect (in plain English)",
+          "duration": "62m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_IPFJoGx5_c",
+          "title": "🚀 Bubble.io Authentication & Authorization: Build Secure Login & Signup Workflows | A Tutorial Guide",
+          "duration": "14m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PbUcQUQ7K2o",
+          "title": "Setting up Auth0 for API authentication and authorization",
+          "duration": "17m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jHrjnZM26i4&pp=0gcJCfwAo7VqN5tD",
+          "title": "Next.js Middleware Crash Course || App Router Protected Routes",
+          "duration": "61m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fvxQ8bW0vO8",
+          "title": "Getting Started With Keycloak Identity Provider (free Identity Server alternative)",
+          "duration": "12m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6DWJIyipxzw&pp=0gcJCfwAo7VqN5tD",
+          "title": "Secure Your .NET API in 15 Minutes: JWT Authentication Tutorial",
+          "duration": "15m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vzBFJ3WEvOQ",
+          "title": "Django Login Form and User Authentication",
+          "duration": "17m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=aCjOmyd_62U",
+          "title": "Android Build a Clean Architecture MVVM Auth Module with Industry Level Code - Android Studio",
+          "duration": "107m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://expert-help.nice.com/Integrations_and_Extending_Content/API",
+          "description": "Documentation on integrating and extending content using the NICE API.",
+          "title": "API Reference - Expert Success Center"
+        },
+        {
+          "url": "https://docs.nestjs.com/security/authentication",
+          "description": "An overview of authentication strategies and implementation in NestJS applications.",
+          "title": "Authentication | NestJS - A progressive Node.js framework"
+        },
+        {
+          "url": "https://www.marcobehler.com/guides/spring-security",
+          "description": "An in-depth guide to implementing security features using Spring Security.",
+          "title": "Spring Security: Authentication and Authorization In-Depth"
+        },
+        {
+          "url": "https://www.getknit.dev/blog/how-to-get-employee-data-from-bamboohr-api",
+          "description": "A step-by-step tutorial on retrieving employee data using the BambooHR API.",
+          "title": "BambooHR API Integration Guide (In-Depth)"
+        },
+        {
+          "url": "https://supabase.com/docs/guides/auth/social-login/auth-google",
+          "description": "A guide on implementing Google social login using Supabase authentication.",
+          "title": "Login with Google | Supabase Docs"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=1MTyCvS05V4",
+          "description": "An informative video tutorial on mastering advanced Excel functions for data analysis.",
+          "title": "Next Auth V5 - Advanced Guide (2024)",
+          "duration": "480m"
+        },
+        {
+          "url": "https://blog.gitguardian.com/kubernetes-tutorial-part-3-authn-authz/",
+          "description": "A tutorial on authentication and authorization in Kubernetes.",
+          "title": "Kubernetes Hardening Tutorial Part 3: Authentication, Authorization, Logging & Auditing"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ow_Uzedfohk&pp=0gcJCdgAo7VqN5tD",
+          "description": "An instructional video on mastering the Vim text editor for efficient coding.",
+          "title": "Implement Authorization using Row Level Security (RLS) with Supabase (Step By Step Guide)",
+          "duration": "17m"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks",
+          "description": "An overview of how self-service password reset (SSPR) works in Microsoft Entra Identity.",
+          "title": "Self-service password reset deep dive - Microsoft Entra ID | Microsoft Learn"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_XM9ziOzWk4",
+          "description": "An informative video tutorial on creating a RESTful API using Flask and Python.",
+          "title": "Supabase Auth Deep Dive Part 5: Google OAuth Provider",
+          "duration": "8m"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/@FrankLiuSoftware/community"
+        },
+        {
+          "url": "https://www.youtube.com/c/mohamadlawand"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1MTyCvS05V4",
+          "title": "Next Auth V5 - Advanced Guide (2024)",
+          "duration": "480m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=YJceYsDn-HI",
+          "title": "USENIX Enigma 2021 - Building E2EE and User Identity",
+          "duration": "19m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ow_Uzedfohk&pp=0gcJCdgAo7VqN5tD",
+          "title": "Implement Authorization using Row Level Security (RLS) with Supabase (Step By Step Guide)",
+          "duration": "17m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zS79FDhAhBs",
+          "title": "Microsoft Identity, Authentication & Authorisation Made Easy!",
+          "duration": "35m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=f5iXXi0prbA",
+          "title": "Entra App Registration: A deep dive into configuration part 1",
+          "duration": "28m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9TU6zJiXC6g",
+          "title": "EP 34 Employees Management System With EFCore,MS SQL ASP.NET.CORE,Multiple User Approval Workflows🚀💥",
+          "duration": "29m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=i-howKMrtCM",
+          "title": "The ultimate NestJS Authentication guide",
+          "duration": "31m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does JWT stand for in the context of web development?",
+        "options": [
+          "Java Web Tokens",
+          "JavaScript Web Tokens",
+          "JSON Web Tokens",
+          "JavaScript Object Tokens"
+        ],
+        "correct_option": 2,
+        "hint": "It's a standard for creating access tokens that can be used by web applications."
+      },
+      {
+        "question": "Which protocol is often used alongside OAuth 2.0 to provide identity information?",
+        "options": [
+          "LDAP",
+          "OpenID Connect",
+          "SAML",
+          "Kerberos"
+        ],
+        "correct_option": 1,
+        "hint": "This protocol extends OAuth 2.0 to add authentication capabilities."
+      },
+      {
+        "question": "What is the primary purpose of password hashing?",
+        "options": [
+          "To encrypt passwords for secure transmission",
+          "To store passwords in a format that is difficult to reverse",
+          "To compress passwords for faster processing",
+          "To organize passwords alphabetically for easy retrieval"
+        ],
+        "correct_option": 1,
+        "hint": "Hashing makes it difficult to retrieve the original password from the stored data."
+      },
+      {
+        "question": "In OAuth 2.0, which role is responsible for issuing access tokens?",
+        "options": [
+          "Resource Owner",
+          "Client Application",
+          "Authorization Server",
+          "Resource Server"
+        ],
+        "correct_option": 2,
+        "hint": "This role handles the process of authenticating the user and issuing the token."
+      },
+      {
+        "question": "What is a common method for managing user sessions in web applications?",
+        "options": [
+          "JWT",
+          "Cookies",
+          "SSH",
+          "FTP"
+        ],
+        "correct_option": 1,
+        "hint": "This method involves storing session information on the client-side."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which part of a JSON Web Token (JWT) contains the claims?",
+        "options": [
+          "Header",
+          "Payload",
+          "Signature",
+          "Issuer"
+        ],
+        "correct_option": 1,
+        "hint": "The claims are stored in the part of the JWT that holds the main information."
+      },
+      {
+        "question": "In OAuth 2.0, which component is responsible for granting access tokens?",
+        "options": [
+          "Resource Owner",
+          "Client",
+          "Resource Server",
+          "Authorization Server"
+        ],
+        "correct_option": 3,
+        "hint": "This component handles the authentication process and provides tokens."
+      },
+      {
+        "question": "What is the primary purpose of password hashing?",
+        "options": [
+          "To encrypt passwords for secure storage",
+          "To convert plaintext passwords into a fixed-size string",
+          "To ensure passwords are transmitted securely over the network",
+          "To add additional security layers through multi-factor authentication"
+        ],
+        "correct_option": 1,
+        "hint": "Hashing is different from encryption and focuses on transforming data into hashes."
+      },
+      {
+        "question": "OpenID Connect is an authentication layer built on top of which protocol?",
+        "options": [
+          "SAML",
+          "OAuth 2.0",
+          "Kerberos",
+          "LDAP"
+        ],
+        "correct_option": 1,
+        "hint": "This protocol is widely used for authorization, and OpenID Connect adds authentication capabilities."
+      },
+      {
+        "question": "What is the main advantage of using session management over stateless authentication with JWTs?",
+        "options": [
+          "Reduced server load",
+          "Enhanced security through statefulness",
+          "Simplified token revocation",
+          "Improved scalability"
+        ],
+        "correct_option": 2,
+        "hint": "Statefulness provides more control over active sessions and can improve security."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary advantage of using JSON Web Tokens (JWT) over traditional session cookies for authentication?",
+        "options": [
+          "Statelessness in server architecture",
+          "Enhanced encryption methods",
+          "Compatibility with HTTP/2",
+          "Reduced token size"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how JWTs manage user state compared to traditional methods."
+      },
+      {
+        "question": "In OAuth 2.0, what is the role of the Authorization Server?",
+        "options": [
+          "To store user credentials securely",
+          "To issue access tokens after successful authentication",
+          "To handle user registration and password resets",
+          "To manage user roles and permissions"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the server's function in the token lifecycle."
+      },
+      {
+        "question": "Which hashing algorithm is recommended for password hashing due to its resistance to brute force attacks?",
+        "options": [
+          "MD5",
+          "SHA-1",
+          "bcrypt",
+          "AES"
+        ],
+        "correct_option": 2,
+        "hint": "Consider which algorithm is designed specifically for password security."
+      },
+      {
+        "question": "In OpenID Connect, which component is responsible for providing identity information about the user?",
+        "options": [
+          "Resource Server",
+          "Identity Provider",
+          "Client Application",
+          "Authorization Server"
+        ],
+        "correct_option": 1,
+        "hint": "This component is similar to an OAuth 2.0 Authorization Server but with additional identity capabilities."
+      },
+      {
+        "question": "What is a common security concern when managing sessions in web applications?",
+        "options": [
+          "Session hijacking",
+          "Excessive session duration",
+          "Session redundancy",
+          "Session fragmentation"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the risk associated with an attacker taking over a user's session."
+      }
+    ]
+  }
+}

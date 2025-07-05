@@ -1,0 +1,505 @@
+{
+  "id": "FS9",
+  "name": "FullStack Fundamentals & MERN/MEVN Stack Intro",
+  "category": "FullStack Development",
+  "primary_tech": "FullStack Concepts",
+  "topics": [
+    "Client-Server Architecture",
+    "API Communication (Frontend to Backend)",
+    "Introduction to MERN/MEVN stack components",
+    "Basic Project Setup"
+  ],
+  "recommended": true,
+  "tags": [
+    "fundamentals",
+    "architecture",
+    "web-development"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://www.mongodb.com/resources/languages/mern-stack",
+          "description": "An overview of building applications using the MERN stack (MongoDB, Express, React, Node.js).",
+          "title": "MERN Stack Explained | MongoDB"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+          "description": "A comprehensive resource for learning web development fundamentals.",
+          "title": "Learn web development | MDN"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/mern/understand-mern-stack/",
+          "description": "An introductory guide to understanding the components and architecture of the MERN stack.",
+          "title": "MERN Stack - GeeksforGeeks"
+        },
+        {
+          "url": "https://firebase.google.com/docs/guides",
+          "description": "Comprehensive guides for integrating and using Firebase services in applications.",
+          "title": "Fundamentals  |  Firebase Documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.mongodb.com/resources/languages/mern-stack",
+          "description": "An introductory guide to building applications using the MERN stack.",
+          "title": "MERN Stack Explained | MongoDB"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/mern/understand-mern-stack/",
+          "description": "An introductory guide to understanding the MERN stack architecture.",
+          "title": "MERN Stack - GeeksforGeeks"
+        },
+        {
+          "url": "https://www.mongodb.com/resources/basics/full-stack-development",
+          "description": "An introductory guide to full-stack development using MongoDB.",
+          "title": "What Is Full Stack Development? | A Complete Guide | MongoDB"
+        },
+        {
+          "url": "https://www.oracle.com/th/database/mern-stack/",
+          "description": "An overview of using Oracle Database with the MERN stack for full-stack development.",
+          "title": "What is the MERN Stack? Guide & Examples | Oracle ASEAN"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+          "description": "An introductory guide to web development covering HTML, CSS, and JavaScript.",
+          "title": "Learn web development | MDN"
+        },
+        {
+          "url": "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+          "description": "Discussion on resolving file name casing issues in C++ projects on Stack Overflow.",
+          "title": "Just a moment..."
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=7CqJlxBYj-M",
+          "title": "Learn the MERN Stack - Full Tutorial (MongoDB, Express, React, Node.js)",
+          "duration": "107m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+          "title": "MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours",
+          "duration": "470m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+          "title": "Full Course Web Development [22 Hours] | Learn Full Stack Web Development From Scratch",
+          "duration": "1308m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZDRZvFNK-ek&pp=0gcJCfwAo7VqN5tD",
+          "title": "Full Stack JavaScript Developer Roadmap 2025",
+          "duration": "41m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Hl7diL7SFw8",
+          "title": "Introduction - Full Stack Web Development Course [1] | ReactJS, NodeJS, Express, MySQL",
+          "duration": "27m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD",
+          "title": "MERN Stack Tutorial with Deployment – Beginner's Course",
+          "duration": "136m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+          "title": "Web Development Technologies - A Practical Guide",
+          "duration": "163m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XlvsJLer_No",
+          "title": "Full Stack Web Development Course Introduction",
+          "duration": "1m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://www.mongodb.com/resources/languages/mern-stack",
+          "description": "An introductory resource for building applications using the MERN stack.",
+          "title": "MERN Stack Explained | MongoDB"
+        },
+        {
+          "url": "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+          "description": "A Stack Overflow thread discussing case sensitivity issues in file naming on relative paths.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://www.mongodb.com/resources/languages/mean-stack",
+          "description": "An introduction to building web applications using the MEAN stack.",
+          "title": "What Is The MEAN Stack? Introduction & Examples | MongoDB"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/mern/understand-mern-stack/",
+          "description": "An introductory guide to understanding the MERN stack for web development.",
+          "title": "MERN Stack - GeeksforGeeks"
+        },
+        {
+          "url": "https://www.oracle.com/th/database/mern-stack/",
+          "description": "An overview of using the MERN stack for database management with Oracle.",
+          "title": "What is the MERN Stack? Guide & Examples | Oracle ASEAN"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.mongodb.com/resources/languages/mern-stack",
+          "description": "An introduction to building full-stack applications using the MERN stack.",
+          "title": "MERN Stack Explained | MongoDB"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/hnaser_i-used-to-build-database-applications-without-activity-7225774955286646785-kJBD",
+          "description": "Insights on building database applications without using traditional SQL databases.",
+          "title": "I used to build database applications without understanding what they did behind the scenes. | Hussein Nasser"
+        },
+        {
+          "url": "https://www.mongodb.com/resources/languages/mean-stack",
+          "description": "An introduction to building full-stack applications using the MEAN stack.",
+          "title": "What Is The MEAN Stack? Introduction & Examples | MongoDB"
+        },
+        {
+          "url": "https://www.oracle.com/th/database/mern-stack/",
+          "description": "An overview of integrating Oracle Database with the MERN stack for web development.",
+          "title": "What is the MERN Stack? Guide & Examples | Oracle ASEAN"
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/mongodb-tutorial/what-is-mern-stack-introduction-and-examples",
+          "description": "An introductory guide to the MERN stack, including its components and examples.",
+          "title": "MERN Stack Explained: A Beginner's Guide [2025]"
+        },
+        {
+          "url": "https://www.geeksforgeeks.org/mern/understand-mern-stack/",
+          "description": "An introductory guide to understanding the components and architecture of the MERN stack.",
+          "title": "MERN Stack - GeeksforGeeks"
+        },
+        {
+          "url": "https://aws.amazon.com/what-is/full-stack-development/",
+          "description": "An overview of full-stack development and its implementation on AWS.",
+          "title": "What is Full Stack Development? - Full Stack Development Explained - AWS"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD",
+          "title": "MERN Stack Tutorial with Deployment – Beginner's Course",
+          "duration": "136m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+          "title": "Web Development Technologies - A Practical Guide",
+          "duration": "163m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+          "title": "Swift Programming Tutorial | FULL COURSE | Absolute Beginner",
+          "duration": "632m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TztVMhZxORQ",
+          "title": "Charles Frye on Full Stack Deep Learning - Weaviate Podcast #57!",
+          "duration": "99m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PuQz1w80ddw",
+          "title": "Learn Bubble.io in 30 Minutes",
+          "duration": "28m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+          "title": "Deep Dive into LLMs like ChatGPT",
+          "duration": "211m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iiADhChRriM",
+          "title": "Learn JSON in 10 Minutes",
+          "duration": "12m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BJjsfNO5JTo",
+          "title": "How To Get The Most Out Of Vibe Coding | Startup School",
+          "duration": "16m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://www.mongodb.com/resources/languages/mern-stack",
+          "description": "An overview of building applications using the MERN stack with MongoDB.",
+          "title": "MERN Stack Explained | MongoDB"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+          "description": "An introductory guide to web development covering HTML, CSS, and JavaScript basics.",
+          "title": "Learn web development | MDN"
+        },
+        {
+          "url": "https://firebase.google.com/docs/guides",
+          "description": "A detailed guide to using Firebase for building and deploying mobile and web applications.",
+          "title": "Fundamentals  |  Firebase Documentation"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "A comprehensive resource for JavaScript documentation and tutorials on MDN Web Docs.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://www.freecodecamp.org/news/mern-stack-roadmap-what-you-need-to-know-to-build-full-stack-apps/",
+          "description": "A detailed roadmap for learning and building full-stack applications using the MERN stack.",
+          "title": "MERN Stack Roadmap – How to Learn MERN and Become a Full-Stack Developer"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+          "description": "A detailed tutorial on using GitHub Copilot for enhancing coding productivity.",
+          "title": "MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours",
+          "duration": "470m"
+        },
+        {
+          "url": "https://www.mongodb.com/resources/languages/mern-stack",
+          "description": "An overview of building applications using the MERN stack (MongoDB, Express, React, Node.js).",
+          "title": "MERN Stack Explained | MongoDB"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+          "description": "An instructional video on implementing and understanding the quicksort algorithm.",
+          "title": "Full Course Web Development [22 Hours] | Learn Full Stack Web Development From Scratch",
+          "duration": "1308m"
+        },
+        {
+          "url": "https://fullstackopen.com/en/",
+          "description": "An open online course covering modern web development using JavaScript.",
+          "title": "Full stack open"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZDRZvFNK-ek&pp=0gcJCfwAo7VqN5tD",
+          "description": "A tutorial on using the OpenAI GPT-3 API with Python for text generation applications.",
+          "title": "Full Stack JavaScript Developer Roadmap 2025",
+          "duration": "41m"
+        },
+        {
+          "url": "https://risesumit.hashnode.dev/how-i-became-a-mern-full-stack-developer-in-just-15-days-and-my-life-journey-as-web-developer-devretro2022",
+          "description": "A personal journey and guide on becoming a MERN full-stack developer in 15 days.",
+          "title": "Vercel Security Checkpoint"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+          "title": "Full Course Web Development [22 Hours] | Learn Full Stack Web Development From Scratch",
+          "duration": "1308m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZDRZvFNK-ek&pp=0gcJCfwAo7VqN5tD",
+          "title": "Full Stack JavaScript Developer Roadmap 2025",
+          "duration": "41m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+          "title": "MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours",
+          "duration": "470m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qDHnCFMZ9HA&pp=0gcJCfwAo7VqN5tD",
+          "title": "Introduction to DaVinci Resolve - [Full Course] for Beginners (2024)",
+          "duration": "279m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+          "title": "Deep Dive into LLMs like ChatGPT",
+          "duration": "211m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=77jIzgvCIYY",
+          "title": "Hands-On Power BI Tutorial 📊 Beginner to Pro [Full Course] 2023 Edition⚡",
+          "duration": "182m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+          "title": "Web Development Technologies - A Practical Guide",
+          "duration": "163m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Llnmf5BXLBA",
+          "title": "Canva Tutorial For Beginners: A Free 2 Hour Masterclass",
+          "duration": "140m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does the 'C' in MERN and MEVN stacks stand for?",
+        "options": [
+          "Client",
+          "Cloud",
+          "Controller",
+          "Component"
+        ],
+        "correct_option": 0,
+        "hint": "It's the part of the architecture that deals with user interfaces."
+      },
+      {
+        "question": "In a client-server architecture, which component typically handles user requests?",
+        "options": [
+          "Server",
+          "Database",
+          "Client",
+          "Network"
+        ],
+        "correct_option": 2,
+        "hint": "It's the part of the architecture that interacts directly with users."
+      },
+      {
+        "question": "Which of the following is NOT a typical component of the MERN stack?",
+        "options": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Vue"
+        ],
+        "correct_option": 3,
+        "hint": "This component is actually part of the MEVN stack."
+      },
+      {
+        "question": "What is the primary purpose of an API in a full-stack application?",
+        "options": [
+          "To store data",
+          "To manage user authentication",
+          "To facilitate communication between frontend and backend",
+          "To design user interfaces"
+        ],
+        "correct_option": 2,
+        "hint": "APIs act as a bridge connecting different parts of an application."
+      },
+      {
+        "question": "Which technology is used for backend development in the MERN stack?",
+        "options": [
+          "React",
+          "MongoDB",
+          "Node.js",
+          "Vue"
+        ],
+        "correct_option": 2,
+        "hint": "It's a JavaScript runtime environment often used for building server-side applications."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which component of the MERN stack is responsible for handling server-side operations?",
+        "options": [
+          "MongoDB",
+          "Express.js",
+          "React",
+          "Node.js"
+        ],
+        "correct_option": 1,
+        "hint": "It's a framework built on top of Node.js."
+      },
+      {
+        "question": "In a client-server architecture, what is the primary role of the client?",
+        "options": [
+          "To handle database operations",
+          "To serve web pages",
+          "To make requests to the server",
+          "To manage server-side logic"
+        ],
+        "correct_option": 2,
+        "hint": "Think about who initiates the communication."
+      },
+      {
+        "question": "What is the purpose of an API in the context of frontend-backend communication?",
+        "options": [
+          "To provide a database for the application",
+          "To define protocols for client-server interaction",
+          "To style user interfaces",
+          "To manage user authentication"
+        ],
+        "correct_option": 1,
+        "hint": "APIs are like contracts or interfaces between systems."
+      },
+      {
+        "question": "Which of the following is a frontend technology commonly used in both the MERN and MEVN stacks?",
+        "options": [
+          "Vue.js",
+          "Angular",
+          "React",
+          "Express.js"
+        ],
+        "correct_option": 2,
+        "hint": "It's a JavaScript library for building user interfaces."
+      },
+      {
+        "question": "What is the first step in setting up a basic MERN stack project?",
+        "options": [
+          "Installing MongoDB",
+          "Setting up routing in Express.js",
+          "Creating a package.json file",
+          "Configuring the server with Node.js"
+        ],
+        "correct_option": 2,
+        "hint": "This file keeps track of all the dependencies and scripts for the project."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In the context of the MERN/MEVN stack, which of the following components is responsible for handling HTTP requests and providing API endpoints?",
+        "options": [
+          "MongoDB",
+          "Express.js",
+          "React/Vue.js",
+          "Node.js"
+        ],
+        "correct_option": 1,
+        "hint": "This is a backend framework that uses middleware to handle HTTP requests."
+      },
+      {
+        "question": "Which HTTP method is typically used to retrieve data from a server in a client-server architecture?",
+        "options": [
+          "POST",
+          "PUT",
+          "GET",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method is used to request data from a specified resource."
+      },
+      {
+        "question": "In a basic MERN/MEVN stack setup, what role does MongoDB play?",
+        "options": [
+          "Front-end library for building UI",
+          "Database to store application data",
+          "Middleware for handling requests",
+          "Backend runtime environment"
+        ],
+        "correct_option": 1,
+        "hint": "This component is a NoSQL database used for storing data."
+      },
+      {
+        "question": "What is the main purpose of using Node.js in the MERN/MEVN stack?",
+        "options": [
+          "To interact with the database",
+          "To render HTML templates",
+          "To execute JavaScript on the server side",
+          "To style the front-end components"
+        ],
+        "correct_option": 2,
+        "hint": "This component allows JavaScript to run outside the browser."
+      },
+      {
+        "question": "In a client-server architecture, what is the primary role of the client?",
+        "options": [
+          "Store and retrieve application data",
+          "Perform server-side logic and operations",
+          "Request services and resources from the server",
+          "Route and manage API requests"
+        ],
+        "correct_option": 2,
+        "hint": "This part of the architecture is responsible for interacting with the user and requesting resources."
+      }
+    ]
+  }
+}

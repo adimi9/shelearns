@@ -1,0 +1,364 @@
+{
+  "id": "GD13",
+  "name": "Introduction to Unreal Engine",
+  "category": "Game Development",
+  "primary_tech": "Unreal Engine",
+  "topics": [
+    "Unreal Editor & Interface",
+    "Blueprints Visual Scripting",
+    "Asset Pipeline & Material Editor",
+    "Basic C++ Integration"
+  ],
+  "recommended": true,
+  "tags": [
+    "engine",
+    "AAA",
+    "C++",
+    "blueprints"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-6-documentation",
+          "description": "Official documentation for Unreal Engine 5.6, covering features, tools, and development guidelines."
+        },
+        {
+          "url": "https://forums.unrealengine.com/t/resources-to-learn-the-basics-of-blueprint-multiplayer-add-your-suggestions-here/737175",
+          "description": "A forum thread compiling resources for learning Blueprint multiplayer basics in Unreal Engine."
+        },
+        {
+          "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/introduction-to-blueprints-visual-scripting-in-unreal-engine",
+          "description": "An introductory guide to using Blueprints for visual scripting in Unreal Engine."
+        },
+        {
+          "url": "https://developers.arcgis.com/unreal-engine/v1/install-and-set-up/",
+          "description": "Instructions for installing and setting up ArcGIS Maps SDK for Unreal Engine."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=k-zMkzmduqI",
+          "description": "An informative tutorial on creating a full-stack application using React and Node.js."
+        },
+        {
+          "url": "https://forums.unrealengine.com/t/from-where-to-start-and-how-to-learn-ue-5-as-a-beginner/592537",
+          "description": "A beginner's guide to starting and learning Unreal Engine 5."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XRmn-EYt8wI",
+          "description": "An introduction to the basics of machine learning and its applications."
+        },
+        {
+          "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-basics-of-unreal-engine",
+          "description": "An introductory guide to the fundamental concepts of Unreal Engine."
+        },
+        {
+          "url": "https://www.unrealengine.com/en-US/blog/introduction-to-blueprints",
+          "description": "An introductory guide to using Blueprints for visual scripting in Unreal Engine."
+        },
+        {
+          "url": "https://dev.epicgames.com/community/learning/",
+          "description": "A hub for learning resources and tutorials for Epic Games developers."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=k-zMkzmduqI",
+        "https://www.youtube.com/watch?v=VUdDBBsULsA",
+        "https://www.youtube.com/watch?v=3s4yNbYGI3E",
+        "https://www.youtube.com/watch?v=XRmn-EYt8wI",
+        "https://www.youtube.com/watch?v=BGsFLoYp1V8",
+        "https://www.youtube.com/watch?v=EYpqY5GumrQ",
+        "https://www.youtube.com/watch?v=6UlU_FsicK8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=qeKDRqWtGV0",
+        "https://www.youtube.com/watch?v=1XjgLKrb4_M",
+        "https://www.youtube.com/playlist?list=PLncmXJdh4q88DFCEVuGpOY3AGQwBvoQnh"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/procedural-content-generation-overview",
+          "description": "An overview of procedural content generation techniques in Unreal Engine."
+        },
+        {
+          "url": "https://www.stereolabs.com/docs",
+          "description": "Official documentation for Stereolabs products and technologies."
+        },
+        {
+          "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/understanding-the-basics-of-unreal-engine",
+          "description": "An introductory guide to understanding the fundamental concepts of Unreal Engine."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=k-zMkzmduqI",
+          "description": "An introductory tutorial on using Git and GitHub for version control."
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=wGmlKbllPcw",
+          "description": "An informative video guide on using Git and GitHub for version control and collaboration."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LMQDCEiLaQY",
+          "description": "An instructional video on setting up and using Docker containers for software development."
+        },
+        {
+          "url": "https://www.unrealengine.com/",
+          "description": "The official site for Unreal Engine offering resources, news, and support for game development."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EBNTdqs9fMI",
+          "description": "An informative video tutorial on using GitHub Copilot for coding assistance."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=LMQDCEiLaQY",
+        "https://www.youtube.com/watch?v=k-zMkzmduqI",
+        "https://www.youtube.com/watch?v=y9TewNs0_Cg&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=EBNTdqs9fMI",
+        "https://m.youtube.com/watch?v=wGmlKbllPcw",
+        "https://www.youtube.com/watch?v=wqjJU4V6bGM",
+        "https://www.youtube.com/watch?v=t4U8-rYwR0k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=5bhOQKHDE_M",
+        "https://www.youtube.com/watch?v=oTST9didni4",
+        "https://www.youtube.com/watch?v=cBnYYois1vM"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/lumen-technical-details-in-unreal-engine",
+          "description": "Detailed technical documentation on Lumen's features and implementation in Unreal Engine."
+        },
+        {
+          "url": "https://www.tomlooman.com/unreal-engine-cpp-guide/",
+          "description": "A detailed guide to using C++ in Unreal Engine development."
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/gaming/azure/reference-architectures/unreal-pixel-streaming-in-azure",
+          "description": "A detailed architecture guide for implementing Unreal Engine Pixel Streaming on Azure."
+        },
+        {
+          "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/networking-overview-for-unreal-engine",
+          "description": "An overview of networking concepts and practices in Unreal Engine."
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/channel/UCROajvFx5twXFjaVCGNHWeQ",
+          "description": "A YouTube channel dedicated to educational videos on various technology and programming topics."
+        },
+        {
+          "url": "https://forums.unrealengine.com/t/from-where-to-start-and-how-to-learn-ue-5-as-a-beginner/592537",
+          "description": "A beginner's guide to starting and learning Unreal Engine 5."
+        },
+        {
+          "url": "https://dev.epicgames.com/community/learning/tutorials/4JeG/unreal-engine-5-4-motion-matching-explained-1-hour-deep-dive-tutorial",
+          "description": "An in-depth tutorial on motion matching in Unreal Engine 5.4."
+        },
+        {
+          "url": "https://forums.unrealengine.com/t/community-tutorial-unreal-engine-5-5-introduction-to-pcg/2252357",
+          "description": "An introductory tutorial on Procedural Content Generation in Unreal Engine 5.5."
+        },
+        {
+          "url": "https://buckminsterfullerene02.github.io/dev-guide/index.html",
+          "description": "A developer's guide to understanding and implementing software engineering principles."
+        },
+        {
+          "url": "https://dev.epicgames.com/community/learning/tutorials/nwb3/unreal-engine-how-to-build-a-dynamic-weather-system",
+          "description": "A tutorial on creating a dynamic weather system in Unreal Engine."
+        },
+        {
+          "url": "https://80.lv/articles/a-deep-dive-into-the-programming-process-in-unreal-engine",
+          "description": "An in-depth exploration of the programming workflow within Unreal Engine."
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/channel/UCROajvFx5twXFjaVCGNHWeQ",
+        "https://www.youtube.com/watch?v=fSbBsXbjxPo",
+        "https://www.youtube.com/watch?v=i3xNb5R_xos",
+        "https://www.youtube.com/watch?v=k-zMkzmduqI",
+        "https://www.youtube.com/watch?v=5OkOdygYdaU",
+        "https://www.youtube.com/watch?v=6UlU_FsicK8",
+        "https://www.youtube.com/watch?v=Zc9_HADHpes",
+        "https://www.youtube.com/watch?v=YDeptWduHNc&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=_a6kcSP8R1Y",
+        "https://www.youtube.com/watch?v=TUmiAdqMhD8"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary use of the Unreal Editor in Unreal Engine?",
+        "options": [
+          "To create and modify game environments",
+          "To play video games",
+          "To edit text documents",
+          "To browse the internet"
+        ],
+        "correct_option": 0,
+        "hint": "It's the main tool for designing game worlds."
+      },
+      {
+        "question": "Which feature of Unreal Engine allows you to create game logic without writing code?",
+        "options": [
+          "Material Editor",
+          "Blueprints Visual Scripting",
+          "C++ Integration",
+          "Asset Pipeline"
+        ],
+        "correct_option": 1,
+        "hint": "It uses a node-based interface."
+      },
+      {
+        "question": "In Unreal Engine, what is the purpose of the Asset Pipeline?",
+        "options": [
+          "To manage game assets like textures and models",
+          "To compile C++ code",
+          "To test network connectivity",
+          "To edit in-game cinematics"
+        ],
+        "correct_option": 0,
+        "hint": "It deals with importing and organizing game resources."
+      },
+      {
+        "question": "Which tool in Unreal Engine is used to create and modify materials for surfaces?",
+        "options": [
+          "Blueprints",
+          "C++ Editor",
+          "Material Editor",
+          "Asset Manager"
+        ],
+        "correct_option": 2,
+        "hint": "It's specifically designed for surface appearance."
+      },
+      {
+        "question": "What is the role of C++ in Unreal Engine?",
+        "options": [
+          "To create 2D animations",
+          "To manage database systems",
+          "To write custom game logic and performance-critical code",
+          "To design user interfaces"
+        ],
+        "correct_option": 2,
+        "hint": "It's used for more advanced and efficient programming."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of the Unreal Editor's 'Content Browser'?",
+        "options": [
+          "To manage user interface settings",
+          "To navigate and manage game assets",
+          "To compile C++ code",
+          "To debug gameplay logic"
+        ],
+        "correct_option": 1,
+        "hint": "This tool is essential for asset organization."
+      },
+      {
+        "question": "In Unreal Engine, what is the primary benefit of using Blueprints Visual Scripting over C++?",
+        "options": [
+          "Faster execution speed",
+          "Easier debugging process",
+          "Visual ease of use for non-programmers",
+          "Greater control over memory management"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the user experience for designers who may not be familiar with programming languages."
+      },
+      {
+        "question": "Which of the following best describes a Material in Unreal Engine?",
+        "options": [
+          "A texture applied to a mesh",
+          "A shader that defines surface appearance",
+          "A script that controls game logic",
+          "A sound file used in audio design"
+        ],
+        "correct_option": 1,
+        "hint": "This component determines how surfaces interact with light and other elements."
+      },
+      {
+        "question": "When integrating C++ in Unreal Engine, which of the following is NOT a standard practice?",
+        "options": [
+          "Using header files to declare classes",
+          "Directly editing compiled binaries",
+          "Utilizing the Unreal Build System",
+          "Writing macros to interface with engine code"
+        ],
+        "correct_option": 1,
+        "hint": "Consider which actions are typically avoided due to their risk and impracticality."
+      },
+      {
+        "question": "What is the function of the 'Level Editor' in the Unreal Editor interface?",
+        "options": [
+          "To edit character animations",
+          "To manage and organize game levels",
+          "To modify audio settings",
+          "To render final game graphics"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the element of the game that involves spatial arrangement and player interaction."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the purpose of the Details panel in Unreal Editor?",
+        "options": [
+          "To manage project settings and preferences",
+          "To edit properties of selected objects",
+          "To compile Blueprints into C++ code",
+          "To handle asset imports and exports"
+        ],
+        "correct_option": 1,
+        "hint": "The Details panel allows for modification of object attributes."
+      },
+      {
+        "question": "In Blueprints Visual Scripting, what node is used to create a loop that executes a set number of times?",
+        "options": [
+          "ForEachLoop",
+          "DoN",
+          "WhileLoop",
+          "ForLoop"
+        ],
+        "correct_option": 3,
+        "hint": "This node is typically used for iterating a set number of times."
+      },
+      {
+        "question": "Which material input in the Material Editor is primarily responsible for controlling the surface color of a material?",
+        "options": [
+          "Emissive Color",
+          "Base Color",
+          "Specular",
+          "Roughness"
+        ],
+        "correct_option": 1,
+        "hint": "This input defines the overall color that the material reflects."
+      },
+      {
+        "question": "In Unreal Engine, what does the term 'Asset Pipeline' refer to?",
+        "options": [
+          "The process of importing assets into the project",
+          "The system for compiling C++ code",
+          "The method for baking lighting into the scene",
+          "The process of exporting completed games"
+        ],
+        "correct_option": 0,
+        "hint": "It involves bringing external resources into the engine."
+      },
+      {
+        "question": "What is the primary benefit of integrating C++ with Unreal Engine's Blueprints?",
+        "options": [
+          "To enhance graphical fidelity",
+          "To simplify the user interface",
+          "To improve performance and extend functionality",
+          "To reduce the size of the game executable"
+        ],
+        "correct_option": 2,
+        "hint": "Combining C++ with Blueprints can optimize and expand game features."
+      }
+    ]
+  }
+}

@@ -22,107 +22,155 @@
     "client-side"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://www.linkedin.com/pulse/my-guide-mastering-api-product-management-gurrpreet-sinngh-iqizc",
+        "https://docs.github.com/",
+        "https://www.contentful.com/blog/graphql-tools-for-getting-started-with-contentful/",
+        "https://graphql.org/learn/best-practices/",
+        "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts"
+      ],
+      "notes": [
+        "https://www.howtographql.com/",
+        "https://www.apollographql.com/tutorials/",
+        "https://www.solo.io/topics/graphql",
+        "https://www.mindbowser.com/apollo-angular-graphql-guide/",
+        "https://www.djamware.com/post/5d424058905a96a9152014b8/react-native-and-apollo-graphql-tutorial-2025-edition-build-a-modern-mobile-app",
+        "https://www.notjust.dev/projects/stackoverflow",
+        "https://graphql.org/learn/best-practices/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=09K3QeQLoCE",
+        "https://www.youtube.com/watch?v=UYQSVH6B1k4",
+        "https://www.youtube.com/watch?v=bpHq_-bPkGo",
+        "https://www.youtube.com/watch?v=dFQZjzTEVWA",
+        "https://www.youtube.com/watch?v=0vofqzcFF1Y",
+        "https://www.youtube.com/watch?v=-qAhg4EDIwQ",
+        "https://www.youtube.com/watch?v=oL1yc0BuqL0&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=mjG6O1ZGdSI",
+        "https://www.youtube.com/watch?v=ZsEGtn663Fk"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://community.canvaslms.com/t5/The-Product-Blog/From-the-Engineering-Deck-Instructure-amp-GraphQL/ba-p/477314",
+        "https://shopify.dev/docs/api",
+        "https://www.linkedin.com/pulse/my-guide-mastering-api-product-management-gurrpreet-sinngh-iqizc",
+        "https://cloud.google.com/apigee"
+      ],
+      "notes": [
+        "https://www.solo.io/topics/graphql",
+        "https://emmo.net.co/articles/post/magento-2-graphql-complete-guide-for-2025-version-248.html",
+        "https://www.datacamp.com/tutorial/graphql-vs-rest",
+        "https://www.contentful.com/blog/how-to-use-graphql-variables/",
+        "https://www.mindbowser.com/apollo-angular-graphql-guide/",
+        "https://www.vuemastery.com/blog/why-you-should-use-vue-graphql/",
+        "https://workshops.aws/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=6a3Dz8gwjdg",
+        "https://www.youtube.com/watch?v=FLQok6PGg3E",
+        "https://www.youtube.com/watch?v=2HBIzEx6IZA",
+        "https://www.youtube.com/watch?v=ELFORM9fmss",
+        "https://www.youtube.com/watch?v=edym2_mCj2I",
+        "https://www.youtube.com/watch?v=4sR77vaEhy8",
+        "https://www.youtube.com/watch?v=tEMrD9t85v4&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=3289vhOUdKA",
+        "https://www.youtube.com/watch?v=NlXfg5Pxxh8"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.linkedin.com/pulse/my-guide-mastering-api-product-management-gurrpreet-sinngh-iqizc",
+        "https://shopify.dev/docs/api",
+        "https://workshops.aws/",
+        "https://docs.github.com/"
+      ],
+      "notes": [
+        "https://www.linkedin.com/pulse/apollo-client-deep-dive-practical-insights-from-weekend-dorneles-46xxf?utm_source=rss&utm_campaign=articles_sitemaps&utm_medium=google_news",
+        "https://www.solo.io/topics/graphql",
+        "https://www.apollographql.com/tutorials/",
+        "https://workshops.aws/",
+        "https://blog.algomaster.io/p/rest-vs-graphql",
+        "https://emmo.net.co/articles/post/magento-2-graphql-complete-guide-for-2025-version-248.html",
+        "https://www.datacamp.com/tutorial/graphql-vs-rest"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=NEzu4FD25KM",
+        "https://www.youtube.com/watch?v=dz4sqR3EyjI",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=hJCjYdxySIw",
+        "https://www.youtube.com/watch?v=yW6HnMUAWNU",
+        "https://www.youtube.com/watch?v=DgVjEo3OGBI",
+        "https://www.youtube.com/watch?v=3cD5UFWsNOA",
+        "https://www.youtube.com/watch?v=pmqbNxjrxu8",
+        "https://www.youtube.com/watch?v=HV5u-HjEFvY"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://shopify.dev/docs/api",
-        "description": "Comprehensive documentation for Shopify's APIs, enabling developers to build and integrate custom apps and solutions."
+        "question": "What is one primary advantage of using GraphQL over REST in mobile app development?",
+        "options": [
+          "GraphQL requires less bandwidth than REST.",
+          "GraphQL allows clients to specify exactly what data they need.",
+          "GraphQL does not require a server.",
+          "GraphQL is easier to implement than REST."
+        ],
+        "correct_option": 1,
+        "hint": "GraphQL provides clients with more control over the data they receive."
       },
       {
-        "url": "https://community.canvaslms.com/t5/The-Product-Blog/From-the-Engineering-Deck-Instructure-amp-GraphQL/ba-p/477314",
-        "description": "This blog post discusses Instructure's implementation of GraphQL within the Canvas LMS to enhance API interactions and data retrieval."
-      },
-      {
-        "url": "https://www.linkedin.com/pulse/my-guide-mastering-api-product-management-gurrpreet-sinngh-iqizc",
-        "description": "A comprehensive guide to mastering API product management, detailing best practices and strategies for success."
+        "question": "In the context of GraphQL, what does the term 'over-fetching' mean?",
+        "options": [
+          "Fetching more data than requested by the client.",
+          "Fetching data more frequently than needed.",
+          "Fetching data that is not required by the client.",
+          "Fetching data with incorrect types."
+        ],
+        "correct_option": 2,
+        "hint": "It involves receiving unnecessary data that was not specified in the client's request."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://mobilelive.medium.com/graphql-for-experts-mastering-the-art-of-efficient-data-retrieval-and-manipulation-a9741e422f59",
-        "description": "An advanced guide to mastering GraphQL for efficient data retrieval and manipulation."
-      },
-      {
-        "url": "https://theburningmonk.com/2020/11/how-i-built-a-social-network-in-4-weeks-with-graphql-and-serverless/",
-        "description": "This article details the process and technologies used to build a social network in four weeks using GraphQL and serverless architecture."
-      },
-      {
-        "url": "https://api7.ai/learning-center/api-gateway-guide/api-gateway-handle-graphql",
-        "description": "This guide explains how to use an API gateway to manage and optimize GraphQL requests."
-      },
-      {
-        "url": "https://medium.com/@pranav.patel2001/graphql-in-android-a-step-by-step-guide-using-kotlin-and-apollo-ba3dc1ef4b79",
-        "description": "A step-by-step guide on implementing GraphQL in Android using Kotlin and Apollo."
-      },
-      {
-        "url": "https://javascript.plainenglish.io/mastering-graphql-in-react-native-a-step-by-step-guide-with-typescript-and-redux-toolkit-79f3bce1dae7",
-        "description": "A step-by-step guide to mastering GraphQL in React Native using TypeScript and Redux Toolkit."
+        "question": "Which GraphQL feature helps in reducing under-fetching issues in mobile apps?",
+        "options": [
+          "GraphQL Subscriptions",
+          "GraphQL Queries",
+          "GraphQL Fragments",
+          "GraphQL Mutations"
+        ],
+        "correct_option": 1,
+        "hint": "This feature allows clients to request all necessary data in a single operation."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=09K3QeQLoCE",
-      "https://www.reddit.com/r/Frontend/comments/12h51z1/how_you_would_learn_web_development_if_you_could/",
-      "https://www.youtube.com/watch?v=dFQZjzTEVWA",
-      "https://www.reddit.com/r/csharp/comments/spisas/tim_coreys_course_prices_are_ridiculously/",
-      "https://www.youtube.com/watch?v=UYQSVH6B1k4"
+    "advanced": [
+      {
+        "question": "Why might a mobile app prefer using a GraphQL client over a REST API for data handling?",
+        "options": [
+          "To handle static data better",
+          "To ensure data is cached permanently",
+          "To perform flexible and precise data queries",
+          "To simplify the backend architecture"
+        ],
+        "correct_option": 2,
+        "hint": "GraphQL clients allow specifying exactly which fields and relationships are needed."
+      },
+      {
+        "question": "What is a common use case for preferring GraphQL clients in mobile apps?",
+        "options": [
+          "When the mobile app only uses static data",
+          "When the server does not support dynamic queries",
+          "When the mobile app requires complex data interactions",
+          "When the backend is not using GraphQL"
+        ],
+        "correct_option": 2,
+        "hint": "GraphQL is particularly useful when an app interfaces with complex or related data structures."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is one primary advantage of using GraphQL over REST in mobile app development?",
-      "options": [
-        "GraphQL requires less bandwidth than REST.",
-        "GraphQL allows clients to specify exactly what data they need.",
-        "GraphQL does not require a server.",
-        "GraphQL is easier to implement than REST."
-      ],
-      "correct_option": 1,
-      "hint": "GraphQL provides clients with more control over the data they receive."
-    },
-    {
-      "question": "In the context of GraphQL, what does the term 'over-fetching' mean?",
-      "options": [
-        "Fetching more data than requested by the client.",
-        "Fetching data more frequently than needed.",
-        "Fetching data that is not required by the client.",
-        "Fetching data with incorrect types."
-      ],
-      "correct_option": 2,
-      "hint": "It involves receiving unnecessary data that was not specified in the client's request."
-    },
-    {
-      "question": "Which GraphQL feature helps in reducing under-fetching issues in mobile apps?",
-      "options": [
-        "GraphQL Subscriptions",
-        "GraphQL Queries",
-        "GraphQL Fragments",
-        "GraphQL Mutations"
-      ],
-      "correct_option": 1,
-      "hint": "This feature allows clients to request all necessary data in a single operation."
-    },
-    {
-      "question": "Why might a mobile app prefer using a GraphQL client over a REST API for data handling?",
-      "options": [
-        "To handle static data better",
-        "To ensure data is cached permanently",
-        "To perform flexible and precise data queries",
-        "To simplify the backend architecture"
-      ],
-      "correct_option": 2,
-      "hint": "GraphQL clients allow specifying exactly which fields and relationships are needed."
-    },
-    {
-      "question": "What is a common use case for preferring GraphQL clients in mobile apps?",
-      "options": [
-        "When the mobile app only uses static data",
-        "When the server does not support dynamic queries",
-        "When the mobile app requires complex data interactions",
-        "When the backend is not using GraphQL"
-      ],
-      "correct_option": 2,
-      "hint": "GraphQL is particularly useful when an app interfaces with complex or related data structures."
-    }
-  ],
   "preferred_if": [
     "Backend uses GraphQL",
     "Client needs flexible data queries"

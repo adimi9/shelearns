@@ -1,0 +1,272 @@
+{
+  "id": "CS17",
+  "name": "Database Management Systems",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "DBMS",
+  "topics": [
+    "Relational Databases (SQL)",
+    "Database Design (Normalization)",
+    "Transactions & Concurrency Control",
+    "NoSQL Database Types (Overview)"
+  ],
+  "recommended": true,
+  "tags": [
+    "database",
+    "data-management",
+    "SQL"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://learn.microsoft.com/en-us/ef/",
+        "https://firebase.google.com/docs/database",
+        "https://cloud.google.com/learn/what-is-a-relational-database"
+      ],
+      "notes": [
+        "https://www.geeksforgeeks.org/dbms/?ref=lbp",
+        "https://beginnersbook.com/2015/04/dbms-tutorial/",
+        "https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/",
+        "https://www.tutorialspoint.com/dbms/index.htm",
+        "https://www.geeksforgeeks.org/dbms/dbms/",
+        "https://www.w3schools.com/sql/sql_intro.asp"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=c5HAwKX-suM",
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://www.youtube.com/watch?v=wR0jg0eQsZA&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=zQuFCsTLLSU",
+        "https://www.youtube.com/watch?v=oeYBdghaIjc",
+        "https://www.youtube.com/watch?v=v4bU6n97Vr8",
+        "https://www.youtube.com/watch?v=6Iu45VZGQDk",
+        "https://www.youtube.com/watch?v=xjhQ0e9Hlds",
+        "https://www.youtube.com/playlist?list=PLZ2ps__7DhBYc4jkUk_yQAjYEVFzVzhdU"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://neo4j.com/",
+        "https://developers.google.com/apis-explorer",
+        "https://docs.oracle.com/iaas/api/"
+      ],
+      "notes": [
+        "https://ieeexplore.ieee.org/document/1314713/",
+        "https://doc.arcgis.com/en/arcgis-solutions/11.2/reference/use-district-energy-data-management.htm",
+        "https://enterprise.arcgis.com/en/server/10.4/get-started/windows/tutorial-performing-web-editing-using-data-from-a-database.htm",
+        "https://portal.nutanix.com/page/documents/details?targetId=Nutanix-NDB-Oracle-Database-Management-Guide-v2_8:top-oracle-db-management-c.html",
+        "https://www.ntia.gov/sites/default/files/publications/cybersecurity_and_infrastructure_security_agency_cisa_0.pdf",
+        "https://docs.oracle.com/cd/E91711_01/PDF/MDM_Release_Notes_v2_2_0_2.pdf",
+        "https://www.healthit.gov/sites/default/files/facas/2022-08-24_PHDS_TF_MeetingNotes_508_0.pdf"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=-MWNwy2W6YY",
+        "https://www.youtube.com/watch?v=9ur0OpMADuM",
+        "https://www.youtube.com/watch?v=wI4HWGlI6gM&pp=ygUII3Nvc3FsNTQ%3D",
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+        "https://www.youtube.com/watch?v=jHzIGGU-Ph0",
+        "https://www.youtube.com/watch?v=Vxt5hT7UbzE",
+        "https://www.youtube.com/watch?v=_sWgionzDoM"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://developers.arcgis.com/python/latest/",
+        "https://cloud.google.com/docs/security/key-management-deep-dive",
+        "https://docs.nvidia.com/nsight-systems/UserGuide/index.html"
+      ],
+      "notes": [
+        "https://www.geeksforgeeks.org/mysql/mysql-tutorial/",
+        "https://www.wrike.com/project-management-guide/faq/what-are-project-management-tools/",
+        "https://www.notion.com/help/intro-to-databases",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+        "https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+        "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+        "https://www.youtube.com/watch?v=Sxp8YjKu_Tc",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=3Lfs5fAc1bU",
+        "https://www.youtube.com/watch?v=voTZUMw23pg",
+        "https://www.youtube.com/watch?v=YMj33ToS8cI",
+        "https://www.youtube.com/watch?v=iafduXqwfMs"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary language used to interact with relational databases?",
+        "options": [
+          "HTML",
+          "SQL",
+          "NoSQL",
+          "Python"
+        ],
+        "correct_option": 1,
+        "hint": "This language is often associated with querying databases."
+      },
+      {
+        "question": "Which process involves organizing a database to reduce redundancy and improve data integrity?",
+        "options": [
+          "Indexing",
+          "Normalization",
+          "Denormalization",
+          "Partitioning"
+        ],
+        "correct_option": 1,
+        "hint": "This process is a key step in database design."
+      },
+      {
+        "question": "What is the purpose of a transaction in database systems?",
+        "options": [
+          "To backup data",
+          "To retrieve data",
+          "To execute a sequence of operations as a single unit",
+          "To delete data"
+        ],
+        "correct_option": 2,
+        "hint": "This ensures that all operations are completed or none at all."
+      },
+      {
+        "question": "Which of the following is NOT a type of NoSQL database?",
+        "options": [
+          "Key-value store",
+          "Document store",
+          "Graph database",
+          "Relational database"
+        ],
+        "correct_option": 3,
+        "hint": "This type of database is typically associated with SQL."
+      },
+      {
+        "question": "What does ACID stand for in the context of transactions?",
+        "options": [
+          "Atomicity, Consistency, Isolation, Durability",
+          "Accuracy, Consistency, Integrity, Durability",
+          "Atomicity, Clarity, Isolation, Durability",
+          "Availability, Consistency, Isolation, Durability"
+        ],
+        "correct_option": 0,
+        "hint": "These properties ensure reliable processing of database transactions."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary goal of normalization in database design?",
+        "options": [
+          "To eliminate redundant data and ensure data dependencies make sense",
+          "To increase the number of tables in the database",
+          "To improve the speed of SQL queries",
+          "To reduce the number of relationships between tables"
+        ],
+        "correct_option": 0,
+        "hint": "Normalization aims to organize data to reduce redundancy."
+      },
+      {
+        "question": "Which SQL command is used to ensure that the changes made by a transaction are saved to the database?",
+        "options": [
+          "ROLLBACK",
+          "SAVE",
+          "COMMIT",
+          "SAVEPOINT"
+        ],
+        "correct_option": 2,
+        "hint": "This command makes permanent the changes performed by a transaction."
+      },
+      {
+        "question": "Which of the following is a characteristic of NoSQL databases?",
+        "options": [
+          "Fixed schema",
+          "ACID transactions",
+          "Scalability",
+          "Relational data model"
+        ],
+        "correct_option": 2,
+        "hint": "NoSQL databases are designed to scale horizontally."
+      },
+      {
+        "question": "In the context of concurrency control, what does the term 'deadlock' refer to?",
+        "options": [
+          "A situation where two or more transactions are waiting indefinitely for each other to release locks",
+          "A situation where data is permanently locked",
+          "A state where transactions execute without any conflict",
+          "The process of rolling back a transaction"
+        ],
+        "correct_option": 0,
+        "hint": "It occurs when transactions are stuck waiting for each other."
+      },
+      {
+        "question": "Which of the following is NOT a primary type of NoSQL database?",
+        "options": [
+          "Document store",
+          "Graph database",
+          "Relational store",
+          "Key-value store"
+        ],
+        "correct_option": 2,
+        "hint": "NoSQL databases are defined by their non-relational nature."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which SQL command is used to remove a specific set of records without deleting the table itself?",
+        "options": [
+          "DELETE",
+          "DROP",
+          "TRUNCATE",
+          "REMOVE"
+        ],
+        "correct_option": 0,
+        "hint": "This command is often used with the WHERE clause to specify conditions."
+      },
+      {
+        "question": "In normalization, what is the process of organizing data to reduce redundancy called?",
+        "options": [
+          "Denormalization",
+          "Normalization",
+          "Indexing",
+          "Partitioning"
+        ],
+        "correct_option": 1,
+        "hint": "This process involves decomposing a table into smaller tables and defining relationships between them."
+      },
+      {
+        "question": "Which isolation level in transactions ensures that no other transactions can read or modify the data until the current transaction is complete?",
+        "options": [
+          "Read Uncommitted",
+          "Repeatable Read",
+          "Serializable",
+          "Read Committed"
+        ],
+        "correct_option": 2,
+        "hint": "This is the strictest isolation level, providing the highest level of data integrity."
+      },
+      {
+        "question": "Which NoSQL database type is best suited for handling complex hierarchical data structures?",
+        "options": [
+          "Key-Value Store",
+          "Document Store",
+          "Column-Family Store",
+          "Graph Database"
+        ],
+        "correct_option": 3,
+        "hint": "This type of database excels in managing relationships between entities."
+      },
+      {
+        "question": "Which concurrency control mechanism in DBMS uses timestamp ordering to maintain serializability?",
+        "options": [
+          "Two-Phase Locking",
+          "Optimistic Concurrency Control",
+          "Multiversion Concurrency Control",
+          "Timestamp-Based Protocol"
+        ],
+        "correct_option": 3,
+        "hint": "This mechanism assigns a unique timestamp to each transaction to determine its order."
+      }
+    ]
+  }
+}

@@ -1,0 +1,505 @@
+{
+  "id": "CSec1",
+  "name": "Mobile Security",
+  "category": "Computer Security",
+  "primary_tech": "Mobile Security",
+  "topics": [
+    "Android & iOS Security Models",
+    "Mobile App Vulnerabilities (OWASP MASVS)",
+    "Secure Mobile App Development",
+    "Mobile Device Management (MDM) Basics"
+  ],
+  "recommended": false,
+  "tags": [
+    "mobile",
+    "app-security",
+    "device-security"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/",
+          "description": "Official Microsoft documentation for .NET development, covering APIs, tutorials, and best practices.",
+          "title": ".NET documentation | Microsoft Learn"
+        },
+        {
+          "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
+          "description": "API documentation for Check Point's latest security management solutions.",
+          "title": "Check Point - Management API reference"
+        },
+        {
+          "url": "https://duo.com/docs",
+          "description": "Comprehensive documentation for Duo's security and authentication products.",
+          "title": "Duo Documentation, How-To Guides | MFA | Duo Security"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://owasp.org/www-project-mobile-app-security/",
+          "description": "A guide to enhancing mobile app security through best practices and testing standards.",
+          "title": "OWASP Mobile Application Security | OWASP Foundation"
+        },
+        {
+          "url": "https://www.hackthebox.com/blog/intro-to-mobile-pentesting",
+          "description": "An introductory guide to mobile penetration testing techniques and tools.",
+          "title": "A step-by-step Android penetration testing guide for beginners"
+        },
+        {
+          "url": "https://mrcet.com/pdf/Lab%20Manuals/IT/CYBER%20SECURITY%20(R18A0521).pdf",
+          "description": "A detailed lab manual for the Cyber Security course under the R18A0521 curriculum."
+        },
+        {
+          "url": "https://helpx.adobe.com/acrobat/user-guide.html",
+          "description": "User guide for Adobe Acrobat covering features, tools, and troubleshooting."
+        },
+        {
+          "url": "https://guide.duo.com/",
+          "description": "A detailed user guide for setting up and using Duo's two-factor authentication service.",
+          "title": "Guide to Duo Authentication"
+        },
+        {
+          "url": "https://www.tutorialspoint.com/mobile_security/index.htm",
+          "description": "An introductory guide to mobile security concepts and practices.",
+          "title": "Mobile Security Tutorial"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=3QOlo2pEpvc",
+          "title": "Introduction to Application Security - Course",
+          "duration": "124m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=6442s",
+          "title": "Ethical Hacking in 12 Hours - Full Course - Learn to Hack!",
+          "duration": "736m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qTaOZrDnMzQ",
+          "title": "Wireshark Tutorial for Beginners | Network Scanning Made Easy",
+          "duration": "20m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+          "title": "Model Driven Power Apps FULL COURSE for Beginners [UPDATED 2024 Edition]",
+          "duration": "141m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3NIgBoVJ2FA&pp=ygUQIzFwYXNzd29yZHByb2Fwaw%3D%3D",
+          "title": "1Password Tutorial | The Full Beginners Guide",
+          "duration": "22m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0ZrSRRDC_p8",
+          "title": "Android Application Security Testing Training Day-01 Session - Aug 19",
+          "duration": "47m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qwA6MmbeGNo&pp=0gcJCfwAo7VqN5tD",
+          "title": "Open-Source Intelligence (OSINT) in 5 Hours - Full Course - Learn OSINT!",
+          "duration": "269m"
+        },
+        {
+          "url": "https://www.youtube.com/playlist?list=PL_RcVnBPGmSLAGyNa6wiAf8bbVwxYYzCi"
+        },
+        {
+          "url": "https://www.youtube.com/playlist?list=PLHEcKKWWhXy-cq8HHTKRUwckqCMCa12N0"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zIWGjkr0ENE&pp=0gcJCfwAo7VqN5tD",
+          "title": "🔥 Network Security Engineer Full Course 2023 | Learn Networking In 4 Hours | Simplilearn",
+          "duration": "255m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.datadoghq.com/api/latest/",
+          "description": "Comprehensive documentation for the latest version of Datadog's API.",
+          "title": "API Reference"
+        },
+        {
+          "url": "https://developers.google.com/apis-explorer",
+          "description": "An interactive tool for exploring and testing Google APIs directly from your browser.",
+          "title": "Google APIs Explorer  |  Google for Developers"
+        },
+        {
+          "url": "https://duo.com/docs",
+          "description": "Official documentation for setting up and using Duo Security's two-factor authentication services.",
+          "title": "Duo Documentation, How-To Guides | MFA | Duo Security"
+        },
+        {
+          "url": "https://developer.android.com/guide/topics/permissions/overview",
+          "description": "An overview of Android app permissions and how to implement them.",
+          "title": "Permissions on Android  |  Privacy  |  Android Developers"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://owasp.org/www-project-mobile-app-security/",
+          "description": "A comprehensive guide to mobile application security best practices by OWASP.",
+          "title": "OWASP Mobile Application Security | OWASP Foundation"
+        },
+        {
+          "url": "https://www.box.com/home",
+          "description": "A cloud-based platform for secure file sharing and collaboration.",
+          "title": "Secure, AI-Powered Content Management, Workflow & Collaboration"
+        },
+        {
+          "url": "https://www.uscis.gov/file-online/how-to-create-a-uscis-online-account",
+          "description": "Instructions for creating a USCIS online account for managing immigration applications.",
+          "title": "How to Create a USCIS Online Account | USCIS"
+        },
+        {
+          "url": "https://techdocs.broadcom.com/us/en/symantec-security-software/identity-security/vip-authentication-hub/3-4/VIP-Authentication-Hub-Demo-Environment/policy-use-cases.html",
+          "description": "An overview of policy use cases within the VIP Authentication Hub demo environment.",
+          "title": "Understanding the Demo Use Cases"
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/document/7311393/",
+          "description": "An in-depth analysis of deep learning techniques for image recognition.",
+          "title": "Request Rejected"
+        },
+        {
+          "url": "https://docs.paloaltonetworks.com/content/techdocs/en_US/service-providers/11-0/mobile-network-infrastructure-getting-started/sctp/sctp-security-measures",
+          "description": "Guidelines on implementing SCTP security measures in mobile network infrastructures.",
+          "title": "SCTP Security Measures on the Firewall"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new",
+          "description": "Updates and new features in Microsoft Entra for identity and access management.",
+          "title": "Microsoft Entra releases and announcements - Microsoft Entra | Microsoft Learn"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=oX9aIzejaSc&pp=0gcJCfwAo7VqN5tD",
+          "title": "Galaxy S25 Ultra - First 25 Things To Do! (Tips & Tricks)",
+          "duration": "36m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+          "title": "Starting a New Digital Forensic Investigation Case in Autopsy 4.19+",
+          "duration": "38m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=45k4pQ6nwSc",
+          "title": "Automate Employee Onboarding in Microsoft 365 | Full Tutorial",
+          "duration": "57m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5ZGT1ASqYss",
+          "title": "iPhone 16 Pro - First 25 Things To Do! (Tips & Tricks)",
+          "duration": "35m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+          "title": "Model Driven Power Apps FULL COURSE for Beginners [UPDATED 2024 Edition]",
+          "duration": "141m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5xpKs0qCqqs",
+          "title": "Google Pixel 9 First 20 Things To Do! (Tips & Tricks)",
+          "duration": "20m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=I_qzYkjHTvQ",
+          "title": "The emerging role of SRv6 in network deployments",
+          "duration": "19m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=z-BXYM3jRzs",
+          "title": "SOC Lvl 1 / EP.9 / Threat Investigation: Finding Critical Data With OpenCTI Data Model",
+          "duration": "34m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_hFwoM-Qq1c",
+          "title": "Microsoft Copilot for Security | Security Copilot AMA",
+          "duration": "56m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
+          "description": "A detailed reference guide for Check Point's latest API documentation.",
+          "title": "Check Point - Management API reference"
+        },
+        {
+          "url": "https://developers.arcgis.com/python/latest/",
+          "description": "Comprehensive documentation for using the ArcGIS Python API for spatial data analysis.",
+          "title": "ArcGIS API for Python"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/",
+          "description": "Official Microsoft documentation for .NET development and resources.",
+          "title": ".NET documentation | Microsoft Learn"
+        },
+        {
+          "url": "https://www.dafcio.af.mil/",
+          "description": "Official website of the Department of the Air Force Chief Information Officer providing information on digital transformation and IT initiatives.",
+          "title": "SAF/CN - Home Page"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+          "description": "Official Microsoft documentation for learning C# programming language.",
+          "title": "C# Guide - .NET managed language | Microsoft Learn"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks",
+          "description": "An overview of how Self-Service Password Reset (SSPR) operates in Microsoft Entra ID.",
+          "title": "Self-service password reset deep dive - Microsoft Entra ID | Microsoft Learn"
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security",
+          "description": "An introductory guide explaining the fundamentals and importance of cyber security.",
+          "title": "What is Cyber Security? A Complete Beginner’s Guide"
+        },
+        {
+          "url": "https://www.firstpoint-mg.com/blog/ss7-attack-guide/",
+          "description": "An in-depth guide on understanding and mitigating SS7 network attacks.",
+          "title": "A Step by Step Guide to SS7 Attacks - FirstPoint"
+        },
+        {
+          "url": "https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf",
+          "description": "An in-depth guide detailing the security features and protocols of Apple platforms."
+        },
+        {
+          "url": "https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture",
+          "description": "An in-depth exploration of iptables and Netfilter architecture for network traffic management.",
+          "title": "A Deep Dive into Iptables and Netfilter Architecture | DigitalOcean"
+        },
+        {
+          "url": "https://www.adjust.com/blog/dive-into-deeplinking/",
+          "description": "An in-depth exploration of deep linking and its impact on mobile marketing strategies.",
+          "title": "A complete guide to mobile app deep linking | Adjust"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=c9TTzhMSFcg",
+          "title": "Galaxy Note 10 Plus - 200+ Tips, Tricks and Hidden Features (ULTIMATE GUIDE)",
+          "duration": "161m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SVo6cDnQQm0",
+          "title": "BGP Deep Dive",
+          "duration": "130m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=jqcw3kJdv5Q",
+          "title": "The Ultimate Guide to Kadence WP WordPress Tutorial (FREE & PRO Deep Dive)",
+          "duration": "125m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tLqWGysORXA&pp=ygUPI2ZyZWVjY25hY291cnNl",
+          "title": "CCNA Course for Beginners - Full Course 10.5 Hours (Part 1)",
+          "duration": "634m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=H5lbHZAmDSs",
+          "title": "2024 - 2025 Lexus TX Full Tutorial - Deep Dive - Part 1",
+          "duration": "133m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=56Ihv5MF4_U",
+          "title": "Microsoft Intune From Zero to Hero",
+          "duration": "39m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ejQ-ojkokVY",
+          "title": "Model-Driven Power Apps Tutorial: Forms Deep Dive",
+          "duration": "41m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IhtcuP-9c1g",
+          "title": "2022 - 2025 Lexus NX Part 2 - Deep Dive Tutorial",
+          "duration": "145m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IPvYjXCsTg8",
+          "title": "Computer Networking Full Course - OSI Model Deep Dive with Real Life Examples",
+          "duration": "246m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of Android and iOS security models?",
+        "options": [
+          "To enhance user interface designs",
+          "To secure the operating system and applications",
+          "To increase battery life",
+          "To improve app download speeds"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the fundamental reason for security models in mobile operating systems."
+      },
+      {
+        "question": "Which of the following is a common vulnerability as per OWASP MASVS?",
+        "options": [
+          "Poor user interface design",
+          "Insecure data storage",
+          "Slow network speed",
+          "Limited app functionality"
+        ],
+        "correct_option": 1,
+        "hint": "Consider vulnerabilities related to where sensitive information is stored."
+      },
+      {
+        "question": "What is a key focus in secure mobile app development?",
+        "options": [
+          "Creating complex user interfaces",
+          "Minimizing data usage",
+          "Protecting sensitive data",
+          "Increasing app download size"
+        ],
+        "correct_option": 2,
+        "hint": "Think about protecting information that could be compromised."
+      },
+      {
+        "question": "What does Mobile Device Management (MDM) primarily aim to do?",
+        "options": [
+          "Improve app aesthetics",
+          "Manage and secure mobile devices",
+          "Increase device battery life",
+          "Enhance device graphics"
+        ],
+        "correct_option": 1,
+        "hint": "MDM is about controlling and securing mobile devices."
+      },
+      {
+        "question": "Which technology is most associated with mobile security?",
+        "options": [
+          "Bluetooth",
+          "Wi-Fi",
+          "Encryption",
+          "Camera"
+        ],
+        "correct_option": 2,
+        "hint": "Consider technologies that protect data from being accessed by unauthorized entities."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a key difference between Android and iOS security models?",
+        "options": [
+          "Android uses a permission-based model while iOS relies on app sandboxing.",
+          "iOS uses a permission-based model while Android relies on app sandboxing.",
+          "Both use a permission-based model.",
+          "Both rely solely on app sandboxing."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how each OS manages app access to system resources."
+      },
+      {
+        "question": "Which of the following is NOT a category of the OWASP Mobile Application Security Verification Standard (MASVS)?",
+        "options": [
+          "Data Storage and Privacy",
+          "Network Communications",
+          "Application Architecture",
+          "User Interface Design"
+        ],
+        "correct_option": 3,
+        "hint": "Focus on aspects directly related to security, not user experience."
+      },
+      {
+        "question": "In secure mobile app development, which practice helps prevent reverse engineering?",
+        "options": [
+          "Using obfuscation techniques",
+          "Storing sensitive data in plain text",
+          "Avoiding code signing",
+          "Hardcoding API keys"
+        ],
+        "correct_option": 0,
+        "hint": "Think about making the code less readable to unauthorized users."
+      },
+      {
+        "question": "What is the primary purpose of Mobile Device Management (MDM) in a corporate environment?",
+        "options": [
+          "To increase device storage capacity",
+          "To secure and manage devices remotely",
+          "To enhance device battery life",
+          "To develop new mobile applications"
+        ],
+        "correct_option": 1,
+        "hint": "MDM focuses on security and management of devices."
+      },
+      {
+        "question": "Which technology is commonly used to encrypt data stored on mobile devices?",
+        "options": [
+          "SSL/TLS",
+          "AES",
+          "HTTP",
+          "NFC"
+        ],
+        "correct_option": 1,
+        "hint": "Consider a standard encryption algorithm widely used for data protection."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which component of the Android security model isolates apps from each other?",
+        "options": [
+          "Sandboxing",
+          "Encryption",
+          "Firewall",
+          "Antivirus"
+        ],
+        "correct_option": 0,
+        "hint": "It's a mechanism that confines the app's execution environment."
+      },
+      {
+        "question": "In the context of iOS security, what is the primary purpose of the Secure Enclave?",
+        "options": [
+          "To encrypt user data",
+          "To enhance app performance",
+          "To store cryptographic keys securely",
+          "To manage app permissions"
+        ],
+        "correct_option": 2,
+        "hint": "It's related to cryptographic operations."
+      },
+      {
+        "question": "According to the OWASP Mobile Application Security Verification Standard (MASVS), which level focuses on defending against reverse engineering and tampering?",
+        "options": [
+          "MASVS-L1",
+          "MASVS-L2",
+          "MASVS-R",
+          "MASVS-AL"
+        ],
+        "correct_option": 2,
+        "hint": "This level is specifically designed to counteract code analysis threats."
+      },
+      {
+        "question": "What is a key benefit of implementing Mobile Device Management (MDM) in an enterprise environment?",
+        "options": [
+          "Improved app download speeds",
+          "Enhanced battery life",
+          "Centralized control of mobile security policies",
+          "Faster data processing"
+        ],
+        "correct_option": 2,
+        "hint": "Think about control and security of devices within an organization."
+      },
+      {
+        "question": "When developing a secure mobile application, which practice is essential for preventing sensitive data leakage?",
+        "options": [
+          "Hardcoding API keys within the app",
+          "Using HTTPS for network communication",
+          "Storing passwords in plain text",
+          "Allowing all permissions by default"
+        ],
+        "correct_option": 1,
+        "hint": "Consider secure methods for transmitting data over networks."
+      }
+    ]
+  }
+}

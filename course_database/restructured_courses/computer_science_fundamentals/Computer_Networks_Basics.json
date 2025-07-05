@@ -16,105 +16,150 @@
     "protocols"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction",
-        "description": "Introduction to the Document Object Model (DOM) and its role in web development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-        "description": "Comprehensive documentation and guides on HTML, including elements, attributes, and best practices for web development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work",
-        "description": "An introductory guide explaining the fundamental mechanics of how the Internet operates."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/computer-network-tutorials/",
-        "description": "Comprehensive tutorials covering fundamental concepts and components of computer networks."
-      },
-      {
-        "url": "https://www.w3schools.com/cybersecurity/cybersecurity_networking.php",
-        "description": "This page provides an introduction to networking concepts and their relevance in cybersecurity."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/basics-computer-networking/",
-        "description": "An introductory guide to the fundamental concepts and components of computer networking."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-science-fundamentals/computer-fundamentals-tutorial/",
-        "description": "A comprehensive tutorial covering the essential concepts and principles of computer fundamentals."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/ccna-tutorial-for-beginners/",
-        "description": "An introductory guide to Cisco Certified Network Associate (CCNA) concepts for beginners in computer networking."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=keeqnciDVOo",
-      "https://www.youtube.com/watch?v=k9ZigsW9il0",
-      "https://www.youtube.com/watch?v=WO6P92v61y4",
-      "https://www.youtube.com/watch?v=_IOZ8_cPgu8",
-      "https://www.youtube.com/watch?v=3QhU9jd03a0"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which layer of the OSI Model is responsible for establishing, managing, and terminating connections between applications?",
-      "options": [
-        "Transport Layer",
-        "Session Layer",
-        "Network Layer",
-        "Application Layer"
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "https://docs.aws.amazon.com/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://kubernetes.io/docs/reference/kubectl/",
+        "https://graphql.org/learn/"
       ],
-      "correct_option": 1,
-      "hint": "This layer sits between the transport and presentation layers."
+      "notes": [
+        "https://www.netacad.com/courses/networking-basics",
+        "https://www.geeksforgeeks.org/computer-networks/basics-computer-networking/",
+        "https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html",
+        "https://www.geeksforgeeks.org/computer-networks/computer-network-tutorials/",
+        "https://www.w3schools.com/cybersecurity/cybersecurity_networking.php"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=wfOr0zX3D24",
+        "https://www.youtube.com/watch?v=TVvEheZVwdg",
+        "https://www.youtube.com/watch?v=GyTLPl5t-0Q",
+        "https://www.youtube.com/watch?v=9SIjoeE93lo",
+        "https://www.youtube.com/watch?v=k9ZigsW9il0",
+        "https://www.youtube.com/watch?v=PhjHXeMNpp8&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=FM169QUIQco",
+        "https://www.youtube.com/watch?v=fErDcUtd8fA",
+        "https://www.youtube.com/watch?v=qiQR5rTSshw",
+        "https://www.youtube.com/user/danscourses"
+      ]
     },
-    {
-      "question": "What is the primary function of the TCP/IP Stack's Internet Layer?",
-      "options": [
-        "Establish end-to-end communication",
-        "Define protocols for data formatting",
-        "Route packets across networks",
-        "Encrypt data for security"
+    "intermediate": {
+      "docs": [
+        "https://docs.aws.amazon.com/",
+        "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
+        "https://learn.microsoft.com/en-us/azure/"
       ],
-      "correct_option": 2,
-      "hint": "This layer is responsible for determining the best path for data transmission."
+      "notes": [
+        "https://www.csselectronics.com/pages/can-bus-simple-intro-tutorial",
+        "https://aws.amazon.com/what-is/neural-network/",
+        "https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html",
+        "https://spacelift.io/blog/docker-networking",
+        "https://www.geeksforgeeks.org/devops/aws-tutorial/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=k9ZigsW9il0&pp=ygULI25ldHdvZWtpbmc%3D",
+        "https://www.youtube.com/watch?v=qTaOZrDnMzQ",
+        "https://www.youtube.com/watch?v=ty0HMs48U1k",
+        "https://www.youtube.com/watch?v=zfiSAzpy9NM&pp=ygULI2NubmZlYXR1cmU%3D",
+        "https://www.youtube.com/watch?v=LcWFedjaR4Q",
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=7xngnjfIlK4",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=7mz73uXD9DA"
+      ]
     },
-    {
-      "question": "Which protocol is used for transferring files between client and server on a network?",
-      "options": [
-        "HTTP",
-        "DNS",
-        "FTP",
-        "SMTP"
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://docs.cilium.io/en/stable/index.html",
+        "https://keras.io/",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "https://docs.aws.amazon.com/"
       ],
-      "correct_option": 2,
-      "hint": "This protocol is specifically designed for file transfer."
-    },
-    {
-      "question": "In IP addressing, what is the primary role of a subnet mask?",
-      "options": [
-        "Identify the network part of an IP address",
-        "Encrypt data packets",
-        "Assign IP addresses dynamically",
-        "Map domain names to IP addresses"
+      "notes": [
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://zerotomastery.io/blog/introduction-to-networking/",
+        "https://www.wireshark.org/",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
+        "https://www.emqx.com/en/blog/the-easiest-guide-to-getting-started-with-mqtt",
+        "https://cs231n.stanford.edu/"
       ],
-      "correct_option": 0,
-      "hint": "This component helps in distinguishing the network part from the host part of an IP address."
-    },
-    {
-      "question": "Which of the following is a method to enhance network security?",
-      "options": [
-        "Using DHCP for IP management",
-        "Implementing network firewalls",
-        "Assigning static IP addresses",
-        "Enabling public access to servers"
-      ],
-      "correct_option": 1,
-      "hint": "This method acts as a barrier to protect a network from unauthorized access."
+      "videos": [
+        "https://www.youtube.com/watch?v=IPvYjXCsTg8",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=tLqWGysORXA",
+        "https://www.youtube.com/watch?v=ty0HMs48U1k",
+        "https://www.youtube.com/watch?v=HTpZ1rLRsNQ",
+        "https://www.youtube.com/watch?v=2eAPg2SSXyg",
+        "https://www.youtube.com/watch?v=tpCFfeUEGs8",
+        "https://www.youtube.com/watch?v=jKc98gPybFs&pp=ygUJI3Zpc2lvdmJh",
+        "https://www.youtube.com/c/PracticalNetworking"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which layer of the OSI Model is responsible for establishing, managing, and terminating connections between applications?",
+        "options": [
+          "Transport Layer",
+          "Session Layer",
+          "Network Layer",
+          "Application Layer"
+        ],
+        "correct_option": 1,
+        "hint": "This layer sits between the transport and presentation layers."
+      },
+      {
+        "question": "What is the primary function of the TCP/IP Stack's Internet Layer?",
+        "options": [
+          "Establish end-to-end communication",
+          "Define protocols for data formatting",
+          "Route packets across networks",
+          "Encrypt data for security"
+        ],
+        "correct_option": 2,
+        "hint": "This layer is responsible for determining the best path for data transmission."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which protocol is used for transferring files between client and server on a network?",
+        "options": [
+          "HTTP",
+          "DNS",
+          "FTP",
+          "SMTP"
+        ],
+        "correct_option": 2,
+        "hint": "This protocol is specifically designed for file transfer."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In IP addressing, what is the primary role of a subnet mask?",
+        "options": [
+          "Identify the network part of an IP address",
+          "Encrypt data packets",
+          "Assign IP addresses dynamically",
+          "Map domain names to IP addresses"
+        ],
+        "correct_option": 0,
+        "hint": "This component helps in distinguishing the network part from the host part of an IP address."
+      },
+      {
+        "question": "Which of the following is a method to enhance network security?",
+        "options": [
+          "Using DHCP for IP management",
+          "Implementing network firewalls",
+          "Assigning static IP addresses",
+          "Enabling public access to servers"
+        ],
+        "correct_option": 1,
+        "hint": "This method acts as a barrier to protect a network from unauthorized access."
+      }
+    ]
+  }
 }

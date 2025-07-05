@@ -16,105 +16,151 @@
     "immersion"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
-        "description": "An in-depth guide to the Web Audio API, enabling developers to create and manipulate audio content directly in web applications."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/audio",
-        "description": "A comprehensive guide to the HTML <audio> element, detailing its attributes, usage, and examples for embedding sound content in web pages."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Games/Introduction",
-        "description": "An introductory guide for developers on creating games using web technologies like HTML5, JavaScript, and WebGL."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.freecodecamp.org/news/from-zero-to-game-designer-how-to-start-building-video-games-even-if-you-dont-have-any-experience-5e2f9f45f4bb/",
-        "description": "A beginner-friendly guide to starting video game design and development without prior experience."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/python/play-sound-in-python/",
-        "description": "A guide on how to play sound files in Python using the playsound module."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/python/python-playing-audio-file-in-pygame/",
-        "description": "This resource provides a guide on how to play audio files in Python using the Pygame library."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/how-to-start-a-software-youtube-channel/",
-        "description": "A guide on starting and growing a successful software-focused YouTube channel."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/python/pygame-tutorial/",
-        "description": "A comprehensive tutorial on using the Pygame library to create games and multimedia applications in Python."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=0nO48Ui5NZY",
-      "https://www.youtube.com/watch?v=jWorjBDcty4",
-      "https://www.youtube.com/watch?v=wh5wdmjPur8",
-      "https://www.youtube.com/watch?v=93E77hBM-1Y",
-      "https://www.youtube.com/watch?v=KcorIwJscFA"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of sound effects (SFX) in video games?",
-      "options": [
-        "Enhance the realism and immersion of the game world",
-        "Create a soundtrack for game levels",
-        "Improve graphics resolution",
-        "Increase game loading speed"
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+        "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-6-documentation",
+        "https://docs.unity.com/"
       ],
-      "correct_option": 0,
-      "hint": "Think about how sound effects contribute to the overall game experience."
+      "notes": [
+        "https://www.youtube.com/watch?v=uaxIGGgcEyg",
+        "https://www.audiokinetic.com/learn/videos/0v-be268YFc/?course=wwise301&lesson=6&ref=Lesson_6",
+        "https://www.youtube.com/watch?v=vLl34b9zIdk&pp=ygUZI2F1ZGlvZW5naW5lZXJhbmRwcm9kdWNlcg%3D%3D",
+        "https://thiagoschiefer.com/home/how-to-be-a-game-composer-sound-designer-for-games-a-beginners-guide/",
+        "https://www.youtube.com/watch?v=2EkZjppztyo"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=vLl34b9zIdk&pp=ygUdI3Jlc2V0c291bmRjb3JlbGliZXJ0eWFpcjJwcm8%3D",
+        "https://www.youtube.com/watch?v=uaxIGGgcEyg",
+        "https://www.youtube.com/watch?v=2EkZjppztyo",
+        "https://www.youtube.com/watch?v=J0hWjMSVx4Y",
+        "https://www.youtube.com/watch?v=XRAYqWFeYR0&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=lZ3ant1u73s",
+        "https://www.youtube.com/watch?v=wh5wdmjPur8",
+        "https://www.youtube.com/watch?v=0kBpcACGM6g",
+        "https://www.youtube.com/watch?v=yzJ2VyYkmaA&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=KK9HgQ2ZGgk"
+      ]
     },
-    {
-      "question": "Which aspect of game audio involves blending multiple audio tracks into a cohesive sound experience?",
-      "options": [
-        "Sound Effects Creation",
-        "Audio Mixing & Mastering",
-        "Music Composition",
-        "Spatial Audio & Occlusion"
+    "intermediate": {
+      "docs": [
+        "https://docs.unity.com/",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+        "https://www.sonarworks.com/soundid-reference",
+        "https://developers.google.com/apis-explorer"
       ],
-      "correct_option": 1,
-      "hint": "This process is similar to what is done in music production to polish the final audio."
+      "notes": [
+        "https://www.facebook.com/groups/1503118436634926/posts/4143940352552708/",
+        "http://eecs.qmul.ac.uk/~gyorgyf/research.html",
+        "https://www.steinberg.net/cubase/",
+        "https://www.sonarworks.com/soundid-reference",
+        "https://www.lewitt-audio.com/blog/how-to-record-computer-audio-via-loopback",
+        "https://www.krotosaudio.com/interview-with-sound-designer-andy-gibson/",
+        "https://discussions.unity.com/t/sound-not-working/844545"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=vsuLEM0I7x0",
+        "https://www.youtube.com/watch?v=J0hWjMSVx4Y",
+        "https://www.youtube.com/watch?v=yzJ2VyYkmaA&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=EzmNeAhWqVs",
+        "https://www.youtube.com/watch?v=nbZwucBl_oE",
+        "https://www.youtube.com/watch?v=yYoQSRAHhIc",
+        "https://www.youtube.com/watch?v=FNWF43bWQvU",
+        "https://www.youtube.com/c/ServidaMusic/community",
+        "https://www.youtube.com/watch?v=9x4d6gH78GM",
+        "https://www.youtube.com/watch?v=z-150Nxem5g"
+      ]
     },
-    {
-      "question": "What does spatial audio in games primarily enhance?",
-      "options": [
-        "Game speed",
-        "3D audio positioning",
-        "Character graphics",
-        "Network performance"
+    "advanced": {
+      "docs": [
+        "https://developers.meta.com/horizon/documentation/unity/audio-ovrlipsync-viseme-reference/",
+        "https://learn.microsoft.com/en-us/windows/uwp/gaming/e2e",
+        "https://cloud.google.com/translate",
+        "https://www.fmod.com/learn"
       ],
-      "correct_option": 1,
-      "hint": "It relates to how sound moves and is perceived in a 3D space."
-    },
-    {
-      "question": "Which technology is NOT directly related to game audio design?",
-      "options": [
-        "Audio Design",
-        "Graphics Design",
-        "Music Composition",
-        "Sound Mixing"
+      "notes": [
+        "https://www.youtube.com/c/AftertouchAudio",
+        "http://www.markwk.com/music-production-learning-journey.html",
+        "https://www.coursera.org/articles/audio-engineering",
+        "https://www.production-expert.com/production-expert-1/tools-every-dialogue-editor-should-have-in-2024",
+        "https://www.izotope.com/en/learn/audio-dynamics-101-compressors-limiters-expanders-and-gates",
+        "https://www.linkedin.com/in/sclooney",
+        "https://soundnews.net/reviews/amplifiers/headphone-amps/a-deep-dive-into-the-holo-audio-bliss-kte-headphone-amplifier/"
       ],
-      "correct_option": 1,
-      "hint": "Consider technologies that focus on visuals rather than audio."
-    },
-    {
-      "question": "What is a common goal when integrating music into a game?",
-      "options": [
-        "Ensure it does not overshadow other audio elements",
-        "Increase the game's difficulty",
-        "Reduce the game's file size",
-        "Limit player interaction"
-      ],
-      "correct_option": 0,
-      "hint": "Think about the balance between music and other sound elements in a game."
+      "videos": [
+        "https://www.youtube.com/watch?v=dMltCzdzzag",
+        "https://www.youtube.com/watch?v=EpLksvFQcc0",
+        "https://www.youtube.com/watch?v=7UsUwXe-7N8",
+        "https://www.youtube.com/watch?v=OWkE93kUXx0",
+        "https://www.youtube.com/watch?v=uCarQdTBIjY",
+        "https://www.youtube.com/watch?v=6Ai3-0O9nG4",
+        "https://www.youtube.com/watch?v=dlbJGlHdeoA",
+        "https://www.youtube.com/watch?v=I9fBqKNXIbk",
+        "https://www.youtube.com/watch?v=UBrnJY7KpT0"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of sound effects (SFX) in video games?",
+        "options": [
+          "Enhance the realism and immersion of the game world",
+          "Create a soundtrack for game levels",
+          "Improve graphics resolution",
+          "Increase game loading speed"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how sound effects contribute to the overall game experience."
+      },
+      {
+        "question": "Which aspect of game audio involves blending multiple audio tracks into a cohesive sound experience?",
+        "options": [
+          "Sound Effects Creation",
+          "Audio Mixing & Mastering",
+          "Music Composition",
+          "Spatial Audio & Occlusion"
+        ],
+        "correct_option": 1,
+        "hint": "This process is similar to what is done in music production to polish the final audio."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What does spatial audio in games primarily enhance?",
+        "options": [
+          "Game speed",
+          "3D audio positioning",
+          "Character graphics",
+          "Network performance"
+        ],
+        "correct_option": 1,
+        "hint": "It relates to how sound moves and is perceived in a 3D space."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which technology is NOT directly related to game audio design?",
+        "options": [
+          "Audio Design",
+          "Graphics Design",
+          "Music Composition",
+          "Sound Mixing"
+        ],
+        "correct_option": 1,
+        "hint": "Consider technologies that focus on visuals rather than audio."
+      },
+      {
+        "question": "What is a common goal when integrating music into a game?",
+        "options": [
+          "Ensure it does not overshadow other audio elements",
+          "Increase the game's difficulty",
+          "Reduce the game's file size",
+          "Limit player interaction"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the balance between music and other sound elements in a game."
+      }
+    ]
+  }
 }

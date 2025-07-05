@@ -15,105 +15,148 @@
     "framework"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://nodejs.org/docs/latest/api/",
-        "description": "Comprehensive documentation for the latest Node.js API, detailing its modules and features."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
-        "description": "Introduction to using Express.js for building server-side applications with Node.js."
-      },
-      {
-        "url": "https://nodejs.org/api/fs.html",
-        "description": "The Node.js File System (fs) module documentation provides detailed information on file handling and operations in Node.js applications."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/node-js-building-simple-rest-api-in-express/",
-        "description": "A guide on building a simple REST API using Node.js and the Express framework."
-      },
-      {
-        "url": "http://www.w3schools.com/nodejs/",
-        "description": "A comprehensive tutorial for learning Node.js, covering its fundamentals, features, and practical examples."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/i-built-a-web-api-with-express-flask-aspnet/",
-        "description": "This resource provides a comparative guide on building a web API using Express, Flask, and ASP.NET."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/",
-        "description": "A comprehensive guide on best practices for designing and building RESTful APIs effectively."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/node-js/express-js/",
-        "description": "A comprehensive guide to understanding and using Express.js, a web application framework for Node.js."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=SccSCuHhOw0",
-      "https://www.youtube.com/watch?v=Oe421EPjeBE",
-      "https://www.youtube.com/watch?v=Xk3HNlc5jfk",
-      "https://www.youtube.com/watch?v=-MTSQjw5DrM",
-      "https://www.youtube.com/watch?v=q-xS25lsN3I"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary benefit of using asynchronous JavaScript in Node.js?",
-      "options": [
-        "It allows for blocking I/O operations.",
-        "It enables handling multiple requests simultaneously without blocking.",
-        "It simplifies code structure.",
-        "It ensures higher security."
+    "beginner": {
+      "docs": [
+        "https://expressjs.com/",
+        "https://nodejs.org/docs/latest/api/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction"
       ],
-      "correct_option": 1,
-      "hint": "Consider how Node.js handles multiple requests efficiently."
+      "notes": [
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://expressjs.com/",
+        "https://www.youtube.com/watch?v=1I5Jn1MWzlI",
+        "https://expressjs.com/en/starter/hello-world.html",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8&pp=ygUII2Z1bGx0dXQ%3D",
+        "https://blog.postman.com/how-to-create-a-rest-api-with-node-js-and-express/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8&pp=ygUII2Z1bGx0dXQ%3D",
+        "https://www.youtube.com/watch?v=1I5Jn1MWzlI",
+        "https://www.youtube.com/watch?v=Zh7psmf1KAA",
+        "https://www.youtube.com/watch?v=y18ubz7gOsQ&pp=ygURI2hhcmFtX2FpbmV4cHJlc3M%3D",
+        "https://www.youtube.com/watch?v=HPo0QhlX5Ao&pp=ygUTI3Jlc3RfYXBpX3dpdGhfbm9kZQ%3D%3D",
+        "https://www.youtube.com/watch?v=32M1al-Y6Ag&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=J2P7TN_-AeQ&pp=ygUMI25wbWlubm9kZWpz"
+      ]
     },
-    {
-      "question": "In Express.js, what is middleware primarily used for?",
-      "options": [
-        "Serving static files",
-        "Handling database connections",
-        "Performing actions on a request before sending a response",
-        "Defining API endpoints"
+    "intermediate": {
+      "docs": [
+        "https://expressjs.com/en/api.html",
+        "https://nodejs.org/api/stream.html",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://nodejs.org/api/fs.html",
+        "https://bump.sh/blog/express-api-openapi"
       ],
-      "correct_option": 2,
-      "hint": "Middleware functions can modify the request and response objects."
+      "notes": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
+        "https://stackoverflow.com/questions/58833714/how-does-an-api-compare-to-directly-querying-your-database",
+        "https://nodejs.org/api/stream.html",
+        "https://auth0.com/blog/node-js-and-express-tutorial-building-and-securing-restful-apis/",
+        "https://community.auth0.com/t/secure-rest-apis-in-node-js-and-extract-user-info-from-universal-login/28263",
+        "https://expressjs.com/en/guide/using-middleware.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=K-9IPd3oAoo",
+        "https://www.youtube.com/watch?v=_I6gP_nIFIA",
+        "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=r5L1XRZaCR0",
+        "https://www.youtube.com/watch?v=Zh7psmf1KAA",
+        "https://m.youtube.com/watch?v=CnailTcJV_U&t=960s",
+        "https://www.youtube.com/watch?v=KqQoiFBp36A",
+        "https://www.youtube.com/watch?v=qwfE7fSVaZM&pp=0gcJCfwAo7VqN5tD"
+      ]
     },
-    {
-      "question": "Which method is used to define a new route in Express.js?",
-      "options": [
-        "app.route()",
-        "app.get()",
-        "app.create()",
-        "app.listen()"
+    "advanced": {
+      "docs": [
+        "https://expressjs.com/",
+        "https://nodejs.org/docs/latest/api/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction"
       ],
-      "correct_option": 1,
-      "hint": "Consider the method that directly corresponds to HTTP methods like GET, POST, etc."
-    },
-    {
-      "question": "What does REST stand for in REST API Development?",
-      "options": [
-        "Representational State Transfer",
-        "Resource State Transfer",
-        "Representational System Transfer",
-        "Resource System Transfer"
+      "notes": [
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://expressjs.com/",
+        "https://www.youtube.com/watch?v=TYB-Lz8YGFk",
+        "https://escape.tech/blog/how-to-secure-express-js-api/"
       ],
-      "correct_option": 0,
-      "hint": "It involves stateless communication and is used for web services."
-    },
-    {
-      "question": "Which of the following is a core module in Node.js?",
-      "options": [
-        "express",
-        "fs",
-        "mongoose",
-        "axios"
-      ],
-      "correct_option": 1,
-      "hint": "This module is used for file system operations."
+      "videos": [
+        "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8",
+        "https://www.youtube.com/watch?v=TYB-Lz8YGFk",
+        "https://www.youtube.com/watch?v=fgTGADljAeg",
+        "https://www.youtube.com/watch?v=H9M02of22z4",
+        "https://www.youtube.com/watch?v=TbT7eO1fxuI",
+        "https://www.youtube.com/watch?v=qG-PLm3APSs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=oNlMrpnUSFE",
+        "https://www.youtube.com/c/webdevsimplified"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary benefit of using asynchronous JavaScript in Node.js?",
+        "options": [
+          "It allows for blocking I/O operations.",
+          "It enables handling multiple requests simultaneously without blocking.",
+          "It simplifies code structure.",
+          "It ensures higher security."
+        ],
+        "correct_option": 1,
+        "hint": "Consider how Node.js handles multiple requests efficiently."
+      },
+      {
+        "question": "In Express.js, what is middleware primarily used for?",
+        "options": [
+          "Serving static files",
+          "Handling database connections",
+          "Performing actions on a request before sending a response",
+          "Defining API endpoints"
+        ],
+        "correct_option": 2,
+        "hint": "Middleware functions can modify the request and response objects."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which method is used to define a new route in Express.js?",
+        "options": [
+          "app.route()",
+          "app.get()",
+          "app.create()",
+          "app.listen()"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the method that directly corresponds to HTTP methods like GET, POST, etc."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What does REST stand for in REST API Development?",
+        "options": [
+          "Representational State Transfer",
+          "Resource State Transfer",
+          "Representational System Transfer",
+          "Resource System Transfer"
+        ],
+        "correct_option": 0,
+        "hint": "It involves stateless communication and is used for web services."
+      },
+      {
+        "question": "Which of the following is a core module in Node.js?",
+        "options": [
+          "express",
+          "fs",
+          "mongoose",
+          "axios"
+        ],
+        "correct_option": 1,
+        "hint": "This module is used for file system operations."
+      }
+    ]
+  }
 }

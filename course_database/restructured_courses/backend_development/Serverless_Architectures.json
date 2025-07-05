@@ -15,105 +15,144 @@
     "event-driven"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://reactjs.org/docs/create-a-new-react-app.html",
-        "description": "This documentation provides guidance on setting up a new React application using various tools and methodologies."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model",
-        "description": "An overview of JavaScript's execution model, including event loops, call stacks, and concurrency."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API",
-        "description": "The Service Worker API documentation provides information on how to use service workers to manage network requests, cache assets, and enable offline functionality for web applications."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/aws/serverless/index.php",
-        "description": "An introductory guide to AWS serverless computing, covering key concepts and tools."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/serverless-architectures/",
-        "description": "An overview of serverless architectures, detailing their benefits, challenges, and use cases in system design."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/server-vs-serverless-architecture/",
-        "description": "A comparative guide explaining the differences, advantages, and use cases of server-based versus serverless architecture."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/serverless-node-js-tutorial/",
-        "description": "A comprehensive tutorial on building and deploying serverless applications using Node.js."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/monolithic-vs-microservice-vs-serverless-architectures-system-design/",
-        "description": "This resource compares monolithic, microservice, and serverless architectures in system design."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=qQk94CjRvIs",
-      "https://www.youtube.com/watch?v=5rG-YgTHMC8",
-      "https://www.youtube.com/watch?v=hCCMri3jFAo",
-      "https://www.youtube.com/watch?v=eOBq__h4OJ4",
-      "https://www.youtube.com/watch?v=RBbuERSRU1k"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which of the following best describes the purpose of FaaS in serverless architectures?",
-      "options": [
-        "To host virtual machines",
-        "To execute code in response to events",
-        "To provide persistent storage",
-        "To manage user authentication"
+    "beginner": {
+      "docs": [
+        "https://www.serverless.com/framework/docs/providers/aws/guide/serverless.yml",
+        "https://cloud.google.com/bigquery/docs/introduction",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html"
       ],
-      "correct_option": 1,
-      "hint": "Think about the role of functions in event-driven computing."
+      "notes": [
+        "https://www.datadoghq.com/knowledge-center/serverless-architecture/",
+        "https://www.serverless.com/aws-lambda",
+        "https://www.baeldung.com/cs/serverless-architecture",
+        "https://www.serverless.com/framework/docs/providers/aws/guide/intro",
+        "https://aws.amazon.com/serverless/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=EBSdyoO3goc&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=5fTtmeCpSRw",
+        "https://www.youtube.com/watch?v=5rG-YgTHMC8",
+        "https://www.youtube.com/watch?v=Vxf-rOEO1q4",
+        "https://www.youtube.com/watch?v=RtiWU1DrMaM",
+        "https://www.youtube.com/watch?v=ciTa2I7-tDE",
+        "https://www.youtube.com/watch?v=rSIirRFa77s&pp=ygUJI3N1YmV2ZW50",
+        "https://www.youtube.com/watch?v=VGerk8hrP9U",
+        "https://www.youtube.com/playlist?list=PLVHgQku8Z935QbKFvttpxUF1WlNWt1dZ9"
+      ]
     },
-    {
-      "question": "What is a major advantage of using AWS Lambda for deploying serverless applications?",
-      "options": [
-        "It requires no upfront cost for server setup",
-        "It provides unlimited execution time",
-        "It guarantees zero latency",
-        "It allows hosting of virtual desktops"
+    "intermediate": {
+      "docs": [
+        "https://docs.databricks.com/aws/en/jobs/run-serverless-jobs",
+        "https://cloud.google.com/dataproc-serverless/docs",
+        "https://aws.amazon.com/lambda/",
+        "https://cloud.google.com/appengine/docs",
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html"
       ],
-      "correct_option": 0,
-      "hint": "Consider the cost benefits associated with infrastructure management."
+      "notes": [
+        "https://www.serverless.com/blog/eventbridge-use-cases-and-tutorial",
+        "https://aws.amazon.com/serverless/",
+        "https://www.serverless.com/aws-lambda",
+        "https://aws.amazon.com/tutorials/create-a-serverless-workflow-step-functions-lambda/",
+        "https://www.ibm.com/think/topics/serverless"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=5fTtmeCpSRw",
+        "https://www.youtube.com/watch?v=jfNJsuuzh7w",
+        "https://www.youtube.com/watch?v=JDbkoICzQro",
+        "https://www.youtube.com/watch?v=ng53ydesSFg",
+        "https://www.youtube.com/watch?v=VAyhnFX_zb8",
+        "https://www.youtube.com/watch?v=jV0tIqS2_Q4",
+        "https://www.youtube.com/watch?v=ZsVcig8-JUo",
+        "https://www.youtube.com/watch?v=EBSdyoO3goc"
+      ]
     },
-    {
-      "question": "When using Google Cloud Functions, which of the following triggers can NOT be used to invoke a function?",
-      "options": [
-        "HTTP requests",
-        "Cloud Pub/Sub messages",
-        "Direct database queries",
-        "Cloud Storage changes"
+    "advanced": {
+      "docs": [
+        "https://www.serverless.com/aws-lambda",
+        "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+        "https://cloud.google.com/blog/products/data-analytics/new-blog-series-bigquery-explained-overview"
       ],
-      "correct_option": 2,
-      "hint": "Think about which triggers are commonly event-driven."
-    },
-    {
-      "question": "Which tool is used to define, deploy, and manage serverless applications specifically on AWS?",
-      "options": [
-        "Terraform",
-        "Serverless Framework",
-        "AWS CloudFormation",
-        "AWS SAM"
+      "notes": [
+        "https://www.serverless.com/aws-lambda",
+        "https://api7.ai/learning-center/api-gateway-guide",
+        "https://panoply.io/data-warehouse-guide/bigquery-architecture/",
+        "https://docs.aws.amazon.com/serverless/latest/devguide/serverless-core.pdf",
+        "https://serverlessland.com/learn"
       ],
-      "correct_option": 3,
-      "hint": "Consider the tool that is AWS-specific and intended for serverless applications."
-    },
-    {
-      "question": "What is a key characteristic of the Serverless Framework?",
-      "options": [
-        "It only supports AWS Lambda",
-        "It requires extensive server management",
-        "It allows multi-cloud deployments",
-        "It is a desktop application"
-      ],
-      "correct_option": 2,
-      "hint": "Think about the flexibility of deploying across different cloud providers."
+      "videos": [
+        "https://www.youtube.com/watch?v=lLrjaVdBuM0",
+        "https://www.youtube.com/watch?v=cF1chd45Vhw",
+        "https://www.youtube.com/watch?v=laT683IWvXY",
+        "https://www.youtube.com/watch?v=6X4lSPkn4ps",
+        "https://www.youtube.com/watch?v=5rG-YgTHMC8",
+        "https://m.youtube.com/watch?v=Y6jbFC8tvVw&t=132s",
+        "https://www.youtube.com/watch?v=usOmwLZNVuM",
+        "https://www.youtube.com/watch?v=ibvG-pYKl8U",
+        "https://www.youtube.com/watch?v=umEw0PODDjs"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which of the following best describes the purpose of FaaS in serverless architectures?",
+        "options": [
+          "To host virtual machines",
+          "To execute code in response to events",
+          "To provide persistent storage",
+          "To manage user authentication"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the role of functions in event-driven computing."
+      },
+      {
+        "question": "What is a major advantage of using AWS Lambda for deploying serverless applications?",
+        "options": [
+          "It requires no upfront cost for server setup",
+          "It provides unlimited execution time",
+          "It guarantees zero latency",
+          "It allows hosting of virtual desktops"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the cost benefits associated with infrastructure management."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "When using Google Cloud Functions, which of the following triggers can NOT be used to invoke a function?",
+        "options": [
+          "HTTP requests",
+          "Cloud Pub/Sub messages",
+          "Direct database queries",
+          "Cloud Storage changes"
+        ],
+        "correct_option": 2,
+        "hint": "Think about which triggers are commonly event-driven."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which tool is used to define, deploy, and manage serverless applications specifically on AWS?",
+        "options": [
+          "Terraform",
+          "Serverless Framework",
+          "AWS CloudFormation",
+          "AWS SAM"
+        ],
+        "correct_option": 3,
+        "hint": "Consider the tool that is AWS-specific and intended for serverless applications."
+      },
+      {
+        "question": "What is a key characteristic of the Serverless Framework?",
+        "options": [
+          "It only supports AWS Lambda",
+          "It requires extensive server management",
+          "It allows multi-cloud deployments",
+          "It is a desktop application"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the flexibility of deploying across different cloud providers."
+      }
+    ]
+  }
 }

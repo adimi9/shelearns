@@ -16,105 +16,147 @@
     "algorithms"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API",
-        "description": "The Web Crypto API documentation provides details on performing cryptographic operations in web applications securely."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Crypto",
-        "description": "An overview of the Crypto interface for performing cryptographic operations in web applications."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/digest",
-        "description": "This resource explains how to use the SubtleCrypto.digest method for generating cryptographic hash digests in web applications."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/cryptography-tutorial/",
-        "description": "This resource provides an introductory tutorial on cryptography, covering fundamental concepts and techniques used in securing digital communication."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/cryptography-and-its-types/",
-        "description": "An overview of cryptography and its various types within the context of computer networks."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/rsa-algorithm-cryptography/",
-        "description": "An overview of the RSA algorithm in cryptography, explaining its principles and implementation for secure data transmission."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/",
-        "description": "An introduction to the Caesar Cipher, explaining its encryption and decryption processes in cryptography."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/tag/cryptography/",
-        "description": "A collection of articles and tutorials on cryptography concepts, techniques, and applications."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=jhXCTbFnK8o",
-      "https://www.youtube.com/watch?v=NuyzuNBFWxQ",
-      "https://www.youtube.com/watch?v=C7vmouDOJYM",
-      "https://www.youtube.com/watch?v=jrGl0pPXfPQ",
-      "https://www.youtube.com/watch?v=9fXEKGwQ7zU"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the main difference between symmetric and asymmetric encryption?",
-      "options": [
-        "Symmetric encryption uses two keys, whereas asymmetric uses one key.",
-        "Symmetric encryption uses one key for both encryption and decryption, whereas asymmetric uses two different keys.",
-        "Symmetric encryption is slower than asymmetric encryption.",
-        "Asymmetric encryption cannot be used for digital signatures."
+    "beginner": {
+      "docs": [
+        "https://docs.coingecko.com/reference/introduction",
+        "https://docs.oracle.com/javase/8/docs/technotes/guides/security/crypto/CryptoSpec.html",
+        "https://learning.postman.com/docs/introduction/overview/",
+        "https://prometheus.io/docs/prometheus/latest/querying/basics/"
       ],
-      "correct_option": 1,
-      "hint": "Consider the number of keys used in each method."
+      "notes": [
+        "https://m.youtube.com/watch?v=HPM17_aZB3g&t=2387s",
+        "https://www.youtube.com/watch?v=4w8hJ7KAKcQ",
+        "https://www.coinbase.com/learn/crypto-basics",
+        "https://www.youtube.com/watch?v=j_8PLI_wCVU",
+        "https://arxiv.org/abs/2208.08125"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=j_8PLI_wCVU",
+        "https://www.youtube.com/watch?v=S3NOa8MZfDs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=2ByOXdddmDM",
+        "https://www.youtube.com/watch?v=4w8hJ7KAKcQ",
+        "https://m.youtube.com/watch?v=HPM17_aZB3g&t=2387s",
+        "https://www.youtube.com/watch?v=8aE0f6d2M6o",
+        "https://www.youtube.com/watch?v=aJuBQWuHB_I",
+        "https://www.youtube.com/watch?v=OtZrSMp3eIQ"
+      ]
     },
-    {
-      "question": "Which of the following is NOT a characteristic of hashing algorithms?",
-      "options": [
-        "They are reversible functions.",
-        "They produce a fixed-size output.",
-        "They are designed to be fast to compute.",
-        "A small change in input drastically changes the output."
+    "intermediate": {
+      "docs": [
+        "https://learning.postman.com/docs/tests-and-scripts/write-scripts/postman-sandbox-api-reference/",
+        "https://docs.coingecko.com/reference/introduction",
+        "https://dev.overwolf.com/ow-native/reference/ow-api-overview",
+        "https://docs.aws.amazon.com/",
+        "https://pro.coinmarketcap.com/faq"
       ],
-      "correct_option": 0,
-      "hint": "Think about whether the function can be reversed to get the original input."
+      "notes": [
+        "https://www.splunk.com/en_us/blog/learn/cryptography.html",
+        "https://forum.asana.com/t/track-and-manage-crypto-in-asana/145652",
+        "https://www.professormesser.com/security-plus/sy0-501/cryptography-use-cases/",
+        "https://www.mrcy.com/company/blogs/encryption-keys-cliffs-notes-version-part-1",
+        "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-encrypt-decrypt-blobs-key-vault",
+        "https://deviceauthority.com/symmetric-encryption-vs-asymmetric-encryption/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=SOnJyqwGn1I",
+        "https://www.youtube.com/watch?v=gAtBM06xwaw",
+        "https://www.youtube.com/watch?v=bTkJr9eq0G4&pp=ygUXI2VkdXJla2Fjb21wdGlhc2VjdXJpdHk%3D",
+        "https://www.youtube.com/watch?v=t9FIPX93bW4",
+        "https://www.youtube.com/watch?v=h_m8MiwTdqA",
+        "https://www.youtube.com/watch?v=EF33KmyprEQ",
+        "https://www.youtube.com/watch?v=WkKWH_mr7es"
+      ]
     },
-    {
-      "question": "What is a digital signature primarily used for?",
-      "options": [
-        "Encrypting messages to ensure confidentiality.",
-        "Signing documents to verify the sender's identity and ensure message integrity.",
-        "Creating a hash of a document.",
-        "Storing sensitive data securely."
+    "advanced": {
+      "docs": [
+        "https://docs.zama.ai/tfhe-rs",
+        "https://docs.cilium.io/en/stable/index.html",
+        "https://docs.aws.amazon.com/",
+        "https://cloud.google.com/vertex-ai/docs",
+        "https://docs.djangoproject.com/"
       ],
-      "correct_option": 1,
-      "hint": "Consider what digital signatures verify."
-    },
-    {
-      "question": "In Public Key Infrastructure (PKI), what is the role of a Certificate Authority (CA)?",
-      "options": [
-        "To issue and verify digital certificates.",
-        "To encrypt and decrypt messages.",
-        "To create hashing algorithms.",
-        "To store public keys securely."
+      "notes": [
+        "https://ssd.eff.org/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work",
+        "https://www.blackhat.com/us-25/training/schedule/",
+        "https://www.coinbase.com/learn/tips-and-tutorials",
+        "https://a16zcrypto.com/posts/podcast/stablecoins-deep-dive/",
+        "https://rails.devcamp.com/trails/dissecting-rails-5/campsites/rails-5-authentication/guides/using-bcrypt-to-implement-encryption-in-ruby"
       ],
-      "correct_option": 0,
-      "hint": "Think about who is responsible for verifying identities in PKI."
-    },
-    {
-      "question": "Which hashing algorithm is considered outdated due to vulnerabilities?",
-      "options": [
-        "SHA-256",
-        "SHA-1",
-        "MD5",
-        "SHA-3"
-      ],
-      "correct_option": 2,
-      "hint": "This algorithm is known for its speed but not for its security."
+      "videos": [
+        "https://www.youtube.com/watch?v=2ByOXdddmDM",
+        "https://www.youtube.com/watch?v=vbM2R2CM96Q",
+        "https://www.youtube.com/watch?v=kP7KpfToMkg",
+        "https://www.youtube.com/watch?v=2eAPg2SSXyg",
+        "https://www.youtube.com/watch?v=_I1omSmy44Q",
+        "https://www.youtube.com/watch?v=aaSck7jBDbw&pp=0gcJCf0Ao7VqN5tD",
+        "https://www.youtube.com/watch?v=tZSH--qwdcE",
+        "https://www.youtube.com/watch?v=zJBef4i57zU",
+        "https://www.youtube.com/watch?v=sWTnFS10tdQ&pp=0gcJCfwAo7VqN5tD"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main difference between symmetric and asymmetric encryption?",
+        "options": [
+          "Symmetric encryption uses two keys, whereas asymmetric uses one key.",
+          "Symmetric encryption uses one key for both encryption and decryption, whereas asymmetric uses two different keys.",
+          "Symmetric encryption is slower than asymmetric encryption.",
+          "Asymmetric encryption cannot be used for digital signatures."
+        ],
+        "correct_option": 1,
+        "hint": "Consider the number of keys used in each method."
+      },
+      {
+        "question": "Which of the following is NOT a characteristic of hashing algorithms?",
+        "options": [
+          "They are reversible functions.",
+          "They produce a fixed-size output.",
+          "They are designed to be fast to compute.",
+          "A small change in input drastically changes the output."
+        ],
+        "correct_option": 0,
+        "hint": "Think about whether the function can be reversed to get the original input."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a digital signature primarily used for?",
+        "options": [
+          "Encrypting messages to ensure confidentiality.",
+          "Signing documents to verify the sender's identity and ensure message integrity.",
+          "Creating a hash of a document.",
+          "Storing sensitive data securely."
+        ],
+        "correct_option": 1,
+        "hint": "Consider what digital signatures verify."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In Public Key Infrastructure (PKI), what is the role of a Certificate Authority (CA)?",
+        "options": [
+          "To issue and verify digital certificates.",
+          "To encrypt and decrypt messages.",
+          "To create hashing algorithms.",
+          "To store public keys securely."
+        ],
+        "correct_option": 0,
+        "hint": "Think about who is responsible for verifying identities in PKI."
+      },
+      {
+        "question": "Which hashing algorithm is considered outdated due to vulnerabilities?",
+        "options": [
+          "SHA-256",
+          "SHA-1",
+          "MD5",
+          "SHA-3"
+        ],
+        "correct_option": 2,
+        "hint": "This algorithm is known for its speed but not for its security."
+      }
+    ]
+  }
 }

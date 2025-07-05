@@ -1,0 +1,461 @@
+{
+  "id": "FS15",
+  "name": "Authentication & Authorization for FullStack Apps",
+  "category": "FullStack Development",
+  "primary_tech": "Security",
+  "topics": [
+    "JWT (JSON Web Tokens) Implementation",
+    "OAuth 2.0 & Social Logins",
+    "Role-Based Access Control (RBAC)",
+    "Security Best Practices (Input Validation, Hashing)"
+  ],
+  "recommended": true,
+  "tags": [
+    "security",
+    "auth",
+    "web-security"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/auth",
+          "description": "Firebase Authentication documentation for implementing secure user authentication in apps.",
+          "title": "Firebase Authentication"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-integrate-apps.html",
+          "description": "A guide on integrating applications with Amazon Cognito for user authentication and management.",
+          "title": "Integrating Amazon Cognito authentication and authorization with web and mobile apps - Amazon Cognito"
+        },
+        {
+          "url": "https://firebase.google.com/docs/auth/web/start",
+          "description": "A guide to implementing Firebase authentication in web applications.",
+          "title": "Get Started with Firebase Authentication on Websites"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://forum.freecodecamp.org/t/queston-about-news-section-how-to-build-a-full-stack-authentication-app/568310",
+          "description": "A discussion on building a full-stack authentication app with guidance and community input.",
+          "title": "(queston about news section) How to Build a Full-Stack Authentication App - JavaScript - The freeCodeCamp Forum"
+        },
+        {
+          "url": "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
+          "description": "A step-by-step guide on integrating a React frontend with a Java backend.",
+          "title": "Full-Stack Development With React and Java (Spring Boot): Complete 2025 Guide"
+        },
+        {
+          "url": "https://www.linkedin.com/pulse/securing-your-full-stack-application-guide-mohammad-rammal-5uame",
+          "description": "A guide to securing full-stack applications, covering best practices and strategies.",
+          "title": "Securing Your Full Stack Application: A Guide to Authentication and Authorization"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=c-QsfbznSXI",
+          "title": "Django & React Web App Tutorial - Authentication, Databases, Deployment & More...",
+          "duration": "142m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vUYopHWOURg&pp=0gcJCf0Ao7VqN5tD",
+          "title": "Next.js Tutorial 2025 - Build a Full Stack Social App with React & Next.js",
+          "duration": "262m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+          "title": "MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours",
+          "duration": "470m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_htSwKMdk2Y",
+          "title": "Use AWS Amplify Gen 2 To Create A Full Stack App: With Type Safety | AWS Events",
+          "duration": "76m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=favjC6EKFgw",
+          "title": "JWT Authentication | Node JS and Express tutorials for Beginners",
+          "duration": "60m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WuyKxdLcw3w",
+          "title": "Django Authentication & User Management - Full Tutorial",
+          "duration": "140m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FgOrzG73z_k",
+          "title": "Build a Full Stack Crypto App With Nest.js & React in One Video",
+          "duration": "132m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GjVcSpKCoB8",
+          "title": "Next.js\u00a0Authentication &\u00a0Login | Nextjs 15\u00a0Full Stack Project",
+          "duration": "42m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iJejohAs9EY&pp=0gcJCdgAo7VqN5tD",
+          "title": "Next.js Tutorial for Beginners (User CRUD App)",
+          "duration": "205m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/auth",
+          "description": "Comprehensive documentation on Firebase Authentication for integrating user sign-in and identity management.",
+          "title": "Firebase Authentication"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-integrate-apps.html",
+          "description": "Guidance on integrating applications with Amazon Cognito for user authentication.",
+          "title": "Integrating Amazon Cognito authentication and authorization with web and mobile apps - Amazon Cognito"
+        },
+        {
+          "url": "https://developers.google.com/identity/protocols/oauth2/web-server",
+          "description": "An overview of implementing OAuth 2.0 for web server applications using Google's Identity services.",
+          "title": "Using OAuth 2.0 for Web Server Applications \u00a0|\u00a0 Authorization \u00a0|\u00a0 Google for Developers"
+        },
+        {
+          "url": "https://docs.amplify.aws/react/how-amplify-works/concepts/",
+          "description": "An overview of core concepts in AWS Amplify for React applications.",
+          "title": "Concepts - AWS Amplify Gen 2 Documentation"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.linkedin.com/posts/kristijankralj_how-to-bulletproof-your-app-security-in-activity-7235158071101009920-90_J",
+          "description": "An insightful guide on enhancing application security to prevent vulnerabilities.",
+          "title": "How to bulletproof your app security: | Kristijan Kralj"
+        },
+        {
+          "url": "https://www.shopify.com/ph/partners/blog/shopify-admin-authenticate-app",
+          "description": "A guide on authenticating apps in the Shopify Admin for developers.",
+          "title": "How to Authenticate Your Embedded App in the Shopify Admin - Shopify Philippines"
+        },
+        {
+          "url": "https://link.springer.com/chapter/10.1007/978-1-4842-4152-3_12",
+          "description": "An in-depth exploration of design patterns in software engineering.",
+          "title": "Security | SpringerLink"
+        },
+        {
+          "url": "https://techdocs.broadcom.com/us/en/vmware-tanzu/standalone-components/tanzu-application-platform/1-11/tap/api-auto-registration-configuration.html",
+          "description": "Instructions for configuring API auto-registration in Tanzu Application Platform.",
+          "title": "Configure API Auto Registration"
+        },
+        {
+          "url": "https://www.couchbase.com/blog/author/nic-raboy-2/",
+          "description": "Insights and updates on Couchbase development and applications by Nic Raboy.",
+          "title": "Access Denied"
+        },
+        {
+          "url": "https://github.com/adrianhajdin/screen_recording_sharing_app",
+          "description": "A GitHub repository for a screen recording and sharing application built with React and Node.js.",
+          "title": "GitHub - adrianhajdin/screen_recording_sharing_app: Full-stack screen recording & video sharing platform built with Next.js, Bunny.net & Arcjet. Features Better Auth, video uploads, sharing via link, privacy settings, AI transcripts, and more."
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=vzBFJ3WEvOQ",
+          "title": "Django Login Form and User Authentication",
+          "duration": "17m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=g566eI2EmeY",
+          "title": "How to build a NextJS + FastAPI application (step-by-step tutorial)",
+          "duration": "81m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jHrjnZM26i4&pp=0gcJCfwAo7VqN5tD",
+          "title": "Next.js Middleware Crash Course || App Router Protected Routes",
+          "duration": "61m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XPC81RWOItI",
+          "title": "Build a Fullstack Login & Register Page with MERN (react.js, mongo, express, bcrypt, jwt & more)",
+          "duration": "110m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Cxftp90K_ek",
+          "title": "Build Your First Full Stack Web App From Zero to Hero!",
+          "duration": "563m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EZajJGOMWas",
+          "title": "Build and Deploy a Fullstack App with Admin Dashboard | Next.js, PostgreSQL, Redis, Auth.js",
+          "duration": "361m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GH7L4D8Q_ak",
+          "title": "Complete Spring Security with JWT Authentication | Spring Security 6 | Securing Spring Boot",
+          "duration": "225m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0eu4_lLFkGk",
+          "title": "Full Stack Authentication with Next-Auth and Next.js : All You Need to Know",
+          "duration": "66m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-integrate-apps.html",
+          "description": "A guide on integrating applications with Amazon Cognito for authentication and user management.",
+          "title": "Integrating Amazon Cognito authentication and authorization with web and mobile apps - Amazon Cognito"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "An extensive resource for learning and referencing JavaScript programming concepts and APIs.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://cloud.google.com/iam/docs",
+          "description": "Official documentation on managing access and permissions with Google Cloud IAM.",
+          "title": "Identity and Access Management documentation \u00a0|\u00a0 IAM Documentation \u00a0|\u00a0 Google Cloud"
+        },
+        {
+          "url": "https://azure.microsoft.com/en-us",
+          "description": "The official Microsoft Azure portal for cloud computing services and resources.",
+          "title": "Cloud Computing Services | Microsoft Azure"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/jit_osv-scanner-vs-npm-audit-a-detailed-comparison-activity-7199119000218267650-QNKd",
+          "description": "A detailed comparison between OSV Scanner and npm audit for vulnerability scanning.",
+          "title": "Using #opensource libraries? | Jit"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.shopify.com/ph/partners/blog/shopify-admin-authenticate-app",
+          "description": "Guide on authenticating apps with the Shopify Admin API for developers.",
+          "title": "How to Authenticate Your Embedded App in the Shopify Admin - Shopify Philippines"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/proshailendra_scholarhat-fullstackdevelopment-dotnetcore-activity-7276109183450525697-PFE6",
+          "description": "An overview of full-stack development using .NET Core shared by a LinkedIn user.",
+          "title": "Want to learn Making full Stack apps with .NET from Industry Experts?? | Shailendra Chauhan"
+        },
+        {
+          "url": "https://www.skillsoft.com/channel/angular-f3619a61-1944-11e7-b488-c198130a9b04?technologyandversion=1806200&expertiselevel=1806194",
+          "description": "A Skillsoft channel offering comprehensive training on Angular for various expertise levels.",
+          "title": "ERROR: The request could not be satisfied"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/deborahkurata_provide-an-angular-service-on-a-route-activity-7287864435711393792-_xCO",
+          "description": "A guide on providing an Angular service on a route by Deborah Kurata.",
+          "title": "Did you know that our code can provide an Angular service on a route? | Deborah Kurata"
+        },
+        {
+          "url": "https://in.linkedin.com/in/appu-m-19894a258?trk=org-employees",
+          "description": "LinkedIn profile showcasing the professional background and skills of Appu M."
+        },
+        {
+          "url": "https://owasp2025globalappseceu.sched.com/2025-05-28/list/descriptions",
+          "description": "A schedule and description of sessions for the OWASP Global AppSec Europe 2025 conference.",
+          "title": "OWASP 2025 Global AppSec EU: Full Schedule"
+        },
+        {
+          "url": "https://frontendfoc.us/issues/335",
+          "description": "A curated newsletter issue featuring the latest news and articles on frontend development.",
+          "title": "Frontend Focus Issue 335: April 11, 2018"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=1MTyCvS05V4",
+          "title": "Next Auth V5 - Advanced Guide (2024)",
+          "duration": "480m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+          "title": "MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours",
+          "duration": "470m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=i-howKMrtCM",
+          "title": "The ultimate NestJS Authentication guide",
+          "duration": "31m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_htSwKMdk2Y",
+          "title": "Use AWS Amplify Gen 2 To Create A Full Stack App: With Type Safety | AWS Events",
+          "duration": "76m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of JSON Web Tokens (JWT) in authentication?",
+        "options": [
+          "To encrypt data for secure transmission",
+          "To store user preferences",
+          "To verify the identity of a user",
+          "To provide a user interface"
+        ],
+        "correct_option": 2,
+        "hint": "JWTs are used to confirm user identity."
+      },
+      {
+        "question": "Which of the following is a key feature of OAuth 2.0?",
+        "options": [
+          "It uses XML to format data",
+          "It provides a way to grant limited access to resources",
+          "It is used to encrypt passwords",
+          "It ensures data is stored in a relational database"
+        ],
+        "correct_option": 1,
+        "hint": "OAuth 2.0 is about granting access without sharing passwords."
+      },
+      {
+        "question": "In Role-Based Access Control (RBAC), what determines a user's access level?",
+        "options": [
+          "The user's login time",
+          "The user's role in the organization",
+          "The user's IP address",
+          "The user's operating system"
+        ],
+        "correct_option": 1,
+        "hint": "Access is based on the role assigned to the user."
+      },
+      {
+        "question": "Which security best practice involves checking and sanitizing user inputs to prevent attacks?",
+        "options": [
+          "Hashing",
+          "Input Validation",
+          "Logging",
+          "Token Expiration"
+        ],
+        "correct_option": 1,
+        "hint": "This practice helps prevent SQL injection and cross-site scripting."
+      },
+      {
+        "question": "What is the main advantage of hashing passwords before storing them?",
+        "options": [
+          "It compresses the password to save space",
+          "It allows passwords to be recovered if forgotten",
+          "It ensures passwords are stored securely",
+          "It speeds up the authentication process"
+        ],
+        "correct_option": 2,
+        "hint": "Hashing protects passwords even if the database is compromised."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of using JSON Web Tokens (JWT) in a full-stack application?",
+        "options": [
+          "To encrypt data between client and server",
+          "To manage user sessions securely",
+          "To authenticate and authorize users",
+          "To validate input data"
+        ],
+        "correct_option": 2,
+        "hint": "JWT is used to verify identity and grant access."
+      },
+      {
+        "question": "Which of the following is a common use case for OAuth 2.0 in full-stack applications?",
+        "options": [
+          "Encrypting sensitive data",
+          "Implementing social logins",
+          "Performing input validation",
+          "Hashing passwords"
+        ],
+        "correct_option": 1,
+        "hint": "OAuth 2.0 is often used for allowing users to log in with accounts from other services."
+      },
+      {
+        "question": "In Role-Based Access Control (RBAC), what determines the permissions a user has?",
+        "options": [
+          "The user's authentication token",
+          "The user's role",
+          "The user's password",
+          "The user's session ID"
+        ],
+        "correct_option": 1,
+        "hint": "RBAC assigns permissions based on user roles."
+      },
+      {
+        "question": "Which of the following is a security best practice when handling passwords in a full-stack application?",
+        "options": [
+          "Storing passwords in plain text",
+          "Using a simple encryption algorithm",
+          "Hashing passwords with a salt",
+          "Sending passwords via email"
+        ],
+        "correct_option": 2,
+        "hint": "Hashing passwords is crucial for security."
+      },
+      {
+        "question": "What is the best practice for validating user input in a full-stack application to prevent security vulnerabilities?",
+        "options": [
+          "Perform client-side validation only",
+          "Use regular expressions to sanitize inputs",
+          "Implement server-side validation",
+          "Allow all input data and log errors"
+        ],
+        "correct_option": 2,
+        "hint": "Server-side validation is essential to ensure data integrity and security."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which part of a JWT is used to verify the token's integrity and authenticity?",
+        "options": [
+          "Header",
+          "Payload",
+          "Signature",
+          "Claims"
+        ],
+        "correct_option": 2,
+        "hint": "It's the part that ensures the token hasn't been tampered with."
+      },
+      {
+        "question": "In OAuth 2.0, what is the purpose of the 'refresh token'?",
+        "options": [
+          "To generate new access tokens without re-authentication",
+          "To extend the validity of the current access token",
+          "To revoke existing access tokens",
+          "To update user permissions"
+        ],
+        "correct_option": 0,
+        "hint": "It allows obtaining new access tokens without user involvement."
+      },
+      {
+        "question": "What is the primary advantage of using Role-Based Access Control (RBAC) in an application?",
+        "options": [
+          "It simplifies user authentication",
+          "It provides detailed logging of user actions",
+          "It allows easy management of user permissions",
+          "It enhances the speed of the application"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how roles relate to permissions."
+      },
+      {
+        "question": "Which of the following is NOT a recommended security best practice for handling user input in web applications?",
+        "options": [
+          "Input validation",
+          "Using prepared statements",
+          "Storing passwords in plain text",
+          "Escaping user input"
+        ],
+        "correct_option": 2,
+        "hint": "Consider what might expose sensitive user data."
+      },
+      {
+        "question": "Why is hashing important for storing passwords securely in a database?",
+        "options": [
+          "It increases database query speed",
+          "It prevents unauthorized access to plain text passwords",
+          "It allows easy password retrieval",
+          "It encrypts the data for network transmission"
+        ],
+        "correct_option": 1,
+        "hint": "Hashing transforms passwords into a secure format that is not easily reversible."
+      }
+    ]
+  }
+}

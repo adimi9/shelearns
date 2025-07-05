@@ -16,105 +16,148 @@
     "project-management"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://legacy.reactjs.org/docs/design-principles.html",
-        "description": "This resource outlines the core design principles and philosophies guiding the development of React."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Glossary/MVC",
-        "description": "An overview of the Model-View-Controller (MVC) design pattern, explaining its components and usage in software development."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
-        "description": "An introductory guide to implementing responsive design techniques in CSS for adaptable web layouts."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/software-engineering/software-engineering/",
-        "description": "An overview of software engineering principles, methodologies, and practices essential for developing efficient software systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/system-design/software-design-patterns/",
-        "description": "An overview of various software design patterns, explaining their purpose, structure, and use cases in system design."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/software-engineering/software-development-life-cycle-sdlc/",
-        "description": "An overview of the Software Development Life Cycle (SDLC) phases and methodologies in software engineering."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/",
-        "description": "This resource explains the SOLID principles in programming using real-life examples to illustrate their application and benefits."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/software-engineering/basic-principles-of-good-software-engineering-approach/",
-        "description": "This resource outlines fundamental principles and best practices for effective software engineering approaches."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=kF7rQmSRlq0",
-      "https://www.youtube.com/watch?v=yxf2spbpTSw",
-      "https://www.youtube.com/watch?v=m8Icp_Cid5o",
-      "https://www.youtube.com/watch?v=Fi3_BjVzpqk",
-      "https://www.youtube.com/watch?v=rylaiB2uH2A"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which phase of the Software Development Life Cycle (SDLC) involves gathering and analyzing user needs?",
-      "options": [
-        "Design",
-        "Implementation",
-        "Requirements Gathering & Analysis",
-        "Testing"
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "https://semver.org/",
+        "https://developer.roku.com/docs/developer-program/getting-started/roku-dev-prog.md"
       ],
-      "correct_option": 2,
-      "hint": "This phase is crucial for understanding what the software should achieve."
+      "notes": [
+        "https://www.geeksforgeeks.org/software-engineering/software-engineering-introduction-to-software-engineering/",
+        "https://workat.tech/machine-coding/tutorial/introduction-clean-code-software-design-principles-nwu4qqc63e09",
+        "https://www.geeksforgeeks.org/software-engineering/software-engineering/",
+        "https://workat.tech/machine-coding/tutorial/software-design-principles-dry-yagni-eytrxfhz1fla",
+        "https://www.freecodecamp.org/news/learn-programming-free-software-development-courses-for-beginners/",
+        "https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design",
+        "https://www.bu.edu/academics/eng/courses/eng-ec-327/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8jH07r6135o",
+        "https://www.youtube.com/watch?v=60EqoRcanpo",
+        "https://www.youtube.com/watch?v=lue3dOe-0xI",
+        "https://www.youtube.com/watch?v=-njsRb8Tn70",
+        "https://www.youtube.com/watch?v=NU_1StN5Tkk",
+        "https://m.youtube.com/watch?v=FLtqAi7WNBY&t=1s",
+        "https://www.youtube.com/watch?v=hexfXc7-SsU",
+        "https://www.youtube.com/watch?v=zLP_X4wyHbY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/c/CSDojo"
+      ]
     },
-    {
-      "question": "What is the primary focus of Agile methodologies like Scrum and Kanban?",
-      "options": [
-        "Extensive documentation",
-        "Rigid planning",
-        "Flexibility and rapid iteration",
-        "Long development cycles"
+    "intermediate": {
+      "docs": [
+        "https://developer.android.com/topic/architecture",
+        "https://www.sjsu.edu/cs/docs/pdfs/fall-20-syllabi/Tseng_CS%20160_Syllabus_Fall20.pdf",
+        "https://www.linkedin.com/posts/miguelcaetano_what-is-api-meaning-types-examples-activity-7203351194591756288-5jf_"
       ],
-      "correct_option": 2,
-      "hint": "These methodologies emphasize adaptability and quick responses to change."
+      "notes": [
+        "https://softwareengineering.stackexchange.com/questions/447532/when-to-not-use-solid-principles",
+        "https://www.geeksforgeeks.org/system-design/singleton-design-pattern/",
+        "https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design",
+        "https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/",
+        "https://mrcet.com/downloads/digital_notes/CSE/III%20Year/Software%20Engineering.pdf",
+        "https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=NU_1StN5Tkk",
+        "https://www.youtube.com/watch?v=OhCp6ppX6bg&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=xrxC5gRNV48&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=kRZE7gRCPQA",
+        "https://www.youtube.com/watch?v=XV_IJY5jpy0",
+        "https://www.youtube.com/watch?v=lch30CjcF7U",
+        "https://www.youtube.com/watch?v=R3JxCOZdL-c&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=HXd7g3RlCIs",
+        "https://www.youtube.com/watch?v=wG2g67RHYyo"
+      ]
     },
-    {
-      "question": "In Scrum, what is the purpose of a sprint retrospective?",
-      "options": [
-        "To plan the next sprint",
-        "To review completed work",
-        "To reflect on the sprint and improve processes",
-        "To assign new tasks"
+    "advanced": {
+      "docs": [
+        "https://developers.google.com/tech-writing/resources",
+        "https://ebpf.io/what-is-ebpf/",
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "https://learn.microsoft.com/en-us/"
       ],
-      "correct_option": 2,
-      "hint": "This meeting is about learning and improving after each sprint."
-    },
-    {
-      "question": "Which of the following is a primary benefit of using Kanban in software development?",
-      "options": [
-        "Fixed deadlines",
-        "Increased work visibility",
-        "Inflexible task assignments",
-        "Centralized control"
+      "notes": [
+        "https://www.scarletink.com/p/guide-to-deep-dive-leadership-principle",
+        "https://www.baeldung.com/solid-principles",
+        "https://www.amazon.jobs/content/our-workplace/leadership-principles",
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://www.geeksforgeeks.org/digital-logic/digital-electronics-logic-design-tutorials/",
+        "https://interviewing.io/blog/how-software-engineering-behavioral-interviews-are-evaluated-meta",
+        "https://refactoring.guru/design-patterns"
       ],
-      "correct_option": 1,
-      "hint": "Kanban boards help teams see the status of their tasks at a glance."
-    },
-    {
-      "question": "Which testing method involves examining the software's internal structure and logic?",
-      "options": [
-        "Black-box testing",
-        "White-box testing",
-        "Regression testing",
-        "User acceptance testing"
-      ],
-      "correct_option": 1,
-      "hint": "This method requires knowledge of the code and algorithms."
+      "videos": [
+        "https://www.youtube.com/watch?v=hexfXc7-SsU",
+        "https://www.youtube.com/watch?v=Llnmf5BXLBA",
+        "https://www.youtube.com/watch?v=A6Ud7EGAxrc",
+        "https://www.youtube.com/watch?v=hHjmr_YOqnU",
+        "https://www.youtube.com/watch?v=1BLZGe-TqW0",
+        "https://m.youtube.com/watch?v=jGwO_UgTS7I&pp=2AEAkAIB",
+        "https://www.youtube.com/watch?v=4qN3JBGd1g8",
+        "https://www.youtube.com/watch?v=31wzhvz0vsw"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which phase of the Software Development Life Cycle (SDLC) involves gathering and analyzing user needs?",
+        "options": [
+          "Design",
+          "Implementation",
+          "Requirements Gathering & Analysis",
+          "Testing"
+        ],
+        "correct_option": 2,
+        "hint": "This phase is crucial for understanding what the software should achieve."
+      },
+      {
+        "question": "What is the primary focus of Agile methodologies like Scrum and Kanban?",
+        "options": [
+          "Extensive documentation",
+          "Rigid planning",
+          "Flexibility and rapid iteration",
+          "Long development cycles"
+        ],
+        "correct_option": 2,
+        "hint": "These methodologies emphasize adaptability and quick responses to change."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In Scrum, what is the purpose of a sprint retrospective?",
+        "options": [
+          "To plan the next sprint",
+          "To review completed work",
+          "To reflect on the sprint and improve processes",
+          "To assign new tasks"
+        ],
+        "correct_option": 2,
+        "hint": "This meeting is about learning and improving after each sprint."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a primary benefit of using Kanban in software development?",
+        "options": [
+          "Fixed deadlines",
+          "Increased work visibility",
+          "Inflexible task assignments",
+          "Centralized control"
+        ],
+        "correct_option": 1,
+        "hint": "Kanban boards help teams see the status of their tasks at a glance."
+      },
+      {
+        "question": "Which testing method involves examining the software's internal structure and logic?",
+        "options": [
+          "Black-box testing",
+          "White-box testing",
+          "Regression testing",
+          "User acceptance testing"
+        ],
+        "correct_option": 1,
+        "hint": "This method requires knowledge of the code and algorithms."
+      }
+    ]
+  }
 }

@@ -1,0 +1,402 @@
+{
+  "id": "FS3",
+  "name": "Serverless Architectures for FullStack",
+  "category": "FullStack Development",
+  "primary_tech": "Serverless",
+  "topics": [
+    "Functions-as-a-Service (FaaS) - AWS Lambda, Google Cloud Functions",
+    "Serverless Framework/SAM",
+    "Event-Driven Architectures",
+    "Database Integration (DynamoDB, Firestore)"
+  ],
+  "recommended": false,
+  "tags": [
+    "serverless",
+    "cloud",
+    "event-driven"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/",
+          "description": "Official Microsoft documentation for .NET development and programming resources.",
+          "title": ".NET documentation | Microsoft Learn"
+        },
+        {
+          "url": "https://www.serverless.com/aws-lambda",
+          "description": "An overview of AWS Lambda and its integration with the Serverless Framework for building scalable applications.",
+          "title": "AWS Lambda: The Ultimate Guide"
+        },
+        {
+          "url": "https://repost.aws/questions/QUpWKYBJtdQluHBmHLnqv2KA/aws-beginner-seeking-guidance-for-full-backend-creation",
+          "description": "Guidance for beginners on creating a full backend using AWS services.",
+          "title": "ERROR: The request could not be satisfied"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/",
+          "description": "An extensive resource hub for learning about Microsoft Azure services and solutions.",
+          "title": "Azure documentation | Microsoft Learn"
+        },
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building applications with the Next.js framework.",
+          "title": "Next.js Docs | Next.js"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/",
+          "description": "A step-by-step tutorial for building a React application with AWS Amplify and GraphQL.",
+          "title": "Build a Full-Stack React Application on AWS"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UC7mca3O0DmdSG2Cr80sOD7g",
+          "description": "A YouTube channel offering tutorials and insights on software development and programming."
+        },
+        {
+          "url": "https://www.datadoghq.com/knowledge-center/serverless-architecture/",
+          "description": "An overview of serverless architecture and its benefits for modern applications.",
+          "title": "Serverless Architecture: What It Is & How It Works | Datadog"
+        },
+        {
+          "url": "https://www.serverless.com/aws-lambda",
+          "description": "An introductory guide to deploying and managing AWS Lambda functions using the Serverless Framework.",
+          "title": "AWS Lambda: The Ultimate Guide"
+        },
+        {
+          "url": "https://repost.aws/questions/QUpWKYBJtdQluHBmHLnqv2KA/aws-beginner-seeking-guidance-for-full-backend-creation",
+          "description": "Guidance for beginners on creating a full backend using AWS services.",
+          "title": "ERROR: The request could not be satisfied"
+        },
+        {
+          "url": "https://hasura.io/learn/graphql/nextjs-fullstack-serverless/introduction/",
+          "description": "A tutorial on building a full-stack serverless application using GraphQL with Next.js.",
+          "title": "Introduction | Next.js GraphQL Serverless Tutorial"
+        },
+        {
+          "url": "https://www.fullstackfirebase.com/introduction/what-is-serverless",
+          "description": "An introduction to serverless computing and its benefits in modern application development.",
+          "title": "What is serverless? | Full-Stack Firebase"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_15AuFj1rtI",
+        "https://www.youtube.com/watch?v=H7Qe96fqg1M",
+        "https://www.youtube.com/watch?v=qyqc1udFB-0",
+        "https://www.youtube.com/watch?v=FHn8c4Rk_yo",
+        "https://www.youtube.com/watch?v=JDbkoICzQro",
+        "https://www.youtube.com/watch?v=c-jcxtJ0hO0",
+        "https://www.youtube.com/channel/UC7mca3O0DmdSG2Cr80sOD7g",
+        "https://www.youtube.com/c/CloudGurus/videos"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://www.serverless.com/aws-lambda",
+          "description": "An introduction to using AWS Lambda with the Serverless Framework for building serverless applications.",
+          "title": "AWS Lambda: The Ultimate Guide"
+        },
+        {
+          "url": "https://cloud.google.com/architecture",
+          "description": "A collection of architecture frameworks and best practices for Google Cloud solutions.",
+          "title": "Cloud Architecture Guidance and Topologies  |  Google Cloud"
+        },
+        {
+          "url": "https://developers.cloudflare.com/workers/",
+          "description": "Official documentation for building and deploying serverless applications using Cloudflare Workers.",
+          "title": "Overview · Cloudflare Workers docs"
+        },
+        {
+          "url": "https://nextjs.org/docs",
+          "description": "Official documentation for building applications with Next.js, a React framework.",
+          "title": "Next.js Docs | Next.js"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.linkedin.com/posts/vt1_python-pythondeveloper-pythonconsultant-activity-7236796502956720129-gVuC",
+          "description": "Insights and tips for Python developers shared by a Python consultant on LinkedIn.",
+          "title": "Python Fullstack Developer | V Thrinetra"
+        },
+        {
+          "url": "https://open.spotify.com/episode/5fIsKvM7ZxUZYgm5mQSH2d",
+          "description": "An in-depth podcast episode discussing the latest advancements in music streaming technology.",
+          "title": "Neon: A Serverless And Developer Friendly Postgres - Data Engineering Podcast | Podcast on Spotify"
+        },
+        {
+          "url": "https://www.linkedin.com/pulse/top-online-resources-job-updates-edition-apr-4-2025-itversity-h9szc",
+          "description": "An article listing top online resources for job updates as of April 2025.",
+          "title": "Top Online Resources & Job Updates - Edition - Apr 4, 2025"
+        },
+        {
+          "url": "https://www.researchgate.net/publication/392665763_NEXT_GENERATION_ARCHITECTURAL_STRATEGIES_FOR_SCALABLE_HEALTHCARE_APPLICATIONS_A_MICROSERVICES_CLOUD_COMPUTING_APPROACH",
+          "description": "An exploration of microservices and cloud computing strategies for scalable healthcare applications.",
+          "title": "ResearchGate - Temporarily Unavailable"
+        },
+        {
+          "url": "https://hevodata.com/learn/data-glossary/",
+          "description": "A detailed glossary of terms and concepts related to data management and analytics.",
+          "title": "data-glossary - Learn | Hevo"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=c-jcxtJ0hO0",
+        "https://www.youtube.com/watch?v=JDbkoICzQro",
+        "https://www.youtube.com/watch?v=TehOjiDJEDk",
+        "https://www.youtube.com/watch?v=lew3--SaD2A",
+        "https://www.youtube.com/watch?v=tcOgi8DRxjs",
+        "https://www.youtube.com/watch?v=UcW_s4BmuD0",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=ng53ydesSFg",
+        "https://www.youtube.com/watch?v=G7Gp2pzSMYY"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://www.serverless.com/aws-lambda",
+          "description": "An overview of AWS Lambda, a serverless computing service by AWS.",
+          "title": "AWS Lambda: The Ultimate Guide"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/",
+          "description": "Official Microsoft documentation for .NET development and programming resources.",
+          "title": ".NET documentation | Microsoft Learn"
+        },
+        {
+          "url": "https://cloud.google.com/ai/generative-ai",
+          "description": "An overview of Google's generative AI capabilities and solutions.",
+          "title": "Generative AI | Google Cloud"
+        },
+        {
+          "url": "https://www.oracle.com/fi/cloud/full-stack-disaster-recovery/",
+          "description": "An overview of Oracle's full-stack disaster recovery solutions for cloud environments.",
+          "title": "Orchestrate Disaster Recovery with a Single Click | Oracle Europe"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.serverless.com/aws-lambda",
+          "description": "An overview of AWS Lambda for building serverless applications using the Serverless Framework.",
+          "title": "AWS Lambda: The Ultimate Guide"
+        },
+        {
+          "url": "https://www.linkedin.com/pulse/deep-dive-aws-deeplens-janakiram-msv",
+          "description": "An in-depth exploration of AWS DeepLens, highlighting its features and applications.",
+          "title": "A Deep Dive on AWS DeepLens"
+        },
+        {
+          "url": "https://www.codementor.io/unit-testing-experts",
+          "description": "A platform offering expert guidance on unit testing best practices and strategies.",
+          "title": "Unit Testing Expert Help Online (July 2025) - Codementor"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/klueska_made-the-list-twice-i-expect-the-following-activity-7275904834971561985-BrLW",
+          "description": "A LinkedIn post discussing recognition and expectations in a professional context.",
+          "title": "Made the list twice! | Kevin Klues"
+        },
+        {
+          "url": "https://www.cloudflare.com/it-it/press-releases/2023/cloudflare-collaborates-with-microsoft-to-enable-ai-models-to-run-anywhere/",
+          "description": "Cloudflare partners with Microsoft to enable AI models to operate seamlessly across various platforms.",
+          "title": "Cloudflare Collaborates with Microsoft to Enable AI Models to Run Anywhere | Cloudflare"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/antonkollmats_softwareengineering-activity-7266065540941541376-G5dO",
+          "description": "Insights and experiences shared on software engineering practices.",
+          "title": "Devs: Keep It Simple Stupid. | Anton K"
+        },
+        {
+          "url": "https://dzone.com/authors/gaurg",
+          "description": "A collection of insightful technical articles and tutorials by author Gaurav Bhardwaj on DZone.",
+          "title": "Attention Required! | Cloudflare"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/@maheshkariya",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/channel/UCqCGL2oiIC4sLi1A1n6xHiA",
+        "https://www.youtube.com/watch?v=CG5cYgPV4DQ",
+        "https://www.youtube.com/watch?v=X48mMxEMYps",
+        "https://www.youtube.com/watch?v=Hvk2-qhFEoo",
+        "https://www.youtube.com/watch?v=c_IBs1crl4k",
+        "https://www.youtube.com/watch?v=_htSwKMdk2Y",
+        "https://www.youtube.com/watch?v=LKbwRYtiiMQ"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a primary characteristic of serverless architectures?",
+        "options": [
+          "No servers are used at all",
+          "Automatic scaling based on demand",
+          "Servers are manually managed",
+          "Fixed resource allocation"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the flexibility and scalability aspect of serverless solutions."
+      },
+      {
+        "question": "Which platform offers Functions-as-a-Service (FaaS) under the name AWS Lambda?",
+        "options": [
+          "Google Cloud Platform",
+          "Amazon Web Services",
+          "Microsoft Azure",
+          "IBM Cloud"
+        ],
+        "correct_option": 1,
+        "hint": "Think of the cloud provider that is widely known for offering a variety of services including AWS Lambda."
+      },
+      {
+        "question": "Which of the following is a serverless framework that helps with deployment?",
+        "options": [
+          "Terraform",
+          "Serverless Framework",
+          "Docker",
+          "Kubernetes"
+        ],
+        "correct_option": 1,
+        "hint": "This framework is specifically designed for deploying serverless applications."
+      },
+      {
+        "question": "Which database service is a managed NoSQL database offered by Amazon?",
+        "options": [
+          "Firestore",
+          "DynamoDB",
+          "SQL Server",
+          "MongoDB"
+        ],
+        "correct_option": 1,
+        "hint": "Think of Amazon's own NoSQL database service."
+      },
+      {
+        "question": "In an event-driven architecture, what triggers serverless functions?",
+        "options": [
+          "Manual intervention",
+          "Scheduled timers",
+          "Events such as HTTP requests or database changes",
+          "Continuous polling"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how serverless functions react to changes or requests in the system."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is a key benefit of using AWS Lambda in a serverless architecture?",
+        "options": [
+          "Automatic scaling based on demand",
+          "Persistent disk storage",
+          "Integrated development environment",
+          "Dedicated server allocation"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how AWS Lambda manages workloads automatically."
+      },
+      {
+        "question": "What is the main role of the Serverless Framework in deploying applications?",
+        "options": [
+          "Compiling code into machine language",
+          "Managing server hardware",
+          "Simplifying deployment of serverless applications",
+          "Providing real-time data analytics"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the process of deploying serverless applications efficiently."
+      },
+      {
+        "question": "In event-driven architectures, what typically triggers the execution of a serverless function?",
+        "options": [
+          "Scheduled cron jobs",
+          "User-defined events",
+          "Pre-allocated server resources",
+          "Continuous data streams"
+        ],
+        "correct_option": 1,
+        "hint": "Think about actions or changes that can initiate a function."
+      },
+      {
+        "question": "Which database service is commonly used with serverless applications on AWS for high scalability and low latency?",
+        "options": [
+          "MongoDB Atlas",
+          "AWS DynamoDB",
+          "Amazon RDS",
+          "Firebase Realtime Database"
+        ],
+        "correct_option": 1,
+        "hint": "This service is known for its seamless integration with AWS Lambda."
+      },
+      {
+        "question": "What is the primary function of Google Cloud Functions in a serverless architecture?",
+        "options": [
+          "Providing a platform for machine learning",
+          "Executing code in response to events",
+          "Hosting static websites",
+          "Managing cloud storage"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on how it responds to specific events to execute code."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary advantage of using AWS Lambda in a serverless architecture?",
+        "options": [
+          "Automatic scaling based on demand",
+          "Ability to choose operating system",
+          "Dedicated server management",
+          "Constant uptime with no cold starts"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how serverless functions handle traffic fluctuations."
+      },
+      {
+        "question": "Which of the following is a key characteristic of Event-Driven Architectures in serverless environments?",
+        "options": [
+          "Synchronous processing of events",
+          "Single point of failure",
+          "Loose coupling of components",
+          "Direct database connections"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how components interact in an event-driven system."
+      },
+      {
+        "question": "When integrating Google Cloud Functions with Firestore, what is a common best practice?",
+        "options": [
+          "Use Firestore as a temporary cache",
+          "Deploy functions in different regions than the database",
+          "Limit the size of data payloads",
+          "Directly modify Firestore documents in large batches"
+        ],
+        "correct_option": 2,
+        "hint": "Consider efficiency and performance in database operations."
+      },
+      {
+        "question": "In the context of the Serverless Framework, what does the term 'provider' refer to?",
+        "options": [
+          "A cloud service that offers serverless computing",
+          "A plugin for monitoring serverless applications",
+          "A package manager for serverless functions",
+          "A component for debugging serverless applications"
+        ],
+        "correct_option": 0,
+        "hint": "Think about where the serverless functions are executed."
+      },
+      {
+        "question": "How does DynamoDB support serverless applications differently than traditional databases?",
+        "options": [
+          "It requires manual scaling of resources",
+          "It uses a schema-less data model",
+          "It does not allow for event-driven triggers",
+          "It mandates fixed pricing for storage"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the flexibility of data structures in serverless environments."
+      }
+    ]
+  }
+}

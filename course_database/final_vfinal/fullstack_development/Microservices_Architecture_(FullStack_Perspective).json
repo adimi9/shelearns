@@ -1,0 +1,487 @@
+{
+  "id": "FS2",
+  "name": "Microservices Architecture (FullStack Perspective)",
+  "category": "FullStack Development",
+  "primary_tech": "Microservices",
+  "topics": [
+    "Designing & Decomposing Services",
+    "Inter-service Communication",
+    "API Gateway & Service Mesh Basics",
+    "Distributed Tracing & Logging"
+  ],
+  "recommended": false,
+  "tags": [
+    "architecture",
+    "distributed-systems",
+    "scalability"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/microservices/",
+          "description": "An in-depth overview of designing microservices architecture on Microsoft Azure.",
+          "title": "Microservices architecture design - Azure Architecture Center | Microsoft Learn"
+        },
+        {
+          "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/micro-frontends-aws/introduction.html",
+          "description": "An introduction to implementing micro frontends using AWS services.",
+          "title": "Understanding and implementing micro-frontends on AWS - AWS Prescriptive Guidance"
+        },
+        {
+          "url": "https://microservices.io/patterns/microservices.html",
+          "description": "An overview of microservices architecture and design patterns.",
+          "title": "Microservice Architecture pattern"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=FDjmWxETjn8",
+          "description": "An instructional video on setting up and using GitHub Actions for CI/CD workflows.",
+          "title": "Master Microservices & Event-Driven Architecture: Complete 6-Hour Guide for Beginners to Advanced",
+          "duration": "374m"
+        },
+        {
+          "url": "https://cloud.google.com/architecture/microservices-architecture-introduction",
+          "description": "An introduction to microservices architecture on Google Cloud.",
+          "title": "Introduction to microservices  |  Cloud Architecture Center  |  Google Cloud"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4BibQ69MD8c",
+          "description": "A tutorial on using ChatGPT to create a personal AI assistant with Python.",
+          "title": "Azure DevOps Tutorial for Beginners | CI/CD with Azure Pipelines",
+          "duration": "36m"
+        },
+        {
+          "url": "https://aws.amazon.com/microservices/",
+          "description": "An overview of microservices architecture and its implementation on AWS.",
+          "title": "What are Microservices? | AWS"
+        },
+        {
+          "url": "https://microservices.io/patterns/microservices.html",
+          "description": "An overview of microservices architecture and its design patterns.",
+          "title": "Microservice Architecture pattern"
+        },
+        {
+          "url": "https://www.splunk.com/en_us/blog/learn/observability.html",
+          "description": "An overview of observability concepts and tools in Splunk for monitoring application performance.",
+          "title": "What is Observability? An Introduction | Splunk"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=FDjmWxETjn8",
+          "title": "Master Microservices & Event-Driven Architecture: Complete 6-Hour Guide for Beginners to Advanced",
+          "duration": "374m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=s4ShbtOHMCA",
+          "title": "Eclipse Java Tutorial For Beginners  with  Maven & Git  - New Version",
+          "duration": "80m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4BibQ69MD8c",
+          "title": "Azure DevOps Tutorial for Beginners | CI/CD with Azure Pipelines",
+          "duration": "36m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZJ7afDSrb3s",
+          "title": "How to Create and Setup Spring Boot Project in Eclipse IDE",
+          "duration": "9m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lsKU38RKQSo",
+          "title": "System Design Interview: Design Uber w/ a Ex-Meta Staff Engineer",
+          "duration": "63m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DoWhZO7nbCY",
+          "title": "Azure DevOps: Zero to Hero Tutorial",
+          "duration": "130m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5t1fW3KG920",
+          "title": "SQL Indexes Explained in 20 Minutes",
+          "duration": "19m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7Py0rZ5UQlg",
+          "title": "Spring Architecture  - with Modules",
+          "duration": "13m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/architecture",
+          "description": "A collection of best practices and guidance for designing and implementing solutions on Google Cloud.",
+          "title": "Cloud Architecture Guidance and Topologies  |  Google Cloud"
+        },
+        {
+          "url": "https://aws.amazon.com/architecture/",
+          "description": "A resource hub for AWS cloud architecture best practices and design patterns.",
+          "title": "Reference Architecture Examples and Best Practices"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures",
+          "description": "An overview of common web application architectures for modern apps on Azure.",
+          "title": "Common web application architectures - .NET | Microsoft Learn"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.linkedin.com/posts/pushkar910_ai-aiagents-agents-activity-7291689297194205186-5wjB",
+          "description": "Insights into the evolving role of AI agents in technology.",
+          "title": "🚀 𝗧𝗵𝗶𝘀 𝗶𝘀 𝗖𝗿𝗮𝘇𝘆 – 𝗜 𝗕𝘂𝗶𝗹𝘁 𝗮 𝗙𝗿𝗲𝗲 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 𝗨𝘀𝗶𝗻𝗴 𝗗𝗲𝗲𝗽𝘀𝗲𝗲𝗸 & 𝗦𝗽𝗿𝗶𝗻𝗴 𝗕𝗼𝗼𝘁! | Pushkar Kumar"
+        },
+        {
+          "url": "https://www.researchgate.net/figure/The-data-flow-of-three-benchmarking-cases-1-2-Device-cloud-device-edge-cloud-an_fig2_348968771",
+          "description": "Illustration of data flow in benchmarking scenarios involving device-cloud and edge-cloud interactions.",
+          "title": "ResearchGate - Temporarily Unavailable"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/lucamezzalira_microservice-observability-serverless-activity-7215459515360514048-Zg2q",
+          "description": "Insights into microservice observability and serverless architecture.",
+          "title": "Dear Architects, | Luca Mezzalira"
+        },
+        {
+          "url": "https://br.linkedin.com/in/raul-de-a-vieira/en",
+          "description": "The professional LinkedIn profile of Raul de A. Vieira, showcasing his skills and experience."
+        },
+        {
+          "url": "https://www.oreilly.com/search/?q=Introduction%20to%20the%20Go%20Programming%20Language&order_by=relevance&rows=100",
+          "description": "A search result page for resources on learning the Go programming language at O'Reilly.",
+          "title": "Search"
+        },
+        {
+          "url": "https://www3.cs.stonybrook.edu/~amiri/publication.html",
+          "description": "A publication list showcasing research and academic contributions by Professor Amiri.",
+          "title": "Mohammad Javad Amiri"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=4BibQ69MD8c",
+          "title": "Azure DevOps Tutorial for Beginners | CI/CD with Azure Pipelines",
+          "duration": "36m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lsKU38RKQSo",
+          "title": "System Design Interview: Design Uber w/ a Ex-Meta Staff Engineer",
+          "duration": "63m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VRnTvBDeaSo",
+          "title": "Event Driven Microservices Architecture with SpringBoot",
+          "duration": "152m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DoWhZO7nbCY",
+          "title": "Azure DevOps: Zero to Hero Tutorial",
+          "duration": "130m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5t1fW3KG920",
+          "title": "SQL Indexes Explained in 20 Minutes",
+          "duration": "19m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZJ7afDSrb3s",
+          "title": "How to Create and Setup Spring Boot Project in Eclipse IDE",
+          "duration": "9m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5uax1zpRags",
+          "title": "Cognizant  | Java, Spring Boot & MicroServices Interview Questions | Level 1 | 4+ Yrs",
+          "duration": "22m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xvSO8cIOmlE",
+          "title": "How to explain self introduction in interviews @ashokit",
+          "duration": "6m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=I6ZBUEc4LrU",
+          "title": "Day-29 | Docker Interview Questions with Answers | How many can you answer ? | Comment your score",
+          "duration": "38m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XmhEZiS26os",
+          "title": "Docker and Eclipse",
+          "duration": "13m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/architecture",
+          "description": "A collection of best practices and architectural patterns for building solutions on Google Cloud.",
+          "title": "Cloud Architecture Guidance and Topologies  |  Google Cloud"
+        },
+        {
+          "url": "https://aws.amazon.com/architecture/",
+          "description": "A comprehensive resource for AWS architecture best practices and design patterns.",
+          "title": "Reference Architecture Examples and Best Practices"
+        },
+        {
+          "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+          "description": "An overview of MLOps practices for continuous delivery and automation pipelines in machine learning.",
+          "title": "MLOps: Continuous delivery and automation pipelines in machine learning  |  Cloud Architecture Center  |  Google Cloud"
+        },
+        {
+          "url": "https://www.ibm.com/think/topics/api",
+          "description": "An overview of API technology, its applications, and best practices from IBM.",
+          "title": "What Is an API (Application Programming Interface)? | IBM"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.linkedin.com/posts/ksivaprasadreddy_spring-boot-microservices-course-building-activity-7191302038410911745-bskF",
+          "description": "An overview of a Spring Boot microservices course focused on building scalable applications.",
+          "title": "🚨Spring Boot MicroServices Course 🚨 | Siva Prasad Reddy K"
+        },
+        {
+          "url": "https://dzone.com/authors/borisza",
+          "description": "Technical articles and insights by Boris Zaikin on software development and programming.",
+          "title": "Attention Required! | Cloudflare"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/billglover_you-are-not-a-fullstack-developer-back-activity-7236350155313004544-Vpb0",
+          "description": "An insightful discussion on the misconceptions of being a full-stack developer.",
+          "title": "YOU ARE NOT A \"FULLSTACK DEVELOPER\" | William Glover"
+        },
+        {
+          "url": "https://www.oreilly.com/search/?q=Introduction%20to%20the%20Go%20Programming%20Language&order_by=relevance&rows=100",
+          "description": "A search result page for resources on learning the Go programming language.",
+          "title": "Search"
+        },
+        {
+          "url": "https://br.linkedin.com/in/raul-de-a-vieira/en",
+          "description": "The LinkedIn profile of Raul de A. Vieira, showcasing his professional experience and skills."
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=FDjmWxETjn8",
+          "title": "Master Microservices & Event-Driven Architecture: Complete 6-Hour Guide for Beginners to Advanced",
+          "duration": "374m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4BibQ69MD8c",
+          "title": "Azure DevOps Tutorial for Beginners | CI/CD with Azure Pipelines",
+          "duration": "36m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DoWhZO7nbCY",
+          "title": "Azure DevOps: Zero to Hero Tutorial",
+          "duration": "130m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-SRk0hHa-S0",
+          "title": "Azure Firewall Tutorial | Azure Firewall step by step |  Azure training certification | Edureka",
+          "duration": "31m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jvUeS4z7s8U",
+          "title": "MuleSoft Full Course (30 Hours) – Beginner to Advanced | Complete Free Training Part-2",
+          "duration": "605m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1GzYjdAZ6PM",
+          "title": "What is Design Thinking? | Design Thinking Process | Design Thinking for Beginners | Edureka",
+          "duration": "11m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LAkqDPesTpU",
+          "title": "Pega Course Content | What To Learn In 2025  | Pega Constellation | For Pega Training +91-9652532753",
+          "duration": "66m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5dnRXyU2REc",
+          "title": "Unlock Creative AI Responses with the Alternative Approaches Pattern in Prompt Engineering",
+          "duration": "5m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nrNnupMWvW8",
+          "title": "How To Become A Salesforce Administrator | Salesforce Administrator Training  | Edureka Rewind",
+          "duration": "14m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a primary benefit of decomposing a system into microservices?",
+        "options": [
+          "Improved monolithic structure",
+          "Increased redundancy",
+          "Enhanced scalability and maintainability",
+          "Reduced development time"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how microservices impact system flexibility and management."
+      },
+      {
+        "question": "Which of the following is a common protocol used for inter-service communication in microservices architecture?",
+        "options": [
+          "FTP",
+          "HTTP/REST",
+          "SMTP",
+          "Telnet"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the protocol commonly used for web services."
+      },
+      {
+        "question": "What is the role of an API Gateway in a microservices architecture?",
+        "options": [
+          "To store microservices data",
+          "To manage and route requests to appropriate services",
+          "To develop microservices",
+          "To secure microservices with encryption"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how clients interact with multiple services efficiently."
+      },
+      {
+        "question": "Which tool is typically used for distributed tracing in a microservices environment?",
+        "options": [
+          "Prometheus",
+          "Jenkins",
+          "Zipkin",
+          "Nginx"
+        ],
+        "correct_option": 2,
+        "hint": "This tool helps track requests as they move through a system."
+      },
+      {
+        "question": "What is the purpose of service mesh in microservices?",
+        "options": [
+          "To replace the API Gateway",
+          "To enable secure and reliable service-to-service communications",
+          "To manage databases",
+          "To develop microservices"
+        ],
+        "correct_option": 1,
+        "hint": "It focuses on communication between services."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a primary advantage of decomposing a monolithic application into microservices?",
+        "options": [
+          "Improved performance due to centralized processing",
+          "Easier deployment and scaling of individual services",
+          "Reduced need for inter-service communication",
+          "Simplified logging due to a single service architecture"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how microservices can be managed independently."
+      },
+      {
+        "question": "Which protocol is commonly used for synchronous inter-service communication in a microservices architecture?",
+        "options": [
+          "HTTP/REST",
+          "SMTP",
+          "FTP",
+          "POP3"
+        ],
+        "correct_option": 0,
+        "hint": "This protocol is widely used for web communication."
+      },
+      {
+        "question": "What role does an API Gateway play in a microservices architecture?",
+        "options": [
+          "It acts as a reverse proxy to route client requests to appropriate services",
+          "It provides a direct database connection for all services",
+          "It handles local caching within each microservice",
+          "It ensures that services are only accessible through a private network"
+        ],
+        "correct_option": 0,
+        "hint": "Think of a gatekeeper that manages incoming requests."
+      },
+      {
+        "question": "How does a service mesh enhance communication between microservices?",
+        "options": [
+          "By replacing the need for an API Gateway",
+          "By providing built-in load balancing and failure recovery",
+          "By eliminating the need for logging and tracing",
+          "By consolidating all services into a single node"
+        ],
+        "correct_option": 1,
+        "hint": "Consider features that improve reliability and observability."
+      },
+      {
+        "question": "Which tool is commonly used for distributed tracing in microservices?",
+        "options": [
+          "Zipkin",
+          "MySQL",
+          "Redis",
+          "Apache Kafka"
+        ],
+        "correct_option": 0,
+        "hint": "This tool is designed to help track requests through a microservices architecture."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which strategy is essential for effective service decomposition in a microservices architecture?",
+        "options": [
+          "Horizontal scaling",
+          "Single-Responsibility Principle",
+          "Monolithic design",
+          "Stateful services"
+        ],
+        "correct_option": 1,
+        "hint": "Think about principles that ensure each service has one primary responsibility."
+      },
+      {
+        "question": "What is a key advantage of using a service mesh in a microservices architecture?",
+        "options": [
+          "Decreases latency by direct service-to-service communication",
+          "Improves security and observability",
+          "Eliminates the need for an API Gateway",
+          "Simplifies the user interface design"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how a service mesh handles communication between microservices."
+      },
+      {
+        "question": "Which pattern is recommended for managing inter-service communication in a highly dynamic microservices environment?",
+        "options": [
+          "Synchronous HTTP calls",
+          "Service Registry and Discovery",
+          "Direct database access",
+          "Single-tier architecture"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how services find each other without hardcoding endpoints."
+      },
+      {
+        "question": "What role does an API Gateway play in a microservices architecture?",
+        "options": [
+          "Facilitates direct database access for microservices",
+          "Centralizes logging and monitoring",
+          "Acts as a single entry point for client requests",
+          "Handles service-to-service communication"
+        ],
+        "correct_option": 2,
+        "hint": "The API Gateway often handles routing, composition, and protocol translation."
+      },
+      {
+        "question": "Why is distributed tracing critical in a microservices architecture?",
+        "options": [
+          "It helps in optimizing database queries",
+          "It provides end-to-end visibility across services",
+          "It reduces the number of microservices needed",
+          "It automates deployment processes"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how tracing helps in understanding request flow across services."
+      }
+    ]
+  }
+}

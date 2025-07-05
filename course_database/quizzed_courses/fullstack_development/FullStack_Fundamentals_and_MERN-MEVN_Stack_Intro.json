@@ -1,0 +1,275 @@
+{
+  "id": "FS9",
+  "name": "FullStack Fundamentals & MERN/MEVN Stack Intro",
+  "category": "FullStack Development",
+  "primary_tech": "FullStack Concepts",
+  "topics": [
+    "Client-Server Architecture",
+    "API Communication (Frontend to Backend)",
+    "Introduction to MERN/MEVN stack components",
+    "Basic Project Setup"
+  ],
+  "recommended": true,
+  "tags": [
+    "fundamentals",
+    "architecture",
+    "web-development"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "https://www.geeksforgeeks.org/mern/understand-mern-stack/",
+        "https://firebase.google.com/docs/guides"
+      ],
+      "notes": [
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://www.geeksforgeeks.org/mern/understand-mern-stack/",
+        "https://www.mongodb.com/resources/basics/full-stack-development",
+        "https://www.oracle.com/th/database/mern-stack/",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=7CqJlxBYj-M",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://www.youtube.com/watch?v=ZDRZvFNK-ek&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Hl7diL7SFw8",
+        "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=XlvsJLer_No"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
+        "https://www.mongodb.com/resources/languages/mean-stack",
+        "https://www.geeksforgeeks.org/mern/understand-mern-stack/",
+        "https://www.oracle.com/th/database/mern-stack/"
+      ],
+      "notes": [
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://www.linkedin.com/posts/hnaser_i-used-to-build-database-applications-without-activity-7225774955286646785-kJBD",
+        "https://www.mongodb.com/resources/languages/mean-stack",
+        "https://www.oracle.com/th/database/mern-stack/",
+        "https://www.simplilearn.com/tutorials/mongodb-tutorial/what-is-mern-stack-introduction-and-examples",
+        "https://www.geeksforgeeks.org/mern/understand-mern-stack/",
+        "https://aws.amazon.com/what-is/full-stack-development/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+        "https://www.youtube.com/watch?v=TztVMhZxORQ",
+        "https://www.youtube.com/watch?v=PuQz1w80ddw",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=iiADhChRriM",
+        "https://www.youtube.com/watch?v=BJjsfNO5JTo"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+        "https://firebase.google.com/docs/guides",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://www.freecodecamp.org/news/mern-stack-roadmap-what-you-need-to-know-to-build-full-stack-apps/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.mongodb.com/resources/languages/mern-stack",
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://fullstackopen.com/en/",
+        "https://www.youtube.com/watch?v=ZDRZvFNK-ek&pp=0gcJCfwAo7VqN5tD",
+        "https://risesumit.hashnode.dev/how-i-became-a-mern-full-stack-developer-in-just-15-days-and-my-life-journey-as-web-developer-devretro2022"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
+        "https://www.youtube.com/watch?v=ZDRZvFNK-ek&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+        "https://www.youtube.com/watch?v=qDHnCFMZ9HA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=77jIzgvCIYY",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=Llnmf5BXLBA",
+        "https://www.youtube.com/c/swhizztechnologies"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does the 'C' in MERN and MEVN stacks stand for?",
+        "options": [
+          "Client",
+          "Cloud",
+          "Controller",
+          "Component"
+        ],
+        "correct_option": 0,
+        "hint": "It's the part of the architecture that deals with user interfaces."
+      },
+      {
+        "question": "In a client-server architecture, which component typically handles user requests?",
+        "options": [
+          "Server",
+          "Database",
+          "Client",
+          "Network"
+        ],
+        "correct_option": 2,
+        "hint": "It's the part of the architecture that interacts directly with users."
+      },
+      {
+        "question": "Which of the following is NOT a typical component of the MERN stack?",
+        "options": [
+          "MongoDB",
+          "Express",
+          "React",
+          "Vue"
+        ],
+        "correct_option": 3,
+        "hint": "This component is actually part of the MEVN stack."
+      },
+      {
+        "question": "What is the primary purpose of an API in a full-stack application?",
+        "options": [
+          "To store data",
+          "To manage user authentication",
+          "To facilitate communication between frontend and backend",
+          "To design user interfaces"
+        ],
+        "correct_option": 2,
+        "hint": "APIs act as a bridge connecting different parts of an application."
+      },
+      {
+        "question": "Which technology is used for backend development in the MERN stack?",
+        "options": [
+          "React",
+          "MongoDB",
+          "Node.js",
+          "Vue"
+        ],
+        "correct_option": 2,
+        "hint": "It's a JavaScript runtime environment often used for building server-side applications."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which component of the MERN stack is responsible for handling server-side operations?",
+        "options": [
+          "MongoDB",
+          "Express.js",
+          "React",
+          "Node.js"
+        ],
+        "correct_option": 1,
+        "hint": "It's a framework built on top of Node.js."
+      },
+      {
+        "question": "In a client-server architecture, what is the primary role of the client?",
+        "options": [
+          "To handle database operations",
+          "To serve web pages",
+          "To make requests to the server",
+          "To manage server-side logic"
+        ],
+        "correct_option": 2,
+        "hint": "Think about who initiates the communication."
+      },
+      {
+        "question": "What is the purpose of an API in the context of frontend-backend communication?",
+        "options": [
+          "To provide a database for the application",
+          "To define protocols for client-server interaction",
+          "To style user interfaces",
+          "To manage user authentication"
+        ],
+        "correct_option": 1,
+        "hint": "APIs are like contracts or interfaces between systems."
+      },
+      {
+        "question": "Which of the following is a frontend technology commonly used in both the MERN and MEVN stacks?",
+        "options": [
+          "Vue.js",
+          "Angular",
+          "React",
+          "Express.js"
+        ],
+        "correct_option": 2,
+        "hint": "It's a JavaScript library for building user interfaces."
+      },
+      {
+        "question": "What is the first step in setting up a basic MERN stack project?",
+        "options": [
+          "Installing MongoDB",
+          "Setting up routing in Express.js",
+          "Creating a package.json file",
+          "Configuring the server with Node.js"
+        ],
+        "correct_option": 2,
+        "hint": "This file keeps track of all the dependencies and scripts for the project."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "In the context of the MERN/MEVN stack, which of the following components is responsible for handling HTTP requests and providing API endpoints?",
+        "options": [
+          "MongoDB",
+          "Express.js",
+          "React/Vue.js",
+          "Node.js"
+        ],
+        "correct_option": 1,
+        "hint": "This is a backend framework that uses middleware to handle HTTP requests."
+      },
+      {
+        "question": "Which HTTP method is typically used to retrieve data from a server in a client-server architecture?",
+        "options": [
+          "POST",
+          "PUT",
+          "GET",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method is used to request data from a specified resource."
+      },
+      {
+        "question": "In a basic MERN/MEVN stack setup, what role does MongoDB play?",
+        "options": [
+          "Front-end library for building UI",
+          "Database to store application data",
+          "Middleware for handling requests",
+          "Backend runtime environment"
+        ],
+        "correct_option": 1,
+        "hint": "This component is a NoSQL database used for storing data."
+      },
+      {
+        "question": "What is the main purpose of using Node.js in the MERN/MEVN stack?",
+        "options": [
+          "To interact with the database",
+          "To render HTML templates",
+          "To execute JavaScript on the server side",
+          "To style the front-end components"
+        ],
+        "correct_option": 2,
+        "hint": "This component allows JavaScript to run outside the browser."
+      },
+      {
+        "question": "In a client-server architecture, what is the primary role of the client?",
+        "options": [
+          "Store and retrieve application data",
+          "Perform server-side logic and operations",
+          "Request services and resources from the server",
+          "Route and manage API requests"
+        ],
+        "correct_option": 2,
+        "hint": "This part of the architecture is responsible for interacting with the user and requesting resources."
+      }
+    ]
+  }
+}

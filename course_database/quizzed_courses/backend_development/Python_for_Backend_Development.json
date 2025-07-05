@@ -1,0 +1,275 @@
+{
+  "id": "BE10",
+  "name": "Python for Backend Development",
+  "category": "Backend Development",
+  "primary_tech": "Python",
+  "topics": [
+    "Python Fundamentals",
+    "Object-Oriented Programming",
+    "Web Frameworks (Flask/Django basics)"
+  ],
+  "recommended": true,
+  "tags": [
+    "language",
+    "fundamentals",
+    "web-development"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://docs.python.org/",
+        "https://flask.palletsprojects.com/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.datacamp.com/tutorial/python-backend-development",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://packaging.python.org/tutorials/packaging-projects/",
+        "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+        "https://www.geeksforgeeks.org/backend-development/",
+        "https://www.youtube.com/watch?v=z3YMz-Gocmw"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=ftKiHCDVwfA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=-1LoyuANW6M",
+        "https://www.youtube.com/watch?v=z3YMz-Gocmw",
+        "https://www.youtube.com/watch?v=0sOvCWFmrtA",
+        "https://www.youtube.com/watch?v=Z1RJmh_OqeA",
+        "https://www.youtube.com/watch?v=PppslXOR7TA"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://packaging.python.org/en/latest/guides/writing-pyproject-toml/",
+        "https://docs.python.org/",
+        "https://developer.spotify.com/documentation/web-api",
+        "https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python"
+      ],
+      "notes": [
+        "https://packaging.python.org/tutorials/packaging-projects/",
+        "https://www.datacamp.com/tutorial/python-backend-development",
+        "https://packaging.python.org/en/latest/guides/writing-pyproject-toml/",
+        "https://github.com/triton-inference-server/python_backend",
+        "https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project",
+        "https://discuss.python.org/t/adding-dependencies-per-packaging-python-projects/14048",
+        "https://auth0.com/blog/developing-restful-apis-with-python-and-flask/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=5xqFjh56AwM",
+        "https://www.youtube.com/watch?v=bZzyPscbtI8",
+        "https://www.youtube.com/watch?v=yDhCweudqyY",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=EgpLj86ZHFQ",
+        "https://www.youtube.com/watch?v=xldTxXtNiuk",
+        "https://www.youtube.com/watch?v=b0HMimUb4f0",
+        "https://www.youtube.com/watch?v=_sWgionzDoM"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developers.arcgis.com/python/latest/",
+        "https://www.python.org/doc/",
+        "https://docs.streamlit.io/"
+      ],
+      "notes": [
+        "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
+        "https://roadmap.sh/python",
+        "https://www.datacamp.com/tutorial/python-backend-development",
+        "https://www.freecodecamp.org/news/python-back-end-development-the-beginners-guide/",
+        "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+        "https://www.codecademy.com/catalog/language/python",
+        "https://realpython.com/tutorials/advanced/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+        "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+        "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+        "https://www.youtube.com/watch?v=NpmFbWO6HPU",
+        "https://www.youtube.com/watch?v=PppslXOR7TA"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a correct syntax to output \"Hello, World!\" in Python?",
+        "options": [
+          "echo(\"Hello, World!\")",
+          "print(\"Hello, World!\")",
+          "console.log(\"Hello, World!\")",
+          "System.out.println(\"Hello, World!\")"
+        ],
+        "correct_option": 1,
+        "hint": "Use the print function."
+      },
+      {
+        "question": "Which keyword is used to create a class in Python?",
+        "options": [
+          "function",
+          "define",
+          "class",
+          "object"
+        ],
+        "correct_option": 2,
+        "hint": "It is a keyword similar to Java and C++."
+      },
+      {
+        "question": "Which of the following is a popular Python web framework for building web applications?",
+        "options": [
+          "Laravel",
+          "Flask",
+          "Spring",
+          "Angular"
+        ],
+        "correct_option": 1,
+        "hint": "It is a lightweight framework often compared to Django."
+      },
+      {
+        "question": "What data type is the result of the expression 5 + 3 in Python?",
+        "options": [
+          "String",
+          "Float",
+          "Integer",
+          "Boolean"
+        ],
+        "correct_option": 2,
+        "hint": "It's a whole number."
+      },
+      {
+        "question": "In Python, which of the following is NOT a valid variable name?",
+        "options": [
+          "my_var",
+          "2ndVar",
+          "_hidden",
+          "varName"
+        ],
+        "correct_option": 1,
+        "hint": "Variable names cannot start with a number."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the purpose of the '__init__' method in a Python class?",
+        "options": [
+          "To initialize the class itself",
+          "To create a new instance of the class",
+          "To delete an instance of the class",
+          "To perform operations after the class is created"
+        ],
+        "correct_option": 1,
+        "hint": "This method is the constructor of a class."
+      },
+      {
+        "question": "Which of the following is NOT a valid HTTP method used in Flask or Django web frameworks?",
+        "options": [
+          "GET",
+          "POST",
+          "FETCH",
+          "DELETE"
+        ],
+        "correct_option": 2,
+        "hint": "This method is not standard in HTTP requests."
+      },
+      {
+        "question": "In Django, what is the purpose of the 'manage.py' file?",
+        "options": [
+          "To manage database migrations",
+          "To execute Django administrative tasks",
+          "To define URL patterns",
+          "To store application settings"
+        ],
+        "correct_option": 1,
+        "hint": "This file is primarily used for command-line tasks."
+      },
+      {
+        "question": "Which of the following is a correct way to define a class method in Python?",
+        "options": [
+          "def my_method(self):",
+          "def my_method(cls):",
+          "@classmethod\ndef my_method(cls):",
+          "@staticmethod\ndef my_method(self):"
+        ],
+        "correct_option": 2,
+        "hint": "Class methods use a specific decorator."
+      },
+      {
+        "question": "In Flask, which function is used to start the development server?",
+        "options": [
+          "run_server()",
+          "start()",
+          "run()",
+          "execute()"
+        ],
+        "correct_option": 2,
+        "hint": "This function is called on the Flask application instance."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary purpose of the WSGI interface in Python web applications?",
+        "options": [
+          "To handle HTTP requests directly in the browser",
+          "To serve static files efficiently",
+          "To allow Python applications to communicate with web servers",
+          "To provide a framework for building RESTful APIs"
+        ],
+        "correct_option": 2,
+        "hint": "WSGI acts as a bridge between web servers and Python web applications."
+      },
+      {
+        "question": "In Django, which command is used to create a new application within a project?",
+        "options": [
+          "django-admin startproject",
+          "django-admin startapp",
+          "python manage.py runserver",
+          "django-admin createapp"
+        ],
+        "correct_option": 1,
+        "hint": "This command initializes a directory structure for a new app in Django."
+      },
+      {
+        "question": "Which of the following is true about Python's garbage collection mechanism?",
+        "options": [
+          "It uses a reference counting algorithm exclusively",
+          "It only runs when the program exits",
+          "It can be manually triggered using the gc module",
+          "It completely prevents memory leaks"
+        ],
+        "correct_option": 2,
+        "hint": "Python provides a module that can be used to interact with the garbage collector."
+      },
+      {
+        "question": "In Flask, how would you define a route that responds to both GET and POST methods?",
+        "options": [
+          "@app.route('/', methods=['GET', 'POST'])",
+          "@app.route('/', methods=['POST'])",
+          "@app.route('/', methods=['GET'])",
+          "@app.route('/')"
+        ],
+        "correct_option": 0,
+        "hint": "Flask routes can accept a list of HTTP methods."
+      },
+      {
+        "question": "What is the primary use of Django's ORM system?",
+        "options": [
+          "To perform raw SQL queries directly",
+          "To define the structure of the database",
+          "To map database tables to Python objects",
+          "To provide built-in user authentication"
+        ],
+        "correct_option": 2,
+        "hint": "Django's ORM abstracts the database access, allowing developers to work with Python objects instead of SQL."
+      }
+    ]
+  }
+}

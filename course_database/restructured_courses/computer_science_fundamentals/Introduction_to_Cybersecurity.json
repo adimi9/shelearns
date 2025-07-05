@@ -16,105 +16,149 @@
     "protection"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/Security",
-        "description": "Comprehensive guide on web security practices and protocols for developers."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
-        "description": "A comprehensive guide on implementing Content Security Policy (CSP) to enhance web application security."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security",
-        "description": "An introductory guide to website security fundamentals for web developers."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.w3schools.com/cybersecurity/",
-        "description": "An introductory guide to cybersecurity concepts and practices for protecting online information and systems."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-tutorial/",
-        "description": "A comprehensive tutorial on ethical hacking and cybersecurity fundamentals."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/ethical-hacking/what-is-cyber-security/",
-        "description": "An overview of cybersecurity fundamentals, including its importance, types, and practices for protecting digital information."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/introduction-to-cyber-physical-system/",
-        "description": "An introductory guide to the fundamental concepts and components of Cyber Physical Systems (CPS)."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/ethical-hacking/cyber-crime/",
-        "description": "An overview of cyber crime, its types, and preventive measures within the context of ethical hacking."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=ULGILG-ZhO0",
-      "https://www.youtube.com/watch?v=z5nc9MDbvkw",
-      "https://www.youtube.com/watch?v=b12JrM-6DBY",
-      "https://www.youtube.com/watch?v=agnDpN961xU",
-      "https://www.youtube.com/watch?v=JbEPJv7Ybcs"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the primary goal of cybersecurity?",
-      "options": [
-        "To protect the integrity of data",
-        "To increase system performance",
-        "To ensure hardware reliability",
-        "To manage network traffic"
+    "beginner": {
+      "docs": [
+        "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+        "https://developer.zendesk.com/api-reference/ticketing/introduction/",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html"
       ],
-      "correct_option": 0,
-      "hint": "Think about the main focus of cybersecurity in protecting data."
+      "notes": [
+        "https://www.netacad.com/courses/introduction-to-cybersecurity",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
+        "https://www.w3schools.com/cybersecurity/",
+        "https://mrcet.com/pdf/Lab%20Manuals/IT/CYBER%20SECURITY%20(R18A0521).pdf",
+        "https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-cybersecurity-ethics/",
+        "https://cs50.harvard.edu/cybersecurity/2023/notes/0/",
+        "https://www.cybrary.it/course/introduction-to-it-and-cybersecurity"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ULGILG-ZhO0",
+        "https://www.youtube.com/watch?v=z5nc9MDbvkw",
+        "https://www.youtube.com/watch?v=3oTLTijODA4",
+        "https://www.youtube.com/watch?v=sxqUFxtYZ9E",
+        "https://www.youtube.com/watch?v=JbEPJv7Ybcs",
+        "https://www.youtube.com/watch?v=kmJlnUfMd7I",
+        "https://www.youtube.com/watch?v=fd9LPDSeP_I",
+        "https://www.youtube.com/watch?v=QxFbPmCTEYM"
+      ]
     },
-    {
-      "question": "Which term describes a weakness in a system that can be exploited by a threat?",
-      "options": [
-        "Firewall",
-        "Encryption",
-        "Vulnerability",
-        "Authentication"
+    "intermediate": {
+      "docs": [
+        "https://www.akamai.com/products/api-security",
+        "https://dodcio.defense.gov/Portals/0/Documents/Library/CSResourceReferenceGuide.pdf",
+        "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP"
       ],
-      "correct_option": 2,
-      "hint": "It is a term used to identify a flaw that could be used by a threat actor."
+      "notes": [
+        "https://www.splunk.com/en_us/training/free-courses/overview.html",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
+        "https://mrcet.com/downloads/digital_notes/EEE/CyberSecurity.pdf",
+        "https://ebpf.io/",
+        "https://home.treasury.gov/system/files/136/Managing-Artificial-Intelligence-Specific-Cybersecurity-Risks-In-The-Financial-Services-Sector.pdf"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=2eEe5LnEbks",
+        "https://www.youtube.com/watch?v=WWva3v9Hhfk",
+        "https://www.youtube.com/watch?v=xutDqu_OiH8",
+        "https://www.youtube.com/watch?v=S3CZyu6WD7I",
+        "https://www.youtube.com/watch?v=zRDRbRM6B1s",
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=QjyekaB1ewg",
+        "https://www.youtube.com/watch?v=d31eg547Uuo",
+        "https://www.youtube.com/watch?v=qTaOZrDnMzQ",
+        "https://www.youtube.com/playlist?list=PLMYSjEaGLw_uut80YG0zyLsrPJ94Y8LU9"
+      ]
     },
-    {
-      "question": "What is the primary function of encryption in cybersecurity?",
-      "options": [
-        "To speed up network connections",
-        "To scramble data to prevent unauthorized access",
-        "To authenticate users",
-        "To manage software updates"
+    "advanced": {
+      "docs": [
+        "https://ebpf.io/what-is-ebpf/",
+        "https://dodcio.defense.gov/Portals/0/Documents/Library/CSResourceReferenceGuide.pdf",
+        "https://www.fortinet.com/training-certification",
+        "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ModelOverview_V2.0_FINAL2_20211202_508.pdf",
+        "https://www.dafcio.af.mil/"
       ],
-      "correct_option": 1,
-      "hint": "Encryption is used to make data unreadable to unauthorized parties."
-    },
-    {
-      "question": "Which method is often used to verify a user's identity before granting access to a system?",
-      "options": [
-        "Hashing",
-        "Phishing",
-        "Authorization",
-        "Authentication"
+      "notes": [
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
+        "https://mrcet.com/pdf/Lab%20Manuals/IT/CYBER%20SECURITY%20(R18A0521).pdf",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security",
+        "https://dotsecurity.com/insights/introduction-to-cybersecurity",
+        "https://www.sans.org/cyber-security-courses/",
+        "https://www.fortinet.com/training/cybersecurity-professionals"
       ],
-      "correct_option": 3,
-      "hint": "Think about the process of confirming a user's identity."
-    },
-    {
-      "question": "What is the purpose of a firewall in network security?",
-      "options": [
-        "To store backup data",
-        "To encrypt data in transit",
-        "To prevent unauthorized access to a network",
-        "To authenticate user identities"
-      ],
-      "correct_option": 2,
-      "hint": "Firewalls are used to block or allow traffic based on security rules."
+      "videos": [
+        "https://www.youtube.com/watch?v=2eEe5LnEbks",
+        "https://www.youtube.com/watch?v=Urluwrkhnik",
+        "https://www.youtube.com/watch?v=rz0RL4Xue-A",
+        "https://www.youtube.com/watch?v=uSPAWsDtJkM",
+        "https://m.youtube.com/watch?v=EKdZutMkmTE&pp=ygUMI2N5YmVyc2FsYXJ5",
+        "https://www.youtube.com/watch?v=jecEzjahRTQ",
+        "https://www.youtube.com/watch?v=DGo0IvE44sY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=HZzXbxajz80",
+        "https://www.youtube.com/watch?v=CCIrntyqe64&pp=0gcJCfwAo7VqN5tD"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary goal of cybersecurity?",
+        "options": [
+          "To protect the integrity of data",
+          "To increase system performance",
+          "To ensure hardware reliability",
+          "To manage network traffic"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the main focus of cybersecurity in protecting data."
+      },
+      {
+        "question": "Which term describes a weakness in a system that can be exploited by a threat?",
+        "options": [
+          "Firewall",
+          "Encryption",
+          "Vulnerability",
+          "Authentication"
+        ],
+        "correct_option": 2,
+        "hint": "It is a term used to identify a flaw that could be used by a threat actor."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary function of encryption in cybersecurity?",
+        "options": [
+          "To speed up network connections",
+          "To scramble data to prevent unauthorized access",
+          "To authenticate users",
+          "To manage software updates"
+        ],
+        "correct_option": 1,
+        "hint": "Encryption is used to make data unreadable to unauthorized parties."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which method is often used to verify a user's identity before granting access to a system?",
+        "options": [
+          "Hashing",
+          "Phishing",
+          "Authorization",
+          "Authentication"
+        ],
+        "correct_option": 3,
+        "hint": "Think about the process of confirming a user's identity."
+      },
+      {
+        "question": "What is the purpose of a firewall in network security?",
+        "options": [
+          "To store backup data",
+          "To encrypt data in transit",
+          "To prevent unauthorized access to a network",
+          "To authenticate user identities"
+        ],
+        "correct_option": 2,
+        "hint": "Firewalls are used to block or allow traffic based on security rules."
+      }
+    ]
+  }
 }

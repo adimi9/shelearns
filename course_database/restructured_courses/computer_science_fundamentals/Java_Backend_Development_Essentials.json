@@ -24,107 +24,150 @@
     "oop"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://firebase.google.com/docs/database",
+        "https://docs.aws.amazon.com/",
+        "https://docs.oracle.com/en/java/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://m.youtube.com/watch?v=tZvjSl9dswg&t=08m23s",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.w3schools.com/java/",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://lp.jetbrains.com/academy/learn-java/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/watch?v=tZvjSl9dswg",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=xdeFYtP6-T0"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://firebase.google.com/docs",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+        "https://docs.temporal.io/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://m.youtube.com/watch?v=mRATEFmDmeA&pp=ygUGI2FlbW9y",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.freecodecamp.org/news/design-pattern-for-modern-backend-development-and-use-cases/",
+        "https://www.youtube.com/watch?v=31KTdfRH6nY&pp=0gcJCfwAo7VqN5tD"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/watch?v=31KTdfRH6nY&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=mRATEFmDmeA&pp=ygUGI2FlbW9y",
+        "https://www.youtube.com/watch?v=Gx4iBLKLVHk",
+        "https://www.youtube.com/watch?v=FtaQSdrl7YA",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=uoOwVWVl_eU&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=PeojZFlD8yM"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://daily.dev/blog/how-to-learn-java-step-by-step-core-concepts",
+        "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+        "https://developer.android.com/get-started/overview",
+        "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://daily.dev/blog/how-to-learn-java-step-by-step-core-concepts",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.devoxify.com/posts/the-definitive-guide-to-java-backend-developer-career-path/",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=8sXRyHI3bLw",
+        "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=dzUc9vrsldM",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=ioPagXHCRjc&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=eOQN8DJ4Lrg",
+        "https://www.youtube.com/watch?v=aS0t9HTO5V4"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        "description": "Comprehensive documentation and resources for learning and using JavaScript on the web."
+        "question": "What is the primary purpose of using Java in enterprise development?",
+        "options": [
+          "Ease of use in small-scale applications",
+          "Support for functional programming",
+          "Strong typing and robustness",
+          "Faster execution than C++"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the reliability and scalability required in enterprise applications."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/",
-        "description": "A comprehensive resource for web developers containing documentation, guides, and tutorials on web technologies and APIs."
-      },
-      {
-        "url": "https://reactjs.org/",
-        "description": "Official documentation and resources for building user interfaces with React, a JavaScript library."
+        "question": "Which characteristic of Java makes it suitable for Android development?",
+        "options": [
+          "Interpreted language",
+          "Garbage collection",
+          "Platform independence",
+          "Dynamic typing"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the ability to run on different hardware without modification."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.w3schools.com/java/",
-        "description": "A comprehensive tutorial for learning Java programming, covering syntax, data types, classes, and more."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/java/java/",
-        "description": "An extensive guide covering Java programming fundamentals, concepts, and advanced topics for learners and developers."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/proofs-for-the-derivatives-of-e%CB%A3-and-lnx-advanced-differentiation/",
-        "description": "This resource provides detailed proofs for the derivatives of exponential functions and logarithms, focusing on \\( e^x \\) and \\(\\ln(x)\\)."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/java-tutorial/",
-        "description": "A comprehensive guide for learning Java programming, covering basic to advanced concepts with examples."
-      },
-      {
-        "url": "https://www.w3schools.com/js/",
-        "description": "Comprehensive tutorial and reference guide for learning JavaScript programming language basics and advanced concepts."
+        "question": "What feature of Java supports its object-oriented programming paradigm?",
+        "options": [
+          "Pointers",
+          "Classes and objects",
+          "Direct memory access",
+          "Operator overloading"
+        ],
+        "correct_option": 1,
+        "hint": "Focus on the foundational elements of OOP in Java."
       }
     ],
-    "videos": [
-      "https://www.youtube.com/watch?v=drQK8ciCAjY",
-      "https://www.youtube.com/watch?v=GdzRzWymT4c&pp=0gcJCf0Ao7VqN5tD",
-      "https://www.youtube.com/watch?v=eIrMbAQSU34",
-      "https://www.youtube.com/watch?v=xTtL8E4LzTQ",
-      "https://www.youtube.com/watch?v=b5l5UodFzMo"
+    "advanced": [
+      {
+        "question": "Why might a developer choose Java for enterprise development over dynamically typed languages?",
+        "options": [
+          "Faster development speed",
+          "Better integration with web technologies",
+          "Stronger type checking at compile time",
+          "Greater community support"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the benefits of catching errors at compile time."
+      },
+      {
+        "question": "Which Java feature enhances code reliability in large software systems?",
+        "options": [
+          "Manual memory management",
+          "Strong typing",
+          "Weak typing",
+          "Scripting capabilities"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how data types are handled to prevent errors."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is the primary purpose of using Java in enterprise development?",
-      "options": [
-        "Ease of use in small-scale applications",
-        "Support for functional programming",
-        "Strong typing and robustness",
-        "Faster execution than C++"
-      ],
-      "correct_option": 2,
-      "hint": "Consider the reliability and scalability required in enterprise applications."
-    },
-    {
-      "question": "Which characteristic of Java makes it suitable for Android development?",
-      "options": [
-        "Interpreted language",
-        "Garbage collection",
-        "Platform independence",
-        "Dynamic typing"
-      ],
-      "correct_option": 2,
-      "hint": "Think about the ability to run on different hardware without modification."
-    },
-    {
-      "question": "What feature of Java supports its object-oriented programming paradigm?",
-      "options": [
-        "Pointers",
-        "Classes and objects",
-        "Direct memory access",
-        "Operator overloading"
-      ],
-      "correct_option": 1,
-      "hint": "Focus on the foundational elements of OOP in Java."
-    },
-    {
-      "question": "Why might a developer choose Java for enterprise development over dynamically typed languages?",
-      "options": [
-        "Faster development speed",
-        "Better integration with web technologies",
-        "Stronger type checking at compile time",
-        "Greater community support"
-      ],
-      "correct_option": 2,
-      "hint": "Consider the benefits of catching errors at compile time."
-    },
-    {
-      "question": "Which Java feature enhances code reliability in large software systems?",
-      "options": [
-        "Manual memory management",
-        "Strong typing",
-        "Weak typing",
-        "Scripting capabilities"
-      ],
-      "correct_option": 1,
-      "hint": "Think about how data types are handled to prevent errors."
-    }
-  ],
   "preferred_if": [
     "User aims for enterprise development",
     "Needs strong typing early on"

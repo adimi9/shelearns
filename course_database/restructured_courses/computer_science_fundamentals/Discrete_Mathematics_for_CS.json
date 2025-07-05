@@ -16,105 +16,150 @@
     "foundations"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/display",
-        "description": "An in-depth guide on the CSS 'display' property, detailing its syntax, usage, and various display values for web layout."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transition",
-        "description": "This resource explains the CSS transition property, detailing how to create smooth transitions between styles on web elements."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter",
-        "description": "An overview of the CSS `filter` property, detailing its syntax, usage, and effects on visual elements."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/engineering-mathematics/discrete-mathematics-tutorial/",
-        "description": "A comprehensive guide to understanding key concepts and applications in discrete mathematics."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/engineering-mathematics/engineering-mathematics-tutorials/",
-        "description": "This resource offers comprehensive tutorials on various topics in engineering mathematics."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/discrete-mathematics-the-pigeonhole-principle/",
-        "description": "An explanation of the Pigeonhole Principle in discrete mathematics, including its applications and examples."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/maths/last-minute-notes-discrete-mathematics/",
-        "description": "A concise set of last-minute revision notes covering key concepts in discrete mathematics."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/engineering-mathematics/functions-in-discrete-mathematics/",
-        "description": "An overview of functions in discrete mathematics, covering definitions, types, and properties."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=bOCHTHkBoAs",
-      "https://www.youtube.com/watch?v=2SpuBqvNjHI",
-      "https://www.youtube.com/watch?v=WpWIIixqBGE",
-      "https://www.youtube.com/watch?v=q4L-wUF3yig",
-      "https://www.youtube.com/watch?v=eSFA1Fp8jcU"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What is the contrapositive of the statement 'If it rains, then the ground is wet'?",
-      "options": [
-        "If the ground is not wet, then it does not rain.",
-        "If the ground is wet, then it rains.",
-        "If it rains, then the ground is not wet.",
-        "If it does not rain, the ground is wet."
+    "beginner": {
+      "docs": [
+        "https://uvacsadvising.org/courses.html",
+        "https://news.ycombinator.com/item?id=41267478",
+        "https://github.com/ossu/computer-science"
       ],
-      "correct_option": 0,
-      "hint": "The contrapositive of 'If P, then Q' is 'If not Q, then not P'."
+      "notes": [
+        "https://www.coursera.org/specializations/discrete-mathematics",
+        "http://www.eecs70.org/",
+        "https://www.cs.yale.edu/homes/aspnes/classes/202/notes.pdf",
+        "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+        "https://www.cip.ifi.lmu.de/~grinberg/t/23wd/",
+        "https://libguides.brooklyn.cuny.edu/cisc2210-briskman"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=tI82c6yUwfo",
+        "https://www.youtube.com/watch?v=UwYJUKVc-Hs",
+        "https://www.youtube.com/watch?v=MYCYC55f2SE",
+        "https://www.youtube.com/watch?v=1WVfLVv-olw",
+        "https://www.youtube.com/watch?v=8hhhiloqSIY",
+        "https://m.youtube.com/watch?v=FMh8qNV3PHk",
+        "https://www.youtube.com/watch?v=x1aLs7DHWQw",
+        "https://www.youtube.com/watch?v=Qzd7VvDyiEI",
+        "https://www.youtube.com/watch?v=aVSYOI45Gy0",
+        "https://www.youtube.com/watch?v=8xvHsh3MGvg"
+      ]
     },
-    {
-      "question": "Which of the following represents the union of sets A and B?",
-      "options": [
-        "The set of elements that are in either A or B or both.",
-        "The set of elements that are in both A and B.",
-        "The set of elements that are only in A.",
-        "The set of elements that are only in B."
+    "intermediate": {
+      "docs": [
+        "https://uvacsadvising.org/courses.html",
+        "https://github.com/ossu/computer-science",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/display",
+        "https://matheducators.stackexchange.com/questions/20830/should-mathematical-logic-be-included-in-a-discrete-mathematics-course-for-compu"
       ],
-      "correct_option": 0,
-      "hint": "Union combines all elements from both sets without duplication."
+      "notes": [
+        "https://calnewport.com/case-study-how-i-got-the-highest-grade-in-my-discrete-math-class/",
+        "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+        "https://www.cs.yale.edu/homes/aspnes/classes/202/notes.pdf",
+        "https://www2.cs.uh.edu/~arjun/courses/ds/DiscMaths4CompSc.pdf",
+        "https://github.com/chuanyangjin/NYU-Course-Notes-and-Resources",
+        "https://matheducators.stackexchange.com/questions/18801/whats-the-point-of-learning-equivalence-relations"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=oJhAPsy9hBU",
+        "https://www.youtube.com/watch?v=YFZzLQN5qOU",
+        "https://www.youtube.com/watch?v=VCEYeB3bRW0&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=T68vN1FNY4o",
+        "https://www.youtube.com/watch?v=fxSRGJz5-Gw",
+        "https://www.youtube.com/watch?v=A3Ffwsnad0k",
+        "https://www.youtube.com/watch?v=t_3ACuzEe_8",
+        "https://m.youtube.com/watch?v=honkPbYEc7Q&pp=ygUSI3JlY3VycmVuY2VzdXBwb3J0"
+      ]
     },
-    {
-      "question": "What is a bijective function?",
-      "options": [
-        "A function that is both injective and surjective.",
-        "A function that is only injective.",
-        "A function that is only surjective.",
-        "A function that is neither injective nor surjective."
+    "advanced": {
+      "docs": [
+        "https://uvacsadvising.org/courses.html",
+        "https://github.com/ossu/computer-science",
+        "https://www.numberanalytics.com/blog/finite-sets-discrete-math-guide",
+        "https://github.com/jwasham/coding-interview-university",
+        "https://www.codecademy.com/catalog/subject/computer-science"
       ],
-      "correct_option": 0,
-      "hint": "A bijective function is also known as a one-to-one correspondence."
-    },
-    {
-      "question": "How many ways can you arrange the letters in the word 'DISCRETE'?",
-      "options": [
-        "40,320",
-        "5,040",
-        "20,160",
-        "2,520"
+      "notes": [
+        "https://github.com/ossu/computer-science",
+        "https://calnewport.com/case-study-how-i-got-the-highest-grade-in-my-discrete-math-class/",
+        "https://teachyourselfcs.com/",
+        "https://www.geeksforgeeks.org/engineering-mathematics/discrete-mathematics-tutorial/",
+        "https://www.codecademy.com/catalog/language/python",
+        "https://guide.berkeley.edu/courses/compsci/"
       ],
-      "correct_option": 1,
-      "hint": "Use the formula for permutations of a multiset where some items are repeated."
-    },
-    {
-      "question": "In probability, what is the complement of an event A?",
-      "options": [
-        "The event that A does not occur.",
-        "The event that A occurs.",
-        "The event that A and another event B occur together.",
-        "The event that neither A nor any other event occurs."
-      ],
-      "correct_option": 0,
-      "hint": "The complement of an event is when the event does not happen."
+      "videos": [
+        "https://www.youtube.com/watch?v=AaBnUBQG__o",
+        "https://www.youtube.com/watch?v=UwYJUKVc-Hs",
+        "https://www.youtube.com/watch?v=_CXwZ5xyFno",
+        "https://www.youtube.com/watch?v=2RDrcR7urdA",
+        "https://www.youtube.com/watch?v=vEM4YnRFGoA",
+        "https://www.youtube.com/watch?v=ivR4y6z_DaY",
+        "https://m.youtube.com/watch?v=xAeiXy8-9Y8&t=6s",
+        "https://www.youtube.com/channel/UCRPMAqdtSgd0Ipeef7iFsKw",
+        "https://www.youtube.com/c/ChrisTralie",
+        "https://www.youtube.com/@Samanwayam"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the contrapositive of the statement 'If it rains, then the ground is wet'?",
+        "options": [
+          "If the ground is not wet, then it does not rain.",
+          "If the ground is wet, then it rains.",
+          "If it rains, then the ground is not wet.",
+          "If it does not rain, the ground is wet."
+        ],
+        "correct_option": 0,
+        "hint": "The contrapositive of 'If P, then Q' is 'If not Q, then not P'."
+      },
+      {
+        "question": "Which of the following represents the union of sets A and B?",
+        "options": [
+          "The set of elements that are in either A or B or both.",
+          "The set of elements that are in both A and B.",
+          "The set of elements that are only in A.",
+          "The set of elements that are only in B."
+        ],
+        "correct_option": 0,
+        "hint": "Union combines all elements from both sets without duplication."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a bijective function?",
+        "options": [
+          "A function that is both injective and surjective.",
+          "A function that is only injective.",
+          "A function that is only surjective.",
+          "A function that is neither injective nor surjective."
+        ],
+        "correct_option": 0,
+        "hint": "A bijective function is also known as a one-to-one correspondence."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "How many ways can you arrange the letters in the word 'DISCRETE'?",
+        "options": [
+          "40,320",
+          "5,040",
+          "20,160",
+          "2,520"
+        ],
+        "correct_option": 1,
+        "hint": "Use the formula for permutations of a multiset where some items are repeated."
+      },
+      {
+        "question": "In probability, what is the complement of an event A?",
+        "options": [
+          "The event that A does not occur.",
+          "The event that A occurs.",
+          "The event that A and another event B occur together.",
+          "The event that neither A nor any other event occurs."
+        ],
+        "correct_option": 0,
+        "hint": "The complement of an event is when the event does not happen."
+      }
+    ]
+  }
 }

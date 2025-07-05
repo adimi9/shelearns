@@ -1,0 +1,499 @@
+{
+  "id": "CS13",
+  "name": "Mastering Functional Programming in Backend Development",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Functional Programming",
+  "topics": [
+    "Introduction to Functional Programming",
+    "Core Concepts: Pure Functions and Immutability",
+    "Lambda Calculus and Functional Languages",
+    "Higher-Order Functions and Closures",
+    "Managing State and Side Effects",
+    "Functional Design Patterns",
+    "Concurrency in Functional Programming",
+    "Building Scalable Backend Systems with Functional Paradigms"
+  ],
+  "recommended": false,
+  "tags": [
+    "functional-programming",
+    "backend",
+    "lambda-calculus",
+    "immutable-data",
+    "higher-order-functions"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "Comprehensive documentation and resources for JavaScript programming on MDN Web Docs.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://flask.palletsprojects.com/",
+          "description": "Official documentation for Flask, a lightweight WSGI web application framework in Python.",
+          "title": "Welcome to Flask — Flask Documentation (3.1.x)"
+        },
+        {
+          "url": "https://firebase.google.com/docs",
+          "description": "Official documentation for Firebase, covering its features and integration.",
+          "title": "Firebase Documentation"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
+          "description": "An introductory overview of the C# programming language and its key features.",
+          "title": "C# docs - get started, tutorials, reference. | Microsoft Learn"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+          "description": "A tutorial on setting up and using Docker for containerized applications.",
+          "title": "Back-End Web Development (Tutorial for Beginners)",
+          "duration": "188m"
+        },
+        {
+          "url": "https://pensamientos.hashnode.dev/a-beginners-journey-through-the-clojure-web-development-landscape",
+          "description": "An introductory guide to navigating Clojure web development for beginners.",
+          "title": "Vercel Security Checkpoint"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "description": "A complete Python programming course for beginners on YouTube.",
+          "title": "Python Full Course for Beginners",
+          "duration": "374m"
+        },
+        {
+          "url": "https://learntocodewith.me/posts/backend-development/",
+          "description": "An introductory guide to understanding backend development.",
+          "title": "The Beginner's Guide to Backend Development"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+          "description": "An informative video tutorial on mastering Docker and Kubernetes for DevOps professionals.",
+          "title": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
+          "duration": "62m"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "title": "Python Full Course for Beginners",
+          "duration": "374m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+          "title": "Back-End Web Development (Tutorial for Beginners)",
+          "duration": "188m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+          "title": "Python Django Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours",
+          "duration": "199m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zuKbR4Q428o",
+          "title": "JavaScript Unit Testing Tutorial for Beginners",
+          "duration": "48m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+          "title": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
+          "duration": "62m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5QZYGU0C2OA",
+          "title": "Functional Programming | Full Course",
+          "duration": "147m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dzUc9vrsldM",
+          "title": "Full 2025 Kotlin Crash Course For Beginners",
+          "duration": "191m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=f2EqECiTBL8",
+          "title": "Node.js Full Course for Beginners | Complete All-in-One Tutorial | 7 Hours",
+          "duration": "410m"
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "Comprehensive documentation and resources for JavaScript programming on the web.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/power-platform/power-fx/overview",
+          "description": "An overview of Power Fx, the low-code programming language for Microsoft Power Platform.",
+          "title": "Microsoft Power Fx overview - Power Platform | Microsoft Learn"
+        },
+        {
+          "url": "https://beam.apache.org/documentation/programming-guide/",
+          "description": "A detailed programming guide for using Apache Beam to build data processing pipelines.",
+          "title": "Beam Programming Guide"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://edw.is/learning-vulkan/",
+          "description": "An in-depth tutorial series on learning Vulkan graphics API from scratch.",
+          "title": "How I learned Vulkan and wrote a small game engine with it"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/power-platform/power-fx/overview",
+          "description": "An overview of Microsoft Power Fx, a low-code programming language for the Power Platform.",
+          "title": "Microsoft Power Fx overview - Power Platform | Microsoft Learn"
+        },
+        {
+          "url": "https://blog.boot.dev/education/state-of-learning-to-code-2024/",
+          "description": "An analysis of the current trends and challenges in learning to code in 2024.",
+          "title": "The State of Learning to Code - 2024 Report | Boot.dev"
+        },
+        {
+          "url": "https://rockthejvm.com/articles/http4s-unleashing-the-power-of-http-apis-library",
+          "description": "An in-depth exploration of building HTTP APIs using the Http4s library in Scala.",
+          "title": "http4s: Unleashing the Power of HTTP APIs Library | Rock the JVM"
+        },
+        {
+          "url": "https://pensamientos.hashnode.dev/a-beginners-journey-through-the-clojure-web-development-landscape",
+          "description": "An introductory guide to navigating web development using Clojure for beginners.",
+          "title": "Vercel Security Checkpoint"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/aditi-chourasia-a2a572121_hello-everyone-algorithmhq-now-has-a-github-activity-7260932543733006337-KnZU",
+          "description": "Announcement of AlgorithmHQ's new GitHub repository for code sharing and collaboration.",
+          "title": "Hello Everyone! | Aditi Chourasia"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "title": "Python Full Course for Beginners",
+          "duration": "374m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zuKbR4Q428o",
+          "title": "JavaScript Unit Testing Tutorial for Beginners",
+          "duration": "48m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
+          "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
+          "duration": "305m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XxXyfkrP298",
+          "title": "Modern React Web Development Full Course - 12 Hours | 4 Real Industry Web Applications",
+          "duration": "720m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-lgtb-YSUWE&pp=0gcJCfwAo7VqN5tD",
+          "title": "Elixir Programming Introduction - Complete Tutorial!",
+          "duration": "95m"
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=CcBHZ0t2Qwc&pp=ygULI2phdmFzY3Jpb3Q%3D",
+          "title": "Build and Deploy a Full Stack TikTok Clone Application and Master TypeScript | Full Course (Part 1)",
+          "duration": "192m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bZzyPscbtI8",
+          "title": "Building AI Agents in Pure Python - Beginner Course",
+          "duration": "46m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lbPThhcfn10",
+          "title": "Golang Programming Full Course  | Learn  in 2025 | #golang #golangtutorial",
+          "duration": "180m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uoOwVWVl_eU",
+          "title": "Generative AI for Java Developers: From Zero to Hero 🦸",
+          "duration": "21m"
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+          "description": "A detailed reference guide for JavaScript programming language concepts and syntax.",
+          "title": "JavaScript | MDN"
+        },
+        {
+          "url": "https://github.com/sger/RustBooks",
+          "description": "A curated list of books for learning and mastering the Rust programming language.",
+          "title": "GitHub - sger/RustBooks: List of Rust books"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
+          "description": "An introductory guide to the C# programming language and its features.",
+          "title": "C# docs - get started, tutorials, reference. | Microsoft Learn"
+        },
+        {
+          "url": "https://github.com/dariubs/GoBooks",
+          "description": "A curated list of books for learning the Go programming language.",
+          "title": "GitHub - dariubs/GoBooks: List of Golang books"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
+          "description": "An expert guide offering strategies and resources for learning Python effectively.",
+          "title": "Just a moment..."
+        },
+        {
+          "url": "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
+          "description": "An ultimate guide to mastering Express.js 5 for backend development.",
+          "title": "ExpressJS Tutorial: The Ultimate Guide (2023) - Mastering Backend"
+        },
+        {
+          "url": "https://www.theseniordev.com/blog/senior-backend-developer-roadmap-2024-a-complete-guide",
+          "description": "A complete guide outlining the roadmap for becoming a senior backend developer in 2024.",
+          "title": "Senior Backend Developer Roadmap 2025: A Complete Guide · theSeniorDev"
+        },
+        {
+          "url": "https://roadmap.sh/python",
+          "description": "An interactive roadmap for learning Python, covering essential skills and tools.",
+          "title": "Learn to become a modern Python developer"
+        },
+        {
+          "url": "https://github.com/dariubs/GoBooks",
+          "description": "A curated list of books and resources for learning and mastering Go programming.",
+          "title": "GitHub - dariubs/GoBooks: List of Golang books"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=dzUc9vrsldM",
+          "title": "Full 2025 Kotlin Crash Course For Beginners",
+          "duration": "191m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=N2GWXuj_IWg",
+          "title": "Mastering Go: A Comprehensive Guide to Golang Programming",
+          "duration": "234m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+          "title": "Python Full Course for Beginners",
+          "duration": "374m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
+          "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
+          "duration": "305m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+          "title": "React Tutorial for Beginners",
+          "duration": "80m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+          "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
+          "duration": "1274m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+          "title": "Learn SQL Beginner to Advanced in Under 4 Hours",
+          "duration": "244m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+          "title": "Java Full Course for Beginners",
+          "duration": "150m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CzRQ9mnmh44",
+          "title": "The Complete Dart & Flutter Developer Course | Full Tutorial For Beginners to Advanced",
+          "duration": "1247m"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+          "title": "Python Django Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours",
+          "duration": "199m"
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a pure function in functional programming?",
+        "options": [
+          "A function that always produces the same output for the same input and has no side effects",
+          "A function that can modify global variables",
+          "A function that only works with numerical data",
+          "A function that requires no inputs"
+        ],
+        "correct_option": 0,
+        "hint": "Think about functions that don't depend on or modify external states."
+      },
+      {
+        "question": "Which concept in functional programming emphasizes not changing data after it's created?",
+        "options": [
+          "Concurrency",
+          "Immutability",
+          "Recursion",
+          "Inheritance"
+        ],
+        "correct_option": 1,
+        "hint": "It's about maintaining the original state of data."
+      },
+      {
+        "question": "Which of the following is a characteristic of higher-order functions?",
+        "options": [
+          "They can only be used in object-oriented programming",
+          "They return other functions or take functions as arguments",
+          "They require a special programming language",
+          "They must have more than one parameter"
+        ],
+        "correct_option": 1,
+        "hint": "Think about functions that can manipulate other functions."
+      },
+      {
+        "question": "In functional programming, what is the purpose of closures?",
+        "options": [
+          "To encapsulate the scope of variables",
+          "To automatically manage memory",
+          "To optimize loops",
+          "To handle exceptions"
+        ],
+        "correct_option": 0,
+        "hint": "Closures help retain access to variables from a parent function's scope."
+      },
+      {
+        "question": "Which of the following is a benefit of using functional programming for building scalable backend systems?",
+        "options": [
+          "Easier management of state and side effects",
+          "Increased complexity in code",
+          "Mandatory use of recursion",
+          "Limited language support"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how functional programming can simplify state management."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a defining characteristic of pure functions in functional programming?",
+        "options": [
+          "They modify global variables.",
+          "They have side effects.",
+          "They always produce the same output given the same input.",
+          "They rely on mutable state."
+        ],
+        "correct_option": 2,
+        "hint": "Pure functions are consistent in their output and have no side effects."
+      },
+      {
+        "question": "In the context of functional programming, what is immutability?",
+        "options": [
+          "The ability to change data structures in place.",
+          "The inability to change state after it has been created.",
+          "A pattern that allows for side effects.",
+          "A type of variable that can be reassigned."
+        ],
+        "correct_option": 1,
+        "hint": "Immutability prevents data from being altered after its initial creation."
+      },
+      {
+        "question": "Which concept allows functions to be passed as arguments or returned as values in functional programming?",
+        "options": [
+          "Recursion",
+          "Higher-order functions",
+          "Immutable variables",
+          "State management"
+        ],
+        "correct_option": 1,
+        "hint": "This concept enables functions to operate on other functions."
+      },
+      {
+        "question": "What is a closure in functional programming?",
+        "options": [
+          "A function with no parameters.",
+          "A function that captures the local state of its environment.",
+          "A type of loop used for iteration.",
+          "A way to handle errors in a program."
+        ],
+        "correct_option": 1,
+        "hint": "Closures are functions that remember the environment in which they were created."
+      },
+      {
+        "question": "How does functional programming typically handle concurrency?",
+        "options": [
+          "By using threads and locks extensively.",
+          "Through mutable shared state.",
+          "By avoiding shared state and using pure functions.",
+          "By relying on imperative paradigms."
+        ],
+        "correct_option": 2,
+        "hint": "Functional programming avoids shared mutable state to handle concurrency effectively."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a core characteristic of pure functions in functional programming?",
+        "options": [
+          "They depend on external state or variables.",
+          "They can have side effects.",
+          "Their output is solely determined by their input values.",
+          "They can modify their input parameters."
+        ],
+        "correct_option": 2,
+        "hint": "Pure functions yield the same output given the same input, without side effects."
+      },
+      {
+        "question": "Which of the following is an example of a higher-order function?",
+        "options": [
+          "A function that multiplies two numbers.",
+          "A function that returns another function.",
+          "A function that has no parameters.",
+          "A function that only performs logging."
+        ],
+        "correct_option": 1,
+        "hint": "Higher-order functions can take other functions as arguments or return them."
+      },
+      {
+        "question": "How does immutability enhance concurrency in functional programming?",
+        "options": [
+          "By allowing shared state modifications without locks.",
+          "By preventing any form of data sharing.",
+          "By ensuring that state changes are visible to all threads immediately.",
+          "By eliminating race conditions through state isolation."
+        ],
+        "correct_option": 3,
+        "hint": "Immutability ensures that shared data cannot be modified, preventing race conditions."
+      },
+      {
+        "question": "Which functional programming concept helps manage side effects by encapsulating actions?",
+        "options": [
+          "Monads",
+          "Pure functions",
+          "Recursion",
+          "Pattern matching"
+        ],
+        "correct_option": 0,
+        "hint": "This concept is often used in functional programming to handle operations like I/O, exceptions, or state."
+      },
+      {
+        "question": "In functional programming, how is state typically managed without mutable variables?",
+        "options": [
+          "Using global variables to hold state.",
+          "By passing updated state as arguments to functions.",
+          "By frequently changing the state within functions.",
+          "By using loops to mutate state."
+        ],
+        "correct_option": 1,
+        "hint": "Functional programming avoids mutable state by transforming data through function calls."
+      }
+    ]
+  },
+  "preferred_if": [
+    "User interested in languages like Haskell, Lisp, or advanced JavaScript"
+  ]
+}

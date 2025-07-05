@@ -1,0 +1,273 @@
+{
+  "id": "MD8",
+  "name": "App Store & Google Play Publishing",
+  "category": "Mobile Development",
+  "primary_tech": "App Publishing",
+  "topics": [
+    "Developer Accounts Setup",
+    "App Signing & Certificates",
+    "Store Listings & Metadata (ASO)",
+    "Beta Testing & Phased Rollouts"
+  ],
+  "recommended": true,
+  "tags": [
+    "deployment",
+    "marketing",
+    "publishing"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://developer.android.com/distribute/console",
+        "https://docs.expo.dev/submit/introduction/",
+        "https://developer.android.com/studio/publish/app-signing"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=oBWBDaqNuws",
+        "https://m.youtube.com/watch?v=CHoptvrXvjg",
+        "https://www.youtube.com/watch?v=5ANuDZjhbFY",
+        "https://m.youtube.com/watch?v=C2DBDZKkLss&t=34s",
+        "https://support.google.com/googleplay/android-developer/answer/9859152?hl=en",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://play.google.com/store/apps/details?id=com.csnmedia.android.bg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=CHoptvrXvjg",
+        "https://www.youtube.com/watch?v=oBWBDaqNuws",
+        "https://m.youtube.com/watch?v=C2DBDZKkLss&t=34s",
+        "https://www.youtube.com/watch?v=5ANuDZjhbFY",
+        "https://www.youtube.com/watch?v=DNXME6ANmR4",
+        "https://www.youtube.com/watch?v=cBn4CvkYHNY",
+        "https://www.youtube.com/watch?v=ieOdT-p603Y&pp=ygUPI3JlbGVhc2VmbHV0dGVy",
+        "https://m.youtube.com/watch?v=ap7sDO-Q9tU",
+        "https://www.youtube.com/watch?v=viZuCYJC82w&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developers.google.com/apis-explorer",
+        "https://developer.android.com/google/play/developer-api",
+        "https://docs.expo.dev/submit/android/",
+        "https://developer.android.com/google/play/requirements/target-sdk",
+        "https://developer.amazon.com/docs/in-app-purchasing/iap-overview.html"
+      ],
+      "notes": [
+        "https://support.google.com/googleplay/android-developer/answer/9859654?hl=en",
+        "https://docs.codemagic.io/yaml-publishing/google-play/",
+        "https://developer.android.com/google/play/developer-api",
+        "https://support.google.com/googleplay/work/answer/10637198?hl=EN",
+        "https://docs.codemagic.io/yaml-publishing/app-store-connect/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=LAv_mw7-eyg",
+        "https://www.youtube.com/watch?v=Fh4UyfqeB4Y",
+        "https://www.youtube.com/watch?v=yH3DyG7jqRo",
+        "https://www.youtube.com/watch?v=K0t-RCSlasE&pp=ygUJI2FwcGJ1aWxk",
+        "https://www.youtube.com/watch?v=iWPjBwXy_Io",
+        "https://www.youtube.com/watch?v=HrILchHvMUA",
+        "https://www.youtube.com/watch?v=GQuQPm40kys",
+        "https://www.youtube.com/watch?v=6VejFu1nEYs&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=2F-yiSTPWOs&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=oLFkVPi9WU8&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.android.com/google/play/billing/subscriptions",
+        "https://developers.meta.com/horizon/",
+        "https://developer.android.com/training/app-links"
+      ],
+      "notes": [
+        "https://m.youtube.com/watch?v=ieWtCaWkzYQ&t=5m26s",
+        "https://www.youtube.com/watch?v=kLfcAzAHA6o",
+        "https://copperdigital.com/blog/a-step-by-step-guide-to-upload-app-to-google-play-store/",
+        "https://www.youtube.com/watch?v=PqOZBpeWK7o",
+        "https://www.yorknotes.com/alevel/english-literature/hamlet-advanced/overview",
+        "https://www.youtube.com/watch?v=YaG1O5kDsho"
+      ],
+      "videos": [
+        "https://m.youtube.com/watch?v=ieWtCaWkzYQ&t=5m26s",
+        "https://www.youtube.com/watch?v=M3V9HU1F494",
+        "https://www.youtube.com/watch?v=kLfcAzAHA6o",
+        "https://www.youtube.com/watch?v=T1-mLlUZqdw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=PqOZBpeWK7o",
+        "https://www.youtube.com/watch?v=-Aj8IlC0IEA",
+        "https://www.youtube.com/watch?v=RIqfv-qT-Rg&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Cqo0PVhBFYI"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the first step in publishing an app on the App Store or Google Play?",
+        "options": [
+          "Creating a developer account",
+          "Designing the app interface",
+          "Writing the app code",
+          "Testing the app"
+        ],
+        "correct_option": 0,
+        "hint": "This step involves setting up an account to manage your apps on the respective store."
+      },
+      {
+        "question": "Which of the following is essential for app security during the publishing process?",
+        "options": [
+          "App signing and certificates",
+          "User reviews",
+          "In-app purchases",
+          "Social media integration"
+        ],
+        "correct_option": 0,
+        "hint": "This process involves using cryptographic keys to verify the app's identity."
+      },
+      {
+        "question": "What does ASO stand for in the context of app publishing?",
+        "options": [
+          "App Store Optimization",
+          "Application Security Online",
+          "App Service Online",
+          "Advanced Software Operations"
+        ],
+        "correct_option": 0,
+        "hint": "It involves improving the app's visibility in the store search results."
+      },
+      {
+        "question": "What is the purpose of beta testing in the app publishing process?",
+        "options": [
+          "To receive user feedback before full release",
+          "To increase app downloads",
+          "To enhance app graphics",
+          "To reduce app size"
+        ],
+        "correct_option": 0,
+        "hint": "This phase allows you to identify bugs and gather early user feedback."
+      },
+      {
+        "question": "What is a phased rollout in app publishing?",
+        "options": [
+          "Releasing the app to a limited audience first",
+          "Launching the app on multiple platforms simultaneously",
+          "Reducing the app size before release",
+          "Promoting the app on social media"
+        ],
+        "correct_option": 0,
+        "hint": "This method helps in monitoring the app's performance and making necessary adjustments."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of setting up a developer account for app publishing?",
+        "options": [
+          "To access app store analytics",
+          "To publish and manage apps on app stores",
+          "To conduct market research",
+          "To receive user feedback"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the main function of having an account in any platform."
+      },
+      {
+        "question": "Which of the following is necessary for app signing before publishing to Google Play?",
+        "options": [
+          "APK expansion files",
+          "Keystore file",
+          "App bundle",
+          "XML layout files"
+        ],
+        "correct_option": 1,
+        "hint": "It's a file that holds security credentials."
+      },
+      {
+        "question": "What does ASO stand for in the context of app store publishing?",
+        "options": [
+          "Application Store Optimization",
+          "App Store Output",
+          "Application System Overlay",
+          "App Source Organizer"
+        ],
+        "correct_option": 0,
+        "hint": "It's related to enhancing app visibility in stores."
+      },
+      {
+        "question": "Which feature allows developers to release their app to a limited audience for testing before full release?",
+        "options": [
+          "Phased Rollout",
+          "Beta Testing",
+          "A/B Testing",
+          "Canary Release"
+        ],
+        "correct_option": 1,
+        "hint": "It's named after a version of testing where users can try out the app before its official launch."
+      },
+      {
+        "question": "In the context of phased rollouts, what is a primary benefit?",
+        "options": [
+          "Increased initial download numbers",
+          "Immediate feedback from all users",
+          "Controlled exposure to a subset of users",
+          "Improved app ranking"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how exposure control can be beneficial when releasing new features."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary purpose of app signing in the context of publishing apps on the App Store and Google Play?",
+        "options": [
+          "To encrypt user data within the app",
+          "To verify the app's authenticity and integrity",
+          "To improve app performance",
+          "To manage in-app purchases"
+        ],
+        "correct_option": 1,
+        "hint": "Think about security and trust in app distribution."
+      },
+      {
+        "question": "Which of the following is required when setting up a developer account on the Google Play Console?",
+        "options": [
+          "A valid credit card",
+          "An active app ready for submission",
+          "A registered business entity",
+          "A unique developer name"
+        ],
+        "correct_option": 0,
+        "hint": "Consider what is commonly needed for account verification and payment."
+      },
+      {
+        "question": "How can App Store Optimization (ASO) impact the visibility of an app in the store?",
+        "options": [
+          "By increasing the app's download speed",
+          "By improving the app's performance metrics",
+          "By enhancing the app's search ranking and discoverability",
+          "By reducing the app's size"
+        ],
+        "correct_option": 2,
+        "hint": "Focus on how users find apps in the store."
+      },
+      {
+        "question": "What is a key advantage of using phased rollouts for app updates?",
+        "options": [
+          "Immediate feedback from all users",
+          "Higher initial download rates",
+          "Controlled exposure to potential issues",
+          "Maximized revenue generation"
+        ],
+        "correct_option": 2,
+        "hint": "Think about risk management and user feedback."
+      },
+      {
+        "question": "Which statement is true about beta testing apps on the App Store?",
+        "options": [
+          "Beta versions must be approved by Apple before testing",
+          "Beta testing is only available to enterprise accounts",
+          "TestFlight is used for distributing beta versions",
+          "Beta testing requires a separate app ID"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the tools Apple provides for testing."
+      }
+    ]
+  }
+}

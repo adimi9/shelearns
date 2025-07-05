@@ -1,0 +1,274 @@
+{
+  "id": "FS4",
+  "name": "Real-time Communication (WebSockets)",
+  "category": "FullStack Development",
+  "primary_tech": "WebSockets",
+  "topics": [
+    "WebSocket Protocol",
+    "Socket.IO (Node.js Library)",
+    "Building Real-time Features (Chat, Notifications)",
+    "Scaling WebSockets"
+  ],
+  "recommended": false,
+  "tags": [
+    "real-time",
+    "communication",
+    "web-sockets"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+        "https://socket.io/docs/v4/",
+        "https://firebase.google.com/docs/database",
+        "https://developers.zoom.us/docs/api/"
+      ],
+      "notes": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+        "https://ably.com/blog/websockets-react-tutorial",
+        "https://blog.logrocket.com/websocket-tutorial-socket-io/",
+        "https://www.bairesdev.com/blog/react-websockets-tutorial/",
+        "https://www.learnenough.com/action-cable",
+        "https://impressit.io/blog/guide-to-websockets",
+        "https://www.pedroalonso.net/blog/websockets-nextjs-part-1/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=J8xReLuBNPY",
+        "https://www.youtube.com/watch?v=qdhnC_FUBbs&pp=ygUiI2NoYXRhcHBsaWNhdGlvbmlubGFyYXZlbHdlYnNvY2tldA%3D%3D",
+        "https://www.youtube.com/watch?v=8ARodQ4Wlf4",
+        "https://www.youtube.com/watch?v=FduLSXEHLng",
+        "https://www.youtube.com/watch?v=TywlS9iAZCM&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=fREqfdCphRA",
+        "https://www.youtube.com/watch?v=aiVVpHp5LcY",
+        "https://www.youtube.com/watch?v=u7siCTdGhuw",
+        "https://www.youtube.com/watch?v=wpzQa2J0YM8",
+        "https://m.youtube.com/watch?v=EvUI4vRhF88&t=3m33s"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://ai.google.dev/gemini-api/docs/live",
+        "https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/realtime-audio-websockets",
+        "https://socket.io/docs/v4/",
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api.html"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=J8xReLuBNPY",
+        "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
+        "https://www.youtube.com/watch?v=Q7Us_DjMbXU",
+        "https://ably.com/blog/websockets-react-tutorial",
+        "https://www.youtube.com/watch?v=TywlS9iAZCM&pp=0gcJCfwAo7VqN5tD"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=J8xReLuBNPY",
+        "https://www.youtube.com/watch?v=Q7Us_DjMbXU",
+        "https://www.youtube.com/watch?v=TywlS9iAZCM&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
+        "https://www.youtube.com/watch?v=FduLSXEHLng",
+        "https://www.youtube.com/watch?v=8ARodQ4Wlf4",
+        "https://www.youtube.com/watch?v=7T-HnTE6v64",
+        "https://www.youtube.com/watch?v=vSrnDfrghns&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=aiVVpHp5LcY",
+        "https://www.youtube.com/watch?v=2Nt-ZrNP22A"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+        "https://ai.google.dev/gemini-api/docs/live",
+        "https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api.html",
+        "https://maybe.works/blogs/react-websocket"
+      ],
+      "notes": [
+        "https://ably.com/topic/websockets",
+        "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API",
+        "https://towardsdatascience.com/deep-dive-into-websockets-and-their-role-in-client-server-communication-aac387e10cb6/",
+        "https://maybe.works/blogs/react-websocket",
+        "https://engineeringatscale.substack.com/p/designing-real-time-collaborative"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=XgFzHXOk8IQ&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=M995OXMGpC4",
+        "https://www.youtube.com/watch?v=7T-HnTE6v64",
+        "https://www.youtube.com/watch?v=FduLSXEHLng",
+        "https://www.youtube.com/watch?v=2Z2PDsqgJP8",
+        "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
+        "https://www.youtube.com/watch?v=rT-nduaJp_E",
+        "https://www.youtube.com/watch?v=ub7RVLSn3mc"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of the WebSocket protocol?",
+        "options": [
+          "To establish a continuous, bidirectional communication channel between client and server",
+          "To transfer files over the internet",
+          "To send emails between servers",
+          "To encrypt data for secure transmission"
+        ],
+        "correct_option": 0,
+        "hint": "It is designed for real-time communication."
+      },
+      {
+        "question": "Which Node.js library is commonly used for implementing WebSockets?",
+        "options": [
+          "Express",
+          "Socket.IO",
+          "Mongoose",
+          "Axios"
+        ],
+        "correct_option": 1,
+        "hint": "It is a library that builds on top of the WebSocket protocol for real-time applications."
+      },
+      {
+        "question": "What is a common real-time feature you can build using WebSockets?",
+        "options": [
+          "Static webpage",
+          "Scheduled email",
+          "Chat application",
+          "Image editor"
+        ],
+        "correct_option": 2,
+        "hint": "This feature involves live messaging between users."
+      },
+      {
+        "question": "How does WebSocket differ from HTTP in terms of connection?",
+        "options": [
+          "WebSocket uses a continuous connection, while HTTP is stateless and uses separate requests",
+          "Both use continuous connections",
+          "WebSocket is stateless, while HTTP uses a continuous connection",
+          "Both are stateless and use separate requests"
+        ],
+        "correct_option": 0,
+        "hint": "WebSocket maintains a persistent connection."
+      },
+      {
+        "question": "What is a challenge when scaling WebSockets?",
+        "options": [
+          "Managing multiple simultaneous connections",
+          "Sending static files",
+          "Serving HTML pages",
+          "Connecting to a database"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the number of clients connected at once."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary protocol used for real-time communication in web applications?",
+        "options": [
+          "HTTP",
+          "FTP",
+          "WebSocket",
+          "SMTP"
+        ],
+        "correct_option": 2,
+        "hint": "It's a protocol specifically designed for persistent connection."
+      },
+      {
+        "question": "Which library would you use in a Node.js environment to simplify working with WebSockets?",
+        "options": [
+          "Express.js",
+          "Socket.IO",
+          "React.js",
+          "Django Channels"
+        ],
+        "correct_option": 1,
+        "hint": "This library abstracts the complexities of WebSockets and provides additional features."
+      },
+      {
+        "question": "When building a real-time chat application, which feature is crucial for ensuring messages are consistently delivered to the correct recipients?",
+        "options": [
+          "Load Balancing",
+          "Message Routing",
+          "Data Caching",
+          "File Compression"
+        ],
+        "correct_option": 1,
+        "hint": "This involves directing messages to the appropriate client based on certain criteria."
+      },
+      {
+        "question": "What is a common challenge when scaling WebSocket applications across multiple servers?",
+        "options": [
+          "Data redundancy",
+          "Session management",
+          "CSS styling",
+          "Database indexing"
+        ],
+        "correct_option": 1,
+        "hint": "This challenge involves maintaining user state across different servers."
+      },
+      {
+        "question": "How does WebSocket differ from HTTP in terms of connection management?",
+        "options": [
+          "WebSocket uses a one-time request/response model, HTTP maintains an open connection",
+          "HTTP maintains a persistent connection, WebSocket uses a one-time request/response model",
+          "WebSocket maintains a persistent connection, HTTP uses a one-time request/response model",
+          "Both WebSocket and HTTP maintain persistent connections"
+        ],
+        "correct_option": 2,
+        "hint": "Consider which protocol is designed for continuous data exchange."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary purpose of the WebSocket protocol in real-time communication?",
+        "options": [
+          "To provide a stateless communication model",
+          "To enable full-duplex communication channels over a single TCP connection",
+          "To perform HTTP requests more efficiently",
+          "To secure data transmission through encryption"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how WebSockets differ from traditional HTTP requests in terms of data flow."
+      },
+      {
+        "question": "Which transport mechanism does Socket.IO use as a fallback when WebSockets are not supported?",
+        "options": [
+          "HTTP Long Polling",
+          "AJAX Polling",
+          "Server-Sent Events",
+          "XMLHttpRequest"
+        ],
+        "correct_option": 0,
+        "hint": "Consider alternative methods that maintain a persistent connection when WebSockets are not available."
+      },
+      {
+        "question": "In the context of scaling WebSockets, what does horizontal scaling refer to?",
+        "options": [
+          "Increasing the number of WebSocket connections per server",
+          "Running multiple server instances to distribute the load",
+          "Enhancing the server hardware capabilities",
+          "Optimizing the WebSocket handshake process"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how load can be distributed across multiple servers."
+      },
+      {
+        "question": "When building a real-time chat application using Socket.IO, which event is typically used to detect when a user connects to the server?",
+        "options": [
+          "'message'",
+          "'connect'",
+          "'join'",
+          "'open'"
+        ],
+        "correct_option": 1,
+        "hint": "This event is associated with establishing a connection between the client and server."
+      },
+      {
+        "question": "What is a common challenge when implementing real-time notifications using WebSockets?",
+        "options": [
+          "Ensuring data is encrypted during transmission",
+          "Handling concurrent connections efficiently",
+          "Caching data on the client-side",
+          "Using RESTful APIs for message delivery"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the difficulties associated with maintaining multiple simultaneous connections."
+      }
+    ]
+  }
+}

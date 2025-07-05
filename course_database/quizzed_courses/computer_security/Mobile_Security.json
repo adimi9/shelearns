@@ -1,0 +1,276 @@
+{
+  "id": "CSec1",
+  "name": "Mobile Security",
+  "category": "Computer Security",
+  "primary_tech": "Mobile Security",
+  "topics": [
+    "Android & iOS Security Models",
+    "Mobile App Vulnerabilities (OWASP MASVS)",
+    "Secure Mobile App Development",
+    "Mobile Device Management (MDM) Basics"
+  ],
+  "recommended": false,
+  "tags": [
+    "mobile",
+    "app-security",
+    "device-security"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://duo.com/docs"
+      ],
+      "notes": [
+        "https://owasp.org/www-project-mobile-app-security/",
+        "https://www.hackthebox.com/blog/intro-to-mobile-pentesting",
+        "https://mrcet.com/pdf/Lab%20Manuals/IT/CYBER%20SECURITY%20(R18A0521).pdf",
+        "https://helpx.adobe.com/acrobat/user-guide.html",
+        "https://guide.duo.com/",
+        "https://www.tutorialspoint.com/mobile_security/index.htm"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=3QOlo2pEpvc",
+        "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=6442s",
+        "https://www.youtube.com/watch?v=qTaOZrDnMzQ",
+        "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=3NIgBoVJ2FA&pp=ygUQIzFwYXNzd29yZHByb2Fwaw%3D%3D",
+        "https://www.youtube.com/watch?v=0ZrSRRDC_p8",
+        "https://www.youtube.com/watch?v=qwA6MmbeGNo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/playlist?list=PL_RcVnBPGmSLAGyNa6wiAf8bbVwxYYzCi",
+        "https://www.youtube.com/playlist?list=PLHEcKKWWhXy-cq8HHTKRUwckqCMCa12N0",
+        "https://www.youtube.com/watch?v=zIWGjkr0ENE&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.datadoghq.com/api/latest/",
+        "https://developers.google.com/apis-explorer",
+        "https://duo.com/docs",
+        "https://developer.android.com/guide/topics/permissions/overview"
+      ],
+      "notes": [
+        "https://owasp.org/www-project-mobile-app-security/",
+        "https://www.box.com/home",
+        "https://www.uscis.gov/file-online/how-to-create-a-uscis-online-account",
+        "https://techdocs.broadcom.com/us/en/symantec-security-software/identity-security/vip-authentication-hub/3-4/VIP-Authentication-Hub-Demo-Environment/policy-use-cases.html",
+        "https://ieeexplore.ieee.org/document/7311393/",
+        "https://docs.paloaltonetworks.com/content/techdocs/en_US/service-providers/11-0/mobile-network-infrastructure-getting-started/sctp/sctp-security-measures",
+        "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=oX9aIzejaSc&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=45k4pQ6nwSc",
+        "https://www.youtube.com/watch?v=5ZGT1ASqYss",
+        "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=5xpKs0qCqqs",
+        "https://www.youtube.com/watch?v=I_qzYkjHTvQ",
+        "https://www.youtube.com/watch?v=z-BXYM3jRzs",
+        "https://www.youtube.com/watch?v=_hFwoM-Qq1c"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://developers.arcgis.com/python/latest/",
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://www.dafcio.af.mil/",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/"
+      ],
+      "notes": [
+        "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security",
+        "https://www.firstpoint-mg.com/blog/ss7-attack-guide/",
+        "https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf",
+        "https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture",
+        "https://www.adjust.com/blog/dive-into-deeplinking/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=c9TTzhMSFcg",
+        "https://www.youtube.com/watch?v=SVo6cDnQQm0",
+        "https://m.youtube.com/watch?v=jqcw3kJdv5Q",
+        "https://www.youtube.com/watch?v=tLqWGysORXA&pp=ygUPI2ZyZWVjY25hY291cnNl",
+        "https://www.youtube.com/watch?v=H5lbHZAmDSs",
+        "https://www.youtube.com/watch?v=56Ihv5MF4_U",
+        "https://www.youtube.com/watch?v=ejQ-ojkokVY",
+        "https://www.youtube.com/watch?v=IhtcuP-9c1g",
+        "https://www.youtube.com/watch?v=IPvYjXCsTg8"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of Android and iOS security models?",
+        "options": [
+          "To enhance user interface designs",
+          "To secure the operating system and applications",
+          "To increase battery life",
+          "To improve app download speeds"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the fundamental reason for security models in mobile operating systems."
+      },
+      {
+        "question": "Which of the following is a common vulnerability as per OWASP MASVS?",
+        "options": [
+          "Poor user interface design",
+          "Insecure data storage",
+          "Slow network speed",
+          "Limited app functionality"
+        ],
+        "correct_option": 1,
+        "hint": "Consider vulnerabilities related to where sensitive information is stored."
+      },
+      {
+        "question": "What is a key focus in secure mobile app development?",
+        "options": [
+          "Creating complex user interfaces",
+          "Minimizing data usage",
+          "Protecting sensitive data",
+          "Increasing app download size"
+        ],
+        "correct_option": 2,
+        "hint": "Think about protecting information that could be compromised."
+      },
+      {
+        "question": "What does Mobile Device Management (MDM) primarily aim to do?",
+        "options": [
+          "Improve app aesthetics",
+          "Manage and secure mobile devices",
+          "Increase device battery life",
+          "Enhance device graphics"
+        ],
+        "correct_option": 1,
+        "hint": "MDM is about controlling and securing mobile devices."
+      },
+      {
+        "question": "Which technology is most associated with mobile security?",
+        "options": [
+          "Bluetooth",
+          "Wi-Fi",
+          "Encryption",
+          "Camera"
+        ],
+        "correct_option": 2,
+        "hint": "Consider technologies that protect data from being accessed by unauthorized entities."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a key difference between Android and iOS security models?",
+        "options": [
+          "Android uses a permission-based model while iOS relies on app sandboxing.",
+          "iOS uses a permission-based model while Android relies on app sandboxing.",
+          "Both use a permission-based model.",
+          "Both rely solely on app sandboxing."
+        ],
+        "correct_option": 0,
+        "hint": "Consider how each OS manages app access to system resources."
+      },
+      {
+        "question": "Which of the following is NOT a category of the OWASP Mobile Application Security Verification Standard (MASVS)?",
+        "options": [
+          "Data Storage and Privacy",
+          "Network Communications",
+          "Application Architecture",
+          "User Interface Design"
+        ],
+        "correct_option": 3,
+        "hint": "Focus on aspects directly related to security, not user experience."
+      },
+      {
+        "question": "In secure mobile app development, which practice helps prevent reverse engineering?",
+        "options": [
+          "Using obfuscation techniques",
+          "Storing sensitive data in plain text",
+          "Avoiding code signing",
+          "Hardcoding API keys"
+        ],
+        "correct_option": 0,
+        "hint": "Think about making the code less readable to unauthorized users."
+      },
+      {
+        "question": "What is the primary purpose of Mobile Device Management (MDM) in a corporate environment?",
+        "options": [
+          "To increase device storage capacity",
+          "To secure and manage devices remotely",
+          "To enhance device battery life",
+          "To develop new mobile applications"
+        ],
+        "correct_option": 1,
+        "hint": "MDM focuses on security and management of devices."
+      },
+      {
+        "question": "Which technology is commonly used to encrypt data stored on mobile devices?",
+        "options": [
+          "SSL/TLS",
+          "AES",
+          "HTTP",
+          "NFC"
+        ],
+        "correct_option": 1,
+        "hint": "Consider a standard encryption algorithm widely used for data protection."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which component of the Android security model isolates apps from each other?",
+        "options": [
+          "Sandboxing",
+          "Encryption",
+          "Firewall",
+          "Antivirus"
+        ],
+        "correct_option": 0,
+        "hint": "It's a mechanism that confines the app's execution environment."
+      },
+      {
+        "question": "In the context of iOS security, what is the primary purpose of the Secure Enclave?",
+        "options": [
+          "To encrypt user data",
+          "To enhance app performance",
+          "To store cryptographic keys securely",
+          "To manage app permissions"
+        ],
+        "correct_option": 2,
+        "hint": "It's related to cryptographic operations."
+      },
+      {
+        "question": "According to the OWASP Mobile Application Security Verification Standard (MASVS), which level focuses on defending against reverse engineering and tampering?",
+        "options": [
+          "MASVS-L1",
+          "MASVS-L2",
+          "MASVS-R",
+          "MASVS-AL"
+        ],
+        "correct_option": 2,
+        "hint": "This level is specifically designed to counteract code analysis threats."
+      },
+      {
+        "question": "What is a key benefit of implementing Mobile Device Management (MDM) in an enterprise environment?",
+        "options": [
+          "Improved app download speeds",
+          "Enhanced battery life",
+          "Centralized control of mobile security policies",
+          "Faster data processing"
+        ],
+        "correct_option": 2,
+        "hint": "Think about control and security of devices within an organization."
+      },
+      {
+        "question": "When developing a secure mobile application, which practice is essential for preventing sensitive data leakage?",
+        "options": [
+          "Hardcoding API keys within the app",
+          "Using HTTPS for network communication",
+          "Storing passwords in plain text",
+          "Allowing all permissions by default"
+        ],
+        "correct_option": 1,
+        "hint": "Consider secure methods for transmitting data over networks."
+      }
+    ]
+  }
+}

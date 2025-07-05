@@ -1,0 +1,273 @@
+{
+  "id": "CS7",
+  "name": "Introduction to Programming",
+  "category": "Computer Science Fundamentals",
+  "primary_tech": "Python",
+  "topics": [
+    "Basic Syntax & Data Types",
+    "Control Flow (Loops, Conditionals)",
+    "Functions & Modules",
+    "Problem Solving Techniques"
+  ],
+  "recommended": true,
+  "tags": [
+    "programming",
+    "fundamentals",
+    "beginners"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        "https://platform.openai.com/docs/api-reference/introduction",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://kotlinlang.org/docs/home.html"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.wolfram.com/language/fast-introduction-for-programmers/en/",
+        "https://www.youtube.com/watch?v=2dZiMBwX_5Q",
+        "https://learnyouahaskell.com/introduction",
+        "https://www.youtube.com/watch?v=Z1Yd7upQsXY&pp=0gcJCfwAo7VqN5tD",
+        "https://learnyousomeerlang.com/introduction",
+        "https://www.youtube.com/watch?v=_V8eKsto3Ug"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=GoXwIVyNvX0&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=zOjov-2OZ0E",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=xAcTmDO6NTI",
+        "https://www.youtube.com/watch?v=Z1Yd7upQsXY&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=2dZiMBwX_5Q",
+        "https://www.youtube.com/watch?v=4JzDttgdILQ",
+        "https://www.youtube.com/watch?v=52r9qUToOD8&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0",
+        "https://vuejs.org/guide/introduction",
+        "https://developers.google.com/maps/documentation/places/web-service/overview",
+        "https://swagger.io/specification/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=3289vhOUdKA",
+        "https://stackoverflow.blog/2021/01/12/want-to-teach-your-kids-to-code-here-are-three-apps-that-can-help/",
+        "https://www.youtube.com/watch?v=gpUCkzn0VLg",
+        "https://go.dev/doc/tutorial/getting-started",
+        "https://www.youtube.com/watch?v=iWPjBwXy_Io",
+        "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_V8eKsto3Ug",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=-lgtb-YSUWE&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=eR-XRSKsuR4",
+        "https://www.youtube.com/watch?v=gpUCkzn0VLg",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=EWvNQjAaOHw",
+        "https://www.youtube.com/watch?v=3289vhOUdKA"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://www.typescriptlang.org/docs/",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=x2VBq0bBgIc",
+        "https://www.datacamp.com/blog/how-to-learn-ai",
+        "https://www.youtube.com/watch?v=cMy8FUYuVok&pp=0gcJCfwAo7VqN5tD",
+        "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
+        "https://www.youtube.com/watch?v=bhtb8SZ-kk4",
+        "https://www.learnpython.org/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+        "https://www.youtube.com/watch?v=x2VBq0bBgIc",
+        "https://www.youtube.com/watch?v=cMy8FUYuVok&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=bhtb8SZ-kk4",
+        "https://www.youtube.com/watch?v=BtCvde7aDfU",
+        "https://www.youtube.com/watch?v=T9aRN5JkmL8",
+        "https://www.youtube.com/watch?v=tpCFfeUEGs8",
+        "https://www.youtube.com/watch?v=iutmV3W81ps&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which of the following is a valid variable name in Python?",
+        "options": [
+          "1_variable",
+          "variable_1",
+          "variable-1",
+          "1Variable"
+        ],
+        "correct_option": 1,
+        "hint": "Variable names cannot start with a number and must not contain special characters like hyphens."
+      },
+      {
+        "question": "What is the output of the following code snippet?\n\nx = 5\ny = 10\nprint(x + y)",
+        "options": [
+          "15",
+          "510",
+          "5 + 10",
+          "Error"
+        ],
+        "correct_option": 0,
+        "hint": "The + operator performs addition on numeric values."
+      },
+      {
+        "question": "Which Python keyword is used to create a function?",
+        "options": [
+          "func",
+          "define",
+          "function",
+          "def"
+        ],
+        "correct_option": 3,
+        "hint": "Think of a shortened form of 'define'."
+      },
+      {
+        "question": "What will be the value of 'result' after executing the following code?\n\nresult = 0\nfor i in range(3):\n    result += i\n",
+        "options": [
+          "0",
+          "3",
+          "6",
+          "None of the above"
+        ],
+        "correct_option": 1,
+        "hint": "The range(3) function generates numbers 0, 1, 2."
+      },
+      {
+        "question": "In Python, which of the following data types is immutable?",
+        "options": [
+          "List",
+          "Set",
+          "Dictionary",
+          "Tuple"
+        ],
+        "correct_option": 3,
+        "hint": "This data type is often used to store fixed collections of items."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is NOT a valid data type in Python?",
+        "options": [
+          "int",
+          "str",
+          "float",
+          "decimal"
+        ],
+        "correct_option": 3,
+        "hint": "Think about the common data types used in Python."
+      },
+      {
+        "question": "What is the output of the following Python code?\n\nx = 5\nif x > 3:\n    print('Hello')\nelse:\n    print('World')",
+        "options": [
+          "Hello",
+          "World",
+          "Error",
+          "None"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the condition being checked in the if statement."
+      },
+      {
+        "question": "How can you define a function in Python that takes no parameters and returns the string 'Hello, World!'?",
+        "options": [
+          "def greet(): return 'Hello, World!'",
+          "function greet(): return 'Hello, World!'",
+          "def greet(): print('Hello, World!')",
+          "function greet() {return 'Hello, World!'}"
+        ],
+        "correct_option": 0,
+        "hint": "Remember the Python syntax for defining a function."
+      },
+      {
+        "question": "What will be the output of the following Python loop?\n\nfor i in range(3):\n    print(i)\n",
+        "options": [
+          "1 2 3",
+          "0 1 2",
+          "0 1 2 3",
+          "None of the above"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the range function and how it iterates."
+      },
+      {
+        "question": "Which of the following statements about Python modules is TRUE?",
+        "options": [
+          "Modules are only available in Python 3.",
+          "Modules cannot contain variables.",
+          "Modules are reusable pieces of code.",
+          "Modules must always be named 'module.py'."
+        ],
+        "correct_option": 2,
+        "hint": "Think about the purpose of using modules in programming."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the output of the following Python code snippet?\n\n```python\ndef mystery(x):\n    if x % 2 == 0:\n        return x // 2\n    else:\n        return x * 3 + 1\n\nprint(mystery(5))\n```",
+        "options": [
+          "15",
+          "8",
+          "2",
+          "None of the above"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the condition for the odd input in the function."
+      },
+      {
+        "question": "Which of the following data types in Python is immutable?",
+        "options": [
+          "List",
+          "Dictionary",
+          "Set",
+          "Tuple"
+        ],
+        "correct_option": 3,
+        "hint": "This data type cannot be changed after it's created."
+      },
+      {
+        "question": "What will be the value of 'result' after executing the following Python code?\n\n```python\nresult = 1\nfor i in range(1, 4):\n    result *= i\n```\n",
+        "options": [
+          "1",
+          "6",
+          "24",
+          "None of the above"
+        ],
+        "correct_option": 1,
+        "hint": "The code snippet is calculating a factorial."
+      },
+      {
+        "question": "In Python, which of the following statements will correctly import a module named 'mymodule' located in the same directory?",
+        "options": [
+          "import mymodule",
+          "include mymodule",
+          "require mymodule",
+          "attach mymodule"
+        ],
+        "correct_option": 0,
+        "hint": "Think about the standard way to include a module in Python."
+      },
+      {
+        "question": "Which of the following statements about the 'elif' keyword in Python is true?",
+        "options": [
+          "'elif' must follow an 'else' statement.",
+          "'elif' can be used without an 'if'.",
+          "Multiple 'elif' statements can exist in a conditional structure.",
+          "'elif' is a loop control keyword."
+        ],
+        "correct_option": 2,
+        "hint": "'elif' is used for multiple conditions in an if-else structure."
+      }
+    ]
+  }
+}

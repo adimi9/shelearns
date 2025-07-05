@@ -22,107 +22,148 @@
     "higher-order-functions"
   ],
   "resources": {
-    "docs": [
+    "beginner": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://flask.palletsprojects.com/",
+        "https://firebase.google.com/docs",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"
+      ],
+      "notes": [
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://pensamientos.hashnode.dev/a-beginners-journey-through-the-clojure-web-development-landscape",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://learntocodewith.me/posts/backend-development/",
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=1oTuMPIwHmk",
+        "https://www.youtube.com/watch?v=Rp5vd34d-z4",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+        "https://www.youtube.com/watch?v=5QZYGU0C2OA",
+        "https://www.youtube.com/watch?v=dzUc9vrsldM",
+        "https://www.youtube.com/watch?v=f2EqECiTBL8"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://learn.microsoft.com/en-us/power-platform/power-fx/overview",
+        "https://beam.apache.org/documentation/programming-guide/"
+      ],
+      "notes": [
+        "https://edw.is/learning-vulkan/",
+        "https://learn.microsoft.com/en-us/power-platform/power-fx/overview",
+        "https://blog.boot.dev/education/state-of-learning-to-code-2024/",
+        "https://rockthejvm.com/articles/http4s-unleashing-the-power-of-http-apis-library",
+        "https://pensamientos.hashnode.dev/a-beginners-journey-through-the-clojure-web-development-landscape",
+        "https://www.linkedin.com/posts/aditi-chourasia-a2a572121_hello-everyone-algorithmhq-now-has-a-github-activity-7260932543733006337-KnZU"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=zuKbR4Q428o",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=XxXyfkrP298",
+        "https://www.youtube.com/watch?v=-lgtb-YSUWE&pp=0gcJCfwAo7VqN5tD",
+        "https://m.youtube.com/watch?v=CcBHZ0t2Qwc&pp=ygULI2phdmFzY3Jpb3Q%3D",
+        "https://www.youtube.com/watch?v=bZzyPscbtI8",
+        "https://www.youtube.com/watch?v=lbPThhcfn10",
+        "https://www.youtube.com/watch?v=uoOwVWVl_eU"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://github.com/sger/RustBooks",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
+        "https://github.com/dariubs/GoBooks"
+      ],
+      "notes": [
+        "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
+        "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
+        "https://www.theseniordev.com/blog/senior-backend-developer-roadmap-2024-a-complete-guide",
+        "https://roadmap.sh/python",
+        "https://github.com/dariubs/GoBooks"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=dzUc9vrsldM",
+        "https://www.youtube.com/watch?v=N2GWXuj_IWg",
+        "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+        "https://www.youtube.com/watch?v=82PXenL4MGg",
+        "https://www.youtube.com/watch?v=SqcY0GlETPk",
+        "https://www.youtube.com/watch?v=zJSY8tbf_ys",
+        "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+        "https://www.youtube.com/watch?v=eIrMbAQSU34",
+        "https://www.youtube.com/watch?v=CzRQ9mnmh44",
+        "https://www.youtube.com/watch?v=Rp5vd34d-z4"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce",
-        "description": "This MDN documentation explains the `Array.prototype.reduce()` method, which executes a reducer function on each element of the array, resulting in a single output value."
+        "question": "What is a key characteristic of functional programming that differs from object-oriented programming?",
+        "options": [
+          "Use of pure functions and immutability",
+          "Relying on objects and classes",
+          "Encapsulation of data",
+          "Inheritance and polymorphism"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how functional programming handles data and state."
       },
       {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        "description": "Comprehensive resource for learning and referencing JavaScript, including guides, tutorials, and API documentation."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures",
-        "description": "An in-depth guide explaining JavaScript closures, their creation, and practical use cases."
+        "question": "Which of the following languages is most closely associated with functional programming?",
+        "options": [
+          "Java",
+          "Python",
+          "Haskell",
+          "Ruby"
+        ],
+        "correct_option": 2,
+        "hint": "This language is known for its strong emphasis on pure functions."
       }
     ],
-    "notes": [
+    "intermediate": [
       {
-        "url": "https://www.freecodecamp.org/news/intro-to-functional-programming-basics/",
-        "description": "An introductory guide to understanding the principles and benefits of functional programming."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/blogs/functional-programming-paradigm/",
-        "description": "An overview of the functional programming paradigm, highlighting its principles, benefits, and common use cases."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/javascript/functional-programming-in-javascript/",
-        "description": "An introduction to functional programming concepts in JavaScript, including key principles and examples."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/global-state-functional-programming/426785",
-        "description": "A discussion on managing global state using functional programming principles in JavaScript."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/functional-programming-in-java-course/",
-        "description": "A comprehensive course on functional programming concepts and techniques using Java."
+        "question": "In functional programming, what does immutability refer to?",
+        "options": [
+          "Changing the state of an object",
+          "Using methods to modify data",
+          "Ensuring data cannot be changed after it's created",
+          "Creating classes to encapsulate data"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how data is treated once it's created."
       }
     ],
-    "videos": [
-      "https://m.youtube.com/watch?v=XXkYBncbz0c&pp=ygUMI2tzc2J0ZGhzbnZk",
-      "https://www.youtube.com/watch?v=VRpHdSFWGPs",
-      "https://www.youtube.com/watch?v=5QZYGU0C2OA",
-      "https://www.youtube.com/watch?v=f5j1TaJlc0w",
-      "https://www.youtube.com/watch?v=rPSL1alFIjI"
+    "advanced": [
+      {
+        "question": "Which of the following is NOT a principle commonly found in functional programming?",
+        "options": [
+          "Pure functions",
+          "State mutation",
+          "Higher-order functions",
+          "First-class functions"
+        ],
+        "correct_option": 1,
+        "hint": "Think about what functional programming tries to avoid compared to object-oriented programming."
+      },
+      {
+        "question": "What is a 'pure function' in functional programming?",
+        "options": [
+          "A function that relies on global variables",
+          "A function that always produces the same output for the same input without side effects",
+          "A function that modifies its input",
+          "A function that depends on the state of other functions"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what ensures predictability and consistency in functional programming."
+      }
     ]
   },
-  "quiz": [
-    {
-      "question": "What is a key characteristic of functional programming that differs from object-oriented programming?",
-      "options": [
-        "Use of pure functions and immutability",
-        "Relying on objects and classes",
-        "Encapsulation of data",
-        "Inheritance and polymorphism"
-      ],
-      "correct_option": 0,
-      "hint": "Think about how functional programming handles data and state."
-    },
-    {
-      "question": "Which of the following languages is most closely associated with functional programming?",
-      "options": [
-        "Java",
-        "Python",
-        "Haskell",
-        "Ruby"
-      ],
-      "correct_option": 2,
-      "hint": "This language is known for its strong emphasis on pure functions."
-    },
-    {
-      "question": "In functional programming, what does immutability refer to?",
-      "options": [
-        "Changing the state of an object",
-        "Using methods to modify data",
-        "Ensuring data cannot be changed after it's created",
-        "Creating classes to encapsulate data"
-      ],
-      "correct_option": 2,
-      "hint": "Consider how data is treated once it's created."
-    },
-    {
-      "question": "Which of the following is NOT a principle commonly found in functional programming?",
-      "options": [
-        "Pure functions",
-        "State mutation",
-        "Higher-order functions",
-        "First-class functions"
-      ],
-      "correct_option": 1,
-      "hint": "Think about what functional programming tries to avoid compared to object-oriented programming."
-    },
-    {
-      "question": "What is a 'pure function' in functional programming?",
-      "options": [
-        "A function that relies on global variables",
-        "A function that always produces the same output for the same input without side effects",
-        "A function that modifies its input",
-        "A function that depends on the state of other functions"
-      ],
-      "correct_option": 1,
-      "hint": "Consider what ensures predictability and consistency in functional programming."
-    }
-  ],
   "preferred_if": [
     "User interested in languages like Haskell, Lisp, or advanced JavaScript"
   ]

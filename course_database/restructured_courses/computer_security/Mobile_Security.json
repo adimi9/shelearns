@@ -16,105 +16,151 @@
     "device-security"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
-        "description": "This guide provides an overview of Content Security Policy (CSP), a security feature that helps prevent cross-site scripting and other code injection attacks."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia",
-        "description": "The page provides documentation on the `getUserMedia` method, which prompts the user for permission to use a media input device such as a camera or microphone."
-      },
-      {
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage",
-        "description": "An overview of the `postMessage` method for secure cross-origin communication between Window objects in web development."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/cyber-crime-mobile-security-threats/",
-        "description": "An overview of cyber crimes and mobile security threats in computer networks, detailing types and prevention strategies."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/what-is-mobile-security-in-cyber-security/",
-        "description": "An overview of mobile security concepts and practices within the field of cybersecurity."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/what-is-mobile-application-security/",
-        "description": "An overview of mobile application security, detailing key threats and protective measures for securing mobile apps."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/challenge-in-mobile-device/",
-        "description": "Overview of the challenges faced in mobile device networking and strategies to address them."
-      },
-      {
-        "url": "https://www.geeksforgeeks.org/computer-networks/mobile-forensics-definition-uses-and-principles/",
-        "description": "This resource provides an overview of mobile forensics, including its definition, uses, and guiding principles."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=Dp019cWu1cg",
-      "https://www.youtube.com/watch?v=inWWhr5tnEA",
-      "https://www.youtube.com/watch?v=KHsmz7tnhHk",
-      "https://www.youtube.com/watch?v=v7BNtpw53AA",
-      "https://www.youtube.com/watch?v=JOw_BgYGX60"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "Which of the following is a key component of the Android security model?",
-      "options": [
-        "App sandboxing",
-        "Closed source code",
-        "Limited app permissions",
-        "Mandatory app encryption"
+    "beginner": {
+      "docs": [
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://duo.com/docs"
       ],
-      "correct_option": 0,
-      "hint": "It isolates apps from each other to prevent unauthorized data access."
+      "notes": [
+        "https://owasp.org/www-project-mobile-app-security/",
+        "https://www.hackthebox.com/blog/intro-to-mobile-pentesting",
+        "https://mrcet.com/pdf/Lab%20Manuals/IT/CYBER%20SECURITY%20(R18A0521).pdf",
+        "https://helpx.adobe.com/acrobat/user-guide.html",
+        "https://guide.duo.com/",
+        "https://www.tutorialspoint.com/mobile_security/index.htm"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=3QOlo2pEpvc",
+        "https://m.youtube.com/watch?v=fNzpcB7ODxQ&t=6442s",
+        "https://www.youtube.com/watch?v=qTaOZrDnMzQ",
+        "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=3NIgBoVJ2FA&pp=ygUQIzFwYXNzd29yZHByb2Fwaw%3D%3D",
+        "https://www.youtube.com/watch?v=0ZrSRRDC_p8",
+        "https://www.youtube.com/watch?v=qwA6MmbeGNo&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/playlist?list=PL_RcVnBPGmSLAGyNa6wiAf8bbVwxYYzCi",
+        "https://www.youtube.com/playlist?list=PLHEcKKWWhXy-cq8HHTKRUwckqCMCa12N0",
+        "https://www.youtube.com/watch?v=zIWGjkr0ENE&pp=0gcJCfwAo7VqN5tD"
+      ]
     },
-    {
-      "question": "What does OWASP MASVS stand for in mobile security?",
-      "options": [
-        "Open Web Application Security Project Mobile Application Security Verification Standard",
-        "Online Web Application Security Project Mobile Application Security Verification Standard",
-        "Open Web Application Security Project Mobile Application Security Vulnerability Standard",
-        "Open Web Application Security Project Mobile Application Secure Verification Standard"
+    "intermediate": {
+      "docs": [
+        "https://docs.datadoghq.com/api/latest/",
+        "https://developers.google.com/apis-explorer",
+        "https://duo.com/docs",
+        "https://developer.android.com/guide/topics/permissions/overview"
       ],
-      "correct_option": 0,
-      "hint": "OWASP MASVS provides a standard for mobile app security verification."
+      "notes": [
+        "https://owasp.org/www-project-mobile-app-security/",
+        "https://www.box.com/home",
+        "https://www.uscis.gov/file-online/how-to-create-a-uscis-online-account",
+        "https://techdocs.broadcom.com/us/en/symantec-security-software/identity-security/vip-authentication-hub/3-4/VIP-Authentication-Hub-Demo-Environment/policy-use-cases.html",
+        "https://ieeexplore.ieee.org/document/7311393/",
+        "https://docs.paloaltonetworks.com/content/techdocs/en_US/service-providers/11-0/mobile-network-infrastructure-getting-started/sctp/sctp-security-measures",
+        "https://learn.microsoft.com/en-us/entra/fundamentals/whats-new"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=oX9aIzejaSc&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+        "https://www.youtube.com/watch?v=45k4pQ6nwSc",
+        "https://www.youtube.com/watch?v=5ZGT1ASqYss",
+        "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=5xpKs0qCqqs",
+        "https://www.youtube.com/watch?v=I_qzYkjHTvQ",
+        "https://www.youtube.com/watch?v=z-BXYM3jRzs",
+        "https://www.youtube.com/watch?v=_hFwoM-Qq1c"
+      ]
     },
-    {
-      "question": "Which of the following is a common vulnerability in mobile applications according to OWASP?",
-      "options": [
-        "Insecure data storage",
-        "Excessive logging",
-        "Weak encryption algorithms",
-        "Hard-coded API keys"
+    "advanced": {
+      "docs": [
+        "https://sc1.checkpoint.com/documents/latest/APIs/",
+        "https://developers.arcgis.com/python/latest/",
+        "https://learn.microsoft.com/en-us/dotnet/",
+        "https://www.dafcio.af.mil/",
+        "https://learn.microsoft.com/en-us/dotnet/csharp/"
       ],
-      "correct_option": 0,
-      "hint": "This vulnerability involves improper handling of sensitive data on devices."
-    },
-    {
-      "question": "What is a primary purpose of Mobile Device Management (MDM)?",
-      "options": [
-        "To monitor network traffic",
-        "To manage app development",
-        "To secure and manage mobile devices",
-        "To encrypt mobile communications"
+      "notes": [
+        "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks",
+        "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security",
+        "https://www.firstpoint-mg.com/blog/ss7-attack-guide/",
+        "https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf",
+        "https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture",
+        "https://www.adjust.com/blog/dive-into-deeplinking/"
       ],
-      "correct_option": 2,
-      "hint": "MDM focuses on overseeing and securing devices used within an enterprise."
-    },
-    {
-      "question": "In secure mobile app development, what practice helps protect sensitive data?",
-      "options": [
-        "Implementing multi-factor authentication",
-        "Using simple passwords",
-        "Limiting app updates",
-        "Disabling user permissions"
-      ],
-      "correct_option": 0,
-      "hint": "This security measure requires more than one method of verification."
+      "videos": [
+        "https://www.youtube.com/watch?v=c9TTzhMSFcg",
+        "https://www.youtube.com/watch?v=SVo6cDnQQm0",
+        "https://m.youtube.com/watch?v=jqcw3kJdv5Q",
+        "https://www.youtube.com/watch?v=tLqWGysORXA&pp=ygUPI2ZyZWVjY25hY291cnNl",
+        "https://www.youtube.com/watch?v=H5lbHZAmDSs",
+        "https://www.youtube.com/watch?v=56Ihv5MF4_U",
+        "https://www.youtube.com/watch?v=ejQ-ojkokVY",
+        "https://www.youtube.com/watch?v=IhtcuP-9c1g",
+        "https://www.youtube.com/watch?v=IPvYjXCsTg8"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "Which of the following is a key component of the Android security model?",
+        "options": [
+          "App sandboxing",
+          "Closed source code",
+          "Limited app permissions",
+          "Mandatory app encryption"
+        ],
+        "correct_option": 0,
+        "hint": "It isolates apps from each other to prevent unauthorized data access."
+      },
+      {
+        "question": "What does OWASP MASVS stand for in mobile security?",
+        "options": [
+          "Open Web Application Security Project Mobile Application Security Verification Standard",
+          "Online Web Application Security Project Mobile Application Security Verification Standard",
+          "Open Web Application Security Project Mobile Application Security Vulnerability Standard",
+          "Open Web Application Security Project Mobile Application Secure Verification Standard"
+        ],
+        "correct_option": 0,
+        "hint": "OWASP MASVS provides a standard for mobile app security verification."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is a common vulnerability in mobile applications according to OWASP?",
+        "options": [
+          "Insecure data storage",
+          "Excessive logging",
+          "Weak encryption algorithms",
+          "Hard-coded API keys"
+        ],
+        "correct_option": 0,
+        "hint": "This vulnerability involves improper handling of sensitive data on devices."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a primary purpose of Mobile Device Management (MDM)?",
+        "options": [
+          "To monitor network traffic",
+          "To manage app development",
+          "To secure and manage mobile devices",
+          "To encrypt mobile communications"
+        ],
+        "correct_option": 2,
+        "hint": "MDM focuses on overseeing and securing devices used within an enterprise."
+      },
+      {
+        "question": "In secure mobile app development, what practice helps protect sensitive data?",
+        "options": [
+          "Implementing multi-factor authentication",
+          "Using simple passwords",
+          "Limiting app updates",
+          "Disabling user permissions"
+        ],
+        "correct_option": 0,
+        "hint": "This security measure requires more than one method of verification."
+      }
+    ]
+  }
 }

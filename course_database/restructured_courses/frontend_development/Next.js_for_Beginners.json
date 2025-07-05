@@ -16,105 +16,148 @@
     "fullstack"
   ],
   "resources": {
-    "docs": [
-      {
-        "url": "https://reactjs.org/",
-        "description": "The official React documentation provides comprehensive resources for learning and using the React JavaScript library to build user interfaces."
-      },
-      {
-        "url": "https://reactjs.org/docs/getting-started.html",
-        "description": "An introductory guide for developers to start learning and building applications with React."
-      },
-      {
-        "url": "https://reactjs.org/docs/create-a-new-react-app.html",
-        "description": "A guide on how to set up a new React application using various methods and tools."
-      }
-    ],
-    "notes": [
-      {
-        "url": "https://www.geeksforgeeks.org/nextjs/nextjs-tutorial/",
-        "description": "A comprehensive tutorial on Next.js, covering its features and how to build applications using this React framework."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/nextjs-tutorial/",
-        "description": "A comprehensive tutorial on building web applications using Next.js, covering setup, features, and deployment."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/build-a-full-stack-application-with-nextjs/",
-        "description": "A comprehensive guide to building a full-stack application using Next.js."
-      },
-      {
-        "url": "https://forum.freecodecamp.org/t/way-to-learn-nextjs/596752",
-        "description": "A discussion forum post offering advice and resources for effectively learning Next.js."
-      },
-      {
-        "url": "https://www.freecodecamp.org/news/the-next-js-handbook/",
-        "description": "A comprehensive guide to building React applications using the Next.js framework."
-      }
-    ],
-    "videos": [
-      "https://www.youtube.com/watch?v=Sklc_fQBmcs",
-      "https://www.youtube.com/watch?v=843nec-IvW0",
-      "https://www.youtube.com/watch?v=mTz0GXj8NN0",
-      "https://www.youtube.com/watch?v=wm5gMKuwSYk",
-      "https://www.youtube.com/watch?v=1WmNXEVia8I"
-    ]
-  },
-  "quiz": [
-    {
-      "question": "What file is used to define a new page in a Next.js application?",
-      "options": [
-        "page.js",
-        "router.js",
-        "index.js",
-        "app.js"
+    "beginner": {
+      "docs": [
+        "https://nextjs.org/docs",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://nextjs.org/docs/pages/building-your-application/routing/api-routes"
       ],
-      "correct_option": 0,
-      "hint": "It is a common convention in many frameworks to have a file named with this to represent a component or page."
+      "notes": [
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+        "https://nextjs.org/learn",
+        "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUJI25leHRqczE0",
+        "https://welearncode.com/beginners-guide-nextjs/",
+        "https://www.geeksforgeeks.org/nextjs/nextjs-tutorial/",
+        "https://www.freecodecamp.org/news/nextjs-tutorial/"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+        "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUJI25leHRqczE0",
+        "https://www.youtube.com/watch?v=TJQbDPGzm0Y",
+        "https://www.youtube.com/watch?v=YkdoNnmuQNU",
+        "https://www.youtube.com/watch?v=6jQdZcYY8OY",
+        "https://www.youtube.com/watch?v=h2BcitZPMn4",
+        "https://www.youtube.com/watch?v=iJejohAs9EY&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/playlist?list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH",
+        "https://www.youtube.com/@piyushgargdev",
+        "https://www.youtube.com/playlist?list=PL0Zuz27SZ-6Pk-QJIdGd1tGZEzy9RTgtj"
+      ]
     },
-    {
-      "question": "Which of the following is NOT a feature of Server-Side Rendering (SSR) in Next.js?",
-      "options": [
-        "Improved SEO",
-        "Faster initial page load",
-        "Reduced server load",
-        "Dynamic content generation"
+    "intermediate": {
+      "docs": [
+        "https://nextjs.org/docs",
+        "https://github.com/vercel/next.js/discussions/72029",
+        "https://nextjs.org/docs/app/api-reference/file-conventions/middleware"
       ],
-      "correct_option": 2,
-      "hint": "Consider what server-side rendering does to the server's resources."
+      "notes": [
+        "https://nextjs.org/docs",
+        "https://www.epicweb.dev/why-i-wont-use-nextjs",
+        "https://nextjs.org/docs/app/api-reference/file-conventions/middleware",
+        "https://welearncode.com/beginners-guide-nextjs/",
+        "https://github.com/vercel/next.js/discussions/45426",
+        "https://www.inngest.com/docs/getting-started/nextjs-quick-start"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=-2yUgcBqgSM",
+        "https://m.youtube.com/watch?v=843nec-IvW0",
+        "https://www.youtube.com/watch?v=AS79oJ3Fcf0",
+        "https://m.youtube.com/watch?v=7DVdVGm7Ht8&t=62168s",
+        "https://www.youtube.com/watch?v=XTNqyEBPAFw",
+        "https://www.youtube.com/watch?v=1KPG3LiE4jU",
+        "https://www.youtube.com/watch?v=W6V91VeghjI",
+        "https://www.youtube.com/watch?v=JPX60qarij4",
+        "https://www.youtube.com/watch?v=SG82Aqcaaa0",
+        "https://www.youtube.com/c/GreatAdib"
+      ]
     },
-    {
-      "question": "How do you create a dynamic route in Next.js?",
-      "options": [
-        "Using the 'useRouter' hook",
-        "By creating a file with square brackets in the 'pages' directory",
-        "By adding a 'routes.js' file",
-        "Using 'getStaticPaths' function"
+    "advanced": {
+      "docs": [
+        "https://nextjs.org/docs",
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "https://nextjs.org/learn"
       ],
-      "correct_option": 1,
-      "hint": "Dynamic routes are defined in the 'pages' directory with a special naming convention."
-    },
-    {
-      "question": "What is the purpose of API routes in Next.js?",
-      "options": [
-        "To fetch data from external APIs",
-        "To handle HTTP requests within the Next.js application",
-        "To define the application's database schema",
-        "To manage client-side routing"
+      "notes": [
+        "https://nextjs.org/learn",
+        "https://www.linkedin.com/posts/maximilian-schwarzmueller_nextjs-activity-7188159759286419457-nMS5",
+        "https://nextjs.org/docs",
+        "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+        "https://www.joshwcomeau.com/react/server-components/",
+        "https://blog.yogeshchavan.dev/master-nextjs-15-like-a-pro-your-ultimate-guide-to-modern-web-development",
+        "https://phrase.com/blog/posts/next-js-app-router-localization-next-intl/"
       ],
-      "correct_option": 1,
-      "hint": "Think about how a Next.js application could handle backend functionality."
-    },
-    {
-      "question": "Which middleware feature allows Next.js applications to intercept requests and responses?",
-      "options": [
-        "getStaticProps",
-        "useEffect",
-        "NextResponse",
-        "getServerSideProps"
-      ],
-      "correct_option": 2,
-      "hint": "This feature is part of the Next.js API for handling middleware."
+      "videos": [
+        "https://www.youtube.com/watch?v=GowPe3iiqTs",
+        "https://m.youtube.com/watch?v=DPSnDz8-GGs",
+        "https://www.youtube.com/watch?v=iS1K64X_eXg",
+        "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
+        "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUJI25leHRfYXBw",
+        "https://www.youtube.com/watch?v=FcaNnO6z_Eg",
+        "https://www.youtube.com/watch?v=uKALiluBwV8",
+        "https://www.youtube.com/c/GreatAdib"
+      ]
     }
-  ]
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What file is used to define a new page in a Next.js application?",
+        "options": [
+          "page.js",
+          "router.js",
+          "index.js",
+          "app.js"
+        ],
+        "correct_option": 0,
+        "hint": "It is a common convention in many frameworks to have a file named with this to represent a component or page."
+      },
+      {
+        "question": "Which of the following is NOT a feature of Server-Side Rendering (SSR) in Next.js?",
+        "options": [
+          "Improved SEO",
+          "Faster initial page load",
+          "Reduced server load",
+          "Dynamic content generation"
+        ],
+        "correct_option": 2,
+        "hint": "Consider what server-side rendering does to the server's resources."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "How do you create a dynamic route in Next.js?",
+        "options": [
+          "Using the 'useRouter' hook",
+          "By creating a file with square brackets in the 'pages' directory",
+          "By adding a 'routes.js' file",
+          "Using 'getStaticPaths' function"
+        ],
+        "correct_option": 1,
+        "hint": "Dynamic routes are defined in the 'pages' directory with a special naming convention."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the purpose of API routes in Next.js?",
+        "options": [
+          "To fetch data from external APIs",
+          "To handle HTTP requests within the Next.js application",
+          "To define the application's database schema",
+          "To manage client-side routing"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how a Next.js application could handle backend functionality."
+      },
+      {
+        "question": "Which middleware feature allows Next.js applications to intercept requests and responses?",
+        "options": [
+          "getStaticProps",
+          "useEffect",
+          "NextResponse",
+          "getServerSideProps"
+        ],
+        "correct_option": 2,
+        "hint": "This feature is part of the Next.js API for handling middleware."
+      }
+    ]
+  }
 }

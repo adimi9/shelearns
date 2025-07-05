@@ -1,0 +1,380 @@
+{
+  "id": "GD18",
+  "name": "2D Game Development",
+  "category": "Game Development",
+  "primary_tech": "2D Game Engines",
+  "topics": [
+    "Sprite Animation & Tilemaps",
+    "2D Physics & Collisions",
+    "Camera Systems for 2D",
+    "UI/HUD Design for 2D Games"
+  ],
+  "recommended": true,
+  "tags": [
+    "2D",
+    "indie",
+    "pixel-art"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://docs.unity.com/",
+          "description": "Official documentation for Unity, a cross-platform game engine.",
+          "title": "Unity documentation"
+        },
+        {
+          "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/Unity2D.html",
+          "description": "An in-depth manual for developing 2D games using the Unity engine.",
+          "title": "Unity - Manual: 2D game development"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+          "description": "An in-depth guide to using the Canvas API for drawing graphics on the web.",
+          "title": "Canvas API - Web APIs | MDN"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=XtQMytORBmM",
+          "description": "A detailed tutorial on setting up and using Docker for containerized applications."
+        },
+        {
+          "url": "https://discussions.unity.com/t/tutorial-for-starting-2d/908378",
+          "description": "A beginner's tutorial for starting 2D game development in Unity.",
+          "title": "Tutorial for Starting 2D - Unity Engine - Unity Discussions"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1f9ndBcs-to",
+          "description": "An instructional video tutorial on setting up and using Docker containers for development."
+        },
+        {
+          "url": "https://learncodebygaming.com/blog/how-to-make-a-video-game-in-java-2d-basics",
+          "description": "A beginner's guide to creating a 2D video game using Java.",
+          "title": "How to make a Video Game in Java (2D Basics) - LearnCodeByGaming.com"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=S8lMTwSRoRg",
+          "description": "An instructional video on implementing and using Docker for containerization."
+        },
+        {
+          "url": "https://forums.unrealengine.com/t/complete-2d-game-in-unreal-engine-tutorial-video-and-text-formats/27598",
+          "description": "A tutorial for creating a complete 2D game in Unreal Engine, available in video and text formats.",
+          "title": "Complete 2D Game in Unreal Engine Tutorial (Video and Text Formats) - Community / Community & Industry Discussion - Epic Developer Community Forums"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=S8lMTwSRoRg",
+        "https://www.youtube.com/watch?v=1f9ndBcs-to",
+        "https://www.youtube.com/watch?v=025QFeZfeyM",
+        "https://www.youtube.com/watch?v=XtQMytORBmM",
+        "https://www.youtube.com/watch?v=Qif4jxhGT9c",
+        "https://www.youtube.com/watch?v=dEKs-3GhVKQ",
+        "https://www.youtube.com/watch?v=LOhfqjmasi0",
+        "https://www.youtube.com/watch?v=QplEeEAJxck&pp=0gcJCfwAo7VqN5tD"
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.unity.com/",
+          "description": "Official documentation for Unity, a real-time development platform for creating 2D, 3D, VR, and AR experiences.",
+          "title": "Unity documentation"
+        },
+        {
+          "url": "https://developers.meta.com/horizon/",
+          "description": "An overview of Horizon, Meta's platform for building virtual reality experiences.",
+          "title": "Homepage | Meta Horizon OS Developers"
+        },
+        {
+          "url": "https://discussions.unity.com/t/why-does-the-playables-api-exist-when-should-i-use-it-rather-than-mecanim-animator-controllers/796009",
+          "description": "An explanation of the Playables API in Unity and when to use it over Mecanim Animator Controllers.",
+          "title": "Why does the Playables API exist, when should I use it rather than Mecanim (Animator Controllers)? - Unity Engine - Unity Discussions"
+        },
+        {
+          "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html",
+          "description": "The official Unity Manual providing comprehensive documentation for using Unity 3D engine.",
+          "title": "Unity - Manual: Unity 6.1 User Manual"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=tO2gthp45MA",
+          "description": "A YouTube tutorial on how to implement a RESTful API using Node.js and Express."
+        },
+        {
+          "url": "https://github.com/a327ex/blog/issues/39",
+          "description": "An in-depth exploration of implementing and optimizing data-oriented design in game development.",
+          "title": "How I made my own 2D game engine in under 2 months · Issue #39 · a327ex/blog"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tO3kLfvN6s4",
+          "description": "A tutorial video on setting up and using Docker for application containerization."
+        },
+        {
+          "url": "https://edw.is/learning-vulkan/",
+          "description": "An introductory guide to learning Vulkan for graphics programming.",
+          "title": "How I learned Vulkan and wrote a small game engine with it"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8OMghdHP-zs",
+          "description": "A tutorial video on integrating ChatGPT with Google Sheets using API calls."
+        },
+        {
+          "url": "https://michaelbitzos.com/devblog/implementing-stairs-in-2d-top-down-games",
+          "description": "A detailed guide on implementing stairs in 2D top-down video games.",
+          "title": "Implementing satisfying stairs for your 2D top-down game"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8OMghdHP-zs",
+        "https://www.youtube.com/watch?v=tO3kLfvN6s4",
+        "https://www.youtube.com/watch?v=VEnZzwW_OJM",
+        "https://www.youtube.com/watch?v=jsuBXckPvMw&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/watch?v=tO2gthp45MA",
+        "https://www.youtube.com/watch?v=A3R6T1h0ln8",
+        "https://www.youtube.com/watch?v=RuTmd4g5K8Q",
+        "https://www.youtube.com/watch?v=JUs6pPk_y8I",
+        "https://www.youtube.com/watch?v=lALvR4j6RCM"
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+          "description": "Official Microsoft documentation for C# programming language.",
+          "title": "C# Guide - .NET managed language | Microsoft Learn"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+          "description": "An in-depth guide to using the Canvas API for drawing graphics on the web.",
+          "title": "Canvas API - Web APIs | MDN"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/windows/uwp/gaming/e2e",
+          "description": "A guide to developing end-to-end gaming experiences on the Universal Windows Platform.",
+          "title": "Windows game development guide - UWP applications | Microsoft Learn"
+        },
+        {
+          "url": "https://create.roblox.com/docs",
+          "description": "Comprehensive documentation for creating and developing experiences on Roblox.",
+          "title": "Documentation - Roblox Creator Hub"
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=cNccvVoymb0",
+          "description": "An instructional video on using the GitHub Copilot extension in Visual Studio Code."
+        },
+        {
+          "url": "https://a5huynh.github.io/posts/2018/adventures-in-rust/",
+          "description": "An exploration of learning and developing projects using the Rust programming language.",
+          "title": "Adventures in Rust: A Basic 2D Game"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=s0O3a2AgoBA&pp=0gcJCdgAo7VqN5tD",
+          "description": "A detailed tutorial on mastering Git for version control in software development."
+        },
+        {
+          "url": "https://learncodebygaming.com/blog/how-to-make-a-video-game-in-java-2d-basics",
+          "description": "A beginner's guide to creating a 2D video game in Java.",
+          "title": "How to make a Video Game in Java (2D Basics) - LearnCodeByGaming.com"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Qif4jxhGT9c",
+          "description": "An in-depth tutorial on mastering advanced Git commands for software development."
+        },
+        {
+          "url": "https://edw.is/learning-vulkan/",
+          "description": "A detailed tutorial series for learning Vulkan graphics API from scratch.",
+          "title": "How I learned Vulkan and wrote a small game engine with it"
+        }
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=cNccvVoymb0",
+        "https://www.youtube.com/watch?v=s0O3a2AgoBA&pp=0gcJCdgAo7VqN5tD",
+        "https://www.youtube.com/watch?v=Qif4jxhGT9c",
+        "https://www.youtube.com/watch?v=Pkc4A1ukbJU",
+        "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+        "https://www.youtube.com/watch?v=nBCDzE9MDbk",
+        "https://www.youtube.com/watch?v=jxYYnATgJWc",
+        "https://www.youtube.com/watch?v=3FyuypHa7KQ",
+        "https://www.youtube.com/watch?v=_nmNsvysVA0&pp=0gcJCfwAo7VqN5tD",
+        "https://www.youtube.com/@crzyzhaa/videos"
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is a sprite in 2D game development?",
+        "options": [
+          "A static image used in games",
+          "A type of audio file",
+          "A 3D model",
+          "A script for game logic"
+        ],
+        "correct_option": 0,
+        "hint": "It's a type of image asset usually used for characters or objects."
+      },
+      {
+        "question": "Which component is essential for detecting when two objects collide in a 2D game?",
+        "options": [
+          "Physics engine",
+          "Texture packer",
+          "Sprite sheet",
+          "Animation timeline"
+        ],
+        "correct_option": 0,
+        "hint": "This system helps simulate real-world physics in games."
+      },
+      {
+        "question": "What is the purpose of a tilemap in 2D games?",
+        "options": [
+          "To create repeating patterns for game backgrounds",
+          "To manage game sound effects",
+          "To store player statistics",
+          "To handle network connections"
+        ],
+        "correct_option": 0,
+        "hint": "It helps in designing levels using grid-based layouts."
+      },
+      {
+        "question": "Which system allows the game view to follow the player character as they move through the game world?",
+        "options": [
+          "Camera system",
+          "Audio system",
+          "Physics engine",
+          "Input manager"
+        ],
+        "correct_option": 0,
+        "hint": "It controls what part of the game world is visible on the screen."
+      },
+      {
+        "question": "What does HUD stand for in the context of 2D game design?",
+        "options": [
+          "Heads-Up Display",
+          "Hyper User Device",
+          "High Utility Detail",
+          "Hidden User Data"
+        ],
+        "correct_option": 0,
+        "hint": "It's a common way to display important game information to the player."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of a tilemap in 2D game development?",
+        "options": [
+          "To create animated character sprites",
+          "To define the physics properties of objects",
+          "To design and arrange 2D game environments",
+          "To control camera movement in the game"
+        ],
+        "correct_option": 2,
+        "hint": "Think about how game levels and environments are constructed efficiently."
+      },
+      {
+        "question": "Which of the following is a common method for detecting collisions in a 2D game engine?",
+        "options": [
+          "Ray tracing",
+          "Bounding box",
+          "Vertex shading",
+          "Alpha blending"
+        ],
+        "correct_option": 1,
+        "hint": "This method involves the simplest geometric shape to encompass an object."
+      },
+      {
+        "question": "In the context of sprite animation, what does a 'sprite sheet' refer to?",
+        "options": [
+          "A single image used for a character",
+          "A collection of frames for animation",
+          "A tool for 2D physics simulation",
+          "A method to optimize game performance"
+        ],
+        "correct_option": 1,
+        "hint": "Think of it as a collection of images put together to create motion."
+      },
+      {
+        "question": "How can a camera system enhance a 2D game's user experience?",
+        "options": [
+          "By increasing the game's frame rate",
+          "By providing dynamic views of the game world",
+          "By improving the game's sound quality",
+          "By adding more complex physics"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how players can get different perspectives of the game environment."
+      },
+      {
+        "question": "What is a common use of a UI/HUD in 2D games?",
+        "options": [
+          "To manage background music",
+          "To display player stats and game information",
+          "To animate character movements",
+          "To simulate realistic lighting effects"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what information players need to see during gameplay."
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary purpose of using sprite sheets in 2D game development?",
+        "options": [
+          "To reduce memory usage by storing animations in a single image",
+          "To increase the frame rate of the game",
+          "To enhance 3D rendering capabilities",
+          "To improve collision detection accuracy"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how animations are organized and stored efficiently."
+      },
+      {
+        "question": "In 2D physics engines, which method is commonly used to detect collisions between complex shapes?",
+        "options": [
+          "Bounding volume hierarchy",
+          "Ray tracing",
+          "Sprite masking",
+          "Convex hull calculation"
+        ],
+        "correct_option": 0,
+        "hint": "Consider techniques that optimize collision detection by simplifying objects."
+      },
+      {
+        "question": "Which technique is essential for creating parallax scrolling in 2D camera systems?",
+        "options": [
+          "Layering backgrounds at different speeds",
+          "Implementing depth buffering",
+          "Using shaders for dynamic lighting",
+          "Applying anti-aliasing filters"
+        ],
+        "correct_option": 0,
+        "hint": "This technique involves moving different layers at varying speeds to create depth."
+      },
+      {
+        "question": "In UI/HUD design for 2D games, what is the primary purpose of a minimap?",
+        "options": [
+          "To provide players with a bird's-eye view of their surroundings",
+          "To display the frame rate",
+          "To show the game's story progression",
+          "To enhance graphical fidelity"
+        ],
+        "correct_option": 0,
+        "hint": "Consider what helps players orient themselves in the game world."
+      },
+      {
+        "question": "How do tilemaps benefit level design in 2D game engines?",
+        "options": [
+          "They allow for efficient reuse of graphical assets",
+          "They enable real-time 3D rendering",
+          "They facilitate procedural content generation",
+          "They improve sound design"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how tilemaps impact the visual consistency and resource management in levels."
+      }
+    ]
+  }
+}
