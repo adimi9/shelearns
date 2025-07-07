@@ -21,96 +21,114 @@
         {
           "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
           "description": "An introductory guide explaining the fundamentals of NoSQL databases.",
-          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB"
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB",
+          "resource_order": 1
         },
         {
           "url": "https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-database",
           "description": "A tutorial on setting up and using databases with Windows Subsystem for Linux (WSL).",
-          "title": "Add or connect a database with WSL | Microsoft Learn"
+          "title": "Add or connect a database with WSL | Microsoft Learn",
+          "resource_order": 2
         },
         {
           "url": "https://www.mongodb.com/",
           "description": "Official website for MongoDB, offering resources on NoSQL database solutions and cloud services.",
-          "title": "MongoDB: The World\u2019s Leading Modern Database | MongoDB"
+          "title": "MongoDB: The World’s Leading Modern Database | MongoDB",
+          "resource_order": 3
         },
         {
           "url": "https://firebase.google.com/docs/firestore",
           "description": "Official documentation for using Firestore, a scalable NoSQL cloud database, in Firebase applications.",
-          "title": "Firestore \u00a0|\u00a0 Firebase"
+          "title": "Firestore  |  Firebase",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
           "description": "An introductory guide explaining the fundamentals of NoSQL databases.",
-          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB"
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB",
+          "resource_order": 1
         },
         {
           "url": "https://www.joshmorony.com/an-introduction-to-nosql-for-html5-mobile-developers/",
           "description": "An introductory guide to NoSQL databases for HTML5 mobile developers.",
-          "title": "An Introduction to NoSQL for HTML5 Mobile Developers | Josh Morony"
+          "title": "An Introduction to NoSQL for HTML5 Mobile Developers | Josh Morony",
+          "resource_order": 2
         },
         {
           "url": "https://www.mongodb.com/resources/basics/databases/types",
           "description": "An overview of different types of databases and their uses.",
-          "title": "Types Of Databases | MongoDB"
+          "title": "Types Of Databases | MongoDB",
+          "resource_order": 3
         },
         {
           "url": "https://www.geeksforgeeks.org/introduction-to-nosql/",
           "description": "An introductory guide to NoSQL databases, covering key concepts and benefits.",
-          "title": "Introduction to NoSQL - GeeksforGeeks"
+          "title": "Introduction to NoSQL - GeeksforGeeks",
+          "resource_order": 4
         },
         {
           "url": "https://realpython.com/introduction-to-mongodb-and-python/",
           "description": "An introductory guide to using MongoDB with Python for beginners.",
-          "title": "Python and MongoDB: Connecting to NoSQL Databases \u2013 Real Python"
+          "title": "Python and MongoDB: Connecting to NoSQL Databases – Real Python",
+          "resource_order": 5
         },
         {
           "url": "https://jameskle.com/writes/no-sql",
           "description": "An insightful overview of the principles and applications of NoSQL databases.",
-          "title": "An Introduction to Big Data: NoSQL \u2014 James Le"
+          "title": "An Introduction to Big Data: NoSQL — James Le",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=oqLy82qVrt4",
           "title": "Apache Cassandra Vs. Redis Vs. MongoDB: NoSQL Databases Compared!",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=zw65SI8l_qk&pp=ygUMI2VsY2Jjb25uZWN0",
           "title": "What is Couchbase? | NoSQL Database | MongoDB Vs CouchBase | Tech Primers",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=9OPP_1eAENg",
           "title": "MongoDB Tutorial #1 - Introduction to MongoDB",
-          "duration": "4m"
+          "duration": "4m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=J_6Fd-sth64",
           "title": "NoSQL and MongoDB Tutorial - Quick Cheat Sheet",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=qr4FVhBTq0I",
           "title": "Redis Tutorial - A Brief Introduction to Redis",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=VOLeKvNz-Zo",
           "title": "What is MongoDB?",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=EjcAqAJjmEo&pp=ygUOI2RhdGFncmlwc2V0dXA%3D",
-          "title": "\ud83c\udf43 MongoDB Crash Course \ud83c\udf43 | NOSQL DBMS [ DataGrip Software ]",
-          "duration": "48m"
+          "title": "🍃 MongoDB Crash Course 🍃 | NOSQL DBMS [ DataGrip Software ]",
+          "duration": "48m",
+          "resource_order": 7
         },
         {
           "url": "https://m.youtube.com/watch?v=c2M-rlkkT5o&t=218s",
-          "title": "Learn MongoDB in 1 Hour \ud83c\udf43",
-          "duration": "60m"
+          "title": "Learn MongoDB in 1 Hour 🍃",
+          "duration": "60m",
+          "resource_order": 8
         }
       ]
     },
@@ -119,101 +137,120 @@
         {
           "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
           "description": "An introductory explanation of NoSQL databases and their benefits.",
-          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB"
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB",
+          "resource_order": 1
         },
         {
           "url": "https://stackoverflow.com/questions/441441/why-should-i-use-document-based-database-instead-of-relational-database",
           "description": "A discussion on the advantages of using document-based databases over relational databases.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://www.mongodb.com/",
           "description": "Official website and resources for MongoDB, a leading NoSQL database platform.",
-          "title": "MongoDB: The World\u2019s Leading Modern Database | MongoDB"
+          "title": "MongoDB: The World’s Leading Modern Database | MongoDB",
+          "resource_order": 3
         },
         {
           "url": "https://loadforge.com/guides/choosing-the-best-nosql-database-a-comparison-of-the-top-5-options",
           "description": "A guide comparing the top five NoSQL databases to help choose the best option.",
-          "title": "Load Testing and Stress Tests - LoadForge"
+          "title": "Load Testing and Stress Tests - LoadForge",
+          "resource_order": 4
         },
         {
           "url": "https://news.ycombinator.com/item?id=42778795",
           "description": "A discussion thread on Hacker News about a technical topic or news item.",
-          "title": "Kvrocks: Redis-compatible distributed key value NoSQL database | Hacker News"
+          "title": "Kvrocks: Redis-compatible distributed key value NoSQL database | Hacker News",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://stackoverflow.com/questions/5400163/when-to-redis-when-to-mongodb",
           "description": "A discussion on choosing between Redis and MongoDB for different use cases.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
           "description": "An introduction to NoSQL databases and their benefits over traditional relational databases.",
-          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB"
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB",
+          "resource_order": 2
         },
         {
           "url": "https://www.geeksforgeeks.org/introduction-to-nosql/",
           "description": "An introductory guide to NoSQL databases and their key features.",
-          "title": "Introduction to NoSQL - GeeksforGeeks"
+          "title": "Introduction to NoSQL - GeeksforGeeks",
+          "resource_order": 3
         },
         {
           "url": "https://www.mongodb.com/resources/basics/databases/types",
           "description": "An overview of different types of databases and their use cases.",
-          "title": "Types Of Databases | MongoDB"
+          "title": "Types Of Databases | MongoDB",
+          "resource_order": 4
         },
         {
           "url": "https://simonwillison.net/tags/nosql/",
           "description": "A curated collection of posts and resources about NoSQL databases by Simon Willison.",
-          "title": "Simon Willison on nosql"
+          "title": "Simon Willison on nosql",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=LvFoyJzzsn4",
           "title": "Which NoSQL database is right for you? - AWS Online Tech Talks",
-          "duration": "50m"
+          "duration": "50m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=KZsVSfQVU4I",
           "title": "Cassandra Database Crash Course",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=u5y_aUP5Td0",
           "title": "Introduction to MongoDB - Zero To Document Hero",
-          "duration": "72m"
+          "duration": "72m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=5s3CpxjvlrY",
           "title": "Zero to Document Hero - Intro to MongoDB and .NET - Luce Carter - NDC London 2022",
-          "duration": "52m"
+          "duration": "52m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=8PQKvUoeKgM",
           "title": "How to Choose the Right Database for Your Use Case! Choosing the Right Database!",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=-MgD5pevcdQ",
           "title": "Optimizing MongoDB Query Performance",
-          "duration": "26m"
+          "duration": "26m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=Xu1CaxMqjPI",
           "title": "Redis vs MongoDB (in 60 seconds)",
-          "duration": "0m"
+          "duration": "0m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=nc-Kpiq1zLc",
           "title": "MongoDB + Python #3 - Full-Text Search with Atlas Search",
-          "duration": "31m"
+          "duration": "31m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=l8BZOblC-h0",
           "title": "MongoDB vs CouchDB | What is MongoDB | What is CouchDB | NoSQL Database | Edureka",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 9
         }
       ]
     },
@@ -222,101 +259,120 @@
         {
           "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
           "description": "An introductory explanation of NoSQL databases and their key characteristics.",
-          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB"
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB",
+          "resource_order": 1
         },
         {
           "url": "https://loadforge.com/guides/choosing-the-best-nosql-database-a-comparison-of-the-top-5-options",
           "description": "A comparative guide to selecting the best NoSQL database from the top five options.",
-          "title": "Load Testing and Stress Tests - LoadForge"
+          "title": "Load Testing and Stress Tests - LoadForge",
+          "resource_order": 2
         },
         {
           "url": "https://www.mongodb.com/",
           "description": "Official website for MongoDB, offering documentation, tutorials, and resources for using the NoSQL database.",
-          "title": "MongoDB: The World\u2019s Leading Modern Database | MongoDB"
+          "title": "MongoDB: The World’s Leading Modern Database | MongoDB",
+          "resource_order": 3
         },
         {
           "url": "https://docs.nestjs.com/techniques/mongodb",
           "description": "A guide on integrating and using MongoDB with NestJS applications.",
-          "title": "MongoDB | NestJS - A progressive Node.js framework"
+          "title": "MongoDB | NestJS - A progressive Node.js framework",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
           "description": "An overview of NoSQL databases and their key characteristics.",
-          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB"
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB",
+          "resource_order": 1
         },
         {
           "url": "https://podcasts.apple.com/us/podcast/system-design/id1532287019",
           "description": "A podcast series exploring various aspects of system design.",
-          "title": "System Design - Podcast - Apple Podcasts"
+          "title": "System Design - Podcast - Apple Podcasts",
+          "resource_order": 2
         },
         {
           "url": "https://www.mongodb.com/",
           "description": "The official website for MongoDB, a leading NoSQL database platform.",
-          "title": "MongoDB: The World\u2019s Leading Modern Database | MongoDB"
+          "title": "MongoDB: The World’s Leading Modern Database | MongoDB",
+          "resource_order": 3
         },
         {
           "url": "https://www.scylladb.com/learn/nosql/nosql-database-comparison/",
           "description": "An in-depth comparison of various NoSQL databases to help choose the right one for your needs.",
-          "title": "NoSQL Database Comparison - ScyllaDB"
+          "title": "NoSQL Database Comparison - ScyllaDB",
+          "resource_order": 4
         },
         {
           "url": "https://www.elevationng.org/?u=1054727920869",
           "description": "A resource hub for personal and professional development programs.",
-          "title": "The Elevation Church - Making Greatness Common"
+          "title": "The Elevation Church - Making Greatness Common",
+          "resource_order": 5
         },
         {
           "url": "https://www.oreilly.com/search/skills/nosql-databases/",
           "description": "A curated collection of resources for learning NoSQL databases.",
-          "title": "Skills"
+          "title": "Skills",
+          "resource_order": 6
         },
         {
           "url": "https://open.spotify.com/show/2wnpdaxTbMaKQVVmUxb9QW",
           "description": "A podcast series exploring the latest trends and insights in technology and innovation.",
-          "title": "System Design | Podcast on Spotify"
+          "title": "System Design | Podcast on Spotify",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=LvFoyJzzsn4",
           "title": "Which NoSQL database is right for you? - AWS Online Tech Talks",
-          "duration": "50m"
+          "duration": "50m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=cz-Z77UxzD8",
           "title": "NoSQL vs SQL: System Design Guide | MongoDB, Redis, Key-Value & Graph Databases",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=TN6QGfOFa90",
           "title": "How to Migrate Data from MongoDB to a MySql Database with Airflow!",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=yuVVKB0EaOQ",
           "title": "Build Nest.js Microservices With RabbitMQ, MongoDB & Docker | Tutorial",
-          "duration": "84m"
+          "duration": "84m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=jH9NR0Ua24o&pp=0gcJCdgAo7VqN5tD",
           "title": "MongoDB Atlas: How to Safely Delete a Project and Database",
-          "duration": "3m"
+          "duration": "3m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=ObBVK9BUp9Y",
           "title": "#85 Adding Fields | Aggregation Pipeline | MongoDB Complete Course 2025",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=BWUi6BS9T5Y",
           "title": "Build a REST API with Node.js, Express, TypeScript, MongoDB & Zod",
-          "duration": "129m"
+          "duration": "129m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=XFJcboyDSRA",
           "title": "MongoDB Atlas - Schema Suggestions Tutorial",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 8
         }
       ]
     }
@@ -332,7 +388,8 @@
           "It stores data in key-value pairs."
         ],
         "correct_option": 1,
-        "hint": "MongoDB uses a flexible schema and stores data in a format similar to JSON."
+        "hint": "MongoDB uses a flexible schema and stores data in a format similar to JSON.",
+        "question_order": 1
       },
       {
         "question": "How does Redis primarily store data?",
@@ -343,7 +400,8 @@
           "As XML files"
         ],
         "correct_option": 2,
-        "hint": "Redis is known for its simple key-value storage system."
+        "hint": "Redis is known for its simple key-value storage system.",
+        "question_order": 2
       },
       {
         "question": "What is data modeling in the context of NoSQL databases?",
@@ -354,7 +412,8 @@
           "Installing NoSQL database software"
         ],
         "correct_option": 1,
-        "hint": "Data modeling in NoSQL involves selecting data structures that best fit the application's needs."
+        "hint": "Data modeling in NoSQL involves selecting data structures that best fit the application's needs.",
+        "question_order": 3
       },
       {
         "question": "Which feature of MongoDB allows for processing and transforming data from collections?",
@@ -365,7 +424,8 @@
           "ACID Transactions"
         ],
         "correct_option": 2,
-        "hint": "This feature is used to perform operations on data to retrieve aggregated results."
+        "hint": "This feature is used to perform operations on data to retrieve aggregated results.",
+        "question_order": 4
       },
       {
         "question": "Why are key-value stores like Redis often used for caching?",
@@ -376,7 +436,8 @@
           "They require strict schemas."
         ],
         "correct_option": 2,
-        "hint": "The simplicity of key-value stores allows for quick access to data, making them ideal for caching."
+        "hint": "The simplicity of key-value stores allows for quick access to data, making them ideal for caching.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -389,7 +450,8 @@
           "They store data in JSON-like, flexible documents."
         ],
         "correct_option": 3,
-        "hint": "Consider how MongoDB handles data structures compared to traditional databases."
+        "hint": "Consider how MongoDB handles data structures compared to traditional databases.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is a common use case for Redis?",
@@ -400,7 +462,8 @@
           "Document storage"
         ],
         "correct_option": 2,
-        "hint": "Redis is known for its speed, particularly in scenarios requiring quick data retrieval."
+        "hint": "Redis is known for its speed, particularly in scenarios requiring quick data retrieval.",
+        "question_order": 2
       },
       {
         "question": "In MongoDB, what is the purpose of an aggregation pipeline?",
@@ -411,7 +474,8 @@
           "To replicate data across multiple servers"
         ],
         "correct_option": 1,
-        "hint": "Think about how MongoDB processes data beyond simple queries."
+        "hint": "Think about how MongoDB processes data beyond simple queries.",
+        "question_order": 3
       },
       {
         "question": "When designing a schema for a NoSQL database, what is a critical consideration?",
@@ -422,7 +486,8 @@
           "Using fixed table sizes"
         ],
         "correct_option": 1,
-        "hint": "NoSQL schemas often prioritize adaptability over rigid structures."
+        "hint": "NoSQL schemas often prioritize adaptability over rigid structures.",
+        "question_order": 4
       },
       {
         "question": "Which MongoDB feature allows for horizontal scaling by distributing data across multiple nodes?",
@@ -433,7 +498,8 @@
           "Journaling"
         ],
         "correct_option": 1,
-        "hint": "This feature deals with splitting the dataset across different machines to manage large volumes of data."
+        "hint": "This feature deals with splitting the dataset across different machines to manage large volumes of data.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -446,7 +512,8 @@
           "$cache for storing aggregation results"
         ],
         "correct_option": 3,
-        "hint": "Consider the primary purpose of the Aggregation Framework in MongoDB."
+        "hint": "Consider the primary purpose of the Aggregation Framework in MongoDB.",
+        "question_order": 1
       },
       {
         "question": "What is the primary advantage of using a key-value store like Redis for session management?",
@@ -457,10 +524,11 @@
           "Support for ACID transactions"
         ],
         "correct_option": 0,
-        "hint": "Think about what Redis is optimized for in terms of data access speed."
+        "hint": "Think about what Redis is optimized for in terms of data access speed.",
+        "question_order": 2
       },
       {
-        "question": "Which of the following scenarios best illustrates a use case for MongoDB\u2019s flexible schema design?",
+        "question": "Which of the following scenarios best illustrates a use case for MongoDB’s flexible schema design?",
         "options": [
           "Storing a fixed schema financial data with strict validations",
           "Handling user profile information with varying fields",
@@ -468,7 +536,8 @@
           "Executing real-time analytics with time-series data"
         ],
         "correct_option": 1,
-        "hint": "Consider the strength of MongoDB in handling diverse and evolving data structures."
+        "hint": "Consider the strength of MongoDB in handling diverse and evolving data structures.",
+        "question_order": 3
       },
       {
         "question": "In Redis, what is a potential drawback of its in-memory data store design?",
@@ -479,7 +548,8 @@
           "Lack of support for various data types"
         ],
         "correct_option": 0,
-        "hint": "Consider what happens to in-memory data when the system loses power."
+        "hint": "Consider what happens to in-memory data when the system loses power.",
+        "question_order": 4
       },
       {
         "question": "In MongoDB, which command is used to create an index on a collection to improve query performance?",
@@ -490,7 +560,8 @@
           "defineIndex"
         ],
         "correct_option": 0,
-        "hint": "It is a command that initiates the creation of indexes in MongoDB collections."
+        "hint": "It is a command that initiates the creation of indexes in MongoDB collections.",
+        "question_order": 5
       }
     ]
   }

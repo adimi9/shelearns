@@ -20,71 +20,84 @@
         {
           "url": "https://firebase.google.com/docs/database",
           "description": "Comprehensive documentation on using Firebase Realtime Database for building real-time applications.",
-          "title": "Firebase Realtime Database"
+          "title": "Firebase Realtime Database",
+          "resource_order": 1
         },
         {
           "url": "https://flask.palletsprojects.com/",
           "description": "Official documentation for Flask, a micro web framework for Python.",
-          "title": "Welcome to Flask \u2014 Flask Documentation (3.1.x)"
+          "title": "Welcome to Flask — Flask Documentation (3.1.x)",
+          "resource_order": 2
         },
         {
           "url": "https://platform.openai.com/docs/api-reference/introduction",
           "description": "Introduction to the OpenAI API, detailing its capabilities and usage guidelines.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/application-gateway-web-application-firewall-portal",
           "description": "Guide on configuring Azure Application Gateway Web Application Firewall via the portal.",
-          "title": "Tutorial: Create an application gateway with a Web Application Firewall using the Azure portal | Microsoft Learn"
+          "title": "Tutorial: Create an application gateway with a Web Application Firewall using the Azure portal | Microsoft Learn",
+          "resource_order": 1
         },
         {
           "url": "https://www.datacamp.com/tutorial/python-backend-development",
           "description": "An introductory tutorial on backend development using Python.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=1oTuMPIwHmk",
           "title": "Back-End Web Development (Tutorial for Beginners)",
-          "duration": "188m"
+          "duration": "188m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=0-7B8xDlo-E",
           "title": "API Testing Basics Tutorial (Part 1) - Backend/API Testing Fundamentals",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=zuKbR4Q428o",
           "title": "JavaScript Unit Testing Tutorial for Beginners",
-          "duration": "48m"
+          "duration": "48m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=f2EqECiTBL8",
           "title": "Node.js Full Course for Beginners | Complete All-in-One Tutorial | 7 Hours",
-          "duration": "410m"
+          "duration": "410m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=gJrjgg1KVL4",
           "title": "Spring Boot Tutorial for Beginners [2025]",
-          "duration": "71m"
+          "duration": "71m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=D05ugfpcqH0",
           "title": "FlutterFlow for Beginners 2024 | How to Build Your App from Scratch",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=z3YMz-Gocmw",
-          "title": "Python REST API Tutorial for Beginners\u00a0| How to Build a Flask REST\u00a0API",
-          "duration": "40m"
+          "title": "Python REST API Tutorial for Beginners | How to Build a Flask REST API",
+          "duration": "40m",
+          "resource_order": 8
         }
       ]
     },
@@ -93,91 +106,108 @@
         {
           "url": "https://firebase.google.com/docs/database",
           "description": "Comprehensive documentation on using Firebase Realtime Database for building real-time applications.",
-          "title": "Firebase Realtime Database"
+          "title": "Firebase Realtime Database",
+          "resource_order": 1
         },
         {
           "url": "https://docs.cypress.io/app/core-concepts/best-practices",
           "description": "Guidelines for implementing best practices in Cypress testing.",
-          "title": "Best Practices | Cypress Documentation"
+          "title": "Best Practices | Cypress Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://developers.google.com/apis-explorer",
           "description": "An interactive tool for exploring and testing Google APIs directly in the browser.",
-          "title": "Google APIs Explorer \u00a0|\u00a0 Google for Developers"
+          "title": "Google APIs Explorer  |  Google for Developers",
+          "resource_order": 3
         },
         {
           "url": "https://developer.spotify.com/documentation/web-api",
           "description": "Official documentation for Spotify's Web API to access music data and control playback.",
-          "title": "Web API | Spotify for Developers"
+          "title": "Web API | Spotify for Developers",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.testim.io/blog/jest-testing-a-helpful-introductory-tutorial/",
           "description": "An introductory tutorial on using Jest for testing JavaScript applications.",
-          "title": "Jest testing: A complete tutorial- testim.io"
+          "title": "Jest testing: A complete tutorial- testim.io",
+          "resource_order": 1
         },
         {
           "url": "https://circleci.com/blog/api-mock-testing-nock/",
           "description": "An introduction to using Nock for API mock testing in CircleCI projects.",
-          "title": "API mock testing with Nock | CircleCI"
+          "title": "API mock testing with Nock | CircleCI",
+          "resource_order": 2
         },
         {
           "url": "https://jestjs.io/",
           "description": "Official documentation for Jest, a JavaScript testing framework.",
-          "title": "Jest \u00b7 \ud83c\udccf Delightful JavaScript Testing"
+          "title": "Jest · 🃏 Delightful JavaScript Testing",
+          "resource_order": 3
         },
         {
           "url": "https://fastapi.tiangolo.com/tutorial/testing/",
           "description": "A guide to testing FastAPI applications with practical examples and best practices.",
-          "title": "Testing - FastAPI"
+          "title": "Testing - FastAPI",
+          "resource_order": 4
         },
         {
           "url": "https://katalon.com/resources-center/blog/end-to-end-e2e-testing",
           "description": "An insightful blog post explaining end-to-end (E2E) testing and its benefits in software development.",
-          "title": "What is End To End Testing? Definition, Tools, Best Practices"
+          "title": "What is End To End Testing? Definition, Tools, Best Practices",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=zuKbR4Q428o",
           "title": "JavaScript Unit Testing Tutorial for Beginners",
-          "duration": "48m"
+          "duration": "48m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=3NW0Mz943_E&pp=0gcJCfwAo7VqN5tD",
           "title": "React Testing with Playwright (Complete Tutorial)",
-          "duration": "32m"
+          "duration": "32m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
           "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
-          "duration": "158m"
+          "duration": "158m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=4sR77vaEhy8",
           "title": "How to Create and Test API with Swagger Tutorial - For Dummies",
-          "duration": "33m"
+          "duration": "33m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=EgpLj86ZHFQ&pp=0gcJCfwAo7VqN5tD",
-          "title": "Please Learn How To Write Tests in Python\u2026 \u2022 Pytest Tutorial",
-          "duration": "33m"
+          "title": "Please Learn How To Write Tests in Python… • Pytest Tutorial",
+          "duration": "33m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
           "title": "Flutter Clean Architecture Full Course For Beginners - Bloc, Supabase, Hive, GetIt",
-          "duration": "424m"
+          "duration": "424m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=K5bILysiU_w",
           "title": "How to Enable and Use Backend Workflows in Bubble",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 8
         }
       ]
     },
@@ -186,91 +216,108 @@
         {
           "url": "https://flask.palletsprojects.com/",
           "description": "The official documentation for Flask, a micro web framework for Python.",
-          "title": "Welcome to Flask \u2014 Flask Documentation (3.1.x)"
+          "title": "Welcome to Flask — Flask Documentation (3.1.x)",
+          "resource_order": 1
         },
         {
           "url": "https://docs.djangoproject.com/",
           "description": "Official documentation for the Django web framework, covering installation, features, and usage.",
-          "title": "Django documentation | Django documentation | Django"
+          "title": "Django documentation | Django documentation | Django",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/",
           "description": "Official Microsoft documentation for .NET development and resources.",
-          "title": ".NET documentation | Microsoft Learn"
+          "title": ".NET documentation | Microsoft Learn",
+          "resource_order": 3
         },
         {
           "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
           "description": "An introduction to AWS Lambda, detailing its features and usage for serverless computing.",
-          "title": "What is AWS Lambda? - AWS Lambda"
+          "title": "What is AWS Lambda? - AWS Lambda",
+          "resource_order": 4
         },
         {
           "url": "https://docs.nestjs.com/fundamentals/testing",
           "description": "A detailed guide on testing strategies and tools for NestJS applications.",
-          "title": "Testing | NestJS - A progressive Node.js framework"
+          "title": "Testing | NestJS - A progressive Node.js framework",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.datacamp.com/tutorial/python-backend-development",
           "description": "An introductory tutorial on Python backend development for building web applications.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://testdriven.io/blog/fastapi-react/",
           "description": "A tutorial on integrating FastAPI with a React frontend for full-stack web development.",
-          "title": "Developing a Single Page App with FastAPI and React | TestDriven.io"
+          "title": "Developing a Single Page App with FastAPI and React | TestDriven.io",
+          "resource_order": 2
         },
         {
           "url": "https://learn.palantir.com/",
           "description": "An educational platform offering courses and resources for mastering Palantir technologies.",
-          "title": "ERROR: The request could not be satisfied"
+          "title": "ERROR: The request could not be satisfied",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=B3O6bXu-NbM",
           "title": "Microsoft Azure Application Gateway Deep Dive",
-          "duration": "63m"
+          "duration": "63m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=gJrjgg1KVL4",
           "title": "Spring Boot Tutorial for Beginners [2025]",
-          "duration": "71m"
+          "duration": "71m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
           "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
-          "duration": "158m"
+          "duration": "158m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=LDUZZuBqktA&pp=0gcJCdgAo7VqN5tD",
           "title": "How Do I Become a Back-End Developer in C#",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw",
           "title": "Complete Docker Course - From BEGINNER to PRO! (Learn Containers)",
-          "duration": "284m"
+          "duration": "284m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=bB7xkRsEq-g",
           "title": "Advanced ChatGPT Guide - How to build your own Chat GPT Site",
-          "duration": "37m"
+          "duration": "37m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=f2EqECiTBL8",
           "title": "Node.js Full Course for Beginners | Complete All-in-One Tutorial | 7 Hours",
-          "duration": "410m"
+          "duration": "410m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=kfIS7uO1CPE",
           "title": "Azure Load Testing Detailed Walkthrough",
-          "duration": "114m"
+          "duration": "114m",
+          "resource_order": 9
         }
       ]
     }
@@ -286,7 +333,8 @@
           "To validate the application's user interface design"
         ],
         "correct_option": 1,
-        "hint": "Think about what makes unit testing different from other types of testing."
+        "hint": "Think about what makes unit testing different from other types of testing.",
+        "question_order": 1
       },
       {
         "question": "Which testing framework is commonly used for unit testing in Node.js applications?",
@@ -297,7 +345,8 @@
           "Mocha"
         ],
         "correct_option": 2,
-        "hint": "It is a widely used testing framework in the JavaScript ecosystem."
+        "hint": "It is a widely used testing framework in the JavaScript ecosystem.",
+        "question_order": 2
       },
       {
         "question": "In integration testing, what is typically tested?",
@@ -308,7 +357,8 @@
           "The spelling and grammar of the code comments"
         ],
         "correct_option": 1,
-        "hint": "Integration testing focuses on the cooperation between different parts of the system."
+        "hint": "Integration testing focuses on the cooperation between different parts of the system.",
+        "question_order": 3
       },
       {
         "question": "Which tool is commonly used for end-to-end testing of APIs?",
@@ -319,7 +369,8 @@
           "Pytest"
         ],
         "correct_option": 0,
-        "hint": "This tool is often paired with Node.js to test API endpoints."
+        "hint": "This tool is often paired with Node.js to test API endpoints.",
+        "question_order": 4
       },
       {
         "question": "What does end-to-end testing primarily verify in an application?",
@@ -330,7 +381,8 @@
           "The syntax correctness of the code"
         ],
         "correct_option": 1,
-        "hint": "End-to-end testing checks the application's workflow from beginning to end."
+        "hint": "End-to-end testing checks the application's workflow from beginning to end.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -343,7 +395,8 @@
           "To visualize testing reports"
         ],
         "correct_option": 0,
-        "hint": "Jest is primarily used for testing small, isolated units of code."
+        "hint": "Jest is primarily used for testing small, isolated units of code.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is a key advantage of using Pytest for testing Python applications?",
@@ -354,7 +407,8 @@
           "Automates code deployment"
         ],
         "correct_option": 1,
-        "hint": "Pytest is known for handling multiple test cases with different inputs efficiently."
+        "hint": "Pytest is known for handling multiple test cases with different inputs efficiently.",
+        "question_order": 2
       },
       {
         "question": "In the context of Integration Testing, what is the primary focus?",
@@ -365,7 +419,8 @@
           "Testing user interfaces for usability"
         ],
         "correct_option": 1,
-        "hint": "Integration Testing focuses on how different parts of the application work together."
+        "hint": "Integration Testing focuses on how different parts of the application work together.",
+        "question_order": 3
       },
       {
         "question": "Which testing framework is commonly used for End-to-End testing of APIs?",
@@ -376,7 +431,8 @@
           "Mocha"
         ],
         "correct_option": 2,
-        "hint": "The framework is often associated with Node.js and testing HTTP endpoints."
+        "hint": "The framework is often associated with Node.js and testing HTTP endpoints.",
+        "question_order": 4
       },
       {
         "question": "What is a common use case for Cypress in backend application testing?",
@@ -387,7 +443,8 @@
           "Automating cloud deployments"
         ],
         "correct_option": 0,
-        "hint": "Cypress is primarily used for testing web applications, including API interactions."
+        "hint": "Cypress is primarily used for testing web applications, including API interactions.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -400,7 +457,8 @@
           "Karma"
         ],
         "correct_option": 1,
-        "hint": "It is known for its simplicity and powerful features like built-in mocking."
+        "hint": "It is known for its simplicity and powerful features like built-in mocking.",
+        "question_order": 1
       },
       {
         "question": "What is the main purpose of integration testing?",
@@ -411,7 +469,8 @@
           "To ensure the application code is free of syntax errors"
         ],
         "correct_option": 1,
-        "hint": "It focuses on verifying the interactions between different parts of the application."
+        "hint": "It focuses on verifying the interactions between different parts of the application.",
+        "question_order": 2
       },
       {
         "question": "In Pytest, which fixture scope allows the fixture to be executed once per session?",
@@ -422,7 +481,8 @@
           "session"
         ],
         "correct_option": 3,
-        "hint": "This scope is useful for expensive setup, like starting a server."
+        "hint": "This scope is useful for expensive setup, like starting a server.",
+        "question_order": 3
       },
       {
         "question": "What is a common tool for performing end-to-end testing of REST APIs?",
@@ -433,7 +493,8 @@
           "Jasmine"
         ],
         "correct_option": 1,
-        "hint": "This tool is often used with Node.js and Express for API testing."
+        "hint": "This tool is often used with Node.js and Express for API testing.",
+        "question_order": 4
       },
       {
         "question": "Which of the following is true about Cypress in the context of end-to-end testing?",
@@ -444,7 +505,8 @@
           "It cannot handle network requests"
         ],
         "correct_option": 2,
-        "hint": "Cypress allows you to see commands and perform time-travel through screenshots."
+        "hint": "Cypress allows you to see commands and perform time-travel through screenshots.",
+        "question_order": 5
       }
     ]
   }

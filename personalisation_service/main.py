@@ -4,11 +4,15 @@ import logging
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from typing import List, Dict
+from typing import List, Dict, Union
 import uvicorn
-
 # Relative import for local modules
-from app.rag_system import RAGSystem
+from app.rag_output import RAGSystem
+
+
+# model definitions
+from models import QuestionnaireRequest, PersonalizationResponse
+
 
 # ----------------------------------
 # 🔧 Logging configuration
@@ -32,21 +36,6 @@ app = FastAPI(
 rag_system = RAGSystem()
 
 # -------------------------------
-# 📦 Pydantic models
-# -------------------------------
-class PersonalizationRequest(BaseModel):
-    prompt: str
-
-class CourseRecommendation(BaseModel):
-    id: str
-    name: str
-    description: str
-
-class PersonalizationResponse(BaseModel):
-    intro_paragraph: str
-    recommended_courses: List[CourseRecommendation]
-
-# -------------------------------
 # ✅ Endpoints
 # -------------------------------
 @app.get("/health", response_model=Dict[str, str])
@@ -54,13 +43,13 @@ async def health_check():
     return {"status": "ok", "message": "Personalization service is running."}
 
 @app.post("/personalize", response_model=PersonalizationResponse)
-async def personalize_roadmap(request: PersonalizationRequest):
+async def personalize_roadmap(request: QuestionnaireRequest):
     try:
         # 🔵 Log prompt from backend
-        logger.info("🔵 Received prompt from Java backend:\n%s\n🔵 End of prompt", request.prompt)
+        logger.info("🔵 Received questionnaire from Java backend:\n%s", json.dumps(request.questionnaire, indent=2))
 
         # 🎯 Get raw response from RAG system
-        roadmap_json_str = await rag_system.answer_question(request.prompt)
+        roadmap_json_str = await rag_system.answer_question(request.questionnaire)
 
         # 🔁 Log raw string before parsing
         logger.info("🟢 Raw response from RAGSystem:\n%s\n🟢 End of raw response", roadmap_json_str)

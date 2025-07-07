@@ -28,91 +28,108 @@
         {
           "url": "https://www.mongodb.com/docs/manual/tutorial/query-documents/",
           "description": "A tutorial on querying documents in MongoDB using various query operators and methods.",
-          "title": "Query Documents - Database Manual - MongoDB Docs"
+          "title": "Query Documents - Database Manual - MongoDB Docs",
+          "resource_order": 1
         },
         {
           "url": "https://www.numberanalytics.com/blog/mastering-nosql-data-science",
           "description": "An insightful guide to leveraging NoSQL databases for data science applications.",
-          "title": "Mastering NoSQL for Data Science Success"
+          "title": "Mastering NoSQL for Data Science Success",
+          "resource_order": 2
         },
         {
           "url": "https://www.mongodb.com/docs/manual/",
           "description": "Official MongoDB manual providing comprehensive documentation on database features and usage.",
-          "title": "What is MongoDB? - Database Manual - MongoDB Docs"
+          "title": "What is MongoDB? - Database Manual - MongoDB Docs",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.datacamp.com/tutorial/nosql-tutorial",
           "description": "An introductory tutorial on NoSQL databases and their applications.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://learn.mongodb.com/",
           "description": "A platform offering courses and resources for learning MongoDB database technologies.",
-          "title": "MongoDB Courses and Trainings | MongoDB University"
+          "title": "MongoDB Courses and Trainings | MongoDB University",
+          "resource_order": 2
         },
         {
           "url": "https://www.mongodb.com/docs/manual/tutorial/query-documents/",
           "description": "A tutorial on querying documents in MongoDB using various query operators and methods.",
-          "title": "Query Documents - Database Manual - MongoDB Docs"
+          "title": "Query Documents - Database Manual - MongoDB Docs",
+          "resource_order": 3
         },
         {
           "url": "https://www.coursera.org/learn/packt-mongodb-tutorial-for-beginners-2024-v8pfw",
           "description": "An introductory course on MongoDB for beginners, covering fundamental concepts and practical usage.",
-          "title": "MongoDB Tutorial for Beginners (2024) | Coursera"
+          "title": "MongoDB Tutorial for Beginners (2024) | Coursera",
+          "resource_order": 4
         },
         {
           "url": "https://www.geeksforgeeks.org/mongodb/mongodb-tutorial/",
           "description": "A detailed tutorial for beginners to learn MongoDB database concepts and operations.",
-          "title": "MongoDB Tutorial - GeeksforGeeks"
+          "title": "MongoDB Tutorial - GeeksforGeeks",
+          "resource_order": 5
         },
         {
           "url": "https://www.w3schools.com/mongodb/",
           "description": "A beginner-friendly tutorial on MongoDB covering basic to advanced concepts.",
-          "title": "MongoDB Tutorial"
+          "title": "MongoDB Tutorial",
+          "resource_order": 6
         },
         {
           "url": "https://www.geeksforgeeks.org/introduction-to-nosql/",
           "description": "An introductory overview of NoSQL databases and their key characteristics.",
-          "title": "Introduction to NoSQL - GeeksforGeeks"
+          "title": "Introduction to NoSQL - GeeksforGeeks",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=c2M-rlkkT5o",
-          "title": "Learn MongoDB in 1 Hour \ud83c\udf43",
-          "duration": "60m"
+          "title": "Learn MongoDB in 1 Hour 🍃",
+          "duration": "60m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=tww-gbNPOcA",
           "title": "Master MONGODB in ONE VIDEO: Beginner to Advanced Course For Beginners in [HINDI]",
-          "duration": "275m"
+          "duration": "275m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=o2UIc-oIn-Y",
           "title": "5 Best  Mongo  DB and NoSQL Database Online Course for Beginners",
-          "duration": "3m"
+          "duration": "3m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=-PdjUx9JZ2E",
           "title": "Intro to MongoDB and Mongoose | Node.js Tutorials for Beginners",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=Es7ac0AtHJ8",
           "title": "Practice with PHP: Mastering PHP/Laravel with MongoDB Atlas",
-          "duration": "63m"
+          "duration": "63m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=grA0HLLiYaI",
           "title": "Getting Started with MongoDB tutorial: Update Data [for beginners]",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=6QnY7Ri_ORw",
           "title": "Project using Java Spring Boot and MongoDB NoSQL Database",
-          "duration": "40m"
+          "duration": "40m",
+          "resource_order": 7
         }
       ]
     },
@@ -121,96 +138,114 @@
         {
           "url": "https://www.mongodb.com/docs/manual/",
           "description": "Official MongoDB manual providing detailed documentation on database operations and features.",
-          "title": "What is MongoDB? - Database Manual - MongoDB Docs"
+          "title": "What is MongoDB? - Database Manual - MongoDB Docs",
+          "resource_order": 1
         },
         {
           "url": "https://stackoverflow.com/questions/441441/why-should-i-use-document-based-database-instead-of-relational-database",
           "description": "An exploration of the advantages of document-based databases over relational databases.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://www.mongodb.com/docs/manual/tutorial/query-documents/",
           "description": "A tutorial on querying documents in MongoDB.",
-          "title": "Query Documents - Database Manual - MongoDB Docs"
+          "title": "Query Documents - Database Manual - MongoDB Docs",
+          "resource_order": 3
         },
         {
           "url": "https://www.numberanalytics.com/blog/mastering-nosql-data-science",
           "description": "An insightful blog on mastering NoSQL techniques for data science applications.",
-          "title": "Mastering NoSQL for Data Science Success"
+          "title": "Mastering NoSQL for Data Science Success",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.datacamp.com/tutorial/nosql-tutorial",
           "description": "An introductory tutorial on NoSQL databases and their applications.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://www.mongodb.com/resources/basics/databases/types",
           "description": "An overview of different types of databases and their use cases.",
-          "title": "Types Of Databases | MongoDB"
+          "title": "Types Of Databases | MongoDB",
+          "resource_order": 2
         },
         {
           "url": "https://www.geeksforgeeks.org/introduction-to-nosql/",
           "description": "An introductory guide to NoSQL databases, exploring their types, benefits, and use cases.",
-          "title": "Introduction to NoSQL - GeeksforGeeks"
+          "title": "Introduction to NoSQL - GeeksforGeeks",
+          "resource_order": 3
         },
         {
           "url": "https://www.mongodb.com/docs/manual/tutorial/query-documents/",
           "description": "A tutorial on querying documents in MongoDB with various query methods.",
-          "title": "Query Documents - Database Manual - MongoDB Docs"
+          "title": "Query Documents - Database Manual - MongoDB Docs",
+          "resource_order": 4
         },
         {
           "url": "https://www.geeksforgeeks.org/mongodb/mongodb-crud-operations/",
           "description": "A detailed guide on performing CRUD operations in MongoDB.",
-          "title": "MongoDB CRUD Operations - GeeksforGeeks"
+          "title": "MongoDB CRUD Operations - GeeksforGeeks",
+          "resource_order": 5
         },
         {
           "url": "https://learn.mongodb.com/",
           "description": "An educational platform offering courses and resources for learning MongoDB.",
-          "title": "MongoDB Courses and Trainings | MongoDB University"
+          "title": "MongoDB Courses and Trainings | MongoDB University",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=4frkp5EsQrE",
           "title": "Mastering MongoDB: Practical Applications and Use Cases",
-          "duration": "4m"
+          "duration": "4m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=mUPQii90K5A",
           "title": "[LIVE] Django with MongoDB: Building and app with Python and Djongo",
-          "duration": "176m"
+          "duration": "176m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=Pi5ueyl_1jU",
           "title": "Mastering MongoDB on Kubernetes, the power of operators - DoK Talks #143",
-          "duration": "60m"
+          "duration": "60m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=W17JdNf3dsw",
           "title": "FerretDB Bringing MongoDB workloads to PostgreSQL",
-          "duration": "24m"
+          "duration": "24m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=nc-Kpiq1zLc",
           "title": "MongoDB + Python #3 - Full-Text Search with Atlas Search",
-          "duration": "31m"
+          "duration": "31m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD",
-          "title": "MERN Stack Tutorial with Deployment \u2013 Beginner's Course",
-          "duration": "136m"
+          "title": "MERN Stack Tutorial with Deployment – Beginner's Course",
+          "duration": "136m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=jmGxQRl2h1M",
           "title": "Using MongoDB Change Stream in a Java Code",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=q1Y5UUQKVCQ",
           "title": "MongoDB Administration Tutorial | MongoDB Tutorial | MongoDB Administration Training | Edureka",
-          "duration": "90m"
+          "duration": "90m",
+          "resource_order": 8
         }
       ]
     },
@@ -219,76 +254,90 @@
         {
           "url": "https://www.mongodb.com/docs/manual/tutorial/query-documents/",
           "description": "A tutorial on querying documents in MongoDB using various query operators and methods.",
-          "title": "Query Documents - Database Manual - MongoDB Docs"
+          "title": "Query Documents - Database Manual - MongoDB Docs",
+          "resource_order": 1
         },
         {
           "url": "https://www.wallarm.com/cloud-native-products-101/mongodb-vs-cassandra-nosql-databases",
           "description": "A comparative analysis of MongoDB and Cassandra NoSQL databases.",
-          "title": "MongoDB vs Cassandra: Decoding NoSQL Databases"
+          "title": "MongoDB vs Cassandra: Decoding NoSQL Databases",
+          "resource_order": 2
         },
         {
           "url": "https://www.mongodb.com/docs/manual/",
           "description": "Official MongoDB manual providing detailed documentation on database features and usage.",
-          "title": "What is MongoDB? - Database Manual - MongoDB Docs"
+          "title": "What is MongoDB? - Database Manual - MongoDB Docs",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.linkedin.com/posts/r-yaduvanshi_mongodb-notespdf-activity-7278632360055631872-km-5",
           "description": "A PDF document containing comprehensive notes on MongoDB.",
-          "title": "\"MongoDB Notes for Professionals: Your Complete Guide to Mastering MongoDB\" | Rohit Kumar"
+          "title": "\"MongoDB Notes for Professionals: Your Complete Guide to Mastering MongoDB\" | Rohit Kumar",
+          "resource_order": 1
         },
         {
           "url": "https://www.mongodb.com/docs/manual/tutorial/query-documents/",
           "description": "A tutorial on querying documents in MongoDB using various methods and operators.",
-          "title": "Query Documents - Database Manual - MongoDB Docs"
+          "title": "Query Documents - Database Manual - MongoDB Docs",
+          "resource_order": 2
         },
         {
           "url": "https://www.datacamp.com/tutorial/nosql-tutorial",
           "description": "An introductory tutorial on NoSQL databases and their use cases.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 3
         },
         {
           "url": "https://www.geeksforgeeks.org/mongodb/mongodb-tutorial/",
           "description": "An introductory tutorial for learning MongoDB database concepts and operations.",
-          "title": "MongoDB Tutorial - GeeksforGeeks"
+          "title": "MongoDB Tutorial - GeeksforGeeks",
+          "resource_order": 4
         },
         {
           "url": "https://www.domainindia.com/login/knowledgebase/489/A-Comprehensive-Index-to-Mastering-MERN-Stack-Your-Ultimate-Resource-Guide.html",
           "description": "An ultimate resource guide for mastering the MERN stack.",
-          "title": "A Comprehensive Index to Mastering MERN Stack: Your Ultimate Resource Guide"
+          "title": "A Comprehensive Index to Mastering MERN Stack: Your Ultimate Resource Guide",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=tww-gbNPOcA",
           "title": "Master MONGODB in ONE VIDEO: Beginner to Advanced Course For Beginners in [HINDI]",
-          "duration": "275m"
+          "duration": "275m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=rMiKdn8o4hU",
           "title": "MongoDB Full Course: Master NoSQL Database from Zero to Hero | MongoDB Advanced Features",
-          "duration": "719m"
+          "duration": "719m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=WtnnOt7zWWY",
           "title": "#61 Multi Key Index | Understanding Index in MongoDB | MongoDB Complete Course 2025",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=K2wQcoG4QW8",
           "title": "Databases, Collections and Documents CRUD : Mongo DB",
-          "duration": "118m"
+          "duration": "118m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=yuVVKB0EaOQ",
           "title": "Build Nest.js Microservices With RabbitMQ, MongoDB & Docker | Tutorial",
-          "duration": "84m"
+          "duration": "84m",
+          "resource_order": 5
         },
         {
           "url": "https://m.youtube.com/watch?v=fWHo7RDUMhA",
           "title": "Spring Boot Interview Mastery | Question & Answer Guide for Developers | Part-7 @Javatechie",
-          "duration": "52m"
+          "duration": "52m",
+          "resource_order": 6
         }
       ]
     }
@@ -304,7 +353,8 @@
           "New SQL"
         ],
         "correct_option": 0,
-        "hint": "Think about the flexibility provided by NoSQL databases compared to traditional SQL."
+        "hint": "Think about the flexibility provided by NoSQL databases compared to traditional SQL.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is a required step to set up a MongoDB environment on your local machine?",
@@ -315,7 +365,8 @@
           "Develop a frontend application"
         ],
         "correct_option": 0,
-        "hint": "Consider the essential components needed to run MongoDB."
+        "hint": "Consider the essential components needed to run MongoDB.",
+        "question_order": 2
       },
       {
         "question": "In MongoDB, which operation would you use to remove documents from a collection?",
@@ -326,7 +377,8 @@
           "find"
         ],
         "correct_option": 0,
-        "hint": "Think about the operation that is specifically meant for deletion."
+        "hint": "Think about the operation that is specifically meant for deletion.",
+        "question_order": 3
       },
       {
         "question": "What is a primary benefit of using indexes in MongoDB?",
@@ -337,7 +389,8 @@
           "Improved data encryption"
         ],
         "correct_option": 0,
-        "hint": "Indexes are typically used to speed up searches."
+        "hint": "Indexes are typically used to speed up searches.",
+        "question_order": 4
       },
       {
         "question": "Which feature of MongoDB allows you to distribute data across multiple servers for scalability?",
@@ -348,7 +401,8 @@
           "Aggregation"
         ],
         "correct_option": 0,
-        "hint": "This feature is used to partition data across many servers."
+        "hint": "This feature is used to partition data across many servers.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -361,7 +415,8 @@
           "Automated data normalization"
         ],
         "correct_option": 0,
-        "hint": "Consider the type of data and structure flexibility NoSQL offers."
+        "hint": "Consider the type of data and structure flexibility NoSQL offers.",
+        "question_order": 1
       },
       {
         "question": "Which command is used to insert a single document into a MongoDB collection?",
@@ -372,7 +427,8 @@
           "db.collection.save()"
         ],
         "correct_option": 0,
-        "hint": "Think of the command that specifies a single insert operation."
+        "hint": "Think of the command that specifies a single insert operation.",
+        "question_order": 2
       },
       {
         "question": "In MongoDB, which of the following is NOT a valid data type for a field?",
@@ -383,7 +439,8 @@
           "Embedded document"
         ],
         "correct_option": 2,
-        "hint": "Remember the data types typically used in JSON-like structures."
+        "hint": "Remember the data types typically used in JSON-like structures.",
+        "question_order": 3
       },
       {
         "question": "What is the primary purpose of MongoDB's aggregation framework?",
@@ -394,7 +451,8 @@
           "To manage user authentication"
         ],
         "correct_option": 2,
-        "hint": "Consider how you would perform complex data processing in MongoDB."
+        "hint": "Consider how you would perform complex data processing in MongoDB.",
+        "question_order": 4
       },
       {
         "question": "In MongoDB, what does sharding primarily achieve?",
@@ -405,7 +463,8 @@
           "Enhances data modeling capabilities"
         ],
         "correct_option": 1,
-        "hint": "Think about how MongoDB handles large datasets across multiple servers."
+        "hint": "Think about how MongoDB handles large datasets across multiple servers.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -418,7 +477,8 @@
           "Reduced disk space usage"
         ],
         "correct_option": 2,
-        "hint": "Sharding is mainly used to distribute data across multiple servers."
+        "hint": "Sharding is mainly used to distribute data across multiple servers.",
+        "question_order": 1
       },
       {
         "question": "Which aggregation stage in MongoDB is used to filter documents and pass only the documents that match the specified condition to the next stage?",
@@ -429,7 +489,8 @@
           "$sort"
         ],
         "correct_option": 0,
-        "hint": "This stage is similar to the WHERE clause in SQL."
+        "hint": "This stage is similar to the WHERE clause in SQL.",
+        "question_order": 2
       },
       {
         "question": "In MongoDB, which of the following is NOT a recommended practice for schema design?",
@@ -440,7 +501,8 @@
           "Relying heavily on joins"
         ],
         "correct_option": 3,
-        "hint": "MongoDB is designed to avoid complex joins."
+        "hint": "MongoDB is designed to avoid complex joins.",
+        "question_order": 3
       },
       {
         "question": "What is the main purpose of using the `rs.initiate()` command in MongoDB?",
@@ -451,7 +513,8 @@
           "To set up a sharded cluster"
         ],
         "correct_option": 1,
-        "hint": "This command is used for replication setup."
+        "hint": "This command is used for replication setup.",
+        "question_order": 4
       },
       {
         "question": "Which authentication mechanism in MongoDB provides the highest level of security by encrypting all data between the client and server?",
@@ -462,7 +525,8 @@
           "Kerberos"
         ],
         "correct_option": 1,
-        "hint": "This mechanism uses certificates for authentication."
+        "hint": "This mechanism uses certificates for authentication.",
+        "question_order": 5
       }
     ]
   },

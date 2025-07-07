@@ -21,91 +21,108 @@
         {
           "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines",
           "description": "An introduction to CI/CD pipelines in Adobe Experience Manager Cloud Service.",
-          "title": "Introduction to CI/CD Pipelines | Adobe Experience Manager"
+          "title": "Introduction to CI/CD Pipelines | Adobe Experience Manager",
+          "resource_order": 1
         },
         {
           "url": "https://docs.gitlab.com/ci/pipelines/",
           "description": "Detailed documentation on configuring and managing GitLab CI/CD pipelines.",
-          "title": "CI/CD pipelines | GitLab Docs"
+          "title": "CI/CD pipelines | GitLab Docs",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs/cli",
           "description": "Official documentation for using the Firebase CLI to manage Firebase projects.",
-          "title": "Firebase CLI reference \u00a0|\u00a0 Firebase Documentation"
+          "title": "Firebase CLI reference  |  Firebase Documentation",
+          "resource_order": 3
         },
         {
           "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
           "description": "An architecture guide for implementing continuous delivery and automation pipelines in machine learning on Google Cloud.",
-          "title": "MLOps: Continuous delivery and automation pipelines in machine learning \u00a0|\u00a0 Cloud Architecture Center \u00a0|\u00a0 Google Cloud"
+          "title": "MLOps: Continuous delivery and automation pipelines in machine learning  |  Cloud Architecture Center  |  Google Cloud",
+          "resource_order": 4
         },
         {
           "url": "https://github.com/fastapi/full-stack-fastapi-template",
           "description": "A full-stack FastAPI project template with Docker, PostgreSQL, and modern frontend integration.",
-          "title": "GitHub - fastapi/full-stack-fastapi-template: Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more."
+          "title": "GitHub - fastapi/full-stack-fastapi-template: Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines",
           "description": "An introduction to setting up CI/CD pipelines using Adobe Experience Manager Cloud Manager.",
-          "title": "Introduction to CI/CD Pipelines | Adobe Experience Manager"
+          "title": "Introduction to CI/CD Pipelines | Adobe Experience Manager",
+          "resource_order": 1
         },
         {
           "url": "https://fullstackopen.com/en/part11/introduction_to_ci_cd",
           "description": "An introduction to Continuous Integration and Continuous Deployment (CI/CD) practices.",
-          "title": "Fullstack part11 | Introduction to CI/CD"
+          "title": "Fullstack part11 | Introduction to CI/CD",
+          "resource_order": 2
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=GdWZOw83QWU",
           "title": "Build CI/CD pipeline & Deploy The FullStack Project - 3",
-          "duration": "20m"
+          "duration": "20m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=6YZvp2GwT0A",
           "title": "Learn Jenkins! Complete Jenkins Course - Zero to Hero",
-          "duration": "68m"
+          "duration": "68m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=yH9RoOFEKMY",
           "title": "The Ultimate CICD Corporate DevOps Pipeline Project",
-          "duration": "96m"
+          "duration": "96m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=U2y6exiRSiA&pp=0gcJCdgAo7VqN5tD",
           "title": "How To Create YAML Pipelines In Azure DevOps With .NET API",
-          "duration": "39m"
+          "duration": "39m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=s5t7mlM-530",
           "title": "DAY-2 | Real-Time CI CD Pipeline From Scratch with Jenkins | DevOps Shack",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=ySFRmoa0rsk",
           "title": "React Course - Deployment - CI / CD",
-          "duration": "24m"
+          "duration": "24m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=UtEHSngmdHA",
           "title": "CI/CD Pipeline & Deployment | GitHub Actions | Docker | Spring boot | Angular",
-          "duration": "153m"
+          "duration": "153m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=DIl2VcqZVdY",
           "title": "DAY-1 | Real-Time CI CD Pipeline From Scratch with Jenkins | DevOps Shack",
-          "duration": "36m"
+          "duration": "36m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=_f7h6xQXiLA",
           "title": "Node JS Full Course 2025 | Microservices, Redis, CI CD, Docker, VPS Hosting | Hostinger | Part 2",
-          "duration": "606m"
+          "duration": "606m",
+          "resource_order": 9
         },
         {
           "url": "https://www.youtube.com/watch?v=fUYvDBWEELU",
           "title": "Full Stack MERN Project | Deploy using GitHub Actions, Heroku and Vercel | DevOps Tutorial",
-          "duration": "48m"
+          "duration": "48m",
+          "resource_order": 10
         }
       ]
     },
@@ -114,81 +131,96 @@
         {
           "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines",
           "description": "An introduction to CI/CD pipelines in Adobe Experience Manager Cloud Service.",
-          "title": "Introduction to CI/CD Pipelines | Adobe Experience Manager"
+          "title": "Introduction to CI/CD Pipelines | Adobe Experience Manager",
+          "resource_order": 1
         },
         {
           "url": "https://docs.gitlab.com/ci/debugging/",
           "description": "Guidelines for debugging GitLab CI/CD pipelines effectively.",
-          "title": "Debugging CI/CD pipelines | GitLab Docs"
+          "title": "Debugging CI/CD pipelines | GitLab Docs",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs/cli",
           "description": "Official documentation for the Firebase CLI, detailing installation and usage instructions.",
-          "title": "Firebase CLI reference \u00a0|\u00a0 Firebase Documentation"
+          "title": "Firebase CLI reference  |  Firebase Documentation",
+          "resource_order": 3
         },
         {
           "url": "https://docs.gitlab.com/ci/pipelines/",
           "description": "Detailed documentation on configuring and using CI/CD pipelines in GitLab.",
-          "title": "CI/CD pipelines | GitLab Docs"
+          "title": "CI/CD pipelines | GitLab Docs",
+          "resource_order": 4
         },
         {
           "url": "https://thefullstack.engineer/full-stack-development-series-part-6-application-deployment-and-ci-cd/",
           "description": "A detailed guide on application deployment and CI/CD in full-stack development.",
-          "title": "Deploying Applications from an Nx Monorepo and GitHub Actions"
+          "title": "Deploying Applications from an Nx Monorepo and GitHub Actions",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines",
           "description": "An introduction to CI/CD pipelines in Adobe Experience Manager Cloud Service.",
-          "title": "Introduction to CI/CD Pipelines | Adobe Experience Manager"
+          "title": "Introduction to CI/CD Pipelines | Adobe Experience Manager",
+          "resource_order": 1
         },
         {
           "url": "https://www.techtarget.com/searchsoftwarequality/CI-CD-pipelines-explained-Everything-you-need-to-know",
           "description": "An in-depth explanation of CI/CD pipelines, their components, and implementation strategies.",
-          "title": "CI/CD Pipelines Explained: Everything You Need to Know"
+          "title": "CI/CD Pipelines Explained: Everything You Need to Know",
+          "resource_order": 2
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=fUYvDBWEELU",
           "title": "Full Stack MERN Project | Deploy using GitHub Actions, Heroku and Vercel | DevOps Tutorial",
-          "duration": "48m"
+          "duration": "48m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=yH9RoOFEKMY",
           "title": "The Ultimate CICD Corporate DevOps Pipeline Project",
-          "duration": "96m"
+          "duration": "96m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=br48WIwhk2o",
           "title": "Let's Build a GitHub Project Using Actions - LIVE CI\\CD with GitHub From Scratch",
-          "duration": "69m"
+          "duration": "69m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=wJ794jLP2Tw&pp=0gcJCfwAo7VqN5tD",
           "title": "Automating Data Pipelines with Python & GitHub Actions [Code Walkthrough]",
-          "duration": "31m"
+          "duration": "31m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=DIl2VcqZVdY",
           "title": "DAY-1 | Real-Time CI CD Pipeline From Scratch with Jenkins | DevOps Shack",
-          "duration": "36m"
+          "duration": "36m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=4BibQ69MD8c",
           "title": "Azure DevOps Tutorial for Beginners | CI/CD with Azure Pipelines",
-          "duration": "36m"
+          "duration": "36m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=YLtlz88zrLg&pp=0gcJCfwAo7VqN5tD",
           "title": "CI/CD Tutorial using GitHub Actions - Automated Testing & Automated Deployments",
-          "duration": "6m"
+          "duration": "6m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=T1sV7D418dY",
           "title": "CI/CD Pipeline in React.js Project with Github Workflows using Eslint Prettier Pre-commit and Husky",
-          "duration": "53m"
+          "duration": "53m",
+          "resource_order": 8
         }
       ]
     },
@@ -197,101 +229,120 @@
         {
           "url": "https://docs.gitlab.com/ci/examples/",
           "description": "Examples and templates for setting up CI/CD pipelines in GitLab.",
-          "title": "GitLab CI/CD examples | GitLab Docs"
+          "title": "GitLab CI/CD examples | GitLab Docs",
+          "resource_order": 1
         },
         {
           "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
           "description": "An architectural guide to implementing MLOps with continuous delivery and automation pipelines in machine learning.",
-          "title": "MLOps: Continuous delivery and automation pipelines in machine learning \u00a0|\u00a0 Cloud Architecture Center \u00a0|\u00a0 Google Cloud"
+          "title": "MLOps: Continuous delivery and automation pipelines in machine learning  |  Cloud Architecture Center  |  Google Cloud",
+          "resource_order": 2
         },
         {
           "url": "https://workshops.aws/",
           "description": "A platform offering interactive workshops and tutorials for learning AWS services and solutions.",
-          "title": "AWS Workshops"
+          "title": "AWS Workshops",
+          "resource_order": 3
         },
         {
           "url": "https://console.cloud.google.com/vertex-ai/publishers/anthropic/model-garden/claude-opus-4?hl=zh-cn",
           "description": "Overview of the Claude Opus 4 model in Google Cloud's Vertex AI Model Garden.",
-          "title": "Google Cloud console"
+          "title": "Google Cloud console",
+          "resource_order": 4
         },
         {
           "url": "https://spacelift.io/blog/yaml",
           "description": "An informative blog post explaining the basics and best practices of using YAML in software development.",
-          "title": "YAML Tutorial : A Complete Language Guide with Examples"
+          "title": "YAML Tutorial : A Complete Language Guide with Examples",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.devopsshack.com/courses/Azure-DevOps-Full-Stack-Tutorial-Hands-On-2024--CICD-DevOps-Project-663715654161057059a20776",
           "description": "A hands-on tutorial for mastering Azure DevOps with full-stack CI/CD projects.",
-          "title": "Azure DevOps Full Stack Tutorial Hands-On 2024 | CICD DevOps Project"
+          "title": "Azure DevOps Full Stack Tutorial Hands-On 2024 | CICD DevOps Project",
+          "resource_order": 1
         },
         {
           "url": "https://fullstackopen.com/en/",
           "description": "An open online course covering modern web development with JavaScript, React, and Node.js.",
-          "title": "Full stack open"
+          "title": "Full stack open",
+          "resource_order": 2
         },
         {
           "url": "https://docs.gitlab.com/ci/examples/",
           "description": "Examples and templates for setting up CI/CD pipelines in GitLab.",
-          "title": "GitLab CI/CD examples | GitLab Docs"
+          "title": "GitLab CI/CD examples | GitLab Docs",
+          "resource_order": 3
         },
         {
           "url": "https://www.linkedin.com/posts/deshae-lyda_30-day-devops-challenge-day-1-devopsallstarschallenge-activity-7282060035038359552-yUpd",
           "description": "An introductory challenge to learn and apply DevOps skills over 30 days.",
-          "title": "Day 01 of #DevOpsAllStarChallenge is INSANITY, in the best way possible! | DeShae Lyda"
+          "title": "Day 01 of #DevOpsAllStarChallenge is INSANITY, in the best way possible! | DeShae Lyda",
+          "resource_order": 4
         },
         {
           "url": "https://www.techtarget.com/searchsoftwarequality/CI-CD-pipelines-explained-Everything-you-need-to-know",
           "description": "An in-depth explanation of CI/CD pipelines and their role in software development.",
-          "title": "CI/CD Pipelines Explained: Everything You Need to Know"
+          "title": "CI/CD Pipelines Explained: Everything You Need to Know",
+          "resource_order": 5
         },
         {
           "url": "https://www.ayyaztech.com/blog/building-a-full-stack-app-with-angular-tailwind-css-next-js-and-ci-cd",
           "description": "A detailed tutorial on building a full-stack application using Angular, Tailwind CSS, Next.js, and implementing CI/CD.",
-          "title": "Building a Full Stack App with Angular, Tailwind CSS, Next js and CI/CD | AyyazTech"
+          "title": "Building a Full Stack App with Angular, Tailwind CSS, Next js and CI/CD | AyyazTech",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=6YZvp2GwT0A",
           "title": "Learn Jenkins! Complete Jenkins Course - Zero to Hero",
-          "duration": "68m"
+          "duration": "68m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=Gc4Xh8u19NU",
           "title": "The Ultimate Web Developer Roadmap For 2024",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
           "title": "Full Course Web Development [22 Hours] | Learn Full Stack Web Development From Scratch",
-          "duration": "1308m"
+          "duration": "1308m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=9i1gQ7w2V24",
           "title": "Spring Boot, React.js & AWS S3 Full Stack Development",
-          "duration": "173m"
+          "duration": "173m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=-LUA-LHXobE",
           "title": "Full Stack ReactJS with Spring Boot",
-          "duration": "185m"
+          "duration": "185m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=zZt-LTY9hAE&pp=0gcJCfwAo7VqN5tD",
           "title": "Build a CI/CD Pipeline on AWS CodePipeline, CodeBuild, and Git",
-          "duration": "86m"
+          "duration": "86m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=Xniji2m85LY",
           "title": "Tutorial 11- How To Deploy End To End ML Projects In Production AWS Cloud Using CI CD Pipeline",
-          "duration": "45m"
+          "duration": "45m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=4BibQ69MD8c",
           "title": "Azure DevOps Tutorial for Beginners | CI/CD with Azure Pipelines",
-          "duration": "36m"
+          "duration": "36m",
+          "resource_order": 8
         }
       ]
     }
@@ -307,7 +358,8 @@
           "Continuous Isolation"
         ],
         "correct_option": 0,
-        "hint": "It's the process of automatically testing code changes."
+        "hint": "It's the process of automatically testing code changes.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is a tool commonly used for Continuous Integration?",
@@ -318,7 +370,8 @@
           "Visual Studio Code"
         ],
         "correct_option": 0,
-        "hint": "It's a service provided by a popular code hosting platform."
+        "hint": "It's a service provided by a popular code hosting platform.",
+        "question_order": 2
       },
       {
         "question": "What is the primary goal of Continuous Delivery?",
@@ -329,7 +382,8 @@
           "To prepare code for release at any time"
         ],
         "correct_option": 3,
-        "hint": "It's about being ready to release any time."
+        "hint": "It's about being ready to release any time.",
+        "question_order": 3
       },
       {
         "question": "In a CI/CD pipeline, what is the role of automated testing?",
@@ -340,7 +394,8 @@
           "To compile code"
         ],
         "correct_option": 2,
-        "hint": "It's about ensuring code quality automatically."
+        "hint": "It's about ensuring code quality automatically.",
+        "question_order": 4
       },
       {
         "question": "What is the main advantage of using a CI/CD pipeline?",
@@ -351,7 +406,8 @@
           "Enhanced graphic design"
         ],
         "correct_option": 0,
-        "hint": "It's related to the speed of software development and deployment."
+        "hint": "It's related to the speed of software development and deployment.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -364,7 +420,8 @@
           "To manage version control systems"
         ],
         "correct_option": 1,
-        "hint": "Think about the regular integration of code changes."
+        "hint": "Think about the regular integration of code changes.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is NOT a feature of GitHub Actions for CI/CD?",
@@ -375,7 +432,8 @@
           "Creating Docker images"
         ],
         "correct_option": 0,
-        "hint": "Consider what GitHub Actions is specifically designed for, beyond basic version control."
+        "hint": "Consider what GitHub Actions is specifically designed for, beyond basic version control.",
+        "question_order": 2
       },
       {
         "question": "In a Jenkins pipeline, what is the role of a 'stage'?",
@@ -386,7 +444,8 @@
           "To store build artifacts"
         ],
         "correct_option": 1,
-        "hint": "Stages are about organizing the pipeline."
+        "hint": "Stages are about organizing the pipeline.",
+        "question_order": 3
       },
       {
         "question": "How does automated testing fit into a CI/CD pipeline?",
@@ -397,7 +456,8 @@
           "It is used to deploy code to production environments"
         ],
         "correct_option": 1,
-        "hint": "Consider when tests are executed in the development cycle."
+        "hint": "Consider when tests are executed in the development cycle.",
+        "question_order": 4
       },
       {
         "question": "Which CI/CD tool uses YAML files for defining build configurations?",
@@ -408,7 +468,8 @@
           "GitLab CI"
         ],
         "correct_option": 3,
-        "hint": "Think about a tool that integrates deeply with Git-based workflows."
+        "hint": "Think about a tool that integrates deeply with Git-based workflows.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -421,7 +482,8 @@
           "To manage version control systems"
         ],
         "correct_option": 2,
-        "hint": "Think about the goal of integrating code changes frequently."
+        "hint": "Think about the goal of integrating code changes frequently.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is a key advantage of implementing Continuous Deployment (CD)?",
@@ -432,7 +494,8 @@
           "Automated database backups"
         ],
         "correct_option": 0,
-        "hint": "Consider how CD affects the software delivery lifecycle."
+        "hint": "Consider how CD affects the software delivery lifecycle.",
+        "question_order": 2
       },
       {
         "question": "In GitHub Actions, what is a 'workflow'?",
@@ -443,7 +506,8 @@
           "A method for managing pull requests"
         ],
         "correct_option": 1,
-        "hint": "Workflows are used for automation in CI/CD pipelines."
+        "hint": "Workflows are used for automation in CI/CD pipelines.",
+        "question_order": 3
       },
       {
         "question": "When using Jenkins for a CI/CD pipeline, what is the role of a 'Jenkinsfile'?",
@@ -454,7 +518,8 @@
           "To handle server configurations"
         ],
         "correct_option": 1,
-        "hint": "Think about how Jenkins needs to understand what tasks to perform."
+        "hint": "Think about how Jenkins needs to understand what tasks to perform.",
+        "question_order": 4
       },
       {
         "question": "How does automated testing improve a CI/CD pipeline?",
@@ -465,7 +530,8 @@
           "It automates server provisioning"
         ],
         "correct_option": 1,
-        "hint": "Focus on the role of testing in identifying issues early in the development process."
+        "hint": "Focus on the role of testing in identifying issues early in the development process.",
+        "question_order": 5
       }
     ]
   }

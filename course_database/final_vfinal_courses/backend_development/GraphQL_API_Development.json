@@ -20,91 +20,108 @@
         {
           "url": "https://graphql.org/learn/",
           "description": "An introductory guide to understanding and using GraphQL for API development.",
-          "title": "Introduction to GraphQL | GraphQL"
+          "title": "Introduction to GraphQL | GraphQL",
+          "resource_order": 1
         },
         {
           "url": "https://developer.monday.com/api-reference/docs/basics",
           "description": "Introduction to the basic concepts and usage of the Monday.com API.",
-          "title": "The basics"
+          "title": "The basics",
+          "resource_order": 2
         },
         {
           "url": "https://graphql.org/",
           "description": "The official documentation and resources for learning and using GraphQL.",
-          "title": "GraphQL | A query language for your API"
+          "title": "GraphQL | A query language for your API",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://graphql.org/learn/",
           "description": "An introductory guide to understanding and using GraphQL for API development.",
-          "title": "Introduction to GraphQL | GraphQL"
+          "title": "Introduction to GraphQL | GraphQL",
+          "resource_order": 1
         },
         {
           "url": "https://www.apollographql.com/docs/react",
           "description": "Official documentation for using Apollo Client with React to manage GraphQL data.",
-          "title": "Introduction to Apollo Client - Apollo GraphQL Docs"
+          "title": "Introduction to Apollo Client - Apollo GraphQL Docs",
+          "resource_order": 2
         },
         {
           "url": "https://graphql.org/",
           "description": "The official website for GraphQL, offering documentation and resources for developers.",
-          "title": "GraphQL | A query language for your API"
+          "title": "GraphQL | A query language for your API",
+          "resource_order": 3
         },
         {
           "url": "https://www.apollographql.com/docs/apollo-server/schema/schema",
           "description": "An overview of defining and managing GraphQL schemas with Apollo Server.",
-          "title": "GraphQL Schema Basics - Apollo GraphQL Docs"
+          "title": "GraphQL Schema Basics - Apollo GraphQL Docs",
+          "resource_order": 4
         },
         {
           "url": "https://graphql-java.com/tutorials/getting-started-with-spring-boot/",
           "description": "A step-by-step guide to integrating GraphQL with Spring Boot applications.",
-          "title": "Tutorial with Spring for GraphQl | GraphQL Java"
+          "title": "Tutorial with Spring for GraphQl | GraphQL Java",
+          "resource_order": 5
         },
         {
           "url": "https://maggieappleton.com/graphql/",
           "description": "An illustrated guide to understanding the fundamentals of GraphQL.",
-          "title": "Speaking the GraphQL Query Language"
+          "title": "Speaking the GraphQL Query Language",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=Zg4XIpnLWQg",
           "title": "Learn GraphQL in 7 Minutes For Beginners",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=UYQSVH6B1k4",
           "title": "Build and Deploy a GraphQL API using NodeJS (tutorial for beginners)",
-          "duration": "220m"
+          "duration": "220m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=yqWzCV0kU_c",
           "title": "Learn GraphQL in 4 Hours - From Beginner to Expert",
-          "duration": "235m"
+          "duration": "235m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=BNYwj0ZvU1U&pp=0gcJCf0Ao7VqN5tD",
           "title": "FullStack GraphQL React Tutorial - Learn Apollo Client / Apollo Server For Beginners",
-          "duration": "51m"
+          "duration": "51m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=xCzm1bbOpfw&pp=sAQA",
           "title": "GraphQL Tutorial For Beginners - Apollo Server Express Tutorial",
-          "duration": "28m"
+          "duration": "28m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=Dr2dDWzThK8",
           "title": "GraphQL Tutorial Beginner - Learn GraphQL in NodeJS / ExpressJS",
-          "duration": "37m"
+          "duration": "37m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=Zq7H8kYIQIU&pp=0gcJCdgAo7VqN5tD",
           "title": "How to Build and Test GraphQL APIs in Postman",
-          "duration": "3m"
+          "duration": "3m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=uNB2N_w_ypo&pp=0gcJCYQJAYcqIYzv",
           "title": "Spring Boot and GraphQL Tutorial",
-          "duration": "61m"
+          "duration": "61m",
+          "resource_order": 8
         }
       ]
     },
@@ -113,106 +130,126 @@
         {
           "url": "https://graphql.org/",
           "description": "The official website for GraphQL, offering documentation and resources for understanding and implementing GraphQL APIs.",
-          "title": "GraphQL | A query language for your API"
+          "title": "GraphQL | A query language for your API",
+          "resource_order": 1
         },
         {
           "url": "https://developer.monday.com/api-reference/docs/basics",
           "description": "An introductory overview of the basics for using Monday.com's API.",
-          "title": "The basics"
+          "title": "The basics",
+          "resource_order": 2
         },
         {
           "url": "https://docs.github.com/en/graphql",
           "description": "Official GitHub documentation for using the GraphQL API.",
-          "title": "GitHub GraphQL API documentation - GitHub Docs"
+          "title": "GitHub GraphQL API documentation - GitHub Docs",
+          "resource_order": 3
         },
         {
           "url": "https://developer.monday.com/api-reference/",
           "description": "Comprehensive API reference documentation for integrating with Monday.com.",
-          "title": "monday.com Platform API"
+          "title": "monday.com Platform API",
+          "resource_order": 4
         },
         {
           "url": "https://shopify.dev/docs/api/admin-graphql",
           "description": "Official documentation for Shopify's Admin GraphQL API, detailing its usage and features.",
-          "title": "GraphQL Admin API reference"
+          "title": "GraphQL Admin API reference",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://graphql.org/",
           "description": "The official documentation and resources for GraphQL, a data query language for APIs.",
-          "title": "GraphQL | A query language for your API"
+          "title": "GraphQL | A query language for your API",
+          "resource_order": 1
         },
         {
           "url": "https://docs.github.com/en/graphql",
           "description": "Official documentation for using GitHub's GraphQL API.",
-          "title": "GitHub GraphQL API documentation - GitHub Docs"
+          "title": "GitHub GraphQL API documentation - GitHub Docs",
+          "resource_order": 2
         },
         {
           "url": "https://graphql.org/learn/",
           "description": "An introductory guide to understanding and using GraphQL for APIs.",
-          "title": "Introduction to GraphQL | GraphQL"
+          "title": "Introduction to GraphQL | GraphQL",
+          "resource_order": 3
         },
         {
           "url": "https://konghq.com/blog/learning-center/graphql",
           "description": "An informative resource on understanding and implementing GraphQL with Kong.",
-          "title": "What is GraphQL? Use Cases and Examples | Kong Inc."
+          "title": "What is GraphQL? Use Cases and Examples | Kong Inc.",
+          "resource_order": 4
         },
         {
           "url": "https://graphql.org/learn/mutations/",
           "description": "An introduction to performing mutations in GraphQL APIs.",
-          "title": "Mutations | GraphQL"
+          "title": "Mutations | GraphQL",
+          "resource_order": 5
         },
         {
           "url": "https://www.apollographql.com/",
           "description": "Apollo GraphQL provides tools and services for building and managing GraphQL APIs.",
-          "title": "Streamlining APIs, Databases, & Microservices | Apollo GraphQL"
+          "title": "Streamlining APIs, Databases, & Microservices | Apollo GraphQL",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=ME3LH2bib3g",
           "title": "How to Build a Clean Architecture GraphQL App With Kotlin - Android Studio Tutorial",
-          "duration": "46m"
+          "duration": "46m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=A9_E7_EM9Vw",
           "title": "codeLive: GraphQL for Salesforce Developers",
-          "duration": "71m"
+          "duration": "71m",
+          "resource_order": 2
         },
         {
           "url": "https://m.youtube.com/watch?v=Zq7H8kYIQIU",
           "title": "How to Build and Test GraphQL APIs in Postman",
-          "duration": "3m"
+          "duration": "3m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=u-BbJyUpohM",
           "title": "AWS Amplify Studio + GraphQL | Serverless Office Hours",
-          "duration": "54m"
+          "duration": "54m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=PBzvJ2Ctjm0",
           "title": "Building a GraphQL API - Beyond the basics DrupalCon Portland 2022",
-          "duration": "45m"
+          "duration": "45m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=xMCnDesBggM&pp=0gcJCf0Ao7VqN5tD",
           "title": "GraphQL Crash Course #1 - What is GraphQL?",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=GsGopNsOKEU",
           "title": "Types of APIs you Must Know - REST, RPC & GraphQL",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=6rowJlROs2A",
           "title": "GraphQL API Authorization Strategy with Kong Konnect and Styra DAS",
-          "duration": "53m"
+          "duration": "53m",
+          "resource_order": 9
         }
       ]
     },
@@ -221,86 +258,102 @@
         {
           "url": "https://graphql.org/learn/",
           "description": "An introductory guide to learning and understanding GraphQL.",
-          "title": "Introduction to GraphQL | GraphQL"
+          "title": "Introduction to GraphQL | GraphQL",
+          "resource_order": 1
         },
         {
           "url": "https://docs.gitlab.com/development/api_graphql_styleguide/",
           "description": "A style guide for developing and maintaining GraphQL APIs in GitLab.",
-          "title": "Backend GraphQL API guide | GitLab Docs"
+          "title": "Backend GraphQL API guide | GitLab Docs",
+          "resource_order": 2
         },
         {
           "url": "https://shopify.dev/docs/api",
           "description": "Official documentation for Shopify's API, detailing integration and usage guidelines.",
-          "title": "Shopify API, libraries, and tools"
+          "title": "Shopify API, libraries, and tools",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://graphql.org/learn/",
           "description": "An introductory guide to understanding and using GraphQL for API development.",
-          "title": "Introduction to GraphQL | GraphQL"
+          "title": "Introduction to GraphQL | GraphQL",
+          "resource_order": 1
         },
         {
           "url": "https://docs.gitlab.com/development/api_graphql_styleguide/",
           "description": "A style guide for developing GraphQL APIs in GitLab.",
-          "title": "Backend GraphQL API guide | GitLab Docs"
+          "title": "Backend GraphQL API guide | GitLab Docs",
+          "resource_order": 2
         },
         {
           "url": "https://www.apollographql.com/blog/a-deep-dive-on-apollo-data-sources",
           "description": "An in-depth exploration of Apollo Data Sources for optimizing GraphQL server performance.",
-          "title": "A Deep Dive on Apollo Data\u00a0Sources | Apollo GraphQL Blog"
+          "title": "A Deep Dive on Apollo Data Sources | Apollo GraphQL Blog",
+          "resource_order": 3
         },
         {
           "url": "https://apidog.com/blog/apollo-graphql-tutorial/",
           "description": "A step-by-step tutorial on using Apollo for building GraphQL applications.",
-          "title": "Apollo GraphQL Tutorial for Beginners"
+          "title": "Apollo GraphQL Tutorial for Beginners",
+          "resource_order": 4
         },
         {
           "url": "https://www.traceable.ai/blog-post/filter-using-graphql",
           "description": "An insightful blog post on how to effectively filter data using GraphQL queries.",
-          "title": "Traceable - Blog: How to Filter Using GraphQL: A Simple Tutorial"
+          "title": "Traceable - Blog: How to Filter Using GraphQL: A Simple Tutorial",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=yqWzCV0kU_c",
           "title": "Learn GraphQL in 4 Hours - From Beginner to Expert",
-          "duration": "235m"
+          "duration": "235m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 2
         },
         {
           "url": "https://m.youtube.com/watch?v=dP_QfmnghnQ",
-          "title": "\ud83d\ude80 GraphQL with NestJS Crash Course \u2013 Build Powerful APIs!",
-          "duration": "61m"
+          "title": "🚀 GraphQL with NestJS Crash Course – Build Powerful APIs!",
+          "duration": "61m",
+          "resource_order": 3
         },
         {
           "url": "https://m.youtube.com/watch?v=6oOKpVn4Qqg&t=0s",
           "title": "Supercharge Your Spring GraphQL APIs: Advanced Performance Tips (2025)",
-          "duration": "28m"
+          "duration": "28m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=m3YrZav5-CU",
           "title": "Rethinking GraphQL with Wundergraph",
-          "duration": "16m"
+          "duration": "16m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=BNYwj0ZvU1U&pp=0gcJCf0Ao7VqN5tD",
           "title": "FullStack GraphQL React Tutorial - Learn Apollo Client / Apollo Server For Beginners",
-          "duration": "51m"
+          "duration": "51m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=x6TiqrULv90",
           "title": "Learn GraphQL form Beginner to expert | Spring Boot Project for Beginners & Pros | part 2",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=X6fSJZDZZ0I",
           "title": "Designing and Managing APIs with Azure API Management:",
-          "duration": "65m"
+          "duration": "65m",
+          "resource_order": 8
         }
       ]
     }
@@ -316,7 +369,8 @@
           "Schema Data Logic"
         ],
         "correct_option": 0,
-        "hint": "SDL is used to define the structure of a GraphQL API."
+        "hint": "SDL is used to define the structure of a GraphQL API.",
+        "question_order": 1
       },
       {
         "question": "Which GraphQL operation is used to modify server-side data?",
@@ -327,7 +381,8 @@
           "Operation"
         ],
         "correct_option": 1,
-        "hint": "This operation is the GraphQL equivalent of POST, PUT, DELETE requests in REST."
+        "hint": "This operation is the GraphQL equivalent of POST, PUT, DELETE requests in REST.",
+        "question_order": 2
       },
       {
         "question": "What is the primary use of Apollo Client in GraphQL development?",
@@ -338,7 +393,8 @@
           "To perform data subscriptions"
         ],
         "correct_option": 1,
-        "hint": "Apollo Client is used on the frontend to fetch and cache data."
+        "hint": "Apollo Client is used on the frontend to fetch and cache data.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is NOT a primary technology associated with GraphQL?",
@@ -349,7 +405,8 @@
           "Django"
         ],
         "correct_option": 3,
-        "hint": "The answer is a Python-based web framework."
+        "hint": "The answer is a Python-based web framework.",
+        "question_order": 4
       },
       {
         "question": "What is the purpose of subscriptions in GraphQL?",
@@ -360,7 +417,8 @@
           "To define the API schema"
         ],
         "correct_option": 2,
-        "hint": "Subscriptions keep clients updated with real-time data changes."
+        "hint": "Subscriptions keep clients updated with real-time data changes.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -373,7 +431,8 @@
           "To encrypt and secure API communications"
         ],
         "correct_option": 0,
-        "hint": "It involves defining types and their relationships."
+        "hint": "It involves defining types and their relationships.",
+        "question_order": 1
       },
       {
         "question": "In GraphQL, what is a mutation primarily used for?",
@@ -384,7 +443,8 @@
           "To subscribe to real-time data updates"
         ],
         "correct_option": 2,
-        "hint": "Think of actions like creating, updating, or deleting data."
+        "hint": "Think of actions like creating, updating, or deleting data.",
+        "question_order": 2
       },
       {
         "question": "Which package is commonly used to set up a GraphQL server in Node.js environments?",
@@ -395,7 +455,8 @@
           "React"
         ],
         "correct_option": 1,
-        "hint": "This package integrates well with various Node.js frameworks."
+        "hint": "This package integrates well with various Node.js frameworks.",
+        "question_order": 3
       },
       {
         "question": "How does GraphQL differ from REST in terms of data fetching?",
@@ -406,7 +467,8 @@
           "REST uses JSON, GraphQL uses XML"
         ],
         "correct_option": 1,
-        "hint": "Consider the flexibility in data requirements that GraphQL offers."
+        "hint": "Consider the flexibility in data requirements that GraphQL offers.",
+        "question_order": 4
       },
       {
         "question": "What role does the Apollo Client play in a GraphQL application?",
@@ -417,7 +479,8 @@
           "It directly accesses the database"
         ],
         "correct_option": 1,
-        "hint": "Think about the client-side operations and data management."
+        "hint": "Think about the client-side operations and data management.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -430,7 +493,8 @@
           "define Date"
         ],
         "correct_option": 0,
-        "hint": "Custom scalars in SDL are defined with a specific keyword."
+        "hint": "Custom scalars in SDL are defined with a specific keyword.",
+        "question_order": 1
       },
       {
         "question": "Which GraphQL operation would you use to update existing data on the server?",
@@ -441,7 +505,8 @@
           "Schema"
         ],
         "correct_option": 1,
-        "hint": "This operation modifies data and is not used for retrieval."
+        "hint": "This operation modifies data and is not used for retrieval.",
+        "question_order": 2
       },
       {
         "question": "What is the primary difference between Apollo Server and Apollo Client?",
@@ -452,7 +517,8 @@
           "Apollo Server is only for REST APIs"
         ],
         "correct_option": 0,
-        "hint": "One handles incoming requests, the other handles outgoing requests."
+        "hint": "One handles incoming requests, the other handles outgoing requests.",
+        "question_order": 3
       },
       {
         "question": "In GraphQL, how can you request multiple fields from a single object type without increasing the response size?",
@@ -463,7 +529,8 @@
           "Use variables"
         ],
         "correct_option": 0,
-        "hint": "This technique allows you to reuse parts of queries."
+        "hint": "This technique allows you to reuse parts of queries.",
+        "question_order": 4
       },
       {
         "question": "What advantage does using Apollo Client offer when handling GraphQL subscriptions?",
@@ -474,7 +541,8 @@
           "Conversion to REST API"
         ],
         "correct_option": 0,
-        "hint": "Think about maintaining a constant connection."
+        "hint": "Think about maintaining a constant connection.",
+        "question_order": 5
       }
     ]
   }

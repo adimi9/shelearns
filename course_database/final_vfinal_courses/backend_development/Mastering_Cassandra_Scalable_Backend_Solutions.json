@@ -29,91 +29,108 @@
         {
           "url": "https://learn.microsoft.com/en-us/azure/",
           "description": "Microsoft Azure documentation providing guidance on cloud services and solutions.",
-          "title": "Azure documentation | Microsoft Learn"
+          "title": "Azure documentation | Microsoft Learn",
+          "resource_order": 1
         },
         {
           "url": "https://grafana.com/docs/loki/latest/configure/storage/",
           "description": "Guidelines for configuring storage options in Loki for efficient log management.",
-          "title": "Storage | Grafana Loki documentation"
+          "title": "Storage | Grafana Loki documentation",
+          "resource_order": 2
         },
         {
           "url": "https://kubernetes.io/docs/home/",
           "description": "Official documentation for Kubernetes, providing guides and resources for container orchestration.",
-          "title": "Kubernetes Documentation | Kubernetes"
+          "title": "Kubernetes Documentation | Kubernetes",
+          "resource_order": 3
         },
         {
           "url": "https://grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/integration-apache-cassandra/",
           "description": "Documentation on integrating Apache Cassandra with Grafana Cloud for infrastructure monitoring.",
-          "title": "Apache Cassandra integration | Grafana Cloud documentation"
+          "title": "Apache Cassandra integration | Grafana Cloud documentation",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://cassandra.apache.org/_/cassandra-basics.html",
           "description": "An introductory guide to understanding the basics of Apache Cassandra.",
-          "title": "Apache Cassandra | Apache Cassandra Documentation"
+          "title": "Apache Cassandra | Apache Cassandra Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://grafana.com/docs/loki/latest/configure/storage/",
           "description": "Guidance on configuring storage settings for Loki in Grafana.",
-          "title": "Storage | Grafana Loki documentation"
+          "title": "Storage | Grafana Loki documentation",
+          "resource_order": 2
         },
         {
           "url": "https://www.geeksforgeeks.org/introduction-to-nosql/",
           "description": "An introductory guide to NoSQL databases and their key features.",
-          "title": "Introduction to NoSQL - GeeksforGeeks"
+          "title": "Introduction to NoSQL - GeeksforGeeks",
+          "resource_order": 3
         },
         {
           "url": "https://grafana.com/tutorials/",
           "description": "A collection of tutorials for using Grafana to visualize and analyze data effectively.",
-          "title": "Tutorials | Grafana Labs"
+          "title": "Tutorials | Grafana Labs",
+          "resource_order": 4
         },
         {
           "url": "https://github.com/donnemartin/system-design-primer",
           "description": "A comprehensive resource for learning and improving system design skills.",
-          "title": "GitHub - donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards."
+          "title": "GitHub - donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=WmYNfOxYO8M",
           "title": "Importance of System Design in interviews | Why you should learn HLD and LLD ?",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=G-EAVcMHEko",
           "title": "How to Become a Backend Developer for Beginners | Backend Development Roadmap 2025 | Tamil",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=yuVVKB0EaOQ",
           "title": "Build Nest.js Microservices With RabbitMQ, MongoDB & Docker | Tutorial",
-          "duration": "84m"
+          "duration": "84m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=nMSp3ygB5F0&pp=ygUKI3RpZXIzdXNlcg%3D%3D",
           "title": "3 Tier Architecture Design",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=wdsiQEa5mQY",
           "title": "Kafka + Microservices + Event Driven Architecture with NodeJS",
-          "duration": "34m"
+          "duration": "34m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=wwZy_K3LORQ&pp=0gcJCdgAo7VqN5tD",
           "title": "How to Upload Files to AWS S3 Bucket using NodeJS Backend",
-          "duration": "39m"
+          "duration": "39m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=aria5gmElSc",
           "title": "Mastering Email System Design: SMTP, IMAP, POP3, and Beyond",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=V5M925ZQEJU",
           "title": "System Design Interview Questions 2025 | System Design Interview Questions & Answers | Intellipaat",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 8
         }
       ]
     },
@@ -122,61 +139,72 @@
         {
           "url": "https://learn.microsoft.com/en-us/azure/",
           "description": "Official Microsoft Azure documentation for cloud services and solutions.",
-          "title": "Azure documentation | Microsoft Learn"
+          "title": "Azure documentation | Microsoft Learn",
+          "resource_order": 1
         },
         {
           "url": "https://grafana.com/docs/loki/latest/configure/",
           "description": "Guidelines for configuring Loki, the log aggregation system, in Grafana.",
-          "title": "Grafana Loki configuration parameters | Grafana Loki documentation"
+          "title": "Grafana Loki configuration parameters | Grafana Loki documentation",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/donnemartin/system-design-primer",
           "description": "A comprehensive resource for learning and mastering system design concepts and practices.",
-          "title": "GitHub - donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards."
+          "title": "GitHub - donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+          "resource_order": 3
         },
         {
           "url": "https://grafana.com/docs/loki/latest/operations/storage/",
           "description": "Documentation on managing and configuring storage solutions for Grafana Loki.",
-          "title": "Manage storage | Grafana Loki documentation"
+          "title": "Manage storage | Grafana Loki documentation",
+          "resource_order": 4
         },
         {
           "url": "https://kubernetes.io/docs/reference/kubectl/quick-reference/",
           "description": "A quick reference guide for using kubectl commands in Kubernetes.",
-          "title": "kubectl Quick Reference | Kubernetes"
+          "title": "kubectl Quick Reference | Kubernetes",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://github.com/donnemartin/system-design-primer",
           "description": "An extensive guide to mastering system design interviews and concepts.",
-          "title": "GitHub - donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards."
+          "title": "GitHub - donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+          "resource_order": 1
         },
         {
           "url": "https://www.geeksforgeeks.org/introduction-to-nosql/",
           "description": "An introductory guide to NoSQL databases, covering their types and use cases.",
-          "title": "Introduction to NoSQL - GeeksforGeeks"
+          "title": "Introduction to NoSQL - GeeksforGeeks",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/karanpratapsingh/system-design",
           "description": "A curated collection of system design resources and best practices for developers.",
-          "title": "GitHub - karanpratapsingh/system-design: Learn how to design systems at scale and prepare for system design interviews"
+          "title": "GitHub - karanpratapsingh/system-design: Learn how to design systems at scale and prepare for system design interviews",
+          "resource_order": 3
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/",
           "description": "Official Microsoft documentation for Azure cloud services and solutions.",
-          "title": "Azure documentation | Microsoft Learn"
+          "title": "Azure documentation | Microsoft Learn",
+          "resource_order": 4
         },
         {
           "url": "https://loadforge.com/guides/choosing-the-best-nosql-database-a-comparison-of-the-top-5-options",
           "description": "A detailed comparison guide for selecting the best NoSQL database among the top five options.",
-          "title": "Load Testing and Stress Tests - LoadForge"
+          "title": "Load Testing and Stress Tests - LoadForge",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=wdsiQEa5mQY",
           "title": "Kafka + Microservices + Event Driven Architecture with NodeJS",
-          "duration": "34m"
+          "duration": "34m",
+          "resource_order": 1
         }
       ]
     },
@@ -185,56 +213,66 @@
         {
           "url": "https://grafana.com/docs/loki/latest/configure/",
           "description": "Guidelines for configuring Loki for log aggregation and management in Grafana.",
-          "title": "Grafana Loki configuration parameters | Grafana Loki documentation"
+          "title": "Grafana Loki configuration parameters | Grafana Loki documentation",
+          "resource_order": 1
         },
         {
           "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
           "description": "A comprehensive guide to setting up and managing self-hosted services.",
-          "title": "GitHub - mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking."
+          "title": "GitHub - mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
+          "resource_order": 2
         },
         {
           "url": "https://grafana.com/docs/loki/latest/configure/storage/",
           "description": "Guidelines for configuring storage options in Loki for log management.",
-          "title": "Storage | Grafana Loki documentation"
+          "title": "Storage | Grafana Loki documentation",
+          "resource_order": 3
         },
         {
           "url": "https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321",
           "description": "A comprehensive guide on building reliable, scalable, and maintainable data-intensive applications.",
-          "title": "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems : Amazon.sg: Books"
+          "title": "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems : Amazon.sg: Books",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://grafana.com/tutorials/",
           "description": "A collection of tutorials for mastering Grafana's data visualization and monitoring tools.",
-          "title": "Tutorials | Grafana Labs"
+          "title": "Tutorials | Grafana Labs",
+          "resource_order": 1
         },
         {
           "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
           "description": "A detailed guide to setting up and managing self-hosted applications and services.",
-          "title": "GitHub - mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking."
+          "title": "GitHub - mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
+          "resource_order": 2
         },
         {
           "url": "https://www.hellointerview.com/learn/system-design/deep-dives/cassandra",
           "description": "An in-depth exploration of the system design and architecture of Apache Cassandra.",
-          "title": "Cassandra Deep Dive for System Design Interviews | Hello Interview System Design in a Hurry"
+          "title": "Cassandra Deep Dive for System Design Interviews | Hello Interview System Design in a Hurry",
+          "resource_order": 3
         },
         {
           "url": "https://www.geeksforgeeks.org/best-way-to-master-spring-boot-a-complete-roadmap/",
           "description": "A complete roadmap for mastering Spring Boot effectively.",
-          "title": "Best Way to Master Spring Boot \u2013 A Complete Roadmap - GeeksforGeeks"
+          "title": "Best Way to Master Spring Boot – A Complete Roadmap - GeeksforGeeks",
+          "resource_order": 4
         },
         {
           "url": "https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321",
           "description": "A detailed exploration of designing scalable and reliable data-intensive applications.",
-          "title": "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems : Amazon.sg: Books"
+          "title": "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems : Amazon.sg: Books",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=yuVVKB0EaOQ",
           "title": "Build Nest.js Microservices With RabbitMQ, MongoDB & Docker | Tutorial",
-          "duration": "84m"
+          "duration": "84m",
+          "resource_order": 1
         }
       ]
     }
@@ -250,7 +288,8 @@
           "In-memory Database"
         ],
         "correct_option": 1,
-        "hint": "Cassandra is designed to handle large amounts of data across many commodity servers without any single point of failure."
+        "hint": "Cassandra is designed to handle large amounts of data across many commodity servers without any single point of failure.",
+        "question_order": 1
       },
       {
         "question": "Which component in Cassandra is responsible for storing data on disk?",
@@ -261,7 +300,8 @@
           "Hinted Handoff"
         ],
         "correct_option": 2,
-        "hint": "This component is a persistent sorted file that is periodically flushed from memory."
+        "hint": "This component is a persistent sorted file that is periodically flushed from memory.",
+        "question_order": 2
       },
       {
         "question": "What is the primary language used to interact with Cassandra databases?",
@@ -272,7 +312,8 @@
           "JSON"
         ],
         "correct_option": 1,
-        "hint": "This language is similar to SQL but tailored specifically for Cassandra."
+        "hint": "This language is similar to SQL but tailored specifically for Cassandra.",
+        "question_order": 3
       },
       {
         "question": "How does Cassandra ensure high availability and fault tolerance?",
@@ -283,7 +324,8 @@
           "Utilizing in-memory caching"
         ],
         "correct_option": 0,
-        "hint": "Cassandra replicates data across multiple nodes to prevent data loss."
+        "hint": "Cassandra replicates data across multiple nodes to prevent data loss.",
+        "question_order": 4
       },
       {
         "question": "Which strategy is NOT a way to optimize performance in Cassandra?",
@@ -294,7 +336,8 @@
           "Tuning query performance"
         ],
         "correct_option": 2,
-        "hint": "Cassandra is designed to scale horizontally, rather than relying on a single large node."
+        "hint": "Cassandra is designed to scale horizontally, rather than relying on a single large node.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -307,7 +350,8 @@
           "It requires less hardware compared to traditional databases."
         ],
         "correct_option": 2,
-        "hint": "Consider Cassandra's ability to maintain data integrity across multiple nodes."
+        "hint": "Consider Cassandra's ability to maintain data integrity across multiple nodes.",
+        "question_order": 1
       },
       {
         "question": "Which component of Cassandra is responsible for managing the read and write requests to the database?",
@@ -318,7 +362,8 @@
           "Coordinator Node"
         ],
         "correct_option": 3,
-        "hint": "Think about the component that acts as an intermediary between the client and the database."
+        "hint": "Think about the component that acts as an intermediary between the client and the database.",
+        "question_order": 2
       },
       {
         "question": "In Cassandra, what is the purpose of a partition key in data modeling?",
@@ -329,7 +374,8 @@
           "To specify the sort order of data"
         ],
         "correct_option": 1,
-        "hint": "Consider how data is distributed in a cluster."
+        "hint": "Consider how data is distributed in a cluster.",
+        "question_order": 3
       },
       {
         "question": "How does Cassandra achieve eventual consistency across nodes?",
@@ -340,7 +386,8 @@
           "By maintaining a single copy of data"
         ],
         "correct_option": 2,
-        "hint": "Think about the flexibility Cassandra offers in terms of consistency."
+        "hint": "Think about the flexibility Cassandra offers in terms of consistency.",
+        "question_order": 4
       },
       {
         "question": "Which CQL command is used to create a new keyspace in Cassandra?",
@@ -351,7 +398,8 @@
           "CREATE TABLE"
         ],
         "correct_option": 2,
-        "hint": "Consider the command specific to defining a namespace for tables."
+        "hint": "Consider the command specific to defining a namespace for tables.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -364,7 +412,8 @@
           "It guarantees strong consistency across all nodes."
         ],
         "correct_option": 0,
-        "hint": "Consider how Cassandra's architecture influences its availability and fault tolerance."
+        "hint": "Consider how Cassandra's architecture influences its availability and fault tolerance.",
+        "question_order": 1
       },
       {
         "question": "In Cassandra, which of the following is NOT a valid data modeling strategy?",
@@ -375,7 +424,8 @@
           "Denormalization for performance"
         ],
         "correct_option": 2,
-        "hint": "Think about Cassandra's support for relational database features."
+        "hint": "Think about Cassandra's support for relational database features.",
+        "question_order": 2
       },
       {
         "question": "Which consistency level in Cassandra ensures that the most recent write is always read?",
@@ -386,7 +436,8 @@
           "Each Quorum"
         ],
         "correct_option": 1,
-        "hint": "This level requires acknowledgment from all replicas."
+        "hint": "This level requires acknowledgment from all replicas.",
+        "question_order": 3
       },
       {
         "question": "What is the primary purpose of using partition keys in Cassandra?",
@@ -397,7 +448,8 @@
           "To maintain strong consistency of data reads"
         ],
         "correct_option": 2,
-        "hint": "Consider how Cassandra manages data distribution."
+        "hint": "Consider how Cassandra manages data distribution.",
+        "question_order": 4
       },
       {
         "question": "Which of the following is a performance tuning technique in Cassandra?",
@@ -408,7 +460,8 @@
           "Setting a higher read consistency level"
         ],
         "correct_option": 2,
-        "hint": "Think about techniques that reduce query latency and enhance responsiveness."
+        "hint": "Think about techniques that reduce query latency and enhance responsiveness.",
+        "question_order": 5
       }
     ]
   },

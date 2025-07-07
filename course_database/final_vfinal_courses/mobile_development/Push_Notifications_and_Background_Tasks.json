@@ -21,76 +21,90 @@
         {
           "url": "https://docs.expo.dev/versions/latest/sdk/notifications/",
           "description": "Official Expo documentation for implementing and managing notifications in mobile applications.",
-          "title": "Notifications - Expo Documentation"
+          "title": "Notifications - Expo Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://platform.openai.com/docs/api-reference/introduction",
           "description": "An introduction to OpenAI's API, detailing its capabilities and usage guidelines.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs/cloud-messaging",
           "description": "An overview of Firebase Cloud Messaging for sending notifications to Android, iOS, and web apps.",
-          "title": "Firebase Cloud Messaging"
+          "title": "Firebase Cloud Messaging",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://docs.expo.dev/versions/latest/sdk/notifications/",
           "description": "Documentation on using the Expo Notifications API for sending and handling notifications in mobile apps.",
-          "title": "Notifications - Expo Documentation"
+          "title": "Notifications - Expo Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://holyswift.app/push-notifications-options-in-swiftui/",
           "description": "An overview of implementing push notifications in SwiftUI applications.",
-          "title": "Push Notifications Options in SwiftUI - Holy Swift"
+          "title": "Push Notifications Options in SwiftUI - Holy Swift",
+          "resource_order": 2
         },
         {
           "url": "https://community.appinventor.mit.edu/t/itoo-push-notification-examples-for-all/124359",
           "description": "Examples and guidance on implementing push notifications in MIT App Inventor applications.",
-          "title": "\ud83d\udc41 itoo Push Notification Examples for ALL! - Tutorials and Guides - MIT App Inventor Community"
+          "title": "👁 itoo Push Notification Examples for ALL! - Tutorials and Guides - MIT App Inventor Community",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=UJree24HWx0&pp=ygUKI3B1c2hub3RpZg%3D%3D",
-          "title": "Swift: Push Notifications Tutorial (2024) \u2013 iOS Development",
-          "duration": "13m"
+          "title": "Swift: Push Notifications Tutorial (2024) – iOS Development",
+          "duration": "13m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=SMW1FQz3Yrc",
-          "title": "How to Create Background Tasks in Ionic with Capacitor \u26a1\ufe0f",
-          "duration": "37m"
+          "title": "How to Create Background Tasks in Ionic with Capacitor ⚡️",
+          "duration": "37m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=q6TL2RyysV4",
           "title": "How to Implement Firebase Push Notifications on Android (FCM + Backend)",
-          "duration": "66m"
+          "duration": "66m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=Rg2KlQkJgfM",
           "title": "Side Tutorial: Push Notification Basics (revised version)",
-          "duration": "24m"
+          "duration": "24m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=cziFOUtXxrQ",
           "title": "Expo Push Notifications in React Native (tutorial for beginners) | DEVember Day 14",
-          "duration": "153m"
+          "duration": "153m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=YUr8pw0nO7Y",
           "title": "The Push Notifications Guide for Ionic & Capacitor",
-          "duration": "25m"
+          "duration": "25m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=MjtTxlH8YQw",
           "title": "iOS + Expo Push Notifications Tutorial | React Native | Expo 52+",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=LP623htmWcI",
           "title": "Local Notifications in Android - The Full Guide (Android Studio Tutorial)",
-          "duration": "27m"
+          "duration": "27m",
+          "resource_order": 8
         }
       ]
     },
@@ -99,111 +113,132 @@
         {
           "url": "https://firebase.google.com/docs/cloud-messaging/concept-options",
           "description": "An overview of configuration options for Firebase Cloud Messaging.",
-          "title": "About FCM messages \u00a0|\u00a0 Firebase Cloud Messaging"
+          "title": "About FCM messages  |  Firebase Cloud Messaging",
+          "resource_order": 1
         },
         {
           "url": "https://docs.expo.dev/versions/latest/sdk/notifications/",
           "description": "Documentation on using the Expo Notifications API for handling push notifications in apps.",
-          "title": "Notifications - Expo Documentation"
+          "title": "Notifications - Expo Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs/cloud-messaging/android/receive",
           "description": "Guidelines for receiving messages with Firebase Cloud Messaging on Android.",
-          "title": "Receive messages in an Android app \u00a0|\u00a0 Firebase Cloud Messaging"
+          "title": "Receive messages in an Android app  |  Firebase Cloud Messaging",
+          "resource_order": 3
         },
         {
           "url": "https://developer.android.com/training/monitoring-device-state/doze-standby",
           "description": "Guidelines for managing app behavior in Doze and App Standby modes on Android devices.",
-          "title": "Optimize for Doze and App Standby \u00a0|\u00a0 App quality \u00a0|\u00a0 Android Developers"
+          "title": "Optimize for Doze and App Standby  |  App quality  |  Android Developers",
+          "resource_order": 4
         },
         {
           "url": "https://api.iterable.com/",
           "description": "API documentation for integrating with Iterable's marketing automation platform.",
-          "title": "Iterable API Documentation"
+          "title": "Iterable API Documentation",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://developer.android.com/training/monitoring-device-state/doze-standby",
           "description": "Guidelines for managing app behavior with Android's Doze and App Standby modes.",
-          "title": "Optimize for Doze and App Standby \u00a0|\u00a0 App quality \u00a0|\u00a0 Android Developers"
+          "title": "Optimize for Doze and App Standby  |  App quality  |  Android Developers",
+          "resource_order": 1
         },
         {
           "url": "https://forums.kodeco.com/t/push-notifications-tutorial-getting-started-raywenderlich-com/121466",
           "description": "A beginner's guide to implementing push notifications in mobile applications.",
-          "title": "Push Notifications Tutorial: Getting Started | raywenderlich.com - \ud83c\udf93 Courses & Articles - Kodeco Forums"
+          "title": "Push Notifications Tutorial: Getting Started | raywenderlich.com - 🎓 Courses & Articles - Kodeco Forums",
+          "resource_order": 2
         },
         {
           "url": "https://developer.android.com/develop/background-work/background-tasks",
           "description": "Guidelines for managing background tasks in Android applications.",
-          "title": "Background tasks overview \u00a0|\u00a0 Background work \u00a0|\u00a0 Android Developers"
+          "title": "Background tasks overview  |  Background work  |  Android Developers",
+          "resource_order": 3
         },
         {
           "url": "https://jesseduffield.com/Notes-On-Lambda/",
           "description": "An insightful overview of AWS Lambda, its features, and practical use cases.",
-          "title": "My notes from deciding against AWS Lambda \u2013 Pursuit Of Laziness \u2013 A blog by Jesse Duffield"
+          "title": "My notes from deciding against AWS Lambda – Pursuit Of Laziness – A blog by Jesse Duffield",
+          "resource_order": 4
         },
         {
           "url": "https://www.couchbase.com/blog/background-sync-couchbase-mobile-ios/",
           "description": "An overview of implementing background synchronization in Couchbase Mobile for iOS applications.",
-          "title": "Access Denied"
+          "title": "Access Denied",
+          "resource_order": 5
         },
         {
           "url": "https://stackoverflow.com/questions/19068762/will-ios-launch-my-app-into-the-background-if-it-was-force-quit-by-the-user",
           "description": "Discussion on iOS app behavior when force-quit by the user regarding background launching.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 6
         },
         {
           "url": "https://www.kodeco.com/11395893-push-notifications-tutorial-getting-started",
           "description": "A beginner's tutorial on implementing push notifications in mobile applications.",
-          "title": "Push Notifications Tutorial: Getting Started | Kodeco"
+          "title": "Push Notifications Tutorial: Getting Started | Kodeco",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=p_aRhvB77TE",
           "title": "How To Use ChatGPT Scheduled Tasks Tutorial (ChapGPT Tasks Tutorial 2025)",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=cziFOUtXxrQ",
           "title": "Expo Push Notifications in React Native (tutorial for beginners) | DEVember Day 14",
-          "duration": "153m"
+          "duration": "153m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=O7oaxFgNuYo",
           "title": "Real-Time Notifications Using Blazor and SignalR from scratch",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=Zpe9sFlO0XE",
           "title": "Power Automate Copilot Tutorial: Workflow Automation using Natural Language",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=OP-qawt-A3Y",
           "title": "Design A Scalable Notification System | System Design",
-          "duration": "28m"
+          "duration": "28m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=F6W4RtJ6u9c&pp=0gcJCf0Ao7VqN5tD",
           "title": "ChatGPT Tasks in 6 Minutes",
-          "duration": "6m"
+          "duration": "6m",
+          "resource_order": 6
         },
         {
           "url": "https://m.youtube.com/watch?v=Pulk8JrPPoA",
           "title": "Real time Notification System: WebSocket | Spring Boot | Angular",
-          "duration": "82m"
+          "duration": "82m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=v_7rXKjJ5Iw",
           "title": "9 Best Practices for Apps With iOS Live Activities",
-          "duration": "32m"
+          "duration": "32m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=ip3Z4ZcAgA8&pp=0gcJCdgAo7VqN5tD",
           "title": "Background Jobs in ASP.NET Core",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 9
         }
       ]
     },
@@ -212,86 +247,102 @@
         {
           "url": "https://github.com/timgit/pg-boss/discussions/416",
           "description": "Discussion on implementing a feature to pause and resume queues in pg-boss.",
-          "title": "pg-boss getting started guide / examples \u00b7 timgit/pg-boss \u00b7 Discussion #416 \u00b7 GitHub"
+          "title": "pg-boss getting started guide / examples · timgit/pg-boss · Discussion #416 · GitHub",
+          "resource_order": 1
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
           "description": "An in-depth guide on building and deploying Progressive Web Apps (PWAs).",
-          "title": "Progressive web apps | MDN"
+          "title": "Progressive web apps | MDN",
+          "resource_order": 2
         },
         {
           "url": "https://apidocs.pingidentity.com/pingone/platform/v1/api/",
           "description": "Official API documentation for PingOne's identity management platform.",
-          "title": "PingOne Platform API Reference"
+          "title": "PingOne Platform API Reference",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://jesseduffield.com/Notes-On-Lambda/",
           "description": "Insights and notes on using AWS Lambda for serverless applications.",
-          "title": "My notes from deciding against AWS Lambda \u2013 Pursuit Of Laziness \u2013 A blog by Jesse Duffield"
+          "title": "My notes from deciding against AWS Lambda – Pursuit Of Laziness – A blog by Jesse Duffield",
+          "resource_order": 1
         },
         {
           "url": "https://support.apple.com/guide/iphone/change-notification-settings-iph7c3d96bab/ios",
           "description": "Instructions for changing notification settings on an iPhone.",
-          "title": "Change notification settings on iPhone - Apple Support"
+          "title": "Change notification settings on iPhone - Apple Support",
+          "resource_order": 2
         },
         {
           "url": "https://diveintoapex.com/2023/11/15/dipping-my-toe-into-workflow/",
           "description": "An introductory exploration of workflow automation using Salesforce Apex.",
-          "title": "Dipping My Toe into Workflow \u2013 Dive Into APEX"
+          "title": "Dipping My Toe into Workflow – Dive Into APEX",
+          "resource_order": 3
         },
         {
           "url": "https://blog.logrocket.com/react-native-push-notifications-complete-guide/",
           "description": "A complete guide to implementing push notifications in React Native applications.",
-          "title": "React Native push notifications: A complete how-to guide - LogRocket Blog"
+          "title": "React Native push notifications: A complete how-to guide - LogRocket Blog",
+          "resource_order": 4
         },
         {
           "url": "https://www.todoist.com/inspiration/deep-work",
           "description": "An insightful guide on achieving deep work and maximizing productivity.",
-          "title": "Deep Work: The Complete Guide (Inc. a Step-by-Step Checklist)"
+          "title": "Deep Work: The Complete Guide (Inc. a Step-by-Step Checklist)",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=kY7_6Psbt_4",
           "title": "Garmin Fenix 8: The Complete Beginners Guide",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=db21mKs_XYo",
           "title": "Automate Microsoft Forms to Excel in 5 Minutes Flat!",
-          "duration": "20m"
+          "duration": "20m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=JVMiTexyp6U&pp=0gcJCfwAo7VqN5tD",
           "title": "How I implement PWA push Notification",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=cHamQZE18_s",
           "title": "Do These 15 Things First! - iPad Tips & Tricks 2024",
-          "duration": "30m"
+          "duration": "30m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=zd5_MN-6kqs&pp=0gcJCfwAo7VqN5tD",
           "title": "WordPress Tutorial for Beginners 2025 - Step by Step",
-          "duration": "31m"
+          "duration": "31m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=UW1jUab56sc",
           "title": "2023 - 2025 Lexus RX Deep Dive Tutorial - Part 2",
-          "duration": "147m"
+          "duration": "147m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=CvF_4wga0sg",
           "title": "Comprehensive Submarine Guide (And Fighting them) in World of Warships",
-          "duration": "56m"
+          "duration": "56m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=BZrio_G_1Cs",
           "title": "The BEST Facebook Ads Tutorial for Beginners 2025 (Full Guide)",
-          "duration": "73m"
+          "duration": "73m",
+          "resource_order": 8
         }
       ]
     }
@@ -307,7 +358,8 @@
           "To manage user authentication"
         ],
         "correct_option": 0,
-        "hint": "Think about what FCM stands for and its role in communication."
+        "hint": "Think about what FCM stands for and its role in communication.",
+        "question_order": 1
       },
       {
         "question": "Which service would you use for push notifications on iOS devices?",
@@ -318,7 +370,8 @@
           "iCloud"
         ],
         "correct_option": 1,
-        "hint": "This service is provided by Apple."
+        "hint": "This service is provided by Apple.",
+        "question_order": 2
       },
       {
         "question": "What is a key advantage of using local notifications?",
@@ -329,7 +382,8 @@
           "They do not consume battery"
         ],
         "correct_option": 0,
-        "hint": "Consider the dependency on external servers."
+        "hint": "Consider the dependency on external servers.",
+        "question_order": 3
       },
       {
         "question": "Which feature allows an app to open a specific page when a notification is tapped?",
@@ -340,7 +394,8 @@
           "Foreground Service"
         ],
         "correct_option": 0,
-        "hint": "Think about the term that involves navigating to a deeper part of the app."
+        "hint": "Think about the term that involves navigating to a deeper part of the app.",
+        "question_order": 4
       },
       {
         "question": "What task can be performed during a background fetch?",
@@ -351,7 +406,8 @@
           "Modifying system settings"
         ],
         "correct_option": 0,
-        "hint": "Consider what you might want to do periodically to keep your app content fresh."
+        "hint": "Consider what you might want to do periodically to keep your app content fresh.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -364,7 +420,8 @@
           "Microsoft Notification Hub"
         ],
         "correct_option": 1,
-        "hint": "This service is specific to Apple's ecosystem."
+        "hint": "This service is specific to Apple's ecosystem.",
+        "question_order": 1
       },
       {
         "question": "When integrating FCM in an Android app, which file must be updated with the server key to enable push notifications?",
@@ -375,7 +432,8 @@
           "settings.gradle"
         ],
         "correct_option": 1,
-        "hint": "This JSON file is typically placed in the app-level directory."
+        "hint": "This JSON file is typically placed in the app-level directory.",
+        "question_order": 2
       },
       {
         "question": "What is the main purpose of background fetch in mobile applications?",
@@ -386,7 +444,8 @@
           "To manage user authentication sessions"
         ],
         "correct_option": 1,
-        "hint": "It allows an app to update content in the background."
+        "hint": "It allows an app to update content in the background.",
+        "question_order": 3
       },
       {
         "question": "In the context of mobile apps, what does deep linking enable?",
@@ -397,7 +456,8 @@
           "Encrypting network communication"
         ],
         "correct_option": 1,
-        "hint": "It allows users to be directed to a specific page or feature within an app."
+        "hint": "It allows users to be directed to a specific page or feature within an app.",
+        "question_order": 4
       },
       {
         "question": "Which of the following is NOT a typical component of a local notification?",
@@ -408,7 +468,8 @@
           "Action Button"
         ],
         "correct_option": 2,
-        "hint": "This component is associated with remote notifications rather than local ones."
+        "hint": "This component is associated with remote notifications rather than local ones.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -421,7 +482,8 @@
           "To prioritize the notification over others"
         ],
         "correct_option": 1,
-        "hint": "This key is used to indicate that a background fetch is required."
+        "hint": "This key is used to indicate that a background fetch is required.",
+        "question_order": 1
       },
       {
         "question": "In Firebase Cloud Messaging (FCM), what is the role of the 'collapse_key'?",
@@ -432,7 +494,8 @@
           "To encrypt the notification payload"
         ],
         "correct_option": 0,
-        "hint": "This key helps in managing message delivery when multiple messages are sent."
+        "hint": "This key helps in managing message delivery when multiple messages are sent.",
+        "question_order": 2
       },
       {
         "question": "How does deep linking enhance the user experience in mobile applications?",
@@ -443,7 +506,8 @@
           "By enhancing the app's security features"
         ],
         "correct_option": 1,
-        "hint": "Deep linking directs users to specific areas within an app."
+        "hint": "Deep linking directs users to specific areas within an app.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is a benefit of using background tasks in mobile applications?",
@@ -454,7 +518,8 @@
           "Complex code maintenance"
         ],
         "correct_option": 0,
-        "hint": "Background tasks are designed to handle operations that don't require immediate user interaction."
+        "hint": "Background tasks are designed to handle operations that don't require immediate user interaction.",
+        "question_order": 4
       },
       {
         "question": "What is a local notification in the context of mobile applications?",
@@ -465,7 +530,8 @@
           "A notification that is shared across multiple devices"
         ],
         "correct_option": 1,
-        "hint": "Local notifications are not dependent on an external server to be triggered."
+        "hint": "Local notifications are not dependent on an external server to be triggered.",
+        "question_order": 5
       }
     ]
   }

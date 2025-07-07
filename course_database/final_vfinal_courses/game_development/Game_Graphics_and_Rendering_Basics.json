@@ -22,91 +22,108 @@
         {
           "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-6-documentation",
           "description": "Comprehensive documentation for Unreal Engine 5.6, covering features, tools, and development processes.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
           "description": "An in-depth guide to using the Canvas API for drawing graphics on the web.",
-          "title": "Canvas API - Web APIs | MDN"
+          "title": "Canvas API - Web APIs | MDN",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/windows/win32/direct3d12/directx-12-programming-guide",
           "description": "A detailed programming guide for using DirectX 12 in Windows applications.",
-          "title": "Direct3D 12 programming guide - Win32 apps | Microsoft Learn"
+          "title": "Direct3D 12 programming guide - Win32 apps | Microsoft Learn",
+          "resource_order": 3
         },
         {
           "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html",
           "description": "The official Unity Manual providing detailed guidance on using Unity's features and tools.",
-          "title": "Unity - Manual: Unity 6.1 User Manual"
+          "title": "Unity - Manual: Unity 6.1 User Manual",
+          "resource_order": 4
         },
         {
           "url": "https://vulkan-tutorial.com/",
           "description": "A beginner-friendly tutorial for learning Vulkan graphics API development.",
-          "title": "Introduction - Vulkan Tutorial"
+          "title": "Introduction - Vulkan Tutorial",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://erkaman.github.io/posts/beginner_computer_graphics.html",
           "description": "An introductory guide to computer graphics for beginners.",
-          "title": "Eric Arneb\u00e4ck"
+          "title": "Eric Arnebäck",
+          "resource_order": 1
         },
         {
           "url": "https://learncodebygaming.com/blog/how-to-make-a-video-game-in-java-2d-basics",
           "description": "A beginner's guide to creating a 2D video game using Java.",
-          "title": "How to make a Video Game in Java (2D Basics) - LearnCodeByGaming.com"
+          "title": "How to make a Video Game in Java (2D Basics) - LearnCodeByGaming.com",
+          "resource_order": 2
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=kfM-yu0iQBk",
-          "title": "Shader Basics, Blending & Textures \u2022 Shaders for Game Devs [Part 1]",
-          "duration": "233m"
+          "title": "Shader Basics, Blending & Textures • Shaders for Game Devs [Part 1]",
+          "duration": "233m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=Mg4b7EyGgEU",
           "title": "Introduction to C++ and DirectX Game Development | Tutorial for Beginners",
-          "duration": "335m"
+          "duration": "335m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=fBQvL5YR3eg&pp=0gcJCfwAo7VqN5tD",
           "title": "The Beginners Guide to Creating Realistic Graphics (In Unity)",
-          "duration": "22m"
+          "duration": "22m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=2gABYM5M0ww",
           "title": "Pygame Platformer Tutorial - Full Course",
-          "duration": "365m"
+          "duration": "365m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
           "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
-          "duration": "649m"
+          "duration": "649m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=B0J27sf9N1Y",
           "title": "Blender Tutorial for Complete Beginners - Part 1",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=XOs2qynEmNE",
           "title": "Make a C++ game FULL COURSE!",
-          "duration": "37m"
+          "duration": "37m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=y2UsQB3WSvo&pp=ygUWI3dlYl9zbGluZ19jb2xvdXJfY29kZQ%3D%3D",
           "title": "[01] WebGL Tutorial - Hello, Triangle!",
-          "duration": "37m"
+          "duration": "37m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=025QFeZfeyM",
           "title": "Code a 2D Game Engine using Java - Full Course for Beginners",
-          "duration": "1430m"
+          "duration": "1430m",
+          "resource_order": 9
         },
         {
           "url": "https://www.youtube.com/watch?v=5PAg1lGgD5M",
           "title": "D5 Render Full Beginner Tutorial!",
-          "duration": "36m"
+          "duration": "36m",
+          "resource_order": 10
         }
       ]
     },
@@ -115,96 +132,114 @@
         {
           "url": "https://docs.unity.com/",
           "description": "Official documentation for Unity, a cross-platform game engine.",
-          "title": "Unity documentation"
+          "title": "Unity documentation",
+          "resource_order": 1
         },
         {
           "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/nanite-virtualized-geometry-in-unreal-engine",
           "description": "An overview of Nanite virtualized geometry technology in Unreal Engine.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API",
           "description": "An in-depth guide to the WebGPU API for high-performance graphics and computation in web applications.",
-          "title": "WebGPU API - Web APIs | MDN"
+          "title": "WebGPU API - Web APIs | MDN",
+          "resource_order": 3
         },
         {
           "url": "https://docs.nvidia.com/nsight-graphics/UserGuide/",
           "description": "A detailed user guide for NVIDIA Nsight Graphics, a performance analysis and debugging tool for graphics applications.",
-          "title": "User Guide \u2014 NsightGraphics 2025.3 documentation"
+          "title": "User Guide — NsightGraphics 2025.3 documentation",
+          "resource_order": 4
         },
         {
           "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/2d-game-creation-wokflow.html",
           "description": "A step-by-step guide to creating 2D games using Unity's workflow tools.",
-          "title": "Unity - Manual: 2D game creation workflow"
+          "title": "Unity - Manual: 2D game creation workflow",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://edw.is/learning-vulkan/",
           "description": "An introductory tutorial series on learning Vulkan graphics API.",
-          "title": "How I learned Vulkan and wrote a small game engine with it"
+          "title": "How I learned Vulkan and wrote a small game engine with it",
+          "resource_order": 1
         },
         {
           "url": "https://erkaman.github.io/posts/beginner_computer_graphics.html",
           "description": "An introductory guide to computer graphics for beginners.",
-          "title": "Eric Arneb\u00e4ck"
+          "title": "Eric Arnebäck",
+          "resource_order": 2
         },
         {
           "url": "https://therealmjp.github.io/posts/sss-intro/",
           "description": "An introductory guide to subsurface scattering in graphics rendering.",
-          "title": "An Introduction To Real-Time Subsurface Scattering"
+          "title": "An Introduction To Real-Time Subsurface Scattering",
+          "resource_order": 3
         },
         {
           "url": "https://cgcookie.com/posts/blender-cycles-vs-eevee-15-limitations-of-real-time-rendering",
           "description": "An analysis of the limitations of real-time rendering in Blender's Eevee compared to Cycles.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 4
         },
         {
           "url": "https://halisavakis.com/my-take-on-shaders-compute-shaders/",
           "description": "An insightful exploration of compute shaders and their applications in graphics programming.",
-          "title": "My take on shaders: Compute shaders \u2013 Harry Alisavakis"
+          "title": "My take on shaders: Compute shaders – Harry Alisavakis",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=4ZYn9sR3btg&pp=0gcJCX4JAYcqIYzv",
           "title": "EXTREME PERFORMANCE with Unity DOTS! (ECS, Job System, Burst, Hybrid Game Objects)",
-          "duration": "87m"
+          "duration": "87m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=8OMghdHP-zs",
           "title": "Master Python by making 5 games [the new ultimate introduction to pygame]",
-          "duration": "668m"
+          "duration": "668m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=ke5KpqcoiIU",
           "title": "How to make 3D Games in Godot",
-          "duration": "49m"
+          "duration": "49m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=k-zMkzmduqI",
           "title": "Unreal Engine 5 Beginner Tutorial - UE5 Starter Course",
-          "duration": "300m"
+          "duration": "300m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=wqjJU4V6bGM",
           "title": "VR with Unreal Engine 5 - Full Beginner Course",
-          "duration": "192m"
+          "duration": "192m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=kgShNcTxMIg&pp=0gcJCfwAo7VqN5tD",
           "title": "Create a COMPLETE android & iOS game - FULL COURSE [Unity C#]",
-          "duration": "818m"
+          "duration": "818m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=KkLj5gzZff0",
           "title": "ChatGPT Image Generation Tutorial For Beginners - 10 Use Cases Using ChatGPT-4o",
-          "duration": "35m"
+          "duration": "35m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=oiuHSAwiz1c",
           "title": "Full 3D Game Asset Workflow Explained - FULL TUTORIAL",
-          "duration": "141m"
+          "duration": "141m",
+          "resource_order": 8
         }
       ]
     },
@@ -213,89 +248,106 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
           "description": "An in-depth guide to using the Canvas API for drawing graphics on the web.",
-          "title": "Canvas API - Web APIs | MDN"
+          "title": "Canvas API - Web APIs | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://whoisryosuke.com/blog/2023/learning-directx-12-in-2023",
           "description": "A detailed guide on learning DirectX 12 for graphics programming in 2023.",
-          "title": "Learning DirectX 12 in 2023"
+          "title": "Learning DirectX 12 in 2023",
+          "resource_order": 2
         },
         {
           "url": "https://alextardif.com/LearningGraphics.html",
-          "description": "An insightful overview of the learning process and resources for mastering graphics programming."
+          "description": "An insightful overview of the learning process and resources for mastering graphics programming.",
+          "resource_order": 3
         },
         {
           "url": "https://docs.nvidia.com/nsight-graphics/UserGuide/",
           "description": "A detailed user guide for NVIDIA Nsight Graphics, a tool for debugging and profiling graphics applications.",
-          "title": "User Guide \u2014 NsightGraphics 2025.3 documentation"
+          "title": "User Guide — NsightGraphics 2025.3 documentation",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://edw.is/learning-vulkan/",
           "description": "An in-depth tutorial series on learning the Vulkan graphics API for 3D graphics programming.",
-          "title": "How I learned Vulkan and wrote a small game engine with it"
+          "title": "How I learned Vulkan and wrote a small game engine with it",
+          "resource_order": 1
         },
         {
           "url": "https://alextardif.com/LearningGraphics.html",
-          "description": "An insightful guide to understanding and learning graphics programming."
+          "description": "An insightful guide to understanding and learning graphics programming.",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/prographon/graphics-developer-roadmap",
           "description": "A detailed roadmap for developers aiming to specialize in graphics programming.",
-          "title": "GitHub - prographon/graphics-developer-roadmap: roadmap to becoming a graphics developer"
+          "title": "GitHub - prographon/graphics-developer-roadmap: roadmap to becoming a graphics developer",
+          "resource_order": 3
         },
         {
           "url": "https://www.stefanpijnacker.nl/article/graphics-programming-where-to-start/",
           "description": "An introductory guide on how to begin with graphics programming.",
-          "title": "Graphics Programming - Where To Start? - Stefan Pijnacker"
+          "title": "Graphics Programming - Where To Start? - Stefan Pijnacker",
+          "resource_order": 4
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
           "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
-          "duration": "649m"
+          "duration": "649m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=gG7ZoP3fd1w&pp=0gcJCfwAo7VqN5tD",
           "title": "Arcane Tutorial Part 2 : Deep Dive Into the Arcane Look and Camera Projections (Blender 3.0 / EEVEE)",
-          "duration": "39m"
+          "duration": "39m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=8v7DkX4NDxs&pp=0gcJCdgAo7VqN5tD",
           "title": "Cinema 4d 2024: Beginners Guide (Redshift) PT14",
-          "duration": "71m"
+          "duration": "71m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=TUmiAdqMhD8",
           "title": "Environment Art Mastery - Deep Dive",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=dj4kNnj4FAQ",
           "title": "Optimizing UE5: Advanced Rendering, Graphics Performance, and Memory Management | Unreal Fest 2024",
-          "duration": "51m"
+          "duration": "51m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=qDHnCFMZ9HA&pp=0gcJCfwAo7VqN5tD",
           "title": "Introduction to DaVinci Resolve - [Full Course] for Beginners (2024)",
-          "duration": "279m"
+          "duration": "279m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=S4V-Yod_nws",
           "title": "The Ultimate Beginner's Guide to 3D Environment Art",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=eviSykqSUUw",
           "title": "A Deep Dive into Nanite Virtualized Geometry",
-          "duration": "70m"
+          "duration": "70m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=ke5KpqcoiIU",
           "title": "How to make 3D Games in Godot",
-          "duration": "49m"
+          "duration": "49m",
+          "resource_order": 9
         }
       ]
     }
@@ -311,7 +363,8 @@
           "To store graphical assets"
         ],
         "correct_option": 1,
-        "hint": "Think about the transformation of 3D data to a 2D screen representation."
+        "hint": "Think about the transformation of 3D data to a 2D screen representation.",
+        "question_order": 1
       },
       {
         "question": "Which shader is responsible for calculating the color of pixels on the screen?",
@@ -322,7 +375,8 @@
           "Compute Shader"
         ],
         "correct_option": 2,
-        "hint": "This shader works with fragments or pixels."
+        "hint": "This shader works with fragments or pixels.",
+        "question_order": 2
       },
       {
         "question": "What is the role of texture mapping in rendering?",
@@ -333,7 +387,8 @@
           "To calculate lighting effects"
         ],
         "correct_option": 1,
-        "hint": "It's about applying images to surfaces."
+        "hint": "It's about applying images to surfaces.",
+        "question_order": 3
       },
       {
         "question": "Which lighting model is known for simulating the way light interacts with rough surfaces to create realistic textures?",
@@ -344,7 +399,8 @@
           "Physically Based Rendering (PBR)"
         ],
         "correct_option": 3,
-        "hint": "This model focuses on realism through physical properties."
+        "hint": "This model focuses on realism through physical properties.",
+        "question_order": 4
       },
       {
         "question": "In graphics programming, what language is commonly used for writing shaders?",
@@ -355,7 +411,8 @@
           "C++"
         ],
         "correct_option": 2,
-        "hint": "These languages are specifically designed for graphics pipelines."
+        "hint": "These languages are specifically designed for graphics pipelines.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -368,7 +425,8 @@
           "To handle network communications"
         ],
         "correct_option": 0,
-        "hint": "Think about the transformation from 3D to 2D space."
+        "hint": "Think about the transformation from 3D to 2D space.",
+        "question_order": 1
       },
       {
         "question": "Which shader is responsible for determining the color of each pixel?",
@@ -379,7 +437,8 @@
           "Compute Shader"
         ],
         "correct_option": 2,
-        "hint": "This shader operates at the pixel level."
+        "hint": "This shader operates at the pixel level.",
+        "question_order": 2
       },
       {
         "question": "In the context of texture mapping, what does UV mapping refer to?",
@@ -390,7 +449,8 @@
           "The generation of procedural textures"
         ],
         "correct_option": 1,
-        "hint": "It involves converting 3D coordinates to a 2D plane."
+        "hint": "It involves converting 3D coordinates to a 2D plane.",
+        "question_order": 3
       },
       {
         "question": "What is the primary difference between Phong and PBR lighting models?",
@@ -401,7 +461,8 @@
           "PBR is older than Phong"
         ],
         "correct_option": 1,
-        "hint": "Consider the basis of realism and physical accuracy."
+        "hint": "Consider the basis of realism and physical accuracy.",
+        "question_order": 4
       },
       {
         "question": "Which programming language is commonly used for writing both vertex and fragment shaders?",
@@ -412,7 +473,8 @@
           "HTML"
         ],
         "correct_option": 2,
-        "hint": "This language is designed specifically for graphics programming."
+        "hint": "This language is designed specifically for graphics programming.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -425,7 +487,8 @@
           "Clipping"
         ],
         "correct_option": 2,
-        "hint": "It is the stage after vertex processing that converts vector information to pixel information."
+        "hint": "It is the stage after vertex processing that converts vector information to pixel information.",
+        "question_order": 1
       },
       {
         "question": "In HLSL, which semantic is used to pass the position of a vertex from the vertex shader to the next stage in the pipeline?",
@@ -436,7 +499,8 @@
           "COLOR"
         ],
         "correct_option": 0,
-        "hint": "It is a system-value semantic used specifically in Direct3D for vertex positions."
+        "hint": "It is a system-value semantic used specifically in Direct3D for vertex positions.",
+        "question_order": 2
       },
       {
         "question": "What is the primary purpose of a fragment shader in the graphics rendering pipeline?",
@@ -447,7 +511,8 @@
           "Perform depth testing"
         ],
         "correct_option": 0,
-        "hint": "This shader is responsible for processing fragments to generate final pixel colors."
+        "hint": "This shader is responsible for processing fragments to generate final pixel colors.",
+        "question_order": 3
       },
       {
         "question": "Which lighting model is based on the concept of energy conservation and uses reflectance functions to simulate realistic lighting?",
@@ -458,7 +523,8 @@
           "Physically Based Rendering (PBR)"
         ],
         "correct_option": 3,
-        "hint": "This model is designed to accurately simulate the flow of light in real-world scenarios."
+        "hint": "This model is designed to accurately simulate the flow of light in real-world scenarios.",
+        "question_order": 4
       },
       {
         "question": "In texture mapping, what technique is used to reduce aliasing artifacts when a texture is viewed at a steep angle or from a distance?",
@@ -469,7 +535,8 @@
           "Nearest-neighbor filtering"
         ],
         "correct_option": 2,
-        "hint": "This filtering technique enhances image quality by taking into account the texture's angle relative to the view."
+        "hint": "This filtering technique enhances image quality by taking into account the texture's angle relative to the view.",
+        "question_order": 5
       }
     ]
   }

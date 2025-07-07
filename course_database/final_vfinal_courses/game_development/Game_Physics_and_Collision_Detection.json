@@ -21,101 +21,120 @@
         {
           "url": "https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html",
           "description": "An introductory guide to understanding and implementing physics in the Godot Engine.",
-          "title": "Physics introduction \u2014 Godot Engine (stable) documentation in English"
+          "title": "Physics introduction — Godot Engine (stable) documentation in English",
+          "resource_order": 1
         },
         {
           "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/CollidersOverview.html",
           "description": "An overview of colliders in Unity, explaining their types and usage in game development.",
-          "title": "Unity - Manual: Introduction to collision"
+          "title": "Unity - Manual: Introduction to collision",
+          "resource_order": 2
         },
         {
           "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/collision-in-unreal-engine---overview",
           "description": "An overview of collision concepts and systems in Unreal Engine.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 3
         },
         {
           "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/class-Rigidbody.html",
           "description": "Detailed documentation on the Rigidbody component in Unity for physics simulations.",
-          "title": "Unity - Manual: Rigidbody component reference"
+          "title": "Unity - Manual: Rigidbody component reference",
+          "resource_order": 4
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Games/Techniques/3D_collision_detection",
           "description": "An in-depth guide on implementing 3D collision detection techniques in game development.",
-          "title": "3D collision detection - Game development | MDN"
+          "title": "3D collision detection - Game development | MDN",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects",
           "description": "An in-depth exploration of collision detection techniques for solid objects in video game physics.",
-          "title": "Attention Required! | Cloudflare"
+          "title": "Attention Required! | Cloudflare",
+          "resource_order": 1
         },
         {
           "url": "https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html",
           "description": "An introductory guide to the physics system in the Godot Engine.",
-          "title": "Physics introduction \u2014 Godot Engine (stable) documentation in English"
+          "title": "Physics introduction — Godot Engine (stable) documentation in English",
+          "resource_order": 2
         },
         {
           "url": "https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics",
           "description": "An introductory guide to rigid body dynamics in video game physics.",
-          "title": "Attention Required! | Cloudflare"
+          "title": "Attention Required! | Cloudflare",
+          "resource_order": 3
         },
         {
           "url": "https://winter.dev/articles/physics-engine",
           "description": "An in-depth article explaining the fundamentals and implementation of a physics engine.",
-          "title": "Designing a physics engine"
+          "title": "Designing a physics engine",
+          "resource_order": 4
         },
         {
           "url": "https://discourse.threejs.org/t/tutorial-on-javascript-physics-using-ammojs-and-threejs/7285",
           "description": "A tutorial on integrating Ammo.js physics engine with Three.js for JavaScript applications.",
-          "title": "Tutorial on JavaScript Physics Using AmmoJS and ThreeJS - Showcase - three.js forum"
+          "title": "Tutorial on JavaScript Physics Using AmmoJS and ThreeJS - Showcase - three.js forum",
+          "resource_order": 5
         },
         {
           "url": "https://love2d.org/forums/viewtopic.php?t=78886",
-          "description": "A forum discussion on implementing and optimizing 3D graphics in the L\u00d6VE game framework.",
-          "title": "Just a moment..."
+          "description": "A forum discussion on implementing and optimizing 3D graphics in the LÖVE game framework.",
+          "title": "Just a moment...",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=MsawDJ6BFto",
           "title": "Introduction to Collision Detection Tutorial for Games",
-          "duration": "4m"
+          "duration": "4m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=miQ4YmPtFJE",
           "title": "SpriteKit Basics Tutorial: Collisions, Bitmasks and Physics & New SpriteKit Course",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=ivoLnRVJgks&pp=ygUSI2dhbWVwaHlzaWNzZW5naW5l",
           "title": "Physics Engine Tutorial - An Introduction to Game Physics Engines",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=D16hTnDGweo",
           "title": "Code a Platformer Game | 1. The Basics",
-          "duration": "22m"
+          "duration": "22m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=B0aGFBo_Ki0",
           "title": "Introduction to Game Development (E10: collision detection)",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=3Oay1YxkP5c",
           "title": "#1 3D Physics Engine Tutorial: How Physics Engines Work",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=9eo0JF2HeEA",
           "title": "SceneKit, ARKit and Swift 4 - Basics Tutorial - Part 6 - Physics Collision Detection",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=LOhfqjmasi0",
           "title": "How to make a Video Game - Godot Beginner Tutorial",
-          "duration": "77m"
+          "duration": "77m",
+          "resource_order": 8
         }
       ]
     },
@@ -124,110 +143,131 @@
         {
           "url": "https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html",
           "description": "An introductory guide to understanding and using physics in the Godot Engine.",
-          "title": "Physics introduction \u2014 Godot Engine (stable) documentation in English"
+          "title": "Physics introduction — Godot Engine (stable) documentation in English",
+          "resource_order": 1
         },
         {
           "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/CollidersOverview.html",
           "description": "An overview of colliders in Unity, detailing their types and functionalities for game physics.",
-          "title": "Unity - Manual: Introduction to collision"
+          "title": "Unity - Manual: Introduction to collision",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/bulletphysics/bullet3",
           "description": "A repository for Bullet Physics SDK, a real-time physics simulation library.",
-          "title": "GitHub - bulletphysics/bullet3: Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc."
+          "title": "GitHub - bulletphysics/bullet3: Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.",
+          "resource_order": 3
         },
         {
           "url": "https://jrouwe.github.io/JoltPhysics/",
           "description": "An overview and documentation of the Jolt Physics engine for game development.",
-          "title": "Jolt Physics: Jolt Physics"
+          "title": "Jolt Physics: Jolt Physics",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects",
           "description": "An in-depth exploration of collision detection techniques for solid objects in video game physics.",
-          "title": "Attention Required! | Cloudflare"
+          "title": "Attention Required! | Cloudflare",
+          "resource_order": 1
         },
         {
           "url": "https://research.ncl.ac.uk/game/mastersdegree/gametechnologies/previousinformation/physics4collisiondetection/2017%20Tutorial%204%20-%20Collision%20Detection.pdf",
-          "description": "A tutorial on collision detection techniques in game physics from 2017."
+          "description": "A tutorial on collision detection techniques in game physics from 2017.",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/jrouwe/JoltPhysics",
           "description": "A high-performance, real-time physics simulation library for games and simulations.",
-          "title": "GitHub - jrouwe/JoltPhysics: A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West."
+          "title": "GitHub - jrouwe/JoltPhysics: A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West.",
+          "resource_order": 3
         },
         {
           "url": "https://oramind.com/ogre-bullet-a-beginners-basic-guide/",
           "description": "A beginner's guide to integrating Ogre 3D with Bullet physics engine.",
-          "title": "Ogre + Bullet - Beginner's Tutorial"
+          "title": "Ogre + Bullet - Beginner's Tutorial",
+          "resource_order": 4
         },
         {
           "url": "https://github.com/bulletphysics/bullet3",
           "description": "An open-source physics engine for simulating collision detection and dynamics in 3D environments.",
-          "title": "GitHub - bulletphysics/bullet3: Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc."
+          "title": "GitHub - bulletphysics/bullet3: Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.",
+          "resource_order": 5
         },
         {
           "url": "https://winter.dev/articles/physics-engine",
           "description": "An insightful article on building a physics engine from scratch.",
-          "title": "Designing a physics engine"
+          "title": "Designing a physics engine",
+          "resource_order": 6
         },
         {
           "url": "https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html",
           "description": "An introductory guide to the physics system in Godot Engine.",
-          "title": "Physics introduction \u2014 Godot Engine (stable) documentation in English"
+          "title": "Physics introduction — Godot Engine (stable) documentation in English",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=Uv7DWq6KFbk",
           "title": "Overview of Havok Physics in Unity - Unite Copenhagen",
-          "duration": "42m"
+          "duration": "42m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=P_6W-36QfLA",
           "title": "2 Ways to do a Ground Check | Unity 2D Platformer Tutorial #2",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=fJyi7l2tWKo",
           "title": "Raycasts, Explained. Every Physics \"Cast\" Visualized | Unity Tutorial",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=-GWTDhOQU6M",
           "title": "Verlet Integration",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=QxpgtVrjYrg",
           "title": "How to Raycast Against a Box (OBB) | Coding a 2D Physics Engine in Java #9",
-          "duration": "24m"
+          "duration": "24m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=vGpFwaLUG4U",
           "title": "Tutorial: RayCast3D Projectiles in Godot 4",
-          "duration": "33m"
+          "duration": "33m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=Mry6FdWnN7I",
           "title": "2D Animated Trajectory Line in Godot (with collisions!)",
-          "duration": "6m"
+          "duration": "6m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=k0vZbIclXjE",
           "title": "Godot 4 - 3D: Code architecture course in a single video (FULLY EXPLAINED)",
-          "duration": "616m"
+          "duration": "616m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=87q_ATDhrVY",
           "title": "Custom Extensions and New Robots | Robotics Office Hours",
-          "duration": "102m"
+          "duration": "102m",
+          "resource_order": 9
         },
         {
           "url": "https://www.youtube.com/watch?v=1mSv76tJ40s",
           "title": "TouchDesigner Bullet Physics and Audio Synthesis",
-          "duration": "39m"
+          "duration": "39m",
+          "resource_order": 10
         }
       ]
     },
@@ -236,104 +276,124 @@
         {
           "url": "https://forum.babylonjs.com/t/havok-engine-documentation/41366",
           "description": "Documentation for integrating and using the Havok engine with Babylon.js.",
-          "title": "Havok engine documentation? - Questions - Babylon.js"
+          "title": "Havok engine documentation? - Questions - Babylon.js",
+          "resource_order": 1
         },
         {
           "url": "https://doc.babylonjs.com/features/featuresDeepDive/physics/characterController/",
           "description": "An in-depth guide on using the character controller in Babylon.js physics.",
-          "title": "Babylon.js docs"
+          "title": "Babylon.js docs",
+          "resource_order": 2
         },
         {
           "url": "https://docs.unity3d.com/560/Documentation/Manual/CollidersOverview.html",
           "description": "An overview of colliders in Unity, explaining their types and uses in game development.",
-          "title": "Unity - Manual: Colliders"
+          "title": "Unity - Manual: Colliders",
+          "resource_order": 3
         },
         {
           "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/physics-in-unreal-engine",
           "description": "An in-depth overview of implementing physics in Unreal Engine projects.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 4
         },
         {
           "url": "https://docs.unity3d.com/550/Documentation/Manual/class-Rigidbody.html",
           "description": "Detailed documentation on the Rigidbody component in Unity for physics-based object manipulation.",
-          "title": "Unity - Manual: Rigidbody"
+          "title": "Unity - Manual: Rigidbody",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://winter.dev/articles/physics-engine",
           "description": "An insightful article explaining the fundamentals of building a physics engine.",
-          "title": "Designing a physics engine"
+          "title": "Designing a physics engine",
+          "resource_order": 1
         },
         {
           "url": "https://olitor.uw.edu/r6-collision-point",
-          "description": "An analysis of collision points in R6 programming environments."
+          "description": "An analysis of collision points in R6 programming environments.",
+          "resource_order": 2
         },
         {
           "url": "https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics",
           "description": "An introductory guide to rigid body dynamics in video game physics.",
-          "title": "Attention Required! | Cloudflare"
+          "title": "Attention Required! | Cloudflare",
+          "resource_order": 3
         },
         {
           "url": "https://www.ea.com/games/madden-nfl/madden-nfl-25/news/gridiron-notes-madden-25-gameplay-deep-dive",
-          "description": "An in-depth exploration of gameplay mechanics and features in Madden NFL 25."
+          "description": "An in-depth exploration of gameplay mechanics and features in Madden NFL 25.",
+          "resource_order": 4
         },
         {
           "url": "https://as3gametuts.com/2011/09/24/pong-5/",
           "description": "A tutorial on creating the classic Pong game using ActionScript 3.",
-          "title": "Pong ~Part 5~ Collisions! \u00ab AS3 Game Tutorials"
+          "title": "Pong ~Part 5~ Collisions! « AS3 Game Tutorials",
+          "resource_order": 5
         },
         {
           "url": "https://edw.is/learning-vulkan/",
           "description": "An introductory guide to learning the Vulkan graphics API for 3D applications.",
-          "title": "How I learned Vulkan and wrote a small game engine with it"
+          "title": "How I learned Vulkan and wrote a small game engine with it",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=ZpcOYg1Qfm4",
           "title": "UE5 Ragdoll Deep Dive Guide: Active Ragdoll, Tricks, and Getting Up",
-          "duration": "39m"
+          "duration": "39m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=D16hTnDGweo",
           "title": "Code a Platformer Game | 1. The Basics",
-          "duration": "22m"
+          "duration": "22m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
           "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
-          "duration": "649m"
+          "duration": "649m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=6T_TDuzEo9o",
           "title": "Your First 3D Platformer: Beginner's Tutorial/Guide in Godot 4.3",
-          "duration": "41m"
+          "duration": "41m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=Nc_ZMgEFj-A&pp=0gcJCfwAo7VqN5tD",
           "title": "Getting Started With Cloth Physics",
-          "duration": "3m"
+          "duration": "3m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=uVYaJNUjL2Y",
           "title": "How to Simulate Ropes And Cables In Unreal Engine 5",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 6
         },
         {
           "url": "https://m.youtube.com/watch?v=XD-7anXSOp0&t=1s",
           "title": "How to Code Collision Detection in Javascript",
-          "duration": "45m"
+          "duration": "45m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=R5o2CjPb3Tk&pp=0gcJCfwAo7VqN5tD",
           "title": "UE5 Ragdoll Physics Tutorial: Active Ragdoll, Stand Up & Moving Platforms (Complete Guide)",
-          "duration": "61m"
+          "duration": "61m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=FkEqFvqpyfE",
           "title": "UNITY'S Cloth Tutorial",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 9
         }
       ]
     }
@@ -349,7 +409,8 @@
           "To add sound effects to collisions"
         ],
         "correct_option": 0,
-        "hint": "Think about how objects move and interact in the real world."
+        "hint": "Think about how objects move and interact in the real world.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is NOT a common collision shape used in game physics engines?",
@@ -360,7 +421,8 @@
           "Capsule"
         ],
         "correct_option": 2,
-        "hint": "Consider the basic geometric shapes that are easy to calculate."
+        "hint": "Consider the basic geometric shapes that are easy to calculate.",
+        "question_order": 2
       },
       {
         "question": "What is the role of triggers in game physics?",
@@ -371,7 +433,8 @@
           "To change the color of objects"
         ],
         "correct_option": 1,
-        "hint": "Triggers are often used to detect events without impacting object movement."
+        "hint": "Triggers are often used to detect events without impacting object movement.",
+        "question_order": 3
       },
       {
         "question": "Which force is necessary to simulate the effect of gravity on a falling object?",
@@ -382,7 +445,8 @@
           "Gravitational force"
         ],
         "correct_option": 3,
-        "hint": "Think about the force that pulls objects towards the Earth."
+        "hint": "Think about the force that pulls objects towards the Earth.",
+        "question_order": 4
       },
       {
         "question": "What does a joint do in the context of game physics engines?",
@@ -393,7 +457,8 @@
           "Increases the size of an object"
         ],
         "correct_option": 0,
-        "hint": "Joints are used to simulate connections that allow relative motion."
+        "hint": "Joints are used to simulate connections that allow relative motion.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -406,7 +471,8 @@
           "To manage the game's user interface"
         ],
         "correct_option": 1,
-        "hint": "Think about the component that handles dynamics and forces in game physics."
+        "hint": "Think about the component that handles dynamics and forces in game physics.",
+        "question_order": 1
       },
       {
         "question": "Which of the following best describes collision layers?",
@@ -417,7 +483,8 @@
           "They are used to create visual effects during collisions."
         ],
         "correct_option": 1,
-        "hint": "Consider how developers control which objects interact with each other."
+        "hint": "Consider how developers control which objects interact with each other.",
+        "question_order": 2
       },
       {
         "question": "How do triggers differ from regular colliders in game physics?",
@@ -428,7 +495,8 @@
           "Triggers are only used in 3D games, while regular colliders are used in both 2D and 3D games."
         ],
         "correct_option": 1,
-        "hint": "Think about the role of triggers in detecting events without stopping objects."
+        "hint": "Think about the role of triggers in detecting events without stopping objects.",
+        "question_order": 3
       },
       {
         "question": "Which force is responsible for causing rotational motion in physics engines?",
@@ -439,7 +507,8 @@
           "Lift"
         ],
         "correct_option": 2,
-        "hint": "This force is a rotational equivalent to linear forces."
+        "hint": "This force is a rotational equivalent to linear forces.",
+        "question_order": 4
       },
       {
         "question": "What is the function of joints in a physics engine?",
@@ -450,7 +519,8 @@
           "To simulate lighting effects on surfaces"
         ],
         "correct_option": 0,
-        "hint": "Think about how joints might be used to simulate mechanical connections."
+        "hint": "Think about how joints might be used to simulate mechanical connections.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -463,7 +533,8 @@
           "A Rigidbody can only move in one direction, while a static body can move freely."
         ],
         "correct_option": 0,
-        "hint": "Consider the effects of forces and motion on each type of body."
+        "hint": "Consider the effects of forces and motion on each type of body.",
+        "question_order": 1
       },
       {
         "question": "What is the primary purpose of using collision layers in a physics engine?",
@@ -474,7 +545,8 @@
           "To enhance the visual appearance of collisions."
         ],
         "correct_option": 1,
-        "hint": "Think about how collision detection can be controlled between different objects."
+        "hint": "Think about how collision detection can be controlled between different objects.",
+        "question_order": 2
       },
       {
         "question": "In the context of triggers in game physics, what typically happens when an object enters a trigger zone?",
@@ -485,7 +557,8 @@
           "The object stops moving."
         ],
         "correct_option": 2,
-        "hint": "Consider what a trigger is designed to initiate in gameplay."
+        "hint": "Consider what a trigger is designed to initiate in gameplay.",
+        "question_order": 3
       },
       {
         "question": "How does applying torque to a Rigidbody affect its motion in a physics engine?",
@@ -496,7 +569,8 @@
           "It only affects objects in a zero-gravity environment."
         ],
         "correct_option": 1,
-        "hint": "Torque is related to rotational motion rather than linear motion."
+        "hint": "Torque is related to rotational motion rather than linear motion.",
+        "question_order": 4
       },
       {
         "question": "Which of the following is a key advantage of using joints in a physics engine?",
@@ -507,7 +581,8 @@
           "They guarantee objects will never intersect."
         ],
         "correct_option": 1,
-        "hint": "Consider what joints are meant to achieve in terms of object interaction."
+        "hint": "Consider what joints are meant to achieve in terms of object interaction.",
+        "question_order": 5
       }
     ]
   }

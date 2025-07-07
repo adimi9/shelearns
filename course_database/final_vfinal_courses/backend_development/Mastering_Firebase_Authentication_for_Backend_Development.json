@@ -28,91 +28,108 @@
         {
           "url": "https://firebase.google.com/docs",
           "description": "Official documentation for using Firebase to build and deploy web and mobile applications.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://docs.flutter.dev/data-and-backend/firebase",
           "description": "A guide on integrating Firebase with Flutter for backend and data services.",
-          "title": "Firebase | Flutter"
+          "title": "Firebase | Flutter",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs/guides",
           "description": "An overview of Firebase's comprehensive guides for integrating and utilizing its services in applications.",
-          "title": "Fundamentals \u00a0|\u00a0 Firebase Documentation"
+          "title": "Fundamentals  |  Firebase Documentation",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://firebase.google.com/docs",
           "description": "Official documentation for Firebase, Google's mobile and web application development platform.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://codelabs.developers.google.com/",
           "description": "A platform offering hands-on coding tutorials for Google technologies and tools.",
-          "title": "Google Codelabs"
+          "title": "Google Codelabs",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/community/learn",
           "description": "A platform offering community-driven tutorials and resources for learning Firebase.",
-          "title": "Learning pathways \u00a0|\u00a0 Firebase"
+          "title": "Learning pathways  |  Firebase",
+          "resource_order": 3
         },
         {
           "url": "https://docs.flutter.dev/data-and-backend/firebase",
           "description": "An overview of integrating Firebase services with Flutter applications.",
-          "title": "Firebase | Flutter"
+          "title": "Firebase | Flutter",
+          "resource_order": 4
         },
         {
           "url": "https://github.com/practical-tutorials/project-based-learning",
           "description": "A curated list of project-based tutorials for learning various programming languages and technologies.",
-          "title": "GitHub - practical-tutorials/project-based-learning: Curated list of project-based tutorials"
+          "title": "GitHub - practical-tutorials/project-based-learning: Curated list of project-based tutorials",
+          "resource_order": 5
         },
         {
           "url": "https://www.udemy.com/topic/firebase/",
           "description": "An extensive collection of courses on using Firebase for app development.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=iZ78G3BhDyc",
           "title": "FlutterFlow + Firebase + Flutter Programming Full 3+ Hour Course (Build Any App After Watching This)",
-          "duration": "170m"
+          "duration": "170m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=lkjrUW8fI40",
           "title": "NEXT.js 14 Full Course | Build and Deploy a Full Stack App w. Firebase & TailwindCSS",
-          "duration": "241m"
+          "duration": "241m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=_ycD0d7skdQ",
           "title": "React Expense Tracker App - Build & Deploy A React Firebase Beginner Project",
-          "duration": "115m"
+          "duration": "115m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=uikATllLdRc&pp=ygURI25leHRqc2FuZHJvaWRhcHA%3D",
           "title": "Build a NextJS 13 App with Firebase & Tailwind CSS",
-          "duration": "37m"
+          "duration": "37m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=WpIDez53SK4&pp=0gcJCdgAo7VqN5tD",
           "title": "Setting Up Firebase Auth with React: Step-by-Step Tutorial",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=kyphLGnSz6Q&pp=0gcJCfwAo7VqN5tD",
           "title": "Supabase Full Course 2025 | Become a Supabase Pro in 1.5 Hours",
-          "duration": "86m"
+          "duration": "86m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=0RWLaJxW7Oc",
-          "title": "\ud83d\udd25\ud83d\udcf1 Firebase x Flutter Masterclass: Auth / Firestore / Storage / Hosting",
-          "duration": "65m"
+          "title": "🔥📱 Firebase x Flutter Masterclass: Auth / Firestore / Storage / Hosting",
+          "duration": "65m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=r-IlbcKoSRg&pp=0gcJCfcAhR29_xXO",
           "title": "Build A Realtime Chat App In React Native and Socket.io | Socket.io Tutorial",
-          "duration": "132m"
+          "duration": "132m",
+          "resource_order": 8
         }
       ]
     },
@@ -121,106 +138,126 @@
         {
           "url": "https://firebase.google.com/docs",
           "description": "Official documentation for Firebase, providing guides and references for integrating Firebase services into applications.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://codelabs.developers.google.com/",
           "description": "Interactive tutorials and guides for learning Google technologies and tools.",
-          "title": "Google Codelabs"
+          "title": "Google Codelabs",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs/database/android/read-and-write",
           "description": "Guidelines for reading and writing data using Firebase Realtime Database in Android apps.",
-          "title": "Read and Write Data on Android \u00a0|\u00a0 Firebase Realtime Database"
+          "title": "Read and Write Data on Android  |  Firebase Realtime Database",
+          "resource_order": 3
         },
         {
           "url": "https://github.com/vuejs/awesome-vue",
           "description": "A curated list of awesome resources and projects for Vue.js developers.",
-          "title": "GitHub - vuejs/awesome-vue: \ud83c\udf89 A curated list of awesome things related to Vue.js"
+          "title": "GitHub - vuejs/awesome-vue: 🎉 A curated list of awesome things related to Vue.js",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://firebase.google.com/docs",
           "description": "Official documentation for Firebase, detailing its features and integration guides.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://codelabs.developers.google.com/",
           "description": "A platform offering interactive, hands-on coding tutorials from Google.",
-          "title": "Google Codelabs"
+          "title": "Google Codelabs",
+          "resource_order": 2
         },
         {
           "url": "https://www.elevationng.org/?u=1095961990169",
           "description": "An online platform offering educational and career resources for personal and professional development.",
-          "title": "The Elevation Church - Making Greatness Common"
+          "title": "The Elevation Church - Making Greatness Common",
+          "resource_order": 3
         },
         {
           "url": "https://github.com/practical-tutorials/project-based-learning",
           "description": "A curated list of project-based tutorials to enhance practical coding skills across various programming languages.",
-          "title": "GitHub - practical-tutorials/project-based-learning: Curated list of project-based tutorials"
+          "title": "GitHub - practical-tutorials/project-based-learning: Curated list of project-based tutorials",
+          "resource_order": 4
         },
         {
           "url": "https://www.linkedin.com/posts/peterfriese_having-way-too-much-with-genkit-and-gemini-activity-7267230642029957120-7UbJ",
           "description": "An exploration of using GenKit and Gemini for innovative technology projects.",
-          "title": "Having way too much with Genkit and Gemini. | Peter Friese"
+          "title": "Having way too much with Genkit and Gemini. | Peter Friese",
+          "resource_order": 5
         },
         {
           "url": "https://cloud.google.com/blog/products/application-development/firebase-studio-lets-you-build-full-stack-ai-apps-with-gemini",
           "description": "An overview of Firebase Studio for developing full-stack AI applications using Gemini.",
-          "title": "Firebase Studio lets you build full-stack AI apps with Gemini | Google Cloud Blog"
+          "title": "Firebase Studio lets you build full-stack AI apps with Gemini | Google Cloud Blog",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=J8xReLuBNPY",
           "title": "Building a Chat App - Intro to WebSockets",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=GnodscC2p-A&pp=0gcJCf0Ao7VqN5tD",
           "title": "Build and Deploy a LeetCode Clone with React, Next JS, TypeScript, Tailwind CSS, Firebase",
-          "duration": "430m"
+          "duration": "430m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=jnaeB6LjoQs",
           "title": "Coding With Cursor AI: Lets Build a Full-Stack Web App feat Stripe | Full Tutorial",
-          "duration": "81m"
+          "duration": "81m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=ELFORM9fmss",
           "title": "Flutter Clean Architecture Full Course For Beginners - Bloc, Supabase, Hive, GetIt",
-          "duration": "424m"
+          "duration": "424m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=oNoRw69ro2k",
           "title": "Firebase Cloud Messaging API (v1) Tutorial",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=JiO_bQFh5Tc",
           "title": "Supabase Overview: Details, Pricing, Services, and more [Firebase Alternative]",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=_sWgionzDoM",
           "title": "Build an Inventory Management System with Python and Django: A Step-by-Step Tutorial",
-          "duration": "129m"
+          "duration": "129m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=7fAB4WS29oM",
           "title": "MASTER JWT Authentication with Java Spring Boot 3",
-          "duration": "57m"
+          "duration": "57m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=900P-fkceN8",
           "title": "Build a Full-Stack Web App in ~6 hours (Hackathon Edition)",
-          "duration": "352m"
+          "duration": "352m",
+          "resource_order": 9
         },
         {
           "url": "https://www.youtube.com/watch?v=S7-HupxKYZA",
           "title": "Unit Testing In FastAPI (Using It's In-Built Test Client) With Pytest",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 10
         }
       ]
     },
@@ -229,91 +266,108 @@
         {
           "url": "https://firebase.google.com/docs/guides",
           "description": "An overview of Firebase's features and guides for integrating them into your applications.",
-          "title": "Fundamentals \u00a0|\u00a0 Firebase Documentation"
+          "title": "Fundamentals  |  Firebase Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "Comprehensive reference and learning resource for JavaScript programming.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 2
         },
         {
           "url": "https://codelabs.developers.google.com/",
           "description": "Step-by-step guided tutorials for Google developer technologies and platforms.",
-          "title": "Google Codelabs"
+          "title": "Google Codelabs",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://masteringbackend.com/posts/backend-development-ultimate-guide",
           "description": "An in-depth guide to mastering backend development fundamentals and best practices.",
-          "title": "Backend Development: Ultimate Guide (2025) - Mastering Backend"
+          "title": "Backend Development: Ultimate Guide (2025) - Mastering Backend",
+          "resource_order": 1
         },
         {
           "url": "https://www.udemy.com/topic/firebase/",
           "description": "A collection of courses on using Firebase for app development and backend services.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://codelabs.developers.google.com/",
           "description": "An interactive platform offering guided, hands-on coding tutorials for developers.",
-          "title": "Google Codelabs"
+          "title": "Google Codelabs",
+          "resource_order": 3
         },
         {
           "url": "https://firebase.google.com/docs/guides",
           "description": "A detailed guide to integrating and using Firebase services in your applications.",
-          "title": "Fundamentals \u00a0|\u00a0 Firebase Documentation"
+          "title": "Fundamentals  |  Firebase Documentation",
+          "resource_order": 4
         },
         {
           "url": "https://www.newline.co/@zaoyang/what-is-supabase-and-how-it-can-replace-your-entire-backend--62b84205",
           "description": "An introduction to Supabase and its capabilities as a backend replacement.",
-          "title": "What Is Supabase And How It Can Replace Your Entire Backend | newline"
+          "title": "What Is Supabase And How It Can Replace Your Entire Backend | newline",
+          "resource_order": 5
         },
         {
           "url": "https://github.com/practical-tutorials/project-based-learning",
           "description": "A curated list of project-based tutorials for learning various programming languages and technologies.",
-          "title": "GitHub - practical-tutorials/project-based-learning: Curated list of project-based tutorials"
+          "title": "GitHub - practical-tutorials/project-based-learning: Curated list of project-based tutorials",
+          "resource_order": 6
         },
         {
           "url": "https://reactresources.com/topics/advanced-concepts",
           "description": "An in-depth exploration of advanced concepts in React development.",
-          "title": "Advanced React Concepts | React Resources"
+          "title": "Advanced React Concepts | React Resources",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUJI25leHRqczE0",
           "title": "Next.js Full Course for Beginners | Nextjs 13 Tutorial | 7 Hours",
-          "duration": "423m"
+          "duration": "423m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=lfHOAzFAul0",
           "title": "Learn Web & Mobile Development in one course | Build an Animal Rescue app",
-          "duration": "385m"
+          "duration": "385m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00&pp=0gcJCfwAo7VqN5tD",
           "title": "MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours",
-          "duration": "470m"
+          "duration": "470m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=_13UW57UmQA",
           "title": "Mastering Deep Linking in Flutter: A Comprehensive Guide for Android & iOS",
-          "duration": "21m"
+          "duration": "21m",
+          "resource_order": 4
         },
         {
           "url": "https://m.youtube.com/watch?v=6WaPYOHZB2E",
           "title": "14. Backend Services Part 1 | FlutterFlow University Expert Training",
-          "duration": "62m"
+          "duration": "62m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=hu38B0WQSYQ",
           "title": "A Complete 5-Hour Deep Dive into NodeJS for Ecommerce",
-          "duration": "353m"
+          "duration": "353m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=rlYVelhroDU",
           "title": "Angular and NestJS E-commerce app: MASTER the Stack, Build a Pet Store! (Part 3/3)",
-          "duration": "167m"
+          "duration": "167m",
+          "resource_order": 7
         }
       ]
     }
@@ -329,7 +383,8 @@
           "Analyzing user data"
         ],
         "correct_option": 1,
-        "hint": "It deals with user logins and identities."
+        "hint": "It deals with user logins and identities.",
+        "question_order": 1
       },
       {
         "question": "Which method is used to set up Email/Password Authentication in Firebase?",
@@ -340,7 +395,8 @@
           "signInAnonymously()"
         ],
         "correct_option": 0,
-        "hint": "It's a method starting with 'signIn' specifically for emails."
+        "hint": "It's a method starting with 'signIn' specifically for emails.",
+        "question_order": 2
       },
       {
         "question": "What is the first step in setting up a Firebase project for authentication?",
@@ -351,7 +407,8 @@
           "Set up a billing account"
         ],
         "correct_option": 0,
-        "hint": "Everything starts in the Firebase console."
+        "hint": "Everything starts in the Firebase console.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is an OAuth provider that can be integrated with Firebase?",
@@ -362,7 +419,8 @@
           "All of the above"
         ],
         "correct_option": 3,
-        "hint": "Firebase supports multiple social login providers."
+        "hint": "Firebase supports multiple social login providers.",
+        "question_order": 4
       },
       {
         "question": "What is a best practice for securing your Firebase backend?",
@@ -373,7 +431,8 @@
           "Share authentication tokens publicly"
         ],
         "correct_option": 1,
-        "hint": "Think about enhancing security and user verification."
+        "hint": "Think about enhancing security and user verification.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -386,7 +445,8 @@
           "It offers built-in analytics for user behavior."
         ],
         "correct_option": 1,
-        "hint": "Consider what makes Firebase Authentication particularly beneficial for cross-platform applications."
+        "hint": "Consider what makes Firebase Authentication particularly beneficial for cross-platform applications.",
+        "question_order": 1
       },
       {
         "question": "Which of the following steps is essential before implementing email/password authentication in Firebase?",
@@ -397,7 +457,8 @@
           "Configuring Firestore security rules"
         ],
         "correct_option": 1,
-        "hint": "This step involves enabling a specific authentication method in the Firebase console."
+        "hint": "This step involves enabling a specific authentication method in the Firebase console.",
+        "question_order": 2
       },
       {
         "question": "When integrating an OAuth provider with Firebase, what is the first step you must take?",
@@ -408,7 +469,8 @@
           "Set up Firestore to store user data"
         ],
         "correct_option": 2,
-        "hint": "This step involves setting up credentials on the provider's platform, not Firebase."
+        "hint": "This step involves setting up credentials on the provider's platform, not Firebase.",
+        "question_order": 3
       },
       {
         "question": "What is a recommended best practice for managing user sessions in Firebase Authentication?",
@@ -419,7 +481,8 @@
           "Keep sessions permanent regardless of user activity"
         ],
         "correct_option": 1,
-        "hint": "Firebase offers features to handle sessions securely without manual intervention."
+        "hint": "Firebase offers features to handle sessions securely without manual intervention.",
+        "question_order": 4
       },
       {
         "question": "What is a common method for handling errors in Firebase Authentication processes?",
@@ -430,7 +493,8 @@
           "Ignoring errors to simplify the user experience"
         ],
         "correct_option": 0,
-        "hint": "Consider how you would typically handle exceptions in asynchronous operations."
+        "hint": "Consider how you would typically handle exceptions in asynchronous operations.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -443,7 +507,8 @@
           "firebase.auth.initialize()"
         ],
         "correct_option": 0,
-        "hint": "The method is part of the Firebase SDK and is specifically related to authentication."
+        "hint": "The method is part of the Firebase SDK and is specifically related to authentication.",
+        "question_order": 1
       },
       {
         "question": "When implementing Email/Password Authentication with Firebase, which method is used to create a new user?",
@@ -454,7 +519,8 @@
           "addNewUser()"
         ],
         "correct_option": 1,
-        "hint": "The method name explicitly mentions 'create' and 'EmailAndPassword'."
+        "hint": "The method name explicitly mentions 'create' and 'EmailAndPassword'.",
+        "question_order": 2
       },
       {
         "question": "Which of the following OAuth providers can you integrate with Firebase Authentication?",
@@ -465,7 +531,8 @@
           "Google, Facebook, Twitter"
         ],
         "correct_option": 3,
-        "hint": "Consider the most popular social media platforms that are often used for OAuth."
+        "hint": "Consider the most popular social media platforms that are often used for OAuth.",
+        "question_order": 3
       },
       {
         "question": "What is the recommended way to manage user sessions securely in Firebase?",
@@ -476,7 +543,8 @@
           "Implement custom token sessions on the client side"
         ],
         "correct_option": 1,
-        "hint": "Firebase provides a built-in mechanism for handling sessions securely."
+        "hint": "Firebase provides a built-in mechanism for handling sessions securely.",
+        "question_order": 4
       },
       {
         "question": "In the context of Firebase Authentication, what is a common best practice for handling authentication errors?",
@@ -487,7 +555,8 @@
           "Ignore minor errors to improve performance"
         ],
         "correct_option": 2,
-        "hint": "Consider how user experience can be optimized while maintaining security."
+        "hint": "Consider how user experience can be optimized while maintaining security.",
+        "question_order": 5
       }
     ]
   },

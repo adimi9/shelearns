@@ -21,101 +21,120 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
           "description": "An authoritative resource on HTML elements, attributes, and best practices for web development.",
-          "title": "HTML: HyperText Markup Language | MDN"
+          "title": "HTML: HyperText Markup Language | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://docs.aws.amazon.com/",
           "description": "Official documentation for Amazon Web Services, covering a wide range of cloud computing topics and services.",
-          "title": "Welcome to AWS Documentation"
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for learning and mastering JavaScript on the web.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 3
         },
         {
           "url": "https://kubernetes.io/docs/reference/kubectl/",
           "description": "A detailed reference guide for using the kubectl command-line tool in Kubernetes.",
-          "title": "Command line tool (kubectl) | Kubernetes"
+          "title": "Command line tool (kubectl) | Kubernetes",
+          "resource_order": 4
         },
         {
           "url": "https://graphql.org/learn/",
           "description": "An introductory guide to understanding and implementing GraphQL APIs.",
-          "title": "Introduction to GraphQL | GraphQL"
+          "title": "Introduction to GraphQL | GraphQL",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.netacad.com/courses/networking-basics",
           "description": "An introductory course on fundamental networking concepts and skills.",
-          "title": "Free Computer Networking Course by Cisco: Start Learning Now"
+          "title": "Free Computer Networking Course by Cisco: Start Learning Now",
+          "resource_order": 1
         },
         {
           "url": "https://www.geeksforgeeks.org/computer-networks/basics-computer-networking/",
           "description": "An introductory overview of the fundamental concepts in computer networking.",
-          "title": "Basics of Computer Networking - GeeksforGeeks"
+          "title": "Basics of Computer Networking - GeeksforGeeks",
+          "resource_order": 2
         },
         {
           "url": "https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/networking-basics.html",
           "description": "An introductory guide to networking basics for small businesses.",
-          "title": "Networking Basics: What You Need To Know - Cisco"
+          "title": "Networking Basics: What You Need To Know - Cisco",
+          "resource_order": 3
         },
         {
           "url": "https://www.geeksforgeeks.org/computer-networks/computer-network-tutorials/",
           "description": "An extensive collection of tutorials on computer networks covering fundamental concepts and advanced topics.",
-          "title": "Computer Network Tutorial - GeeksforGeeks"
+          "title": "Computer Network Tutorial - GeeksforGeeks",
+          "resource_order": 4
         },
         {
           "url": "https://www.w3schools.com/cybersecurity/cybersecurity_networking.php",
           "description": "An introductory guide to networking concepts in cybersecurity.",
-          "title": "Cyber Security Networking Basics"
+          "title": "Cyber Security Networking Basics",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=wfOr0zX3D24",
           "title": "Networking Tutorial for Beginners - 01 - Introduction",
-          "duration": "4m"
+          "duration": "4m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=TVvEheZVwdg",
           "title": "Computer Networking Tutorial - 1 - Introduction to Networking",
-          "duration": "3m"
+          "duration": "3m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=GyTLPl5t-0Q",
           "title": "Computer Networking Tutorial - 2 - Networking Basics",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=9SIjoeE93lo",
           "title": "Introduction to Networking | Network Fundamentals Part 1 (Revised)",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=k9ZigsW9il0",
           "title": "Computer Networking Fundamentals | Networking Tutorial for beginners Full Course",
-          "duration": "390m"
+          "duration": "390m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=PhjHXeMNpp8&pp=0gcJCfwAo7VqN5tD",
           "title": "Computer Networking Tutorial - Bits and Bytes of the Networking [12 HOURS]",
-          "duration": "696m"
+          "duration": "696m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=FM169QUIQco",
           "title": "Computer Networking Tutorial - 25 - Subnetting for Beginners",
-          "duration": "6m"
+          "duration": "6m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=fErDcUtd8fA",
           "title": "Computer Networking Full Course 2023 | Networking Full Course For Beginners | Simplilearn",
-          "duration": "318m"
+          "duration": "318m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=qiQR5rTSshw",
           "title": "Computer Networking Course - Network Engineering [CompTIA Network+ Exam Prep]",
-          "duration": "564m"
+          "duration": "564m",
+          "resource_order": 9
         }
       ]
     },
@@ -124,96 +143,114 @@
         {
           "url": "https://docs.aws.amazon.com/",
           "description": "Official documentation for Amazon Web Services (AWS) covering various services and features.",
-          "title": "Welcome to AWS Documentation"
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
           "description": "An authoritative reference guide for HTML, its elements, and usage in web development.",
-          "title": "HTML: HyperText Markup Language | MDN"
+          "title": "HTML: HyperText Markup Language | MDN",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
           "description": "An overview of key concepts and features of Amazon EC2.",
-          "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud"
+          "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+          "resource_order": 3
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/",
           "description": "Official Microsoft Azure documentation and resources for cloud services and solutions.",
-          "title": "Azure documentation | Microsoft Learn"
+          "title": "Azure documentation | Microsoft Learn",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.csselectronics.com/pages/can-bus-simple-intro-tutorial",
           "description": "An introductory tutorial explaining the basics of the CAN bus system.",
-          "title": "CAN Bus Explained - A Simple Intro [2025] \u2013 CSS Electronics"
+          "title": "CAN Bus Explained - A Simple Intro [2025] – CSS Electronics",
+          "resource_order": 1
         },
         {
           "url": "https://aws.amazon.com/what-is/neural-network/",
           "description": "An introductory overview of neural networks and their applications on AWS.",
-          "title": "What is a Neural Network? - Artificial Neural Network Explained - AWS"
+          "title": "What is a Neural Network? - Artificial Neural Network Explained - AWS",
+          "resource_order": 2
         },
         {
           "url": "https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html",
           "description": "A tutorial on using Distributed Data Parallel in PyTorch for scalable model training.",
-          "title": "Getting Started with Distributed Data Parallel \u2014 PyTorch Tutorials 2.7.0+cu126 documentation"
+          "title": "Getting Started with Distributed Data Parallel — PyTorch Tutorials 2.7.0+cu126 documentation",
+          "resource_order": 3
         },
         {
           "url": "https://spacelift.io/blog/docker-networking",
           "description": "An in-depth exploration of Docker networking concepts and configurations.",
-          "title": "Docker Networking - Basics, Network Types & Examples"
+          "title": "Docker Networking - Basics, Network Types & Examples",
+          "resource_order": 4
         },
         {
           "url": "https://www.geeksforgeeks.org/devops/aws-tutorial/",
           "description": "An introductory tutorial on using AWS for DevOps practices.",
-          "title": "Amazon Web Services (AWS) Tutorial - GeeksforGeeks"
+          "title": "Amazon Web Services (AWS) Tutorial - GeeksforGeeks",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=k9ZigsW9il0&pp=ygULI25ldHdvZWtpbmc%3D",
           "title": "Computer Networking Fundamentals | Networking Tutorial for beginners Full Course",
-          "duration": "390m"
+          "duration": "390m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=qTaOZrDnMzQ",
           "title": "Wireshark Tutorial for Beginners | Network Scanning Made Easy",
-          "duration": "20m"
+          "duration": "20m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=ty0HMs48U1k",
           "title": "Cisco Packet Tracer Full Course (EXPLAINED)",
-          "duration": "89m"
+          "duration": "89m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=zfiSAzpy9NM&pp=ygULI2NubmZlYXR1cmU%3D",
           "title": "Simple explanation of convolutional neural network | Deep Learning Tutorial 23 (Tensorflow & Python)",
-          "duration": "23m"
+          "duration": "23m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=LcWFedjaR4Q",
           "title": "Complete Machine Learning Course in 60 Hours - Part 1 | Full Machine Learning Course with Python",
-          "duration": "695m"
+          "duration": "695m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=fEqx0MeCCHg",
           "title": "Starting a New Digital Forensic Investigation Case in Autopsy 4.19+",
-          "duration": "38m"
+          "duration": "38m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
           "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
-          "duration": "158m"
+          "duration": "158m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
           "title": "[1hr Talk] Intro to Large Language Models",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=7mz73uXD9DA",
           "title": "SQL for Data Analytics - Learn SQL in 4 Hours",
-          "duration": "248m"
+          "duration": "248m",
+          "resource_order": 9
         }
       ]
     },
@@ -222,101 +259,120 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for learning and mastering JavaScript on the web.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://docs.cilium.io/en/stable/index.html",
           "description": "Comprehensive documentation for Cilium, an open-source networking and security solution for cloud-native environments.",
-          "title": "Welcome to Cilium\u2019s documentation! \u2014 Cilium 1.17.5 documentation"
+          "title": "Welcome to Cilium’s documentation! — Cilium 1.17.5 documentation",
+          "resource_order": 2
         },
         {
           "url": "https://keras.io/",
           "description": "The official documentation site for the Keras deep learning API.",
-          "title": "Keras: Deep Learning for humans"
+          "title": "Keras: Deep Learning for humans",
+          "resource_order": 3
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
           "description": "Official Microsoft documentation for learning and using C# programming language.",
-          "title": "C# Guide - .NET managed language | Microsoft Learn"
+          "title": "C# Guide - .NET managed language | Microsoft Learn",
+          "resource_order": 4
         },
         {
           "url": "https://docs.aws.amazon.com/",
           "description": "Official documentation for Amazon Web Services (AWS) providing detailed guides and resources for AWS products and services.",
-          "title": "Welcome to AWS Documentation"
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.datacamp.com/blog/how-to-learn-ai",
           "description": "A guide on effective strategies for learning artificial intelligence.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://zerotomastery.io/blog/introduction-to-networking/",
           "description": "An introductory guide to the fundamentals of computer networking.",
-          "title": "A Beginners Guide To Computer Networking | Zero To Mastery"
+          "title": "A Beginners Guide To Computer Networking | Zero To Mastery",
+          "resource_order": 2
         },
         {
           "url": "https://www.wireshark.org/",
           "description": "The official website for Wireshark, a popular network protocol analyzer tool.",
-          "title": "Wireshark \u2022 Go Deep"
+          "title": "Wireshark • Go Deep",
+          "resource_order": 3
         },
         {
           "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
           "description": "An introductory tutorial on the fundamentals of cyber security for beginners.",
-          "title": "Cyber Security For Beginners: A Basic Guide | Simplilearn"
+          "title": "Cyber Security For Beginners: A Basic Guide | Simplilearn",
+          "resource_order": 4
         },
         {
           "url": "https://www.emqx.com/en/blog/the-easiest-guide-to-getting-started-with-mqtt",
           "description": "An introductory guide to getting started with MQTT for beginners.",
-          "title": "Mastering MQTT: The Ultimate Beginner's Guide for 2025 | EMQ"
+          "title": "Mastering MQTT: The Ultimate Beginner's Guide for 2025 | EMQ",
+          "resource_order": 5
         },
         {
           "url": "https://cs231n.stanford.edu/",
           "description": "An in-depth course on Convolutional Neural Networks for visual recognition by Stanford University.",
-          "title": "Stanford University CS231n: Deep Learning for Computer Vision"
+          "title": "Stanford University CS231n: Deep Learning for Computer Vision",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=IPvYjXCsTg8",
           "title": "Computer Networking Full Course - OSI Model Deep Dive with Real Life Examples",
-          "duration": "246m"
+          "duration": "246m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
           "title": "Deep Dive into LLMs like ChatGPT",
-          "duration": "211m"
+          "duration": "211m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=tLqWGysORXA",
           "title": "CCNA Course for Beginners - Full Course 10.5 Hours (Part 1)",
-          "duration": "634m"
+          "duration": "634m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=ty0HMs48U1k",
           "title": "Cisco Packet Tracer Full Course (EXPLAINED)",
-          "duration": "89m"
+          "duration": "89m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=HTpZ1rLRsNQ",
           "title": "Computer Networking Complete Course - Beginner to Advanced",
-          "duration": "319m"
+          "duration": "319m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=2eAPg2SSXyg",
           "title": "The Ultimate Deep and Dark Web Guide - Purchase Anything From Markets",
-          "duration": "201m"
+          "duration": "201m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=tpCFfeUEGs8",
           "title": "Learn TensorFlow and Deep Learning fundamentals with Python (code-first introduction) Part 1/2",
-          "duration": "615m"
+          "duration": "615m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=jKc98gPybFs&pp=ygUJI3Zpc2lvdmJh",
           "title": "Visio 2021 Advanced Tutorial",
-          "duration": "46m"
+          "duration": "46m",
+          "resource_order": 8
         }
       ]
     }
@@ -332,7 +388,8 @@
           "Data Link Layer"
         ],
         "correct_option": 2,
-        "hint": "This layer handles path determination and logical addressing."
+        "hint": "This layer handles path determination and logical addressing.",
+        "question_order": 1
       },
       {
         "question": "Which protocol is used to translate domain names into IP addresses?",
@@ -343,7 +400,8 @@
           "SMTP"
         ],
         "correct_option": 1,
-        "hint": "This protocol is essential for resolving website URLs to their corresponding IP addresses."
+        "hint": "This protocol is essential for resolving website URLs to their corresponding IP addresses.",
+        "question_order": 2
       },
       {
         "question": "What is the primary purpose of the Transport layer in the TCP/IP model?",
@@ -354,7 +412,8 @@
           "Physical addressing"
         ],
         "correct_option": 2,
-        "hint": "This layer ensures reliable delivery of data between hosts."
+        "hint": "This layer ensures reliable delivery of data between hosts.",
+        "question_order": 3
       },
       {
         "question": "Which type of IP address is used to identify a unique device on a network?",
@@ -365,7 +424,8 @@
           "IP address"
         ],
         "correct_option": 3,
-        "hint": "This address is assigned to each device and is used for identification on the network."
+        "hint": "This address is assigned to each device and is used for identification on the network.",
+        "question_order": 4
       },
       {
         "question": "What is the main function of a firewall in network security?",
@@ -376,7 +436,8 @@
           "Assign IP addresses"
         ],
         "correct_option": 1,
-        "hint": "This device or software acts as a barrier, protecting the network from unauthorized access."
+        "hint": "This device or software acts as a barrier, protecting the network from unauthorized access.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -389,7 +450,8 @@
           "Data Link Layer"
         ],
         "correct_option": 1,
-        "hint": "This layer ensures complete data transfer and manages end-to-end communication."
+        "hint": "This layer ensures complete data transfer and manages end-to-end communication.",
+        "question_order": 1
       },
       {
         "question": "What is the primary function of the Domain Name System (DNS) in networking?",
@@ -400,7 +462,8 @@
           "To manage network traffic congestion"
         ],
         "correct_option": 1,
-        "hint": "Think about how human-friendly names are translated into machine-friendly formats."
+        "hint": "Think about how human-friendly names are translated into machine-friendly formats.",
+        "question_order": 2
       },
       {
         "question": "In the context of IP addressing, which of the following is a valid subnet mask for a Class C network?",
@@ -411,7 +474,8 @@
           "255.255.255.255"
         ],
         "correct_option": 1,
-        "hint": "Class C networks typically use a subnet mask that allows for 256 addresses."
+        "hint": "Class C networks typically use a subnet mask that allows for 256 addresses.",
+        "question_order": 3
       },
       {
         "question": "Which protocol is primarily used to transfer web pages over the Internet?",
@@ -422,7 +486,8 @@
           "SNMP"
         ],
         "correct_option": 0,
-        "hint": "This protocol defines how messages are formatted and transmitted on the World Wide Web."
+        "hint": "This protocol defines how messages are formatted and transmitted on the World Wide Web.",
+        "question_order": 4
       },
       {
         "question": "What is a common method used to enhance network security by controlling incoming and outgoing network traffic?",
@@ -433,7 +498,8 @@
           "Routers"
         ],
         "correct_option": 0,
-        "hint": "This security measure acts as a barrier between a trusted and untrusted network."
+        "hint": "This security measure acts as a barrier between a trusted and untrusted network.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -446,7 +512,8 @@
           "Data Link Layer"
         ],
         "correct_option": 0,
-        "hint": "This layer is the fifth layer in the OSI model."
+        "hint": "This layer is the fifth layer in the OSI model.",
+        "question_order": 1
       },
       {
         "question": "In the TCP/IP model, which layer is responsible for logical addressing and routing?",
@@ -457,7 +524,8 @@
           "Transport Layer"
         ],
         "correct_option": 1,
-        "hint": "This layer corresponds to the Network Layer in the OSI model."
+        "hint": "This layer corresponds to the Network Layer in the OSI model.",
+        "question_order": 2
       },
       {
         "question": "What is the primary purpose of the Domain Name System (DNS) in networking?",
@@ -468,7 +536,8 @@
           "To monitor network traffic"
         ],
         "correct_option": 1,
-        "hint": "This protocol translates human-friendly domain names to IP addresses."
+        "hint": "This protocol translates human-friendly domain names to IP addresses.",
+        "question_order": 3
       },
       {
         "question": "Which protocol is commonly used for secure web browsing by encrypting data between the client and server?",
@@ -479,7 +548,8 @@
           "DNS"
         ],
         "correct_option": 2,
-        "hint": "The protocol is similar to HTTP but includes security features."
+        "hint": "The protocol is similar to HTTP but includes security features.",
+        "question_order": 4
       },
       {
         "question": "Which type of attack involves intercepting and altering communication between two parties without their knowledge?",
@@ -490,7 +560,8 @@
           "SQL Injection"
         ],
         "correct_option": 1,
-        "hint": "This attack is abbreviated as MITM."
+        "hint": "This attack is abbreviated as MITM.",
+        "question_order": 5
       }
     ]
   }

@@ -20,100 +20,119 @@
         {
           "url": "https://cloud.google.com/learn/paas-vs-iaas-vs-saas",
           "description": "An overview of the differences between PaaS, IaaS, and SaaS cloud service models.",
-          "title": "PaaS vs IaaS vs SaaS: What's the difference? | Google Cloud"
+          "title": "PaaS vs IaaS vs SaaS: What's the difference? | Google Cloud",
+          "resource_order": 1
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/",
           "description": "An official Microsoft resource for learning about Azure cloud services and solutions.",
-          "title": "Azure documentation | Microsoft Learn"
+          "title": "Azure documentation | Microsoft Learn",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/learn/what-is-iaas",
           "description": "An overview of Infrastructure as a Service (IaaS) and its benefits in cloud computing.",
-          "title": "What is IaaS (Infrastructure as a Service)? | Google Cloud"
+          "title": "What is IaaS (Infrastructure as a Service)? | Google Cloud",
+          "resource_order": 3
         },
         {
           "url": "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
           "description": "An overview and guide to using the AWS Cloud Development Kit (CDK) for infrastructure as code.",
-          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2"
+          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2",
+          "resource_order": 4
         },
         {
           "url": "https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengoverview.htm",
           "description": "An overview of Oracle Cloud Infrastructure Container Engine for Kubernetes.",
-          "title": "Overview of Kubernetes Engine (OKE)"
+          "title": "Overview of Kubernetes Engine (OKE)",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://cloud.google.com/learn/what-is-iaas",
           "description": "An introduction to Infrastructure as a Service (IaaS) and its benefits on Google Cloud.",
-          "title": "What is IaaS (Infrastructure as a Service)? | Google Cloud"
+          "title": "What is IaaS (Infrastructure as a Service)? | Google Cloud",
+          "resource_order": 1
         },
         {
           "url": "https://www.cio.gov/assets/resources/Cloud%20Operations%20Best%20Practices%20&%20Resources%20Guide%20-%20October%202023.pdf",
-          "description": "A guide outlining best practices and resources for effective cloud operations management."
+          "description": "A guide outlining best practices and resources for effective cloud operations management.",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/learn/paas-vs-iaas-vs-saas",
           "description": "A detailed comparison of PaaS, IaaS, and SaaS cloud service models.",
-          "title": "PaaS vs IaaS vs SaaS: What's the difference? | Google Cloud"
+          "title": "PaaS vs IaaS vs SaaS: What's the difference? | Google Cloud",
+          "resource_order": 3
         },
         {
           "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing",
           "description": "An introductory guide explaining the fundamentals of cloud computing.",
-          "title": "What Is Cloud Computing? | Microsoft Azure"
+          "title": "What Is Cloud Computing? | Microsoft Azure",
+          "resource_order": 4
         },
         {
           "url": "https://www.ibm.com/think/topics/iaas-paas-saas",
           "description": "An overview of cloud service models: IaaS, PaaS, and SaaS.",
-          "title": "What Are IaaS, PaaS and SaaS? | IBM"
+          "title": "What Are IaaS, PaaS and SaaS? | IBM",
+          "resource_order": 5
         },
         {
           "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas",
           "description": "An explanation of Infrastructure as a Service (IaaS) in cloud computing.",
-          "title": "What is Infrastructure as a Service (IaaS)? | Microsoft Azure"
+          "title": "What is Infrastructure as a Service (IaaS)? | Microsoft Azure",
+          "resource_order": 6
         },
         {
           "url": "https://www.techtarget.com/searchcloudcomputing/definition/cloud-computing",
           "description": "An overview of cloud computing, including its definition and key characteristics.",
-          "title": "What is Cloud Computing? Types, Examples and Benefits | Definition from TechTarget"
+          "title": "What is Cloud Computing? Types, Examples and Benefits | Definition from TechTarget",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=9CVBohl6w0Q&pp=0gcJCf0Ao7VqN5tD",
           "title": "AZ-900 Episode 5 | IaaS vs PaaS vs SaaS cloud service models | Microsoft Azure Fundamentals Course",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=9-4gNNjpO2g",
           "title": "Creating a Azure Cloud Server: A Step-by-Step Tutorial (IaaS)",
-          "duration": "27m"
+          "duration": "27m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
           "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
-          "duration": "158m"
+          "duration": "158m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=TJOwP5VhvAo&pp=ygURI2F6dXJlY2xvdWRza2lsbHM%3D",
           "title": "Azure Basics Tutorial",
-          "duration": "109m"
+          "duration": "109m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=xQ5mBBiTe9Q",
           "title": "Cloud Service Model | SaaS | PaaS | IaaS |",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=YQXX4paUiUs",
           "title": "Cloud Service Models | Iaas Paas SaaS | Cloud Computing | AWS Cloud | K21Academy",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=SLB_c_ayRMo",
           "title": "Terraform Course - Automate your AWS cloud infrastructure",
-          "duration": "140m"
+          "duration": "140m",
+          "resource_order": 7
         }
       ]
     },
@@ -122,106 +141,126 @@
         {
           "url": "https://docs.oracle.com/iaas/api/",
           "description": "Official documentation for Oracle Cloud Infrastructure API.",
-          "title": "Oracle Cloud Infrastructure API Reference and Endpoints"
+          "title": "Oracle Cloud Infrastructure API Reference and Endpoints",
+          "resource_order": 1
         },
         {
           "url": "https://cloud.google.com/learn/paas-vs-iaas-vs-saas",
           "description": "An overview comparing PaaS, IaaS, and SaaS cloud service models.",
-          "title": "PaaS vs IaaS vs SaaS: What's the difference? | Google Cloud"
+          "title": "PaaS vs IaaS vs SaaS: What's the difference? | Google Cloud",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/",
           "description": "Official documentation and resources for Microsoft Azure services and solutions.",
-          "title": "Azure documentation | Microsoft Learn"
+          "title": "Azure documentation | Microsoft Learn",
+          "resource_order": 3
         },
         {
           "url": "https://cloud.google.com/deployment-manager/docs",
           "description": "Documentation for Google Cloud Deployment Manager, a tool for managing resources on Google Cloud.",
-          "title": "Google Cloud Deployment Manager documentation \u00a0|\u00a0 Cloud Deployment Manager Documentation"
+          "title": "Google Cloud Deployment Manager documentation  |  Cloud Deployment Manager Documentation",
+          "resource_order": 4
         },
         {
           "url": "https://developer.hashicorp.com/terraform",
           "description": "An official resource for learning and utilizing HashiCorp Terraform for infrastructure as code.",
-          "title": "Terraform | HashiCorp Developer"
+          "title": "Terraform | HashiCorp Developer",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://cloud.google.com/learn/what-is-iaas",
           "description": "An introductory guide to Infrastructure as a Service (IaaS) on Google Cloud.",
-          "title": "What is IaaS (Infrastructure as a Service)? | Google Cloud"
+          "title": "What is IaaS (Infrastructure as a Service)? | Google Cloud",
+          "resource_order": 1
         },
         {
           "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas",
           "description": "An explanation of Infrastructure as a Service (IaaS) in cloud computing.",
-          "title": "What is Infrastructure as a Service (IaaS)? | Microsoft Azure"
+          "title": "What is Infrastructure as a Service (IaaS)? | Microsoft Azure",
+          "resource_order": 2
         },
         {
           "url": "https://www.ibm.com/think/topics/iaas-paas-saas",
           "description": "An overview of IaaS, PaaS, and SaaS cloud service models.",
-          "title": "What Are IaaS, PaaS and SaaS? | IBM"
+          "title": "What Are IaaS, PaaS and SaaS? | IBM",
+          "resource_order": 3
         },
         {
           "url": "https://developer.hashicorp.com/terraform",
           "description": "Official documentation for HashiCorp Terraform, a tool for building, changing, and versioning infrastructure safely and efficiently.",
-          "title": "Terraform | HashiCorp Developer"
+          "title": "Terraform | HashiCorp Developer",
+          "resource_order": 4
         },
         {
           "url": "https://www.techtarget.com/searchcloudcomputing/definition/cloud-computing",
           "description": "An in-depth explanation of cloud computing and its key components.",
-          "title": "What is Cloud Computing? Types, Examples and Benefits | Definition from TechTarget"
+          "title": "What is Cloud Computing? Types, Examples and Benefits | Definition from TechTarget",
+          "resource_order": 5
         },
         {
           "url": "https://www.geeksforgeeks.org/software-engineering/difference-between-iaas-paas-and-saas/",
           "description": "An explanation of the differences between IaaS, PaaS, and SaaS in software engineering.",
-          "title": "Difference between SaaS, PaaS and IaaS - GeeksforGeeks"
+          "title": "Difference between SaaS, PaaS and IaaS - GeeksforGeeks",
+          "resource_order": 6
         },
         {
           "url": "https://www.techtarget.com/searchcloudcomputing/definition/Infrastructure-as-a-Service-IaaS",
           "description": "An in-depth explanation of Infrastructure as a Service (IaaS) in cloud computing.",
-          "title": "What is Infrastructure as a Service (IaaS)? | Definition from TechTarget"
+          "title": "What is Infrastructure as a Service (IaaS)? | Definition from TechTarget",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=9CVBohl6w0Q&pp=0gcJCf0Ao7VqN5tD",
           "title": "AZ-900 Episode 5 | IaaS vs PaaS vs SaaS cloud service models | Microsoft Azure Fundamentals Course",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
           "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
-          "duration": "158m"
+          "duration": "158m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=YQXX4paUiUs",
           "title": "Cloud Service Models | Iaas Paas SaaS | Cloud Computing | AWS Cloud | K21Academy",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=Uq5w1lnKzlk&pp=ygUJI2Njb3Vyc2Vz",
           "title": "FREE AWS Certified Cloud Practitioner Training Course! | 2025 | CLF-C02 | AWS CCP |",
-          "duration": "442m"
+          "duration": "442m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=HdMB2YCtVr4&pp=0gcJCfwAo7VqN5tD",
           "title": "Deploy Infrastructure to Azure with Terraform - Full Course",
-          "duration": "68m"
+          "duration": "68m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=0NZpFT2RBZ4",
           "title": "Deploying Infrastructure to Azure with Terraform - Understanding Terraform",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=in5-pwSVxwc",
-          "title": "\"What is OpenStack? \ud83c\udf25\ufe0f Beginner\u2019s Guide + Step-by-Step Installation Tutorial!\" #openstack",
-          "duration": "46m"
+          "title": "\"What is OpenStack? 🌥️ Beginner’s Guide + Step-by-Step Installation Tutorial!\" #openstack",
+          "duration": "46m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=irs2q7YefHA&pp=0gcJCfwAo7VqN5tD",
           "title": "Deploy Azure virtual machines",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 8
         }
       ]
     },
@@ -230,101 +269,120 @@
         {
           "url": "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
           "description": "An introductory guide to using the AWS Cloud Development Kit (CDK) for infrastructure as code.",
-          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2"
+          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2",
+          "resource_order": 1
         },
         {
           "url": "https://cloud.google.com/learn/certification",
           "description": "An overview of Google Cloud certification programs and learning paths.",
-          "title": "Certifications | Google Cloud"
+          "title": "Certifications | Google Cloud",
+          "resource_order": 2
         },
         {
           "url": "https://www.digitalocean.com/",
           "description": "A cloud computing platform offering scalable infrastructure and developer-friendly tools.",
-          "title": "DigitalOcean | Cloud Infrastructure for Developers"
+          "title": "DigitalOcean | Cloud Infrastructure for Developers",
+          "resource_order": 3
         },
         {
           "url": "https://cloud.google.com/learn/paas-vs-iaas-vs-saas",
           "description": "An overview of the differences between PaaS, IaaS, and SaaS in cloud computing.",
-          "title": "PaaS vs IaaS vs SaaS: What's the difference? | Google Cloud"
+          "title": "PaaS vs IaaS vs SaaS: What's the difference? | Google Cloud",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing",
           "description": "An introductory explanation of cloud computing and its benefits.",
-          "title": "What Is Cloud Computing? | Microsoft Azure"
+          "title": "What Is Cloud Computing? | Microsoft Azure",
+          "resource_order": 1
         },
         {
           "url": "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
           "description": "An introductory guide to using the AWS Cloud Development Kit (CDK) for infrastructure as code.",
-          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2"
+          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2",
+          "resource_order": 2
         },
         {
           "url": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
           "description": "A collection of essential Azure interview questions and answers for job preparation.",
-          "title": "35 Azure Interview Questions and Answers You Must Prepare"
+          "title": "35 Azure Interview Questions and Answers You Must Prepare",
+          "resource_order": 3
         },
         {
           "url": "https://en.wikipedia.org/wiki/Cloud_computing",
           "description": "An overview of cloud computing concepts, models, and services.",
-          "title": "Cloud computing - Wikipedia"
+          "title": "Cloud computing - Wikipedia",
+          "resource_order": 4
         },
         {
           "url": "https://www.geeksforgeeks.org/microsoft-azure/",
           "description": "An introductory guide to Microsoft Azure's cloud services and features.",
-          "title": "Microsoft Azure Tutorial - GeeksforGeeks"
+          "title": "Microsoft Azure Tutorial - GeeksforGeeks",
+          "resource_order": 5
         },
         {
           "url": "https://www.datacamp.com/blog/top-aws-interview-questions-and-answers",
           "description": "A curated list of common AWS interview questions and answers to help candidates prepare.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
           "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
-          "duration": "158m"
+          "duration": "158m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=HdMB2YCtVr4&pp=0gcJCfwAo7VqN5tD",
           "title": "Deploy Infrastructure to Azure with Terraform - Full Course",
-          "duration": "68m"
+          "duration": "68m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=Hvk2-qhFEoo",
           "title": "Journey to the Cloud: IBM Cloud Deployment 4 Ways",
-          "duration": "82m"
+          "duration": "82m",
+          "resource_order": 3
         },
         {
           "url": "https://m.youtube.com/watch?v=mluS8ovuBKg",
           "title": "Azure Landing Zones Overview",
-          "duration": "44m"
+          "duration": "44m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=0NZpFT2RBZ4",
           "title": "Deploying Infrastructure to Azure with Terraform - Understanding Terraform",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=cBwxLSZMN9o",
           "title": "Azure VMware Solution (AVS) Deep Dive",
-          "duration": "64m"
+          "duration": "64m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=Uq5w1lnKzlk&pp=ygUJI2Njb3Vyc2Vz",
           "title": "FREE AWS Certified Cloud Practitioner Training Course! | 2025 | CLF-C02 | AWS CCP |",
-          "duration": "442m"
+          "duration": "442m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=_iGb7oYYa30",
           "title": "Azure Stack HCI Walkthrough",
-          "duration": "44m"
+          "duration": "44m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=C6ev2RqLKhg",
           "title": "AWS (Amazon Web Services) for  Beginners  | IAAS, PAAS, SAAS",
-          "duration": "30m"
+          "duration": "30m",
+          "resource_order": 9
         }
       ]
     }
@@ -340,7 +398,8 @@
           "To store large amounts of data"
         ],
         "correct_option": 0,
-        "hint": "EC2 is primarily used for computing resources."
+        "hint": "EC2 is primarily used for computing resources.",
+        "question_order": 1
       },
       {
         "question": "Which cloud provider offers Virtual Machines as a compute service?",
@@ -351,7 +410,8 @@
           "All of the above"
         ],
         "correct_option": 3,
-        "hint": "All major cloud providers offer virtual machines."
+        "hint": "All major cloud providers offer virtual machines.",
+        "question_order": 2
       },
       {
         "question": "What does VPC stand for in cloud networking?",
@@ -362,7 +422,8 @@
           "Virtual Public Circuit"
         ],
         "correct_option": 0,
-        "hint": "It's a private network within a cloud environment."
+        "hint": "It's a private network within a cloud environment.",
+        "question_order": 3
       },
       {
         "question": "Which service is an example of a managed database?",
@@ -373,7 +434,8 @@
           "AWS Lambda"
         ],
         "correct_option": 0,
-        "hint": "This service manages databases so you don't have to."
+        "hint": "This service manages databases so you don't have to.",
+        "question_order": 4
       },
       {
         "question": "What is a key benefit of using managed databases in the cloud?",
@@ -384,7 +446,8 @@
           "Increased physical security"
         ],
         "correct_option": 1,
-        "hint": "Managed services often include automated maintenance features."
+        "hint": "Managed services often include automated maintenance features.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -397,7 +460,8 @@
           "A service for deploying containerized applications"
         ],
         "correct_option": 0,
-        "hint": "Consider the primary function of EC2 in AWS."
+        "hint": "Consider the primary function of EC2 in AWS.",
+        "question_order": 1
       },
       {
         "question": "What is the main purpose of a Virtual Private Cloud (VPC) in cloud computing?",
@@ -408,7 +472,8 @@
           "To automate the infrastructure provisioning process"
         ],
         "correct_option": 1,
-        "hint": "Think about how VPCs help in network management."
+        "hint": "Think about how VPCs help in network management.",
+        "question_order": 2
       },
       {
         "question": "In Microsoft Azure, what is a Virtual Machine (VM) primarily used for?",
@@ -419,7 +484,8 @@
           "Managing network configurations"
         ],
         "correct_option": 1,
-        "hint": "Virtual Machines are typically used for computational tasks."
+        "hint": "Virtual Machines are typically used for computational tasks.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is a managed database service provided by Google Cloud Platform (GCP)?",
@@ -430,7 +496,8 @@
           "Google Kubernetes Engine"
         ],
         "correct_option": 2,
-        "hint": "Consider the service that explicitly mentions SQL."
+        "hint": "Consider the service that explicitly mentions SQL.",
+        "question_order": 4
       },
       {
         "question": "What is a common use case for AWS Elastic Load Balancing?",
@@ -441,7 +508,8 @@
           "To host containerized applications"
         ],
         "correct_option": 1,
-        "hint": "Think about how load balancing helps with traffic management."
+        "hint": "Think about how load balancing helps with traffic management.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -454,7 +522,8 @@
           "AWS Batch"
         ],
         "correct_option": 1,
-        "hint": "This service is specifically designed for Kubernetes."
+        "hint": "This service is specifically designed for Kubernetes.",
+        "question_order": 1
       },
       {
         "question": "In Azure, what is the primary service used to manage and deploy virtual networks and subnets?",
@@ -465,7 +534,8 @@
           "Azure CDN"
         ],
         "correct_option": 1,
-        "hint": "This service relates to networking and virtual environments."
+        "hint": "This service relates to networking and virtual environments.",
+        "question_order": 2
       },
       {
         "question": "Which Google Cloud service provides a scalable MySQL database with built-in high availability?",
@@ -476,7 +546,8 @@
           "Datastore"
         ],
         "correct_option": 2,
-        "hint": "This service is designed for managed relational databases."
+        "hint": "This service is designed for managed relational databases.",
+        "question_order": 3
       },
       {
         "question": "What component of an AWS VPC allows you to connect your VPC to the internet?",
@@ -487,7 +558,8 @@
           "Direct Connect"
         ],
         "correct_option": 1,
-        "hint": "This component is essential for internet connectivity."
+        "hint": "This component is essential for internet connectivity.",
+        "question_order": 4
       },
       {
         "question": "Which Azure service is used for deploying, managing, and scaling web applications?",
@@ -498,7 +570,8 @@
           "Azure Logic Apps"
         ],
         "correct_option": 1,
-        "hint": "This service is specifically tailored for web applications."
+        "hint": "This service is specifically tailored for web applications.",
+        "question_order": 5
       }
     ]
   }

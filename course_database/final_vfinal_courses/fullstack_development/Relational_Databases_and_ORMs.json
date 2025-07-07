@@ -22,91 +22,108 @@
         {
           "url": "https://learn.microsoft.com/en-us/ef/",
           "description": "Official documentation for Entity Framework, a popular data access technology for .NET applications.",
-          "title": "Entity Framework documentation hub | Microsoft Learn"
+          "title": "Entity Framework documentation hub | Microsoft Learn",
+          "resource_order": 1
         },
         {
           "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
           "description": "An introduction and comprehensive guide to using Amazon RDS.",
-          "title": "What is Amazon Relational Database Service (Amazon RDS)? - Amazon Relational Database Service"
+          "title": "What is Amazon Relational Database Service (Amazon RDS)? - Amazon Relational Database Service",
+          "resource_order": 2
         },
         {
           "url": "https://fastapi.tiangolo.com/tutorial/sql-databases/",
           "description": "A tutorial on integrating SQL databases with FastAPI applications.",
-          "title": "SQL (Relational) Databases - FastAPI"
+          "title": "SQL (Relational) Databases - FastAPI",
+          "resource_order": 3
         },
         {
           "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html",
           "description": "An introductory guide to Amazon DynamoDB, its features, and use cases.",
-          "title": "What is Amazon DynamoDB? - Amazon DynamoDB"
+          "title": "What is Amazon DynamoDB? - Amazon DynamoDB",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://fastapi.tiangolo.com/tutorial/sql-databases/",
           "description": "Step-by-step tutorial on integrating SQL databases with FastAPI applications.",
-          "title": "SQL (Relational) Databases - FastAPI"
+          "title": "SQL (Relational) Databases - FastAPI",
+          "resource_order": 1
         },
         {
           "url": "https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5",
           "description": "An introductory guide to basic principles of database design.",
-          "title": "Database design basics - Microsoft Support"
+          "title": "Database design basics - Microsoft Support",
+          "resource_order": 2
         },
         {
           "url": "https://www.geeksforgeeks.org/dbms/?ref=lbp",
           "description": "An extensive resource covering fundamental and advanced concepts in Database Management Systems.",
-          "title": "DBMS Tutorial \u2013 Learn Database Management System - GeeksforGeeks"
+          "title": "DBMS Tutorial – Learn Database Management System - GeeksforGeeks",
+          "resource_order": 3
         },
         {
           "url": "https://reference.wolfram.com/language/tutorial/RelationalDatabasesQuickStart.html",
           "description": "A quick start guide to using relational databases with Wolfram Language.",
-          "title": "Relational Databases Quick Start\u2014Wolfram Language Documentation"
+          "title": "Relational Databases Quick Start—Wolfram Language Documentation",
+          "resource_order": 4
         },
         {
           "url": "https://www3.ntu.edu.sg/home/ehchua/programming/sql/Relational_Database_Design.html",
           "description": "An introductory guide to relational database design and normalization concepts.",
-          "title": "Relational Database Design"
+          "title": "Relational Database Design",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=sIi7IfiTIsA",
           "title": "Database Fundamentals for Beginners | Database Tutorial",
-          "duration": "208m"
+          "duration": "208m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=oeYBdghaIjc",
           "title": "01 - Course Introduction & Relational Model (CMU Databases Systems / Fall 2019)",
-          "duration": "66m"
+          "duration": "66m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
           "title": "Model Driven Power Apps FULL COURSE for Beginners [UPDATED 2024 Edition]",
-          "duration": "141m"
+          "duration": "141m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=0yTSbzBsEtM&pp=ygUMI2FjY2Vzc3ZpZGVv",
           "title": "How to use Microsoft Access - Beginners Course (Deep Dive)",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=MiAl2mQ718s&pp=ygUMI2RibXNwcm9qZWN0",
           "title": "SQL Database Design Tutorial for Beginners | Data Analyst Portfolio Project (1/3)",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=vCZzKLtLj2g",
           "title": "Database Fundamentals for Beginners - Full Course",
-          "duration": "209m"
+          "duration": "209m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=7S_tz1z_5bA",
           "title": "SQL Course for Beginners [Full Course]",
-          "duration": "190m"
+          "duration": "190m",
+          "resource_order": 7
         },
         {
           "url": "https://m.youtube.com/watch?v=LIC8DFW8fOE&pp=ygUJI2FwcHBvd2Vy",
           "title": "Power Apps Model Driven Apps FULL COURSE for Beginners",
-          "duration": "203m"
+          "duration": "203m",
+          "resource_order": 8
         }
       ]
     },
@@ -115,96 +132,114 @@
         {
           "url": "https://fastapi.tiangolo.com/tutorial/sql-databases/",
           "description": "A tutorial on integrating SQL databases with FastAPI applications.",
-          "title": "SQL (Relational) Databases - FastAPI"
+          "title": "SQL (Relational) Databases - FastAPI",
+          "resource_order": 1
         },
         {
           "url": "https://docs.aws.amazon.com/",
           "description": "Comprehensive documentation for Amazon Web Services (AWS) products and services.",
-          "title": "Welcome to AWS Documentation"
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://docs.amplify.aws/react/build-a-backend/data/data-modeling/relationships/",
           "description": "A guide on modeling data relationships in AWS Amplify for React applications.",
-          "title": "Modeling relationships - AWS Amplify Gen 2 Documentation"
+          "title": "Modeling relationships - AWS Amplify Gen 2 Documentation",
+          "resource_order": 3
         },
         {
           "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html",
           "description": "An introduction to Amazon DynamoDB, a fully managed NoSQL database service.",
-          "title": "What is Amazon DynamoDB? - Amazon DynamoDB"
+          "title": "What is Amazon DynamoDB? - Amazon DynamoDB",
+          "resource_order": 4
         },
         {
           "url": "https://stackoverflow.com/questions/441441/why-should-i-use-document-based-database-instead-of-relational-database",
           "description": "A discussion on the benefits and considerations of using document-based databases over relational databases.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://fastapi.tiangolo.com/tutorial/sql-databases/",
           "description": "A tutorial on integrating SQL databases with FastAPI applications.",
-          "title": "SQL (Relational) Databases - FastAPI"
+          "title": "SQL (Relational) Databases - FastAPI",
+          "resource_order": 1
         },
         {
           "url": "https://www.fullstackpython.com/object-relational-mappers-orms.html",
           "description": "An overview of Object-Relational Mappers (ORMs) in Python for database interaction.",
-          "title": "Object-relational Mappers (ORMs) - Full Stack Python"
+          "title": "Object-relational Mappers (ORMs) - Full Stack Python",
+          "resource_order": 2
         },
         {
           "url": "https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/create-first-adaptive-form/create-form-data-model",
           "description": "A step-by-step guide to creating a form data model in Adobe Experience Manager 6.5.",
-          "title": "Tutorial: Create form data model | Adobe Experience Manager"
+          "title": "Tutorial: Create form data model | Adobe Experience Manager",
+          "resource_order": 3
         },
         {
           "url": "https://www.notion.com/help/relations-and-rollups",
           "description": "A guide on using relations and rollups to connect and summarize data in Notion databases.",
-          "title": "Relations & rollups \u2013 Notion Help Center"
+          "title": "Relations & rollups – Notion Help Center",
+          "resource_order": 4
         },
         {
           "url": "https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/create-first-interactive-communication/create-form-data-model0",
           "description": "A guide to creating a form data model in Adobe Experience Manager 6.5 Forms.",
-          "title": "Tutorial: Create form data model in AEM Forms | Adobe Experience Manager"
+          "title": "Tutorial: Create form data model in AEM Forms | Adobe Experience Manager",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
           "title": "Model Driven Power Apps FULL COURSE for Beginners [UPDATED 2024 Edition]",
-          "duration": "141m"
+          "duration": "141m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=FzlpwoeSrE0",
-          "title": "NoSQL vs SQL \u2013 Which Type of Database Should You Use?",
-          "duration": "85m"
+          "title": "NoSQL vs SQL – Which Type of Database Should You Use?",
+          "duration": "85m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=LIC8DFW8fOE",
           "title": "Power Apps Model Driven Apps FULL COURSE for Beginners",
-          "duration": "203m"
+          "duration": "203m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=YhTqrWi_cpY",
           "title": "Designing Your SharePoint Database",
-          "duration": "65m"
+          "duration": "65m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=hw6oTjw9_Ro&pp=0gcJCfwAo7VqN5tD",
           "title": "Use AI to chat with a relational SQL database with natural language!",
-          "duration": "22m"
+          "duration": "22m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=7S_tz1z_5bA",
           "title": "SQL Course for Beginners [Full Course]",
-          "duration": "190m"
+          "duration": "190m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=9ur0OpMADuM",
           "title": "How to use Azure SQL Databases | Azure Fundamentals",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=eIpJslYZZr4",
           "title": "Database Fundamentals Tutorial for Beginners",
-          "duration": "209m"
+          "duration": "209m",
+          "resource_order": 8
         }
       ]
     },
@@ -213,81 +248,96 @@
         {
           "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
           "description": "An introductory guide to Amazon RDS, detailing its features and usage for managing relational databases in the cloud.",
-          "title": "What is Amazon Relational Database Service (Amazon RDS)? - Amazon Relational Database Service"
+          "title": "What is Amazon Relational Database Service (Amazon RDS)? - Amazon Relational Database Service",
+          "resource_order": 1
         },
         {
           "url": "https://docs.streamlit.io/",
           "description": "Official documentation for Streamlit, a tool for creating data apps in Python.",
-          "title": "Streamlit documentation"
+          "title": "Streamlit documentation",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/",
           "description": "Official documentation for Amazon Web Services (AWS) offering detailed guides and API references.",
-          "title": "Welcome to AWS Documentation"
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
           "description": "A detailed user guide for Amazon RDS, covering setup, management, and optimization.",
-          "title": "What is Amazon Relational Database Service (Amazon RDS)? - Amazon Relational Database Service"
+          "title": "What is Amazon Relational Database Service (Amazon RDS)? - Amazon Relational Database Service",
+          "resource_order": 1
         },
         {
           "url": "https://accessdatabasetutorial.com/microsoft-access-tutorial-creating-relationship/",
           "description": "A tutorial on creating relationships in Microsoft Access databases.",
-          "title": "How to Create a Relationship in Access: Deep Dive"
+          "title": "How to Create a Relationship in Access: Deep Dive",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/decision-guides/latest/databases-on-aws-how-to-choose/databases-on-aws-how-to-choose.html",
           "description": "A guide for choosing the right database solution on AWS based on specific use cases and requirements.",
-          "title": "Choosing an AWS database service - Choosing an AWS database service"
+          "title": "Choosing an AWS database service - Choosing an AWS database service",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=0yTSbzBsEtM&pp=ygUMI2FjY2Vzc3ZpZGVv",
           "title": "How to use Microsoft Access - Beginners Course (Deep Dive)",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=ejQ-ojkokVY",
           "title": "Model-Driven Power Apps Tutorial: Forms Deep Dive",
-          "duration": "41m"
+          "duration": "41m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=ICLGQ1cIo9M",
           "title": "The Ultimate Guide to Lookups in Model-Driven Power Apps and Dataverse",
-          "duration": "36m"
+          "duration": "36m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=Sxp8YjKu_Tc",
           "title": "Microsoft Access Tutorial - Beginners Level 1 (Quick Start)",
-          "duration": "26m"
+          "duration": "26m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=3Lfs5fAc1bU",
           "title": "Microsoft Dynamics 365 Sales (CRM): Tutorial for Beginners",
-          "duration": "47m"
+          "duration": "47m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=7S_tz1z_5bA",
           "title": "SQL Course for Beginners [Full Course]",
-          "duration": "190m"
+          "duration": "190m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=FzlpwoeSrE0",
-          "title": "NoSQL vs SQL \u2013 Which Type of Database Should You Use?",
-          "duration": "85m"
+          "title": "NoSQL vs SQL – Which Type of Database Should You Use?",
+          "duration": "85m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=J344sAUP0to",
           "title": "Access 2021 Full Course Tutorial (6+ Hours)",
-          "duration": "366m"
+          "duration": "366m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
           "title": "Model Driven Power Apps FULL COURSE for Beginners [UPDATED 2024 Edition]",
-          "duration": "141m"
+          "duration": "141m",
+          "resource_order": 9
         }
       ]
     }
@@ -303,7 +353,8 @@
           "To reduce security"
         ],
         "correct_option": 1,
-        "hint": "Normalization helps in organizing data efficiently."
+        "hint": "Normalization helps in organizing data efficiently.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is not an ORM tool?",
@@ -314,7 +365,8 @@
           "React"
         ],
         "correct_option": 3,
-        "hint": "React is a JavaScript library for building user interfaces."
+        "hint": "React is a JavaScript library for building user interfaces.",
+        "question_order": 2
       },
       {
         "question": "In SQL, which keyword is used to retrieve data from a database?",
@@ -325,7 +377,8 @@
           "DELETE"
         ],
         "correct_option": 2,
-        "hint": "It's the most common operation, used to fetch data."
+        "hint": "It's the most common operation, used to fetch data.",
+        "question_order": 3
       },
       {
         "question": "What is a common use of database migrations?",
@@ -336,7 +389,8 @@
           "To encrypt data"
         ],
         "correct_option": 1,
-        "hint": "Migrations help in applying changes to the database structure."
+        "hint": "Migrations help in applying changes to the database structure.",
+        "question_order": 4
       },
       {
         "question": "Which SQL clause is used to filter results that meet specific conditions?",
@@ -347,7 +401,8 @@
           "HAVING"
         ],
         "correct_option": 0,
-        "hint": "This clause specifies the condition for data retrieval."
+        "hint": "This clause specifies the condition for data retrieval.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -360,7 +415,8 @@
           "To simplify the setup process of a database"
         ],
         "correct_option": 0,
-        "hint": "Think about minimizing data duplication and ensuring data consistency."
+        "hint": "Think about minimizing data duplication and ensuring data consistency.",
+        "question_order": 1
       },
       {
         "question": "Which SQL clause is used to filter the results set returned by a query?",
@@ -371,7 +427,8 @@
           "JOIN"
         ],
         "correct_option": 2,
-        "hint": "This clause is commonly used to specify conditions for selecting rows."
+        "hint": "This clause is commonly used to specify conditions for selecting rows.",
+        "question_order": 2
       },
       {
         "question": "In the context of ORMs, what does the term 'eager loading' refer to?",
@@ -382,7 +439,8 @@
           "Loading data in the background to improve performance"
         ],
         "correct_option": 1,
-        "hint": "It involves loading associated data upfront to reduce subsequent queries."
+        "hint": "It involves loading associated data upfront to reduce subsequent queries.",
+        "question_order": 3
       },
       {
         "question": "Which tool is commonly used for handling database migrations in a Node.js environment using Sequelize?",
@@ -393,7 +451,8 @@
           "Flyway"
         ],
         "correct_option": 2,
-        "hint": "It is the official command-line interface for managing Sequelize migrations."
+        "hint": "It is the official command-line interface for managing Sequelize migrations.",
+        "question_order": 4
       },
       {
         "question": "What is a key advantage of using an ORM like SQLAlchemy in a Python project?",
@@ -404,7 +463,8 @@
           "It ensures that all database operations are executed in parallel"
         ],
         "correct_option": 1,
-        "hint": "Consider how ORMs abstract database interactions in code."
+        "hint": "Consider how ORMs abstract database interactions in code.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -417,7 +477,8 @@
           "To make sure that foreign keys are correctly defined and indexed"
         ],
         "correct_option": 1,
-        "hint": "3NF addresses transitive dependencies."
+        "hint": "3NF addresses transitive dependencies.",
+        "question_order": 1
       },
       {
         "question": "Which of the following SQL clauses is essential for performing a recursive query?",
@@ -428,7 +489,8 @@
           "GROUP BY"
         ],
         "correct_option": 0,
-        "hint": "This clause is specifically designed for recursive queries."
+        "hint": "This clause is specifically designed for recursive queries.",
+        "question_order": 2
       },
       {
         "question": "In Sequelize, how do you define a one-to-many relationship between two models?",
@@ -439,7 +501,8 @@
           "Using the sync method with force: true"
         ],
         "correct_option": 0,
-        "hint": "Think of how parent-child relationships are defined in Sequelize."
+        "hint": "Think of how parent-child relationships are defined in Sequelize.",
+        "question_order": 3
       },
       {
         "question": "What is the primary role of a database migration in ORM frameworks like Prisma?",
@@ -450,7 +513,8 @@
           "To encrypt data stored in the database"
         ],
         "correct_option": 1,
-        "hint": "Consider the process of keeping database schema updates in sync with code changes."
+        "hint": "Consider the process of keeping database schema updates in sync with code changes.",
+        "question_order": 4
       },
       {
         "question": "How does SQLAlchemy handle lazy loading in a one-to-many relationship?",
@@ -461,7 +525,8 @@
           "It uses eager loading by default"
         ],
         "correct_option": 1,
-        "hint": "Lazy loading is not immediate; it loads data when accessed."
+        "hint": "Lazy loading is not immediate; it loads data when accessed.",
+        "question_order": 5
       }
     ]
   }

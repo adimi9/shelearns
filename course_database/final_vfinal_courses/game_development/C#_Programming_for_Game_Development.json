@@ -21,86 +21,102 @@
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
           "description": "Official Microsoft documentation for C# programming language fundamentals and features.",
-          "title": "C# Guide - .NET managed language | Microsoft Learn"
+          "title": "C# Guide - .NET managed language | Microsoft Learn",
+          "resource_order": 1
         },
         {
           "url": "https://docs.unity.com/",
           "description": "Official documentation for Unity, covering development tools, features, and best practices.",
-          "title": "Unity documentation"
+          "title": "Unity documentation",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/",
           "description": "Official Microsoft documentation for .NET development, covering languages, APIs, and tools.",
-          "title": ".NET documentation | Microsoft Learn"
+          "title": ".NET documentation | Microsoft Learn",
+          "resource_order": 3
         },
         {
           "url": "https://docs.godotengine.org/en/4.4/tutorials/scripting/c_sharp/c_sharp_basics.html",
           "description": "An introductory guide to using C# for scripting in Godot Engine.",
-          "title": "C# basics \u2014 Godot Engine (4.4) documentation in English"
+          "title": "C# basics — Godot Engine (4.4) documentation in English",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://learn.unity.com/pathway/junior-programmer",
           "description": "An introductory pathway for learning Unity development for aspiring junior programmers.",
-          "title": "Junior Programmer Pathway - Learn Coding & Game Development | Unity Learn"
+          "title": "Junior Programmer Pathway - Learn Coding & Game Development | Unity Learn",
+          "resource_order": 1
         },
         {
           "url": "https://www.simplilearn.com/tutorials/c-sharp-tutorial/c-sharp-game-programming",
           "description": "An introductory guide to game programming using C#.",
-          "title": "An Ultimate Guide To Build C# Game Programming | Simplilearn"
+          "title": "An Ultimate Guide To Build C# Game Programming | Simplilearn",
+          "resource_order": 2
         },
         {
           "url": "https://discussions.unity.com/t/tutorial-for-starting-2d/908378",
           "description": "A beginner's tutorial for starting 2D game development in Unity.",
-          "title": "Tutorial for Starting 2D - Unity Engine - Unity Discussions"
+          "title": "Tutorial for Starting 2D - Unity Engine - Unity Discussions",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=XLW3Biw-a68",
           "title": "Game Progamming with C# Complete Course | C# tutorial for game programming",
-          "duration": "605m"
+          "duration": "605m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
           "title": "Learn C# FREE Tutorial Course Beginner to Advanced! [2025 - 12 HOURS]",
-          "duration": "760m"
+          "duration": "760m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=VEnZzwW_OJM",
           "title": "Unity C# Scripting - Full Game Development Course",
-          "duration": "257m"
+          "duration": "257m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=TgqAqniukTg",
           "title": "Learn C# Programming Basics for Unity Game Development - Part 1",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=1p29y6dvQiI",
-          "title": "\ud83d\udd79\ufe0fFull Unity Course - Learn Coding in C# by Building Games",
-          "duration": "300m"
+          "title": "🕹️Full Unity Course - Learn Coding in C# by Building Games",
+          "duration": "300m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=5DF55w6b4b4",
           "title": "Unity Crash Course for Absolute Beginners! Learn C# and Make Games!!",
-          "duration": "70m"
+          "duration": "70m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
           "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
-          "duration": "649m"
+          "duration": "649m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=_cCGBMmMOFw",
           "title": "Introduction to Game Development with Unity and C#",
-          "duration": "1m"
+          "duration": "1m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=9tMvzrqBUP8",
           "title": "Learn C# Scripting for Unity in 15 Minutes (2025 Working)",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 9
         }
       ]
     },
@@ -109,95 +125,113 @@
         {
           "url": "https://docs.unity.com/",
           "description": "Official documentation for Unity, covering tools and features for game development.",
-          "title": "Unity documentation"
+          "title": "Unity documentation",
+          "resource_order": 1
         },
         {
           "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/epic-cplusplus-coding-standard-for-unreal-engine",
           "description": "A detailed guide to the C++ coding standards for Unreal Engine development.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-scenarios",
           "description": "An overview of common scenarios for using asynchronous programming in C#.",
-          "title": "Asynchronous programming scenarios - C# | Microsoft Learn"
+          "title": "Asynchronous programming scenarios - C# | Microsoft Learn",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://tomweiland.net/csharp-networking-tutorial-series/",
-          "description": "A detailed tutorial series on networking concepts and implementation in C#."
+          "description": "A detailed tutorial series on networking concepts and implementation in C#.",
+          "resource_order": 1
         },
         {
           "url": "https://github.com/ajcomeau/RogueGameDev",
           "description": "A repository for developing a roguelike game using Python and libtcod.",
-          "title": "GitHub - ajcomeau/RogueGameDev: Code for the Rogue C# programming tutorial on ComeauSoftware.com. This will be a roguelike game, currently in development for the course and closely based on the original Rogue. This project does not use AI-generated code."
+          "title": "GitHub - ajcomeau/RogueGameDev: Code for the Rogue C# programming tutorial on ComeauSoftware.com. This will be a roguelike game, currently in development for the course and closely based on the original Rogue. This project does not use AI-generated code.",
+          "resource_order": 2
         },
         {
           "url": "http://rbwhitaker.wikidot.com/c-sharp-tutorials",
           "description": "A collection of tutorials for learning C# programming from basics to advanced topics.",
-          "title": "A C# Crash Course - RB Whitaker's Wiki"
+          "title": "A C# Crash Course - RB Whitaker's Wiki",
+          "resource_order": 3
         },
         {
           "url": "https://codehs.com/tutorial/mattarnold/unity-coding-part-1",
           "description": "An introductory tutorial on coding with Unity, focusing on the basics for beginners.",
-          "title": "Tutorial: Unity Coding - Part 1 | CodeHS"
+          "title": "Tutorial: Unity Coding - Part 1 | CodeHS",
+          "resource_order": 4
         },
         {
           "url": "https://gamedevhq.com/c-sharp-switch-statements/",
           "description": "An introductory guide to using switch statements in C# programming.",
-          "title": "Learn to Program with C# \u2013 SWITCH STATEMENTS \u2013 Unity Tutorial \u2013 gamedev:hq"
+          "title": "Learn to Program with C# – SWITCH STATEMENTS – Unity Tutorial – gamedev:hq",
+          "resource_order": 5
         },
         {
           "url": "https://forum.godotengine.org/t/2d-game-tutorial-script-not-working/81418",
           "description": "A forum discussion troubleshooting issues with a 2D game script in Godot Engine.",
-          "title": "2D game tutorial script not working - Help / Programming - Godot Forum"
+          "title": "2D game tutorial script not working - Help / Programming - Godot Forum",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=VEnZzwW_OJM",
           "title": "Unity C# Scripting - Full Game Development Course",
-          "duration": "257m"
+          "duration": "257m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=DiXQJXz8FOM&pp=0gcJCdgAo7VqN5tD",
           "title": "TOP 10 C# things you MIGHT not know (I didn't!)",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=kgShNcTxMIg&pp=0gcJCfwAo7VqN5tD",
           "title": "Create a COMPLETE android & iOS game - FULL COURSE [Unity C#]",
-          "duration": "818m"
+          "duration": "818m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=pr5FBtu5SvQ&pp=ygUUI2NvdW50dW5pdHl0ZXN0ZXJkaXk%3D",
           "title": "How to do basic unit testing [Unity/C# tutorial]",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=PeojZFlD8yM",
           "title": "Java vs C# in 2025 - Which One Would I Choose?",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=GUTURxgcoj4",
           "title": "C# Events in Unity",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=ub3P8c87cwk&pp=0gcJCdgAo7VqN5tD",
           "title": "Intro to Unit Testing in C# using XUnit",
-          "duration": "102m"
+          "duration": "102m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=0P9S7R00Nt8",
           "title": "AI-assisted coding with GitHub Copilot and ChatGPT 4 in practice",
-          "duration": "44m"
+          "duration": "44m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=UyTJLDGcT64",
           "title": "How create a Quest System in Unity | RPG Style | Including Data Persistence",
-          "duration": "63m"
+          "duration": "63m",
+          "resource_order": 9
         }
       ]
     },
@@ -206,96 +240,114 @@
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
           "description": "An official Microsoft guide to programming with C# using .NET.",
-          "title": "C# Guide - .NET managed language | Microsoft Learn"
+          "title": "C# Guide - .NET managed language | Microsoft Learn",
+          "resource_order": 1
         },
         {
           "url": "https://www.typescriptlang.org/docs/",
           "description": "Official documentation for learning and using TypeScript effectively.",
-          "title": "TypeScript: The starting point for learning TypeScript"
+          "title": "TypeScript: The starting point for learning TypeScript",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/",
           "description": "Official Microsoft documentation for .NET development and programming resources.",
-          "title": ".NET documentation | Microsoft Learn"
+          "title": ".NET documentation | Microsoft Learn",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.vintagestory.at/forums/topic/4932-better-modding-guidetutorial/",
           "description": "A detailed guide for enhancing modding skills in Vintage Story.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
           "description": "Official Microsoft documentation for learning C# programming in .NET.",
-          "title": "C# Guide - .NET managed language | Microsoft Learn"
+          "title": "C# Guide - .NET managed language | Microsoft Learn",
+          "resource_order": 2
         },
         {
           "url": "https://softwareengineering.stackexchange.com/questions/91976/on-developing-deep-programming-knowledge",
           "description": "A discussion on strategies for developing deep programming knowledge.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 3
         },
         {
           "url": "https://unity.com/how-to",
           "description": "An instructional resource offering step-by-step guides for using Unity's tools and features.",
-          "title": "Access Denied"
+          "title": "Access Denied",
+          "resource_order": 4
         },
         {
           "url": "https://gamedevhq.com/c-sharp-interfaces/",
           "description": "An introduction to C# interfaces and their implementation in game development.",
-          "title": "Learn to Program with C#: Interfaces \u2013 Advanced Unity Tutorial \u2013 gamedev:hq"
+          "title": "Learn to Program with C#: Interfaces – Advanced Unity Tutorial – gamedev:hq",
+          "resource_order": 5
         },
         {
           "url": "https://newsletter.pragmaticengineer.com/p/building-a-simple-game",
           "description": "A detailed guide on creating a simple game using practical engineering techniques.",
-          "title": "Building a Simple Game"
+          "title": "Building a Simple Game",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
           "title": "Learn C# FREE Tutorial Course Beginner to Advanced! [2025 - 12 HOURS]",
-          "duration": "760m"
+          "duration": "760m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
           "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
-          "duration": "649m"
+          "duration": "649m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=6G-4oPDxfNI",
           "title": "Learn C# Advanced FREE Tutorial Course! [2025]",
-          "duration": "274m"
+          "duration": "274m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=OSw0fU1AMII",
           "title": "C# Reflection in Unity: A Complete Guide for Game Developers",
-          "duration": "21m"
+          "duration": "21m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=M5ugY7fWydE",
           "title": "C# Full Course : C# Tutorial for Beginners",
-          "duration": "538m"
+          "duration": "538m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=VEnZzwW_OJM",
           "title": "Unity C# Scripting - Full Game Development Course",
-          "duration": "257m"
+          "duration": "257m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=GGob3dGP5hw",
           "title": "Create a simple space battle shooter game with WPF C# in visual studio",
-          "duration": "38m"
+          "duration": "38m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=5DF55w6b4b4",
           "title": "Unity Crash Course for Absolute Beginners! Learn C# and Make Games!!",
-          "duration": "70m"
+          "duration": "70m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=YT8s-90oDC0",
           "title": "Advanced C# Programming Course",
-          "duration": "907m"
+          "duration": "907m",
+          "resource_order": 9
         }
       ]
     }
@@ -311,7 +363,8 @@
           "number int;"
         ],
         "correct_option": 0,
-        "hint": "The syntax starts with the type followed by the variable name."
+        "hint": "The syntax starts with the type followed by the variable name.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is NOT a principle of Object-Oriented Programming?",
@@ -322,7 +375,8 @@
           "Polymorphism"
         ],
         "correct_option": 2,
-        "hint": "This term is more related to loops than OOP."
+        "hint": "This term is more related to loops than OOP.",
+        "question_order": 2
       },
       {
         "question": "In Unity, which method is called once per frame?",
@@ -333,7 +387,8 @@
           "FixedUpdate()"
         ],
         "correct_option": 1,
-        "hint": "This method updates the game logic frame by frame."
+        "hint": "This method updates the game logic frame by frame.",
+        "question_order": 3
       },
       {
         "question": "What is the purpose of the 'using' directive in C#?",
@@ -344,7 +399,8 @@
           "To define a method"
         ],
         "correct_option": 1,
-        "hint": "It helps in accessing classes and functions from different namespaces."
+        "hint": "It helps in accessing classes and functions from different namespaces.",
+        "question_order": 4
       },
       {
         "question": "Which data structure is best for storing a collection of unique elements in C#?",
@@ -355,7 +411,8 @@
           "HashSet"
         ],
         "correct_option": 3,
-        "hint": "This data structure does not allow duplicate values."
+        "hint": "This data structure does not allow duplicate values.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -368,7 +425,8 @@
           "Recursion"
         ],
         "correct_option": 0,
-        "hint": "This concept involves bundling the data and methods that work on the data within one unit, like a class."
+        "hint": "This concept involves bundling the data and methods that work on the data within one unit, like a class.",
+        "question_order": 1
       },
       {
         "question": "In Unity, what is the role of the Start() method in a MonoBehaviour script?",
@@ -379,7 +437,8 @@
           "It handles physics-related calculations."
         ],
         "correct_option": 0,
-        "hint": "This method is typically used to set up any initialization before the game begins."
+        "hint": "This method is typically used to set up any initialization before the game begins.",
+        "question_order": 2
       },
       {
         "question": "Which C# data structure is most efficient for accessing elements by index?",
@@ -390,7 +449,8 @@
           "Array"
         ],
         "correct_option": 3,
-        "hint": "This data structure allows fast access using indices thanks to contiguous memory allocation."
+        "hint": "This data structure allows fast access using indices thanks to contiguous memory allocation.",
+        "question_order": 3
       },
       {
         "question": "In C# programming, what is the benefit of using an interface?",
@@ -401,7 +461,8 @@
           "To store objects of different types"
         ],
         "correct_option": 2,
-        "hint": "This feature is often used to ensure that different classes implement the same methods."
+        "hint": "This feature is often used to ensure that different classes implement the same methods.",
+        "question_order": 4
       },
       {
         "question": "What is the primary purpose of the Update() method in a Unity MonoBehaviour script?",
@@ -412,7 +473,8 @@
           "To run game logic continuously every frame"
         ],
         "correct_option": 3,
-        "hint": "This method is used to execute code that needs to be checked or updated every frame."
+        "hint": "This method is used to execute code that needs to be checked or updated every frame.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -425,7 +487,8 @@
           "To create a new thread for parallel execution"
         ],
         "correct_option": 0,
-        "hint": "It allows for non-blocking delays in the execution of Coroutines."
+        "hint": "It allows for non-blocking delays in the execution of Coroutines.",
+        "question_order": 1
       },
       {
         "question": "In C#, which of the following is NOT a characteristic of an interface?",
@@ -436,7 +499,8 @@
           "Interfaces provide a contract for classes to implement."
         ],
         "correct_option": 0,
-        "hint": "Consider what is allowed within interface definitions in C#."
+        "hint": "Consider what is allowed within interface definitions in C#.",
+        "question_order": 2
       },
       {
         "question": "How does the 'Awake' method differ from the 'Start' method in the MonoBehaviour lifecycle?",
@@ -447,7 +511,8 @@
           "Awake is called multiple times per object, Start only once."
         ],
         "correct_option": 1,
-        "hint": "One method is generally used for early initialization before the game starts."
+        "hint": "One method is generally used for early initialization before the game starts.",
+        "question_order": 3
       },
       {
         "question": "Which data structure would be most efficient for implementing a leaderboard in a game where the top scores need frequent access and updates?",
@@ -458,7 +523,8 @@
           "Linked List"
         ],
         "correct_option": 2,
-        "hint": "Consider data structures that allow for efficient sorting and retrieval."
+        "hint": "Consider data structures that allow for efficient sorting and retrieval.",
+        "question_order": 4
       },
       {
         "question": "Which of the following C# features allows a class to inherit the implementation of methods from multiple classes?",
@@ -469,7 +535,8 @@
           "Delegates"
         ],
         "correct_option": 1,
-        "hint": "C# does not support multiple inheritance, but another feature can achieve a similar result."
+        "hint": "C# does not support multiple inheritance, but another feature can achieve a similar result.",
+        "question_order": 5
       }
     ]
   }

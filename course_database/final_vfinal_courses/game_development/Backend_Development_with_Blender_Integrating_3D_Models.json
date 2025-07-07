@@ -27,100 +27,119 @@
         {
           "url": "https://docs.blender.org/api/current/info_quickstart.html",
           "description": "A quickstart guide to using the Blender API for scripting and automation.",
-          "title": "Quickstart - Blender Python API"
+          "title": "Quickstart - Blender Python API",
+          "resource_order": 1
         },
         {
           "url": "https://docs.unity3d.com/530/Documentation/Manual/HOWTO-ImportObjectBlender.html",
           "description": "Instructions on importing Blender objects into Unity 3D.",
-          "title": "Unity - Manual: Importing Objects From Blender"
+          "title": "Unity - Manual: Importing Objects From Blender",
+          "resource_order": 2
         },
         {
           "url": "https://docs.blender.org/api/current/index.html",
           "description": "Official API documentation for the current version of Blender.",
-          "title": "Blender Python API"
+          "title": "Blender Python API",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://docs.blender.org/api/current/info_quickstart.html",
           "description": "A quickstart guide to using the Blender Python API for scripting and automation.",
-          "title": "Quickstart - Blender Python API"
+          "title": "Quickstart - Blender Python API",
+          "resource_order": 1
         },
         {
           "url": "https://edw.is/learning-vulkan/",
           "description": "An introductory guide to learning Vulkan graphics API for 3D graphics programming.",
-          "title": "How I learned Vulkan and wrote a small game engine with it"
+          "title": "How I learned Vulkan and wrote a small game engine with it",
+          "resource_order": 2
         },
         {
           "url": "https://devtalk.blender.org/t/asset-browser-so-slowwww/19909?page=2",
           "description": "Discussion on improving the performance of Blender's Asset Browser.",
-          "title": "Asset browser so SLOWwww - Archive / User Feedback - Developer Forum"
+          "title": "Asset browser so SLOWwww - Archive / User Feedback - Developer Forum",
+          "resource_order": 3
         },
         {
           "url": "https://en.wikipedia.org/wiki/Blender_(software)",
           "description": "An overview of Blender, a free and open-source 3D creation suite.",
-          "title": "Blender (software) - Wikipedia"
+          "title": "Blender (software) - Wikipedia",
+          "resource_order": 4
         },
         {
           "url": "https://moldstud.com/articles/p-beginners-guide-to-using-blender-for-ar-development-master-3d-modeling-skills",
           "description": "A beginner's guide to using Blender for AR development and mastering 3D modeling skills.",
-          "title": "Beginner Guide to Blender for AR and 3D Modeling Skills | MoldStud"
+          "title": "Beginner Guide to Blender for AR and 3D Modeling Skills | MoldStud",
+          "resource_order": 5
         },
         {
           "url": "https://www.linkedin.com/posts/samerps_b3d-blender3d-fasthenry-activity-7216817808628723712-VoC7",
           "description": "An overview of using Blender 3D for creating Fast Henry simulations.",
-          "title": "Really excited to share this new update on combining FastHenry and Blender, I've now added the ability to calculate the mutual inductance between objects! | Samer Aldhaher"
+          "title": "Really excited to share this new update on combining FastHenry and Blender, I've now added the ability to calculate the mutual inductance between objects! | Samer Aldhaher",
+          "resource_order": 6
         },
         {
           "url": "https://www.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-27/issue-8/083014/BlenderPhotonics--an-integrated-open-source-software-environment-for-three/10.1117/1.JBO.27.8.083014.pdf",
-          "description": "An overview of BlenderPhotonics, an open-source software for 3D optical simulations in biomedical research."
+          "description": "An overview of BlenderPhotonics, an open-source software for 3D optical simulations in biomedical research.",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=EzzcEL_1o9o",
           "title": "How to Build a 3D Chatbot with ChatGPT & ElevenLabs",
-          "duration": "25m"
+          "duration": "25m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=kt0FrkQgw8w&pp=0gcJCfwAo7VqN5tD",
           "title": "Build & Deploy an Amazing 3D Portfolio with React.js & Three.js | Beginner Three.js Tutorial",
-          "duration": "268m"
+          "duration": "268m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=H0K2IwsM4MQ",
           "title": "Blender Tutorial: Embed 3D Model to Web / Portfolio Website like Behance",
-          "duration": "20m"
+          "duration": "20m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=MOif6TIjxtA",
-          "title": "\ud83d\udd25 Introduction to Python Django and Three.js for Web Development \ud83d\udd25",
-          "duration": "32m"
+          "title": "🔥 Introduction to Python Django and Three.js for Web Development 🔥",
+          "duration": "32m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=wWTAQP7-ZUQ",
           "title": "Getting Started with Scripting in Python",
-          "duration": "49m"
+          "duration": "49m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=NSjuREl10N8",
           "title": "Import Models Directly from Blender! | Godot 4 Tutorial",
-          "duration": "4m"
+          "duration": "4m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=QCS1DOu2IzU",
           "title": "Create a 3D Web App in 5 MINUTES! // Three.js Tutorial for Beginners",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=5WNoynmnEAs",
           "title": "A Beginner's Guide to 3D Animations in React Native with three.js",
-          "duration": "104m"
+          "duration": "104m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=0fYi8SGA20k",
           "title": "Build and Deploy an Amazing 3D Web Developer Portfolio in React JS | Beginner Three.js Tutorial",
-          "duration": "173m"
+          "duration": "173m",
+          "resource_order": 9
         }
       ]
     },
@@ -129,101 +148,120 @@
         {
           "url": "https://github.com/modelcontextprotocol/servers",
           "description": "A repository for the Model Context Protocol Servers project, detailing server implementation and usage.",
-          "title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers"
+          "title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers",
+          "resource_order": 1
         },
         {
           "url": "https://docs.blender.org/api/current/info_quickstart.html",
           "description": "A quickstart guide to using Blender's Python API for scripting and automation.",
-          "title": "Quickstart - Blender Python API"
+          "title": "Quickstart - Blender Python API",
+          "resource_order": 2
         },
         {
           "url": "https://platform.stability.ai/docs/api-reference",
           "description": "API reference documentation for Stability AI's platform.",
-          "title": "Stability AI - Developer Platform"
+          "title": "Stability AI - Developer Platform",
+          "resource_order": 3
         },
         {
           "url": "https://devtalk.blender.org/t/alternative-rendering-backends/830",
           "description": "Discussion on potential alternative rendering backends for Blender.",
-          "title": "Alternative rendering backends - Archive / Blender Development - Developer Forum"
+          "title": "Alternative rendering backends - Archive / Blender Development - Developer Forum",
+          "resource_order": 4
         },
         {
           "url": "https://developer.nvidia.com/isaac/sim",
           "description": "An advanced simulation platform for developing and testing AI-powered robotics applications.",
-          "title": "Isaac Sim - Robotics Simulation and Synthetic Data Generation | NVIDIA Developer"
+          "title": "Isaac Sim - Robotics Simulation and Synthetic Data Generation | NVIDIA Developer",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://edw.is/learning-vulkan/",
           "description": "An in-depth tutorial for learning the Vulkan graphics API from scratch.",
-          "title": "How I learned Vulkan and wrote a small game engine with it"
+          "title": "How I learned Vulkan and wrote a small game engine with it",
+          "resource_order": 1
         },
         {
           "url": "https://docs.blender.org/api/current/info_quickstart.html",
           "description": "A quickstart guide for using Blender's Python API.",
-          "title": "Quickstart - Blender Python API"
+          "title": "Quickstart - Blender Python API",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/modelcontextprotocol/servers",
           "description": "A repository for the Model Context Protocol's server implementations and documentation.",
-          "title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers"
+          "title": "GitHub - modelcontextprotocol/servers: Model Context Protocol Servers",
+          "resource_order": 3
         },
         {
           "url": "https://devtalk.blender.org/t/alternative-rendering-backends/830",
           "description": "Discussion on implementing alternative rendering backends in Blender.",
-          "title": "Alternative rendering backends - Archive / Blender Development - Developer Forum"
+          "title": "Alternative rendering backends - Archive / Blender Development - Developer Forum",
+          "resource_order": 4
         },
         {
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9720862/",
           "description": "An in-depth analysis of the impact of COVID-19 on mental health and healthcare systems.",
-          "title": "nGauge: Integrated and Extensible Neuron Morphology Analysis in Python - PMC"
+          "title": "nGauge: Integrated and Extensible Neuron Morphology Analysis in Python - PMC",
+          "resource_order": 5
         },
         {
           "url": "https://monadical.com/posts/build-a-digital-human-with-large-language-models.html",
           "description": "A tutorial on creating a digital human using large language models.",
-          "title": "Revolutionize Animation: Build a Digital Human with Large Language Models - HedgeDoc"
+          "title": "Revolutionize Animation: Build a Digital Human with Large Language Models - HedgeDoc",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=MOif6TIjxtA",
-          "title": "\ud83d\udd25 Introduction to Python Django and Three.js for Web Development \ud83d\udd25",
-          "duration": "32m"
+          "title": "🔥 Introduction to Python Django and Three.js for Web Development 🔥",
+          "duration": "32m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=3_OoICZYwy4&pp=0gcJCfwAo7VqN5tD",
           "title": "DeepSeek and R1: Complete Beginner Tutorial under 8 mins! [100% Free]",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=JRwTCKjc37o",
           "title": "Here's The Secret How To Create These Animated Diagrams",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=picePk8lb48",
           "title": "Build Anything with Grok 3, Here's How",
-          "duration": "30m"
+          "duration": "30m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=28M5SwKsZpA",
           "title": "Build a sales prospect chat in 5 min with MCP Resources, #n8n, and Firecrawl",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=tXhKY6_QgiM",
-          "title": "How to Build a Product Configurator in 40 Minutes - Ji\u0159\u00ed Stani\u0161evsk\u00fd, Salsita Software",
-          "duration": "56m"
+          "title": "How to Build a Product Configurator in 40 Minutes - Jiří Staniševský, Salsita Software",
+          "duration": "56m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=P4-Nxy5bkUw",
           "title": "ComfyUI October 2024 Update: New Nodes, Samplers & A Major Workflow Change",
-          "duration": "16m"
+          "duration": "16m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=FXZ0G95_7Cs",
           "title": "FIX The Process Cannot Access the File Because It Is Being Used by Another Process",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 8
         }
       ]
     },
@@ -232,81 +270,96 @@
         {
           "url": "https://docs.unity3d.com/530/Documentation/Manual/HOWTO-ImportObjectBlender.html",
           "description": "Instructions for importing Blender objects into Unity 3D.",
-          "title": "Unity - Manual: Importing Objects From Blender"
+          "title": "Unity - Manual: Importing Objects From Blender",
+          "resource_order": 1
         },
         {
           "url": "https://docs.pytorch.org/tutorials/advanced/cpp_frontend.html",
           "description": "A tutorial on using the C++ frontend for PyTorch to build and train models.",
-          "title": "Using the PyTorch C++ Frontend \u2014 PyTorch Tutorials 2.7.0+cu126 documentation"
+          "title": "Using the PyTorch C++ Frontend — PyTorch Tutorials 2.7.0+cu126 documentation",
+          "resource_order": 2
         },
         {
           "url": "https://docs.unity3d.com/550/Documentation/Manual/BlenderAndRigify.html",
           "description": "Instructions for integrating Blender's Rigify tool with Unity for character rigging.",
-          "title": "Unity - Manual: Using Blender and Rigify"
+          "title": "Unity - Manual: Using Blender and Rigify",
+          "resource_order": 3
         },
         {
           "url": "https://github.com/mikeroyal/Apple-Silicon-Guide",
           "description": "A comprehensive guide to developing and optimizing software for Apple Silicon processors.",
-          "title": "GitHub - mikeroyal/Apple-Silicon-Guide: Apple Silicon Guide. Learn all about the A17 Pro, A16 Bionic, R1, M1-series, M2-series, and M3-series chips. Along with all the Devices, Operating Systems, Tools, Gaming, and Software that Apple Silicon powers."
+          "title": "GitHub - mikeroyal/Apple-Silicon-Guide: Apple Silicon Guide. Learn all about the A17 Pro, A16 Bionic, R1, M1-series, M2-series, and M3-series chips. Along with all the Devices, Operating Systems, Tools, Gaming, and Software that Apple Silicon powers.",
+          "resource_order": 4
         },
         {
           "url": "https://a16z.com/a-deep-dive-into-mcp-and-the-future-of-ai-tooling/",
           "description": "An in-depth analysis of Model-Centric Programming (MCP) and its implications for the future of AI development tools.",
-          "title": "A Deep Dive Into MCP and the Future of AI Tooling | Andreessen Horowitz"
+          "title": "A Deep Dive Into MCP and the Future of AI Tooling | Andreessen Horowitz",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://edw.is/learning-vulkan/",
           "description": "A detailed tutorial series for learning Vulkan graphics programming.",
-          "title": "How I learned Vulkan and wrote a small game engine with it"
+          "title": "How I learned Vulkan and wrote a small game engine with it",
+          "resource_order": 1
         },
         {
           "url": "https://designcode.io/cursor/",
           "description": "A detailed course on building macOS applications using SwiftUI and AppKit.",
-          "title": "Create your Dream Apps with Cursor and Claude AI - Design+Code"
+          "title": "Create your Dream Apps with Cursor and Claude AI - Design+Code",
+          "resource_order": 2
         },
         {
           "url": "https://www.coursera.org/partners/packt",
           "description": "An overview of Packt's online courses and learning resources available on Coursera.",
-          "title": "Packt Online Courses | Coursera"
+          "title": "Packt Online Courses | Coursera",
+          "resource_order": 3
         },
         {
           "url": "https://opencourser.com/post/fnyxa2/game-development-the-complete-learning-roadmap",
           "description": "A structured learning roadmap for mastering game development skills.",
-          "title": "Game Development: The Complete Learning Roadmap - the Course Notes by OpenCourser"
+          "title": "Game Development: The Complete Learning Roadmap - the Course Notes by OpenCourser",
+          "resource_order": 4
         },
         {
           "url": "https://github.com/MrNeRF/awesome-3D-gaussian-splatting",
           "description": "A curated list of resources and tools for 3D Gaussian splatting techniques.",
-          "title": "GitHub - MrNeRF/awesome-3D-gaussian-splatting: Curated list of papers and resources focused on 3D Gaussian Splatting, intended to keep pace with the anticipated surge of research in the coming months."
+          "title": "GitHub - MrNeRF/awesome-3D-gaussian-splatting: Curated list of papers and resources focused on 3D Gaussian Splatting, intended to keep pace with the anticipated surge of research in the coming months.",
+          "resource_order": 5
         },
         {
           "url": "https://docs.unity3d.com/530/Documentation/Manual/HOWTO-ImportObjectBlender.html",
           "description": "Guide on importing Blender objects into Unity 3D.",
-          "title": "Unity - Manual: Importing Objects From Blender"
+          "title": "Unity - Manual: Importing Objects From Blender",
+          "resource_order": 6
         },
         {
           "url": "https://moldstud.com/articles/p-beginners-guide-to-using-blender-for-ar-development-master-3d-modeling-skills",
           "description": "A beginner's guide to using Blender for AR development and mastering 3D modeling skills.",
-          "title": "Beginner Guide to Blender for AR and 3D Modeling Skills | MoldStud"
+          "title": "Beginner Guide to Blender for AR and 3D Modeling Skills | MoldStud",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=3jRX_5eiDWw",
           "title": "Create ChatGPT in SvelteKit With OpenAI API",
-          "duration": "6m"
+          "duration": "6m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=06TE_U21FK4",
           "title": "AI Pose Estimation with Python and MediaPipe | Plus AI Gym Tracker Project",
-          "duration": "64m"
+          "duration": "64m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=RGKi6LSPDLU",
-          "title": "React Tutorial in Hindi \ud83d\udd25\ud83d\udd25",
-          "duration": "132m"
+          "title": "React Tutorial in Hindi 🔥🔥",
+          "duration": "132m",
+          "resource_order": 3
         }
       ]
     }
@@ -322,7 +375,8 @@
           "Writing backend logic"
         ],
         "correct_option": 2,
-        "hint": "It involves creating and manipulating 3D objects."
+        "hint": "It involves creating and manipulating 3D objects.",
+        "question_order": 1
       },
       {
         "question": "Which file format is commonly used for 3D models in Blender?",
@@ -333,7 +387,8 @@
           ".html"
         ],
         "correct_option": 0,
-        "hint": "This file format is native to Blender."
+        "hint": "This file format is native to Blender.",
+        "question_order": 2
       },
       {
         "question": "How can Blender models be integrated with backend systems?",
@@ -344,7 +399,8 @@
           "Printing physical models"
         ],
         "correct_option": 1,
-        "hint": "APIs help in communication between different software applications."
+        "hint": "APIs help in communication between different software applications.",
+        "question_order": 3
       },
       {
         "question": "What is a key consideration when automating 3D model processing via APIs?",
@@ -355,7 +411,8 @@
           "Design of the user interface"
         ],
         "correct_option": 1,
-        "hint": "Think about protecting data as it moves between systems."
+        "hint": "Think about protecting data as it moves between systems.",
+        "question_order": 4
       },
       {
         "question": "Why is optimizing data flow between Blender and backend services important?",
@@ -366,7 +423,8 @@
           "To allow more complex animations"
         ],
         "correct_option": 1,
-        "hint": "It's about making the system more efficient and responsive."
+        "hint": "It's about making the system more efficient and responsive.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -379,7 +437,8 @@
           "TXT"
         ],
         "correct_option": 0,
-        "hint": "Think about a format that is specifically designed for 3D models, not images or text."
+        "hint": "Think about a format that is specifically designed for 3D models, not images or text.",
+        "question_order": 1
       },
       {
         "question": "When integrating Blender models with backend systems, why is it important to understand 3D data structures?",
@@ -390,7 +449,8 @@
           "To reduce the file size of Blender software"
         ],
         "correct_option": 1,
-        "hint": "Consider how data structures affect the performance and compatibility of the integration."
+        "hint": "Consider how data structures affect the performance and compatibility of the integration.",
+        "question_order": 2
       },
       {
         "question": "What is a key benefit of automating 3D model processing via APIs in backend solutions?",
@@ -401,7 +461,8 @@
           "Limits the types of models that can be processed"
         ],
         "correct_option": 2,
-        "hint": "Automation is generally used to make processes more efficient and scalable."
+        "hint": "Automation is generally used to make processes more efficient and scalable.",
+        "question_order": 3
       },
       {
         "question": "Which strategy is most effective for optimizing data flow between Blender and backend services?",
@@ -412,7 +473,8 @@
           "Compressing data to reduce size"
         ],
         "correct_option": 3,
-        "hint": "Think about ways to minimize data size and enhance transfer speed."
+        "hint": "Think about ways to minimize data size and enhance transfer speed.",
+        "question_order": 4
       },
       {
         "question": "What is a best practice for handling 3D data securely in backend systems?",
@@ -423,7 +485,8 @@
           "Using outdated software"
         ],
         "correct_option": 1,
-        "hint": "Security best practices often involve protecting data from unauthorized access."
+        "hint": "Security best practices often involve protecting data from unauthorized access.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -436,7 +499,8 @@
           "JPEG"
         ],
         "correct_option": 1,
-        "hint": "Consider formats designed for 3D model data exchange."
+        "hint": "Consider formats designed for 3D model data exchange.",
+        "question_order": 1
       },
       {
         "question": "In integrating Blender models with backend systems, which protocol is most suitable for real-time 3D data exchange?",
@@ -447,7 +511,8 @@
           "SMTP"
         ],
         "correct_option": 1,
-        "hint": "Think about protocols that support persistent connections for real-time data."
+        "hint": "Think about protocols that support persistent connections for real-time data.",
+        "question_order": 2
       },
       {
         "question": "What is the primary advantage of using APIs for automating 3D model processing in a backend system?",
@@ -458,7 +523,8 @@
           "Reduced processing speed"
         ],
         "correct_option": 2,
-        "hint": "Consider how APIs impact automation and system scalability."
+        "hint": "Consider how APIs impact automation and system scalability.",
+        "question_order": 3
       },
       {
         "question": "When optimizing data flow between Blender and backend services, which technique is essential for reducing latency?",
@@ -469,7 +535,8 @@
           "Using heavier file formats"
         ],
         "correct_option": 1,
-        "hint": "Think about methods that help in transmitting data more efficiently."
+        "hint": "Think about methods that help in transmitting data more efficiently.",
+        "question_order": 4
       },
       {
         "question": "Which security practice is crucial when handling 3D data in backend systems to prevent unauthorized access?",
@@ -480,7 +547,8 @@
           "Ignoring data validation"
         ],
         "correct_option": 1,
-        "hint": "Consider methods that ensure data security and integrity in backend systems."
+        "hint": "Consider methods that ensure data security and integrity in backend systems.",
+        "question_order": 5
       }
     ]
   },

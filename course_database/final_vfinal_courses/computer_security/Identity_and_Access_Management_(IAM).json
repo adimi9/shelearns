@@ -21,86 +21,102 @@
         {
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
           "description": "An introduction to AWS Identity and Access Management (IAM) for managing user access and permissions.",
-          "title": "What is IAM? - AWS Identity and Access Management"
+          "title": "What is IAM? - AWS Identity and Access Management",
+          "resource_order": 1
         },
         {
           "url": "https://cloud.google.com/iam/docs/overview",
           "description": "An overview of Google Cloud's Identity and Access Management (IAM) services and features.",
-          "title": "IAM overview \u00a0|\u00a0 IAM Documentation \u00a0|\u00a0 Google Cloud"
+          "title": "IAM overview  |  IAM Documentation  |  Google Cloud",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html",
           "description": "Detailed documentation on managing access policies in AWS IAM.",
-          "title": "Policies and permissions in AWS Identity and Access Management - AWS Identity and Access Management"
+          "title": "Policies and permissions in AWS Identity and Access Management - AWS Identity and Access Management",
+          "resource_order": 3
         },
         {
           "url": "https://cloud.google.com/security/products/iam",
           "description": "An overview of Google Cloud's Identity and Access Management (IAM) services for secure resource management.",
-          "title": "Identity and Access Management \u00a0|\u00a0 Google Cloud"
+          "title": "Identity and Access Management  |  Google Cloud",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
           "description": "An introduction to AWS Identity and Access Management (IAM) and its features.",
-          "title": "What is IAM? - AWS Identity and Access Management"
+          "title": "What is IAM? - AWS Identity and Access Management",
+          "resource_order": 1
         },
         {
           "url": "https://learn.microsoft.com/en-us/entra/fundamentals/introduction-identity-access-management",
           "description": "An introductory guide to identity and access management in Microsoft Entra.",
-          "title": "What is identity and access management (IAM)? - Microsoft Entra | Microsoft Learn"
+          "title": "What is identity and access management (IAM)? - Microsoft Entra | Microsoft Learn",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/iam/docs/overview",
           "description": "An overview of Google Cloud's Identity and Access Management (IAM) features and capabilities.",
-          "title": "IAM overview \u00a0|\u00a0 IAM Documentation \u00a0|\u00a0 Google Cloud"
+          "title": "IAM overview  |  IAM Documentation  |  Google Cloud",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://m.youtube.com/watch?v=hAk-7ImN6iM&pp=0gcJCdgAo7VqN5tD",
           "title": "UPDATED - AWS Identity and Access Management (IAM) Basics | AWS Tutorials For Beginners",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=iF9fs8Rw4Uo&pp=ygUNI2loZXJlZm9yZWlhbQ%3D%3D",
           "title": "AWS Identity and Access Management (IAM) Basics | AWS Training For Beginners",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 2
         },
         {
           "url": "https://m.youtube.com/watch?v=gsgdAyGhV0o&t=0s",
           "title": "What Is IAM? | Identity and Access Management for Beginners (IAM) | IAM for Beginners | Simplilearn",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=3XmLU4gVZss&pp=ygUGI19pYW1f",
           "title": "The Beginner's guide to Identity and Access Management: Identity 101",
-          "duration": "16m"
+          "duration": "16m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=C1MnZYziA8k",
           "title": "Day 4- AWS IAM Complete Course with Notes | Identity and Access Management Service",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=fcSXiUsU5lE",
           "title": "Identity and Access Management for Beginners",
-          "duration": "27m"
+          "duration": "27m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=_KhrGFV_Npw&pp=ygUZI2FueWRlc2trYWlzZWNvbm5lY3RrYXJlbg%3D%3D",
           "title": "How to Set Up AWS IAM Identity Center and AWS Organizations | AWS Tutorial for Beginners",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=n-njtZpb-Dk",
           "title": "From Zero to Cybersecurity IAM: A Step-by-Step Guide",
-          "duration": "23m"
+          "duration": "23m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=PHjBwcGuEsU",
           "title": "What is Cloud Computing? - Part 01  | AWS",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 9
         }
       ]
     },
@@ -109,101 +125,120 @@
         {
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
           "description": "An introduction to AWS Identity and Access Management (IAM) and its key concepts.",
-          "title": "What is IAM? - AWS Identity and Access Management"
+          "title": "What is IAM? - AWS Identity and Access Management",
+          "resource_order": 1
         },
         {
           "url": "https://cloud.google.com/iam/docs",
           "description": "Detailed documentation on managing access control and permissions with Google Cloud IAM.",
-          "title": "Identity and Access Management documentation \u00a0|\u00a0 IAM Documentation \u00a0|\u00a0 Google Cloud"
+          "title": "Identity and Access Management documentation  |  IAM Documentation  |  Google Cloud",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html",
           "description": "Guidance on managing and using AWS IAM access keys securely.",
-          "title": "Manage access keys for IAM users - AWS Identity and Access Management"
+          "title": "Manage access keys for IAM users - AWS Identity and Access Management",
+          "resource_order": 3
         },
         {
           "url": "https://cloud.google.com/security/products/iam",
           "description": "An overview of Google's Identity and Access Management (IAM) services for securing cloud resources.",
-          "title": "Identity and Access Management \u00a0|\u00a0 Google Cloud"
+          "title": "Identity and Access Management  |  Google Cloud",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started-account-iam.html",
           "description": "A guide for getting started with AWS IAM to manage access to AWS resources.",
-          "title": "Setting up your AWS account - AWS Identity and Access Management"
+          "title": "Setting up your AWS account - AWS Identity and Access Management",
+          "resource_order": 1
         },
         {
           "url": "https://learn.microsoft.com/en-us/entra/fundamentals/introduction-identity-access-management",
           "description": "An introduction to identity and access management fundamentals in Microsoft Entra.",
-          "title": "What is identity and access management (IAM)? - Microsoft Entra | Microsoft Learn"
+          "title": "What is identity and access management (IAM)? - Microsoft Entra | Microsoft Learn",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_cross-account-with-roles.html",
           "description": "A tutorial on setting up cross-account access using IAM roles in AWS.",
-          "title": "IAM tutorial: Delegate access across AWS accounts using IAM roles - AWS Identity and Access Management"
+          "title": "IAM tutorial: Delegate access across AWS accounts using IAM roles - AWS Identity and Access Management",
+          "resource_order": 3
         },
         {
           "url": "https://www.sailpoint.com/identity-library/identity-and-access-management",
           "description": "An informative overview of identity and access management solutions and strategies.",
-          "title": "What is identity & access management (IAM)? A guide to IAM"
+          "title": "What is identity & access management (IAM)? A guide to IAM",
+          "resource_order": 4
         },
         {
           "url": "https://cloud.google.com/security/products/iam",
           "description": "An overview of Google Cloud's Identity and Access Management (IAM) services for secure resource access control.",
-          "title": "Identity and Access Management \u00a0|\u00a0 Google Cloud"
+          "title": "Identity and Access Management  |  Google Cloud",
+          "resource_order": 5
         },
         {
           "url": "https://aws.amazon.com/iam/",
           "description": "An overview of AWS Identity and Access Management (IAM) for managing access to AWS services and resources securely.",
-          "title": "Access Management - AWS Identity and Access Management (IAM) - AWS"
+          "title": "Access Management - AWS Identity and Access Management (IAM) - AWS",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=iF9fs8Rw4Uo",
           "title": "AWS Identity and Access Management (IAM) Basics | AWS Training For Beginners",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=YMj33ToS8cI",
           "title": "AWS re:Inforce 2022 - AWS Identity and Access Management (IAM) deep dive (IAM301)",
-          "duration": "57m"
+          "duration": "57m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=PPkPcU1iX1g",
           "title": "Use Cases for AWS Identity and Access Management (IAM) Roles",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=DyHrppoArKQ",
           "title": "Best Practices for Using AWS Identity and Access Management (IAM) Roles",
-          "duration": "32m"
+          "duration": "32m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=8WLoAfydS_4",
           "title": "AWS IAM Tutorial | IAM Group, Policy, User, Role | Amazon Web Services Basics",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=lAkadozQwdo",
           "title": "IAM Roles Tutorial",
-          "duration": "2m"
+          "duration": "2m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=ng5n4MsymRE",
           "title": "Day -12 | Azure IAM from Basics | Azure Managed Identities Demo with Microsoft Entra (With Notes)",
-          "duration": "44m"
+          "duration": "44m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=QZKpufELZCA",
           "title": "AWS IAM vs IAM Identity Center",
-          "duration": "4m"
+          "duration": "4m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=fvxQ8bW0vO8",
           "title": "Getting Started With Keycloak Identity Provider (free Identity Server alternative)",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 9
         }
       ]
     },
@@ -212,81 +247,96 @@
         {
           "url": "https://cloud.google.com/iam/docs",
           "description": "An overview of Google Cloud's Identity and Access Management (IAM) services and features.",
-          "title": "Identity and Access Management documentation \u00a0|\u00a0 IAM Documentation \u00a0|\u00a0 Google Cloud"
+          "title": "Identity and Access Management documentation  |  IAM Documentation  |  Google Cloud",
+          "resource_order": 1
         },
         {
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html",
           "description": "A detailed guide on managing access policies in AWS Identity and Access Management (IAM).",
-          "title": "Policies and permissions in AWS Identity and Access Management - AWS Identity and Access Management"
+          "title": "Policies and permissions in AWS Identity and Access Management - AWS Identity and Access Management",
+          "resource_order": 2
         },
         {
           "url": "https://aws.amazon.com/iam/resources/",
           "description": "Resources and documentation for managing access and permissions in AWS IAM.",
-          "title": "AWS Identity and Access Management (IAM) Resources - Amazon Web Services"
+          "title": "AWS Identity and Access Management (IAM) Resources - Amazon Web Services",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html",
           "description": "A detailed guide on managing access policies in AWS IAM for secure resource access control.",
-          "title": "Policies and permissions in AWS Identity and Access Management - AWS Identity and Access Management"
+          "title": "Policies and permissions in AWS Identity and Access Management - AWS Identity and Access Management",
+          "resource_order": 1
         },
         {
           "url": "https://www.datacamp.com/tutorial/aws-identity-and-access-management-iam-guide",
           "description": "A detailed tutorial on managing AWS Identity and Access Management (IAM).",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/security/products/iam",
           "description": "An overview of Google's Identity and Access Management (IAM) services for cloud security.",
-          "title": "Identity and Access Management \u00a0|\u00a0 Google Cloud"
+          "title": "Identity and Access Management  |  Google Cloud",
+          "resource_order": 3
         },
         {
           "url": "https://saviynt.com/glossary-listing/identity-access-management-iam",
           "description": "An overview of Identity Access Management (IAM) concepts and terminology.",
-          "title": "Identity Access Management (IAM)"
+          "title": "Identity Access Management (IAM)",
+          "resource_order": 4
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=YMj33ToS8cI",
           "title": "AWS re:Inforce 2022 - AWS Identity and Access Management (IAM) deep dive (IAM301)",
-          "duration": "57m"
+          "duration": "57m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=z-tbVVojMp0",
           "title": "AWS re:Inforce 2023 - A first-principles approach: AWS Identity and Access Management (IAM) (IAM201)",
-          "duration": "56m"
+          "duration": "56m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=T7p8IN5Hjo4",
           "title": "AWS Identity and Access Management (IAM) Fundamentals: Managing Permissions and Security",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=YjV6XiowFNw",
           "title": "Identity and Access Management (IAM) Essentials: CISSP Deep Dive",
-          "duration": "47m"
+          "duration": "47m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=WYH8SQW6RJQ",
           "title": "AWS IAM - Crash Course (Learn IAM in 1 hour!) | AWS Certification Tutorial",
-          "duration": "72m"
+          "duration": "72m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=8WLoAfydS_4",
           "title": "AWS IAM Tutorial | IAM Group, Policy, User, Role | Amazon Web Services Basics",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=mfjTdjpTrVI",
           "title": "EC2 Attach IAM Role to Instance | AWS For Everyone",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=bO25vbkoJlA",
           "title": "AWS IAM User  - Step-by-Step Tutorial (Part-1)",
-          "duration": "26m"
+          "duration": "26m",
+          "resource_order": 8
         }
       ]
     }
@@ -302,7 +352,8 @@
           "Managed Federation Access"
         ],
         "correct_option": 0,
-        "hint": "It involves using more than one method to verify identity."
+        "hint": "It involves using more than one method to verify identity.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is a key benefit of using Single Sign-On (SSO)?",
@@ -313,7 +364,8 @@
           "Individual passwords for each application"
         ],
         "correct_option": 1,
-        "hint": "SSO allows a user to access multiple applications with one set of login credentials."
+        "hint": "SSO allows a user to access multiple applications with one set of login credentials.",
+        "question_order": 2
       },
       {
         "question": "In Role-Based Access Control (RBAC), access permissions are primarily assigned based on what?",
@@ -324,7 +376,8 @@
           "The user's IP address"
         ],
         "correct_option": 0,
-        "hint": "RBAC assigns permissions based on the user's position in an organization."
+        "hint": "RBAC assigns permissions based on the user's position in an organization.",
+        "question_order": 3
       },
       {
         "question": "What is the primary purpose of LDAP in Directory Services?",
@@ -335,7 +388,8 @@
           "To provide a user interface for directory management"
         ],
         "correct_option": 0,
-        "hint": "LDAP is a protocol used to access and manage directory services over a network."
+        "hint": "LDAP is a protocol used to access and manage directory services over a network.",
+        "question_order": 4
       },
       {
         "question": "Which technology is often used to establish Identity Federation across multiple organizations?",
@@ -346,7 +400,8 @@
           "SMTP"
         ],
         "correct_option": 0,
-        "hint": "This technology is an XML-based open standard for exchanging authentication and authorization data."
+        "hint": "This technology is an XML-based open standard for exchanging authentication and authorization data.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -359,7 +414,8 @@
           "Attribute-Based Access Control (ABAC)"
         ],
         "correct_option": 1,
-        "hint": "It enhances security by requiring multiple proofs of identity."
+        "hint": "It enhances security by requiring multiple proofs of identity.",
+        "question_order": 1
       },
       {
         "question": "In Role-Based Access Control (RBAC), access permissions are assigned based on what?",
@@ -370,7 +426,8 @@
           "User behavior"
         ],
         "correct_option": 1,
-        "hint": "This model is based on the job functions within an organization."
+        "hint": "This model is based on the job functions within an organization.",
+        "question_order": 2
       },
       {
         "question": "Which directory service protocol is primarily used for accessing and maintaining distributed directory information services over a network?",
@@ -381,7 +438,8 @@
           "SAML"
         ],
         "correct_option": 2,
-        "hint": "It's commonly used to query and modify directory services running over TCP/IP."
+        "hint": "It's commonly used to query and modify directory services running over TCP/IP.",
+        "question_order": 3
       },
       {
         "question": "What is the primary function of Identity Federation in IAM?",
@@ -392,7 +450,8 @@
           "To manage user roles and permissions"
         ],
         "correct_option": 1,
-        "hint": "It allows users to log in once and access multiple related systems without re-authenticating."
+        "hint": "It allows users to log in once and access multiple related systems without re-authenticating.",
+        "question_order": 4
       },
       {
         "question": "Which technology is a directory service developed by Microsoft for Windows domain networks?",
@@ -403,7 +462,8 @@
           "RADIUS"
         ],
         "correct_option": 1,
-        "hint": "It is extensively used in Windows environments for managing computers and other devices on a network."
+        "hint": "It is extensively used in Windows environments for managing computers and other devices on a network.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -416,7 +476,8 @@
           "To store and manage user credentials in a centralized directory."
         ],
         "correct_option": 2,
-        "hint": "Identity Federation allows linking identities across different security domains."
+        "hint": "Identity Federation allows linking identities across different security domains.",
+        "question_order": 1
       },
       {
         "question": "In an RBAC (Role-Based Access Control) model, which of the following is NOT considered a primary component?",
@@ -427,7 +488,8 @@
           "Users"
         ],
         "correct_option": 2,
-        "hint": "RBAC is primarily concerned with roles and permissions rather than attributes."
+        "hint": "RBAC is primarily concerned with roles and permissions rather than attributes.",
+        "question_order": 2
       },
       {
         "question": "What is the main advantage of using Multi-Factor Authentication (MFA) over Single Sign-On (SSO)?",
@@ -438,7 +500,8 @@
           "MFA centralizes identity management for better control."
         ],
         "correct_option": 0,
-        "hint": "MFA enhances security by requiring additional verification methods."
+        "hint": "MFA enhances security by requiring additional verification methods.",
+        "question_order": 3
       },
       {
         "question": "In an Attribute-Based Access Control (ABAC) system, what role do attributes play?",
@@ -449,7 +512,8 @@
           "Attributes are used to authenticate users."
         ],
         "correct_option": 1,
-        "hint": "In ABAC, access is controlled based on attributes and policies."
+        "hint": "In ABAC, access is controlled based on attributes and policies.",
+        "question_order": 4
       },
       {
         "question": "Which protocol is commonly used by Directory Services like LDAP to maintain and query directory information?",
@@ -460,7 +524,8 @@
           "LDAP"
         ],
         "correct_option": 3,
-        "hint": "The protocol shares its name with the directory service itself."
+        "hint": "The protocol shares its name with the directory service itself.",
+        "question_order": 5
       }
     ]
   }

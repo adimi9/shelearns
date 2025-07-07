@@ -22,76 +22,90 @@
         {
           "url": "https://m3.material.io/",
           "description": "An informative guide to Material Design 3 principles and components.",
-          "title": "Material Design 3 - Google's latest open source design system"
+          "title": "Material Design 3 - Google's latest open source design system",
+          "resource_order": 1
         },
         {
           "url": "https://developer.android.com/develop/ui/compose/documentation",
           "description": "Official documentation for building Android UIs using Jetpack Compose.",
-          "title": "Get started with Jetpack Compose \u00a0|\u00a0 Android Developers"
+          "title": "Get started with Jetpack Compose  |  Android Developers",
+          "resource_order": 2
         },
         {
           "url": "https://developer.apple.com/design/human-interface-guidelines",
           "description": "Apple's Human Interface Guidelines for designing intuitive user experiences.",
-          "title": "Human Interface Guidelines | Apple Developer Documentation"
+          "title": "Human Interface Guidelines | Apple Developer Documentation",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.toptal.com/designers/ui/principles-of-design",
           "description": "An overview of fundamental design principles for crafting effective user interfaces.",
-          "title": "Attention Required! | Cloudflare"
+          "title": "Attention Required! | Cloudflare",
+          "resource_order": 1
         },
         {
           "url": "https://www.figma.com/resource-library/ui-design-principles/",
           "description": "A resource library outlining fundamental principles of UI design.",
-          "title": "7 Key UI Design Principles + How To Use Them | Figma"
+          "title": "7 Key UI Design Principles + How To Use Them | Figma",
+          "resource_order": 2
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=cvm_ECH94x4&pp=0gcJCf0Ao7VqN5tD",
           "title": "The 2025 UI/UX Crash Course for Beginners - Learn Figma",
-          "duration": "64m"
+          "duration": "64m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=N-xuqy6x1Bw&pp=0gcJCfwAo7VqN5tD",
           "title": "UI Design for Beginners | FREE COURSE",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=FTFaQWZBqQ8",
           "title": "Figma UI Design Tutorial: Get Started in Just 24 Minutes!",
-          "duration": "24m"
+          "duration": "24m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=cTUD_vCrY7M",
           "title": "Interactive UI/UX Crash Course",
-          "duration": "344m"
+          "duration": "344m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=I0-vBdh4sZ8",
           "title": "UX Design Tutorial for Beginners",
-          "duration": "34m"
+          "duration": "34m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=t0aCoqXKFOU&pp=ygUFI3V4cGE%3D",
           "title": "UX Design: How To Get Started (A Full Guide)",
-          "duration": "27m"
+          "duration": "27m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=FhQNH8SiL2E",
           "title": "Introduction to UI/UX Design (Design Principles) - Girls into Tech Training Day 1",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=tRpoI6vkqLs",
           "title": "The 2020 UI Design Fundamentals Crash Course (INTERACTIVE)",
-          "duration": "69m"
+          "duration": "69m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=c9Wg6Cb_YlU",
-          "title": "UI / UX Design Tutorial \u2013 Wireframe, Mockup & Design in Figma",
-          "duration": "86m"
+          "title": "UI / UX Design Tutorial – Wireframe, Mockup & Design in Figma",
+          "duration": "86m",
+          "resource_order": 9
         }
       ]
     },
@@ -100,96 +114,114 @@
         {
           "url": "https://mui.com/",
           "description": "Comprehensive documentation for Material-UI, a popular React UI framework.",
-          "title": "MUI: The React component library you always wanted"
+          "title": "MUI: The React component library you always wanted",
+          "resource_order": 1
         },
         {
           "url": "https://developer.android.com/topic/architecture",
           "description": "An overview of recommended app architecture patterns and best practices for Android development.",
-          "title": "Guide to app architecture \u00a0|\u00a0 App architecture \u00a0|\u00a0 Android Developers"
+          "title": "Guide to app architecture  |  App architecture  |  Android Developers",
+          "resource_order": 2
         },
         {
           "url": "https://developer.amazon.com/docs/fire-tv/design-and-user-experience-guidelines.html",
           "description": "Guidelines for designing and enhancing user experiences on Amazon Fire TV.",
-          "title": "Design and User Experience Guidelines (Fire TV) | Amazon Fire TV"
+          "title": "Design and User Experience Guidelines (Fire TV) | Amazon Fire TV",
+          "resource_order": 3
         },
         {
           "url": "https://developer.android.com/develop/ui/compose/documentation",
           "description": "Official documentation for building UI with Jetpack Compose in Android.",
-          "title": "Get started with Jetpack Compose \u00a0|\u00a0 Android Developers"
+          "title": "Get started with Jetpack Compose  |  Android Developers",
+          "resource_order": 4
         },
         {
           "url": "https://www.pencilandpaper.io/articles/ux-design-documentation-guide",
           "description": "A detailed guide on creating effective UX design documentation.",
-          "title": "UX Design Documentation Guide - Pencil & Paper"
+          "title": "UX Design Documentation Guide - Pencil & Paper",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.figma.com/resource-library/ui-design-principles/",
           "description": "An essential resource on fundamental UI design principles for creating effective user interfaces.",
-          "title": "7 Key UI Design Principles + How To Use Them | Figma"
+          "title": "7 Key UI Design Principles + How To Use Them | Figma",
+          "resource_order": 1
         },
         {
           "url": "https://www.toptal.com/designers/ui/principles-of-design",
           "description": "An insightful overview of fundamental design principles for UI designers.",
-          "title": "Attention Required! | Cloudflare"
+          "title": "Attention Required! | Cloudflare",
+          "resource_order": 2
         },
         {
           "url": "https://www.figma.com/ui-design-tool/",
           "description": "An overview of Figma's UI design tool, highlighting its collaborative features and design capabilities.",
-          "title": "Free Online UI Design Tool & Software for Teams | Figma"
+          "title": "Free Online UI Design Tool & Software for Teams | Figma",
+          "resource_order": 3
         },
         {
           "url": "https://dribbble.com/kamushken",
           "description": "A showcase of creative design projects and portfolios by Kamushken on Dribbble.",
-          "title": "Roman Kamushken | Dribbble"
+          "title": "Roman Kamushken | Dribbble",
+          "resource_order": 4
         },
         {
           "url": "https://learn.microsoft.com/en-us/dynamics365/guidance/develop/ui-ux-design-principles",
           "description": "Guidelines for UI/UX design principles in Microsoft Dynamics 365 applications.",
-          "title": "Key UI/UX design principles - Dynamics 365 | Microsoft Learn"
+          "title": "Key UI/UX design principles - Dynamics 365 | Microsoft Learn",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=c9Wg6Cb_YlU",
-          "title": "UI / UX Design Tutorial \u2013 Wireframe, Mockup & Design in Figma",
-          "duration": "86m"
+          "title": "UI / UX Design Tutorial – Wireframe, Mockup & Design in Figma",
+          "duration": "86m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=31wzhvz0vsw&pp=ygULI2ZpZ21hdHV0b3I%3D",
           "title": "Figma Advanced Tutorial: A 2-hour Masterclass",
-          "duration": "132m"
+          "duration": "132m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=xnqdvs4zp2o",
           "title": "The ULTIMATE GUIDE to TYPOGRAPHY in UI Design!",
-          "duration": "45m"
+          "duration": "45m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=QwSN4n2sjR8&pp=0gcJCdgAo7VqN5tD",
           "title": "The UI/UX Crash Course for 2023 - Learn UI/UX Design",
-          "duration": "77m"
+          "duration": "77m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=87shZMjA4bs",
           "title": "Create High Fidelity Designs and Prototypes in Figma",
-          "duration": "217m"
+          "duration": "217m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=PeGfX7W1mJk&pp=ygUII3VpbWFrZXI%3D",
           "title": "Figma Mobile App Design Tutorial",
-          "duration": "46m"
+          "duration": "46m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=v87TjQ6FloI",
           "title": "I Redesigned Digi Yatra App | UI/UX Design Tutorial | Saptarshi Prakash",
-          "duration": "42m"
+          "duration": "42m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=Ds51jG10uBE&pp=0gcJCf0Ao7VqN5tD",
           "title": "My UX Design Case Study Presentation that Got Me Hired | Case Study Walkthrough",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 8
         }
       ]
     },
@@ -198,86 +230,102 @@
         {
           "url": "https://m3.material.io/",
           "description": "An overview of Material Design 3, Google's design system for building intuitive digital experiences.",
-          "title": "Material Design 3 - Google's latest open source design system"
+          "title": "Material Design 3 - Google's latest open source design system",
+          "resource_order": 1
         },
         {
           "url": "https://developer.android.com/design",
           "description": "Guidelines and resources for designing intuitive and engaging Android user interfaces.",
-          "title": "Design & Plan \u00a0|\u00a0 Android Developers"
+          "title": "Design & Plan  |  Android Developers",
+          "resource_order": 2
         },
         {
           "url": "https://www.interaction-design.org/literature/topics/ux-design",
           "description": "An informative overview of user experience (UX) design principles and practices.",
-          "title": "What is User Experience (UX) Design? \u2014 updated 2025 | IxDF"
+          "title": "What is User Experience (UX) Design? — updated 2025 | IxDF",
+          "resource_order": 3
         },
         {
           "url": "https://atlassian.design/",
           "description": "A comprehensive guide to Atlassian's design principles and resources.",
-          "title": "Atlassian Design System"
+          "title": "Atlassian Design System",
+          "resource_order": 4
         },
         {
           "url": "https://www.interaction-design.org/literature/topics/design-thinking",
           "description": "An in-depth exploration of the principles and applications of design thinking.",
-          "title": "What is Design Thinking? \u2014 updated 2025 | IxDF"
+          "title": "What is Design Thinking? — updated 2025 | IxDF",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.toptal.com/designers/ui/principles-of-design",
           "description": "An insightful overview of fundamental design principles for UI/UX designers.",
-          "title": "Attention Required! | Cloudflare"
+          "title": "Attention Required! | Cloudflare",
+          "resource_order": 1
         },
         {
           "url": "https://www.interaction-design.org/literature/topics/ui-design",
           "description": "An in-depth exploration of UI design principles and best practices.",
-          "title": "What is User Interface (UI) Design? | IxDF"
+          "title": "What is User Interface (UI) Design? | IxDF",
+          "resource_order": 2
         },
         {
           "url": "https://www.geeksforgeeks.org/blogs/100-days-of-ui-ux/",
           "description": "A structured 100-day program to enhance UI/UX design skills.",
-          "title": "100 Days of UI/UX: A Complete Guide For Beginners - GeeksforGeeks"
+          "title": "100 Days of UI/UX: A Complete Guide For Beginners - GeeksforGeeks",
+          "resource_order": 3
         },
         {
           "url": "https://www.interaction-design.org/literature/topics/ux-design",
           "description": "An in-depth exploration of user experience (UX) design principles and practices.",
-          "title": "What is User Experience (UX) Design? \u2014 updated 2025 | IxDF"
+          "title": "What is User Experience (UX) Design? — updated 2025 | IxDF",
+          "resource_order": 4
         },
         {
           "url": "https://www.justinmind.com/ux-design",
           "description": "An informative resource on UX design principles and best practices.",
-          "title": "UX design guide for beginners - Justinmind"
+          "title": "UX design guide for beginners - Justinmind",
+          "resource_order": 5
         },
         {
           "url": "https://learnui.design/blog/",
           "description": "A blog offering insights and tutorials on UI/UX design principles and practices.",
-          "title": "Free UI/UX Tutorials & Tools: The Learn UI Design Blog"
+          "title": "Free UI/UX Tutorials & Tools: The Learn UI Design Blog",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=cvm_ECH94x4&pp=0gcJCf0Ao7VqN5tD",
           "title": "The 2025 UI/UX Crash Course for Beginners - Learn Figma",
-          "duration": "64m"
+          "duration": "64m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=cKZEgtQUxlU&pp=ygUMI3VpdXhfY291cnNl",
           "title": "Design 101 Crash Course: Learn UX/UI Design, Figma (6 HOURS!) | Zero To Mastery",
-          "duration": "373m"
+          "duration": "373m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=31wzhvz0vsw",
           "title": "Figma Advanced Tutorial: A 2-hour Masterclass",
-          "duration": "132m"
+          "duration": "132m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=t0aCoqXKFOU&pp=ygUFI3V4cGE%3D",
           "title": "UX Design: How To Get Started (A Full Guide)",
-          "duration": "27m"
+          "duration": "27m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=13bsthjZ6-M",
           "title": "UI UX Full Course 2025 | UI UX Design Tutorial | UI UX Design Course | UI UX Design | Simplilearn",
-          "duration": "525m"
+          "duration": "525m",
+          "resource_order": 5
         }
       ]
     }
@@ -293,7 +341,8 @@
           "To outline marketing strategies for app promotion"
         ],
         "correct_option": 1,
-        "hint": "These guidelines focus on user interface and experience design."
+        "hint": "These guidelines focus on user interface and experience design.",
+        "question_order": 1
       },
       {
         "question": "Which design system is primarily used for Android app design?",
@@ -304,7 +353,8 @@
           "Tailwind CSS"
         ],
         "correct_option": 1,
-        "hint": "This design system was developed by Google."
+        "hint": "This design system was developed by Google.",
+        "question_order": 2
       },
       {
         "question": "What is wireframing in mobile UI/UX design?",
@@ -315,7 +365,8 @@
           "Conducting user interviews"
         ],
         "correct_option": 2,
-        "hint": "It involves sketching the blueprint of the app."
+        "hint": "It involves sketching the blueprint of the app.",
+        "question_order": 3
       },
       {
         "question": "What is a common tool used for prototyping in mobile UI/UX design?",
@@ -326,7 +377,8 @@
           "Sublime Text"
         ],
         "correct_option": 2,
-        "hint": "This tool allows for interactive design and collaboration."
+        "hint": "This tool allows for interactive design and collaboration.",
+        "question_order": 4
       },
       {
         "question": "What is the main goal of usability testing in mobile app development?",
@@ -337,7 +389,8 @@
           "To enhance the app's graphical elements"
         ],
         "correct_option": 2,
-        "hint": "This testing focuses on the user's interaction with the app."
+        "hint": "This testing focuses on the user's interaction with the app.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -350,7 +403,8 @@
           "To enforce the use of only native iOS components"
         ],
         "correct_option": 1,
-        "hint": "Think about what ensures a consistent user experience across different apps on iOS."
+        "hint": "Think about what ensures a consistent user experience across different apps on iOS.",
+        "question_order": 1
       },
       {
         "question": "Which principle of Material Design focuses on the use of animations to provide feedback and continuity?",
@@ -361,7 +415,8 @@
           "Adaptive design"
         ],
         "correct_option": 2,
-        "hint": "Consider how animations are used to guide users and enhance understanding."
+        "hint": "Consider how animations are used to guide users and enhance understanding.",
+        "question_order": 2
       },
       {
         "question": "What is the primary goal of wireframing in mobile UI/UX design?",
@@ -372,7 +427,8 @@
           "To finalize the visual design of the app"
         ],
         "correct_option": 1,
-        "hint": "Wireframing is often one of the first steps in the design process."
+        "hint": "Wireframing is often one of the first steps in the design process.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is NOT a typical method used in usability testing?",
@@ -383,7 +439,8 @@
           "Iterative design"
         ],
         "correct_option": 3,
-        "hint": "Think about which method is more related to design processes than testing."
+        "hint": "Think about which method is more related to design processes than testing.",
+        "question_order": 4
       },
       {
         "question": "In prototyping, what is the main advantage of using interactive prototypes over static wireframes?",
@@ -394,7 +451,8 @@
           "They ensure the app will function correctly"
         ],
         "correct_option": 1,
-        "hint": "Consider how much more information you can gather from a prototype that users can interact with."
+        "hint": "Consider how much more information you can gather from a prototype that users can interact with.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -407,7 +465,8 @@
           "Providing feedback for user actions"
         ],
         "correct_option": 1,
-        "hint": "Consider the accessibility aspect of UI design."
+        "hint": "Consider the accessibility aspect of UI design.",
+        "question_order": 1
       },
       {
         "question": "When implementing Material Design for Android, what is the significance of elevation in UI elements?",
@@ -418,7 +477,8 @@
           "It affects the alignment of text"
         ],
         "correct_option": 1,
-        "hint": "Think about how elevation affects the visual hierarchy and depth perception."
+        "hint": "Think about how elevation affects the visual hierarchy and depth perception.",
+        "question_order": 2
       },
       {
         "question": "In wireframing, what is the main purpose of using a low-fidelity prototype?",
@@ -429,7 +489,8 @@
           "To finalize visual design elements"
         ],
         "correct_option": 2,
-        "hint": "Low-fidelity prototypes are often used early in the design process."
+        "hint": "Low-fidelity prototypes are often used early in the design process.",
+        "question_order": 3
       },
       {
         "question": "Which usability testing method involves observing users as they interact with a product in a natural environment?",
@@ -440,7 +501,8 @@
           "Survey study"
         ],
         "correct_option": 2,
-        "hint": "This method involves in-depth interaction with the user in their actual environment."
+        "hint": "This method involves in-depth interaction with the user in their actual environment.",
+        "question_order": 4
       },
       {
         "question": "What is a key consideration when designing for both iOS and Android platforms simultaneously?",
@@ -451,7 +513,8 @@
           "Prioritizing one platform over the other"
         ],
         "correct_option": 2,
-        "hint": "Think about the importance of maintaining the native feel for each platform."
+        "hint": "Think about the importance of maintaining the native feel for each platform.",
+        "question_order": 5
       }
     ]
   }

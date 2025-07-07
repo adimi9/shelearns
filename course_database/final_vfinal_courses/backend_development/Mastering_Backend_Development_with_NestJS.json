@@ -28,76 +28,90 @@
         {
           "url": "https://courses.nestjs.com/",
           "description": "An official platform offering comprehensive courses on building applications with NestJS.",
-          "title": "Official Courses | NestJS - Learn to build Node.js apps at any scale"
+          "title": "Official Courses | NestJS - Learn to build Node.js apps at any scale",
+          "resource_order": 1
         },
         {
           "url": "https://firebase.google.com/docs",
           "description": "Comprehensive documentation for using Firebase to build and manage mobile and web applications.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 2
         }
       ],
       "notes": [
         {
           "url": "https://masteringbackend.com/posts/backend-development-ultimate-guide",
           "description": "An ultimate guide to mastering backend development skills and technologies.",
-          "title": "Backend Development: Ultimate Guide (2025) - Mastering Backend"
+          "title": "Backend Development: Ultimate Guide (2025) - Mastering Backend",
+          "resource_order": 1
         },
         {
           "url": "https://courses.nestjs.com/",
           "description": "An online course platform offering in-depth tutorials on building applications with NestJS.",
-          "title": "Official Courses | NestJS - Learn to build Node.js apps at any scale"
+          "title": "Official Courses | NestJS - Learn to build Node.js apps at any scale",
+          "resource_order": 2
         },
         {
           "url": "https://www.evergrowingdev.com/p/6-best-online-resources-to-learn",
           "description": "A curated list of the six best online resources for learning programming.",
-          "title": "\ud83e\udd81 6 Best Online Resources to Learn NestJS for Free"
+          "title": "🦁 6 Best Online Resources to Learn NestJS for Free",
+          "resource_order": 3
         },
         {
           "url": "https://www.linkedin.com/posts/roshnivr_namaste-node-js-activity-7230877058720010240-cPyw",
           "description": "An informative post introducing the basics of Node.js programming.",
-          "title": "I have a situation where I need to learn NestJS to be part of an upcoming project. | Roshni V R"
+          "title": "I have a situation where I need to learn NestJS to be part of an upcoming project. | Roshni V R",
+          "resource_order": 4
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=8_X0nSrzrCw",
           "title": "Nest.js Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours",
-          "duration": "179m"
+          "duration": "179m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=cAj6gzAMNfA",
           "title": "Full Stack TypeScript - Let's build a \"Threads\" app with Angular & Nest JS",
-          "duration": "166m"
+          "duration": "166m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=9BD9eK9VqXA",
           "title": "Backend Full Course | NodeJS ExpressJS PostgreSQL Prisma & Docker",
-          "duration": "317m"
+          "duration": "317m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=sFnAHC9lLaw",
-          "title": "Learn NestJS \u2013 Complete Course",
-          "duration": "836m"
+          "title": "Learn NestJS – Complete Course",
+          "duration": "836m",
+          "resource_order": 4
         },
         {
           "url": "https://m.youtube.com/watch?v=dP_QfmnghnQ",
-          "title": "\ud83d\ude80 GraphQL with NestJS Crash Course \u2013 Build Powerful APIs!",
-          "duration": "61m"
+          "title": "🚀 GraphQL with NestJS Crash Course – Build Powerful APIs!",
+          "duration": "61m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=T49rxi1tQpE",
           "title": "\"Mastering GraphQL with NestJS: Building a High-Performance API\"",
-          "duration": "177m"
+          "duration": "177m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=UgX5lgv4uVM&pp=0gcJCfwAo7VqN5tD",
           "title": "Spring Boot Tutorial for Beginners - Crash Course using Spring Boot 3",
-          "duration": "223m"
+          "duration": "223m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=f2EqECiTBL8",
           "title": "Node.js Full Course for Beginners | Complete All-in-One Tutorial | 7 Hours",
-          "duration": "410m"
+          "duration": "410m",
+          "resource_order": 8
         }
       ]
     },
@@ -106,106 +120,126 @@
         {
           "url": "https://github.com/nestjs/awesome-nestjs",
           "description": "A curated list of awesome NestJS resources, libraries, and tools.",
-          "title": "GitHub - nestjs/awesome-nestjs: A curated list of awesome things related to NestJS \ud83d\ude0e"
+          "title": "GitHub - nestjs/awesome-nestjs: A curated list of awesome things related to NestJS 😎",
+          "resource_order": 1
         },
         {
           "url": "https://firebase.google.com/docs",
           "description": "Official documentation for Firebase, detailing its features and integration processes.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts",
           "description": "An overview of fundamental concepts in Azure API Management.",
-          "title": "Azure API Management - Overview and key concepts | Microsoft Learn"
+          "title": "Azure API Management - Overview and key concepts | Microsoft Learn",
+          "resource_order": 3
         },
         {
           "url": "https://docs.nestjs.com/recipes/cqrs",
           "description": "An instructional guide on implementing the CQRS pattern in NestJS applications.",
-          "title": "CQRS | NestJS - A progressive Node.js framework"
+          "title": "CQRS | NestJS - A progressive Node.js framework",
+          "resource_order": 4
         },
         {
           "url": "https://shopify.dev/docs/api",
           "description": "Official documentation for Shopify's APIs, covering usage and integration details.",
-          "title": "Shopify API, libraries, and tools"
+          "title": "Shopify API, libraries, and tools",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.linkedin.com/posts/nishant-tiwari24_21st-july-2023-the-next-day-after-wasting-activity-7221362157257474051-hhVb",
           "description": "A reflective post discussing productivity strategies following a day of inefficiency.",
-          "title": "21st July 2023, The next day after wasting the 1st semester. | Nishant Tiwari"
+          "title": "21st July 2023, The next day after wasting the 1st semester. | Nishant Tiwari",
+          "resource_order": 1
         },
         {
           "url": "https://github.com/nestjs/awesome-nestjs",
           "description": "A curated list of excellent resources, libraries, and tools for NestJS development.",
-          "title": "GitHub - nestjs/awesome-nestjs: A curated list of awesome things related to NestJS \ud83d\ude0e"
+          "title": "GitHub - nestjs/awesome-nestjs: A curated list of awesome things related to NestJS 😎",
+          "resource_order": 2
         },
         {
           "url": "https://masteringbackend.com/posts/backend-development-ultimate-guide",
           "description": "An ultimate guide to mastering backend development techniques and best practices.",
-          "title": "Backend Development: Ultimate Guide (2025) - Mastering Backend"
+          "title": "Backend Development: Ultimate Guide (2025) - Mastering Backend",
+          "resource_order": 3
         },
         {
           "url": "https://github.com/unusualcodeorg/wimm-node-app",
           "description": "A Node.js application for managing tasks and workflows using the WIMM framework.",
-          "title": "GitHub - fifocode/wimm-apis: Modern NodeJS Backend Development - WhereIsMyMotivation - Nestjs Backend Architecture - Learn to build a modular and secure backend services using very popular Nestjs framework."
+          "title": "GitHub - fifocode/wimm-apis: Modern NodeJS Backend Development - WhereIsMyMotivation - Nestjs Backend Architecture - Learn to build a modular and secure backend services using very popular Nestjs framework.",
+          "resource_order": 4
         },
         {
           "url": "https://www.facebook.com/groups/2151269675001891/posts/4032854283510078/",
           "description": "A Facebook group post discussing technical aspects or updates related to a specific topic.",
-          "title": "DiesInEveryFilm Customs | Trench Club From Pipe Fittings Using Basic Tools | Facebook"
+          "title": "DiesInEveryFilm Customs | Trench Club From Pipe Fittings Using Basic Tools | Facebook",
+          "resource_order": 5
         },
         {
           "url": "https://www.djamware.com/post/6865112f09c9304f72317be7/understanding-dependency-injection-in-nestjs",
           "description": "An in-depth explanation of dependency injection in the NestJS framework.",
-          "title": "Ionic Java Rust Quarkus Grails MongoDB Javascript Angular Node React Vue.js"
+          "title": "Ionic Java Rust Quarkus Grails MongoDB Javascript Angular Node React Vue.js",
+          "resource_order": 6
         },
         {
           "url": "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
           "description": "Discussion on resolving file name casing conflicts in C++ projects on Stack Overflow.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=rOpEN1JDaD0",
           "title": "Complete Backend Course | Build and Deploy Your First Production-Ready API",
-          "duration": "188m"
+          "duration": "188m",
+          "resource_order": 1
         },
         {
           "url": "https://m.youtube.com/watch?v=843nec-IvW0",
           "title": "Next.js Full Course for Beginners | Nextjs 13 Tutorial | 7 Hours",
-          "duration": "423m"
+          "duration": "423m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=U6LbW2IFUQw",
           "title": "This is Hands Down the BEST Way to Build AI Agents",
-          "duration": "51m"
+          "duration": "51m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=GTDYsV5pyZU",
           "title": "How I Set up Production Node.js Project (2025)",
-          "duration": "56m"
+          "duration": "56m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=iYX-3hCVmK8",
-          "title": "\ud83d\udd34 Let's build an AI Agent that can use Tools in NEXT.JS 15! (LangChain, Clerk, Convex, TS, IBM)",
-          "duration": "322m"
+          "title": "🔴 Let's build an AI Agent that can use Tools in NEXT.JS 15! (LangChain, Clerk, Convex, TS, IBM)",
+          "duration": "322m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=JyolNYRbAcs&pp=0gcJCf0Ao7VqN5tD",
           "title": "Build a FULL Stack App for your n8n AI Agent in 20 Minutes",
-          "duration": "20m"
+          "duration": "20m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=3289vhOUdKA",
           "title": "Cursor AI Tutorial for Beginners [2025 Edition]",
-          "duration": "27m"
+          "duration": "27m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=qwfE7fSVaZM",
           "title": "Node.js / Express Course - Build 4 Projects",
-          "duration": "600m"
+          "duration": "600m",
+          "resource_order": 8
         }
       ]
     },
@@ -214,111 +248,132 @@
         {
           "url": "https://courses.nestjs.com/",
           "description": "An educational platform offering comprehensive courses on building applications with the NestJS framework.",
-          "title": "Official Courses | NestJS - Learn to build Node.js apps at any scale"
+          "title": "Official Courses | NestJS - Learn to build Node.js apps at any scale",
+          "resource_order": 1
         },
         {
           "url": "https://github.com/nestjs/awesome-nestjs",
           "description": "A curated list of awesome NestJS resources and libraries.",
-          "title": "GitHub - nestjs/awesome-nestjs: A curated list of awesome things related to NestJS \ud83d\ude0e"
+          "title": "GitHub - nestjs/awesome-nestjs: A curated list of awesome things related to NestJS 😎",
+          "resource_order": 2
         },
         {
           "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
           "description": "A guide on how to become a full-stack developer and secure a job in the field.",
-          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) \u2013 A Handbook for Beginners"
+          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners",
+          "resource_order": 3
         },
         {
           "url": "https://www.linkedin.com/posts/roshnivr_namaste-node-js-activity-7230877058720010240-cPyw",
           "description": "An informative post about the features and benefits of using Node.js.",
-          "title": "I have a situation where I need to learn NestJS to be part of an upcoming project. | Roshni V R"
+          "title": "I have a situation where I need to learn NestJS to be part of an upcoming project. | Roshni V R",
+          "resource_order": 4
         },
         {
           "url": "https://grafana.com/docs/k6/latest/",
           "description": "Comprehensive documentation for using k6, an open-source load testing tool, with Grafana.",
-          "title": "Grafana k6 | Grafana k6 documentation"
+          "title": "Grafana k6 | Grafana k6 documentation",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://masteringbackend.com/posts/nestjs-typescrpt-ultimate-guide",
           "description": "An ultimate guide to building scalable applications using NestJS and TypeScript.",
-          "title": "NestJS Typescript: The Ultimate Guide (2023) - Mastering Backend"
+          "title": "NestJS Typescript: The Ultimate Guide (2023) - Mastering Backend",
+          "resource_order": 1
         },
         {
           "url": "https://courses.nestjs.com/",
           "description": "An educational platform providing in-depth courses on building scalable server-side applications with NestJS.",
-          "title": "Official Courses | NestJS - Learn to build Node.js apps at any scale"
+          "title": "Official Courses | NestJS - Learn to build Node.js apps at any scale",
+          "resource_order": 2
         },
         {
           "url": "https://masteringbackend.com/posts/backend-development-ultimate-guide",
           "description": "An ultimate guide to mastering backend development.",
-          "title": "Backend Development: Ultimate Guide (2025) - Mastering Backend"
+          "title": "Backend Development: Ultimate Guide (2025) - Mastering Backend",
+          "resource_order": 3
         },
         {
           "url": "https://www.linkedin.com/posts/roshnivr_namaste-node-js-activity-7230877058720010240-cPyw",
           "description": "An introduction to Node.js fundamentals for beginners.",
-          "title": "I have a situation where I need to learn NestJS to be part of an upcoming project. | Roshni V R"
+          "title": "I have a situation where I need to learn NestJS to be part of an upcoming project. | Roshni V R",
+          "resource_order": 4
         },
         {
           "url": "https://www.tomray.dev/nestjs-course",
           "description": "An in-depth course on building scalable applications using NestJS.",
-          "title": "NestJS Course: Learn By Building Projects"
+          "title": "NestJS Course: Learn By Building Projects",
+          "resource_order": 5
         },
         {
           "url": "https://code99.io/blogs",
           "description": "A collection of insightful blog posts covering various software development topics.",
-          "title": "Blogs - Code99"
+          "title": "Blogs - Code99",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=8_X0nSrzrCw",
           "title": "Nest.js Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours",
-          "duration": "179m"
+          "duration": "179m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=TOmbaKtcpUg",
-          "title": "Build a Todo App from Scratch: Nest.js & SQLite Mastery \ud83d\ude80",
-          "duration": "33m"
+          "title": "Build a Todo App from Scratch: Nest.js & SQLite Mastery 🚀",
+          "duration": "33m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=yuVVKB0EaOQ",
           "title": "Build Nest.js Microservices With RabbitMQ, MongoDB & Docker | Tutorial",
-          "duration": "84m"
+          "duration": "84m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=dP_QfmnghnQ&pp=0gcJCU8JAYcqIYzv",
-          "title": "\ud83d\ude80 GraphQL with NestJS Crash Course \u2013 Build Powerful APIs!",
-          "duration": "61m"
+          "title": "🚀 GraphQL with NestJS Crash Course – Build Powerful APIs!",
+          "duration": "61m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=UuYH37ihmIs",
           "title": "NestJS Prisma Tutorial",
-          "duration": "25m"
+          "duration": "25m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=Idu7XNFi31c",
           "title": "Mastering Database Queries in NestJS with Knex Query Builder: A Complete Tutorial #19",
-          "duration": "27m"
+          "duration": "27m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=rlYVelhroDU",
           "title": "Angular and NestJS E-commerce app: MASTER the Stack, Build a Pet Store! (Part 3/3)",
-          "duration": "167m"
+          "duration": "167m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=T49rxi1tQpE",
           "title": "\"Mastering GraphQL with NestJS: Building a High-Performance API\"",
-          "duration": "177m"
+          "duration": "177m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=UgX5lgv4uVM",
           "title": "Spring Boot Tutorial for Beginners - Crash Course using Spring Boot 3",
-          "duration": "223m"
+          "duration": "223m",
+          "resource_order": 9
         },
         {
           "url": "https://www.youtube.com/watch?v=0ap-bTGNZF0",
           "title": "Microsoft 365   The Absolute Beginner's Guide for Admins",
-          "duration": "47m"
+          "duration": "47m",
+          "resource_order": 10
         }
       ]
     }
@@ -334,7 +389,8 @@
           "Dependency Injection"
         ],
         "correct_option": 0,
-        "hint": "This pattern is commonly used to separate concerns in web applications."
+        "hint": "This pattern is commonly used to separate concerns in web applications.",
+        "question_order": 1
       },
       {
         "question": "Which command is used to create a new NestJS project with TypeScript?",
@@ -345,7 +401,8 @@
           "ng new project-name"
         ],
         "correct_option": 0,
-        "hint": "The command starts with the NestJS CLI keyword."
+        "hint": "The command starts with the NestJS CLI keyword.",
+        "question_order": 2
       },
       {
         "question": "What is Dependency Injection in NestJS used for?",
@@ -356,7 +413,8 @@
           "To compile TypeScript code"
         ],
         "correct_option": 1,
-        "hint": "It's a design pattern that helps manage class dependencies."
+        "hint": "It's a design pattern that helps manage class dependencies.",
+        "question_order": 3
       },
       {
         "question": "Which module in NestJS is primarily used for creating RESTful APIs?",
@@ -367,7 +425,8 @@
           "ControllerModule"
         ],
         "correct_option": 3,
-        "hint": "Controllers in NestJS are used to handle incoming requests."
+        "hint": "Controllers in NestJS are used to handle incoming requests.",
+        "question_order": 4
       },
       {
         "question": "Which of the following is a common ORM used with NestJS for database integration?",
@@ -378,7 +437,8 @@
           "Django ORM"
         ],
         "correct_option": 1,
-        "hint": "This ORM is known for supporting TypeScript natively."
+        "hint": "This ORM is known for supporting TypeScript natively.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -391,7 +451,8 @@
           "Reduced memory usage"
         ],
         "correct_option": 1,
-        "hint": "Consider how NestJS manages different application features and organizes code."
+        "hint": "Consider how NestJS manages different application features and organizes code.",
+        "question_order": 1
       },
       {
         "question": "Which command is used to create a new NestJS project with TypeScript?",
@@ -402,7 +463,8 @@
           "nestjs new project-name"
         ],
         "correct_option": 0,
-        "hint": "The command starts with 'nest' and is followed by 'new'."
+        "hint": "The command starts with 'nest' and is followed by 'new'.",
+        "question_order": 2
       },
       {
         "question": "How does NestJS implement Dependency Injection?",
@@ -413,7 +475,8 @@
           "By utilizing higher-order functions"
         ],
         "correct_option": 2,
-        "hint": "NestJS uses a container to manage dependencies automatically."
+        "hint": "NestJS uses a container to manage dependencies automatically.",
+        "question_order": 3
       },
       {
         "question": "Which decorator is used to define a route in a NestJS controller for handling HTTP GET requests?",
@@ -424,7 +487,8 @@
           "@Param()"
         ],
         "correct_option": 1,
-        "hint": "Think about the HTTP method that retrieves data."
+        "hint": "Think about the HTTP method that retrieves data.",
+        "question_order": 4
       },
       {
         "question": "What role does TypeORM play in a NestJS application?",
@@ -435,7 +499,8 @@
           "It manages error logging"
         ],
         "correct_option": 1,
-        "hint": "Consider what ORM stands for and its purpose in applications."
+        "hint": "Consider what ORM stands for and its purpose in applications.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -448,7 +513,8 @@
           "Event-driven design"
         ],
         "correct_option": 0,
-        "hint": "It involves organizing code into self-contained units."
+        "hint": "It involves organizing code into self-contained units.",
+        "question_order": 1
       },
       {
         "question": "In a NestJS project, where would you typically configure the TypeORM settings for database connection?",
@@ -459,7 +525,8 @@
           "ormconfig.json"
         ],
         "correct_option": 3,
-        "hint": "It's a JSON file commonly used for ORM configuration."
+        "hint": "It's a JSON file commonly used for ORM configuration.",
+        "question_order": 2
       },
       {
         "question": "Which NestJS feature allows the injection of dependencies into classes to promote reusability and testability?",
@@ -470,7 +537,8 @@
           "Interceptors"
         ],
         "correct_option": 2,
-        "hint": "This feature typically uses decorators to define dependencies."
+        "hint": "This feature typically uses decorators to define dependencies.",
+        "question_order": 3
       },
       {
         "question": "How does NestJS facilitate the creation of RESTful APIs, specifically in terms of request handling?",
@@ -481,7 +549,8 @@
           "Leverages middleware for authentication"
         ],
         "correct_option": 1,
-        "hint": "Decorators are a key feature in TypeScript used for defining routes."
+        "hint": "Decorators are a key feature in TypeScript used for defining routes.",
+        "question_order": 4
       },
       {
         "question": "When implementing authentication in a NestJS application, which module is crucial for securing endpoints and managing user sessions?",
@@ -492,7 +561,8 @@
           "RolesGuard"
         ],
         "correct_option": 2,
-        "hint": "This module often integrates Passport and JWT for handling authentication. It is a custom module typically created by the developer."
+        "hint": "This module often integrates Passport and JWT for handling authentication. It is a custom module typically created by the developer.",
+        "question_order": 5
       }
     ]
   },

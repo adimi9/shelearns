@@ -1,9 +1,20 @@
 import json
-from app.rag_system import RAGSystem # Assuming src.rag_system is the correct path
+from personalisation_service.app.rag_output import RAGSystem # Assuming src.rag_system is the correct path
 
 # Initialize the RAG system
 rag = RAGSystem()
 
+"""
+test prompt:
+{
+  "questionnaire": {
+    "What are you interested in learning?": "Game Development",
+    "Why are you learning this?": "To improve my skills",
+    "How much experience do you have in this area?": "I am a complete beginner",
+    "Are there any specific technologies that you want to learn?": ["Unity", "Blender", "GameMaker"] 
+  }
+}
+"""
 # --- Define a list of different user scenarios (question prompts) ---
 # We will create prompts for 5 different categories based on your QuestionFlow.tsx
 test_scenarios = [

@@ -27,96 +27,114 @@
         {
           "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/multiplayer-programming-quick-start-for-unreal-engine",
           "description": "A quick-start guide for implementing multiplayer features in Unreal Engine.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://developers.meta.com/horizon/documentation/unreal/unreal-audio/",
           "description": "Documentation on integrating and using audio features in Unreal Engine for Horizon Worlds.",
-          "title": "Working with Audio in Unreal | Meta Horizon OS Developers"
+          "title": "Working with Audio in Unreal | Meta Horizon OS Developers",
+          "resource_order": 2
         },
         {
           "url": "https://discussions.unity.com/t/what-exactly-does-scripting-backend-mean-what-does-unity-implement-differently-from-mono/797247",
           "description": "An explanation of Unity's scripting backend and its differences from Mono.",
-          "title": "What exactly does \"scripting backend\" mean? What does Unity implement differently from Mono? - Unity Engine - Unity Discussions"
+          "title": "What exactly does \"scripting backend\" mean? What does Unity implement differently from Mono? - Unity Engine - Unity Discussions",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://coloso.global/en/event/lowestpriceweek202503-2",
           "description": "Announcement of a special promotional event offering discounted prices on Coloso courses.",
-          "title": "\u26a0\ufe0fLowest Price Week\u26a0\ufe0f | Coloso."
+          "title": "⚠️Lowest Price Week⚠️ | Coloso.",
+          "resource_order": 1
         },
         {
           "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/multiplayer-programming-quick-start-for-unreal-engine",
           "description": "A quick-start guide for multiplayer programming in Unreal Engine.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://coloso.global/en/event/aprilfoolsday202504-couponpack",
           "description": "Details about a special April Fools' Day coupon pack event.",
-          "title": "\ud83e\udde2April Fool\u2019s Price Glitch! (Until April 8th)\ud83d\udca5 | Coloso."
+          "title": "🧢April Fool’s Price Glitch! (Until April 8th)💥 | Coloso.",
+          "resource_order": 3
         },
         {
           "url": "https://www.coursera.org/partners/packt",
           "description": "An educational platform offering technical courses and resources in collaboration with Packt.",
-          "title": "Packt Online Courses | Coursera"
+          "title": "Packt Online Courses | Coursera",
+          "resource_order": 4
         },
         {
           "url": "https://learn.unity.com/",
           "description": "An interactive platform offering tutorials and courses for mastering Unity development.",
-          "title": "Learn game development w/ Unity | Courses & tutorials in game design, VR, AR, & Real-time 3D | Unity Learn"
+          "title": "Learn game development w/ Unity | Courses & tutorials in game design, VR, AR, & Real-time 3D | Unity Learn",
+          "resource_order": 5
         },
         {
           "url": "https://www.coursera.org/courses?query=game%20development",
           "description": "An online platform offering various courses on game development.",
-          "title": "Best Game Development Courses & Certificates Online [2025] | Coursera"
+          "title": "Best Game Development Courses & Certificates Online [2025] | Coursera",
+          "resource_order": 6
         },
         {
           "url": "https://www.linkedin.com/posts/cotterzz_so-i-gave-up-on-godot-and-having-already-activity-7194770448344043520-eNJ0",
           "description": "A personal reflection on transitioning from Godot to Unreal Engine for game development.",
-          "title": "So I gave up on Godot, and having already decided Unity and Unreal weren't for me, that left very little choice on the game engine front. | John Cotterell"
+          "title": "So I gave up on Godot, and having already decided Unity and Unreal weren't for me, that left very little choice on the game engine front. | John Cotterell",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=6UlU_FsicK8&pp=0gcJCfwAo7VqN5tD",
-          "title": "Unreal Engine 5 \u2013 Full Course for Beginners",
-          "duration": "683m"
+          "title": "Unreal Engine 5 – Full Course for Beginners",
+          "duration": "683m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=kt0FrkQgw8w&pp=0gcJCfwAo7VqN5tD",
           "title": "Build & Deploy an Amazing 3D Portfolio with React.js & Three.js | Beginner Three.js Tutorial",
-          "duration": "268m"
+          "duration": "268m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=uGcpFo7a9Ow",
           "title": "Course Preview - Javascript 3D Game Development With Babylon JS",
-          "duration": "69m"
+          "duration": "69m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=sQ1zvdS8eU8",
           "title": "Build and Deploy a Full Stack WhatsApp Clone | Video Calls, Screen Sharing | React.js, TypeScript",
-          "duration": "320m"
+          "duration": "320m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=T323mpYjgbI&pp=0gcJCfwAo7VqN5tD",
           "title": "The Windsurf Editor Explained",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=EszVNFnxjK4",
           "title": "Best AI assistant for developers is free",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=rQxUD091PQI",
           "title": "PHP MVC Framework - #11 - Database library and MySQL",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=G5BPwk_bTYk",
           "title": "This AI Agent Analyzed $14k in Facebook Ad Spend in 60 Seconds",
-          "duration": "6m"
+          "duration": "6m",
+          "resource_order": 8
         }
       ]
     },
@@ -125,76 +143,90 @@
         {
           "url": "https://github.com/ocornut/imgui/issues/7892",
           "description": "Discussion and troubleshooting for a specific issue in the Dear ImGui library.",
-          "title": "10 years of Dear ImGui (long post) \u00b7 Issue #7892 \u00b7 ocornut/imgui"
+          "title": "10 years of Dear ImGui (long post) · Issue #7892 · ocornut/imgui",
+          "resource_order": 1
         },
         {
           "url": "https://developers.meta.com/horizon/documentation/unreal/unreal-audio/",
           "description": "Documentation on integrating Unreal Engine audio features with Meta Horizon Worlds.",
-          "title": "Working with Audio in Unreal | Meta Horizon OS Developers"
+          "title": "Working with Audio in Unreal | Meta Horizon OS Developers",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/ocornut/imgui",
           "description": "A popular C++ library for creating graphical user interfaces with minimal code.",
-          "title": "GitHub - ocornut/imgui: Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies"
+          "title": "GitHub - ocornut/imgui: Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+          "resource_order": 3
         },
         {
           "url": "https://developers.meta.com/horizon/documentation/unreal/meta-xr-audio-sdk-unreal/",
           "description": "Documentation for integrating Meta XR Audio SDK with Unreal Engine.",
-          "title": "Meta XR Audio SDK Overview | Meta Horizon OS Developers"
+          "title": "Meta XR Audio SDK Overview | Meta Horizon OS Developers",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://edw.is/learning-vulkan/",
           "description": "An in-depth tutorial series for learning Vulkan graphics API from scratch.",
-          "title": "How I learned Vulkan and wrote a small game engine with it"
+          "title": "How I learned Vulkan and wrote a small game engine with it",
+          "resource_order": 1
         },
         {
           "url": "https://developers.meta.com/horizon/documentation/unreal/unreal-audio/",
           "description": "Documentation on integrating audio features in Unreal Engine for Meta Horizon experiences.",
-          "title": "Working with Audio in Unreal | Meta Horizon OS Developers"
+          "title": "Working with Audio in Unreal | Meta Horizon OS Developers",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/vinjn/awesome-vulkan",
           "description": "A curated list of awesome resources and tools for Vulkan development.",
-          "title": "GitHub - vinjn/awesome-vulkan: Awesome Vulkan ecosystem"
+          "title": "GitHub - vinjn/awesome-vulkan: Awesome Vulkan ecosystem",
+          "resource_order": 3
         },
         {
           "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5.4-release-notes?application_version=5.4",
           "description": "Detailed release notes for Unreal Engine 5.4, highlighting new features and improvements.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 4
         },
         {
           "url": "https://github.com/ocornut/imgui/issues/7892",
           "description": "Discussion and solutions for implementing scrollable text in ImGui.",
-          "title": "10 years of Dear ImGui (long post) \u00b7 Issue #7892 \u00b7 ocornut/imgui"
+          "title": "10 years of Dear ImGui (long post) · Issue #7892 · ocornut/imgui",
+          "resource_order": 5
         },
         {
           "url": "https://news.ycombinator.com/item?id=44038209",
           "description": "Discussion on Hacker News about the impact of AI on software engineering jobs.",
-          "title": "Making video games (without an engine) in 2025 | Hacker News"
+          "title": "Making video games (without an engine) in 2025 | Hacker News",
+          "resource_order": 6
         },
         {
           "url": "https://aws.amazon.com/gamelift/servers/getting-started/",
           "description": "A guide to getting started with Amazon GameLift for deploying and managing game servers.",
-          "title": "Amazon GameLift Getting Started | Amazon Web Services"
+          "title": "Amazon GameLift Getting Started | Amazon Web Services",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=8RNSkWLGROs&pp=0gcJCdgAo7VqN5tD",
           "title": "Unreal Engine 5: Mastering Automated Testing Tools for Games | QA and Gameplay Testing Guide",
-          "duration": "26m"
+          "duration": "26m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=bZzyPscbtI8",
           "title": "Building AI Agents in Pure Python - Beginner Course",
-          "duration": "46m"
+          "duration": "46m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=picePk8lb48",
           "title": "Build Anything with Grok 3, Here's How",
-          "duration": "30m"
+          "duration": "30m",
+          "resource_order": 3
         }
       ]
     },
@@ -203,106 +235,126 @@
         {
           "url": "https://github.com/mikeroyal/Unreal-Engine-Guide",
           "description": "A detailed guide to developing applications and games using Unreal Engine.",
-          "title": "GitHub - mikeroyal/Unreal-Engine-Guide: Unreal Engine 5 Guide. Learn to develop games for Windows, Linux, macOS, iOS, Android, Xbox Series X|S, PlayStation 5, Nintendo Switch."
+          "title": "GitHub - mikeroyal/Unreal-Engine-Guide: Unreal Engine 5 Guide. Learn to develop games for Windows, Linux, macOS, iOS, Android, Xbox Series X|S, PlayStation 5, Nintendo Switch.",
+          "resource_order": 1
         },
         {
           "url": "https://news.ycombinator.com/item?id=42431103",
           "description": "Discussion on Hacker News about the challenges of maintaining large open-source projects.",
-          "title": "Ask HN: SWEs how do you future-proof your career in light of LLMs? | Hacker News"
+          "title": "Ask HN: SWEs how do you future-proof your career in light of LLMs? | Hacker News",
+          "resource_order": 2
         },
         {
           "url": "https://grafana.com/docs/grafana/latest/getting-started/get-started-grafana-prometheus/",
           "description": "A beginner's guide to setting up Grafana with Prometheus for data visualization and monitoring.",
-          "title": "Get started with Grafana and Prometheus | Grafana documentation"
+          "title": "Get started with Grafana and Prometheus | Grafana documentation",
+          "resource_order": 3
         },
         {
           "url": "https://dev.epicgames.com/community/learning/paths/Mk1/unreal-engine-fortnite-unreal-fest-seattle-2024-talks-and-demos",
           "description": "An overview of talks and demos from Unreal Fest Seattle 2024 focusing on Unreal Engine and Fortnite.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 4
         },
         {
           "url": "https://workshops.aws/",
           "description": "A platform offering a variety of hands-on workshops for learning AWS services and solutions.",
-          "title": "AWS Workshops"
+          "title": "AWS Workshops",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://edw.is/learning-vulkan/",
           "description": "An introductory guide to learning Vulkan, a graphics and compute API.",
-          "title": "How I learned Vulkan and wrote a small game engine with it"
+          "title": "How I learned Vulkan and wrote a small game engine with it",
+          "resource_order": 1
         },
         {
           "url": "https://coloso.global/en/event/lowestpriceweek202503-2",
           "description": "Details about Coloso's Lowest Price Week event offering discounts on creative courses.",
-          "title": "\u26a0\ufe0fLowest Price Week\u26a0\ufe0f | Coloso."
+          "title": "⚠️Lowest Price Week⚠️ | Coloso.",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/mikeroyal/Unreal-Engine-Guide",
           "description": "A detailed guide for developers on using Unreal Engine for game development.",
-          "title": "GitHub - mikeroyal/Unreal-Engine-Guide: Unreal Engine 5 Guide. Learn to develop games for Windows, Linux, macOS, iOS, Android, Xbox Series X|S, PlayStation 5, Nintendo Switch."
+          "title": "GitHub - mikeroyal/Unreal-Engine-Guide: Unreal Engine 5 Guide. Learn to develop games for Windows, Linux, macOS, iOS, Android, Xbox Series X|S, PlayStation 5, Nintendo Switch.",
+          "resource_order": 3
         },
         {
           "url": "https://coloso.global/en/event/aprilfoolsday202504-couponpack",
           "description": "A promotional event offering exclusive coupon packs for April Fools' Day 2025.",
-          "title": "\ud83e\udde2April Fool\u2019s Price Glitch! (Until April 8th)\ud83d\udca5 | Coloso."
+          "title": "🧢April Fool’s Price Glitch! (Until April 8th)💥 | Coloso.",
+          "resource_order": 4
         },
         {
           "url": "https://www.coursera.org/partners/packt",
           "description": "An overview of online courses and learning resources offered by Packt on Coursera.",
-          "title": "Packt Online Courses | Coursera"
+          "title": "Packt Online Courses | Coursera",
+          "resource_order": 5
         },
         {
           "url": "https://www.amazon.com/Best-Sellers-C++-Programming-Language/zgbs/books/9045760011",
           "description": "A list of best-selling books on C++ programming language available on Amazon.",
-          "title": "Amazon Best Sellers: Best C++ Programming Language"
+          "title": "Amazon Best Sellers: Best C++ Programming Language",
+          "resource_order": 6
         },
         {
           "url": "https://zerotomastery.io/courses/",
           "description": "A platform offering a variety of coding and technology courses for learners at all levels.",
-          "title": "Expert-Led Courses | Learn New Skills, Get Hired, Advance Your Career | Zero To Mastery"
+          "title": "Expert-Led Courses | Learn New Skills, Get Hired, Advance Your Career | Zero To Mastery",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=6UlU_FsicK8&pp=0gcJCfwAo7VqN5tD",
-          "title": "Unreal Engine 5 \u2013 Full Course for Beginners",
-          "duration": "683m"
+          "title": "Unreal Engine 5 – Full Course for Beginners",
+          "duration": "683m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=8RNSkWLGROs&pp=0gcJCdgAo7VqN5tD",
           "title": "Unreal Engine 5: Mastering Automated Testing Tools for Games | QA and Gameplay Testing Guide",
-          "duration": "26m"
+          "duration": "26m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=S9BHuodNDlo",
           "title": "Unreal Engine 5 Game Programming, C++ and Blueprints !",
-          "duration": "335m"
+          "duration": "335m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=bZzyPscbtI8",
           "title": "Building AI Agents in Pure Python - Beginner Course",
-          "duration": "46m"
+          "duration": "46m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=QyD9_7KCqjQ",
           "title": "Mastering C++ Game Animation Programming - Book review with Author Michael Dunsky",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=T323mpYjgbI&pp=0gcJCfwAo7VqN5tD",
           "title": "The Windsurf Editor Explained",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=3obEP8eLsCw",
           "title": "Complete Operating Systems in 1 Shot (With Notes) || For Placement Interviews",
-          "duration": "933m"
+          "duration": "933m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=EszVNFnxjK4",
           "title": "Best AI assistant for developers is free",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 8
         }
       ]
     }
@@ -318,7 +370,8 @@
           "To provide AI capabilities for single-player games"
         ],
         "correct_option": 1,
-        "hint": "Think about what is needed to ensure all players see the same game state during a multiplayer session."
+        "hint": "Think about what is needed to ensure all players see the same game state during a multiplayer session.",
+        "question_order": 1
       },
       {
         "question": "Which programming language is primarily used for backend scripting in Unreal Engine?",
@@ -329,7 +382,8 @@
           "Ruby"
         ],
         "correct_option": 2,
-        "hint": "This language is known for its performance and is widely used in game development."
+        "hint": "This language is known for its performance and is widely used in game development.",
+        "question_order": 2
       },
       {
         "question": "What is a key benefit of integrating a database with an Unreal Engine project?",
@@ -340,7 +394,8 @@
           "To improve sound effects quality"
         ],
         "correct_option": 1,
-        "hint": "Consider where player scores or game progress might be stored."
+        "hint": "Consider where player scores or game progress might be stored.",
+        "question_order": 3
       },
       {
         "question": "Which aspect of Unreal Engine is crucial for optimizing performance in a game project?",
@@ -351,7 +406,8 @@
           "Increasing the number of game objects"
         ],
         "correct_option": 2,
-        "hint": "Think about what affects both server and client performance during gameplay."
+        "hint": "Think about what affects both server and client performance during gameplay.",
+        "question_order": 4
       },
       {
         "question": "What is a security best practice when setting up a game server in Unreal Engine?",
@@ -362,7 +418,8 @@
           "Using open ports for all network services"
         ],
         "correct_option": 2,
-        "hint": "Consider what helps protect the server from vulnerabilities."
+        "hint": "Consider what helps protect the server from vulnerabilities.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -375,7 +432,8 @@
           "Player Controller"
         ],
         "correct_option": 0,
-        "hint": "It's the component that defines the game type and manages the game flow."
+        "hint": "It's the component that defines the game type and manages the game flow.",
+        "question_order": 1
       },
       {
         "question": "What is the primary purpose of setting up a dedicated game server in Unreal Engine?",
@@ -386,7 +444,8 @@
           "To increase game speed"
         ],
         "correct_option": 1,
-        "hint": "It involves handling multiple players in a game environment."
+        "hint": "It involves handling multiple players in a game environment.",
+        "question_order": 2
       },
       {
         "question": "In Unreal Engine, which C++ class is commonly used to manage network connections for multiplayer games?",
@@ -397,7 +456,8 @@
           "AGameSession"
         ],
         "correct_option": 3,
-        "hint": "This class helps manage game sessions and player connections."
+        "hint": "This class helps manage game sessions and player connections.",
+        "question_order": 3
       },
       {
         "question": "How do you optimize database integration in Unreal Engine for high performance?",
@@ -408,7 +468,8 @@
           "Disable logging"
         ],
         "correct_option": 1,
-        "hint": "The technique involves reusing existing connections to improve efficiency."
+        "hint": "The technique involves reusing existing connections to improve efficiency.",
+        "question_order": 4
       },
       {
         "question": "What is a recommended security practice for game servers in Unreal Engine?",
@@ -419,7 +480,8 @@
           "Disable firewalls"
         ],
         "correct_option": 2,
-        "hint": "Keeping software up to date helps protect against vulnerabilities."
+        "hint": "Keeping software up to date helps protect against vulnerabilities.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -432,7 +494,8 @@
           "Game State"
         ],
         "correct_option": 3,
-        "hint": "This component manages state data shared among all players."
+        "hint": "This component manages state data shared among all players.",
+        "question_order": 1
       },
       {
         "question": "Which networking model does Unreal Engine predominantly use for handling multiplayer sessions?",
@@ -443,7 +506,8 @@
           "Hybrid network"
         ],
         "correct_option": 1,
-        "hint": "This model involves a central authority that handles game logic."
+        "hint": "This model involves a central authority that handles game logic.",
+        "question_order": 2
       },
       {
         "question": "In Unreal Engine, which C++ class is typically extended to implement backend scripting for server-side logic?",
@@ -454,7 +518,8 @@
           "APlayerController"
         ],
         "correct_option": 2,
-        "hint": "This class forms the base for defining game rules."
+        "hint": "This class forms the base for defining game rules.",
+        "question_order": 3
       },
       {
         "question": "For integrating a database with Unreal Engine, which of the following practices is most recommended to ensure efficient data management?",
@@ -465,7 +530,8 @@
           "Storing data in flat files"
         ],
         "correct_option": 1,
-        "hint": "This method adds a layer of security and control over database operations."
+        "hint": "This method adds a layer of security and control over database operations.",
+        "question_order": 4
       },
       {
         "question": "What is a critical performance optimization technique for improving frame rates in Unreal Engine games involving complex scenes?",
@@ -476,7 +542,8 @@
           "Increasing the number of AI agents"
         ],
         "correct_option": 2,
-        "hint": "This technique reduces detail of objects based on their distance from the camera."
+        "hint": "This technique reduces detail of objects based on their distance from the camera.",
+        "question_order": 5
       }
     ]
   },

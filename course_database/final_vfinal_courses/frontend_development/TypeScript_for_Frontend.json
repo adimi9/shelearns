@@ -20,76 +20,90 @@
         {
           "url": "https://www.typescriptlang.org/",
           "description": "The official TypeScript website offering documentation, tutorials, and resources for developers.",
-          "title": "TypeScript: JavaScript With Syntax For Types."
+          "title": "TypeScript: JavaScript With Syntax For Types.",
+          "resource_order": 1
         },
         {
           "url": "https://nextjs.org/docs",
           "description": "Official documentation for building web applications using Next.js framework.",
-          "title": "Next.js Docs | Next.js"
+          "title": "Next.js Docs | Next.js",
+          "resource_order": 2
         },
         {
           "url": "https://www.typescriptlang.org/docs/",
           "description": "Official documentation for learning and using TypeScript programming language.",
-          "title": "TypeScript: The starting point for learning TypeScript"
+          "title": "TypeScript: The starting point for learning TypeScript",
+          "resource_order": 3
         },
         {
           "url": "https://jestjs.io/docs/getting-started",
           "description": "An introductory guide to getting started with testing using Jest.",
-          "title": "Getting Started \u00b7 Jest"
+          "title": "Getting Started · Jest",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.typescriptlang.org/",
           "description": "The official website for TypeScript, offering documentation, resources, and tools for TypeScript developers.",
-          "title": "TypeScript: JavaScript With Syntax For Types."
+          "title": "TypeScript: JavaScript With Syntax For Types.",
+          "resource_order": 1
         },
         {
           "url": "https://techblog.topdesk.com/coding/front-end-with-typescript-tutorial-step-1-to-3-minimal-typescript/",
           "description": "A step-by-step tutorial on setting up a minimal TypeScript environment for front-end development.",
-          "title": "Front-end with TypeScript Tutorial - Step 1 to 3: Minimal TypeScript - TOPdesk Tech Blog"
+          "title": "Front-end with TypeScript Tutorial - Step 1 to 3: Minimal TypeScript - TOPdesk Tech Blog",
+          "resource_order": 2
         },
         {
           "url": "https://www.freecodecamp.org/news/angular-for-beginners-course/",
           "description": "An introductory course on Angular for beginners to learn the basics of building web applications.",
-          "title": "Angular for Beginners Course + TypeScript [Full Front-End Tutorial]"
+          "title": "Angular for Beginners Course + TypeScript [Full Front-End Tutorial]",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=k5E2AVpwsko&pp=0gcJCfwAo7VqN5tD",
           "title": "Angular Tutorial for Beginners: Learn Angular & TypeScript",
-          "duration": "122m"
+          "duration": "122m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
           "title": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
-          "duration": "62m"
+          "duration": "62m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=MsnQ5uepIaE&pp=0gcJCdgAo7VqN5tD",
           "title": "Frontend Web Development: In-Depth Project Tutorial (HTML, CSS, JavaScript, TypeScript, React)",
-          "duration": "602m"
+          "duration": "602m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=61v23Ce5SXA",
           "title": "Typescript Project from Scratch | Complete Tutorial for Beginners",
-          "duration": "48m"
+          "duration": "48m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=xTVQZ46wc28",
           "title": "React Typescript Tutorial for Beginners",
-          "duration": "28m"
+          "duration": "28m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
           "title": "React Tutorial for Beginners",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 6
         },
         {
           "url": "https://m.youtube.com/watch?v=I2NNxr3WPDo&t=0s",
           "title": "Build a Complete Typescript React Fitness Application for Beginners | Responsive",
-          "duration": "243m"
+          "duration": "243m",
+          "resource_order": 7
         }
       ]
     },
@@ -98,96 +112,114 @@
         {
           "url": "https://nextjs.org/docs",
           "description": "Official documentation for building applications using Next.js framework.",
-          "title": "Next.js Docs | Next.js"
+          "title": "Next.js Docs | Next.js",
+          "resource_order": 1
         },
         {
           "url": "https://jestjs.io/docs/getting-started",
           "description": "An introductory guide to getting started with Jest for JavaScript testing.",
-          "title": "Getting Started \u00b7 Jest"
+          "title": "Getting Started · Jest",
+          "resource_order": 2
         },
         {
           "url": "https://react.dev/learn/typescript",
           "description": "An introductory guide to using TypeScript with React for enhanced type safety and development efficiency.",
-          "title": "Using TypeScript \u2013 React"
+          "title": "Using TypeScript – React",
+          "resource_order": 3
         },
         {
           "url": "https://docs.amplify.aws/",
           "description": "Comprehensive documentation for AWS Amplify, a framework for building scalable mobile and web applications.",
-          "title": "Amplify Documentation - AWS Amplify Gen 2 Documentation"
+          "title": "Amplify Documentation - AWS Amplify Gen 2 Documentation",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html",
           "description": "A quick introduction to TypeScript's key features and benefits in five minutes.",
-          "title": "TypeScript: Documentation - TypeScript for JavaScript Programmers"
+          "title": "TypeScript: Documentation - TypeScript for JavaScript Programmers",
+          "resource_order": 1
         },
         {
           "url": "https://stackoverflow.com/questions/51197940/file-name-differs-from-already-included-file-name-only-in-casing-on-relative-p",
           "description": "Discussion on resolving file name casing conflicts in C++ projects.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://react.dev/learn/typescript",
           "description": "An introductory guide to using TypeScript with React for building robust applications.",
-          "title": "Using TypeScript \u2013 React"
+          "title": "Using TypeScript – React",
+          "resource_order": 3
         },
         {
           "url": "https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project",
           "description": "A step-by-step tutorial on integrating React with Flask to create a full-stack web application.",
-          "title": "How To Create a React + Flask Project - miguelgrinberg.com"
+          "title": "How To Create a React + Flask Project - miguelgrinberg.com",
+          "resource_order": 4
         },
         {
           "url": "https://frontendmasters.com/blog/a-complete-guide-to-beginning-with-typescript/",
           "description": "A complete guide for beginners to learn and start using TypeScript in web development.",
-          "title": "A Complete Guide to Beginning with TypeScript \u2013 Frontend Masters Blog"
+          "title": "A Complete Guide to Beginning with TypeScript – Frontend Masters Blog",
+          "resource_order": 5
         },
         {
           "url": "https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/aem-wknd-tutorial-installation-error/m-p/556710/highlight/true",
           "description": "A troubleshooting guide for installation errors in the Adobe Experience Manager WKND tutorial.",
-          "title": "403 Forbidden"
+          "title": "403 Forbidden",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=EcCTIExsqmI",
           "title": "Learn TypeScript Generics In 13 Minutes",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=JBSUgDxICg8",
           "title": "Testing In React Tutorial - Jest and React Testing Library",
-          "duration": "21m"
+          "duration": "21m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=3qBXWUpoPHo",
           "title": "Angular for Beginners Course [Full Front End Tutorial with TypeScript]",
-          "duration": "1053m"
+          "duration": "1053m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=AS79oJ3Fcf0",
           "title": "Next.js with React Testing Library, Jest, TypeScript",
-          "duration": "25m"
+          "duration": "25m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=8Xwq35cPwYg",
           "title": "React Testing for Beginners: Start Here!",
-          "duration": "77m"
+          "duration": "77m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=vcNtrYfroDY",
           "title": "TypeScript Course - Beginner to Advanced TypeScript Tutorial [2022]",
-          "duration": "200m"
+          "duration": "200m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=zuKbR4Q428o",
           "title": "JavaScript Unit Testing Tutorial for Beginners",
-          "duration": "48m"
+          "duration": "48m",
+          "resource_order": 8
         }
       ]
     },
@@ -196,86 +228,102 @@
         {
           "url": "https://www.typescriptlang.org/docs/",
           "description": "Official documentation for learning and using TypeScript effectively.",
-          "title": "TypeScript: The starting point for learning TypeScript"
+          "title": "TypeScript: The starting point for learning TypeScript",
+          "resource_order": 1
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for learning and referencing JavaScript programming concepts and syntax.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 2
         },
         {
           "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
           "description": "An introductory guide to TypeScript, explaining its features and benefits.",
-          "title": "TypeScript: Handbook - The TypeScript Handbook"
+          "title": "TypeScript: Handbook - The TypeScript Handbook",
+          "resource_order": 3
         },
         {
           "url": "https://nextjs.org/docs",
           "description": "Official documentation for building applications using the Next.js framework.",
-          "title": "Next.js Docs | Next.js"
+          "title": "Next.js Docs | Next.js",
+          "resource_order": 4
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
           "description": "An in-depth guide to using the Canvas API for drawing graphics on the web.",
-          "title": "Canvas API - Web APIs | MDN"
+          "title": "Canvas API - Web APIs | MDN",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.typescriptlang.org/docs/",
           "description": "Official documentation for learning and using TypeScript, a typed superset of JavaScript.",
-          "title": "TypeScript: The starting point for learning TypeScript"
+          "title": "TypeScript: The starting point for learning TypeScript",
+          "resource_order": 1
         },
         {
           "url": "https://fullstackopen.com/en/",
           "description": "An open online course covering modern web development techniques and tools.",
-          "title": "Full stack open"
+          "title": "Full stack open",
+          "resource_order": 2
         },
         {
           "url": "https://marcobotto.com/blog/the-hitchhikers-guide-to-the-modern-front-end-development-workflow/",
           "description": "An insightful overview of modern front-end development workflows and tools.",
-          "title": "The Hitchhiker's guide to the modern front end development workflow - marcobotto.com"
+          "title": "The Hitchhiker's guide to the modern front end development workflow - marcobotto.com",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
           "title": "React Tutorial for Beginners",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
           "title": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
-          "duration": "62m"
+          "duration": "62m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=d56mG7DezGs",
           "title": "TypeScript Tutorial for Beginners",
-          "duration": "64m"
+          "duration": "64m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=Tef1e9FiSR0",
           "title": "The Complete Frontend Developer Roadmap",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=vcNtrYfroDY",
           "title": "TypeScript Course - Beginner to Advanced TypeScript Tutorial [2022]",
-          "duration": "200m"
+          "duration": "200m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=3qBXWUpoPHo",
           "title": "Angular for Beginners Course [Full Front End Tutorial with TypeScript]",
-          "duration": "1053m"
+          "duration": "1053m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
           "title": "The Complete Guide To Building A REST API With Node, Express, TypeScript & MongoDB + Authentication",
-          "duration": "49m"
+          "duration": "49m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=Gc4Xh8u19NU",
           "title": "The Ultimate Web Developer Roadmap For 2024",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 8
         }
       ]
     }
@@ -291,7 +339,8 @@
           "To enable runtime type checking"
         ],
         "correct_option": 0,
-        "hint": "Type annotations help in understanding what types of data are expected."
+        "hint": "Type annotations help in understanding what types of data are expected.",
+        "question_order": 1
       },
       {
         "question": "Which TypeScript feature allows you to define the shape of an object?",
@@ -302,7 +351,8 @@
           "Generics"
         ],
         "correct_option": 1,
-        "hint": "This feature is similar to classes but is used for type checking only."
+        "hint": "This feature is similar to classes but is used for type checking only.",
+        "question_order": 2
       },
       {
         "question": "In TypeScript, what are generics used for?",
@@ -313,7 +363,8 @@
           "To compile TypeScript to JavaScript"
         ],
         "correct_option": 2,
-        "hint": "Generics allow you to create components that can work with any data type."
+        "hint": "Generics allow you to create components that can work with any data type.",
+        "question_order": 3
       },
       {
         "question": "How does TypeScript enhance React development?",
@@ -324,7 +375,8 @@
           "By automating UI testing"
         ],
         "correct_option": 1,
-        "hint": "TypeScript helps catch errors at compile time rather than runtime."
+        "hint": "TypeScript helps catch errors at compile time rather than runtime.",
+        "question_order": 4
       },
       {
         "question": "How can TypeScript be used in a Vue.js project?",
@@ -335,7 +387,8 @@
           "By disabling reactivity system"
         ],
         "correct_option": 1,
-        "hint": "Vue CLI provides an option to add TypeScript support during project setup."
+        "hint": "Vue CLI provides an option to add TypeScript support during project setup.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -348,7 +401,8 @@
           "Type aliases support multiple inheritance, unlike interfaces."
         ],
         "correct_option": 0,
-        "hint": "Consider how TypeScript interfaces handle multiple declarations."
+        "hint": "Consider how TypeScript interfaces handle multiple declarations.",
+        "question_order": 1
       },
       {
         "question": "How do generics improve the flexibility and reusability of functions in TypeScript?",
@@ -359,7 +413,8 @@
           "Generics improve runtime performance by eliminating type checks."
         ],
         "correct_option": 1,
-        "hint": "Think about how generics provide a way to work with variable types while maintaining type safety."
+        "hint": "Think about how generics provide a way to work with variable types while maintaining type safety.",
+        "question_order": 2
       },
       {
         "question": "In a TypeScript React component, how would you define props of type string using interfaces?",
@@ -370,7 +425,8 @@
           "type Props = { text: boolean; }"
         ],
         "correct_option": 1,
-        "hint": "Consider how interfaces are used to define the shape of props in React."
+        "hint": "Consider how interfaces are used to define the shape of props in React.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is a correct way to apply generics to a function in TypeScript?",
@@ -381,7 +437,8 @@
           "function identity(arg: T): number { return arg; }"
         ],
         "correct_option": 0,
-        "hint": "Remember that generics are specified by placing a type variable in angle brackets."
+        "hint": "Remember that generics are specified by placing a type variable in angle brackets.",
+        "question_order": 4
       },
       {
         "question": "In a Vue component using TypeScript, how can you ensure that a prop of type number is required?",
@@ -392,7 +449,8 @@
           "props: { count: { type: 'Number', required: false } }"
         ],
         "correct_option": 0,
-        "hint": "Think about how props are defined in Vue and how TypeScript types are specified for them."
+        "hint": "Think about how props are defined in Vue and how TypeScript types are specified for them.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -405,7 +463,8 @@
           "All of the above"
         ],
         "correct_option": 3,
-        "hint": "Consider how you can cater to multiple types while ensuring type safety."
+        "hint": "Consider how you can cater to multiple types while ensuring type safety.",
+        "question_order": 1
       },
       {
         "question": "What is the main advantage of using generics in TypeScript?",
@@ -416,7 +475,8 @@
           "They simplify the syntax for type annotations"
         ],
         "correct_option": 2,
-        "hint": "Think about how generics can enhance the reusability and flexibility of your code."
+        "hint": "Think about how generics can enhance the reusability and flexibility of your code.",
+        "question_order": 2
       },
       {
         "question": "How do interfaces in TypeScript differ from type aliases when extending existing types?",
@@ -427,7 +487,8 @@
           "Type aliases are more performant than interfaces"
         ],
         "correct_option": 2,
-        "hint": "Consider how interfaces and type aliases handle extensions and merging."
+        "hint": "Consider how interfaces and type aliases handle extensions and merging.",
+        "question_order": 3
       },
       {
         "question": "In a React component written in TypeScript, how would you define the type for component props?",
@@ -438,7 +499,8 @@
           "Use a generic type"
         ],
         "correct_option": 1,
-        "hint": "React components often require structured typing for props."
+        "hint": "React components often require structured typing for props.",
+        "question_order": 4
       },
       {
         "question": "When integrating TypeScript with Vue, which feature allows you to ensure that all props are correctly typed?",
@@ -449,7 +511,8 @@
           "Vue's data function"
         ],
         "correct_option": 0,
-        "hint": "Vue provides a utility specifically designed for prop typing in TypeScript."
+        "hint": "Vue provides a utility specifically designed for prop typing in TypeScript.",
+        "question_order": 5
       }
     ]
   }

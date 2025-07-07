@@ -22,81 +22,96 @@
         {
           "url": "https://docs.djangoproject.com/",
           "description": "The official documentation for Django, a high-level Python web framework.",
-          "title": "Django documentation | Django documentation | Django"
+          "title": "Django documentation | Django documentation | Django",
+          "resource_order": 1
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/",
           "description": "Official Microsoft documentation for .NET development and related technologies.",
-          "title": ".NET documentation | Microsoft Learn"
+          "title": ".NET documentation | Microsoft Learn",
+          "resource_order": 2
         },
         {
           "url": "https://docs.lovable.dev/introduction",
           "description": "An introductory guide to the Lovable development platform and its features.",
-          "title": "Welcome - Lovable Documentation"
+          "title": "Welcome - Lovable Documentation",
+          "resource_order": 3
         },
         {
           "url": "https://flask.palletsprojects.com/",
           "description": "Official documentation for Flask, a micro web framework for Python.",
-          "title": "Welcome to Flask \u2014 Flask Documentation (3.1.x)"
+          "title": "Welcome to Flask — Flask Documentation (3.1.x)",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://github.com/practical-tutorials/project-based-learning",
           "description": "A curated list of project-based tutorials for learning various programming languages and technologies.",
-          "title": "GitHub - practical-tutorials/project-based-learning: Curated list of project-based tutorials"
+          "title": "GitHub - practical-tutorials/project-based-learning: Curated list of project-based tutorials",
+          "resource_order": 1
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
           "title": "Python Full Course for Beginners",
-          "duration": "374m"
+          "duration": "374m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=2_lswM1S264",
           "title": "Ethical Hacking 101: Web App Penetration Testing - a full course for beginners",
-          "duration": "167m"
+          "duration": "167m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=a0osIaAOFSE",
           "title": "The Complete Guide to Full Stack Ethereum Development - Tutorial for Beginners",
-          "duration": "61m"
+          "duration": "61m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=f2EqECiTBL8",
           "title": "Node.js Full Course for Beginners | Complete All-in-One Tutorial | 7 Hours",
-          "duration": "410m"
+          "duration": "410m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ",
           "title": "Python Full Course for Beginners [2025]",
-          "duration": "122m"
+          "duration": "122m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=9SGDpanrc8U",
           "title": "Spring Boot Tutorial | Full Course [2023] [NEW]",
-          "duration": "97m"
+          "duration": "97m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00",
           "title": "MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours",
-          "duration": "470m"
+          "duration": "470m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=nJ25yl34Uqw",
-          "title": "GenAI Essentials \u2013 Full Course for Beginners",
-          "duration": "1373m"
+          "title": "GenAI Essentials – Full Course for Beginners",
+          "duration": "1373m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=vUYopHWOURg&pp=0gcJCf0Ao7VqN5tD",
           "title": "Next.js Tutorial 2025 - Build a Full Stack Social App with React & Next.js",
-          "duration": "262m"
+          "duration": "262m",
+          "resource_order": 9
         },
         {
           "url": "https://www.youtube.com/watch?v=gieEQFIfgYc",
           "title": "TypeScript Full Course for Beginners | Complete All-in-One Tutorial | 8 Hours",
-          "duration": "501m"
+          "duration": "501m",
+          "resource_order": 10
         }
       ]
     },
@@ -105,96 +120,114 @@
         {
           "url": "https://docs.cypress.io/app/get-started/why-cypress",
           "description": "An introduction to the benefits and features of using Cypress for end-to-end testing.",
-          "title": "Cypress testing solutions | Cypress Documentation | Cypress Documentation"
+          "title": "Cypress testing solutions | Cypress Documentation | Cypress Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://firebase.google.com/docs/studio",
           "description": "An overview of Firebase's integration with Android Studio for app development.",
-          "title": "Firebase Studio"
+          "title": "Firebase Studio",
+          "resource_order": 2
         },
         {
           "url": "https://docs.cypress.io/app/core-concepts/best-practices",
           "description": "Guidelines and best practices for using Cypress effectively in test automation.",
-          "title": "Best Practices | Cypress Documentation"
+          "title": "Best Practices | Cypress Documentation",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.keysight.com/de/de/products/software/software-testing/eggplant-test/api-evaluation.html",
           "description": "An overview of Eggplant Test's API evaluation capabilities for software testing.",
-          "title": "Access Denied"
+          "title": "Access Denied",
+          "resource_order": 1
         },
         {
           "url": "https://www.shopify.com/ph/partners/blog/shopify-admin-authenticate-app",
           "description": "A detailed guide on authenticating apps with the Shopify Admin API for developers.",
-          "title": "How to Authenticate Your Embedded App in the Shopify Admin - Shopify Philippines"
+          "title": "How to Authenticate Your Embedded App in the Shopify Admin - Shopify Philippines",
+          "resource_order": 2
         },
         {
           "url": "https://pg-p.ctme.caltech.edu/blog/coding/what-is-unit-testing-in-python",
           "description": "An introduction to unit testing in Python, explaining its importance and basic implementation.",
-          "title": "Web Development Tutorial: What is Unit Testing in Python? - Caltech"
+          "title": "Web Development Tutorial: What is Unit Testing in Python? - Caltech",
+          "resource_order": 3
         },
         {
           "url": "https://reflect.run/articles/page/4/",
           "description": "A collection of insightful articles on software development and testing practices.",
-          "title": "Automated Web Testing | Reflect"
+          "title": "Automated Web Testing | Reflect",
+          "resource_order": 4
         },
         {
           "url": "https://github.com/tiangolo/full-stack-fastapi-couchbase/blob/master/README.md",
           "description": "A guide to building a full-stack application using FastAPI and Couchbase.",
-          "title": "full-stack-fastapi-couchbase/README.md at master \u00b7 tiangolo/full-stack-fastapi-couchbase \u00b7 GitHub"
+          "title": "full-stack-fastapi-couchbase/README.md at master · tiangolo/full-stack-fastapi-couchbase · GitHub",
+          "resource_order": 5
         },
         {
           "url": "https://www.linkedin.com/posts/mitch-allen-com_typescript-cucumber-bdd-tutorial-mac-activity-7160587247887503361-zHLk",
           "description": "A tutorial on using TypeScript and Cucumber for Behavior-Driven Development on macOS.",
-          "title": "New article! | Mitch Allen"
+          "title": "New article! | Mitch Allen",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
           "title": "Python Full Course for Beginners",
-          "duration": "374m"
+          "duration": "374m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=2_lswM1S264",
           "title": "Ethical Hacking 101: Web App Penetration Testing - a full course for beginners",
-          "duration": "167m"
+          "duration": "167m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=JyolNYRbAcs&pp=0gcJCf0Ao7VqN5tD",
           "title": "Build a FULL Stack App for your n8n AI Agent in 20 Minutes",
-          "duration": "20m"
+          "duration": "20m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=zuKbR4Q428o",
           "title": "JavaScript Unit Testing Tutorial for Beginners",
-          "duration": "48m"
+          "duration": "48m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=8Xwq35cPwYg",
           "title": "React Testing for Beginners: Start Here!",
-          "duration": "77m"
+          "duration": "77m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
           "title": "Flutter Clean Architecture Full Course For Beginners - Bloc, Supabase, Hive, GetIt",
-          "duration": "424m"
+          "duration": "424m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
           "title": "Easily Deploy Full Stack Node.js Apps on AWS EC2 | Step-by-Step Tutorial",
-          "duration": "29m"
+          "duration": "29m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=ZZ1lnw8D3Qo",
           "title": "How To Deploy Any Web Application In 15 Minutes Tutorial | VPS + Coolify Combo",
-          "duration": "20m"
+          "duration": "20m",
+          "resource_order": 9
         }
       ]
     },
@@ -203,101 +236,120 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for learning and referencing JavaScript programming language.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://docs.djangoproject.com/",
           "description": "Official documentation for the Django web framework, covering installation, tutorials, and API references.",
-          "title": "Django documentation | Django documentation | Django"
+          "title": "Django documentation | Django documentation | Django",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/",
           "description": "Official Microsoft documentation for .NET development and programming resources.",
-          "title": ".NET documentation | Microsoft Learn"
+          "title": ".NET documentation | Microsoft Learn",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://fullstackopen.com/en/",
           "description": "An open online course covering modern web development with JavaScript.",
-          "title": "Full stack open"
+          "title": "Full stack open",
+          "resource_order": 1
         },
         {
           "url": "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
           "description": "An expert guide for beginners on learning Python effectively.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
           "description": "A detailed roadmap for becoming a full-stack developer and securing a job in the field.",
-          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) \u2013 A Handbook for Beginners"
+          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners",
+          "resource_order": 3
         },
         {
           "url": "https://www.datacamp.com/blog/how-to-learn-ai",
           "description": "A guide on effective strategies and resources for learning artificial intelligence.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 4
         },
         {
           "url": "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions",
           "description": "A list of common Node.js interview questions and answers for job preparation.",
-          "title": "Top 100+ Node.js Interview Questions and Answers for 2025"
+          "title": "Top 100+ Node.js Interview Questions and Answers for 2025",
+          "resource_order": 5
         },
         {
           "url": "https://pg-p.ctme.caltech.edu/blog/coding/what-is-unit-testing-in-python",
           "description": "An introductory guide to understanding and implementing unit testing in Python.",
-          "title": "Web Development Tutorial: What is Unit Testing in Python? - Caltech"
+          "title": "Web Development Tutorial: What is Unit Testing in Python? - Caltech",
+          "resource_order": 6
         },
         {
           "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-developer/",
           "description": "A guide to Microsoft Azure Developer certification, detailing skills and exam requirements.",
-          "title": "Microsoft Certified: Azure Developer Associate - Certifications | Microsoft Learn"
+          "title": "Microsoft Certified: Azure Developer Associate - Certifications | Microsoft Learn",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ",
           "title": "Python Full Course for Beginners [2025]",
-          "duration": "122m"
+          "duration": "122m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=hHjmr_YOqnU",
           "title": "Azure AI Fundamentals Certification 2024 (AI-900) - Full Course to PASS the Exam",
-          "duration": "263m"
+          "duration": "263m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
           "title": "Python Full Course for Beginners",
-          "duration": "374m"
+          "duration": "374m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=nJ25yl34Uqw",
-          "title": "GenAI Essentials \u2013 Full Course for Beginners",
-          "duration": "1373m"
+          "title": "GenAI Essentials – Full Course for Beginners",
+          "duration": "1373m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=CzRQ9mnmh44",
           "title": "The Complete Dart & Flutter Developer Course | Full Tutorial For Beginners to Advanced",
-          "duration": "1247m"
+          "duration": "1247m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
           "title": "Swift Programming Tutorial | FULL COURSE | Absolute Beginner",
-          "duration": "632m"
+          "duration": "632m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=H2EJuAcrZYU&pp=ygUPI2NvdXJzZWNvbXBsZXRl",
           "title": "Python Full Course for Beginners | Complete All-in-One Tutorial | 9 Hours",
-          "duration": "518m"
+          "duration": "518m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=Ae-r8hsbPUo",
           "title": "Advanced Java Full Course 2023 | Advance Java Tutorial | J2EE, JSP, JDBC, Java API | Simplilearn",
-          "duration": "253m"
+          "duration": "253m",
+          "resource_order": 9
         }
       ]
     }
@@ -313,7 +365,8 @@
           "To check the application's deployment process"
         ],
         "correct_option": 1,
-        "hint": "Unit testing focuses on testing the smallest parts of an application."
+        "hint": "Unit testing focuses on testing the smallest parts of an application.",
+        "question_order": 1
       },
       {
         "question": "Which tool is commonly used for end-to-end testing of web applications?",
@@ -324,7 +377,8 @@
           "JUnit"
         ],
         "correct_option": 2,
-        "hint": "This tool is known for its ability to test web applications through a browser."
+        "hint": "This tool is known for its ability to test web applications through a browser.",
+        "question_order": 2
       },
       {
         "question": "What is a test double in the context of software testing?",
@@ -335,7 +389,8 @@
           "A method of testing two components simultaneously"
         ],
         "correct_option": 2,
-        "hint": "Test doubles are used to simulate the behavior of complex objects or components."
+        "hint": "Test doubles are used to simulate the behavior of complex objects or components.",
+        "question_order": 3
       },
       {
         "question": "Why is integration testing important for API endpoints?",
@@ -346,7 +401,8 @@
           "To test the user interface design"
         ],
         "correct_option": 1,
-        "hint": "Integration testing helps verify the interaction between different modules."
+        "hint": "Integration testing helps verify the interaction between different modules.",
+        "question_order": 4
       },
       {
         "question": "Which of the following is a benefit of mocking in testing?",
@@ -357,7 +413,8 @@
           "It improves the application's security"
         ],
         "correct_option": 0,
-        "hint": "Mocking helps in isolating the test environment by using fake objects."
+        "hint": "Mocking helps in isolating the test environment by using fake objects.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -370,7 +427,8 @@
           "It enhances the aesthetics of test reports."
         ],
         "correct_option": 0,
-        "hint": "Mocking is used to isolate the unit being tested."
+        "hint": "Mocking is used to isolate the unit being tested.",
+        "question_order": 1
       },
       {
         "question": "Which tool is commonly used for end-to-end testing of web applications and supports headless browser testing?",
@@ -381,7 +439,8 @@
           "Sinon"
         ],
         "correct_option": 2,
-        "hint": "This tool is known for its developer-friendly interface and real-time reloads."
+        "hint": "This tool is known for its developer-friendly interface and real-time reloads.",
+        "question_order": 2
       },
       {
         "question": "In integration testing, what is primarily tested?",
@@ -392,7 +451,8 @@
           "Compilation errors"
         ],
         "correct_option": 1,
-        "hint": "This type of testing ensures that different parts of an application work together as expected."
+        "hint": "This type of testing ensures that different parts of an application work together as expected.",
+        "question_order": 3
       },
       {
         "question": "Which technology is NOT typically associated with testing full-stack applications?",
@@ -403,7 +463,8 @@
           "Docker"
         ],
         "correct_option": 0,
-        "hint": "Think of a popular frontend library, not a testing tool."
+        "hint": "Think of a popular frontend library, not a testing tool.",
+        "question_order": 4
       },
       {
         "question": "What is a common use case for test doubles in testing?",
@@ -414,7 +475,8 @@
           "To optimize database queries"
         ],
         "correct_option": 0,
-        "hint": "Test doubles are substitutes for real objects that are impractical to incorporate into tests."
+        "hint": "Test doubles are substitutes for real objects that are impractical to incorporate into tests.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -427,7 +489,8 @@
           "They automatically generate code documentation."
         ],
         "correct_option": 0,
-        "hint": "Test doubles help simulate components that are not part of the test."
+        "hint": "Test doubles help simulate components that are not part of the test.",
+        "question_order": 1
       },
       {
         "question": "In the context of integration testing, what is the main goal when testing API endpoints?",
@@ -438,7 +501,8 @@
           "To validate the deployment process."
         ],
         "correct_option": 1,
-        "hint": "Integration testing focuses on the interaction between components."
+        "hint": "Integration testing focuses on the interaction between components.",
+        "question_order": 2
       },
       {
         "question": "When using Cypress for end-to-end testing, which of the following is a key feature?",
@@ -449,7 +513,8 @@
           "Database schema validation."
         ],
         "correct_option": 1,
-        "hint": "Cypress is known for its developer-friendly environment."
+        "hint": "Cypress is known for its developer-friendly environment.",
+        "question_order": 3
       },
       {
         "question": "What is the primary purpose of mocking in backend unit tests?",
@@ -460,7 +525,8 @@
           "To verify database transaction efficiency."
         ],
         "correct_option": 2,
-        "hint": "Mocking helps isolate the unit under test by simulating dependencies."
+        "hint": "Mocking helps isolate the unit under test by simulating dependencies.",
+        "question_order": 4
       },
       {
         "question": "In end-to-end testing, which tool is better suited for testing complex user interactions, and why?",
@@ -471,7 +537,8 @@
           "Karma, because it integrates with most CI tools."
         ],
         "correct_option": 2,
-        "hint": "Consider the tool's ability to interact with the browser environment."
+        "hint": "Consider the tool's ability to interact with the browser environment.",
+        "question_order": 5
       }
     ]
   }

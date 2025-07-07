@@ -21,86 +21,102 @@
         {
           "url": "https://docs.unity.com/",
           "description": "Official documentation for Unity, a real-time development platform for creating 2D and 3D games and experiences.",
-          "title": "Unity documentation"
+          "title": "Unity documentation",
+          "resource_order": 1
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
           "description": "An official Microsoft guide to learning and using C# programming language.",
-          "title": "C# Guide - .NET managed language | Microsoft Learn"
+          "title": "C# Guide - .NET managed language | Microsoft Learn",
+          "resource_order": 2
         },
         {
           "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html",
           "description": "The official manual for Unity, offering comprehensive guidance on using the Unity game development platform.",
-          "title": "Unity - Manual: Unity 6.1 User Manual"
+          "title": "Unity - Manual: Unity 6.1 User Manual",
+          "resource_order": 3
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/",
           "description": "Official documentation and resources for learning and using .NET technologies.",
-          "title": ".NET documentation | Microsoft Learn"
+          "title": ".NET documentation | Microsoft Learn",
+          "resource_order": 4
         },
         {
           "url": "https://godotengine.org/",
           "description": "The official website for the Godot Engine, an open-source game development platform.",
-          "title": "Godot Engine - Free and open source 2D and 3D game engine"
+          "title": "Godot Engine - Free and open source 2D and 3D game engine",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://learn.unity.com/",
           "description": "An interactive platform offering tutorials and courses for learning Unity development.",
-          "title": "Learn game development w/ Unity | Courses & tutorials in game design, VR, AR, & Real-time 3D | Unity Learn"
+          "title": "Learn game development w/ Unity | Courses & tutorials in game design, VR, AR, & Real-time 3D | Unity Learn",
+          "resource_order": 1
         },
         {
           "url": "https://forums.unrealengine.com/t/best-beginner-friendly-c-game-development-tutorial-for-unreal/635858",
           "description": "A discussion on beginner-friendly C++ game development tutorials for Unreal Engine.",
-          "title": "Best Beginner Friendly C++ Game Development Tutorial For Unreal? - General / Tutorial & Course Discussions - Epic Developer Community Forums"
+          "title": "Best Beginner Friendly C++ Game Development Tutorial For Unreal? - General / Tutorial & Course Discussions - Epic Developer Community Forums",
+          "resource_order": 2
         },
         {
           "url": "https://devforum.roblox.com/t/the-beginners-guide-to-all-things-game-development/1121665",
           "description": "An introductory guide to game development for beginners on the Roblox platform.",
-          "title": "The Beginners Guide To All Things Game Development - Resources / Community Tutorials - Developer Forum | Roblox"
+          "title": "The Beginners Guide To All Things Game Development - Resources / Community Tutorials - Developer Forum | Roblox",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
           "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
-          "duration": "649m"
+          "duration": "649m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=XtQMytORBmM",
           "title": "The Unity Tutorial For Complete Beginners",
-          "duration": "46m"
+          "duration": "46m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=2cjnzFEBBiA",
           "title": "Unity 3D Tutorial For Beginners - How To Make A Game - Part 001",
-          "duration": "22m"
+          "duration": "22m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=wUar6hSs4Xc&pp=0gcJCfwAo7VqN5tD",
           "title": "HOW TO MAKE A 3D PLATFORM GAME IN UNITY 6 - GAME TUTORIAL 01 BEGINNERS INTRO",
-          "duration": "16m"
+          "duration": "16m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=Ulv0E-KAJ9o",
           "title": "3D Game Art | Blender Tutorial 2.8 Beginner #1",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=VF9UUixCvUs",
           "title": "How To Make A Simple 3D Game with Unity - Complete Tutorial 2023",
-          "duration": "40m"
+          "duration": "40m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=2QkROdyodCQ",
           "title": "Free Godot 3D Course for Beginners (Game Development Tutorial)",
-          "duration": "65m"
+          "duration": "65m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=kGyrBNG62_U&pp=0gcJCdgAo7VqN5tD",
           "title": "AAA Game Props Making For Beginners Course Promo",
-          "duration": "1m"
+          "duration": "1m",
+          "resource_order": 8
         }
       ]
     },
@@ -109,96 +125,114 @@
         {
           "url": "https://docs.unity.com/",
           "description": "Official documentation for Unity, a leading platform for creating and operating real-time 3D content.",
-          "title": "Unity documentation"
+          "title": "Unity documentation",
+          "resource_order": 1
         },
         {
           "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html",
           "description": "The official Unity Manual providing comprehensive guidance on using Unity 3D for game development.",
-          "title": "Unity - Manual: Unity 6.1 User Manual"
+          "title": "Unity - Manual: Unity 6.1 User Manual",
+          "resource_order": 2
         },
         {
           "url": "https://developers.meta.com/horizon/",
           "description": "An overview of Meta's Horizon platform for building social virtual reality experiences.",
-          "title": "Homepage | Meta Horizon OS Developers"
+          "title": "Homepage | Meta Horizon OS Developers",
+          "resource_order": 3
         },
         {
           "url": "https://developers.arcgis.com/documentation/",
           "description": "A complete resource for developers to learn and implement ArcGIS mapping and spatial analytics.",
-          "title": "Developer Documentation | Documentation | Esri Developer"
+          "title": "Developer Documentation | Documentation | Esri Developer",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://edw.is/learning-vulkan/",
           "description": "An introductory guide to learning Vulkan for graphics programming.",
-          "title": "How I learned Vulkan and wrote a small game engine with it"
+          "title": "How I learned Vulkan and wrote a small game engine with it",
+          "resource_order": 1
         },
         {
           "url": "https://forums.launchbox-app.com/topic/42470-how-to-make-3d-pcwindows-dvd-game-cases-tutorial/",
           "description": "A tutorial on creating 3D PC/Windows DVD game cases using LaunchBox.",
-          "title": "How to make 3D PC/Windows DVD Game Cases - Tutorial - Game Media - LaunchBox Community Forums"
+          "title": "How to make 3D PC/Windows DVD Game Cases - Tutorial - Game Media - LaunchBox Community Forums",
+          "resource_order": 2
         },
         {
           "url": "https://www.chrishecker.com/My_Liner_Notes_for_Spore",
           "description": "Chris Hecker's detailed liner notes on the technical and design aspects of the game Spore.",
-          "title": "My Liner Notes for Spore - Chris Hecker's Website"
+          "title": "My Liner Notes for Spore - Chris Hecker's Website",
+          "resource_order": 3
         },
         {
           "url": "https://www.unrealengine.com/",
           "description": "The official website for Unreal Engine, offering resources, tools, and support for game development.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 4
         },
         {
           "url": "https://learn.unity.com/",
           "description": "An online platform offering tutorials and resources for learning game development with Unity.",
-          "title": "Learn game development w/ Unity | Courses & tutorials in game design, VR, AR, & Real-time 3D | Unity Learn"
+          "title": "Learn game development w/ Unity | Courses & tutorials in game design, VR, AR, & Real-time 3D | Unity Learn",
+          "resource_order": 5
         },
         {
           "url": "https://beforesandafters.com/2019/07/18/han-yang-on-finding-new-3d-workflows-for-the-lander/",
           "description": "An interview with Han Yang on innovative 3D workflows for 'The Lander' project.",
-          "title": "Han Yang on finding new 3D workflows for 'The Lander' - befores & afters"
+          "title": "Han Yang on finding new 3D workflows for 'The Lander' - befores & afters",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=A3R6T1h0ln8",
           "title": "Learn to make First 3D game in Godot 4 (Complete Tutorial Beginner Friendly)",
-          "duration": "209m"
+          "duration": "209m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=ke5KpqcoiIU",
           "title": "How to make 3D Games in Godot",
-          "duration": "49m"
+          "duration": "49m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=VEnZzwW_OJM",
           "title": "Unity C# Scripting - Full Game Development Course",
-          "duration": "257m"
+          "duration": "257m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=yvehPjQhS5U",
           "title": "Making a Game Experience in 3D with Spline",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=oiuHSAwiz1c",
           "title": "Full 3D Game Asset Workflow Explained - FULL TUTORIAL",
-          "duration": "141m"
+          "duration": "141m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=S4bFffbhguI",
           "title": "24 | Substance 3D Painter Course - Quick Mask",
-          "duration": "1m"
+          "duration": "1m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=fjOdtSu4Lm4",
-          "title": "Math for Game Devs [2022, part 1] \u2022 Numbers, Vectors & Dot Product",
-          "duration": "237m"
+          "title": "Math for Game Devs [2022, part 1] • Numbers, Vectors & Dot Product",
+          "duration": "237m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=kgShNcTxMIg&pp=0gcJCdgAo7VqN5tD",
           "title": "Create a COMPLETE android & iOS game - FULL COURSE [Unity C#]",
-          "duration": "818m"
+          "duration": "818m",
+          "resource_order": 8
         }
       ]
     },
@@ -207,76 +241,90 @@
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
           "description": "An official Microsoft resource for learning and mastering C# programming.",
-          "title": "C# Guide - .NET managed language | Microsoft Learn"
+          "title": "C# Guide - .NET managed language | Microsoft Learn",
+          "resource_order": 1
         },
         {
           "url": "https://create.roblox.com/docs",
           "description": "Official documentation for creating and developing experiences on the Roblox platform.",
-          "title": "Documentation - Roblox Creator Hub"
+          "title": "Documentation - Roblox Creator Hub",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/",
           "description": "Official Microsoft documentation for .NET development, including guides, tutorials, and API references.",
-          "title": ".NET documentation | Microsoft Learn"
+          "title": ".NET documentation | Microsoft Learn",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://forum.godotengine.org/t/fixed-camera-for-star-fox-style-arcade-game/45465",
           "description": "A guide on implementing a fixed camera system for a Star Fox-style arcade game in Godot Engine.",
-          "title": "Fixed Camera for Star Fox style arcade game - Help - Godot Forum"
+          "title": "Fixed Camera for Star Fox style arcade game - Help - Godot Forum",
+          "resource_order": 1
         },
         {
           "url": "https://thiagoklafke.gumroad.com/l/environmentartmastery",
           "description": "A detailed course on mastering environment art for video games.",
-          "title": "Environment Art Mastery"
+          "title": "Environment Art Mastery",
+          "resource_order": 2
         },
         {
           "url": "https://edw.is/learning-vulkan/",
           "description": "An introductory guide to learning Vulkan graphics API programming.",
-          "title": "How I learned Vulkan and wrote a small game engine with it"
+          "title": "How I learned Vulkan and wrote a small game engine with it",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
           "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
-          "duration": "649m"
+          "duration": "649m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=TUmiAdqMhD8",
           "title": "Environment Art Mastery - Deep Dive",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=i3xNb5R_xos",
           "title": "Create Your First VR Project in Unreal Engine 5 | Meta Quest 3 | Quick Setup Guide for Beginners",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=ke5KpqcoiIU",
           "title": "How to make 3D Games in Godot",
-          "duration": "49m"
+          "duration": "49m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
           "title": "Learn C# FREE Tutorial Course Beginner to Advanced! [2025 - 12 HOURS]",
-          "duration": "760m"
+          "duration": "760m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=A3R6T1h0ln8",
           "title": "Learn to make First 3D game in Godot 4 (Complete Tutorial Beginner Friendly)",
-          "duration": "209m"
+          "duration": "209m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=gG7ZoP3fd1w&pp=0gcJCfwAo7VqN5tD",
           "title": "Arcane Tutorial Part 2 : Deep Dive Into the Arcane Look and Camera Projections (Blender 3.0 / EEVEE)",
-          "duration": "39m"
+          "duration": "39m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=iVj4H2qYTWA",
           "title": "The Ultimate Blender Animation Guide (Beginner to Advanced)",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 8
         }
       ]
     }
@@ -292,7 +340,8 @@
           "To enhance audio output"
         ],
         "correct_option": 1,
-        "hint": "Think about how 3D models affect the visual aspect of the game."
+        "hint": "Think about how 3D models affect the visual aspect of the game.",
+        "question_order": 1
       },
       {
         "question": "Which technique is used to simulate realistic light reflection in 3D games?",
@@ -303,7 +352,8 @@
           "Modeling"
         ],
         "correct_option": 1,
-        "hint": "This technique involves how light interacts with surfaces."
+        "hint": "This technique involves how light interacts with surfaces.",
+        "question_order": 2
       },
       {
         "question": "What is the main function of camera controls in 3D game engines?",
@@ -314,7 +364,8 @@
           "Creating complex game levels"
         ],
         "correct_option": 2,
-        "hint": "Consider how players experience the game visually."
+        "hint": "Consider how players experience the game visually.",
+        "question_order": 3
       },
       {
         "question": "What is an essential aspect of level design in 3D games?",
@@ -325,7 +376,8 @@
           "Optimizing character speed"
         ],
         "correct_option": 2,
-        "hint": "Think about what makes a game world interesting to explore."
+        "hint": "Think about what makes a game world interesting to explore.",
+        "question_order": 4
       },
       {
         "question": "Which software component is crucial for developing animations in 3D games?",
@@ -336,7 +388,8 @@
           "Spreadsheet applications"
         ],
         "correct_option": 1,
-        "hint": "This tool helps bring characters and objects to life in the game."
+        "hint": "This tool helps bring characters and objects to life in the game.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -349,7 +402,8 @@
           ".mp3"
         ],
         "correct_option": 1,
-        "hint": "It is a flexible format used in many 3D applications and game engines."
+        "hint": "It is a flexible format used in many 3D applications and game engines.",
+        "question_order": 1
       },
       {
         "question": "What is the primary purpose of using shaders in 3D game development?",
@@ -360,7 +414,8 @@
           "To load game assets faster"
         ],
         "correct_option": 2,
-        "hint": "Consider how visual effects like lighting and shadows are computed."
+        "hint": "Consider how visual effects like lighting and shadows are computed.",
+        "question_order": 2
       },
       {
         "question": "In 3D game development, what does 'baking lighting' refer to?",
@@ -371,7 +426,8 @@
           "Configuring light switches in the game environment"
         ],
         "correct_option": 1,
-        "hint": "Think about how lighting can be processed to reduce real-time computation."
+        "hint": "Think about how lighting can be processed to reduce real-time computation.",
+        "question_order": 3
       },
       {
         "question": "When designing a 3D game level, what is an important consideration for optimizing performance?",
@@ -382,7 +438,8 @@
           "Adding as many dynamic objects as possible"
         ],
         "correct_option": 2,
-        "hint": "Consider the workload on the graphics processing unit (GPU)."
+        "hint": "Consider the workload on the graphics processing unit (GPU).",
+        "question_order": 4
       },
       {
         "question": "In camera controls for 3D games, what does 'field of view' (FOV) determine?",
@@ -393,7 +450,8 @@
           "The amount of detail rendered in textures"
         ],
         "correct_option": 2,
-        "hint": "Think of how much of the game world is visible to the player at any time."
+        "hint": "Think of how much of the game world is visible to the player at any time.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -406,7 +464,8 @@
           "SVG"
         ],
         "correct_option": 0,
-        "hint": "This format is widely supported for animations and is developed by Autodesk."
+        "hint": "This format is widely supported for animations and is developed by Autodesk.",
+        "question_order": 1
       },
       {
         "question": "What is a primary purpose of using normal maps in shading techniques?",
@@ -417,7 +476,8 @@
           "To animate textures"
         ],
         "correct_option": 1,
-        "hint": "Normal maps are used to give the illusion of complex surface detail without increasing polygon count."
+        "hint": "Normal maps are used to give the illusion of complex surface detail without increasing polygon count.",
+        "question_order": 2
       },
       {
         "question": "Which camera control technique involves locking the camera's position to a fixed path while allowing rotation based on player input?",
@@ -428,7 +488,8 @@
           "First-person camera"
         ],
         "correct_option": 2,
-        "hint": "This camera technique is often used in games to guide the player's view along a predetermined route."
+        "hint": "This camera technique is often used in games to guide the player's view along a predetermined route.",
+        "question_order": 3
       },
       {
         "question": "In the context of level design, what is a 'greybox' stage?",
@@ -439,7 +500,8 @@
           "A stage dedicated to character animations"
         ],
         "correct_option": 1,
-        "hint": "This stage involves using simple shapes to outline the level's structure before detailed design."
+        "hint": "This stage involves using simple shapes to outline the level's structure before detailed design.",
+        "question_order": 4
       },
       {
         "question": "Which of the following is a crucial consideration when designing environmental art to optimize performance in 3D game engines?",
@@ -450,7 +512,8 @@
           "Complex shader calculations"
         ],
         "correct_option": 2,
-        "hint": "Optimizing load times and performance is key to ensuring smooth gameplay."
+        "hint": "Optimizing load times and performance is key to ensuring smooth gameplay.",
+        "question_order": 5
       }
     ]
   }

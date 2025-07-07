@@ -1,6 +1,6 @@
 import pytest
 import json
-from app.rag_system import RAGSystem
+from personalisation_service.app.rag_output import RAGSystem
 import openai # Import openai for error types
 from unittest.mock import Mock # Import Mock for dummy response object
 

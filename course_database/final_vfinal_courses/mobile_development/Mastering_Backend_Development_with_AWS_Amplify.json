@@ -27,95 +27,113 @@
         {
           "url": "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison",
           "description": "A comparative guide to cloud services across AWS, Azure, and Google Cloud.",
-          "title": "Compare AWS and Azure services to Google Cloud \u00a0|\u00a0 Get started"
+          "title": "Compare AWS and Azure services to Google Cloud  |  Get started",
+          "resource_order": 1
         },
         {
           "url": "https://docs.usebasin.com/",
           "description": "Comprehensive documentation for integrating and using Basin's form backend services.",
-          "title": "Welcome to Basin! | No-Code Form Backend - Basin Docs"
+          "title": "Welcome to Basin! | No-Code Form Backend - Basin Docs",
+          "resource_order": 2
         },
         {
           "url": "https://workshops.aws/",
           "description": "A platform offering hands-on workshops to explore and learn AWS services and solutions.",
-          "title": "AWS Workshops"
+          "title": "AWS Workshops",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://ibrahimcesar.cloud/blog/aws-amplify-sam-cdk-what-to-choose-for-infrastructure-as-code-on-aws/",
           "description": "A comparative analysis of AWS Amplify, SAM, and CDK for infrastructure as code solutions on AWS.",
-          "title": "AWS Amplify, SAM, CDK ... What to choose for your Infrastructure as Code on AWS?!? \u2014 Ibrahim Cesar"
+          "title": "AWS Amplify, SAM, CDK ... What to choose for your Infrastructure as Code on AWS?!? — Ibrahim Cesar",
+          "resource_order": 1
         },
         {
           "url": "https://workshops.aws/",
           "description": "A platform offering a wide range of AWS workshops and hands-on labs for learning cloud services.",
-          "title": "AWS Workshops"
+          "title": "AWS Workshops",
+          "resource_order": 2
         },
         {
           "url": "https://www.evergrowingdev.com/p/5-top-free-resources-to-learn-aws",
           "description": "A list of five top free resources for learning AWS.",
-          "title": "\ud83d\uddf3\ufe0f 5 Top Free Resources to Learn AWS Amplify"
+          "title": "🗳️ 5 Top Free Resources to Learn AWS Amplify",
+          "resource_order": 3
         },
         {
           "url": "https://cloudvisor.co/blog/aws-mobile-app-development-a-comprehensive-guide/",
           "description": "A comprehensive guide to developing mobile applications using AWS services.",
-          "title": "AWS Mobile App Development: A Comprehensive Guide"
+          "title": "AWS Mobile App Development: A Comprehensive Guide",
+          "resource_order": 4
         },
         {
           "url": "https://www.coursera.org/courses?query=aws",
           "description": "A curated list of courses on AWS offered by Coursera for learning cloud computing skills.",
-          "title": "Best AWS Courses & Certificates [2025] | Coursera Learn Online"
+          "title": "Best AWS Courses & Certificates [2025] | Coursera Learn Online",
+          "resource_order": 5
         },
         {
           "url": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
           "description": "A curated list of common AWS interview questions and answers for job preparation.",
-          "title": "Best 100+ AWS Interview Questions and Answers [2025 Update]"
+          "title": "Best 100+ AWS Interview Questions and Answers [2025 Update]",
+          "resource_order": 6
         },
         {
           "url": "https://docs.aws.amazon.com/lambda/latest/dg/lambda-dg.pdf",
-          "description": "The official AWS Lambda Developer Guide providing detailed instructions and best practices for using AWS Lambda."
+          "description": "The official AWS Lambda Developer Guide providing detailed instructions and best practices for using AWS Lambda.",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=4DUX-Uzddus",
           "title": "Top 5 Udemy Courses to Learn AWS Cloud (For Beginners)",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=SqTdHCTWqks&pp=0gcJCfwAo7VqN5tD",
           "title": "30 Days to Learn Laravel - Complete 8 Hour Course",
-          "duration": "509m"
+          "duration": "509m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=51r3zPOun5g",
           "title": "The BEST Project Idea to Learn AWS",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=bpHq_-bPkGo",
           "title": "Data Fetching in React Native with TanStack Query (tutorial for beginners)",
-          "duration": "152m"
+          "duration": "152m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=fHK6e6en0YA",
           "title": "HOW TO HOST A STATIC SITE IN THE CLOUD (using AWS Amplify)",
-          "duration": "62m"
+          "duration": "62m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=A2rs1aR-Ryg",
           "title": "AWS Solution Architect Intro - Part-1",
-          "duration": "0m"
+          "duration": "0m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=5yImsd8XKVk",
           "title": "Master AWS DynamoDB in Just 15 Minutes: A Complete Expert Guide!",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=ldYcgPKEZC8",
           "title": "PERN Stack Course - Postgres, Express, React, and Node",
-          "duration": "82m"
+          "duration": "82m",
+          "resource_order": 8
         }
       ]
     },
@@ -124,91 +142,108 @@
         {
           "url": "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison",
           "description": "A comparison guide for AWS, Azure, and GCP services to help users choose the right cloud platform.",
-          "title": "Compare AWS and Azure services to Google Cloud \u00a0|\u00a0 Get started"
+          "title": "Compare AWS and Azure services to Google Cloud  |  Get started",
+          "resource_order": 1
         },
         {
           "url": "https://workshops.aws/",
           "description": "A platform offering interactive workshops for learning AWS cloud services and solutions.",
-          "title": "AWS Workshops"
+          "title": "AWS Workshops",
+          "resource_order": 2
         },
         {
           "url": "https://docs.usebasin.com/",
           "description": "Comprehensive documentation for integrating and using Basin's form backend services.",
-          "title": "Welcome to Basin! | No-Code Form Backend - Basin Docs"
+          "title": "Welcome to Basin! | No-Code Form Backend - Basin Docs",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://ibrahimcesar.cloud/blog/aws-amplify-sam-cdk-what-to-choose-for-infrastructure-as-code-on-aws/",
           "description": "An analysis of AWS Amplify, SAM, and CDK for choosing the right infrastructure-as-code tool on AWS.",
-          "title": "AWS Amplify, SAM, CDK ... What to choose for your Infrastructure as Code on AWS?!? \u2014 Ibrahim Cesar"
+          "title": "AWS Amplify, SAM, CDK ... What to choose for your Infrastructure as Code on AWS?!? — Ibrahim Cesar",
+          "resource_order": 1
         },
         {
           "url": "https://workshops.aws/",
           "description": "An extensive collection of hands-on workshops for learning AWS services and solutions.",
-          "title": "AWS Workshops"
+          "title": "AWS Workshops",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/cloudposse/terraform-aws-amplify-app",
           "description": "Terraform module for deploying AWS Amplify applications.",
-          "title": "GitHub - cloudposse/terraform-aws-amplify-app: Terraform module to provision AWS Amplify apps, backend environments, branches, domain associations, and webhooks"
+          "title": "GitHub - cloudposse/terraform-aws-amplify-app: Terraform module to provision AWS Amplify apps, backend environments, branches, domain associations, and webhooks",
+          "resource_order": 3
         },
         {
           "url": "https://kane.mx/posts/2024/aws-amplify-you-need-to-know/",
           "description": "An essential overview of key features and benefits of AWS Amplify for developers.",
-          "title": "Nine Essential Tips of AWS Amplify for Boosting Development Productivity | The road"
+          "title": "Nine Essential Tips of AWS Amplify for Boosting Development Productivity | The road",
+          "resource_order": 4
         },
         {
           "url": "https://cloudvisor.co/blog/aws-mobile-app-development-a-comprehensive-guide/",
           "description": "A detailed guide on developing mobile applications using AWS services.",
-          "title": "AWS Mobile App Development: A Comprehensive Guide"
+          "title": "AWS Mobile App Development: A Comprehensive Guide",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=FLQok6PGg3E",
           "title": "Build a global chat application with AWS AppSync Pub/Sub and Amazon EventBridge - AWS",
-          "duration": "22m"
+          "duration": "22m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=mRUPnke5zNg",
           "title": "Easily upload and manage Amazon S3 files in a Next.js web app with AWS Amplify-AWS Online Tech Talks",
-          "duration": "44m"
+          "duration": "44m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=actyksjs9eE",
           "title": "Getting Started: Amplify Authenticator for Vue",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=SIl5PM4m2KM",
           "title": "Build Your Own Search Using Amazon OpenSearch Service [FULL COURSE in 15MIN]",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=51r3zPOun5g",
           "title": "The BEST Project Idea to Learn AWS",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=2L_XE6g3atI",
           "title": "Agents Tools & Function Calling with Amazon Bedrock (How-to)",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 6
         },
         {
           "url": "https://m.youtube.com/watch?v=eRXXgT88aMM&pp=ygUGI3Rlw6do",
           "title": "How Top Tech Companies Develop and Deploy Code with CI / CD Pipelines",
-          "duration": "23m"
+          "duration": "23m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=wYpCWwD1oz0",
           "title": "Build a COMPLETE React Admin Dashboard App | React, Material UI, Data Grid, Light & Dark Mode",
-          "duration": "244m"
+          "duration": "244m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=Cz0unTbOfgo",
           "title": "Serving Multiple Websites with AWS CloudFront & Lambda at Edge",
-          "duration": "28m"
+          "duration": "28m",
+          "resource_order": 9
         }
       ]
     },
@@ -217,95 +252,113 @@
         {
           "url": "https://workshops.aws/",
           "description": "A platform offering interactive workshops to learn AWS services and solutions.",
-          "title": "AWS Workshops"
+          "title": "AWS Workshops",
+          "resource_order": 1
         },
         {
           "url": "https://docs.usebasin.com/",
           "description": "Comprehensive documentation for integrating and using Basin's form backend service.",
-          "title": "Welcome to Basin! | No-Code Form Backend - Basin Docs"
+          "title": "Welcome to Basin! | No-Code Form Backend - Basin Docs",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison",
           "description": "A comparison guide for AWS, Azure, and GCP services to facilitate cloud platform transitions.",
-          "title": "Compare AWS and Azure services to Google Cloud \u00a0|\u00a0 Get started"
+          "title": "Compare AWS and Azure services to Google Cloud  |  Get started",
+          "resource_order": 3
         },
         {
           "url": "https://www.serverlessguru.com/blog/deep-dive-into-vpc-links-in-amazon-api-gateway",
           "description": "An in-depth exploration of VPC Links in Amazon API Gateway for secure backend integration.",
-          "title": "Private Integrations in Amazon API Gateway: A Guide | Serverless Guru"
+          "title": "Private Integrations in Amazon API Gateway: A Guide | Serverless Guru",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://workshops.aws/",
           "description": "A platform offering interactive workshops to learn and build on AWS services.",
-          "title": "AWS Workshops"
+          "title": "AWS Workshops",
+          "resource_order": 1
         },
         {
           "url": "https://www.linkedin.com/posts/dreamerkumar_using-web-components-and-aws-amplify-gen-activity-7223335821246894081-5GeM",
           "description": "A demonstration of using web components with AWS Amplify to generate applications.",
-          "title": "Excited to share my tutorial on leveraging Web Components and AWS Amplify Gen 2 for crafting a Decoupled CMS and a Headless CMS. | Vishal Kumar"
+          "title": "Excited to share my tutorial on leveraging Web Components and AWS Amplify Gen 2 for crafting a Decoupled CMS and a Headless CMS. | Vishal Kumar",
+          "resource_order": 2
         },
         {
           "url": "https://kane.mx/posts/2024/aws-amplify-you-need-to-know/",
           "description": "An informative overview of essential concepts and features of AWS Amplify.",
-          "title": "Nine Essential Tips of AWS Amplify for Boosting Development Productivity | The road"
+          "title": "Nine Essential Tips of AWS Amplify for Boosting Development Productivity | The road",
+          "resource_order": 3
         },
         {
           "url": "https://docs.aws.amazon.com/serverless/latest/devguide/serverless-core.pdf",
-          "description": "An in-depth guide to understanding and implementing AWS serverless applications."
+          "description": "An in-depth guide to understanding and implementing AWS serverless applications.",
+          "resource_order": 4
         },
         {
           "url": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
           "description": "A curated list of common AWS interview questions and answers for job preparation.",
-          "title": "Best 100+ AWS Interview Questions and Answers [2025 Update]"
+          "title": "Best 100+ AWS Interview Questions and Answers [2025 Update]",
+          "resource_order": 5
         },
         {
           "url": "https://www.serverlessguru.com/blog/deep-dive-into-vpc-links-in-amazon-api-gateway",
           "description": "An in-depth exploration of using VPC Links with Amazon API Gateway for secure backend integration.",
-          "title": "Private Integrations in Amazon API Gateway: A Guide | Serverless Guru"
+          "title": "Private Integrations in Amazon API Gateway: A Guide | Serverless Guru",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=mRUPnke5zNg",
           "title": "Easily upload and manage Amazon S3 files in a Next.js web app with AWS Amplify-AWS Online Tech Talks",
-          "duration": "44m"
+          "duration": "44m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=2L_XE6g3atI",
           "title": "Agents Tools & Function Calling with Amazon Bedrock (How-to)",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=5yImsd8XKVk",
           "title": "Master AWS DynamoDB in Just 15 Minutes: A Complete Expert Guide!",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=FvCt7GxvRDA&pp=ygUSI2NlcnRpZmllZGxlYXJuaW5n",
           "title": "The Best AWS Certification Learning Paths (Roadmap by AWS)",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=fdsToXyIZTA",
           "title": "Fullstack Development Tutorial: From Setup to Completion | Book shelf Application",
-          "duration": "144m"
+          "duration": "144m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=SqTdHCTWqks&pp=0gcJCfwAo7VqN5tD",
           "title": "30 Days to Learn Laravel - Complete 8 Hour Course",
-          "duration": "509m"
+          "duration": "509m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=_bwDxDiP5Nw",
           "title": "Swift Serverless Solution For RESTful APIs using AWS Lambda and NoSQL Database",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=pqQGU-JsD7k",
-          "title": "Let's build WhatsApp with React Native and AWS Amplify [p4] \ud83d\udd34",
-          "duration": "205m"
+          "title": "Let's build WhatsApp with React Native and AWS Amplify [p4] 🔴",
+          "duration": "205m",
+          "resource_order": 8
         }
       ]
     }
@@ -321,7 +374,8 @@
           "Network configuration"
         ],
         "correct_option": 1,
-        "hint": "AWS Amplify is focused on handling server-side operations."
+        "hint": "AWS Amplify is focused on handling server-side operations.",
+        "question_order": 1
       },
       {
         "question": "Which feature of AWS Amplify helps in building and managing APIs?",
@@ -332,7 +386,8 @@
           "Amplify Storage"
         ],
         "correct_option": 2,
-        "hint": "This feature focuses on creating interfaces for applications to interact with."
+        "hint": "This feature focuses on creating interfaces for applications to interact with.",
+        "question_order": 2
       },
       {
         "question": "How does AWS Amplify handle user authentication and authorization?",
@@ -343,7 +398,8 @@
           "Using S3 Buckets"
         ],
         "correct_option": 1,
-        "hint": "This feature is part of Amplify's suite for managing user access."
+        "hint": "This feature is part of Amplify's suite for managing user access.",
+        "question_order": 3
       },
       {
         "question": "What is Amplify DataStore used for?",
@@ -354,7 +410,8 @@
           "Deploying applications"
         ],
         "correct_option": 0,
-        "hint": "This feature is concerned with data storage solutions."
+        "hint": "This feature is concerned with data storage solutions.",
+        "question_order": 4
       },
       {
         "question": "Which AWS service is NOT directly integrated with AWS Amplify?",
@@ -365,7 +422,8 @@
           "S3"
         ],
         "correct_option": 2,
-        "hint": "This service is primarily used for virtual servers, not directly managed by Amplify."
+        "hint": "This service is primarily used for virtual servers, not directly managed by Amplify.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -378,7 +436,8 @@
           "To automate CI/CD pipelines for containerized applications"
         ],
         "correct_option": 0,
-        "hint": "Think about how AWS Amplify simplifies backend processes."
+        "hint": "Think about how AWS Amplify simplifies backend processes.",
+        "question_order": 1
       },
       {
         "question": "Which AWS service is commonly integrated with AWS Amplify to enhance user authentication capabilities?",
@@ -389,7 +448,8 @@
           "AWS CloudFormation"
         ],
         "correct_option": 2,
-        "hint": "This service specializes in managing user identities."
+        "hint": "This service specializes in managing user identities.",
+        "question_order": 2
       },
       {
         "question": "When using Amplify DataStore, what is the primary benefit it provides for data storage?",
@@ -400,7 +460,8 @@
           "Provides automated backups for databases"
         ],
         "correct_option": 0,
-        "hint": "Think about how DataStore handles data when the device is offline."
+        "hint": "Think about how DataStore handles data when the device is offline.",
+        "question_order": 3
       },
       {
         "question": "Which AWS service can be used to monitor and debug backend operations in AWS Amplify?",
@@ -411,7 +472,8 @@
           "Amazon RDS"
         ],
         "correct_option": 0,
-        "hint": "This service is known for logging and monitoring AWS resources."
+        "hint": "This service is known for logging and monitoring AWS resources.",
+        "question_order": 4
       },
       {
         "question": "What type of backend architecture does AWS Amplify primarily support?",
@@ -422,7 +484,8 @@
           "Microservices architecture"
         ],
         "correct_option": 2,
-        "hint": "Consider the nature of Amplify's deployment model."
+        "hint": "Consider the nature of Amplify's deployment model.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -435,7 +498,8 @@
           "Offers automatic code refactoring for legacy systems."
         ],
         "correct_option": 0,
-        "hint": "Consider what serverless architecture implies for managing infrastructure."
+        "hint": "Consider what serverless architecture implies for managing infrastructure.",
+        "question_order": 1
       },
       {
         "question": "When setting up user authentication with AWS Amplify, which service is primarily used to manage user identities and credentials?",
@@ -446,7 +510,8 @@
           "AWS S3"
         ],
         "correct_option": 1,
-        "hint": "Think of a service specifically designed for user pools and identity management."
+        "hint": "Think of a service specifically designed for user pools and identity management.",
+        "question_order": 2
       },
       {
         "question": "Which feature of AWS Amplify DataStore allows it to efficiently handle offline data access and synchronization?",
@@ -457,7 +522,8 @@
           "GraphQL schema stitching"
         ],
         "correct_option": 1,
-        "hint": "Consider how data consistency is maintained in distributed systems with potential conflicts."
+        "hint": "Consider how data consistency is maintained in distributed systems with potential conflicts.",
+        "question_order": 3
       },
       {
         "question": "In the context of integrating AWS Amplify with other AWS services, what role does AWS Lambda play?",
@@ -468,7 +534,8 @@
           "It stores and retrieves media files."
         ],
         "correct_option": 1,
-        "hint": "Think about how AWS Lambda is used in event-driven architectures."
+        "hint": "Think about how AWS Lambda is used in event-driven architectures.",
+        "question_order": 4
       },
       {
         "question": "Which tool or service would you use to monitor and debug AWS Amplify backend applications efficiently?",
@@ -479,7 +546,8 @@
           "Amazon RDS"
         ],
         "correct_option": 0,
-        "hint": "Consider a service that aggregates logs and metrics for AWS services."
+        "hint": "Consider a service that aggregates logs and metrics for AWS services.",
+        "question_order": 5
       }
     ]
   },

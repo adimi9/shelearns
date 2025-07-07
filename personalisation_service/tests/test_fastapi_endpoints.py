@@ -5,7 +5,7 @@ from unittest.mock import AsyncMock
 
 # Import the FastAPI app instance from your main.py
 from main import app
-from app.rag_system import RAGSystem # Needed to mock its methods
+from personalisation_service.app.rag_output import RAGSystem # Needed to mock its methods
 
 # Create a TestClient instance for your FastAPI app
 # This client can be used to send requests to your FastAPI application directly,

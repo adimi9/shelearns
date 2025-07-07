@@ -21,76 +21,90 @@
         {
           "url": "https://docs.unity.com/",
           "description": "Official documentation for Unity, a cross-platform game engine.",
-          "title": "Unity documentation"
+          "title": "Unity documentation",
+          "resource_order": 1
         },
         {
           "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/Unity2D.html",
           "description": "An in-depth manual for developing 2D games using the Unity engine.",
-          "title": "Unity - Manual: 2D game development"
+          "title": "Unity - Manual: 2D game development",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
           "description": "An in-depth guide to using the Canvas API for drawing graphics on the web.",
-          "title": "Canvas API - Web APIs | MDN"
+          "title": "Canvas API - Web APIs | MDN",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://discussions.unity.com/t/tutorial-for-starting-2d/908378",
           "description": "A beginner's tutorial for starting 2D game development in Unity.",
-          "title": "Tutorial for Starting 2D - Unity Engine - Unity Discussions"
+          "title": "Tutorial for Starting 2D - Unity Engine - Unity Discussions",
+          "resource_order": 1
         },
         {
           "url": "https://learncodebygaming.com/blog/how-to-make-a-video-game-in-java-2d-basics",
           "description": "A beginner's guide to creating a 2D video game using Java.",
-          "title": "How to make a Video Game in Java (2D Basics) - LearnCodeByGaming.com"
+          "title": "How to make a Video Game in Java (2D Basics) - LearnCodeByGaming.com",
+          "resource_order": 2
         },
         {
           "url": "https://forums.unrealengine.com/t/complete-2d-game-in-unreal-engine-tutorial-video-and-text-formats/27598",
           "description": "A tutorial for creating a complete 2D game in Unreal Engine, available in video and text formats.",
-          "title": "Complete 2D Game in Unreal Engine Tutorial (Video and Text Formats) - Community / Community & Industry Discussion - Epic Developer Community Forums"
+          "title": "Complete 2D Game in Unreal Engine Tutorial (Video and Text Formats) - Community / Community & Industry Discussion - Epic Developer Community Forums",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=S8lMTwSRoRg",
-          "title": "Godot Game Development \u2013 Crash Course for Beginners",
-          "duration": "101m"
+          "title": "Godot Game Development – Crash Course for Beginners",
+          "duration": "101m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=1f9ndBcs-to",
           "title": "EASY 2D Game Design Tutorial For Beginners",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=025QFeZfeyM",
           "title": "Code a 2D Game Engine using Java - Full Course for Beginners",
-          "duration": "1430m"
+          "duration": "1430m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=XtQMytORBmM",
           "title": "The Unity Tutorial For Complete Beginners",
-          "duration": "46m"
+          "duration": "46m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=Qif4jxhGT9c",
           "title": "Free Unity 2D Course for Beginners (Game Design Tutorial)",
-          "duration": "504m"
+          "duration": "504m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=dEKs-3GhVKQ",
           "title": "New Beginner 2D Game Programming - 1 - Introduction & Launcher",
-          "duration": "3m"
+          "duration": "3m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=LOhfqjmasi0",
           "title": "How to make a Video Game - Godot Beginner Tutorial",
-          "duration": "77m"
+          "duration": "77m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=QplEeEAJxck&pp=0gcJCfwAo7VqN5tD",
           "title": "Your First 2D GAME - Day 1 Beginner Tutorial",
-          "duration": "290m"
+          "duration": "290m",
+          "resource_order": 8
         }
       ]
     },
@@ -99,86 +113,102 @@
         {
           "url": "https://docs.unity.com/",
           "description": "Official documentation for Unity, a real-time development platform for creating 2D, 3D, VR, and AR experiences.",
-          "title": "Unity documentation"
+          "title": "Unity documentation",
+          "resource_order": 1
         },
         {
           "url": "https://developers.meta.com/horizon/",
           "description": "An overview of Horizon, Meta's platform for building virtual reality experiences.",
-          "title": "Homepage | Meta Horizon OS Developers"
+          "title": "Homepage | Meta Horizon OS Developers",
+          "resource_order": 2
         },
         {
           "url": "https://discussions.unity.com/t/why-does-the-playables-api-exist-when-should-i-use-it-rather-than-mecanim-animator-controllers/796009",
           "description": "An explanation of the Playables API in Unity and when to use it over Mecanim Animator Controllers.",
-          "title": "Why does the Playables API exist, when should I use it rather than Mecanim (Animator Controllers)? - Unity Engine - Unity Discussions"
+          "title": "Why does the Playables API exist, when should I use it rather than Mecanim (Animator Controllers)? - Unity Engine - Unity Discussions",
+          "resource_order": 3
         },
         {
           "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html",
           "description": "The official Unity Manual providing comprehensive documentation for using Unity 3D engine.",
-          "title": "Unity - Manual: Unity 6.1 User Manual"
+          "title": "Unity - Manual: Unity 6.1 User Manual",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://github.com/a327ex/blog/issues/39",
           "description": "An in-depth exploration of implementing and optimizing data-oriented design in game development.",
-          "title": "How I made my own 2D game engine in under 2 months \u00b7 Issue #39 \u00b7 a327ex/blog"
+          "title": "How I made my own 2D game engine in under 2 months · Issue #39 · a327ex/blog",
+          "resource_order": 1
         },
         {
           "url": "https://edw.is/learning-vulkan/",
           "description": "An introductory guide to learning Vulkan for graphics programming.",
-          "title": "How I learned Vulkan and wrote a small game engine with it"
+          "title": "How I learned Vulkan and wrote a small game engine with it",
+          "resource_order": 2
         },
         {
           "url": "https://michaelbitzos.com/devblog/implementing-stairs-in-2d-top-down-games",
           "description": "A detailed guide on implementing stairs in 2D top-down video games.",
-          "title": "Implementing satisfying stairs for your 2D top-down game"
+          "title": "Implementing satisfying stairs for your 2D top-down game",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=8OMghdHP-zs",
           "title": "Master Python by making 5 games [the new ultimate introduction to pygame]",
-          "duration": "668m"
+          "duration": "668m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=tO3kLfvN6s4",
           "title": "Build Your First Mobile 2D Game using Godot 4",
-          "duration": "136m"
+          "duration": "136m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=VEnZzwW_OJM",
           "title": "Unity C# Scripting - Full Game Development Course",
-          "duration": "257m"
+          "duration": "257m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=jsuBXckPvMw&pp=0gcJCfwAo7VqN5tD",
           "title": "How to make High Resolution 2D Games in Unreal Engine 5",
-          "duration": "31m"
+          "duration": "31m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=tO2gthp45MA",
           "title": "All 219 Godot Nodes Explained In 42 Minutes !",
-          "duration": "42m"
+          "duration": "42m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=A3R6T1h0ln8",
           "title": "Learn to make First 3D game in Godot 4 (Complete Tutorial Beginner Friendly)",
-          "duration": "209m"
+          "duration": "209m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=RuTmd4g5K8Q",
           "title": "14 Hours of Python Game Development - from Beginner to Advanced",
-          "duration": "828m"
+          "duration": "828m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=JUs6pPk_y8I",
           "title": "Say hello to new 2D workflows and AI enhancements | Unite 2024",
-          "duration": "54m"
+          "duration": "54m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=lALvR4j6RCM",
           "title": "Framebuffers in OpenGL | Coding a 2D Game Engine in Java #27",
-          "duration": "24m"
+          "duration": "24m",
+          "resource_order": 9
         }
       ]
     },
@@ -187,86 +217,102 @@
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
           "description": "Official Microsoft documentation for C# programming language.",
-          "title": "C# Guide - .NET managed language | Microsoft Learn"
+          "title": "C# Guide - .NET managed language | Microsoft Learn",
+          "resource_order": 1
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
           "description": "An in-depth guide to using the Canvas API for drawing graphics on the web.",
-          "title": "Canvas API - Web APIs | MDN"
+          "title": "Canvas API - Web APIs | MDN",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/windows/uwp/gaming/e2e",
           "description": "A guide to developing end-to-end gaming experiences on the Universal Windows Platform.",
-          "title": "Windows game development guide - UWP applications | Microsoft Learn"
+          "title": "Windows game development guide - UWP applications | Microsoft Learn",
+          "resource_order": 3
         },
         {
           "url": "https://create.roblox.com/docs",
           "description": "Comprehensive documentation for creating and developing experiences on Roblox.",
-          "title": "Documentation - Roblox Creator Hub"
+          "title": "Documentation - Roblox Creator Hub",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://a5huynh.github.io/posts/2018/adventures-in-rust/",
           "description": "An exploration of learning and developing projects using the Rust programming language.",
-          "title": "Adventures in Rust: A Basic 2D Game"
+          "title": "Adventures in Rust: A Basic 2D Game",
+          "resource_order": 1
         },
         {
           "url": "https://learncodebygaming.com/blog/how-to-make-a-video-game-in-java-2d-basics",
           "description": "A beginner's guide to creating a 2D video game in Java.",
-          "title": "How to make a Video Game in Java (2D Basics) - LearnCodeByGaming.com"
+          "title": "How to make a Video Game in Java (2D Basics) - LearnCodeByGaming.com",
+          "resource_order": 2
         },
         {
           "url": "https://edw.is/learning-vulkan/",
           "description": "A detailed tutorial series for learning Vulkan graphics API from scratch.",
-          "title": "How I learned Vulkan and wrote a small game engine with it"
+          "title": "How I learned Vulkan and wrote a small game engine with it",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=cNccvVoymb0",
           "title": "The Ultimate 2D Game Development Deep Dive 2025",
-          "duration": "150m"
+          "duration": "150m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=s0O3a2AgoBA&pp=0gcJCdgAo7VqN5tD",
           "title": "Godot for absolute beginners - start the right way",
-          "duration": "253m"
+          "duration": "253m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=Qif4jxhGT9c",
           "title": "Free Unity 2D Course for Beginners (Game Design Tutorial)",
-          "duration": "504m"
+          "duration": "504m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=Pkc4A1ukbJU",
-          "title": "Make a Complete 2D Platformer in Unity \u2013 40+ Features Tutorial!",
-          "duration": "176m"
+          "title": "Make a Complete 2D Platformer in Unity – 40+ Features Tutorial!",
+          "duration": "176m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
           "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
-          "duration": "649m"
+          "duration": "649m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=nBCDzE9MDbk",
           "title": "Beginner's Guide to GameMaker",
-          "duration": "33m"
+          "duration": "33m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=jxYYnATgJWc",
-          "title": "VFX-A Course Guide \u2014 How to Learn Effects?",
-          "duration": "16m"
+          "title": "VFX-A Course Guide — How to Learn Effects?",
+          "duration": "16m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=3FyuypHa7KQ",
           "title": "UE5 Make A 3D Platformer in Unreal Engine 5: Complete - UE4 compatible",
-          "duration": "150m"
+          "duration": "150m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=_nmNsvysVA0&pp=0gcJCfwAo7VqN5tD",
           "title": "#UE5 Series: Motion Design from Scratch: +2 Hours Deep Dive",
-          "duration": "134m"
+          "duration": "134m",
+          "resource_order": 9
         }
       ]
     }
@@ -282,7 +328,8 @@
           "A script for game logic"
         ],
         "correct_option": 0,
-        "hint": "It's a type of image asset usually used for characters or objects."
+        "hint": "It's a type of image asset usually used for characters or objects.",
+        "question_order": 1
       },
       {
         "question": "Which component is essential for detecting when two objects collide in a 2D game?",
@@ -293,7 +340,8 @@
           "Animation timeline"
         ],
         "correct_option": 0,
-        "hint": "This system helps simulate real-world physics in games."
+        "hint": "This system helps simulate real-world physics in games.",
+        "question_order": 2
       },
       {
         "question": "What is the purpose of a tilemap in 2D games?",
@@ -304,7 +352,8 @@
           "To handle network connections"
         ],
         "correct_option": 0,
-        "hint": "It helps in designing levels using grid-based layouts."
+        "hint": "It helps in designing levels using grid-based layouts.",
+        "question_order": 3
       },
       {
         "question": "Which system allows the game view to follow the player character as they move through the game world?",
@@ -315,7 +364,8 @@
           "Input manager"
         ],
         "correct_option": 0,
-        "hint": "It controls what part of the game world is visible on the screen."
+        "hint": "It controls what part of the game world is visible on the screen.",
+        "question_order": 4
       },
       {
         "question": "What does HUD stand for in the context of 2D game design?",
@@ -326,7 +376,8 @@
           "Hidden User Data"
         ],
         "correct_option": 0,
-        "hint": "It's a common way to display important game information to the player."
+        "hint": "It's a common way to display important game information to the player.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -339,7 +390,8 @@
           "To control camera movement in the game"
         ],
         "correct_option": 2,
-        "hint": "Think about how game levels and environments are constructed efficiently."
+        "hint": "Think about how game levels and environments are constructed efficiently.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is a common method for detecting collisions in a 2D game engine?",
@@ -350,7 +402,8 @@
           "Alpha blending"
         ],
         "correct_option": 1,
-        "hint": "This method involves the simplest geometric shape to encompass an object."
+        "hint": "This method involves the simplest geometric shape to encompass an object.",
+        "question_order": 2
       },
       {
         "question": "In the context of sprite animation, what does a 'sprite sheet' refer to?",
@@ -361,7 +414,8 @@
           "A method to optimize game performance"
         ],
         "correct_option": 1,
-        "hint": "Think of it as a collection of images put together to create motion."
+        "hint": "Think of it as a collection of images put together to create motion.",
+        "question_order": 3
       },
       {
         "question": "How can a camera system enhance a 2D game's user experience?",
@@ -372,7 +426,8 @@
           "By adding more complex physics"
         ],
         "correct_option": 1,
-        "hint": "Consider how players can get different perspectives of the game environment."
+        "hint": "Consider how players can get different perspectives of the game environment.",
+        "question_order": 4
       },
       {
         "question": "What is a common use of a UI/HUD in 2D games?",
@@ -383,7 +438,8 @@
           "To simulate realistic lighting effects"
         ],
         "correct_option": 1,
-        "hint": "Consider what information players need to see during gameplay."
+        "hint": "Consider what information players need to see during gameplay.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -396,7 +452,8 @@
           "To improve collision detection accuracy"
         ],
         "correct_option": 0,
-        "hint": "Think about how animations are organized and stored efficiently."
+        "hint": "Think about how animations are organized and stored efficiently.",
+        "question_order": 1
       },
       {
         "question": "In 2D physics engines, which method is commonly used to detect collisions between complex shapes?",
@@ -407,7 +464,8 @@
           "Convex hull calculation"
         ],
         "correct_option": 0,
-        "hint": "Consider techniques that optimize collision detection by simplifying objects."
+        "hint": "Consider techniques that optimize collision detection by simplifying objects.",
+        "question_order": 2
       },
       {
         "question": "Which technique is essential for creating parallax scrolling in 2D camera systems?",
@@ -418,7 +476,8 @@
           "Applying anti-aliasing filters"
         ],
         "correct_option": 0,
-        "hint": "This technique involves moving different layers at varying speeds to create depth."
+        "hint": "This technique involves moving different layers at varying speeds to create depth.",
+        "question_order": 3
       },
       {
         "question": "In UI/HUD design for 2D games, what is the primary purpose of a minimap?",
@@ -429,7 +488,8 @@
           "To enhance graphical fidelity"
         ],
         "correct_option": 0,
-        "hint": "Consider what helps players orient themselves in the game world."
+        "hint": "Consider what helps players orient themselves in the game world.",
+        "question_order": 4
       },
       {
         "question": "How do tilemaps benefit level design in 2D game engines?",
@@ -440,7 +500,8 @@
           "They improve sound design"
         ],
         "correct_option": 0,
-        "hint": "Think about how tilemaps impact the visual consistency and resource management in levels."
+        "hint": "Think about how tilemaps impact the visual consistency and resource management in levels.",
+        "question_order": 5
       }
     ]
   }

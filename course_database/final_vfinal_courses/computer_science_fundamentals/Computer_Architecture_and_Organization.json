@@ -21,90 +21,107 @@
         {
           "url": "https://platform.openai.com/docs/api-reference/introduction",
           "description": "An introductory guide to the OpenAI API, detailing its capabilities and usage.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://prometheus.io/docs/introduction/overview/",
           "description": "An introductory overview of Prometheus, a powerful open-source monitoring and alerting toolkit.",
-          "title": "Overview | Prometheus"
+          "title": "Overview | Prometheus",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/",
           "description": "Official Microsoft Azure documentation and resources for cloud services.",
-          "title": "Azure documentation | Microsoft Learn"
+          "title": "Azure documentation | Microsoft Learn",
+          "resource_order": 3
         },
         {
           "url": "https://kubernetes.io/docs/concepts/architecture/",
           "description": "An overview of the core architecture and components of Kubernetes.",
-          "title": "Cluster Architecture | Kubernetes"
+          "title": "Cluster Architecture | Kubernetes",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://eecs.ceas.uc.edu/~wilseypa/classes/eece3026/",
           "description": "Course notes and resources for EECE 3026 at the University of Cincinnati.",
-          "title": "EECE 3026: Introduction to Computer Architecture & Organization"
+          "title": "EECE 3026: Introduction to Computer Architecture & Organization",
+          "resource_order": 1
         },
         {
           "url": "https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/",
           "description": "An educational series on computer organization and architecture concepts.",
-          "title": "Computer Organization and Architecture Tutorial - GeeksforGeeks"
+          "title": "Computer Organization and Architecture Tutorial - GeeksforGeeks",
+          "resource_order": 2
         },
         {
           "url": "https://www.eecs.harvard.edu/cs146-246/",
           "description": "Course notes and resources for Harvard's advanced computer systems class.",
-          "title": "CS 146: Computer Architecture"
+          "title": "CS 146: Computer Architecture",
+          "resource_order": 3
         },
         {
           "url": "https://vardhaman.org/wp-content/uploads/2021/03/CO.pdf",
-          "description": "A detailed course outline for computer organization and architecture."
+          "description": "A detailed course outline for computer organization and architecture.",
+          "resource_order": 4
         },
         {
           "url": "https://users.ece.cmu.edu/~jhoe/doku/doku.php?id=18-447_introduction_to_computer_architecture",
           "description": "An introductory resource on computer architecture concepts and principles.",
-          "title": "18-447_introduction_to_computer_architecture - James C. Hoe"
+          "title": "18-447_introduction_to_computer_architecture - James C. Hoe",
+          "resource_order": 5
         },
         {
           "url": "https://www.cse.iitd.ac.in/~srsarangi/archbooksoft.html",
           "description": "An online resource offering a detailed book on computer architecture concepts.",
-          "title": "Basic Computer Architecture"
+          "title": "Basic Computer Architecture",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://m.youtube.com/watch?v=BIpPTqHK-Lc",
           "title": "Computer Architecture - Lecture 1: Introduction and Basics (Fall 2022)",
-          "duration": "153m"
+          "duration": "153m",
+          "resource_order": 1
         },
         {
           "url": "https://m.youtube.com/watch?v=9nuAjYRbITQ&t=0s",
           "title": "Computer Architecture Complete course Part 1",
-          "duration": "569m"
+          "duration": "569m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=Onf7AKGHBzg",
           "title": "Computer Architecture Lecture 1: Introduction",
-          "duration": "42m"
+          "duration": "42m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=Ol8D69VKX2k",
           "title": "Introduction to Computer Organization and Architecture (COA)",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=zLP_X4wyHbY&pp=0gcJCfwAo7VqN5tD",
           "title": "Lecture 1. Introduction and Basics - Carnegie Mellon - Computer Architecture 2015 - Onur Mutlu",
-          "duration": "114m"
+          "duration": "114m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=ziMRjDlLEwo",
           "title": "Computer Architecture - Lecture 1: Introduction and Basics (Fall 2024)",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=4TzMyXmzL8M",
           "title": "Lecture -1 Introduction to Computer Architecture",
-          "duration": "53m"
+          "duration": "53m",
+          "resource_order": 7
         }
       ]
     },
@@ -113,106 +130,126 @@
         {
           "url": "https://cloud.google.com/architecture",
           "description": "An overview of Google Cloud's architecture best practices and solutions.",
-          "title": "Cloud Architecture Guidance and Topologies \u00a0|\u00a0 Google Cloud"
+          "title": "Cloud Architecture Guidance and Topologies  |  Google Cloud",
+          "resource_order": 1
         },
         {
           "url": "https://aws.amazon.com/architecture/",
           "description": "A resource hub for AWS cloud architecture best practices and design patterns.",
-          "title": "Reference Architecture Examples and Best Practices"
+          "title": "Reference Architecture Examples and Best Practices",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/",
           "description": "Comprehensive documentation for all AWS services and features.",
-          "title": "Welcome to AWS Documentation"
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 3
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/",
           "description": "Comprehensive documentation for using and managing Microsoft Azure services.",
-          "title": "Azure documentation | Microsoft Learn"
+          "title": "Azure documentation | Microsoft Learn",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/",
           "description": "An educational series on computer organization and architecture concepts.",
-          "title": "Computer Organization and Architecture Tutorial - GeeksforGeeks"
+          "title": "Computer Organization and Architecture Tutorial - GeeksforGeeks",
+          "resource_order": 1
         },
         {
           "url": "https://aws.amazon.com/architecture/",
           "description": "An overview of AWS architecture best practices and design principles.",
-          "title": "Reference Architecture Examples and Best Practices"
+          "title": "Reference Architecture Examples and Best Practices",
+          "resource_order": 2
         },
         {
           "url": "https://www.geeksforgeeks.org/computer-organization-von-neumann-architecture/",
           "description": "An overview of the Von Neumann architecture in computer organization.",
-          "title": "Computer Organization - Von Neumann architecture - GeeksforGeeks"
+          "title": "Computer Organization - Von Neumann architecture - GeeksforGeeks",
+          "resource_order": 3
         },
         {
           "url": "https://www.influxdata.com/glossary/vector-processing-SIMD/",
           "description": "An explanation of vector processing and SIMD (Single Instruction, Multiple Data) in computing.",
-          "title": "Vector Processing | InfluxData"
+          "title": "Vector Processing | InfluxData",
+          "resource_order": 4
         },
         {
           "url": "https://www.spiceworks.com/tech/iot/articles/what-is-parallel-processing/",
           "description": "An introductory article explaining the concept and applications of parallel processing in computing.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 5
         },
         {
           "url": "https://www.techtarget.com/searchcloudcomputing/definition/cloud-computing",
           "description": "An overview and definition of cloud computing and its key components.",
-          "title": "What is Cloud Computing? Types, Examples and Benefits | Definition from TechTarget"
+          "title": "What is Cloud Computing? Types, Examples and Benefits | Definition from TechTarget",
+          "resource_order": 6
         },
         {
           "url": "https://learn.arcgis.com/en/gallery/",
           "description": "A curated collection of tutorials and resources for learning ArcGIS software.",
-          "title": "Tutorial Gallery | Documentation"
+          "title": "Tutorial Gallery | Documentation",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=WKZ_vxCZXbQ",
           "title": "Getting Started with OneNote : Organize Your Life, Work, and Study",
-          "duration": "21m"
+          "duration": "21m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
           "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
-          "duration": "158m"
+          "duration": "158m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=ZLbVdvOoTKM",
           "title": "How to Build an LLM from Scratch | An Overview",
-          "duration": "35m"
+          "duration": "35m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=xrxC5gRNV48&pp=0gcJCfwAo7VqN5tD",
           "title": "Clean Architecture: The ONE Change That Transforms Use Cases From Terrible to Super Useful",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
           "title": "[1hr Talk] Intro to Large Language Models",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=m6ozQnqit50",
           "title": "Google Cloud Platform Full Course 2024 | Google Cloud Platform Tutorial | GCP Course | Simplilearn",
-          "duration": "239m"
+          "duration": "239m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=3Q_XbPmICPg",
           "title": "Introduction to Data Mesh with Zhamak Dehghani",
-          "duration": "65m"
+          "duration": "65m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=_kAP4Wtvauw",
           "title": "Databricks Generative AI Fundamentals",
-          "duration": "101m"
+          "duration": "101m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=lxwqHEPzuhk",
           "title": "Leveraging Generative AI in Project Management An Overview of Key Use Cases",
-          "duration": "61m"
+          "duration": "61m",
+          "resource_order": 9
         }
       ]
     },
@@ -221,96 +258,114 @@
         {
           "url": "https://www.dafcio.af.mil/",
           "description": "The official website for the Department of the Air Force Chief Information Officer, providing information on IT strategy and initiatives.",
-          "title": "SAF/CN - Home Page"
+          "title": "SAF/CN - Home Page",
+          "resource_order": 1
         },
         {
           "url": "https://cloud.google.com/ai/generative-ai",
           "description": "An overview of Google's generative AI capabilities and services on their cloud platform.",
-          "title": "Generative AI | Google Cloud"
+          "title": "Generative AI | Google Cloud",
+          "resource_order": 2
         },
         {
           "url": "https://developers.arcgis.com/python/latest/",
           "description": "Comprehensive documentation for using ArcGIS with Python for geospatial analysis and automation.",
-          "title": "ArcGIS API for Python"
+          "title": "ArcGIS API for Python",
+          "resource_order": 3
         },
         {
           "url": "https://cloud.google.com/architecture",
           "description": "An overview of best practices and design patterns for building solutions on Google Cloud.",
-          "title": "Cloud Architecture Guidance and Topologies \u00a0|\u00a0 Google Cloud"
+          "title": "Cloud Architecture Guidance and Topologies  |  Google Cloud",
+          "resource_order": 4
         },
         {
           "url": "https://docs.aws.amazon.com/",
           "description": "Official documentation for Amazon Web Services (AWS) providing detailed guides and tutorials for cloud computing services.",
-          "title": "Welcome to AWS Documentation"
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://hpca-conf.org/2025/workshop-tutorial/",
           "description": "Information about workshops and tutorials at the 2025 HPCA conference.",
-          "title": "Workshops & Tutorials | HPCA 2025"
+          "title": "Workshops & Tutorials | HPCA 2025",
+          "resource_order": 1
         },
         {
           "url": "https://www.geeksforgeeks.org/digital-logic/digital-electronics-logic-design-tutorials/",
           "description": "An educational series on digital electronics and logic design principles.",
-          "title": "Digital Electronics and Logic Design Tutorials - GeeksforGeeks"
+          "title": "Digital Electronics and Logic Design Tutorials - GeeksforGeeks",
+          "resource_order": 2
         },
         {
           "url": "https://frontegg.com/guides/single-sign-on-sso",
           "description": "A detailed guide on implementing Single Sign-On (SSO) for applications.",
-          "title": "What Is Single Sign-On (SSO) and How It Works | Frontegg"
+          "title": "What Is Single Sign-On (SSO) and How It Works | Frontegg",
+          "resource_order": 3
         },
         {
           "url": "https://www.datacamp.com/blog/how-to-learn-ai",
           "description": "A practical guide on effective strategies to learn artificial intelligence.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 4
         },
         {
           "url": "https://www.sans.org/cyber-security-courses/",
           "description": "An overview of cyber security courses offered by SANS Institute.",
-          "title": "Best Cyber Security Courses Online & In Person | SANS Institute"
+          "title": "Best Cyber Security Courses Online & In Person | SANS Institute",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=IPvYjXCsTg8",
           "title": "Computer Networking Full Course - OSI Model Deep Dive with Real Life Examples",
-          "duration": "246m"
+          "duration": "246m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=85-bp7XxWDQ",
           "title": "Learn Microsoft Active Directory (ADDS) in 30mins",
-          "duration": "36m"
+          "duration": "36m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=tLqWGysORXA&pp=ygUPI2ZyZWVjY25hY291cnNl",
           "title": "CCNA Course for Beginners - Full Course 10.5 Hours (Part 1)",
-          "duration": "634m"
+          "duration": "634m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
           "title": "[1hr Talk] Intro to Large Language Models",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=jKc98gPybFs&pp=ygUJI3Zpc2lvdmJh",
           "title": "Visio 2021 Advanced Tutorial",
-          "duration": "46m"
+          "duration": "46m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=4qC7H-y7oKI&pp=0gcJCdgAo7VqN5tD",
           "title": "Active Directory Domain Service Deep Dive",
-          "duration": "60m"
+          "duration": "60m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw",
           "title": "Complete Docker Course - From BEGINNER to PRO! (Learn Containers)",
-          "duration": "284m"
+          "duration": "284m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=dnQSzGeslHw",
           "title": "Snowflake - Architecture Deep Dive | Josip Saban | DSC Adria 23",
-          "duration": "109m"
+          "duration": "109m",
+          "resource_order": 8
         }
       ]
     }
@@ -326,7 +381,8 @@
           "To connect peripheral devices"
         ],
         "correct_option": 0,
-        "hint": "It is often referred to as the 'brain' of the computer."
+        "hint": "It is often referred to as the 'brain' of the computer.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is the fastest type of memory?",
@@ -337,7 +393,8 @@
           "USB Flash Drive"
         ],
         "correct_option": 2,
-        "hint": "This type of memory is located directly on the CPU."
+        "hint": "This type of memory is located directly on the CPU.",
+        "question_order": 2
       },
       {
         "question": "What is an instruction set in computer architecture?",
@@ -348,7 +405,8 @@
           "A form of permanent storage"
         ],
         "correct_option": 0,
-        "hint": "It is a set of basic operations that a processor can perform."
+        "hint": "It is a set of basic operations that a processor can perform.",
+        "question_order": 3
       },
       {
         "question": "Which device is primarily used for input operations?",
@@ -359,7 +417,8 @@
           "Speaker"
         ],
         "correct_option": 2,
-        "hint": "This device allows users to enter text into a computer."
+        "hint": "This device allows users to enter text into a computer.",
+        "question_order": 4
       },
       {
         "question": "What is the purpose of assembly language in computer systems?",
@@ -370,7 +429,8 @@
           "To store large amounts of data"
         ],
         "correct_option": 1,
-        "hint": "It acts as an intermediary language between high-level languages and machine code."
+        "hint": "It acts as an intermediary language between high-level languages and machine code.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -383,7 +443,8 @@
           "To manage memory hierarchy"
         ],
         "correct_option": 1,
-        "hint": "The ALU is responsible for mathematical and decision-making processes."
+        "hint": "The ALU is responsible for mathematical and decision-making processes.",
+        "question_order": 1
       },
       {
         "question": "Which of the following best describes the role of cache memory in the memory hierarchy?",
@@ -394,7 +455,8 @@
           "It only stores data permanently regardless of power supply."
         ],
         "correct_option": 1,
-        "hint": "Cache is smaller and faster than main memory (RAM)."
+        "hint": "Cache is smaller and faster than main memory (RAM).",
+        "question_order": 2
       },
       {
         "question": "In assembly language, what does the instruction 'MOV A, B' typically do?",
@@ -405,7 +467,8 @@
           "Multiplies the data in register A by register B"
         ],
         "correct_option": 0,
-        "hint": "MOV is used for transferring data between locations."
+        "hint": "MOV is used for transferring data between locations.",
+        "question_order": 3
       },
       {
         "question": "Which component of a computer is primarily responsible for interfacing with input/output devices?",
@@ -416,7 +479,8 @@
           "I/O Controller"
         ],
         "correct_option": 3,
-        "hint": "This component manages communication between the CPU and peripherals."
+        "hint": "This component manages communication between the CPU and peripherals.",
+        "question_order": 4
       },
       {
         "question": "What is the purpose of the instruction set architecture (ISA) in a CPU?",
@@ -427,7 +491,8 @@
           "To establish network communication protocols"
         ],
         "correct_option": 1,
-        "hint": "ISA is a crucial interface between software and hardware."
+        "hint": "ISA is a crucial interface between software and hardware.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -440,7 +505,8 @@
           "To manage input/output operations"
         ],
         "correct_option": 1,
-        "hint": "Think about which CPU component is responsible for managing the execution of instructions."
+        "hint": "Think about which CPU component is responsible for managing the execution of instructions.",
+        "question_order": 1
       },
       {
         "question": "In a memory hierarchy, which level typically has the fastest access time?",
@@ -451,7 +517,8 @@
           "Hard Disk Drive"
         ],
         "correct_option": 2,
-        "hint": "Consider the smallest and closest memory storage to the CPU."
+        "hint": "Consider the smallest and closest memory storage to the CPU.",
+        "question_order": 2
       },
       {
         "question": "Which of the following is NOT typically included in an instruction set architecture (ISA)?",
@@ -462,7 +529,8 @@
           "Addressing modes"
         ],
         "correct_option": 2,
-        "hint": "ISAs are focused on the operations and data management of the CPU rather than external communication."
+        "hint": "ISAs are focused on the operations and data management of the CPU rather than external communication.",
+        "question_order": 3
       },
       {
         "question": "What role do buses play in computer architecture?",
@@ -473,7 +541,8 @@
           "Execute instructions"
         ],
         "correct_option": 1,
-        "hint": "Consider the component responsible for facilitating data transfer between CPU, memory, and peripherals."
+        "hint": "Consider the component responsible for facilitating data transfer between CPU, memory, and peripherals.",
+        "question_order": 4
       },
       {
         "question": "How does Direct Memory Access (DMA) improve system performance?",
@@ -484,7 +553,8 @@
           "By enabling faster arithmetic operations"
         ],
         "correct_option": 1,
-        "hint": "Think about how data transfer can occur without CPU intervention."
+        "hint": "Think about how data transfer can occur without CPU intervention.",
+        "question_order": 5
       }
     ]
   }

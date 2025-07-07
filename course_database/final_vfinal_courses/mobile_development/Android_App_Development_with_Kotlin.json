@@ -22,91 +22,108 @@
         {
           "url": "https://developer.android.com/kotlin",
           "description": "An official Android guide on using Kotlin for Android development.",
-          "title": "Kotlin and Android \u00a0|\u00a0 Android Developers"
+          "title": "Kotlin and Android  |  Android Developers",
+          "resource_order": 1
         },
         {
           "url": "https://kotlinlang.org/docs/home.html",
           "description": "The official documentation for the Kotlin programming language.",
-          "title": "Kotlin Docs | Kotlin Documentation"
+          "title": "Kotlin Docs | Kotlin Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://developers.arcgis.com/kotlin/",
           "description": "A resource hub for developers using ArcGIS with Kotlin, offering tutorials, API references, and tools.",
-          "title": "ArcGIS Maps SDK for Kotlin | Esri Developer"
+          "title": "ArcGIS Maps SDK for Kotlin | Esri Developer",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://developer.android.com/courses/android-basics-compose/course",
           "description": "An introductory course on building Android apps using Jetpack Compose.",
-          "title": "Android Basics with Compose course \u00a0|\u00a0 Android Developers"
+          "title": "Android Basics with Compose course  |  Android Developers",
+          "resource_order": 1
         },
         {
           "url": "https://kotlinlang.org/docs/getting-started.html",
           "description": "An introductory guide to getting started with Kotlin programming.",
-          "title": "Get started with Kotlin | Kotlin Documentation"
+          "title": "Get started with Kotlin | Kotlin Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app",
           "description": "A step-by-step tutorial for building your first Android app using Kotlin and Jetpack Compose.",
-          "title": "Create your first Android app"
+          "title": "Create your first Android app",
+          "resource_order": 3
         },
         {
           "url": "https://www.geeksforgeeks.org/kotlin-android-tutorial/",
           "description": "A step-by-step tutorial for developing Android apps using Kotlin.",
-          "title": "Kotlin Android Tutorial - GeeksforGeeks"
+          "title": "Kotlin Android Tutorial - GeeksforGeeks",
+          "resource_order": 4
         },
         {
           "url": "https://www.udemy.com/course/android-oreo-kotlin-app-masterclass/",
           "description": "An online course teaching Android app development using Kotlin for Android Oreo.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 5
         },
         {
           "url": "https://www.w3schools.com/KOTLIN/index.php",
           "description": "An introductory tutorial for learning Kotlin programming language with practical examples.",
-          "title": "Kotlin Tutorial"
+          "title": "Kotlin Tutorial",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=HwoxgUPabMk",
-          "title": "Kotlin & Android 12 Tutorial | Learn How to Build an Android App \ud83d\udcf1 9+ h FREE Development Masterclass",
-          "duration": "565m"
+          "title": "Kotlin & Android 12 Tutorial | Learn How to Build an Android App 📱 9+ h FREE Development Masterclass",
+          "duration": "565m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=BBWyXo-3JGQ",
           "title": "Build A Simple Android App With Kotlin",
-          "duration": "71m"
+          "duration": "71m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=dzUc9vrsldM",
           "title": "Full 2025 Kotlin Crash Course For Beginners",
-          "duration": "191m"
+          "duration": "191m",
+          "resource_order": 3
         },
         {
           "url": "https://m.youtube.com/watch?v=uRyvNKRkwbs&t=1565s",
           "title": "What If You Could Build a Professional Android App in Just 7 Hours?",
-          "duration": "460m"
+          "duration": "460m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=XLt_moCoauw&pp=ygUOI2Vhc3ltb2NrdXBhcHA%3D",
           "title": "Simple Kotlin App | Android Studio | 2024",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=iYrgWO2oibY",
           "title": "Learn Kotlin in 12 Minutes",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 6
         },
         {
           "url": "https://m.youtube.com/watch?v=C2DBDZKkLss&t=34s",
           "title": "Build and Publish an Android App - Full Course with Kotlin",
-          "duration": "265m"
+          "duration": "265m",
+          "resource_order": 7
         },
         {
           "url": "https://m.youtube.com/watch?v=FjrKMcnKahY&t=12m00s",
           "title": "Android App Development Tutorial for Beginners - Your First App",
-          "duration": "55m"
+          "duration": "55m",
+          "resource_order": 8
         }
       ]
     },
@@ -115,91 +132,108 @@
         {
           "url": "https://kotlinlang.org/docs/multiplatform.html",
           "description": "An overview of Kotlin's multiplatform capabilities for building cross-platform applications.",
-          "title": "Kotlin Multiplatform | Kotlin Documentation"
+          "title": "Kotlin Multiplatform | Kotlin Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://developer.android.com/get-started/overview",
           "description": "An introductory guide to getting started with Android app development.",
-          "title": "Build your first app \u00a0|\u00a0 Get started \u00a0|\u00a0 Android Developers"
+          "title": "Build your first app  |  Get started  |  Android Developers",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs/android/setup",
           "description": "Step-by-step instructions for setting up Firebase in an Android project.",
-          "title": "Add Firebase to your Android project \u00a0|\u00a0 Firebase for Android"
+          "title": "Add Firebase to your Android project  |  Firebase for Android",
+          "resource_order": 3
         },
         {
           "url": "https://developer.android.com/kotlin/flow",
           "description": "An introduction to using Kotlin Flow for reactive programming in Android applications.",
-          "title": "Kotlin flows on Android \u00a0|\u00a0 Android Developers"
+          "title": "Kotlin flows on Android  |  Android Developers",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://slack-chats.kotlinlang.org/t/2419232/tldr-advice-on-learning-kotlin-for-kmm-hi-just-starting-my-k",
           "description": "Advice and tips for beginners learning Kotlin for Kotlin Multiplatform Mobile (KMM).",
-          "title": "Linen Community"
+          "title": "Linen Community",
+          "resource_order": 1
         },
         {
           "url": "https://kotlinlang.org/docs/multiplatform.html",
           "description": "An overview of Kotlin's multiplatform capabilities for sharing code across different platforms.",
-          "title": "Kotlin Multiplatform | Kotlin Documentation"
+          "title": "Kotlin Multiplatform | Kotlin Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://developer.android.com/get-started/overview",
           "description": "An introductory guide to getting started with Android app development.",
-          "title": "Build your first app \u00a0|\u00a0 Get started \u00a0|\u00a0 Android Developers"
+          "title": "Build your first app  |  Get started  |  Android Developers",
+          "resource_order": 3
         },
         {
           "url": "https://kotlinlang.org/",
           "description": "The official website for the Kotlin programming language, offering resources, documentation, and community support.",
-          "title": "Kotlin Programming Language"
+          "title": "Kotlin Programming Language",
+          "resource_order": 4
         },
         {
           "url": "https://www.jetbrains.com/help/kotlin-multiplatform-dev/multiplatform-create-first-app.html",
           "description": "Step-by-step guide to creating your first Kotlin Multiplatform mobile application.",
-          "title": "Create your Kotlin Multiplatform app | Kotlin Multiplatform Documentation"
+          "title": "Create your Kotlin Multiplatform app | Kotlin Multiplatform Documentation",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=ME3LH2bib3g",
           "title": "How to Build a Clean Architecture GraphQL App With Kotlin - Android Studio Tutorial",
-          "duration": "46m"
+          "duration": "46m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=ZpAcsWghJYg",
           "title": "Writing Clean Architecture Use Cases w/ TDD | Kotlin Android Alarm App | Mockk JUnit 5",
-          "duration": "43m"
+          "duration": "43m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=GcqFhoUuNNI",
           "title": "Kotlin Multiplatform Tutorial for Beginners - Your First KMP App",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=4gMDR69DB6A",
           "title": "Build a Robinhood-Style Android App to Track COVID-19 Cases - Kotlin Tutorial",
-          "duration": "88m"
+          "duration": "88m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=hoK9OOP1KZw",
           "title": "Android Google Firebase Firestore 7 Hours Course - Build a Shop App using Kotlin",
-          "duration": "437m"
+          "duration": "437m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=nDCCwyS0_MQ",
           "title": "The Ultimate Guide to Android Testing (Unit Tests, UI Tests, End-to-End Tests) - Clean Architecture",
-          "duration": "70m"
+          "duration": "70m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=3weiK_qKuSI",
           "title": "Android Test Driven Development Tutorial",
-          "duration": "28m"
+          "duration": "28m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=UsoWVoXDJsE",
           "title": "Android Jetpack Compose Course - 2h for Free App Developer Course",
-          "duration": "123m"
+          "duration": "123m",
+          "resource_order": 8
         }
       ]
     },
@@ -208,91 +242,108 @@
         {
           "url": "https://developer.android.com/kotlin",
           "description": "An official guide to developing Android apps using Kotlin.",
-          "title": "Kotlin and Android \u00a0|\u00a0 Android Developers"
+          "title": "Kotlin and Android  |  Android Developers",
+          "resource_order": 1
         },
         {
           "url": "https://kotlinlang.org/docs/android-overview.html",
           "description": "An overview of using Kotlin for Android development, highlighting its benefits and features.",
-          "title": "Kotlin for Android | Kotlin Documentation"
+          "title": "Kotlin for Android | Kotlin Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://developer.android.com/get-started/overview",
           "description": "An overview guide for getting started with Android app development.",
-          "title": "Build your first app \u00a0|\u00a0 Get started \u00a0|\u00a0 Android Developers"
+          "title": "Build your first app  |  Get started  |  Android Developers",
+          "resource_order": 3
         },
         {
           "url": "https://kotlinlang.org/docs/books.html",
           "description": "A curated list of recommended books for learning and mastering Kotlin.",
-          "title": "Kotlin books | Kotlin Documentation"
+          "title": "Kotlin books | Kotlin Documentation",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://developer.android.com/get-started/overview",
           "description": "An introductory guide to starting Android app development.",
-          "title": "Build your first app \u00a0|\u00a0 Get started \u00a0|\u00a0 Android Developers"
+          "title": "Build your first app  |  Get started  |  Android Developers",
+          "resource_order": 1
         },
         {
           "url": "https://www.udemy.com/course/android-oreo-kotlin-app-masterclass/",
           "description": "A course on building Android apps using Kotlin for beginners and experienced developers.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://developer.android.com/kotlin",
           "description": "An official guide to Android app development using Kotlin.",
-          "title": "Kotlin and Android \u00a0|\u00a0 Android Developers"
+          "title": "Kotlin and Android  |  Android Developers",
+          "resource_order": 3
         },
         {
           "url": "https://www2.internationalinsurance.org/GR-8-12/files?trackid=sOR31-0533&title=kotlin-programming-language-book.pdf",
           "description": "A comprehensive guide to learning the Kotlin programming language.",
-          "title": "404 Not Found"
+          "title": "404 Not Found",
+          "resource_order": 4
         },
         {
           "url": "https://getstream.io/blog/compose-tutorials/",
           "description": "A series of tutorials on using Jetpack Compose for Android app development.",
-          "title": "Jetpack Compose Tutorials for Beginners"
+          "title": "Jetpack Compose Tutorials for Beginners",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=dzUc9vrsldM",
           "title": "Full 2025 Kotlin Crash Course For Beginners",
-          "duration": "191m"
+          "duration": "191m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=VvkRe9vP5Oc",
-          "title": "Find and Fix MEMORY LEAKS with Leak Canary in Android \ud83d\udc40",
-          "duration": "8m"
+          "title": "Find and Fix MEMORY LEAKS with Leak Canary in Android 👀",
+          "duration": "8m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=VWlwkqmTLHc",
           "title": "In-Depth Guide to Coroutine Cancellation & Exception Handling - Android Studio Tutorial",
-          "duration": "22m"
+          "duration": "22m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=bbMsuI2p1DQ",
           "title": "The Ultimate Dagger-Hilt Guide (Dependency Injection) - Android Studio Tutorial",
-          "duration": "34m"
+          "duration": "34m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=FbCA_qQSvYM",
           "title": "I Made an Android App in MINUTES with This AI Tool",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=Og287zzOTEM",
           "title": "The Beginner to Industry-Ready Roadmap For Android & KMP Development In 2025",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=irIGZj1YON8",
           "title": "Building Your First Wear OS App with Jetpack Compose - Full Crash Course",
-          "duration": "28m"
+          "duration": "28m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=GcqFhoUuNNI",
           "title": "Kotlin Multiplatform Tutorial for Beginners - Your First KMP App",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 8
         }
       ]
     }
@@ -308,7 +359,8 @@
           "Python"
         ],
         "correct_option": 1,
-        "hint": "It starts with 'K' and is known for its interoperability with Java."
+        "hint": "It starts with 'K' and is known for its interoperability with Java.",
+        "question_order": 1
       },
       {
         "question": "Which tool is recommended for developing Android apps in this course?",
@@ -319,7 +371,8 @@
           "IntelliJ IDEA"
         ],
         "correct_option": 2,
-        "hint": "This IDE is specifically designed for Android development and comes from Google."
+        "hint": "This IDE is specifically designed for Android development and comes from Google.",
+        "question_order": 2
       },
       {
         "question": "In Android development, what is a layout?",
@@ -330,7 +383,8 @@
           "The Java class that controls the app's behavior"
         ],
         "correct_option": 2,
-        "hint": "It is an XML file that structures the UI components."
+        "hint": "It is an XML file that structures the UI components.",
+        "question_order": 3
       },
       {
         "question": "What is the purpose of an Activity in Android development?",
@@ -341,7 +395,8 @@
           "To store app data persistently"
         ],
         "correct_option": 1,
-        "hint": "It is the entry point for interacting with the user."
+        "hint": "It is the entry point for interacting with the user.",
+        "question_order": 4
       },
       {
         "question": "What is the role of Fragments in Android applications?",
@@ -352,7 +407,8 @@
           "To store user preferences"
         ],
         "correct_option": 2,
-        "hint": "They are modular sections within an Activity."
+        "hint": "They are modular sections within an Activity.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -365,7 +421,8 @@
           "To start a loop"
         ],
         "correct_option": 0,
-        "hint": "It's a fundamental part of declaring a reusable block of code."
+        "hint": "It's a fundamental part of declaring a reusable block of code.",
+        "question_order": 1
       },
       {
         "question": "Which file format is primarily used for defining layout resources in Android Studio?",
@@ -376,7 +433,8 @@
           "YAML"
         ],
         "correct_option": 0,
-        "hint": "This format is commonly used for markup languages and is human-readable."
+        "hint": "This format is commonly used for markup languages and is human-readable.",
+        "question_order": 2
       },
       {
         "question": "How do you declare an immutable variable in Kotlin?",
@@ -387,7 +445,8 @@
           "const variableName = value"
         ],
         "correct_option": 0,
-        "hint": "Use this keyword when the variable's value should not change."
+        "hint": "Use this keyword when the variable's value should not change.",
+        "question_order": 3
       },
       {
         "question": "In Android app development, what is the role of a Fragment?",
@@ -398,7 +457,8 @@
           "To store app data permanently"
         ],
         "correct_option": 2,
-        "hint": "It is a reusable UI component that can be combined with activities."
+        "hint": "It is a reusable UI component that can be combined with activities.",
+        "question_order": 4
       },
       {
         "question": "Which view is used in Android to display a scrollable list of items?",
@@ -409,7 +469,8 @@
           "Button"
         ],
         "correct_option": 0,
-        "hint": "This view is optimized to display large data sets efficiently."
+        "hint": "This view is optimized to display large data sets efficiently.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -422,7 +483,8 @@
           "Coroutines"
         ],
         "correct_option": 1,
-        "hint": "This feature extends the functionality of a class without modifying it."
+        "hint": "This feature extends the functionality of a class without modifying it.",
+        "question_order": 1
       },
       {
         "question": "In Android Studio, which tool is primarily used for analyzing the performance of your application, such as checking memory usage or CPU profiling?",
@@ -433,7 +495,8 @@
           "APK Analyzer"
         ],
         "correct_option": 2,
-        "hint": "This tool helps in examining runtime performance metrics."
+        "hint": "This tool helps in examining runtime performance metrics.",
+        "question_order": 2
       },
       {
         "question": "Which component in Android is responsible for handling the user interface and user interaction with the application?",
@@ -444,7 +507,8 @@
           "Intent"
         ],
         "correct_option": 2,
-        "hint": "This component is a crucial part of the application's lifecycle and UI management."
+        "hint": "This component is a crucial part of the application's lifecycle and UI management.",
+        "question_order": 3
       },
       {
         "question": "In Kotlin, what is the primary benefit of using 'data classes'?",
@@ -455,7 +519,8 @@
           "They are compiled faster than regular classes."
         ],
         "correct_option": 2,
-        "hint": "These classes are mainly used for storing and managing data."
+        "hint": "These classes are mainly used for storing and managing data.",
+        "question_order": 4
       },
       {
         "question": "What is the primary difference between a Fragment and an Activity in Android development?",
@@ -466,7 +531,8 @@
           "Activities and Fragments perform the same functions but are named differently."
         ],
         "correct_option": 1,
-        "hint": "One of these can be considered a modular section of the other, which is a full-screen window."
+        "hint": "One of these can be considered a modular section of the other, which is a full-screen window.",
+        "question_order": 5
       }
     ]
   }

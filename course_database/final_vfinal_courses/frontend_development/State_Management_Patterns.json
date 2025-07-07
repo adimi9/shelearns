@@ -20,76 +20,90 @@
         {
           "url": "https://www.apollographql.com/docs/react",
           "description": "Official documentation for using Apollo Client with React for GraphQL data management.",
-          "title": "Introduction to Apollo Client - Apollo GraphQL Docs"
+          "title": "Introduction to Apollo Client - Apollo GraphQL Docs",
+          "resource_order": 1
         },
         {
           "url": "https://vuejs.org/guide/introduction",
           "description": "An introductory guide to understanding and using the Vue.js framework.",
-          "title": "Introduction | Vue.js"
+          "title": "Introduction | Vue.js",
+          "resource_order": 2
         },
         {
           "url": "https://vuex.vuejs.org/",
           "description": "Official documentation for managing state in Vue.js applications using Vuex.",
-          "title": "What is Vuex? | Vuex"
+          "title": "What is Vuex? | Vuex",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://docs.flutter.dev/data-and-backend/state-mgmt/options",
           "description": "An overview of state management options available in Flutter applications.",
-          "title": "List of state management approaches | Flutter"
+          "title": "List of state management approaches | Flutter",
+          "resource_order": 1
         },
         {
           "url": "https://redux.js.org/tutorials/fundamentals/part-1-overview",
           "description": "An introductory guide to understanding the fundamentals of Redux and its core concepts.",
-          "title": "Redux Fundamentals, Part 1: Redux Overview | Redux"
+          "title": "Redux Fundamentals, Part 1: Redux Overview | Redux",
+          "resource_order": 2
         },
         {
           "url": "https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/",
           "description": "A tutorial on implementing finite state machines in Godot using design patterns.",
-          "title": "Make a Finite State Machine in Godot 4 \u00b7 GDQuest"
+          "title": "Make a Finite State Machine in Godot 4 · GDQuest",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=SDk_GldOtK8",
           "title": "Flutter Bloc Tutorial For Beginners | BLoC Architecture/Pattern & State Management Explained",
-          "duration": "154m"
+          "duration": "154m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=rF6eq1oru-Y",
-          "title": "BLoC for Beginners \ud83d\udcf1 State Management \u2022 Flutter Tutorial",
-          "duration": "8m"
+          "title": "BLoC for Beginners 📱 State Management • Flutter Tutorial",
+          "duration": "8m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=ZnevdXDH25Q",
-          "title": "GetX State Management tutorial with Flutter \ud83d\ude0d",
-          "duration": "38m"
+          "title": "GetX State Management tutorial with Flutter 😍",
+          "duration": "38m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=-Y8brhQKvtA",
           "title": "Zustand Beginner Tutorial - Learn React State Management With Zustand",
-          "duration": "30m"
+          "duration": "30m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=NU_1StN5Tkk",
           "title": "Design Patterns in Plain English | Mosh Hamedani",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=oxeYeMHVLII",
           "title": "Flutter BLoC Pattern Tutorial From Scratch",
-          "duration": "20m"
+          "duration": "20m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
           "title": "Flutter Clean Architecture Full Course For Beginners - Bloc, Supabase, Hive, GetIt",
-          "duration": "424m"
+          "duration": "424m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=poQXNp9ItL4",
           "title": "Redux Tutorial - Learn Redux from Scratch",
-          "duration": "94m"
+          "duration": "94m",
+          "resource_order": 8
         }
       ]
     },
@@ -98,96 +112,114 @@
         {
           "url": "https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions",
           "description": "Detailed documentation on the syntax and structure for creating GitHub Actions workflows.",
-          "title": "Workflow syntax for GitHub Actions - GitHub Docs"
+          "title": "Workflow syntax for GitHub Actions - GitHub Docs",
+          "resource_order": 1
         },
         {
           "url": "https://redux-toolkit.js.org/rtk-query/overview",
           "description": "An overview of RTK Query, a powerful data fetching and caching tool in Redux Toolkit.",
-          "title": "RTK Query Overview | Redux Toolkit"
+          "title": "RTK Query Overview | Redux Toolkit",
+          "resource_order": 2
         },
         {
           "url": "https://docs.cypress.io/app/core-concepts/best-practices",
           "description": "Guidelines and best practices for using Cypress effectively in testing.",
-          "title": "Best Practices | Cypress Documentation"
+          "title": "Best Practices | Cypress Documentation",
+          "resource_order": 3
         },
         {
           "url": "https://docs.dapr.io/developing-applications/building-blocks/actors/actors-overview/",
           "description": "An overview of the actor model in Dapr for building distributed applications.",
-          "title": "Actors overview | Dapr Docs"
+          "title": "Actors overview | Dapr Docs",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview",
           "description": "An overview of Durable Functions for managing stateful workflows in Azure Functions.",
-          "title": "Durable Functions Overview - Azure | Microsoft Learn"
+          "title": "Durable Functions Overview - Azure | Microsoft Learn",
+          "resource_order": 1
         },
         {
           "url": "https://www.ni.com/en/support/documentation/supplemental/16/simple-state-machine-template-documentation.html",
           "description": "Documentation on implementing a simple state machine template using NI LabVIEW.",
-          "title": "Application Design Patterns: State Machines - NI"
+          "title": "Application Design Patterns: State Machines - NI",
+          "resource_order": 2
         },
         {
           "url": "https://vuejs.org/guide/scaling-up/state-management",
           "description": "An overview of state management techniques for scaling Vue.js applications.",
-          "title": "State Management | Vue.js"
+          "title": "State Management | Vue.js",
+          "resource_order": 3
         },
         {
           "url": "https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html",
           "description": "An introduction to AWS Step Functions for building and orchestrating serverless workflows.",
-          "title": "What is Step Functions? - AWS Step Functions"
+          "title": "What is Step Functions? - AWS Step Functions",
+          "resource_order": 4
         },
         {
           "url": "https://docs.flutter.dev/data-and-backend/state-mgmt/simple",
           "description": "An introductory guide to simple state management in Flutter applications.",
-          "title": "Simple app state management | Flutter"
+          "title": "Simple app state management | Flutter",
+          "resource_order": 5
         },
         {
           "url": "https://auth0.com/blog/state-management-in-angular-with-akita-1/",
           "description": "An introduction to state management in Angular using the Akita library.",
-          "title": "State Management in Angular Using Akita Pt 1"
+          "title": "State Management in Angular Using Akita Pt 1",
+          "resource_order": 6
         },
         {
           "url": "https://developer.android.com/develop/ui/compose/state",
           "description": "An overview of state management in Jetpack Compose for Android UI development.",
-          "title": "State and Jetpack Compose \u00a0|\u00a0 Android Developers"
+          "title": "State and Jetpack Compose  |  Android Developers",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=-Y8brhQKvtA",
           "title": "Zustand Beginner Tutorial - Learn React State Management With Zustand",
-          "duration": "30m"
+          "duration": "30m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
           "title": "Flutter Clean Architecture Full Course For Beginners - Bloc, Supabase, Hive, GetIt",
-          "duration": "424m"
+          "duration": "424m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=NU_1StN5Tkk",
           "title": "Design Patterns in Plain English | Mosh Hamedani",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=aHCDrAbH_go&pp=0gcJCfwAo7VqN5tD",
           "title": "Building Effective Agents with LangGraph",
-          "duration": "31m"
+          "duration": "31m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=QgK_-G-hWeA",
           "title": "React Redux Toolkit Tutorial For Beginners - Redux Toolkit CRUD",
-          "duration": "34m"
+          "duration": "34m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=1qe0cTPJHpU",
           "title": "Vue JS with Composition API & Pinia Full Tutorial",
-          "duration": "93m"
+          "duration": "93m",
+          "resource_order": 7
         }
       ]
     },
@@ -196,66 +228,78 @@
         {
           "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
           "description": "A detailed overview of the latest Check Point API documentation for security management.",
-          "title": "Check Point - Management API reference"
+          "title": "Check Point - Management API reference",
+          "resource_order": 1
         },
         {
           "url": "https://docs.flutter.dev/get-started/fundamentals/state-management",
           "description": "An introduction to state management concepts in Flutter applications.",
-          "title": "State management | Flutter"
+          "title": "State management | Flutter",
+          "resource_order": 2
         },
         {
           "url": "https://react.dev/reference/react/useState",
           "description": "An official guide to using the useState hook in React for managing state in functional components.",
-          "title": "useState \u2013 React"
+          "title": "useState – React",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://overreacted.io/a-complete-guide-to-useeffect/",
           "description": "A detailed guide on how to effectively use the useEffect hook in React.",
-          "title": "A Complete Guide to useEffect \u2014 overreacted"
+          "title": "A Complete Guide to useEffect — overreacted",
+          "resource_order": 1
         },
         {
           "url": "https://www.redpanda.com/guides/kafka-architecture-kafka-streams",
           "description": "An insightful guide on Kafka architecture and Kafka Streams.",
-          "title": "Kafka Streams\u2014a deep dive"
+          "title": "Kafka Streams—a deep dive",
+          "resource_order": 2
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=SDk_GldOtK8&pp=0gcJCfwAo7VqN5tD",
           "title": "Flutter Bloc Tutorial For Beginners | BLoC Architecture/Pattern & State Management Explained",
-          "duration": "154m"
+          "duration": "154m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=UgJJ0zROAJM",
           "title": "The Elektron SYNTAKT complete Deep Dive guide tutorial",
-          "duration": "174m"
+          "duration": "174m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=5OzLrbk82zY&pp=0gcJCf0Ao7VqN5tD",
           "title": "The State Design Pattern in Python Explained",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=bHEdQWEtyKY",
           "title": "The Complete Guide to Modern React in 2025",
-          "duration": "33m"
+          "duration": "33m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=qVTlioAqUv8",
           "title": "How to Use Excel - A 3-Hour Path to Confidence and Skills",
-          "duration": "188m"
+          "duration": "188m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=dCLhUialKPQ",
           "title": "React JS 19 Full Course 2025 | Build an App and Master React in 2 Hours",
-          "duration": "127m"
+          "duration": "127m",
+          "resource_order": 7
         }
       ]
     }
@@ -271,7 +315,8 @@
           "To synchronize data across different applications"
         ],
         "correct_option": 1,
-        "hint": "Local state is often specific to a single component and is not shared across the application."
+        "hint": "Local state is often specific to a single component and is not shared across the application.",
+        "question_order": 1
       },
       {
         "question": "Which library is commonly used for managing global state in React applications?",
@@ -282,7 +327,8 @@
           "Context API"
         ],
         "correct_option": 2,
-        "hint": "This library is known for its predictable state container and is widely used in the React ecosystem."
+        "hint": "This library is known for its predictable state container and is widely used in the React ecosystem.",
+        "question_order": 2
       },
       {
         "question": "What is a key advantage of using server-state management over client-side state management?",
@@ -293,7 +339,8 @@
           "Simplified application code"
         ],
         "correct_option": 2,
-        "hint": "Server-state management allows handling data that changes frequently and needs to be kept up-to-date in real-time."
+        "hint": "Server-state management allows handling data that changes frequently and needs to be kept up-to-date in real-time.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is NOT a primary technology used in Redux?",
@@ -304,7 +351,8 @@
           "Store"
         ],
         "correct_option": 2,
-        "hint": "This term is more commonly associated with architecture patterns like microservices rather than Redux."
+        "hint": "This term is more commonly associated with architecture patterns like microservices rather than Redux.",
+        "question_order": 4
       },
       {
         "question": "Zustand is a state management library known for its...",
@@ -315,7 +363,8 @@
           "Heavy reliance on class components"
         ],
         "correct_option": 1,
-        "hint": "Zustand is appreciated for its straightforward API and ease of use with minimal setup."
+        "hint": "Zustand is appreciated for its straightforward API and ease of use with minimal setup.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -328,7 +377,8 @@
           "State that is globally accessible"
         ],
         "correct_option": 0,
-        "hint": "Local state is confined to the component where it is declared."
+        "hint": "Local state is confined to the component where it is declared.",
+        "question_order": 1
       },
       {
         "question": "What is a primary advantage of using Redux for global state management?",
@@ -339,7 +389,8 @@
           "Direct component-to-component communication"
         ],
         "correct_option": 1,
-        "hint": "Redux uses a single source of truth, making state changes predictable."
+        "hint": "Redux uses a single source of truth, making state changes predictable.",
+        "question_order": 2
       },
       {
         "question": "In Zustand, what is the purpose of using selectors?",
@@ -350,7 +401,8 @@
           "To initialize the store"
         ],
         "correct_option": 1,
-        "hint": "Selectors help in retrieving specific data from the store without affecting other parts."
+        "hint": "Selectors help in retrieving specific data from the store without affecting other parts.",
+        "question_order": 3
       },
       {
         "question": "How does server-state management typically differ from client-state management?",
@@ -361,7 +413,8 @@
           "Server-state requires no management"
         ],
         "correct_option": 1,
-        "hint": "Server-state often involves fetching and updating data from a server."
+        "hint": "Server-state often involves fetching and updating data from a server.",
+        "question_order": 4
       },
       {
         "question": "When using Redux, what role does a middleware play?",
@@ -372,7 +425,8 @@
           "To store local state"
         ],
         "correct_option": 1,
-        "hint": "Middleware is used to extend Redux capabilities, often for handling asynchronous operations."
+        "hint": "Middleware is used to extend Redux capabilities, often for handling asynchronous operations.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -385,7 +439,8 @@
           "Local state is only used for UI components, while global state is used for backend data management."
         ],
         "correct_option": 0,
-        "hint": "Think about where each type of state is accessible."
+        "hint": "Think about where each type of state is accessible.",
+        "question_order": 1
       },
       {
         "question": "In Redux, what is the primary purpose of middleware?",
@@ -396,7 +451,8 @@
           "To manage asynchronous logic by directly updating the state."
         ],
         "correct_option": 1,
-        "hint": "Middleware acts between the dispatching of an action and the moment it reaches the reducer."
+        "hint": "Middleware acts between the dispatching of an action and the moment it reaches the reducer.",
+        "question_order": 2
       },
       {
         "question": "Which of the following is a key feature of Zustand compared to Redux?",
@@ -407,7 +463,8 @@
           "Zustand manages server-side state by default."
         ],
         "correct_option": 2,
-        "hint": "Consider the amount of setup required to use each library."
+        "hint": "Consider the amount of setup required to use each library.",
+        "question_order": 3
       },
       {
         "question": "What is a primary advantage of managing server-state separately from client-state in applications?",
@@ -418,7 +475,8 @@
           "It ensures all state changes are handled exclusively on the server."
         ],
         "correct_option": 2,
-        "hint": "Think about how server-state management can affect the user interface."
+        "hint": "Think about how server-state management can affect the user interface.",
+        "question_order": 4
       },
       {
         "question": "In a Redux application, which of the following best describes the role of the store?",
@@ -429,7 +487,8 @@
           "It acts as a middleware to manage state transitions."
         ],
         "correct_option": 2,
-        "hint": "Consider what component holds and manages the state in Redux."
+        "hint": "Consider what component holds and manages the state in Redux.",
+        "question_order": 5
       }
     ]
   }

@@ -23,101 +23,120 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
           "description": "An in-depth resource for learning and understanding HTML and its features.",
-          "title": "HTML: HyperText Markup Language | MDN"
+          "title": "HTML: HyperText Markup Language | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://www.theodinproject.com/lessons/foundations-introduction-to-html-and-css",
           "description": "An introductory guide to HTML and CSS fundamentals for beginners.",
-          "title": "Introduction to HTML and CSS | The Odin Project"
+          "title": "Introduction to HTML and CSS | The Odin Project",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
           "description": "An extensive resource for learning and referencing CSS for web development.",
-          "title": "CSS: Cascading Style Sheets | MDN"
+          "title": "CSS: Cascading Style Sheets | MDN",
+          "resource_order": 3
         },
         {
           "url": "https://electronjs.org/docs/latest",
           "description": "The latest official documentation for Electron, a framework for building cross-platform desktop apps with JavaScript.",
-          "title": "Electron"
+          "title": "Electron",
+          "resource_order": 4
         },
         {
           "url": "https://teamtreehouse.com/community/foundation-framework-basics-using-v4-documentation",
           "description": "An introductory guide to the basics of using Foundation Framework version 4.",
-          "title": "Foundation Framework Basics Using v.4 documentation (Example) | Treehouse Community"
+          "title": "Foundation Framework Basics Using v.4 documentation (Example) | Treehouse Community",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.codecademy.com/catalog/language/html-css",
           "description": "An interactive learning path for mastering HTML and CSS on Codecademy.",
-          "title": "Best HTML + CSS Courses & Tutorials | Codecademy"
+          "title": "Best HTML + CSS Courses & Tutorials | Codecademy",
+          "resource_order": 1
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
           "description": "An introductory guide to basic web styling techniques using CSS.",
-          "title": "CSS styling basics - Learn web development | MDN"
+          "title": "CSS styling basics - Learn web development | MDN",
+          "resource_order": 2
         },
         {
           "url": "https://www.theodinproject.com/lessons/foundations-introduction-to-html-and-css",
           "description": "An introductory guide to HTML and CSS fundamentals for beginners.",
-          "title": "Introduction to HTML and CSS | The Odin Project"
+          "title": "Introduction to HTML and CSS | The Odin Project",
+          "resource_order": 3
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
           "description": "An in-depth resource for understanding and implementing HTML in web development.",
-          "title": "HTML: HyperText Markup Language | MDN"
+          "title": "HTML: HyperText Markup Language | MDN",
+          "resource_order": 4
         },
         {
           "url": "https://www.w3schools.com/html/",
           "description": "An introductory tutorial and reference guide for HTML basics and advanced features.",
-          "title": "HTML Tutorial"
+          "title": "HTML Tutorial",
+          "resource_order": 5
         },
         {
           "url": "https://online.duke.edu/course/programming-and-the-web-for-beginners/",
           "description": "An introductory course on programming and web development for beginners.",
-          "title": "Programming Foundations with Javascript, HTML, and CSS - Online Course Duke University"
+          "title": "Programming Foundations with Javascript, HTML, and CSS - Online Course Duke University",
+          "resource_order": 6
         },
         {
           "url": "https://www.w3schools.com/html/html_css.asp",
           "description": "An introductory guide to using CSS in HTML for web design.",
-          "title": "HTML Styles CSS"
+          "title": "HTML Styles CSS",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
           "title": "HTML Tutorial for Beginners: HTML Crash Course",
-          "duration": "69m"
+          "duration": "69m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=_drzb7j9Bg4",
           "title": "Foundation CSS Framework Tutorial - Crash Course for Beginners",
-          "duration": "99m"
+          "duration": "99m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
           "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
-          "duration": "1274m"
+          "duration": "1274m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=Eb3lOiukwAQ&pp=0gcJCfwAo7VqN5tD",
           "title": "HTML & CSS Full Course | Web Development for Beginners",
-          "duration": "341m"
+          "duration": "341m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=jQr-bM6-XTc",
           "title": "CSS Course for Complete Beginners",
-          "duration": "710m"
+          "duration": "710m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=iG2jotQo9NI&pp=0gcJCf0Ao7VqN5tD",
           "title": "HTML & CSS for Beginners | FREE MEGA COURSE (7+ Hours!)",
-          "duration": "471m"
+          "duration": "471m",
+          "resource_order": 6
         },
         {
           "url": "https://m.youtube.com/watch?v=tr7EH48TFiE&t=0s",
           "title": "Wrapper Classes: A Layout Foundation",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 7
         }
       ]
     },
@@ -126,91 +145,108 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
           "description": "An authoritative guide to HTML, covering elements, attributes, and best practices for web development.",
-          "title": "HTML: HyperText Markup Language | MDN"
+          "title": "HTML: HyperText Markup Language | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://vuejs.org/guide/introduction",
           "description": "An introductory guide to understanding and using Vue.js for building user interfaces.",
-          "title": "Introduction | Vue.js"
+          "title": "Introduction | Vue.js",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
           "description": "An extensive reference and guide to CSS for web developers.",
-          "title": "CSS: Cascading Style Sheets | MDN"
+          "title": "CSS: Cascading Style Sheets | MDN",
+          "resource_order": 3
         },
         {
           "url": "https://nextjs.org/docs",
           "description": "Official documentation for building applications using the Next.js framework.",
-          "title": "Next.js Docs | Next.js"
+          "title": "Next.js Docs | Next.js",
+          "resource_order": 4
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
           "description": "An exhaustive reference guide for HTML elements and their usage.",
-          "title": "HTML elements reference - HTML | MDN"
+          "title": "HTML elements reference - HTML | MDN",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
           "description": "An authoritative reference for HTML, covering elements, attributes, and best practices for web development.",
-          "title": "HTML: HyperText Markup Language | MDN"
+          "title": "HTML: HyperText Markup Language | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://tailwindcss.com/",
           "description": "Official documentation for Tailwind CSS, a utility-first CSS framework for rapid UI development.",
-          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML."
+          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
           "description": "Comprehensive documentation and tutorials on CSS for web development.",
-          "title": "CSS: Cascading Style Sheets | MDN"
+          "title": "CSS: Cascading Style Sheets | MDN",
+          "resource_order": 3
         },
         {
           "url": "https://realpython.com/html-css-python/",
           "description": "A tutorial on integrating HTML and CSS with Python for web development.",
-          "title": "HTML and CSS for Python Developers \u2013 Real Python"
+          "title": "HTML and CSS for Python Developers – Real Python",
+          "resource_order": 4
         },
         {
           "url": "https://www.codecademy.com/learn/learn-css",
           "description": "An interactive course for learning CSS to style web pages effectively.",
-          "title": "Learn CSS: Tutorial | Codecademy"
+          "title": "Learn CSS: Tutorial | Codecademy",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=WbNNESIxJnY",
           "title": "Python Tutorial: Build a SaaS App with Django, Stripe, Neon PostgreSQL, TailwindCSS, GitHub Actions",
-          "duration": "710m"
+          "duration": "710m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=FtaQSdrl7YA",
           "title": "JavaScript Tutorial for Beginners [JS Crash Course]",
-          "duration": "97m"
+          "duration": "97m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=0hqhAIjE_8I",
           "title": "ARIA HTML Tutorial - What is ARIA & Why it's Important to Use!",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=843nec-IvW0&pp=ygUGIzEzc3Ny",
           "title": "Next.js Full Course for Beginners | Nextjs 13 Tutorial | 7 Hours",
-          "duration": "423m"
+          "duration": "423m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
           "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
-          "duration": "305m"
+          "duration": "305m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=QwSN4n2sjR8",
           "title": "The UI/UX Crash Course for 2023 - Learn UI/UX Design",
-          "duration": "77m"
+          "duration": "77m",
+          "resource_order": 7
         }
       ]
     },
@@ -219,96 +255,114 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
           "description": "An authoritative resource for understanding and using HTML in web development.",
-          "title": "HTML: HyperText Markup Language | MDN"
+          "title": "HTML: HyperText Markup Language | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://vuejs.org/guide/introduction",
           "description": "An introductory guide to understanding and using Vue.js for building web applications.",
-          "title": "Introduction | Vue.js"
+          "title": "Introduction | Vue.js",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for learning and referencing JavaScript programming on the web.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 3
         },
         {
           "url": "https://nextjs.org/docs",
           "description": "Official Next.js documentation providing guidance on building React applications with Next.js.",
-          "title": "Next.js Docs | Next.js"
+          "title": "Next.js Docs | Next.js",
+          "resource_order": 4
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
           "description": "An extensive resource for learning and referencing CSS for web development.",
-          "title": "CSS: Cascading Style Sheets | MDN"
+          "title": "CSS: Cascading Style Sheets | MDN",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.w3schools.com/html/",
           "description": "An interactive tutorial for learning HTML basics and advanced concepts.",
-          "title": "HTML Tutorial"
+          "title": "HTML Tutorial",
+          "resource_order": 1
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
           "description": "An authoritative resource for learning and understanding HTML and its features.",
-          "title": "HTML: HyperText Markup Language | MDN"
+          "title": "HTML: HyperText Markup Language | MDN",
+          "resource_order": 2
         },
         {
           "url": "https://www.w3schools.com/css/",
           "description": "An educational resource for learning CSS with tutorials, references, and examples.",
-          "title": "CSS Tutorial"
+          "title": "CSS Tutorial",
+          "resource_order": 3
         },
         {
           "url": "https://explore.reallygoodemails.com/new-to-email-coding-heres-where-to-start-2494422f0bd4",
           "description": "A beginner's guide to starting with email coding and best practices.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 4
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics",
           "description": "An introductory guide to the fundamentals of CSS for web development.",
-          "title": "CSS styling basics - Learn web development | MDN"
+          "title": "CSS styling basics - Learn web development | MDN",
+          "resource_order": 5
         },
         {
           "url": "https://web.dev/learn/css",
           "description": "A complete learning path for mastering CSS on the web platform.",
-          "title": "Learn CSS \u00a0|\u00a0 web.dev"
+          "title": "Learn CSS  |  web.dev",
+          "resource_order": 6
         },
         {
           "url": "https://www.geeksforgeeks.org/60-days-of-frontend-development/",
           "description": "A structured 60-day program for mastering frontend development skills.",
-          "title": "60 Days of Frontend Development: A Complete Guide For Beginners - GeeksforGeeks"
+          "title": "60 Days of Frontend Development: A Complete Guide For Beginners - GeeksforGeeks",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=G3e-cpL7ofc&pp=ygUGI2R2Y3Nz",
           "title": "HTML & CSS Full Course - Beginner to Pro",
-          "duration": "391m"
+          "duration": "391m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
           "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
-          "duration": "1274m"
+          "duration": "1274m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=lCxcTsOHrjo",
           "title": "Tailwind CSS Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours",
-          "duration": "180m"
+          "duration": "180m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=OXGznpKZ_sA",
-          "title": "CSS Tutorial \u2013 Full Course for Beginners",
-          "duration": "668m"
+          "title": "CSS Tutorial – Full Course for Beginners",
+          "duration": "668m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=iG2jotQo9NI&pp=0gcJCf0Ao7VqN5tD",
           "title": "HTML & CSS for Beginners | FREE MEGA COURSE (7+ Hours!)",
-          "duration": "471m"
+          "duration": "471m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=HGTJBPNC-Gw",
-          "title": "HTML & CSS Full Course for free \ud83c\udf0e",
-          "duration": "242m"
+          "title": "HTML & CSS Full Course for free 🌎",
+          "duration": "242m",
+          "resource_order": 6
         }
       ]
     }
@@ -324,7 +378,8 @@
           "Hyperlinking Text Markup Language"
         ],
         "correct_option": 0,
-        "hint": "It's a language used to create web pages."
+        "hint": "It's a language used to create web pages.",
+        "question_order": 1
       },
       {
         "question": "Which HTML tag is used to create a hyperlink?",
@@ -335,7 +390,8 @@
           "<url>"
         ],
         "correct_option": 1,
-        "hint": "It stands for 'anchor'."
+        "hint": "It stands for 'anchor'.",
+        "question_order": 2
       },
       {
         "question": "In CSS, which property is used to change the background color of an element?",
@@ -346,7 +402,8 @@
           "background-style"
         ],
         "correct_option": 0,
-        "hint": "It is a compound word starting with 'background'."
+        "hint": "It is a compound word starting with 'background'.",
+        "question_order": 3
       },
       {
         "question": "What is the purpose of the CSS Box Model?",
@@ -357,7 +414,8 @@
           "To connect HTML and CSS"
         ],
         "correct_option": 0,
-        "hint": "It involves margins, borders, padding, and content."
+        "hint": "It involves margins, borders, padding, and content.",
+        "question_order": 4
       },
       {
         "question": "Which viewport width should media queries start from to ensure responsive design?",
@@ -368,7 +426,8 @@
           "320px"
         ],
         "correct_option": 3,
-        "hint": "It is commonly used as the width for mobile devices."
+        "hint": "It is commonly used as the width for mobile devices.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -381,7 +440,8 @@
           "<em>"
         ],
         "correct_option": 1,
-        "hint": "This tag is used to indicate that the text has strong importance."
+        "hint": "This tag is used to indicate that the text has strong importance.",
+        "question_order": 1
       },
       {
         "question": "In the CSS box model, which property is used to control the space between the element border and the content?",
@@ -392,7 +452,8 @@
           "content"
         ],
         "correct_option": 1,
-        "hint": "This property adjusts the space between the border and the content."
+        "hint": "This property adjusts the space between the border and the content.",
+        "question_order": 2
       },
       {
         "question": "What is the main purpose of the CSS flexbox layout model?",
@@ -403,7 +464,8 @@
           "To standardize browser behavior"
         ],
         "correct_option": 1,
-        "hint": "This layout model offers a way to align and distribute space among items in a container."
+        "hint": "This layout model offers a way to align and distribute space among items in a container.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is a semantic HTML5 element?",
@@ -414,7 +476,8 @@
           "<font>"
         ],
         "correct_option": 1,
-        "hint": "This element is used to define a section in a document and has semantic meaning."
+        "hint": "This element is used to define a section in a document and has semantic meaning.",
+        "question_order": 4
       },
       {
         "question": "In responsive web design, which CSS unit is relative to the viewport width?",
@@ -425,7 +488,8 @@
           "rem"
         ],
         "correct_option": 2,
-        "hint": "This unit is a percentage of the viewport's width."
+        "hint": "This unit is a percentage of the viewport's width.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -438,7 +502,8 @@
           "<section>"
         ],
         "correct_option": 0,
-        "hint": "This element is specifically designed for navigation purposes."
+        "hint": "This element is specifically designed for navigation purposes.",
+        "question_order": 1
       },
       {
         "question": "How can you center a block element horizontally using CSS?",
@@ -449,7 +514,8 @@
           "Utilize 'display: inline-block;'"
         ],
         "correct_option": 0,
-        "hint": "Think about how margins can be used to center block elements."
+        "hint": "Think about how margins can be used to center block elements.",
+        "question_order": 2
       },
       {
         "question": "In CSS, what does the 'box-sizing: border-box;' property do?",
@@ -460,7 +526,8 @@
           "Automatically adjusts the width and height based on content"
         ],
         "correct_option": 0,
-        "hint": "This property alters the default CSS box model."
+        "hint": "This property alters the default CSS box model.",
+        "question_order": 3
       },
       {
         "question": "Which of the following CSS properties is NOT related to responsive design?",
@@ -471,7 +538,8 @@
           "border-radius"
         ],
         "correct_option": 3,
-        "hint": "Consider which property affects the shape of elements rather than layout or media queries."
+        "hint": "Consider which property affects the shape of elements rather than layout or media queries.",
+        "question_order": 4
       },
       {
         "question": "What is the primary purpose of the <meta viewport> tag in responsive web design?",
@@ -482,7 +550,8 @@
           "To define character encoding"
         ],
         "correct_option": 0,
-        "hint": "This tag is crucial for making sites mobile-friendly."
+        "hint": "This tag is crucial for making sites mobile-friendly.",
+        "question_order": 5
       }
     ]
   }

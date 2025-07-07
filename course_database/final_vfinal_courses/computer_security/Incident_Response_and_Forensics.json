@@ -20,95 +20,113 @@
       "docs": [
         {
           "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
-          "description": "Guidelines for managing computer security incidents from the National Institute of Standards and Technology (NIST)."
+          "description": "Guidelines for managing computer security incidents from the National Institute of Standards and Technology (NIST).",
+          "resource_order": 1
         },
         {
           "url": "https://docs.velociraptor.app/",
           "description": "Official documentation for Velociraptor, an advanced open-source endpoint monitoring and digital forensics tool.",
-          "title": "Welcome :: Velociraptor - Digging deeper!"
+          "title": "Welcome :: Velociraptor - Digging deeper!",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/security-ir/latest/userguide/introduction.html",
           "description": "An introductory guide to AWS Security Incident Response procedures and best practices.",
-          "title": "Introduction - AWS Security Incident Response User Guide"
+          "title": "Introduction - AWS Security Incident Response User Guide",
+          "resource_order": 3
         },
         {
           "url": "https://github.com/meirwah/awesome-incident-response",
           "description": "A curated list of tools and resources for incident response.",
-          "title": "GitHub - meirwah/awesome-incident-response: A curated list of tools for incident response"
+          "title": "GitHub - meirwah/awesome-incident-response: A curated list of tools for incident response",
+          "resource_order": 4
         },
         {
           "url": "https://docs.aws.amazon.com/security-ir/latest/userguide/security-incident-response-guide.html",
           "description": "A detailed guide on responding to security incidents using AWS services.",
-          "title": "AWS Security Incident Response Technical Guide - AWS Security Incident Response User Guide"
+          "title": "AWS Security Incident Response Technical Guide - AWS Security Incident Response User Guide",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
-          "description": "NIST guidelines for handling computer security incidents."
+          "description": "NIST guidelines for handling computer security incidents.",
+          "resource_order": 1
         },
         {
           "url": "https://www.sans.org/white-papers/ultimate-guide-getting-started-digital-forensics-incident-response/",
           "description": "A detailed guide for beginners on starting a career in digital forensics and incident response.",
-          "title": "The Ultimate Guide to Getting Started in Digital Forensics & Incident Response (DFIR) | SANS Institute"
+          "title": "The Ultimate Guide to Getting Started in Digital Forensics & Incident Response (DFIR) | SANS Institute",
+          "resource_order": 2
         },
         {
           "url": "https://www.paloaltonetworks.com/cyberpedia/digital-forensics-and-incident-response",
           "description": "An overview of digital forensics and incident response methodologies and practices.",
-          "title": "What is Digital Forensics and Incident Response (DFIR)? - Palo Alto Networks"
+          "title": "What is Digital Forensics and Incident Response (DFIR)? - Palo Alto Networks",
+          "resource_order": 3
         },
         {
           "url": "https://docs.aws.amazon.com/security-ir/latest/userguide/introduction.html",
           "description": "An introduction to AWS Security Incident Response guidelines and best practices.",
-          "title": "Introduction - AWS Security Incident Response User Guide"
+          "title": "Introduction - AWS Security Incident Response User Guide",
+          "resource_order": 4
         },
         {
           "url": "https://www.cynet.com/incident-response/",
           "description": "An overview of incident response strategies and solutions by Cynet.",
-          "title": "What Is Incident Response? Process, Practices & Automation [2025]"
+          "title": "What Is Incident Response? Process, Practices & Automation [2025]",
+          "resource_order": 5
         },
         {
           "url": "https://docs.aws.amazon.com/security-ir/latest/userguide/appendix-b-incident-response-resources.html",
           "description": "A detailed guide on AWS security incident response resources and best practices.",
-          "title": "Appendix B: AWS incident response resources - AWS Security Incident Response User Guide"
+          "title": "Appendix B: AWS incident response resources - AWS Security Incident Response User Guide",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=pSDB8Qmh7TQ",
           "title": "Network Forensics & Incident Response | Troy Wojewoda | Course Introduction",
-          "duration": "2m"
+          "duration": "2m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=mKUZx1z9dxo",
           "title": "9.5 Hours DFIR Complete Course - Digital Forensics Incident Response - SOC Level 1 Course",
-          "duration": "566m"
+          "duration": "566m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=-CyUlMroIBM",
           "title": "Introduction to Cyber Triage - Fast Forensics for Incident Response",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=OIT9oaFmXZU",
           "title": "Introduction to Kansa - PowerShell-based Incident Response",
-          "duration": "22m"
+          "duration": "22m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=MrVkzeaHXRQ",
           "title": "01 Introduction - DFIR | Digital Forensics & Incident Response [Arabic]",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=u2zgEFm5RHQ",
           "title": "Introduction to Digital Forensics - Learn the Basics",
-          "duration": "36m"
+          "duration": "36m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=eekzaI0UFDA&pp=0gcJCf0Ao7VqN5tD",
           "title": "Become a Cyber Forensic Investigator (Beginners DFIR Roadmap 2025)",
-          "duration": "16m"
+          "duration": "16m",
+          "resource_order": 7
         }
       ]
     },
@@ -117,85 +135,101 @@
         {
           "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/automate-incident-response-and-forensics.html",
           "description": "Guidance on automating incident response and forensics in AWS environments.",
-          "title": "Automate incident response and forensics - AWS Prescriptive Guidance"
+          "title": "Automate incident response and forensics - AWS Prescriptive Guidance",
+          "resource_order": 1
         },
         {
           "url": "https://github.com/meirwah/awesome-incident-response",
           "description": "A curated list of tools and resources for incident response.",
-          "title": "GitHub - meirwah/awesome-incident-response: A curated list of tools for incident response"
+          "title": "GitHub - meirwah/awesome-incident-response: A curated list of tools for incident response",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/docs/security/incident-response",
           "description": "Guidelines for managing and responding to security incidents in Google Cloud.",
-          "title": "Data incident response process \u00a0|\u00a0 Security \u00a0|\u00a0 Google Cloud"
+          "title": "Data incident response process  |  Security  |  Google Cloud",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
-          "description": "NIST's guide on computer security incident handling and response."
+          "description": "NIST's guide on computer security incident handling and response.",
+          "resource_order": 1
         },
         {
           "url": "https://www.paloaltonetworks.com/cyberpedia/digital-forensics-and-incident-response",
           "description": "An overview of digital forensics and incident response practices in cybersecurity.",
-          "title": "What is Digital Forensics and Incident Response (DFIR)? - Palo Alto Networks"
+          "title": "What is Digital Forensics and Incident Response (DFIR)? - Palo Alto Networks",
+          "resource_order": 2
         },
         {
           "url": "https://www.binalyze.com/",
           "description": "A platform offering digital forensics and incident response solutions for cybersecurity professionals.",
-          "title": "Binalyze - Automated Investigation and Incident Response"
+          "title": "Binalyze - Automated Investigation and Incident Response",
+          "resource_order": 3
         },
         {
           "url": "https://www.dfir-iris.org/",
           "description": "An open-source incident response tool for digital forensics investigations.",
-          "title": "DFIR-IRIS - Collaborative Incident Response Platform"
+          "title": "DFIR-IRIS - Collaborative Incident Response Platform",
+          "resource_order": 4
         },
         {
           "url": "https://www.monolithforensics.com/",
           "description": "A resource hub for digital forensics professionals offering tools, training, and community support.",
-          "title": "Monolith Forensics | Digital Forensics, Incident Response, & eDiscovery"
+          "title": "Monolith Forensics | Digital Forensics, Incident Response, & eDiscovery",
+          "resource_order": 5
         },
         {
           "url": "https://github.com/meirwah/awesome-incident-response",
           "description": "A curated list of tools and resources for incident response and digital forensics.",
-          "title": "GitHub - meirwah/awesome-incident-response: A curated list of tools for incident response"
+          "title": "GitHub - meirwah/awesome-incident-response: A curated list of tools for incident response",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=fEqx0MeCCHg",
           "title": "Starting a New Digital Forensic Investigation Case in Autopsy 4.19+",
-          "duration": "38m"
+          "duration": "38m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=zIwUBTGjbws",
           "title": "Using Sysmon to Improve your Incident Response and Threat Hunting Capabilities",
-          "duration": "220m"
+          "duration": "220m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=ai_7Fkv6igw",
           "title": "Getting Started with the SIFT Workstation Webcast with Rob Lee",
-          "duration": "70m"
+          "duration": "70m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=Q1IoGX--814",
           "title": "Live Incident Response with Velociraptor",
-          "duration": "69m"
+          "duration": "69m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=o6boK9dG-Lc",
           "title": "Disk Analysis with Autopsy | HackerSploit Blue Team Training",
-          "duration": "52m"
+          "duration": "52m",
+          "resource_order": 5
         },
         {
           "url": "https://m.youtube.com/watch?v=EA40rztSOd4&pp=ygUGI3ZxbGlm",
           "title": "Starting with Velociraptor Incident Response",
-          "duration": "48m"
+          "duration": "48m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=iYyWZSNBNcw",
           "title": "Triage Collection and Timeline Analysis with KAPE",
-          "duration": "63m"
+          "duration": "63m",
+          "resource_order": 7
         }
       ]
     },
@@ -203,89 +237,106 @@
       "docs": [
         {
           "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
-          "description": "Guidelines for handling and responding to computer security incidents."
+          "description": "Guidelines for handling and responding to computer security incidents.",
+          "resource_order": 1
         },
         {
           "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/cyber-forensics.html",
           "description": "Guidance on implementing cyber forensics in AWS environments.",
-          "title": "Cyber forensics - AWS Prescriptive Guidance"
+          "title": "Cyber forensics - AWS Prescriptive Guidance",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/meirwah/awesome-incident-response",
           "description": "A curated list of tools and resources for incident response and digital forensics.",
-          "title": "GitHub - meirwah/awesome-incident-response: A curated list of tools for incident response"
+          "title": "GitHub - meirwah/awesome-incident-response: A curated list of tools for incident response",
+          "resource_order": 3
         },
         {
           "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-security-incident-response-guide/aws-security-incident-response-guide.pdf",
-          "description": "A detailed guide on managing and responding to security incidents in AWS environments."
+          "description": "A detailed guide on managing and responding to security incidents in AWS environments.",
+          "resource_order": 4
         },
         {
           "url": "https://cloud.google.com/docs/security/incident-response",
           "description": "Guidelines for managing security incidents within Google Cloud environments.",
-          "title": "Data incident response process \u00a0|\u00a0 Security \u00a0|\u00a0 Google Cloud"
+          "title": "Data incident response process  |  Security  |  Google Cloud",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
-          "description": "NIST Special Publication 800-61 Revision 2: Guidelines for incident handling and management."
+          "description": "NIST Special Publication 800-61 Revision 2: Guidelines for incident handling and management.",
+          "resource_order": 1
         },
         {
           "url": "https://www.sans.org/digital-forensics-incident-response/",
           "description": "An authoritative resource for digital forensics and incident response training and certification.",
-          "title": "Digital Forensics and Incident Response (DFIR) Training, Courses, Certifications and Tools | SANS Institute"
+          "title": "Digital Forensics and Incident Response (DFIR) Training, Courses, Certifications and Tools | SANS Institute",
+          "resource_order": 2
         },
         {
           "url": "https://www.blackhat.com/us-25/training/schedule/",
           "description": "A schedule of training sessions for the Black Hat USA 2025 cybersecurity conference.",
-          "title": "Black Hat USA 2025 | Trainings Schedule"
+          "title": "Black Hat USA 2025 | Trainings Schedule",
+          "resource_order": 3
         },
         {
           "url": "https://www.sans.org/cyber-security-courses/advanced-incident-response-threat-hunting-training/",
           "description": "An advanced training course on incident response and threat hunting in cybersecurity.",
-          "title": "FOR508: Advanced Incident Response, Threat Hunting, and Digital Forensics | SANS Institute"
+          "title": "FOR508: Advanced Incident Response, Threat Hunting, and Digital Forensics | SANS Institute",
+          "resource_order": 4
         },
         {
           "url": "https://www.cybereason.com/fundamentals/what-is-dfir",
           "description": "An introduction to Digital Forensics and Incident Response (DFIR) fundamentals.",
-          "title": "What is DFIR? | A Complete Guide"
+          "title": "What is DFIR? | A Complete Guide",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=3hDrPTTGEAU",
           "title": "Inside FOR608: Enterprise-Class Incident Response & Threat Hunting - Course Preview",
-          "duration": "65m"
+          "duration": "65m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=C-0JD1Fwk7U",
           "title": "FOR508 - Advanced Incident Response and Threat Hunting Course Updates: Hunting Guide",
-          "duration": "61m"
+          "duration": "61m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=G8XjSO_eshc",
           "title": "Quick Forensics of Windows Event Logs (DeepBlueCLI)",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=qYTVRjb7KrI",
           "title": "The Volume Shadow Knows",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=8FGIyV12aVU",
           "title": "Learning to Combat Ransomware",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=fEqx0MeCCHg",
           "title": "Starting a New Digital Forensic Investigation Case in Autopsy 4.19+",
-          "duration": "38m"
+          "duration": "38m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=vW8eAqZyWeo",
           "title": "Malware Hunting with Mark Russinovich and the Sysinternals Tools",
-          "duration": "86m"
+          "duration": "86m",
+          "resource_order": 7
         }
       ]
     }
@@ -301,7 +352,8 @@
           "Recovery"
         ],
         "correct_option": 1,
-        "hint": "It involves setting up policies and resources before an incident occurs."
+        "hint": "It involves setting up policies and resources before an incident occurs.",
+        "question_order": 1
       },
       {
         "question": "Which phase of the Incident Response Lifecycle involves identifying and verifying the occurrence of a security event?",
@@ -312,7 +364,8 @@
           "Recovery"
         ],
         "correct_option": 2,
-        "hint": "This phase is about discovering the incident."
+        "hint": "This phase is about discovering the incident.",
+        "question_order": 2
       },
       {
         "question": "In digital forensics, what is the primary goal when analyzing a compromised system?",
@@ -323,7 +376,8 @@
           "To restore system functionality"
         ],
         "correct_option": 2,
-        "hint": "The goal is to understand what happened and how."
+        "hint": "The goal is to understand what happened and how.",
+        "question_order": 3
       },
       {
         "question": "What does log analysis typically involve in the context of incident response?",
@@ -334,7 +388,8 @@
           "Identifying anomalies"
         ],
         "correct_option": 3,
-        "hint": "It involves looking for unusual patterns."
+        "hint": "It involves looking for unusual patterns.",
+        "question_order": 4
       },
       {
         "question": "What is the purpose of malware triage in an incident response scenario?",
@@ -345,7 +400,8 @@
           "To alert system administrators"
         ],
         "correct_option": 1,
-        "hint": "Think about the initial step before in-depth analysis."
+        "hint": "Think about the initial step before in-depth analysis.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -358,7 +414,8 @@
           "To recover systems to a normal state"
         ],
         "correct_option": 2,
-        "hint": "This phase involves readiness and planning to handle future incidents."
+        "hint": "This phase involves readiness and planning to handle future incidents.",
+        "question_order": 1
       },
       {
         "question": "Which of the following best describes digital forensics?",
@@ -369,7 +426,8 @@
           "The isolation of affected systems during an incident"
         ],
         "correct_option": 1,
-        "hint": "This field involves recovering and investigating data from digital sources."
+        "hint": "This field involves recovering and investigating data from digital sources.",
+        "question_order": 2
       },
       {
         "question": "In log analysis, what is the primary purpose of correlating logs from different sources?",
@@ -380,7 +438,8 @@
           "To enhance data encryption methods"
         ],
         "correct_option": 1,
-        "hint": "This process helps in identifying patterns and anomalies across systems."
+        "hint": "This process helps in identifying patterns and anomalies across systems.",
+        "question_order": 3
       },
       {
         "question": "What is the primary objective of the containment phase in incident response?",
@@ -391,7 +450,8 @@
           "To analyze the root cause of the incident"
         ],
         "correct_option": 1,
-        "hint": "This phase is about limiting the damage and preventing further spread."
+        "hint": "This phase is about limiting the damage and preventing further spread.",
+        "question_order": 4
       },
       {
         "question": "Which step in malware triage involves determining the potential impact of the malware?",
@@ -402,7 +462,8 @@
           "Assessing the malware's capabilities and intent"
         ],
         "correct_option": 3,
-        "hint": "This step involves understanding what the malware can do and its potential targets."
+        "hint": "This step involves understanding what the malware can do and its potential targets.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -415,7 +476,8 @@
           "Recovery"
         ],
         "correct_option": 3,
-        "hint": "This phase comes after eradication and focuses on restoring normal operations."
+        "hint": "This phase comes after eradication and focuses on restoring normal operations.",
+        "question_order": 1
       },
       {
         "question": "What is the primary goal during the Containment phase of the Incident Response Lifecycle?",
@@ -426,7 +488,8 @@
           "Collect evidence for legal proceedings"
         ],
         "correct_option": 1,
-        "hint": "This phase aims to limit or prevent further damage during an incident."
+        "hint": "This phase aims to limit or prevent further damage during an incident.",
+        "question_order": 2
       },
       {
         "question": "In digital forensics, which of the following is NOT considered a volatile data source?",
@@ -437,7 +500,8 @@
           "CPU cache"
         ],
         "correct_option": 2,
-        "hint": "Think about data that remains after a system is powered off."
+        "hint": "Think about data that remains after a system is powered off.",
+        "question_order": 3
       },
       {
         "question": "During log analysis, which type of log would be most useful for identifying unauthorized access attempts on a system?",
@@ -448,7 +512,8 @@
           "Event logs"
         ],
         "correct_option": 2,
-        "hint": "This log type specifically tracks access and security-related actions."
+        "hint": "This log type specifically tracks access and security-related actions.",
+        "question_order": 4
       },
       {
         "question": "In malware triage, what is the primary purpose of static analysis?",
@@ -459,7 +524,8 @@
           "Remove malware from infected systems"
         ],
         "correct_option": 2,
-        "hint": "This type of analysis involves examining the code or binary without running it."
+        "hint": "This type of analysis involves examining the code or binary without running it.",
+        "question_order": 5
       }
     ]
   }

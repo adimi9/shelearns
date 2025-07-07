@@ -19,100 +19,119 @@
       "docs": [
         {
           "url": "https://www.ateam-oracle.com/post/event-driven-integrations-primer",
-          "description": "An introductory guide to event-driven integrations using Oracle technologies."
+          "description": "An introductory guide to event-driven integrations using Oracle technologies.",
+          "resource_order": 1
         },
         {
           "url": "https://docs.oracle.com/en/database/oracle/oracle-database/23/adque/aq-introduction.html",
           "description": "An introduction to Oracle Advanced Queuing for database message management.",
-          "title": "Introduction to Transactional Event Queues and Advanced Queuing"
+          "title": "Introduction to Transactional Event Queues and Advanced Queuing",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/pubsub/docs/overview",
           "description": "An overview of Google Cloud Pub/Sub, a messaging service for event-driven systems.",
-          "title": "What is Pub/Sub? \u00a0|\u00a0 Pub/Sub Documentation \u00a0|\u00a0 Google Cloud"
+          "title": "What is Pub/Sub?  |  Pub/Sub Documentation  |  Google Cloud",
+          "resource_order": 3
         },
         {
           "url": "https://docs.aws.amazon.com/lambda/latest/dg/concepts-event-driven-architectures.html",
           "description": "An overview of event-driven architectures in AWS Lambda.",
-          "title": "Creating event-driven architectures with Lambda - AWS Lambda"
+          "title": "Creating event-driven architectures with Lambda - AWS Lambda",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://quix.io/blog/what-why-how-of-event-driven-programming",
           "description": "An introduction to the concepts, benefits, and implementation of event-driven programming.",
-          "title": "The what, why and how of event-driven programming"
+          "title": "The what, why and how of event-driven programming",
+          "resource_order": 1
         },
         {
           "url": "https://docs.oracle.com/en/database/oracle/oracle-database/23/adque/aq-introduction.html",
           "description": "An introduction to Oracle Advanced Queuing in Oracle Database 23c.",
-          "title": "Introduction to Transactional Event Queues and Advanced Queuing"
+          "title": "Introduction to Transactional Event Queues and Advanced Queuing",
+          "resource_order": 2
         },
         {
           "url": "http://www.kurrent.io/event-driven-architecture",
           "description": "An overview of event-driven architecture principles and implementation strategies.",
-          "title": "A Beginner's Guide to Event-Driven Architecture"
+          "title": "A Beginner's Guide to Event-Driven Architecture",
+          "resource_order": 3
         },
         {
           "url": "https://www.ateam-oracle.com/post/event-driven-integrations-primer",
-          "description": "An introductory guide to event-driven integrations using Oracle technologies."
+          "description": "An introductory guide to event-driven integrations using Oracle technologies.",
+          "resource_order": 4
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven",
           "description": "An overview of event-driven architecture styles and their implementation in Azure.",
-          "title": "Event-driven architecture style - Azure Architecture Center | Microsoft Learn"
+          "title": "Event-driven architecture style - Azure Architecture Center | Microsoft Learn",
+          "resource_order": 5
         },
         {
           "url": "https://keda.sh/",
           "description": "KEDA is an open-source project that provides event-driven autoscaling for Kubernetes applications.",
-          "title": "KEDA | Kubernetes Event-driven Autoscaling"
+          "title": "KEDA | Kubernetes Event-driven Autoscaling",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=RojKJnF_WWQ",
           "title": "A Beginner's Guide to Event-Driven Architecture",
-          "duration": "37m"
+          "duration": "37m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=1yC_bw0tWhQ",
           "title": "Learn RabbitMQ for Event-Driven Architecture (EDA)",
-          "duration": "141m"
+          "duration": "141m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=rSIirRFa77s&pp=ygUJI3N1YmV2ZW50",
           "title": "Pub/Sub Architecture and AWS SNS - Exploring Event-Driven Patterns",
-          "duration": "21m"
+          "duration": "21m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=gA2-eqDVSng",
           "title": "Building Distributed Applications with Event-driven Architecture- AWS Online Tech Talks",
-          "duration": "44m"
+          "duration": "44m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=dpl4xKkPxHY",
           "title": "You want to use Kafka? Or do you really need a Queue?",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=bfVddTJNiAw&pp=0gcJCfwAo7VqN5tD",
           "title": "Intro To RabbitMQ",
-          "duration": "54m"
+          "duration": "54m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=QkdkLdMBuL0&pp=0gcJCfwAo7VqN5tD",
           "title": "Kafka Tutorial for Beginners | Everything you need to get started",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=WRGgmoA4PgA",
           "title": "Getting started with dead letter queue  for beginners on AWS",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=nFxjaVmFj5E",
           "title": "RabbitMQ Tutorial - Message Queues and Distributed Systems",
-          "duration": "30m"
+          "duration": "30m",
+          "resource_order": 9
         }
       ]
     },
@@ -120,90 +139,107 @@
       "docs": [
         {
           "url": "https://www.ateam-oracle.com/post/event-driven-integrations-primer",
-          "description": "An introductory guide to event-driven integrations with Oracle technologies."
+          "description": "An introductory guide to event-driven integrations with Oracle technologies.",
+          "resource_order": 1
         },
         {
           "url": "https://cloud.google.com/pubsub/docs/overview",
           "description": "An overview of Google Cloud Pub/Sub, a messaging service for real-time event streaming.",
-          "title": "What is Pub/Sub? \u00a0|\u00a0 Pub/Sub Documentation \u00a0|\u00a0 Google Cloud"
+          "title": "What is Pub/Sub?  |  Pub/Sub Documentation  |  Google Cloud",
+          "resource_order": 2
         },
         {
           "url": "https://architect.salesforce.com/decision-guides/event-driven",
           "description": "A decision guide for implementing event-driven architecture in Salesforce applications.",
-          "title": "Event-Driven Architecture | Salesforce Architects"
+          "title": "Event-Driven Architecture | Salesforce Architects",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://quix.io/blog/what-why-how-of-event-driven-programming",
           "description": "An insightful overview of event-driven programming, explaining its principles, benefits, and implementation.",
-          "title": "The what, why and how of event-driven programming"
+          "title": "The what, why and how of event-driven programming",
+          "resource_order": 1
         },
         {
           "url": "https://stackoverflow.com/questions/1659351/message-driven-vs-event-driven-approaches-to-application-integration",
           "description": "A discussion on the differences between message-driven and event-driven approaches to application integration.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://www.ateam-oracle.com/post/event-driven-integrations-primer",
-          "description": "An introductory guide to event-driven integrations in Oracle systems."
+          "description": "An introductory guide to event-driven integrations in Oracle systems.",
+          "resource_order": 3
         },
         {
           "url": "https://www.tinybird.co/blog-posts/event-driven-architecture-best-practices-for-databases-and-files",
           "description": "Best practices for implementing event-driven architecture in databases and files.",
-          "title": "Event-driven architecture best practices for databases and files"
+          "title": "Event-driven architecture best practices for databases and files",
+          "resource_order": 4
         },
         {
           "url": "https://docs.aws.amazon.com/lambda/latest/dg/concepts-event-driven-architectures.html",
           "description": "An overview of event-driven architectures using AWS Lambda.",
-          "title": "Creating event-driven architectures with Lambda - AWS Lambda"
+          "title": "Creating event-driven architectures with Lambda - AWS Lambda",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=RojKJnF_WWQ",
           "title": "A Beginner's Guide to Event-Driven Architecture",
-          "duration": "37m"
+          "duration": "37m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=xErwDaOc-Gs&pp=0gcJCdgAo7VqN5tD",
           "title": "What is a Message Queue?",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=-JCup-nOG2g",
           "title": "Building Event-Driven Integration Architectures with Azure Event Grid - Automation Summit",
-          "duration": "60m"
+          "duration": "60m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=rSIirRFa77s&pp=ygUJI3N1YmV2ZW50",
           "title": "Pub/Sub Architecture and AWS SNS - Exploring Event-Driven Patterns",
-          "duration": "21m"
+          "duration": "21m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=S3IAVii92xw",
           "title": "Event Driven Architecture in  .NET",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=rJHTK2TfZ1I",
           "title": "What's an Event Driven System?",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=IWkg7EwcUds",
           "title": "Dead-Letter Queues in Event-Driven systems by Steven van Beelen",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=QkdkLdMBuL0&pp=0gcJCfwAo7VqN5tD",
           "title": "Kafka Tutorial for Beginners | Everything you need to get started",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=Fb_0UOD2X2I&pp=0gcJCf0Ao7VqN5tD",
           "title": "Event Driven Architecture EXPLAINED in 15 Minutes",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 9
         }
       ]
     },
@@ -212,96 +248,114 @@
         {
           "url": "https://www.astronomer.io/docs/learn/airflow-event-driven-scheduling",
           "description": "A guide on implementing event-driven scheduling in Apache Airflow.",
-          "title": "Event-driven scheduling | Astronomer Documentation"
+          "title": "Event-driven scheduling | Astronomer Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
           "description": "An introduction and guide to using AWS Lambda for serverless computing.",
-          "title": "What is AWS Lambda? - AWS Lambda"
+          "title": "What is AWS Lambda? - AWS Lambda",
+          "resource_order": 2
         },
         {
           "url": "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
           "description": "A detailed user guide for NVIDIA Nsight Systems profiling tool.",
-          "title": "User Guide \u2014 nsight-systems 2025.3 documentation"
+          "title": "User Guide — nsight-systems 2025.3 documentation",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://solace.com/event-driven-architecture-patterns/",
           "description": "An overview of event-driven architecture patterns and their applications.",
-          "title": "The Ultimate Guide to Event-Driven Architecture Patterns | Solace"
+          "title": "The Ultimate Guide to Event-Driven Architecture Patterns | Solace",
+          "resource_order": 1
         },
         {
           "url": "https://www.architecture-weekly.com/p/whole-architecture-weekly-content",
           "description": "A weekly newsletter covering diverse topics in software architecture.",
-          "title": "Whole Architecture Weekly content is free now!"
+          "title": "Whole Architecture Weekly content is free now!",
+          "resource_order": 2
         },
         {
           "url": "https://learning.sap.com/learning-journeys/discovering-event-driven-integration-with-sap-integration-suite-advanced-event-mesh/understanding-sap-integration-suite-advanced-event-mesh-in-the-event-driven-architecture_c11f81e8-f173-4384-8df2-cca83e5541ce",
           "description": "An overview of SAP Integration Suite's Advanced Event Mesh in event-driven architecture.",
-          "title": "Understanding SAP Integration Suite, advanced Event Mesh in the E"
+          "title": "Understanding SAP Integration Suite, advanced Event Mesh in the E",
+          "resource_order": 3
         },
         {
           "url": "https://newsletter.pragmaticengineer.com/p/designing-a-payment-system",
           "description": "An insightful overview of designing robust and scalable payment systems.",
-          "title": "Designing a Payment System - by Gergely Orosz"
+          "title": "Designing a Payment System - by Gergely Orosz",
+          "resource_order": 4
         },
         {
           "url": "https://github.com/AutoMQ/automq/wiki/Differences-Between-Event-Streaming-and-Message-Queuing",
           "description": "An informative comparison between event streaming and message queuing technologies.",
-          "title": "Differences Between Event Streaming and Message Queuing \u00b7 AutoMQ/automq Wiki \u00b7 GitHub"
+          "title": "Differences Between Event Streaming and Message Queuing · AutoMQ/automq Wiki · GitHub",
+          "resource_order": 5
         },
         {
           "url": "https://dzone.com/articles/oracle-advanced-queue-a-guide",
           "description": "An introductory guide to using Oracle Advanced Queue for message queuing.",
-          "title": "Attention Required! | Cloudflare"
+          "title": "Attention Required! | Cloudflare",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=X40EozwK75s",
           "title": "A Deep Dive into Apache Kafka This is Event Streaming by Andrew Dunnings & Katherine Stanley",
-          "duration": "124m"
+          "duration": "124m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=nFxjaVmFj5E",
           "title": "RabbitMQ Tutorial - Message Queues and Distributed Systems",
-          "duration": "30m"
+          "duration": "30m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=QkdkLdMBuL0&pp=0gcJCfwAo7VqN5tD",
           "title": "Kafka Tutorial for Beginners | Everything you need to get started",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=SqVfCyfCJqw&pp=ygUJIzHRgWthZmth",
           "title": "Kafka Tutorial - Spring Boot Microservices",
-          "duration": "51m"
+          "duration": "51m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=hNDjd9I_VGA",
           "title": "Apache Kafka: a Distributed Messaging System for Log Processing",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=tPYa1r_cZ2E&pp=ygUFI3lzcXM%3D",
           "title": "AWS Step Functions with SQS Tutorial | Step by Step Guide",
-          "duration": "4m"
+          "duration": "4m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=VXsAgYoC1Jc&pp=ygUHI3Nuc2FoaQ%3D%3D",
           "title": "AWS SNS to SQS Tutorial | Step by Step Guide",
-          "duration": "6m"
+          "duration": "6m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=UEg40Te8pnE",
           "title": "Introduction to Apache Kafka by James Ward",
-          "duration": "49m"
+          "duration": "49m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=jQo-KeJB1ws",
           "title": "Trigger UiPath Process via Email (Event-Based Automation) | Full Tutorial",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 9
         }
       ]
     }
@@ -317,7 +371,8 @@
           "To replace databases in storing records"
         ],
         "correct_option": 1,
-        "hint": "Message queues are used to decouple and coordinate the integration of applications."
+        "hint": "Message queues are used to decouple and coordinate the integration of applications.",
+        "question_order": 1
       },
       {
         "question": "Which of the following best describes the publish/subscribe pattern?",
@@ -328,7 +383,8 @@
           "A system where messages are encrypted before sending"
         ],
         "correct_option": 1,
-        "hint": "Think about how multiple subscribers can listen to the same topic."
+        "hint": "Think about how multiple subscribers can listen to the same topic.",
+        "question_order": 2
       },
       {
         "question": "What is RabbitMQ primarily used for in message queuing?",
@@ -339,7 +395,8 @@
           "Managing user authentication"
         ],
         "correct_option": 2,
-        "hint": "RabbitMQ is a message broker software that enables applications to communicate with each other."
+        "hint": "RabbitMQ is a message broker software that enables applications to communicate with each other.",
+        "question_order": 3
       },
       {
         "question": "What is a dead letter queue?",
@@ -350,7 +407,8 @@
           "A queue that deletes messages after a certain period"
         ],
         "correct_option": 0,
-        "hint": "It holds messages that cannot be processed successfully."
+        "hint": "It holds messages that cannot be processed successfully.",
+        "question_order": 4
       },
       {
         "question": "Why is idempotency important in message processing?",
@@ -361,7 +419,8 @@
           "To enhance the speed of message queues"
         ],
         "correct_option": 1,
-        "hint": "Idempotency ensures that even if a message is delivered multiple times, it will have the same effect as if it was delivered once."
+        "hint": "Idempotency ensures that even if a message is delivered multiple times, it will have the same effect as if it was delivered once.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -374,7 +433,8 @@
           "Reduces the need for message acknowledgments"
         ],
         "correct_option": 2,
-        "hint": "Think about how the pattern affects the relationship between message producers and consumers."
+        "hint": "Think about how the pattern affects the relationship between message producers and consumers.",
+        "question_order": 1
       },
       {
         "question": "Which component in RabbitMQ is responsible for holding messages before they are delivered to consumers?",
@@ -385,7 +445,8 @@
           "Producer"
         ],
         "correct_option": 1,
-        "hint": "This component acts as a buffer for messages."
+        "hint": "This component acts as a buffer for messages.",
+        "question_order": 2
       },
       {
         "question": "In Kafka, what is the purpose of a Dead Letter Queue (DLQ)?",
@@ -396,7 +457,8 @@
           "To increase message throughput"
         ],
         "correct_option": 0,
-        "hint": "Consider what happens to messages that cannot be processed."
+        "hint": "Consider what happens to messages that cannot be processed.",
+        "question_order": 3
       },
       {
         "question": "How does Kafka ensure idempotency when processing messages?",
@@ -407,7 +469,8 @@
           "By ensuring message order is always preserved"
         ],
         "correct_option": 2,
-        "hint": "Kafka has a specific feature that guarantees message processing only once."
+        "hint": "Kafka has a specific feature that guarantees message processing only once.",
+        "question_order": 4
       },
       {
         "question": "What role does an Exchange play in RabbitMQ's message routing?",
@@ -418,7 +481,8 @@
           "Encrypts messages for secure transmission"
         ],
         "correct_option": 0,
-        "hint": "This component uses routing keys to determine where messages should go."
+        "hint": "This component uses routing keys to determine where messages should go.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -431,7 +495,8 @@
           "To reduce the overhead of message serialization"
         ],
         "correct_option": 0,
-        "hint": "Think about how Publish/Subscribe patterns affect the relationship between producers and consumers."
+        "hint": "Think about how Publish/Subscribe patterns affect the relationship between producers and consumers.",
+        "question_order": 1
       },
       {
         "question": "In RabbitMQ, what is the role of an exchange?",
@@ -442,7 +507,8 @@
           "To encrypt messages during transmission"
         ],
         "correct_option": 0,
-        "hint": "Consider what component determines how messages reach the appropriate queue."
+        "hint": "Consider what component determines how messages reach the appropriate queue.",
+        "question_order": 2
       },
       {
         "question": "How does Kafka ensure message idempotency when processing events?",
@@ -453,7 +519,8 @@
           "By compressing messages to avoid duplicates"
         ],
         "correct_option": 0,
-        "hint": "Idempotency requires handling repeat processing without side effects."
+        "hint": "Idempotency requires handling repeat processing without side effects.",
+        "question_order": 3
       },
       {
         "question": "What is a Dead Letter Queue (DLQ) used for in message queuing systems?",
@@ -464,7 +531,8 @@
           "To encrypt messages for secure transmission"
         ],
         "correct_option": 0,
-        "hint": "DLQs are related to error recovery and handling unprocessable messages."
+        "hint": "DLQs are related to error recovery and handling unprocessable messages.",
+        "question_order": 4
       },
       {
         "question": "Which of the following is a key difference between RabbitMQ and Kafka?",
@@ -475,7 +543,8 @@
           "Kafka does not support Publish/Subscribe patterns"
         ],
         "correct_option": 1,
-        "hint": "Consider the primary architectural strengths of Kafka in terms of performance."
+        "hint": "Consider the primary architectural strengths of Kafka in terms of performance.",
+        "question_order": 5
       }
     ]
   }

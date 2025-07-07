@@ -22,81 +22,96 @@
         {
           "url": "https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html",
           "description": "An introductory guide to the fundamental concepts of the Swift programming language.",
-          "title": "Documentation"
+          "title": "Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://developer.apple.com/tutorials/app-dev-training/",
           "description": "A step-by-step tutorial series for learning iOS app development with Swift.",
-          "title": "Develop apps for Apple platforms | Apple Developer Documentation"
+          "title": "Develop apps for Apple platforms | Apple Developer Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs",
           "description": "Comprehensive documentation for building and managing applications using Firebase services.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 3
         },
         {
           "url": "https://developer.apple.com/documentation/swift/",
           "description": "Official Apple documentation for the Swift programming language.",
-          "title": "Swift | Apple Developer Documentation"
+          "title": "Swift | Apple Developer Documentation",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://developer.apple.com/tutorials/develop-in-swift/",
           "description": "An introductory tutorial series for learning Swift programming and app development for Apple platforms.",
-          "title": "Develop in Swift | Apple Developer Documentation"
+          "title": "Develop in Swift | Apple Developer Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://developer.apple.com/tutorials/app-dev-training/",
           "description": "An introductory training series for developing apps using Apple's development tools and frameworks.",
-          "title": "Develop apps for Apple platforms | Apple Developer Documentation"
+          "title": "Develop apps for Apple platforms | Apple Developer Documentation",
+          "resource_order": 2
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=CwA1VWP0Ldw&pp=0gcJCfwAo7VqN5tD",
           "title": "Swift Programming Tutorial | FULL COURSE | Absolute Beginner",
-          "duration": "632m"
+          "duration": "632m",
+          "resource_order": 1
         },
         {
           "url": "https://m.youtube.com/watch?v=fTGA8cjbf5Y&pp=ygUII2FwcGZ1bGw%3D",
           "title": "Build iOS App Full Course | Rick & Morty App | 2023 | Swift",
-          "duration": "1023m"
+          "duration": "1023m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=3CMYu5Nomgc",
           "title": "IOS App Development Crash Course - Become IOS Developer",
-          "duration": "139m"
+          "duration": "139m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=83WXmhin_LU",
           "title": "iOS Development with Swift Tutorial - 1 - Apple Developer Registration",
-          "duration": "4m"
+          "duration": "4m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=yuo50-TiKgo",
           "title": "Swift: Build Your First App (2024) - iOS for Beginners",
-          "duration": "16m"
+          "duration": "16m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=uE8RCE45Yxc",
           "title": "How to build a macOS app for beginners (2023, Swift, SwiftUI, Xcode 15) - mac development course",
-          "duration": "53m"
+          "duration": "53m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=8Xcq4yRQ0pU",
           "title": "Xcode 15 Tutorial for Beginners (2024)",
-          "duration": "45m"
+          "duration": "45m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=uWEblkT0_Zk",
           "title": "Expert Advice to Learn iOS Dev & Swift FAST",
-          "duration": "64m"
+          "duration": "64m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=8Xg7E9shq0U&pp=0gcJCfwAo7VqN5tD",
-          "title": "Swift Programming Tutorial \u2013 Full Course for Beginners",
-          "duration": "425m"
+          "title": "Swift Programming Tutorial – Full Course for Beginners",
+          "duration": "425m",
+          "resource_order": 9
         }
       ]
     },
@@ -105,91 +120,108 @@
         {
           "url": "https://firebase.google.com/docs/ios/setup",
           "description": "Step-by-step instructions for setting up Firebase in an iOS app.",
-          "title": "Add Firebase to your Apple project \u00a0|\u00a0 Firebase for Apple platforms"
+          "title": "Add Firebase to your Apple project  |  Firebase for Apple platforms",
+          "resource_order": 1
         },
         {
           "url": "https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html",
           "description": "An introductory guide to the basic concepts and syntax of the Swift programming language.",
-          "title": "Documentation"
+          "title": "Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs",
           "description": "Official documentation for using Firebase to develop mobile and web applications.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://forums.swift.org/t/is-it-good-idea-to-use-swift-for-windows-linux-apps/67219",
           "description": "Discussion on the viability of using Swift for developing applications on Windows and Linux platforms.",
-          "title": "Is it Good Idea to Use Swift for Windows / Linux Apps? - Using Swift - Swift Forums"
+          "title": "Is it Good Idea to Use Swift for Windows / Linux Apps? - Using Swift - Swift Forums",
+          "resource_order": 1
         },
         {
           "url": "https://swift.org/getting-started/",
           "description": "A beginner's guide to setting up and starting with Swift programming.",
-          "title": "Swift.org - Getting Started"
+          "title": "Swift.org - Getting Started",
+          "resource_order": 2
         },
         {
           "url": "https://forums.swift.org/t/building-non-ui-programs-e-g-command-line-tools-servers-etc/71368",
           "description": "Discussion on building non-UI programs like command-line tools and servers using Swift.",
-          "title": "Building non-UI programs, e.g., command-line tools, servers, etc - Using Swift - Swift Forums"
+          "title": "Building non-UI programs, e.g., command-line tools, servers, etc - Using Swift - Swift Forums",
+          "resource_order": 3
         },
         {
           "url": "https://developer.apple.com/swift/",
           "description": "Official Apple documentation for the Swift programming language.",
-          "title": "Swift - Apple Developer"
+          "title": "Swift - Apple Developer",
+          "resource_order": 4
         },
         {
           "url": "https://clean-swift.com/step-by-step-walkthrough-of-ios-test-driven-development-in-swift/",
           "description": "A step-by-step guide to iOS test-driven development using Swift.",
-          "title": "Step by Step Walkthrough of iOS Test Driven Development in Swift - Clean Swift"
+          "title": "Step by Step Walkthrough of iOS Test Driven Development in Swift - Clean Swift",
+          "resource_order": 5
         },
         {
           "url": "https://www.andrewhoog.com/post/how-to-build-an-ios-app-with-github-actions-2023/",
           "description": "A step-by-step guide to building an iOS app using GitHub Actions in 2023.",
-          "title": "How to build an iOS app with GitHub Actions [2023] - Don't Panic"
+          "title": "How to build an iOS app with GitHub Actions [2023] - Don't Panic",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=83WXmhin_LU",
           "title": "iOS Development with Swift Tutorial - 1 - Apple Developer Registration",
-          "duration": "4m"
+          "duration": "4m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=CwA1VWP0Ldw&pp=0gcJCfwAo7VqN5tD",
           "title": "Swift Programming Tutorial | FULL COURSE | Absolute Beginner",
-          "duration": "632m"
+          "duration": "632m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=CsuUwdoVwyw",
           "title": "Getting Started with Unit Testing for iOS Development in Swift  | Xcode 16",
-          "duration": "25m"
+          "duration": "25m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=augrMEQeasU",
           "title": "Personality Quiz Project - part 1 - App Development with Swift",
-          "duration": "30m"
+          "duration": "30m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=B4yJ85IaTUw",
           "title": "TDD and Unit Testing in iOS | Part 1 Stateless Objects",
-          "duration": "28m"
+          "duration": "28m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=S5qyWuVp3J4",
           "title": "My Top 10 Vibe Coding Tools for iOS App Development",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=K0t-RCSlasE&pp=ygUJI2FwcGJ1aWxk",
           "title": "How to Make an App in 8 Days (2024) - Full Walkthrough",
-          "duration": "180m"
+          "duration": "180m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=MyYV65boqec",
           "title": "Swift: Build Covid Tracker App (2021, Xcode 12, Swift 5) - iOS Development UIKit",
-          "duration": "65m"
+          "duration": "65m",
+          "resource_order": 8
         }
       ]
     },
@@ -198,76 +230,90 @@
         {
           "url": "https://developer.apple.com/swift/resources/",
           "description": "Official resources and documentation for learning and mastering Swift programming language.",
-          "title": "Resources - Swift - Apple Developer"
+          "title": "Resources - Swift - Apple Developer",
+          "resource_order": 1
         },
         {
           "url": "https://docs.mixpanel.com/docs/tracking-methods/sdks/swift",
           "description": "Official Mixpanel SDK documentation for integrating analytics in Swift applications.",
-          "title": "Mixpanel SDKs: iOS (Swift) - Mixpanel Docs"
+          "title": "Mixpanel SDKs: iOS (Swift) - Mixpanel Docs",
+          "resource_order": 2
         },
         {
           "url": "https://developer.apple.com/tutorials/app-dev-training/",
           "description": "An introductory tutorial series for developing apps using Apple's development tools and technologies.",
-          "title": "Develop apps for Apple platforms | Apple Developer Documentation"
+          "title": "Develop apps for Apple platforms | Apple Developer Documentation",
+          "resource_order": 3
         },
         {
           "url": "https://developer.spotify.com/documentation/ios/getting-started",
           "description": "A quick-start guide for integrating Spotify features into iOS applications.",
-          "title": "Getting Started with iOS SDK | Spotify for Developers"
+          "title": "Getting Started with iOS SDK | Spotify for Developers",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://developer.apple.com/learn/",
           "description": "Apple's official portal for learning about app development and design for all Apple platforms.",
-          "title": "Learn to code - Apple Developer"
+          "title": "Learn to code - Apple Developer",
+          "resource_order": 1
         },
         {
           "url": "https://www.linkedin.com/posts/aleksa-simic-10bba5182_github-twostrawscontrolroom-a-macos-app-activity-7186423166909521920-v-2O",
           "description": "An overview of ControlRoom, a macOS app for managing Xcode simulators, shared by Aleksa Simic on LinkedIn.",
-          "title": "How do you mean you are an iOS engineer and you don\u2019t know who Paul Hudson is? | Aleksa Simic"
+          "title": "How do you mean you are an iOS engineer and you don’t know who Paul Hudson is? | Aleksa Simic",
+          "resource_order": 2
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
           "title": "Swift Programming Tutorial | FULL COURSE | Absolute Beginner",
-          "duration": "632m"
+          "duration": "632m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=b1oC7sLIgpI",
           "title": "SwiftUI Fundamentals | FULL COURSE | Beginner Friendly",
-          "duration": "708m"
+          "duration": "708m",
+          "resource_order": 2
         },
         {
           "url": "https://m.youtube.com/watch?v=wargRHa8oKQ",
           "title": "Swift Language Fundamentals - The Complete Beginner's Guide",
-          "duration": "160m"
+          "duration": "160m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=1whvTugenL4",
           "title": "How to use Cursor AI for iOS App Development (5 Techniques)",
-          "duration": "28m"
+          "duration": "28m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=3CMYu5Nomgc",
           "title": "IOS App Development Crash Course - Become IOS Developer",
-          "duration": "139m"
+          "duration": "139m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=XTAziR-tY-A",
           "title": "iOS Dev Job Interview - Must Know Topics",
-          "duration": "147m"
+          "duration": "147m",
+          "resource_order": 6
         },
         {
           "url": "https://m.youtube.com/watch?v=EJQW864XpmA",
           "title": "Xcode Tutorial - Step by Step for Beginners",
-          "duration": "56m"
+          "duration": "56m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=lkU5s5V1GTg",
-          "title": "\ud83d\udd34 Mastering UIKit: Fundamentals & Advanced Concepts",
-          "duration": "144m"
+          "title": "🔴 Mastering UIKit: Fundamentals & Advanced Concepts",
+          "duration": "144m",
+          "resource_order": 8
         }
       ]
     }
@@ -283,7 +329,8 @@
           "C++"
         ],
         "correct_option": 2,
-        "hint": "It starts with an 'S' and is developed by Apple."
+        "hint": "It starts with an 'S' and is developed by Apple.",
+        "question_order": 1
       },
       {
         "question": "Which IDE is primarily used for developing iOS applications?",
@@ -294,7 +341,8 @@
           "NetBeans"
         ],
         "correct_option": 1,
-        "hint": "This IDE is specifically designed for macOS."
+        "hint": "This IDE is specifically designed for macOS.",
+        "question_order": 2
       },
       {
         "question": "What is UIKit primarily used for in iOS app development?",
@@ -305,7 +353,8 @@
           "Memory Management"
         ],
         "correct_option": 1,
-        "hint": "It helps in creating the visual layout of apps."
+        "hint": "It helps in creating the visual layout of apps.",
+        "question_order": 3
       },
       {
         "question": "In Swift, which keyword is used to declare a constant?",
@@ -316,7 +365,8 @@
           "immutable"
         ],
         "correct_option": 0,
-        "hint": "It starts with the letter 'l'."
+        "hint": "It starts with the letter 'l'.",
+        "question_order": 4
       },
       {
         "question": "Which component is essential for managing views and navigation in an iOS app?",
@@ -327,7 +377,8 @@
           "App Delegate"
         ],
         "correct_option": 1,
-        "hint": "It's responsible for managing a set of views."
+        "hint": "It's responsible for managing a set of views.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -340,7 +391,8 @@
           "Optionals are automatically unwrapped by the compiler."
         ],
         "correct_option": 2,
-        "hint": "Think about how Swift handles missing values without crashing."
+        "hint": "Think about how Swift handles missing values without crashing.",
+        "question_order": 1
       },
       {
         "question": "In Xcode, what is the purpose of the Interface Builder?",
@@ -351,7 +403,8 @@
           "To compile the Swift code into executable applications."
         ],
         "correct_option": 2,
-        "hint": "It involves working with the visual layout of your app."
+        "hint": "It involves working with the visual layout of your app.",
+        "question_order": 2
       },
       {
         "question": "What is the primary role of a View Controller in iOS app development?",
@@ -362,7 +415,8 @@
           "To manage memory allocation."
         ],
         "correct_option": 1,
-        "hint": "Think about the component that acts as an intermediary between the view and the model."
+        "hint": "Think about the component that acts as an intermediary between the view and the model.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is true about SwiftUI compared to UIKit?",
@@ -373,7 +427,8 @@
           "SwiftUI does not support live previews."
         ],
         "correct_option": 2,
-        "hint": "Consider the programming paradigm introduced with SwiftUI."
+        "hint": "Consider the programming paradigm introduced with SwiftUI.",
+        "question_order": 4
       },
       {
         "question": "How does Navigation Controller assist in iOS app development?",
@@ -384,7 +439,8 @@
           "It offers templates for common UI components."
         ],
         "correct_option": 1,
-        "hint": "Think about how view controllers are organized for user navigation."
+        "hint": "Think about how view controllers are organized for user navigation.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -397,7 +453,8 @@
           "Closures"
         ],
         "correct_option": 2,
-        "hint": "Think about concurrency and task management in Swift."
+        "hint": "Think about concurrency and task management in Swift.",
+        "question_order": 1
       },
       {
         "question": "In Xcode, which tool is primarily used for managing multiple UI screens and their transitions in an iOS app?",
@@ -408,7 +465,8 @@
           "Simulator"
         ],
         "correct_option": 0,
-        "hint": "It's a visual representation of the app\u2019s UI flow."
+        "hint": "It's a visual representation of the app’s UI flow.",
+        "question_order": 2
       },
       {
         "question": "When using SwiftUI, what is the primary protocol that must be implemented to create a new user interface element?",
@@ -419,7 +477,8 @@
           "Decodable"
         ],
         "correct_option": 1,
-        "hint": "This protocol is fundamental to building UI in SwiftUI."
+        "hint": "This protocol is fundamental to building UI in SwiftUI.",
+        "question_order": 3
       },
       {
         "question": "How does Swift handle memory management for class instances?",
@@ -430,7 +489,8 @@
           "Reference Counting by the Developer"
         ],
         "correct_option": 1,
-        "hint": "Swift uses a system that automatically tracks and manages memory usage."
+        "hint": "Swift uses a system that automatically tracks and manages memory usage.",
+        "question_order": 4
       },
       {
         "question": "In UIKit, what is the purpose of a UINavigationController?",
@@ -441,7 +501,8 @@
           "To animate view transitions"
         ],
         "correct_option": 0,
-        "hint": "It helps organize view controllers in a stack-based navigation interface."
+        "hint": "It helps organize view controllers in a stack-based navigation interface.",
+        "question_order": 5
       }
     ]
   }

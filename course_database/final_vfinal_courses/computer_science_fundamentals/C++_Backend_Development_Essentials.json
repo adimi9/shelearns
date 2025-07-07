@@ -28,76 +28,90 @@
         {
           "url": "https://docs.aws.amazon.com/",
           "description": "Official documentation and guides for Amazon Web Services (AWS) products and services.",
-          "title": "Welcome to AWS Documentation"
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://firebase.google.com/docs/firestore",
           "description": "Official documentation for using Firestore, a scalable real-time database from Firebase.",
-          "title": "Firestore \u00a0|\u00a0 Firebase"
+          "title": "Firestore  |  Firebase",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
           "description": "An introductory guide to web development covering HTML, CSS, and JavaScript fundamentals.",
-          "title": "Learn web development | MDN"
+          "title": "Learn web development | MDN",
+          "resource_order": 3
         },
         {
           "url": "https://firebase.google.com/docs/database",
           "description": "Official documentation for Firebase Realtime Database, detailing setup, features, and integration.",
-          "title": "Firebase Realtime Database"
+          "title": "Firebase Realtime Database",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://academy.jetbrains.com/",
           "description": "An online platform offering courses and learning resources for JetBrains products and programming languages.",
-          "title": "Programming Courses | JetBrains Academy Catalog"
+          "title": "Programming Courses | JetBrains Academy Catalog",
+          "resource_order": 1
         },
         {
           "url": "https://mcyoung.xyz/2023/08/01/llvm-ir/",
           "description": "An insightful overview of LLVM Intermediate Representation (IR) and its role in compiler design.",
-          "title": "A Gentle Introduction to LLVM IR \u00b7 mcyoung"
+          "title": "A Gentle Introduction to LLVM IR · mcyoung",
+          "resource_order": 2
         },
         {
           "url": "https://www.qt.io/academy/course-catalog",
           "description": "An overview of available courses in the Qt Academy for learning Qt development.",
-          "title": "Free Coding Courses | Qt Academy Course Catalog"
+          "title": "Free Coding Courses | Qt Academy Course Catalog",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
           "title": "The Complete Backend Developer Roadmap",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=1oTuMPIwHmk",
           "title": "Back-End Web Development (Tutorial for Beginners)",
-          "duration": "188m"
+          "duration": "188m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw&pp=0gcJCdgAo7VqN5tD",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY",
           "title": "C# Tutorial For Beginners - Learn C# Basics in 1 Hour",
-          "duration": "70m"
+          "duration": "70m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
           "title": "HTML Tutorial for Beginners: HTML Crash Course",
-          "duration": "69m"
+          "duration": "69m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
           "title": "Java Full Course for Beginners",
-          "duration": "150m"
+          "duration": "150m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=HZYbo1y_YdE",
           "title": "C++ in Web Development?",
-          "duration": "77m"
+          "duration": "77m",
+          "resource_order": 7
         }
       ]
     },
@@ -106,109 +120,130 @@
         {
           "url": "https://pytorch.org/docs/stable/distributed.html",
           "description": "Documentation on PyTorch's distributed training capabilities and APIs.",
-          "title": "Distributed communication package - torch.distributed \u2014 PyTorch 2.7 documentation"
+          "title": "Distributed communication package - torch.distributed — PyTorch 2.7 documentation",
+          "resource_order": 1
         },
         {
           "url": "https://github.com/Project-OSRM/osrm-backend",
           "description": "An open-source routing engine for computing routes based on OpenStreetMap data.",
-          "title": "GitHub - Project-OSRM/osrm-backend: Open Source Routing Machine - C++ backend"
+          "title": "GitHub - Project-OSRM/osrm-backend: Open Source Routing Machine - C++ backend",
+          "resource_order": 2
         },
         {
           "url": "https://docs.pytorch.org/executorch/stable/kernel-library-custom-aten-kernel.html",
           "description": "Guidelines for creating custom ATen kernels in PyTorch's Executor Kernel Library.",
-          "title": "Kernel Registration \u2014 ExecuTorch 0.6 documentation"
+          "title": "Kernel Registration — ExecuTorch 0.6 documentation",
+          "resource_order": 3
         },
         {
           "url": "https://docs.aws.amazon.com/",
           "description": "Official documentation for Amazon Web Services (AWS), covering a wide range of cloud computing topics and services.",
-          "title": "Welcome to AWS Documentation"
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 4
         },
         {
           "url": "https://docs.pytorch.org/executorch/stable/running-a-model-cpp-tutorial.html",
-          "description": "A tutorial on running PyTorch models using C++ with the ExeTorch API."
+          "description": "A tutorial on running PyTorch models using C++ with the ExeTorch API.",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://github.com/Project-OSRM/osrm-backend",
           "description": "An open-source routing engine for calculating optimal travel routes using OpenStreetMap data.",
-          "title": "GitHub - Project-OSRM/osrm-backend: Open Source Routing Machine - C++ backend"
+          "title": "GitHub - Project-OSRM/osrm-backend: Open Source Routing Machine - C++ backend",
+          "resource_order": 1
         },
         {
           "url": "https://edw.is/learning-vulkan/",
           "description": "An introductory guide to learning Vulkan graphics API for beginners.",
-          "title": "How I learned Vulkan and wrote a small game engine with it"
+          "title": "How I learned Vulkan and wrote a small game engine with it",
+          "resource_order": 2
         },
         {
           "url": "https://docs.pytorch.org/tutorials/advanced/extend_dispatcher.html",
           "description": "A tutorial on extending the PyTorch dispatcher for custom operations.",
-          "title": "Extending dispatcher for a new backend in C++ \u2014 PyTorch Tutorials 2.7.0+cu126 documentation"
+          "title": "Extending dispatcher for a new backend in C++ — PyTorch Tutorials 2.7.0+cu126 documentation",
+          "resource_order": 3
         },
         {
           "url": "https://www.qt.io/academy/course-catalog",
           "description": "A catalog of courses offered by Qt Academy for learning Qt development.",
-          "title": "Free Coding Courses | Qt Academy Course Catalog"
+          "title": "Free Coding Courses | Qt Academy Course Catalog",
+          "resource_order": 4
         },
         {
           "url": "https://docs.pytorch.org/executorch/stable/running-a-model-cpp-tutorial.html",
-          "description": "A tutorial on running PyTorch models using C++ with Executorch."
+          "description": "A tutorial on running PyTorch models using C++ with Executorch.",
+          "resource_order": 5
         },
         {
           "url": "https://www.freecodecamp.org/news/the-programming-language-pipeline-91d3f449c919/",
           "description": "An overview of the stages involved in compiling and executing a programming language.",
-          "title": "I wrote a programming language. Here\u2019s how you can, too."
+          "title": "I wrote a programming language. Here’s how you can, too.",
+          "resource_order": 6
         },
         {
           "url": "https://mcyoung.xyz/2023/08/01/llvm-ir/",
           "description": "An insightful introduction to LLVM Intermediate Representation (IR) and its role in compiler design.",
-          "title": "A Gentle Introduction to LLVM IR \u00b7 mcyoung"
+          "title": "A Gentle Introduction to LLVM IR · mcyoung",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=7_H4qzhWbnQ",
           "title": "Back to Basics: Testing in C++ - Phil Nash - CppCon 2023",
-          "duration": "62m"
+          "duration": "62m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=3289vhOUdKA",
           "title": "Cursor AI Tutorial for Beginners [2025 Edition]",
-          "duration": "27m"
+          "duration": "27m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
           "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
-          "duration": "305m"
+          "duration": "305m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=NClmyC6olC0",
           "title": "Top Programming Languages to Learn in 2025",
-          "duration": "4m"
+          "duration": "4m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=Rgz6mX93C4Y",
           "title": "How To Use Cursor AI For Beginners",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=YbpKMIUjvK8",
-          "title": "How To Write Unit Tests in Python \u2022 Pytest Tutorial",
-          "duration": "35m"
+          "title": "How To Write Unit Tests in Python • Pytest Tutorial",
+          "duration": "35m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=SWP3k-24jT4",
           "title": "How to Build AI Chatbots: Full Guide from Beginner to Pro (Latest Update)",
-          "duration": "88m"
+          "duration": "88m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=8TcWGk1DJVs&pp=0gcJCfwAo7VqN5tD",
           "title": "Windsurf Tutorial for Beginners (AI Code Editor) - Better than Cursor??",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 9
         }
       ]
     },
@@ -217,81 +252,96 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for learning and referencing JavaScript programming language concepts and features.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://pytorch.org/docs/stable/torch.compiler.html",
           "description": "Documentation on the PyTorch Torch Compiler for optimizing model performance.",
-          "title": "torch.compiler \u2014 PyTorch 2.7 documentation"
+          "title": "torch.compiler — PyTorch 2.7 documentation",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/",
           "description": "Comprehensive documentation for all Amazon Web Services (AWS) offerings and features.",
-          "title": "Welcome to AWS Documentation"
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 3
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
           "description": "An official Microsoft resource for learning C# programming language and its applications.",
-          "title": "C# Guide - .NET managed language | Microsoft Learn"
+          "title": "C# Guide - .NET managed language | Microsoft Learn",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.linkedin.com/posts/singhsanket143_advanced-backend-development-roadmap-2025-activity-7284418888820240385-s1uD",
           "description": "An advanced roadmap for backend development skills and technologies for 2025.",
-          "title": "If you\u2019re confused about where to start with backend development, trust me, I\u2019ve been there too. | Sanket Singh"
+          "title": "If you’re confused about where to start with backend development, trust me, I’ve been there too. | Sanket Singh",
+          "resource_order": 1
         },
         {
           "url": "https://www.amazon.com/Best-Sellers-C++-Programming-Language/zgbs/books/9045760011",
           "description": "A list of the best-selling books on C++ programming language.",
-          "title": "Amazon Best Sellers: Best C++ Programming Language"
+          "title": "Amazon Best Sellers: Best C++ Programming Language",
+          "resource_order": 2
         },
         {
           "url": "https://roadmap.sh/cpp",
           "description": "An interactive roadmap for learning C++ programming.",
-          "title": "C++ Developer Roadmap"
+          "title": "C++ Developer Roadmap",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
           "title": "The Complete Backend Developer Roadmap",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw&pp=0gcJCdgAo7VqN5tD",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=_bYFu9mBnr4&pp=0gcJCfwAo7VqN5tD",
           "title": "C++ Programming All-in-One Tutorial Series (10 HOURS!)",
-          "duration": "628m"
+          "duration": "628m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
           "title": "Java Full Course for Beginners",
-          "duration": "150m"
+          "duration": "150m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
           "title": "Learn C# FREE Tutorial Course Beginner to Advanced! [2025 - 12 HOURS]",
-          "duration": "760m"
+          "duration": "760m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
           "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
-          "duration": "305m"
+          "duration": "305m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=ZxKM3DCV2kE",
           "title": "Full Course Web Development [22 Hours] | Learn Full Stack Web Development From Scratch",
-          "duration": "1308m"
+          "duration": "1308m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY",
           "title": "C# Tutorial For Beginners - Learn C# Basics in 1 Hour",
-          "duration": "70m"
+          "duration": "70m",
+          "resource_order": 8
         }
       ]
     }
@@ -307,7 +357,8 @@
           "To initialize class objects"
         ],
         "correct_option": 1,
-        "hint": "It's where the execution of a C++ program begins."
+        "hint": "It's where the execution of a C++ program begins.",
+        "question_order": 1
       },
       {
         "question": "In C++, which keyword is used to define a class?",
@@ -318,7 +369,8 @@
           "define"
         ],
         "correct_option": 2,
-        "hint": "This keyword is also the name of the programming paradigm that uses it extensively."
+        "hint": "This keyword is also the name of the programming paradigm that uses it extensively.",
+        "question_order": 2
       },
       {
         "question": "Which of the following data structures is used to implement a LIFO (Last In, First Out) mechanism?",
@@ -329,7 +381,8 @@
           "Linked List"
         ],
         "correct_option": 1,
-        "hint": "Think of a stack of plates where you can only remove the top one."
+        "hint": "Think of a stack of plates where you can only remove the top one.",
+        "question_order": 3
       },
       {
         "question": "What is the primary advantage of using multithreading in C++?",
@@ -340,7 +393,8 @@
           "Simplifies memory management"
         ],
         "correct_option": 2,
-        "hint": "It allows for tasks to be executed simultaneously."
+        "hint": "It allows for tasks to be executed simultaneously.",
+        "question_order": 4
       },
       {
         "question": "Which library in C++ is commonly used for database integration?",
@@ -351,7 +405,8 @@
           "sqlite3"
         ],
         "correct_option": 3,
-        "hint": "It's a popular lightweight library specifically for database operations."
+        "hint": "It's a popular lightweight library specifically for database operations.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -364,7 +419,8 @@
           "Pipeline"
         ],
         "correct_option": 3,
-        "hint": "Think of the feature that isn't a core concept in OOP."
+        "hint": "Think of the feature that isn't a core concept in OOP.",
+        "question_order": 1
       },
       {
         "question": "What is the primary advantage of using multithreading in C++ applications?",
@@ -375,7 +431,8 @@
           "Simplified error handling"
         ],
         "correct_option": 2,
-        "hint": "Consider what multithreading helps improve in an application."
+        "hint": "Consider what multithreading helps improve in an application.",
+        "question_order": 2
       },
       {
         "question": "In C++, which keyword is used to handle exceptions?",
@@ -386,7 +443,8 @@
           "except"
         ],
         "correct_option": 0,
-        "hint": "This keyword is used to start a block of code that may cause an exception."
+        "hint": "This keyword is used to start a block of code that may cause an exception.",
+        "question_order": 3
       },
       {
         "question": "When integrating databases in C++, which library is commonly used?",
@@ -397,7 +455,8 @@
           "Boost"
         ],
         "correct_option": 0,
-        "hint": "This library is a software library that provides a relational database management system."
+        "hint": "This library is a software library that provides a relational database management system.",
+        "question_order": 4
       },
       {
         "question": "Which of these is a common method to optimize the performance of a C++ program?",
@@ -408,7 +467,8 @@
           "Using more loops"
         ],
         "correct_option": 1,
-        "hint": "Consider techniques that reduce redundant calculations or data retrieval."
+        "hint": "Consider techniques that reduce redundant calculations or data retrieval.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -421,7 +481,8 @@
           "Abstraction"
         ],
         "correct_option": 1,
-        "hint": "This feature provides the ability to call derived class methods through base class pointers."
+        "hint": "This feature provides the ability to call derived class methods through base class pointers.",
+        "question_order": 1
       },
       {
         "question": "In C++, what is the primary advantage of using a smart pointer over a raw pointer?",
@@ -432,7 +493,8 @@
           "Increased execution speed"
         ],
         "correct_option": 2,
-        "hint": "This feature helps in preventing memory leaks by automatically deallocating memory when it's no longer needed."
+        "hint": "This feature helps in preventing memory leaks by automatically deallocating memory when it's no longer needed.",
+        "question_order": 2
       },
       {
         "question": "What is the primary role of a mutex in multithreading in C++?",
@@ -443,7 +505,8 @@
           "Speeding up thread execution"
         ],
         "correct_option": 1,
-        "hint": "This mechanism is crucial for preventing data races when multiple threads access shared data."
+        "hint": "This mechanism is crucial for preventing data races when multiple threads access shared data.",
+        "question_order": 3
       },
       {
         "question": "How does C++ ensure type safety and prevent data corruption when dealing with multiple data types?",
@@ -454,7 +517,8 @@
           "Using dynamic typing"
         ],
         "correct_option": 0,
-        "hint": "This feature allows functions and classes to operate with generic types."
+        "hint": "This feature allows functions and classes to operate with generic types.",
+        "question_order": 4
       },
       {
         "question": "Which C++ library is commonly used for database integration, specifically to interact with SQL databases?",
@@ -465,7 +529,8 @@
           "libmysqlclient"
         ],
         "correct_option": 2,
-        "hint": "This library provides an object-relational mapping (ORM) framework for C++."
+        "hint": "This library provides an object-relational mapping (ORM) framework for C++.",
+        "question_order": 5
       }
     ]
   },

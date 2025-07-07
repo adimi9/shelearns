@@ -26,106 +26,126 @@
         {
           "url": "https://trpc.io/",
           "description": "A framework for building end-to-end typesafe APIs with TypeScript.",
-          "title": "tRPC - Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | tRPC"
+          "title": "tRPC - Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | tRPC",
+          "resource_order": 1
         },
         {
           "url": "https://www.thisdot.co/blog/exploring-trpc-with-server-first-ui-frameworks",
           "description": "An exploration of using tRPC with server-first UI frameworks for efficient web development.",
-          "title": "Exploring tRPC with Server-first UI Frameworks - This Dot Labs"
+          "title": "Exploring tRPC with Server-first UI Frameworks - This Dot Labs",
+          "resource_order": 2
         },
         {
           "url": "https://trpc.io/docs/server/routers",
           "description": "An overview of setting up and using routers in tRPC server applications.",
-          "title": "Define Routers | tRPC"
+          "title": "Define Routers | tRPC",
+          "resource_order": 3
         },
         {
           "url": "https://graphql.org/",
           "description": "The official documentation and resources for GraphQL, a query language for APIs.",
-          "title": "GraphQL | A query language for your API"
+          "title": "GraphQL | A query language for your API",
+          "resource_order": 4
         },
         {
           "url": "https://news.ycombinator.com/item?id=40521518",
           "description": "Discussion on Hacker News about the impact of AI on software development.",
-          "title": "After 6 years, I'm over GraphQL | Hacker News"
+          "title": "After 6 years, I'm over GraphQL | Hacker News",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://trpc.io/",
           "description": "An overview of tRPC, a TypeScript library for building type-safe APIs.",
-          "title": "tRPC - Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | tRPC"
+          "title": "tRPC - Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | tRPC",
+          "resource_order": 1
         },
         {
           "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
           "description": "A guide on how to become a full-stack developer and secure a job in the field.",
-          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) \u2013 A Handbook for Beginners"
+          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners",
+          "resource_order": 2
         },
         {
           "url": "https://www.robinwieruch.de/react-trpc/",
           "description": "An introduction to integrating tRPC with React for building type-safe APIs.",
-          "title": "Full-Stack TypeScript with tRPC and React"
+          "title": "Full-Stack TypeScript with tRPC and React",
+          "resource_order": 3
         },
         {
           "url": "https://github.com/Sairyss/backend-best-practices",
           "description": "A curated list of best practices for backend development.",
-          "title": "GitHub - Sairyss/backend-best-practices: Best practices, tools and guidelines for backend development. Code examples in TypeScript + NodeJS"
+          "title": "GitHub - Sairyss/backend-best-practices: Best practices, tools and guidelines for backend development. Code examples in TypeScript + NodeJS",
+          "resource_order": 4
         },
         {
           "url": "https://www.wisp.blog/blog/setting-up-trpc-with-nextjs-14",
           "description": "A step-by-step guide to integrating tRPC with Next.js 14 for efficient API development.",
-          "title": "Setting up tRPC with Next.js 14 - Wisp CMS"
+          "title": "Setting up tRPC with Next.js 14 - Wisp CMS",
+          "resource_order": 5
         },
         {
           "url": "https://www.linkedin.com/posts/singhsanket143_backend-development-in-node-activity-7285143672323522560-DIl0",
           "description": "An overview of backend development using Node.js shared on LinkedIn.",
-          "title": "\ud83d\ude80 After the phenomenal success of our recent Algocamp courses, we are beyond excited to introduce the launch of our \u201cLambda 4.0 | Ultimate Backend, Cloud & Devops Course\u201d \ud83c\udf89 | Sanket Singh"
+          "title": "🚀 After the phenomenal success of our recent Algocamp courses, we are beyond excited to introduce the launch of our “Lambda 4.0 | Ultimate Backend, Cloud & Devops Course” 🎉 | Sanket Singh",
+          "resource_order": 6
         },
         {
           "url": "https://stackoverflow.com/questions/50432556/cannot-use-jsx-unless-the-jsx-flag-is-provided",
           "description": "A solution for resolving JSX usage errors in TypeScript by configuring the JSX flag.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=S3k82XXCrBo",
           "title": "Full Stack Tutorial - [Next.js, TRPC, T3, Typescript, Prisma, Tailwind, Zod]",
-          "duration": "64m"
+          "duration": "64m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=UfUbBWIFdJs",
           "title": "Learn tRPC In 45 Minutes",
-          "duration": "45m"
+          "duration": "45m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=sxzPXo_eqY0",
           "title": "How Setting Up Workspaces Boosts React TypeScript App Workflow with Fullstack Developer, Kristian",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=SSo-z16wEnc",
           "title": "What Is A Backend For A Frontend (BFF) Architecture Pattern",
-          "duration": "6m"
+          "duration": "6m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=NPMc7gMKWsU",
           "title": "AWS On Air ft. Real-time APIs and data for full-stack apps with AWS Amplify & AWS CDK",
-          "duration": "42m"
+          "duration": "42m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=QXxy8Uv1LnQ",
           "title": "Prisma in Next.js - My Fav Way to Work with Databases (CRUD, Dev/Prod Workflow, Relations, Indexes)",
-          "duration": "73m"
+          "duration": "73m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=1n7slbDB1bQ",
           "title": "Next.js Data Fetching, Dynamic Routes & Metadata | Nextjs 13",
-          "duration": "43m"
+          "duration": "43m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=moAQiDvzCwY",
           "title": "Lets build an AI powered SAAS with Nextjs and Cloudinary",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 8
         }
       ]
     },
@@ -134,106 +154,126 @@
         {
           "url": "https://trpc.io/docs/server/routers",
           "description": "Documentation on setting up and using routers in tRPC servers.",
-          "title": "Define Routers | tRPC"
+          "title": "Define Routers | tRPC",
+          "resource_order": 1
         },
         {
           "url": "https://www.thisdot.co/blog/exploring-trpc-with-server-first-ui-frameworks",
           "description": "An exploration of using tRPC with server-first UI frameworks for efficient web development.",
-          "title": "Exploring tRPC with Server-first UI Frameworks - This Dot Labs"
+          "title": "Exploring tRPC with Server-first UI Frameworks - This Dot Labs",
+          "resource_order": 2
         },
         {
           "url": "https://news.ycombinator.com/item?id=40521518",
           "description": "A Hacker News discussion on the implications of AI advancements on various industries.",
-          "title": "After 6 years, I'm over GraphQL | Hacker News"
+          "title": "After 6 years, I'm over GraphQL | Hacker News",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.wallarm.com/what/trpc-protocol",
           "description": "An overview of the tRPC protocol and its use in building type-safe APIs.",
-          "title": "What Is tRPC protocol? Comparison with GraphQL and gRPC"
+          "title": "What Is tRPC protocol? Comparison with GraphQL and gRPC",
+          "resource_order": 1
         },
         {
           "url": "https://news.ycombinator.com/item?id=40521518",
           "description": "Discussion on Hacker News about the challenges and solutions for managing large-scale data systems.",
-          "title": "After 6 years, I'm over GraphQL | Hacker News"
+          "title": "After 6 years, I'm over GraphQL | Hacker News",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/Sairyss/backend-best-practices",
           "description": "A curated list of best practices for building scalable and maintainable backend systems.",
-          "title": "GitHub - Sairyss/backend-best-practices: Best practices, tools and guidelines for backend development. Code examples in TypeScript + NodeJS"
+          "title": "GitHub - Sairyss/backend-best-practices: Best practices, tools and guidelines for backend development. Code examples in TypeScript + NodeJS",
+          "resource_order": 3
         },
         {
           "url": "https://news.ycombinator.com/item?id=41979203",
           "description": "A Hacker News discussion on the latest advancements in quantum computing.",
-          "title": "How I write code using Cursor | Hacker News"
+          "title": "How I write code using Cursor | Hacker News",
+          "resource_order": 4
         },
         {
           "url": "https://michaeluloth.com/nextjs/",
           "description": "A detailed tutorial on building and deploying applications using Next.js.",
-          "title": "Next.js \u2022 Michael Uloth"
+          "title": "Next.js • Michael Uloth",
+          "resource_order": 5
         },
         {
           "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
           "description": "A comprehensive guide to becoming a full-stack developer and securing a job in the field.",
-          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) \u2013 A Handbook for Beginners"
+          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners",
+          "resource_order": 6
         },
         {
           "url": "https://stackoverflow.com/questions/70541068/instead-change-the-require-of-index-js-to-a-dynamic-import-which-is-available",
           "description": "Explanation on converting Node.js require statements to dynamic imports.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=SG82Aqcaaa0",
           "title": "Build a Complete E-Commerce Shop with Next.js 14, Tailwind, React | Full Course 2024",
-          "duration": "720m"
+          "duration": "720m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=sxzPXo_eqY0",
           "title": "How Setting Up Workspaces Boosts React TypeScript App Workflow with Fullstack Developer, Kristian",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=cgaBhA2qt7E",
           "title": "REST, gRPC, or GraphQL: Which Should You Use?",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=XBkfmulYy8c",
           "title": "How to Ensure Formatting Consistency with Prettier and ESLint with Fullstack Developer, Kristian",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=pOQguIkDp5w",
           "title": "The Power of AbortController in JavaScript",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=-kNjEoWk2TQ",
           "title": "Angular & PrimeNg #10 - Creating Folders",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=NwneaxZFPDo",
           "title": "Turbocharge Your Data: Harnessing Kotlin and gRPC to Handle Real-Time Data From Connected Cars",
-          "duration": "39m"
+          "duration": "39m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=5kBI1LadXVA",
           "title": "[Frontend System Design] Client-Server API. Part 1 | REST",
-          "duration": "25m"
+          "duration": "25m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=dsIuRKBlnqM",
           "title": "Next.js 13 Data Fetching, Dynamic Routes - Complete Guide",
-          "duration": "38m"
+          "duration": "38m",
+          "resource_order": 9
         },
         {
           "url": "https://www.youtube.com/watch?v=RvyCAdDmFaw",
           "title": "5 Amazing Open-Source React Projects to Learn From",
-          "duration": "6m"
+          "duration": "6m",
+          "resource_order": 10
         }
       ]
     },
@@ -242,101 +282,120 @@
         {
           "url": "https://www.thisdot.co/blog/exploring-trpc-with-server-first-ui-frameworks",
           "description": "An exploration of using tRPC with server-first UI frameworks for efficient web development.",
-          "title": "Exploring tRPC with Server-first UI Frameworks - This Dot Labs"
+          "title": "Exploring tRPC with Server-first UI Frameworks - This Dot Labs",
+          "resource_order": 1
         },
         {
           "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
           "description": "A guide on becoming a full-stack developer and securing a job in the field.",
-          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) \u2013 A Handbook for Beginners"
+          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners",
+          "resource_order": 2
         },
         {
           "url": "https://clerk.com/docs/how-clerk-works/overview",
           "description": "An overview of how Clerk integrates authentication and user management into applications.",
-          "title": "How Clerk works"
+          "title": "How Clerk works",
+          "resource_order": 3
         },
         {
           "url": "https://www.wallarm.com/what/trpc-protocol",
           "description": "An overview of the tRPC protocol and its use in building type-safe APIs.",
-          "title": "What Is tRPC protocol? Comparison with GraphQL and gRPC"
+          "title": "What Is tRPC protocol? Comparison with GraphQL and gRPC",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
           "description": "A guide on how to become a full-stack developer and secure a job in the field.",
-          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) \u2013 A Handbook for Beginners"
+          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners",
+          "resource_order": 1
         },
         {
           "url": "https://codedamn.com/learning-path/backend",
           "description": "A structured learning path for mastering backend development skills.",
-          "title": "Backend Web Developer Learning Path - codedamn"
+          "title": "Backend Web Developer Learning Path - codedamn",
+          "resource_order": 2
         },
         {
           "url": "https://www.wallarm.com/what/trpc-protocol",
           "description": "An overview of the tRPC protocol and its role in simplifying remote procedure calls in web applications.",
-          "title": "What Is tRPC protocol? Comparison with GraphQL and gRPC"
+          "title": "What Is tRPC protocol? Comparison with GraphQL and gRPC",
+          "resource_order": 3
         },
         {
           "url": "https://refine.dev/blog/zustand-react-state/",
           "description": "An in-depth tutorial on managing state in React applications using Zustand.",
-          "title": "How to use Zustand | Refine"
+          "title": "How to use Zustand | Refine",
+          "resource_order": 4
         },
         {
           "url": "https://news.ycombinator.com/item?id=41979203",
           "description": "Discussion on Hacker News about a notable technology event or announcement.",
-          "title": "How I write code using Cursor | Hacker News"
+          "title": "How I write code using Cursor | Hacker News",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=bH87ZUYp1GU",
           "title": "Build a Full-Stack Todo App with Turborepo, tRPC, Next.js, NestJS & React Native",
-          "duration": "98m"
+          "duration": "98m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=sxzPXo_eqY0",
           "title": "How Setting Up Workspaces Boosts React TypeScript App Workflow with Fullstack Developer, Kristian",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=MBlZ8Wzkbi4",
           "title": "Modern Data Fetching in React (Complete Guide)",
-          "duration": "16m"
+          "duration": "16m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=-5RTyEim384",
           "title": "How to use Redis Caching for Incredible Performance",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=XBkfmulYy8c",
           "title": "How to Ensure Formatting Consistency with Prettier and ESLint with Fullstack Developer, Kristian",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=wm5gMKuwSYk",
           "title": "Next.js Full Course 2024 | Build and Deploy a Full Stack App Using the Official React Framework",
-          "duration": "206m"
+          "duration": "206m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=dsIuRKBlnqM",
           "title": "Next.js 13 Data Fetching, Dynamic Routes - Complete Guide",
-          "duration": "38m"
+          "duration": "38m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=T49rxi1tQpE",
           "title": "\"Mastering GraphQL with NestJS: Building a High-Performance API\"",
-          "duration": "177m"
+          "duration": "177m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=e4yC0A0QU2E",
           "title": "Master Next.js Security: Integrate Clerk Authentication & Supabase Database Step-by-Step",
-          "duration": "37m"
+          "duration": "37m",
+          "resource_order": 9
         },
         {
           "url": "https://www.youtube.com/watch?v=BiDg-kx04J8",
           "title": "Mastering Next.js 14: Adding Search and Pagination | Part Nine",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 10
         }
       ]
     }
@@ -352,7 +411,8 @@
           "Transfer Remote Procedure Calls"
         ],
         "correct_option": 2,
-        "hint": "tRPC is focused on type safety and is related to Remote Procedure Calls."
+        "hint": "tRPC is focused on type safety and is related to Remote Procedure Calls.",
+        "question_order": 1
       },
       {
         "question": "Which language is primarily used to set up a tRPC project?",
@@ -363,7 +423,8 @@
           "TypeScript"
         ],
         "correct_option": 3,
-        "hint": "The language focuses on type safety and is a superset of JavaScript."
+        "hint": "The language focuses on type safety and is a superset of JavaScript.",
+        "question_order": 2
       },
       {
         "question": "What is the main purpose of a Remote Procedure Call (RPC)?",
@@ -374,7 +435,8 @@
           "To compile code into machine language"
         ],
         "correct_option": 2,
-        "hint": "RPC allows a program to cause a procedure to execute in another address space."
+        "hint": "RPC allows a program to cause a procedure to execute in another address space.",
+        "question_order": 3
       },
       {
         "question": "How can errors be handled in a tRPC application?",
@@ -385,7 +447,8 @@
           "By restarting the server"
         ],
         "correct_option": 0,
-        "hint": "tRPC allows you to handle errors in a structured way using middleware."
+        "hint": "tRPC allows you to handle errors in a structured way using middleware.",
+        "question_order": 4
       },
       {
         "question": "What is a common pattern for deploying tRPC applications?",
@@ -396,7 +459,8 @@
           "Deploying on a blockchain"
         ],
         "correct_option": 1,
-        "hint": "This pattern involves cloud providers and can scale automatically."
+        "hint": "This pattern involves cloud providers and can scale automatically.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -409,7 +473,8 @@
           "To manage database connections"
         ],
         "correct_option": 0,
-        "hint": "Remote procedure calls allow functions to be executed on a different machine or server."
+        "hint": "Remote procedure calls allow functions to be executed on a different machine or server.",
+        "question_order": 1
       },
       {
         "question": "What is the first step in setting up a TypeScript project for tRPC development?",
@@ -420,7 +485,8 @@
           "Write the first API endpoint"
         ],
         "correct_option": 2,
-        "hint": "The project setup usually begins with initializing the project configuration."
+        "hint": "The project setup usually begins with initializing the project configuration.",
+        "question_order": 2
       },
       {
         "question": "Which of the following is NOT a responsibility of tRPC middleware?",
@@ -431,7 +497,8 @@
           "Transforming request data"
         ],
         "correct_option": 2,
-        "hint": "Middleware functions are typically used for processing requests and responses, not for code compilation."
+        "hint": "Middleware functions are typically used for processing requests and responses, not for code compilation.",
+        "question_order": 3
       },
       {
         "question": "When building a simple tRPC API, what is a common method for handling client requests?",
@@ -442,7 +509,8 @@
           "Using WebSockets exclusively"
         ],
         "correct_option": 0,
-        "hint": "tRPC typically communicates with clients using a protocol that is simple and stateless."
+        "hint": "tRPC typically communicates with clients using a protocol that is simple and stateless.",
+        "question_order": 4
       },
       {
         "question": "What is a potential drawback of improper error handling in a tRPC application?",
@@ -453,7 +521,8 @@
           "Faster response times"
         ],
         "correct_option": 2,
-        "hint": "Improper error handling can expose details about the server or application."
+        "hint": "Improper error handling can expose details about the server or application.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -466,7 +535,8 @@
           "tRPC does not require any server-side setup, unlike REST."
         ],
         "correct_option": 0,
-        "hint": "Consider the benefits of type safety and reduced boilerplate code in API development."
+        "hint": "Consider the benefits of type safety and reduced boilerplate code in API development.",
+        "question_order": 1
       },
       {
         "question": "Which of the following steps is essential for setting up a TypeScript project for tRPC?",
@@ -477,7 +547,8 @@
           "Setting up a GraphQL server for queries"
         ],
         "correct_option": 2,
-        "hint": "Focus on the packages needed specifically for tRPC."
+        "hint": "Focus on the packages needed specifically for tRPC.",
+        "question_order": 2
       },
       {
         "question": "When building a simple tRPC API, what role does the 'router' play?",
@@ -488,7 +559,8 @@
           "It sets up middleware for error handling."
         ],
         "correct_option": 1,
-        "hint": "Consider how the router is involved in defining the API's structure."
+        "hint": "Consider how the router is involved in defining the API's structure.",
+        "question_order": 3
       },
       {
         "question": "In tRPC, how can you handle errors consistently across different procedures?",
@@ -499,7 +571,8 @@
           "Rely on the default error handling provided by tRPC."
         ],
         "correct_option": 1,
-        "hint": "Think about reusable solutions that can be applied across procedures."
+        "hint": "Think about reusable solutions that can be applied across procedures.",
+        "question_order": 4
       },
       {
         "question": "Which advanced concept in tRPC allows you to share code between client and server?",
@@ -510,7 +583,8 @@
           "Code inference"
         ],
         "correct_option": 3,
-        "hint": "Consider how tRPC leverages TypeScript's features to maintain type safety across client and server."
+        "hint": "Consider how tRPC leverages TypeScript's features to maintain type safety across client and server.",
+        "question_order": 5
       }
     ]
   },

@@ -1,5 +1,7 @@
 package com.learningplatform.backend.features.onboarding.dto.request;
 
+import java.util.List;
+
 public class OnboardingRequestDto {
     private String qn1;
     private String ans1;
@@ -8,7 +10,8 @@ public class OnboardingRequestDto {
     private String qn3;
     private String ans3;
     private String qn4;
-    private String ans4;
+    private List<String> ans4;
+
 
     public String getQn1() {
         return qn1;
@@ -66,11 +69,11 @@ public class OnboardingRequestDto {
         this.qn4 = qn4;
     }
 
-    public String getAns4() {
+    public List<String> getAns4() {
         return ans4;
     }
 
-    public void setAns4(String ans4) {
+    public void setAns4(List<String> ans4) {
         this.ans4 = ans4;
     }
 }

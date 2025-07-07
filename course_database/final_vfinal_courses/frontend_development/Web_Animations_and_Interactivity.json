@@ -20,81 +20,96 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
           "description": "An extensive reference and guide for CSS web styling standards and practices.",
-          "title": "CSS: Cascading Style Sheets | MDN"
+          "title": "CSS: Cascading Style Sheets | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://plotly.com/python/",
           "description": "An extensive guide to creating interactive plots with Plotly in Python.",
-          "title": "Plotly Python Graphing Library"
+          "title": "Plotly Python Graphing Library",
+          "resource_order": 2
         },
         {
           "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-6-documentation",
           "description": "Comprehensive documentation for Unreal Engine 5.6, covering features, tools, and workflows.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations",
           "description": "A tutorial on creating basic animations using the Canvas API.",
-          "title": "Basic animations - Web APIs | MDN"
+          "title": "Basic animations - Web APIs | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://learngitbranching.js.org/",
           "description": "An interactive tutorial for mastering Git branching and merging.",
-          "title": "Learn Git Branching"
+          "title": "Learn Git Branching",
+          "resource_order": 2
         },
         {
           "url": "https://www.joshwcomeau.com/animation/keyframe-animations/",
           "description": "An in-depth tutorial on creating keyframe animations in CSS.",
-          "title": "An Interactive Guide to CSS Keyframe Animations with @keyframes \u2022 Josh W. Comeau"
+          "title": "An Interactive Guide to CSS Keyframe Animations with @keyframes • Josh W. Comeau",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=N3zGbAwL10U",
           "title": "Rive Tutorial for Beginners - Interactive Animation in 25 Minutes!",
-          "duration": "25m"
+          "duration": "25m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=RWwfriljGeg",
           "title": "Rive Tutorial For Beginners (FULL PROJECT)",
-          "duration": "37m"
+          "duration": "37m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=2oJT_CXLeGw&pp=0gcJCf0Ao7VqN5tD",
           "title": "How to Make INTERACTIVE Google Slides (All the Basics & Then Some!)",
-          "duration": "53m"
+          "duration": "53m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=-L_MwLVYWDs",
           "title": "UI Animation, Motion Design & Micro Interaction Basics",
-          "duration": "33m"
+          "duration": "33m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=thplNeqE9Tg",
           "title": "Figma Smart Animate for Beginners (2022 Tutorial)",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=02fO4qVnbc0",
           "title": "Figma for Education: Animation basics in Figma",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=Pm8rJhO1o_g",
           "title": "Adobe Edge Animate Interactive Rollover Web Buttons Tutorial",
-          "duration": "3m"
+          "duration": "3m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=AZUj_IEoKiM",
           "title": "Figma Interactive Prototype Tutorial | UI Design Tutorial For Beginners (Smart-Animation)",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=LvGDdNdzNGA",
           "title": "Make Your Animations INTERACTIVE with Rive",
-          "duration": "40m"
+          "duration": "40m",
+          "resource_order": 9
         }
       ]
     },
@@ -103,90 +118,107 @@
         {
           "url": "https://docs.mapbox.com/mapbox-gl-js/guides/",
           "description": "A guide to using Mapbox GL JS for interactive maps and data visualization.",
-          "title": "Mapbox GL JS | Mapbox"
+          "title": "Mapbox GL JS | Mapbox",
+          "resource_order": 1
         },
         {
           "url": "https://helpx.adobe.com/animate/using/custom-platform-support-api-reference.html",
-          "description": "API reference guide for custom platform support in Adobe Animate."
+          "description": "API reference guide for custom platform support in Adobe Animate.",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/WordPress/gutenberg/discussions/55642",
           "description": "A discussion on the WordPress Gutenberg GitHub repository regarding the integration of new features or changes.",
-          "title": "Interactivity API showcase \u00b7 WordPress/gutenberg \u00b7 Discussion #55642 \u00b7 GitHub"
+          "title": "Interactivity API showcase · WordPress/gutenberg · Discussion #55642 · GitHub",
+          "resource_order": 3
         },
         {
           "url": "https://matplotlib.org/",
           "description": "Official documentation for Matplotlib, a plotting library for Python.",
-          "title": "Matplotlib \u2014 Visualization with Python"
+          "title": "Matplotlib — Visualization with Python",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.svgator.com/blog/what-is-svg-interactivity/",
           "description": "An informative overview of SVG interactivity and its applications in web design.",
-          "title": "What You Should Know About SVG Interactivity"
+          "title": "What You Should Know About SVG Interactivity",
+          "resource_order": 1
         },
         {
           "url": "https://help.figma.com/hc/en-us/articles/20953528101783-Design-an-interactive-button",
           "description": "A guide on designing interactive buttons in Figma, including setup and customization tips.",
-          "title": "Design an interactive button \u2013 Figma Learn - Help Center"
+          "title": "Design an interactive button – Figma Learn - Help Center",
+          "resource_order": 2
         },
         {
           "url": "https://embedpress.com/blog/create-interactive-animations-in-elementor/",
           "description": "A guide to creating interactive animations using Elementor.",
-          "title": "How to Create Interactive Animations in Elementor Website without Coding - EmbedPress"
+          "title": "How to Create Interactive Animations in Elementor Website without Coding - EmbedPress",
+          "resource_order": 3
         },
         {
           "url": "https://help.figma.com/hc/en-us/articles/360040315773-Connect-your-prototype",
           "description": "Instructions for connecting and sharing prototypes in Figma.",
-          "title": "Connect your prototype \u2013 Figma Learn - Help Center"
+          "title": "Connect your prototype – Figma Learn - Help Center",
+          "resource_order": 4
         },
         {
           "url": "https://www.figma.com/prototyping/",
           "description": "An overview of prototyping features and tools available in Figma for creating interactive designs.",
-          "title": "Free Prototyping Tool: Build Interactive Prototype Designs | Figma"
+          "title": "Free Prototyping Tool: Build Interactive Prototype Designs | Figma",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=slagKVc3b5U&pp=ygUNI3RpbGRhZXhwZXJ0cw%3D%3D",
           "title": "Web Animation Tutorial On Tilda",
-          "duration": "63m"
+          "duration": "63m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=O6o5AtU2p10&pp=0gcJCfwAo7VqN5tD",
           "title": "Complete Guide to UI Animation and Tools!",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=02fO4qVnbc0",
           "title": "Figma for Education: Animation basics in Figma",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=SN3t8qiTa2Q&pp=0gcJCfwAo7VqN5tD",
           "title": "Create STUNNING Interactive Presentations!! | Figma Tutorial",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=WCRbc0K15-E",
           "title": "Mobile App UI Interaction Design/Animation Tutorial in After Effects CC 2018!",
-          "duration": "30m"
+          "duration": "30m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=Uu35wS8iDJ8",
           "title": "Production Pipelines for Interactive Platforms",
-          "duration": "43m"
+          "duration": "43m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=wBJZQt23J7M",
           "title": "15 INSANE Use Cases for NEW Claude Sonnet 3.5! (Outperforms GPT-4o)",
-          "duration": "28m"
+          "duration": "28m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=U0Jd5-eStu4",
           "title": "Rive and the future of interactive design",
-          "duration": "94m"
+          "duration": "94m",
+          "resource_order": 8
         }
       ]
     },
@@ -195,76 +227,90 @@
         {
           "url": "https://learn.microsoft.com/en-us/",
           "description": "A central hub for Microsoft's official documentation and learning resources.",
-          "title": "Microsoft Learn: Build skills that open doors in your career"
+          "title": "Microsoft Learn: Build skills that open doors in your career",
+          "resource_order": 1
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
           "description": "An extensive resource for learning and referencing CSS web development techniques and standards.",
-          "title": "CSS: Cascading Style Sheets | MDN"
+          "title": "CSS: Cascading Style Sheets | MDN",
+          "resource_order": 2
         },
         {
           "url": "https://d2l.ai/",
           "description": "An interactive deep learning book with code, math, and discussions for hands-on learning.",
-          "title": "Dive into Deep Learning \u2014 Dive into Deep Learning 1.0.3 documentation"
+          "title": "Dive into Deep Learning — Dive into Deep Learning 1.0.3 documentation",
+          "resource_order": 3
         },
         {
           "url": "https://developer.wordpress.org/block-editor/reference-guides/interactivity-api/",
           "description": "An in-depth reference guide to the WordPress Block Editor's Interactivity API.",
-          "title": "Interactivity API Reference \u2013 Block Editor Handbook | Developer.WordPress.org"
+          "title": "Interactivity API Reference – Block Editor Handbook | Developer.WordPress.org",
+          "resource_order": 4
         },
         {
           "url": "https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma",
           "description": "A detailed guide on creating interactive prototypes using Figma.",
-          "title": "Guide to prototyping in Figma \u2013 Figma Learn - Help Center"
+          "title": "Guide to prototyping in Figma – Figma Learn - Help Center",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.linkedin.com/pulse/dive-rive-introductory-guide-first-timers-mayte-cg-h6brf",
           "description": "An introductory guide to Rive for first-time users.",
-          "title": "Dive into Rive: An Introductory Guide for First-Timers"
+          "title": "Dive into Rive: An Introductory Guide for First-Timers",
+          "resource_order": 1
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=iVj4H2qYTWA",
           "title": "The Ultimate Blender Animation Guide (Beginner to Advanced)",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=UUsysuFmVrA",
           "title": "Figma for Edu: Prototyping 101, new basics",
-          "duration": "63m"
+          "duration": "63m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=tlXHPg411zI",
           "title": "Shopify Store Design Tutorial 2024 - Full Website Guide",
-          "duration": "83m"
+          "duration": "83m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=uCH1ta5OUHw",
           "title": "HTML Canvas DEEP DIVE",
-          "duration": "49m"
+          "duration": "49m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=_r8NlCk13-s",
           "title": "Epic Webflow Website Deep Dive (Awesome Animations Explained)",
-          "duration": "20m"
+          "duration": "20m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=0RJg1gV5zfQ",
           "title": "Advanced Webflow Website Breakdown: Flux Academy",
-          "duration": "22m"
+          "duration": "22m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=CNQ_N7Pvyag",
           "title": "Figma for Education: Prototyping with Figma 101",
-          "duration": "63m"
+          "duration": "63m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=1Hp3RFL-YVk",
           "title": "Easily Build ADVANCED & INTERACTIVE Mobile App Prototypes | ProtoPie Tutorial",
-          "duration": "32m"
+          "duration": "32m",
+          "resource_order": 8
         }
       ]
     }
@@ -280,7 +326,8 @@
           "To manage database interactions"
         ],
         "correct_option": 1,
-        "hint": "CSS Transitions are used to animate property changes smoothly."
+        "hint": "CSS Transitions are used to animate property changes smoothly.",
+        "question_order": 1
       },
       {
         "question": "Which CSS property is essential for creating a transition effect?",
@@ -291,7 +338,8 @@
           "overflow"
         ],
         "correct_option": 1,
-        "hint": "This property specifies the duration and timing of the transition."
+        "hint": "This property specifies the duration and timing of the transition.",
+        "question_order": 2
       },
       {
         "question": "In JavaScript animations, which method is commonly used to perform animations?",
@@ -302,7 +350,8 @@
           "clearInterval"
         ],
         "correct_option": 2,
-        "hint": "This method is optimized for animations and provides better performance."
+        "hint": "This method is optimized for animations and provides better performance.",
+        "question_order": 3
       },
       {
         "question": "What does GSAP stand for in the context of web animations?",
@@ -313,7 +362,8 @@
           "Graphical Style Adjustment Procedure"
         ],
         "correct_option": 2,
-        "hint": "GSAP is a powerful animation library primarily used in web development."
+        "hint": "GSAP is a powerful animation library primarily used in web development.",
+        "question_order": 4
       },
       {
         "question": "Which of the following is a feature of Framer Motion?",
@@ -324,7 +374,8 @@
           "Primarily used for backend development"
         ],
         "correct_option": 2,
-        "hint": "Framer Motion is known for its React-based animation capabilities."
+        "hint": "Framer Motion is known for its React-based animation capabilities.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -337,7 +388,8 @@
           "To manipulate the Document Object Model (DOM)"
         ],
         "correct_option": 0,
-        "hint": "Think about how CSS Transitions affect property changes."
+        "hint": "Think about how CSS Transitions affect property changes.",
+        "question_order": 1
       },
       {
         "question": "Which JavaScript method is commonly used to create animations by repeatedly calling a function at a specified interval?",
@@ -348,7 +400,8 @@
           "animate()"
         ],
         "correct_option": 2,
-        "hint": "This method is more efficient and synchronizes with the display refresh rate."
+        "hint": "This method is more efficient and synchronizes with the display refresh rate.",
+        "question_order": 2
       },
       {
         "question": "In GSAP, which method is used to create a timeline that allows sequencing of multiple animations?",
@@ -359,7 +412,8 @@
           "gsap.sequence()"
         ],
         "correct_option": 2,
-        "hint": "Look for a term that implies a series of events or animations."
+        "hint": "Look for a term that implies a series of events or animations.",
+        "question_order": 3
       },
       {
         "question": "What does the 'scale' transform function do to an element in CSS?",
@@ -370,7 +424,8 @@
           "Skews the element"
         ],
         "correct_option": 1,
-        "hint": "Consider how 'scale' affects dimensions."
+        "hint": "Consider how 'scale' affects dimensions.",
+        "question_order": 4
       },
       {
         "question": "Which property is essential for triggering CSS transitions when changing transform properties?",
@@ -381,7 +436,8 @@
           "transition-duration"
         ],
         "correct_option": 2,
-        "hint": "This property specifies which CSS properties have transitions applied."
+        "hint": "This property specifies which CSS properties have transitions applied.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -394,7 +450,8 @@
           "transition-speed"
         ],
         "correct_option": 0,
-        "hint": "The property name includes the word 'duration'."
+        "hint": "The property name includes the word 'duration'.",
+        "question_order": 1
       },
       {
         "question": "When creating animations in JavaScript, which method would you use to execute a function repeatedly at a set frame rate?",
@@ -405,7 +462,8 @@
           "loop"
         ],
         "correct_option": 2,
-        "hint": "This method is specifically designed for animations and provides better performance."
+        "hint": "This method is specifically designed for animations and provides better performance.",
+        "question_order": 2
       },
       {
         "question": "In the GreenSock Animation Platform (GSAP), what is the main method used to create timeline-based animations?",
@@ -416,7 +474,8 @@
           "gsap.create"
         ],
         "correct_option": 0,
-        "hint": "It starts with 'gsap.' and is followed by a word that describes a sequence of events."
+        "hint": "It starts with 'gsap.' and is followed by a word that describes a sequence of events.",
+        "question_order": 3
       },
       {
         "question": "Which property in CSS is used to create a smooth transition when an element changes from one state to another?",
@@ -427,7 +486,8 @@
           "keyframes"
         ],
         "correct_option": 1,
-        "hint": "This property is directly related to changing states smoothly."
+        "hint": "This property is directly related to changing states smoothly.",
+        "question_order": 4
       },
       {
         "question": "What is a key advantage of using Framer Motion for animations in React applications?",
@@ -438,7 +498,8 @@
           "Offers server-side rendering"
         ],
         "correct_option": 1,
-        "hint": "Framer Motion is known for its ability to create natural-looking animations."
+        "hint": "Framer Motion is known for its ability to create natural-looking animations.",
+        "question_order": 5
       }
     ]
   }

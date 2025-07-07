@@ -20,27 +20,32 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for learning and mastering JavaScript, including tutorials, references, and guides.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://javascript.info/",
           "description": "An extensive tutorial covering all aspects of modern JavaScript programming.",
-          "title": "The Modern JavaScript Tutorial"
+          "title": "The Modern JavaScript Tutorial",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes",
           "description": "Detailed documentation on using classes in JavaScript, including syntax and examples.",
-          "title": "Classes - JavaScript | MDN"
+          "title": "Classes - JavaScript | MDN",
+          "resource_order": 3
         },
         {
           "url": "https://docraptor.com/documentation/article/3778430-using-modern-javascript-es6-ecmascript-2015-with-docraptor",
           "description": "A guide on using modern JavaScript ES6 features with DocRaptor for document generation.",
-          "title": "Using Modern JavaScript (ES6 / ECMAScript 2015+) with DocRaptor Documentation - DocRaptor HTML to PDF Converter"
+          "title": "Using Modern JavaScript (ES6 / ECMAScript 2015+) with DocRaptor Documentation - DocRaptor HTML to PDF Converter",
+          "resource_order": 4
         },
         {
           "url": "https://www.w3schools.com/js/js_es6.asp",
           "description": "An introductory guide to the features and syntax of JavaScript ES6.",
-          "title": "JavaScript 2015 (ES6)"
+          "title": "JavaScript 2015 (ES6)",
+          "resource_order": 5
         }
       ],
       "notes": [],
@@ -48,37 +53,44 @@
         {
           "url": "https://www.youtube.com/watch?v=NCwa_xi0Uuc",
           "title": "ES6 Tutorial: Learn Modern JavaScript in 1 Hour",
-          "duration": "50m"
+          "duration": "50m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=Ks0Z_qP2WEk",
           "title": "Learn JavaScript (ES6+) in 30 Minutes",
-          "duration": "30m"
+          "duration": "30m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=nZ1DMMsyVyI",
           "title": "JavaScript ES6, ES7, ES8: Learn to Code on the Bleeding Edge (Full Course)",
-          "duration": "65m"
+          "duration": "65m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c",
           "title": "JavaScript Crash Course For Beginners",
-          "duration": "100m"
+          "duration": "100m",
+          "resource_order": 4
         },
         {
           "url": "https://m.youtube.com/watch?v=1lFXj5h8IMA&t=4s",
           "title": "Modern JavaScript [ ES6, ES7, ES8 ] Crash Course In 2 Hours",
-          "duration": "120m"
+          "duration": "120m",
+          "resource_order": 5
         },
         {
           "url": "https://m.youtube.com/watch?v=WZQc7RUAg18&t=0s",
           "title": "ES6 Javascript Tutorial For Beginners | ES6 Crash Course",
-          "duration": "56m"
+          "duration": "56m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=IEf1KAcK6A8",
           "title": "ES6 JavaScript Tutorial for Beginners - Getting Started",
-          "duration": "73m"
+          "duration": "73m",
+          "resource_order": 7
         }
       ]
     },
@@ -87,76 +99,90 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "Comprehensive documentation for JavaScript programming language on MDN Web Docs.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://www.typescriptlang.org/tsconfig/",
           "description": "A detailed reference for configuring TypeScript compiler options via tsconfig.json.",
-          "title": "TypeScript: TSConfig Reference - Docs on every TSConfig option"
+          "title": "TypeScript: TSConfig Reference - Docs on every TSConfig option",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch",
           "description": "Detailed documentation on using the 'switch' statement in JavaScript for conditional execution.",
-          "title": "switch - JavaScript | MDN"
+          "title": "switch - JavaScript | MDN",
+          "resource_order": 3
         },
         {
           "url": "https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html",
           "description": "A quick introduction to TypeScript for JavaScript developers in just five minutes.",
-          "title": "TypeScript: Documentation - TypeScript for JavaScript Programmers"
+          "title": "TypeScript: Documentation - TypeScript for JavaScript Programmers",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "Comprehensive documentation and resources for JavaScript programming on the web.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://blog.miguelgrinberg.com/post/the-react-mega-tutorial-chapter-1-modern-javascript",
           "description": "An introductory tutorial on modern JavaScript concepts for React development.",
-          "title": "The React Mega-Tutorial, Chapter 1: Modern JavaScript - miguelgrinberg.com"
+          "title": "The React Mega-Tutorial, Chapter 1: Modern JavaScript - miguelgrinberg.com",
+          "resource_order": 2
         },
         {
           "url": "https://discuss.prosemirror.net/t/how-to-install-prosemirror/1797",
           "description": "A forum discussion on installing ProseMirror, a toolkit for building rich-text editors.",
-          "title": "How to install prosemirror? - discuss.ProseMirror"
+          "title": "How to install prosemirror? - discuss.ProseMirror",
+          "resource_order": 3
         },
         {
           "url": "https://marcobotto.com/blog/the-hitchhikers-guide-to-the-modern-front-end-development-workflow/",
           "description": "An insightful guide to modern front-end development workflows and best practices.",
-          "title": "The Hitchhiker's guide to the modern front end development workflow - marcobotto.com"
+          "title": "The Hitchhiker's guide to the modern front end development workflow - marcobotto.com",
+          "resource_order": 4
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=O4DaRScJFNs",
           "title": "JavaScript ES6 Template Literal Strings in FIVE Minutes",
-          "duration": "6m"
+          "duration": "6m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=j59qQ7YWLxw&pp=0gcJCdgAo7VqN5tD",
           "title": "Build A Calculator With JavaScript Tutorial",
-          "duration": "38m"
+          "duration": "38m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=K_fFFRM7PEA",
           "title": "ES6 JavaScript Tutorial for Beginners | ES6 Crash Course [2022]",
-          "duration": "38m"
+          "duration": "38m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=zuKbR4Q428o",
           "title": "JavaScript Unit Testing Tutorial for Beginners",
-          "duration": "48m"
+          "duration": "48m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=HFoe0Wc-UbI",
           "title": "JavaScript ES6 Default Parameters | JavaScript ES6 Tutorial",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=GPP_XBydGR8",
           "title": "How to Use 'use strict' in JavaScript (2025)",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 6
         }
       ]
     },
@@ -165,96 +191,114 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "Comprehensive documentation and learning resources for JavaScript on MDN Web Docs.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://javascript.info/",
           "description": "An extensive resource for learning JavaScript from basics to advanced topics.",
-          "title": "The Modern JavaScript Tutorial"
+          "title": "The Modern JavaScript Tutorial",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
           "description": "An in-depth guide to using modules in JavaScript for modular code development.",
-          "title": "JavaScript modules - JavaScript | MDN"
+          "title": "JavaScript modules - JavaScript | MDN",
+          "resource_order": 3
         },
         {
           "url": "https://www.typescriptlang.org/docs/",
           "description": "Official documentation for the TypeScript programming language, covering its features and usage.",
-          "title": "TypeScript: The starting point for learning TypeScript"
+          "title": "TypeScript: The starting point for learning TypeScript",
+          "resource_order": 4
         },
         {
           "url": "https://www.linkedin.com/posts/dmitrykostyuk_apps-script-with-vite-clasp-github-actions-activity-7244283003676364800-OZsA",
           "description": "A guide on integrating Google Apps Script with Vite, Clasp, and GitHub Actions for streamlined development.",
-          "title": "If you've been following me for a while, you probably know by now that I \ud835\ude2d\ud835\ude30\ud835\ude37\ud835\ude26 Google Apps Script. | Dmitry Kostyuk"
+          "title": "If you've been following me for a while, you probably know by now that I 𝘭𝘰𝘷𝘦 Google Apps Script. | Dmitry Kostyuk",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://javascript.info/",
           "description": "An extensive resource for learning modern JavaScript from the basics to advanced topics.",
-          "title": "The Modern JavaScript Tutorial"
+          "title": "The Modern JavaScript Tutorial",
+          "resource_order": 1
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
           "description": "An introductory guide to using modules in JavaScript for code organization and reuse.",
-          "title": "JavaScript modules - JavaScript | MDN"
+          "title": "JavaScript modules - JavaScript | MDN",
+          "resource_order": 2
         },
         {
           "url": "https://marcobotto.com/blog/the-hitchhikers-guide-to-the-modern-front-end-development-workflow/",
           "description": "An in-depth guide to modern front-end development workflows and tools.",
-          "title": "The Hitchhiker's guide to the modern front end development workflow - marcobotto.com"
+          "title": "The Hitchhiker's guide to the modern front end development workflow - marcobotto.com",
+          "resource_order": 3
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for learning and referencing JavaScript programming on the web.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 4
         },
         {
           "url": "https://www.linkedin.com/posts/dmitrykostyuk_apps-script-with-vite-clasp-github-actions-activity-7244283003676364800-OZsA",
           "description": "A detailed walkthrough on integrating Apps Script with Vite, Clasp, and GitHub Actions.",
-          "title": "If you've been following me for a while, you probably know by now that I \ud835\ude2d\ud835\ude30\ud835\ude37\ud835\ude26 Google Apps Script. | Dmitry Kostyuk"
+          "title": "If you've been following me for a while, you probably know by now that I 𝘭𝘰𝘷𝘦 Google Apps Script. | Dmitry Kostyuk",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=NCwa_xi0Uuc",
           "title": "ES6 Tutorial: Learn Modern JavaScript in 1 Hour",
-          "duration": "50m"
+          "duration": "50m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=BI1o2H9z9fo",
           "title": "Modern JavaScript From The Beginning | First 12 Hours",
-          "duration": "714m"
+          "duration": "714m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
           "title": "React Tutorial for Beginners",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=ZVnjOPwW4ZA",
           "title": "Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript",
-          "duration": "62m"
+          "duration": "62m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=uBDk_wgVh4E",
           "title": "Arrow Functions in JavaScript ES6 -  The Clean Way to Code",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c&pp=0gcJCfwAo7VqN5tD",
           "title": "JavaScript Crash Course For Beginners",
-          "duration": "100m"
+          "duration": "100m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=kqtD5dpn9C8&pp=0gcJCfwAo7VqN5tD",
           "title": "Python for Beginners - Learn Coding with Python in 1 Hour",
-          "duration": "60m"
+          "duration": "60m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=lfmg-EJ8gm4",
-          "title": "JavaScript Full Course for free \ud83c\udf10 (2024)",
-          "duration": "720m"
+          "title": "JavaScript Full Course for free 🌐 (2024)",
+          "duration": "720m",
+          "resource_order": 8
         }
       ]
     }
@@ -270,7 +314,8 @@
           "assign"
         ],
         "correct_option": 1,
-        "hint": "This keyword is block-scoped and allows reassignment."
+        "hint": "This keyword is block-scoped and allows reassignment.",
+        "question_order": 1
       },
       {
         "question": "What does the 'const' keyword do in JavaScript?",
@@ -281,7 +326,8 @@
           "Declares a global variable"
         ],
         "correct_option": 1,
-        "hint": "This keyword is similar to 'let' but does not allow reassignment."
+        "hint": "This keyword is similar to 'let' but does not allow reassignment.",
+        "question_order": 2
       },
       {
         "question": "Which of the following is a new feature introduced in ES6?",
@@ -292,7 +338,8 @@
           "XMLHttpRequest"
         ],
         "correct_option": 0,
-        "hint": "This feature provides a more concise syntax for writing functions."
+        "hint": "This feature provides a more concise syntax for writing functions.",
+        "question_order": 3
       },
       {
         "question": "What method is used to make HTTP requests and returns a promise in modern JavaScript?",
@@ -303,7 +350,8 @@
           "makeRequest"
         ],
         "correct_option": 1,
-        "hint": "This method is a modern alternative to XMLHttpRequest."
+        "hint": "This method is a modern alternative to XMLHttpRequest.",
+        "question_order": 4
       },
       {
         "question": "What is the purpose of a promise in JavaScript?",
@@ -314,7 +362,8 @@
           "To declare a constant"
         ],
         "correct_option": 1,
-        "hint": "This is used to handle operations that take some time to complete, such as network requests."
+        "hint": "This is used to handle operations that take some time to complete, such as network requests.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -327,7 +376,8 @@
           "define x = 10;"
         ],
         "correct_option": 1,
-        "hint": "In ES6, 'let' and 'const' are used for variable declarations."
+        "hint": "In ES6, 'let' and 'const' are used for variable declarations.",
+        "question_order": 1
       },
       {
         "question": "What is the main difference between 'let' and 'const' in JavaScript?",
@@ -338,7 +388,8 @@
           "'let' is function-scoped, 'const' is block-scoped."
         ],
         "correct_option": 0,
-        "hint": "The key difference involves reassignment."
+        "hint": "The key difference involves reassignment.",
+        "question_order": 2
       },
       {
         "question": "What will be logged to the console in the following code snippet? \n\nfunction testScope() {\n  if (true) {\n    let x = 5;\n  }\n  console.log(x);\n}\ntestScope();",
@@ -349,7 +400,8 @@
           "null"
         ],
         "correct_option": 2,
-        "hint": "Consider the scope of 'let' declarations."
+        "hint": "Consider the scope of 'let' declarations.",
+        "question_order": 3
       },
       {
         "question": "Which statement is true about Promises in JavaScript?",
@@ -360,7 +412,8 @@
           "Promises are synchronous by nature."
         ],
         "correct_option": 2,
-        "hint": "Promises have three possible states."
+        "hint": "Promises have three possible states.",
+        "question_order": 4
       },
       {
         "question": "What is the correct way to use the Fetch API to retrieve data from a URL?",
@@ -371,7 +424,8 @@
           "$.ajax('https://api.example.com/data').done(data => console.log(data));"
         ],
         "correct_option": 0,
-        "hint": "The fetch API uses promises to handle asynchronous operations."
+        "hint": "The fetch API uses promises to handle asynchronous operations.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -384,7 +438,8 @@
           "define myVar = 'Hello';"
         ],
         "correct_option": 3,
-        "hint": "ES6 introduced 'let' and 'const' for variable declaration, but the traditional 'var' is still valid."
+        "hint": "ES6 introduced 'let' and 'const' for variable declaration, but the traditional 'var' is still valid.",
+        "question_order": 1
       },
       {
         "question": "How does the 'let' keyword in JavaScript differ from 'var' in terms of scoping?",
@@ -395,7 +450,8 @@
           "'let' is globally scoped while 'var' is block-scoped"
         ],
         "correct_option": 1,
-        "hint": "Consider how block-level constructs like loops affect the visibility of variables."
+        "hint": "Consider how block-level constructs like loops affect the visibility of variables.",
+        "question_order": 2
       },
       {
         "question": "Which of the following syntax correctly implements an arrow function that returns the square of a number?",
@@ -406,7 +462,8 @@
           "const square = x => return x * x;"
         ],
         "correct_option": 0,
-        "hint": "Arrow functions can have an implicit return if the function body is a single expression."
+        "hint": "Arrow functions can have an implicit return if the function body is a single expression.",
+        "question_order": 3
       },
       {
         "question": "What is the primary benefit of using promises in JavaScript for asynchronous operations?",
@@ -417,7 +474,8 @@
           "They allow synchronous execution of code."
         ],
         "correct_option": 0,
-        "hint": "Think about how promises handle asynchronous control flow compared to callbacks."
+        "hint": "Think about how promises handle asynchronous control flow compared to callbacks.",
+        "question_order": 4
       },
       {
         "question": "How can you handle errors in a Fetch API request using promises?",
@@ -428,7 +486,8 @@
           "By setting an error flag within the fetch call"
         ],
         "correct_option": 0,
-        "hint": "Consider how promises are used to manage asynchronous operations and their outcomes."
+        "hint": "Consider how promises are used to manage asynchronous operations and their outcomes.",
+        "question_order": 5
       }
     ]
   }

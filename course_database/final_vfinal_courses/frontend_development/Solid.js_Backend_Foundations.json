@@ -28,71 +28,84 @@
         {
           "url": "https://docs.nestjs.com/",
           "description": "Official documentation for building efficient and scalable server-side applications with NestJS.",
-          "title": "Documentation | NestJS - A progressive Node.js framework"
+          "title": "Documentation | NestJS - A progressive Node.js framework",
+          "resource_order": 1
         },
         {
           "url": "https://fastify.io/docs/v5.2.x/Guides/Getting-Started/",
           "description": "A beginner's guide to getting started with the Fastify web framework.",
-          "title": "Getting-Started | Fastify"
+          "title": "Getting-Started | Fastify",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction",
           "description": "An introductory guide to client-side APIs for web development on MDN Web Docs.",
-          "title": "Introduction to web APIs - Learn web development | MDN"
+          "title": "Introduction to web APIs - Learn web development | MDN",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://start.solidjs.com/",
           "description": "An introduction and guide to building reactive web applications with SolidJS.",
-          "title": "SolidStart: Fine-Grained Reactivity goes fullstack"
+          "title": "SolidStart: Fine-Grained Reactivity goes fullstack",
+          "resource_order": 1
         },
         {
           "url": "https://www.sencha.com/blog/a-step-by-step-guide-to-an-extjs-tutorial-for-beginners/",
           "description": "A step-by-step beginner's guide to learning ExtJS.",
-          "title": "A Step-by-Step Guide to Ext JS Tutorial for Beginners: JavaScript Tutorials"
+          "title": "A Step-by-Step Guide to Ext JS Tutorial for Beginners: JavaScript Tutorials",
+          "resource_order": 2
         },
         {
           "url": "https://blog.boot.dev/education/learn-to-code-the-slow-way/",
           "description": "An insightful article advocating for a gradual and thorough approach to learning programming.",
-          "title": "Learn to Code the Slow Way | Boot.dev"
+          "title": "Learn to Code the Slow Way | Boot.dev",
+          "resource_order": 3
         },
         {
           "url": "https://daily.dev/blog/python-and-javascript-choosing-your-first-language",
           "description": "A comparative guide to help choose between Python and JavaScript as a first programming language.",
-          "title": "Python and JavaScript: Choosing Your First Language"
+          "title": "Python and JavaScript: Choosing Your First Language",
+          "resource_order": 4
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
           "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
-          "duration": "1274m"
+          "duration": "1274m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
           "title": "HTML Tutorial for Beginners: HTML Crash Course",
-          "duration": "69m"
+          "duration": "69m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=8_X0nSrzrCw",
           "title": "Nest.js Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours",
-          "duration": "179m"
+          "duration": "179m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=zuKbR4Q428o",
           "title": "JavaScript Unit Testing Tutorial for Beginners",
-          "duration": "48m"
+          "duration": "48m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=6jfgz5VcpC4",
           "title": "Next.js 15 Fundamentals in 45 Minutes | Next.js Tutorial For Beginners",
-          "duration": "35m"
+          "duration": "35m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=GxmfcnU3feo",
           "title": "The Complete Web Development Roadmap",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 6
         }
       ]
     },
@@ -101,96 +114,114 @@
         {
           "url": "https://forum.solidproject.org/t/inrupts-data-wallet/7836",
           "description": "An overview and discussion on Inrupt's Data Wallet for managing personal data securely.",
-          "title": "Inrupt's Data Wallet - General Discussion - Solid Community Forum"
+          "title": "Inrupt's Data Wallet - General Discussion - Solid Community Forum",
+          "resource_order": 1
         },
         {
           "url": "https://forums.meteor.com/t/make-meteor-great-again/61892?page=3",
           "description": "A community forum discussion focused on strategies to improve and revitalize the Meteor framework.",
-          "title": "Make Meteor great again - community - Meteor Forum"
+          "title": "Make Meteor great again - community - Meteor Forum",
+          "resource_order": 2
         },
         {
           "url": "https://github.com/vercel/next.js/discussions/59373",
           "description": "A discussion on GitHub about handling environment variables in Next.js applications.",
-          "title": "An honest opinion about the `App` vs `Pages` router \u00b7 vercel/next.js \u00b7 Discussion #59373 \u00b7 GitHub"
+          "title": "An honest opinion about the `App` vs `Pages` router · vercel/next.js · Discussion #59373 · GitHub",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://discourse.haskell.org/t/frontend-technologies-that-pair-well-with-a-haskell-backend/9398",
           "description": "An exploration of frontend technologies that integrate effectively with a Haskell backend.",
-          "title": "Frontend technologies that pair well with a Haskell backend - Learn - Haskell Community"
+          "title": "Frontend technologies that pair well with a Haskell backend - Learn - Haskell Community",
+          "resource_order": 1
         },
         {
           "url": "https://www.sencha.com/blog/a-step-by-step-guide-to-an-extjs-tutorial-for-beginners/",
           "description": "A step-by-step guide for beginners to learn ExtJS through a comprehensive tutorial.",
-          "title": "A Step-by-Step Guide to Ext JS Tutorial for Beginners: JavaScript Tutorials"
+          "title": "A Step-by-Step Guide to Ext JS Tutorial for Beginners: JavaScript Tutorials",
+          "resource_order": 2
         },
         {
           "url": "https://www.linkedin.com/posts/gisenberg_how-to-build-a-startup-with-v0-cursor-claude-activity-7236097793621204992-0KU7",
           "description": "A guide on building a startup using V0 Cursor and Claude tools.",
-          "title": "How to build a startup with v0, cursor, claude and replit in 67 minutes (BEGINNER'S GUIDE). | Greg Isenberg"
+          "title": "How to build a startup with v0, cursor, claude and replit in 67 minutes (BEGINNER'S GUIDE). | Greg Isenberg",
+          "resource_order": 3
         },
         {
           "url": "https://github.com/vercel/next.js/discussions/59373",
           "description": "A community discussion on implementing and optimizing server-side rendering in Next.js applications.",
-          "title": "An honest opinion about the `App` vs `Pages` router \u00b7 vercel/next.js \u00b7 Discussion #59373 \u00b7 GitHub"
+          "title": "An honest opinion about the `App` vs `Pages` router · vercel/next.js · Discussion #59373 · GitHub",
+          "resource_order": 4
         },
         {
           "url": "https://www.linkedin.com/posts/nishant-tiwari24_21st-july-2023-the-next-day-after-wasting-activity-7221362157257474051-hhVb",
           "description": "Insights and reflections on productivity improvements after a wasted day.",
-          "title": "21st July 2023, The next day after wasting the 1st semester. | Nishant Tiwari"
+          "title": "21st July 2023, The next day after wasting the 1st semester. | Nishant Tiwari",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=zuKbR4Q428o",
           "title": "JavaScript Unit Testing Tutorial for Beginners",
-          "duration": "48m"
+          "duration": "48m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=ELFORM9fmss",
           "title": "Flutter Clean Architecture Full Course For Beginners - Bloc, Supabase, Hive, GetIt",
-          "duration": "424m"
+          "duration": "424m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=ANrYhHN8Dl4",
           "title": "Folder structure in React - Complete Guide",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=AS79oJ3Fcf0",
           "title": "Next.js with React Testing Library, Jest, TypeScript",
-          "duration": "25m"
+          "duration": "25m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=h7MTWLv3xvw",
           "title": "React Router V7 Tutorial - Routing, Nested Routes, Data Loading, Layouts...",
-          "duration": "51m"
+          "duration": "51m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=v6LK5alOofs",
           "title": "React Testing Library With Jest Tutorial For Beginners | How To Test React Components ?",
-          "duration": "34m"
+          "duration": "34m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=pOQguIkDp5w",
           "title": "The Power of AbortController in JavaScript",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=YqqRkuizNN4",
           "title": "Chat with MySQL Database using GPT-4 and Mistral AI | Python GUI App",
-          "duration": "61m"
+          "duration": "61m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=Af3s3KsxStY&pp=0gcJCfwAo7VqN5tD",
           "title": "Object Oriented Programming in Java - All-in-One Tutorial Series!",
-          "duration": "67m"
+          "duration": "67m",
+          "resource_order": 9
         },
         {
           "url": "https://www.youtube.com/watch?v=1qw5ITr3k9E",
-          "title": "Software Engineering Job Interview \u2013 Full Mock Interview",
-          "duration": "74m"
+          "title": "Software Engineering Job Interview – Full Mock Interview",
+          "duration": "74m",
+          "resource_order": 10
         }
       ]
     },
@@ -199,81 +230,96 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
           "description": "An introductory resource for learning web development from HTML to JavaScript.",
-          "title": "Learn web development | MDN"
+          "title": "Learn web development | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://www.linkedin.com/posts/ahsanayaz_angular-is-hard-to-learn-this-was-activity-7249010800290320385-Fwv3",
           "description": "Insights into the challenges and learning curve associated with mastering Angular.",
-          "title": "\ud83d\ude2d \"Angular is hard to learn...\" | Muhammad Ahsan Ayaz"
+          "title": "😭 \"Angular is hard to learn...\" | Muhammad Ahsan Ayaz",
+          "resource_order": 2
         },
         {
           "url": "https://docs.soliditylang.org/",
           "description": "Official documentation for the Solidity programming language used in Ethereum smart contracts.",
-          "title": "Solidity \u2014 Solidity 0.8.30 documentation"
+          "title": "Solidity — Solidity 0.8.30 documentation",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.linkedin.com/posts/akshaymarch7_namastenodejs-activity-7233495490997141506-uk1k",
           "description": "An insightful post exploring key concepts and features of Node.js for developers.",
-          "title": "See, I told you I will make you fall in love with NodeJS. | Akshay Saini \ud83d\ude80"
+          "title": "See, I told you I will make you fall in love with NodeJS. | Akshay Saini 🚀",
+          "resource_order": 1
         },
         {
           "url": "http://nodesource.com/blog/how-nodejs-works/",
           "description": "An overview of how Node.js operates, focusing on its event-driven architecture and asynchronous I/O.",
-          "title": "How Node.js Works: A Comprehensive Guide in 2025"
+          "title": "How Node.js Works: A Comprehensive Guide in 2025",
+          "resource_order": 2
         },
         {
           "url": "https://www.linkedin.com/posts/akshaymarch7_javascript-react-angular-activity-7275744254327508992-d7fJ",
           "description": "Insights on the differences and uses of JavaScript frameworks React and Angular.",
-          "title": "How to become a good React dev starting from scratch? | Akshay Saini \ud83d\ude80"
+          "title": "How to become a good React dev starting from scratch? | Akshay Saini 🚀",
+          "resource_order": 3
         },
         {
           "url": "https://daily.dev/blog/setup-nodejs-express-project-a-beginners-guide",
           "description": "A beginner's guide to setting up a Node.js Express project.",
-          "title": "Setup Node.js Express Project: A Beginner's Guide"
+          "title": "Setup Node.js Express Project: A Beginner's Guide",
+          "resource_order": 4
         },
         {
           "url": "https://www.nucamp.co/blog/eloquent-javascript-will-reading-eloquent-javascript-make-me-jobready",
           "description": "An exploration of whether reading 'Eloquent JavaScript' can prepare individuals for a career in programming.",
-          "title": "Will reading \"Eloquent JavaScript\" make me job-ready?"
+          "title": "Will reading \"Eloquent JavaScript\" make me job-ready?",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
           "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
-          "duration": "1274m"
+          "duration": "1274m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=GxmfcnU3feo",
           "title": "The Complete Web Development Roadmap",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=8_X0nSrzrCw",
           "title": "Nest.js Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours",
-          "duration": "179m"
+          "duration": "179m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=x4rFhThSX04",
-          "title": "Learn React JS - Full Beginner\u2019s Tutorial & Practice Projects",
-          "duration": "940m"
+          "title": "Learn React JS - Full Beginner’s Tutorial & Practice Projects",
+          "duration": "940m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=6jfgz5VcpC4",
           "title": "Next.js 15 Fundamentals in 45 Minutes | Next.js Tutorial For Beginners",
-          "duration": "35m"
+          "duration": "35m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=G3e-cpL7ofc&pp=ygUGI3NvaHRs",
           "title": "HTML & CSS Full Course - Beginner to Pro",
-          "duration": "391m"
+          "duration": "391m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=fhRHGAgvrh4",
           "title": "NodeJS and Express Backend Development Tutorial 2024 with AI Projects",
-          "duration": "70m"
+          "duration": "70m",
+          "resource_order": 7
         }
       ]
     }
@@ -289,7 +335,8 @@
           "Data analysis"
         ],
         "correct_option": 1,
-        "hint": "Solid.js is known for its efficient rendering system."
+        "hint": "Solid.js is known for its efficient rendering system.",
+        "question_order": 1
       },
       {
         "question": "Which command is commonly used to set up a new Solid.js environment?",
@@ -300,7 +347,8 @@
           "init-solid"
         ],
         "correct_option": 2,
-        "hint": "Think of a common pattern used to start new projects in JavaScript."
+        "hint": "Think of a common pattern used to start new projects in JavaScript.",
+        "question_order": 2
       },
       {
         "question": "What is a key benefit of using Solid.js for building RESTful APIs?",
@@ -311,7 +359,8 @@
           "All of the above"
         ],
         "correct_option": 3,
-        "hint": "Consider all potential benefits Solid.js offers."
+        "hint": "Consider all potential benefits Solid.js offers.",
+        "question_order": 3
       },
       {
         "question": "How does Solid.js handle state management?",
@@ -322,7 +371,8 @@
           "Using local storage"
         ],
         "correct_option": 2,
-        "hint": "Solid.js focuses on reactivity."
+        "hint": "Solid.js focuses on reactivity.",
+        "question_order": 4
       },
       {
         "question": "Which cloud platform is often used for deploying Solid.js applications?",
@@ -333,7 +383,8 @@
           "All of the above"
         ],
         "correct_option": 3,
-        "hint": "Consider the flexibility and popularity of deployment platforms."
+        "hint": "Consider the flexibility and popularity of deployment platforms.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -346,7 +397,8 @@
           "Reactive primitives for efficient updates"
         ],
         "correct_option": 3,
-        "hint": "Think about how Solid.js handles updates and reactivity."
+        "hint": "Think about how Solid.js handles updates and reactivity.",
+        "question_order": 1
       },
       {
         "question": "Which command is used to set up a new Solid.js project environment?",
@@ -357,7 +409,8 @@
           "npx solid-init"
         ],
         "correct_option": 2,
-        "hint": "The command involves using npx with a Solid.js specific initializer."
+        "hint": "The command involves using npx with a Solid.js specific initializer.",
+        "question_order": 2
       },
       {
         "question": "In Solid.js, what is the primary method for managing application state?",
@@ -368,7 +421,8 @@
           "useContext"
         ],
         "correct_option": 2,
-        "hint": "Solid.js uses a specific reactive primitive for state management."
+        "hint": "Solid.js uses a specific reactive primitive for state management.",
+        "question_order": 3
       },
       {
         "question": "How can middleware be integrated into a Solid.js application?",
@@ -379,7 +433,8 @@
           "Middleware is not supported in Solid.js"
         ],
         "correct_option": 0,
-        "hint": "Think about how traditional Node.js applications integrate middleware."
+        "hint": "Think about how traditional Node.js applications integrate middleware.",
+        "question_order": 4
       },
       {
         "question": "What is a common approach for connecting a Solid.js application to a database?",
@@ -390,7 +445,8 @@
           "ORM libraries like Prisma"
         ],
         "correct_option": 3,
-        "hint": "Consider modern database connection techniques that abstract SQL complexities."
+        "hint": "Consider modern database connection techniques that abstract SQL complexities.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -403,7 +459,8 @@
           "Object-Oriented Programming (OOP), which encapsulates logic in objects"
         ],
         "correct_option": 2,
-        "hint": "Think about how Solid.js handles reactivity and updates efficiently."
+        "hint": "Think about how Solid.js handles reactivity and updates efficiently.",
+        "question_order": 1
       },
       {
         "question": "When setting up a Solid.js environment for server-side development, which of the following tools is essential for managing server-side rendering?",
@@ -414,7 +471,8 @@
           "Express.js"
         ],
         "correct_option": 0,
-        "hint": "Consider the runtime environment commonly used for JavaScript on the server side."
+        "hint": "Consider the runtime environment commonly used for JavaScript on the server side.",
+        "question_order": 2
       },
       {
         "question": "In Solid.js, how can you effectively manage state across a large application?",
@@ -425,7 +483,8 @@
           "Employing useState hook for component-level state"
         ],
         "correct_option": 0,
-        "hint": "Solid.js provides a built-in mechanism similar to React's Context API for managing global state."
+        "hint": "Solid.js provides a built-in mechanism similar to React's Context API for managing global state.",
+        "question_order": 3
       },
       {
         "question": "Which middleware integration approach is most suitable for handling authentication in a Solid.js application?",
@@ -436,7 +495,8 @@
           "Utilizing client-side cookies for all authentication logic"
         ],
         "correct_option": 0,
-        "hint": "Consider the most common server-side framework used with Solid.js for middleware integration."
+        "hint": "Consider the most common server-side framework used with Solid.js for middleware integration.",
+        "question_order": 4
       },
       {
         "question": "What is a recommended practice for error handling and debugging in a Solid.js application deployed on a cloud platform?",
@@ -447,7 +507,8 @@
           "Ignoring errors in production for performance"
         ],
         "correct_option": 2,
-        "hint": "Think about tools that can provide insights into application errors in a production environment."
+        "hint": "Think about tools that can provide insights into application errors in a production environment.",
+        "question_order": 5
       }
     ]
   },

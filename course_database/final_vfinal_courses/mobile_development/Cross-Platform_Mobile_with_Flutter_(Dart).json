@@ -22,106 +22,126 @@
         {
           "url": "https://docs.flutter.dev/",
           "description": "Official documentation for building applications with Flutter.",
-          "title": "Docs | Flutter"
+          "title": "Docs | Flutter",
+          "resource_order": 1
         },
         {
           "url": "https://flutter.dev/",
           "description": "The official site for Flutter, providing resources and documentation for building natively compiled applications.",
-          "title": "Flutter - Build apps for any screen"
+          "title": "Flutter - Build apps for any screen",
+          "resource_order": 2
         },
         {
           "url": "https://api.flutter.dev/",
           "description": "Official API documentation for Flutter, providing detailed information on classes, methods, and libraries.",
-          "title": "Flutter - Dart API docs"
+          "title": "Flutter - Dart API docs",
+          "resource_order": 3
         },
         {
           "url": "https://docs.flutter.dev/resources/architectural-overview",
           "description": "An overview of the architectural design and components of Flutter.",
-          "title": "Flutter architectural overview | Flutter"
+          "title": "Flutter architectural overview | Flutter",
+          "resource_order": 4
         },
         {
           "url": "https://firebase.google.com/docs/flutter/setup",
           "description": "Step-by-step instructions for setting up Firebase with a Flutter app.",
-          "title": "Add Firebase to your Flutter app"
+          "title": "Add Firebase to your Flutter app",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://flutter.dev/",
           "description": "Official site for Flutter, Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.",
-          "title": "Flutter - Build apps for any screen"
+          "title": "Flutter - Build apps for any screen",
+          "resource_order": 1
         },
         {
           "url": "https://www.amazon.com/Flutter-Beginners-introductory-cross-platform-applications/dp/1788996089",
           "description": "An introductory guide to building cross-platform applications using Flutter.",
-          "title": "Flutter for Beginners: An introductory guide to building cross-platform mobile applications with Flutter and Dart 2 : Biessek, Alessandro: Amazon.sg: Books"
+          "title": "Flutter for Beginners: An introductory guide to building cross-platform mobile applications with Flutter and Dart 2 : Biessek, Alessandro: Amazon.sg: Books",
+          "resource_order": 2
         },
         {
           "url": "https://forum.djangoproject.com/t/best-approach-for-developing-a-cross-platform-mobile-app-alongside-a-django-web-app/21554",
           "description": "Discussion on integrating a cross-platform mobile app with a Django web app.",
-          "title": "Best Approach for Developing a Cross-Platform Mobile App alongside a Django Web App? - Using Django / Getting Started - Django Forum"
+          "title": "Best Approach for Developing a Cross-Platform Mobile App alongside a Django Web App? - Using Django / Getting Started - Django Forum",
+          "resource_order": 3
         },
         {
           "url": "https://docs.flutter.dev/resources/architectural-overview",
           "description": "An overview of Flutter's architectural design and its core principles.",
-          "title": "Flutter architectural overview | Flutter"
+          "title": "Flutter architectural overview | Flutter",
+          "resource_order": 4
         },
         {
           "url": "https://www.solutionstreet.com/blog/2024/03/26/flutterflow-tutorial-part-1/",
           "description": "An introductory tutorial on using FlutterFlow to build cross-platform apps.",
-          "title": "\u00bb Blog: FlutterFlow Tutorial - Part 1 - Solution Street Blog"
+          "title": "» Blog: FlutterFlow Tutorial - Part 1 - Solution Street Blog",
+          "resource_order": 5
         },
         {
           "url": "https://dart.dev/overview",
           "description": "An overview of the Dart programming language and its features.",
-          "title": "Dart overview | Dart"
+          "title": "Dart overview | Dart",
+          "resource_order": 6
         },
         {
           "url": "https://frontendmasters.com/courses/flutter/",
           "description": "An in-depth course on building mobile applications using Flutter.",
-          "title": "Flutter & Dart | Learn to Develop Cross-Platform Mobile Apps with Flutter | Frontend Masters"
+          "title": "Flutter & Dart | Learn to Develop Cross-Platform Mobile Apps with Flutter | Frontend Masters",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=CzRQ9mnmh44",
           "title": "The Complete Dart & Flutter Developer Course | Full Tutorial For Beginners to Advanced",
-          "duration": "1247m"
+          "duration": "1247m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=CZr3pKM44wk",
           "title": "Flutter in 2024: Cross Platform Tool You Must Learn!",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=VPvVD8t02U8&pp=0gcJCfwAo7VqN5tD",
-          "title": "Flutter Course for Beginners \u2013 37-hour Cross Platform App Development Tutorial",
-          "duration": "2199m"
+          "title": "Flutter Course for Beginners – 37-hour Cross Platform App Development Tutorial",
+          "duration": "2199m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=TSIhiZ5jRB0",
           "title": "Flutter Tutorial for Beginners #4 - Creating a Flutter App in Android Studio",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=VEzqSeNkqjs",
           "title": "Flutter Tutorial for Beginners 3 - Learning Dart Basics | Types and casting in Dart",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=8sAyPDLorek",
           "title": "Building your first Flutter App - with a Codelab!",
-          "duration": "92m"
+          "duration": "92m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=rwrUezKCc34",
           "title": "Zero to app: Livecoding a cross platform app with Firebase and Flutter",
-          "duration": "50m"
+          "duration": "50m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=DvZuJeTHWaw&pp=0gcJCfwAo7VqN5tD",
           "title": "Flutter Crash Course #2 - Installing on Windows",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 8
         }
       ]
     },
@@ -130,101 +150,120 @@
         {
           "url": "https://firebase.google.com/docs/flutter/setup",
           "description": "Step-by-step instructions for integrating Firebase into a Flutter application.",
-          "title": "Add Firebase to your Flutter app"
+          "title": "Add Firebase to your Flutter app",
+          "resource_order": 1
         },
         {
           "url": "https://docs.flutter.dev/resources/architectural-overview",
           "description": "An overview of Flutter's architecture and its core principles for building applications.",
-          "title": "Flutter architectural overview | Flutter"
+          "title": "Flutter architectural overview | Flutter",
+          "resource_order": 2
         },
         {
           "url": "https://api.flutter.dev/",
           "description": "Official API documentation for Flutter, Google's UI toolkit for building natively compiled applications.",
-          "title": "Flutter - Dart API docs"
+          "title": "Flutter - Dart API docs",
+          "resource_order": 3
         },
         {
           "url": "https://flutter.dev/multi-platform/web",
           "description": "An overview of building web applications using Flutter's multi-platform capabilities.",
-          "title": "Flutter on the Web"
+          "title": "Flutter on the Web",
+          "resource_order": 4
         },
         {
           "url": "https://developers.google.com/solutions/catalog",
           "description": "A curated catalog of Google Cloud solutions and best practices for developers.",
-          "title": "Solutions and Architectures Catalog - Google for Developers"
+          "title": "Solutions and Architectures Catalog - Google for Developers",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://flutter.dev/multi-platform/desktop",
           "description": "An overview of building desktop applications using Flutter's multi-platform capabilities.",
-          "title": "Flutter on Desktop"
+          "title": "Flutter on Desktop",
+          "resource_order": 1
         },
         {
           "url": "https://docs.flutter.dev/resources/architectural-overview",
           "description": "An overview of Flutter's architectural design and its core principles.",
-          "title": "Flutter architectural overview | Flutter"
+          "title": "Flutter architectural overview | Flutter",
+          "resource_order": 2
         },
         {
           "url": "https://forum.juce.com/t/soul-lang-with-flutter-and-dart-ffi/36549",
           "description": "Discussion on integrating SOUL language with Flutter using Dart FFI.",
-          "title": "SOUL Lang with Flutter and Dart:FFI - General JUCE discussion - JUCE"
+          "title": "SOUL Lang with Flutter and Dart:FFI - General JUCE discussion - JUCE",
+          "resource_order": 3
         },
         {
           "url": "https://flutter.dev/ai",
           "description": "An overview of using artificial intelligence in Flutter applications.",
-          "title": "Flutter | AI"
+          "title": "Flutter | AI",
+          "resource_order": 4
         },
         {
           "url": "https://blog.mapchart.net/app/flutter-for-developing-mapchart-mobile-app/",
           "description": "An overview of using Flutter for developing the MapChart mobile app.",
-          "title": "My experience with using Flutter and Dart in developing the MapChart mobile app - Blog - MapChart"
+          "title": "My experience with using Flutter and Dart in developing the MapChart mobile app - Blog - MapChart",
+          "resource_order": 5
         },
         {
           "url": "https://flutter.dev/multi-platform",
           "description": "An overview of Flutter's capabilities for developing multi-platform applications.",
-          "title": "Multi-Platform"
+          "title": "Multi-Platform",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=8sAyPDLorek",
           "title": "Building your first Flutter App - with a Codelab!",
-          "duration": "92m"
+          "duration": "92m",
+          "resource_order": 1
         },
         {
           "url": "https://m.youtube.com/watch?v=NMb4RDpbRXs",
           "title": "Building a Mobile App in 2025: The BEST Technologies",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
           "title": "Flutter Clean Architecture Full Course For Beginners - Bloc, Supabase, Hive, GetIt",
-          "duration": "424m"
+          "duration": "424m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=q89Nh0EDM-Q",
           "title": "Understanding Flutter streams",
-          "duration": "36m"
+          "duration": "36m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=mEPm9w5QlJM",
           "title": "Flutter & Firebase Course - Build a Full Stack Instagram Clone",
-          "duration": "412m"
+          "duration": "412m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=4mATPCxj5M8",
           "title": "Flutter Mock Interview | Interview Questions for Flutter Developers",
-          "duration": "23m"
+          "duration": "23m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=V8P_S9OLI_I&pp=0gcJCdgAo7VqN5tD",
           "title": "Build generative AI agents with Vertex AI Agent Builder and Flutter",
-          "duration": "40m"
+          "duration": "40m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=ydKrZ9S5Pmg",
           "title": "GridView in Flutter | Flutter GridView tutorial | Grid View flutter dart",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 8
         }
       ]
     },
@@ -233,86 +272,102 @@
         {
           "url": "https://docs.flutter.dev/",
           "description": "Official documentation for building apps with Flutter.",
-          "title": "Docs | Flutter"
+          "title": "Docs | Flutter",
+          "resource_order": 1
         },
         {
           "url": "https://flutter.dev/learn",
           "description": "An introductory guide to learning Flutter for building cross-platform mobile apps.",
-          "title": "Learn"
+          "title": "Learn",
+          "resource_order": 2
         },
         {
           "url": "https://docs.flutter.dev/resources/architectural-overview",
           "description": "An overview of Flutter's architecture, detailing its framework, engine, and embedded layers.",
-          "title": "Flutter architectural overview | Flutter"
+          "title": "Flutter architectural overview | Flutter",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://flutter.dev/learn",
           "description": "An introductory resource for learning Flutter app development.",
-          "title": "Learn"
+          "title": "Learn",
+          "resource_order": 1
         },
         {
           "url": "https://docs.flutter.dev/resources/architectural-overview",
           "description": "An overview of Flutter's architectural design and its core principles.",
-          "title": "Flutter architectural overview | Flutter"
+          "title": "Flutter architectural overview | Flutter",
+          "resource_order": 2
         },
         {
           "url": "https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/",
           "description": "An online course teaching Flutter and Dart for building iOS and Android apps.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 3
         },
         {
           "url": "https://techflairz.com/building-cross-platform-apps-flutter-webview-tutorial/",
           "description": "A detailed tutorial on building cross-platform apps using Flutter with WebView integration.",
-          "title": "Step-by-Step Guide to Building Cross-Platform Apps with Flutter Webview - Tech Flairz"
+          "title": "Step-by-Step Guide to Building Cross-Platform Apps with Flutter Webview - Tech Flairz",
+          "resource_order": 4
         },
         {
           "url": "https://www.linkedin.com/posts/midhunarmid_flutter-app-development-malayalam-interviewcraft-activity-7230917089828466688-9T0w",
           "description": "A Malayalam tutorial on Flutter app development by Midhun Aramid.",
-          "title": "\ud83d\ude80 Hey fellow Flutter enthusiasts from Kerala! | Midhun Mohanan"
+          "title": "🚀 Hey fellow Flutter enthusiasts from Kerala! | Midhun Mohanan",
+          "resource_order": 5
         },
         {
           "url": "https://www.classcentral.com/report/best-flutter-and-dart-courses/",
           "description": "A curated list of the best Flutter and Dart courses available online.",
-          "title": "Attention Required! | Cloudflare"
+          "title": "Attention Required! | Cloudflare",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=CzRQ9mnmh44",
           "title": "The Complete Dart & Flutter Developer Course | Full Tutorial For Beginners to Advanced",
-          "duration": "1247m"
+          "duration": "1247m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=dzog64ENKG0",
           "title": "KMP vs. Flutter - Who Will Win The Cross-Platform Battle?",
-          "duration": "16m"
+          "duration": "16m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=x0uinJvhNxI",
           "title": "Flutter Crash Course for Beginners - Build a Flutter App with Google's Flutter & Dart",
-          "duration": "342m"
+          "duration": "342m",
+          "resource_order": 3
         },
         {
           "url": "https://m.youtube.com/watch?v=NMb4RDpbRXs",
           "title": "Building a Mobile App in 2025: The BEST Technologies",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=3HREQwLmy88",
           "title": "How to write a Flutter desktop application",
-          "duration": "34m"
+          "duration": "34m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=VPvVD8t02U8&pp=0gcJCfwAo7VqN5tD",
-          "title": "Flutter Course for Beginners \u2013 37-hour Cross Platform App Development Tutorial",
-          "duration": "2199m"
+          "title": "Flutter Course for Beginners – 37-hour Cross Platform App Development Tutorial",
+          "duration": "2199m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=DvZuJeTHWaw&pp=0gcJCf0Ao7VqN5tD",
           "title": "Flutter Crash Course #2 - Installing on Windows",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 7
         }
       ]
     }
@@ -328,7 +383,8 @@
           "Swift"
         ],
         "correct_option": 2,
-        "hint": "This language was developed by Google and is known for its simplicity and ease of use."
+        "hint": "This language was developed by Google and is known for its simplicity and ease of use.",
+        "question_order": 1
       },
       {
         "question": "Which widget is used to create a scrollable list of items in Flutter?",
@@ -339,7 +395,8 @@
           "ListView"
         ],
         "correct_option": 3,
-        "hint": "This widget is similar to a Column but scrollable."
+        "hint": "This widget is similar to a Column but scrollable.",
+        "question_order": 2
       },
       {
         "question": "What is the purpose of the 'setState' method in Flutter?",
@@ -350,7 +407,8 @@
           "To create a new widget tree"
         ],
         "correct_option": 1,
-        "hint": "This method is used to notify the framework that the internal state of a widget has changed."
+        "hint": "This method is used to notify the framework that the internal state of a widget has changed.",
+        "question_order": 3
       },
       {
         "question": "Which Flutter widget is used to create a flexible grid layout?",
@@ -361,7 +419,8 @@
           "Text"
         ],
         "correct_option": 1,
-        "hint": "This widget allows for creating a 2D array of widgets."
+        "hint": "This widget allows for creating a 2D array of widgets.",
+        "question_order": 4
       },
       {
         "question": "What is the role of platform channels in Flutter?",
@@ -372,7 +431,8 @@
           "To manage application state"
         ],
         "correct_option": 2,
-        "hint": "This feature allows Flutter to interact with the platform-specific features not available through the Flutter framework."
+        "hint": "This feature allows Flutter to interact with the platform-specific features not available through the Flutter framework.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -385,7 +445,8 @@
           "To execute background tasks"
         ],
         "correct_option": 2,
-        "hint": "This method is crucial for rendering the UI in Flutter."
+        "hint": "This method is crucial for rendering the UI in Flutter.",
+        "question_order": 1
       },
       {
         "question": "Which Flutter widget would you use to create a scrollable list of items?",
@@ -396,7 +457,8 @@
           "Container"
         ],
         "correct_option": 2,
-        "hint": "This widget is specifically designed for displaying a list of items that can be scrolled vertically or horizontally."
+        "hint": "This widget is specifically designed for displaying a list of items that can be scrolled vertically or horizontally.",
+        "question_order": 2
       },
       {
         "question": "In Dart, which keyword is used to define a constant value that cannot be changed?",
@@ -407,7 +469,8 @@
           "static"
         ],
         "correct_option": 2,
-        "hint": "This keyword is used when the value is known at compile time and will never change."
+        "hint": "This keyword is used when the value is known at compile time and will never change.",
+        "question_order": 3
       },
       {
         "question": "What is the primary role of State Management in Flutter apps?",
@@ -418,7 +481,8 @@
           "To perform database operations"
         ],
         "correct_option": 2,
-        "hint": "Consider how the app's UI responds to changes in data."
+        "hint": "Consider how the app's UI responds to changes in data.",
+        "question_order": 4
       },
       {
         "question": "Which mechanism does Flutter use to communicate with platform-specific code?",
@@ -429,7 +493,8 @@
           "Event Streams"
         ],
         "correct_option": 1,
-        "hint": "This is a bridge that allows Dart code to call native code on Android and iOS."
+        "hint": "This is a bridge that allows Dart code to call native code on Android and iOS.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -442,7 +507,8 @@
           "dynamic keyword"
         ],
         "correct_option": 1,
-        "hint": "This keyword is used to declare variables that are compile-time constants."
+        "hint": "This keyword is used to declare variables that are compile-time constants.",
+        "question_order": 1
       },
       {
         "question": "In Flutter, which widget is commonly used for creating scrollable lists containing a large number of children efficiently?",
@@ -453,7 +519,8 @@
           "Stack"
         ],
         "correct_option": 1,
-        "hint": "This widget creates children lazily as they scroll into view."
+        "hint": "This widget creates children lazily as they scroll into view.",
+        "question_order": 2
       },
       {
         "question": "When using Provider for state management in Flutter, which method should be used to read the current value of a provider without listening to changes?",
@@ -464,7 +531,8 @@
           "context.read()"
         ],
         "correct_option": 3,
-        "hint": "This method is used to access the provider's value without establishing a subscription."
+        "hint": "This method is used to access the provider's value without establishing a subscription.",
+        "question_order": 3
       },
       {
         "question": "What is the purpose of a platform channel in Flutter?",
@@ -475,7 +543,8 @@
           "To define routes and navigation"
         ],
         "correct_option": 1,
-        "hint": "This feature is used to integrate Flutter with platform-specific code."
+        "hint": "This feature is used to integrate Flutter with platform-specific code.",
+        "question_order": 4
       },
       {
         "question": "Which Dart feature allows for creating a collection with a fixed number of elements at compile time?",
@@ -486,7 +555,8 @@
           "Array"
         ],
         "correct_option": 3,
-        "hint": "This collection type is not resizable once initialized."
+        "hint": "This collection type is not resizable once initialized.",
+        "question_order": 5
       }
     ]
   }

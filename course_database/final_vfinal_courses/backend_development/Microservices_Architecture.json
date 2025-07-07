@@ -20,81 +20,96 @@
         {
           "url": "https://prometheus.io/docs/introduction/overview/",
           "description": "An introductory overview of Prometheus, a powerful open-source monitoring and alerting toolkit.",
-          "title": "Overview | Prometheus"
+          "title": "Overview | Prometheus",
+          "resource_order": 1
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/architecture/microservices/",
           "description": "An overview of microservices architecture principles and design patterns on Azure.",
-          "title": "Microservices architecture design - Azure Architecture Center | Microsoft Learn"
+          "title": "Microservices architecture design - Azure Architecture Center | Microsoft Learn",
+          "resource_order": 2
         },
         {
           "url": "https://docs.nestjs.com/microservices/basics",
           "description": "An introductory guide to building microservices with NestJS.",
-          "title": "Microservices | NestJS - A progressive Node.js framework"
+          "title": "Microservices | NestJS - A progressive Node.js framework",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://mindmajix.com/microservices-tutorial",
           "description": "An introductory tutorial on understanding and implementing microservices architecture.",
-          "title": "\u25b7 Microservices Tutorial for Beginners :A Complete Microservice Guide"
+          "title": "▷ Microservices Tutorial for Beginners :A Complete Microservice Guide",
+          "resource_order": 1
         },
         {
           "url": "https://www.geeksforgeeks.org/system-design/microservices/",
           "description": "An introduction to microservices architecture and system design concepts.",
-          "title": "What are Microservices? - GeeksforGeeks"
+          "title": "What are Microservices? - GeeksforGeeks",
+          "resource_order": 2
         },
         {
           "url": "https://www.tutorialspoint.com/microservice_architecture/index.htm",
           "description": "An introductory guide to understanding and implementing microservice architecture.",
-          "title": "Microservice Architecture Tutorial"
+          "title": "Microservice Architecture Tutorial",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=uFhw-wIV8gA",
           "title": "Microservices Tutorial for Beginners | Microservices Architecture | Microservices | Edureka Rewind 1",
-          "duration": "23m"
+          "duration": "23m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=j1gU2oGFayY",
           "title": "What are microservices really all about? - Microservices Basics Tutorial",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=h6aDu9e2L_s",
           "title": "Microservices Tutorial for Beginners",
-          "duration": "127m"
+          "duration": "127m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=1xo-0gCVhTU",
           "title": "Introduction to Microservices, Docker, and Kubernetes",
-          "duration": "55m"
+          "duration": "55m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=P_UZ9no5VP8",
           "title": "Laravel Microservice - Course Introduction (Understanding Microservices)",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=QkdkLdMBuL0&pp=0gcJCfwAo7VqN5tD",
           "title": "Kafka Tutorial for Beginners | Everything you need to get started",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=Nw4AZs1kLAs&pp=0gcJCfwAo7VqN5tD",
           "title": "Introduction to .NET Microservices (.NET 8)",
-          "duration": "476m"
+          "duration": "476m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=tuJqH3AV0e8",
           "title": "Microservices Full Course - Learn Microservices in 4 Hours | Microservices Tutorial | Edureka",
-          "duration": "219m"
+          "duration": "219m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=rv4LlmLmVWk",
           "title": "Microservices explained - the What, Why and How?",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 9
         }
       ]
     },
@@ -103,101 +118,120 @@
         {
           "url": "https://cloud.google.com/architecture",
           "description": "An overview of Google's cloud architecture best practices and design patterns.",
-          "title": "Cloud Architecture Guidance and Topologies \u00a0|\u00a0 Google Cloud"
+          "title": "Cloud Architecture Guidance and Topologies  |  Google Cloud",
+          "resource_order": 1
         },
         {
           "url": "https://github.com/NVIDIA/GenerativeAIExamples",
           "description": "A collection of example projects demonstrating NVIDIA's generative AI capabilities.",
-          "title": "GitHub - NVIDIA/GenerativeAIExamples: Generative AI reference workflows optimized for accelerated infrastructure and microservice architecture."
+          "title": "GitHub - NVIDIA/GenerativeAIExamples: Generative AI reference workflows optimized for accelerated infrastructure and microservice architecture.",
+          "resource_order": 2
         },
         {
           "url": "https://aws.amazon.com/architecture/",
           "description": "An overview of AWS architecture best practices and resources for building scalable applications.",
-          "title": "Reference Architecture Examples and Best Practices"
+          "title": "Reference Architecture Examples and Best Practices",
+          "resource_order": 3
         },
         {
           "url": "https://docs.nvidia.com/mms/text/MDX_Introduction.html",
           "description": "An introduction to NVIDIA's Merlin Model Server for deploying and managing AI models.",
-          "title": "Metropolis Microservices \u2014 mdx-docs 2.1 documentation"
+          "title": "Metropolis Microservices — mdx-docs 2.1 documentation",
+          "resource_order": 4
         },
         {
           "url": "https://docs.nestjs.com/microservices/basics",
           "description": "An introductory guide to building microservices with NestJS.",
-          "title": "Microservices | NestJS - A progressive Node.js framework"
+          "title": "Microservices | NestJS - A progressive Node.js framework",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://vfunction.com/medrec-tutorial/",
           "description": "A step-by-step tutorial on modernizing legacy Java applications using vFunction.",
-          "title": "Medrec Tutorial with vFunction"
+          "title": "Medrec Tutorial with vFunction",
+          "resource_order": 1
         },
         {
           "url": "https://codeit.us/blog/microservices-use-cases",
           "description": "An insightful overview of practical use cases for implementing microservices architecture.",
-          "title": "Microservices Architecture Use Cases and Real-World Examples"
+          "title": "Microservices Architecture Use Cases and Real-World Examples",
+          "resource_order": 2
         },
         {
           "url": "https://dzone.com/articles/microservices-tutorial-learn-all-about-microservic",
           "description": "An in-depth tutorial covering the fundamentals and benefits of microservices architecture.",
-          "title": "Attention Required! | Cloudflare"
+          "title": "Attention Required! | Cloudflare",
+          "resource_order": 3
         },
         {
           "url": "https://lumigo.io/zipkin/",
           "description": "An overview of using Zipkin for distributed tracing in microservices architectures.",
-          "title": "What Is Zipkin? Features, Architecture, and a Quick Tutorial"
+          "title": "What Is Zipkin? Features, Architecture, and a Quick Tutorial",
+          "resource_order": 4
         },
         {
           "url": "https://cloud.google.com/blog/topics/developers-practitioners/microservices-architecture-google-cloud",
           "description": "An overview of implementing microservices architecture on Google Cloud.",
-          "title": "Microservices architecture on Google Cloud | Google Cloud Blog"
+          "title": "Microservices architecture on Google Cloud | Google Cloud Blog",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=_FdKTSFnWeg",
           "title": "Java Full Stack Spring Boot AI Microservice Project: AWS, Spring Boot, Spring Cloud, Keycloak, React",
-          "duration": "599m"
+          "duration": "599m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=QkdkLdMBuL0&pp=0gcJCfwAo7VqN5tD",
           "title": "Kafka Tutorial for Beginners | Everything you need to get started",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=RojKJnF_WWQ",
           "title": "A Beginner's Guide to Event-Driven Architecture",
-          "duration": "37m"
+          "duration": "37m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=DuqGK7KmcAU",
           "title": "Building Modern, Microservices Architectures with Amazon ElastiCache for Redis",
-          "duration": "49m"
+          "duration": "49m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=LSrNCVBUI0k&pp=0gcJCdgAo7VqN5tD",
           "title": "Microservices Architecture With Java, Spring, and MongoDB",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=AiUazlrtgyU",
           "title": "We need to talk about Microservices... (And how NATS.io can simplify things)",
-          "duration": "34m"
+          "duration": "34m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=C250DCwS81Q",
           "title": "Nest.js Microservices Tutorial in 20 Minutes",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=SqVfCyfCJqw&pp=ygUJIzHRgWthZmth",
           "title": "Kafka Tutorial - Spring Boot Microservices",
-          "duration": "51m"
+          "duration": "51m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=MkdutzVB3pY",
           "title": "Mini Course #2 Modular Monolith",
-          "duration": "126m"
+          "duration": "126m",
+          "resource_order": 9
         }
       ]
     },
@@ -206,61 +240,72 @@
         {
           "url": "https://docs.nvidia.com/",
           "description": "Official NVIDIA documentation covering software, hardware, and development tools.",
-          "title": "NVIDIA Documentation Hub - NVIDIA Docs"
+          "title": "NVIDIA Documentation Hub - NVIDIA Docs",
+          "resource_order": 1
         },
         {
           "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html",
           "description": "An overview of AWS's Security Reference Architecture for building secure cloud solutions.",
-          "title": "AWS Security Reference Architecture (AWS SRA) - AWS Prescriptive Guidance"
+          "title": "AWS Security Reference Architecture (AWS SRA) - AWS Prescriptive Guidance",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/architecture",
           "description": "A repository of architecture frameworks and best practices for building on Google Cloud.",
-          "title": "Cloud Architecture Guidance and Topologies \u00a0|\u00a0 Google Cloud"
+          "title": "Cloud Architecture Guidance and Topologies  |  Google Cloud",
+          "resource_order": 3
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
           "description": "Official Microsoft documentation for C# programming language.",
-          "title": "C# Guide - .NET managed language | Microsoft Learn"
+          "title": "C# Guide - .NET managed language | Microsoft Learn",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/",
           "description": "An overview of the Microsoft Azure Solutions Architect Expert certification, including skills measured and preparation resources.",
-          "title": "Microsoft Certified: Azure Solutions Architect Expert - Certifications | Microsoft Learn"
+          "title": "Microsoft Certified: Azure Solutions Architect Expert - Certifications | Microsoft Learn",
+          "resource_order": 1
         },
         {
           "url": "https://api7.ai/learning-center/api-gateway-guide",
           "description": "A detailed guide to understanding and implementing API gateways.",
-          "title": "Dive into API gateways with API7 tutorial, featuring Apache APISIX and API7 Enterprise - API7.ai"
+          "title": "Dive into API gateways with API7 tutorial, featuring Apache APISIX and API7 Enterprise - API7.ai",
+          "resource_order": 2
         },
         {
           "url": "https://openliberty.io/guides/liberty-deep-dive.html",
           "description": "An in-depth exploration of Open Liberty's architecture and features.",
-          "title": "A hands-on technical deep dive on Liberty"
+          "title": "A hands-on technical deep dive on Liberty",
+          "resource_order": 3
         },
         {
           "url": "https://www.udemy.com/topic/microservices/",
           "description": "An educational platform offering various courses on microservices architecture and development.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 4
         },
         {
           "url": "https://panoply.io/data-warehouse-guide/bigquery-architecture/",
           "description": "An overview of Google BigQuery's architecture and its components for efficient data warehousing.",
-          "title": "A Deep Dive Into Google BigQuery Architecture: How It Works [2024\u00a0Updated] | Panoply"
+          "title": "A Deep Dive Into Google BigQuery Architecture: How It Works [2024 Updated] | Panoply",
+          "resource_order": 5
         },
         {
           "url": "https://www.densify.com/openshift-tutorial/",
           "description": "A step-by-step tutorial on optimizing OpenShift environments with Densify.",
-          "title": "OpenShift Tutorial: The Multi-Chapter Guide With Examples"
+          "title": "OpenShift Tutorial: The Multi-Chapter Guide With Examples",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=YJK03LdXwfQ",
           "title": "Complete API Tutorial (from design to implementation with OpenAPI)",
-          "duration": "22m"
+          "duration": "22m",
+          "resource_order": 1
         }
       ]
     }
@@ -276,7 +321,8 @@
           "Microservices architecture is easier to develop than monolithic architecture."
         ],
         "correct_option": 1,
-        "hint": "Consider how the architecture impacts service deployment."
+        "hint": "Consider how the architecture impacts service deployment.",
+        "question_order": 1
       },
       {
         "question": "Which protocol is commonly used for communication in microservices architecture?",
@@ -287,7 +333,8 @@
           "IPX"
         ],
         "correct_option": 2,
-        "hint": "This protocol is known for providing remote procedure calls."
+        "hint": "This protocol is known for providing remote procedure calls.",
+        "question_order": 2
       },
       {
         "question": "What is the role of an API Gateway in microservices architecture?",
@@ -298,7 +345,8 @@
           "It eliminates the need for service discovery."
         ],
         "correct_option": 1,
-        "hint": "Think about how clients interact with multiple services."
+        "hint": "Think about how clients interact with multiple services.",
+        "question_order": 3
       },
       {
         "question": "Why is service discovery important in microservices architecture?",
@@ -309,7 +357,8 @@
           "It reduces the number of services needed."
         ],
         "correct_option": 0,
-        "hint": "Service discovery deals with locating other services."
+        "hint": "Service discovery deals with locating other services.",
+        "question_order": 4
       },
       {
         "question": "Which service communication method is synchronous and often used in microservices?",
@@ -320,7 +369,8 @@
           "UDP"
         ],
         "correct_option": 0,
-        "hint": "This method is a popular web service communication protocol."
+        "hint": "This method is a popular web service communication protocol.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -333,7 +383,8 @@
           "Microservices have a single point of failure"
         ],
         "correct_option": 1,
-        "hint": "Think about the scalability and independence of services."
+        "hint": "Think about the scalability and independence of services.",
+        "question_order": 1
       },
       {
         "question": "Which protocol is commonly used for synchronous communication between microservices?",
@@ -344,7 +395,8 @@
           "UDP"
         ],
         "correct_option": 2,
-        "hint": "This protocol is known for using HTTP verbs to access resources."
+        "hint": "This protocol is known for using HTTP verbs to access resources.",
+        "question_order": 2
       },
       {
         "question": "What role does a service discovery tool play in microservices architecture?",
@@ -355,7 +407,8 @@
           "It provides encryption services"
         ],
         "correct_option": 2,
-        "hint": "This tool is crucial for dynamic environments where service locations change frequently."
+        "hint": "This tool is crucial for dynamic environments where service locations change frequently.",
+        "question_order": 3
       },
       {
         "question": "In a microservices architecture, what is the purpose of an API Gateway?",
@@ -366,7 +419,8 @@
           "To manage internal service logic"
         ],
         "correct_option": 1,
-        "hint": "Consider how client requests are managed and routed in microservices."
+        "hint": "Consider how client requests are managed and routed in microservices.",
+        "question_order": 4
       },
       {
         "question": "Which technology is NOT typically associated with microservices architecture?",
@@ -377,7 +431,8 @@
           "FTP"
         ],
         "correct_option": 3,
-        "hint": "This protocol is more related to file transfer than service communication."
+        "hint": "This protocol is more related to file transfer than service communication.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -390,7 +445,8 @@
           "Unified data management"
         ],
         "correct_option": 0,
-        "hint": "Consider the ease of scaling and deploying services independently."
+        "hint": "Consider the ease of scaling and deploying services independently.",
+        "question_order": 1
       },
       {
         "question": "Which communication protocol is typically more suitable for low latency and high performance in microservices?",
@@ -401,7 +457,8 @@
           "GraphQL"
         ],
         "correct_option": 2,
-        "hint": "This protocol is known for its use of HTTP/2 and support for various programming languages."
+        "hint": "This protocol is known for its use of HTTP/2 and support for various programming languages.",
+        "question_order": 2
       },
       {
         "question": "In a microservices architecture, what is the purpose of an API Gateway?",
@@ -412,7 +469,8 @@
           "To serve as a data cache layer"
         ],
         "correct_option": 1,
-        "hint": "Think about the central role in managing client-service interactions."
+        "hint": "Think about the central role in managing client-service interactions.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is a challenge associated with service discovery in microservices?",
@@ -423,7 +481,8 @@
           "Implementing a shared database schema"
         ],
         "correct_option": 1,
-        "hint": "Consider the dynamic nature of services within a microservices architecture."
+        "hint": "Consider the dynamic nature of services within a microservices architecture.",
+        "question_order": 4
       },
       {
         "question": "How does gRPC improve upon traditional REST APIs in microservices communication?",
@@ -434,7 +493,8 @@
           "By requiring less complex setup"
         ],
         "correct_option": 2,
-        "hint": "Think about how gRPC leverages newer web technologies to enhance communication efficiency."
+        "hint": "Think about how gRPC leverages newer web technologies to enhance communication efficiency.",
+        "question_order": 5
       }
     ]
   }

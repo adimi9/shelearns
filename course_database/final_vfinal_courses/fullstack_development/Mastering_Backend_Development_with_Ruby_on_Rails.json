@@ -28,101 +28,120 @@
         {
           "url": "https://daily.dev/blog/how-to-start-learning-backend-development-structured-learning-path",
           "description": "A structured learning path for beginners to start learning backend development.",
-          "title": "How to Start Learning Backend Development: Structured Learning Path"
+          "title": "How to Start Learning Backend Development: Structured Learning Path",
+          "resource_order": 1
         },
         {
           "url": "https://guides.rubyonrails.org/",
           "description": "Official documentation for Ruby on Rails, covering guides and best practices for web development.",
-          "title": "Ruby on Rails Guides"
+          "title": "Ruby on Rails Guides",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for learning and understanding JavaScript on the web.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 3
         },
         {
           "url": "https://www.linkedin.com/posts/robertbabaev2001_supabase-security-rubyonrails-activity-7231000049902649344-kg9W",
           "description": "An overview of implementing Supabase security features in a Ruby on Rails application.",
-          "title": "The power of digging through documentation and source code is immense. | Robert Babaev"
+          "title": "The power of digging through documentation and source code is immense. | Robert Babaev",
+          "resource_order": 4
         },
         {
           "url": "https://www.numberanalytics.com/blog/mastering-backend-development",
           "description": "An insightful guide to mastering backend development techniques and best practices.",
-          "title": "Mastering Backend Development"
+          "title": "Mastering Backend Development",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://gorails.com/forum/how-did-you-become-good-at-back-end-development-ruby-on-rails",
           "description": "A forum discussion on strategies for mastering back-end development with Ruby on Rails.",
-          "title": "How did you become good at back end development / Ruby on Rails? | GoRails"
+          "title": "How did you become good at back end development / Ruby on Rails? | GoRails",
+          "resource_order": 1
         },
         {
           "url": "https://daily.dev/blog/how-to-start-learning-backend-development-structured-learning-path",
           "description": "A structured learning path for beginners to start learning backend development.",
-          "title": "How to Start Learning Backend Development: Structured Learning Path"
+          "title": "How to Start Learning Backend Development: Structured Learning Path",
+          "resource_order": 2
         },
         {
           "url": "https://learntocodewith.me/posts/backend-development/",
           "description": "An overview of backend development fundamentals and career insights.",
-          "title": "The Beginner's Guide to Backend Development"
+          "title": "The Beginner's Guide to Backend Development",
+          "resource_order": 3
         },
         {
           "url": "https://www.linkedin.com/posts/stewheckenberg_ruby-on-rails-is-the-worst-choice-you-could-activity-7263500922700349440-xM9p",
           "description": "A critical analysis of the drawbacks of using Ruby on Rails for web development.",
-          "title": "Ruby on Rails is the worst choice you could make for a tech stack if you: | Stew Heckenberg"
+          "title": "Ruby on Rails is the worst choice you could make for a tech stack if you: | Stew Heckenberg",
+          "resource_order": 4
         },
         {
           "url": "https://www.designgurus.io/answers/detail/what-is-the-first-language-to-learn-for-backend",
           "description": "A guide on choosing the first programming language for backend development.",
-          "title": "What is the first language to learn for backend?"
+          "title": "What is the first language to learn for backend?",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=DhxLOC-9kW0",
           "title": "Learn Ruby on Rails - Full Course (CREATE INSTAGRAM)",
-          "duration": "175m"
+          "duration": "175m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=E7xd01BOn_4",
           "title": "Ruby on Rails 7 -- Project Beginner Tutorial",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=BJAwmgRsecE",
           "title": "Best *beginner* friendly frameworks to learn in 2024",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
           "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
-          "duration": "1274m"
+          "duration": "1274m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=FJiIvFoxqsc",
           "title": "Rails 7 API Tutorial - Create project and build GET & POST",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=YZvRrldjf1Y",
           "title": "How to Build an E-commerce Website with Django and Python",
-          "duration": "262m"
+          "duration": "262m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=iWVXs6GHlRM",
           "title": "Frontend + Backend Full Course || Full Stack crash course",
-          "duration": "160m"
+          "duration": "160m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=AhAxLiGC7Pc",
           "title": "ASP.NET Core Full Course For Beginners",
-          "duration": "223m"
+          "duration": "223m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=HPLqOtyr1qs",
           "title": "Build A Delivery App From Scratch (Step by Step Tutorial)",
-          "duration": "141m"
+          "duration": "141m",
+          "resource_order": 9
         }
       ]
     },
@@ -131,81 +150,96 @@
         {
           "url": "https://shopify.dev/docs/api",
           "description": "Official documentation for Shopify's API, detailing usage and integration.",
-          "title": "Shopify API, libraries, and tools"
+          "title": "Shopify API, libraries, and tools",
+          "resource_order": 1
         },
         {
           "url": "https://daily.dev/blog/how-to-start-learning-backend-development-structured-learning-path",
           "description": "A structured learning path for beginners to start learning backend development.",
-          "title": "How to Start Learning Backend Development: Structured Learning Path"
+          "title": "How to Start Learning Backend Development: Structured Learning Path",
+          "resource_order": 2
         },
         {
           "url": "https://www.linkedin.com/posts/robertbabaev2001_supabase-security-rubyonrails-activity-7231000049902649344-kg9W",
           "description": "An overview of securing a Ruby on Rails application using Supabase.",
-          "title": "The power of digging through documentation and source code is immense. | Robert Babaev"
+          "title": "The power of digging through documentation and source code is immense. | Robert Babaev",
+          "resource_order": 3
         },
         {
           "url": "https://news.ycombinator.com/item?id=30206989",
           "description": "A Hacker News discussion on the challenges and solutions for handling large-scale database migrations.",
-          "title": "Don't make me think, or why I switched to Rails from JavaScript SPAs | Hacker News"
+          "title": "Don't make me think, or why I switched to Rails from JavaScript SPAs | Hacker News",
+          "resource_order": 4
         },
         {
           "url": "https://docs.astro.build/en/concepts/why-astro/",
           "description": "An explanation of the benefits and key concepts of using Astro for building modern web applications.",
-          "title": "Why Astro? | Docs"
+          "title": "Why Astro? | Docs",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://daily.dev/blog/how-to-start-learning-backend-development-structured-learning-path",
           "description": "A structured learning path for beginners to start learning backend development.",
-          "title": "How to Start Learning Backend Development: Structured Learning Path"
+          "title": "How to Start Learning Backend Development: Structured Learning Path",
+          "resource_order": 1
         },
         {
           "url": "https://www.linkedin.com/posts/akshaymarch7_nodejs-javascript-activity-7227649877248237569-WNd5",
           "description": "An overview of Node.js and JavaScript concepts shared by Akshay on LinkedIn.",
-          "title": "We launched `Namaste Node.js` web series, | Akshay Saini \ud83d\ude80"
+          "title": "We launched `Namaste Node.js` web series, | Akshay Saini 🚀",
+          "resource_order": 2
         },
         {
           "url": "https://www.fullstackacademy.com/blog/learn-ruby-on-rails-for-free-with-these-6-websites",
           "description": "A curated list of six free resources for learning Ruby on Rails.",
-          "title": "Learn Ruby on Rails for Free With These 6 Websites"
+          "title": "Learn Ruby on Rails for Free With These 6 Websites",
+          "resource_order": 3
         },
         {
           "url": "https://www.linkedin.com/posts/dustin-specker_software-engineering-devops-activity-7218978506087546884-ikr1",
           "description": "Insights and strategies for effective software engineering and DevOps practices.",
-          "title": "YAGNI: You Ain't Gonna Need It. | Dustin Specker"
+          "title": "YAGNI: You Ain't Gonna Need It. | Dustin Specker",
+          "resource_order": 4
         },
         {
           "url": "https://github.com/practical-tutorials/project-based-learning",
           "description": "A curated list of project-based tutorials for learning programming and software development.",
-          "title": "GitHub - practical-tutorials/project-based-learning: Curated list of project-based tutorials"
+          "title": "GitHub - practical-tutorials/project-based-learning: Curated list of project-based tutorials",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=BJAwmgRsecE",
           "title": "Best *beginner* friendly frameworks to learn in 2024",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=FHTbsZEJspU",
           "title": "Build and Deploy a Modern YouTube Clone Application in React JS with Material UI 5 | RapidAPI",
-          "duration": "141m"
+          "duration": "141m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=AhAxLiGC7Pc",
           "title": "ASP.NET Core Full Course For Beginners",
-          "duration": "223m"
+          "duration": "223m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=4mOkFXyxfsU&pp=0gcJCfwAo7VqN5tD",
           "title": "Build and Deploy a Modern Full Stack ECommerce React Application with Stripe",
-          "duration": "214m"
+          "duration": "214m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=SF5o1v0pGLc",
           "title": "Top 5 React Frameworks in 2025 | Remix, Gatsby, Astro, Blitz, and Next.js",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 5
         }
       ]
     },
@@ -214,101 +248,120 @@
         {
           "url": "https://daily.dev/blog/how-to-start-learning-backend-development-structured-learning-path",
           "description": "A structured learning path guide for beginners in backend development.",
-          "title": "How to Start Learning Backend Development: Structured Learning Path"
+          "title": "How to Start Learning Backend Development: Structured Learning Path",
+          "resource_order": 1
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "Comprehensive documentation and resources for JavaScript programming on the web.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 2
         },
         {
           "url": "https://shopify.dev/docs/api",
           "description": "Comprehensive documentation for Shopify's API, covering integration and usage guidelines for developers.",
-          "title": "Shopify API, libraries, and tools"
+          "title": "Shopify API, libraries, and tools",
+          "resource_order": 3
         },
         {
           "url": "https://www.nilebits.com/blog/2024/02/ruby-on-rails-postgres-supabase/",
           "description": "A guide on integrating Ruby on Rails with PostgreSQL and Supabase for database management.",
-          "title": "Ruby On Rails: Your Gateway To Seamless Web Development With Postgres On Supabase | Nile Bits"
+          "title": "Ruby On Rails: Your Gateway To Seamless Web Development With Postgres On Supabase | Nile Bits",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.linkedin.com/posts/lucadelpuppo_this-week-i-received-my-copy-of-mastering-activity-7215314344262197248-C4Sn",
           "description": "A LinkedIn post celebrating the receipt of the 'Mastering Python' book by Luca Del Puppo.",
-          "title": "This week, I received my copy of \u201cMastering Node.js Web Development.\u201d | Luca Del Puppo"
+          "title": "This week, I received my copy of “Mastering Node.js Web Development.” | Luca Del Puppo",
+          "resource_order": 1
         },
         {
           "url": "https://daily.dev/blog/how-to-start-learning-backend-development-structured-learning-path",
           "description": "A structured learning path for beginners to start learning backend development.",
-          "title": "How to Start Learning Backend Development: Structured Learning Path"
+          "title": "How to Start Learning Backend Development: Structured Learning Path",
+          "resource_order": 2
         },
         {
           "url": "https://masteringbackend.com/posts/backend-development-ultimate-guide",
           "description": "An ultimate guide to mastering backend development concepts and practices.",
-          "title": "Backend Development: Ultimate Guide (2025) - Mastering Backend"
+          "title": "Backend Development: Ultimate Guide (2025) - Mastering Backend",
+          "resource_order": 3
         },
         {
           "url": "https://community.shopify.com/c/shopify-education-and/how-to-become-a-shopify-developer-a-step-by-step-guide/m-p/2831473",
           "description": "A step-by-step guide on becoming a Shopify developer.",
-          "title": "403 Forbidden"
+          "title": "403 Forbidden",
+          "resource_order": 4
         },
         {
           "url": "https://roadmap.sh/backend/project-ideas",
           "description": "A curated list of project ideas for backend developers to enhance their skills.",
-          "title": "20 Backend Project Ideas to take you from Beginner to Pro"
+          "title": "20 Backend Project Ideas to take you from Beginner to Pro",
+          "resource_order": 5
         },
         {
           "url": "https://www.designgurus.io/answers/detail/what-is-the-first-language-to-learn-for-backend",
           "description": "Advice on choosing the first programming language for backend development.",
-          "title": "What is the first language to learn for backend?"
+          "title": "What is the first language to learn for backend?",
+          "resource_order": 6
         },
         {
           "url": "https://learntocodewith.me/posts/backend-development/",
           "description": "An introductory guide to backend development for beginners.",
-          "title": "The Beginner's Guide to Backend Development"
+          "title": "The Beginner's Guide to Backend Development",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00",
           "title": "MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours",
-          "duration": "470m"
+          "duration": "470m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
           "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
-          "duration": "1274m"
+          "duration": "1274m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=nnHYfNRGFKQ",
           "title": "Unlocking GraphQL's Power with Rails: What No One's Told You Yet!",
-          "duration": "33m"
+          "duration": "33m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=9bGZM4g02Qs",
           "title": "Integrate Stripe Payments in Rails 7: Complete Guide with Webhooks & ActiveStorage | Part 1",
-          "duration": "76m"
+          "duration": "76m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=AhAxLiGC7Pc",
           "title": "ASP.NET Core Full Course For Beginners",
-          "duration": "223m"
+          "duration": "223m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=YZvRrldjf1Y",
           "title": "How to Build an E-commerce Website with Django and Python",
-          "duration": "262m"
+          "duration": "262m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=iWVXs6GHlRM",
           "title": "Frontend + Backend Full Course || Full Stack crash course",
-          "duration": "160m"
+          "duration": "160m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=rbY1OikZkLI",
           "title": "Odoo 18 Module Development | AJScript Media",
-          "duration": "3m"
+          "duration": "3m",
+          "resource_order": 8
         }
       ]
     }
@@ -324,7 +377,8 @@
           "Java"
         ],
         "correct_option": 2,
-        "hint": "It's a language known for its simplicity and productivity."
+        "hint": "It's a language known for its simplicity and productivity.",
+        "question_order": 1
       },
       {
         "question": "What does MVC stand for in the context of Ruby on Rails?",
@@ -335,7 +389,8 @@
           "Manager View Control"
         ],
         "correct_option": 0,
-        "hint": "It's a design pattern that separates the application logic."
+        "hint": "It's a design pattern that separates the application logic.",
+        "question_order": 2
       },
       {
         "question": "Which part of Rails manages database interactions?",
@@ -346,7 +401,8 @@
           "ActiveSupport"
         ],
         "correct_option": 0,
-        "hint": "It's a layer that abstracts database operations."
+        "hint": "It's a layer that abstracts database operations.",
+        "question_order": 3
       },
       {
         "question": "In Rails, what file is used to define routes for URL management?",
@@ -357,7 +413,8 @@
           "Gemfile"
         ],
         "correct_option": 0,
-        "hint": "This file is located in the config folder."
+        "hint": "This file is located in the config folder.",
+        "question_order": 4
       },
       {
         "question": "Which command is used to start a Rails server?",
@@ -368,7 +425,8 @@
           "rails console"
         ],
         "correct_option": 2,
-        "hint": "The command includes a word for 'server'."
+        "hint": "The command includes a word for 'server'.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -381,7 +439,8 @@
           "Facilitating communication between the model and the database"
         ],
         "correct_option": 3,
-        "hint": "It acts as an ORM (Object-Relational Mapping) layer."
+        "hint": "It acts as an ORM (Object-Relational Mapping) layer.",
+        "question_order": 1
       },
       {
         "question": "In a Ruby on Rails application, where would you define the routes for RESTful resources?",
@@ -392,7 +451,8 @@
           "In the db/schema.rb file"
         ],
         "correct_option": 1,
-        "hint": "This file is located in the 'config' directory and handles URL management."
+        "hint": "This file is located in the 'config' directory and handles URL management.",
+        "question_order": 2
       },
       {
         "question": "Which command would you use to generate a new Rails application?",
@@ -403,7 +463,8 @@
           "rails create MyApp"
         ],
         "correct_option": 1,
-        "hint": "It's a command that starts with 'rails new'."
+        "hint": "It's a command that starts with 'rails new'.",
+        "question_order": 3
       },
       {
         "question": "What is the role of the 'controller' in the MVC architecture of Rails?",
@@ -414,7 +475,8 @@
           "To enforce security and manage authentication"
         ],
         "correct_option": 1,
-        "hint": "Controllers handle the incoming requests and interact with models."
+        "hint": "Controllers handle the incoming requests and interact with models.",
+        "question_order": 4
       },
       {
         "question": "Which gem is commonly used for user authentication in Ruby on Rails applications?",
@@ -425,7 +487,8 @@
           "Rspec"
         ],
         "correct_option": 0,
-        "hint": "It's a well-known gem that simplifies authentication."
+        "hint": "It's a well-known gem that simplifies authentication.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -438,7 +501,8 @@
           "rollback"
         ],
         "correct_option": 3,
-        "hint": "It's a simple method name that directly indicates the action of reversing a transaction."
+        "hint": "It's a simple method name that directly indicates the action of reversing a transaction.",
+        "question_order": 1
       },
       {
         "question": "What is the purpose of the 'before_action' callback in Rails controllers?",
@@ -449,7 +513,8 @@
           "To define routes before they are matched"
         ],
         "correct_option": 0,
-        "hint": "This callback is often used to perform actions such as authentication or setting up variables before any action is executed."
+        "hint": "This callback is often used to perform actions such as authentication or setting up variables before any action is executed.",
+        "question_order": 2
       },
       {
         "question": "Which Rails component is responsible for handling HTTP requests and generating the corresponding HTTP responses?",
@@ -460,7 +525,8 @@
           "ActiveSupport"
         ],
         "correct_option": 2,
-        "hint": "This component is part of the MVC architecture and sits between models and views."
+        "hint": "This component is part of the MVC architecture and sits between models and views.",
+        "question_order": 3
       },
       {
         "question": "What is one of the primary benefits of using RESTful routes in a Rails application?",
@@ -471,7 +537,8 @@
           "They improve the speed of database queries."
         ],
         "correct_option": 2,
-        "hint": "This routing approach simplifies the mapping of HTTP methods to CRUD operations."
+        "hint": "This routing approach simplifies the mapping of HTTP methods to CRUD operations.",
+        "question_order": 4
       },
       {
         "question": "In Rails, which testing framework is commonly used for unit testing models?",
@@ -482,7 +549,8 @@
           "Selenium"
         ],
         "correct_option": 1,
-        "hint": "This is the default testing framework that comes with Rails and is known for its simplicity and speed."
+        "hint": "This is the default testing framework that comes with Rails and is known for its simplicity and speed.",
+        "question_order": 5
       }
     ]
   },

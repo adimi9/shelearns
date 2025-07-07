@@ -8,9 +8,9 @@ import java.util.List;
 public class CourseLevel {
 
     public enum LevelName {
-        beginner,
-        intermediate,
-        advanced
+        BEGINNER,
+        INTERMEDIATE,
+        ADVANCED
     }
 
     @Id

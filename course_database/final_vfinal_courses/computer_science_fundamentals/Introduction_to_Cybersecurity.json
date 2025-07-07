@@ -20,95 +20,113 @@
       "docs": [
         {
           "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
-          "description": "NIST Cybersecurity Framework overview and guidelines for improving critical infrastructure protection."
+          "description": "NIST Cybersecurity Framework overview and guidelines for improving critical infrastructure protection.",
+          "resource_order": 1
         },
         {
           "url": "https://developer.zendesk.com/api-reference/ticketing/introduction/",
           "description": "An introduction to the Zendesk Ticketing API, detailing its features and usage.",
-          "title": "Ticketing | Zendesk Developer Docs"
+          "title": "Ticketing | Zendesk Developer Docs",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
           "description": "An introduction to AWS Identity and Access Management (IAM) and its key features.",
-          "title": "What is IAM? - AWS Identity and Access Management"
+          "title": "What is IAM? - AWS Identity and Access Management",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.netacad.com/courses/introduction-to-cybersecurity",
           "description": "An introductory course on cybersecurity fundamentals and practices.",
-          "title": "Introduction to Cybersecurity by Cisco: Free Online Course"
+          "title": "Introduction to Cybersecurity by Cisco: Free Online Course",
+          "resource_order": 1
         },
         {
           "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
           "description": "An introductory guide to the fundamentals of cyber security for beginners.",
-          "title": "Cyber Security For Beginners: A Basic Guide | Simplilearn"
+          "title": "Cyber Security For Beginners: A Basic Guide | Simplilearn",
+          "resource_order": 2
         },
         {
           "url": "https://www.w3schools.com/cybersecurity/",
           "description": "An introductory guide to cybersecurity fundamentals and best practices.",
-          "title": "Cyber Security Tutorial"
+          "title": "Cyber Security Tutorial",
+          "resource_order": 3
         },
         {
           "url": "https://mrcet.com/pdf/Lab%20Manuals/IT/CYBER%20SECURITY%20(R18A0521).pdf",
-          "description": "A lab manual detailing practical exercises and concepts in cybersecurity."
+          "description": "A lab manual detailing practical exercises and concepts in cybersecurity.",
+          "resource_order": 4
         },
         {
           "url": "https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-cybersecurity-ethics/",
           "description": "An introductory guide to the ethical considerations in cybersecurity.",
-          "title": "An Introduction to Cybersecurity Ethics - Markkula Center for Applied Ethics"
+          "title": "An Introduction to Cybersecurity Ethics - Markkula Center for Applied Ethics",
+          "resource_order": 5
         },
         {
           "url": "https://cs50.harvard.edu/cybersecurity/2023/notes/0/",
           "description": "An introduction to the fundamentals of cybersecurity from Harvard's CS50 course.",
-          "title": "Lecture 0 - CS50's Introduction to Cybersecurity"
+          "title": "Lecture 0 - CS50's Introduction to Cybersecurity",
+          "resource_order": 6
         },
         {
           "url": "https://www.cybrary.it/course/introduction-to-it-and-cybersecurity",
           "description": "An introductory course on IT fundamentals and cybersecurity principles.",
-          "title": "Cybersecurity Courses For Beginners | Intro to IT & Cyber Security"
+          "title": "Cybersecurity Courses For Beginners | Intro to IT & Cyber Security",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=ULGILG-ZhO0",
           "title": "Introduction to Cybersecurity",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=z5nc9MDbvkw",
           "title": "Introduction To Cyber Security | Cyber Security Training For Beginners | CyberSecurity | Simplilearn",
-          "duration": "38m"
+          "duration": "38m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=3oTLTijODA4",
           "title": "Cyber Security for Beginners | Introduction to Cyber Security | Cyber Security | Edureka",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=sxqUFxtYZ9E",
           "title": "Introduction to CyberSecurity Cisco Network Academy Course",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=JbEPJv7Ybcs",
           "title": "What You Should Learn Before \"Cybersecurity\" - 2023",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=kmJlnUfMd7I",
           "title": "CS50 Cybersecurity - Introduction",
-          "duration": "2m"
+          "duration": "2m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=fd9LPDSeP_I",
           "title": "Cybersecurity for beginners - entire course for FREE!",
-          "duration": "3m"
+          "duration": "3m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=QxFbPmCTEYM",
           "title": "Introduction to IT & Cybersecurity | Free IT Course for Beginners | Lesson 01 of 07",
-          "duration": "4m"
+          "duration": "4m",
+          "resource_order": 8
         }
       ]
     },
@@ -116,93 +134,111 @@
       "docs": [
         {
           "url": "https://www.akamai.com/products/api-security",
-          "description": "An overview of Akamai's solutions for enhancing API security."
+          "description": "An overview of Akamai's solutions for enhancing API security.",
+          "resource_order": 1
         },
         {
           "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/CSResourceReferenceGuide.pdf",
-          "description": "A comprehensive reference guide for cybersecurity resources in the Department of Defense."
+          "description": "A comprehensive reference guide for cybersecurity resources in the Department of Defense.",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
           "description": "An introduction to AWS Identity and Access Management (IAM) for managing access to AWS services.",
-          "title": "What is IAM? - AWS Identity and Access Management"
+          "title": "What is IAM? - AWS Identity and Access Management",
+          "resource_order": 3
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP",
           "description": "A detailed guide on implementing Content Security Policy (CSP) to enhance web security.",
-          "title": "Content Security Policy (CSP) - HTTP | MDN"
+          "title": "Content Security Policy (CSP) - HTTP | MDN",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.splunk.com/en_us/training/free-courses/overview.html",
           "description": "An overview of free courses offered by Splunk for learning their software and data analysis tools.",
-          "title": "Free Training Courses | Splunk"
+          "title": "Free Training Courses | Splunk",
+          "resource_order": 1
         },
         {
           "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
           "description": "An introductory guide to understanding the fundamentals of cybersecurity for beginners.",
-          "title": "Cyber Security For Beginners: A Basic Guide | Simplilearn"
+          "title": "Cyber Security For Beginners: A Basic Guide | Simplilearn",
+          "resource_order": 2
         },
         {
           "url": "https://mrcet.com/downloads/digital_notes/EEE/CyberSecurity.pdf",
-          "description": "An introductory guide to cybersecurity principles and practices for electrical engineering students."
+          "description": "An introductory guide to cybersecurity principles and practices for electrical engineering students.",
+          "resource_order": 3
         },
         {
           "url": "https://ebpf.io/",
           "description": "A community-driven portal for learning and collaborating on eBPF technology.",
-          "title": "eBPF - Introduction, Tutorials & Community Resources"
+          "title": "eBPF - Introduction, Tutorials & Community Resources",
+          "resource_order": 4
         },
         {
           "url": "https://home.treasury.gov/system/files/136/Managing-Artificial-Intelligence-Specific-Cybersecurity-Risks-In-The-Financial-Services-Sector.pdf",
-          "description": "Guidelines for managing AI-specific cybersecurity risks in the financial services sector."
+          "description": "Guidelines for managing AI-specific cybersecurity risks in the financial services sector.",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=2eEe5LnEbks",
           "title": "Introduction to Linux for Cybersecurity Crash Course 2022",
-          "duration": "102m"
+          "duration": "102m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=WWva3v9Hhfk",
           "title": "Introduction to AI and Leveraging it in Cybersecurity",
-          "duration": "58m"
+          "duration": "58m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=xutDqu_OiH8",
           "title": "Introduction to YARA Part 3 - Rule Use Cases",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=S3CZyu6WD7I",
           "title": "Introducing the Cyber Security Virtual Lab Building Series: Ep1",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=zRDRbRM6B1s",
           "title": "Intro to Cybersecurity and Cyber Wargames",
-          "duration": "81m"
+          "duration": "81m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=fEqx0MeCCHg",
           "title": "Starting a New Digital Forensic Investigation Case in Autopsy 4.19+",
-          "duration": "38m"
+          "duration": "38m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=QjyekaB1ewg",
           "title": "What is CyberSecurity? | CyberSecurity Tutorial | Introduction To CyberSecurity - HKR Trainings",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=d31eg547Uuo",
           "title": "How AI/ML Is Transforming Cybersecurity | Introduction To Cybersecurity | Edureka",
-          "duration": "31m"
+          "duration": "31m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=qTaOZrDnMzQ",
           "title": "Wireshark Tutorial for Beginners | Network Scanning Made Easy",
-          "duration": "20m"
+          "duration": "20m",
+          "resource_order": 9
         }
       ]
     },
@@ -211,103 +247,123 @@
         {
           "url": "https://ebpf.io/what-is-ebpf/",
           "description": "An introduction to eBPF technology and its applications in enhancing Linux kernel capabilities.",
-          "title": "What is eBPF? An Introduction and Deep Dive into the eBPF Technology"
+          "title": "What is eBPF? An Introduction and Deep Dive into the eBPF Technology",
+          "resource_order": 1
         },
         {
           "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/CSResourceReferenceGuide.pdf",
-          "description": "A reference guide for cybersecurity resources provided by the Department of Defense."
+          "description": "A reference guide for cybersecurity resources provided by the Department of Defense.",
+          "resource_order": 2
         },
         {
           "url": "https://www.fortinet.com/training-certification",
           "description": "Fortinet's official training and certification programs for cybersecurity professionals.",
-          "title": "How to get Certified for Cybersecurity | Fortinet"
+          "title": "How to get Certified for Cybersecurity | Fortinet",
+          "resource_order": 3
         },
         {
           "url": "https://dodcio.defense.gov/Portals/0/Documents/CMMC/ModelOverview_V2.0_FINAL2_20211202_508.pdf",
-          "description": "An official overview of the Cybersecurity Maturity Model Certification (CMMC) Version 2.0."
+          "description": "An official overview of the Cybersecurity Maturity Model Certification (CMMC) Version 2.0.",
+          "resource_order": 4
         },
         {
           "url": "https://www.dafcio.af.mil/",
           "description": "The official website for the Department of the Air Force Chief Information Officer providing resources and information on IT and cyber operations.",
-          "title": "SAF/CN - Home Page"
+          "title": "SAF/CN - Home Page",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-for-beginners",
           "description": "An introductory guide to understanding the fundamentals of cyber security for beginners.",
-          "title": "Cyber Security For Beginners: A Basic Guide | Simplilearn"
+          "title": "Cyber Security For Beginners: A Basic Guide | Simplilearn",
+          "resource_order": 1
         },
         {
           "url": "https://mrcet.com/pdf/Lab%20Manuals/IT/CYBER%20SECURITY%20(R18A0521).pdf",
-          "description": "A detailed lab manual for the Cyber Security course under the R18A0521 curriculum."
+          "description": "A detailed lab manual for the Cyber Security course under the R18A0521 curriculum.",
+          "resource_order": 2
         },
         {
           "url": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-cyber-security",
           "description": "An introductory guide explaining the fundamentals and importance of cyber security.",
-          "title": "What is Cyber Security? A Complete Beginner\u2019s Guide"
+          "title": "What is Cyber Security? A Complete Beginner’s Guide",
+          "resource_order": 3
         },
         {
           "url": "https://dotsecurity.com/insights/introduction-to-cybersecurity",
           "description": "An introductory overview of key concepts and practices in cybersecurity.",
-          "title": "A Complete Guide to Cybersecurity for Business | DOT Security"
+          "title": "A Complete Guide to Cybersecurity for Business | DOT Security",
+          "resource_order": 4
         },
         {
           "url": "https://www.sans.org/cyber-security-courses/",
           "description": "A detailed overview of cybersecurity courses offered by SANS Institute.",
-          "title": "Best Cyber Security Courses Online & In Person | SANS Institute"
+          "title": "Best Cyber Security Courses Online & In Person | SANS Institute",
+          "resource_order": 5
         },
         {
           "url": "https://www.fortinet.com/training/cybersecurity-professionals",
           "description": "A training resource for cybersecurity professionals offered by Fortinet.",
-          "title": "Cybersecurity Training for IT Professionals | Fortinet"
+          "title": "Cybersecurity Training for IT Professionals | Fortinet",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=2eEe5LnEbks",
           "title": "Introduction to Linux for Cybersecurity Crash Course 2022",
-          "duration": "102m"
+          "duration": "102m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=Urluwrkhnik",
           "title": "Is Google's Cybersecurity Certification Worth It? (Deep Dive & Honest Review!)",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=rz0RL4Xue-A",
           "title": "How I Would Learn Cyber Security If I Could Start Over in 2025 (6 Month Plan)",
-          "duration": "19m"
+          "duration": "19m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=uSPAWsDtJkM",
           "title": "The Best and Worst Cyber Security Certificates 2025 (HUGE Update)",
-          "duration": "39m"
+          "duration": "39m",
+          "resource_order": 4
         },
         {
           "url": "https://m.youtube.com/watch?v=EKdZutMkmTE&pp=ygUMI2N5YmVyc2FsYXJ5",
-          "title": "\ud83d\udd25 Complete Cyber Security Course For 2023 | Cyber Security Full Course for Beginners | Simplilearn",
-          "duration": "686m"
+          "title": "🔥 Complete Cyber Security Course For 2023 | Cyber Security Full Course for Beginners | Simplilearn",
+          "duration": "686m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=jecEzjahRTQ",
           "title": "Step-By-Step Cybersecurity Beginner Learner's Guide | Cyber Security Training for Beginners 2023",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=DGo0IvE44sY&pp=0gcJCfwAo7VqN5tD",
           "title": "Is this Entry-Level Microsoft Cybersecurity Cert Worth It?!",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=HZzXbxajz80",
           "title": "Cyber Security Full Course 2025 | Cybersecurity Tutorial For Beginners | Cybersecurity | Simplilearn",
-          "duration": "690m"
+          "duration": "690m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=CCIrntyqe64&pp=0gcJCfwAo7VqN5tD",
           "title": "Getting Started in ICS/OT Cyber Security - 20+ Hours - Part 1 (Course Introduction)",
-          "duration": "57m"
+          "duration": "57m",
+          "resource_order": 9
         }
       ]
     }
@@ -323,7 +379,8 @@
           "To reduce the size of data files"
         ],
         "correct_option": 1,
-        "hint": "Encryption is used to protect data by transforming it so only authorized parties can understand it."
+        "hint": "Encryption is used to protect data by transforming it so only authorized parties can understand it.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is considered a common cybersecurity threat?",
@@ -334,7 +391,8 @@
           "Backup"
         ],
         "correct_option": 2,
-        "hint": "This threat often involves tricking individuals into revealing sensitive information."
+        "hint": "This threat often involves tricking individuals into revealing sensitive information.",
+        "question_order": 2
       },
       {
         "question": "What does authentication ensure in a cybersecurity context?",
@@ -345,7 +403,8 @@
           "That networks are always available"
         ],
         "correct_option": 1,
-        "hint": "Authentication verifies the identity of a user or process before granting access."
+        "hint": "Authentication verifies the identity of a user or process before granting access.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is a method to enhance network security?",
@@ -356,7 +415,8 @@
           "Installing more RAM"
         ],
         "correct_option": 0,
-        "hint": "This involves creating complex and unique passwords to prevent unauthorized access."
+        "hint": "This involves creating complex and unique passwords to prevent unauthorized access.",
+        "question_order": 4
       },
       {
         "question": "What is a vulnerability in cybersecurity terms?",
@@ -367,7 +427,8 @@
           "A type of firewall"
         ],
         "correct_option": 1,
-        "hint": "This is a flaw or weakness in a system that can be targeted by threats."
+        "hint": "This is a flaw or weakness in a system that can be targeted by threats.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -380,7 +441,8 @@
           "To prevent data redundancy"
         ],
         "correct_option": 1,
-        "hint": "Encryption is used to keep data private and unreadable to unauthorized users."
+        "hint": "Encryption is used to keep data private and unreadable to unauthorized users.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is considered a common network vulnerability?",
@@ -391,7 +453,8 @@
           "Firewall implementation"
         ],
         "correct_option": 1,
-        "hint": "Think about what could allow unauthorized access to a network."
+        "hint": "Think about what could allow unauthorized access to a network.",
+        "question_order": 2
       },
       {
         "question": "What is the difference between authentication and authorization in cybersecurity?",
@@ -402,7 +465,8 @@
           "Authentication is less important than authorization"
         ],
         "correct_option": 0,
-        "hint": "One process confirms who you are, the other confirms what you are allowed to do."
+        "hint": "One process confirms who you are, the other confirms what you are allowed to do.",
+        "question_order": 3
       },
       {
         "question": "Which hashing algorithm is known for being vulnerable to collision attacks?",
@@ -413,7 +477,8 @@
           "Blowfish"
         ],
         "correct_option": 1,
-        "hint": "This hashing algorithm has been widely used but is now considered insecure due to collision vulnerabilities."
+        "hint": "This hashing algorithm has been widely used but is now considered insecure due to collision vulnerabilities.",
+        "question_order": 4
       },
       {
         "question": "In the context of web security, what is a common method to prevent cross-site scripting (XSS) attacks?",
@@ -424,7 +489,8 @@
           "Enabling HTTP"
         ],
         "correct_option": 1,
-        "hint": "This technique involves checking and cleaning input data to prevent code injection."
+        "hint": "This technique involves checking and cleaning input data to prevent code injection.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -437,7 +503,8 @@
           "ElGamal"
         ],
         "correct_option": 1,
-        "hint": "This algorithm is known for its speed and efficiency in encrypting large amounts of data."
+        "hint": "This algorithm is known for its speed and efficiency in encrypting large amounts of data.",
+        "question_order": 1
       },
       {
         "question": "In the context of network security, what is the primary purpose of a firewall?",
@@ -448,7 +515,8 @@
           "To hash passwords for secure storage"
         ],
         "correct_option": 2,
-        "hint": "Firewalls are a critical component for protecting network perimeters."
+        "hint": "Firewalls are a critical component for protecting network perimeters.",
+        "question_order": 2
       },
       {
         "question": "Which vulnerability allows attackers to execute arbitrary code remotely on a system?",
@@ -459,7 +527,8 @@
           "Man-in-the-Middle Attack"
         ],
         "correct_option": 1,
-        "hint": "This vulnerability often exploits improper handling of memory."
+        "hint": "This vulnerability often exploits improper handling of memory.",
+        "question_order": 3
       },
       {
         "question": "What is the primary difference between hashing and encryption?",
@@ -470,7 +539,8 @@
           "Hashing requires a key, encryption does not"
         ],
         "correct_option": 2,
-        "hint": "Think about what each technique ensures regarding data."
+        "hint": "Think about what each technique ensures regarding data.",
+        "question_order": 4
       },
       {
         "question": "Which protocol is commonly used to secure web transactions by encrypting data?",
@@ -481,7 +551,8 @@
           "TLS"
         ],
         "correct_option": 3,
-        "hint": "This protocol is often seen with its predecessor SSL."
+        "hint": "This protocol is often seen with its predecessor SSL.",
+        "question_order": 5
       }
     ]
   }

@@ -20,96 +20,115 @@
       "docs": [
         {
           "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsTools-ActivitiesGuidebook.pdf",
-          "description": "A guidebook detailing tools and activities for implementing DevSecOps in defense environments."
+          "description": "A guidebook detailing tools and activities for implementing DevSecOps in defense environments.",
+          "resource_order": 1
         },
         {
           "url": "https://www.cto.mil/wp-content/uploads/2024/05/API-Guide-2023.pdf",
-          "description": "A detailed guide on API development and best practices for 2023."
+          "description": "A detailed guide on API development and best practices for 2023.",
+          "resource_order": 2
         },
         {
           "url": "https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf",
-          "description": "The DoD Enterprise DevSecOps Reference Design provides guidelines for implementing DevSecOps practices within the Department of Defense."
+          "description": "The DoD Enterprise DevSecOps Reference Design provides guidelines for implementing DevSecOps practices within the Department of Defense.",
+          "resource_order": 3
         },
         {
           "url": "https://www.cto.mil/wp-content/uploads/2024/08/API-Tech-Guidance-MVCR1-July2024-Cleared.pdf",
-          "description": "Technical guidance on API development and management for 2024."
+          "description": "Technical guidance on API development and management for 2024.",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsTools-ActivitiesGuidebook.pdf",
-          "description": "A guidebook detailing tools and activities for implementing DevSecOps in defense projects."
+          "description": "A guidebook detailing tools and activities for implementing DevSecOps in defense projects.",
+          "resource_order": 1
         },
         {
           "url": "https://www.practical-devsecops.com/devsecops-university/",
           "description": "An educational platform offering courses and certifications in DevSecOps.",
-          "title": "DevSecOps University ( DevSecOps learning resources)"
+          "title": "DevSecOps University ( DevSecOps learning resources)",
+          "resource_order": 2
         },
         {
           "url": "https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf",
-          "description": "The official DoD guide on implementing DevSecOps practices within defense enterprise environments."
+          "description": "The official DoD guide on implementing DevSecOps practices within defense enterprise environments.",
+          "resource_order": 3
         },
         {
           "url": "https://drata.com/grc-central/compliance-as-code/devsecops-best-practices",
           "description": "An overview of DevSecOps best practices for implementing compliance as code.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 4
         },
         {
           "url": "https://about.gitlab.com/topics/devsecops/beginners-guide-to-container-security/",
           "description": "An introductory guide to implementing container security within a DevSecOps framework.",
-          "title": "A beginner\u2019s guide to container security"
+          "title": "A beginner’s guide to container security",
+          "resource_order": 5
         },
         {
           "url": "https://www.sonatype.com/blog/devsecops-a-beginners-guide",
           "description": "An introductory guide to implementing DevSecOps practices in software development.",
-          "title": "DevSecOps: A beginner's guide"
+          "title": "DevSecOps: A beginner's guide",
+          "resource_order": 6
         },
         {
           "url": "https://dzone.com/refcardz/introduction-to-devsecops",
           "description": "An introductory guide to integrating security into DevOps practices.",
-          "title": "Attention Required! | Cloudflare"
+          "title": "Attention Required! | Cloudflare",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://m.youtube.com/watch?v=gLJdrXPn0ns",
           "title": "DevSecOps Tutorial for Beginners | CI Pipeline with GitHub Actions and Docker Scout",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=oD5obfHoPt0",
           "title": "DevSecOps Tutorial for Beginners | What is DevSecOps | DevOps Training | Edureka Rewind",
-          "duration": "23m"
+          "duration": "23m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=WJACs-4e9y0",
           "title": "Introduction of DevOps, SRE and DevSecOps",
-          "duration": "147m"
+          "duration": "147m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=qI8MRbNGKlM",
           "title": "DevSecOps on Azure",
-          "duration": "70m"
+          "duration": "70m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=070ceCeuswM",
           "title": "Master Devops to DevSecOps in Just 1 Year",
-          "duration": "61m"
+          "duration": "61m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=yWIomSOSkdg",
           "title": "DevSecOps with Gitlab",
-          "duration": "75m"
+          "duration": "75m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=F5KJVuii0Yw",
           "title": "Web App Vulnerabilities - DevSecOps Course for Beginners",
-          "duration": "88m"
+          "duration": "88m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=Ke_Wr5zPE0A",
           "title": "DevSecOps CI/CD Pipeline Implementation | Beginner to Advanced | Tiktactoe Game",
-          "duration": "99m"
+          "duration": "99m",
+          "resource_order": 8
         }
       ]
     },
@@ -117,99 +136,118 @@
       "docs": [
         {
           "url": "https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf",
-          "description": "A reference design document for implementing DevSecOps practices in the Department of Defense."
+          "description": "A reference design document for implementing DevSecOps practices in the Department of Defense.",
+          "resource_order": 1
         },
         {
           "url": "https://csrc.nist.gov/projects/ssdf",
           "description": "An overview of the Secure Software Development Framework (SSDF) by NIST.",
-          "title": "Secure Software Development Framework | CSRC"
+          "title": "Secure Software Development Framework | CSRC",
+          "resource_order": 2
         },
         {
           "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/DoD%20Enterprise%20DevSecOps%20Fundamentals%20v2.5.pdf",
-          "description": "An overview of the fundamental principles and practices of DevSecOps within the Department of Defense."
+          "description": "An overview of the fundamental principles and practices of DevSecOps within the Department of Defense.",
+          "resource_order": 3
         },
         {
           "url": "https://snyk.io/",
           "description": "A platform for securing and managing open source and container vulnerabilities.",
-          "title": "Snyk AI-powered Developer Security Platform | AI-powered AppSec Tool & Security Platform | Snyk"
+          "title": "Snyk AI-powered Developer Security Platform | AI-powered AppSec Tool & Security Platform | Snyk",
+          "resource_order": 4
         },
         {
           "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/DevSecOpsTools-ActivitiesGuidebook.pdf",
-          "description": "A guidebook detailing tools and activities for implementing DevSecOps in defense projects."
+          "description": "A guidebook detailing tools and activities for implementing DevSecOps in defense projects.",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.nccoe.nist.gov/projects/software-supply-chain-and-devops-security-practices",
           "description": "Guidelines for enhancing software supply chain and DevOps security practices.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://about.gitlab.com/",
           "description": "An overview of GitLab's features, offerings, and company information.",
-          "title": "The most-comprehensive AI-powered DevSecOps platform"
+          "title": "The most-comprehensive AI-powered DevSecOps platform",
+          "resource_order": 2
         },
         {
           "url": "https://www.atlassian.com/devops/devops-tools/devsecops-tools",
           "description": "An overview of essential DevSecOps tools for integrating security into DevOps workflows.",
-          "title": "DevSecOps Tools | Atlassian"
+          "title": "DevSecOps Tools | Atlassian",
+          "resource_order": 3
         },
         {
           "url": "https://www.sdxcentral.com/articles/news/devsecops-adoption-lags-despite-incident-detection-impact/2022/08/",
           "description": "An analysis of the slow adoption of DevSecOps despite its benefits in incident detection.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 4
         },
         {
           "url": "https://www.linkedin.com/posts/richardselfllm_devsecops-teams-are-ramping-up-the-use-of-activity-7252683769394925569-nXnL",
           "description": "Insights into how DevSecOps teams are increasing the use of AI and ML technologies.",
-          "title": "How long will it be before these teams finally give these untrustworthy LLM based coding systems the boot? | Richard Self"
+          "title": "How long will it be before these teams finally give these untrustworthy LLM based coding systems the boot? | Richard Self",
+          "resource_order": 5
         },
         {
           "url": "https://events.afcea.org/Augusta24/Public/eBooth.aspx?IndexInList=161&FromPage=Exhibitors.aspx&ParentBoothID=&ListByBooth=true&BoothID=1018378&Nav=False",
           "description": "Information about an exhibitor at the AFCEA TechNet Augusta 2024 event.",
-          "title": "2024 AFCEA TechNet Augusta Conference and Expo"
+          "title": "2024 AFCEA TechNet Augusta Conference and Expo",
+          "resource_order": 6
         },
         {
           "url": "https://www.linkedin.com/posts/erezkaminski_medtech-softwaredevelopment-ai-activity-7232391189843320835-OIjF",
           "description": "Insights into the intersection of medtech, software development, and AI.",
-          "title": "\ud83d\ude80 Exciting News from Ketryx! | Erez Kaminski"
+          "title": "🚀 Exciting News from Ketryx! | Erez Kaminski",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://m.youtube.com/watch?v=gLJdrXPn0ns",
           "title": "DevSecOps Tutorial for Beginners | CI Pipeline with GitHub Actions and Docker Scout",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=z8l7SIm6RlQ",
           "title": "DevSecOps - DOD Use Cases and Plans for a New NIST Framework",
-          "duration": "43m"
+          "duration": "43m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=FOW6ZA2zBHA",
           "title": "3# DevSecOps in Azure + GitHub",
-          "duration": "97m"
+          "duration": "97m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=MSAMmqS2J6Q",
           "title": "Master AWS DevSecOps || Hands-on Demo & Real-Time Implementation",
-          "duration": "65m"
+          "duration": "65m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=orlrck3_mfc",
           "title": "SecDevOps vs DevSecOps - Which is the right approach?",
-          "duration": "60m"
+          "duration": "60m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=by25ZKJ6ENU",
           "title": "DevSecOps Workflow with GitHub Actions | The Way of the Future",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=etq4hGKY5nw",
           "title": "FULL DevSecOps 1+ Hours Course with DOCKER and KUBERNETES",
-          "duration": "109m"
+          "duration": "109m",
+          "resource_order": 7
         }
       ]
     },
@@ -217,96 +255,114 @@
       "docs": [
         {
           "url": "https://dodcio.defense.gov/Portals/0/Documents/Library/DoD%20Enterprise%20DevSecOps%20Fundamentals%20v2.5.pdf",
-          "description": "An official guide outlining the fundamentals of DevSecOps practices within the Department of Defense."
+          "description": "An official guide outlining the fundamentals of DevSecOps practices within the Department of Defense.",
+          "resource_order": 1
         },
         {
           "url": "https://training-certifications.checkpoint.com/",
           "description": "A platform offering certifications and training for Check Point cybersecurity solutions.",
-          "title": "ERROR: The request could not be satisfied"
+          "title": "ERROR: The request could not be satisfied",
+          "resource_order": 2
         },
         {
           "url": "https://aws.amazon.com/certification/certified-devops-engineer-professional/",
           "description": "An overview of the AWS Certified DevOps Engineer - Professional certification, detailing exam objectives and preparation resources.",
-          "title": "AWS Certified DevOps Engineer \u2013 Professional"
+          "title": "AWS Certified DevOps Engineer – Professional",
+          "resource_order": 3
         },
         {
           "url": "https://www.linkedin.com/posts/jit_osv-scanner-vs-npm-audit-a-detailed-comparison-activity-7199119000218267650-QNKd",
           "description": "A detailed comparison between OSV Scanner and npm audit for vulnerability scanning.",
-          "title": "Using #opensource libraries? | Jit"
+          "title": "Using #opensource libraries? | Jit",
+          "resource_order": 4
         },
         {
           "url": "https://azure.microsoft.com/en-us",
           "description": "The official Microsoft Azure site providing cloud services, solutions, and resources.",
-          "title": "Cloud Computing Services | Microsoft Azure"
+          "title": "Cloud Computing Services | Microsoft Azure",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://about.gitlab.com/blog/ultimate-guide-to-ci-cd-fundamentals-to-advanced-implementation/",
           "description": "An in-depth guide to understanding and implementing CI/CD from basics to advanced levels.",
-          "title": "Ultimate guide to CI/CD: Fundamentals to advanced implementation"
+          "title": "Ultimate guide to CI/CD: Fundamentals to advanced implementation",
+          "resource_order": 1
         },
         {
           "url": "https://www.wiz.io/academy/application-security-posture-management-aspm",
           "description": "An introduction to Application Security Posture Management (ASPM) and its benefits for securing applications.",
-          "title": "What is Application Security Posture Management (ASPM)? | Wiz"
+          "title": "What is Application Security Posture Management (ASPM)? | Wiz",
+          "resource_order": 2
         },
         {
           "url": "https://about.gitlab.com/blog/the-ultimate-guide-to-sboms/",
           "description": "An in-depth guide to Software Bill of Materials (SBOMs) and their importance in software development.",
-          "title": "The ultimate guide to SBOMs"
+          "title": "The ultimate guide to SBOMs",
+          "resource_order": 3
         },
         {
           "url": "https://www.sans.org/cyber-security-courses/",
           "description": "An overview of cybersecurity training courses offered by SANS Institute.",
-          "title": "Best Cyber Security Courses Online & In Person | SANS Institute"
+          "title": "Best Cyber Security Courses Online & In Person | SANS Institute",
+          "resource_order": 4
         },
         {
           "url": "https://www.practical-devsecops.com/what-is-devsecops-pipelines/",
           "description": "An overview of DevSecOps pipelines and their role in integrating security into DevOps workflows.",
-          "title": "What is DevSecOps Pipelines? - Easy Guide to Understand"
+          "title": "What is DevSecOps Pipelines? - Easy Guide to Understand",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=2T86xAtR6Fo",
           "title": "Complete Kubernetes Course - From BEGINNER to PRO",
-          "duration": "374m"
+          "duration": "374m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw",
           "title": "Complete Docker Course - From BEGINNER to PRO! (Learn Containers)",
-          "duration": "284m"
+          "duration": "284m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=pk172-9h-uo",
           "title": "A Guide to Smart Dependency Management",
-          "duration": "53m"
+          "duration": "53m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=DZvx35bB9gE",
           "title": "Security with Red Hat OpenShift for DevSecOps",
-          "duration": "22m"
+          "duration": "22m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=ZR_NHspROPg",
           "title": "GitLab DevSecOps Platform End to End demo",
-          "duration": "36m"
+          "duration": "36m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=i740xlsqxEM",
-          "title": "GitHub Advanced Security Certification \u2013 Pass the Exam!",
-          "duration": "156m"
+          "title": "GitHub Advanced Security Certification – Pass the Exam!",
+          "duration": "156m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=5YpKt7eS2ic",
           "title": "How to build an AI DevSecOps Chatbot | Amazon Web Services",
-          "duration": "23m"
+          "duration": "23m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=pAQAdKk_WBs",
           "title": "DevSecOps: Mastering Security in Software Development",
-          "duration": "6m"
+          "duration": "6m",
+          "resource_order": 8
         }
       ]
     }
@@ -322,7 +378,8 @@
           "To improve the user interface of the software"
         ],
         "correct_option": 2,
-        "hint": "Think about what is crucial for safeguarding software throughout its development."
+        "hint": "Think about what is crucial for safeguarding software throughout its development.",
+        "question_order": 1
       },
       {
         "question": "Which practice involves identifying potential security threats and vulnerabilities in a software system?",
@@ -333,7 +390,8 @@
           "Continuous Integration"
         ],
         "correct_option": 0,
-        "hint": "This practice is focused on anticipating and mitigating risks."
+        "hint": "This practice is focused on anticipating and mitigating risks.",
+        "question_order": 2
       },
       {
         "question": "What does SAST stand for in the context of security testing?",
@@ -344,7 +402,8 @@
           "Standard Application Security Testing"
         ],
         "correct_option": 1,
-        "hint": "The first word relates to something that doesn't change or move."
+        "hint": "The first word relates to something that doesn't change or move.",
+        "question_order": 3
       },
       {
         "question": "Which approach is used to examine a running application for vulnerabilities?",
@@ -355,7 +414,8 @@
           "Load Testing"
         ],
         "correct_option": 1,
-        "hint": "This method involves testing the application in its active state."
+        "hint": "This method involves testing the application in its active state.",
+        "question_order": 4
       },
       {
         "question": "Why are secure coding guidelines important in software development?",
@@ -366,7 +426,8 @@
           "They simplify the coding process"
         ],
         "correct_option": 2,
-        "hint": "The primary concern is about preventing weaknesses that could be exploited by attackers."
+        "hint": "The primary concern is about preventing weaknesses that could be exploited by attackers.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -379,7 +440,8 @@
           "To ensure compliance with design standards"
         ],
         "correct_option": 2,
-        "hint": "Think about the benefits of addressing security issues early in the development process."
+        "hint": "Think about the benefits of addressing security issues early in the development process.",
+        "question_order": 1
       },
       {
         "question": "Which phase of the SDLC is most concerned with threat modeling?",
@@ -390,7 +452,8 @@
           "Deployment"
         ],
         "correct_option": 0,
-        "hint": "Consider the phase where system architecture is defined and potential threats are identified."
+        "hint": "Consider the phase where system architecture is defined and potential threats are identified.",
+        "question_order": 2
       },
       {
         "question": "What distinguishes Static Application Security Testing (SAST) from Dynamic Application Security Testing (DAST)?",
@@ -401,7 +464,8 @@
           "SAST is performed after deployment, while DAST is done during development"
         ],
         "correct_option": 2,
-        "hint": "Consider which testing method involves analyzing the actual code versus the application during execution."
+        "hint": "Consider which testing method involves analyzing the actual code versus the application during execution.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is NOT a key principle of secure coding guidelines?",
@@ -412,7 +476,8 @@
           "Error handling and logging"
         ],
         "correct_option": 1,
-        "hint": "Identify the option that could potentially introduce security vulnerabilities."
+        "hint": "Identify the option that could potentially introduce security vulnerabilities.",
+        "question_order": 4
       },
       {
         "question": "In DevSecOps, what is a primary benefit of shifting security practices left?",
@@ -423,7 +488,8 @@
           "Earlier detection and resolution of security issues"
         ],
         "correct_option": 3,
-        "hint": "Consider how applying security measures earlier in the development process impacts the overall security posture."
+        "hint": "Consider how applying security measures earlier in the development process impacts the overall security posture.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -436,7 +502,8 @@
           "To enhance user experience"
         ],
         "correct_option": 2,
-        "hint": "Consider the benefits of addressing security issues early rather than later in the lifecycle."
+        "hint": "Consider the benefits of addressing security issues early rather than later in the lifecycle.",
+        "question_order": 1
       },
       {
         "question": "In Threat Modeling, which of the following activities is most critical for identifying potential security risks?",
@@ -447,7 +514,8 @@
           "Performing usability testing"
         ],
         "correct_option": 1,
-        "hint": "This activity involves understanding how data moves through the system and where vulnerabilities may exist."
+        "hint": "This activity involves understanding how data moves through the system and where vulnerabilities may exist.",
+        "question_order": 2
       },
       {
         "question": "What is a key difference between Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST)?",
@@ -458,7 +526,8 @@
           "SAST is faster than DAST in all scenarios"
         ],
         "correct_option": 2,
-        "hint": "Consider how each testing method interacts with the application code or deployed application."
+        "hint": "Consider how each testing method interacts with the application code or deployed application.",
+        "question_order": 3
       },
       {
         "question": "Which secure coding guideline is most effective in preventing SQL Injection attacks?",
@@ -469,7 +538,8 @@
           "Applying consistent error handling"
         ],
         "correct_option": 0,
-        "hint": "Think about how you can prevent attackers from manipulating SQL queries."
+        "hint": "Think about how you can prevent attackers from manipulating SQL queries.",
+        "question_order": 4
       },
       {
         "question": "In the context of DevSecOps, what does the term 'shift left' mean?",
@@ -480,7 +550,8 @@
           "Focusing on production environment security"
         ],
         "correct_option": 2,
-        "hint": "Consider the benefits of addressing security concerns early in the SDLC."
+        "hint": "Consider the benefits of addressing security concerns early in the SDLC.",
+        "question_order": 5
       }
     ]
   }

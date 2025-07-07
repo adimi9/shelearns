@@ -28,81 +28,96 @@
         {
           "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
           "description": "An introductory guide to understanding and using Node.js for JavaScript programming.",
-          "title": "Node.js \u2014 Introduction to Node.js"
+          "title": "Node.js — Introduction to Node.js",
+          "resource_order": 1
         },
         {
           "url": "https://expressjs.com/",
           "description": "Official documentation for Express.js, a web application framework for Node.js.",
-          "title": "Express - Node.js web application framework"
+          "title": "Express - Node.js web application framework",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
           "description": "An introductory guide to building server-side applications using Express and Node.js.",
-          "title": "Express/Node introduction - Learn web development | MDN"
+          "title": "Express/Node introduction - Learn web development | MDN",
+          "resource_order": 3
         },
         {
           "url": "https://docs.stripe.com/api",
           "description": "Comprehensive documentation for Stripe's API, detailing endpoints and integration methods.",
-          "title": "Stripe API Reference"
+          "title": "Stripe API Reference",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
           "description": "An introductory guide to understanding and using Node.js for beginners.",
-          "title": "Node.js \u2014 Introduction to Node.js"
+          "title": "Node.js — Introduction to Node.js",
+          "resource_order": 1
         },
         {
           "url": "http://www.w3schools.com/nodejs/",
           "description": "An educational resource for learning Node.js programming and its applications.",
-          "title": "Node.js Tutorial"
+          "title": "Node.js Tutorial",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
           "description": "An introductory guide to using Express with Node.js for server-side web development.",
-          "title": "Express/Node introduction - Learn web development | MDN"
+          "title": "Express/Node introduction - Learn web development | MDN",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=XUbOCs2QHYk",
           "title": "Introduction to Node.js & Learn basics of JavaScript | Backend development tutorial",
-          "duration": "38m"
+          "duration": "38m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=f2EqECiTBL8",
           "title": "Node.js Full Course for Beginners | Complete All-in-One Tutorial | 7 Hours",
-          "duration": "410m"
+          "duration": "410m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=1oTuMPIwHmk",
           "title": "Back-End Web Development (Tutorial for Beginners)",
-          "duration": "188m"
+          "duration": "188m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=fhRHGAgvrh4",
           "title": "NodeJS and Express Backend Development Tutorial 2024 with AI Projects",
-          "duration": "70m"
+          "duration": "70m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=Hl7diL7SFw8",
           "title": "Introduction - Full Stack Web Development Course [1] | ReactJS, NodeJS, Express, MySQL",
-          "duration": "27m"
+          "duration": "27m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=w-7RQ46RgxU",
           "title": "Node JS Tutorial for Beginners #1 - Introduction",
-          "duration": "4m"
+          "duration": "4m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=RHLxtAo0aEI&pp=0gcJCf0Ao7VqN5tD",
           "title": "React JS Tutorial [2023]: Backend Server Setup Using NodeJS and Express",
-          "duration": "24m"
+          "duration": "24m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=O3BUHwfHf84&pp=0gcJCfwAo7VqN5tD",
-          "title": "MERN Stack Tutorial with Deployment \u2013 Beginner's Course",
-          "duration": "136m"
+          "title": "MERN Stack Tutorial with Deployment – Beginner's Course",
+          "duration": "136m",
+          "resource_order": 8
         }
       ]
     },
@@ -111,96 +126,114 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
           "description": "An introductory guide to building server-side applications using Express and Node.js.",
-          "title": "Express/Node introduction - Learn web development | MDN"
+          "title": "Express/Node introduction - Learn web development | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://community.openai.com/t/how-to-train-open-ai-with-my-own-datas-from-database/305762",
           "description": "A discussion on methods for training OpenAI models with custom database data.",
-          "title": "How to train open ai with my own datas from database? - API - OpenAI Developer Community"
+          "title": "How to train open ai with my own datas from database? - API - OpenAI Developer Community",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for JavaScript documentation and learning materials.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 3
         },
         {
           "url": "https://nodejs.org/api/packages.html",
           "description": "Official Node.js documentation detailing package management and usage.",
-          "title": "Modules: Packages | Node.js v24.3.0 Documentation"
+          "title": "Modules: Packages | Node.js v24.3.0 Documentation",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
           "description": "An introductory guide to using Express.js for server-side development with Node.js.",
-          "title": "Express/Node introduction - Learn web development | MDN"
+          "title": "Express/Node introduction - Learn web development | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://stackoverflow.com/questions/58833714/how-does-an-api-compare-to-directly-querying-your-database",
           "description": "A discussion on the advantages and disadvantages of using APIs versus direct database queries.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://www.geeksforgeeks.org/node-js/nodejs/",
           "description": "An in-depth tutorial series covering various aspects of Node.js programming.",
-          "title": "Node.js Tutorial - GeeksforGeeks"
+          "title": "Node.js Tutorial - GeeksforGeeks",
+          "resource_order": 3
         },
         {
           "url": "https://www.linkedin.com/pulse/from-nodejs-go-why-im-making-switch-backend-luqman-shaban-v9qdf",
           "description": "An article discussing the author's reasons for transitioning from Node.js to Go for backend development.",
-          "title": "From Node.js to Go: Why I\u2019m Making the Switch for Backend Development"
+          "title": "From Node.js to Go: Why I’m Making the Switch for Backend Development",
+          "resource_order": 4
         },
         {
           "url": "https://community.openai.com/t/how-to-train-open-ai-with-my-own-datas-from-database/305762",
           "description": "A discussion on methods for training OpenAI models using custom database data.",
-          "title": "How to train open ai with my own datas from database? - API - OpenAI Developer Community"
+          "title": "How to train open ai with my own datas from database? - API - OpenAI Developer Community",
+          "resource_order": 5
         },
         {
           "url": "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-backend",
           "description": "A detailed tutorial on building backend applications using Node.js.",
-          "title": "How to Use Node Js for Backend Web Development | Simplilearn"
+          "title": "How to Use Node Js for Backend Web Development | Simplilearn",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=bsaGKP8Eon4",
           "title": "Learn Backend Development In Node JS | 120+ Hours of live lecture | Rookie to Pro | 3+ Projects",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=qwfE7fSVaZM",
           "title": "Node.js / Express Course - Build 4 Projects",
-          "duration": "600m"
+          "duration": "600m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
           "title": "Easily Deploy Full Stack Node.js Apps on AWS EC2 | Step-by-Step Tutorial",
-          "duration": "29m"
+          "duration": "29m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=GHVvrYD4VRE",
           "title": "Unit Testing with JEST in 80 Minutes - CRASH COURSE (NODE JS)",
-          "duration": "77m"
+          "duration": "77m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=zuKbR4Q428o",
           "title": "JavaScript Unit Testing Tutorial for Beginners",
-          "duration": "48m"
+          "duration": "48m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=mtuYmm2ITvI",
           "title": "Visitor Counter with Node.js and Express | JavaScript Tutorial",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
           "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
-          "duration": "305m"
+          "duration": "305m",
+          "resource_order": 8
         }
       ]
     },
@@ -209,101 +242,120 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "Comprehensive documentation and learning resources for JavaScript developers.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://nodejs.org/docs/latest/api/",
           "description": "The official Node.js API documentation for the latest version.",
-          "title": "Index | Node.js v24.3.0 Documentation"
+          "title": "Index | Node.js v24.3.0 Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://expressjs.com/",
           "description": "Official documentation for Express.js, a fast and minimal web framework for Node.js.",
-          "title": "Express - Node.js web application framework"
+          "title": "Express - Node.js web application framework",
+          "resource_order": 3
         },
         {
           "url": "https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick",
           "description": "An explanation of Node.js's event loop, timers, and process.nextTick.",
-          "title": "Node.js \u2014 The Node.js Event Loop"
+          "title": "Node.js — The Node.js Event Loop",
+          "resource_order": 4
         },
         {
           "url": "https://artoonsolutions.com/nodejs-documentation/",
           "description": "A detailed documentation resource for Node.js development and best practices.",
-          "title": "Nodejs Documentation Guide & Tips"
+          "title": "Nodejs Documentation Guide & Tips",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://masteringbackend.com/posts/expressjs-5-tutorial-the-ultimate-guide/",
           "description": "The ultimate guide to mastering Express.js 5 for backend development.",
-          "title": "ExpressJS Tutorial: The Ultimate Guide (2023) - Mastering Backend"
+          "title": "ExpressJS Tutorial: The Ultimate Guide (2023) - Mastering Backend",
+          "resource_order": 1
         },
         {
           "url": "http://nodesource.com/blog/how-nodejs-works/",
           "description": "An in-depth explanation of the inner workings and architecture of Node.js.",
-          "title": "How Node.js Works: A Comprehensive Guide in 2025"
+          "title": "How Node.js Works: A Comprehensive Guide in 2025",
+          "resource_order": 2
         },
         {
           "url": "https://daily.dev/blog/setup-nodejs-express-project-a-beginners-guide",
           "description": "A beginner's guide to setting up a Node.js and Express project.",
-          "title": "Setup Node.js Express Project: A Beginner's Guide"
+          "title": "Setup Node.js Express Project: A Beginner's Guide",
+          "resource_order": 3
         },
         {
           "url": "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions",
           "description": "A collection of common Node.js interview questions and their answers for job preparation.",
-          "title": "Top 100+ Node.js Interview Questions and Answers for 2025"
+          "title": "Top 100+ Node.js Interview Questions and Answers for 2025",
+          "resource_order": 4
         },
         {
           "url": "https://blog.risingstack.com/node-js-project-structure-tutorial-node-js-at-scale/",
           "description": "A tutorial on structuring large-scale Node.js projects effectively.",
-          "title": "Advanced Node.js Project Structure Tutorial - RisingStack Engineering"
+          "title": "Advanced Node.js Project Structure Tutorial - RisingStack Engineering",
+          "resource_order": 5
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An in-depth resource for learning and mastering JavaScript on the web.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=f2EqECiTBL8",
           "title": "Node.js Full Course for Beginners | Complete All-in-One Tutorial | 7 Hours",
-          "duration": "410m"
+          "duration": "410m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
           "title": "The Complete Guide To Building A REST API With Node, Express, TypeScript & MongoDB + Authentication",
-          "duration": "49m"
+          "duration": "49m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=fUJ3ULyyA-Y",
           "title": "Node.js 101 Crash Course: Learn Node.js (6 HOURS!) + Build Your First Project!",
-          "duration": "385m"
+          "duration": "385m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
           "title": "The Complete Backend Developer Roadmap",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=MIJt9H69QVc",
           "title": "Node JS Full Course 2024 | Complete Backend Development Course | Part 1",
-          "duration": "666m"
+          "duration": "666m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=qG-PLm3APSs&pp=0gcJCdgAo7VqN5tD",
           "title": "Advanced Node.js Crash Course | New Year Gift!",
-          "duration": "165m"
+          "duration": "165m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
           "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
-          "duration": "305m"
+          "duration": "305m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=H9M02of22z4",
           "title": "Learn Node.js & Express with Project in 2 Hours",
-          "duration": "102m"
+          "duration": "102m",
+          "resource_order": 8
         }
       ]
     }
@@ -319,7 +371,8 @@
           "Game development"
         ],
         "correct_option": 2,
-        "hint": "Node.js is commonly used for server-side applications."
+        "hint": "Node.js is commonly used for server-side applications.",
+        "question_order": 1
       },
       {
         "question": "Which of the following best describes the Node.js event loop?",
@@ -330,7 +383,8 @@
           "A loop for compiling C++ code"
         ],
         "correct_option": 1,
-        "hint": "The event loop is essential for non-blocking operations in Node.js."
+        "hint": "The event loop is essential for non-blocking operations in Node.js.",
+        "question_order": 2
       },
       {
         "question": "Which module is used to create a basic HTTP server in Node.js?",
@@ -341,7 +395,8 @@
           "mysql"
         ],
         "correct_option": 1,
-        "hint": "This module is built into Node.js for creating web servers."
+        "hint": "This module is built into Node.js for creating web servers.",
+        "question_order": 3
       },
       {
         "question": "Which framework is commonly used for building RESTful APIs in Node.js?",
@@ -352,7 +407,8 @@
           "Spring"
         ],
         "correct_option": 1,
-        "hint": "This framework is popular for its simplicity and minimalism."
+        "hint": "This framework is popular for its simplicity and minimalism.",
+        "question_order": 4
       },
       {
         "question": "Which database is commonly integrated with Node.js for handling JSON-like documents?",
@@ -363,7 +419,8 @@
           "PostgreSQL"
         ],
         "correct_option": 2,
-        "hint": "This database is known for its NoSQL capabilities and BSON format."
+        "hint": "This database is known for its NoSQL capabilities and BSON format.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -376,7 +433,8 @@
           "To create RESTful APIs"
         ],
         "correct_option": 0,
-        "hint": "Think about how Node.js handles non-blocking operations."
+        "hint": "Think about how Node.js handles non-blocking operations.",
+        "question_order": 1
       },
       {
         "question": "Which module in Node.js is used to create a basic HTTP server?",
@@ -387,7 +445,8 @@
           "net"
         ],
         "correct_option": 1,
-        "hint": "This module's name is similar to the protocol it handles."
+        "hint": "This module's name is similar to the protocol it handles.",
+        "question_order": 2
       },
       {
         "question": "In Express.js, which method is used to define a route for HTTP GET requests?",
@@ -398,7 +457,8 @@
           "app.delete()"
         ],
         "correct_option": 2,
-        "hint": "This method is named after the HTTP method for retrieving data."
+        "hint": "This method is named after the HTTP method for retrieving data.",
+        "question_order": 3
       },
       {
         "question": "What is the purpose of middleware in Express.js?",
@@ -409,7 +469,8 @@
           "To manage database connections"
         ],
         "correct_option": 2,
-        "hint": "Middleware functions can change the req and res objects."
+        "hint": "Middleware functions can change the req and res objects.",
+        "question_order": 4
       },
       {
         "question": "Which Node.js package is commonly used for integrating MongoDB with Node.js applications?",
@@ -420,7 +481,8 @@
           "redis"
         ],
         "correct_option": 0,
-        "hint": "This package's name is related to a large, flightless bird."
+        "hint": "This package's name is related to a large, flightless bird.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -433,7 +495,8 @@
           "To compile JavaScript code"
         ],
         "correct_option": 1,
-        "hint": "Think about how Node.js handles operations that might block the main thread."
+        "hint": "Think about how Node.js handles operations that might block the main thread.",
+        "question_order": 1
       },
       {
         "question": "Which HTTP method is idempotent and should be used to update a resource in a RESTful API built with Express.js?",
@@ -444,7 +507,8 @@
           "DELETE"
         ],
         "correct_option": 2,
-        "hint": "This method should have the same effect no matter how many times it's called."
+        "hint": "This method should have the same effect no matter how many times it's called.",
+        "question_order": 2
       },
       {
         "question": "In the context of Node.js, what does the 'fs' module primarily deal with?",
@@ -455,7 +519,8 @@
           "Event Handling"
         ],
         "correct_option": 1,
-        "hint": "Consider what 'fs' might stand for."
+        "hint": "Consider what 'fs' might stand for.",
+        "question_order": 3
       },
       {
         "question": "When integrating Node.js with MongoDB, which of the following libraries is commonly used for database interactions?",
@@ -466,7 +531,8 @@
           "Bookshelf"
         ],
         "correct_option": 1,
-        "hint": "This library simplifies interactions with MongoDB by providing a schema-based solution."
+        "hint": "This library simplifies interactions with MongoDB by providing a schema-based solution.",
+        "question_order": 4
       },
       {
         "question": "What is the purpose of middleware in an Express.js application?",
@@ -477,7 +543,8 @@
           "To manage session data"
         ],
         "correct_option": 2,
-        "hint": "Middleware acts as a processing layer for requests before they reach the route handler."
+        "hint": "Middleware acts as a processing layer for requests before they reach the route handler.",
+        "question_order": 5
       }
     ]
   },

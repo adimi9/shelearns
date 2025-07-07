@@ -20,96 +20,114 @@
         {
           "url": "https://restfulapi.net/",
           "description": "An informative resource explaining the principles and practices of RESTful APIs.",
-          "title": "What is REST?: REST API Tutorial"
+          "title": "What is REST?: REST API Tutorial",
+          "resource_order": 1
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
           "description": "Guidelines for designing effective and scalable APIs in Azure architecture.",
-          "title": "Web API Design Best Practices - Azure Architecture Center | Microsoft Learn"
+          "title": "Web API Design Best Practices - Azure Architecture Center | Microsoft Learn",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/apis/design",
           "description": "Guidelines and best practices for designing APIs on Google Cloud.",
-          "title": "API design guide \u00a0|\u00a0 Cloud API Design Guide \u00a0|\u00a0 Google Cloud"
+          "title": "API design guide  |  Cloud API Design Guide  |  Google Cloud",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://restfulapi.net/",
           "description": "An informative resource on RESTful API principles and best practices.",
-          "title": "What is REST?: REST API Tutorial"
+          "title": "What is REST?: REST API Tutorial",
+          "resource_order": 1
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
           "description": "Best practices for designing APIs on Microsoft Azure.",
-          "title": "Web API Design Best Practices - Azure Architecture Center | Microsoft Learn"
+          "title": "Web API Design Best Practices - Azure Architecture Center | Microsoft Learn",
+          "resource_order": 2
         },
         {
           "url": "https://www.restapitutorial.com/",
           "description": "An introductory guide to understanding and using RESTful APIs.",
-          "title": "Learn REST API Design - REST API Tutorial"
+          "title": "Learn REST API Design - REST API Tutorial",
+          "resource_order": 3
         },
         {
           "url": "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/",
           "description": "A detailed guide on best practices for designing and building REST APIs.",
-          "title": "REST API Design Best Practices Handbook \u2013 How to Build a REST API with JavaScript, Node.js, and Express.js"
+          "title": "REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js",
+          "resource_order": 4
         },
         {
           "url": "https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/",
           "description": "An article outlining best practices for designing REST APIs effectively.",
-          "title": "Best practices for REST API design - Stack Overflow"
+          "title": "Best practices for REST API design - Stack Overflow",
+          "resource_order": 5
         },
         {
           "url": "https://blog.postman.com/rest-api-examples/",
           "description": "An overview of practical REST API examples to enhance understanding and implementation.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 6
         },
         {
           "url": "https://go.dev/doc/tutorial/web-service-gin",
           "description": "A tutorial on building a web service using the Gin framework in Go.",
-          "title": "Tutorial: Developing a RESTful API with Go and Gin - The Go Programming Language"
+          "title": "Tutorial: Developing a RESTful API with Go and Gin - The Go Programming Language",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=7QfswaV0re4",
           "title": "API Design 101: From Basics to Best Practices",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=qbLc5a9jdXo",
           "title": "REST API Crash Course - Introduction + Full Python API Tutorial",
-          "duration": "51m"
+          "duration": "51m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=z3YMz-Gocmw",
-          "title": "Python REST API Tutorial for Beginners\u00a0| How to Build a Flask REST\u00a0API",
-          "duration": "40m"
+          "title": "Python REST API Tutorial for Beginners | How to Build a Flask REST API",
+          "duration": "40m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=7YcW25PHnAA",
           "title": "REST API concepts and examples",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=Q-BpqyOT3a8&pp=0gcJCf0Ao7VqN5tD",
           "title": "What Is A RESTful API? Explanation of REST & HTTP",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=y_sOd0RU7Cw",
           "title": "All-in-one API Tool Better Than Postman | REST API Design: From Basics to Best Practices",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=EWd3_I4X32g",
           "title": "Spring Boot Project: Build a REST API for an E-commerce Platform",
-          "duration": "120m"
+          "duration": "120m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=0sOvCWFmrtA",
           "title": "Python API Development - Comprehensive Course for Beginners",
-          "duration": "1140m"
+          "duration": "1140m",
+          "resource_order": 8
         }
       ]
     },
@@ -118,106 +136,126 @@
         {
           "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
           "description": "Best practices guide for designing effective and scalable APIs on Azure.",
-          "title": "Web API Design Best Practices - Azure Architecture Center | Microsoft Learn"
+          "title": "Web API Design Best Practices - Azure Architecture Center | Microsoft Learn",
+          "resource_order": 1
         },
         {
           "url": "https://stoplight.io/api-documentation-guide",
           "description": "A guide to creating effective and user-friendly API documentation using best practices.",
-          "title": "How to Write API Documentation: a Best Practices Guide | Stoplight"
+          "title": "How to Write API Documentation: a Best Practices Guide | Stoplight",
+          "resource_order": 2
         },
         {
           "url": "https://developers.google.com/apis-explorer",
           "description": "An interactive tool for exploring and testing Google APIs directly from your browser.",
-          "title": "Google APIs Explorer \u00a0|\u00a0 Google for Developers"
+          "title": "Google APIs Explorer  |  Google for Developers",
+          "resource_order": 3
         },
         {
           "url": "https://blog.dreamfactory.com/8-api-documentation-examples",
           "description": "Examples of effective API documentation practices and their benefits.",
-          "title": "The 8 Best API Documentation Examples for 2025 | Dreamfactory"
+          "title": "The 8 Best API Documentation Examples for 2025 | Dreamfactory",
+          "resource_order": 4
         },
         {
           "url": "https://swagger.io/resources/articles/best-practices-in-api-design/",
           "description": "An article detailing best practices for designing effective APIs.",
-          "title": "Best Practices in API Design"
+          "title": "Best Practices in API Design",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://restfulapi.net/resource-naming/",
           "description": "Guidelines for naming resources in RESTful API design.",
-          "title": "REST API URI Naming Conventions and Best Practices"
+          "title": "REST API URI Naming Conventions and Best Practices",
+          "resource_order": 1
         },
         {
           "url": "https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/",
           "description": "An article outlining best practices for designing REST APIs effectively.",
-          "title": "Best practices for REST API design - Stack Overflow"
+          "title": "Best practices for REST API design - Stack Overflow",
+          "resource_order": 2
         },
         {
           "url": "https://www.moesif.com/blog/technical/api-design/REST-API-Design-Best-Practices-for-Parameters-and-Query-String-Usage/",
           "description": "Best practices guide for using parameters and query strings in REST API design.",
-          "title": "REST API Design Best Practices for Parameter and Query String Usage | Moesif Blog"
+          "title": "REST API Design Best Practices for Parameter and Query String Usage | Moesif Blog",
+          "resource_order": 3
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
           "description": "Guidelines for designing scalable and efficient APIs in Azure architecture.",
-          "title": "Web API Design Best Practices - Azure Architecture Center | Microsoft Learn"
+          "title": "Web API Design Best Practices - Azure Architecture Center | Microsoft Learn",
+          "resource_order": 4
         },
         {
           "url": "https://blog.postman.com/rest-api-examples/",
           "description": "A collection of practical REST API examples and use cases.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 5
         },
         {
           "url": "https://www.postman.com/api-platform/api-design/",
           "description": "A guide to designing APIs using Postman's API platform.",
-          "title": "What is API Design? Principles & Best Practices | Postman"
+          "title": "What is API Design? Principles & Best Practices | Postman",
+          "resource_order": 6
         },
         {
           "url": "https://swagger.io/resources/articles/best-practices-in-api-design/",
           "description": "A guide outlining best practices for designing effective APIs.",
-          "title": "Best Practices in API Design"
+          "title": "Best Practices in API Design",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=A8t5LSxVJFM",
           "title": "How To Design Amazing REST APIs",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=JDbkoICzQro",
           "title": "Building well architected API Gateway APIs | Serverless Office Hours",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=tXo2vO5QNAw",
           "title": "Part 1: Building API Automation Testing Framework in Rest Assured from from Scratch",
-          "duration": "86m"
+          "duration": "86m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=oPcAT2D-B5k",
           "title": "ASP.NET Core Web API Best Practices",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=X6fSJZDZZ0I",
           "title": "Designing and Managing APIs with Azure API Management:",
-          "duration": "65m"
+          "duration": "65m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=pH7ZT9cOL0k",
           "title": "API Design 101: From Basics to Best Practices",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=-mN3VyJuCjM",
           "title": "What Is REST API? Examples And How To Use It: Crash Course System Design #3",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=nE2MjN54few",
           "title": "CRUD REST API With Clean Architecture & DDD In .NET 7",
-          "duration": "29m"
+          "duration": "29m",
+          "resource_order": 8
         }
       ]
     },
@@ -226,86 +264,102 @@
         {
           "url": "https://stoplight.io/api-style-guides-guidelines-and-best-practices",
           "description": "A guide to API style, guidelines, and best practices for developers.",
-          "title": "API Style Guides & Guidelines | API Design Best Practices | Stoplight"
+          "title": "API Style Guides & Guidelines | API Design Best Practices | Stoplight",
+          "resource_order": 1
         },
         {
           "url": "https://docs.github.com/rest",
           "description": "Official documentation for GitHub's REST API, detailing endpoints and usage.",
-          "title": "GitHub REST API documentation - GitHub Docs"
+          "title": "GitHub REST API documentation - GitHub Docs",
+          "resource_order": 2
         },
         {
           "url": "https://www.netguru.com/blog/api-documentation",
           "description": "An informative blog post on best practices for writing effective API documentation.",
-          "title": "API Documentation Best Practices for Modern Development Teams"
+          "title": "API Documentation Best Practices for Modern Development Teams",
+          "resource_order": 3
         },
         {
           "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html",
           "description": "Best practices guide for optimizing performance and cost efficiency in Amazon DynamoDB.",
-          "title": "Best practices for designing and architecting with DynamoDB - Amazon DynamoDB"
+          "title": "Best practices for designing and architecting with DynamoDB - Amazon DynamoDB",
+          "resource_order": 4
         },
         {
           "url": "https://www.forestadmin.com/blog/an-experts-guide-to-crud-apis-designing-a-robust-one/",
           "description": "An expert guide to designing robust CRUD APIs.",
-          "title": "An expert's guide to CRUD APIs: designing a robust one"
+          "title": "An expert's guide to CRUD APIs: designing a robust one",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://api7.ai/learning-center/api-gateway-guide",
           "description": "A detailed guide on understanding and implementing API gateways.",
-          "title": "Dive into API gateways with API7 tutorial, featuring Apache APISIX and API7 Enterprise - API7.ai"
+          "title": "Dive into API gateways with API7 tutorial, featuring Apache APISIX and API7 Enterprise - API7.ai",
+          "resource_order": 1
         },
         {
           "url": "https://www.restapitutorial.com/",
           "description": "A comprehensive tutorial on understanding and building RESTful APIs.",
-          "title": "Learn REST API Design - REST API Tutorial"
+          "title": "Learn REST API Design - REST API Tutorial",
+          "resource_order": 2
         },
         {
           "url": "https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/",
           "description": "An overview of best practices for designing and building REST APIs.",
-          "title": "REST API Design Best Practices Handbook \u2013 How to Build a REST API with JavaScript, Node.js, and Express.js"
+          "title": "REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=A8t5LSxVJFM",
           "title": "How To Design Amazing REST APIs",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=Ms0dFXx3OMc",
           "title": "ASP.NET 8 REST API Tutorial - The \"Sweet Spot\" Architecture",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=7nm1pYuKAhY",
           "title": "Deep Dive into REST API Design and Implementation Best Practices",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=MWLe1tqPmUo",
           "title": "Spring Boot REST Service: How to build a REST API in Java",
-          "duration": "21m"
+          "duration": "21m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=EgQJRB9Vs3Y&pp=0gcJCdgAo7VqN5tD",
           "title": "Top 10 Spring Boot REST API Best Practices You MUST Know",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
           "title": "The Complete Guide To Building A REST API With Node, Express, TypeScript & MongoDB + Authentication",
-          "duration": "49m"
+          "duration": "49m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=7YcW25PHnAA",
           "title": "REST API concepts and examples",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 7
         },
         {
           "url": "https://m.youtube.com/watch?v=xg7Dj2AXLyk&pp=0gcJCdgAo7VqN5tD",
           "title": "The Ultimate Guide to Load Balancers (System Design Fundamentals)",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 8
         }
       ]
     }
@@ -321,7 +375,8 @@
           "PUT"
         ],
         "correct_option": 1,
-        "hint": "Think about the method that is used to 'get' data."
+        "hint": "Think about the method that is used to 'get' data.",
+        "question_order": 1
       },
       {
         "question": "What does the status code 404 indicate in an HTTP response?",
@@ -332,7 +387,8 @@
           "Internal Server Error"
         ],
         "correct_option": 2,
-        "hint": "This code is often used when a resource cannot be located."
+        "hint": "This code is often used when a resource cannot be located.",
+        "question_order": 2
       },
       {
         "question": "In RESTful API design, what does the acronym CRUD stand for?",
@@ -343,7 +399,8 @@
           "Copy, Read, Update, Drop"
         ],
         "correct_option": 0,
-        "hint": "These are the basic operations of persistent storage."
+        "hint": "These are the basic operations of persistent storage.",
+        "question_order": 3
       },
       {
         "question": "Which header is used to specify the version of an API in a request?",
@@ -354,7 +411,8 @@
           "User-Agent"
         ],
         "correct_option": 2,
-        "hint": "This header is used to tell the server which version of the API the client wants."
+        "hint": "This header is used to tell the server which version of the API the client wants.",
+        "question_order": 4
       },
       {
         "question": "What does 'pagination' help with in RESTful APIs?",
@@ -365,7 +423,8 @@
           "Encrypting data"
         ],
         "correct_option": 1,
-        "hint": "It helps to divide the data into pages for easier consumption."
+        "hint": "It helps to divide the data into pages for easier consumption.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -378,7 +437,8 @@
           "DELETE"
         ],
         "correct_option": 2,
-        "hint": "This method is idempotent and used for updating resources."
+        "hint": "This method is idempotent and used for updating resources.",
+        "question_order": 1
       },
       {
         "question": "Which HTTP status code indicates a successful resource creation?",
@@ -389,7 +449,8 @@
           "404 Not Found"
         ],
         "correct_option": 1,
-        "hint": "This status code signifies that a request has succeeded and a new resource has been created."
+        "hint": "This status code signifies that a request has succeeded and a new resource has been created.",
+        "question_order": 2
       },
       {
         "question": "In RESTful API design, what is the purpose of using pagination?",
@@ -400,7 +461,8 @@
           "To simplify authentication"
         ],
         "correct_option": 2,
-        "hint": "This technique is used to manage responses when dealing with large collections of data."
+        "hint": "This technique is used to manage responses when dealing with large collections of data.",
+        "question_order": 3
       },
       {
         "question": "Which versioning strategy involves including the version number within the API URL path?",
@@ -411,7 +473,8 @@
           "Media type versioning"
         ],
         "correct_option": 1,
-        "hint": "This strategy makes the version part of the endpoint address."
+        "hint": "This strategy makes the version part of the endpoint address.",
+        "question_order": 4
       },
       {
         "question": "What is the main purpose of resource modeling in RESTful API design?",
@@ -422,7 +485,8 @@
           "To set the API security protocols"
         ],
         "correct_option": 2,
-        "hint": "This is crucial for defining how resources are structured and interrelated."
+        "hint": "This is crucial for defining how resources are structured and interrelated.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -435,7 +499,8 @@
           "DELETE"
         ],
         "correct_option": 2,
-        "hint": "This method is used to update existing resources."
+        "hint": "This method is used to update existing resources.",
+        "question_order": 1
       },
       {
         "question": "In RESTful APIs, what does a 410 status code signify?",
@@ -446,7 +511,8 @@
           "Resource temporarily unavailable"
         ],
         "correct_option": 2,
-        "hint": "This status code indicates that the resource is no longer available and will not be available again."
+        "hint": "This status code indicates that the resource is no longer available and will not be available again.",
+        "question_order": 2
       },
       {
         "question": "What is a common approach to handling API versioning that allows clients to specify the version in HTTP headers?",
@@ -457,7 +523,8 @@
           "Content negotiation"
         ],
         "correct_option": 1,
-        "hint": "This method involves sending extra information in the request headers."
+        "hint": "This method involves sending extra information in the request headers.",
+        "question_order": 3
       },
       {
         "question": "In resource modeling, which pattern involves representing a collection of resources with an endpoint such as '/products' and a specific resource with '/products/{id}'?",
@@ -468,7 +535,8 @@
           "Repository pattern"
         ],
         "correct_option": 1,
-        "hint": "This pattern is typically used to organize resources in RESTful APIs."
+        "hint": "This pattern is typically used to organize resources in RESTful APIs.",
+        "question_order": 4
       },
       {
         "question": "Which HTTP status code is used to indicate successful request processing that resulted in a new resource being created?",
@@ -479,7 +547,8 @@
           "204 No Content"
         ],
         "correct_option": 1,
-        "hint": "This status code is returned when a resource has been successfully created, often used in conjunction with POST requests."
+        "hint": "This status code is returned when a resource has been successfully created, often used in conjunction with POST requests.",
+        "question_order": 5
       }
     ]
   }

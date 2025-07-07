@@ -21,101 +21,120 @@
         {
           "url": "https://kubernetes.io/docs/concepts/overview/",
           "description": "An overview of Kubernetes concepts and architecture for container orchestration.",
-          "title": "Overview | Kubernetes"
+          "title": "Overview | Kubernetes",
+          "resource_order": 1
         },
         {
           "url": "https://pytorch.org/docs/stable/distributed.html",
           "description": "Documentation on PyTorch's distributed computing capabilities and APIs.",
-          "title": "Distributed communication package - torch.distributed \u2014 PyTorch 2.7 documentation"
+          "title": "Distributed communication package - torch.distributed — PyTorch 2.7 documentation",
+          "resource_order": 2
         },
         {
           "url": "https://restfulapi.net/",
           "description": "An informative guide to understanding and implementing RESTful APIs.",
-          "title": "What is REST?: REST API Tutorial"
+          "title": "What is REST?: REST API Tutorial",
+          "resource_order": 3
         },
         {
           "url": "https://kafka.apache.org/documentation/",
           "description": "Official documentation for Apache Kafka, detailing its features, setup, and usage.",
-          "title": "Apache Kafka"
+          "title": "Apache Kafka",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.baeldung.com/cs/distributed-systems-guide",
           "description": "An in-depth guide to understanding and designing distributed systems.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://www.geeksforgeeks.org/distributed-systems-tutorial/",
           "description": "An introductory tutorial on the concepts and architecture of distributed systems.",
-          "title": "Distributed Systems Tutorial - GeeksforGeeks"
+          "title": "Distributed Systems Tutorial - GeeksforGeeks",
+          "resource_order": 2
         },
         {
           "url": "https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/",
           "description": "An in-depth introduction to the concepts and principles of distributed systems.",
-          "title": "A Thorough Introduction to Distributed Systems"
+          "title": "A Thorough Introduction to Distributed Systems",
+          "resource_order": 3
         },
         {
           "url": "https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial",
           "description": "An introductory tutorial on parallel computing concepts and techniques.",
-          "title": "Introduction to Parallel Computing Tutorial | HPC @ LLNL"
+          "title": "Introduction to Parallel Computing Tutorial | HPC @ LLNL",
+          "resource_order": 4
         },
         {
           "url": "https://github.com/aphyr/distsys-class",
           "description": "Lecture notes and resources for a distributed systems course by Kyle Kingsbury.",
-          "title": "GitHub - aphyr/distsys-class: Class materials for a distributed systems lecture series"
+          "title": "GitHub - aphyr/distsys-class: Class materials for a distributed systems lecture series",
+          "resource_order": 5
         },
         {
           "url": "https://martin.kleppmann.com/2020/11/18/distributed-systems-and-elliptic-curves.html",
           "description": "An exploration of the intersection between distributed systems and elliptic curve cryptography.",
-          "title": "New courses on distributed systems and elliptic curve cryptography \u2014 Martin Kleppmann\u2019s blog"
+          "title": "New courses on distributed systems and elliptic curve cryptography — Martin Kleppmann’s blog",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=UEAMfLPZZhE&pp=0gcJCdgAo7VqN5tD",
           "title": "Distributed Systems 1.1: Introduction",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=cQP8WApzIQQ",
           "title": "Lecture 1: Introduction",
-          "duration": "79m"
+          "duration": "79m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=CESKgdNiKJw",
           "title": "Explaining Distributed Systems Like I'm 5",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=gxfERVP18-g",
           "title": "Scaling Distributed Systems - Software Architecture Introduction (part 2)",
-          "duration": "6m"
+          "duration": "6m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=BkSdD5VtyRM",
           "title": "L3: How to learn distributed systems",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=Y6Ev8GIlbxc",
           "title": "Distributed Systems in One Lesson by Tim Berglund",
-          "duration": "49m"
+          "duration": "49m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=eW4JgrkwWEM",
           "title": "Microservices communication patterns, messaging basics, RabbitMQ | Messaging in distributed systems",
-          "duration": "161m"
+          "duration": "161m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=NN7-fcm3Cjg",
           "title": "Introduction to Distributed Systems",
-          "duration": "140m"
+          "duration": "140m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=nFxjaVmFj5E",
           "title": "RabbitMQ Tutorial - Message Queues and Distributed Systems",
-          "duration": "30m"
+          "duration": "30m",
+          "resource_order": 9
         }
       ]
     },
@@ -124,101 +143,120 @@
         {
           "url": "https://pytorch.org/docs/stable/distributed.html",
           "description": "Documentation on PyTorch's distributed training capabilities and APIs.",
-          "title": "Distributed communication package - torch.distributed \u2014 PyTorch 2.7 documentation"
+          "title": "Distributed communication package - torch.distributed — PyTorch 2.7 documentation",
+          "resource_order": 1
         },
         {
           "url": "https://kafka.apache.org/documentation/",
           "description": "Official documentation for Apache Kafka, detailing setup, configuration, and features.",
-          "title": "Apache Kafka"
+          "title": "Apache Kafka",
+          "resource_order": 2
         },
         {
           "url": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
           "description": "Official programming guide for developing applications using NVIDIA's CUDA parallel computing platform and programming model.",
-          "title": "CUDA C++ Programming Guide \u2014 CUDA C++ Programming Guide"
+          "title": "CUDA C++ Programming Guide — CUDA C++ Programming Guide",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://aws.amazon.com/what-is/distributed-computing/",
           "description": "An introduction to distributed computing and its benefits on AWS.",
-          "title": "What is Distributed Computing? - Distributed Computing Explained - AWS"
+          "title": "What is Distributed Computing? - Distributed Computing Explained - AWS",
+          "resource_order": 1
         },
         {
           "url": "https://www.splunk.com/en_us/blog/learn/distributed-systems.html",
           "description": "An introductory overview of distributed systems and their key components.",
-          "title": "What Are Distributed Systems? | Splunk"
+          "title": "What Are Distributed Systems? | Splunk",
+          "resource_order": 2
         },
         {
           "url": "https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html",
           "description": "A tutorial on using Distributed Data Parallel (DDP) in PyTorch for scalable training.",
-          "title": "Getting Started with Distributed Data Parallel \u2014 PyTorch Tutorials 2.7.0+cu126 documentation"
+          "title": "Getting Started with Distributed Data Parallel — PyTorch Tutorials 2.7.0+cu126 documentation",
+          "resource_order": 3
         },
         {
           "url": "https://www.atlassian.com/microservices/microservices-architecture/distributed-architecture",
           "description": "An overview of distributed architecture principles in microservices.",
-          "title": "What is a distributed system? | Atlassian"
+          "title": "What is a distributed system? | Atlassian",
+          "resource_order": 4
         },
         {
           "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
           "description": "An introductory guide explaining the fundamentals of NoSQL databases.",
-          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB"
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB",
+          "resource_order": 5
         },
         {
           "url": "https://www.baeldung.com/cs/distributed-systems-guide",
           "description": "An in-depth guide to understanding the fundamentals of distributed systems.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 6
         },
         {
           "url": "https://www.geeksforgeeks.org/system-design/comparison-centralized-decentralized-and-distributed-systems/",
           "description": "An analysis comparing centralized, decentralized, and distributed systems in system design.",
-          "title": "Centralized vs. Decentralized vs. Distributed Systems - GeeksforGeeks"
+          "title": "Centralized vs. Decentralized vs. Distributed Systems - GeeksforGeeks",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=CESKgdNiKJw",
           "title": "Explaining Distributed Systems Like I'm 5",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=EybGGLbLipI",
           "title": "Parallel and Distributed Computing in Python with Dask | SciPy 2020 | Bourbeau, McCarty, Pothina",
-          "duration": "228m"
+          "duration": "228m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=TQduOOBg1-U",
           "title": "Introduction to Distributed Computing & Apache Spark | iNeuron",
-          "duration": "83m"
+          "duration": "83m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=6Aq1Jj3Ge4Q",
-          "title": "java.util.concurrent for Distributed Coordination \u2013 Ensar Basri Kahveci",
-          "duration": "50m"
+          "title": "java.util.concurrent for Distributed Coordination – Ensar Basri Kahveci",
+          "duration": "50m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=XhADYHKVcp0",
           "title": "CAP Theorem in Distributed Systems? | What is Database Consistency?",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=BUOSup1APPw",
           "title": "21 - Introduction to Distributed Databases (CMU Intro to Database Systems / Fall 2022)",
-          "duration": "75m"
+          "duration": "75m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=LiIwwKZYShE",
           "title": "Let's explore Apache Kafka, the Easy Way on AWS!",
-          "duration": "111m"
+          "duration": "111m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=-xYwXUGM7nY",
           "title": "Distributed File Systems 101",
-          "duration": "53m"
+          "duration": "53m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=Vv4HpLfqAz4",
           "title": "Zookeeper in action by Alexandre Berthaud",
-          "duration": "32m"
+          "duration": "32m",
+          "resource_order": 9
         }
       ]
     },
@@ -227,101 +265,120 @@
         {
           "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html",
           "description": "An introductory guide to AWS Simple Queue Service (SQS) for developers.",
-          "title": "What is Amazon Simple Queue Service? - Amazon Simple Queue Service"
+          "title": "What is Amazon Simple Queue Service? - Amazon Simple Queue Service",
+          "resource_order": 1
         },
         {
           "url": "https://docs.nvidia.com/nsight-systems/UserGuide/index.html",
           "description": "User guide for NVIDIA Nsight Systems, a performance analysis tool for optimizing software applications.",
-          "title": "User Guide \u2014 nsight-systems 2025.3 documentation"
+          "title": "User Guide — nsight-systems 2025.3 documentation",
+          "resource_order": 2
         },
         {
           "url": "https://docs.confluent.io/kafka/introduction.html",
           "description": "An introductory guide to understanding Apache Kafka and its core concepts.",
-          "title": "Introduction to Apache Kafka | Confluent Documentation"
+          "title": "Introduction to Apache Kafka | Confluent Documentation",
+          "resource_order": 3
         },
         {
           "url": "https://docs.python-guide.org/",
           "description": "An extensive guide for Python programming best practices and development tips.",
-          "title": "The Hitchhiker\u2019s Guide to Python! \u2014 The Hitchhiker's Guide to Python"
+          "title": "The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python",
+          "resource_order": 4
         },
         {
           "url": "https://docs.confluent.io/platform/current/connect/index.html",
           "description": "Detailed documentation on using and configuring Confluent's Kafka Connect for data integration.",
-          "title": "Kafka Connect | Confluent Documentation"
+          "title": "Kafka Connect | Confluent Documentation",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/",
           "description": "A guide to preparing for systems design and coding interviews.",
-          "title": "Preparing for the Systems Design and Coding Interview - The Pragmatic Engineer"
+          "title": "Preparing for the Systems Design and Coding Interview - The Pragmatic Engineer",
+          "resource_order": 1
         },
         {
           "url": "https://selectfrom.dev/deep-dive-into-dask-distributed-2-bd101f6d7ef2",
           "description": "An in-depth exploration of Dask's distributed computing capabilities.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://www.hellointerview.com/learn/system-design/deep-dives/cassandra",
           "description": "An in-depth exploration of Cassandra's architecture and system design principles.",
-          "title": "Cassandra Deep Dive for System Design Interviews | Hello Interview System Design in a Hurry"
+          "title": "Cassandra Deep Dive for System Design Interviews | Hello Interview System Design in a Hurry",
+          "resource_order": 3
         },
         {
           "url": "https://developer.confluent.io/courses/architecture/get-started/",
           "description": "An introductory course on getting started with Confluent's event streaming architecture.",
-          "title": "Apache Kafka Architecture Deep Dive"
+          "title": "Apache Kafka Architecture Deep Dive",
+          "resource_order": 4
         },
         {
           "url": "https://docs.pytorch.org/tutorials/intermediate/ddp_tutorial.html",
           "description": "A tutorial on using Distributed Data Parallel in PyTorch for multi-GPU training.",
-          "title": "Getting Started with Distributed Data Parallel \u2014 PyTorch Tutorials 2.7.0+cu126 documentation"
+          "title": "Getting Started with Distributed Data Parallel — PyTorch Tutorials 2.7.0+cu126 documentation",
+          "resource_order": 5
         },
         {
           "url": "https://www.educative.io/courses/grokking-the-system-design-interview",
           "description": "A detailed course on preparing for system design interviews with practical examples.",
-          "title": "Grokking the Modern System Design Interview"
+          "title": "Grokking the Modern System Design Interview",
+          "resource_order": 6
         },
         {
           "url": "https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321",
           "description": "A detailed exploration of building scalable, reliable data systems for modern applications.",
-          "title": "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems : Amazon.sg: Books"
+          "title": "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems : Amazon.sg: Books",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=3yuBOB3VrCk&pp=0gcJCfwAo7VqN5tD",
           "title": "COMPLETE Unity Multiplayer Tutorial (Netcode for Game Objects)",
-          "duration": "64m"
+          "duration": "64m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=Cb0tyU9uSLQ&pp=ygUII3Nka3MwMjU%3D",
           "title": "Building reliable and portable microservices with Dapr and .NET",
-          "duration": "26m"
+          "duration": "26m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=N9QllqXI1sE",
           "title": "Apache Cassandra | Cassandra Tutorial Part 1 | Cassandra Tutorial for Beginners | Big Data Tutorial",
-          "duration": "166m"
+          "duration": "166m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=nFxjaVmFj5E",
           "title": "RabbitMQ Tutorial - Message Queues and Distributed Systems",
-          "duration": "30m"
+          "duration": "30m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=2v4yYhGgK_E",
           "title": "OpenTelemetry Deep Dive: Java",
-          "duration": "57m"
+          "duration": "57m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=X40EozwK75s",
           "title": "A Deep Dive into Apache Kafka This is Event Streaming by Andrew Dunnings & Katherine Stanley",
-          "duration": "124m"
+          "duration": "124m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=HG2Yd-3r4-M",
           "title": "Advanced Spark Training: Advanced Spark Internals and Tuning - Spark Summit 2014",
-          "duration": "180m"
+          "duration": "180m",
+          "resource_order": 7
         }
       ]
     }
@@ -337,7 +394,8 @@
           "To eliminate the need for network protocols"
         ],
         "correct_option": 1,
-        "hint": "Consider the separation of concerns between the client and server."
+        "hint": "Consider the separation of concerns between the client and server.",
+        "question_order": 1
       },
       {
         "question": "Which issue is most commonly associated with concurrency in distributed systems?",
@@ -348,7 +406,8 @@
           "Hardware failures"
         ],
         "correct_option": 2,
-        "hint": "Think about the problems that occur when multiple processes access shared resources."
+        "hint": "Think about the problems that occur when multiple processes access shared resources.",
+        "question_order": 2
       },
       {
         "question": "What is fault tolerance in the context of distributed systems?",
@@ -359,7 +418,8 @@
           "Maximizing the speed of data processing"
         ],
         "correct_option": 1,
-        "hint": "Consider how a system can handle failures and still operate."
+        "hint": "Consider how a system can handle failures and still operate.",
+        "question_order": 3
       },
       {
         "question": "Which technology is commonly used for remote procedure calls (RPC) in distributed systems?",
@@ -370,7 +430,8 @@
           "FTP"
         ],
         "correct_option": 2,
-        "hint": "Look for a protocol specifically designed for executing code on remote servers."
+        "hint": "Look for a protocol specifically designed for executing code on remote servers.",
+        "question_order": 4
       },
       {
         "question": "What is the primary advantage of using message queues in distributed systems?",
@@ -381,7 +442,8 @@
           "Reducing the size of the messages sent"
         ],
         "correct_option": 2,
-        "hint": "Consider how message queues manage communication between different parts of a system."
+        "hint": "Consider how message queues manage communication between different parts of a system.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -394,7 +456,8 @@
           "Simplified client-side code"
         ],
         "correct_option": 1,
-        "hint": "Think about the control aspect in client-server models."
+        "hint": "Think about the control aspect in client-server models.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is a common concurrency issue in distributed systems?",
@@ -405,7 +468,8 @@
           "Protocol mismatch"
         ],
         "correct_option": 1,
-        "hint": "This issue involves processes waiting indefinitely for resources."
+        "hint": "This issue involves processes waiting indefinitely for resources.",
+        "question_order": 2
       },
       {
         "question": "In terms of fault tolerance, what is a primary goal for a distributed system?",
@@ -416,7 +480,8 @@
           "Reducing the cost of hardware"
         ],
         "correct_option": 1,
-        "hint": "Consider what is essential for system reliability in the face of failures."
+        "hint": "Consider what is essential for system reliability in the face of failures.",
+        "question_order": 3
       },
       {
         "question": "Which technology is primarily used in distributed systems to handle remote procedure calls (RPC)?",
@@ -427,7 +492,8 @@
           "SMTP"
         ],
         "correct_option": 1,
-        "hint": "This is a high-performance RPC framework developed by Google."
+        "hint": "This is a high-performance RPC framework developed by Google.",
+        "question_order": 4
       },
       {
         "question": "What role do message queues play in distributed systems?",
@@ -438,7 +504,8 @@
           "Handling data encryption"
         ],
         "correct_option": 1,
-        "hint": "Consider how message queues help in communication without direct interaction."
+        "hint": "Consider how message queues help in communication without direct interaction.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -451,7 +518,8 @@
           "Programming language compatibility"
         ],
         "correct_option": 0,
-        "hint": "Consider the ability to handle increased loads."
+        "hint": "Consider the ability to handle increased loads.",
+        "question_order": 1
       },
       {
         "question": "Which concurrency issue can occur when multiple processes access shared data simultaneously without proper synchronization?",
@@ -462,7 +530,8 @@
           "Livelock"
         ],
         "correct_option": 1,
-        "hint": "This issue involves unpredictable results due to timing."
+        "hint": "This issue involves unpredictable results due to timing.",
+        "question_order": 2
       },
       {
         "question": "What is the primary goal of fault tolerance in distributed systems?",
@@ -473,7 +542,8 @@
           "To optimize network latency"
         ],
         "correct_option": 2,
-        "hint": "Think about system behavior during component failures."
+        "hint": "Think about system behavior during component failures.",
+        "question_order": 3
       },
       {
         "question": "In the context of distributed systems, what does RPC stand for and what is its primary purpose?",
@@ -484,7 +554,8 @@
           "Resource Priority Control; to manage resource allocation"
         ],
         "correct_option": 0,
-        "hint": "It involves executing procedures across network boundaries."
+        "hint": "It involves executing procedures across network boundaries.",
+        "question_order": 4
       },
       {
         "question": "How do message queues facilitate communication between distributed system components?",
@@ -495,7 +566,8 @@
           "By establishing a central shared memory for data exchange"
         ],
         "correct_option": 1,
-        "hint": "Consider the decoupling and timing of message delivery."
+        "hint": "Consider the decoupling and timing of message delivery.",
+        "question_order": 5
       }
     ]
   }

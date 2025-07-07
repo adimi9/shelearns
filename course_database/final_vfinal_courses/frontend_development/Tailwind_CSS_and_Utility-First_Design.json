@@ -20,85 +20,101 @@
         {
           "url": "https://tailwindcss.com/docs/styling-with-utility-classes",
           "description": "An overview of using utility-first classes for styling in Tailwind CSS.",
-          "title": "Styling with utility classes - Core concepts - Tailwind CSS"
+          "title": "Styling with utility classes - Core concepts - Tailwind CSS",
+          "resource_order": 1
         },
         {
           "url": "https://v2.tailwindcss.com/docs",
           "description": "Official documentation for Tailwind CSS v2, detailing its utility-first design framework.",
-          "title": "Documentation - Tailwind CSS"
+          "title": "Documentation - Tailwind CSS",
+          "resource_order": 2
         },
         {
           "url": "https://tailwindcss.com/",
           "description": "A utility-first CSS framework for rapid UI development.",
-          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML."
+          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+          "resource_order": 3
         },
         {
           "url": "https://samiamdesigns.substack.com/p/i-spent-a-year-loving-to-hate-tailwind",
           "description": "An analysis of the pros and cons of using Tailwind CSS based on a year of experience.",
-          "title": "I spent a year loving to hate Tailwind CSS so you don't have to."
+          "title": "I spent a year loving to hate Tailwind CSS so you don't have to.",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://tailwindcss.com/",
           "description": "A utility-first CSS framework for rapid UI development.",
-          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML."
+          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+          "resource_order": 1
         },
         {
           "url": "https://daily.dev/blog/tailwind-css-basics-for-beginners",
           "description": "An introductory guide to understanding and using Tailwind CSS for beginners.",
-          "title": "Tailwind CSS Basics for Beginners"
+          "title": "Tailwind CSS Basics for Beginners",
+          "resource_order": 2
         },
         {
           "url": "https://tailwindcss.com/docs/styling-with-utility-classes",
           "description": "An overview of how to style web pages using utility classes in Tailwind CSS.",
-          "title": "Styling with utility classes - Core concepts - Tailwind CSS"
+          "title": "Styling with utility classes - Core concepts - Tailwind CSS",
+          "resource_order": 3
         },
         {
           "url": "https://samiamdesigns.substack.com/p/i-spent-a-year-loving-to-hate-tailwind",
           "description": "An exploration of the author's year-long experience using and critiquing Tailwind CSS.",
-          "title": "I spent a year loving to hate Tailwind CSS so you don't have to."
+          "title": "I spent a year loving to hate Tailwind CSS so you don't have to.",
+          "resource_order": 4
         },
         {
           "url": "https://laracasts.com/discuss/channels/general-discussion/need-a-good-tailwind-tutorial",
-          "description": "A discussion forum for recommendations on quality Tailwind CSS tutorials."
+          "description": "A discussion forum for recommendations on quality Tailwind CSS tutorials.",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://m.youtube.com/watch?v=xP_uJj8L_1Q&t=0s",
           "title": "Getting started with Tailwind CSS: A utility-first CSS framework",
-          "duration": "28m"
+          "duration": "28m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=Ybybd3GCNn4",
           "title": "Designing with Tailwind CSS: The Utility-First Workflow",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=lCxcTsOHrjo&pp=0gcJCfwAo7VqN5tD",
           "title": "Tailwind CSS Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours",
-          "duration": "180m"
+          "duration": "180m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=DenUCuq4G04&pp=0gcJCfwAo7VqN5tD",
-          "title": "Tailwind CSS Tutorial for Beginners (2024) \u2013 What YOU need to know",
-          "duration": "22m"
+          "title": "Tailwind CSS Tutorial for Beginners (2024) – What YOU need to know",
+          "duration": "22m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=8k165Y0qBN0",
           "title": "Web Design with NO CSS? TailwindCSS Crash Course",
-          "duration": "37m"
+          "duration": "37m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=elgqxmdVms8",
-          "title": "00: Course Intro \u2013 Tailwind CSS v2.0: From Zero to Production",
-          "duration": "1m"
+          "title": "00: Course Intro – Tailwind CSS v2.0: From Zero to Production",
+          "duration": "1m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=GcX4iEhDgM8",
           "title": "TailwindCSS Course for Beginners | Learn TailwindCSS in 90 minutes",
-          "duration": "88m"
+          "duration": "88m",
+          "resource_order": 7
         }
       ]
     },
@@ -107,91 +123,108 @@
         {
           "url": "https://tailwindcss.com/",
           "description": "Official documentation and resources for Tailwind CSS, a utility-first CSS framework.",
-          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML."
+          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+          "resource_order": 1
         },
         {
           "url": "https://github.com/tailwindlabs/tailwindcss/issues/13136",
           "description": "Discussion and resolution of a bug related to Tailwind CSS v3.3.3's `@apply` directive.",
-          "title": "v4: Automatic content detection in monorepos only finds direct package \u00b7 Issue #13136 \u00b7 tailwindlabs/tailwindcss"
+          "title": "v4: Automatic content detection in monorepos only finds direct package · Issue #13136 · tailwindlabs/tailwindcss",
+          "resource_order": 2
         },
         {
           "url": "https://tailwindcss.com/docs/adding-custom-styles",
           "description": "Guidelines for adding custom styles to your project using Tailwind CSS.",
-          "title": "Adding custom styles - Core concepts - Tailwind CSS"
+          "title": "Adding custom styles - Core concepts - Tailwind CSS",
+          "resource_order": 3
         },
         {
           "url": "https://github.com/tailwindlabs/tailwindcss/discussions/5258",
           "description": "A discussion on implementing CSS variables in Tailwind CSS for enhanced styling flexibility.",
-          "title": "Unknown at rule @apply css(unknownAtRules) \u00b7 tailwindlabs/tailwindcss \u00b7 Discussion #5258 \u00b7 GitHub"
+          "title": "Unknown at rule @apply css(unknownAtRules) · tailwindlabs/tailwindcss · Discussion #5258 · GitHub",
+          "resource_order": 4
         },
         {
           "url": "https://tailwindcss.com/docs/upgrade-guide",
           "description": "A detailed guide for upgrading Tailwind CSS to the latest version.",
-          "title": "Upgrade guide - Getting started - Tailwind CSS"
+          "title": "Upgrade guide - Getting started - Tailwind CSS",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://tailwindcss.com/",
           "description": "Official documentation for Tailwind CSS, a utility-first CSS framework for rapid UI development.",
-          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML."
+          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+          "resource_order": 1
         },
         {
           "url": "https://www.geeksforgeeks.org/css/tailwind-css/",
           "description": "An introductory guide to using Tailwind CSS for styling web pages.",
-          "title": "Tailwind CSS Tutorial - GeeksforGeeks"
+          "title": "Tailwind CSS Tutorial - GeeksforGeeks",
+          "resource_order": 2
         },
         {
           "url": "https://tailwindcss.com/docs/adding-custom-styles",
           "description": "Guidelines for adding custom styles to Tailwind CSS projects.",
-          "title": "Adding custom styles - Core concepts - Tailwind CSS"
+          "title": "Adding custom styles - Core concepts - Tailwind CSS",
+          "resource_order": 3
         },
         {
           "url": "https://tsh.io/blog/tailwind-css-tutorial/",
           "description": "A beginner's tutorial on using Tailwind CSS for efficient and responsive web design.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 4
         },
         {
           "url": "https://kinsta.com/blog/tailwind-css/",
           "description": "An in-depth guide to understanding and using Tailwind CSS for modern web design.",
-          "title": "How to Use Tailwind CSS to Rapidly Develop Websites"
+          "title": "How to Use Tailwind CSS to Rapidly Develop Websites",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=6XIT2nXIbLU",
           "title": "From Figma to Tailwind CSS (Design Process + Code)",
-          "duration": "117m"
+          "duration": "117m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=ZqEa8fTxypQ",
           "title": "Build and Deploy an AI-Powered 3D Website Using React | 2024 Three JS Course Tutorial for Beginners",
-          "duration": "140m"
+          "duration": "140m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=UI4v1MuyJio",
           "title": "How to create Tailwind CSS Button Components",
-          "duration": "54m"
+          "duration": "54m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=NPYQUDmOeYI",
           "title": "Integrate Tailwind CSS with .NET 8 MVC: Step-by-Step Guide",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
           "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
-          "duration": "305m"
+          "duration": "305m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=EZajJGOMWas",
           "title": "Build and Deploy a Fullstack App with Admin Dashboard | Next.js, PostgreSQL, Redis, Auth.js",
-          "duration": "361m"
+          "duration": "361m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=Ep3wrPdkiBg",
           "title": "How to change background color in Tailwind CSS?",
-          "duration": "3m"
+          "duration": "3m",
+          "resource_order": 7
         }
       ]
     },
@@ -200,101 +233,120 @@
         {
           "url": "https://tailwindcss.com/",
           "description": "Official documentation for Tailwind CSS, a utility-first CSS framework.",
-          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML."
+          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+          "resource_order": 1
         },
         {
           "url": "https://daily.dev/blog/tailwind-css-basics-for-beginners",
           "description": "An introductory guide to understanding and using Tailwind CSS for beginners.",
-          "title": "Tailwind CSS Basics for Beginners"
+          "title": "Tailwind CSS Basics for Beginners",
+          "resource_order": 2
         },
         {
           "url": "https://tailwindcss.com/plus",
           "description": "An overview of Tailwind CSS's premium features and enhanced productivity tools.",
-          "title": "Official Tailwind UI Components & Templates - Tailwind Plus"
+          "title": "Official Tailwind UI Components & Templates - Tailwind Plus",
+          "resource_order": 3
         },
         {
           "url": "https://nextjs.org/docs/app/building-your-application/styling/tailwind-css",
           "description": "A guide on integrating and using Tailwind CSS in Next.js applications.",
-          "title": "Guides: Tailwind CSS | Next.js"
+          "title": "Guides: Tailwind CSS | Next.js",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://tailwindcss.com/",
           "description": "Official documentation and resources for Tailwind CSS, a utility-first CSS framework.",
-          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML."
+          "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+          "resource_order": 1
         },
         {
           "url": "https://daily.dev/blog/tailwind-css-basics-for-beginners",
           "description": "An introductory guide to understanding and using Tailwind CSS for beginners.",
-          "title": "Tailwind CSS Basics for Beginners"
+          "title": "Tailwind CSS Basics for Beginners",
+          "resource_order": 2
         },
         {
           "url": "https://www.locofy.ai/blog/create-a-custom-theme-with-tailwindcss",
           "description": "A step-by-step guide to creating custom themes using Tailwind CSS.",
-          "title": "Creating a Custom Theme System With TailwindCSS"
+          "title": "Creating a Custom Theme System With TailwindCSS",
+          "resource_order": 3
         },
         {
           "url": "https://tailgrids.com/blog/tailwind-css-introduction-and-setup-guide",
           "description": "An introductory guide to setting up and using Tailwind CSS for web development.",
-          "title": "Tailwind CSS Tutorial - Introduction & Setup Guide | TailGrids"
+          "title": "Tailwind CSS Tutorial - Introduction & Setup Guide | TailGrids",
+          "resource_order": 4
         },
         {
           "url": "https://www.material-tailwind.com/blog/how-to-learn-tailwind-css",
           "description": "A step-by-step guide on mastering Tailwind CSS for web development.",
-          "title": "How to Learn Tailwind CSS - Steps and Resources"
+          "title": "How to Learn Tailwind CSS - Steps and Resources",
+          "resource_order": 5
         },
         {
           "url": "https://www.geeksforgeeks.org/css/tailwind-css/",
           "description": "An introductory guide to Tailwind CSS, a utility-first CSS framework.",
-          "title": "Tailwind CSS Tutorial - GeeksforGeeks"
+          "title": "Tailwind CSS Tutorial - GeeksforGeeks",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=lCxcTsOHrjo&pp=0gcJCfwAo7VqN5tD",
           "title": "Tailwind CSS Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours",
-          "duration": "180m"
+          "duration": "180m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=6biMWgD6_JY",
           "title": "Tailwind CSS v4 Full Course 2025 | Master Tailwind in One Hour",
-          "duration": "54m"
+          "duration": "54m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=DenUCuq4G04&pp=0gcJCfwAo7VqN5tD",
-          "title": "Tailwind CSS Tutorial for Beginners (2024) \u2013 What YOU need to know",
-          "duration": "22m"
+          "title": "Tailwind CSS Tutorial for Beginners (2024) – What YOU need to know",
+          "duration": "22m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=tS7upsfuxmo",
           "title": "Tailwind CSS Full Course 2023 | Build and Deploy a Nike Website",
-          "duration": "169m"
+          "duration": "169m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=3LPFKVOc3QI",
           "title": "Tailwind CSS v4 - The Ultimate Guide for Beginners!",
-          "duration": "120m"
+          "duration": "120m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=D-2FYNLuo4M",
           "title": "Lynx JS Tutorial: Setting up Tailwind CSS | Step by Step Guide | Part 3",
-          "duration": "12m"
+          "duration": "12m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=lTWR_DuQAvw",
           "title": "Tailwind CSS: A Deep Dive into Flexbox and Grid Layouts",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=MYTjeqaezHw",
           "title": "Figma Style Guide to Tailwind CSS | Build websites faster",
-          "duration": "41m"
+          "duration": "41m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
           "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
-          "duration": "305m"
+          "duration": "305m",
+          "resource_order": 9
         }
       ]
     }
@@ -310,7 +362,8 @@
           "To improve HTML5 compliance"
         ],
         "correct_option": 1,
-        "hint": "Utility-first design focuses on providing low-level utility classes."
+        "hint": "Utility-first design focuses on providing low-level utility classes.",
+        "question_order": 1
       },
       {
         "question": "How do you apply a custom theme in Tailwind CSS?",
@@ -321,7 +374,8 @@
           "By writing custom CSS classes"
         ],
         "correct_option": 2,
-        "hint": "Custom themes are configured in the Tailwind configuration file."
+        "hint": "Custom themes are configured in the Tailwind configuration file.",
+        "question_order": 2
       },
       {
         "question": "What utility class in Tailwind CSS would you use to make text responsive?",
@@ -332,7 +386,8 @@
           "text-sm"
         ],
         "correct_option": 1,
-        "hint": "Responsive text utilities start with 'text-' followed by a size designation."
+        "hint": "Responsive text utilities start with 'text-' followed by a size designation.",
+        "question_order": 3
       },
       {
         "question": "How can you enable dark mode in a Tailwind CSS project?",
@@ -343,7 +398,8 @@
           "By using a JavaScript function"
         ],
         "correct_option": 0,
-        "hint": "Dark mode can be activated by a specific class in the HTML."
+        "hint": "Dark mode can be activated by a specific class in the HTML.",
+        "question_order": 4
       },
       {
         "question": "Which Tailwind CSS utility class would you use to add a margin of 4 units?",
@@ -354,7 +410,8 @@
           "ml-4"
         ],
         "correct_option": 0,
-        "hint": "Margin utilities in Tailwind start with 'm-' followed by a size."
+        "hint": "Margin utilities in Tailwind start with 'm-' followed by a size.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -367,7 +424,8 @@
           "blue-bg"
         ],
         "correct_option": 1,
-        "hint": "The class name usually starts with 'bg-' followed by a color scale."
+        "hint": "The class name usually starts with 'bg-' followed by a color scale.",
+        "question_order": 1
       },
       {
         "question": "How can you customize Tailwind CSS themes?",
@@ -378,7 +436,8 @@
           "Override the default utility classes"
         ],
         "correct_option": 2,
-        "hint": "Customization involves changing a configuration file provided by Tailwind."
+        "hint": "Customization involves changing a configuration file provided by Tailwind.",
+        "question_order": 2
       },
       {
         "question": "Which utility class would you use to make text responsive in Tailwind CSS?",
@@ -389,7 +448,8 @@
           "responsive-text"
         ],
         "correct_option": 0,
-        "hint": "Tailwind uses size abbreviations like 'sm', 'md', 'lg'."
+        "hint": "Tailwind uses size abbreviations like 'sm', 'md', 'lg'.",
+        "question_order": 3
       },
       {
         "question": "How does Tailwind CSS handle dark mode?",
@@ -400,7 +460,8 @@
           "Manually switching classes based on user preference"
         ],
         "correct_option": 1,
-        "hint": "Tailwind provides a special prefix for dark mode utilities."
+        "hint": "Tailwind provides a special prefix for dark mode utilities.",
+        "question_order": 4
       },
       {
         "question": "What is the purpose of using Tailwind CSS's utility-first design approach?",
@@ -411,7 +472,8 @@
           "To eliminate the need for CSS entirely"
         ],
         "correct_option": 2,
-        "hint": "Utility-first design in Tailwind is focused on speeding up the design process."
+        "hint": "Utility-first design in Tailwind is focused on speeding up the design process.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -424,7 +486,8 @@
           "It automatically generates media queries."
         ],
         "correct_option": 1,
-        "hint": "Consider how utility classes affect the workflow for developers."
+        "hint": "Consider how utility classes affect the workflow for developers.",
+        "question_order": 1
       },
       {
         "question": "How can you customize a theme in Tailwind CSS to use a specific color palette across your project?",
@@ -435,7 +498,8 @@
           "Use inline styles to override default colors."
         ],
         "correct_option": 2,
-        "hint": "Customization is often done in a configuration file."
+        "hint": "Customization is often done in a configuration file.",
+        "question_order": 2
       },
       {
         "question": "Which Tailwind CSS feature allows you to apply different styles based on the screen size or device?",
@@ -446,7 +510,8 @@
           "Grid System"
         ],
         "correct_option": 1,
-        "hint": "This feature involves media queries implicitly."
+        "hint": "This feature involves media queries implicitly.",
+        "question_order": 3
       },
       {
         "question": "What is the correct syntax to enable dark mode in a Tailwind CSS project?",
@@ -457,7 +522,8 @@
           "Set the dark theme in the global CSS."
         ],
         "correct_option": 1,
-        "hint": "This involves configuration within the Tailwind setup file."
+        "hint": "This involves configuration within the Tailwind setup file.",
+        "question_order": 4
       },
       {
         "question": "In Tailwind CSS, how would you apply a hover effect to change the text color to blue?",
@@ -468,7 +534,8 @@
           "Set 'hover-color: blue;' in the inline style."
         ],
         "correct_option": 0,
-        "hint": "Tailwind uses a specific syntax for pseudo-classes like hover."
+        "hint": "Tailwind uses a specific syntax for pseudo-classes like hover.",
+        "question_order": 5
       }
     ]
   }

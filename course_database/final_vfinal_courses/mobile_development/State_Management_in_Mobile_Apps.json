@@ -21,91 +21,108 @@
         {
           "url": "https://redux.js.org/introduction/getting-started",
           "description": "A beginner's guide to getting started with Redux for state management in JavaScript applications.",
-          "title": "Getting Started with Redux | Redux"
+          "title": "Getting Started with Redux | Redux",
+          "resource_order": 1
         },
         {
           "url": "https://developer.android.com/guide/components/activities/intro-activities",
           "description": "An introduction to Android activities, explaining their role and lifecycle in app development.",
-          "title": "Introduction to activities \u00a0|\u00a0 App architecture \u00a0|\u00a0 Android Developers"
+          "title": "Introduction to activities  |  App architecture  |  Android Developers",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs/database",
           "description": "Official documentation for Firebase Realtime Database, covering its features and usage.",
-          "title": "Firebase Realtime Database"
+          "title": "Firebase Realtime Database",
+          "resource_order": 3
         },
         {
           "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
           "description": "Comprehensive documentation for Check Point's latest API offerings.",
-          "title": "Check Point - Management API reference"
+          "title": "Check Point - Management API reference",
+          "resource_order": 4
         },
         {
           "url": "https://docs.flutter.dev/data-and-backend/state-mgmt/simple",
           "description": "An introductory guide to simple state management in Flutter applications.",
-          "title": "Simple app state management | Flutter"
+          "title": "Simple app state management | Flutter",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://redux.js.org/introduction/getting-started",
           "description": "An introductory guide to getting started with Redux for state management in JavaScript applications.",
-          "title": "Getting Started with Redux | Redux"
+          "title": "Getting Started with Redux | Redux",
+          "resource_order": 1
         },
         {
           "url": "https://developer.apple.com/tutorials/app-dev-training/",
           "description": "Apple's official tutorials for learning app development on their platforms.",
-          "title": "Develop apps for Apple platforms | Apple Developer Documentation"
+          "title": "Develop apps for Apple platforms | Apple Developer Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://docs.flutter.dev/data-and-backend/state-mgmt/simple",
           "description": "An introduction to simple state management techniques in Flutter applications.",
-          "title": "Simple app state management | Flutter"
+          "title": "Simple app state management | Flutter",
+          "resource_order": 3
         },
         {
           "url": "https://www.linkedin.com/posts/johannesmilke_expense-tracker-app-flutter-bloc-tutorial-activity-7226267013524918275-6K3K",
           "description": "A tutorial on building an expense tracker app using Flutter and Bloc.",
-          "title": "\ud83c\udf1f Flutter BLoC Tutorial for Beginners \ud83c\udf1f | Johannes Milke"
+          "title": "🌟 Flutter BLoC Tutorial for Beginners 🌟 | Johannes Milke",
+          "resource_order": 4
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
           "title": "Flutter Clean Architecture Full Course For Beginners - Bloc, Supabase, Hive, GetIt",
-          "duration": "424m"
+          "duration": "424m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
           "title": "React Native Tutorial for Beginners - Build a React Native App",
-          "duration": "126m"
+          "duration": "126m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=5lDJNFSWUD8",
           "title": "FULL Flutter Tutorial Beginner Course | Widgets / Navigation / User Input / UI / Networking",
-          "duration": "150m"
+          "duration": "150m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=SDk_GldOtK8",
           "title": "Flutter Bloc Tutorial For Beginners | BLoC Architecture/Pattern & State Management Explained",
-          "duration": "154m"
+          "duration": "154m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=LFlE8yV7lJY",
           "title": "Flutter Firebase Tutorial For Beginners | FlutterFire Course | Firebase Auth, Firestore DB, Storage",
-          "duration": "96m"
+          "duration": "96m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=vIIBp6xJJeA&pp=ygUNI2dldHh0dXRvcmlhbA%3D%3D",
           "title": "Flutter GetX Tutorial for Beginners | Full Course in 3 hours",
-          "duration": "195m"
+          "duration": "195m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=bCpFbERgj7s",
           "title": "React Native Crash Course+ | Build a Mobile App In 3 Hours",
-          "duration": "183m"
+          "duration": "183m",
+          "resource_order": 8
         }
       ]
     },
@@ -114,101 +131,120 @@
         {
           "url": "https://developers.google.com/apis-explorer",
           "description": "An interactive tool for exploring and testing Google APIs.",
-          "title": "Google APIs Explorer \u00a0|\u00a0 Google for Developers"
+          "title": "Google APIs Explorer  |  Google for Developers",
+          "resource_order": 1
         },
         {
           "url": "https://docs.datadoghq.com/api/latest/",
           "description": "Documentation for the latest version of Datadog's API.",
-          "title": "API Reference"
+          "title": "API Reference",
+          "resource_order": 2
         },
         {
           "url": "https://redux.js.org/introduction/getting-started",
           "description": "An introductory guide to getting started with Redux for state management in JavaScript applications.",
-          "title": "Getting Started with Redux | Redux"
+          "title": "Getting Started with Redux | Redux",
+          "resource_order": 3
         },
         {
           "url": "https://launchdarkly.com/docs/api",
           "description": "Documentation for the LaunchDarkly REST API, detailing endpoints and usage.",
-          "title": "Overview | LaunchDarkly | Documentation"
+          "title": "Overview | LaunchDarkly | Documentation",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://docs.flutter.dev/data-and-backend/state-mgmt/simple",
           "description": "An introduction to simple state management techniques in Flutter applications.",
-          "title": "Simple app state management | Flutter"
+          "title": "Simple app state management | Flutter",
+          "resource_order": 1
         },
         {
           "url": "https://developer.android.com/guide/components/activities/activity-lifecycle",
           "description": "An overview of the Android activity lifecycle and its callback methods.",
-          "title": "The activity lifecycle \u00a0|\u00a0 App architecture \u00a0|\u00a0 Android Developers"
+          "title": "The activity lifecycle  |  App architecture  |  Android Developers",
+          "resource_order": 2
         },
         {
           "url": "https://help.salesforce.com/s/articleView?id=release-notes.salesforce_release_notes.htm&language=en_US&release=252&type=5",
           "description": "Detailed release notes for Salesforce's latest software update, version 252.",
-          "title": "Salesforce Help | Article"
+          "title": "Salesforce Help | Article",
+          "resource_order": 3
         },
         {
           "url": "https://learn.microsoft.com/en-us/entra/identity/app-provisioning/customize-application-attributes",
           "description": "Guidance on customizing application attributes for identity provisioning in Microsoft Entra.",
-          "title": "Tutorial - Customize Microsoft Entra attribute mappings in Application Provisioning - Microsoft Entra ID | Microsoft Learn"
+          "title": "Tutorial - Customize Microsoft Entra attribute mappings in Application Provisioning - Microsoft Entra ID | Microsoft Learn",
+          "resource_order": 4
         },
         {
           "url": "https://aws.amazon.com/caching/",
           "description": "An overview of caching solutions and services provided by AWS to enhance application performance.",
-          "title": "What is Caching and How it Works | AWS"
+          "title": "What is Caching and How it Works | AWS",
+          "resource_order": 5
         },
         {
           "url": "https://www.box.com/home",
           "description": "A cloud-based file storage and collaboration platform for businesses.",
-          "title": "Secure, AI-Powered Content Management, Workflow & Collaboration"
+          "title": "Secure, AI-Powered Content Management, Workflow & Collaboration",
+          "resource_order": 6
         },
         {
           "url": "https://doc.arcgis.com/en/arcgis-solutions/11.1/reference/use-communications-data-management.htm",
           "description": "Guidance on managing communications data using ArcGIS Solutions.",
-          "title": "Use Communications Data Management\u2014ArcGIS Solutions | Documentation"
+          "title": "Use Communications Data Management—ArcGIS Solutions | Documentation",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
           "title": "Flutter Clean Architecture Full Course For Beginners - Bloc, Supabase, Hive, GetIt",
-          "duration": "424m"
+          "duration": "424m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=HSRYHwL6rPs",
           "title": "Tools I use to build mobile apps FAST with React Native",
-          "duration": "53m"
+          "duration": "53m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=I_J7N0n5YPs",
           "title": "Top React Native ESSENTIALS Tech Stack for 2025",
-          "duration": "16m"
+          "duration": "16m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=HrILchHvMUA&pp=0gcJCfwAo7VqN5tD",
           "title": "Model Driven Power Apps FULL COURSE for Beginners [UPDATED 2024 Edition]",
-          "duration": "141m"
+          "duration": "141m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=dc3B_mMrZ-Q",
           "title": "Learn Flutter Clean Architecture & TDD - Full Course (Flutter Tutorial)",
-          "duration": "434m"
+          "duration": "434m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=ZeZPmC861E8",
           "title": "XCTest Tutorial: How to add automated UI tests for Better iOS App Quality - Swift - SwiftUI - Xcode",
-          "duration": "53m"
+          "duration": "53m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=56Ihv5MF4_U",
           "title": "Microsoft Intune From Zero to Hero",
-          "duration": "39m"
+          "duration": "39m",
+          "resource_order": 8
         }
       ]
     },
@@ -217,106 +253,126 @@
         {
           "url": "https://sc1.checkpoint.com/documents/latest/APIs/",
           "description": "Documentation for the latest Check Point API reference and usage guidelines.",
-          "title": "Check Point - Management API reference"
+          "title": "Check Point - Management API reference",
+          "resource_order": 1
         },
         {
           "url": "https://docs.flutter.dev/get-started/fundamentals/state-management",
           "description": "An introductory guide to state management in Flutter applications.",
-          "title": "State management | Flutter"
+          "title": "State management | Flutter",
+          "resource_order": 2
         },
         {
           "url": "https://admob.google.com/home/",
           "description": "An overview of Google's AdMob platform for mobile app monetization and ad management.",
-          "title": "Google AdMob - Earn More With Mobile App Monetization"
+          "title": "Google AdMob - Earn More With Mobile App Monetization",
+          "resource_order": 3
         },
         {
           "url": "https://support.google.com/googlenest/answer/13323253?hl=en",
           "description": "Instructions for setting up and configuring the Nest Doorbell (battery) with the Google Home app.",
-          "title": "Create advanced home automations with the script editor - Google Nest Help"
+          "title": "Create advanced home automations with the script editor - Google Nest Help",
+          "resource_order": 4
         },
         {
           "url": "https://cloud.google.com/dialogflow/cx/docs",
           "description": "Official documentation for Dialogflow CX, Google's advanced conversational AI platform.",
-          "title": "Conversational Agents (Dialogflow CX) documentation \u00a0|\u00a0 Google Cloud"
+          "title": "Conversational Agents (Dialogflow CX) documentation  |  Google Cloud",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://docs.flutter.dev/get-started/fundamentals/state-management",
           "description": "An introduction to state management concepts and practices in Flutter applications.",
-          "title": "State management | Flutter"
+          "title": "State management | Flutter",
+          "resource_order": 1
         },
         {
           "url": "https://flutter.dev/learn",
           "description": "An introductory learning path for building apps with Flutter.",
-          "title": "Learn"
+          "title": "Learn",
+          "resource_order": 2
         },
         {
           "url": "https://codewithandrea.com/articles/flutter-deep-links/",
           "description": "A detailed guide on implementing deep linking in Flutter applications.",
-          "title": "Flutter Deep Linking: The Ultimate Guide"
+          "title": "Flutter Deep Linking: The Ultimate Guide",
+          "resource_order": 3
         },
         {
           "url": "https://www.digitalocean.com/community/tutorials/a-deep-dive-into-iptables-and-netfilter-architecture",
           "description": "An in-depth exploration of iptables and Netfilter architecture for network traffic management.",
-          "title": "A Deep Dive into Iptables and Netfilter Architecture | DigitalOcean"
+          "title": "A Deep Dive into Iptables and Netfilter Architecture | DigitalOcean",
+          "resource_order": 4
         },
         {
           "url": "https://getstream.io/blog/compose-tutorials/",
           "description": "A series of tutorials on building applications using Jetpack Compose.",
-          "title": "Jetpack Compose Tutorials for Beginners"
+          "title": "Jetpack Compose Tutorials for Beginners",
+          "resource_order": 5
         },
         {
           "url": "https://www.wrike.com/project-management-guide/faq/what-are-project-management-tools/",
           "description": "An overview of various tools used in project management to enhance productivity and collaboration.",
-          "title": "Best 21 project management tools: Expert reviews 2025"
+          "title": "Best 21 project management tools: Expert reviews 2025",
+          "resource_order": 6
         },
         {
           "url": "https://nalexn.github.io/state-management-guide-ios/",
           "description": "A detailed guide on state management techniques for iOS development.",
-          "title": "The Complete Guide to the State Management in iOS - Alexey Naumov"
+          "title": "The Complete Guide to the State Management in iOS - Alexey Naumov",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=SDk_GldOtK8&pp=0gcJCfwAo7VqN5tD",
           "title": "Flutter Bloc Tutorial For Beginners | BLoC Architecture/Pattern & State Management Explained",
-          "duration": "154m"
+          "duration": "154m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=56Ihv5MF4_U",
           "title": "Microsoft Intune From Zero to Hero",
-          "duration": "39m"
+          "duration": "39m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=dCLhUialKPQ",
           "title": "React JS 19 Full Course 2025 | Build an App and Master React in 2 Hours",
-          "duration": "127m"
+          "duration": "127m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=CQc-QDTmCoQ&pp=0gcJCfwAo7VqN5tD",
           "title": "App Performance Analysis with the Android Studio Profiler",
-          "duration": "14m"
+          "duration": "14m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=CzRQ9mnmh44",
           "title": "The Complete Dart & Flutter Developer Course | Full Tutorial For Beginners to Advanced",
-          "duration": "1247m"
+          "duration": "1247m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
           "title": "React Native Tutorial for Beginners - Build a React Native App",
-          "duration": "126m"
+          "duration": "126m",
+          "resource_order": 7
         },
         {
           "url": "https://m.youtube.com/watch?v=8cFNtL538lc",
           "title": "Logic Apps for Everyone - A complete guide for anyone!",
-          "duration": "50m"
+          "duration": "50m",
+          "resource_order": 8
         }
       ]
     }
@@ -332,7 +388,8 @@
           "Makes debugging easier"
         ],
         "correct_option": 0,
-        "hint": "Consider the impact of passing props through many components."
+        "hint": "Consider the impact of passing props through many components.",
+        "question_order": 1
       },
       {
         "question": "Which package is commonly used in Flutter for state management?",
@@ -343,7 +400,8 @@
           "LiveData"
         ],
         "correct_option": 1,
-        "hint": "This package is known for its simplicity and is widely used in Flutter applications."
+        "hint": "This package is known for its simplicity and is widely used in Flutter applications.",
+        "question_order": 2
       },
       {
         "question": "What is a key advantage of using Redux in React Native applications?",
@@ -354,7 +412,8 @@
           "Simplifies the use of asynchronous data"
         ],
         "correct_option": 1,
-        "hint": "Think about how Redux handles state across various components."
+        "hint": "Think about how Redux handles state across various components.",
+        "question_order": 3
       },
       {
         "question": "In Android development, what is the role of ViewModel in state management?",
@@ -365,7 +424,8 @@
           "To provide a UI for the database"
         ],
         "correct_option": 0,
-        "hint": "Consider how ViewModel helps in maintaining the UI state even after rotation."
+        "hint": "Consider how ViewModel helps in maintaining the UI state even after rotation.",
+        "question_order": 4
       },
       {
         "question": "What is LiveData primarily used for in Android apps?",
@@ -376,7 +436,8 @@
           "To handle file storage"
         ],
         "correct_option": 1,
-        "hint": "Think about how LiveData helps in reflecting changes in the app UI automatically."
+        "hint": "Think about how LiveData helps in reflecting changes in the app UI automatically.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -389,7 +450,8 @@
           "It involves using hooks to manage state in function components."
         ],
         "correct_option": 0,
-        "hint": "Consider the challenges of passing data through multiple layers of a component tree."
+        "hint": "Consider the challenges of passing data through multiple layers of a component tree.",
+        "question_order": 1
       },
       {
         "question": "In Flutter's Provider package, how does one typically access the nearest instance of a provided object?",
@@ -400,7 +462,8 @@
           "By using global variables."
         ],
         "correct_option": 0,
-        "hint": "Think about the method that retrieves the provided object based on the context."
+        "hint": "Think about the method that retrieves the provided object based on the context.",
+        "question_order": 2
       },
       {
         "question": "Which of the following best describes Redux in the context of React Native applications?",
@@ -411,7 +474,8 @@
           "A tool for building native modules for React Native."
         ],
         "correct_option": 0,
-        "hint": "Consider how Redux handles application state across components."
+        "hint": "Consider how Redux handles application state across components.",
+        "question_order": 3
       },
       {
         "question": "How does MobX differ from Redux in the way it handles state management?",
@@ -422,7 +486,8 @@
           "MobX is used for styling components, while Redux is not."
         ],
         "correct_option": 0,
-        "hint": "Think about the key architectural differences between MobX and Redux."
+        "hint": "Think about the key architectural differences between MobX and Redux.",
+        "question_order": 4
       },
       {
         "question": "In Android development, what is the primary role of a ViewModel in the MVVM architecture?",
@@ -433,7 +498,8 @@
           "To manage database transactions and queries."
         ],
         "correct_option": 0,
-        "hint": "Focus on how the ViewModel interacts with the user interface and lifecycle."
+        "hint": "Focus on how the ViewModel interacts with the user interface and lifecycle.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -446,7 +512,8 @@
           "Limited data flow control"
         ],
         "correct_option": 2,
-        "hint": "Consider the challenges of passing data through multiple layers of components."
+        "hint": "Consider the challenges of passing data through multiple layers of components.",
+        "question_order": 1
       },
       {
         "question": "In Flutter, how does the Provider package differ from using setState for state management?",
@@ -457,7 +524,8 @@
           "Provider does not work with asynchronous operations"
         ],
         "correct_option": 0,
-        "hint": "Think about the scope and reusability of state management."
+        "hint": "Think about the scope and reusability of state management.",
+        "question_order": 2
       },
       {
         "question": "Which of the following is true about using Redux for state management in React Native?",
@@ -468,7 +536,8 @@
           "Redux automatically syncs state across devices"
         ],
         "correct_option": 0,
-        "hint": "Consider how Redux organizes and centralizes state."
+        "hint": "Consider how Redux organizes and centralizes state.",
+        "question_order": 3
       },
       {
         "question": "In Android development, how do ViewModel and LiveData work together for state management?",
@@ -479,7 +548,8 @@
           "LiveData dispatches network requests"
         ],
         "correct_option": 0,
-        "hint": "Think about the relationship between data storage and observation."
+        "hint": "Think about the relationship between data storage and observation.",
+        "question_order": 4
       },
       {
         "question": "What is a common challenge when managing state with MobX in React Native?",
@@ -490,7 +560,8 @@
           "No support for side effects"
         ],
         "correct_option": 2,
-        "hint": "Consider the transparency and tracking of state changes in MobX."
+        "hint": "Consider the transparency and tracking of state changes in MobX.",
+        "question_order": 5
       }
     ]
   }

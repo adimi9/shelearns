@@ -8,7 +8,7 @@ import numpy as np # Import numpy for mocking embeddings
 # Import classes from your application
 from app.document_loader import DocumentLoader
 from app.embeddings_manager import EmbeddingsManager
-from app.rag_system import RAGSystem
+from personalisation_service.app.rag_output import RAGSystem
 import openai # Import openai to patch AsyncOpenAI
 from unittest.mock import AsyncMock, Mock # Explicitly import AsyncMock and Mock
 

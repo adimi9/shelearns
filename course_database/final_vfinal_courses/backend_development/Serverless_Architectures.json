@@ -20,86 +20,102 @@
         {
           "url": "https://www.serverless.com/framework/docs/providers/aws/guide/serverless.yml",
           "description": "A detailed guide on configuring serverless applications using serverless.yml for AWS.",
-          "title": "Serverless Framework - AWS Lambda Guide - Serverless.yml Reference"
+          "title": "Serverless Framework - AWS Lambda Guide - Serverless.yml Reference",
+          "resource_order": 1
         },
         {
           "url": "https://cloud.google.com/bigquery/docs/introduction",
           "description": "An introductory guide to Google BigQuery, a scalable data warehouse for analytics.",
-          "title": "BigQuery overview \u00a0|\u00a0 Google Cloud"
+          "title": "BigQuery overview  |  Google Cloud",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
           "description": "An introductory guide to using the AWS Cloud Development Kit (CDK) for infrastructure as code.",
-          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2"
+          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.datadoghq.com/knowledge-center/serverless-architecture/",
           "description": "An overview of serverless architecture and its benefits in cloud computing.",
-          "title": "Serverless Architecture: What It Is & How It Works | Datadog"
+          "title": "Serverless Architecture: What It Is & How It Works | Datadog",
+          "resource_order": 1
         },
         {
           "url": "https://www.serverless.com/aws-lambda",
           "description": "An overview of deploying and managing AWS Lambda functions using the Serverless Framework.",
-          "title": "AWS Lambda: The Ultimate Guide"
+          "title": "AWS Lambda: The Ultimate Guide",
+          "resource_order": 2
         },
         {
           "url": "https://www.baeldung.com/cs/serverless-architecture",
           "description": "An overview of serverless architecture and its benefits in cloud computing.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 3
         },
         {
           "url": "https://www.serverless.com/framework/docs/providers/aws/guide/intro",
           "description": "An introductory guide to using the Serverless Framework with AWS.",
-          "title": "Serverless Framework Concepts"
+          "title": "Serverless Framework Concepts",
+          "resource_order": 4
         },
         {
           "url": "https://aws.amazon.com/serverless/",
           "description": "An overview of AWS serverless technologies and solutions for building scalable applications.",
-          "title": "Serverless Computing \u2013 Amazon Web Services"
+          "title": "Serverless Computing – Amazon Web Services",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=EBSdyoO3goc&pp=0gcJCdgAo7VqN5tD",
           "title": "Introduction to AWS Lambda & Serverless Applications",
-          "duration": "56m"
+          "duration": "56m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=5fTtmeCpSRw",
           "title": "Day-17 | AWS LAMBDA INTRODUCTION | HOW DEVOPS ENGINEERS USE SERVERLESS ARCHITECTURE ?| #aws #devops",
-          "duration": "35m"
+          "duration": "35m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=5rG-YgTHMC8",
           "title": "AWS Serverless with AWS Lambda, API Gateway & EventBridge | Full Course for Beginners",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=Vxf-rOEO1q4",
           "title": "Azure Function Apps Tutorial | Introduction for serverless programming",
-          "duration": "29m"
+          "duration": "29m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=RtiWU1DrMaM",
           "title": "AWS Lambda Tutorial: Getting Started with Serverless Computing | KodeKloud",
-          "duration": "34m"
+          "duration": "34m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=ciTa2I7-tDE",
           "title": "Create a Serverless Application with SNS SQS and Lambda",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=rSIirRFa77s&pp=ygUJI3N1YmV2ZW50",
           "title": "Pub/Sub Architecture and AWS SNS - Exploring Event-Driven Patterns",
-          "duration": "21m"
+          "duration": "21m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=VGerk8hrP9U",
           "title": "AWS Lambda & DynamoDB | AWS Serverless tutorial | Part I",
-          "duration": "41m"
+          "duration": "41m",
+          "resource_order": 8
         }
       ]
     },
@@ -108,96 +124,114 @@
         {
           "url": "https://docs.databricks.com/aws/en/jobs/run-serverless-jobs",
           "description": "Instructions for running serverless jobs on Databricks using AWS.",
-          "title": "Run your Lakeflow Jobs with serverless compute for workflows | Databricks Documentation"
+          "title": "Run your Lakeflow Jobs with serverless compute for workflows | Databricks Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://cloud.google.com/dataproc-serverless/docs",
           "description": "Documentation for using Google Cloud Dataproc Serverless for running Apache Spark jobs without managing clusters.",
-          "title": "Dataproc Serverless documentation \u00a0|\u00a0 Dataproc Serverless Documentation \u00a0|\u00a0 Google Cloud"
+          "title": "Dataproc Serverless documentation  |  Dataproc Serverless Documentation  |  Google Cloud",
+          "resource_order": 2
         },
         {
           "url": "https://aws.amazon.com/lambda/",
           "description": "Overview and features of AWS Lambda, a serverless compute service.",
-          "title": "Serverless Computing - AWS Lambda - Amazon Web Services"
+          "title": "Serverless Computing - AWS Lambda - Amazon Web Services",
+          "resource_order": 3
         },
         {
           "url": "https://cloud.google.com/appengine/docs",
           "description": "Official documentation for Google Cloud's App Engine, detailing its features, setup, and usage.",
-          "title": "App Engine documentation \u00a0|\u00a0 App Engine Documentation \u00a0|\u00a0 Google Cloud"
+          "title": "App Engine documentation  |  App Engine Documentation  |  Google Cloud",
+          "resource_order": 4
         },
         {
           "url": "https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html",
           "description": "An introduction and guide to using Amazon API Gateway for building and managing APIs.",
-          "title": "What is Amazon API Gateway? - Amazon API Gateway"
+          "title": "What is Amazon API Gateway? - Amazon API Gateway",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.serverless.com/blog/eventbridge-use-cases-and-tutorial",
           "description": "An insightful tutorial on using AWS EventBridge for serverless application use cases.",
-          "title": "EventBridge Use Cases and Examples"
+          "title": "EventBridge Use Cases and Examples",
+          "resource_order": 1
         },
         {
           "url": "https://aws.amazon.com/serverless/",
           "description": "An overview of AWS serverless computing services and solutions.",
-          "title": "Serverless Computing \u2013 Amazon Web Services"
+          "title": "Serverless Computing – Amazon Web Services",
+          "resource_order": 2
         },
         {
           "url": "https://www.serverless.com/aws-lambda",
           "description": "An overview of AWS Lambda, a serverless computing service by AWS.",
-          "title": "AWS Lambda: The Ultimate Guide"
+          "title": "AWS Lambda: The Ultimate Guide",
+          "resource_order": 3
         },
         {
           "url": "https://aws.amazon.com/tutorials/create-a-serverless-workflow-step-functions-lambda/",
           "description": "A step-by-step tutorial on creating a serverless workflow using AWS Step Functions and Lambda.",
-          "title": "Create a Serverless Workflow with AWS Step Functions | AWS"
+          "title": "Create a Serverless Workflow with AWS Step Functions | AWS",
+          "resource_order": 4
         },
         {
           "url": "https://www.ibm.com/think/topics/serverless",
           "description": "An overview of serverless computing and its applications provided by IBM.",
-          "title": "What Is Serverless Computing? | IBM"
+          "title": "What Is Serverless Computing? | IBM",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=5fTtmeCpSRw",
           "title": "Day-17 | AWS LAMBDA INTRODUCTION | HOW DEVOPS ENGINEERS USE SERVERLESS ARCHITECTURE ?| #aws #devops",
-          "duration": "35m"
+          "duration": "35m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=jfNJsuuzh7w",
-          "title": "\ud83d\ude80 Serverless Architecture EXPLAINED! | Hands-On Tutorial",
-          "duration": "54m"
+          "title": "🚀 Serverless Architecture EXPLAINED! | Hands-On Tutorial",
+          "duration": "54m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=JDbkoICzQro",
           "title": "Building well architected API Gateway APIs | Serverless Office Hours",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=ng53ydesSFg",
           "title": "Using the Data API for Aurora Serverless | Serverless Office Hours",
-          "duration": "58m"
+          "duration": "58m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=VAyhnFX_zb8",
           "title": "Amazon Managed Workflows for Apache Airflow at Scale | Serverless Office Hours",
-          "duration": "58m"
+          "duration": "58m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=jV0tIqS2_Q4",
           "title": "Serverless GenAI using Bedrock Claude 3 | Serverless Office Hours",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=ZsVcig8-JUo",
           "title": "Integrating EventBridge and Kafka | Serverless Office Hours",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=EBSdyoO3goc",
           "title": "Introduction to AWS Lambda & Serverless Applications",
-          "duration": "56m"
+          "duration": "56m",
+          "resource_order": 8
         }
       ]
     },
@@ -206,90 +240,107 @@
         {
           "url": "https://www.serverless.com/aws-lambda",
           "description": "An in-depth overview of AWS Lambda and its integration with serverless architecture.",
-          "title": "AWS Lambda: The Ultimate Guide"
+          "title": "AWS Lambda: The Ultimate Guide",
+          "resource_order": 1
         },
         {
           "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
           "description": "An introduction and guide to using AWS Lambda for serverless computing.",
-          "title": "What is AWS Lambda? - AWS Lambda"
+          "title": "What is AWS Lambda? - AWS Lambda",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/blog/products/data-analytics/new-blog-series-bigquery-explained-overview",
           "description": "An introductory overview of the BigQuery Explained blog series on Google Cloud.",
-          "title": "An overview of BigQuery's architecture and how to quickly get started | Google Cloud Blog"
+          "title": "An overview of BigQuery's architecture and how to quickly get started | Google Cloud Blog",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.serverless.com/aws-lambda",
           "description": "An overview of using AWS Lambda for serverless application development.",
-          "title": "AWS Lambda: The Ultimate Guide"
+          "title": "AWS Lambda: The Ultimate Guide",
+          "resource_order": 1
         },
         {
           "url": "https://api7.ai/learning-center/api-gateway-guide",
           "description": "An in-depth guide to understanding and implementing API gateways.",
-          "title": "Dive into API gateways with API7 tutorial, featuring Apache APISIX and API7 Enterprise - API7.ai"
+          "title": "Dive into API gateways with API7 tutorial, featuring Apache APISIX and API7 Enterprise - API7.ai",
+          "resource_order": 2
         },
         {
           "url": "https://panoply.io/data-warehouse-guide/bigquery-architecture/",
           "description": "An overview of Google BigQuery's architecture and its components.",
-          "title": "A Deep Dive Into Google BigQuery Architecture: How It Works [2024\u00a0Updated] | Panoply"
+          "title": "A Deep Dive Into Google BigQuery Architecture: How It Works [2024 Updated] | Panoply",
+          "resource_order": 3
         },
         {
           "url": "https://docs.aws.amazon.com/serverless/latest/devguide/serverless-core.pdf",
-          "description": "An in-depth guide to AWS Serverless Application Model (SAM) for building serverless applications."
+          "description": "An in-depth guide to AWS Serverless Application Model (SAM) for building serverless applications.",
+          "resource_order": 4
         },
         {
           "url": "https://serverlessland.com/learn",
           "description": "A learning hub for exploring serverless technology and its applications.",
-          "title": "Learn Serverless | Serverless Land"
+          "title": "Learn Serverless | Serverless Land",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=lLrjaVdBuM0",
-          "title": "Azure Synapse | Azure Synapse Analytics [Full Course] \u2601\ufe0f",
-          "duration": "169m"
+          "title": "Azure Synapse | Azure Synapse Analytics [Full Course] ☁️",
+          "duration": "169m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=cF1chd45Vhw",
           "title": "Refactoring Java applications to serverless | Serverless Office Hours",
-          "duration": "58m"
+          "duration": "58m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=laT683IWvXY",
           "title": "A deep dive into Cloudflare D1, serverless databases for your apps!",
-          "duration": "62m"
+          "duration": "62m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=6X4lSPkn4ps",
           "title": "AWS re:Invent 2023 - Advanced event-driven patterns with Amazon EventBridge (COM301-R)",
-          "duration": "55m"
+          "duration": "55m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=5rG-YgTHMC8",
           "title": "AWS Serverless with AWS Lambda, API Gateway & EventBridge | Full Course for Beginners",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 5
         },
         {
           "url": "https://m.youtube.com/watch?v=Y6jbFC8tvVw&t=132s",
           "title": "Graph Database introduction, deep-dive and demo with Amazon Neptune  - AWS Virtual Workshop",
-          "duration": "76m"
+          "duration": "76m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=usOmwLZNVuM",
           "title": "LangGraph Deep Dive: Build Better Agents",
-          "duration": "46m"
+          "duration": "46m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=ibvG-pYKl8U",
-          "title": "A Practitioner's Guide to Unity Catalog\u2014A Technical Deep Dive",
-          "duration": "39m"
+          "title": "A Practitioner's Guide to Unity Catalog—A Technical Deep Dive",
+          "duration": "39m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=umEw0PODDjs",
           "title": "VictoriaMetrics Internals with Alex and Roman @victoriametrics",
-          "duration": "63m"
+          "duration": "63m",
+          "resource_order": 9
         }
       ]
     }
@@ -305,7 +356,8 @@
           "File-as-a-Service"
         ],
         "correct_option": 0,
-        "hint": "It's related to deploying individual functions."
+        "hint": "It's related to deploying individual functions.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is a popular serverless compute service provided by Amazon?",
@@ -316,7 +368,8 @@
           "AWS RDS"
         ],
         "correct_option": 0,
-        "hint": "It's named after a Greek letter."
+        "hint": "It's named after a Greek letter.",
+        "question_order": 2
       },
       {
         "question": "What is the primary benefit of using serverless architectures?",
@@ -327,7 +380,8 @@
           "Complex setup"
         ],
         "correct_option": 0,
-        "hint": "Think about cost and resource management."
+        "hint": "Think about cost and resource management.",
+        "question_order": 3
       },
       {
         "question": "Which framework is specifically designed to help deploy serverless applications?",
@@ -338,7 +392,8 @@
           "Spring"
         ],
         "correct_option": 0,
-        "hint": "Its name is quite literal."
+        "hint": "Its name is quite literal.",
+        "question_order": 4
       },
       {
         "question": "Which of these is a serverless compute service from Google Cloud Platform?",
@@ -349,7 +404,8 @@
           "Google App Engine"
         ],
         "correct_option": 0,
-        "hint": "Focus on functions as the service type."
+        "hint": "Focus on functions as the service type.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -362,7 +418,8 @@
           "Higher cost efficiency"
         ],
         "correct_option": 2,
-        "hint": "Think about how FaaS handles varying workloads without manual intervention."
+        "hint": "Think about how FaaS handles varying workloads without manual intervention.",
+        "question_order": 1
       },
       {
         "question": "Which of the following programming languages is NOT natively supported by AWS Lambda?",
@@ -373,7 +430,8 @@
           "C++"
         ],
         "correct_option": 3,
-        "hint": "AWS Lambda supports several popular languages, but not all are native."
+        "hint": "AWS Lambda supports several popular languages, but not all are native.",
+        "question_order": 2
       },
       {
         "question": "What is the serverless framework used for?",
@@ -384,7 +442,8 @@
           "Monitoring network traffic"
         ],
         "correct_option": 1,
-        "hint": "This framework is primarily used to simplify the deployment and management of serverless applications."
+        "hint": "This framework is primarily used to simplify the deployment and management of serverless applications.",
+        "question_order": 3
       },
       {
         "question": "How does Google Cloud Functions differ from AWS Lambda in its execution model?",
@@ -395,7 +454,8 @@
           "AWS Lambda supports more runtime environments"
         ],
         "correct_option": 0,
-        "hint": "Consider the time limits imposed by each platform."
+        "hint": "Consider the time limits imposed by each platform.",
+        "question_order": 4
       },
       {
         "question": "What is a key characteristic of serverless architectures compared to traditional server-based architectures?",
@@ -406,7 +466,8 @@
           "Higher complexity in deployment"
         ],
         "correct_option": 2,
-        "hint": "Think about the financial model most associated with serverless solutions."
+        "hint": "Think about the financial model most associated with serverless solutions.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -419,7 +480,8 @@
           "AWS CodeDeploy"
         ],
         "correct_option": 1,
-        "hint": "It's an extension of AWS CloudFormation for serverless applications."
+        "hint": "It's an extension of AWS CloudFormation for serverless applications.",
+        "question_order": 1
       },
       {
         "question": "In the context of Google Cloud Functions, which of the following languages is NOT supported?",
@@ -430,7 +492,8 @@
           "Ruby"
         ],
         "correct_option": 3,
-        "hint": "This language is known for web development but isn't supported by Google Cloud Functions."
+        "hint": "This language is known for web development but isn't supported by Google Cloud Functions.",
+        "question_order": 2
       },
       {
         "question": "Which component is NOT part of the Serverless Framework architecture?",
@@ -441,7 +504,8 @@
           "Serverless Plugin"
         ],
         "correct_option": 2,
-        "hint": "This component is specific to AWS."
+        "hint": "This component is specific to AWS.",
+        "question_order": 3
       },
       {
         "question": "What is a common challenge when using FaaS in serverless architectures?",
@@ -452,7 +516,8 @@
           "Simplified deployment"
         ],
         "correct_option": 1,
-        "hint": "It's related to initial function invocation time."
+        "hint": "It's related to initial function invocation time.",
+        "question_order": 4
       },
       {
         "question": "Which of the following is a primary benefit of using AWS Lambda?",
@@ -463,7 +528,8 @@
           "Manual scaling"
         ],
         "correct_option": 2,
-        "hint": "AWS Lambda excels at responding to events with automatic scaling."
+        "hint": "AWS Lambda excels at responding to events with automatic scaling.",
+        "question_order": 5
       }
     ]
   }

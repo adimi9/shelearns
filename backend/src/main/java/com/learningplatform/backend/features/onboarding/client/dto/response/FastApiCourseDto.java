@@ -1,5 +1,5 @@
 // 📁 FastApiCourseDto.java
-package com.learningplatform.backend.features.onboarding.dto.response;
+package com.learningplatform.backend.features.onboarding.client.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

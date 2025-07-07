@@ -1,7 +1,8 @@
 package com.learningplatform.backend.features.onboarding.client;
 
+import com.learningplatform.backend.features.onboarding.client.dto.request.FastApiRequestDto;
+import com.learningplatform.backend.features.onboarding.client.dto.response.FastApiResponseDto;
 import com.learningplatform.backend.features.onboarding.dto.request.OnboardingRequestDto;
-import com.learningplatform.backend.features.onboarding.dto.response.FastApiResponseDto;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,15 +24,12 @@ public class FastApiClient {
         this.restTemplate = restTemplate;
     }
 
-    public FastApiResponseDto getPersonalizedCourses(String prompt) {
+    public FastApiResponseDto getPersonalizedCourses(FastApiRequestDto questionnaireMap) {
         String url = "http://localhost:8000/personalize";
 
-        Map<String, String> body = new HashMap<>();
-        body.put("prompt", prompt);
-
         // 🪵 Log the actual request payload
-        logger.info("Sending prompt to {}: {}", url, prompt);
+        logger.info("Sending prompt to {}: {}", url, questionnaireMap);
 
-        return restTemplate.postForObject(url, body, FastApiResponseDto.class);
+        return restTemplate.postForObject(url, questionnaireMap, FastApiResponseDto.class);
     }
 }

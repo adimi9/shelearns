@@ -29,71 +29,84 @@
         {
           "url": "https://flask.palletsprojects.com/",
           "description": "Official documentation for Flask, a lightweight WSGI web application framework in Python.",
-          "title": "Welcome to Flask \u2014 Flask Documentation (3.1.x)"
+          "title": "Welcome to Flask — Flask Documentation (3.1.x)",
+          "resource_order": 1
         },
         {
           "url": "https://docs.djangoproject.com/",
           "description": "Official documentation for Django, a high-level Python web framework.",
-          "title": "Django documentation | Django documentation | Django"
+          "title": "Django documentation | Django documentation | Django",
+          "resource_order": 2
         },
         {
           "url": "https://www.uvicorn.org/",
           "description": "Official documentation for Uvicorn, a fast ASGI server for Python web applications.",
-          "title": "Uvicorn"
+          "title": "Uvicorn",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.datacamp.com/tutorial/python-backend-development",
           "description": "An introductory tutorial on Python backend development using popular frameworks.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://flask.palletsprojects.com/",
           "description": "Official documentation for Flask, a lightweight WSGI web application framework in Python.",
-          "title": "Welcome to Flask \u2014 Flask Documentation (3.1.x)"
+          "title": "Welcome to Flask — Flask Documentation (3.1.x)",
+          "resource_order": 2
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
-          "title": "Django Tutorial for Beginners \u2013 Build Powerful Backends",
-          "duration": "62m"
+          "title": "Django Tutorial for Beginners – Build Powerful Backends",
+          "duration": "62m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=Rp5vd34d-z4",
           "title": "Python Django Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours",
-          "duration": "199m"
+          "duration": "199m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=Z1RJmh_OqeA",
           "title": "Learn Flask for Python - Full Tutorial",
-          "duration": "46m"
+          "duration": "46m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=7LNl2JlZKHA&pp=ygUOI21scHl0aG9ucmVhY3Q%3D",
           "title": "How to Create a Flask + React Project | Python Backend + React Frontend",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=PtQiiknWUcI",
           "title": "Python Django 7 Hour Course",
-          "duration": "430m"
+          "duration": "430m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=jQjjqEjZK58",
           "title": "How to Create a Web Application in Python using Flask",
-          "duration": "52m"
+          "duration": "52m",
+          "resource_order": 6
         },
         {
           "url": "https://m.youtube.com/watch?v=FNQxxpM1yOs",
           "title": "Introduction - Django Web Development with Python 1",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=z3YMz-Gocmw",
-          "title": "Python REST API Tutorial for Beginners\u00a0| How to Build a Flask REST\u00a0API",
-          "duration": "40m"
+          "title": "Python REST API Tutorial for Beginners | How to Build a Flask REST API",
+          "duration": "40m",
+          "resource_order": 8
         }
       ]
     },
@@ -102,101 +115,120 @@
         {
           "url": "https://docs.djangoproject.com/",
           "description": "Official documentation for the Django web framework, covering installation, models, views, templates, and more.",
-          "title": "Django documentation | Django documentation | Django"
+          "title": "Django documentation | Django documentation | Django",
+          "resource_order": 1
         },
         {
           "url": "https://auth0.com/blog/developing-restful-apis-with-python-and-flask/",
           "description": "A detailed tutorial on building RESTful APIs using Python and Flask.",
-          "title": "Developing RESTful APIs with Python and Flask | Auth0"
+          "title": "Developing RESTful APIs with Python and Flask | Auth0",
+          "resource_order": 2
         },
         {
           "url": "https://code.visualstudio.com/docs/python/tutorial-django",
           "description": "A step-by-step tutorial for developing Python Django applications using Visual Studio Code.",
-          "title": "Django Tutorial in Visual Studio Code"
+          "title": "Django Tutorial in Visual Studio Code",
+          "resource_order": 3
         },
         {
           "url": "https://fastapi.tiangolo.com/",
           "description": "Official documentation for FastAPI, a modern Python web framework for building APIs with high performance.",
-          "title": "FastAPI"
+          "title": "FastAPI",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://github.com/tiangolo/fastapi/discussions/2538",
           "description": "A community discussion on implementing middleware in FastAPI applications.",
-          "title": "Fastapi Tutorials \u00b7 fastapi/fastapi \u00b7 Discussion #2538 \u00b7 GitHub"
+          "title": "Fastapi Tutorials · fastapi/fastapi · Discussion #2538 · GitHub",
+          "resource_order": 1
         },
         {
           "url": "https://auth0.com/blog/developing-restful-apis-with-python-and-flask/",
           "description": "A tutorial on building RESTful APIs using Python and Flask.",
-          "title": "Developing RESTful APIs with Python and Flask | Auth0"
+          "title": "Developing RESTful APIs with Python and Flask | Auth0",
+          "resource_order": 2
         },
         {
           "url": "https://www.datacamp.com/tutorial/python-backend-development",
           "description": "An introductory tutorial on Python backend development for building web applications.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 3
         },
         {
           "url": "https://www.freecodecamp.org/news/i-built-a-web-api-with-express-flask-aspnet/",
           "description": "A tutorial on building a web API using Express, Flask, and ASP.NET.",
-          "title": "I rebuilt the same web API using Express, Flask, and ASP.NET. Here's what I found."
+          "title": "I rebuilt the same web API using Express, Flask, and ASP.NET. Here's what I found.",
+          "resource_order": 4
         },
         {
           "url": "https://code.visualstudio.com/docs/python/tutorial-django",
           "description": "A step-by-step tutorial for building Django web applications using Visual Studio Code.",
-          "title": "Django Tutorial in Visual Studio Code"
+          "title": "Django Tutorial in Visual Studio Code",
+          "resource_order": 5
         },
         {
           "url": "https://blog.jetbrains.com/pycharm/2023/11/django-vs-flask-which-is-the-best-python-web-framework/",
           "description": "A comparative analysis of Django and Flask to determine the best Python web framework.",
-          "title": "Django vs. Flask: Which Is the Best Python Web Framework? | The PyCharm Blog"
+          "title": "Django vs. Flask: Which Is the Best Python Web Framework? | The PyCharm Blog",
+          "resource_order": 6
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/app-service/tutorial-python-postgresql-app-flask",
           "description": "A tutorial on deploying a Python Flask app with PostgreSQL on Azure App Service.",
-          "title": "Tutorial: Deploy a Python Flask web app with PostgreSQL - Azure App Service | Microsoft Learn"
+          "title": "Tutorial: Deploy a Python Flask web app with PostgreSQL - Azure App Service | Microsoft Learn",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=cNlJCQHSmbE",
           "title": "FastAPI, Flask or Django - Which Should You Use?",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=_sWgionzDoM",
           "title": "Build an Inventory Management System with Python and Django: A Step-by-Step Tutorial",
-          "duration": "129m"
+          "duration": "129m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
           "title": "Python Full Course for Beginners",
-          "duration": "374m"
+          "duration": "374m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=eUitxqLxICo",
           "title": "Building Python Web Applications with Visual Studio Code Docker and Azure - BRK3020",
-          "duration": "60m"
+          "duration": "60m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=xldTxXtNiuk",
           "title": "React Django Tutorial - Learn React Python Django In 1 Hour | For Beginners",
-          "duration": "71m"
+          "duration": "71m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=iFEVef5XdMI",
           "title": "Build a Django Rest API and Integrate with Next.js! Django Ninja, shadcn, Neon Postgres, Railway...",
-          "duration": "364m"
+          "duration": "364m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=7bhTyCCASPo",
-          "title": "Django web app to interact with network devices \u2013 Network programmability stream 22",
-          "duration": "211m"
+          "title": "Django web app to interact with network devices – Network programmability stream 22",
+          "duration": "211m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=MOif6TIjxtA",
-          "title": "\ud83d\udd25 Introduction to Python Django and Three.js for Web Development \ud83d\udd25",
-          "duration": "32m"
+          "title": "🔥 Introduction to Python Django and Three.js for Web Development 🔥",
+          "duration": "32m",
+          "resource_order": 8
         }
       ]
     },
@@ -205,76 +237,90 @@
         {
           "url": "https://flask.palletsprojects.com/",
           "description": "Official documentation for Flask, a lightweight WSGI web application framework in Python.",
-          "title": "Welcome to Flask \u2014 Flask Documentation (3.1.x)"
+          "title": "Welcome to Flask — Flask Documentation (3.1.x)",
+          "resource_order": 1
         },
         {
           "url": "https://docs.djangoproject.com/",
           "description": "Official documentation for Django, a high-level Python web framework.",
-          "title": "Django documentation | Django documentation | Django"
+          "title": "Django documentation | Django documentation | Django",
+          "resource_order": 2
         },
         {
           "url": "https://www.datacamp.com/tutorial/introduction-fastapi-tutorial",
           "description": "An introductory tutorial on building APIs using FastAPI.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.datacamp.com/tutorial/python-backend-development",
           "description": "A tutorial on backend development using Python, covering essential frameworks and tools.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://roadmap.sh/python",
           "description": "An interactive roadmap for mastering Python programming skills.",
-          "title": "Learn to become a modern Python developer"
+          "title": "Learn to become a modern Python developer",
+          "resource_order": 2
         },
         {
           "url": "https://testdriven.io/blog/developing-a-single-page-app-with-flask-and-vuejs/",
           "description": "A guide to building a single-page application using Flask and Vue.js.",
-          "title": "Developing a Single Page App with Flask and Vue.js | TestDriven.io"
+          "title": "Developing a Single Page App with Flask and Vue.js | TestDriven.io",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=rHux0gMZ3Eg",
-          "title": "Django Tutorial for Beginners \u2013 Build Powerful Backends",
-          "duration": "62m"
+          "title": "Django Tutorial for Beginners – Build Powerful Backends",
+          "duration": "62m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=Rp5vd34d-z4",
           "title": "Python Django Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours",
-          "duration": "199m"
+          "duration": "199m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=PtQiiknWUcI",
           "title": "Python Django 7 Hour Course",
-          "duration": "430m"
+          "duration": "430m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=45P3xQPaYxc",
           "title": "Flask Full Course: Build Stunning Web Apps Fast | Python Flask Tutorial",
-          "duration": "85m"
+          "duration": "85m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=Z1RJmh_OqeA",
           "title": "Learn Flask for Python - Full Tutorial",
-          "duration": "46m"
+          "duration": "46m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=PppslXOR7TA",
           "title": "Python + JavaScript - Full Stack App Tutorial",
-          "duration": "89m"
+          "duration": "89m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
           "title": "Python Full Course for Beginners",
-          "duration": "374m"
+          "duration": "374m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=4pXGCC6dcOg",
           "title": "Python Django ORM Intro Tutorial",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 8
         }
       ]
     }
@@ -290,7 +336,8 @@
           "To design graphics"
         ],
         "correct_option": 1,
-        "hint": "Consider the main function of a web framework."
+        "hint": "Consider the main function of a web framework.",
+        "question_order": 1
       },
       {
         "question": "Which command is used to start a new Django project?",
@@ -301,7 +348,8 @@
           "django createproject"
         ],
         "correct_option": 0,
-        "hint": "The command starts with 'django-admin'."
+        "hint": "The command starts with 'django-admin'.",
+        "question_order": 2
       },
       {
         "question": "What is the role of an ORM in web development?",
@@ -312,7 +360,8 @@
           "Create RESTful APIs"
         ],
         "correct_option": 1,
-        "hint": "ORM stands for Object-Relational Mapping."
+        "hint": "ORM stands for Object-Relational Mapping.",
+        "question_order": 3
       },
       {
         "question": "Which Python library is commonly used for testing web applications built with Django or Flask?",
@@ -323,7 +372,8 @@
           "requests"
         ],
         "correct_option": 0,
-        "hint": "It's a built-in Python library for testing."
+        "hint": "It's a built-in Python library for testing.",
+        "question_order": 4
       },
       {
         "question": "What is a common security issue that web applications need to address?",
@@ -334,7 +384,8 @@
           "Slow internet connection"
         ],
         "correct_option": 2,
-        "hint": "This issue involves malicious database queries."
+        "hint": "This issue involves malicious database queries.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -347,7 +398,8 @@
           "django-admin newproject <projectname>"
         ],
         "correct_option": 0,
-        "hint": "It involves the 'startproject' command."
+        "hint": "It involves the 'startproject' command.",
+        "question_order": 1
       },
       {
         "question": "In Flask, how do you specify a route for a function called 'home'?",
@@ -358,7 +410,8 @@
           "app.route('/home')"
         ],
         "correct_option": 0,
-        "hint": "The decorator starts with '@app'."
+        "hint": "The decorator starts with '@app'.",
+        "question_order": 2
       },
       {
         "question": "What is the primary purpose of Django's ORM?",
@@ -369,7 +422,8 @@
           "To manage user authentication"
         ],
         "correct_option": 1,
-        "hint": "It involves database operations using Python objects."
+        "hint": "It involves database operations using Python objects.",
+        "question_order": 3
       },
       {
         "question": "Which Django middleware is essential for handling authentication?",
@@ -380,7 +434,8 @@
           "CommonMiddleware"
         ],
         "correct_option": 0,
-        "hint": "It directly relates to 'authentication'."
+        "hint": "It directly relates to 'authentication'.",
+        "question_order": 4
       },
       {
         "question": "What Python feature can be used for asynchronous programming in web apps?",
@@ -391,7 +446,8 @@
           "concurrency"
         ],
         "correct_option": 0,
-        "hint": "It's a library designed for asynchronous I/O."
+        "hint": "It's a library designed for asynchronous I/O.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -404,7 +460,8 @@
           "Flask is more suited for large-scale applications compared to Django."
         ],
         "correct_option": 0,
-        "hint": "Consider the core philosophy and structure of each framework."
+        "hint": "Consider the core philosophy and structure of each framework.",
+        "question_order": 1
       },
       {
         "question": "In Django, how can you implement a custom authentication backend to allow authentication against an external service?",
@@ -415,7 +472,8 @@
           "Configure the external service directly in the middleware settings."
         ],
         "correct_option": 1,
-        "hint": "Django provides a way to extend its authentication system through backends."
+        "hint": "Django provides a way to extend its authentication system through backends.",
+        "question_order": 2
       },
       {
         "question": "What is a key advantage of using SQLAlchemy with Flask over Django's ORM?",
@@ -426,7 +484,8 @@
           "SQLAlchemy is specifically designed for Flask, while Django ORM can only be used with Django."
         ],
         "correct_option": 1,
-        "hint": "Consider the design philosophy of SQLAlchemy versus Django ORM."
+        "hint": "Consider the design philosophy of SQLAlchemy versus Django ORM.",
+        "question_order": 3
       },
       {
         "question": "How can you enable asynchronous views in a Django application?",
@@ -437,7 +496,8 @@
           "Use Celery for asynchronous task management in views."
         ],
         "correct_option": 1,
-        "hint": "Django supports asynchronous views natively in recent versions."
+        "hint": "Django supports asynchronous views natively in recent versions.",
+        "question_order": 4
       },
       {
         "question": "Which Flask extension is recommended for adding security headers to a web application?",
@@ -448,7 +508,8 @@
           "Flask-CORS"
         ],
         "correct_option": 2,
-        "hint": "This extension is specifically designed to manage HTTP security headers."
+        "hint": "This extension is specifically designed to manage HTTP security headers.",
+        "question_order": 5
       }
     ]
   },

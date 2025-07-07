@@ -21,86 +21,102 @@
         {
           "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/welcome.html",
           "description": "An AWS guide detailing the security reference architecture for cloud solutions.",
-          "title": "AWS Security Reference Architecture (AWS SRA) - AWS Prescriptive Guidance"
+          "title": "AWS Security Reference Architecture (AWS SRA) - AWS Prescriptive Guidance",
+          "resource_order": 1
         },
         {
           "url": "https://firebase.google.com/docs/auth",
           "description": "Comprehensive documentation on implementing user authentication with Firebase.",
-          "title": "Firebase Authentication"
+          "title": "Firebase Authentication",
+          "resource_order": 2
         },
         {
           "url": "https://graphql.org/learn/",
           "description": "An introductory guide to understanding and using GraphQL for API development.",
-          "title": "Introduction to GraphQL | GraphQL"
+          "title": "Introduction to GraphQL | GraphQL",
+          "resource_order": 3
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/",
           "description": "Official Microsoft Azure documentation and resources for cloud solutions.",
-          "title": "Azure documentation | Microsoft Learn"
+          "title": "Azure documentation | Microsoft Learn",
+          "resource_order": 4
         },
         {
           "url": "https://docs.djangoproject.com/",
           "description": "Official documentation for the Django web framework, covering installation, usage, and advanced features.",
-          "title": "Django documentation | Django documentation | Django"
+          "title": "Django documentation | Django documentation | Django",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://www.howtographql.com/",
           "description": "An in-depth tutorial for building GraphQL APIs with various programming languages and frameworks.",
-          "title": "How to GraphQL - The Fullstack Tutorial for GraphQL"
+          "title": "How to GraphQL - The Fullstack Tutorial for GraphQL",
+          "resource_order": 1
         },
         {
           "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
           "description": "A detailed roadmap for becoming a full-stack developer and securing a job in the field.",
-          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) \u2013 A Handbook for Beginners"
+          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners",
+          "resource_order": 2
         },
         {
           "url": "https://www.esecurityplanet.com/networks/kali-linux-tutorial/",
           "description": "A tutorial guide for using Kali Linux for network security tasks.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00",
           "title": "MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours",
-          "duration": "470m"
+          "duration": "470m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=nJ25yl34Uqw",
-          "title": "GenAI Essentials \u2013 Full Course for Beginners",
-          "duration": "1373m"
+          "title": "GenAI Essentials – Full Course for Beginners",
+          "duration": "1373m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=rJsHc-4w60g",
           "title": "Power Apps Tutorial | FULL COURSE for Beginners",
-          "duration": "136m"
+          "duration": "136m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=tXC9DQRWHUQ",
           "title": "Full 2025 Backend Dev Crash Course for Beginners With Spring Boot (Kotlin, JWT Auth, MongoDB)",
-          "duration": "182m"
+          "duration": "182m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=pUWmJ86X_do",
           "title": "Smart Contract Audits, Security, and DeFi FULL Course | Learn smart contract auditing",
-          "duration": "1277m"
+          "duration": "1277m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=lpa8uy4DyMo&pp=0gcJCf0Ao7VqN5tD",
           "title": "Cyber Security Full course - 11 Hours | Cyber Security Training For Beginners | Edureka",
-          "duration": "663m"
+          "duration": "663m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
           "title": "Easily Deploy Full Stack Node.js Apps on AWS EC2 | Step-by-Step Tutorial",
-          "duration": "29m"
+          "duration": "29m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 8
         }
       ]
     },
@@ -109,96 +125,114 @@
         {
           "url": "https://cloud.google.com/architecture",
           "description": "A collection of architectural best practices and guidelines for building on Google Cloud.",
-          "title": "Cloud Architecture Guidance and Topologies \u00a0|\u00a0 Google Cloud"
+          "title": "Cloud Architecture Guidance and Topologies  |  Google Cloud",
+          "resource_order": 1
         },
         {
           "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html",
           "description": "An overview of key concepts and features of Amazon EC2 for cloud computing.",
-          "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud"
+          "title": "What is Amazon EC2? - Amazon Elastic Compute Cloud",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/docs",
           "description": "Comprehensive documentation for Google Cloud services and solutions.",
-          "title": "Google Cloud Documentation"
+          "title": "Google Cloud Documentation",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.couchbase.com/blog/author/nic-raboy-2/",
           "description": "A collection of technical blog posts by Nic Raboy on Couchbase-related topics.",
-          "title": "Access Denied"
+          "title": "Access Denied",
+          "resource_order": 1
         },
         {
           "url": "https://www.linkedin.com/posts/praveen-singampalli_aws-notes-that-have-helped-my-students-to-activity-7324074250649096192-RqW4",
           "description": "A compilation of AWS notes designed to aid students in understanding cloud concepts.",
-          "title": "AWS notes that have helped my students to crack 15+ LPA jobs and now you can get for free https://lnkd.in/g8WXuYTe | Praveen Singampalli"
+          "title": "AWS notes that have helped my students to crack 15+ LPA jobs and now you can get for free https://lnkd.in/g8WXuYTe | Praveen Singampalli",
+          "resource_order": 2
         },
         {
           "url": "https://portal.nutanix.com/page/documents/solutions/details?targetId=NVD-2201-Citrix-DaaS-on-VMware-vSphere:nvd-executive-summary.html",
           "description": "An executive summary of deploying Citrix DaaS on VMware vSphere using Nutanix infrastructure.",
-          "title": "Nutanix Support & Insights"
+          "title": "Nutanix Support & Insights",
+          "resource_order": 3
         },
         {
           "url": "https://owasp2025globalappseceu.sched.com/2025-05-28/list/descriptions",
           "description": "A schedule and description list for the OWASP 2025 Global AppSec EU conference sessions.",
-          "title": "OWASP 2025 Global AppSec EU: Full Schedule"
+          "title": "OWASP 2025 Global AppSec EU: Full Schedule",
+          "resource_order": 4
         },
         {
           "url": "https://docs.aws.amazon.com/managedservices/latest/onboardingguide/amplify.html",
           "description": "An onboarding guide for AWS Managed Services using Amplify.",
-          "title": "Use AMS SSP to provision AWS Amplify in your AMS account - AMS Advanced Onboarding Guide"
+          "title": "Use AMS SSP to provision AWS Amplify in your AMS account - AMS Advanced Onboarding Guide",
+          "resource_order": 5
         },
         {
           "url": "https://link.springer.com/chapter/10.1007/978-1-4842-4152-3_12",
           "description": "An in-depth analysis of advanced neural network architectures and their applications.",
-          "title": "Security | SpringerLink"
+          "title": "Security | SpringerLink",
+          "resource_order": 6
         },
         {
           "url": "https://infohub.delltechnologies.com/en-us/p/content-summarization-deployment-guide-dell-generative-ai-with-intel-enterprise-rag/",
           "description": "A deployment guide for implementing Dell Generative AI with Intel Enterprise RAG.",
-          "title": "403"
+          "title": "403",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=HVR2953ntmU",
           "title": "Building Full-Stack, Secure, and Scalable Applications Without the Infrastructure Headache",
-          "duration": "45m"
+          "duration": "45m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
           "title": "Easily Deploy Full Stack Node.js Apps on AWS EC2 | Step-by-Step Tutorial",
-          "duration": "29m"
+          "duration": "29m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=rJsHc-4w60g",
           "title": "Power Apps Tutorial | FULL COURSE for Beginners",
-          "duration": "136m"
+          "duration": "136m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=nJ25yl34Uqw",
-          "title": "GenAI Essentials \u2013 Full Course for Beginners",
-          "duration": "1373m"
+          "title": "GenAI Essentials – Full Course for Beginners",
+          "duration": "1373m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=X48VuDVv0do",
           "title": "Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]",
-          "duration": "216m"
+          "duration": "216m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=GH7L4D8Q_ak",
           "title": "Complete Spring Security with JWT Authentication | Spring Security 6 | Securing Spring Boot",
-          "duration": "225m"
+          "duration": "225m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=Gx4iBLKLVHk",
           "title": "Spring Boot Full Stack and Angular | Full Course",
-          "duration": "159m"
+          "duration": "159m",
+          "resource_order": 8
         }
       ]
     },
@@ -207,75 +241,89 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for learning and referencing JavaScript programming on the web.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://cloud.google.com/architecture",
           "description": "A collection of best practices and design patterns for building solutions on Google Cloud.",
-          "title": "Cloud Architecture Guidance and Topologies \u00a0|\u00a0 Google Cloud"
+          "title": "Cloud Architecture Guidance and Topologies  |  Google Cloud",
+          "resource_order": 2
         },
         {
           "url": "https://aws.amazon.com/architecture/",
           "description": "A resource hub for AWS architecture best practices, frameworks, and patterns.",
-          "title": "Reference Architecture Examples and Best Practices"
+          "title": "Reference Architecture Examples and Best Practices",
+          "resource_order": 3
         },
         {
           "url": "https://cloud.google.com/ai/generative-ai",
           "description": "An overview of Google's generative AI capabilities and services on their cloud platform.",
-          "title": "Generative AI | Google Cloud"
+          "title": "Generative AI | Google Cloud",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.linkedin.com/posts/naaji-navas_cisco-codewithcisco-internship-activity-7207682518286835712-oqsZ",
           "description": "An overview of the Cisco internship experience shared by Naaji Navas on LinkedIn.",
-          "title": "Your Guide to Securing a 6-Month Internship and Full-Time Offer at Cisco through Code-with-Cisco | Najid Navas"
+          "title": "Your Guide to Securing a 6-Month Internship and Full-Time Offer at Cisco through Code-with-Cisco | Najid Navas",
+          "resource_order": 1
         },
         {
           "url": "https://dzone.com/authors/borisza",
           "description": "A collection of technical articles and insights by author Boris Zaikin on DZone.",
-          "title": "Attention Required! | Cloudflare"
+          "title": "Attention Required! | Cloudflare",
+          "resource_order": 2
         },
         {
           "url": "https://www.toptal.com/developers/denver/javascript",
           "description": "A resource hub for JavaScript developers in Denver, offering insights and opportunities.",
-          "title": "Attention Required! | Cloudflare"
+          "title": "Attention Required! | Cloudflare",
+          "resource_order": 3
         },
         {
           "url": "https://owasp2025globalappseceu.sched.com/2025-05-28/list/descriptions",
           "description": "A schedule and description of sessions for the OWASP Global AppSec Europe 2025 conference.",
-          "title": "OWASP 2025 Global AppSec EU: Full Schedule"
+          "title": "OWASP 2025 Global AppSec EU: Full Schedule",
+          "resource_order": 4
         },
         {
           "url": "https://www.manageengine.com/products/applications_manager/help/delete-usergroup.html",
           "description": "Instructions for deleting a user group in ManageEngine Applications Manager.",
-          "title": "Delete Usergroup - Applications Manager User Guide"
+          "title": "Delete Usergroup - Applications Manager User Guide",
+          "resource_order": 5
         },
         {
           "url": "https://fr.linkedin.com/in/julien-hautier-iot/en",
-          "description": "Professional profile of Julien Hautier, specializing in IoT technologies."
+          "description": "Professional profile of Julien Hautier, specializing in IoT technologies.",
+          "resource_order": 6
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=3Jt60NWcchE",
           "title": "Python Project | Build Online Banking App with Python",
-          "duration": "247m"
+          "duration": "247m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=Cj_R2hku6wE",
           "title": "Spring Security with Jwt Token | SecurityFilterChain | Spring API Authentication",
-          "duration": "34m"
+          "duration": "34m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=bLGAKqn_stA",
           "title": "Build a RESTful API with Django: User Authentication and Login/Logout Functionality",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=rJsHc-4w60g",
           "title": "Power Apps Tutorial | FULL COURSE for Beginners",
-          "duration": "136m"
+          "duration": "136m",
+          "resource_order": 4
         }
       ]
     }
@@ -291,7 +339,8 @@
           "To define the rules for GDPR compliance"
         ],
         "correct_option": 1,
-        "hint": "It is a resource to help developers and security professionals focus on the most critical security issues."
+        "hint": "It is a resource to help developers and security professionals focus on the most critical security issues.",
+        "question_order": 1
       },
       {
         "question": "Which of the following is a key principle in secure API design?",
@@ -302,7 +351,8 @@
           "Expose internal server errors to users"
         ],
         "correct_option": 2,
-        "hint": "Consider who can access your API and what they can do with it."
+        "hint": "Consider who can access your API and what they can do with it.",
+        "question_order": 2
       },
       {
         "question": "Which regulation focuses on data protection and privacy for individuals within the European Union?",
@@ -313,7 +363,8 @@
           "FISMA"
         ],
         "correct_option": 2,
-        "hint": "It's a regulation intended to protect citizens' personal data and privacy in the EU."
+        "hint": "It's a regulation intended to protect citizens' personal data and privacy in the EU.",
+        "question_order": 3
       },
       {
         "question": "In threat modeling, which of the following is a primary activity?",
@@ -324,7 +375,8 @@
           "Focusing only on external threats"
         ],
         "correct_option": 1,
-        "hint": "This involves analyzing and addressing security risks before they can be exploited."
+        "hint": "This involves analyzing and addressing security risks before they can be exploited.",
+        "question_order": 4
       },
       {
         "question": "What is a common vulnerability that OWASP highlights for web applications?",
@@ -335,7 +387,8 @@
           "Physical theft"
         ],
         "correct_option": 1,
-        "hint": "This vulnerability involves manipulating a web application's database through malicious queries."
+        "hint": "This vulnerability involves manipulating a web application's database through malicious queries.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -348,7 +401,8 @@
           "To list the top 10 secure web hosting providers"
         ],
         "correct_option": 1,
-        "hint": "The OWASP Top 10 focuses on identifying security risks."
+        "hint": "The OWASP Top 10 focuses on identifying security risks.",
+        "question_order": 1
       },
       {
         "question": "What is a key principle of secure API design related to user authentication?",
@@ -359,7 +413,8 @@
           "Relying on client-side validation"
         ],
         "correct_option": 2,
-        "hint": "Secure API design often emphasizes strong user verification methods."
+        "hint": "Secure API design often emphasizes strong user verification methods.",
+        "question_order": 2
       },
       {
         "question": "Under GDPR, which of the following is NOT a right of the data subject?",
@@ -370,7 +425,8 @@
           "The right to alter someone else's data"
         ],
         "correct_option": 3,
-        "hint": "Data subjects have rights concerning their own data, not others'."
+        "hint": "Data subjects have rights concerning their own data, not others'.",
+        "question_order": 3
       },
       {
         "question": "What is the primary goal of threat modeling in software development?",
@@ -381,7 +437,8 @@
           "To optimize application performance"
         ],
         "correct_option": 1,
-        "hint": "Threat modeling focuses on understanding and mitigating risks."
+        "hint": "Threat modeling focuses on understanding and mitigating risks.",
+        "question_order": 4
       },
       {
         "question": "Which of the following practices helps in effective vulnerability management?",
@@ -392,7 +449,8 @@
           "Relying solely on automated security tools"
         ],
         "correct_option": 1,
-        "hint": "Consistent assessments can help in identifying vulnerabilities over time."
+        "hint": "Consistent assessments can help in identifying vulnerabilities over time.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -405,7 +463,8 @@
           "To ensure compliance with GDPR and CCPA regulations"
         ],
         "correct_option": 0,
-        "hint": "Threat modeling is a proactive approach in security."
+        "hint": "Threat modeling is a proactive approach in security.",
+        "question_order": 1
       },
       {
         "question": "What is a key principle in secure API design to prevent unauthorized access?",
@@ -416,7 +475,8 @@
           "Applying the principle of least privilege"
         ],
         "correct_option": 3,
-        "hint": "This principle limits access rights for users to the bare minimum permissions they need."
+        "hint": "This principle limits access rights for users to the bare minimum permissions they need.",
+        "question_order": 2
       },
       {
         "question": "What is the primary goal of implementing the OWASP Top 10 security measures in web applications?",
@@ -427,7 +487,8 @@
           "To reduce the development time"
         ],
         "correct_option": 1,
-        "hint": "OWASP Top 10 focuses on security risks, not performance or UI."
+        "hint": "OWASP Top 10 focuses on security risks, not performance or UI.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is a violation of GDPR data protection principles?",
@@ -438,7 +499,8 @@
           "Ensuring data accuracy and allowing user corrections"
         ],
         "correct_option": 2,
-        "hint": "GDPR emphasizes data minimization and accountability."
+        "hint": "GDPR emphasizes data minimization and accountability.",
+        "question_order": 4
       },
       {
         "question": "In vulnerability management, what is the first step in the vulnerability remediation process?",
@@ -449,7 +511,8 @@
           "Documenting the vulnerabilities in a report"
         ],
         "correct_option": 1,
-        "hint": "You must first know what vulnerabilities exist before taking action."
+        "hint": "You must first know what vulnerabilities exist before taking action.",
+        "question_order": 5
       }
     ]
   }

@@ -21,71 +21,84 @@
         {
           "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/networking-and-multiplayer-in-unreal-engine",
           "description": "An overview of networking and multiplayer features in Unreal Engine.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://docs.unity.com/",
           "description": "Official documentation for Unity, a comprehensive platform for creating interactive 3D and 2D experiences.",
-          "title": "Unity documentation"
+          "title": "Unity documentation",
+          "resource_order": 2
         },
         {
           "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-6-documentation",
           "description": "Comprehensive documentation for Unreal Engine 5.6, detailing its features and development tools.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 3
         },
         {
           "url": "https://forums.unrealengine.com/t/resources-to-learn-the-basics-of-blueprint-multiplayer-add-your-suggestions-here/737175",
           "description": "A community-curated list of resources for learning Blueprint multiplayer in Unreal Engine.",
-          "title": "Resources to learn the basics of Blueprint Multiplayer - Add your suggestions here - Development / Programming & Scripting - Epic Developer Community Forums"
+          "title": "Resources to learn the basics of Blueprint Multiplayer - Add your suggestions here - Development / Programming & Scripting - Epic Developer Community Forums",
+          "resource_order": 4
         },
         {
           "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html",
           "description": "The official Unity Manual providing comprehensive documentation on using the Unity game development platform.",
-          "title": "Unity - Manual: Unity 6.1 User Manual"
+          "title": "Unity - Manual: Unity 6.1 User Manual",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://forums.unrealengine.com/t/resources-to-learn-the-basics-of-blueprint-multiplayer-add-your-suggestions-here/737175",
           "description": "A community-curated list of resources for learning Blueprint multiplayer in Unreal Engine.",
-          "title": "Resources to learn the basics of Blueprint Multiplayer - Add your suggestions here - Development / Programming & Scripting - Epic Developer Community Forums"
+          "title": "Resources to learn the basics of Blueprint Multiplayer - Add your suggestions here - Development / Programming & Scripting - Epic Developer Community Forums",
+          "resource_order": 1
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=3yuBOB3VrCk",
           "title": "COMPLETE Unity Multiplayer Tutorial (Netcode for Game Objects)",
-          "duration": "64m"
+          "duration": "64m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=YmUnXsOp_t0",
           "title": "How to make Simple Multiplayer Game! (FREE Course Unity Tutorial Netcode for Game Objects)",
-          "duration": "184m"
+          "duration": "184m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=7glCsF9fv3s",
           "title": "Learn Unity Multiplayer (FREE Complete Course, Netcode for Game Objects Unity Tutorial 2025)",
-          "duration": "380m"
+          "duration": "380m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=ef6SeknakeU&pp=0gcJCfcAhR29_xXO",
           "title": "Multiplayer Replication Basics in Unreal Engine 5 - Make a Multiplayer Game",
-          "duration": "17m"
+          "duration": "17m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=e0JLO_5UgQo&pp=0gcJCdgAo7VqN5tD",
           "title": "Basics Of Multiplayer In Godot 4!",
-          "duration": "76m"
+          "duration": "76m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
           "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
-          "duration": "649m"
+          "duration": "649m",
+          "resource_order": 6
         },
         {
           "url": "https://m.youtube.com/watch?v=McoDjOCb2Zo",
           "title": "Python Online Multiplayer Game Development Tutorial",
-          "duration": "141m"
+          "duration": "141m",
+          "resource_order": 7
         }
       ]
     },
@@ -94,71 +107,84 @@
         {
           "url": "https://docs.unity.com/",
           "description": "Official documentation for Unity, a comprehensive platform for creating and operating interactive, real-time 3D content.",
-          "title": "Unity documentation"
+          "title": "Unity documentation",
+          "resource_order": 1
         },
         {
           "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html",
           "description": "The official Unity Manual offering detailed guidance on using the Unity game development platform.",
-          "title": "Unity - Manual: Unity 6.1 User Manual"
+          "title": "Unity - Manual: Unity 6.1 User Manual",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs/games/setup",
           "description": "Instructions for setting up Firebase for game development projects.",
-          "title": "Power up your game development using Firebase \u00a0|\u00a0 Firebase for Games"
+          "title": "Power up your game development using Firebase  |  Firebase for Games",
+          "resource_order": 3
         },
         {
           "url": "https://doc-api.photonengine.com/en/pun/current/index.html",
           "description": "Official API documentation for Photon Unity Networking (PUN) in C#.",
-          "title": "Photon Unity Networking 2: Main Page"
+          "title": "Photon Unity Networking 2: Main Page",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://tomweiland.net/csharp-networking-tutorial-series/",
           "description": "A tutorial series on implementing networking in C# applications.",
-          "title": "C# Networking Tutorial Series: Build Multiplayer Games \u2013 Tom Weiland"
+          "title": "C# Networking Tutorial Series: Build Multiplayer Games – Tom Weiland",
+          "resource_order": 1
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=7glCsF9fv3s",
           "title": "Learn Unity Multiplayer (FREE Complete Course, Netcode for Game Objects Unity Tutorial 2025)",
-          "duration": "380m"
+          "duration": "380m",
+          "resource_order": 1
         },
         {
           "url": "https://m.youtube.com/watch?v=cXxEiWudIUY&t=960s",
           "title": "Building a Multi-player Game with WebSockets",
-          "duration": "106m"
+          "duration": "106m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=loxSaI3YY7k",
           "title": "Live Chat Quiz! Join and Answer Qs from my FREE Course (Unity Tutorial)",
-          "duration": "104m"
+          "duration": "104m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=RJbLqrWdBGA",
           "title": "Make A Multiplayer Game Without Coding - In GDevelop",
-          "duration": "9m"
+          "duration": "9m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=kgShNcTxMIg&pp=0gcJCdgAo7VqN5tD",
           "title": "Create a COMPLETE android & iOS game - FULL COURSE [Unity C#]",
-          "duration": "818m"
+          "duration": "818m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=3289vhOUdKA",
           "title": "Cursor AI Tutorial for Beginners [2025 Edition]",
-          "duration": "27m"
+          "duration": "27m",
+          "resource_order": 6
         },
         {
           "url": "https://m.youtube.com/watch?v=g_s0y5yFxYg&t=28s",
           "title": "Local Multiplayer with NEW Input System - Unity Tutorial",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=w4YAQV_hkMI",
           "title": "Multiplayer Replication Basics in Unreal Engine - Variables, Events, Classes explained! - UE5 / UE4",
-          "duration": "50m"
+          "duration": "50m",
+          "resource_order": 8
         }
       ]
     },
@@ -167,91 +193,108 @@
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=926983840",
           "description": "Guide to configuring and using a Steam Workshop mod for enhanced gaming experience.",
-          "title": "Steam Community :: Guide :: How Zany's Comprehensive Civ 6 Guide to Skilled/Advanced Play"
+          "title": "Steam Community :: Guide :: How Zany's Comprehensive Civ 6 Guide to Skilled/Advanced Play",
+          "resource_order": 1
         },
         {
           "url": "https://help.figma.com/hc/en-us/categories/360002051613-Get-started",
           "description": "An introductory guide for new users to start using Figma effectively.",
-          "title": "Get started \u2013 Figma Learn - Help Center"
+          "title": "Get started – Figma Learn - Help Center",
+          "resource_order": 2
         },
         {
           "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/networking-overview-for-unreal-engine",
           "description": "An overview of networking concepts and implementation in Unreal Engine.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=926983840",
           "description": "A detailed guide for setting up and using the Garry's Mod Advanced Duplicator 2 tool.",
-          "title": "Steam Community :: Guide :: How Zany's Comprehensive Civ 6 Guide to Skilled/Advanced Play"
+          "title": "Steam Community :: Guide :: How Zany's Comprehensive Civ 6 Guide to Skilled/Advanced Play",
+          "resource_order": 1
         },
         {
           "url": "https://godotforums.org/d/24226-ultimate-multiplayer-dedicated-server-tutorial-series",
           "description": "A detailed tutorial series on setting up multiplayer dedicated servers in Godot.",
-          "title": "Ultimate Multiplayer | Dedicated Server | Tutorial Series - Godot Forums"
+          "title": "Ultimate Multiplayer | Dedicated Server | Tutorial Series - Godot Forums",
+          "resource_order": 2
         },
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1768819566",
           "description": "A detailed guide on optimizing performance and graphics settings in Fallout 4.",
-          "title": "Steam Community :: Guide :: Ultimate TEC Guide (& Tricks)"
+          "title": "Steam Community :: Guide :: Ultimate TEC Guide (& Tricks)",
+          "resource_order": 3
         },
         {
           "url": "https://unity.com/resources/ultimate-guide-advanced-multiplayer-networking",
           "description": "An in-depth guide to advanced multiplayer networking techniques in Unity.",
-          "title": "Access Denied"
+          "title": "Access Denied",
+          "resource_order": 4
         },
         {
           "url": "https://vagon.io/blog/tutorials-for-learning-unreal-engine",
           "description": "A curated list of tutorials for mastering Unreal Engine development.",
-          "title": "Top Tutorials for Learning Unreal Engine - Vagon"
+          "title": "Top Tutorials for Learning Unreal Engine - Vagon",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
           "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
-          "duration": "649m"
+          "duration": "649m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=YmUnXsOp_t0",
           "title": "How to make Simple Multiplayer Game! (FREE Course Unity Tutorial Netcode for Game Objects)",
-          "duration": "184m"
+          "duration": "184m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=3yuBOB3VrCk&pp=0gcJCfwAo7VqN5tD",
           "title": "COMPLETE Unity Multiplayer Tutorial (Netcode for Game Objects)",
-          "duration": "64m"
+          "duration": "64m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=HXquxWtE5vA",
           "title": "Online Multiplayer JavaScript Game Tutorial - Full Course",
-          "duration": "357m"
+          "duration": "357m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=cZnWPVwtAKQ&pp=0gcJCfwAo7VqN5tD",
           "title": "Path of Titans Beginners Guide! (Getting Started)",
-          "duration": "16m"
+          "duration": "16m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=i3xNb5R_xos",
           "title": "Create Your First VR Project in Unreal Engine 5 | Meta Quest 3 | Quick Setup Guide for Beginners",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=oonRBOBJcIo",
           "title": "UE5 Fighting Game Tutorial: Local Multiplayer Game With 2 Gamepads | TrueFGE & Unreal Engine 5",
-          "duration": "24m"
+          "duration": "24m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=6G-4oPDxfNI",
           "title": "Learn C# Advanced FREE Tutorial Course! [2025]",
-          "duration": "274m"
+          "duration": "274m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=8efRGtRCGJ0&pp=0gcJCfwAo7VqN5tD",
           "title": "How to Make a Multiplayer Game with DOTS - FULL COURSE",
-          "duration": "352m"
+          "duration": "352m",
+          "resource_order": 9
         }
       ]
     }
@@ -267,7 +310,8 @@
           "Client-Server and Peer-to-Peer are the same, with just different names."
         ],
         "correct_option": 0,
-        "hint": "Think about who manages the game state."
+        "hint": "Think about who manages the game state.",
+        "question_order": 1
       },
       {
         "question": "Which network topology is typically used in a Client-Server model?",
@@ -278,7 +322,8 @@
           "Bus"
         ],
         "correct_option": 2,
-        "hint": "The central server acts like a hub."
+        "hint": "The central server acts like a hub.",
+        "question_order": 2
       },
       {
         "question": "What is an RPC in the context of multiplayer game development?",
@@ -289,7 +334,8 @@
           "Rapid Processing Cycle"
         ],
         "correct_option": 1,
-        "hint": "It's a method to execute code on a remote machine."
+        "hint": "It's a method to execute code on a remote machine.",
+        "question_order": 3
       },
       {
         "question": "In networking terms, what does latency compensation aim to achieve?",
@@ -300,7 +346,8 @@
           "Increase server bandwidth"
         ],
         "correct_option": 2,
-        "hint": "It's about ensuring fairness and smoothness in gameplay."
+        "hint": "It's about ensuring fairness and smoothness in gameplay.",
+        "question_order": 4
       },
       {
         "question": "What is a networked variable in a multiplayer game?",
@@ -311,7 +358,8 @@
           "A variable that is only updated at the end of the game"
         ],
         "correct_option": 1,
-        "hint": "Consider how game state consistency is maintained across players."
+        "hint": "Consider how game state consistency is maintained across players.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -324,7 +372,8 @@
           "Lower latency"
         ],
         "correct_option": 2,
-        "hint": "Think about which model offers more control and security for game data."
+        "hint": "Think about which model offers more control and security for game data.",
+        "question_order": 1
       },
       {
         "question": "Which network topology is most commonly used in multiplayer games to ensure efficient data transmission between multiple clients?",
@@ -335,7 +384,8 @@
           "Ring topology"
         ],
         "correct_option": 0,
-        "hint": "This topology connects all clients to a central hub."
+        "hint": "This topology connects all clients to a central hub.",
+        "question_order": 2
       },
       {
         "question": "In multiplayer game development, what is the primary purpose of Remote Procedure Calls (RPCs)?",
@@ -346,7 +396,8 @@
           "To establish a peer-to-peer connection"
         ],
         "correct_option": 2,
-        "hint": "RPCs are used to communicate between different networked entities."
+        "hint": "RPCs are used to communicate between different networked entities.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is a technique used to manage latency in multiplayer games?",
@@ -357,7 +408,8 @@
           "Reducing graphics quality"
         ],
         "correct_option": 1,
-        "hint": "This technique involves predicting future states to compensate for network delay."
+        "hint": "This technique involves predicting future states to compensate for network delay.",
+        "question_order": 4
       },
       {
         "question": "What is the role of networked variables in a multiplayer game?",
@@ -368,7 +420,8 @@
           "To initiate peer-to-peer connections"
         ],
         "correct_option": 1,
-        "hint": "Networked variables ensure all players have a consistent game state."
+        "hint": "Networked variables ensure all players have a consistent game state.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -381,7 +434,8 @@
           "To directly connect clients to each other for data exchange"
         ],
         "correct_option": 0,
-        "hint": "Think about what component is responsible for maintaining the overall game state."
+        "hint": "Think about what component is responsible for maintaining the overall game state.",
+        "question_order": 1
       },
       {
         "question": "Which network topology minimizes latency by allowing direct connections between clients?",
@@ -392,7 +446,8 @@
           "Bus"
         ],
         "correct_option": 1,
-        "hint": "Consider a topology that creates multiple pathways for communication."
+        "hint": "Consider a topology that creates multiple pathways for communication.",
+        "question_order": 2
       },
       {
         "question": "What is the primary advantage of Remote Procedure Calls (RPCs) in multiplayer games?",
@@ -403,7 +458,8 @@
           "They improve the graphical fidelity of the game"
         ],
         "correct_option": 2,
-        "hint": "Focus on the capability RPCs provide across networked environments."
+        "hint": "Focus on the capability RPCs provide across networked environments.",
+        "question_order": 3
       },
       {
         "question": "How do networked variables benefit multiplayer game development?",
@@ -414,7 +470,8 @@
           "They encrypt data to secure player information"
         ],
         "correct_option": 0,
-        "hint": "Consider what networked variables do with data across clients and servers."
+        "hint": "Consider what networked variables do with data across clients and servers.",
+        "question_order": 4
       },
       {
         "question": "Which technique helps in dealing with latency issues in multiplayer games?",
@@ -425,7 +482,8 @@
           "Peer-to-peer connections"
         ],
         "correct_option": 1,
-        "hint": "This technique aims to smooth out the effects of network delay."
+        "hint": "This technique aims to smooth out the effects of network delay.",
+        "question_order": 5
       }
     ]
   }

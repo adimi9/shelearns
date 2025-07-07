@@ -28,76 +28,90 @@
         {
           "url": "https://firebase.google.com/docs",
           "description": "Official documentation for Firebase's suite of tools for app development.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://www.joshwcomeau.com/blog/how-i-built-my-blog/",
           "description": "An insightful overview of the technologies and processes used to build a personal blog.",
-          "title": "How I Built my Blog using MDX, Next.js, and React \u2022 Josh W. Comeau"
+          "title": "How I Built my Blog using MDX, Next.js, and React • Josh W. Comeau",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs/hosting",
           "description": "An overview of Firebase Hosting for deploying web apps and static content to a global CDN.",
-          "title": "Firebase Hosting"
+          "title": "Firebase Hosting",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
           "description": "A step-by-step guide on building a React frontend with a Java backend.",
-          "title": "Full-Stack Development With React and Java (Spring Boot): Complete 2025 Guide"
+          "title": "Full-Stack Development With React and Java (Spring Boot): Complete 2025 Guide",
+          "resource_order": 1
         },
         {
           "url": "https://www.joshwcomeau.com/react/server-components/",
           "description": "An insightful introduction to React Server Components and their benefits.",
-          "title": "Making Sense of React Server Components \u2022 Josh W. Comeau"
+          "title": "Making Sense of React Server Components • Josh W. Comeau",
+          "resource_order": 2
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=Vlk_wpXzUmw",
           "title": "How to Connect Frontend and Backend for Beginners | React, Spring boot Api",
-          "duration": "61m"
+          "duration": "61m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=-LUA-LHXobE",
           "title": "Full Stack ReactJS with Spring Boot",
-          "duration": "185m"
+          "duration": "185m",
+          "resource_order": 2
         },
         {
           "url": "https://m.youtube.com/watch?v=sWVgMcz8Q44&pp=ygUPI3JlYWN0YnV0dG9uYXBp",
           "title": "Make a Search Bar with React (with API Calls) | Beginners Tutorial",
-          "duration": "27m"
+          "duration": "27m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=B5tcZoNyqGI",
           "title": "Use React and Spring Boot to Build a Simple CRUD App",
-          "duration": "41m"
+          "duration": "41m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=bqFjrhRrvy8&pp=0gcJCfwAo7VqN5tD",
           "title": "How to Easily Secure Your Fullstack ReactJS - Spring Boot Application With the JWT Authentication",
-          "duration": "67m"
+          "duration": "67m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=TywlS9iAZCM&pp=0gcJCfwAo7VqN5tD",
           "title": "Spring boot & WebSockets: Build a Real-Time Chat App From Scratch",
-          "duration": "58m"
+          "duration": "58m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=mxOcw4FZRa8",
           "title": "Build a Complete CRUD Application with Spring Boot and React",
-          "duration": "73m"
+          "duration": "73m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=MY6ZZIn93V8",
           "title": "React Search Filter Tutorial Beginner to Advanced",
-          "duration": "26m"
+          "duration": "26m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=jBDTsf8jsEs",
           "title": "Deploy a Full Stack Spring Boot & React App with Database for FREE | Step-by-Step Guide",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 9
         }
       ]
     },
@@ -106,91 +120,108 @@
         {
           "url": "https://firebase.google.com/docs",
           "description": "Official documentation for Firebase, covering its features and integration guides.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://stackoverflow.com/questions/30967822/when-do-i-use-path-parameters-vs-query-parameters-in-a-restful-api",
           "description": "An explanation of when to use path parameters versus query parameters in RESTful APIs.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs/hosting",
           "description": "An overview of deploying and managing web apps with Firebase Hosting.",
-          "title": "Firebase Hosting"
+          "title": "Firebase Hosting",
+          "resource_order": 3
         },
         {
           "url": "https://graphql.org/community/tools-and-libraries/",
           "description": "A curated list of tools and libraries for working with GraphQL.",
-          "title": "Tools and Libraries | GraphQL"
+          "title": "Tools and Libraries | GraphQL",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.joshwcomeau.com/react/server-components/",
           "description": "An insightful exploration of React Server Components and their benefits.",
-          "title": "Making Sense of React Server Components \u2022 Josh W. Comeau"
+          "title": "Making Sense of React Server Components • Josh W. Comeau",
+          "resource_order": 1
         },
         {
           "url": "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
           "description": "A step-by-step tutorial on integrating a React frontend with a Java backend.",
-          "title": "Full-Stack Development With React and Java (Spring Boot): Complete 2025 Guide"
+          "title": "Full-Stack Development With React and Java (Spring Boot): Complete 2025 Guide",
+          "resource_order": 2
         },
         {
           "url": "https://stackoverflow.blog/2021/12/28/what-i-wish-i-had-known-about-single-page-applications/",
           "description": "Insights and lessons learned about developing single-page applications.",
-          "title": "What I wish I had known about single page applications - Stack Overflow"
+          "title": "What I wish I had known about single page applications - Stack Overflow",
+          "resource_order": 3
         },
         {
           "url": "https://stackoverflow.com/questions/60424844/do-i-need-to-run-npm-run-build-every-time-i-made-changes",
           "description": "Discussion on whether npm run build is required after every code change in a Node.js project.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 4
         },
         {
           "url": "https://github.com/MobileNativeFoundation/discussions/discussions/47",
           "description": "A community discussion on implementing and improving mobile native development practices.",
-          "title": "Server-driven UI (or Backend driven UI) strategies \u00b7 MobileNativeFoundation/discussions \u00b7 Discussion #47 \u00b7 GitHub"
+          "title": "Server-driven UI (or Backend driven UI) strategies · MobileNativeFoundation/discussions · Discussion #47 · GitHub",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=B5tcZoNyqGI",
           "title": "Use React and Spring Boot to Build a Simple CRUD App",
-          "duration": "41m"
+          "duration": "41m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=TywlS9iAZCM&pp=0gcJCfwAo7VqN5tD",
           "title": "Spring boot & WebSockets: Build a Real-Time Chat App From Scratch",
-          "duration": "58m"
+          "duration": "58m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=IxYa6cKimZc&pp=0gcJCfwAo7VqN5tD",
           "title": "Spring Boot Full Stack Project | React JS + Spring Boot CRUD Full Stack Web Application",
-          "duration": "146m"
+          "duration": "146m",
+          "resource_order": 3
         },
         {
           "url": "https://m.youtube.com/watch?v=sWVgMcz8Q44&pp=ygUPI3JlYWN0YnV0dG9uYXBp",
           "title": "Make a Search Bar with React (with API Calls) | Beginners Tutorial",
-          "duration": "27m"
+          "duration": "27m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=uLUMM1Y-dd8",
           "title": "htmx Tutorial - 2 Real-Life Use Cases",
-          "duration": "20m"
+          "duration": "20m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=7T-HnTE6v64",
           "title": "WebSocket Tutorial with Spring Boot | Build One On One Chat Application",
-          "duration": "128m"
+          "duration": "128m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=31KTdfRH6nY&pp=0gcJCfwAo7VqN5tD",
-          "title": "Building web applications in Java with Spring Boot 3 \u2013 Tutorial",
-          "duration": "210m"
+          "title": "Building web applications in Java with Spring Boot 3 – Tutorial",
+          "duration": "210m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=5PdEmeopJVQ&pp=0gcJCfwAo7VqN5tD",
-          "title": "Full Stack Development with Java Spring Boot, React, and MongoDB \u2013 Full Course",
-          "duration": "160m"
+          "title": "Full Stack Development with Java Spring Boot, React, and MongoDB – Full Course",
+          "duration": "160m",
+          "resource_order": 8
         }
       ]
     },
@@ -199,86 +230,102 @@
         {
           "url": "https://www.joshwcomeau.com/react/server-components/",
           "description": "An insightful exploration of server components in React and their advantages.",
-          "title": "Making Sense of React Server Components \u2022 Josh W. Comeau"
+          "title": "Making Sense of React Server Components • Josh W. Comeau",
+          "resource_order": 1
         },
         {
           "url": "https://www.marcobehler.com/guides/spring-security",
           "description": "An in-depth guide to understanding and implementing Spring Security in Java applications.",
-          "title": "Spring Security: Authentication and Authorization In-Depth"
+          "title": "Spring Security: Authentication and Authorization In-Depth",
+          "resource_order": 2
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive documentation and learning resource for JavaScript on MDN Web Docs.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.joshwcomeau.com/react/server-components/",
           "description": "An insightful exploration of React Server Components and their benefits.",
-          "title": "Making Sense of React Server Components \u2022 Josh W. Comeau"
+          "title": "Making Sense of React Server Components • Josh W. Comeau",
+          "resource_order": 1
         },
         {
           "url": "https://www.codewalnut.com/learn/how-to-build-react-app-with-java-backend",
           "description": "A step-by-step tutorial on building a React front-end with a Java back-end application.",
-          "title": "Full-Stack Development With React and Java (Spring Boot): Complete 2025 Guide"
+          "title": "Full-Stack Development With React and Java (Spring Boot): Complete 2025 Guide",
+          "resource_order": 2
         },
         {
           "url": "https://www.marcobehler.com/guides/spring-security",
           "description": "An in-depth guide to implementing Spring Security in Java applications.",
-          "title": "Spring Security: Authentication and Authorization In-Depth"
+          "title": "Spring Security: Authentication and Authorization In-Depth",
+          "resource_order": 3
         },
         {
           "url": "https://www.linkedin.com/posts/singhsanket143_advanced-backend-development-roadmap-2025-activity-7284418888820240385-s1uD",
           "description": "An advanced roadmap for backend development skills and technologies in 2025.",
-          "title": "If you\u2019re confused about where to start with backend development, trust me, I\u2019ve been there too. | Sanket Singh"
+          "title": "If you’re confused about where to start with backend development, trust me, I’ve been there too. | Sanket Singh",
+          "resource_order": 4
         },
         {
           "url": "https://www.sourish.dev/blog/industry/personal-projects",
           "description": "Insights into leveraging personal projects to enhance professional development in the tech industry.",
-          "title": "Personal Projects: A Guide for Beginners"
+          "title": "Personal Projects: A Guide for Beginners",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=-LUA-LHXobE",
           "title": "Full Stack ReactJS with Spring Boot",
-          "duration": "185m"
+          "duration": "185m",
+          "resource_order": 1
         },
         {
           "url": "https://m.youtube.com/watch?v=bqFjrhRrvy8",
           "title": "How to Easily Secure Your Fullstack ReactJS - Spring Boot Application With the JWT Authentication",
-          "duration": "67m"
+          "duration": "67m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=rIYzLhkG9TA",
           "title": "React Native Full 8 Hours Course (Expo, Expo Router, Supabase)",
-          "duration": "496m"
+          "duration": "496m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=7T-HnTE6v64",
           "title": "WebSocket Tutorial with Spring Boot | Build One On One Chat Application",
-          "duration": "128m"
+          "duration": "128m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=7WKUGdUEFVI",
-          "title": "Build Dynamic Quizzes with Django REST Framework \u2013 A Step-by-Step Guide!",
-          "duration": "39m"
+          "title": "Build Dynamic Quizzes with Django REST Framework – A Step-by-Step Guide!",
+          "duration": "39m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=6_wgB8GO1GM",
           "title": "MSAL Azure AD Authentication with React",
-          "duration": "36m"
+          "duration": "36m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=HXquxWtE5vA",
           "title": "Online Multiplayer JavaScript Game Tutorial - Full Course",
-          "duration": "357m"
+          "duration": "357m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=j8EUPXFQgbY",
           "title": "Building an AI Language Model with OpenAI, Spring Boot, and React | Step-by-Step Guide!",
-          "duration": "43m"
+          "duration": "43m",
+          "resource_order": 8
         }
       ]
     }
@@ -294,7 +341,8 @@
           "Writing backend logic"
         ],
         "correct_option": 2,
-        "hint": "Think about what kind of user interface feature React Spring enhances."
+        "hint": "Think about what kind of user interface feature React Spring enhances.",
+        "question_order": 1
       },
       {
         "question": "What is the first step in setting up a Node.js environment for backend development?",
@@ -305,7 +353,8 @@
           "Create RESTful APIs"
         ],
         "correct_option": 2,
-        "hint": "You need the runtime environment first."
+        "hint": "You need the runtime environment first.",
+        "question_order": 2
       },
       {
         "question": "How does React Spring integrate with Express.js for backend data visualization?",
@@ -316,7 +365,8 @@
           "Using SQL queries"
         ],
         "correct_option": 1,
-        "hint": "Consider how animations can enhance data representation."
+        "hint": "Consider how animations can enhance data representation.",
+        "question_order": 3
       },
       {
         "question": "Which method is commonly used to handle data with RESTful API and React Spring?",
@@ -327,7 +377,8 @@
           "FTP file transfer"
         ],
         "correct_option": 1,
-        "hint": "Think about common HTTP methods in RESTful services."
+        "hint": "Think about common HTTP methods in RESTful services.",
+        "question_order": 4
       },
       {
         "question": "How can backend endpoints be secured when using JWT and React Spring?",
@@ -338,7 +389,8 @@
           "Disabling all user access"
         ],
         "correct_option": 2,
-        "hint": "JWT stands for JSON Web Token, used for secure transmission."
+        "hint": "JWT stands for JSON Web Token, used for secure transmission.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -351,7 +403,8 @@
           "To secure backend endpoints"
         ],
         "correct_option": 2,
-        "hint": "Think about the visual aspect that React Spring enhances."
+        "hint": "Think about the visual aspect that React Spring enhances.",
+        "question_order": 1
       },
       {
         "question": "Which module is essential for integrating React Spring with Express.js?",
@@ -362,7 +415,8 @@
           "react-spring"
         ],
         "correct_option": 3,
-        "hint": "Consider the name of the library that provides animation capabilities."
+        "hint": "Consider the name of the library that provides animation capabilities.",
+        "question_order": 2
       },
       {
         "question": "How can you optimize backend performance using React Spring animations?",
@@ -373,7 +427,8 @@
           "By compressing animation files"
         ],
         "correct_option": 1,
-        "hint": "Think about techniques that delay the loading until necessary."
+        "hint": "Think about techniques that delay the loading until necessary.",
+        "question_order": 3
       },
       {
         "question": "What is a common use of JWT in securing backend endpoints with React Spring?",
@@ -384,7 +439,8 @@
           "Enhancing animation speed"
         ],
         "correct_option": 1,
-        "hint": "JWT is often used for verifying identities."
+        "hint": "JWT is often used for verifying identities.",
+        "question_order": 4
       },
       {
         "question": "Which of the following is an advanced technique for server-side rendering with React Spring?",
@@ -395,7 +451,8 @@
           "Using Redux for state management"
         ],
         "correct_option": 2,
-        "hint": "Consider techniques that allow real-time updates and interactions."
+        "hint": "Consider techniques that allow real-time updates and interactions.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -408,7 +465,8 @@
           "Managing state for large-scale applications"
         ],
         "correct_option": 2,
-        "hint": "Consider the core focus of React Spring in relation to animations."
+        "hint": "Consider the core focus of React Spring in relation to animations.",
+        "question_order": 1
       },
       {
         "question": "When setting up a Node.js environment for backend development with React Spring, which tool is essential for managing package dependencies?",
@@ -419,7 +477,8 @@
           "Yarn"
         ],
         "correct_option": 2,
-        "hint": "This tool is commonly used for package management in Node.js projects."
+        "hint": "This tool is commonly used for package management in Node.js projects.",
+        "question_order": 2
       },
       {
         "question": "How does integrating React Spring with Express.js enhance backend functionality?",
@@ -430,7 +489,8 @@
           "By enhancing security through built-in middleware"
         ],
         "correct_option": 1,
-        "hint": "Think about how React Spring can visually enrich server responses."
+        "hint": "Think about how React Spring can visually enrich server responses.",
+        "question_order": 3
       },
       {
         "question": "Which method would be most effective for optimizing backend performance using animation techniques with React Spring?",
@@ -441,7 +501,8 @@
           "Applying server-side caching"
         ],
         "correct_option": 0,
-        "hint": "Consider techniques that reduce the initial load time of animations."
+        "hint": "Consider techniques that reduce the initial load time of animations.",
+        "question_order": 4
       },
       {
         "question": "What is a key benefit of securing backend endpoints with JWT when using React Spring?",
@@ -452,7 +513,8 @@
           "JWT ensures faster data transmission"
         ],
         "correct_option": 2,
-        "hint": "JWT is known for its ability to maintain sessions without storing them on the server."
+        "hint": "JWT is known for its ability to maintain sessions without storing them on the server.",
+        "question_order": 5
       }
     ]
   },

@@ -21,96 +21,114 @@
         {
           "url": "https://platform.openai.com/docs/api-reference/introduction",
           "description": "An introduction to OpenAI's API with guidelines for usage and integration.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform",
           "description": "An introduction to Google Cloud's Vertex AI unified platform for machine learning.",
-          "title": "Introduction to Vertex AI \u00a0|\u00a0 Google Cloud"
+          "title": "Introduction to Vertex AI  |  Google Cloud",
+          "resource_order": 2
         },
         {
           "url": "https://docs.databricks.com/aws/en/machine-learning/",
           "description": "A detailed guide on using Databricks for machine learning on AWS.",
-          "title": "Databricks Documentation"
+          "title": "Databricks Documentation",
+          "resource_order": 3
         },
         {
           "url": "https://cloud.google.com/vertex-ai/docs",
           "description": "An overview of Google Cloud's Vertex AI platform for building and deploying machine learning models.",
-          "title": "Vertex AI documentation \u00a0|\u00a0 Google Cloud"
+          "title": "Vertex AI documentation  |  Google Cloud",
+          "resource_order": 4
         },
         {
           "url": "https://docs.spring.io/spring-ai/reference/index.html",
           "description": "Official documentation for integrating AI capabilities into Spring applications.",
-          "title": "Introduction :: Spring AI Reference"
+          "title": "Introduction :: Spring AI Reference",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://developers.google.com/machine-learning/crash-course",
           "description": "An introductory course on machine learning concepts and techniques by Google.",
-          "title": "Machine Learning \u00a0|\u00a0 Google for Developers"
+          "title": "Machine Learning  |  Google for Developers",
+          "resource_order": 1
         },
         {
           "url": "https://microsoft.github.io/AI-For-Beginners/",
           "description": "An introductory course on artificial intelligence concepts and applications for beginners.",
-          "title": "AI for Beginners"
+          "title": "AI for Beginners",
+          "resource_order": 2
         },
         {
           "url": "https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python",
           "description": "An introductory course on artificial intelligence using Python, offered by Harvard University.",
-          "title": "CS50's Introduction to Artificial Intelligence with Python | Harvard University"
+          "title": "CS50's Introduction to Artificial Intelligence with Python | Harvard University",
+          "resource_order": 3
         },
         {
           "url": "https://www.amazon.com/Artificial-Intelligence-Engines-Introduction-Mathematics/dp/0956372813",
           "description": "An introductory book on the mathematics behind artificial intelligence engines.",
-          "title": "Artificial Intelligence Engines: A Tutorial Introduction to the Mathematics of Deep Learning : Stone, James V: Amazon.sg: Books"
+          "title": "Artificial Intelligence Engines: A Tutorial Introduction to the Mathematics of Deep Learning : Stone, James V: Amazon.sg: Books",
+          "resource_order": 4
         },
         {
           "url": "https://learn.microsoft.com/en-us/training/paths/introduction-to-ai-on-azure/",
           "description": "An introductory course on implementing AI solutions using Microsoft Azure.",
-          "title": "Introduction to AI in Azure - Training | Microsoft Learn"
+          "title": "Introduction to AI in Azure - Training | Microsoft Learn",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=Yq0QkCxoTHM",
-          "title": "Google\u2019s AI Course for Beginners (in 10 minutes)!",
-          "duration": "9m"
+          "title": "Google’s AI Course for Beginners (in 10 minutes)!",
+          "duration": "9m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=J8Eh7RqggsU",
           "title": "Overview Artificial Intelligence Course | Stanford CS221: Learn AI (Autumn 2019)",
-          "duration": "87m"
+          "duration": "87m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=E-jO93bk0wE",
           "title": "COMP6980 - Intro to Artificial Intelligence - Lecture 01 - Course Introduction + What is AI?",
-          "duration": "73m"
+          "duration": "73m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=AzUZiUz-Wpc",
           "title": "COMP3200 - Intro to Artificial Intelligence - Lecture 01 - Course Introduction",
-          "duration": "77m"
+          "duration": "77m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=NckTNpnZW_0",
           "title": "Introduction to Artificial Intelligence - Course Introduction",
-          "duration": "3m"
+          "duration": "3m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg",
-          "title": "Machine Learning for Everybody \u2013 Full Course",
-          "duration": "233m"
+          "title": "Machine Learning for Everybody – Full Course",
+          "duration": "233m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=gD_HWj_hvbo",
           "title": "AI For Everyone LESSON 1: Introduction to Artificial Intelligence for Absolute Beginners",
-          "duration": "31m"
+          "duration": "31m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=JMUxmLyrhSk",
           "title": "Artificial Intelligence Full Course | Artificial Intelligence Tutorial for Beginners | Edureka",
-          "duration": "292m"
+          "duration": "292m",
+          "resource_order": 8
         }
       ]
     },
@@ -119,95 +137,113 @@
         {
           "url": "https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform",
           "description": "An introduction to Google Cloud's Vertex AI, a unified platform for machine learning.",
-          "title": "Introduction to Vertex AI \u00a0|\u00a0 Google Cloud"
+          "title": "Introduction to Vertex AI  |  Google Cloud",
+          "resource_order": 1
         },
         {
           "url": "https://docs.databricks.com/aws/en/machine-learning/",
           "description": "Comprehensive documentation on machine learning capabilities and tools in Databricks for AWS.",
-          "title": "Databricks Documentation"
+          "title": "Databricks Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/vertex-ai",
           "description": "A platform for building, deploying, and scaling machine learning models on Google Cloud.",
-          "title": "Vertex AI Platform | Google Cloud"
+          "title": "Vertex AI Platform | Google Cloud",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform",
           "description": "An introduction to Google Cloud's Vertex AI unified platform for building, deploying, and scaling machine learning models.",
-          "title": "Introduction to Vertex AI \u00a0|\u00a0 Google Cloud"
+          "title": "Introduction to Vertex AI  |  Google Cloud",
+          "resource_order": 1
         },
         {
           "url": "https://artificialintelligenceact.eu/high-level-summary/",
           "description": "A high-level summary of the EU's Artificial Intelligence Act and its implications.",
-          "title": "High-level summary of the AI Act | EU Artificial Intelligence Act"
+          "title": "High-level summary of the AI Act | EU Artificial Intelligence Act",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/learn/what-is-artificial-intelligence",
           "description": "An introductory overview of artificial intelligence and its applications.",
-          "title": "What Is Artificial Intelligence (AI)? | Google Cloud"
+          "title": "What Is Artificial Intelligence (AI)? | Google Cloud",
+          "resource_order": 3
         },
         {
           "url": "https://docs.databricks.com/aws/en/machine-learning/",
           "description": "An overview of machine learning capabilities and workflows on Databricks for AWS.",
-          "title": "Databricks Documentation"
+          "title": "Databricks Documentation",
+          "resource_order": 4
         },
         {
           "url": "https://www.mckinsey.com/~/media/mckinsey/featured%20insights/artificial%20intelligence/notes%20from%20the%20ai%20frontier%20applications%20and%20value%20of%20deep%20learning/notes-from-the-ai-frontier-insights-from-hundreds-of-use-cases-discussion-paper.pdf",
-          "description": "Insights into the applications and economic value of deep learning from various use cases."
+          "description": "Insights into the applications and economic value of deep learning from various use cases.",
+          "resource_order": 5
         },
         {
           "url": "https://aws.amazon.com/bedrock/",
           "description": "An overview of AWS Bedrock, a service for building and scaling generative AI applications.",
-          "title": "Build Generative AI Applications with Foundation Models \u2013 Amazon Bedrock \u2013 AWS"
+          "title": "Build Generative AI Applications with Foundation Models – Amazon Bedrock – AWS",
+          "resource_order": 6
         },
         {
           "url": "https://docs.n8n.io/advanced-ai/intro-tutorial/",
           "description": "An introductory tutorial on using advanced AI features in n8n workflows.",
-          "title": "Tutorial: Build an AI workflow in n8n | n8n Docs"
+          "title": "Tutorial: Build an AI workflow in n8n | n8n Docs",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=YOZGxd6ZC3A",
           "title": "Introduction to Artificial Intelligence for Instructional Designers",
-          "duration": "32m"
+          "duration": "32m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=Vtm7pdD2Ghc",
           "title": "Introduction to Artificial Intelligence and Azure AI Services",
-          "duration": "60m"
+          "duration": "60m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=i3Aizzfuv7Y",
           "title": "Introduction to Analytics and Artificial Intelligence: AI Training for Beginners",
-          "duration": "84m"
+          "duration": "84m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=7eh4d6sabA0",
           "title": "Python Machine Learning Tutorial (Data Science)",
-          "duration": "49m"
+          "duration": "49m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=G2fqAlgmoPo&pp=0gcJCfwAo7VqN5tD",
           "title": "Introduction to Generative AI",
-          "duration": "22m"
+          "duration": "22m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=0Kr1eh1wwb8&pp=0gcJCfwAo7VqN5tD",
           "title": "Google's 8 Hour AI Essentials Course In 15 Minutes",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=sToCxpd0Sb8",
           "title": "Introduction to AI and Its Uses in Educational Settings",
-          "duration": "74m"
+          "duration": "74m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=E1K9SZCm0fQ",
           "title": "C++ Machine Learning Tutorial Part 1 - Extract, Transform, Load (ETL)",
-          "duration": "68m"
+          "duration": "68m",
+          "resource_order": 8
         }
       ]
     },
@@ -216,91 +252,108 @@
         {
           "url": "https://cloud.google.com/ai/generative-ai",
           "description": "An overview of Google's generative AI services and tools on their cloud platform.",
-          "title": "Generative AI | Google Cloud"
+          "title": "Generative AI | Google Cloud",
+          "resource_order": 1
         },
         {
           "url": "https://developers.google.com/machine-learning",
           "description": "Comprehensive resources and guides for machine learning development using Google's tools.",
-          "title": "Machine Learning \u00a0|\u00a0 Google for Developers"
+          "title": "Machine Learning  |  Google for Developers",
+          "resource_order": 2
         },
         {
           "url": "https://cloud.google.com/vertex-ai/docs",
           "description": "Official documentation for Google Cloud's Vertex AI, detailing its machine learning platform features and usage.",
-          "title": "Vertex AI documentation \u00a0|\u00a0 Google Cloud"
+          "title": "Vertex AI documentation  |  Google Cloud",
+          "resource_order": 3
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/",
           "description": "An overview of AI and machine learning architecture best practices on Microsoft Azure.",
-          "title": "AI Architecture Design - Azure Architecture Center | Microsoft Learn"
+          "title": "AI Architecture Design - Azure Architecture Center | Microsoft Learn",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.amazon.com/Python-Advanced-Artificial-Intelligence-intelligent/dp/1789957214",
           "description": "A book offering advanced techniques and insights into artificial intelligence using Python.",
-          "title": "Python: Advanced Guide to Artificial Intelligence: Expert machine learning systems and intelligent agents using Python : Bonaccorso, Giuseppe, Fandango, Armando, Shanmugamani, Rajalingappaa: Amazon.sg: Books"
+          "title": "Python: Advanced Guide to Artificial Intelligence: Expert machine learning systems and intelligent agents using Python : Bonaccorso, Giuseppe, Fandango, Armando, Shanmugamani, Rajalingappaa: Amazon.sg: Books",
+          "resource_order": 1
         },
         {
           "url": "https://www.datacamp.com/blog/how-to-learn-ai",
           "description": "A practical guide on effective strategies for learning artificial intelligence.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 2
         },
         {
           "url": "https://www.amazon.com/Artificial-Intelligence-Engines-Introduction-Mathematics/dp/0956372813",
           "description": "An introductory book on the mathematics underpinning artificial intelligence engines.",
-          "title": "Artificial Intelligence Engines: A Tutorial Introduction to the Mathematics of Deep Learning : Stone, James V: Amazon.sg: Books"
+          "title": "Artificial Intelligence Engines: A Tutorial Introduction to the Mathematics of Deep Learning : Stone, James V: Amazon.sg: Books",
+          "resource_order": 3
         },
         {
           "url": "https://notebooklm.google/",
           "description": "An AI-powered tool for managing and interacting with digital notebooks.",
-          "title": "Google NotebookLM | Note Taking & Research Assistant Powered by AI"
+          "title": "Google NotebookLM | Note Taking & Research Assistant Powered by AI",
+          "resource_order": 4
         },
         {
           "url": "https://aws.amazon.com/ai/learn/",
           "description": "An educational resource hub for learning about AI and machine learning on AWS.",
-          "title": "AI Courses and Training - Learn Artificial Intelligence - AWS"
+          "title": "AI Courses and Training - Learn Artificial Intelligence - AWS",
+          "resource_order": 5
         },
         {
           "url": "https://developers.google.com/machine-learning",
           "description": "An extensive resource for learning and implementing machine learning with Google's tools and best practices.",
-          "title": "Machine Learning \u00a0|\u00a0 Google for Developers"
+          "title": "Machine Learning  |  Google for Developers",
+          "resource_order": 6
         },
         {
           "url": "https://microsoft.github.io/AI-For-Beginners/",
           "description": "An introductory course on artificial intelligence for beginners by Microsoft.",
-          "title": "AI for Beginners"
+          "title": "AI for Beginners",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=tpCFfeUEGs8",
           "title": "Learn TensorFlow and Deep Learning fundamentals with Python (code-first introduction) Part 1/2",
-          "duration": "615m"
+          "duration": "615m",
+          "resource_order": 1
         },
         {
           "url": "https://m.youtube.com/watch?v=jGwO_UgTS7I&pp=2AEAkAIB",
           "title": "Stanford CS229: Machine Learning Course, Lecture 1 - Andrew Ng (Autumn 2018)",
-          "duration": "75m"
+          "duration": "75m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
           "title": "Deep Dive into LLMs like ChatGPT",
-          "duration": "211m"
+          "duration": "211m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=qYNweeDHiyU",
           "title": "AI, Machine Learning, Deep Learning and Generative AI Explained",
-          "duration": "10m"
+          "duration": "10m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=CuUOt5djqSs&pp=0gcJCfwAo7VqN5tD",
           "title": "A Beginners Guide to AI I EP 1: Introduction to AI in Azure",
-          "duration": "64m"
+          "duration": "64m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=T9aRN5JkmL8",
           "title": "AI prompt engineering: A deep dive",
-          "duration": "76m"
+          "duration": "76m",
+          "resource_order": 6
         }
       ]
     }
@@ -316,7 +369,8 @@
           "The launch of the first personal computer"
         ],
         "correct_option": 1,
-        "hint": "It is a test developed to assess a machine's ability to exhibit intelligent behavior."
+        "hint": "It is a test developed to assess a machine's ability to exhibit intelligent behavior.",
+        "question_order": 1
       },
       {
         "question": "What is the primary goal of search algorithms in problem-solving?",
@@ -327,7 +381,8 @@
           "To eliminate all possible solutions"
         ],
         "correct_option": 2,
-        "hint": "These algorithms are used to navigate paths efficiently to reach a goal."
+        "hint": "These algorithms are used to navigate paths efficiently to reach a goal.",
+        "question_order": 2
       },
       {
         "question": "Which of the following is a common method for knowledge representation in AI?",
@@ -338,7 +393,8 @@
           "JSON files"
         ],
         "correct_option": 1,
-        "hint": "This method uses a tree-like model of decisions and their possible consequences."
+        "hint": "This method uses a tree-like model of decisions and their possible consequences.",
+        "question_order": 3
       },
       {
         "question": "What is a fundamental concept of machine learning in AI?",
@@ -349,7 +405,8 @@
           "Creating complex mechanical parts"
         ],
         "correct_option": 0,
-        "hint": "It involves algorithms that improve automatically through experience."
+        "hint": "It involves algorithms that improve automatically through experience.",
+        "question_order": 4
       },
       {
         "question": "Which area of AI involves finding patterns or insights from data?",
@@ -360,7 +417,8 @@
           "Network modeling"
         ],
         "correct_option": 1,
-        "hint": "This area focuses on the development of algorithms that can learn from and make predictions on data."
+        "hint": "This area focuses on the development of algorithms that can learn from and make predictions on data.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -373,7 +431,8 @@
           "Watson"
         ],
         "correct_option": 2,
-        "hint": "This program was developed in the 1950s and aimed at proving mathematical theorems."
+        "hint": "This program was developed in the 1950s and aimed at proving mathematical theorems.",
+        "question_order": 1
       },
       {
         "question": "What is the primary goal of heuristic search algorithms in AI problem-solving?",
@@ -384,7 +443,8 @@
           "To randomly search for solutions and pick the first one found"
         ],
         "correct_option": 1,
-        "hint": "These algorithms aim to reduce the search space examined."
+        "hint": "These algorithms aim to reduce the search space examined.",
+        "question_order": 2
       },
       {
         "question": "In knowledge representation, which method uses a network of nodes and relations to represent information?",
@@ -395,7 +455,8 @@
           "Logical representation"
         ],
         "correct_option": 0,
-        "hint": "This method is often visualized as a graph."
+        "hint": "This method is often visualized as a graph.",
+        "question_order": 3
       },
       {
         "question": "Which machine learning approach involves learning from labeled data to make predictions or decisions?",
@@ -406,7 +467,8 @@
           "Semi-supervised learning"
         ],
         "correct_option": 2,
-        "hint": "This approach requires input-output pairs for training."
+        "hint": "This approach requires input-output pairs for training.",
+        "question_order": 4
       },
       {
         "question": "What is the significance of the Turing Test in the context of Artificial Intelligence?",
@@ -417,7 +479,8 @@
           "It determines the data processing capacity of AI models."
         ],
         "correct_option": 1,
-        "hint": "This test involves a human evaluator interacting with both a machine and a human without knowing which is which."
+        "hint": "This test involves a human evaluator interacting with both a machine and a human without knowing which is which.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -430,7 +493,8 @@
           "Proposing the concept of the perceptron"
         ],
         "correct_option": 1,
-        "hint": "Consider who coined the term 'Artificial Intelligence'."
+        "hint": "Consider who coined the term 'Artificial Intelligence'.",
+        "question_order": 1
       },
       {
         "question": "In the context of search algorithms, what does A* algorithm primarily rely on to guarantee the shortest path?",
@@ -441,7 +505,8 @@
           "Randomized search"
         ],
         "correct_option": 0,
-        "hint": "Think about what guides the A* algorithm to find the optimal path efficiently."
+        "hint": "Think about what guides the A* algorithm to find the optimal path efficiently.",
+        "question_order": 2
       },
       {
         "question": "What is the primary challenge in knowledge representation for AI systems?",
@@ -452,7 +517,8 @@
           "Algorithm speed"
         ],
         "correct_option": 2,
-        "hint": "Consider the difficulty in programming AI to understand everyday human logic."
+        "hint": "Consider the difficulty in programming AI to understand everyday human logic.",
+        "question_order": 3
       },
       {
         "question": "Which type of machine learning involves learning from a label-free dataset?",
@@ -463,7 +529,8 @@
           "Semi-supervised learning"
         ],
         "correct_option": 2,
-        "hint": "Think about the learning method that does not use labeled data."
+        "hint": "Think about the learning method that does not use labeled data.",
+        "question_order": 4
       },
       {
         "question": "What is the main focus of reasoning in AI?",
@@ -474,7 +541,8 @@
           "Improving computational speed"
         ],
         "correct_option": 1,
-        "hint": "Consider the goal of reasoning as making inferences from existing data."
+        "hint": "Consider the goal of reasoning as making inferences from existing data.",
+        "question_order": 5
       }
     ]
   }

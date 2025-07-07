@@ -25,81 +25,96 @@
         {
           "url": "https://firebase.google.com/docs",
           "description": "Official documentation for Firebase, covering its features and integration methods.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for learning and understanding JavaScript on the web.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/docs/database",
           "description": "Official documentation for Firebase Realtime Database, detailing setup, usage, and best practices.",
-          "title": "Firebase Realtime Database"
+          "title": "Firebase Realtime Database",
+          "resource_order": 3
         },
         {
           "url": "https://docs.aws.amazon.com/",
           "description": "Official documentation for Amazon Web Services (AWS), covering all services and solutions.",
-          "title": "Welcome to AWS Documentation"
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.w3schools.com/java/",
           "description": "An educational resource for learning Java programming with tutorials and examples.",
-          "title": "Java Tutorial"
+          "title": "Java Tutorial",
+          "resource_order": 1
         },
         {
           "url": "https://lp.jetbrains.com/academy/learn-java/",
           "description": "An interactive platform for learning Java programming through hands-on projects and exercises.",
-          "title": "Learn Java | Online Courses from JetBrains Academy"
+          "title": "Learn Java | Online Courses from JetBrains Academy",
+          "resource_order": 2
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
           "title": "Java Full Course for Beginners",
-          "duration": "150m"
+          "duration": "150m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
           "title": "The Complete Backend Developer Roadmap",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=1oTuMPIwHmk",
           "title": "Back-End Web Development (Tutorial for Beginners)",
-          "duration": "188m"
+          "duration": "188m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=tZvjSl9dswg",
           "title": "Android App Development in Java All-in-One Tutorial Series (4 HOURS!)",
-          "duration": "234m"
+          "duration": "234m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=IufJyvwMsZo",
           "title": "GeeksForGeeks Java Backend Development Live Course Complete Review!",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=gJrjgg1KVL4",
           "title": "Spring Boot Tutorial for Beginners [2025]",
-          "duration": "71m"
+          "duration": "71m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=xdeFYtP6-T0",
           "title": "Android App Development Tutorial 3 - Essential Concepts and Terms | Java",
-          "duration": "7m"
+          "duration": "7m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
           "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
-          "duration": "1274m"
+          "duration": "1274m",
+          "resource_order": 9
         }
       ]
     },
@@ -108,81 +123,96 @@
         {
           "url": "https://firebase.google.com/docs",
           "description": "Official documentation for Firebase, Google's mobile and web application development platform.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for learning and referencing JavaScript on the web.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
           "description": "An introduction and guide to using the AWS Cloud Development Kit (CDK) for infrastructure as code.",
-          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2"
+          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2",
+          "resource_order": 3
         },
         {
           "url": "https://docs.temporal.io/",
           "description": "Comprehensive documentation for building scalable microservices with Temporal.",
-          "title": "Temporal Platform Documentation"
+          "title": "Temporal Platform Documentation",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.freecodecamp.org/news/design-pattern-for-modern-backend-development-and-use-cases/",
           "description": "An insightful overview of design patterns for modern backend development and their practical use cases.",
-          "title": "Design Patterns for Modern Backend Development \u2013 with Example Use Cases"
+          "title": "Design Patterns for Modern Backend Development – with Example Use Cases",
+          "resource_order": 1
         },
         {
           "url": "https://github.com/arialdomartini/Back-End-Developer-Interview-Questions",
           "description": "A collection of interview questions and answers for back-end developers.",
-          "title": "GitHub - arialdomartini/Back-End-Developer-Interview-Questions: A list of back-end related questions you can be inspired from to interview potential candidates, test yourself or completely ignore"
+          "title": "GitHub - arialdomartini/Back-End-Developer-Interview-Questions: A list of back-end related questions you can be inspired from to interview potential candidates, test yourself or completely ignore",
+          "resource_order": 2
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=gJrjgg1KVL4",
           "title": "Spring Boot Tutorial for Beginners [2025]",
-          "duration": "71m"
+          "duration": "71m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=31KTdfRH6nY&pp=0gcJCfwAo7VqN5tD",
-          "title": "Building web applications in Java with Spring Boot 3 \u2013 Tutorial",
-          "duration": "210m"
+          "title": "Building web applications in Java with Spring Boot 3 – Tutorial",
+          "duration": "210m",
+          "resource_order": 3
         },
         {
           "url": "https://m.youtube.com/watch?v=mRATEFmDmeA&pp=ygUGI2FlbW9y",
           "title": "AEM Overview | AEM Introduction | AEM Tutorial 01",
-          "duration": "51m"
+          "duration": "51m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=Gx4iBLKLVHk",
           "title": "Spring Boot Full Stack and Angular | Full Course",
-          "duration": "159m"
+          "duration": "159m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=FtaQSdrl7YA",
           "title": "JavaScript Tutorial for Beginners [JS Crash Course]",
-          "duration": "97m"
+          "duration": "97m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=zuKbR4Q428o",
           "title": "JavaScript Unit Testing Tutorial for Beginners",
-          "duration": "48m"
+          "duration": "48m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=uoOwVWVl_eU&pp=0gcJCfwAo7VqN5tD",
-          "title": "Generative AI for Java Developers: From Zero to Hero \ud83e\uddb8",
-          "duration": "21m"
+          "title": "Generative AI for Java Developers: From Zero to Hero 🦸",
+          "duration": "21m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=PeojZFlD8yM",
           "title": "Java vs C# in 2025 - Which One Would I Choose?",
-          "duration": "5m"
+          "duration": "5m",
+          "resource_order": 9
         }
       ]
     },
@@ -191,81 +221,96 @@
         {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
           "description": "An extensive resource for learning and referencing JavaScript programming language concepts and features.",
-          "title": "JavaScript | MDN"
+          "title": "JavaScript | MDN",
+          "resource_order": 1
         },
         {
           "url": "https://daily.dev/blog/how-to-learn-java-step-by-step-core-concepts",
           "description": "A step-by-step guide to learning the core concepts of Java programming.",
-          "title": "How to Learn Java Step by Step: Core Concepts"
+          "title": "How to Learn Java Step by Step: Core Concepts",
+          "resource_order": 2
         },
         {
           "url": "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
           "description": "An introductory guide to using the AWS Cloud Development Kit (CDK) for infrastructure as code.",
-          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2"
+          "title": "What is the AWS CDK? - AWS Cloud Development Kit (AWS CDK) v2",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://daily.dev/blog/how-to-learn-java-step-by-step-core-concepts",
           "description": "A step-by-step guide to learning Java, focusing on core concepts.",
-          "title": "How to Learn Java Step by Step: Core Concepts"
+          "title": "How to Learn Java Step by Step: Core Concepts",
+          "resource_order": 1
         },
         {
           "url": "https://www.devoxify.com/posts/the-definitive-guide-to-java-backend-developer-career-path/",
           "description": "A comprehensive guide outlining the career path for Java backend developers.",
-          "title": "Devoxify - The definitive guide to java backend developer career path"
+          "title": "Devoxify - The definitive guide to java backend developer career path",
+          "resource_order": 2
         },
         {
           "url": "https://community.shopify.com/c/shopify-education-and/how-to-become-a-shopify-developer-a-step-by-step-guide/m-p/2831473",
           "description": "A step-by-step guide on becoming a Shopify developer.",
-          "title": "403 Forbidden"
+          "title": "403 Forbidden",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=OeEHJgzqS1k&pp=0gcJCfwAo7VqN5tD",
           "title": "The Complete Backend Developer Roadmap",
-          "duration": "8m"
+          "duration": "8m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=gJrjgg1KVL4",
           "title": "Spring Boot Tutorial for Beginners [2025]",
-          "duration": "71m"
+          "duration": "71m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
           "title": "Java Full Course for Beginners",
-          "duration": "150m"
+          "duration": "150m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=dzUc9vrsldM",
           "title": "Full 2025 Kotlin Crash Course For Beginners",
-          "duration": "191m"
+          "duration": "191m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=aS0t9HTO5V4",
           "title": "Spring Boot Tutorial with Project | Java Development Course",
-          "duration": "38m"
+          "duration": "38m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=zJSY8tbf_ys",
           "title": "Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)",
-          "duration": "1274m"
+          "duration": "1274m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=ioPagXHCRjc&pp=0gcJCdgAo7VqN5tD",
           "title": "Java Programming Tutorial: From Zero to Hero for Beginners",
-          "duration": "718m"
+          "duration": "718m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=eOQN8DJ4Lrg",
           "title": "Java Backend Developer in 2023? Complete Backend Engineer Roadmap | Spring Boot",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 9
         }
       ]
     }
@@ -281,7 +326,8 @@
           "To simplify syntax"
         ],
         "correct_option": 2,
-        "hint": "Think about how Java allows organizing code around real-world concepts."
+        "hint": "Think about how Java allows organizing code around real-world concepts.",
+        "question_order": 1
       },
       {
         "question": "Which tool is commonly used to build and run Java applications?",
@@ -292,7 +338,8 @@
           "Eclipse"
         ],
         "correct_option": 0,
-        "hint": "This tool is known for being a popular Java IDE with extensive features."
+        "hint": "This tool is known for being a popular Java IDE with extensive features.",
+        "question_order": 2
       },
       {
         "question": "Which framework is used for building RESTful APIs in Java?",
@@ -303,7 +350,8 @@
           "Ruby on Rails"
         ],
         "correct_option": 0,
-        "hint": "It is a Java-based framework that simplifies the process of creating web applications and services."
+        "hint": "It is a Java-based framework that simplifies the process of creating web applications and services.",
+        "question_order": 3
       },
       {
         "question": "What is JDBC primarily used for in Java applications?",
@@ -314,7 +362,8 @@
           "To compile Java code"
         ],
         "correct_option": 1,
-        "hint": "JDBC helps in establishing a connection between Java applications and databases."
+        "hint": "JDBC helps in establishing a connection between Java applications and databases.",
+        "question_order": 4
       },
       {
         "question": "What is a common method for managing user sessions in Java web applications?",
@@ -325,7 +374,8 @@
           "Batch processing"
         ],
         "correct_option": 0,
-        "hint": "This method involves storing small pieces of data on the client's browser."
+        "hint": "This method involves storing small pieces of data on the client's browser.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -338,7 +388,8 @@
           "Faster compilation"
         ],
         "correct_option": 1,
-        "hint": "Think about how OOP helps in managing complex systems with reusable components."
+        "hint": "Think about how OOP helps in managing complex systems with reusable components.",
+        "question_order": 1
       },
       {
         "question": "Which command is used to compile a Java program from the command line?",
@@ -349,7 +400,8 @@
           "javadoc"
         ],
         "correct_option": 0,
-        "hint": "This command transforms Java source code into bytecode."
+        "hint": "This command transforms Java source code into bytecode.",
+        "question_order": 2
       },
       {
         "question": "What is the role of the @RestController annotation in a Spring Boot application?",
@@ -360,7 +412,8 @@
           "To manage application security"
         ],
         "correct_option": 1,
-        "hint": "This annotation is used to create web services in Spring Boot."
+        "hint": "This annotation is used to create web services in Spring Boot.",
+        "question_order": 3
       },
       {
         "question": "Which JDBC component is responsible for establishing a connection to the database?",
@@ -371,7 +424,8 @@
           "PreparedStatement"
         ],
         "correct_option": 0,
-        "hint": "This component manages the list of database drivers and establishes connections."
+        "hint": "This component manages the list of database drivers and establishes connections.",
+        "question_order": 4
       },
       {
         "question": "In Java, which method is used to start a new session when managing sessions for web applications?",
@@ -382,7 +436,8 @@
           "initSession()"
         ],
         "correct_option": 0,
-        "hint": "This method is part of the HttpSession interface."
+        "hint": "This method is part of the HttpSession interface.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -395,7 +450,8 @@
           "To enhance the graphical user interface of Java applications"
         ],
         "correct_option": 0,
-        "hint": "Think about how Spring Boot influences the start-up of Spring applications."
+        "hint": "Think about how Spring Boot influences the start-up of Spring applications.",
+        "question_order": 1
       },
       {
         "question": "In Java, which of the following principles is NOT part of Object-Oriented Programming?",
@@ -406,7 +462,8 @@
           "Compilation"
         ],
         "correct_option": 3,
-        "hint": "Consider which term is more related to the process of converting code into machine language rather than structuring code."
+        "hint": "Consider which term is more related to the process of converting code into machine language rather than structuring code.",
+        "question_order": 2
       },
       {
         "question": "Which JDBC component is responsible for managing the set of database connections and providing them to application code as needed?",
@@ -417,7 +474,8 @@
           "ResultSet"
         ],
         "correct_option": 1,
-        "hint": "This component optimizes the use of database connections and enhances performance."
+        "hint": "This component optimizes the use of database connections and enhances performance.",
+        "question_order": 3
       },
       {
         "question": "What is a common method of securing a RESTful API in Java using Spring Boot?",
@@ -428,7 +486,8 @@
           "Using plain HTTP instead of HTTPS"
         ],
         "correct_option": 1,
-        "hint": "Think about token-based authentication methods that are widely used for securing APIs."
+        "hint": "Think about token-based authentication methods that are widely used for securing APIs.",
+        "question_order": 4
       },
       {
         "question": "Which deployment strategy in Java applications focuses on managing resources in a cloud environment to ensure high availability and scalability?",
@@ -439,7 +498,8 @@
           "Virtual Machine Provisioning"
         ],
         "correct_option": 2,
-        "hint": "This strategy involves breaking down applications into smaller, independent services."
+        "hint": "This strategy involves breaking down applications into smaller, independent services.",
+        "question_order": 5
       }
     ]
   },

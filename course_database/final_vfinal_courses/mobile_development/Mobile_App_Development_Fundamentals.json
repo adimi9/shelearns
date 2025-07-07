@@ -21,76 +21,90 @@
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
           "description": "An official Microsoft resource for learning C# programming language and .NET framework.",
-          "title": "C# Guide - .NET managed language | Microsoft Learn"
+          "title": "C# Guide - .NET managed language | Microsoft Learn",
+          "resource_order": 1
         },
         {
           "url": "https://firebase.google.com/docs",
           "description": "Official documentation for Firebase, covering its features and integration with apps.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/",
           "description": "Official Microsoft documentation for .NET development and programming resources.",
-          "title": ".NET documentation | Microsoft Learn"
+          "title": ".NET documentation | Microsoft Learn",
+          "resource_order": 3
         },
         {
           "url": "https://developer.android.com/guide/components/fundamentals",
           "description": "An overview of the core components and architecture of Android applications.",
-          "title": "Application fundamentals \u00a0|\u00a0 App architecture \u00a0|\u00a0 Android Developers"
+          "title": "Application fundamentals  |  App architecture  |  Android Developers",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://developer.apple.com/tutorials/app-dev-training/",
           "description": "A step-by-step tutorial series for learning iOS app development using Swift and Xcode.",
-          "title": "Develop apps for Apple platforms | Apple Developer Documentation"
+          "title": "Develop apps for Apple platforms | Apple Developer Documentation",
+          "resource_order": 1
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
           "title": "React Native Tutorial for Beginners - Build a React Native App",
-          "duration": "126m"
+          "duration": "126m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=a2b9UcgZDdU",
           "title": "Online Lecture: An Introduction to Mobile App Development | RMIT University",
-          "duration": "37m"
+          "duration": "37m",
+          "resource_order": 2
         },
         {
           "url": "https://m.youtube.com/watch?v=DuNLR_NJv8U&pp=ygUJI3VpbWF1aW1h",
           "title": "Learn .NET MAUI - Full Course for Beginners | Build cross-platform apps in C#",
-          "duration": "248m"
+          "duration": "248m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
           "title": "Java Full Course for Beginners",
-          "duration": "150m"
+          "duration": "150m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
           "title": "React Tutorial for Beginners",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 5
         },
         {
           "url": "https://m.youtube.com/watch?v=9XMt2hChbRo",
           "title": "Flutter Tutorial For Beginners | Flutter Course For Beginners | Flutter App Development | Edureka",
-          "duration": "60m"
+          "duration": "60m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=K0t-RCSlasE&pp=ygUJI2FwcGJ1aWxk",
           "title": "How to Make an App in 8 Days (2024) - Full Walkthrough",
-          "duration": "180m"
+          "duration": "180m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=FjrKMcnKahY",
           "title": "Android App Development Tutorial for Beginners - Your First App",
-          "duration": "55m"
+          "duration": "55m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=xKvzr6NDeS8",
           "title": "Twitter Bootstrap - Make your web apps accidentally excellent | Ben Cull",
-          "duration": "84m"
+          "duration": "84m",
+          "resource_order": 9
         }
       ]
     },
@@ -99,101 +113,120 @@
         {
           "url": "https://firebase.google.com/docs",
           "description": "Official documentation for Firebase, Google's mobile and web application development platform.",
-          "title": "Firebase Documentation"
+          "title": "Firebase Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://developer.android.com/training/testing/fundamentals",
           "description": "An overview of fundamental concepts and tools for testing Android applications.",
-          "title": "Fundamentals of testing Android apps \u00a0|\u00a0 Test your app on Android \u00a0|\u00a0 Android Developers"
+          "title": "Fundamentals of testing Android apps  |  Test your app on Android  |  Android Developers",
+          "resource_order": 2
         },
         {
           "url": "https://firebase.google.com/",
           "description": "Official documentation and resources for Google's Firebase platform for app development.",
-          "title": "Firebase | Google's Mobile and Web App Development Platform"
+          "title": "Firebase | Google's Mobile and Web App Development Platform",
+          "resource_order": 3
         },
         {
           "url": "https://developer.android.com/guide/components/fundamentals",
           "description": "An overview of Android app components and their fundamental roles in application architecture.",
-          "title": "Application fundamentals \u00a0|\u00a0 App architecture \u00a0|\u00a0 Android Developers"
+          "title": "Application fundamentals  |  App architecture  |  Android Developers",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://developer.android.com/training/testing/fundamentals",
           "description": "An overview of fundamental concepts and practices for testing Android applications.",
-          "title": "Fundamentals of testing Android apps \u00a0|\u00a0 Test your app on Android \u00a0|\u00a0 Android Developers"
+          "title": "Fundamentals of testing Android apps  |  Test your app on Android  |  Android Developers",
+          "resource_order": 1
         },
         {
           "url": "https://developer.x.com/en",
           "description": "The central hub for developers to access X's API documentation, tools, and resources.",
-          "title": "Use Cases, Tutorials, & Documentation | Twitter Developer Platform"
+          "title": "Use Cases, Tutorials, & Documentation | Twitter Developer Platform",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/power-apps/",
           "description": "An official Microsoft guide for creating and managing applications using Power Apps.",
-          "title": "Official Microsoft Power Apps documentation - Power Apps | Microsoft Learn"
+          "title": "Official Microsoft Power Apps documentation - Power Apps | Microsoft Learn",
+          "resource_order": 3
         },
         {
           "url": "https://www.dev4side.com/en/blog/power-apps-tutorial",
           "description": "A beginner-friendly tutorial on creating applications using Microsoft Power Apps.",
-          "title": "Power Apps Tutorial: all free resources"
+          "title": "Power Apps Tutorial: all free resources",
+          "resource_order": 4
         },
         {
           "url": "https://about.appsheet.com/home/",
           "description": "An overview of AppSheet, a no-code platform for building mobile and web applications.",
-          "title": "Google AppSheet | Build apps with no code"
+          "title": "Google AppSheet | Build apps with no code",
+          "resource_order": 5
         },
         {
           "url": "https://www.figma.com/resource-library/what-is-a-use-case/",
           "description": "An introduction to use cases and their importance in design and development.",
-          "title": "What is a Use Case? How to Write One, Examples & Template | Figma"
+          "title": "What is a Use Case? How to Write One, Examples & Template | Figma",
+          "resource_order": 6
         },
         {
           "url": "https://developer.okta.com/docs/guides/embedded-siw/main/",
           "description": "A guide on integrating Okta's Sign-In Widget into web applications for authentication.",
-          "title": "Embedded Okta Sign-In Widget fundamentals | Okta Developer"
+          "title": "Embedded Okta Sign-In Widget fundamentals | Okta Developer",
+          "resource_order": 7
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=8sXRyHI3bLw",
           "title": "Web Development Technologies - A Practical Guide",
-          "duration": "163m"
+          "duration": "163m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=4ld7NzRenjQ",
           "title": "Microsoft Power Apps for Beginners   From Idea to App!",
-          "duration": "24m"
+          "duration": "24m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=LIC8DFW8fOE",
           "title": "Power Apps Model Driven Apps FULL COURSE for Beginners",
-          "duration": "203m"
+          "duration": "203m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=K0t-RCSlasE&pp=ygUJI2FwcGJ1aWxk",
           "title": "How to Make an App in 8 Days (2024) - Full Walkthrough",
-          "duration": "180m"
+          "duration": "180m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=rJsHc-4w60g",
           "title": "Power Apps Tutorial | FULL COURSE for Beginners",
-          "duration": "136m"
+          "duration": "136m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=w0H1-b044KY",
-          "title": "How to Build & Sell AI Agents: Ultimate Beginner\u2019s Guide",
-          "duration": "230m"
+          "title": "How to Build & Sell AI Agents: Ultimate Beginner’s Guide",
+          "duration": "230m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=PeGfX7W1mJk&pp=ygUII3VpbWFrZXI%3D",
           "title": "Figma Mobile App Design Tutorial",
-          "duration": "46m"
+          "duration": "46m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=8sAyPDLorek",
           "title": "Building your first Flutter App - with a Codelab!",
-          "duration": "92m"
+          "duration": "92m",
+          "resource_order": 8
         }
       ]
     },
@@ -202,86 +235,102 @@
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/csharp/",
           "description": "Official Microsoft documentation for learning C# programming language.",
-          "title": "C# Guide - .NET managed language | Microsoft Learn"
+          "title": "C# Guide - .NET managed language | Microsoft Learn",
+          "resource_order": 1
         },
         {
           "url": "https://developer.android.com/get-started/overview",
           "description": "An introductory guide to getting started with Android app development.",
-          "title": "Build your first app \u00a0|\u00a0 Get started \u00a0|\u00a0 Android Developers"
+          "title": "Build your first app  |  Get started  |  Android Developers",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/dotnet/",
           "description": "Official documentation and resources for developing applications with .NET.",
-          "title": ".NET documentation | Microsoft Learn"
+          "title": ".NET documentation | Microsoft Learn",
+          "resource_order": 3
         },
         {
           "url": "https://docs.streamlit.io/",
           "description": "Official documentation for Streamlit, a framework for building data-driven web applications.",
-          "title": "Streamlit documentation"
+          "title": "Streamlit documentation",
+          "resource_order": 4
         }
       ],
       "notes": [
         {
           "url": "https://www.datacamp.com/blog/how-to-learn-ai",
           "description": "A beginner's guide to learning artificial intelligence effectively.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 1
         },
         {
           "url": "https://www.dev4side.com/en/blog/power-apps-tutorial",
           "description": "A beginner's tutorial on creating applications using Microsoft Power Apps.",
-          "title": "Power Apps Tutorial: all free resources"
+          "title": "Power Apps Tutorial: all free resources",
+          "resource_order": 2
         },
         {
           "url": "https://www.datacamp.com/blog/how-to-learn-python-expert-guide",
           "description": "An expert guide providing strategies and resources for effectively learning Python.",
-          "title": "Just a moment..."
+          "title": "Just a moment...",
+          "resource_order": 3
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=b1oC7sLIgpI",
           "title": "SwiftUI Fundamentals | FULL COURSE | Beginner Friendly",
-          "duration": "708m"
+          "duration": "708m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
           "title": "Swift Programming Tutorial | FULL COURSE | Absolute Beginner",
-          "duration": "632m"
+          "duration": "632m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
           "title": "Java Full Course for Beginners",
-          "duration": "150m"
+          "duration": "150m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
           "title": "React Native Tutorial for Beginners - Build a React Native App",
-          "duration": "126m"
+          "duration": "126m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=3Lfs5fAc1bU",
           "title": "Microsoft Dynamics 365 Sales (CRM): Tutorial for Beginners",
-          "duration": "47m"
+          "duration": "47m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=IOVFRMuPeVQ",
           "title": "Figma Tutorial: A Crash Course for Beginners",
-          "duration": "82m"
+          "duration": "82m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=CzRQ9mnmh44",
           "title": "The Complete Dart & Flutter Developer Course | Full Tutorial For Beginners to Advanced",
-          "duration": "1247m"
+          "duration": "1247m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=K5KVEU3aaeQ",
           "title": "Python Full Course for Beginners [2025]",
-          "duration": "122m"
+          "duration": "122m",
+          "resource_order": 8
         },
         {
           "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
           "title": "React Tutorial for Beginners",
-          "duration": "80m"
+          "duration": "80m",
+          "resource_order": 9
         }
       ]
     }
@@ -297,7 +346,8 @@
           "Blackberry OS"
         ],
         "correct_option": 1,
-        "hint": "This OS is developed by Google and is used by many different smartphone manufacturers."
+        "hint": "This OS is developed by Google and is used by many different smartphone manufacturers.",
+        "question_order": 1
       },
       {
         "question": "What is a key principle of mobile UI/UX design?",
@@ -308,7 +358,8 @@
           "Using small text to save space"
         ],
         "correct_option": 1,
-        "hint": "Think about what makes an app easy and pleasant to use."
+        "hint": "Think about what makes an app easy and pleasant to use.",
+        "question_order": 2
       },
       {
         "question": "What is the initial state of an app in the app lifecycle?",
@@ -319,7 +370,8 @@
           "Not running"
         ],
         "correct_option": 3,
-        "hint": "This state occurs before the app is launched."
+        "hint": "This state occurs before the app is launched.",
+        "question_order": 3
       },
       {
         "question": "Which development environment is commonly used for building Android applications?",
@@ -330,7 +382,8 @@
           "Eclipse"
         ],
         "correct_option": 1,
-        "hint": "This IDE is specifically designed for Android development."
+        "hint": "This IDE is specifically designed for Android development.",
+        "question_order": 4
       },
       {
         "question": "What is the primary purpose of setting up a development environment for mobile app development?",
@@ -341,7 +394,8 @@
           "To browse the internet"
         ],
         "correct_option": 2,
-        "hint": "This is essential for creating and testing your app before releasing it."
+        "hint": "This is essential for creating and testing your app before releasing it.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -354,7 +408,8 @@
           "Android uses Swift as its primary programming language, whereas iOS uses Java."
         ],
         "correct_option": 2,
-        "hint": "Think about how apps are distributed on each platform."
+        "hint": "Think about how apps are distributed on each platform.",
+        "question_order": 1
       },
       {
         "question": "What is a key principle of mobile UI/UX design that enhances user experience?",
@@ -365,7 +420,8 @@
           "Focusing solely on aesthetics without considering functionality"
         ],
         "correct_option": 2,
-        "hint": "Consider how users interact with mobile devices using touch."
+        "hint": "Consider how users interact with mobile devices using touch.",
+        "question_order": 2
       },
       {
         "question": "Which stage of the mobile app lifecycle is responsible for saving user data and state when the app is not in use?",
@@ -376,7 +432,8 @@
           "Terminated"
         ],
         "correct_option": 1,
-        "hint": "This stage occurs when an app is not visible but still retains its state."
+        "hint": "This stage occurs when an app is not visible but still retains its state.",
+        "question_order": 3
       },
       {
         "question": "What is a common setup requirement for a development environment for iOS app development?",
@@ -387,7 +444,8 @@
           "Using Windows OS as the primary operating system"
         ],
         "correct_option": 1,
-        "hint": "Think about the official IDE provided by Apple for iOS development."
+        "hint": "Think about the official IDE provided by Apple for iOS development.",
+        "question_order": 4
       },
       {
         "question": "Which of the following mobile concepts is essential for understanding app responsiveness and performance?",
@@ -398,7 +456,8 @@
           "Focusing exclusively on app aesthetics over functionality"
         ],
         "correct_option": 1,
-        "hint": "Consider how media is displayed on different devices and resolutions."
+        "hint": "Consider how media is displayed on different devices and resolutions.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -411,7 +470,8 @@
           "iOS and Android have no significant differences in their sandboxing approaches."
         ],
         "correct_option": 0,
-        "hint": "Consider the default restrictions each OS places on applications regarding system resource access."
+        "hint": "Consider the default restrictions each OS places on applications regarding system resource access.",
+        "question_order": 1
       },
       {
         "question": "Which of the following best describes the MVC design pattern as it is typically implemented in iOS app development?",
@@ -422,7 +482,8 @@
           "In iOS, MVC requires all components to be in a single class to simplify app architecture."
         ],
         "correct_option": 2,
-        "hint": "Focus on how MVC separates different aspects of an application to enhance modularity."
+        "hint": "Focus on how MVC separates different aspects of an application to enhance modularity.",
+        "question_order": 2
       },
       {
         "question": "During the Android app lifecycle, which method is called when an activity is no longer visible to the user?",
@@ -433,7 +494,8 @@
           "onResume()"
         ],
         "correct_option": 1,
-        "hint": "This method is typically called when an activity is fully obscured by another activity."
+        "hint": "This method is typically called when an activity is fully obscured by another activity.",
+        "question_order": 3
       },
       {
         "question": "What is a significant difference between using Xcode for iOS development and Android Studio for Android development?",
@@ -444,7 +506,8 @@
           "Both platforms require the same hardware specifications for optimal performance."
         ],
         "correct_option": 2,
-        "hint": "Consider the primary UI frameworks each IDE integrates with for building user interfaces."
+        "hint": "Consider the primary UI frameworks each IDE integrates with for building user interfaces.",
+        "question_order": 4
       },
       {
         "question": "Which principle is crucial for creating a responsive mobile UI/UX that adapts to different screen sizes and orientations?",
@@ -455,7 +518,8 @@
           "User-centered design"
         ],
         "correct_option": 1,
-        "hint": "This design principle focuses on flexibility and responsiveness to varying display conditions."
+        "hint": "This design principle focuses on flexibility and responsiveness to varying display conditions.",
+        "question_order": 5
       }
     ]
   }

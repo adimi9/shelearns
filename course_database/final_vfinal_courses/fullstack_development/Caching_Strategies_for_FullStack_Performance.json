@@ -21,96 +21,114 @@
         {
           "url": "https://graphql.org/learn/",
           "description": "An introductory guide to understanding and using GraphQL effectively.",
-          "title": "Introduction to GraphQL | GraphQL"
+          "title": "Introduction to GraphQL | GraphQL",
+          "resource_order": 1
         },
         {
           "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching",
           "description": "Guidelines for implementing and managing caching in Adobe Experience Manager Cloud Service.",
-          "title": "Caching in AEM as a Cloud Service | Adobe Experience Manager"
+          "title": "Caching in AEM as a Cloud Service | Adobe Experience Manager",
+          "resource_order": 2
         },
         {
           "url": "https://learn.microsoft.com/en-us/azure/",
           "description": "An extensive resource for learning about Microsoft Azure services and solutions.",
-          "title": "Azure documentation | Microsoft Learn"
+          "title": "Azure documentation | Microsoft Learn",
+          "resource_order": 3
         },
         {
           "url": "https://www.catchpoint.com/api-monitoring-tools/api-architecture",
           "description": "An overview of API architecture and monitoring tools for optimizing performance.",
-          "title": "API Architecture Patterns and Best Practices"
+          "title": "API Architecture Patterns and Best Practices",
+          "resource_order": 4
         },
         {
           "url": "https://nextjs.org/docs",
           "description": "Official documentation for building applications with Next.js, a React framework.",
-          "title": "Next.js Docs | Next.js"
+          "title": "Next.js Docs | Next.js",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://moldstud.com/articles/p-full-stack-development-implementing-caching-mechanisms-for-improved-performance",
           "description": "An article on implementing caching mechanisms to enhance full-stack development performance.",
-          "title": "Full Stack Development: Implementing Caching Mechanisms for Improved Performance | MoldStud"
+          "title": "Full Stack Development: Implementing Caching Mechanisms for Improved Performance | MoldStud",
+          "resource_order": 1
         },
         {
           "url": "https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/",
           "description": "An introductory guide to the fundamental concepts of caching system design for beginners.",
-          "title": "Caching - System Design Concept - GeeksforGeeks"
+          "title": "Caching - System Design Concept - GeeksforGeeks",
+          "resource_order": 2
         },
         {
           "url": "https://www.linkedin.com/posts/novalagung_how-to-restrict-app-access-using-cloudflare-activity-7200148267639185408-cuOj",
           "description": "A guide on restricting application access using Cloudflare's security features.",
-          "title": "It's been a while since I wrote anything technical (other than adding new chapters to my existing free ebooks. | Noval Agung Prayogo"
+          "title": "It's been a while since I wrote anything technical (other than adding new chapters to my existing free ebooks. | Noval Agung Prayogo",
+          "resource_order": 3
         },
         {
           "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching",
           "description": "Guidelines for implementing caching strategies in Adobe Experience Manager Cloud Service.",
-          "title": "Caching in AEM as a Cloud Service | Adobe Experience Manager"
+          "title": "Caching in AEM as a Cloud Service | Adobe Experience Manager",
+          "resource_order": 4
         },
         {
           "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
           "description": "A guide on becoming a full-stack developer and securing a job in the field.",
-          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) \u2013 A Handbook for Beginners"
+          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=Zq5fmkH0T78",
           "title": "Next.js 15 Crash Course | Build and Deploy a Production-Ready Full Stack App",
-          "duration": "323m"
+          "duration": "323m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=F2FmTdLtb_4",
           "title": "System Design Concepts Course and Interview Prep",
-          "duration": "53m"
+          "duration": "53m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=h7MTWLv3xvw&pp=0gcJCdgAo7VqN5tD",
           "title": "React Router V7 Tutorial - Routing, Nested Routes, Data Loading, Layouts...",
-          "duration": "51m"
+          "duration": "51m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=JDbkoICzQro",
           "title": "Building well architected API Gateway APIs | Serverless Office Hours",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=YX5yoApjI3M",
           "title": "Turborepo Demo and Walkthrough (High-Performance Monorepos)",
-          "duration": "50m"
+          "duration": "50m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=L7-CQpa2JFU",
           "title": "Next.js Crash Course for Beginners 2025 | Build a Full Stack App",
-          "duration": "121m"
+          "duration": "121m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=wTGVHLyV09M",
           "title": "SEO in Next.js - The Ultimate Guide (Metadata, Sitemap, Robots, Google Search Console, Caching)",
-          "duration": "62m"
+          "duration": "62m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=_f7h6xQXiLA",
           "title": "Node JS Full Course 2025 | Microservices, Redis, CI CD, Docker, VPS Hosting | Hostinger | Part 2",
-          "duration": "606m"
+          "duration": "606m",
+          "resource_order": 8
         }
       ]
     },
@@ -119,86 +137,102 @@
         {
           "url": "https://docs.cypress.io/app/core-concepts/best-practices",
           "description": "Guidelines for implementing best practices in Cypress testing.",
-          "title": "Best Practices | Cypress Documentation"
+          "title": "Best Practices | Cypress Documentation",
+          "resource_order": 1
         },
         {
           "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching",
           "description": "Guidelines for implementing caching strategies in Adobe Experience Manager Cloud Service.",
-          "title": "Caching in AEM as a Cloud Service | Adobe Experience Manager"
+          "title": "Caching in AEM as a Cloud Service | Adobe Experience Manager",
+          "resource_order": 2
         },
         {
           "url": "https://www.catchpoint.com/api-monitoring-tools/api-architecture",
           "description": "An overview of API architecture and monitoring tools for ensuring API performance and reliability.",
-          "title": "API Architecture Patterns and Best Practices"
+          "title": "API Architecture Patterns and Best Practices",
+          "resource_order": 3
         },
         {
           "url": "https://www.apollographql.com/docs/react/data/queries",
           "description": "Guidelines for executing GraphQL queries in React applications using Apollo Client.",
-          "title": "Queries - Apollo GraphQL Docs"
+          "title": "Queries - Apollo GraphQL Docs",
+          "resource_order": 4
         },
         {
           "url": "https://github.com/ben-manes/caffeine",
           "description": "A high-performance Java caching library providing a flexible and efficient in-memory cache.",
-          "title": "GitHub - ben-manes/caffeine: A high performance caching library for Java"
+          "title": "GitHub - ben-manes/caffeine: A high performance caching library for Java",
+          "resource_order": 5
         }
       ],
       "notes": [
         {
           "url": "https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/content-delivery/caching",
           "description": "Guidelines for implementing caching strategies in Adobe Experience Manager Cloud Service.",
-          "title": "Caching in AEM as a Cloud Service | Adobe Experience Manager"
+          "title": "Caching in AEM as a Cloud Service | Adobe Experience Manager",
+          "resource_order": 1
         },
         {
           "url": "https://anvil.works/forum/t/practical-optimization-tips-after-2-months-of-working-with-anvil/20430",
           "description": "Practical tips for optimizing performance after two months of using Anvil.",
-          "title": "Practical optimization tips after 2 months of working with Anvil - Show and Tell - Anvil Community Forum"
+          "title": "Practical optimization tips after 2 months of working with Anvil - Show and Tell - Anvil Community Forum",
+          "resource_order": 2
         },
         {
           "url": "https://www.dbta.com/Editorial/Trends-and-Applications/Spark-and-the-Fine-Art-of-Caching-119305.aspx",
           "description": "An article explaining the importance and techniques of caching in Apache Spark for performance optimization.",
-          "title": "Spark and the Fine Art of Caching - Database Trends and Applications"
+          "title": "Spark and the Fine Art of Caching - Database Trends and Applications",
+          "resource_order": 3
         },
         {
           "url": "https://pawelurbanek.com/blog",
           "description": "Insights and tutorials on software development, data engineering, and technology trends.",
-          "title": "Pawe\u0142 U. | Ruby on Rails Web Development Consultant Full Stack Blog"
+          "title": "Paweł U. | Ruby on Rails Web Development Consultant Full Stack Blog",
+          "resource_order": 4
         },
         {
           "url": "https://www.geeksforgeeks.org/caching-system-design-concept-for-beginners/",
           "description": "An introductory guide to understanding caching system design concepts for beginners.",
-          "title": "Caching - System Design Concept - GeeksforGeeks"
+          "title": "Caching - System Design Concept - GeeksforGeeks",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=JDbkoICzQro",
           "title": "Building well architected API Gateway APIs | Serverless Office Hours",
-          "duration": "59m"
+          "duration": "59m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=Zq5fmkH0T78",
           "title": "Next.js 15 Crash Course | Build and Deploy a Production-Ready Full Stack App",
-          "duration": "323m"
+          "duration": "323m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=h7MTWLv3xvw&pp=0gcJCdgAo7VqN5tD",
           "title": "React Router V7 Tutorial - Routing, Nested Routes, Data Loading, Layouts...",
-          "duration": "51m"
+          "duration": "51m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=fqabW3WRUbw",
           "title": "Next.js 15 Breakdown (Everything You Need To Know)",
-          "duration": "18m"
+          "duration": "18m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=QlUt06XLbJE",
           "title": "SECRET SAUCE of AI Coding? AI Devlog with Aider, Cursor, Bun and Notion",
-          "duration": "36m"
+          "duration": "36m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=fQOekY6FToY",
           "title": "What to Learn After React That Will Make You Hirable",
-          "duration": "15m"
+          "duration": "15m",
+          "resource_order": 6
         }
       ]
     },
@@ -207,86 +241,102 @@
         {
           "url": "https://github.com/vercel/next.js/discussions/54075",
           "description": "A discussion on Vercel's Next.js repository about implementing and optimizing server-side rendering.",
-          "title": "Deep Dive: Caching and Revalidating \u00b7 vercel/next.js \u00b7 Discussion #54075 \u00b7 GitHub"
+          "title": "Deep Dive: Caching and Revalidating · vercel/next.js · Discussion #54075 · GitHub",
+          "resource_order": 1
         },
         {
           "url": "https://graphql.org/learn/",
           "description": "An introductory guide to understanding and using GraphQL for API development.",
-          "title": "Introduction to GraphQL | GraphQL"
+          "title": "Introduction to GraphQL | GraphQL",
+          "resource_order": 2
         },
         {
           "url": "https://expressjs.com/en/advanced/best-practice-performance.html",
           "description": "Guidelines for optimizing performance in Express.js applications.",
-          "title": "Performance Best Practices Using Express in Production"
+          "title": "Performance Best Practices Using Express in Production",
+          "resource_order": 3
         }
       ],
       "notes": [
         {
           "url": "https://www.linkedin.com/posts/sahniaman_springboot-redis-mongodb-activity-7251584216247762945-50rq",
           "description": "A LinkedIn post discussing the integration of Spring Boot with Redis and MongoDB.",
-          "title": "If you're a Spring Boot developer, understanding Redis caching with MongoDB is a must.. | Aman Sahni"
+          "title": "If you're a Spring Boot developer, understanding Redis caching with MongoDB is a must.. | Aman Sahni",
+          "resource_order": 1
         },
         {
           "url": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
           "description": "A guide on becoming a full-stack developer and securing a job in the field.",
-          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) \u2013 A Handbook for Beginners"
+          "title": "How to Become a Full-Stack Developer in 2025 (and Get a Job) – A Handbook for Beginners",
+          "resource_order": 2
         },
         {
           "url": "https://www.linkedin.com/posts/surendrakumar143_react-19-tutorial-for-beginners-full-guide-activity-7289316732257611776-DlRi",
           "description": "A complete beginner's guide to learning React 19 through a detailed tutorial.",
-          "title": "\ud83d\ude80 Excited to Share My Latest Video! | Surendra Kumar Patel"
+          "title": "🚀 Excited to Share My Latest Video! | Surendra Kumar Patel",
+          "resource_order": 3
         },
         {
           "url": "https://www.datanovia.com/learn/tools/shiny-apps/resources/further-learning.html",
           "description": "A curated list of resources for further learning and mastering Shiny app development.",
-          "title": "Advanced Shiny Learning Paths: Complete Roadmap to Mastery \u2013 datanovia"
+          "title": "Advanced Shiny Learning Paths: Complete Roadmap to Mastery – datanovia",
+          "resource_order": 4
         },
         {
           "url": "https://pawelurbanek.com/blog",
           "description": "A blog offering insights and tutorials on software development and data engineering.",
-          "title": "Pawe\u0142 U. | Ruby on Rails Web Development Consultant Full Stack Blog"
+          "title": "Paweł U. | Ruby on Rails Web Development Consultant Full Stack Blog",
+          "resource_order": 5
         }
       ],
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=Zq5fmkH0T78",
           "title": "Next.js 15 Crash Course | Build and Deploy a Production-Ready Full Stack App",
-          "duration": "323m"
+          "duration": "323m",
+          "resource_order": 1
         },
         {
           "url": "https://www.youtube.com/watch?v=h7MTWLv3xvw&pp=0gcJCdgAo7VqN5tD",
           "title": "React Router V7 Tutorial - Routing, Nested Routes, Data Loading, Layouts...",
-          "duration": "51m"
+          "duration": "51m",
+          "resource_order": 2
         },
         {
           "url": "https://www.youtube.com/watch?v=-3bVuFcteUo",
           "title": "Mastering JavaScript - EVERYTHING You Need To Know",
-          "duration": "13m"
+          "duration": "13m",
+          "resource_order": 3
         },
         {
           "url": "https://www.youtube.com/watch?v=YX5yoApjI3M",
           "title": "Turborepo Demo and Walkthrough (High-Performance Monorepos)",
-          "duration": "50m"
+          "duration": "50m",
+          "resource_order": 4
         },
         {
           "url": "https://www.youtube.com/watch?v=6nY-kci1rlo",
           "title": "Redis Tutorial In 16 Minutes | Learn What, Basics and How to Implement FastAPI Redis",
-          "duration": "16m"
+          "duration": "16m",
+          "resource_order": 5
         },
         {
           "url": "https://www.youtube.com/watch?v=hMs8VNRy5Ys",
           "title": "Deep Dive: Optimizing LLM inference",
-          "duration": "36m"
+          "duration": "36m",
+          "resource_order": 6
         },
         {
           "url": "https://www.youtube.com/watch?v=L7-CQpa2JFU",
           "title": "Next.js Crash Course for Beginners 2025 | Build a Full Stack App",
-          "duration": "121m"
+          "duration": "121m",
+          "resource_order": 7
         },
         {
           "url": "https://www.youtube.com/watch?v=puDYwXXoKtw",
           "title": "Intermediate Next.js with Scott Moss | Preview",
-          "duration": "11m"
+          "duration": "11m",
+          "resource_order": 8
         }
       ]
     }
@@ -302,7 +352,8 @@
           "To enhance server-side data storage"
         ],
         "correct_option": 0,
-        "hint": "Think about where the data is stored and what it helps reduce."
+        "hint": "Think about where the data is stored and what it helps reduce.",
+        "question_order": 1
       },
       {
         "question": "Which technology is commonly used for server-side caching?",
@@ -313,7 +364,8 @@
           "CDN"
         ],
         "correct_option": 0,
-        "hint": "This technology is known for its efficiency in handling data and is often used alongside Memcached."
+        "hint": "This technology is known for its efficiency in handling data and is often used alongside Memcached.",
+        "question_order": 2
       },
       {
         "question": "What role do CDNs play in caching strategies?",
@@ -324,7 +376,8 @@
           "They provide real-time analytics"
         ],
         "correct_option": 0,
-        "hint": "Think about how content can be delivered faster to users based on their location."
+        "hint": "Think about how content can be delivered faster to users based on their location.",
+        "question_order": 3
       },
       {
         "question": "Which of the following is a method to implement client-side caching?",
@@ -335,7 +388,8 @@
           "CDN"
         ],
         "correct_option": 0,
-        "hint": "This method works within the browser to cache resources."
+        "hint": "This method works within the browser to cache resources.",
+        "question_order": 4
       },
       {
         "question": "What is cache invalidation?",
@@ -346,7 +400,8 @@
           "The process of increasing cache size"
         ],
         "correct_option": 0,
-        "hint": "Consider what happens when cached data is no longer relevant."
+        "hint": "Consider what happens when cached data is no longer relevant.",
+        "question_order": 5
       }
     ],
     "intermediate": [
@@ -359,7 +414,8 @@
           "Geographical content distribution"
         ],
         "correct_option": 1,
-        "hint": "CDNs primarily aim to distribute content efficiently and reduce server load rather than managing cache freshness."
+        "hint": "CDNs primarily aim to distribute content efficiently and reduce server load rather than managing cache freshness.",
+        "question_order": 1
       },
       {
         "question": "What role do Service Workers play in client-side caching strategies?",
@@ -370,7 +426,8 @@
           "They solely handle the authentication of user sessions."
         ],
         "correct_option": 0,
-        "hint": "Service Workers intercept network requests and can modify or cache responses."
+        "hint": "Service Workers intercept network requests and can modify or cache responses.",
+        "question_order": 2
       },
       {
         "question": "In server-side caching, which of the following is a key difference between Redis and Memcached?",
@@ -381,7 +438,8 @@
           "Redis does not support clustering, whereas Memcached does."
         ],
         "correct_option": 0,
-        "hint": "Consider the data persistence features of both caching systems."
+        "hint": "Consider the data persistence features of both caching systems.",
+        "question_order": 3
       },
       {
         "question": "What is a potential downside of aggressive caching strategies?",
@@ -392,7 +450,8 @@
           "Decreased application performance"
         ],
         "correct_option": 2,
-        "hint": "Aggressive caching might lead to outdated information being displayed to users."
+        "hint": "Aggressive caching might lead to outdated information being displayed to users.",
+        "question_order": 4
       },
       {
         "question": "Which of the following strategies is most effective for ensuring cache freshness?",
@@ -403,7 +462,8 @@
           "Relying solely on browser cache settings"
         ],
         "correct_option": 1,
-        "hint": "ETag headers help determine if a cached response is still valid."
+        "hint": "ETag headers help determine if a cached response is still valid.",
+        "question_order": 5
       }
     ],
     "advanced": [
@@ -416,7 +476,8 @@
           "Memcached"
         ],
         "correct_option": 1,
-        "hint": "This strategy allows for offline access and is implemented on the client's side."
+        "hint": "This strategy allows for offline access and is implemented on the client's side.",
+        "question_order": 1
       },
       {
         "question": "What is a key difference between Redis and Memcached as server-side caching solutions?",
@@ -427,7 +488,8 @@
           "Memcached supports complex data types, Redis does not"
         ],
         "correct_option": 0,
-        "hint": "One of these solutions is known for its ability to save data to disk."
+        "hint": "One of these solutions is known for its ability to save data to disk.",
+        "question_order": 2
       },
       {
         "question": "How does a CDN improve the performance of a web application?",
@@ -438,7 +500,8 @@
           "By providing real-time data analytics"
         ],
         "correct_option": 0,
-        "hint": "CDNs improve performance by distributing content closer to users."
+        "hint": "CDNs improve performance by distributing content closer to users.",
+        "question_order": 3
       },
       {
         "question": "What is the primary challenge addressed by cache invalidation strategies?",
@@ -449,7 +512,8 @@
           "Improving data encryption"
         ],
         "correct_option": 0,
-        "hint": "The challenge involves keeping cached data up-to-date with the source."
+        "hint": "The challenge involves keeping cached data up-to-date with the source.",
+        "question_order": 4
       },
       {
         "question": "Which of the following methods can Service Workers use to handle cache updates in a web application?",
@@ -460,7 +524,8 @@
           "Time-To-Live"
         ],
         "correct_option": 0,
-        "hint": "This method involves serving stale content while fetching fresh content in the background."
+        "hint": "This method involves serving stale content while fetching fresh content in the background.",
+        "question_order": 5
       }
     ]
   }
