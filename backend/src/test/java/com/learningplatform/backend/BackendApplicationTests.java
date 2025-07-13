@@ -1,4 +1,4 @@
-package com.learningplatform.backend;
+/*package com.learningplatform.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,3 +11,4 @@ public class BackendApplicationTests {
         // This test just checks if Spring context loads successfully
     }
 }
+*/

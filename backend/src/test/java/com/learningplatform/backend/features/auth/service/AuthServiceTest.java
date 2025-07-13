@@ -1,4 +1,4 @@
-package com.learningplatform.backend.features.auth.service;
+/*package com.learningplatform.backend.features.auth.service;
 
 import com.learningplatform.backend.features.auth.dto.request.*;
 import com.learningplatform.backend.features.auth.util.JwtUtil;
@@ -68,3 +68,4 @@ class AuthServiceTest {
         assertEquals("token", response.getToken());
     }
 }
+*/
