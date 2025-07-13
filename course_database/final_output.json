@@ -1,0 +1,3118 @@
+[
+  {
+    "primary_tech": "Security",
+    "category": "Backend Development",
+    "topics": [
+      "JWT (JSON Web Tokens)",
+      "OAuth 2.0 & OpenID Connect",
+      "Password Hashing & Session Management"
+    ],
+    "tags": [
+      "security",
+      "auth",
+      "web-security"
+    ],
+    "name": "Authentication & Authorization",
+    "id": "BE20",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Security",
+    "category": "Backend Development",
+    "topics": [
+      "OWASP Top 10",
+      "Input Validation & Sanitization",
+      "Logging & Monitoring for Security"
+    ],
+    "tags": [
+      "security",
+      "web-security",
+      "cybersecurity"
+    ],
+    "name": "Backend Security Best Practices",
+    "id": "BE9",
+    "recommended": true
+  },
+  {
+    "primary_tech": "tRPC",
+    "category": "Backend Development",
+    "topics": [
+      "Introduction to tRPC and its Benefits",
+      "Setting up a tRPC Server with Node.js",
+      "Defining Endpoints with TypeScript",
+      "Client-Server Communication in tRPC",
+      "Error Handling and Validation in tRPC",
+      "Authentication and Authorization Strategies",
+      "Deploying tRPC Applications",
+      "Integrating tRPC with Frontend Frameworks"
+    ],
+    "tags": [
+      "tRPC",
+      "TypeScript",
+      "API Development",
+      "Node.js",
+      "Microservices"
+    ],
+    "name": "Building Efficient APIs with tRPC",
+    "id": "BE28",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Caching",
+    "category": "Backend Development",
+    "topics": [
+      "In-Memory Caching",
+      "Distributed Caching (Redis/Memcached)",
+      "Cache Invalidation Strategies"
+    ],
+    "tags": [
+      "performance",
+      "optimization",
+      "scalability"
+    ],
+    "name": "Caching Strategies for Backend",
+    "id": "BE5",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Cloud Platforms",
+    "category": "Backend Development",
+    "topics": [
+      "AWS/Azure/GCP Compute Basics (EC2, VMs)",
+      "Networking & VPCs",
+      "Managed Databases"
+    ],
+    "tags": [
+      "cloud",
+      "devops",
+      "infrastructure"
+    ],
+    "name": "Cloud Deployment & Infrastructure (IaaS)",
+    "id": "BE2",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Docker",
+    "category": "Backend Development",
+    "topics": [
+      "Dockerfile & Image Building",
+      "Container Orchestration (Docker Compose)",
+      "Container Networking & Volumes"
+    ],
+    "tags": [
+      "devops",
+      "containerization",
+      "deployment"
+    ],
+    "name": "Docker & Containerization",
+    "id": "BE23",
+    "recommended": true
+  },
+  {
+    "primary_tech": "GraphQL",
+    "category": "Backend Development",
+    "topics": [
+      "Schema Definition Language (SDL)",
+      "Queries, Mutations & Subscriptions",
+      "Apollo Server/Client"
+    ],
+    "tags": [
+      "API",
+      "query-language",
+      "data-fetching"
+    ],
+    "name": "GraphQL API Development",
+    "id": "BE24",
+    "recommended": false
+  },
+  {
+    "primary_tech": "GraphQL",
+    "category": "Backend Development",
+    "topics": [
+      "Introduction to GraphQL and its Core Principles",
+      "Setting Up a GraphQL Server",
+      "Defining Schemas and Types",
+      "Query and Mutation Operations",
+      "Integrating GraphQL with Databases",
+      "Handling Authentication and Authorization in GraphQL",
+      "Optimizing GraphQL Performance",
+      "Best Practices for GraphQL API Design"
+    ],
+    "tags": [
+      "graphql",
+      "backend",
+      "api-design",
+      "data-fetching",
+      "schema-design"
+    ],
+    "name": "GraphQL Backend Development: From Basics to Mastery",
+    "id": "BE14",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Heroku",
+    "category": "Backend Development",
+    "topics": [
+      "Introduction to Heroku and Platform as a Service (PaaS)",
+      "Setting Up and Configuring a Heroku Account",
+      "Deploying Applications Using Heroku CLI",
+      "Managing Application Environments and Configurations",
+      "Scaling Applications and Managing Resources",
+      "Integrating Add-ons and Third-party Services",
+      "Monitoring and Logging with Heroku",
+      "Best Practices for Security and Performance on Heroku"
+    ],
+    "tags": [
+      "heroku",
+      "backend",
+      "deployment",
+      "cloud-hosting",
+      "app-management",
+      "PaaS"
+    ],
+    "name": "Heroku for Backend Developers: Deploying and Managing Applications",
+    "id": "BE8",
+    "recommended": false
+  },
+  {
+    "primary_tech": "AWS SQS/SNS",
+    "category": "Backend Development",
+    "topics": [
+      "Introduction to AWS SQS and SNS",
+      "Setting Up AWS SQS Queues",
+      "Exploring SNS and Topic Subscriptions",
+      "Integrating SQS/SNS with AWS Lambda",
+      "Implementing Message Filtering and Routing",
+      "Monitoring and Troubleshooting SQS/SNS",
+      "Designing Event-Driven Architectures with AWS",
+      "Best Practices for Scalability and Reliability"
+    ],
+    "tags": [
+      "aws",
+      "sqs",
+      "sns",
+      "backend-development",
+      "event-driven",
+      "cloud-services"
+    ],
+    "name": "Mastering AWS SQS/SNS for Scalable Backend Systems",
+    "id": "BE7",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Cloud Run (Google Cloud)",
+    "category": "Backend Development",
+    "topics": [
+      "Introduction to Google Cloud Run",
+      "Understanding Containerization and Docker",
+      "Deploying Applications on Cloud Run",
+      "Creating Scalable Microservices",
+      "Integrating with Google Cloud Services",
+      "Security and Authentication in Cloud Run",
+      "Monitoring and Logging",
+      "Cost Optimization and Management"
+    ],
+    "tags": [
+      "cloud-run",
+      "google-cloud",
+      "containerization",
+      "backend-development",
+      "serverless",
+      "microservices"
+    ],
+    "name": "Mastering Backend Development with Google Cloud Run",
+    "id": "BE6",
+    "recommended": false
+  },
+  {
+    "primary_tech": "NestJS",
+    "category": "Backend Development",
+    "topics": [
+      "Introduction to NestJS and its Architecture",
+      "Setting Up a NestJS Project with TypeScript",
+      "Understanding and Implementing Dependency Injection",
+      "Building RESTful APIs using NestJS",
+      "Database Integration and ORM with TypeORM",
+      "Implementing Authentication and Authorization",
+      "Creating and Managing Microservices",
+      "Error Handling and Logging in NestJS"
+    ],
+    "tags": [
+      "nestjs",
+      "backend",
+      "typescript",
+      "dependency-injection",
+      "microservices",
+      "api-development"
+    ],
+    "name": "Mastering Backend Development with NestJS",
+    "id": "BE17",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Cassandra",
+    "category": "Backend Development",
+    "topics": [
+      "Introduction to NoSQL and Cassandra",
+      "Cassandra Architecture and Components",
+      "Data Modeling and Schema Design",
+      "Cassandra Query Language (CQL)",
+      "Consistency and Replication Strategies",
+      "Handling Large Scale Data with Partitioning",
+      "Performance Tuning and Optimization Techniques",
+      "Integrating Cassandra with Backend Applications"
+    ],
+    "tags": [
+      "cassandra",
+      "nosql",
+      "backend-development",
+      "distributed-database",
+      "big-data",
+      "scalability",
+      "data-modeling"
+    ],
+    "name": "Mastering Cassandra: Scalable Backend Solutions",
+    "id": "BE25",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Firebase Authentication",
+    "category": "Backend Development",
+    "topics": [
+      "Introduction to Firebase and its Authentication Module",
+      "Setting Up a Firebase Project for Authentication",
+      "Implementing Email/Password Authentication",
+      "Integrating OAuth Providers with Firebase",
+      "Managing User Sessions in Firebase",
+      "Securing Your Firebase Backend",
+      "Error Handling in Firebase Authentication",
+      "Best Practices for Scalable Authentication Systems"
+    ],
+    "tags": [
+      "firebase",
+      "authentication",
+      "backend",
+      "security",
+      "oauth",
+      "identity-management"
+    ],
+    "name": "Mastering Firebase Authentication for Backend Development",
+    "id": "BE26",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Koa.js",
+    "category": "Backend Development",
+    "topics": [
+      "Introduction to Koa.js and Modern JavaScript",
+      "Setting Up a Koa.js Server",
+      "Understanding Middleware in Koa.js",
+      "Handling Routes and Requests",
+      "Building RESTful APIs with Koa.js",
+      "Error Handling and Logging",
+      "Integrating with Databases using Koa.js",
+      "Deploying Koa.js Applications"
+    ],
+    "tags": [
+      "koa.js",
+      "backend-development",
+      "api-design",
+      "middleware",
+      "asynchronous"
+    ],
+    "name": "Mastering Koa.js for Scalable APIs",
+    "id": "BE18",
+    "recommended": false
+  },
+  {
+    "primary_tech": "MongoDB (NoSQL)",
+    "category": "Backend Development",
+    "topics": [
+      "Introduction to NoSQL Databases",
+      "Setting Up MongoDB Environment",
+      "CRUD Operations in MongoDB",
+      "Schema Design and Data Modeling",
+      "Indexing and Aggregation Framework",
+      "Replication and Sharding for Scalability",
+      "Security and Authentication in MongoDB",
+      "Integrating MongoDB with Backend Applications"
+    ],
+    "tags": [
+      "mongodb",
+      "nosql",
+      "database",
+      "backend-development",
+      "data-modeling",
+      "scalability"
+    ],
+    "name": "Mastering NoSQL Databases with MongoDB",
+    "id": "BE19",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Message Queues",
+    "category": "Backend Development",
+    "topics": [
+      "Publish/Subscribe Patterns",
+      "RabbitMQ/Kafka Basics",
+      "Idempotency & Dead Letter Queues"
+    ],
+    "tags": [
+      "messaging",
+      "architecture",
+      "distributed-systems"
+    ],
+    "name": "Message Queues & Event-Driven Systems",
+    "id": "BE4",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Microservices",
+    "category": "Backend Development",
+    "topics": [
+      "Monolith vs. Microservices",
+      "Service Communication (REST/gRPC)",
+      "Service Discovery & API Gateway"
+    ],
+    "tags": [
+      "architecture",
+      "distributed-systems",
+      "scalability"
+    ],
+    "name": "Microservices Architecture",
+    "id": "BE22",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Node.js",
+    "category": "Backend Development",
+    "topics": [
+      "Asynchronous JavaScript",
+      "Express.js Routing & Middleware",
+      "REST API Development"
+    ],
+    "tags": [
+      "JavaScript",
+      "API",
+      "framework"
+    ],
+    "name": "Node.js & Express.js for APIs",
+    "id": "BE11",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Node.js",
+    "category": "Backend Development",
+    "topics": [
+      "Introduction to Node.js and its Architecture",
+      "Understanding the Event Loop and Asynchronous Programming",
+      "Setting Up a Basic Server with HTTP Module",
+      "Building RESTful APIs using Express.js",
+      "Database Integration with Node.js and MongoDB",
+      "Implementing Authentication and Authorization",
+      "Error Handling and Debugging",
+      "Deploying Node.js Applications"
+    ],
+    "tags": [
+      "nodejs",
+      "backend",
+      "javascript",
+      "express",
+      "api-development",
+      "server-side"
+    ],
+    "name": "Node.js for Backend Development",
+    "id": "BE15",
+    "recommended": false
+  },
+  {
+    "primary_tech": "NoSQL",
+    "category": "Backend Development",
+    "topics": [
+      "Document Databases (MongoDB)",
+      "Key-Value Stores (Redis)",
+      "Graph Databases (Neo4j basics)"
+    ],
+    "tags": [
+      "database",
+      "NoSQL",
+      "data-modeling"
+    ],
+    "name": "Non-Relational Databases (NoSQL)",
+    "id": "BE21",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Podman",
+    "category": "Backend Development",
+    "topics": [
+      "Introduction to Podman and its Architecture",
+      "Installing and Setting Up Podman",
+      "Building and Managing Containers with Podman",
+      "Networking and Security in Podman",
+      "Podman vs Docker: Key Differences",
+      "Advanced Podman Commands and Scripting",
+      "Deploying Applications using Podman",
+      "Troubleshooting and Best Practices in Podman"
+    ],
+    "tags": [
+      "podman",
+      "containers",
+      "orchestration",
+      "backend",
+      "devops",
+      "containerization"
+    ],
+    "name": "Podman: Mastering Containerization",
+    "id": "BE27",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Python",
+    "category": "Backend Development",
+    "topics": [
+      "Python Fundamentals",
+      "Object-Oriented Programming",
+      "Web Frameworks (Flask/Django basics)"
+    ],
+    "tags": [
+      "language",
+      "fundamentals",
+      "web-development"
+    ],
+    "name": "Python for Backend Development",
+    "id": "BE10",
+    "recommended": true
+  },
+  {
+    "primary_tech": "SQL",
+    "category": "Backend Development",
+    "topics": [
+      "Database Design (Normalization)",
+      "SQL Queries (SELECT, INSERT, UPDATE, DELETE)",
+      "PostgreSQL/MySQL Basics"
+    ],
+    "tags": [
+      "database",
+      "SQL",
+      "data-management"
+    ],
+    "name": "Relational Databases with SQL",
+    "id": "BE12",
+    "recommended": true
+  },
+  {
+    "primary_tech": "REST APIs",
+    "category": "Backend Development",
+    "topics": [
+      "HTTP Methods & Status Codes",
+      "Resource Modeling",
+      "Versioning & Pagination"
+    ],
+    "tags": [
+      "API",
+      "architecture",
+      "design"
+    ],
+    "name": "RESTful API Design & Best Practices",
+    "id": "BE13",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Ruby",
+    "category": "Backend Development",
+    "topics": [
+      "Introduction to Ruby syntax and semantics",
+      "Object-oriented programming with Ruby",
+      "Building web applications with Ruby on Rails",
+      "Understanding MVC architecture",
+      "Creating RESTful APIs with Ruby",
+      "Database integration using Active Record",
+      "Testing and debugging Ruby applications",
+      "Deploying Ruby applications on cloud platforms"
+    ],
+    "tags": [
+      "ruby",
+      "backend",
+      "rails",
+      "api",
+      "web-development",
+      "sinatra",
+      "database"
+    ],
+    "name": "Ruby for Backend Development",
+    "id": "BE16",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Serverless",
+    "category": "Backend Development",
+    "topics": [
+      "FaaS (Functions-as-a-Service)",
+      "AWS Lambda/Google Cloud Functions",
+      "Serverless Framework/SAM"
+    ],
+    "tags": [
+      "serverless",
+      "cloud",
+      "event-driven"
+    ],
+    "name": "Serverless Architectures",
+    "id": "BE3",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Testing Frameworks",
+    "category": "Backend Development",
+    "topics": [
+      "Unit Testing (Jest/Pytest)",
+      "Integration Testing",
+      "End-to-End Testing (Supertest/Cypress for APIs)"
+    ],
+    "tags": [
+      "testing",
+      "QA",
+      "backend"
+    ],
+    "name": "Testing Backend Applications",
+    "id": "BE1",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Algorithms",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Sorting Algorithms (Merge, Quick, Heap)",
+      "Searching Algorithms (Binary, BFS, DFS)",
+      "Graph Algorithms (Dijkstra, MST)",
+      "Recursion & Dynamic Programming"
+    ],
+    "tags": [
+      "algorithms",
+      "optimization",
+      "problem-solving"
+    ],
+    "name": "Algorithms",
+    "id": "CS9",
+    "recommended": true
+  },
+  {
+    "primary_tech": "C++",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Introduction to C++ Programming",
+      "Object-Oriented Programming with C++",
+      "Data Structures and Algorithms",
+      "Multithreading in C++",
+      "Database Integration using C++",
+      "Building RESTful APIs with C++",
+      "Error Handling and Debugging",
+      "Performance Optimization and Security in C++"
+    ],
+    "tags": [
+      "C++",
+      "backend",
+      "development",
+      "APIs",
+      "multithreading",
+      "database-integration"
+    ],
+    "name": "C++ Backend Development Essentials",
+    "id": "CS12",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Hardware",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "CPU Components & Function",
+      "Memory Hierarchy (Cache, RAM)",
+      "Instruction Sets & Assembly Language (Basics)",
+      "Input/Output Devices"
+    ],
+    "tags": [
+      "hardware",
+      "systems",
+      "low-level"
+    ],
+    "name": "Computer Architecture & Organization",
+    "id": "CS2",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Networking",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "OSI Model & TCP/IP Stack",
+      "IP Addressing & Routing",
+      "Protocols (HTTP, FTP, DNS)",
+      "Network Security Fundamentals"
+    ],
+    "tags": [
+      "networking",
+      "internet",
+      "protocols"
+    ],
+    "name": "Computer Networks Basics",
+    "id": "CS16",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Concurrency",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Threads & Processes",
+      "Synchronization Primitives (Locks, Semaphores)",
+      "Deadlocks & Livelocks",
+      "Parallel Programming Paradigms"
+    ],
+    "tags": [
+      "performance",
+      "systems",
+      "multithreading"
+    ],
+    "name": "Concurrency & Parallelism",
+    "id": "CS6",
+    "recommended": true
+  },
+  {
+    "primary_tech": "DBMS",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Relational Databases (SQL)",
+      "Database Design (Normalization)",
+      "Transactions & Concurrency Control",
+      "NoSQL Database Types (Overview)"
+    ],
+    "tags": [
+      "database",
+      "data-management",
+      "SQL"
+    ],
+    "name": "Database Management Systems",
+    "id": "CS17",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Data Structures",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Arrays & Linked Lists",
+      "Stacks & Queues",
+      "Trees (Binary, BST, AVL)",
+      "Hash Tables"
+    ],
+    "tags": [
+      "algorithms",
+      "data",
+      "problem-solving"
+    ],
+    "name": "Data Structures",
+    "id": "CS8",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Mathematics",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Logic & Proofs",
+      "Set Theory",
+      "Functions & Relations",
+      "Combinatorics & Probability"
+    ],
+    "tags": [
+      "mathematics",
+      "logic",
+      "foundations"
+    ],
+    "name": "Discrete Mathematics for CS",
+    "id": "CS14",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Distributed Systems",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Client-Server Architecture",
+      "Concurrency Issues",
+      "Fault Tolerance & Consistency",
+      "RPC & Message Queues (Concepts)"
+    ],
+    "tags": [
+      "systems",
+      "scalability",
+      "cloud"
+    ],
+    "name": "Distributed Systems Basics",
+    "id": "CS5",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Artificial Intelligence",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "AI History & Concepts",
+      "Problem Solving (Search Algorithms)",
+      "Knowledge Representation & Reasoning",
+      "Machine Learning Overview"
+    ],
+    "tags": [
+      "AI",
+      "machine-learning",
+      "overview"
+    ],
+    "name": "Introduction to Artificial Intelligence",
+    "id": "CS3",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Cybersecurity",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Threats & Vulnerabilities",
+      "Encryption & Hashing",
+      "Authentication & Authorization",
+      "Network & Web Security Basics"
+    ],
+    "tags": [
+      "security",
+      "information-security",
+      "protection"
+    ],
+    "name": "Introduction to Cybersecurity",
+    "id": "CS18",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Python",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Basic Syntax & Data Types",
+      "Control Flow (Loops, Conditionals)",
+      "Functions & Modules",
+      "Problem Solving Techniques"
+    ],
+    "tags": [
+      "programming",
+      "fundamentals",
+      "beginners"
+    ],
+    "name": "Introduction to Programming",
+    "id": "CS7",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Java",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Java Programming Fundamentals",
+      "Object-Oriented Programming in Java",
+      "Introduction to Spring Framework",
+      "Building RESTful APIs with Spring Boot",
+      "Database Integration with Java",
+      "Java Servlets and JSP",
+      "Security and Authentication in Java Applications",
+      "Deploying Java Applications"
+    ],
+    "tags": [
+      "java",
+      "backend",
+      "spring",
+      "restful-apis",
+      "database-integration",
+      "mvc",
+      "oop"
+    ],
+    "name": "Java Backend Development Essentials",
+    "id": "CS11",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Theoretical CS",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Propositional & Predicate Logic",
+      "Formal Languages & Automata",
+      "Turing Machines & Computability",
+      "Computational Complexity (P vs. NP)"
+    ],
+    "tags": [
+      "theory",
+      "mathematics",
+      "foundations"
+    ],
+    "name": "Logic & Computation",
+    "id": "CS4",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Functional Programming",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Introduction to Functional Programming",
+      "Core Concepts: Pure Functions and Immutability",
+      "Lambda Calculus and Functional Languages",
+      "Higher-Order Functions and Closures",
+      "Managing State and Side Effects",
+      "Functional Design Patterns",
+      "Concurrency in Functional Programming",
+      "Building Scalable Backend Systems with Functional Paradigms"
+    ],
+    "tags": [
+      "functional-programming",
+      "backend",
+      "lambda-calculus",
+      "immutable-data",
+      "higher-order-functions"
+    ],
+    "name": "Mastering Functional Programming in Backend Development",
+    "id": "CS13",
+    "recommended": false
+  },
+  {
+    "primary_tech": "OOP",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Classes & Objects",
+      "Encapsulation, Inheritance, Polymorphism",
+      "Abstraction & Interfaces",
+      "Design Patterns (Singleton, Factory basics)"
+    ],
+    "tags": [
+      "programming-paradigm",
+      "software-design",
+      "architecture"
+    ],
+    "name": "Object-Oriented Programming (OOP)",
+    "id": "CS10",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Operating Systems",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Processes & Threads",
+      "CPU Scheduling",
+      "Memory Management",
+      "File Systems & I/O"
+    ],
+    "tags": [
+      "systems",
+      "low-level",
+      "architecture"
+    ],
+    "name": "Operating Systems Concepts",
+    "id": "CS15",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Software Engineering",
+    "category": "Computer Science Fundamentals",
+    "topics": [
+      "Software Development Life Cycle (SDLC)",
+      "Agile Methodologies (Scrum, Kanban)",
+      "Requirements Gathering & Analysis",
+      "Testing & Debugging"
+    ],
+    "tags": [
+      "software-development",
+      "methodologies",
+      "project-management"
+    ],
+    "name": "Software Engineering Principles",
+    "id": "CS1",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Cloud Security",
+    "category": "Computer Security",
+    "topics": [
+      "Cloud Service Models (IaaS, PaaS, SaaS) Security",
+      "Shared Responsibility Model",
+      "Cloud Identity & Access Management (IAM)",
+      "Container Security Basics (Docker, Kubernetes)"
+    ],
+    "tags": [
+      "cloud",
+      "AWS",
+      "Azure",
+      "GCP"
+    ],
+    "name": "Cloud Security",
+    "id": "CSec14",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Cryptography",
+    "category": "Computer Security",
+    "topics": [
+      "Symmetric vs. Asymmetric Encryption",
+      "Hashing Algorithms",
+      "Digital Signatures & Certificates",
+      "Public Key Infrastructure (PKI)"
+    ],
+    "tags": [
+      "encryption",
+      "data-protection",
+      "algorithms"
+    ],
+    "name": "Cryptography Basics",
+    "id": "CSec10",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Cyber Law",
+    "category": "Computer Security",
+    "topics": [
+      "Legal Frameworks in Cybersecurity",
+      "Intellectual Property & Privacy Laws",
+      "Ethical Hacking vs. Illegal Hacking",
+      "Professional Code of Conduct"
+    ],
+    "tags": [
+      "legal",
+      "ethics",
+      "privacy"
+    ],
+    "name": "Cyber Law & Ethics",
+    "id": "CSec6",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Database Security",
+    "category": "Computer Security",
+    "topics": [
+      "Access Control & Privileges",
+      "Data Encryption at Rest & In Transit",
+      "SQL Injection Prevention",
+      "Auditing & Logging Database Activities"
+    ],
+    "tags": [
+      "database",
+      "data-protection",
+      "SQL"
+    ],
+    "name": "Database Security",
+    "id": "CSec2",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Penetration Testing",
+    "category": "Computer Security",
+    "topics": [
+      "Reconnaissance & Footprinting",
+      "Scanning & Enumeration",
+      "Vulnerability Exploitation",
+      "Post-Exploitation & Reporting"
+    ],
+    "tags": [
+      "hacking",
+      "pentesting",
+      "offensive-security"
+    ],
+    "name": "Ethical Hacking & Penetration Testing",
+    "id": "CSec15",
+    "recommended": false
+  },
+  {
+    "primary_tech": "IAM",
+    "category": "Computer Security",
+    "topics": [
+      "Authentication Methods (MFA, SSO)",
+      "Authorization Models (RBAC, ABAC)",
+      "Identity Federation",
+      "Directory Services (LDAP, Active Directory)"
+    ],
+    "tags": [
+      "authentication",
+      "authorization",
+      "user-management"
+    ],
+    "name": "Identity & Access Management (IAM)",
+    "id": "CSec3",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Incident Response",
+    "category": "Computer Security",
+    "topics": [
+      "Incident Response Lifecycle (Preparation, Detection, Analysis, Containment, Eradication, Recovery)",
+      "Digital Forensics Basics",
+      "Log Analysis",
+      "Malware Triage"
+    ],
+    "tags": [
+      "forensics",
+      "post-breach",
+      "analysis"
+    ],
+    "name": "Incident Response & Forensics",
+    "id": "CSec13",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Cybersecurity Concepts",
+    "category": "Computer Security",
+    "topics": [
+      "CIA Triad (Confidentiality, Integrity, Availability)",
+      "Threats, Vulnerabilities & Risks",
+      "Common Attack Vectors",
+      "Security Best Practices Overview"
+    ],
+    "tags": [
+      "fundamentals",
+      "overview",
+      "security-awareness"
+    ],
+    "name": "Introduction to Cybersecurity",
+    "id": "CSec7",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Malware Analysis",
+    "category": "Computer Security",
+    "topics": [
+      "Malware Types & Behavior",
+      "Static & Dynamic Analysis",
+      "Reverse Engineering Tools (IDA Pro, Ghidra)",
+      "Obfuscation Techniques"
+    ],
+    "tags": [
+      "malware",
+      "reverse-engineering",
+      "forensics"
+    ],
+    "name": "Malware Analysis & Reverse Engineering",
+    "id": "CSec5",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Mobile Security",
+    "category": "Computer Security",
+    "topics": [
+      "Android & iOS Security Models",
+      "Mobile App Vulnerabilities (OWASP MASVS)",
+      "Secure Mobile App Development",
+      "Mobile Device Management (MDM) Basics"
+    ],
+    "tags": [
+      "mobile",
+      "app-security",
+      "device-security"
+    ],
+    "name": "Mobile Security",
+    "id": "CSec1",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Network Security",
+    "category": "Computer Security",
+    "topics": [
+      "Firewalls & IDS/IPS",
+      "VPNs & Secure Communication",
+      "Wireless Network Security",
+      "Network Segmentation"
+    ],
+    "tags": [
+      "networking",
+      "perimeter-security",
+      "protocols"
+    ],
+    "name": "Network Security Fundamentals",
+    "id": "CSec8",
+    "recommended": true
+  },
+  {
+    "primary_tech": "OS Security",
+    "category": "Computer Security",
+    "topics": [
+      "User & Permissions Management",
+      "Patch Management & Updates",
+      "Hardening OS Configurations",
+      "Malware & Rootkit Detection"
+    ],
+    "tags": [
+      "system-security",
+      "endpoint-protection",
+      "hardening"
+    ],
+    "name": "Operating System Security",
+    "id": "CSec11",
+    "recommended": false
+  },
+  {
+    "primary_tech": "DevSecOps",
+    "category": "Computer Security",
+    "topics": [
+      "Security in SDLC",
+      "Threat Modeling",
+      "Static & Dynamic Application Security Testing (SAST/DAST)",
+      "Secure Coding Guidelines"
+    ],
+    "tags": [
+      "software-development",
+      "devops",
+      "automation"
+    ],
+    "name": "Secure Software Development (DevSecOps)",
+    "id": "CSec12",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Auditing & Compliance",
+    "category": "Computer Security",
+    "topics": [
+      "Security Frameworks (NIST, ISO 27001)",
+      "Regulatory Compliance (GDPR, HIPAA)",
+      "Risk Assessments & Management",
+      "Internal & External Audits"
+    ],
+    "tags": [
+      "compliance",
+      "risk-management",
+      "governance"
+    ],
+    "name": "Security Auditing & Compliance",
+    "id": "CSec4",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Web Security",
+    "category": "Computer Security",
+    "topics": [
+      "OWASP Top 10 (Injection, XSS, CSRF)",
+      "Authentication & Session Management Vulnerabilities",
+      "Secure Coding Practices for Web",
+      "Web Security Tools"
+    ],
+    "tags": [
+      "web",
+      "application-security",
+      "vulnerabilities"
+    ],
+    "name": "Web Application Security",
+    "id": "CSec9",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Angular",
+    "category": "Frontend Development",
+    "topics": [
+      "TypeScript in Angular",
+      "Components & Templates",
+      "RxJS & Services"
+    ],
+    "tags": [
+      "framework",
+      "SPA",
+      "TypeScript-based"
+    ],
+    "name": "Angular Basics",
+    "id": "FE19",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Bootstrap",
+    "category": "Frontend Development",
+    "topics": [
+      "Introduction to Bootstrap and its role in web development",
+      "Understanding Bootstrap's Grid System for responsive design",
+      "Implementing Bootstrap components for UI consistency",
+      "Customizing Bootstrap themes to fit backend applications",
+      "Integrating Bootstrap with popular backend frameworks",
+      "Optimizing Bootstrap for performance in backend applications",
+      "Managing dependencies and version control with Bootstrap",
+      "Responsive design best practices using Bootstrap"
+    ],
+    "tags": [
+      "bootstrap",
+      "responsive-design",
+      "css-framework",
+      "web-development",
+      "front-end-integration"
+    ],
+    "name": "Bootstrap for Backend Developers",
+    "id": "FE26",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Chakra UI",
+    "category": "Frontend Development",
+    "topics": [
+      "Introduction to Chakra UI and its Philosophy",
+      "Setting up Chakra UI in a React Project",
+      "Building Responsive Layouts with Chakra UI",
+      "Customizing Components and Themes",
+      "Integrating Chakra UI with Backend APIs",
+      "Implementing Dark Mode and Color Modes",
+      "Performance Optimization with Chakra UI",
+      "Testing and Debugging Chakra UI Components"
+    ],
+    "tags": [
+      "chakra-ui",
+      "responsive-design",
+      "component-library",
+      "react",
+      "frontend-integration"
+    ],
+    "name": "Chakra UI & Responsive Design for Backend Developers",
+    "id": "FE27",
+    "recommended": false
+  },
+  {
+    "primary_tech": "React Spring",
+    "category": "Frontend Development",
+    "topics": [
+      "Introduction to React Spring and its capabilities",
+      "Setting up a Node.js environment for backend development",
+      "Integrating React Spring with Express.js",
+      "Creating dynamic animations for backend data visualization",
+      "Handling data with RESTful API and React Spring",
+      "Optimizing backend performance with animation techniques",
+      "Advanced animation techniques for server-side rendering",
+      "Securing backend endpoints with JWT and React Spring"
+    ],
+    "tags": [
+      "react-spring",
+      "backend-development",
+      "animations",
+      "web-performance",
+      "nodejs",
+      "api-integration"
+    ],
+    "name": "Dynamic Backend with React Spring",
+    "id": "FE24",
+    "recommended": false
+  },
+  {
+    "primary_tech": [
+      "HTML",
+      "CSS"
+    ],
+    "category": "Frontend Development",
+    "topics": [
+      "HTML Syntax & Semantics",
+      "CSS Box Model & Layout",
+      "Responsive Design"
+    ],
+    "tags": [
+      "markup",
+      "styling",
+      "fundamentals"
+    ],
+    "name": "HTML & CSS Foundations",
+    "id": "FE8",
+    "recommended": true
+  },
+  {
+    "primary_tech": "JAMstack",
+    "category": "Frontend Development",
+    "topics": [
+      "Static Site Generators",
+      "Integrating Headless CMS",
+      "Deployment"
+    ],
+    "tags": [
+      "static",
+      "cms",
+      "deployment"
+    ],
+    "name": "JAMstack & Headless CMSs",
+    "id": "FE4",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Vitest",
+    "category": "Frontend Development",
+    "topics": [
+      "Introduction to Vitest and its role in backend testing",
+      "Setting up a Vitest testing environment for Node.js applications",
+      "Writing and running basic unit tests with Vitest",
+      "Exploring asynchronous testing capabilities in Vitest",
+      "Test-driven development (TDD) using Vitest",
+      "Mocking and stubbing in backend testing with Vitest",
+      "Integrating Vitest with CI/CD pipelines",
+      "Advanced testing strategies and best practices with Vitest"
+    ],
+    "tags": [
+      "vitest",
+      "backend-testing",
+      "nodejs",
+      "unit-testing",
+      "test-driven-development",
+      "async-testing"
+    ],
+    "name": "Mastering Backend Testing with Vitest",
+    "id": "FE6",
+    "recommended": false
+  },
+  {
+    "primary_tech": "SvelteKit",
+    "category": "Frontend Development",
+    "topics": [
+      "Introduction to SvelteKit and its architecture",
+      "Setting up a SvelteKit project",
+      "Server-side rendering with SvelteKit",
+      "Building RESTful APIs with SvelteKit",
+      "State management in SvelteKit applications",
+      "Integrating databases and data fetching",
+      "Authentication and authorization in SvelteKit",
+      "Deploying SvelteKit applications"
+    ],
+    "tags": [
+      "sveltekit",
+      "backend",
+      "web-development",
+      "server-side",
+      "api",
+      "javascript",
+      "fullstack"
+    ],
+    "name": "Mastering SvelteKit for Backend Development",
+    "id": "FE17",
+    "recommended": false
+  },
+  {
+    "primary_tech": "JavaScript",
+    "category": "Frontend Development",
+    "topics": [
+      "Variables, Scoping, Functions",
+      "ES6 Features",
+      "Async JS, Promises, Fetch API"
+    ],
+    "tags": [
+      "programming",
+      "fundamentals",
+      "language"
+    ],
+    "name": "Modern JavaScript (ES6+)",
+    "id": "FE9",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Next.js",
+    "category": "Frontend Development",
+    "topics": [
+      "Pages & Routing",
+      "Server-Side Rendering",
+      "API Routes & Middleware"
+    ],
+    "tags": [
+      "framework",
+      "SSR",
+      "React-based",
+      "fullstack"
+    ],
+    "name": "Next.js for Beginners",
+    "id": "FE11",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Nuxt.js",
+    "category": "Frontend Development",
+    "topics": [
+      "Introduction to Nuxt.js and its ecosystem",
+      "Setting up a Nuxt.js project for server-side rendering",
+      "Working with Vue.js in a Nuxt.js environment",
+      "Creating and managing dynamic routes with Nuxt.js",
+      "Integrating APIs and managing asynchronous data",
+      "Middleware and authentication strategies in Nuxt.js",
+      "Optimizing performance and SEO with Nuxt.js features",
+      "Deploying Nuxt.js applications to cloud platforms"
+    ],
+    "tags": [
+      "nuxt.js",
+      "vue.js",
+      "server-side rendering",
+      "backend",
+      "api-integration"
+    ],
+    "name": "Nuxt.js for Backend Development",
+    "id": "FE15",
+    "recommended": false
+  },
+  {
+    "primary_tech": "PWA",
+    "category": "Frontend Development",
+    "topics": [
+      "Service Workers",
+      "Offline Support",
+      "Web App Manifest & Installation"
+    ],
+    "tags": [
+      "offline",
+      "web app",
+      "modern web"
+    ],
+    "name": "Progressive Web Apps (PWA)",
+    "id": "FE7",
+    "recommended": true
+  },
+  {
+    "primary_tech": "React.js",
+    "category": "Frontend Development",
+    "topics": [
+      "Introduction to React.js and Backend Concepts",
+      "Setting Up a Node.js and Express Environment",
+      "Building RESTful APIs with Express",
+      "Database Integration with MongoDB",
+      "User Authentication and Authorization",
+      "Deploying React Apps with Backend Services",
+      "Error Handling and Debugging in Backend",
+      "Optimizing Backend Performance"
+    ],
+    "tags": [
+      "reactjs",
+      "backend",
+      "nodejs",
+      "express",
+      "api-design",
+      "database-integration"
+    ],
+    "name": "React.js Backend Development Essentials",
+    "id": "FE25",
+    "recommended": false
+  },
+  {
+    "primary_tech": "React.js",
+    "category": "Frontend Development",
+    "topics": [
+      "JSX, Components, Props & State",
+      "Hooks & Lifecycle",
+      "Context API, Redux"
+    ],
+    "tags": [
+      "framework",
+      "SPA",
+      "component-based"
+    ],
+    "name": "React.js Essentials",
+    "id": "FE10",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Remix",
+    "category": "Frontend Development",
+    "topics": [
+      "Introduction to Remix and its architecture",
+      "Setting up a Remix project with Node.js",
+      "Understanding loaders and actions for data handling",
+      "Building RESTful APIs with Remix",
+      "Server-side rendering with Remix",
+      "Managing state and data fetching in Remix applications",
+      "Authentication and authorization strategies",
+      "Deployment and scaling Remix applications"
+    ],
+    "tags": [
+      "remix",
+      "backend",
+      "server-side-rendering",
+      "api-development",
+      "react",
+      "nodejs"
+    ],
+    "name": "Remix Essentials for Backend Developers",
+    "id": "FE16",
+    "recommended": false
+  },
+  {
+    "primary_tech": "CSS Responsive Design",
+    "category": "Frontend Development",
+    "topics": [
+      "Media Queries",
+      "Flexbox & Grid",
+      "Mobile-First & Viewport"
+    ],
+    "tags": [
+      "responsive",
+      "CSS",
+      "layout"
+    ],
+    "name": "Responsive Web Design Mastery",
+    "id": "FE22",
+    "recommended": true
+  },
+  {
+    "primary_tech": "SASS / SCSS",
+    "category": "Frontend Development",
+    "topics": [
+      "Nesting & Variables",
+      "Mixins & Functions",
+      "Modular Architecture"
+    ],
+    "tags": [
+      "css",
+      "preprocessor",
+      "styling"
+    ],
+    "name": "SASS / SCSS Styling",
+    "id": "FE5",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Solid.js",
+    "category": "Frontend Development",
+    "topics": [
+      "Introduction to Solid.js and its architecture",
+      "Setting up a Solid.js environment for server-side development",
+      "Building RESTful APIs with Solid.js",
+      "State management in Solid.js applications",
+      "Middleware integration in Solid.js",
+      "Connecting Solid.js with databases",
+      "Error handling and debugging in Solid.js applications",
+      "Deploying Solid.js applications on cloud platforms"
+    ],
+    "tags": [
+      "solidjs",
+      "backend-development",
+      "javascript",
+      "server-side",
+      "api-design",
+      "state-management"
+    ],
+    "name": "Solid.js Backend Foundations",
+    "id": "FE14",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Redux",
+    "category": "Frontend Development",
+    "topics": [
+      "Local & Global State",
+      "Redux / Zustand",
+      "Server-State Management"
+    ],
+    "tags": [
+      "state",
+      "redux",
+      "frontend"
+    ],
+    "name": "State Management Patterns",
+    "id": "FE3",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Svelte",
+    "category": "Frontend Development",
+    "topics": [
+      "Understanding Svelte fundamentals and its architecture",
+      "Setting up a Svelte environment for server-side development",
+      "Building RESTful APIs with Svelte and Node.js",
+      "Data fetching and manipulation using Svelte stores",
+      "Integrating Svelte with databases and ORM tools",
+      "Authentication and security in Svelte applications",
+      "Deploying Svelte applications on cloud platforms",
+      "Optimizing Svelte applications for performance and scalability"
+    ],
+    "tags": [
+      "svelte",
+      "backend",
+      "api-development",
+      "nodejs",
+      "data-fetching",
+      "server-side",
+      "javascript"
+    ],
+    "name": "Svelte Backend Mastery",
+    "id": "FE13",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Tailwind CSS",
+    "category": "Frontend Development",
+    "topics": [
+      "Utility Classes",
+      "Custom Themes",
+      "Responsive + Dark Mode"
+    ],
+    "tags": [
+      "styling",
+      "utility-first",
+      "responsive"
+    ],
+    "name": "Tailwind CSS & Utility-First Design",
+    "id": "FE21",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Jest",
+    "category": "Frontend Development",
+    "topics": [
+      "Unit Testing",
+      "Component Testing",
+      "End-to-End Testing"
+    ],
+    "tags": [
+      "testing",
+      "QA",
+      "frontend"
+    ],
+    "name": "Testing in Frontend Development",
+    "id": "FE1",
+    "recommended": true
+  },
+  {
+    "primary_tech": "TypeScript",
+    "category": "Frontend Development",
+    "topics": [
+      "Type Annotations & Interfaces",
+      "Generics",
+      "TS in React/Vue"
+    ],
+    "tags": [
+      "typescript",
+      "typed",
+      "frontend"
+    ],
+    "name": "TypeScript for Frontend",
+    "id": "FE2",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Vue.js",
+    "category": "Frontend Development",
+    "topics": [
+      "Introduction to Vue.js and its ecosystem",
+      "Setting up a Node.js server for Vue.js",
+      "Vue CLI and project setup",
+      "Routing with Vue Router",
+      "State management with Vuex",
+      "Building RESTful APIs with Express.js",
+      "Server-side rendering with Nuxt.js",
+      "Integrating databases with Mongoose and MongoDB"
+    ],
+    "tags": [
+      "vuejs",
+      "backend-development",
+      "nodejs",
+      "api-integration",
+      "vue-router",
+      "vuex",
+      "fullstack"
+    ],
+    "name": "Vue.js Backend Mastery",
+    "id": "FE12",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Accessibility Standards",
+    "category": "Frontend Development",
+    "topics": [
+      "Semantic HTML",
+      "ARIA & Screen Readers",
+      "Testing Accessibility"
+    ],
+    "tags": [
+      "accessibility",
+      "a11y",
+      "compliance"
+    ],
+    "name": "Web Accessibility (a11y)",
+    "id": "FE20",
+    "recommended": true
+  },
+  {
+    "primary_tech": "GSAP",
+    "category": "Frontend Development",
+    "topics": [
+      "CSS Transitions & Transforms",
+      "JavaScript Animations",
+      "GSAP / Framer Motion"
+    ],
+    "tags": [
+      "animation",
+      "UX",
+      "motion"
+    ],
+    "name": "Web Animations & Interactivity",
+    "id": "FE23",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Frontend Frameworks",
+    "category": "FullStack Development",
+    "topics": [
+      "Advanced State Management",
+      "Component Reusability & Design Systems",
+      "Optimizing Frontend Performance",
+      "Integration with Backend APIs"
+    ],
+    "tags": [
+      "frontend",
+      "React",
+      "Vue",
+      "Angular"
+    ],
+    "name": "Advanced Frontend for FullStack (React/Vue/Angular)",
+    "id": "FS10",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Security",
+    "category": "FullStack Development",
+    "topics": [
+      "JWT (JSON Web Tokens) Implementation",
+      "OAuth 2.0 & Social Logins",
+      "Role-Based Access Control (RBAC)",
+      "Security Best Practices (Input Validation, Hashing)"
+    ],
+    "tags": [
+      "security",
+      "auth",
+      "web-security"
+    ],
+    "name": "Authentication & Authorization for FullStack Apps",
+    "id": "FS15",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Node.js",
+    "category": "FullStack Development",
+    "topics": [
+      "Building RESTful APIs",
+      "Middleware & Error Handling",
+      "Database Integration (MongoDB/PostgreSQL)",
+      "CRUD Operations"
+    ],
+    "tags": [
+      "backend",
+      "Node.js",
+      "JavaScript",
+      "API"
+    ],
+    "name": "Backend Development with Node.js & Express.js",
+    "id": "FS11",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Python (Django/Flask)",
+    "category": "FullStack Development",
+    "topics": [
+      "Introduction to Python for Web Development",
+      "Setting Up Django and Flask Environments",
+      "Building RESTful APIs with Django and Flask",
+      "Database Integration and ORM Techniques",
+      "Authentication and Authorization in Django and Flask",
+      "Testing and Deploying Python Web Applications",
+      "Security Best Practices for Python Web Apps",
+      "Advanced Features: Asynchronous Programming with Python"
+    ],
+    "tags": [
+      "python",
+      "django",
+      "flask",
+      "web-development",
+      "backend",
+      "rest-api",
+      "database-integration"
+    ],
+    "name": "Backend Development with Python: Django & Flask",
+    "id": "FS13",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Caching",
+    "category": "FullStack Development",
+    "topics": [
+      "Client-Side Caching (Browser Cache, Service Workers)",
+      "Server-Side Caching (Redis, Memcached)",
+      "CDN (Content Delivery Network)",
+      "Cache Invalidation & Freshness"
+    ],
+    "tags": [
+      "performance",
+      "optimization",
+      "scalability"
+    ],
+    "name": "Caching Strategies for FullStack Performance",
+    "id": "FS5",
+    "recommended": true
+  },
+  {
+    "primary_tech": "CI/CD",
+    "category": "FullStack Development",
+    "topics": [
+      "Continuous Integration (CI)",
+      "Continuous Delivery/Deployment (CD)",
+      "GitHub Actions/GitLab CI/Jenkins",
+      "Automated Testing in CI/CD Pipeline"
+    ],
+    "tags": [
+      "devops",
+      "automation",
+      "deployment"
+    ],
+    "name": "CI/CD for FullStack Projects",
+    "id": "FS1",
+    "recommended": true
+  },
+  {
+    "primary_tech": "DevOps",
+    "category": "FullStack Development",
+    "topics": [
+      "Dockerizing FullStack Applications",
+      "Container Orchestration (Docker Compose, Kubernetes basics)",
+      "Cloud Hosting (AWS EC2/Elastic Beanstalk, Google Cloud Run, Heroku)",
+      "Domain Management & SSL"
+    ],
+    "tags": [
+      "devops",
+      "deployment",
+      "cloud",
+      "containerization"
+    ],
+    "name": "Deployment with Docker & Cloud Platforms",
+    "id": "FS17",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Netlify/Vercel",
+    "category": "FullStack Development",
+    "topics": [
+      "Introduction to Serverless Concepts",
+      "Deploying with Netlify Functions",
+      "API Integration and Management",
+      "Using Vercel for Dynamic Routing",
+      "Building JAMstack Applications",
+      "Environment Configuration and Secrets Management",
+      "Optimizing Serverless Deployments",
+      "Monitoring and Debugging Serverless Applications"
+    ],
+    "tags": [
+      "Netlify",
+      "Vercel",
+      "backend",
+      "serverless",
+      "fullstack",
+      "JAMstack"
+    ],
+    "name": "Dynamic Backend Development with Netlify & Vercel",
+    "id": "FS6",
+    "recommended": false
+  },
+  {
+    "primary_tech": "FullStack Concepts",
+    "category": "FullStack Development",
+    "topics": [
+      "Client-Server Architecture",
+      "API Communication (Frontend to Backend)",
+      "Introduction to MERN/MEVN stack components",
+      "Basic Project Setup"
+    ],
+    "tags": [
+      "fundamentals",
+      "architecture",
+      "web-development"
+    ],
+    "name": "FullStack Fundamentals & MERN/MEVN Stack Intro",
+    "id": "FS9",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Security",
+    "category": "FullStack Development",
+    "topics": [
+      "OWASP Top 10 (Frontend & Backend)",
+      "Secure API Design",
+      "Data Protection & Privacy (GDPR/CCPA basics)",
+      "Threat Modeling & Vulnerability Management"
+    ],
+    "tags": [
+      "security",
+      "cybersecurity",
+      "web-security"
+    ],
+    "name": "FullStack Security Best Practices",
+    "id": "FS8",
+    "recommended": true
+  },
+  {
+    "primary_tech": "GraphQL",
+    "category": "FullStack Development",
+    "topics": [
+      "Schema Design & Type System",
+      "Queries, Mutations & Subscriptions (Frontend/Backend)",
+      "Apollo Server & Client Integration",
+      "Resolvers & Data Sources"
+    ],
+    "tags": [
+      "API",
+      "data-fetching",
+      "frontend-backend-communication"
+    ],
+    "name": "GraphQL API Development (FullStack)",
+    "id": "FS18",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Ruby on Rails",
+    "category": "FullStack Development",
+    "topics": [
+      "Getting Started with Ruby and Rails",
+      "Understanding MVC Architecture",
+      "ActiveRecord and Database Integration",
+      "Routing and URL Management in Rails",
+      "Building RESTful APIs",
+      "Authentication and Authorization",
+      "Deploying Rails Applications",
+      "Testing and Debugging in Rails"
+    ],
+    "tags": [
+      "ruby",
+      "rails",
+      "backend-development",
+      "mvc",
+      "api",
+      "web-applications"
+    ],
+    "name": "Mastering Backend Development with Ruby on Rails",
+    "id": "FS14",
+    "recommended": false
+  },
+  {
+    "primary_tech": "CircleCI",
+    "category": "FullStack Development",
+    "topics": [
+      "Introduction to Continuous Integration and Continuous Deployment",
+      "Setting Up CircleCI for Backend Projects",
+      "Creating and Managing CircleCI Pipelines",
+      "Automating Testing and Deployment with CircleCI",
+      "Integrating CircleCI with Version Control Systems",
+      "Optimizing Workflows and Reducing Build Times",
+      "Troubleshooting and Best Practices for CircleCI"
+    ],
+    "tags": [
+      "circleci",
+      "ci/cd",
+      "backend-automation",
+      "devops",
+      "continuous-integration"
+    ],
+    "name": "Mastering CircleCI for Backend Automation",
+    "id": "FS7",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Auth0/Okta",
+    "category": "FullStack Development",
+    "topics": [
+      "Introduction to Identity Management",
+      "Understanding Auth0 and Okta Platforms",
+      "Implementing Authentication Flows",
+      "Configuring Authorization Policies",
+      "Integrating with Backend Services",
+      "Securing APIs with OAuth 2.0",
+      "Managing User Roles and Permissions",
+      "Best Practices for Identity Security"
+    ],
+    "tags": [
+      "auth0",
+      "okta",
+      "identity-management",
+      "backend",
+      "authentication",
+      "authorization",
+      "security"
+    ],
+    "name": "Mastering Identity Management with Auth0/Okta",
+    "id": "FS22",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Microservices",
+    "category": "FullStack Development",
+    "topics": [
+      "Designing & Decomposing Services",
+      "Inter-service Communication",
+      "API Gateway & Service Mesh Basics",
+      "Distributed Tracing & Logging"
+    ],
+    "tags": [
+      "architecture",
+      "distributed-systems",
+      "scalability"
+    ],
+    "name": "Microservices Architecture (FullStack Perspective)",
+    "id": "FS2",
+    "recommended": false
+  },
+  {
+    "primary_tech": "NoSQL Databases",
+    "category": "FullStack Development",
+    "topics": [
+      "Document Database Concepts (MongoDB)",
+      "Key-Value Stores (Redis for Caching/Sessions)",
+      "Data Modeling for NoSQL",
+      "Aggregation Frameworks"
+    ],
+    "tags": [
+      "database",
+      "NoSQL",
+      "caching"
+    ],
+    "name": "NoSQL Databases (MongoDB & Redis)",
+    "id": "FS16",
+    "recommended": true
+  },
+  {
+    "primary_tech": "WebSockets",
+    "category": "FullStack Development",
+    "topics": [
+      "WebSocket Protocol",
+      "Socket.IO (Node.js Library)",
+      "Building Real-time Features (Chat, Notifications)",
+      "Scaling WebSockets"
+    ],
+    "tags": [
+      "real-time",
+      "communication",
+      "web-sockets"
+    ],
+    "name": "Real-time Communication (WebSockets)",
+    "id": "FS4",
+    "recommended": false
+  },
+  {
+    "primary_tech": "SQL Databases",
+    "category": "FullStack Development",
+    "topics": [
+      "Database Design & Normalization",
+      "Advanced SQL Queries",
+      "Object-Relational Mappers (ORMs - Sequelize, Prisma, SQLAlchemy)",
+      "Database Migrations"
+    ],
+    "tags": [
+      "database",
+      "SQL",
+      "ORM",
+      "data-management"
+    ],
+    "name": "Relational Databases & ORMs",
+    "id": "FS12",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Cassandra",
+    "category": "FullStack Development",
+    "topics": [
+      "Introduction to Apache Cassandra and NoSQL concepts",
+      "Data Modeling Techniques in Cassandra",
+      "Consistency Levels and Replication Strategies",
+      "CQL (Cassandra Query Language) Basics and Advanced Queries",
+      "Cluster Setup and Configuration",
+      "Performance Tuning and Optimization",
+      "Handling Large Volumes of Data with Cassandra",
+      "Security and Authentication Methods in Cassandra"
+    ],
+    "tags": [
+      "Cassandra",
+      "NoSQL",
+      "distributed-database",
+      "data-modeling",
+      "replication"
+    ],
+    "name": "Scalable Data Management with Apache Cassandra",
+    "id": "FS21",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Serverless",
+    "category": "FullStack Development",
+    "topics": [
+      "Functions-as-a-Service (FaaS) - AWS Lambda, Google Cloud Functions",
+      "Serverless Framework/SAM",
+      "Event-Driven Architectures",
+      "Database Integration (DynamoDB, Firestore)"
+    ],
+    "tags": [
+      "serverless",
+      "cloud",
+      "event-driven"
+    ],
+    "name": "Serverless Architectures for FullStack",
+    "id": "FS3",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Testing",
+    "category": "FullStack Development",
+    "topics": [
+      "Unit Testing (Frontend & Backend)",
+      "Integration Testing (API Endpoints & Database)",
+      "End-to-End Testing (Cypress, Playwright)",
+      "Mocking & Test Doubles"
+    ],
+    "tags": [
+      "testing",
+      "QA",
+      "quality",
+      "devops"
+    ],
+    "name": "Testing FullStack Applications",
+    "id": "FS19",
+    "recommended": true
+  },
+  {
+    "primary_tech": "tRPC",
+    "category": "FullStack Development",
+    "topics": [
+      "Introduction to tRPC and Remote Procedure Calls",
+      "Setting Up a TypeScript Project for tRPC",
+      "Building a Simple tRPC API",
+      "Handling Data with tRPC Procedures",
+      "Error Handling and Middleware in tRPC",
+      "Advanced tRPC Concepts and Patterns",
+      "Deploying tRPC Applications"
+    ],
+    "tags": [
+      "trpc",
+      "typescript",
+      "rpc",
+      "backend-development",
+      "api-design"
+    ],
+    "name": "tRPC Backend Development Essentials",
+    "id": "FS20",
+    "recommended": false
+  },
+  {
+    "primary_tech": "2D Game Engines",
+    "category": "Game Development",
+    "topics": [
+      "Sprite Animation & Tilemaps",
+      "2D Physics & Collisions",
+      "Camera Systems for 2D",
+      "UI/HUD Design for 2D Games"
+    ],
+    "tags": [
+      "2D",
+      "indie",
+      "pixel-art"
+    ],
+    "name": "2D Game Development",
+    "id": "GD18",
+    "recommended": true
+  },
+  {
+    "primary_tech": "3D Game Engines",
+    "category": "Game Development",
+    "topics": [
+      "3D Model Integration & Animation",
+      "Lighting & Shading Techniques",
+      "Camera Controls & Movement",
+      "Level Design & Environmental Art"
+    ],
+    "tags": [
+      "3D",
+      "graphics",
+      "level-design"
+    ],
+    "name": "3D Game Development",
+    "id": "GD19",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Game AI",
+    "category": "Game Development",
+    "topics": [
+      "Pathfinding (A* Algorithm)",
+      "State Machines & Behavior Trees",
+      "Decision Making (Utility AI, GOAP)",
+      "Flocking & Crowd Simulation"
+    ],
+    "tags": [
+      "AI",
+      "NPC",
+      "behavior"
+    ],
+    "name": "Artificial Intelligence for Games",
+    "id": "GD21",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Blender (3D Modeling)",
+    "category": "Game Development",
+    "topics": [
+      "Introduction to Blender for Backend Developers",
+      "Understanding 3D Model Formats and Data Structures",
+      "Integrating Blender Models with Backend Systems",
+      "Automating 3D Model Processing via APIs",
+      "Building Scalable Backend Solutions for 3D Applications",
+      "Optimizing Data Flow between Blender and Backend Services",
+      "Security and Best Practices for 3D Data Handling"
+    ],
+    "tags": [
+      "blender",
+      "3D-modeling",
+      "backend-development",
+      "integration",
+      "API",
+      "data-processing"
+    ],
+    "name": "Backend Development with Blender: Integrating 3D Models",
+    "id": "GD7",
+    "recommended": false
+  },
+  {
+    "primary_tech": "GameMaker Studio 2",
+    "category": "Game Development",
+    "topics": [
+      "Introduction to GameMaker Studio 2",
+      "Basic GML Scripting for Backend",
+      "Setting Up Multiplayers in GameMaker",
+      "Networking Concepts in Game Development",
+      "Database Integration for Game Saves",
+      "Implementing Game State Management",
+      "Server-Side Logic and Game Rules",
+      "Real-time Data Handling and Synchronization"
+    ],
+    "tags": [
+      "GameMaker",
+      "backend",
+      "multiplayer",
+      "game-development",
+      "networking",
+      "GML"
+    ],
+    "name": "Backend Development with GameMaker Studio 2",
+    "id": "GD23",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Godot Engine",
+    "category": "Game Development",
+    "topics": [
+      "Introduction to Godot Engine and its Architecture",
+      "Understanding Godot's Networking Capabilities",
+      "Implementing Game Servers with Godot",
+      "Scripting Backend Logic with GDScript",
+      "Database Integration and Management",
+      "Real-time Multiplayer Game Development",
+      "Security Considerations in Game Development",
+      "Deploying and Scaling Godot-based Applications"
+    ],
+    "tags": [
+      "godot",
+      "backend",
+      "game-server",
+      "networking",
+      "scripting",
+      "gdscript"
+    ],
+    "name": "Backend Development with Godot: From Basics to Advanced",
+    "id": "GD15",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Raylib",
+    "category": "Game Development",
+    "topics": [
+      "Introduction to Raylib and its Architecture",
+      "Setting Up a Raylib Development Environment",
+      "Understanding Raylib Core Concepts and Data Structures",
+      "Managing Game Resources and Assets in Raylib",
+      "Developing and Integrating Backend Services with Raylib",
+      "Implementing Game Logic and Mechanics using Raylib",
+      "Optimizing Raylib Applications for Performance",
+      "Deploying and Maintaining Raylib-Based Applications"
+    ],
+    "tags": [
+      "raylib",
+      "backend-development",
+      "game-engine",
+      "c-programming",
+      "graphics",
+      "api-integration"
+    ],
+    "name": "Backend Development with Raylib: From Basics to Advanced",
+    "id": "GD24",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Unreal Engine",
+    "category": "Game Development",
+    "topics": [
+      "Introduction to Unreal Engine architecture",
+      "Setting up a dedicated game server",
+      "Networking and multiplayer concepts",
+      "Backend scripting with C++",
+      "Database integration and management",
+      "Performance optimization in Unreal Engine",
+      "Security best practices for game servers"
+    ],
+    "tags": [
+      "unreal-engine",
+      "backend-development",
+      "game-server",
+      "networking",
+      "C++",
+      "multiplayer"
+    ],
+    "name": "Backend Mastery with Unreal Engine",
+    "id": "GD16",
+    "recommended": false
+  },
+  {
+    "primary_tech": "C#",
+    "category": "Game Development",
+    "topics": [
+      "Introduction to C# and .NET Framework",
+      "Object-Oriented Programming with C#",
+      "Building RESTful APIs with ASP.NET Core",
+      "Database Integration and Entity Framework",
+      "Asynchronous Programming and Multithreading",
+      "Security Best Practices for C# Applications",
+      "Deploying C# Applications on Cloud Platforms"
+    ],
+    "tags": [
+      "csharp",
+      "backend-development",
+      "api-design",
+      "dotnet",
+      "asynchronous-programming"
+    ],
+    "name": "C# Backend Development for Dynamic Applications",
+    "id": "GD22",
+    "recommended": false
+  },
+  {
+    "primary_tech": "C#",
+    "category": "Game Development",
+    "topics": [
+      "C# Language Fundamentals",
+      "Object-Oriented Programming (OOP)",
+      "Unity API & MonoBehaviour Lifecycle",
+      "Data Structures & Algorithms in Games"
+    ],
+    "tags": [
+      "programming",
+      "scripting",
+      "unity"
+    ],
+    "name": "C# Programming for Game Development",
+    "id": "GD12",
+    "recommended": true
+  },
+  {
+    "primary_tech": "C++",
+    "category": "Game Development",
+    "topics": [
+      "C++ Language Fundamentals",
+      "Memory Management",
+      "Pointers & References",
+      "Game-specific Data Structures"
+    ],
+    "tags": [
+      "programming",
+      "performance",
+      "Unreal"
+    ],
+    "name": "C++ Programming for Games",
+    "id": "GD17",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Audio Design",
+    "category": "Game Development",
+    "topics": [
+      "Sound Effects (SFX) Creation",
+      "Music Composition & Integration",
+      "Audio Mixing & Mastering",
+      "Spatial Audio & Occlusion"
+    ],
+    "tags": [
+      "audio",
+      "sound",
+      "immersion"
+    ],
+    "name": "Game Audio & Sound Engineering",
+    "id": "GD2",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Game Design",
+    "category": "Game Development",
+    "topics": [
+      "Core Loops & Mechanics",
+      "Player Psychology & Motivation",
+      "Narrative & World Building",
+      "Prototyping & Iteration"
+    ],
+    "tags": [
+      "game-design",
+      "fundamentals",
+      "theory"
+    ],
+    "name": "Game Design Principles & Theory",
+    "id": "GD10",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Graphics Programming",
+    "category": "Game Development",
+    "topics": [
+      "Rendering Pipeline Overview",
+      "Vertex & Fragment Shaders (HLSL/GLSL)",
+      "Texture Mapping & Materials",
+      "Lighting Models (Phong, PBR basics)"
+    ],
+    "tags": [
+      "graphics",
+      "rendering",
+      "shaders",
+      "VFX"
+    ],
+    "name": "Game Graphics & Rendering Basics",
+    "id": "GD1",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Monetization",
+    "category": "Game Development",
+    "topics": [
+      "Free-to-Play vs. Premium",
+      "In-Game Purchases & Microtransactions",
+      "Subscription Models",
+      "Ad Integration (for mobile/web games)"
+    ],
+    "tags": [
+      "business",
+      "economy",
+      "revenue"
+    ],
+    "name": "Game Monetization & Business Models",
+    "id": "GD5",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Physics Engines",
+    "category": "Game Development",
+    "topics": [
+      "Rigidbody Dynamics",
+      "Collision Shapes & Layers",
+      "Triggers & Overlaps",
+      "Forces, Torques & Joints"
+    ],
+    "tags": [
+      "physics",
+      "gameplay",
+      "simulation"
+    ],
+    "name": "Game Physics & Collision Detection",
+    "id": "GD20",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Publishing",
+    "category": "Game Development",
+    "topics": [
+      "Platform Submission (Steam, Consoles, Mobile Stores)",
+      "Community Management",
+      "Press Kits & Influencer Outreach",
+      "Post-Launch Support & Updates"
+    ],
+    "tags": [
+      "publishing",
+      "marketing",
+      "business"
+    ],
+    "name": "Game Publishing & Marketing Strategies",
+    "id": "GD9",
+    "recommended": false
+  },
+  {
+    "primary_tech": "QA",
+    "category": "Game Development",
+    "topics": [
+      "Bug Reporting & Tracking",
+      "Functional Testing",
+      "Performance Testing",
+      "Playtesting & Feedback Integration"
+    ],
+    "tags": [
+      "testing",
+      "QA",
+      "bug-fixing",
+      "quality"
+    ],
+    "name": "Game Testing & Quality Assurance",
+    "id": "GD4",
+    "recommended": true
+  },
+  {
+    "primary_tech": "FMOD/Wwise",
+    "category": "Game Development",
+    "topics": [
+      "Introduction to Game Audio Middleware",
+      "Setting Up FMOD and Wwise Environments",
+      "Sound Design Principles and Techniques",
+      "Integrating FMOD and Wwise with Game Engines",
+      "Creating Interactive Soundscapes",
+      "Implementing Dynamic Audio Systems",
+      "Optimizing Audio for Performance",
+      "Advanced Techniques in 3D Audio Placement"
+    ],
+    "tags": [
+      "audio-engineering",
+      "FMOD",
+      "Wwise",
+      "game-development",
+      "sound-design",
+      "middleware",
+      "interactive-audio"
+    ],
+    "name": "Interactive Audio Programming with FMOD/Wwise",
+    "id": "GD8",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Unity Engine",
+    "category": "Game Development",
+    "topics": [
+      "Unity Editor Basics",
+      "Game Objects & Components",
+      "Scene & Asset Management",
+      "Basic Scripting Integration (C#)"
+    ],
+    "tags": [
+      "engine",
+      "cross-platform",
+      "C#"
+    ],
+    "name": "Introduction to Unity Engine",
+    "id": "GD11",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Unreal Engine",
+    "category": "Game Development",
+    "topics": [
+      "Unreal Editor & Interface",
+      "Blueprints Visual Scripting",
+      "Asset Pipeline & Material Editor",
+      "Basic C++ Integration"
+    ],
+    "tags": [
+      "engine",
+      "AAA",
+      "C++",
+      "blueprints"
+    ],
+    "name": "Introduction to Unreal Engine",
+    "id": "GD13",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Unity Engine",
+    "category": "Game Development",
+    "topics": [
+      "Introduction to Unity Engine and Backend Architecture",
+      "Setting Up Unity with C# for Backend Development",
+      "Networking Basics in Unity",
+      "Integrating Game Servers and Databases",
+      "Building and Managing Multiplayer Sessions",
+      "Handling API Requests and Data Synchronization",
+      "Optimizing Backend Performance in Unity",
+      "Security Best Practices for Game Backends"
+    ],
+    "tags": [
+      "unity",
+      "backend",
+      "game-server",
+      "C#",
+      "networking",
+      "multiplayer",
+      "API"
+    ],
+    "name": "Mastering Backend Development with Unity Engine",
+    "id": "GD14",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Networking",
+    "category": "Game Development",
+    "topics": [
+      "Client-Server vs. Peer-to-Peer",
+      "Network Topologies",
+      "RPCs & Networked Variables",
+      "Latency Compensation Basics"
+    ],
+    "tags": [
+      "multiplayer",
+      "networking",
+      "online"
+    ],
+    "name": "Multiplayer Game Development Basics",
+    "id": "GD3",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Photon Engine",
+    "category": "Game Development",
+    "topics": [
+      "Introduction to Photon Engine and its Architecture",
+      "Setting Up a Photon Server Environment",
+      "Real-time Communication Protocols",
+      "Managing Game Sessions and Player States",
+      "Implementing Server-side Logic with Photon",
+      "Scalability and Performance Tuning",
+      "Integrating Photon with Client-side Applications"
+    ],
+    "tags": [
+      "photon-engine",
+      "backend-development",
+      "real-time-multiplayer",
+      "cloud-gaming",
+      "server-architecture"
+    ],
+    "name": "Photon Engine Backend Essentials",
+    "id": "GD6",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Kotlin",
+    "category": "Mobile Development",
+    "topics": [
+      "Kotlin Programming Language",
+      "Android Studio IDE",
+      "Layouts & Views",
+      "Activities & Fragments"
+    ],
+    "tags": [
+      "Android",
+      "native",
+      "Google",
+      "programming"
+    ],
+    "name": "Android App Development with Kotlin",
+    "id": "MD11",
+    "recommended": true
+  },
+  {
+    "primary_tech": "App Publishing",
+    "category": "Mobile Development",
+    "topics": [
+      "Developer Accounts Setup",
+      "App Signing & Certificates",
+      "Store Listings & Metadata (ASO)",
+      "Beta Testing & Phased Rollouts"
+    ],
+    "tags": [
+      "deployment",
+      "marketing",
+      "publishing"
+    ],
+    "name": "App Store & Google Play Publishing",
+    "id": "MD8",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Appium/Detox",
+    "category": "Mobile Development",
+    "topics": [
+      "Introduction to Backend Testing for Mobile Apps",
+      "Setting Up Appium and Detox for Automation",
+      "Writing Automated Test Scripts with Appium",
+      "Implementing Detox for End-to-End Testing",
+      "Integrating Appium and Detox with CI/CD Pipelines",
+      "Handling Asynchronous Operations in Test Scripts",
+      "Debugging and Logging Test Cases",
+      "Best Practices for Mobile Backend Test Automation"
+    ],
+    "tags": [
+      "backend",
+      "automation",
+      "appium",
+      "detox",
+      "testing",
+      "nodejs",
+      "mobile"
+    ],
+    "name": "Backend Automation with Appium and Detox",
+    "id": "MD7",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Ionic",
+    "category": "Mobile Development",
+    "topics": [
+      "Introduction to Ionic Framework",
+      "Setting Up Ionic for Backend Development",
+      "Building RESTful APIs with Ionic",
+      "Database Integration in Ionic Apps",
+      "Handling Authentication and Authorization",
+      "Deploying Ionic Apps to Cloud Platforms",
+      "Testing and Debugging Ionic Backend Applications",
+      "Performance Optimization Techniques for Ionic Apps"
+    ],
+    "tags": [
+      "ionic",
+      "backend",
+      "api",
+      "cross-platform",
+      "mobile-apps",
+      "javascript",
+      "typescript"
+    ],
+    "name": "Backend Development with Ionic Framework",
+    "id": "MD21",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Objective-C",
+    "category": "Mobile Development",
+    "topics": [
+      "Introduction to Objective-C language fundamentals",
+      "Building RESTful APIs with Objective-C",
+      "Handling data persistence with Core Data",
+      "Networking and data transmission in Objective-C",
+      "Error handling and debugging techniques",
+      "Implementing security best practices",
+      "Integration with third-party libraries",
+      "Testing and deployment of Objective-C backend services"
+    ],
+    "tags": [
+      "objective-c",
+      "backend",
+      "api-development",
+      "server-side",
+      "networking",
+      "database",
+      "apple"
+    ],
+    "name": "Backend Development with Objective-C",
+    "id": "MD14",
+    "recommended": false
+  },
+  {
+    "primary_tech": "API Integration",
+    "category": "Mobile Development",
+    "topics": [
+      "HTTP Requests (GET, POST, PUT, DELETE)",
+      "JSON Parsing",
+      "Asynchronous Operations",
+      "Error Handling & Retries"
+    ],
+    "tags": [
+      "API",
+      "networking",
+      "data"
+    ],
+    "name": "Consuming REST APIs in Mobile Apps",
+    "id": "MD18",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Xamarin",
+    "category": "Mobile Development",
+    "topics": [
+      "Introduction to Xamarin and Cross-Platform Development",
+      "Setting Up Xamarin Environment and Tools",
+      "C# Fundamentals for Xamarin",
+      "Building User Interfaces with Xamarin.Forms",
+      "Data Handling and Storage in Xamarin Apps",
+      "Integrating Web APIs and Services",
+      "Testing and Deployment of Xamarin Applications"
+    ],
+    "tags": [
+      "xamarin",
+      "mobile-development",
+      "cross-platform",
+      "csharp",
+      "app-development"
+    ],
+    "name": "Cross-Platform Mobile Development with Xamarin",
+    "id": "MD20",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Flutter",
+    "category": "Mobile Development",
+    "topics": [
+      "Dart Programming Language",
+      "Flutter Widgets & Layouts",
+      "State Management in Flutter",
+      "Platform Channels"
+    ],
+    "tags": [
+      "cross-platform",
+      "Dart",
+      "Google",
+      "hybrid"
+    ],
+    "name": "Cross-Platform Mobile with Flutter (Dart)",
+    "id": "MD16",
+    "recommended": true
+  },
+  {
+    "primary_tech": "React Native",
+    "category": "Mobile Development",
+    "topics": [
+      "React Native Components & APIs",
+      "Flexbox for Layout",
+      "Navigation in React Native",
+      "Bridging Native Modules"
+    ],
+    "tags": [
+      "cross-platform",
+      "JavaScript",
+      "React",
+      "hybrid"
+    ],
+    "name": "Cross-Platform Mobile with React Native",
+    "id": "MD15",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Firebase",
+    "category": "Mobile Development",
+    "topics": [
+      "Firebase Authentication",
+      "Cloud Firestore/Realtime Database",
+      "Cloud Functions for Firebase",
+      "Crashlytics & Analytics"
+    ],
+    "tags": [
+      "BaaS",
+      "backend-as-a-service",
+      "Google"
+    ],
+    "name": "Firebase for Mobile Development",
+    "id": "MD3",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Swift",
+    "category": "Mobile Development",
+    "topics": [
+      "Swift Programming Language",
+      "Xcode IDE",
+      "UIKit/SwiftUI Basics",
+      "View Controllers & Navigation"
+    ],
+    "tags": [
+      "iOS",
+      "native",
+      "Apple",
+      "programming"
+    ],
+    "name": "iOS App Development with Swift",
+    "id": "MD10",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Java",
+    "category": "Mobile Development",
+    "topics": [
+      "Introduction to Java and Object-Oriented Programming",
+      "Setting Up Java Development Environment",
+      "Building RESTful APIs with Spring Boot",
+      "Database Connectivity with JDBC",
+      "Session Management and Security",
+      "Deployment and Scaling Java Applications"
+    ],
+    "tags": [
+      "java",
+      "backend",
+      "spring-framework",
+      "api-development",
+      "database-integration"
+    ],
+    "name": "Java Backend Development Essentials",
+    "id": "MD13",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Local Storage",
+    "category": "Mobile Development",
+    "topics": [
+      "Shared Preferences/UserDefaults",
+      "SQLite Databases (SQLDelight/Core Data)",
+      "NoSQL Mobile Databases (Realm/Hive)",
+      "File System Access"
+    ],
+    "tags": [
+      "database",
+      "offline",
+      "data-persistence"
+    ],
+    "name": "Local Data Storage for Mobile Apps",
+    "id": "MD19",
+    "recommended": true
+  },
+  {
+    "primary_tech": "AWS Amplify",
+    "category": "Mobile Development",
+    "topics": [
+      "Introduction to AWS Amplify and its ecosystem",
+      "Setting up a serverless backend with Amplify",
+      "Building and managing APIs with AWS Amplify",
+      "Data storage solutions using Amplify DataStore",
+      "User authentication and authorization",
+      "Integrating with other AWS services",
+      "Deploying and managing Amplify applications",
+      "Monitoring and debugging Amplify backends"
+    ],
+    "tags": [
+      "AWS Amplify",
+      "cloud computing",
+      "backend development",
+      "serverless architecture",
+      "API management"
+    ],
+    "name": "Mastering Backend Development with AWS Amplify",
+    "id": "MD6",
+    "recommended": false
+  },
+  {
+    "primary_tech": "GraphQL Clients",
+    "category": "Mobile Development",
+    "topics": [
+      "Introduction to GraphQL and its advantages over REST",
+      "Setting up a GraphQL client for mobile apps",
+      "Querying data with GraphQL from mobile apps",
+      "Handling mutations and subscriptions in GraphQL",
+      "Managing local state with GraphQL clients",
+      "Error handling and caching strategies",
+      "Optimizing performance for GraphQL queries",
+      "Security best practices for using GraphQL clients"
+    ],
+    "tags": [
+      "graphql",
+      "mobile-development",
+      "backend",
+      "api-integration",
+      "client-side"
+    ],
+    "name": "Mastering GraphQL Clients for Mobile Applications",
+    "id": "MD22",
+    "recommended": false
+  },
+  {
+    "primary_tech": "Mobile Concepts",
+    "category": "Mobile Development",
+    "topics": [
+      "Mobile OS Overview (iOS vs. Android)",
+      "Mobile UI/UX Principles",
+      "App Lifecycle",
+      "Development Environments Setup"
+    ],
+    "tags": [
+      "fundamentals",
+      "mobile-concepts",
+      "cross-platform"
+    ],
+    "name": "Mobile App Development Fundamentals",
+    "id": "MD9",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Performance",
+    "category": "Mobile Development",
+    "topics": [
+      "Memory Management",
+      "Battery Usage Optimization",
+      "UI Responsiveness (Jank/Lag)",
+      "Network Efficiency"
+    ],
+    "tags": [
+      "optimization",
+      "performance",
+      "profiling"
+    ],
+    "name": "Mobile App Performance & Optimization",
+    "id": "MD1",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Security",
+    "category": "Mobile Development",
+    "topics": [
+      "Data Encryption & Storage Security",
+      "API Key Management",
+      "Code Obfuscation",
+      "Common Mobile Vulnerabilities (OWASP Mobile Top 10)"
+    ],
+    "tags": [
+      "security",
+      "privacy",
+      "vulnerability"
+    ],
+    "name": "Mobile App Security Best Practices",
+    "id": "MD5",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Testing",
+    "category": "Mobile Development",
+    "topics": [
+      "Unit Testing (JUnit, XCTest)",
+      "Widget/Component Testing",
+      "UI Testing (Espresso, XCUITest)",
+      "Integration Testing"
+    ],
+    "tags": [
+      "testing",
+      "QA",
+      "reliability"
+    ],
+    "name": "Mobile App Testing Strategies",
+    "id": "MD2",
+    "recommended": true
+  },
+  {
+    "primary_tech": "UI/UX Design",
+    "category": "Mobile Development",
+    "topics": [
+      "Human Interface Guidelines (iOS)",
+      "Material Design (Android)",
+      "Wireframing & Prototyping",
+      "Usability Testing Basics"
+    ],
+    "tags": [
+      "design",
+      "UI",
+      "UX",
+      "mobile"
+    ],
+    "name": "Mobile UI/UX Design Principles",
+    "id": "MD12",
+    "recommended": true
+  },
+  {
+    "primary_tech": "Notifications",
+    "category": "Mobile Development",
+    "topics": [
+      "FCM/APNS Integration",
+      "Local Notifications",
+      "Background Fetch & Processing",
+      "Deep Linking"
+    ],
+    "tags": [
+      "engagement",
+      "background-processing",
+      "user-experience"
+    ],
+    "name": "Push Notifications & Background Tasks",
+    "id": "MD4",
+    "recommended": false
+  },
+  {
+    "primary_tech": "State Management",
+    "category": "Mobile Development",
+    "topics": [
+      "Prop Drilling vs. Centralized State",
+      "Provider (Flutter)",
+      "Redux/MobX (React Native)",
+      "ViewModel/LiveData (Android)"
+    ],
+    "tags": [
+      "architecture",
+      "data-flow",
+      "scalability"
+    ],
+    "name": "State Management in Mobile Apps",
+    "id": "MD17",
+    "recommended": true
+  }
+]

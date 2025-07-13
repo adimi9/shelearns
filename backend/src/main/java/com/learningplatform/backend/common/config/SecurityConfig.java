@@ -7,6 +7,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod; // Import HttpMethod
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
@@ -39,9 +40,10 @@ public class SecurityConfig {
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers(
                     "/api/auth/signup",
-                    "/api/auth/login",
-                    "/api/onboarding"
+                    "/api/auth/login"
                 ).permitAll()
+                // Allow OPTIONS requests for all paths (preflight requests)
+                .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll() // <--- ADDED THIS LINE
                 .anyRequest().authenticated()
             )
             .addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
@@ -69,8 +71,8 @@ public class SecurityConfig {
 
         @Override
         protected void doFilterInternal(HttpServletRequest request,
-                                        HttpServletResponse response,
-                                        FilterChain filterChain) throws ServletException, IOException {
+                                         HttpServletResponse response,
+                                         FilterChain filterChain) throws ServletException, IOException {
 
             String header = request.getHeader("Authorization");
 

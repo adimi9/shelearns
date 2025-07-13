@@ -17,10 +17,10 @@ const initialQuestion = {
     { id: "mobile", label: "Mobile Development" },
     { id: "game", label: "Game Development" },
     { id: "security", label: "Computer Security" },
-    { id: "cs", label: "Computer Science Foundations" },
+    { id: "cs", label: "Computer Science Fundamentals" },
   ],
   allowMultiple: false,
-  specificTech: false,
+  // specificTech: false, // Removed as it's not used in logic or DTO
 }
 
 // Standardized 3-question follow-up for each topic
@@ -267,13 +267,19 @@ export default function QuestionFlow() {
   const [userSelections, setUserSelections] = useState<Record<number, string[]>>({})
 
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null); // Added error state
   const setRoadmapData = useRoadmapStore((state) => state.setData);
 
+  // Use a fallback for NEXT_PUBLIC_BACKEND_URL if not defined in the environment
+  const BASE_BACKEND_URL = typeof process !== 'undefined' && process.env.NEXT_PUBLIC_BACKEND_URL
+    ? process.env.NEXT_PUBLIC_BACKEND_URL
+    : 'http://localhost:8080';
 
   // Total questions: 1 (initial) + 3 (topic-specific) = 4.
   const totalQuestionCount = 4
 
   const handleNext = async (selectedOptions: string[]) => {
+    setError(null); // Clear previous errors on new question/submission attempt
     setUserSelections((prev) => ({
       ...prev,
       [currentQuestionIndex]: selectedOptions,
@@ -296,37 +302,94 @@ export default function QuestionFlow() {
 
       const finalSelectionsWithIds = {
         ...userSelections,
-        [currentQuestionIndex]: selectedOptions,
+        [currentQuestionIndex]: selectedOptions, // Ensure the last selection is included
       };
 
-      const bodyPayload: { [key: string]: string } = {};
+      // Construct the body payload to match OnboardingRequestDto
+      const bodyPayload: { [key: string]: string | string[] } = {};
 
       Object.entries(finalSelectionsWithIds).forEach(([qIndex, ids], i) => {
         const questionIndex = parseInt(qIndex, 10);
-        const question = activeQuestions[questionIndex];
-        const labels = ids.map((id) => {
-          const option = question.options.find((opt) => opt.id === id);
-          return option ? option.label : id;
-        });
-        bodyPayload[`qn${i + 1}`] = question.question;
-        bodyPayload[`ans${i + 1}`] = labels.join(", ");
+        const question = upcomingQuestions[questionIndex]; // Use upcomingQuestions for accurate indexing
+
+        // For the last question (qn4/ans4), send IDs as a list (array)
+        if (questionIndex === 3) { // Assuming qn4 is at index 3 (0-indexed)
+          bodyPayload[`qn${i + 1}`] = question.question;
+          bodyPayload[`ans${i + 1}`] = ids; // Send as array of strings
+        } else {
+          // For other questions, join labels into a single string
+          const labels = ids.map((id) => {
+            const option = question.options.find((opt: any) => opt.id === id);
+            return option ? option.label : id;
+          });
+          bodyPayload[`qn${i + 1}`] = question.question;
+          bodyPayload[`ans${i + 1}`] = labels.join(", ");
+        }
       });
 
       try {
-        const response = await fetch("http://localhost:8080/api/onboarding", {
+        // Retrieve token from local storage
+        const authToken = localStorage.getItem('authToken');
+
+        if (!authToken) {
+          // If no token, set an error and stop the request
+          setError("Authentication required. Please log in or sign up first.");
+          setIsLoading(false);
+          return; // Stop execution
+        }
+
+        const response = await fetch(`${BASE_BACKEND_URL}/api/onboarding`, { // Use BASE_BACKEND_URL
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: {
+            "Content-Type": "application/json",
+            'Authorization': `Bearer ${authToken}`, // Use the retrieved token
+          },
           body: JSON.stringify(bodyPayload),
         });
 
-        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const responseText = await response.text(); // Read raw response for robust parsing
+        console.log("Onboarding Backend Raw Response:", responseText);
 
-        const data = await response.json();
+        if (!response.ok) {
+          let errorData;
+          try {
+            if (responseText) {
+              errorData = JSON.parse(responseText);
+            } else {
+              errorData = { message: `Roadmap generation failed with status: ${response.status}. No error response body.` };
+            }
+          } catch (jsonParseError: any) {
+            console.error("Error response JSON parsing error:", jsonParseError);
+            errorData = { message: `Server error: Could not parse error response. Status: ${response.status}.` };
+          }
+          throw new Error(errorData.message || `Roadmap generation failed with status: ${response.status}`);
+        }
 
-        setRoadmapData(data);  // Save backend data to global store
+        // Success response: Backend returns {"message": "..."}
+        let data;
+        try {
+          if (responseText) {
+            data = JSON.parse(responseText);
+          } else {
+            console.error("Successful onboarding response had an empty body.");
+            throw new Error("Roadmap generation successful, but no confirmation message received.");
+          }
+        } catch (jsonParseError: any) {
+          console.error("Successful response JSON parsing error:", jsonParseError);
+          throw new Error("Roadmap generation successful, but failed to parse server response.");
+        }
+
+        console.log("Onboarding successful:", data.message); // Log the success message
+
+        setRoadmapData(data);  // Save backend data to global store (if backend sends roadmap data)
+                               // Note: Your backend currently returns a String message, not roadmap data.
+                               // If `setRoadmapData` expects roadmap structure, you'll need to adjust
+                               // the backend's return or how you use `data` here.
         router.push("/roadmap");  // Navigate to roadmap page
-      } catch (error) {
-        console.error("Error calling backend:", error);
+      } catch (err: any) {
+        console.error("Error calling backend for roadmap generation:", err);
+        setError(err.message || "An unexpected error occurred during roadmap generation.");
+      } finally {
         setIsLoading(false);
       }
 
@@ -338,7 +401,8 @@ export default function QuestionFlow() {
 
 
   const currentQuestion = activeQuestions[currentQuestionIndex]
-  const isLast = currentQuestionIndex > 0 && currentQuestionIndex === totalQuestionCount - 1;
+  // isLast will be true when currentQuestionIndex is 3 (0-indexed for 4 questions)
+  const isLast = currentQuestionIndex === totalQuestionCount - 1;
 
   if (isLoading) {
     return (
@@ -350,31 +414,36 @@ export default function QuestionFlow() {
   }
 
   return (
-      <div className="min-h-screen bg-pink-50 flex flex-col items-center justify-center p-6">
+    <div className="min-h-screen bg-pink-50 flex flex-col items-center justify-center p-6">
 
-        
-        <AnimatePresence mode="wait">
-          <QuestionCard
-              key={currentQuestionIndex}
-              question={currentQuestion.question}
-              options={currentQuestion.options}
-              allowMultiple={currentQuestion.allowMultiple}
-              specificTech={currentQuestion.specificTech}
-              onNext={handleNext}
-              isLastQuestion={isLast}
-          />
-        </AnimatePresence>
-
-        <div className="mt-8 flex gap-2">
-          {Array.from({ length: totalQuestionCount }).map((_, index) => (
-              <div
-                  key={index}
-                  className={`w-3 h-3 rounded-full ${
-                      index === currentQuestionIndex ? "bg-pink-600" : index < currentQuestionIndex ? "bg-black" : "bg-gray-300"
-                  }`}
-              />
-          ))}
+      {error && ( // Display error message at the top
+        <div className="mb-4 p-3 rounded-lg bg-red-100 border border-red-400 text-red-700 text-center font-semibold max-w-md w-full">
+          {error}
         </div>
+      )}
+
+      <AnimatePresence mode="wait">
+        <QuestionCard
+            key={currentQuestionIndex}
+            question={currentQuestion.question}
+            options={currentQuestion.options}
+            allowMultiple={currentQuestion.allowMultiple}
+            // specificTech={currentQuestion.specificTech} // Removed
+            onNext={handleNext}
+            isLastQuestion={isLast}
+        />
+      </AnimatePresence>
+
+      <div className="mt-8 flex gap-2">
+        {Array.from({ length: totalQuestionCount }).map((_, index) => (
+            <div
+              key={index}
+              className={`w-3 h-3 rounded-full ${
+                  index === currentQuestionIndex ? "bg-pink-600" : index < currentQuestionIndex ? "bg-black" : "bg-gray-300"
+              }`}
+            />
+        ))}
       </div>
+    </div>
   )
 }

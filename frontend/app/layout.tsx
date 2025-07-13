@@ -3,6 +3,8 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import Navigation from "@/components/navigation/main-navigation"
+import { UserProvider } from "@/components/context/UserContext"
+import ScrollToTopOnRouteChange from "@/components/scroll-to-top"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -20,8 +22,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navigation />
-        {children}
+        <ScrollToTopOnRouteChange />
+        <UserProvider>
+          <Navigation />
+          {children}
+        </UserProvider>  
       </body>
     </html>
   )

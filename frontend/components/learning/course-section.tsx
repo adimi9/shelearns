@@ -1,25 +1,25 @@
-"use client"
-import { CheckCircle, Clock } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { motion } from "framer-motion"
+"use client";
+import { CheckCircle, Clock } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
 
 interface Video {
-  id: string
-  title: string
-  duration: string
-  youtubeId: string
-  completed: boolean
+  id: string;
+  title: string;
+  duration: string;
+  youtubeId: string;
+  completed: boolean;
 }
 
 interface CourseSectionProps {
-  videos: Video[]
-  onVideoComplete: (videoId: string) => void
-  onCourseComplete: () => void
-  isCompleted: boolean
-  activeVideoId: string
-  onVideoSelect: (videoId: string) => void
-  completedVideos: Set<string>
-  isAssistantOpen: boolean
+  videos: Video[];
+  onVideoComplete: (videoId: string) => void;
+  onCourseComplete: () => void;
+  isCompleted: boolean;
+  activeVideoId: string;
+  onVideoSelect: (videoId: string) => void;
+  completedVideos: Set<string>;
+  // Removed: isAssistantOpen: boolean; // Removed as per user request
 }
 
 export default function CourseSection({
@@ -30,18 +30,30 @@ export default function CourseSection({
   activeVideoId,
   onVideoSelect,
   completedVideos,
-  isAssistantOpen,
+  // Removed: isAssistantOpen, // Removed as per user request
 }: CourseSectionProps) {
-  const currentVideoData = videos.find((video) => video.id === activeVideoId) || videos[0]
+  // Ensure currentVideoData is safely accessed, defaulting to the first video if activeVideoId is not found
+  const currentVideoData = videos.find((video) => video.id === activeVideoId) || videos[0];
+
+  // Handle case where there are no videos
+  if (!videos || videos.length === 0) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[300px] bg-white rounded-xl shadow-lg p-8 text-center text-gray-700">
+        <h2 className="text-2xl font-bold mb-4">No Course Videos Available</h2>
+        <p>It looks like there are no videos for this section yet. Please check back later!</p>
+      </div>
+    );
+  }
 
   const handleVideoComplete = (videoId: string) => {
-    onVideoComplete(videoId)
+    onVideoComplete(videoId);
 
     // Check if all videos are completed
+    // Note: completedVideos.size will not yet include the video just marked complete, so add 1
     if (completedVideos.size + 1 === videos.length && !isCompleted) {
-      onCourseComplete()
+      onCourseComplete();
     }
-  }
+  };
 
   return (
     <motion.div
@@ -49,7 +61,8 @@ export default function CourseSection({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3 }}
-      className={`w-full transition-all duration-300 ${isAssistantOpen ? "mr-[30%]" : ""}`}
+      // Removed: conditional margin-right based on isAssistantOpen
+      className={`w-full transition-all duration-300`}
     >
       <div className="mb-8 text-center">
         <h2 className="text-3xl font-black mb-2">Course Videos</h2>
@@ -117,5 +130,5 @@ export default function CourseSection({
         </motion.div>
       )}
     </motion.div>
-  )
+  );
 }

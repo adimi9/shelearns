@@ -1,0 +1,450 @@
+{
+  "id": "FS7",
+  "name": "Mastering CircleCI for Backend Automation",
+  "category": "FullStack Development",
+  "primary_tech": "CircleCI",
+  "topics": [
+    "Introduction to Continuous Integration and Continuous Deployment",
+    "Setting Up CircleCI for Backend Projects",
+    "Creating and Managing CircleCI Pipelines",
+    "Automating Testing and Deployment with CircleCI",
+    "Integrating CircleCI with Version Control Systems",
+    "Optimizing Workflows and Reducing Build Times",
+    "Troubleshooting and Best Practices for CircleCI"
+  ],
+  "recommended": false,
+  "tags": [
+    "circleci",
+    "ci/cd",
+    "backend-automation",
+    "devops",
+    "continuous-integration"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+          "description": "An overview of implementing MLOps for continuous delivery and automation in machine learning pipelines on Google Cloud.",
+          "title": "MLOps: Continuous delivery and automation pipelines in machine learning | Cloud Architecture Center | Google Cloud",
+          "resource_order": 1
+        },
+        {
+          "url": "https://learning.postman.com/",
+          "description": "A comprehensive learning platform for mastering Postman and API development.",
+          "title": "Documentation | Postman Docs",
+          "resource_order": 2
+        },
+        {
+          "url": "https://docs.n8n.io/",
+          "description": "Comprehensive documentation for n8n, an open-source workflow automation tool.",
+          "title": "Explore n8n Docs: Your Resource for Workflow Automation and Integrations | n8n Docs",
+          "resource_order": 3
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://circleci.com/blog/making-http-requests-with-axios/",
+          "description": "A tutorial on making HTTP requests using the Axios library in JavaScript.",
+          "title": "Making HTTP requests with Axios | CircleCI",
+          "resource_order": 1
+        },
+        {
+          "url": "https://github.com/milanm/DevOps-Roadmap",
+          "description": "A detailed roadmap for learning and mastering DevOps practices and tools.",
+          "title": "GitHub - milanm/DevOps-Roadmap: DevOps Roadmap for 2025. with learning resources",
+          "resource_order": 2
+        },
+        {
+          "url": "https://realpython.com/python-continuous-integration/",
+          "description": "An introductory guide to implementing continuous integration in Python projects using popular tools.",
+          "title": "Continuous Integration With Python: An Introduction – Real Python",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.leapwork.com/blog/regression-testing",
+          "description": "An insightful article explaining the importance and strategies for effective regression testing.",
+          "title": "Regression Testing: An In-Depth Guide for 2025",
+          "resource_order": 4
+        },
+        {
+          "url": "https://spacelift.io/blog/how-to-become-devops-engineer",
+          "description": "A guide on the essential skills and steps to becoming a DevOps engineer.",
+          "title": "How to Become a DevOps Engineer in 6 Months: 2025 Roadmap",
+          "resource_order": 5
+        },
+        {
+          "url": "https://mimo.org/blog/back-end-development",
+          "description": "An informative article exploring the fundamentals and key concepts of back-end development.",
+          "title": "The Ultimate Beginner’s Guide to Back-End Development",
+          "resource_order": 6
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=5qx12m89KCo",
+          "title": "ASP.NET Core CI/CD Pipeline with VS2019 in 10 Minutes!",
+          "duration": "13m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Iwz_R9Qi47s",
+          "title": "Terraform Infrastructure as Code for Blue Green Deployments on AWS",
+          "duration": "31m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qSbE7NOXm8U",
+          "title": "How to Build and Deploy an app Helm Chart on Kubernetes Cluster with GitLab CI/CD",
+          "duration": "61m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bL5GaBjKAAw",
+          "title": "Git Hooks + Husky + Lint-Staged = Automate code linting & formatting | Code Quality DevTools",
+          "duration": "13m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=b0lGp-EhjuQ",
+          "title": "How To Create ECR & Push App Docker Images to AWS ECR | Terraform Resource.",
+          "duration": "23m",
+          "resource_order": 5
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+          "description": "An overview of implementing continuous delivery and automation pipelines in machine learning using MLOps on Google Cloud.",
+          "title": "MLOps: Continuous delivery and automation pipelines in machine learning | Cloud Architecture Center | Google Cloud",
+          "resource_order": 1
+        },
+        {
+          "url": "https://github.com/avelino/awesome-go",
+          "description": "A curated list of awesome Go frameworks, libraries, and software.",
+          "title": "GitHub - avelino/awesome-go: A curated list of awesome Go frameworks, libraries and software",
+          "resource_order": 2
+        },
+        {
+          "url": "https://docs.n8n.io/",
+          "description": "Comprehensive documentation for using and configuring the n8n workflow automation tool.",
+          "title": "Explore n8n Docs: Your Resource for Workflow Automation and Integrations | n8n Docs",
+          "resource_order": 3
+        },
+        {
+          "url": "https://github.com/punkpeye/awesome-mcp-servers",
+          "description": "A curated list of awesome Minecraft server resources and plugins.",
+          "title": "GitHub - punkpeye/awesome-mcp-servers: A collection of MCP servers.",
+          "resource_order": 4
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://circleci.com/blog/making-http-requests-with-axios/",
+          "description": "A guide on using Axios for making HTTP requests in JavaScript applications.",
+          "title": "Making HTTP requests with Axios | CircleCI",
+          "resource_order": 1
+        },
+        {
+          "url": "https://masteringbackend.com/posts/automate-code-coverage-in-android-development-using-bitrise-and-codecov/",
+          "description": "A guide on automating code coverage in Android development using Bitrise and Codecov.",
+          "title": "Automate code coverage in Android development using Bitrise and Codecov - Mastering Backend",
+          "resource_order": 2
+        },
+        {
+          "url": "https://realpython.com/python-continuous-integration/",
+          "description": "A detailed guide on implementing continuous integration in Python projects.",
+          "title": "Continuous Integration With Python: An Introduction – Real Python",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.leapwork.com/blog/regression-testing",
+          "description": "An informative blog post discussing the importance and strategies of regression testing in software development.",
+          "title": "Regression Testing: An In-Depth Guide for 2025",
+          "resource_order": 4
+        },
+        {
+          "url": "https://github.com/milanm/DevOps-Roadmap",
+          "description": "An extensive roadmap for becoming a proficient DevOps engineer.",
+          "title": "GitHub - milanm/DevOps-Roadmap: DevOps Roadmap for 2025. with learning resources",
+          "resource_order": 5
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=Iwz_R9Qi47s",
+          "title": "Terraform Infrastructure as Code for Blue Green Deployments on AWS",
+          "duration": "31m",
+          "resource_order": 1
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning",
+          "description": "A guide on implementing MLOps for continuous delivery and automation in machine learning pipelines.",
+          "title": "MLOps: Continuous delivery and automation pipelines in machine learning | Cloud Architecture Center | Google Cloud",
+          "resource_order": 1
+        },
+        {
+          "url": "https://grafana.com/docs/k6/latest/reference/integrations/",
+          "description": "Documentation on integrating k6 with various tools and platforms for performance testing.",
+          "title": "Integrations & Tools | Grafana k6 documentation",
+          "resource_order": 2
+        },
+        {
+          "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+          "description": "A detailed guide on setting up and managing self-hosted services and applications.",
+          "title": "GitHub - mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
+          "resource_order": 3
+        },
+        {
+          "url": "https://bugbug.io/blog/testing-frameworks/cypress-cheat-sheet/",
+          "description": "A quick reference guide for using the Cypress testing framework.",
+          "title": "Cypress Cheat Sheet: Commands, Assertions and More",
+          "resource_order": 4
+        },
+        {
+          "url": "https://github.com/milanm/DevOps-Roadmap",
+          "description": "An extensive roadmap for learning and mastering DevOps skills and tools.",
+          "title": "GitHub - milanm/DevOps-Roadmap: DevOps Roadmap for 2025. with learning resources",
+          "resource_order": 5
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://github.com/milanm/DevOps-Roadmap",
+          "description": "A structured roadmap for mastering DevOps practices and tools.",
+          "title": "GitHub - milanm/DevOps-Roadmap: DevOps Roadmap for 2025. with learning resources",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.leapwork.com/blog/regression-testing",
+          "description": "An insightful overview of regression testing and its importance in software development.",
+          "title": "Regression Testing: An In-Depth Guide for 2025",
+          "resource_order": 2
+        },
+        {
+          "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+          "description": "A detailed guide on setting up and managing self-hosted applications and services.",
+          "title": "GitHub - mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.techtarget.com/searchsoftwarequality/CI-CD-pipelines-explained-Everything-you-need-to-know",
+          "description": "An in-depth explanation of CI/CD pipelines and their role in software development.",
+          "title": "CI/CD Pipelines Explained: Everything You Need to Know",
+          "resource_order": 4
+        },
+        {
+          "url": "https://mimo.org/blog/back-end-development",
+          "description": "An overview of back-end development, covering essential concepts and technologies.",
+          "title": "The Ultimate Beginner’s Guide to Back-End Development",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.theseniordev.com/blog/senior-backend-developer-roadmap-2024-a-complete-guide",
+          "description": "A complete guide outlining the roadmap for becoming a senior backend developer in 2024.",
+          "title": "Senior Backend Developer Roadmap 2025: A Complete Guide · theSeniorDev",
+          "resource_order": 6
+        }
+      ],
+      "videos": []
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is Continuous Integration in the context of software development?",
+        "options": [
+          "A process of integrating third-party apps into a project",
+          "A technique used to continuously improve software design",
+          "A practice where developers frequently integrate code into a shared repository",
+          "A method to deploy applications only after testing"
+        ],
+        "correct_option": 2,
+        "hint": "It involves frequent code integrations into a shared repository.",
+        "question_order": 1
+      },
+      {
+        "question": "Which of the following is the first step in setting up CircleCI for backend projects?",
+        "options": [
+          "Writing test cases",
+          "Installing the CircleCI CLI",
+          "Creating a CircleCI configuration file",
+          "Deploying to production"
+        ],
+        "correct_option": 2,
+        "hint": "It involves defining the workflow and build steps.",
+        "question_order": 2
+      },
+      {
+        "question": "In CircleCI, what is a pipeline?",
+        "options": [
+          "A series of manual testing steps",
+          "A sequence of automated processes that execute on code changes",
+          "A method to push code to production",
+          "A tool for monitoring server performance"
+        ],
+        "correct_option": 1,
+        "hint": "It is an automated sequence triggered by code changes.",
+        "question_order": 3
+      },
+      {
+        "question": "Which version control system is commonly integrated with CircleCI?",
+        "options": [
+          "Subversion",
+          "Git",
+          "Mercurial",
+          "CVS"
+        ],
+        "correct_option": 1,
+        "hint": "It is the most popular distributed version control system.",
+        "question_order": 4
+      },
+      {
+        "question": "What is one way to optimize workflows and reduce build times in CircleCI?",
+        "options": [
+          "Increasing the number of manual tests",
+          "Using older hardware",
+          "Caching dependencies",
+          "Ignoring failed builds"
+        ],
+        "correct_option": 2,
+        "hint": "This technique stores and reuses dependencies to speed up builds.",
+        "question_order": 5
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is a primary benefit of using Continuous Integration in software development?",
+        "options": [
+          "Increased development time",
+          "Reduced code quality",
+          "Early detection of bugs",
+          "Decreased collaboration"
+        ],
+        "correct_option": 2,
+        "hint": "Continuous Integration aims to improve the development process by identifying issues early.",
+        "question_order": 1
+      },
+      {
+        "question": "In CircleCI, what is a pipeline?",
+        "options": [
+          "A version control system",
+          "A series of automated processes",
+          "A manual testing method",
+          "A coding language"
+        ],
+        "correct_option": 1,
+        "hint": "Pipelines automate the process from code commit to deployment.",
+        "question_order": 2
+      },
+      {
+        "question": "Which of the following is a common method to optimize CircleCI workflows?",
+        "options": [
+          "Decreasing the number of team members",
+          "Using larger virtual machines",
+          "Parallelizing tests",
+          "Reducing code coverage"
+        ],
+        "correct_option": 2,
+        "hint": "Consider distributing workload to improve efficiency.",
+        "question_order": 3
+      },
+      {
+        "question": "How can you automate deployment in CircleCI?",
+        "options": [
+          "By manually triggering deployments",
+          "Using scheduled tasks only",
+          "Through deployment jobs in a pipeline",
+          "By disabling all tests"
+        ],
+        "correct_option": 2,
+        "hint": "Deployment automation is usually part of a pipeline.",
+        "question_order": 4
+      },
+      {
+        "question": "Which integration is essential for CircleCI to track changes in the codebase?",
+        "options": [
+          "Database integration",
+          "Version control system integration",
+          "Logging system integration",
+          "Email integration"
+        ],
+        "correct_option": 1,
+        "hint": "This system is used for managing code changes and collaborations.",
+        "question_order": 5
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a primary advantage of using CircleCI for Continuous Integration in backend projects?",
+        "options": [
+          "It offers an integrated code editor for backend development.",
+          "It provides built-in support for database design and management.",
+          "It allows for automated testing and deployment workflows.",
+          "It includes a built-in chat feature for team collaboration."
+        ],
+        "correct_option": 2,
+        "hint": "Consider the main purpose of Continuous Integration tools.",
+        "question_order": 1
+      },
+      {
+        "question": "Which of the following steps is essential when setting up CircleCI for a new backend project?",
+        "options": [
+          "Installing a CircleCI plugin in your IDE.",
+          "Creating a config.yml file to define the pipeline.",
+          "Downloading the CircleCI desktop application.",
+          "Setting CircleCI as the default version control system."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how CircleCI understands your project's build and test requirements.",
+        "question_order": 2
+      },
+      {
+        "question": "In the context of CircleCI, what is the primary function of a pipeline?",
+        "options": [
+          "To serve as a backup system for code repositories.",
+          "To automate the process of testing and deploying code.",
+          "To provide a graphical user interface for coding.",
+          "To replace the need for a traditional CI/CD server."
+        ],
+        "correct_option": 1,
+        "hint": "Pipelines are crucial for executing tasks automatically.",
+        "question_order": 3
+      },
+      {
+        "question": "How can integrating CircleCI with your version control system enhance your workflow?",
+        "options": [
+          "By enabling real-time chat between developers.",
+          "By automating the merging of pull requests without review.",
+          "By triggering automated tests and builds upon code commits.",
+          "By storing binary files directly in the version control system."
+        ],
+        "correct_option": 2,
+        "hint": "Think about what happens when code is pushed to a repository.",
+        "question_order": 4
+      },
+      {
+        "question": "What is a common method to optimize CircleCI workflows and reduce build times?",
+        "options": [
+          "Increasing the number of test cases executed in each build.",
+          "Using caching to store dependencies and intermediate results.",
+          "Running all tests sequentially on a single machine.",
+          "Reducing the frequency of code commits to the repository."
+        ],
+        "correct_option": 1,
+        "hint": "Consider ways to avoid redundant work in builds.",
+        "question_order": 5
+      }
+    ]
+  },
+  "preferred_if": [
+    "User wants a managed cloud CI/CD solution",
+    "Working with open-source projects"
+  ]
+}

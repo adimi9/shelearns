@@ -3,15 +3,11 @@ package com.learningplatform.backend.model.course.resources;
 import jakarta.persistence.*;
 import java.util.List;
 
+import com.learningplatform.backend.model.course.resources.enums.LevelName;
+
 @Entity
 @Table(name = "Course_Level")
 public class CourseLevel {
-
-    public enum LevelName {
-        BEGINNER,
-        INTERMEDIATE,
-        ADVANCED
-    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

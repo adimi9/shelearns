@@ -1,6 +1,7 @@
 import { create } from "zustand";
 
 interface RoadmapData {
+  category: any;
   introParagraph: string;
   courses: any[];
 }

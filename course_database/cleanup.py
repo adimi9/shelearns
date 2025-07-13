@@ -1,52 +1,72 @@
 import os
-import json
+import shutil
+import json # Import json to potentially validate files, though not strictly required for copying
 
-ROOT_DIR = os.path.join(os.path.dirname(__file__), "final_vfinal_courses")
+def synchronize_json_files(source_dir="final_v3_courses/", destination_dir="final_vfinal_courses/"):
+    """
+    Synchronizes JSON files from a source directory to a destination directory.
+    If a JSON file exists in the source but not in the destination (maintaining
+    relative path), it will be copied to the destination.
 
-def assign_resource_order(items):
-    for idx, item in enumerate(items, 1):
-        item["resource_order"] = idx
-    return items
+    Args:
+        source_dir (str): The path to the source directory (e.g., "final_v3_courses/").
+        destination_dir (str): The path to the destination directory (e.g., "final_vfinal_courses/").
+    """
+    print(f"Starting synchronization from '{source_dir}' to '{destination_dir}'...")
+    files_copied = 0
+    files_skipped_exist = 0
+    files_skipped_error = 0
 
-def process_json_file(path):
-    print(f"🔍 Processing: {path}")
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)
+    # Ensure source directory exists
+    if not os.path.isdir(source_dir):
+        print(f"Error: Source directory '{source_dir}' does not exist.")
+        return
 
-        changed = False
+    # Walk through the source directory
+    for root, dirs, files in os.walk(source_dir):
+        for file_name in files:
+            if file_name.endswith(".json"):
+                source_file_path = os.path.join(root, file_name)
 
-        for level in ["beginner", "intermediate", "advanced"]:
-            level_resources = data.get("resources", {}).get(level, {})
+                # Get the relative path from the source_dir
+                # e.g., if source_dir is 'final_v3_courses/' and root is 'final_v3_courses/subfolder1',
+                # rel_path will be 'subfolder1/file.json'
+                relative_path = os.path.relpath(source_file_path, source_dir)
 
-            for key in ["notes", "docs", "videos"]:
-                items = level_resources.get(key)
-                if isinstance(items, list):
-                    before = json.dumps(items, sort_keys=True)
-                    assign_resource_order(items)
-                    after = json.dumps(items, sort_keys=True)
-                    if before != after:
-                        changed = True
+                # Construct the full destination path
+                destination_file_path = os.path.join(destination_dir, relative_path)
+                destination_folder = os.path.dirname(destination_file_path)
 
-        if changed:
-            with open(path, "w", encoding="utf-8") as f:
-                json.dump(data, f, indent=2, ensure_ascii=False)
-            print(f"✅ Updated: {path}")
-        else:
-            print(f"✅ No change: {path}")
+                # Check if the file already exists in the destination
+                if os.path.exists(destination_file_path):
+                    # print(f"Skipping '{relative_path}': Already exists in destination.")
+                    files_skipped_exist += 1
+                else:
+                    try:
+                        # Create destination directory if it doesn't exist
+                        os.makedirs(destination_folder, exist_ok=True)
 
-    except Exception as e:
-        print(f"❌ Error processing {path}: {e}")
+                        # Copy the file
+                        shutil.copy2(source_file_path, destination_file_path)
+                        print(f"Copied: '{relative_path}' to '{destination_folder}'")
+                        files_copied += 1
+                    except Exception as e:
+                        print(f"Error copying '{relative_path}': {e}")
+                        files_skipped_error += 1
 
-def main():
-    print(f"Scanning folder: {ROOT_DIR}")
+    print("\nSynchronization complete.")
+    print(f"Total files copied: {files_copied}")
+    print(f"Total files skipped (already exist): {files_skipped_exist}")
+    print(f"Total files skipped (with errors): {files_skipped_error}")
 
-    for root, _, files in os.walk(ROOT_DIR):
-        print(f"Checking folder: {root}")
-        for file in files:
-            if file.endswith(".json"):
-                print(f"Found JSON file: {file} in {root}")
-                process_json_file(os.path.join(root, file))
+# --- How to Run ---
+# 1. Save this code as a Python file (e.g., `sync_courses.py`).
+# 2. Place `sync_courses.py` in the same parent directory as `final_v3_courses/`
+#    and `final_vfinal_courses/`.
+# 3. Open your terminal or command prompt.
+# 4. Navigate to the directory where you saved `sync_courses.py`.
+# 5. Run the script:
+#    python sync_courses.py
 
-if __name__ == "__main__":
-    main()
+# Example usage (uncomment to run when the script is executed):
+synchronize_json_files()

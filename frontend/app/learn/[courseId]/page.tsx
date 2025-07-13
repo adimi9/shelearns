@@ -1,6 +1,7 @@
+// components/learning/learning-dashboard.tsx
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import SectionSidebar from "@/components/learning/section-sidebar";
 import OfficialDocsSection from "@/components/learning/official-docs-section";
@@ -8,25 +9,138 @@ import NotesSection from "@/components/learning/notes-section";
 import CourseSection from "@/components/learning/course-section";
 import QuizSection from "@/components/learning/quiz-section";
 import ToastNotification from "@/components/learning/toast-notification";
-import AIAssistant from "@/components/learning/ai-assistant";
-import DifficultyAdjustment from "@/components/learning/difficulty-adjustment";
+import { Button } from "@/components/ui/button";
+
+// --- Backend API Response Interfaces (unchanged) ---
+interface ResourceBackend {
+  resourceId: number;
+  name: string;
+  description: string;
+  link: string;
+  resourceType: "DOC" | "NOTE" | "VIDEO" | "QUIZ";
+  resourceXp: number;
+  resourceOrder: number;
+  completed: boolean;
+}
+
+interface VideoResourceBackend extends ResourceBackend {
+  duration: string;
+}
+
+interface QuizResourceBackend extends ResourceBackend {
+  questionText: string;
+  correctAnswerOption: number;
+  hint: string;
+  userAnsweredOption?: string;
+  scoreAwarded?: number;
+  options: string[];
+  correctlyAnswered?: boolean;
+}
+
+interface CourseDetailsBackend {
+  id: number;
+  title: string;
+  levelName: "BEGINNER" | "INTERMEDIATE" | "ADVANCED";
+  sections: {
+    officialDocs: ResourceBackend[];
+    notes: ResourceBackend[];
+    course: VideoResourceBackend[];
+    quiz: QuizResourceBackend[];
+  };
+}
+
+interface QuizSubmissionResponse {
+  userId: number;
+  totalQuestionsAttempted: number;
+  totalScore: number;
+  questionResults: Array<{
+    resourceId: number;
+    questionText: string;
+    submittedOption: number;
+    correctOption: number;
+    scoreAwarded: number;
+    message: string;
+    correct: boolean;
+  }>;
+  overallMessage: string;
+}
+
+// --- Frontend Data Interfaces ---
+interface DocItem {
+  id: string;
+  title: string;
+  description: string;
+  readTime: string;
+  url: string;
+  completed: boolean;
+}
+
+interface NoteItem {
+  id: string;
+  title: string;
+  description: string;
+  readTime: string;
+  url: string;
+  completed: boolean;
+}
+
+interface VideoItem {
+  id: string;
+  title: string;
+  duration: string;
+  youtubeId: string;
+  completed: boolean;
+}
+
+interface QuizQuestionItem {
+  id: string;
+  questionText: string;
+  options: string[];
+  correctAnswerOption: number;
+  hint: string;
+  relatedArticles?: Array<{
+    title: string;
+    url: string;
+  }>;
+  resourceId: number;
+  resourceType: "DOC" | "NOTE" | "VIDEO" | "QUIZ";
+  resourceXp: number;
+  resourceOrder: number;
+  completed: boolean;
+  userAnsweredOption?: string;
+  scoreAwarded?: number;
+  correctlyAnswered?: boolean;
+}
+
+interface CourseDataFrontend {
+  id: string;
+  title: string;
+  description: string;
+  levelName: "BEGINNER" | "INTERMEDIATE" | "ADVANCED";
+  sections: {
+    officialDocs: { available: boolean; docs: DocItem[] };
+    notes: { available: boolean; data: NoteItem[] };
+    course: { available: boolean; videos: VideoItem[] };
+    quiz: { available: boolean };
+  };
+  quizQuestions: QuizQuestionItem[];
+}
 
 export default function LearningDashboard({ params }: { params: { courseId: string } }) {
   const router = useRouter();
+  const courseIdParam = params.courseId;
 
-  // The 'courseId' param can still be used for routing to *different* main courses
-  // if you expand your application, but for this component, it's a single, combined course.
-  const mainCourseId = params.courseId || "html-css-fundamentals";
+  const [courseDetails, setCourseDetails] = useState<CourseDataFrontend | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
-  const [activeSection, setActiveSection] = useState("course"); // Default to 'course' section
-  const [activeVideoId, setActiveVideoId] = useState(""); // Tracks the currently playing video
-  const [completedVideos, setCompletedVideos] = useState<Set<string>>(new Set()); // Stores IDs of completed videos
-  const [completedDocs, setCompletedDocs] = useState<Set<string>>(new Set()); // Stores IDs of completed docs
-  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false); // Controls sidebar visibility/width
-  const [isAssistantOpen, setIsAssistantOpen] = useState(false); // Controls AI assistant panel visibility
-  const [currentLevel, setCurrentLevel] = useState("beginner"); // User's current difficulty level
-  const [unlockedLevels, setUnlockedLevels] = useState(["beginner"]); // Levels the user has unlocked access to
-  const [userXP, setUserXP] = useState(1250); // User's experience points
+  const [activeSection, setActiveSection] = useState("course");
+  const [activeVideoId, setActiveVideoId] = useState("");
+
+  const [currentLevel, setCurrentLevel] = useState<"BEGINNER" | "INTERMEDIATE" | "ADVANCED">("BEGINNER");
+  const [unlockedLevels, setUnlockedLevels] = useState<Array<"BEGINNER" | "INTERMEDIATE" | "ADVANCED">>(["BEGINNER"]);
+
+  const [userXP, setUserXP] = useState(1250);
   const [toast, setToast] = useState<{
     message: string;
     type: "success" | "error" | "info";
@@ -37,193 +151,233 @@ export default function LearningDashboard({ params }: { params: { courseId: stri
     isVisible: false,
   });
 
-  // --- Unified Course Data Structure ---
-  // All content from the previous 'subCourses' (HTML and CSS) is now merged
-  // into one single, comprehensive course object.
-  const courseData = {
-    id: "html-css-fundamentals", // Unique ID for this combined course
-    title: "HTML & CSS Fundamentals: Complete Course", // Display title for the unified course
-    description: "Master foundational HTML5 structure and advanced CSS styling for modern web development.",
-    sections: {
-      officialDocs: {
-        available: true,
-        docs: [
-          // Combined HTML5 documentation references
-          {
-            id: "html5-mdn",
-            title: "HTML5 Official Documentation (MDN)",
-            description: "Comprehensive reference from MDN Web Docs covering all HTML5 elements and best practices.",
-            url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-          },
-          {
-            id: "html5-w3c",
-            title: "W3C HTML5 Specification",
-            description: "The official W3C specification for HTML5 with detailed technical information.",
-            url: "https://www.w3.org/TR/html52/",
-          },
-          // Combined CSS documentation references
-          {
-            id: "css-mdn",
-            title: "CSS Documentation (MDN)",
-            description: "Complete CSS reference with tutorials and examples from Mozilla Developer Network.",
-            url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-          },
-          {
-            id: "css-w3c",
-            title: "W3C CSS Specifications",
-            description: "Official CSS specifications from the World Wide Web Consortium.",
-            url: "https://www.w3.org/Style/CSS/",
-          },
-          {
-            id: "css-tricks",
-            title: "CSS-Tricks Almanac",
-            description: "Comprehensive reference for CSS properties, selectors, and values.",
-            url: "https://css-tricks.com/almanac/",
-          },
-        ],
-      },
-      notes: {
-        available: true,
-        data: [
-          // Combined HTML notes
-          {
-            id: "html-note-1",
-            title: "Understanding HTML5 Semantic Elements",
-            description: "Learn about the importance of semantic HTML and accessibility",
-            readTime: "5 min",
-            url: "#",
-          },
-          {
-            id: "html-note-2",
-            title: "HTML5 Best Practices Guide",
-            description: "Modern approaches to writing clean, maintainable HTML",
-            readTime: "8 min",
-            url: "#",
-          },
-          // Combined CSS notes
-          {
-            id: "css-note-1",
-            title: "CSS Flexbox Complete Guide",
-            description: "Master flexbox layout with practical examples",
-            readTime: "10 min",
-            url: "#",
-          },
-        ],
-      },
-      course: {
-        available: true,
-        videos: [
-          // Combined HTML videos
-          {
-            id: "html-vid-1",
-            title: "Introduction to HTML5",
-            duration: "12:30",
-            youtubeId: "UB1O30fR-EE",
-            completed: false,
-          },
-          {
-            id: "html-vid-2",
-            title: "Semantic Elements Deep Dive",
-            duration: "18:45",
-            youtubeId: "UB1O30fR-EE",
-            completed: false,
-          },
-          {
-            id: "html-vid-3",
-            title: "Forms and Input Types",
-            duration: "15:20",
-            youtubeId: "UB1O30fR-EE",
-            completed: false,
-          },
-          {
-            id: "html-vid-4",
-            title: "HTML5 Media Elements",
-            duration: "14:10",
-            youtubeId: "UB1O30fR-EE",
-            completed: false,
-          },
-          {
-            id: "html-vid-5",
-            title: "Accessibility Best Practices",
-            duration: "20:05",
-            youtubeId: "UB1O30fR-EE",
-            completed: false,
-          },
-          {
-            id: "html-vid-6",
-            title: "HTML5 APIs Overview",
-            duration: "16:40",
-            youtubeId: "UB1O30fR-EE",
-            completed: false,
-          },
-          {
-            id: "html-vid-7",
-            title: "Responsive Design Principles",
-            duration: "22:15",
-            youtubeId: "UB1O30fR-EE",
-            completed: false,
-          },
-          // Combined CSS videos
-          {
-            id: "css-vid-1",
-            title: "CSS Fundamentals",
-            duration: "20:15",
-            youtubeId: "UB1O30fR-EE",
-            completed: false,
-          },
-          {
-            id: "css-vid-2",
-            title: "Flexbox Layout",
-            duration: "25:30",
-            youtubeId: "UB1O30fR-EE",
-            completed: false,
-          },
-          {
-            id: "css-vid-3",
-            title: "CSS Grid Layout",
-            duration: "28:45",
-            youtubeId: "UB1O30fR-EE",
-            completed: false,
-          },
-          {
-            id: "css-vid-4",
-            title: "Responsive Design with Media Queries",
-            duration: "22:10",
-            youtubeId: "UB1O30fR-EE",
-            completed: false,
-          },
-          {
-            id: "css-vid-5",
-            title: "CSS Animations and Transitions",
-            duration: "19:30",
-            youtubeId: "UB1O30fR-EE",
-            completed: false,
-          },
-          {
-            id: "css-vid-6",
-            title: "CSS Variables and Custom Properties",
-            duration: "15:45",
-            youtubeId: "UB1O30fR-EE",
-            completed: false,
-          },
-        ],
-      },
-      quiz: {
-        available: true,
-      },
-    },
+  const [detailedQuizResults, setDetailedQuizResults] = useState<QuizSubmissionResponse["questionResults"] | null>(null);
+  const [overallQuizScore, setOverallQuizScore] = useState<number | null>(null);
+
+  const BASE_BACKEND_URL =
+    typeof process !== "undefined" && process.env.NEXT_PUBLIC_BACKEND_URL
+      ? process.env.NEXT_PUBLIC_BACKEND_URL
+      : "http://localhost:8080";
+
+  const getYoutubeId = (url: string): string => {
+    const regExp = /(?:https?:\/\/)?(?:www\.)?(?:m\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=|embed\/|v\/|)([\w-]{11})(?:\S+)?/;
+    const match = url.match(regExp);
+    return match && match[1].length === 11 ? match[1] : "";
   };
 
-  // --- Simplified Progress State ---
-  // Progress is now tracked directly for the four main sections of this single course.
-  const [progress, setProgress] = useState({
-    officialDocs: false,
-    notes: false,
-    course: false,
-    quiz: false,
-  });
+  const processBackendData = useCallback(
+    (backendData: CourseDetailsBackend): CourseDataFrontend => {
+      const sortedOfficialDocs = [...backendData.sections.officialDocs].sort(
+        (a, b) => a.resourceOrder - b.resourceOrder
+      );
+      const sortedNotes = [...backendData.sections.notes].sort((a, b) => a.resourceOrder - b.resourceOrder);
+      const sortedVideos = [...backendData.sections.course].sort((a, b) => a.resourceOrder - b.resourceOrder);
+      const sortedQuizzes = [...backendData.sections.quiz].sort((a, b) => a.resourceOrder - b.resourceOrder);
 
-  // XP values awarded for various activities
+      const processedDocs: DocItem[] = sortedOfficialDocs.map((doc) => ({
+        id: String(doc.resourceId),
+        title: doc.name,
+        description: doc.description,
+        url: doc.link,
+        readTime: "5 min",
+        completed: doc.completed,
+      }));
+
+      const processedNotes: NoteItem[] = sortedNotes.map((note) => ({
+        id: String(note.resourceId),
+        title: note.name,
+        description: note.description,
+        url: note.link,
+        readTime: "5 min",
+        completed: note.completed,
+      }));
+
+      const processedVideos: VideoItem[] = sortedVideos.map((video) => ({
+        id: String(video.resourceId),
+        title: video.name,
+        duration: video.duration,
+        youtubeId: getYoutubeId(video.link),
+        completed: video.completed,
+      }));
+
+      const processedQuizzes: QuizQuestionItem[] = sortedQuizzes.map((quiz) => ({
+        id: String(quiz.resourceId),
+        questionText: quiz.questionText,
+        options: quiz.options,
+        correctAnswerOption: quiz.correctAnswerOption,
+        hint: quiz.hint,
+        relatedArticles: [],
+        resourceId: quiz.resourceId,
+        resourceType: quiz.resourceType,
+        resourceXp: quiz.resourceXp,
+        resourceOrder: quiz.resourceOrder,
+        completed: quiz.completed,
+        userAnsweredOption: quiz.userAnsweredOption,
+        scoreAwarded: quiz.scoreAwarded,
+        correctlyAnswered: quiz.correctlyAnswered,
+      }));
+
+      return {
+        id: courseIdParam,
+        title: backendData.title,
+        description: "Master foundational concepts for " + backendData.title,
+        levelName: backendData.levelName,
+        sections: {
+          officialDocs: { available: processedDocs.length > 0, docs: processedDocs },
+          notes: { available: processedNotes.length > 0, data: processedNotes },
+          course: { available: processedVideos.length > 0, videos: processedVideos },
+          quiz: { available: processedQuizzes.length > 0 },
+        },
+        quizQuestions: processedQuizzes,
+      };
+    },
+    [courseIdParam]
+  );
+
+  const fetchCourseData = useCallback(async () => {
+    setIsLoading(true);
+    setError(null);
+
+    const authToken = localStorage.getItem("authToken");
+    if (!authToken) {
+      setError("Authentication required. Please log in to view this course.");
+      setIsLoading(false);
+      router.push("/login");
+      return;
+    }
+
+    try {
+      const response = await fetch(`${BASE_BACKEND_URL}/api/courses/${courseIdParam}`, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${authToken}`,
+        },
+      });
+
+      const responseText = await response.text();
+
+      if (!response.ok) {
+        let errorData;
+        try {
+          errorData = responseText ? JSON.parse(responseText) : { message: `Failed to load course with status: ${response.status}. No error response body.` };
+        } catch (jsonParseError: any) {
+          console.error("Error response JSON parsing error for course details:", jsonParseError);
+          errorData = { message: `Server error: Could not parse error response for course. Status: ${response.status}.` };
+        }
+        throw new Error(errorData.message || `Failed to load course with status: ${response.status}`);
+      }
+
+      let backendResponseData: CourseDetailsBackend;
+      try {
+        backendResponseData = responseText ? JSON.parse(responseText) : (() => {
+          console.error("Successful course details response had an empty body.");
+          throw new Error("Course loaded, but no data received.");
+        })();
+      } catch (jsonParseError: any) {
+        console.error("Successful response JSON parsing error for course details:", jsonParseError);
+        throw new Error("Course loaded, but failed to parse server response.");
+      }
+
+      setCourseDetails(processBackendData(backendResponseData));
+    } catch (err: any) {
+      console.error("Failed to fetch course details:", err);
+      setError(err.message || "An unexpected error occurred while loading course details.");
+    } finally {
+      setIsLoading(false);
+    }
+  }, [courseIdParam, router, BASE_BACKEND_URL, processBackendData]);
+
+  useEffect(() => {
+    if (courseIdParam) {
+      fetchCourseData();
+    } else {
+      setError("No course ID provided.");
+      setIsLoading(false);
+    }
+  }, [courseIdParam, fetchCourseData]);
+
+  const completedVideos = useMemo(() => {
+    if (!courseDetails?.sections.course.available) return new Set<string>();
+    return new Set(courseDetails.sections.course.videos.filter(v => v.completed).map(v => v.id));
+  }, [courseDetails]);
+
+  const completedDocs = useMemo(() => {
+    if (!courseDetails) return new Set<string>();
+    const docs = courseDetails.sections.officialDocs.docs.filter(d => d.completed).map(d => d.id);
+    const notes = courseDetails.sections.notes.data.filter(n => n.completed).map(n => n.id);
+    return new Set([...docs, ...notes]);
+  }, [courseDetails]);
+
+  const completedQuizzes = useMemo(() => {
+    if (!courseDetails) return new Set<string>();
+    return new Set(courseDetails.quizQuestions.filter(q => q.completed).map(q => q.id));
+  }, [courseDetails]);
+
+  const calculatedProgress = useMemo(() => {
+    if (!courseDetails) return { officialDocs: false, notes: false, course: false, quiz: false };
+
+    return {
+      officialDocs: courseDetails.sections.officialDocs.docs.every(doc => doc.completed),
+      notes: courseDetails.sections.notes.data.every(note => note.completed),
+      course: courseDetails.sections.course.videos.every(video => video.completed),
+      quiz: courseDetails.quizQuestions.every(quiz => quiz.completed),
+    };
+  }, [courseDetails]);
+
+  // NEW: Calculate overallCourseProgress
+  const overallCourseProgress = useMemo(() => {
+    if (!courseDetails) return 0;
+
+    let totalAvailableSections = 0;
+    let completedMainSections = 0;
+
+    // Check availability before counting towards total and completed
+    if (courseDetails.sections.officialDocs.available) {
+      totalAvailableSections++;
+      if (calculatedProgress.officialDocs) completedMainSections++;
+    }
+    if (courseDetails.sections.notes.available) {
+      totalAvailableSections++;
+      if (calculatedProgress.notes) completedMainSections++;
+    }
+    if (courseDetails.sections.course.available) {
+      totalAvailableSections++;
+      if (calculatedProgress.course) completedMainSections++;
+    }
+    if (courseDetails.sections.quiz.available) {
+      totalAvailableSections++;
+      if (calculatedProgress.quiz) completedMainSections++;
+    }
+
+    if (totalAvailableSections === 0) {
+      return 0;
+    }
+
+    return Math.round((completedMainSections / totalAvailableSections) * 100);
+  }, [courseDetails, calculatedProgress]); // Depend on courseDetails and calculatedProgress
+
+  useEffect(() => {
+    if (courseDetails) {
+      if (courseDetails.sections.course?.available && courseDetails.sections.course.videos.length > 0) {
+        const currentActiveVideoIsCompleted = activeVideoId && completedVideos.has(activeVideoId);
+        const firstIncompleteVideo = courseDetails.sections.course.videos.find(
+          (video) => !video.completed
+        );
+
+        if (!activeVideoId || currentActiveVideoIsCompleted) {
+          setActiveVideoId(
+            firstIncompleteVideo ? firstIncompleteVideo.id : courseDetails.sections.course.videos[0].id
+          );
+        }
+      } else {
+        setActiveVideoId("");
+      }
+
+      setCurrentLevel(courseDetails.levelName);
+    }
+  }, [courseDetails, activeVideoId, completedVideos]);
+
   const xpValues = {
     video: 50,
     article: 30,
@@ -232,22 +386,143 @@ export default function LearningDashboard({ params }: { params: { courseId: stri
     sectionComplete: 200,
   };
 
-  // Effect to set the initial active video when the component mounts.
-  useEffect(() => {
-    if (courseData.sections.course?.available && courseData.sections.course.videos.length > 0) {
-      setActiveVideoId(courseData.sections.course.videos[0].id);
+  const markResourceAsCompleteOnBackend = async (resourceId: string) => {
+    const authToken = localStorage.getItem("authToken");
+    if (!authToken) {
+      setToast({ message: "Authentication required to mark progress.", type: "error", isVisible: true });
+      router.push("/login");
+      return;
     }
-  }, []); // Runs only once on component mount
 
-  // Handles marking a major section (Official Docs, Notes, Course, Quiz) as complete.
+    try {
+      const response = await fetch(`${BASE_BACKEND_URL}/api/progress/resource/${resourceId}/complete`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${authToken}`,
+        },
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({ message: "Failed to mark resource as complete." }));
+        throw new Error(errorData.message || `Failed to mark resource ${resourceId} as complete.`);
+      }
+
+      // ⭐ Key Change: Update local state instead of re-fetching all data
+      setCourseDetails(prevDetails => {
+        if (!prevDetails) return null; // Should not happen if component is rendered with data
+
+        const newDetails = { ...prevDetails };
+
+        // Helper to update a resource array by ID
+        const updateArray = <T extends { id: string; completed: boolean }>(arr: T[], id: string) =>
+          arr.map(item =>
+            item.id === id ? { ...item, completed: true } : item
+          );
+
+        // Update officialDocs
+        if (newDetails.sections.officialDocs.available) {
+          newDetails.sections.officialDocs = {
+            ...newDetails.sections.officialDocs,
+            docs: updateArray(newDetails.sections.officialDocs.docs, resourceId),
+          };
+        }
+
+        // Update notes
+        if (newDetails.sections.notes.available) {
+          newDetails.sections.notes = {
+            ...newDetails.sections.notes,
+            data: updateArray(newDetails.sections.notes.data, resourceId),
+          };
+        }
+
+        // Update course videos
+        if (newDetails.sections.course.available) {
+          newDetails.sections.course = {
+            ...newDetails.sections.course,
+            videos: updateArray(newDetails.sections.course.videos, resourceId),
+          };
+        }
+
+        // Update quiz questions (if a quiz resource is marked complete through this function)
+        // Note: Quiz completion is usually handled by updateQuizProgressOnBackend after submission
+        newDetails.quizQuestions = updateArray(newDetails.quizQuestions, resourceId);
+
+        return newDetails;
+      });
+
+      setToast({ message: "Progress updated successfully!", type: "success", isVisible: true });
+    } catch (err: any) {
+      console.error(`Error marking resource ${resourceId} as complete:`, err);
+      setToast({ message: `Failed to update progress: ${err.message}`, type: "error", isVisible: true });
+    }
+  };
+
+  const updateQuizProgressOnBackend = async (answers: { resourceId: number; selectedOption: number }[]) => {
+    const authToken = localStorage.getItem("authToken");
+    if (!authToken) {
+      setToast({ message: "Authentication required to submit quiz.", type: "error", isVisible: true });
+      router.push("/login");
+      return;
+    }
+
+    setIsLoading(true);
+    try {
+      const response = await fetch(`${BASE_BACKEND_URL}/api/progress/quiz`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${authToken}`,
+        },
+        body: JSON.stringify({ answers }),
+      });
+
+      const responseData: QuizSubmissionResponse = await response.json();
+
+      if (!response.ok) {
+        throw new Error(responseData.overallMessage || `Failed to submit quiz with status: ${response.status}`);
+      }
+
+      setDetailedQuizResults(responseData.questionResults);
+      setOverallQuizScore(responseData.totalScore);
+
+      // // ⭐ Key Change: Update quiz questions directly in courseDetails state
+      // setCourseDetails(prevDetails => {
+      //   if (!prevDetails) return null;
+
+      //   const newDetails = { ...prevDetails };
+      //   const updatedQuizQuestions = newDetails.quizQuestions.map(q => {
+      //     const result = responseData.questionResults.find(qr => String(qr.resourceId) === q.id);
+      //     if (result) {
+      //       return {
+      //         ...q,
+      //         completed: result.correct, // Assuming 'correct' from backend means completed for quiz
+      //         userAnsweredOption: String(result.submittedOption),
+      //         scoreAwarded: result.scoreAwarded,
+      //         correctlyAnswered: result.correct,
+      //       };
+      //     }
+      //     return q;
+      //   });
+
+      //   newDetails.quizQuestions = updatedQuizQuestions;
+      //   return newDetails;
+      // });
+
+      await fetchCourseData(); // Re-fetch to ensure all data is up-to-date
+
+      setToast({ message: "Quiz submitted successfully! Your progress has been updated.", type: "success", isVisible: true });
+    } catch (err: any) {
+      console.error("Error submitting quiz:", err);
+      setToast({ message: `Failed to submit quiz: ${err.message}`, type: "error", isVisible: true });
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   const handleSectionComplete = (section: string) => {
-    setProgress((prev) => ({
-      ...prev,
-      [section]: true, // Mark the specified section as completed
-    }));
-
     const earnedXP = xpValues.sectionComplete;
-    setUserXP((prev) => prev + earnedXP);
+    setUserXP((prevXP) => prevXP + earnedXP);
 
     setToast({
       message: `${
@@ -256,45 +531,9 @@ export default function LearningDashboard({ params }: { params: { courseId: stri
       type: "success",
       isVisible: true,
     });
-
-    // Check if all sections of the course are now complete
-    const currentProgress = {
-      ...progress,
-      [section]: true,
-    };
-    const allSectionsComplete = Object.values(currentProgress).every(Boolean);
-
-    // Logic for unlocking higher difficulty levels once all content is complete
-    if (allSectionsComplete) {
-      if (currentLevel === "beginner" && !unlockedLevels.includes("intermediate")) {
-        setUnlockedLevels((prev) => [...prev, "intermediate"]);
-        setUserXP((prev) => prev + 500); // Bonus XP for unlocking
-        setToast({
-          message:
-            "🎉 Intermediate level unlocked! +500 bonus XP! You can now access more challenging content.",
-          type: "success",
-          isVisible: true,
-        });
-      } else if (currentLevel === "intermediate" && !unlockedLevels.includes("advanced")) {
-        setUnlockedLevels((prev) => [...prev, "advanced"]);
-        setUserXP((prev) => prev + 1000); // Larger bonus for advanced
-        setToast({
-          message: "🎉 Advanced level unlocked! +1000 bonus XP! You're ready for expert content!",
-          type: "success",
-          isVisible: true,
-        });
-      }
-    }
   };
 
-  // Handles marking a single video as complete.
   const handleVideoComplete = (videoId: string) => {
-    setCompletedVideos((prev) => {
-      const newSet = new Set(prev);
-      newSet.add(videoId);
-      return newSet;
-    });
-
     const earnedXP = xpValues.video;
     setUserXP((prev) => prev + earnedXP);
 
@@ -303,16 +542,11 @@ export default function LearningDashboard({ params }: { params: { courseId: stri
       type: "success",
       isVisible: true,
     });
+
+    markResourceAsCompleteOnBackend(videoId);
   };
 
-  // Handles marking a single documentation entry as complete.
-  const handleDocComplete = (docId: string) => {
-    setCompletedDocs((prev) => {
-      const newSet = new Set(prev);
-      newSet.add(docId);
-      return newSet;
-    });
-
+  const handleDocComplete = async (docId: string): Promise<void> => {
     const earnedXP = xpValues.doc;
     setUserXP((prev) => prev + earnedXP);
 
@@ -321,175 +555,52 @@ export default function LearningDashboard({ params }: { params: { courseId: stri
       type: "success",
       isVisible: true,
     });
+    await markResourceAsCompleteOnBackend(docId);
   };
 
-  // Allows the user to manually change their difficulty level.
-  const handleLevelChange = (level: string) => {
-    // Prevent switching to higher levels if prerequisites aren't met
-    if (level === "intermediate" && currentLevel === "beginner") {
-      const allSectionsComplete = Object.values(progress).every(Boolean);
-      if (!allSectionsComplete) {
-        setToast({
-          message: "Complete all beginner content first to unlock intermediate level! 🔒",
-          type: "error",
-          isVisible: true,
-        });
-        return;
-      }
-    }
-
-    if (level === "advanced" && (currentLevel === "beginner" || currentLevel === "intermediate")) {
-      const allSectionsComplete = Object.values(progress).every(Boolean);
-      if (!allSectionsComplete) {
-        setToast({
-          message: "Complete all current level content first to unlock advanced level! 🔒",
-          type: "error",
-          isVisible: true,
-        });
-        return;
-      }
-    }
-
-    setCurrentLevel(level);
-    setToast({
-      message: `Switched to ${level} level! 📈`,
-      type: "info",
-      isVisible: true,
-    });
-  };
-
-  // Adjusts the difficulty level one step easier or harder.
-  const handleDifficultyAdjust = (direction: "easier" | "harder") => {
-    const levels = ["beginner", "intermediate", "advanced"];
-    const currentIndex = levels.indexOf(currentLevel);
-
-    if (direction === "easier" && currentIndex > 0) {
-      const newLevel = levels[currentIndex - 1];
-      setCurrentLevel(newLevel);
-      if (!unlockedLevels.includes(newLevel)) {
-        setUnlockedLevels((prev) => [...prev, newLevel]); // Unlock if not already
-      }
-      setToast({
-        message: `Switched to ${newLevel} level for easier content! 📚`,
-        type: "info",
-        isVisible: true,
-      });
-    } else if (direction === "harder" && currentIndex < levels.length - 1) {
-      const newLevel = levels[currentIndex + 1];
-      setCurrentLevel(newLevel);
-      if (!unlockedLevels.includes(newLevel)) {
-        setUnlockedLevels((prev) => [...prev, newLevel]); // Unlock if not already
-      }
-      setToast({
-        message: `Switched to ${newLevel} level for more challenging content! 🚀`,
-        type: "info",
-        isVisible: true,
-      });
-    }
-  };
-
-  // Called when the user attempts to move to the 'next' course.
-  // Since we have a single combined course here, this signifies completion of the entire course.
   const handleMoveToNext = () => {
     setToast({
       message: "Congratulations! You've completed this course! Moving to the next adventure! 🎯",
       type: "success",
       isVisible: true,
     });
-    // In a full application, you might redirect the user to a course catalog,
-    // a completion certificate page, or the start of another major course.
-    // router.push("/courses/next-main-course-id");
+    router.push("/roadmap");
   };
 
-  // Retrieves the list of videos for the course section.
-  const currentVideos = courseData.sections.course?.available
-    ? courseData.sections.course.videos
-    : [];
+  useEffect(() => {
+    if (courseDetails && Object.values(calculatedProgress).every(Boolean)) {
+      if (currentLevel === "BEGINNER" && !unlockedLevels.includes("INTERMEDIATE")) {
+        setUnlockedLevels((prevLevels) => [...prevLevels, "INTERMEDIATE"]);
+        setUserXP((prevXP) => prevXP + 500);
+        setToast({
+          message: "🎉 Intermediate level unlocked! +500 bonus XP! You can now access more challenging content.",
+          type: "success",
+          isVisible: true,
+        });
+      } else if (currentLevel === "INTERMEDIATE" && !unlockedLevels.includes("ADVANCED")) {
+        setUnlockedLevels((prevLevels) => [...prevLevels, "ADVANCED"]);
+        setUserXP((prevXP) => prevXP + 1000);
+        setToast({
+          message: "🎉 Advanced level unlocked! +1000 bonus XP! You're ready for expert content!",
+          type: "success",
+          isVisible: true,
+        });
+      }
+    }
+  }, [calculatedProgress, currentLevel, unlockedLevels, courseDetails]);
 
-  // Determines if the "Move to Next Course" button should be enabled.
-  // It's enabled if all sections are complete AND the user is at intermediate or advanced level.
   const canMoveToNext =
-    Object.values(progress).every(Boolean) &&
-    (currentLevel === "intermediate" || currentLevel === "advanced");
+    Object.values(calculatedProgress).every(Boolean) &&
+    (currentLevel === "INTERMEDIATE" || currentLevel === "ADVANCED");
 
-  // Sample quiz questions for the combined HTML & CSS course.
-  // You could expand this with more CSS-specific questions.
-  const sampleQuestions = [
-    {
-      id: "1",
-      question: "Which HTML5 element is best for representing a standalone piece of content?",
-      options: ["<div>", "<section>", "<article>", "<aside>"],
-      correctAnswer: 2,
-      hint: "Think about content that could be distributed independently, like a blog post or news article.",
-      relatedArticles: [
-        { title: "HTML5 Semantic Elements Guide", url: "#" },
-        { title: "When to Use Article vs Section", url: "#" },
-      ],
-    },
-    {
-      id: "2",
-      question: "What is the purpose of the <main> element?",
-      options: [
-        "To contain the main navigation",
-        "To represent the main content of the document",
-        "To define the main header",
-        "To create the main layout container",
-      ],
-      correctAnswer: 1,
-      hint: "The <main> element should contain the primary content that is unique to the document.",
-      relatedArticles: [
-        { title: "Understanding Document Structure", url: "#" },
-        { title: "Accessibility and Semantic HTML", url: "#" },
-      ],
-    },
-    {
-      id: "3",
-      question: "Which attribute is required for all <img> elements for accessibility?",
-      options: ["src", "alt", "title", "width"],
-      correctAnswer: 1,
-      hint: "Screen readers need this attribute to describe images to visually impaired users.",
-      relatedArticles: [
-        { title: "Web Accessibility Guidelines", url: "#" },
-        { title: "Image Optimization Best Practices", url: "#" },
-      ],
-    },
-    {
-      id: "4",
-      question: "What does HTML5's <nav> element represent?",
-      options: [
-        "Any list of links",
-        "The main navigation for the site",
-        "A section with navigation links",
-        "All of the above",
-      ],
-      correctAnswer: 2,
-      hint: "The <nav> element is for sections containing navigation links, not just any links.",
-      relatedArticles: [
-        { title: "Navigation Patterns in HTML5", url: "#" },
-        { title: "Semantic HTML Structure", url: "#" },
-      ],
-    },
-    {
-      id: "5",
-      question: "Which HTML5 input type provides a date picker?",
-      options: ["datetime", "date", "calendar", "picker"],
-      correctAnswer: 1,
-      hint: "HTML5 introduced several new input types for better user experience.",
-      relatedArticles: [
-        { title: "HTML5 Form Controls", url: "#" },
-        { title: "Modern Form Design", url: "#" },
-      ],
-    },
-  ];
-
-  // Renders the appropriate main content component based on the active section.
   const renderMainContent = () => {
-    // Determine which sections are available for the current (single) course
+    if (!courseDetails) return null;
+
     const availableSectionsForCourse = {
-      officialDocs: courseData.sections.officialDocs?.available || false,
-      notes: courseData.sections.notes?.available || false,
-      course: courseData.sections.course?.available || false,
-      quiz: courseData.sections.quiz?.available || false,
+      officialDocs: courseDetails.sections.officialDocs.available,
+      notes: courseDetails.sections.notes.available,
+      course: courseDetails.sections.course.available,
+      quiz: courseDetails.sections.quiz.available,
     };
 
     switch (activeSection) {
@@ -497,42 +608,44 @@ export default function LearningDashboard({ params }: { params: { courseId: stri
         if (!availableSectionsForCourse.officialDocs) return null;
         return (
           <OfficialDocsSection
-            docs={courseData.sections.officialDocs.docs}
-            onComplete={handleDocComplete}
-            completedDocs={completedDocs}
-            onAllComplete={() => handleSectionComplete("officialDocs")}
+            docs={courseDetails.sections.officialDocs.docs}
+            onComplete={() => handleSectionComplete("officialDocs")}
+            isCompleted={calculatedProgress.officialDocs}
+            onMarkAsReadBackend={handleDocComplete}
           />
         );
       case "notes":
         if (!availableSectionsForCourse.notes) return null;
         return (
           <NotesSection
-            notes={courseData.sections.notes.data}
+            notes={courseDetails.sections.notes.data}
             onComplete={() => handleSectionComplete("notes")}
-            isCompleted={progress.notes || false}
+            isCompleted={calculatedProgress.notes}
+            onMarkAsReadBackend={handleDocComplete}
           />
         );
       case "course":
         if (!availableSectionsForCourse.course) return null;
         return (
           <CourseSection
-            videos={courseData.sections.course.videos}
+            videos={courseDetails.sections.course.videos}
             onVideoComplete={handleVideoComplete}
             onCourseComplete={() => handleSectionComplete("course")}
-            isCompleted={progress.course || false}
+            isCompleted={calculatedProgress.course}
             activeVideoId={activeVideoId}
             onVideoSelect={setActiveVideoId}
             completedVideos={completedVideos}
-            isAssistantOpen={isAssistantOpen}
           />
         );
       case "quiz":
         if (!availableSectionsForCourse.quiz) return null;
         return (
           <QuizSection
-            questions={sampleQuestions}
+            questions={courseDetails.quizQuestions}
             onComplete={(score) => handleSectionComplete("quiz")}
-            isCompleted={progress.quiz || false}
+            isCompleted={calculatedProgress.quiz}
+            onQuizSubmitBackend={updateQuizProgressOnBackend}
+            currentCourseLevel={currentLevel}
           />
         );
       default:
@@ -540,71 +653,77 @@ export default function LearningDashboard({ params }: { params: { courseId: stri
     }
   };
 
-  // Sections available in the sidebar, directly from the courseData.
-  const availableSections = {
-    officialDocs: courseData.sections.officialDocs?.available || false,
-    notes: courseData.sections.notes?.available || false,
-    course: courseData.sections.course?.available || false,
-    quiz: courseData.sections.quiz?.available || false,
-  };
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-white">
+        <div className="animate-spin rounded-full h-16 w-16 border-4 border-pink-600 border-t-transparent"></div>
+        <span className="ml-4 text-pink-700 font-bold text-lg">Loading course...</span>
+      </div>
+    );
+  }
 
-  // --- Main Component Render ---
-  return (
-    <div className="min-h-screen bg-pink-50">
-      {/* The main <h1> title has been removed to allow the sidebar to extend to the top. */}
-
-      <div className="flex min-h-screen">
-        {/* Left Sidebar Component */}
-        <SectionSidebar
-          courseTitle={courseData.title} // Pass the course title to the sidebar for display
-          activeSection={activeSection}
-          onSectionChange={setActiveSection}
-          progress={progress}
-          availableSections={availableSections}
-          courseVideos={currentVideos}
-          activeVideoId={activeVideoId}
-          onVideoSelect={setActiveVideoId}
-          completedVideos={completedVideos}
-          isCollapsed={isSidebarCollapsed}
-          toggleCollapse={() => setIsSidebarCollapsed(!isSidebarCollapsed)}
-          currentLevel={currentLevel}
-          unlockedLevels={unlockedLevels}
-          onLevelChange={handleLevelChange}
-          onMoveToNext={handleMoveToNext}
-          canMoveToNext={canMoveToNext}
-          onDifficultyAdjust={handleDifficultyAdjust}
-          showDifficultyAdjust={false}
-        />
-
-        {/* Main Content Area */}
-        <div
-          className={`flex-1 transition-all duration-300 ${
-            isSidebarCollapsed ? "ml-[60px]" : "ml-[320px]"
-          }`}
-        >
-          {/* Removed top padding to allow content to align with the very top of the sidebar. */}
-          <div className="max-w-4xl mx-auto">{renderMainContent()}</div>
+  if (error) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-red-50">
+        <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+          <strong className="font-bold">Error:</strong>
+          <span className="block sm:inline ml-2">{error}</span>
+          <p className="mt-2">Please ensure you are logged in and the course ID is valid.</p>
+          <Button onClick={() => router.push('/roadmap')} className="mt-4 bg-pink-600 hover:bg-black text-white font-bold py-2 px-4 rounded-xl">
+            Go to Roadmap
+          </Button>
         </div>
       </div>
+    );
+  }
 
-      {/* Floating Difficulty Adjustment */}
-      <DifficultyAdjustment
-        currentLevel={currentLevel}
-        onDifficultyAdjust={handleDifficultyAdjust}
-      />
+  if (!courseDetails) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center bg-pink-50 text-center p-6">
+        <h2 className="text-3xl font-black text-gray-800 mb-4">Course Not Found</h2>
+        <p className="text-gray-600 mb-6">
+          The course you are looking for could not be loaded. It might not exist or there was an issue fetching its content.
+        </p>
+        <Button onClick={() => router.push('/roadmap')} className="bg-pink-600 hover:bg-black text-white font-bold py-3 px-6 rounded-xl transition-all hover:translate-y-[-2px] hover:shadow-[4px_4px_0px_0px_rgba(219,39,119)]">
+          Back to Roadmap
+        </Button>
+      </div>
+    );
+  }
 
-      {/* Toast Notifications */}
-      <ToastNotification
-        message={toast.message}
-        type={toast.type}
-        isVisible={toast.isVisible}
-        onClose={() => setToast((prev) => ({ ...prev, isVisible: false }))}
-      />
+  const availableSectionsForCourse = {
+    officialDocs: courseDetails.sections.officialDocs.available,
+    notes: courseDetails.sections.notes.available,
+    course: courseDetails.sections.course.available,
+    quiz: courseDetails.sections.quiz.available,
+  };
 
-      {/* AI Learning Assistant - only visible when in the "course" section */}
-      {activeSection === "course" && (
-        <AIAssistant isVisible={isAssistantOpen} onOpenChange={setIsAssistantOpen} />
-      )}
+  const currentVideos = courseDetails.sections.course.available
+    ? courseDetails.sections.course.videos
+    : [];
+
+  return (
+    <div className="min-h-screen bg-pink-50">
+      <div className="flex min-h-screen">
+        <div className="fixed top-0 left-0 h-screen z-10">
+          <SectionSidebar
+            courseTitle={courseDetails.title}
+            activeSection={activeSection}
+            onSectionChange={setActiveSection}
+            progress={calculatedProgress}
+            availableSections={availableSectionsForCourse}
+            courseVideos={currentVideos}
+            activeVideoId={activeVideoId}
+            onVideoSelect={setActiveVideoId}
+            completedVideos={completedVideos}
+            overallCourseProgress={overallCourseProgress}
+          />
+        </div>
+
+        <div className="flex-1 ml-[320px] transition-all duration-300">
+          <div className="max-w-4xl mx-auto px-4 py-8">{renderMainContent()}</div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 package com.learningplatform.backend.model.user;
 
+import com.learningplatform.backend.model.course.roadmap.UserRoadmap;
 import com.learningplatform.backend.model.user.profile.UserProfile;
 
 import jakarta.persistence.*;
@@ -23,6 +24,12 @@ public class User {
 
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
     private UserProfile profile;
+
+    // foreign keys and dependencies
+
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+    @PrimaryKeyJoinColumn // This is key for shared primary key
+    private UserRoadmap userRoadmap;
 
     // No-arg constructor
     public User() {}

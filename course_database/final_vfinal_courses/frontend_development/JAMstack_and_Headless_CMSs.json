@@ -1,0 +1,427 @@
+{
+  "id": "FE4",
+  "name": "JAMstack & Headless CMSs",
+  "category": "Frontend Development",
+  "primary_tech": "JAMstack",
+  "topics": [
+    "Static Site Generators",
+    "Integrating Headless CMS",
+    "Deployment"
+  ],
+  "recommended": false,
+  "tags": [
+    "static",
+    "cms",
+    "deployment"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://jamstack.org/headless-cms/",
+          "description": "An overview of headless CMS options and their benefits for JAMstack architectures.",
+          "title": "Headless CMS - Top Content Management Systems | Jamstack",
+          "resource_order": 1
+        },
+        {
+          "url": "https://gridsome.org/docs/",
+          "description": "Official documentation for Gridsome, a Vue.js-powered static site generator.",
+          "title": "Introduction - Gridsome",
+          "resource_order": 2
+        },
+        {
+          "url": "https://jamstack.org/generators/",
+          "description": "A directory of static site generators for building JAMstack websites.",
+          "title": "Static Site Generators - Top Open Source SSGs | Jamstack",
+          "resource_order": 3
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://jamstack.org/headless-cms/",
+          "description": "An overview of headless CMS options for building modern Jamstack websites.",
+          "title": "Headless CMS - Top Content Management Systems | Jamstack",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.sanity.io/headless-cms",
+          "description": "An overview of Sanity's headless CMS features and capabilities for content management.",
+          "title": "Headless CMS 101: The Only Guide You'll Ever Need | Sanity",
+          "resource_order": 2
+        },
+        {
+          "url": "https://strapi.io/blog/jamstack",
+          "description": "An insightful article exploring the benefits and implementation of JAMstack with Strapi.",
+          "title": "JAMstack - What it is and why you should use it",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.netlify.com/blog/complete-guide-to-headless-cms/",
+          "description": "An in-depth guide to understanding and using headless CMS for modern web development.",
+          "title": "What’s a Headless CMS? The Beginner’s Guide",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.smashingmagazine.com/categories/headless/",
+          "description": "An insightful collection of articles exploring headless architecture and its applications.",
+          "title": "Headless — Smashing Magazine",
+          "resource_order": 5
+        },
+        {
+          "url": "https://snipcart.com/blog/jamstack",
+          "description": "An insightful overview of JAMstack architecture and its benefits for modern web development.",
+          "title": "The Jamstack in 2022: Why (and How) to Get Started",
+          "resource_order": 6
+        },
+        {
+          "url": "https://hygraph.com/sitemap",
+          "description": "A sitemap providing an overview of all available pages and resources on the Hygraph website.",
+          "title": "Sitemap | Hygraph",
+          "resource_order": 7
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=vOzAuNr_PSc",
+          "title": "Introduction to Integration Fields | Prismic Tutorial",
+          "duration": "9m",
+          "resource_order": 1
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://jamstack.org/headless-cms/",
+          "description": "An overview of headless CMS options and their benefits for JAMstack architecture.",
+          "title": "Headless CMS - Top Content Management Systems | Jamstack",
+          "resource_order": 1
+        },
+        {
+          "url": "https://hygraph.com/blog/nextjs-cms",
+          "description": "An insightful guide on integrating a CMS with Next.js for dynamic web applications.",
+          "title": "10 best CMSs for Next.js in 2025 | Hygraph",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.smashingmagazine.com/2021/08/history-future-jamstack-cms/",
+          "description": "An exploration of the evolution and future trends of JAMstack and CMS technologies.",
+          "title": "Jamstack CMS: The Past, The Present and The Future — Smashing Magazine",
+          "resource_order": 3
+        },
+        {
+          "url": "https://hygraph.com/blog/headless-cms-example",
+          "description": "An insightful article exploring examples and benefits of using a headless CMS.",
+          "title": "8 use cases and real-life examples of headless CMS | Hygraph",
+          "resource_order": 4
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://jamstack.org/headless-cms/",
+          "description": "An overview of headless CMS options for building modern Jamstack websites.",
+          "title": "Headless CMS - Top Content Management Systems | Jamstack",
+          "resource_order": 1
+        },
+        {
+          "url": "https://css-tricks.com/jamstack-cmss-have-finally-grown-up/",
+          "description": "An exploration of the evolution and maturity of JAMstack CMS solutions.",
+          "title": "JAMstack CMSs Have Finally Grown Up! | CSS-Tricks",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.sanity.io/headless-cms",
+          "description": "An overview of Sanity's headless CMS features and capabilities for content management.",
+          "title": "Headless CMS 101: The Only Guide You'll Ever Need | Sanity",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.zesty.io/mindshare/headless/what-is-jamstack/",
+          "description": "An introduction to JAMstack architecture and its benefits for modern web development.",
+          "title": "What is Jamstack?",
+          "resource_order": 4
+        },
+        {
+          "url": "https://commercelayer.io/blog/static-is-the-new-dynamic",
+          "description": "An exploration of using static site generation for dynamic e-commerce experiences.",
+          "title": "Static Is the New Dynamic",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.zesty.io/mindshare/marketing-trends/jamstack-pros-and-cons-for-enterprise/",
+          "description": "An analysis of the advantages and disadvantages of using JAMstack for enterprise solutions.",
+          "title": "Jamstack Pros and Cons for Enterprise",
+          "resource_order": 6
+        },
+        {
+          "url": "https://snipcart.com/blog/wordpress-vue-headless",
+          "description": "A detailed tutorial on integrating Vue.js with a headless WordPress setup.",
+          "title": "WordPress & Vue.js: Headless Stack w/ WP REST API - Snipcart",
+          "resource_order": 7
+        }
+      ],
+      "videos": []
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://buttercms.com/blog/understanding-headless-architecture/",
+          "description": "An insightful overview of headless architecture and its advantages for modern web development.",
+          "title": "What is Headless Architecture? (with Examples & Comparisons) | ButterCMS",
+          "resource_order": 1
+        },
+        {
+          "url": "https://hygraph.com/blog/nextjs-cms",
+          "description": "An in-depth guide on integrating Next.js with a CMS using Hygraph.",
+          "title": "10 best CMSs for Next.js in 2025 | Hygraph",
+          "resource_order": 2
+        },
+        {
+          "url": "https://focusreactive.com/blog/",
+          "description": "Insights and updates on React development and related technologies.",
+          "title": "FR Blog",
+          "resource_order": 3
+        },
+        {
+          "url": "https://hygraph.com/sitemap",
+          "description": "An overview of the sitemap for Hygraph's website, detailing its structure and navigation.",
+          "title": "Sitemap | Hygraph",
+          "resource_order": 4
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.netlify.com/blog/complete-guide-to-headless-cms/",
+          "description": "A detailed guide on understanding and implementing headless CMS solutions.",
+          "title": "What’s a Headless CMS? The Beginner’s Guide",
+          "resource_order": 1
+        },
+        {
+          "url": "https://snipcart.com/blog/react-graphql-grav-cms-headless-tutorial",
+          "description": "A tutorial on building a headless e-commerce site using React, GraphQL, and Grav CMS.",
+          "title": "Grav CMS Tutorial: Headless with React & GraphQL Static Site",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.smashingmagazine.com/categories/static-generators/",
+          "description": "An overview of static site generators and their applications in web development.",
+          "title": "Static Generators — Smashing Magazine",
+          "resource_order": 3
+        },
+        {
+          "url": "https://ellessmedia.com/csi/deane-barker/",
+          "description": "An insightful interview with Deane Barker on content strategy and management.",
+          "title": "Deane Barker: content management and modeling expert for 25 years",
+          "resource_order": 4
+        },
+        {
+          "url": "https://cloudcannon.com/blog/learning-web-development-a-self-guided-roadmap/",
+          "description": "A self-guided roadmap for learning web development effectively.",
+          "title": "Learning web development: a self-guided roadmap | CloudCannon",
+          "resource_order": 5
+        },
+        {
+          "url": "https://hygraph.com/sitemap",
+          "description": "An overview of the Hygraph website's structure for improved navigation and indexing.",
+          "title": "Sitemap | Hygraph",
+          "resource_order": 6
+        },
+        {
+          "url": "https://bejamas.com/hub/guides/self-hosted-cms",
+          "description": "A guide to setting up and managing a self-hosted CMS for web development.",
+          "title": "Self-Hosted CMSs in Jamstack - Bejamas",
+          "resource_order": 7
+        }
+      ],
+      "videos": []
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What does the 'J' in JAMstack stand for?",
+        "options": [
+          "JavaScript",
+          "Java",
+          "Jenkins",
+          "JQuery"
+        ],
+        "correct_option": 0,
+        "hint": "It is a popular programming language used for web development.",
+        "question_order": 1
+      },
+      {
+        "question": "Which of the following is a primary benefit of using a Headless CMS?",
+        "options": [
+          "Direct database editing",
+          "Coupled front-end and back-end",
+          "Decoupled architecture",
+          "Integrated email server"
+        ],
+        "correct_option": 2,
+        "hint": "It allows for more flexibility by separating content management from front-end rendering.",
+        "question_order": 2
+      },
+      {
+        "question": "What is the role of Static Site Generators in JAMstack?",
+        "options": [
+          "To generate dynamic server pages",
+          "To compile and deliver pre-rendered pages",
+          "To manage databases",
+          "To create server-side APIs"
+        ],
+        "correct_option": 1,
+        "hint": "They pre-render HTML pages at build time.",
+        "question_order": 3
+      },
+      {
+        "question": "Which of these is a popular tool for deploying JAMstack sites?",
+        "options": [
+          "Netlify",
+          "Oracle Cloud",
+          "Apache Server",
+          "IBM Cloud"
+        ],
+        "correct_option": 0,
+        "hint": "This platform is known for its ease of use in deploying static websites.",
+        "question_order": 4
+      },
+      {
+        "question": "In the context of JAMstack, what does 'M' typically refer to?",
+        "options": [
+          "MongoDB",
+          "Markdown",
+          "Middleware",
+          "MySQL"
+        ],
+        "correct_option": 1,
+        "hint": "It's a lightweight markup language often used for formatting text.",
+        "question_order": 5
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is one of the main benefits of using Static Site Generators in JAMstack architecture?",
+        "options": [
+          "Faster page loads due to pre-rendered HTML",
+          "Real-time content updates without redeployment",
+          "Direct database access for dynamic content",
+          "Built-in authentication systems"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how pre-rendering affects performance.",
+        "question_order": 1
+      },
+      {
+        "question": "Which part of the JAMstack does Strapi typically represent when used in a project?",
+        "options": [
+          "JavaScript",
+          "APIs",
+          "Markup",
+          "Headless CMS"
+        ],
+        "correct_option": 3,
+        "hint": "Strapi is used to manage content.",
+        "question_order": 2
+      },
+      {
+        "question": "When integrating a Headless CMS with a JAMstack site, what is a common method for fetching content?",
+        "options": [
+          "Direct SQL queries",
+          "Using RESTful or GraphQL APIs",
+          "Embedding content via iframes",
+          "Utilizing server-side scripting"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how modern web applications communicate with external services.",
+        "question_order": 3
+      },
+      {
+        "question": "Which deployment platform is specifically optimized for JAMstack applications?",
+        "options": [
+          "Heroku",
+          "Vercel",
+          "AWS Lambda",
+          "Docker Hub"
+        ],
+        "correct_option": 1,
+        "hint": "This platform is known for its seamless integration with static site generators and serverless functions.",
+        "question_order": 4
+      },
+      {
+        "question": "In JAMstack, what does the 'M' typically stand for?",
+        "options": [
+          "Markdown",
+          "Middleware",
+          "Machine Learning",
+          "Markup"
+        ],
+        "correct_option": 3,
+        "hint": "It's related to the structure of web pages.",
+        "question_order": 5
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is NOT a primary purpose of using a Static Site Generator in JAMstack?",
+        "options": [
+          "Improving website speed by pre-rendering pages",
+          "Enhancing website security by minimizing server-side logic",
+          "Facilitating real-time dynamic content updates",
+          "Reducing server costs by serving static assets"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the core advantage of pre-rendered content in JAMstack architecture.",
+        "question_order": 1
+      },
+      {
+        "question": "When integrating a Headless CMS with a JAMstack architecture, which method is commonly used to fetch content at build time?",
+        "options": [
+          "Server-side rendering",
+          "Client-side AJAX requests",
+          "Static site generation",
+          "WebSocket connections"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the process that involves fetching data before deployment.",
+        "question_order": 2
+      },
+      {
+        "question": "In the JAMstack architecture, what role does the 'A' in the acronym typically play?",
+        "options": [
+          "Authentication",
+          "API",
+          "Angular",
+          "Asynchronous processes"
+        ],
+        "correct_option": 1,
+        "hint": "This component is essential for connecting the frontend with back-end services and data.",
+        "question_order": 3
+      },
+      {
+        "question": "Which of the following deployment strategies is most aligned with JAMstack principles?",
+        "options": [
+          "Deploying to a traditional LAMP stack server",
+          "Using continuous deployment with a CDN for static assets",
+          "Hosting on a dedicated server with dynamic content",
+          "Utilizing server-side rendering with Node.js"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how JAMstack emphasizes the use of static files and CDN for delivery.",
+        "question_order": 4
+      },
+      {
+        "question": "How does the 'Headless' approach in CMS benefit a JAMstack application?",
+        "options": [
+          "It allows for integration of server-side logic with client-side rendering.",
+          "It provides a tightly coupled backend and frontend, simplifying deployments.",
+          "It enables decoupling the content management from frontend presentation.",
+          "It ensures faster page load times by eliminating the need for a database."
+        ],
+        "correct_option": 2,
+        "hint": "Focus on the separation of concerns between content management and presentation layers.",
+        "question_order": 5
+      }
+    ]
+  }
+}

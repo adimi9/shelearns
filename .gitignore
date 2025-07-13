@@ -52,6 +52,9 @@ backend/application-local.*
 # OS
 backend/.DS_Store
 
+# application properties
+backend/src/main/resources/application.properties
+
 # personalisation service
 
 # venv
@@ -61,7 +64,14 @@ personalisation_service/venv/
 personalisation_service/.env
 
 # course_database
-
 course_database/cache.json 
 course_database/.env
 course_database/__pycache__/
+
+# progress service
+
+# environment
+progress_service/.env
+
+# pycache
+progress_service/__pycache__/

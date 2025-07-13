@@ -1,0 +1,496 @@
+{
+  "id": "BE7",
+  "name": "Mastering AWS SQS/SNS for Scalable Backend Systems",
+  "category": "Backend Development",
+  "primary_tech": "AWS SQS/SNS",
+  "topics": [
+    "Introduction to AWS SQS and SNS",
+    "Setting Up AWS SQS Queues",
+    "Exploring SNS and Topic Subscriptions",
+    "Integrating SQS/SNS with AWS Lambda",
+    "Implementing Message Filtering and Routing",
+    "Monitoring and Troubleshooting SQS/SNS",
+    "Designing Event-Driven Architectures with AWS",
+    "Best Practices for Scalability and Reliability"
+  ],
+  "recommended": false,
+  "tags": [
+    "aws",
+    "sqs",
+    "sns",
+    "backend-development",
+    "event-driven",
+    "cloud-services"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison",
+          "description": "A comparative guide to services across AWS, Azure, and Google Cloud Platform.",
+          "title": "Compare AWS and Azure services to Google Cloud \u00a0| \u00a0Get started",
+          "resource_order": 1
+        },
+        {
+          "url": "https://workshops.aws/",
+          "description": "A collection of hands-on workshops and tutorials for learning AWS services and solutions.",
+          "title": "AWS Workshops",
+          "resource_order": 2
+        },
+        {
+          "url": "https://awsfundamentals.com/blog/aws-sns-vs-sqs-what-are-the-main-differences",
+          "description": "A detailed comparison of AWS SNS and SQS, highlighting their main differences and use cases.",
+          "title": "AWS SNS vs. SQS - What are the main differences?",
+          "resource_order": 3
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://awsfundamentals.com/blog/aws-sns-vs-sqs-what-are-the-main-differences",
+          "description": "A comparative analysis of AWS SNS and SQS highlighting their key differences.",
+          "title": "AWS SNS vs. SQS - What are the main differences?",
+          "resource_order": 1
+        },
+        {
+          "url": "https://workshops.aws/",
+          "description": "A platform offering hands-on workshops and tutorials for learning AWS services and solutions.",
+          "title": "AWS Workshops",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+          "description": "A curated list of common AWS interview questions and detailed answers for job preparation.",
+          "title": "Best 100+ AWS Interview Questions and Answers [2025 Update]",
+          "resource_order": 3
+        },
+        {
+          "url": "https://github.com/AutoMQ/automq/wiki/AWS-SQS-vs.-SNS:-Differences-&-Comparison",
+          "description": "A detailed comparison of AWS SQS and SNS, highlighting their differences and use cases.",
+          "title": "AWS SQS vs. SNS: Differences & Comparison \u00b7 AutoMQ/automq Wiki \u00b7 GitHub",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.udemy.com/course/aws-lambda-serverless-framework-build-ecommerce-apis/",
+          "description": "A course on building eCommerce APIs using AWS Lambda and the Serverless Framework.",
+          "title": "Just a moment...",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.spiceworks.com/tech/big-data/articles/common-aws-services-explained/",
+          "description": "An overview of commonly used AWS services and their functionalities.",
+          "title": "Just a moment...",
+          "resource_order": 6
+        },
+        {
+          "url": "https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/cloud-design-patterns/cloud-design-patterns.pdf",
+          "description": "A detailed guide on cloud design patterns for building scalable and resilient applications on AWS.",
+          "resource_order": 7
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=5rG-YgTHMC8",
+          "title": "AWS Serverless with AWS Lambda, API Gateway & EventBridge | Full Course for Beginners",
+          "duration": "59m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TKz4kaQ3MOY",
+          "title": "Step-by-Step Guide: Creating an AWS RDS Database for Your Application",
+          "duration": "12m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BFC16uM15Cg",
+          "title": "Serverless Web Application on AWS [S3, Lambda, SQS, DynamoDB and API Gateway]",
+          "duration": "17m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BFC16uM15Cg&pp=ygUSIzEwd2Vla3NvZmNsb3Vkb3Bz",
+          "title": "Serverless Web Application on AWS [S3, Lambda, SQS, DynamoDB and API Gateway]",
+          "duration": "17m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cLnuMtuTB2M",
+          "title": "How To Create an AWS Architecture Diagram",
+          "duration": "10m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=M8G_RT6AF10",
+          "title": "Building event-driven applications with Amazon DocumentDB- AWS Database in 15",
+          "duration": "15m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zlMC0a2mrx8",
+          "title": "AWS Route 53 Tutorial With Practical Example",
+          "duration": "64m",
+          "resource_order": 7
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison",
+          "description": "A comparative guide to services across AWS, Azure, and Google Cloud Platform.",
+          "title": "Compare AWS and Azure services to Google Cloud \u00a0| \u00a0Get started",
+          "resource_order": 1
+        },
+        {
+          "url": "https://workshops.aws/",
+          "description": "A platform offering hands-on workshops to learn AWS services and solutions.",
+          "title": "AWS Workshops",
+          "resource_order": 2
+        },
+        {
+          "url": "https://aws.amazon.com/",
+          "description": "The official homepage for Amazon Web Services (AWS), offering cloud computing services and solutions.",
+          "title": "Cloud Computing Services - Amazon Web Services (AWS)",
+          "resource_order": 3
+        },
+        {
+          "url": "https://awsfundamentals.com/blog/aws-sns-vs-sqs-what-are-the-main-differences",
+          "description": "An analysis of the key differences between AWS SNS and SQS services.",
+          "title": "AWS SNS vs. SQS - What are the main differences?",
+          "resource_order": 4
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://workshops.aws/",
+          "description": "A collection of self-paced workshops for learning AWS services and solutions.",
+          "title": "AWS Workshops",
+          "resource_order": 1
+        },
+        {
+          "url": "https://awsfundamentals.com/blog/aws-sns-vs-sqs-what-are-the-main-differences",
+          "description": "A detailed comparison of AWS SNS and SQS, highlighting their key differences and use cases.",
+          "title": "AWS SNS vs. SQS - What are the main differences?",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+          "description": "A curated list of common AWS interview questions and answers for job preparation.",
+          "title": "Best 100+ AWS Interview Questions and Answers [2025 Update]",
+          "resource_order": 3
+        },
+        {
+          "url": "https://github.com/AutoMQ/automq/wiki/AWS-SQS-vs.-SNS:-Differences-&-Comparison",
+          "description": "A detailed comparison of AWS SQS and SNS highlighting their differences and use cases.",
+          "title": "AWS SQS vs. SNS: Differences & Comparison \u00b7 AutoMQ/automq Wiki \u00b7 GitHub",
+          "resource_order": 4
+        },
+        {
+          "url": "https://igventurelli.io/tag/aws/",
+          "description": "A collection of articles and resources focused on AWS technologies and applications.",
+          "title": "aws Archives - Igor Venturelli",
+          "resource_order": 5
+        },
+        {
+          "url": "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison",
+          "description": "A comparative guide to services offered by AWS, Azure, and Google Cloud Platform.",
+          "title": "Compare AWS and Azure services to Google Cloud \u00a0| \u00a0Get started",
+          "resource_order": 6
+        }
+      ],
+      "videos": []
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://workshops.aws/",
+          "description": "A platform offering hands-on workshops and tutorials for learning AWS services and solutions.",
+          "title": "AWS Workshops",
+          "resource_order": 1
+        },
+        {
+          "url": "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison",
+          "description": "A comparison guide for AWS, Azure, and GCP services to help users choose the right cloud platform.",
+          "title": "Compare AWS and Azure services to Google Cloud \u00a0| \u00a0Get started",
+          "resource_order": 2
+        },
+        {
+          "url": "https://careers.rivian.com/careers-home/jobs/22564",
+          "description": "Job listing for a Senior Embedded Software Engineer at Rivian.",
+          "title": "Staff Software Engineer, Service in Belgrade, Serbia | Rivian",
+          "resource_order": 3
+        },
+        {
+          "url": "https://aws.amazon.com/",
+          "description": "The official homepage for Amazon Web Services offering cloud computing solutions.",
+          "title": "Cloud Computing Services - Amazon Web Services (AWS)",
+          "resource_order": 4
+        },
+        {
+          "url": "https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/cloud-design-patterns/cloud-design-patterns.pdf",
+          "description": "A detailed guide on cloud design patterns for building scalable and resilient AWS applications.",
+          "resource_order": 5
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://workshops.aws/",
+          "description": "A platform offering a variety of interactive workshops for AWS services and solutions.",
+          "title": "AWS Workshops",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+          "description": "A curated list of common AWS interview questions and answers for job preparation.",
+          "title": "Best 100+ AWS Interview Questions and Answers [2025 Update]",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.amazon.com/Mastering-Event-Driven-Microservices-AWS-Architectures/dp/B0DF49L9QJ",
+          "description": "A detailed guide on building event-driven microservices using AWS architectures.",
+          "title": "Mastering Event-Driven Microservices in AWS: Design, Develop, and Deploy Scalable, Resilient, and Reactive Architectures with AWS Serverless Services (English Edition): Karageorgiou, Lefteris: 9788197396694: Amazon.com: Books",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.udemy.com/course/aws-lambda-serverless-framework-build-ecommerce-apis/",
+          "description": "A course on building e-commerce APIs using AWS Lambda and the Serverless Framework.",
+          "title": "Just a moment...",
+          "resource_order": 4
+        },
+        {
+          "url": "https://docs.aws.amazon.com/serverless/latest/devguide/serverless-core.pdf",
+          "description": "An in-depth guide to the core concepts of AWS Serverless applications.",
+          "resource_order": 5
+        },
+        {
+          "url": "https://cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison",
+          "description": "A comparison guide of AWS, Azure, and GCP services for cloud platform users.",
+          "title": "Compare AWS and Azure services to Google Cloud \u00a0| \u00a0Get started",
+          "resource_order": 6
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=5rG-YgTHMC8",
+          "title": "AWS Serverless with AWS Lambda, API Gateway & EventBridge | Full Course for Beginners",
+          "duration": "59m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TKz4kaQ3MOY",
+          "title": "Step-by-Step Guide: Creating an AWS RDS Database for Your Application",
+          "duration": "12m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=M8G_RT6AF10",
+          "title": "Building event-driven applications with Amazon DocumentDB- AWS Database in 15",
+          "duration": "15m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BFC16uM15Cg",
+          "title": "Serverless Web Application on AWS [S3, Lambda, SQS, DynamoDB and API Gateway]",
+          "duration": "17m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zlMC0a2mrx8",
+          "title": "AWS Route 53 Tutorial With Practical Example",
+          "duration": "64m",
+          "resource_order": 5
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of AWS SQS?",
+        "options": [
+          "To send emails",
+          "To host web applications",
+          "To decouple and scale microservices",
+          "To store large files"
+        ],
+        "correct_option": 2,
+        "hint": "It helps in managing the communication between independent systems.",
+        "question_order": 1
+      },
+      {
+        "question": "Which AWS service is primarily used for sending notifications?",
+        "options": [
+          "AWS Lambda",
+          "AWS SNS",
+          "AWS S3",
+          "AWS EC2"
+        ],
+        "correct_option": 1,
+        "hint": "This service is known for sending messages to subscribers.",
+        "question_order": 2
+      },
+      {
+        "question": "What is a topic in AWS SNS?",
+        "options": [
+          "A queue for storing messages",
+          "A channel for sending messages to subscribers",
+          "A database table",
+          "A virtual machine"
+        ],
+        "correct_option": 1,
+        "hint": "It acts like a communication channel in SNS.",
+        "question_order": 3
+      },
+      {
+        "question": "How can AWS SQS be integrated with AWS Lambda?",
+        "options": [
+          "By hosting a web server",
+          "By creating a Lambda trigger for the SQS queue",
+          "By sending emails",
+          "By streaming logs"
+        ],
+        "correct_option": 1,
+        "hint": "Look for a way to automatically run functions in response to new messages.",
+        "question_order": 4
+      },
+      {
+        "question": "What feature does AWS SNS provide to control which messages are delivered to which subscribers?",
+        "options": [
+          "Message encryption",
+          "Message retention",
+          "Message filtering",
+          "Message duplication"
+        ],
+        "correct_option": 2,
+        "hint": "It allows you to specify criteria that messages must meet to be delivered.",
+        "question_order": 5
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary purpose of AWS SQS in an event-driven architecture?",
+        "options": [
+          "To store large files for processing",
+          "To send email notifications to users",
+          "To decouple and scale microservices communication",
+          "To host static websites"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the role of message queuing in managing asynchronous communication between services.",
+        "question_order": 1
+      },
+      {
+        "question": "How can you control the order of message processing in AWS SQS?",
+        "options": [
+          "Enable FIFO queue",
+          "Implement SNS topic subscriptions",
+          "Use AWS Lambda with SQS",
+          "Configure message retention period"
+        ],
+        "correct_option": 0,
+        "hint": "Look for a queue type that ensures strict message ordering.",
+        "question_order": 2
+      },
+      {
+        "question": "Which AWS service is typically used to send notifications to multiple subscribers simultaneously?",
+        "options": [
+          "AWS S3",
+          "AWS SNS",
+          "AWS SQS",
+          "AWS Lambda"
+        ],
+        "correct_option": 1,
+        "hint": "This service is designed for broadcasting messages to multiple endpoints.",
+        "question_order": 3
+      },
+      {
+        "question": "When integrating SQS with AWS Lambda, which feature ensures that a message is only processed once?",
+        "options": [
+          "Message Deduplication ID",
+          "Long Polling",
+          "Visibility Timeout",
+          "Batch Processing"
+        ],
+        "correct_option": 2,
+        "hint": "This feature temporarily hides a message from other consumers after it's received by a Lambda function.",
+        "question_order": 4
+      },
+      {
+        "question": "What is a best practice for ensuring message durability in AWS SQS?",
+        "options": [
+          "Enabling message encryption",
+          "Using Dead Letter Queues",
+          "Configuring message timers",
+          "Increasing message size"
+        ],
+        "correct_option": 1,
+        "hint": "Consider a mechanism that handles unprocessed messages to prevent data loss.",
+        "question_order": 5
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the maximum message size for Amazon SQS?",
+        "options": [
+          "256 KB",
+          "128 KB",
+          "512 KB",
+          "1 MB"
+        ],
+        "correct_option": 0,
+        "hint": "SQS allows messages up to a quarter of a megabyte.",
+        "question_order": 1
+      },
+      {
+        "question": "Which AWS service can be used to automatically trigger a Lambda function in response to SNS messages?",
+        "options": [
+          "AWS CloudWatch",
+          "AWS Step Functions",
+          "AWS Lambda",
+          "AWS CloudTrail"
+        ],
+        "correct_option": 2,
+        "hint": "It's a compute service that runs your code in response to events.",
+        "question_order": 2
+      },
+      {
+        "question": "When implementing message filtering with AWS SNS, which of the following attributes is required in the message policy?",
+        "options": [
+          "MessageGroupId",
+          "MessageAttribute",
+          "Condition",
+          "FilterPolicy"
+        ],
+        "correct_option": 3,
+        "hint": "This attribute allows you to specify filtering logic.",
+        "question_order": 3
+      },
+      {
+        "question": "What is the main advantage of using the FIFO queue type in SQS over the standard queue?",
+        "options": [
+          "Unlimited throughput",
+          "Message ordering",
+          "Lower latency",
+          "Compatibility with SNS"
+        ],
+        "correct_option": 1,
+        "hint": "FIFO stands for First-In-First-Out.",
+        "question_order": 4
+      },
+      {
+        "question": "Which metric would you monitor to ensure that your SQS queue is processing messages efficiently?",
+        "options": [
+          "NumberOfMessagesSent",
+          "ApproximateAgeOfOldestMessage",
+          "QueueSize",
+          "MessageRetentionPeriod"
+        ],
+        "correct_option": 1,
+        "hint": "This metric indicates how long messages have been in the queue.",
+        "question_order": 5
+      }
+    ]
+  },
+  "preferred_if": [
+    "User is already on AWS and needs managed services"
+  ]
+}

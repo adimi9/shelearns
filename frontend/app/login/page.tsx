@@ -1,16 +1,18 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+import { useUser } from "@/components/context/UserContext" // Import useUser hook
 
 export default function LoginPage() {
   const router = useRouter()
+  // Destructure fetchUserProfile from useUser hook
+  const { fetchUserProfile } = useUser(); // <--- ADD THIS LINE
 
   // define all possible states possible on this page -----
   // email and password stored in the form
@@ -22,6 +24,11 @@ export default function LoginPage() {
   const [error, setError] = useState<string | null>(null)
   // when login credentials are being processed -> loading
   const [loading, setIsLoading] = useState(false)
+
+  // Use a fallback for NEXT_PUBLIC_BACKEND_URL if not defined in the environment
+  const BASE_BACKEND_URL = typeof process !== 'undefined' && process.env.NEXT_PUBLIC_BACKEND_URL
+    ? process.env.NEXT_PUBLIC_BACKEND_URL
+    : 'http://localhost:8080';
 
   // if email / password are updated, update formData accordingly
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -39,7 +46,7 @@ export default function LoginPage() {
     setError(null); // clear previous errors
 
     try {
-      const response = await fetch("http://localhost:8080/api/auth/login", {
+      const response = await fetch(`${BASE_BACKEND_URL}/api/auth/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -50,38 +57,58 @@ export default function LoginPage() {
         }),
       });
 
-      // Attempt to read the response body as text first for debugging
       const responseText = await response.text();
-      console.log("Backend Raw Response:", responseText); // Log the raw response
+      console.log("Backend Raw Response:", responseText);
 
-      // Login successful (2xx status codes)
       if (response.ok) {
-        // Only attempt to parse as JSON if there's a body and it's JSON
-        if (responseText) {
-          const data = JSON.parse(responseText); // Parse the text as JSON
-          console.log("Login successful:", data);
-          router.push("/roadmap");
-        } else {
-          // Handle cases where response.ok is true but no body is returned (unlikely for successful login)
-          console.log("Login successful, but no response body.");
-          router.push("/roadmap"); // Still navigate, assuming success
-        }
-      } else {
-        // Login failed (non-2xx status codes)
+        let data;
         try {
-          // Try to parse as JSON first
-          const errorData = JSON.parse(responseText);
-          setError(errorData.message || `Login failed with status: ${response.status}`);
-          console.error("Login failed (JSON error):", errorData);
-        } catch (jsonError) {
-          // If JSON parsing fails, treat the raw text as the error message
-          setError(responseText || `Login failed with status: ${response.status}. No detailed error message from server.`);
-          console.error("Login failed (Non-JSON error):", responseText, jsonError);
+          if (responseText) {
+            data = JSON.parse(responseText);
+          } else {
+            console.error("Successful login response had an empty body.");
+            throw new Error("Login successful, but no token received. Please try again.");
+          }
+        } catch (jsonParseError: any) {
+          console.error("Successful response JSON parsing error:", jsonParseError);
+          throw new Error("Login successful, but failed to parse server response for token.");
         }
+
+        console.log("Login successful:", data);
+
+        if (data.token) {
+          localStorage.setItem('authToken', data.token); // Store the JWT token
+          console.log("JWT Token stored:", data.token);
+
+          // IMPORTANT: Trigger a re-fetch of the user profile after successful login
+          await fetchUserProfile(); // <--- ADD THIS LINE to update UserContext
+
+        } else {
+          console.warn("Login successful, but no 'token' field found in response:", data);
+          setError("Login successful, but no session token received. Please try logging in again.");
+        }
+
+        router.push("/roadmap"); // Redirect to roadmap on success
+
+      } else {
+        let errorData;
+        try {
+          if (responseText) {
+            errorData = JSON.parse(responseText);
+          } else {
+            errorData = { message: `Login failed with status: ${response.status}. No error response body.` };
+          }
+        } catch (jsonParseError: any) {
+          console.error("Error response JSON parsing error:", jsonParseError);
+          errorData = { message: `Server error: Could not parse error response. Status: ${response.status}.` };
+        }
+
+        setError(errorData.message || `Login failed with status: ${response.status}.`);
+        console.error("Login failed:", errorData);
       }
-    } catch (err) {
+    } catch (err: any) {
       console.error("An unexpected error occurred (network or other):", err);
-      setError('An unexpected error occurred. Please check your network connection and server status.');
+      setError(err.message || 'An unexpected error occurred. Please check your network connection and server status.');
     } finally {
       setIsLoading(false);
     }
@@ -116,7 +143,7 @@ export default function LoginPage() {
               onChange={handleChange}
               className="border-2 border-black rounded-lg p-3"
               required
-              disabled={loading} // Disable input while loading
+              disabled={loading}
             />
           </div>
 
@@ -137,14 +164,14 @@ export default function LoginPage() {
               onChange={handleChange}
               className="border-2 border-black rounded-lg p-3"
               required
-              disabled={loading} // Disable input while loading
+              disabled={loading}
             />
           </div>
 
           <Button
             type="submit"
             className="w-full bg-pink-600 hover:bg-black text-white font-bold py-3 rounded-xl transition-all hover:translate-y-[-2px] hover:shadow-[4px_4px_0px_0px_rgba(219,39,119)]"
-            disabled={loading} // Disable button while loading
+            disabled={loading}
           >
             {loading ? "Logging in..." : "Log In"}
           </Button>
@@ -160,7 +187,6 @@ export default function LoginPage() {
         </div>
 
         <div className="grid grid-cols-3 gap-3">
-          {/* login with google */}
           <Button type="button" variant="outline" className="border-2 border-black hover:bg-gray-100" disabled={loading}>
             <svg className="w-5 h-5" viewBox="0 0 24 24">
               <title>Google</title>
@@ -183,7 +209,6 @@ export default function LoginPage() {
             </svg>
           </Button>
 
-          {/* login with github */}
           <Button type="button" variant="outline" className="border-2 border-black hover:bg-gray-100" disabled={loading}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -197,7 +222,6 @@ export default function LoginPage() {
             </svg>
           </Button>
 
-          {/* login with microsoft */}
           <Button type="button" variant="outline" className="border-2 border-black hover:bg-gray-100" disabled={loading}>
             <svg
               className="w-5 h-5"

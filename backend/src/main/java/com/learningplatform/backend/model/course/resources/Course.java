@@ -20,35 +20,15 @@ public class Course {
     @OneToMany(mappedBy = "course", cascade = CascadeType.ALL)
     private List<CourseLevel> levels;
 
-    public String getCourseId() {
-        return courseId;
-    }
+    public String getCourseId() { return courseId; }
+    public void setCourseId(String courseId) { this.courseId = courseId; }
 
-    public void setCourseId(String courseId) {
-        this.courseId = courseId;
-    }
+    public String getCourseName() { return courseName; }
+    public void setCourseName(String courseName) { this.courseName = courseName; }
 
-    public String getCourseName() {
-        return courseName;
-    }
+    public String getCourseCategory() { return courseCategory; }
+    public void setCourseCategory(String courseCategory) { this.courseCategory = courseCategory; }
 
-    public void setCourseName(String courseName) {
-        this.courseName = courseName;
-    }
-
-    public String getCourseCategory() {
-        return courseCategory;
-    }
-
-    public void setCourseCategory(String courseCategory) {
-        this.courseCategory = courseCategory;
-    }
-
-    public List<CourseLevel> getLevels() {
-        return levels;
-    }
-
-    public void setLevels(List<CourseLevel> levels) {
-        this.levels = levels;
-    }
+    public List<CourseLevel> getLevels() { return levels; }
+    public void setLevels(List<CourseLevel> levels) { this.levels = levels; }
 }

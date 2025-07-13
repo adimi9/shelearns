@@ -16,24 +16,6 @@ interface QuickStatsProps {
 export default function QuickStats({ userData }: QuickStatsProps) {
   const stats = [
     {
-      icon: Clock,
-      label: "Total Study Time",
-      value: `${userData.totalStudyTime}h`,
-      color: "blue",
-      bgColor: "bg-blue-50",
-      borderColor: "border-blue-200",
-      textColor: "text-blue-600",
-    },
-    {
-      icon: Calendar,
-      label: "Login Streak",
-      value: `${userData.loginStreak} days`,
-      color: "orange",
-      bgColor: "bg-orange-50",
-      borderColor: "border-orange-200",
-      textColor: "text-orange-600",
-    },
-    {
       icon: Zap,
       label: "Total XP",
       value: userData.totalXP.toLocaleString(),
@@ -72,7 +54,7 @@ export default function QuickStats({ userData }: QuickStatsProps) {
   ]
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
       {stats.map((stat, index) => {
         const Icon = stat.icon
         return (

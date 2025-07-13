@@ -1,0 +1,613 @@
+{
+  "id": "MD21",
+  "name": "Backend Development with Ionic Framework",
+  "category": "Mobile Development",
+  "primary_tech": "Ionic",
+  "topics": [
+    "Introduction to Ionic Framework",
+    "Setting Up Ionic for Backend Development",
+    "Building RESTful APIs with Ionic",
+    "Database Integration in Ionic Apps",
+    "Handling Authentication and Authorization",
+    "Deploying Ionic Apps to Cloud Platforms",
+    "Testing and Debugging Ionic Backend Applications",
+    "Performance Optimization Techniques for Ionic Apps"
+  ],
+  "recommended": false,
+  "tags": [
+    "ionic",
+    "backend",
+    "api",
+    "cross-platform",
+    "mobile-apps",
+    "javascript",
+    "typescript"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://ionicframework.com/docs",
+          "description": "Official documentation for building mobile apps using the Ionic Framework.",
+          "title": "Ionic Framework",
+          "resource_order": 1
+        },
+        {
+          "url": "https://flask.palletsprojects.com/",
+          "description": "Official documentation for Flask, a lightweight WSGI web application framework in Python.",
+          "title": "Welcome to Flask — Flask Documentation (3.1.x)",
+          "resource_order": 2
+        },
+        {
+          "url": "https://ionicframework.com/",
+          "description": "A platform for building cross-platform mobile apps using web technologies.",
+          "title": "Ionic Framework - The Cross-Platform App Development Leader",
+          "resource_order": 3
+        },
+        {
+          "url": "https://capacitorjs.com/docs/",
+          "description": "Official documentation for Capacitor, a cross-platform app runtime for building modern web apps.",
+          "title": "Capacitor Documentation",
+          "resource_order": 4
+        },
+        {
+          "url": "https://ionicframework.com/docs/troubleshooting/cors",
+          "description": "A guide to troubleshooting CORS issues in Ionic applications.",
+          "title": "Ionic Framework",
+          "resource_order": 5
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=AvbuIRg8_Jg",
+          "description": "An instructional video on setting up and using Docker containers for development.",
+          "title": "Ionic Framework 4 - Full Tutorial - iOS / Android App Development",
+          "duration": "179m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://ionicframework.com/docs/angular/your-first-app",
+          "description": "A step-by-step tutorial for building your first app using Ionic and Angular.",
+          "title": "Ionic Framework",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_03VKmdrxV8",
+          "description": "An informative video tutorial on implementing a simple neural network from scratch in Python.",
+          "title": "Ionic + React - Tutorial for Beginners",
+          "duration": "187m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://ionicframework.com/docs",
+          "description": "Official documentation for building mobile apps using the Ionic Framework.",
+          "title": "Ionic Framework",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=r2ga-iXS5i4",
+          "description": "A tutorial video on the basics of machine learning for beginners.",
+          "title": "Ionic 4 & Angular Tutorial For Beginners - Crash Course",
+          "duration": "234m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://ionicframework.com/",
+          "description": "A platform for building cross-platform mobile, web, and desktop apps using web technologies.",
+          "title": "Ionic Framework - The Cross-Platform App Development Leader",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mQ4zmFy4d7Y",
+          "description": "An insightful tutorial on using GitHub Copilot for enhanced coding productivity.",
+          "title": "Ionic & Vue.js - Full Tutorial (Build a Complete App)",
+          "duration": "134m",
+          "resource_order": 7
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=AvbuIRg8_Jg",
+          "title": "Ionic Framework 4 - Full Tutorial - iOS / Android App Development",
+          "duration": "179m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_03VKmdrxV8",
+          "title": "Ionic + React - Tutorial for Beginners",
+          "duration": "187m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=r2ga-iXS5i4",
+          "title": "Ionic 4 & Angular Tutorial For Beginners - Crash Course",
+          "duration": "234m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mQ4zmFy4d7Y",
+          "title": "Ionic & Vue.js - Full Tutorial (Build a Complete App)",
+          "duration": "134m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3lSwcTmiP4k",
+          "title": "#18: Adding Node backend to Ionic app - Ionic / React / Firebase Tutorials",
+          "duration": "11m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=clCXeLhZSIk",
+          "title": "Nodejs, Ionic Angular and MongoDB Full Stack App   Backend Register and Login - Part 1",
+          "duration": "49m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=xn-qpnT2n3Q",
+          "title": "Ionic React Beginners Guide | Navigation, Components & HTTP Calls 🔥",
+          "duration": "55m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IwHt_QpIa8A",
+          "title": "From React Web to Native Mobile App with Capacitor & Ionic",
+          "duration": "40m",
+          "resource_order": 8
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pkdgVYehiTE",
+          "title": "Frontend vs Backend vs Fullstack Web Development - What should you learn?",
+          "duration": "17m",
+          "resource_order": 9
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://ionicframework.com/docs/angular/navigation",
+          "description": "A detailed guide on implementing navigation in Ionic Angular applications.",
+          "title": "Angular Navigation: How Routing & Redirects Work in Angular Apps",
+          "resource_order": 1
+        },
+        {
+          "url": "https://firebase.google.com/",
+          "description": "A platform offering tools and infrastructure for building and managing web and mobile applications.",
+          "title": "Firebase | Google's Mobile and Web App Development Platform",
+          "resource_order": 2
+        },
+        {
+          "url": "https://forum.ionicframework.com/t/capacitor-ios-cookie-authentication-capacitor-http/237748",
+          "description": "Discussion on implementing cookie-based authentication in iOS using Capacitor HTTP.",
+          "title": "Capacitor iOS / Cookie Authentication / capacitor/http - Capacitor - Ionic Forum",
+          "resource_order": 3
+        },
+        {
+          "url": "https://firebase.google.com/docs",
+          "description": "Official documentation for Firebase, covering setup, features, and integration.",
+          "title": "Firebase Documentation",
+          "resource_order": 4
+        },
+        {
+          "url": "https://docs.amplify.aws/",
+          "description": "Official documentation for AWS Amplify, a platform for building scalable mobile and web applications.",
+          "title": "Amplify Documentation - AWS Amplify Gen 2 Documentation",
+          "resource_order": 5
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://ionicframework.com/docs/react/your-first-app",
+          "description": "A step-by-step guide to building your first app using Ionic and React.",
+          "title": "Ionic Framework",
+          "resource_order": 1
+        },
+        {
+          "url": "https://auth0.com/blog/building-an-audio-player-app-with-ionic-angular-rxjs-and-ngrx/",
+          "description": "A tutorial on building an audio player app using Ionic, Angular, RxJS, and NgRx.",
+          "title": "Building An Audio Player App with Ionic, Angular, RxJS, and NgRx",
+          "resource_order": 2
+        },
+        {
+          "url": "https://ionicframework.com/docs/angular/testing",
+          "description": "A detailed guide on testing Angular applications using the Ionic Framework.",
+          "title": "Ionic Framework",
+          "resource_order": 3
+        },
+        {
+          "url": "https://d0.awsstatic.com/aws-answers/aws-mobile-app-backend.pdf",
+          "description": "A detailed guide on building and managing mobile app backends using AWS services.",
+          "resource_order": 4
+        },
+        {
+          "url": "https://ionicframework.com/docs/angular/navigation",
+          "description": "Guidelines for implementing navigation in Ionic Angular applications.",
+          "title": "Angular Navigation: How Routing & Redirects Work in Angular Apps",
+          "resource_order": 5
+        },
+        {
+          "url": "https://forum.ionicframework.com/t/http-no-access-control-allow-origin-problem-on-post/5625",
+          "description": "Discussion on resolving CORS issues with HTTP POST requests in Ionic Framework.",
+          "title": "$http No 'Access-Control-Allow-Origin' problem on POST - ionic-v1 - Ionic Forum",
+          "resource_order": 6
+        },
+        {
+          "url": "https://ionicthemes.com/tutorials/firebase-authentication-in-ionic-framework-apps",
+          "description": "A tutorial on implementing Firebase authentication in Ionic Framework applications.",
+          "title": "Firebase Authentication Tutorial For Ionic Framework Apps",
+          "resource_order": 7
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=vsiHC8aZid0",
+          "title": "#BuildWithHussain Ep. 8: Mobile App with Frappe & React Native!",
+          "duration": "131m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=K7ghUiXLef8",
+          "title": "Ionic & Capacitor for Building Native Mobile Apps – Full Course for Beginners",
+          "duration": "190m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fqR-WbmX8PM",
+          "title": "Angular 17 CRUD with ASP.NET Core Web API using Entity Framework Core - Full Course",
+          "duration": "79m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=72iEz5iopqQ",
+          "title": "Stripe Payment Integration - React and Node.js E-Commerce",
+          "duration": "49m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mLNq3SanPkk",
+          "title": "Create React App vs. NextJS vs. Vite",
+          "duration": "15m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=c57llB8QA2E",
+          "title": "I bet you can write an Angular UNIT TEST after this video",
+          "duration": "8m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ktZ6ZrfyqZE",
+          "title": "React Native’s Superpower with Theo Browne | Rocket Ship 027",
+          "duration": "79m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wYpCWwD1oz0",
+          "title": "Build a COMPLETE React Admin Dashboard App | React, Material UI, Data Grid, Light & Dark Mode",
+          "duration": "244m",
+          "resource_order": 8
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Rgz6mX93C4Y",
+          "title": "How To Use Cursor AI For Beginners",
+          "duration": "9m",
+          "resource_order": 9
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://ionicframework.com/docs",
+          "description": "Official documentation for building mobile apps using the Ionic Framework.",
+          "title": "Ionic Framework",
+          "resource_order": 1
+        },
+        {
+          "url": "https://flask.palletsprojects.com/",
+          "description": "Official documentation for Flask, a lightweight WSGI web application framework in Python.",
+          "title": "Welcome to Flask — Flask Documentation (3.1.x)",
+          "resource_order": 2
+        },
+        {
+          "url": "https://ionicframework.com/",
+          "description": "A platform for building cross-platform mobile, web, and desktop applications using web technologies.",
+          "title": "Ionic Framework - The Cross-Platform App Development Leader",
+          "resource_order": 3
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://ionicframework.com/",
+          "description": "A platform for building cross-platform mobile applications using web technologies.",
+          "title": "Ionic Framework - The Cross-Platform App Development Leader",
+          "resource_order": 1
+        },
+        {
+          "url": "https://getstream.io/blog/full-stack-ionic-nitric/",
+          "description": "A tutorial on building full-stack applications using Ionic and Nitric.",
+          "title": "Full-Stack Development with Ionic and Nitric",
+          "resource_order": 2
+        },
+        {
+          "url": "https://ionicframework.com/docs",
+          "description": "Official documentation for building mobile apps with the Ionic Framework.",
+          "title": "Ionic Framework",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.sourish.dev/blog/industry/personal-projects",
+          "description": "Insights on how personal projects can enhance your career in the tech industry.",
+          "title": "Personal Projects: A Guide for Beginners",
+          "resource_order": 4
+        },
+        {
+          "url": "https://flask.palletsprojects.com/",
+          "description": "Official documentation for Flask, a lightweight WSGI web application framework in Python.",
+          "title": "Welcome to Flask — Flask Documentation (3.1.x)",
+          "resource_order": 5
+        },
+        {
+          "url": "https://academind.com/courses/paths/backend-web-development",
+          "description": "A structured learning path for mastering backend web development skills.",
+          "title": "Backend",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.linkedin.com/pulse/building-interactive-dashboard-react-fabricjs-matthew-dalby-wuknc",
+          "description": "A guide to creating interactive dashboards using React and Fabric.js.",
+          "title": "Building an Interactive Dashboard With React and FabricJS",
+          "resource_order": 7
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=xn-qpnT2n3Q",
+          "title": "Ionic React Beginners Guide | Navigation, Components & HTTP Calls 🔥",
+          "duration": "55m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Gwup7MV_fXs",
+          "title": "Why \"vanilla JavaScript first\" might NOT be the best approach!",
+          "duration": "10m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=K7ghUiXLef8",
+          "title": "Ionic & Capacitor for Building Native Mobile Apps – Full Course for Beginners",
+          "duration": "190m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Og287zzOTEM",
+          "title": "The Beginner to Industry-Ready Roadmap For Android & KMP Development In 2025",
+          "duration": "19m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uy05FqqJ4TM",
+          "title": "NestJS CRUD API with PostgreSQL for Beginners | LinkedIn Clone [1]",
+          "duration": "67m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nteDXuqBfn0",
+          "title": "Nuxt.js - Introduction by Project",
+          "duration": "55m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LW-cQN0_1R4&pp=0gcJCfwAo7VqN5tD",
+          "title": "How to build a Vue + FastAPI application (with JWT authentication)",
+          "duration": "13m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tca-6yhWXNo",
+          "title": "How to Build Server Driven UI w/ Firebase + Jetpack Compose",
+          "duration": "20m",
+          "resource_order": 8
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ckn5rH7q4P8",
+          "title": "Turn Your Angular App into a Desktop App with Electron!",
+          "duration": "9m",
+          "resource_order": 9
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary purpose of the Ionic Framework in backend development?",
+        "options": [
+          "To create native mobile apps",
+          "To build RESTful APIs",
+          "To enhance frontend UI components",
+          "To develop server-side logic"
+        ],
+        "correct_option": 1,
+        "hint": "Ionic is used to communicate between the client and server.",
+        "question_order": 1
+      },
+      {
+        "question": "What is the first step in setting up Ionic for backend development?",
+        "options": [
+          "Install Node.js and npm",
+          "Configure the database",
+          "Deploy the app to the cloud",
+          "Write unit tests"
+        ],
+        "correct_option": 0,
+        "hint": "Ionic setup requires a JavaScript runtime environment.",
+        "question_order": 2
+      },
+      {
+        "question": "Which database is commonly integrated with Ionic apps for backend development?",
+        "options": [
+          "SQLite",
+          "Oracle",
+          "MongoDB",
+          "PostgreSQL"
+        ],
+        "correct_option": 2,
+        "hint": "This database is known for its NoSQL features and flexibility.",
+        "question_order": 3
+      },
+      {
+        "question": "In Ionic, which method is used to secure APIs against unauthorized access?",
+        "options": [
+          "Rate limiting",
+          "Caching",
+          "Encryption",
+          "Authentication and Authorization"
+        ],
+        "correct_option": 3,
+        "hint": "Ensuring only allowed users can access the API is crucial.",
+        "question_order": 4
+      },
+      {
+        "question": "Which cloud platform is commonly used to deploy Ionic apps?",
+        "options": [
+          "AWS",
+          "Azure",
+          "Firebase",
+          "All of the above"
+        ],
+        "correct_option": 3,
+        "hint": "Ionic supports multiple cloud service providers for deployment.",
+        "question_order": 5
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary role of the Ionic Framework in backend development?",
+        "options": [
+          "Providing a UI library for frontend development",
+          "Facilitating the creation of hybrid mobile apps",
+          "Enabling the integration of backend services",
+          "Handling database management"
+        ],
+        "correct_option": 2,
+        "hint": "Consider how Ionic connects the frontend with backend services.",
+        "question_order": 1
+      },
+      {
+        "question": "Which command is used to set up a new Ionic project specifically for backend development?",
+        "options": [
+          "ionic start",
+          "ionic backend create",
+          "ionic init",
+          "ionic setup backend"
+        ],
+        "correct_option": 0,
+        "hint": "Think of the standard command to start an Ionic project.",
+        "question_order": 2
+      },
+      {
+        "question": "When building RESTful APIs with Ionic, which module is essential for handling HTTP requests?",
+        "options": [
+          "IonicModule",
+          "HttpClientModule",
+          "FormsModule",
+          "RouterModule"
+        ],
+        "correct_option": 1,
+        "hint": "This module is specifically designed for HTTP communication.",
+        "question_order": 3
+      },
+      {
+        "question": "In the context of database integration in Ionic apps, which of the following is a common database used?",
+        "options": [
+          "MongoDB",
+          "SQLite",
+          "Oracle",
+          "Cassandra"
+        ],
+        "correct_option": 1,
+        "hint": "This database is often used for mobile app data storage.",
+        "question_order": 4
+      },
+      {
+        "question": "What is a recommended practice for optimizing the performance of Ionic apps?",
+        "options": [
+          "Using synchronous requests",
+          "Minimizing the use of plugins",
+          "Implementing lazy loading",
+          "Avoiding the use of caching"
+        ],
+        "correct_option": 2,
+        "hint": "Consider techniques that reduce initial load time.",
+        "question_order": 5
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a key advantage of using Ionic Framework for backend development?",
+        "options": [
+          "Cross-platform compatibility",
+          "Built-in database management",
+          "Automatic RESTful API generation",
+          "Integrated cloud deployment tools"
+        ],
+        "correct_option": 0,
+        "hint": "Think about Ionic's ability to target multiple platforms with a single codebase.",
+        "question_order": 1
+      },
+      {
+        "question": "Which command is used to initialize a new Ionic project with a backend service?",
+        "options": [
+          "ionic start",
+          "ionic serve",
+          "ionic backend",
+          "ionic init"
+        ],
+        "correct_option": 0,
+        "hint": "It's a command that typically starts the creation of a new Ionic project.",
+        "question_order": 2
+      },
+      {
+        "question": "When building RESTful APIs with Ionic, which module is primarily used to handle HTTP requests?",
+        "options": [
+          "Ionic Storage",
+          "Ionic Native HTTP",
+          "Ionic Angular",
+          "Ionic CLI"
+        ],
+        "correct_option": 1,
+        "hint": "This module is specifically designed to manage HTTP requests in Ionic.",
+        "question_order": 3
+      },
+      {
+        "question": "In the context of database integration in Ionic apps, which database system is NOT natively supported by Ionic?",
+        "options": [
+          "Firebase",
+          "SQLite",
+          "MongoDB",
+          "Couchbase"
+        ],
+        "correct_option": 2,
+        "hint": "Consider which database is more associated with document storage and is less commonly used directly in mobile frameworks.",
+        "question_order": 4
+      },
+      {
+        "question": "What is a common method for handling authentication and authorization in Ionic apps?",
+        "options": [
+          "Using JSON Web Tokens (JWT)",
+          "Incorporating OAuth 1.0",
+          "Embedding passwords in the app",
+          "Using static API keys"
+        ],
+        "correct_option": 0,
+        "hint": "This method involves encoding user identity information in a token format.",
+        "question_order": 5
+      }
+    ]
+  },
+  "preferred_if": [
+    "User has strong web development background",
+    "Needs rapid prototyping"
+  ]
+}

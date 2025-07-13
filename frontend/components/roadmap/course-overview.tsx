@@ -56,58 +56,7 @@ export default function CourseOverview({
         </ReactMarkdown>
       </div>
 
-      {/* Progress and action section */}
-      <div className="flex flex-col items-center justify-center mb-8">
-        {hasStarted ? (
-          <div className="w-full max-w-2xl">
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-24 mb-6">
-              <div className="text-left flex-grow">
-                <div className="flex items-center gap-2 mb-2">
-                  <TrendingUp className="w-6 h-6 text-pink-600" />
-                  <h3 className="text-xl font-bold">Your Progress</h3>
-                </div>
-                <div className="relative mb-2">
-                  <div className="w-full bg-gray-200 rounded-full h-6 border-2 border-black">
-                    <div
-                      className="bg-pink-500 h-full rounded-full transition-all duration-500 flex items-center justify-center"
-                      style={{ width: `${progress}%` }}
-                    >
-                      <span className="text-sm font-bold text-white">{progress}%</span>
-                    </div>
-                  </div>
-                </div>
-                {lastCourse && <p className="text-sm text-gray-600">Last studied: {lastCourse}</p>}
-              </div>
-
-              <div className="flex-shrink-0 w-full sm:w-auto">
-                <Button
-                  onClick={onContinueCourse}
-                  className="w-full bg-pink-600 hover:bg-black text-white font-bold py-4 px-16 rounded-xl shadow-[4px_4px_0px_0px_rgba(219,39,119)] transition-all hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(219,39,119)] text-lg"
-                >
-                  Continue Learning
-                </Button>
-              </div>
-            </div>
-          </div>
-        ) : (
-          <div className="text-center w-full max-w-md">
-            <div className="mb-6">
-              <h3 className="text-xl font-bold mb-2">Ready to Start Your Journey?</h3>
-              <p className="text-gray-600">
-                Join thousands of women learning to code. Start with the fundamentals and build your way up to
-                advanced concepts.
-              </p>
-            </div>
-
-            <Button
-              onClick={onStartCourse}
-              className="w-full bg-black hover:bg-pink-600 text-white font-bold py-4 px-8 rounded-xl shadow-[4px_4px_0px_0px_rgba(219,39,119)] transition-all hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(219,39,119)] text-lg"
-            >
-              🚀 Start Course
-            </Button>
-          </div>
-        )}
-      </div>
+      
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mt-0">
         {/* Left side - Earn While You Learn! */}

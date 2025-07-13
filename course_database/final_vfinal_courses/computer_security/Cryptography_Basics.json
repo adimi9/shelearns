@@ -1,0 +1,565 @@
+{
+  "id": "CSec10",
+  "name": "Cryptography Basics",
+  "category": "Computer Security",
+  "primary_tech": "Cryptography",
+  "topics": [
+    "Symmetric vs. Asymmetric Encryption",
+    "Hashing Algorithms",
+    "Digital Signatures & Certificates",
+    "Public Key Infrastructure (PKI)"
+  ],
+  "recommended": true,
+  "tags": [
+    "encryption",
+    "data-protection",
+    "algorithms"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://docs.coingecko.com/reference/introduction",
+          "description": "An introduction to CoinGecko's API and its capabilities for cryptocurrency data retrieval.",
+          "title": "\ud83e\udd8eIntroduction",
+          "resource_order": 1
+        },
+        {
+          "url": "https://docs.oracle.com/javase/8/docs/technotes/guides/security/crypto/CryptoSpec.html",
+          "description": "A detailed specification guide on cryptographic operations in Java SE 8.",
+          "title": "Java Cryptography Architecture (JCA) Reference Guide",
+          "resource_order": 2
+        },
+        {
+          "url": "https://learning.postman.com/docs/introduction/overview/",
+          "description": "An introductory overview of Postman and its features for API development.",
+          "title": "Postman documentation overview | Postman Docs",
+          "resource_order": 3
+        },
+        {
+          "url": "https://prometheus.io/docs/prometheus/latest/querying/basics/",
+          "description": "An introductory guide to basic querying in Prometheus.",
+          "title": "Querying basics | Prometheus",
+          "resource_order": 4
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://m.youtube.com/watch?v=HPM17_aZB3g&t=2387s",
+          "description": "A detailed tutorial on using the Godot game engine for beginners.",
+          "title": "Cryptography Tutorial For Beginners | Cybersecurity Training | Edureka | Cybersecurity Live - 2",
+          "duration": "55m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4w8hJ7KAKcQ",
+          "description": "An instructional video on setting up and using Docker for containerized applications.",
+          "title": "Cryptography All-in-One Tutorial Series (1 HOUR!)",
+          "duration": "60m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.coinbase.com/learn/crypto-basics",
+          "description": "An introductory guide to understanding cryptocurrency basics on Coinbase.",
+          "title": "Coinbase Learn: Crypto Basics",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=j_8PLI_wCVU",
+          "description": "A tutorial video on implementing the Model-View-Controller (MVC) design pattern in JavaScript.",
+          "title": "Cryptography Full Course Part 1",
+          "duration": "497m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://arxiv.org/abs/2208.08125",
+          "description": "An exploration of advanced techniques in deep learning for improving model interpretability.",
+          "title": "[2208.08125] A Tutorial Introduction to Lattice-based Cryptography and Homomorphic Encryption",
+          "resource_order": 5
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=j_8PLI_wCVU",
+          "title": "Cryptography Full Course Part 1",
+          "duration": "497m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=S3NOa8MZfDs&pp=0gcJCdgAo7VqN5tD",
+          "title": "How to Invest in Crypto For Beginners [FREE COURSE]",
+          "duration": "41m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2ByOXdddmDM",
+          "title": "FULL Cryptocurrency Trading Course - From Beginner To EXPERT",
+          "duration": "253m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4w8hJ7KAKcQ",
+          "title": "Cryptography All-in-One Tutorial Series (1 HOUR!)",
+          "duration": "60m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=HPM17_aZB3g&t=2387s",
+          "title": "Cryptography Tutorial For Beginners | Cybersecurity Training | Edureka | Cybersecurity Live - 2",
+          "duration": "55m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8aE0f6d2M6o",
+          "title": "How to Invest In Crypto for Beginners 2025 [FREE COURSE]",
+          "duration": "36m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=aJuBQWuHB_I",
+          "title": "Crypto Trading for Beginners! (Free Course to Learn Cryptocurrency)",
+          "duration": "104m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OtZrSMp3eIQ",
+          "title": "CRYPTO TRADING FOR BEGINNERS IN 2025 | Complete Beginner's Course | Episode 1 - CRYPTO BASIC",
+          "duration": "59m",
+          "resource_order": 8
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://learning.postman.com/docs/tests-and-scripts/write-scripts/postman-sandbox-api-reference/",
+          "description": "A detailed reference guide for using the Postman Sandbox API to write scripts and tests.",
+          "title": "Process data and script workflows using Postman JavaScript objects | Postman Docs",
+          "resource_order": 1
+        },
+        {
+          "url": "https://docs.coingecko.com/reference/introduction",
+          "description": "An introductory guide to using the CoinGecko API for cryptocurrency data.",
+          "title": "\ud83e\udd8eIntroduction",
+          "resource_order": 2
+        },
+        {
+          "url": "https://dev.overwolf.com/ow-native/reference/ow-api-overview",
+          "description": "An overview of the Overwolf Native API for app development and integration.",
+          "title": "Overwolf API Overview | Overwolf Developers",
+          "resource_order": 3
+        },
+        {
+          "url": "https://docs.aws.amazon.com/",
+          "description": "Official documentation for Amazon Web Services (AWS) offering detailed guides and references for cloud computing services.",
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 4
+        },
+        {
+          "url": "https://pro.coinmarketcap.com/faq",
+          "description": "Frequently asked questions about CoinMarketCap's professional API services and features.",
+          "title": "Reference API documentation for the CoinMarketCap API",
+          "resource_order": 5
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.splunk.com/en_us/blog/learn/cryptography.html",
+          "description": "An informative article explaining the fundamentals and applications of cryptography in cybersecurity.",
+          "title": "Cryptography 101: Key Principles, Major Types, Use Cases & Algorithms | Splunk",
+          "resource_order": 1
+        },
+        {
+          "url": "https://forum.asana.com/t/track-and-manage-crypto-in-asana/145652",
+          "description": "Guidance on tracking and managing cryptocurrency projects using Asana.",
+          "title": "Track and manage crypto in Asana - English Forum / Use Cases - Asana Forum",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.professormesser.com/security-plus/sy0-501/cryptography-use-cases/",
+          "description": "An overview of cryptography use cases for the CompTIA Security+ SY0-501 exam.",
+          "title": "Cryptography Use Cases - CompTIA Security+ SY0-501 - 6.1 - Professor Messer IT Certification Training Courses",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.mrcy.com/company/blogs/encryption-keys-cliffs-notes-version-part-1",
+          "description": "An introductory guide to understanding encryption keys and their importance in data security.",
+          "title": "Encryption Keys: The Cliffs Notes Version, Part 1 | Mercury Systems",
+          "resource_order": 4
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/storage/blobs/storage-encrypt-decrypt-blobs-key-vault",
+          "description": "Guidance on encrypting and decrypting Azure Blob Storage using Azure Key Vault.",
+          "title": "Encrypt and decrypt blobs using Azure Key Vault - Azure Storage | Microsoft Learn",
+          "resource_order": 5
+        },
+        {
+          "url": "https://deviceauthority.com/symmetric-encryption-vs-asymmetric-encryption/",
+          "description": "An informative comparison between symmetric and asymmetric encryption methods.",
+          "title": "Symmetric Encryption vs Asymmetric Encryption: How it Works and Why it's Used - Device Authority",
+          "resource_order": 6
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=fEqx0MeCCHg",
+          "title": "Starting a New Digital Forensic Investigation Case in Autopsy 4.19+",
+          "duration": "38m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SOnJyqwGn1I",
+          "title": "AWS Security Basics - AWS KMS, Client/Server Side Encryption, CMK, Data Key, Real World Use | Demo",
+          "duration": "14m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gAtBM06xwaw",
+          "title": "Elliptic Curve Cryptography Tutorial - Understanding ECC through the Diffie-Hellman Key Exchange",
+          "duration": "11m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bTkJr9eq0G4&pp=ygUXI2VkdXJla2Fjb21wdGlhc2VjdXJpdHk%3D",
+          "title": "CompTIA Security+ Full Course: Cryptography Explained",
+          "duration": "36m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=t9FIPX93bW4",
+          "title": "JSON Web Tokens crash course - JWT tokens explained",
+          "duration": "46m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=h_m8MiwTdqA",
+          "title": "Post-Quantum Cryptography Explained",
+          "duration": "37m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EF33KmyprEQ",
+          "title": "How to Make a Clean Architecture Cryptocurrency App (MVVM, Use Cases, Compose) - Android Studio",
+          "duration": "89m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=WkKWH_mr7es",
+          "title": "The Great Crypto Scam. A response",
+          "duration": "82m",
+          "resource_order": 8
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://docs.zama.ai/tfhe-rs",
+          "description": "Documentation for the TFHE-rs library, enabling fully homomorphic encryption in Rust.",
+          "title": "Welcome to TFHE-rs | TFHE-rs",
+          "resource_order": 1
+        },
+        {
+          "url": "https://docs.cilium.io/en/stable/index.html",
+          "description": "Documentation for Cilium, an open-source networking and security solution for cloud-native environments.",
+          "title": "Welcome to Cilium\u2019s documentation! \u2014 Cilium 1.17.5 documentation",
+          "resource_order": 2
+        },
+        {
+          "url": "https://docs.aws.amazon.com/",
+          "description": "Official documentation for Amazon Web Services (AWS) covering all services and features.",
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 3
+        },
+        {
+          "url": "https://cloud.google.com/vertex-ai/docs",
+          "description": "Documentation for Google Cloud's Vertex AI platform, detailing its features and usage.",
+          "title": "Vertex AI documentation | Google Cloud",
+          "resource_order": 4
+        },
+        {
+          "url": "https://docs.djangoproject.com/",
+          "description": "Official documentation for the Django web framework, covering installation, tutorials, and API reference.",
+          "title": "Django documentation | Django documentation | Django",
+          "resource_order": 5
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://ssd.eff.org/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work",
+          "description": "An in-depth explanation of how public key encryption systems function.",
+          "title": "A Deep Dive on End-to-End Encryption: How Do Public Key Encryption Systems Work? | Surveillance Self-Defense",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.blackhat.com/us-25/training/schedule/",
+          "description": "A detailed schedule of training sessions for the Black Hat USA 2025 conference.",
+          "title": "Black Hat USA 2025 | Trainings Schedule",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.coinbase.com/learn/tips-and-tutorials",
+          "description": "A collection of tutorials and tips for understanding and using cryptocurrency on Coinbase.",
+          "title": "Coinbase Learn: Tips and Tutorials",
+          "resource_order": 3
+        },
+        {
+          "url": "https://a16zcrypto.com/posts/podcast/stablecoins-deep-dive/",
+          "description": "An in-depth podcast exploring the mechanics and implications of stablecoins.",
+          "title": "Everything stablecoins: Big picture, deep dive - a16z crypto",
+          "resource_order": 4
+        },
+        {
+          "url": "https://rails.devcamp.com/trails/dissecting-rails-5/campsites/rails-5-authentication/guides/using-bcrypt-to-implement-encryption-in-ruby",
+          "description": "A guide on implementing encryption in Ruby using BCrypt for Rails 5 authentication.",
+          "title": "Deep Dive: Using BCrypt to Implement Encryption in Ruby",
+          "resource_order": 5
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=2ByOXdddmDM",
+          "title": "FULL Cryptocurrency Trading Course - From Beginner To EXPERT",
+          "duration": "253m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=vbM2R2CM96Q",
+          "title": "Ultimate Beginners Guide To Price Action Trading (Full Course: Beginner To Advanced)",
+          "duration": "49m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=kP7KpfToMkg",
+          "title": "Azure Key Vault Deep Dive (AZ-500)",
+          "duration": "67m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2eAPg2SSXyg",
+          "title": "The Ultimate Deep and Dark Web Guide - Purchase Anything From Markets",
+          "duration": "201m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_I1omSmy44Q",
+          "title": "The Ultimate Candlestick Patterns Trading Course (For Beginners)",
+          "duration": "101m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=aaSck7jBDbw&pp=0gcJCf0Ao7VqN5tD",
+          "title": "FULL Guide to Encryption & Decryption in Android (Keystore, Ciphers and more)",
+          "duration": "27m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tZSH--qwdcE",
+          "title": "Java Meets MongoDB: A Deep Dive into Client-Side Field Level Encryption",
+          "duration": "40m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zJBef4i57zU",
+          "title": "How To Invest in Crypto as A Complete BEGINNER (2025 GUIDE)",
+          "duration": "52m",
+          "resource_order": 8
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sWTnFS10tdQ&pp=0gcJCfwAo7VqN5tD",
+          "title": "The Ultimate Chart Patterns Trading Course (Expert In 1 Hour)",
+          "duration": "76m",
+          "resource_order": 9
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the main difference between symmetric and asymmetric encryption?",
+        "options": [
+          "Symmetric encryption uses two keys, while asymmetric uses one key.",
+          "Symmetric encryption uses one key, while asymmetric uses two keys.",
+          "Symmetric encryption is slower than asymmetric encryption.",
+          "Symmetric encryption is only used for hashing."
+        ],
+        "correct_option": 1,
+        "hint": "Symmetric encryption involves a single key for both encryption and decryption.",
+        "question_order": 1
+      },
+      {
+        "question": "Which of the following is a characteristic of hashing algorithms?",
+        "options": [
+          "They are reversible.",
+          "They produce a fixed-size output.",
+          "They require a private key.",
+          "They are slower than encryption algorithms."
+        ],
+        "correct_option": 1,
+        "hint": "Hashing algorithms compress input data to a fixed size, regardless of the input size.",
+        "question_order": 2
+      },
+      {
+        "question": "What role do digital signatures play in cryptography?",
+        "options": [
+          "They ensure the confidentiality of a message.",
+          "They provide a way to verify the authenticity of a message.",
+          "They encrypt data using a symmetric key.",
+          "They compress data to save space."
+        ],
+        "correct_option": 1,
+        "hint": "Digital signatures are used to verify the sender's identity and message integrity.",
+        "question_order": 3
+      },
+      {
+        "question": "What does PKI stand for in cryptography?",
+        "options": [
+          "Public Key Infrastructure",
+          "Private Key Innovation",
+          "Public Knowledge Integration",
+          "Personal Key Identification"
+        ],
+        "correct_option": 0,
+        "hint": "PKI involves the use of public and private keys for secure communications.",
+        "question_order": 4
+      },
+      {
+        "question": "Which of the following is NOT a primary technology or concept in cryptography?",
+        "options": [
+          "C",
+          "Y",
+          "Z",
+          "P"
+        ],
+        "correct_option": 2,
+        "hint": "Think of the main letters used in the word 'cryptography'.",
+        "question_order": 5
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "In symmetric encryption, how is the key used between the sender and the receiver?",
+        "options": [
+          "The same key is used for both encryption and decryption.",
+          "Different keys are used for encryption and decryption.",
+          "The key changes with every message sent.",
+          "No key is used in symmetric encryption."
+        ],
+        "correct_option": 0,
+        "hint": "Symmetric encryption relies on a single shared key for both processes.",
+        "question_order": 1
+      },
+      {
+        "question": "Which of the following is a primary advantage of asymmetric encryption over symmetric encryption?",
+        "options": [
+          "It requires fewer computational resources.",
+          "It is faster in processing speed.",
+          "It eliminates the need to securely share keys.",
+          "It uses the same key for encryption and decryption."
+        ],
+        "correct_option": 2,
+        "hint": "Asymmetric encryption uses a pair of keys, which helps in securely exchanging information without prior key sharing.",
+        "question_order": 2
+      },
+      {
+        "question": "Which hashing algorithm is commonly used in digital signatures due to its collision resistance?",
+        "options": [
+          "MD5",
+          "SHA-256",
+          "SHA-1",
+          "CRC32"
+        ],
+        "correct_option": 1,
+        "hint": "This algorithm is part of the SHA-2 family and is widely used for its security properties.",
+        "question_order": 3
+      },
+      {
+        "question": "What is the primary function of a digital certificate in a Public Key Infrastructure (PKI)?",
+        "options": [
+          "To encrypt data",
+          "To authenticate the identity of entities",
+          "To store passwords securely",
+          "To hash data"
+        ],
+        "correct_option": 1,
+        "hint": "Digital certificates are used to verify that a public key belongs to the entity it claims to represent.",
+        "question_order": 4
+      },
+      {
+        "question": "In the context of cryptography, what is a digital signature primarily used for?",
+        "options": [
+          "Encrypting messages",
+          "Decrypting messages",
+          "Authenticating the sender's identity",
+          "Compressing data"
+        ],
+        "correct_option": 2,
+        "hint": "Digital signatures are used to verify the authenticity and integrity of a message or document.",
+        "question_order": 5
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary advantage of asymmetric encryption over symmetric encryption?",
+        "options": [
+          "Faster encryption and decryption",
+          "Simpler key management",
+          "Higher security for large data",
+          "Less computationally intensive"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the complexity of key distribution in symmetric encryption.",
+        "question_order": 1
+      },
+      {
+        "question": "Which hashing algorithm is known for producing a 256-bit hash value and is commonly used in blockchain technology?",
+        "options": [
+          "MD5",
+          "SHA-256",
+          "Blowfish",
+          "AES"
+        ],
+        "correct_option": 1,
+        "hint": "This algorithm is part of the SHA-2 family and is frequently used in Bitcoin.",
+        "question_order": 2
+      },
+      {
+        "question": "In the context of digital signatures, what role does a certificate authority (CA) play?",
+        "options": [
+          "Encrypts the data to be signed",
+          "Verifies the identity of the owner of the public key",
+          "Generates the private key for the user",
+          "Provides the hashing algorithm for the signature"
+        ],
+        "correct_option": 1,
+        "hint": "Think about the entity responsible for vouching for the authenticity of public keys.",
+        "question_order": 3
+      },
+      {
+        "question": "What is one major drawback of using asymmetric cryptography compared to symmetric cryptography?",
+        "options": [
+          "Requires more key pairs",
+          "Is less secure",
+          "Slower processing speed",
+          "Cannot be used for encryption"
+        ],
+        "correct_option": 2,
+        "hint": "Consider the computational requirements for encryption and decryption.",
+        "question_order": 4
+      },
+      {
+        "question": "In Public Key Infrastructure (PKI), what is the primary purpose of a public key certificate?",
+        "options": [
+          "To encrypt data during transmission",
+          "To authenticate the identity of the public key owner",
+          "To store private keys securely",
+          "To hash data efficiently"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how public keys are verified in a secure manner.",
+        "question_order": 5
+      }
+    ]
+  }
+}

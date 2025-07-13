@@ -1,5 +1,7 @@
 package com.learningplatform.backend.model.course.resources;
 
+import com.learningplatform.backend.model.course.resources.enums.ResourceType;
+
 import jakarta.persistence.*;
 
 @Entity
@@ -7,17 +9,10 @@ import jakarta.persistence.*;
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Resource {
 
-    public enum ResourceType {
-        NOTE,
-        DOC,
-        VIDEO,
-        QUIZ
-    }
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "Resource_ID")
-    private Integer resourceId;
+    private Long resourceId;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "Level_ID", nullable = false)
@@ -33,43 +28,18 @@ public abstract class Resource {
     @Column(name = "Resource_Order")
     private Integer resourceOrder;
 
-    public Integer getResourceId() {
-        return resourceId;
-    }
+    public Long getResourceId() { return resourceId; }
+    public void setResourceId(Long resourceId) { this.resourceId = resourceId; }
 
-    public void setResourceId(Integer resourceId) {
-        this.resourceId = resourceId;
-    }
+    public CourseLevel getCourseLevel() { return courseLevel; }
+    public void setCourseLevel(CourseLevel courseLevel) { this.courseLevel = courseLevel; }
 
-    public CourseLevel getCourseLevel() {
-        return courseLevel;
-    }
+    public ResourceType getResourceType() { return resourceType; }
+    public void setResourceType(ResourceType resourceType) { this.resourceType = resourceType; }
 
-    public void setCourseLevel(CourseLevel courseLevel) {
-        this.courseLevel = courseLevel;
-    }
+    public Integer getResourceXp() { return resourceXp; }
+    public void setResourceXp(Integer resourceXp) { this.resourceXp = resourceXp; }
 
-    public ResourceType getResourceType() {
-        return resourceType;
-    }
-
-    public void setResourceType(ResourceType resourceType) {
-        this.resourceType = resourceType;
-    }
-
-    public Integer getResourceXp() {
-        return resourceXp;
-    }
-
-    public void setResourceXp(Integer resourceXp) {
-        this.resourceXp = resourceXp;
-    }
-
-    public Integer getResourceOrder() {
-        return resourceOrder;
-    }
-
-    public void setResourceOrder(Integer resourceOrder) {
-        this.resourceOrder = resourceOrder;
-    }
+    public Integer getResourceOrder() { return resourceOrder; }
+    public void setResourceOrder(Integer resourceOrder) { this.resourceOrder = resourceOrder; }
 }

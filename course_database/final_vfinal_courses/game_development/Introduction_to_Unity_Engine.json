@@ -1,0 +1,538 @@
+{
+  "id": "GD11",
+  "name": "Introduction to Unity Engine",
+  "category": "Game Development",
+  "primary_tech": "Unity Engine",
+  "topics": [
+    "Unity Editor Basics",
+    "Game Objects & Components",
+    "Scene & Asset Management",
+    "Basic Scripting Integration (C#)"
+  ],
+  "recommended": true,
+  "tags": [
+    "engine",
+    "cross-platform",
+    "C#"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://docs.unity.com/",
+          "description": "Official documentation for Unity, a popular game development platform.",
+          "title": "Unity documentation",
+          "resource_order": 1
+        },
+        {
+          "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html",
+          "description": "The official Unity Manual providing comprehensive documentation for using Unity software.",
+          "title": "Unity - Manual: Unity 6.1 User Manual",
+          "resource_order": 2
+        },
+        {
+          "url": "https://doc.photonengine.com/fusion/current/fusion-intro",
+          "description": "An introductory guide to using Photon Fusion for real-time multiplayer game development.",
+          "title": "Fusion 2 - Fusion 2 Introduction | Photon Engine",
+          "resource_order": 3
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=XtQMytORBmM",
+          "description": "An introductory video tutorial on Kubernetes for beginners.",
+          "title": "The Unity Tutorial For Complete Beginners",
+          "duration": "46m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://learn.unity.com/",
+          "description": "A platform offering a wide range of tutorials and resources for learning Unity game development.",
+          "title": "Learn game development w/ Unity | Courses & tutorials in game design, VR, AR, & Real-time 3D | Unity Learn",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pwZpJzpE2lQ",
+          "description": "A detailed tutorial on building a full-stack application using React and Node.js.",
+          "title": "LEARN UNITY - The Most BASIC TUTORIAL I'll Ever Make",
+          "duration": "124m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://unity.com/learn/get-started",
+          "description": "An introductory guide to getting started with Unity game development.",
+          "title": "Access Denied",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+          "description": "A tutorial on using Python for data analysis with Pandas and Matplotlib.",
+          "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
+          "duration": "649m",
+          "resource_order": 5
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=XtQMytORBmM",
+          "title": "The Unity Tutorial For Complete Beginners",
+          "duration": "46m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+          "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
+          "duration": "649m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pwZpJzpE2lQ",
+          "title": "LEARN UNITY - The Most BASIC TUTORIAL I'll Ever Make",
+          "duration": "124m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HwI90YLqMaY&pp=0gcJCfwAo7VqN5tD",
+          "title": "UNITY 6 TUTORIAL PART 1 - LEARN THE BASICS - HOW TO MAKE A GAME FOR BEGINNERS",
+          "duration": "12m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=E6A4WvsDeLE",
+          "title": "Learn Unity in 17 MINUTES! [2025 UPDATED PINNED COMMENT]",
+          "duration": "17m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IuuKUaZQiSU",
+          "title": "Unity UI Tutorial | An introduction",
+          "duration": "28m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gB1F9G0JXOo",
+          "title": "Learn Unity - Beginner's Game Development Tutorial",
+          "duration": "444m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ozL-h75vazQ",
+          "title": "Introduction to Unity fundamentals for absolute beginners.",
+          "duration": "13m",
+          "resource_order": 8
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://docs.unity.com/",
+          "description": "The official documentation for Unity, a comprehensive guide to using the Unity game development platform.",
+          "title": "Unity documentation",
+          "resource_order": 1
+        },
+        {
+          "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/UnityManual.html",
+          "description": "The official Unity Manual providing comprehensive guidance on using Unity 3D for game development.",
+          "title": "Unity - Manual: Unity 6.1 User Manual",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.stereolabs.com/docs",
+          "description": "Official documentation for Stereolabs' 3D sensing and AI technology products.",
+          "title": "Stereolabs Docs: API Reference, Tutorials, and Integration",
+          "resource_order": 3
+        },
+        {
+          "url": "https://docs.unity3d.com/6000.1/Documentation/Manual/class-ScriptableObject.html",
+          "description": "An overview of using ScriptableObjects for data management in Unity projects.",
+          "title": "Unity - Manual: ScriptableObject",
+          "resource_order": 4
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://discussions.unity.com/t/resources-and-tutorials-for-learning-dots-and-ecs-in-2022/889496",
+          "description": "A curated list of resources and tutorials for learning Unity's DOTS and ECS in 2022.",
+          "title": "resources and tutorials for learning dots and ecs in 2022? - Unity Engine - Unity Discussions",
+          "resource_order": 1
+        },
+        {
+          "url": "https://unity.com/learn/get-started",
+          "description": "A beginner's guide to getting started with Unity for game development.",
+          "title": "Access Denied",
+          "resource_order": 2
+        },
+        {
+          "url": "https://discussions.unity.com/t/2d-sprite-always-behind-background/635180",
+          "description": "A forum discussion on resolving 2D sprite layering issues in Unity.",
+          "title": "2D Sprite always behind background - Unity Engine - Unity Discussions",
+          "resource_order": 3
+        },
+        {
+          "url": "https://unity.com/learn",
+          "description": "A learning platform offering tutorials and resources for mastering Unity development.",
+          "title": "Access Denied",
+          "resource_order": 4
+        },
+        {
+          "url": "https://docs.unity.com/",
+          "description": "Official documentation for Unity, a cross-platform game engine.",
+          "title": "Unity documentation",
+          "resource_order": 5
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=k-zMkzmduqI",
+          "title": "Unreal Engine 5 Beginner Tutorial - UE5 Starter Course",
+          "duration": "300m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LMQDCEiLaQY",
+          "title": "Introduction to PCG Workflows in Unreal Engine 5 | Unreal Fest 2023",
+          "duration": "56m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=A3R6T1h0ln8",
+          "title": "Learn to make First 3D game in Godot 4 (Complete Tutorial Beginner Friendly)",
+          "duration": "209m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mh5ygjpvS78",
+          "title": "The Real-time Revolution - Unity 3D for industrial use-cases",
+          "duration": "53m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cBnYYois1vM",
+          "title": "Introduction To Unreal Engine's Game Framework #Tutorial #UE5 #Unity #GameDev",
+          "duration": "31m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8OMghdHP-zs",
+          "title": "Master Python by making 5 games [the new ultimate introduction to pygame]",
+          "duration": "668m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4Am9E36-7HM",
+          "title": "3D modeling with ProBuilder in Unity | Tutorial",
+          "duration": "18m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=77dWGDFqcps",
+          "title": "Animator Transition Interrupt Sources, Explained | Unity Tutorial",
+          "duration": "10m",
+          "resource_order": 8
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+          "description": "An introductory guide to SEO best practices for improving search engine visibility.",
+          "title": "SEO Starter Guide: The Basics | Google Search Central  |  Documentation  |  Google for Developers",
+          "resource_order": 1
+        },
+        {
+          "url": "https://spectralops.io/blog/the-complete-guide-to-the-unity-scripting-api/",
+          "description": "A comprehensive guide to utilizing the Unity Scripting API for game development.",
+          "title": "The Complete Guide to the Unity Scripting API - Spectral",
+          "resource_order": 2
+        },
+        {
+          "url": "https://developer.vuforia.com/library/vuforia-engine/getting-started/development-environments/getting-started-vuforia-engine-unity/",
+          "description": "A guide to integrating Vuforia Engine with Unity for augmented reality development.",
+          "title": "Unity - Vuforia Engine Library",
+          "resource_order": 3
+        },
+        {
+          "url": "https://create.roblox.com/docs",
+          "description": "Comprehensive documentation for creating and developing experiences on the Roblox platform.",
+          "title": "Documentation - Roblox Creator Hub",
+          "resource_order": 4
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+          "description": "An introductory tutorial on using ChatGPT for various applications.",
+          "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
+          "duration": "649m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://unity.com/resources/introduction-to-urp-advanced-creators-unity-6",
+          "description": "An introductory guide to using Unity's Universal Render Pipeline for advanced creators.",
+          "title": "Access Denied",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=i3xNb5R_xos",
+          "description": "An in-depth tutorial on mastering Python's logging module for effective debugging and monitoring.",
+          "title": "Create Your First VR Project in Unreal Engine 5 | Meta Quest 3 | Quick Setup Guide for Beginners",
+          "duration": "18m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://unity.com/learn/get-started",
+          "description": "An introductory guide to getting started with Unity for game development.",
+          "title": "Access Denied",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ku6AtIY-Lu0&pp=0gcJCfwAo7VqN5tD",
+          "description": "A YouTube video tutorial on advanced techniques for optimizing Python code performance.",
+          "title": "Cheat Engine: Introduction (tutorial 1-4) - Game Hacking Series",
+          "duration": "23m",
+          "resource_order": 5
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+          "title": "Learn Unity Beginner/Intermediate 2025 (FREE COMPLETE Course - Unity Tutorial)",
+          "duration": "649m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=i3xNb5R_xos",
+          "title": "Create Your First VR Project in Unreal Engine 5 | Meta Quest 3 | Quick Setup Guide for Beginners",
+          "duration": "18m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
+          "title": "Learn C# FREE Tutorial Course Beginner to Advanced! [2025 - 12 HOURS]",
+          "duration": "760m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TUmiAdqMhD8",
+          "title": "Environment Art Mastery - Deep Dive",
+          "duration": "19m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fSbBsXbjxPo",
+          "title": "Lighting in Unreal Engine 5 for Beginners",
+          "duration": "44m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Qif4jxhGT9c",
+          "title": "Free Unity 2D Course for Beginners (Game Design Tutorial)",
+          "duration": "504m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ku6AtIY-Lu0&pp=0gcJCfwAo7VqN5tD",
+          "title": "Cheat Engine: Introduction (tutorial 1-4) - Game Hacking Series",
+          "duration": "23m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5DF55w6b4b4",
+          "title": "Unity Crash Course for Absolute Beginners! Learn C# and Make Games!!",
+          "duration": "70m",
+          "resource_order": 8
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary function of the Unity Editor?",
+        "options": [
+          "To create 3D models",
+          "To edit video files",
+          "To develop and manage games",
+          "To write novels"
+        ],
+        "correct_option": 2,
+        "hint": "Think about the main purpose of Unity as a platform.",
+        "question_order": 1
+      },
+      {
+        "question": "Which component would you use to add physics properties to a GameObject?",
+        "options": [
+          "Animator",
+          "Rigidbody",
+          "Audio Source",
+          "Collider"
+        ],
+        "correct_option": 1,
+        "hint": "This component allows objects to move and be affected by forces like gravity.",
+        "question_order": 2
+      },
+      {
+        "question": "What is a GameObject in Unity?",
+        "options": [
+          "A 3D model",
+          "A script",
+          "An element that can be placed in a scene",
+          "A sound file"
+        ],
+        "correct_option": 2,
+        "hint": "Think of it as the building block of a scene.",
+        "question_order": 3
+      },
+      {
+        "question": "Which programming language is primarily used for scripting in Unity?",
+        "options": [
+          "Java",
+          "Python",
+          "C#",
+          "JavaScript"
+        ],
+        "correct_option": 2,
+        "hint": "It's a language developed by Microsoft often used in Unity.",
+        "question_order": 4
+      },
+      {
+        "question": "Where can you find and manage all assets in Unity?",
+        "options": [
+          "Scene View",
+          "Inspector",
+          "Project Window",
+          "Hierarchy"
+        ],
+        "correct_option": 2,
+        "hint": "It's a window that displays all imported assets and files.",
+        "question_order": 5
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the purpose of the Inspector window in Unity?",
+        "options": [
+          "To modify the properties of a selected GameObject",
+          "To display the hierarchy of all GameObjects in the scene",
+          "To write and compile C# scripts",
+          "To preview and manage animations"
+        ],
+        "correct_option": 0,
+        "hint": "This window allows you to change properties of components attached to a GameObject.",
+        "question_order": 1
+      },
+      {
+        "question": "Which component is necessary to render a 3D object visible in a Unity scene?",
+        "options": [
+          "Transform",
+          "Mesh Renderer",
+          "Audio Source",
+          "Box Collider"
+        ],
+        "correct_option": 1,
+        "hint": "This component is responsible for displaying the 3D geometry on the screen.",
+        "question_order": 2
+      },
+      {
+        "question": "How can you create a Prefab from a GameObject in Unity?",
+        "options": [
+          "Drag the GameObject into the Project window",
+          "Right-click on the GameObject and select 'Create Prefab'",
+          "Use the 'GameObject' menu and select 'Create Prefab'",
+          "Save the scene with the GameObject active"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how you might add a reusable object to your project's assets.",
+        "question_order": 3
+      },
+      {
+        "question": "In Unity scripting, which method is commonly used to update game logic every frame?",
+        "options": [
+          "Start()",
+          "Update()",
+          "Awake()",
+          "FixedUpdate()"
+        ],
+        "correct_option": 1,
+        "hint": "This method is called once per frame and is ideal for regular updates.",
+        "question_order": 4
+      },
+      {
+        "question": "What is the role of the Hierarchy window in Unity?",
+        "options": [
+          "To show the file structure of the project",
+          "To display and organize all GameObjects in the current scene",
+          "To modify the lighting settings of the scene",
+          "To manage the physics properties of GameObjects"
+        ],
+        "correct_option": 1,
+        "hint": "This window helps in organizing the objects that are part of the current scene.",
+        "question_order": 5
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the primary function of the Unity Editor's Inspector window?",
+        "options": [
+          "To modify properties of selected GameObjects or assets",
+          "To adjust camera angles and lighting in a scene",
+          "To compile scripts and debug code",
+          "To manage project settings and build configurations"
+        ],
+        "correct_option": 0,
+        "hint": "It allows you to view and edit the properties of objects and assets.",
+        "question_order": 1
+      },
+      {
+        "question": "Which component is essential for a GameObject to receive and respond to user inputs in Unity?",
+        "options": [
+          "Rigidbody component",
+          "Collider component",
+          "Script component",
+          "Transform component"
+        ],
+        "correct_option": 1,
+        "hint": "This component defines the physical shape and is necessary for detecting interactions.",
+        "question_order": 2
+      },
+      {
+        "question": "In Unity, what is the purpose of the 'Awake' function in a script attached to a GameObject?",
+        "options": [
+          "To initialize variables before the game starts",
+          "To handle user input during gameplay",
+          "To load assets dynamically",
+          "To update the GameObject's position every frame"
+        ],
+        "correct_option": 0,
+        "hint": "This function is called when the script instance is being loaded.",
+        "question_order": 3
+      },
+      {
+        "question": "What is the role of the Asset Store in Unity development?",
+        "options": [
+          "A marketplace for purchasing and downloading pre-made assets",
+          "A tool for version control and collaboration",
+          "A feature for testing game performance",
+          "A platform for publishing finished games"
+        ],
+        "correct_option": 0,
+        "hint": "It provides resources like models, scripts, and tools to enhance development.",
+        "question_order": 4
+      },
+      {
+        "question": "How does Unity's Scene Management system improve game level loading efficiency?",
+        "options": [
+          "By allowing asynchronous loading of scenes",
+          "By compressing textures and assets",
+          "By optimizing physics calculations",
+          "By reducing the number of GameObjects per scene"
+        ],
+        "correct_option": 0,
+        "hint": "It allows parts of a game to load in the background without blocking the main thread.",
+        "question_order": 5
+      }
+    ]
+  }
+}

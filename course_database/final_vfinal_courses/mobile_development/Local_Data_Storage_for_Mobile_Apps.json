@@ -1,0 +1,550 @@
+{
+  "id": "MD19",
+  "name": "Local Data Storage for Mobile Apps",
+  "category": "Mobile Development",
+  "primary_tech": "Local Storage",
+  "topics": [
+    "Shared Preferences/UserDefaults",
+    "SQLite Databases (SQLDelight/Core Data)",
+    "NoSQL Mobile Databases (Realm/Hive)",
+    "File System Access"
+  ],
+  "recommended": true,
+  "tags": [
+    "database",
+    "offline",
+    "data-persistence"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/database",
+          "description": "Comprehensive documentation on using Firebase Realtime Database for real-time data synchronization.",
+          "title": "Firebase Realtime Database",
+          "resource_order": 1
+        },
+        {
+          "url": "https://developer.android.com/training/data-storage/room",
+          "description": "A guide to using the Room persistence library for efficient data storage in Android apps.",
+          "title": "Save data in a local database using Room  |  App data and files  |  Android Developers",
+          "resource_order": 2
+        },
+        {
+          "url": "https://firebase.google.com/docs/firestore/quickstart",
+          "description": "A quickstart guide to integrating Google Firestore into your application.",
+          "title": "Get started with Cloud Firestore  |  Firebase",
+          "resource_order": 3
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://developer.android.com/training/data-storage/room",
+          "description": "An official guide on using Room for structured data storage in Android apps.",
+          "title": "Save data in a local database using Room  |  App data and files  |  Android Developers",
+          "resource_order": 1
+        },
+        {
+          "url": "https://developer.apple.com/app-store/review/guidelines/",
+          "description": "Official guidelines for app review processes on the Apple App Store.",
+          "title": "App Review Guidelines - Apple Developer",
+          "resource_order": 2
+        },
+        {
+          "url": "https://firebase.google.com/docs/database",
+          "description": "Official documentation for Firebase Realtime Database, covering setup and usage.",
+          "title": "Firebase Realtime Database",
+          "resource_order": 3
+        },
+        {
+          "url": "https://cloud.google.com/storage",
+          "description": "An overview of Google Cloud Storage services and features for scalable and secure data storage.",
+          "title": "Cloud Storage | Google Cloud",
+          "resource_order": 4
+        },
+        {
+          "url": "https://firebase.google.com/docs/emulator-suite",
+          "description": "An overview of Firebase's Emulator Suite for local testing of cloud products.",
+          "title": "Introduction to Firebase Local Emulator Suite",
+          "resource_order": 5
+        },
+        {
+          "url": "https://cloud.google.com/learn/what-is-cloud-storage",
+          "description": "An introductory guide explaining the fundamentals of cloud storage and its benefits.",
+          "title": "What is Cloud Storage & How Does it Work? | Google Cloud | Google Cloud",
+          "resource_order": 6
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview",
+          "description": "An overview of Azure Application Insights for monitoring and analyzing application performance.",
+          "title": "Application Insights OpenTelemetry observability overview - Azure Monitor | Microsoft Learn",
+          "resource_order": 7
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=krRkm8w22A8&pp=0gcJCdgAo7VqN5tD",
+          "title": "SwiftData Basics in 15 minutes",
+          "duration": "15m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=c6aGVrjE974",
+          "title": "Complete Mobile App Tutorial With Only HTML, CSS and JavaScript | PWA Tutorial",
+          "duration": "45m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-ZRDZyUjEEI&pp=ygUQI2xvY2Fsc3RvcmFnZWFwaQ%3D%3D",
+          "title": "Local Storage for Beginners | JavaScript Tutorial",
+          "duration": "15m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6VejFu1nEYs&pp=0gcJCfwAo7VqN5tD",
+          "title": "Lovable Tutorial for Beginners (Best AI App Builder?)",
+          "duration": "16m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=mMgr47QBZWA",
+          "title": "📱 TO DO App • Flutter Tutorial ♥ Hive Local Storage",
+          "duration": "42m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nK0rtoU_D2Q",
+          "title": "Learn Live - Store local data with SQLite in a .NET MAUI app",
+          "duration": "90m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Af3w1LYgiHY",
+          "title": "React Native Data Storage, Theme Toggle, Animations & Fonts",
+          "duration": "39m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nUM2UzUycM8",
+          "title": "How to save data to local storage - iOS File System and Sandboxing",
+          "duration": "19m",
+          "resource_order": 8
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/cli",
+          "description": "Official documentation for using the Firebase CLI to manage Firebase projects.",
+          "title": "Firebase CLI reference  |  Firebase Documentation",
+          "resource_order": 1
+        },
+        {
+          "url": "https://developer.android.com/training/data-storage",
+          "description": "A guide to understanding and implementing data storage solutions in Android applications.",
+          "title": "Data and file storage overview  |  App data and files  |  Android Developers",
+          "resource_order": 2
+        },
+        {
+          "url": "https://firebase.google.com/docs/database",
+          "description": "Official documentation for Firebase Realtime Database, detailing setup, usage, and best practices.",
+          "title": "Firebase Realtime Database",
+          "resource_order": 3
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python",
+          "description": "Official documentation for developing Azure Functions using Python.",
+          "title": "Python developer reference for Azure Functions | Microsoft Learn",
+          "resource_order": 4
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.ramotion.com/blog/what-is-web-storage/",
+          "description": "An informative article explaining the concept and usage of web storage in web development.",
+          "title": "What is Web Storage - Types, Tips & Use Cases | Ramotion Agency",
+          "resource_order": 1
+        },
+        {
+          "url": "https://developer.apple.com/app-store/review/guidelines/",
+          "description": "Official guidelines for app developers to ensure compliance with the App Store review process.",
+          "title": "App Review Guidelines - Apple Developer",
+          "resource_order": 2
+        },
+        {
+          "url": "https://developer.android.com/training/data-storage",
+          "description": "Guidelines and best practices for data storage in Android applications.",
+          "title": "Data and file storage overview  |  App data and files  |  Android Developers",
+          "resource_order": 3
+        },
+        {
+          "url": "https://cloud.google.com/learn/what-is-cloud-storage",
+          "description": "An introduction to cloud storage and its benefits on Google Cloud Platform.",
+          "title": "What is Cloud Storage & How Does it Work? | Google Cloud | Google Cloud",
+          "resource_order": 4
+        },
+        {
+          "url": "https://developer.android.com/training/data-storage/room",
+          "description": "An in-depth tutorial on using the Room persistence library for data storage in Android apps.",
+          "title": "Save data in a local database using Room  |  App data and files  |  Android Developers",
+          "resource_order": 5
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=ELFORM9fmss&pp=0gcJCdgAo7VqN5tD",
+          "title": "Flutter Clean Architecture Full Course For Beginners - Bloc, Supabase, Hive, GetIt",
+          "duration": "424m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bOd3wO0uFr8&pp=0gcJCf0Ao7VqN5tD",
+          "title": "The FULL Beginner Guide for Room in Android | Local Database Tutorial for Android",
+          "duration": "47m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=taJlPG82Ucw&pp=0gcJCfwAo7VqN5tD",
+          "title": "Coolify Crash Course | Self Host 101 | Secure Set up",
+          "duration": "89m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
+          "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
+          "duration": "158m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2TJxpyO3ei4",
+          "title": "Python RAG Tutorial (with Local LLMs): AI For Your PDFs",
+          "duration": "21m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0_Ij8FEvY4U",
+          "title": "The ultimate guide to Bolt.new | Build apps with AI (step-by-step)",
+          "duration": "28m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6VejFu1nEYs&pp=0gcJCfwAo7VqN5tD",
+          "title": "Lovable Tutorial for Beginners (Best AI App Builder?)",
+          "duration": "16m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VYxIcmYLYYQ",
+          "title": "How to store data in an iOS app? - Introduction to data persistence in Swift locally and with sync",
+          "duration": "20m",
+          "resource_order": 8
+        },
+        {
+          "url": "https://m.youtube.com/watch?v=EXctz9fYwWM&pp=ygURI2xpbmtsb2NhbHN0b3JhZ2U%3D",
+          "title": "Local Storage in 5 minutes",
+          "duration": "5m",
+          "resource_order": 9
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zIfxkub7CLY&pp=0gcJCdgAo7VqN5tD",
+          "title": "Intro to Azure Functions - What they are and how to create and deploy them",
+          "duration": "70m",
+          "resource_order": 10
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview",
+          "description": "An overview of Azure Application Insights for monitoring application performance and usage.",
+          "title": "Application Insights OpenTelemetry observability overview - Azure Monitor | Microsoft Learn",
+          "resource_order": 1
+        },
+        {
+          "url": "https://docs.streamlit.io/",
+          "description": "Official documentation for Streamlit, a framework for creating interactive web applications in Python.",
+          "title": "Streamlit documentation",
+          "resource_order": 2
+        },
+        {
+          "url": "https://cloud.google.com/vertex-ai",
+          "description": "An overview of Vertex AI, Google's platform for building, deploying, and scaling machine learning models.",
+          "title": "Vertex AI Platform | Google Cloud",
+          "resource_order": 3
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview",
+          "description": "An overview of Azure Application Insights for monitoring and analyzing application performance.",
+          "title": "Application Insights OpenTelemetry observability overview - Azure Monitor | Microsoft Learn",
+          "resource_order": 1
+        },
+        {
+          "url": "https://budibase.com/blog/how-to-make-a-web-app/",
+          "description": "A step-by-step guide on building a web application using Budibase.",
+          "title": "How to Build a Web App: Beginner's Guide (2025)",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.tdisdi.com/sdi-diver-news/top-15-must-have-scuba-diving-apps-for-android-and-ios/",
+          "description": "A curated list of essential scuba diving apps for Android and iOS platforms.",
+          "title": "Top 15 Must-Have Scuba Diving Apps for Android and iOS -",
+          "resource_order": 3
+        },
+        {
+          "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+          "description": "A comprehensive guide to self-hosting applications and services.",
+          "title": "GitHub - mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
+          "resource_order": 4
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8590973/",
+          "description": "An analysis of the impact of COVID-19 vaccination on the transmission of the virus.",
+          "title": "Telemedicine for healthcare: Capabilities, features, barriers, and applications - PMC",
+          "resource_order": 5
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=bhtb8SZ-kk4",
+          "title": "2025 BMW X3 Deep Dive Tutorial",
+          "duration": "46m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
+          "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
+          "duration": "158m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+          "title": "Complete Kubernetes Course - From BEGINNER to PRO",
+          "duration": "374m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rJsHc-4w60g",
+          "title": "Power Apps Tutorial | FULL COURSE for Beginners",
+          "duration": "136m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IPvYjXCsTg8",
+          "title": "Computer Networking Full Course - OSI Model Deep Dive with Real Life Examples",
+          "duration": "246m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=82PXenL4MGg",
+          "title": "React.JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
+          "duration": "305m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SWP3k-24jT4",
+          "title": "How to Build AI Chatbots: Full Guide from Beginner to Pro (Latest Update)",
+          "duration": "88m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=56Ihv5MF4_U",
+          "title": "Microsoft Intune From Zero to Hero",
+          "duration": "39m",
+          "resource_order": 8
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the primary use of Shared Preferences in mobile apps?",
+        "options": [
+          "To store large multimedia files",
+          "To save small amounts of data, like user settings",
+          "To handle network requests",
+          "To manage app installations"
+        ],
+        "correct_option": 1,
+        "hint": "Think about where you would store a user's theme preference.",
+        "question_order": 1
+      },
+      {
+        "question": "Which of the following is a characteristic of SQLite databases?",
+        "options": [
+          "They are NoSQL databases",
+          "They provide a serverless, self-contained database engine",
+          "They require an internet connection",
+          "They are primarily used for cloud storage"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the type of database that is lightweight and often used locally.",
+        "question_order": 2
+      },
+      {
+        "question": "What is a key advantage of using NoSQL databases like Realm for mobile apps?",
+        "options": [
+          "They require complex SQL queries",
+          "They offer high scalability and flexibility",
+          "They are only used for caching data",
+          "They automatically update themselves without any code"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how these databases handle data structures compared to traditional SQL databases.",
+        "question_order": 3
+      },
+      {
+        "question": "What is a common use case for accessing the file system in a mobile app?",
+        "options": [
+          "To execute server-side scripts",
+          "To store and retrieve user-generated content",
+          "To connect to Bluetooth devices",
+          "To perform real-time data analysis"
+        ],
+        "correct_option": 1,
+        "hint": "Consider what you might do with files like images or documents in an app.",
+        "question_order": 4
+      },
+      {
+        "question": "Which mobile storage option would you use for storing simple key-value pairs?",
+        "options": [
+          "Realm",
+          "File system",
+          "Shared Preferences/UserDefaults",
+          "SQLite"
+        ],
+        "correct_option": 2,
+        "hint": "This option is often used for settings or configurations.",
+        "question_order": 5
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the primary use of Shared Preferences in Android or UserDefaults in iOS?",
+        "options": [
+          "To store large amounts of structured data",
+          "For caching images and media files",
+          "To store small key-value pairs",
+          "For managing private cloud data"
+        ],
+        "correct_option": 2,
+        "hint": "These are typically used for storing user settings or preferences.",
+        "question_order": 1
+      },
+      {
+        "question": "Which of the following is true about SQLite databases in mobile applications?",
+        "options": [
+          "They are always stored in the cloud",
+          "They require internet connection to access",
+          "They are relational databases stored locally",
+          "They cannot be used to store user data"
+        ],
+        "correct_option": 2,
+        "hint": "SQLite is known for being a lightweight, serverless, self-contained database engine.",
+        "question_order": 2
+      },
+      {
+        "question": "What is a major advantage of using NoSQL databases like Realm or Hive for mobile app development?",
+        "options": [
+          "They are optimized for relational data storage",
+          "They only work with structured query language",
+          "They automatically sync data across all devices",
+          "They handle unstructured data and complex queries efficiently"
+        ],
+        "correct_option": 3,
+        "hint": "NoSQL databases are designed to provide flexible and scalable data storage.",
+        "question_order": 3
+      },
+      {
+        "question": "Which statement is true about file system access in mobile applications?",
+        "options": [
+          "All files are stored in a shared public directory",
+          "Apps have unrestricted access to all system files",
+          "Each app has a private storage space for files",
+          "File system access requires root permissions"
+        ],
+        "correct_option": 2,
+        "hint": "Mobile operating systems use sandboxing for app data.",
+        "question_order": 4
+      },
+      {
+        "question": "When using Core Data in iOS, what is the primary role of the Managed Object Context?",
+        "options": [
+          "It manages the app's user interface",
+          "It provides a temporary buffer to manage object life cycles",
+          "It handles network requests",
+          "It is used for authentication purposes"
+        ],
+        "correct_option": 1,
+        "hint": "This component is crucial for managing the life cycle of objects and for tracking changes. ",
+        "question_order": 5
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is a primary advantage of using SQLite databases in mobile apps?",
+        "options": [
+          "Automatic data synchronization across devices",
+          "Ease of handling complex relationships between data entities",
+          "Support for real-time data updates without conflicts",
+          "Minimal impact on application performance due to lightweight operations"
+        ],
+        "correct_option": 3,
+        "hint": "SQLite is known for its efficiency and minimal resource usage.",
+        "question_order": 1
+      },
+      {
+        "question": "In the context of iOS development, how does UserDefaults store data, and what is a key limitation?",
+        "options": [
+          "Data is stored in binary format; it's not suitable for storing large amounts of data.",
+          "Data is stored in a relational database; it lacks support for storing custom objects.",
+          "Data is stored in XML format; it can only store primitive types and collections thereof.",
+          "Data is stored in JSON format; it's limited to user preferences only."
+        ],
+        "correct_option": 2,
+        "hint": "UserDefaults is typically used for simple data storage needs.",
+        "question_order": 2
+      },
+      {
+        "question": "What is a significant advantage of using NoSQL databases like Realm for mobile applications?",
+        "options": [
+          "Enhanced speed and performance for complex SQL queries",
+          "Automatic schema migrations and version control",
+          "Increased flexibility in data models and schema-less design",
+          "Built-in support for distributed transactions across multiple devices"
+        ],
+        "correct_option": 2,
+        "hint": "NoSQL databases thrive on flexibility and adaptability to changing data needs.",
+        "question_order": 3
+      },
+      {
+        "question": "When working with the file system in mobile apps, which practice is essential for maintaining app performance and security?",
+        "options": [
+          "Storing all user data in the app's main bundle",
+          "Regularly backing up all files to a cloud service",
+          "Using a background thread to read/write large files",
+          "Encrypting all files stored in the app's document directory"
+        ],
+        "correct_option": 2,
+        "hint": "Blocking the main thread can affect app responsiveness.",
+        "question_order": 4
+      },
+      {
+        "question": "How does SQLDelight differ from traditional SQLite usage in mobile apps?",
+        "options": [
+          "SQLDelight provides a graphical interface for database design.",
+          "SQLDelight allows for real-time data synchronization across platforms.",
+          "SQLDelight generates type-safe Kotlin APIs from SQL statements.",
+          "SQLDelight integrates machine learning for query optimization."
+        ],
+        "correct_option": 2,
+        "hint": "SQLDelight emphasizes type safety and integration with Kotlin.",
+        "question_order": 5
+      }
+    ]
+  }
+}

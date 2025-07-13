@@ -1,0 +1,581 @@
+{
+  "id": "FS21",
+  "name": "Scalable Data Management with Apache Cassandra",
+  "category": "FullStack Development",
+  "primary_tech": "Cassandra",
+  "topics": [
+    "Introduction to Apache Cassandra and NoSQL concepts",
+    "Data Modeling Techniques in Cassandra",
+    "Consistency Levels and Replication Strategies",
+    "CQL (Cassandra Query Language) Basics and Advanced Queries",
+    "Cluster Setup and Configuration",
+    "Performance Tuning and Optimization",
+    "Handling Large Volumes of Data with Cassandra",
+    "Security and Authentication Methods in Cassandra"
+  ],
+  "recommended": false,
+  "tags": [
+    "Cassandra",
+    "NoSQL",
+    "distributed-database",
+    "data-modeling",
+    "replication"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://cassandra.apache.org/_/index.html",
+          "description": "The official documentation hub for Apache Cassandra, covering setup, configuration, and usage.",
+          "title": "Apache Cassandra | Apache Cassandra Documentation",
+          "resource_order": 1
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/",
+          "description": "An official resource hub for learning about Microsoft Azure services and solutions.",
+          "title": "Azure documentation | Microsoft Learn",
+          "resource_order": 2
+        },
+        {
+          "url": "https://docs.janusgraph.org/",
+          "description": "Comprehensive documentation for JanusGraph, a scalable graph database optimized for storing and querying large graphs.",
+          "title": "JanusGraph",
+          "resource_order": 3
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://cassandra.apache.org/_/cassandra-basics.html",
+          "description": "An introduction to the fundamental concepts and architecture of Apache Cassandra.",
+          "title": "Apache Cassandra | Apache Cassandra Documentation",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.instaclustr.com/education/apache-cassandra/apache-cassandra-on-aws-the-basics-and-how-to-manage/",
+          "description": "An introductory guide on managing Apache Cassandra on AWS.",
+          "title": "Apache Cassandra on AWS: The basics and how to manage",
+          "resource_order": 2
+        },
+        {
+          "url": "https://cassandra.apache.org/_/index.html",
+          "description": "The official documentation and resources for Apache Cassandra, a distributed NoSQL database.",
+          "title": "Apache Cassandra | Apache Cassandra Documentation",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.instaclustr.com/education/apache-cassandra/apache-cassandra-tutorial-cheat-sheet-basic-setup-and-vector-search/",
+          "description": "A quick reference guide for setting up Apache Cassandra and implementing vector search.",
+          "title": "Apache Cassandra tutorial: Cheat sheet, basic setup and vector search",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.freecodecamp.org/news/the-apache-cassandra-beginner-tutorial/",
+          "description": "An introductory tutorial for beginners on using Apache Cassandra.",
+          "title": "The Apache Cassandra Beginner Tutorial",
+          "resource_order": 5
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=PYdLIvBHe2E",
+          "title": "Overview of Amazon Keyspaces (for Apache Cassandra)",
+          "duration": "1m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=N9QllqXI1sE",
+          "title": "Apache Cassandra | Cassandra Tutorial Part 1 | Cassandra Tutorial for Beginners | Big Data Tutorial",
+          "duration": "166m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4D39wJu5Too",
+          "title": "How to Create a Cassandra Data Model [Webinar] | DataStax",
+          "duration": "71m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=J-cSy5MeMOA&pp=0gcJCdgAo7VqN5tD",
+          "title": "Apache Cassandra Database – Full Course for Beginners",
+          "duration": "68m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=JHpBp4peJ0I",
+          "title": "Serverless Apache Cassandra with Amazon Keyspaces | Serverless Office Hours",
+          "duration": "58m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=u6pKIrfJgkU",
+          "title": "Advanced Data Modeling in Apache Cassandra™",
+          "duration": "127m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GqAcTrqKcrY",
+          "title": "Realtime Data Streaming |  End To End Data Engineering Project",
+          "duration": "87m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+          "title": "NoSQL vs SQL – Which Type of Database Should You Use?",
+          "duration": "85m",
+          "resource_order": 8
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DFHzbK2Tuak",
+          "title": "Introduction To Apache Kafka Certification Training  | Simplilearn",
+          "duration": "44m",
+          "resource_order": 9
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1Y3TvLDh8e4",
+          "title": "How to migrate self-managed Cassandra to Amazon Keyspaces | The Data Dive on AWS OnAir S01",
+          "duration": "58m",
+          "resource_order": 10
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://cassandra.apache.org/_/index.html",
+          "description": "Official documentation and resources for Apache Cassandra, a distributed NoSQL database.",
+          "title": "Apache Cassandra | Apache Cassandra Documentation",
+          "resource_order": 1
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/",
+          "description": "Official Microsoft Azure documentation providing resources and guides for cloud services.",
+          "title": "Azure documentation | Microsoft Learn",
+          "resource_order": 2
+        },
+        {
+          "url": "https://docs.aws.amazon.com/decision-guides/latest/databases-on-aws-how-to-choose/databases-on-aws-how-to-choose.html",
+          "description": "A guide for choosing the appropriate AWS database service for various use cases.",
+          "title": "Choosing an AWS database service - Choosing an AWS database service",
+          "resource_order": 3
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://cassandra.apache.org/_/index.html",
+          "description": "The official Apache Cassandra documentation and resource hub.",
+          "title": "Apache Cassandra | Apache Cassandra Documentation",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.instaclustr.com/education/apache-cassandra/apache-cassandra-on-aws-the-basics-and-how-to-manage/",
+          "description": "A guide to deploying and managing Apache Cassandra on AWS.",
+          "title": "Apache Cassandra on AWS: The basics and how to manage",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.gridgain.com/resources/papers/introducing-apache-ignite",
+          "description": "An introductory paper on the features and benefits of using Apache Ignite for in-memory computing.",
+          "title": "Apache Ignite Introduction - GridGain Systems",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.instaclustr.com/education/nosql-database/nosql-tutorial-taking-your-first-steps-in-the-nosql-world/",
+          "description": "An introductory tutorial for beginners to start learning NoSQL databases.",
+          "title": "NoSQL tutorial: Taking your first steps in the NoSQL world",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.mongodb.com/resources/basics/databases/nosql-explained",
+          "description": "An introductory guide to understanding NoSQL databases and their applications.",
+          "title": "What Is NoSQL? NoSQL Databases Explained | MongoDB",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.freecodecamp.org/news/the-apache-cassandra-beginner-tutorial/",
+          "description": "An introductory tutorial for beginners on using Apache Cassandra.",
+          "title": "The Apache Cassandra Beginner Tutorial",
+          "resource_order": 6
+        },
+        {
+          "url": "https://docs.aws.amazon.com/decision-guides/latest/databases-on-aws-how-to-choose/databases-on-aws-how-to-choose.html",
+          "description": "Guidance on selecting the right AWS database service for different use cases.",
+          "title": "Choosing an AWS database service - Choosing an AWS database service",
+          "resource_order": 7
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=4D39wJu5Too",
+          "title": "How to Create a Cassandra Data Model [Webinar] | DataStax",
+          "duration": "71m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=N9QllqXI1sE",
+          "title": "Apache Cassandra | Cassandra Tutorial Part 1 | Cassandra Tutorial for Beginners | Big Data Tutorial",
+          "duration": "166m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=u6pKIrfJgkU",
+          "title": "Advanced Data Modeling in Apache Cassandra™",
+          "duration": "127m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1Y3TvLDh8e4",
+          "title": "How to migrate self-managed Cassandra to Amazon Keyspaces | The Data Dive on AWS OnAir S01",
+          "duration": "58m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+          "title": "NoSQL vs SQL – Which Type of Database Should You Use?",
+          "duration": "85m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=KPh_8DeRgxQ",
+          "title": "AWS re:Invent 2020: Running Apache Cassandra workloads with Amazon Keyspaces",
+          "duration": "28m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qi7uR3ItaOY",
+          "title": "Scalable & Event Driven Food Ordering App with Kafka & Python | System Design",
+          "duration": "37m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0mntwB6nbc0",
+          "title": "Cassandra Architecture: Understanding, Scaling and Optimizing - Ben Bromhead",
+          "duration": "44m",
+          "resource_order": 8
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FN1-ICdY5-U",
+          "title": "Demo: Elastically Auto-Scaling Apache Kafka with Confluent Cloud",
+          "duration": "4m",
+          "resource_order": 9
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_-IbQAq9Xr0",
+          "title": "Cassandra Administration",
+          "duration": "171m",
+          "resource_order": 10
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://docs.datastax.com/en/mission-control/reference/cluster-best-practices.html",
+          "description": "Guidelines for optimizing and maintaining DataStax cluster performance.",
+          "title": "Best practices for database clusters | Mission Control | DataStax Docs",
+          "resource_order": 1
+        },
+        {
+          "url": "https://quix.io/blog/pyflink-deep-dive",
+          "description": "An in-depth exploration of PyFlink for real-time data processing applications.",
+          "title": "PyFlink — A deep dive into Flink’s Python API",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.scylladb.com/learn/dynamodb/introduction-to-dynamodb/",
+          "description": "An introductory guide to understanding and using Amazon DynamoDB.",
+          "title": "Introduction to DynamoDB - ScyllaDB",
+          "resource_order": 3
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.hellointerview.com/learn/system-design/deep-dives/cassandra",
+          "description": "An in-depth exploration of Cassandra's system design and architecture.",
+          "title": "Cassandra Deep Dive for System Design Interviews | Hello Interview System Design in a Hurry",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.scylladb.com/learn/apache-cassandra/introduction-to-apache-cassandra/",
+          "description": "An introductory guide to understanding and using Apache Cassandra.",
+          "title": "What is Apache Cassandra? - ScyllaDB",
+          "resource_order": 2
+        },
+        {
+          "url": "https://quix.io/blog/pyflink-deep-dive",
+          "description": "An in-depth exploration of Apache Flink's Python API, PyFlink, for data processing.",
+          "title": "PyFlink — A deep dive into Flink’s Python API",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.instaclustr.com/education/apache-cassandra/apache-cassandra-on-aws-the-basics-and-how-to-manage/",
+          "description": "An introductory guide to deploying and managing Apache Cassandra on AWS.",
+          "title": "Apache Cassandra on AWS: The basics and how to manage",
+          "resource_order": 4
+        },
+        {
+          "url": "https://portworx.com/wp-content/uploads/2023/08/cassandra-kubernetes-experts-guide.pdf",
+          "description": "An expert's guide to deploying Cassandra on Kubernetes efficiently.",
+          "resource_order": 5
+        },
+        {
+          "url": "https://github.com/Anant/awesome-cassandra",
+          "description": "A curated list of resources and tools for Apache Cassandra.",
+          "title": "GitHub - Anant/awesome-cassandra: A curated list of the best resources in the Cassandra community.",
+          "resource_order": 6
+        },
+        {
+          "url": "https://docs.datastax.com/en/hyper-converged-database/1.1/cluster-management/cluster-best-practices.html",
+          "description": "Best practices for database clusters | Hyper-Converged Database | DataStax Docs",
+          "resource_order": 7
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=FzlpwoeSrE0",
+          "title": "NoSQL vs SQL – Which Type of Database Should You Use?",
+          "duration": "85m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=N9QllqXI1sE",
+          "title": "Apache Cassandra | Cassandra Tutorial Part 1 | Cassandra Tutorial for Beginners | Big Data Tutorial",
+          "duration": "166m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0mntwB6nbc0",
+          "title": "Cassandra Architecture: Understanding, Scaling and Optimizing - Ben Bromhead",
+          "duration": "44m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uQrRbvLyJ4M",
+          "title": "Building a Real Time Metrics Database at Datadog",
+          "duration": "34m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Q56kljmIN14",
+          "title": "Postgres Internal Architecture Explained",
+          "duration": "33m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CLP6jHs2z14",
+          "title": "Intro to Apache Kudu by Asim Jalis, Galvanize",
+          "duration": "33m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DFHzbK2Tuak",
+          "title": "Introduction To Apache Kafka Certification Training  | Simplilearn",
+          "duration": "44m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=U4y2R3v9tlY&t=47s",
+          "title": "Kafka Tutorial | Apache Kafka Tutorial For Beginners | Kafka Architecture |What Is Kafka|Simplilearn",
+          "duration": "16m",
+          "resource_order": 8
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cU01EnyBwQI",
+          "title": "Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service",
+          "duration": "20m",
+          "resource_order": 9
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What type of database is Apache Cassandra classified as?",
+        "options": [
+          "Relational Database",
+          "Document Database",
+          "Key-Value Store",
+          "NoSQL Database"
+        ],
+        "correct_option": 3,
+        "hint": "Cassandra is designed to handle large amounts of data across many commodity servers.",
+        "question_order": 1
+      },
+      {
+        "question": "Which of the following is a core concept of data modeling in Cassandra?",
+        "options": [
+          "Normalization",
+          "Denormalization",
+          "Foreign Keys",
+          "Stored Procedures"
+        ],
+        "correct_option": 1,
+        "hint": "Cassandra encourages duplicating data across tables for performance.",
+        "question_order": 2
+      },
+      {
+        "question": "What is the primary language used to interact with Apache Cassandra?",
+        "options": [
+          "SQL",
+          "CQL",
+          "JSON",
+          "XML"
+        ],
+        "correct_option": 1,
+        "hint": "This language is similar to SQL but designed for Cassandra.",
+        "question_order": 3
+      },
+      {
+        "question": "Which consistency level ensures that a write is acknowledged by all replicas before returning success?",
+        "options": [
+          "ONE",
+          "ALL",
+          "QUORUM",
+          "ANY"
+        ],
+        "correct_option": 1,
+        "hint": "This level provides the highest consistency level at the cost of availability.",
+        "question_order": 4
+      },
+      {
+        "question": "What is a recommended strategy for managing large volumes of data in Cassandra?",
+        "options": [
+          "Vertical Scaling",
+          "Horizontal Scaling",
+          "Single Node Setup",
+          "Increasing CPU cores"
+        ],
+        "correct_option": 1,
+        "hint": "Cassandra is designed to distribute data across multiple nodes.",
+        "question_order": 5
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is one of the primary advantages of using Apache Cassandra over traditional relational databases?",
+        "options": [
+          "Schema flexibility",
+          "ACID transactions",
+          "Single-node architecture",
+          "Vertical scaling"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how NoSQL databases are designed to handle various data types and changing data structures.",
+        "question_order": 1
+      },
+      {
+        "question": "In Cassandra, what is the purpose of a partition key?",
+        "options": [
+          "To distribute data evenly across the cluster nodes",
+          "To ensure data consistency across replicas",
+          "To define the schema of the table",
+          "To manage user access permissions"
+        ],
+        "correct_option": 0,
+        "hint": "Think about how data is distributed in a distributed database system.",
+        "question_order": 2
+      },
+      {
+        "question": "Which consistency level in Cassandra ensures that a read returns the most recent write for a given piece of data?",
+        "options": [
+          "ONE",
+          "QUORUM",
+          "ALL",
+          "ANY"
+        ],
+        "correct_option": 2,
+        "hint": "This level requires confirmation from all replicas for a read or write operation.",
+        "question_order": 3
+      },
+      {
+        "question": "Which of the following is NOT a valid CQL data type?",
+        "options": [
+          "text",
+          "uuid",
+          "json",
+          "blob"
+        ],
+        "correct_option": 2,
+        "hint": "CQL supports types that are similar to SQL, but some JSON-like structures are not directly supported as a datatype.",
+        "question_order": 4
+      },
+      {
+        "question": "When configuring a Cassandra cluster, what is the purpose of setting the 'snitch' property?",
+        "options": [
+          "To determine how data is replicated across data centers",
+          "To configure node communication protocols",
+          "To set up security and authentication mechanisms",
+          "To optimize query performance"
+        ],
+        "correct_option": 0,
+        "hint": "Consider how data distribution is managed across different geographical locations in Cassandra.",
+        "question_order": 5
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following best describes the architecture of Apache Cassandra?",
+        "options": [
+          "A master-slave architecture with a single point of failure",
+          "A peer-to-peer architecture with no single point of failure",
+          "A centralized architecture with a coordinator node",
+          "A client-server architecture with dedicated servers"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the distributed nature of Cassandra and its fault tolerance capabilities.",
+        "question_order": 1
+      },
+      {
+        "question": "In Cassandra, what is the significance of the consistency level 'QUORUM'?",
+        "options": [
+          "It ensures that all nodes acknowledge a write or read operation.",
+          "It ensures that a majority of replicas acknowledge a write or read operation.",
+          "It ensures that at least one replica acknowledges a write or read operation.",
+          "It ensures that a write or read operation is acknowledged by the coordinator node only."
+        ],
+        "correct_option": 1,
+        "hint": "Think about how many nodes need to respond in a distributed system to achieve consensus for a read or write.",
+        "question_order": 2
+      },
+      {
+        "question": "Which CQL feature allows you to perform a full table scan efficiently in Cassandra?",
+        "options": [
+          "Secondary indexes",
+          "Materialized views",
+          "Partition keys",
+          "Lightweight transactions"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the feature that allows storing pre-computed queries in a different table structure.",
+        "question_order": 3
+      },
+      {
+        "question": "What is a primary benefit of using a wide row in Cassandra's data modeling?",
+        "options": [
+          "It allows storing large volumes of data within a single partition for fast reads.",
+          "It ensures that data is always consistent across all nodes.",
+          "It reduces the need for secondary indexes.",
+          "It automatically optimizes query performance without manual intervention."
+        ],
+        "correct_option": 0,
+        "hint": "Think about how data is accessed and the benefits of having related data stored together.",
+        "question_order": 4
+      },
+      {
+        "question": "Which security feature in Cassandra ensures that only authorized users can access specific data?",
+        "options": [
+          "Data encryption at rest",
+          "Role-Based Access Control (RBAC)",
+          "Network encryption",
+          "Audit logging"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the feature that manages user permissions and roles.",
+        "question_order": 5
+      }
+    ]
+  },
+  "preferred_if": [
+    "User needs extreme write scalability and high availability"
+  ]
+}

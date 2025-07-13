@@ -1,0 +1,579 @@
+{
+  "id": "BE9",
+  "name": "Backend Security Best Practices",
+  "category": "Backend Development",
+  "primary_tech": "Security",
+  "topics": [
+    "OWASP Top 10",
+    "Input Validation & Sanitization",
+    "Logging & Monitoring for Security"
+  ],
+  "recommended": true,
+  "tags": [
+    "security",
+    "web-security",
+    "cybersecurity"
+  ],
+  "resources": {
+    "beginner": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/auth",
+          "description": "Comprehensive documentation on implementing authentication using Firebase.",
+          "title": "Firebase Authentication",
+          "resource_order": 1
+        },
+        {
+          "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/",
+          "description": "An overview of Kubernetes Ingress for managing external access to services within a cluster.",
+          "title": "Ingress | Kubernetes",
+          "resource_order": 2
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts",
+          "description": "An overview of key concepts in Azure API Management for effective API lifecycle management.",
+          "title": "Azure API Management - Overview and key concepts | Microsoft Learn",
+          "resource_order": 3
+        },
+        {
+          "url": "https://docs.aws.amazon.com/",
+          "description": "Official documentation for Amazon Web Services (AWS) covering various cloud computing products and services.",
+          "title": "Welcome to AWS Documentation",
+          "resource_order": 4
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+          "description": "Guidelines and best practices for designing APIs on the Microsoft Azure platform.",
+          "title": "Web API Design Best Practices - Azure Architecture Center | Microsoft Learn",
+          "resource_order": 5
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.datacamp.com/tutorial/python-backend-development",
+          "description": "An introductory tutorial on backend development using Python.",
+          "title": "Just a moment...",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.cisco.com/c/en/us/products/collateral/security/fireamp-endpoints/secure-endpoint-og.html",
+          "description": "An overview of Cisco's Secure Endpoint solution for advanced threat protection.",
+          "title": "Secure Endpoint Best Practices Guide - Cisco",
+          "resource_order": 2
+        },
+        {
+          "url": "https://learntocodewith.me/posts/backend-development/",
+          "description": "An introductory guide to backend development concepts and technologies.",
+          "title": "The Beginner's Guide to Backend Development",
+          "resource_order": 3
+        },
+        {
+          "url": "https://documentation.ubuntu.com/server/explanation/intro-to/security/",
+          "description": "An introduction to security fundamentals for Ubuntu Server.",
+          "title": "Introduction to security - Ubuntu Server documentation",
+          "resource_order": 4
+        },
+        {
+          "url": "https://hayksimonyan.substack.com/p/backend-developer-roadmap-2025-the",
+          "description": "An insightful roadmap for backend developers outlining key skills and technologies for 2025.",
+          "title": "Backend Developer Roadmap 2025: The Complete Guide",
+          "resource_order": 5
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=tXC9DQRWHUQ",
+          "title": "Full 2025 Backend Dev Crash Course for Beginners With Spring Boot (Kotlin, JWT Auth, MongoDB)",
+          "duration": "182m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
+          "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
+          "duration": "158m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+          "title": "MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours",
+          "duration": "470m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3QaFEu-KkR8",
+          "title": "Best Practices for React Data Security, Logins, Passwords, JWTs",
+          "duration": "21m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+          "title": "Spring Boot Tutorial for Beginners [2025]",
+          "duration": "71m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EWd3_I4X32g",
+          "title": "Spring Boot Project: Build a REST API for an E-commerce Platform",
+          "duration": "120m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hexfXc7-SsU",
+          "title": "10 Udemy Courses Every Developer SHOULD Own (NOT just coding)",
+          "duration": "19m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Sggdhot-MoM",
+          "title": "SQL Stored Procedures - What They Are, Best Practices, Security, and More...",
+          "duration": "44m",
+          "resource_order": 8
+        }
+      ]
+    },
+    "intermediate": {
+      "docs": [
+        {
+          "url": "https://firebase.google.com/docs/auth",
+          "description": "Comprehensive documentation on Firebase Authentication for securing applications.",
+          "title": "Firebase Authentication",
+          "resource_order": 1
+        },
+        {
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html",
+          "description": "Best practices for managing AWS Identity and Access Management (IAM) securely.",
+          "title": "Security best practices in IAM - AWS Identity and Access Management",
+          "resource_order": 2
+        },
+        {
+          "url": "https://docs.stripe.com/webhooks",
+          "description": "An in-depth guide to setting up and managing webhooks with Stripe.",
+          "title": "Receive Stripe events in your webhook endpoint | Stripe Documentation",
+          "resource_order": 3
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.env0.com/blog/terragrunt",
+          "description": "An insightful blog post on using Terragrunt to optimize Terraform workflows.",
+          "title": "Terragrunt Tutorial: Examples and Use Cases | env0",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.datacamp.com/tutorial/python-backend-development",
+          "description": "An introductory tutorial on Python backend development for beginners.",
+          "title": "Just a moment...",
+          "resource_order": 2
+        },
+        {
+          "url": "https://spacelift.io/blog/terraform-s3-backend",
+          "description": "An in-depth tutorial on configuring an S3 backend for Terraform state management.",
+          "title": "How to Manage Terraform S3 Backend - Best Practices",
+          "resource_order": 3
+        },
+        {
+          "url": "https://curity.io/resources/learn/spa-best-practices/",
+          "description": "Best practices for securing single-page applications (SPAs) using OAuth and OpenID Connect.",
+          "title": "Using OAuth for Single Page Applications | Best Practices",
+          "resource_order": 4
+        },
+        {
+          "url": "https://airflow.apache.org/docs/apache-airflow/stable/best-practices.html",
+          "description": "Guidelines and recommendations for optimizing workflows using Apache Airflow.",
+          "title": "Best Practices — Airflow 3.0.2 Documentation",
+          "resource_order": 5
+        },
+        {
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html",
+          "description": "Best practices for optimizing performance and cost in AWS Lambda functions.",
+          "title": "Best practices for working with AWS Lambda functions - AWS Lambda",
+          "resource_order": 6
+        },
+        {
+          "url": "https://github.com/Sairyss/backend-best-practices",
+          "description": "A repository of best practices and guidelines for backend development.",
+          "title": "GitHub - Sairyss/backend-best-practices: Best practices, tools and guidelines for backend development. Code examples in TypeScript + NodeJS",
+          "resource_order": 7
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=eUqbsu_HWK0",
+          "title": "How to create and use backend workflows in Bubble (Modularity Best Practices)",
+          "duration": "4m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
+          "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
+          "duration": "158m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Kd9pLy4ob8I",
+          "title": "Backend Workflows | Bubble.io Tutorial",
+          "duration": "10m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ooyOmiczY1g",
+          "title": "API Key Authentication Best Practices",
+          "duration": "25m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=NrBJmtD0kEw",
+          "title": "Advanced SQL Tutorial | Stored Procedures + Use Cases",
+          "duration": "6m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Sggdhot-MoM",
+          "title": "SQL Stored Procedures - What They Are, Best Practices, Security, and More...",
+          "duration": "44m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6DWJIyipxzw&pp=0gcJCfwAo7VqN5tD",
+          "title": "Secure Your .NET API in 15 Minutes: JWT Authentication Tutorial",
+          "duration": "15m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nQdyiK7-VlQ&pp=0gcJCfwAo7VqN5tD",
+          "title": "Easily Deploy Full Stack Node.js Apps on AWS EC2 | Step-by-Step Tutorial",
+          "duration": "29m",
+          "resource_order": 8
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rOpEN1JDaD0",
+          "title": "Complete Backend Course | Build and Deploy Your First Production-Ready API",
+          "duration": 188,
+          "resource_order": 9
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=YojKXiG5_3Q",
+          "title": "How to create and use database triggers in Bubble (Modularity Best Practices)",
+          "duration": "5m",
+          "resource_order": 10
+        }
+      ]
+    },
+    "advanced": {
+      "docs": [
+        {
+          "url": "https://cloud.google.com/docs/security/key-management-deep-dive",
+          "description": "An in-depth exploration of key management practices in Google Cloud's security framework.",
+          "title": "Cloud Key Management Service encryption  |  Security  |  Google Cloud",
+          "resource_order": 1
+        },
+        {
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html",
+          "description": "Best practices for optimizing performance and cost efficiency in AWS Lambda functions.",
+          "title": "Best practices for working with AWS Lambda functions - AWS Lambda",
+          "resource_order": 2
+        },
+        {
+          "url": "https://cloud.google.com/architecture/best-practices-vpc-design",
+          "description": "Guidelines for designing scalable and secure Virtual Private Cloud (VPC) architectures on Google Cloud.",
+          "title": "Best practices and reference architectures for VPC design  |  Cloud Architecture Center  |  Google Cloud",
+          "resource_order": 3
+        },
+        {
+          "url": "https://docs.docker.com/build/building/best-practices/",
+          "description": "Guidelines and best practices for efficient Docker image building.",
+          "title": "Best practices | Docker Docs",
+          "resource_order": 4
+        },
+        {
+          "url": "https://escape.tech/blog/how-to-secure-fastapi-api/",
+          "description": "A guide on implementing security measures for FastAPI applications.",
+          "title": "How to secure APIs built with FastAPI: A complete guide",
+          "resource_order": 5
+        }
+      ],
+      "notes": [
+        {
+          "url": "https://www.xano.com/learn/",
+          "description": "A learning hub offering tutorials and resources for mastering Xano's no-code backend platform.",
+          "title": "Learn Xano | Xano: No-Code Backend Software",
+          "resource_order": 1
+        },
+        {
+          "url": "https://escape.tech/blog/how-to-secure-express-js-api/",
+          "description": "A guide on securing Express.js APIs with best practices and techniques.",
+          "title": "How to secure Express.js APIs: Express.js security practices",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.datacamp.com/tutorial/python-backend-development",
+          "description": "An introductory tutorial on Python backend development for building web applications.",
+          "title": "Just a moment...",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.env0.com/resources/how-tos",
+          "description": "A collection of how-to guides for managing cloud infrastructure with env0.",
+          "title": "Master Infrastructure as Code: How-To Guides on env0",
+          "resource_order": 4
+        },
+        {
+          "url": "https://api7.ai/learning-center/api-gateway-guide",
+          "description": "An in-depth guide to understanding and implementing API gateways.",
+          "title": "Dive into API gateways with API7 tutorial, featuring Apache APISIX and API7 Enterprise - API7.ai",
+          "resource_order": 5
+        },
+        {
+          "url": "https://github.com/dariubs/GoBooks",
+          "description": "A curated list of books for learning and mastering the Go programming language.",
+          "title": "GitHub - dariubs/GoBooks: List of Golang books",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.armosec.io/blog/kubernetes-deployment-and-service/",
+          "description": "An insightful guide on deploying applications and managing services in Kubernetes.",
+          "title": "How to Create Deployments and Services in Kubernetes? | ARMO",
+          "resource_order": 7
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
+          "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
+          "duration": "158m",
+          "resource_order": 1
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PXtFq5wmGt0",
+          "title": "Azure API Management Deep Dive",
+          "duration": "70m",
+          "resource_order": 2
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+          "title": "Spring Boot Tutorial for Beginners [2025]",
+          "duration": "71m",
+          "resource_order": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+          "title": "Complete Docker Course - From BEGINNER to PRO! (Learn Containers)",
+          "duration": "284m",
+          "resource_order": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hexfXc7-SsU",
+          "title": "10 Udemy Courses Every Developer SHOULD Own (NOT just coding)",
+          "duration": "19m",
+          "resource_order": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=b8ZUb_Okxro&pp=ygUMI3Jlc3RhcGljb2Rl",
+          "title": "The Complete Guide To Building A REST API With Node, Express, TypeScript & MongoDB + Authentication",
+          "duration": "49m",
+          "resource_order": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CvCiNeLnZ00",
+          "title": "MERN Stack Full Tutorial & Project | Complete All-in-One Course | 8 Hours",
+          "duration": "470m",
+          "resource_order": 7
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+          "title": "Complete Kubernetes Course - From BEGINNER to PRO",
+          "duration": "374m",
+          "resource_order": 8
+        }
+      ]
+    }
+  },
+  "quiz": {
+    "beginner": [
+      {
+        "question": "What is the OWASP Top 10?",
+        "options": [
+          "A list of the top 10 programming languages",
+          "A list of the top 10 backend frameworks",
+          "A list of the top 10 web application security risks",
+          "A list of the top 10 software development methodologies"
+        ],
+        "correct_option": 2,
+        "hint": "Consider what OWASP focuses on in web development.",
+        "question_order": 1
+      },
+      {
+        "question": "Why is input validation important in backend security?",
+        "options": [
+          "It improves application performance",
+          "It helps prevent security vulnerabilities",
+          "It enhances the user interface",
+          "It speeds up database queries"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how input validation affects application security.",
+        "question_order": 2
+      },
+      {
+        "question": "What does the term 'sanitization' refer to in input handling?",
+        "options": [
+          "Encrypting data",
+          "Removing or escaping harmful data",
+          "Logging user input",
+          "Backing up user data"
+        ],
+        "correct_option": 1,
+        "hint": "Consider how sanitization protects against malicious input.",
+        "question_order": 3
+      },
+      {
+        "question": "Which of the following is a key benefit of logging in security?",
+        "options": [
+          "It reduces server load",
+          "It helps identify security incidents",
+          "It speeds up application development",
+          "It improves network bandwidth"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how logging helps in monitoring security events.",
+        "question_order": 4
+      },
+      {
+        "question": "What is a common practice for ensuring secure logging and monitoring?",
+        "options": [
+          "Storing logs in plain text",
+          "Using encryption for log data",
+          "Deleting logs every day",
+          "Ignoring failed login attempts"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the methods to protect log data from unauthorized access.",
+        "question_order": 5
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which of the following is NOT a category in the OWASP Top 10?",
+        "options": [
+          "Injection",
+          "Broken Authentication",
+          "Sensitive Data Exposure",
+          "File Permission Errors"
+        ],
+        "correct_option": 3,
+        "hint": "Think about common security vulnerabilities as recognized by OWASP.",
+        "question_order": 1
+      },
+      {
+        "question": "What is the primary goal of input validation in web security?",
+        "options": [
+          "To enhance user experience",
+          "To ensure data integrity in databases",
+          "To prevent malicious data from being processed",
+          "To improve application performance"
+        ],
+        "correct_option": 2,
+        "hint": "Consider what threats input validation aims to mitigate.",
+        "question_order": 2
+      },
+      {
+        "question": "Which of these practices is essential for effective security logging and monitoring?",
+        "options": [
+          "Logging all data changes without filtering",
+          "Encrypting logs in transit and at rest",
+          "Storing logs indefinitely",
+          "Using proprietary logging formats"
+        ],
+        "correct_option": 1,
+        "hint": "Think about how to protect log data and ensure its integrity.",
+        "question_order": 3
+      },
+      {
+        "question": "In the context of backend security, what does 'sanitization' primarily refer to?",
+        "options": [
+          "Removing all user data after processing",
+          "Converting input data to a safe format",
+          "Encrypting user information",
+          "Automatically logging user activities"
+        ],
+        "correct_option": 1,
+        "hint": "Sanitization often involves altering input to prevent security issues.",
+        "question_order": 4
+      },
+      {
+        "question": "Why is it important to monitor security logs regularly?",
+        "options": [
+          "To optimize system performance",
+          "To identify and respond to security incidents promptly",
+          "To reduce server load",
+          "To ensure compliance with all programming standards"
+        ],
+        "correct_option": 1,
+        "hint": "Consider the role of logs in incident detection and response.",
+        "question_order": 5
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is NOT a part of the OWASP Top 10 security risks?",
+        "options": [
+          "Broken Access Control",
+          "Sensitive Data Exposure",
+          "Unvalidated Redirects and Forwards",
+          "Buffer Overflow"
+        ],
+        "correct_option": 3,
+        "hint": "The OWASP Top 10 focuses on web application security risks.",
+        "question_order": 1
+      },
+      {
+        "question": "What is the primary goal of input validation in backend security?",
+        "options": [
+          "To improve application performance",
+          "To ensure only safe and expected data is processed",
+          "To enhance user interface design",
+          "To reduce server load"
+        ],
+        "correct_option": 1,
+        "hint": "Input validation aims to prevent malicious data from causing harm.",
+        "question_order": 2
+      },
+      {
+        "question": "Which technique is most effective in preventing SQL Injection attacks?",
+        "options": [
+          "Using prepared statements and parameterized queries",
+          "Implementing complex password policies",
+          "Encrypting database backups",
+          "Regularly updating the database software"
+        ],
+        "correct_option": 0,
+        "hint": "Focus on how queries are constructed and executed.",
+        "question_order": 3
+      },
+      {
+        "question": "What is a critical security measure when logging sensitive information in an application?",
+        "options": [
+          "Encrypt all log data",
+          "Store logs in plain text for easy access",
+          "Ensure logs are accessible to all developers",
+          "Log every user interaction without exception"
+        ],
+        "correct_option": 0,
+        "hint": "Consider the protection of sensitive information even in logs.",
+        "question_order": 4
+      },
+      {
+        "question": "Which of the following best describes a security benefit of comprehensive monitoring in a backend system?",
+        "options": [
+          "It reduces the need for regular security audits.",
+          "It helps in early detection of potential security breaches.",
+          "It eliminates the possibility of data breaches.",
+          "It provides detailed user behavior analytics for marketing purposes."
+        ],
+        "correct_option": 1,
+        "hint": "Think about the advantage of having real-time insights into system operations.",
+        "question_order": 5
+      }
+    ]
+  }
+}

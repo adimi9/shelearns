@@ -1,31 +1,21 @@
 // components/roadmap/course-card.tsx
 "use client"
 
-import { ChevronRight, Play, BookOpen, Brain, Clock } from "lucide-react"
+import { Arrow } from "@radix-ui/react-context-menu"
+import { ChevronRight, Play, BookOpen, Brain, Clock, ArrowBigUp } from "lucide-react"
 import { useRouter } from "next/navigation"
-
-// REMOVE THIS INTERFACE if not used elsewhere, or rename it if SubCourse is now a general type.
-// interface SubCourse {
-//   title: string
-//   description: string
-// }
 
 interface CourseCardProps {
   title: string
-  // REMOVE subCourses: SubCourse[]
-  courseDescription: string // ADD THIS LINE: New prop for the course's main description
-  index: number
+  courseDescription: string
+  index: number // This helps determine if it's the 1st course
   courseId?: string
   level: string
   progress: number
   stats: {
     videos: number
-    articles: number
-    quizzes: number
-    estimatedHours: number
-    // You might also pass numericProgress here if CourseCard needs it directly,
-    // though 'progress' prop already serves that for the progress bar.
-    // numericProgress: number;
+    docs: number
+    notes: number
   }
   hasStarted: boolean
   getLevelColor: (level: string) => string
@@ -34,10 +24,9 @@ interface CourseCardProps {
 
 export default function CourseCard({
   title,
-  // REMOVE subCourses,
-  courseDescription, // ADD THIS LINE: Destructure the new prop
+  courseDescription,
   index,
-  courseId = "html-css-fundamentals", // Ensure this default is sensible if no courseId is provided
+  courseId = "html-css-fundamentals",
   level,
   progress,
   stats,
@@ -47,12 +36,25 @@ export default function CourseCard({
 }: CourseCardProps) {
   const router = useRouter()
 
+  const totalXP = stats.notes * 100 + stats.docs * 100 + stats.videos * 100 + 250 * 5
+
   const handleStartLearning = () => {
     router.push(`/learn/${courseId}`)
   }
 
+  // Determine the button text based on the refined conditions
+  const buttonText = () => {
+    if (hasStarted) {
+      return "Continue Course"; // If any course has started, always say "Continue Course"
+    } else if (index === 1) {
+      return "Start Here"; // If it's the 1st course and not started, say "Start Here"
+    } else {
+      return "Skip Ahead Here"; // For any other course that has not started, say "Skip Ahead Here"
+    }
+  };
+
   return (
-    <div className="bg-white border-4 border-black rounded-xl p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 hover:translate-y-[-3px] hover:translate-x-[-1px]">
+    <div className="bg-white border-4 border-black rounded-xl p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] transition-all duration-300 hover:translate-y-[-3px] hover:translate-x-[-1px]">
       <div className="flex items-start justify-between mb-4">
         <div className="flex items-center">
           <div className="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold text-xl border-2 border-black">
@@ -64,7 +66,6 @@ export default function CourseCard({
               <span className={`px-2 py-1 rounded-full text-xs font-bold ${getLevelColor(level)} text-white`}>
                 {level.toUpperCase()}
               </span>
-              <span className="text-sm text-gray-500">{stats.estimatedHours}h estimated</span>
             </div>
           </div>
         </div>
@@ -89,32 +90,30 @@ export default function CourseCard({
       {/* Course Stats */}
       <div className="grid grid-cols-4 gap-2 mb-4">
         <div className="text-center p-2 bg-pink-50 rounded border">
-          <Play className="w-4 h-4 mx-auto text-pink-600 mb-1" />
-          <div className="text-xs font-bold">{stats.videos}</div>
-          <div className="text-xs text-gray-600">Videos</div>
+          <BookOpen className="w-4 h-4 mx-auto text-pink-600 mb-1" />
+          <div className="text-xs font-bold">{stats.docs}</div>
+          <div className="text-xs text-gray-600">Documentation</div>
         </div>
         <div className="text-center p-2 bg-blue-50 rounded border">
-          <BookOpen className="w-4 h-4 mx-auto text-blue-600 mb-1" />
-          <div className="text-xs font-bold">{stats.articles}</div>
-          <div className="text-xs text-gray-600">Articles</div>
+          <Brain className="w-4 h-4 mx-auto text-blue-600 mb-1" />
+          <div className="text-xs font-bold">{stats.notes}</div>
+          <div className="text-xs text-gray-600">Notes</div>
         </div>
         <div className="text-center p-2 bg-purple-50 rounded border">
           <Brain className="w-4 h-4 mx-auto text-purple-600 mb-1" />
-          <div className="text-xs font-bold">{stats.quizzes}</div>
-          <div className="text-xs text-gray-600">Quizzes</div>
+          <div className="text-xs font-bold">{stats.videos}</div>
+          <div className="text-xs text-gray-600">Videos</div>
         </div>
         <div className="text-center p-2 bg-green-50 rounded border">
-          <Clock className="w-4 h-4 mx-auto text-green-600 mb-1" />
-          <div className="text-xs font-bold">{stats.estimatedHours}h</div>
-          <div className="text-xs text-gray-600">Time</div>
+          <ArrowBigUp className="w-4 h-4 mx-auto text-green-600 mb-1" />
+          <div className="text-xs font-bold">{totalXP}</div>
+          <div className="text-xs text-gray-600">XP</div>
         </div>
       </div>
 
       {/* RENDER THE MAIN COURSE DESCRIPTION HERE */}
-      {/* REMOVE THE subCourses.map BLOCK */}
       <div className="space-y-4 mt-6">
         <div className="border-l-4 border-pink-400 pl-4 py-1">
-          {/* <h4 className="font-bold">{title} Overview</h4> Optional: if you want a sub-heading */}
           <p className="text-sm text-gray-600">{courseDescription}</p>
         </div>
       </div>
@@ -123,7 +122,7 @@ export default function CourseCard({
         onClick={handleStartLearning}
         className="mt-6 w-full py-3 bg-black text-white font-bold rounded-lg flex items-center justify-center hover:bg-pink-600 transition-colors"
       >
-        {hasStarted ? "Continue Course" : "Skip Ahead Here"}
+        {buttonText()}
         <ChevronRight className="ml-2" />
       </button>
     </div>
