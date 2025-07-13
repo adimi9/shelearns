@@ -1,6 +1,10 @@
 # Stage 1: Build the application from source
 FROM eclipse-temurin:21-jdk AS build
 
+# Install Maven
+# Use apt-get for Debian/Ubuntu based images like Temurin
+RUN apt-get update && apt-get install -y maven && rm -rf /var/lib/apt/lists/*
+
 # Set the working directory inside the container for this stage.
 WORKDIR /app
 
@@ -11,8 +15,6 @@ COPY pom.xml .
 COPY src ./src
 
 # Run the Maven build command to compile and package your application
-# -Dmaven.test.skip=true is added to skip tests during the Docker build for faster builds.
-# You might want to run tests in a separate CI step if necessary.
 RUN mvn clean package -Dmaven.test.skip=true
 
 # Stage 2: Create the final runtime image
@@ -22,7 +24,6 @@ FROM eclipse-temurin:21-jre AS final
 WORKDIR /app
 
 # Copy the generated JAR from the 'build' stage into the final image.
-# The JAR is now guaranteed to exist because we built it in the previous stage.
 COPY --from=build /app/target/backend-0.0.1-SNAPSHOT.jar /app/app.jar
 
 EXPOSE 8080
