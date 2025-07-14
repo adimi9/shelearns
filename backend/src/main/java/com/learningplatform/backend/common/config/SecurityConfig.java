@@ -19,6 +19,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import org.springframework.web.filter.OncePerRequestFilter; // Already imported
 
 import com.learningplatform.backend.features.auth.util.JwtUtil;
+import static org.springframework.security.config.Customizer.withDefaults;
 
 import java.io.IOException;
 import java.util.List;
@@ -35,6 +36,7 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
+            .cors(withDefaults()) // ✅ modern replacement
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> auth
                 // Allow OPTIONS requests for all paths (preflight requests)
