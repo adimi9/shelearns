@@ -79,9 +79,9 @@ public class SecurityConfig {
             // IMPORTANT: Skip JWT authentication for OPTIONS requests
             // Browsers send OPTIONS preflight requests which do not carry auth headers.
             // These should be handled by CORS configuration, not blocked by authentication.
-            if (HttpMethod.OPTIONS.matches(request.getMethod())) {
-                filterChain.doFilter(request, response); // Continue the filter chain
-                return; // Exit this filter
+            if ("OPTIONS".equalsIgnoreCase(request.getMethod())) {
+                response.setStatus(HttpServletResponse.SC_OK); // ← Ensure this gets a 200
+                return;
             }
 
             String header = request.getHeader("Authorization");
