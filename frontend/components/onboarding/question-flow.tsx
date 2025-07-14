@@ -13,7 +13,7 @@ const initialQuestion = {
   options: [
     { id: "frontend", label: "Frontend Development" },
     { id: "backend", label: "Backend Development" },
-    { id: "fullstack", label: "Fullstack Development" },
+    { id: "fullstack", label: "FullStack Development" },
     { id: "mobile", label: "Mobile Development" },
     { id: "game", label: "Game Development" },
     { id: "security", label: "Computer Security" },
