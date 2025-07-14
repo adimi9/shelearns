@@ -1,4 +1,4 @@
-package com.learningplatform.backend.common.config;
+package com.learningplatform.backend.common.config; // Ensure this package is correct
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -7,7 +7,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.HttpMethod; // Import HttpMethod
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
@@ -16,7 +16,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-import org.springframework.web.filter.OncePerRequestFilter;
+import org.springframework.web.filter.OncePerRequestFilter; // Already imported
 
 import com.learningplatform.backend.features.auth.util.JwtUtil;
 
@@ -28,7 +28,6 @@ public class SecurityConfig {
 
     private final JwtUtil jwtUtil;
 
-    // Explicit constructor for dependency injection
     public SecurityConfig(JwtUtil jwtUtil) {
         this.jwtUtil = jwtUtil;
     }
@@ -38,14 +37,16 @@ public class SecurityConfig {
         http
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> auth
+                // Allow OPTIONS requests for all paths (preflight requests)
+                // This must come *before* any other authorization rules that might block OPTIONS
+                .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
                 .requestMatchers(
                     "/api/auth/signup",
                     "/api/auth/login"
                 ).permitAll()
-                // Allow OPTIONS requests for all paths (preflight requests)
-                .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll() // <--- ADDED THIS LINE
                 .anyRequest().authenticated()
             )
+            // Add your custom JWT filter before Spring Security's default username/password filter
             .addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
@@ -61,6 +62,7 @@ public class SecurityConfig {
         return config.getAuthenticationManager();
     }
 
+    // --- UPDATED JwtAuthenticationFilter ---
     public static class JwtAuthenticationFilter extends OncePerRequestFilter {
 
         private final JwtUtil jwtUtil;
@@ -74,19 +76,32 @@ public class SecurityConfig {
                                          HttpServletResponse response,
                                          FilterChain filterChain) throws ServletException, IOException {
 
+            // IMPORTANT: Skip JWT authentication for OPTIONS requests
+            // Browsers send OPTIONS preflight requests which do not carry auth headers.
+            // These should be handled by CORS configuration, not blocked by authentication.
+            if (HttpMethod.OPTIONS.matches(request.getMethod())) {
+                filterChain.doFilter(request, response); // Continue the filter chain
+                return; // Exit this filter
+            }
+
             String header = request.getHeader("Authorization");
 
             if (header != null && header.startsWith("Bearer ")) {
                 String token = header.substring(7);
                 try {
                     Long userId = jwtUtil.validateTokenAndGetUserId(token);
-
-                    Authentication auth = new UsernamePasswordAuthenticationToken(userId, null, List.of());
-
+                    // For stateless JWT, you often don't need a UserDetails object from a service.
+                    // Instead, directly create an Authentication object with the user ID/principal.
+                    Authentication auth = new UsernamePasswordAuthenticationToken(userId, null, List.of()); // No roles specified here, adjust if needed
                     SecurityContextHolder.getContext().setAuthentication(auth);
 
                 } catch (RuntimeException e) {
-                    SecurityContextHolder.clearContext();
+                    // Log the exception for debugging
+                    System.err.println("JWT Validation Error: " + e.getMessage());
+                    SecurityContextHolder.clearContext(); // Clear context on invalid token
+                    // Optionally, you could send an explicit 401 response here
+                    // response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+                    // return;
                 }
             }
 
