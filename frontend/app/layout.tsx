@@ -9,7 +9,7 @@ import ScrollToTopOnRouteChange from "@/components/scroll-to-top"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "TechPath - Learn to Code Your Way",
+  title: "SheLearns - Learn to Code Your Way",
   description: "Personalized, flexible, AI-powered learning for women in tech",
     generator: 'v0.dev'
 }

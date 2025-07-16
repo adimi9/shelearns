@@ -77,8 +77,8 @@ export default function Navigation() {
             onClick={() => router.push("/dashboard")}
             className="font-black text-2xl tracking-tighter hover:scale-105 transition-transform"
           >
-            <span className="text-pink-600">tech</span>
-            <span className="text-black">path</span>
+            <span className="text-pink-600">she</span>
+            <span className="text-black">learns</span>
           </button>
 
           {/* Desktop Navigation */}
